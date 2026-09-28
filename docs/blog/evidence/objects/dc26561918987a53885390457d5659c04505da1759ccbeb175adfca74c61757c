@@ -1,0 +1,79 @@
+{
+  "at": "2026-09-25T08:12:26.313174+00:00",
+  "game_id": "i-0",
+  "events": [
+    {
+      "event_id": "i-0-d1ac7729bb:e00250",
+      "timestamp": "2026-09-25T07:58:12.004907+00:00",
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "branch_id": "b8",
+      "event_index": 250,
+      "event_type": "command",
+      "command": "ring bell",
+      "response": "The door opens and for a split second you expect to be swept up in a warm \nembrace of filial love, but luckily you don't live in a sappy \nmovie-of-the-week. \"Oh, hey,\" Trevor says. \"Everyone thought you were gonna be \nhere hours ago. Any problems getting here?\"\n\n\"Not really,\" you say. \"When's dinner?\"\n\n\n\n\n\nDinner is delicious, of course, but Thanksgiving pales before a much more \nimportant occasion: your birthday. And this year is no exception to the rule \nyou came up with when you were four: namely, the earlier you go to sleep, the \nsooner it's the next day. The logic in this is exquisite and absolute. You turn \nin at seven-thirty and force yourself to sleep, and wake up at six the next \nmorning...\n\nIn your bedroom\nThis is your bedroom. It became yours when you were barely old enough to walk; \nit's still yours today, the day you legally become a woman. But looking at the \nposters on your walls, the stuffed animals sitting placidly on your bookshelf, \nthe canopy over your bed, the harrowing and/or sordid events of the day before \nseem like they happened decades ago, while Mom coming in to wake you up for \nyour first day of kindergarten, finding a quarter under your pillow after \nlosing your first tooth, getting dressed up for your first date -- these things \nfeel like they all happened yesterday.\n\nYour bathrobe is draped over a nearby chair. (It is a bit chilly.)\n\nA present is waiting for you on your desk.\n\n>",
+      "raw_start": 41844,
+      "raw_end": 43276,
+      "response_sha256": "d217fd101c7cab2b4ee5222c93fb14209a33ccbc681707c376bbdc38e10f5fd5",
+      "story_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "i-0-d1ac7729bb",
+        "case_id": "porch-bell-shorthand",
+        "expected_outcome": "Doorbell rings and someone answers the door",
+        "intent": "Ring the lighted doorbell on the front porch",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "i-0-d1ac7729bb:e00257",
+      "timestamp": "2026-09-25T07:59:42.731987+00:00",
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "branch_id": "b8",
+      "event_index": 257,
+      "event_type": "command",
+      "command": "read message",
+      "response": "It reads:\n\n\n\n    *** Thanks for playing! ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 44630,
+      "raw_end": 44737,
+      "response_sha256": "370a0600b84cecab8be5e377088b8bff2e97f280975bba889a74a366aca739a7",
+      "story_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "i-0-d1ac7729bb",
+        "case_id": "bedroom-read-message",
+        "expected_outcome": "Birthday message text shown",
+        "intent": "Read the birthday message revealed in the present box",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "i-0-d1ac7729bb:e00263",
+      "timestamp": "2026-09-25T08:01:13.518362+00:00",
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "branch_id": "b9",
+      "event_index": 263,
+      "event_type": "command",
+      "command": "read message",
+      "response": "It reads:\n\n\n\n    *** Thanks for playing! ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 45347,
+      "raw_end": 45454,
+      "response_sha256": "370a0600b84cecab8be5e377088b8bff2e97f280975bba889a74a366aca739a7",
+      "story_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "i-0-d1ac7729bb",
+        "case_id": "bedroom-read-message-b9",
+        "expected_outcome": "Birthday message text and game ending shown",
+        "intent": "Read the birthday message revealed in the present box",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Alternate gray-pickup homecoming, Thanksgiving/birthday epilogue and final READ MESSAGE Thanks for playing/menu. First ending b8 e257, restored bedroom and ended b9 e263. Not the preferred Larry/Willowbutton/bus route; no claim that route completed. Parent raw/text/hash verified; independent review pending."
+}

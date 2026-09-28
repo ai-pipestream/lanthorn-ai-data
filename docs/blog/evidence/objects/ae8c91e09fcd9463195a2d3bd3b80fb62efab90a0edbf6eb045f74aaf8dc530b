@@ -1,0 +1,13 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: Lobby (Yamitsi building), Score 15, Moves 79 (e00167)
+Inventory as observed: compact taser, blue evening dress (re-worn), toilet brush, mother's silver chain (removed, in hand e00165), gold bracelet closed+worn, underwear. Paper ball unfolded/read (+2, Score 15) then dropped in Lobby. Bubblegum spread on showcase contacts (e00167).
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy, washroom-secure, presentation-baron, bathroom-perfume, cocktail-lift, lift-paper (Ok).
+
+Cases this run (all synthetic_probe, annotated unless noted): lift-press-button-probe (none, e00129), lift-enter-probe (none, e00131), lift-take-paper-probe (none, e00132), lift-read-ball-probe (none-partial, e00135), lift-unfold-paper-probe (none, e00136), lift-look-panel-probe (none, e00140), lift-read-sign-probe (none, e00141), lift-press-2-probe (none, e00148), lift-exit-bare-probe (none, e00150), offices-x-photos-probe (none, e00152: president E. MARISAWA 1998-2000), offices-dwn-typo-probe (vocabulary, e00154→e00155), lobby-discard-paper-probe (none, e00157), lobby-inspect-compartments-probe (vocabulary, e00159→e00160: inspect unknown, x worked, tiny disc), lobby-look-window-probe (none, e00163: alarmed contacts), lobby-takeoff-chain-probe (none, e00165), lobby-stick-gum-probe (none, e00167).
+
+Last hints (walkthrough, NOT observed): lines 116-124 — x window; remove chain; put gum on contacts; put chain on gum; open compartment (2/17); get disc (1/18); close compartment; get chain then wear it; get gum.
+
+PENDING at stop: inbox/m0152.json ("place chain on gum" probe) awaiting broker response. On resume: read responses/m0152.json + latest.json first; annotate; then continue open compartment / get disc / close / get chain+wear / get gum; checkpoint at milestones; never save during menus/keypauses.
+
+Next request number: inbox/m0153.json. Game incomplete — Crusader/helicopter finale per manifest still required; no finish evidence.

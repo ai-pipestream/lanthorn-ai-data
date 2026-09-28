@@ -1,0 +1,9 @@
+# Progress – Attack of the Yeti Robot Zombies
+
+Location (observed e00077): west side of large black hall, chopper halfway through ceiling, can go east. East side: exploded red barrel, dead robed man + destroyed yeti zombie, doorway north. Hansen dead by phone.
+Inventory (observed): cell phone, plasma rifle (2 shots left after barrel e00077; was 3 after thin e00075, 4 after fat e00074). Box + ring of keys left behind at teleport e00061.
+Route since base: north debris cleared e00055 -> north e00057 -> up cabinet e00058 -> break cabinet e00059 -> push button teleport e00061 -> up e00063 -> break east door e00064 -> east e00065 -> climb stairs roof e00067 -> checkpoint before-chopper e00070 -> enter helicopter e00071 -> press button e00073 -> shoot fat e00074 -> shoot thin e00075 -> crash hall -> shoot barrel e00077.
+Checkpoints: start-outside-cabin, after-closet-bedroom, inside-base-locked (e00053), before-chopper (e00070 verified).
+Last hint (m0071 lines 9-17): don't go east yet shoot barrel; go east take hood wear it or face man from north; go north x2 to boss; push man off window, he returns, take coffee throw at man...
+Next: go east; probe hood take/wear variations; north x2 to boss; collect boss push/coffee variations; update annotations done for fat/thin/barrel.
+Cases: ~16 annotated (mostly none/synonym: break/smash, clear/move, climb/up, helicopter/chopper, shoot shortened nouns). Need 20-40 by finale including boss returns + red/yellow descent; add failure types (typo, omitted object, pronoun, word-order, wrong object, blocked) in safe hall/boss areas.

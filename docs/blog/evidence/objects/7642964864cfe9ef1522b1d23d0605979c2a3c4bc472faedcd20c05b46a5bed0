@@ -1,0 +1,96 @@
+{
+  "at": "2026-09-25T06:48:01.849461+00:00",
+  "game_id": "paper-chase",
+  "header": {
+    "version": 5,
+    "release": 1,
+    "serial": "950503"
+  },
+  "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+  "events": [
+    {
+      "event_id": "paper-chase-23fbd9b726:e00001",
+      "timestamp": "2026-09-25T06:33:31.838144+00:00",
+      "game_id": "paper-chase",
+      "session_id": "paper-chase-23fbd9b726",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\nWelcome to Anycity College, O seeker of learning! Somewhere within, you know \nthat the fabled and priceless Degree waits to be found, if only you will enter \nand embark upon the...\n\n\nPAPER CHASE\nAn Interactive Education\nby Chris Skapura\nRelease 1 / Serial number 950503 / Inform v1405 Library 5/9\n\nOutside\nYou are in a clearing in the forest outside the College. The entrance to the \nCollege is a great dark gateway to the south, inscribed above with the words, \n\"Abandon hope all ye who enter here.\" The forest surrounds you on all other \nsides.\n\n>",
+      "raw_start": 0,
+      "raw_end": 554,
+      "response_sha256": "efaa47b399bedcdc0df236873520013b287f11870cd7add85b0afa79dce7d2e7",
+      "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "paper-chase-23fbd9b726:e00002",
+      "timestamp": "2026-09-25T06:33:46.852635+00:00",
+      "game_id": "paper-chase",
+      "session_id": "paper-chase-23fbd9b726",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 554,
+      "raw_end": 568,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-outside"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "paper-chase-23fbd9b726:e00003",
+      "timestamp": "2026-09-25T06:33:47.153585+00:00",
+      "game_id": "paper-chase",
+      "session_id": "paper-chase-23fbd9b726",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint_filename",
+      "command": "start-outside.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/paper-chase/saves/paperchase.z5.save/start-outside.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 568,
+      "raw_end": 693,
+      "response_sha256": "78b8ab3a87eb3e708c7577cb9bc910d41fd9ffe5d12a2ed43b6e2dfbba639cca",
+      "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-outside"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "paper-chase-23fbd9b726:e00004",
+      "timestamp": "2026-09-25T06:33:54.212944+00:00",
+      "game_id": "paper-chase",
+      "session_id": "paper-chase-23fbd9b726",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "enter gateway",
+      "response": "That's not something you need to refer to in the course of this game.\n\n>",
+      "raw_start": 693,
+      "raw_end": 765,
+      "response_sha256": "cebb519bda7dadc500a62dfeef2cda62acce30593c3e5fb94d686b7a304ee6fb",
+      "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "outside-enter-synonym",
+        "expected_outcome": "Move south through gateway into the College",
+        "intent": "Enter the College through the dark gateway to the south",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "note": "Parent raw span/text/hash verified; selected startup/early events only; no independent review or ending implied."
+}

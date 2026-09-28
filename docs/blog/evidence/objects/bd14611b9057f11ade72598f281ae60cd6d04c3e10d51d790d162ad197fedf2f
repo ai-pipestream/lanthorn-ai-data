@@ -1,0 +1,189 @@
+{
+  "at": "2026-09-25T08:28:40.397192+00:00",
+  "game_id": "windhall",
+  "session_id": "windhall-ec1287a533",
+  "header": {
+    "version": 8,
+    "release": 5,
+    "serial": "960828"
+  },
+  "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+  "events": [
+    {
+      "event_id": "windhall-ec1287a533:e00001",
+      "timestamp": "2026-09-25T08:17:49.287790+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n  Would you like to resume a saved game (Y/N)?  ",
+      "raw_start": 0,
+      "raw_end": 50,
+      "response_sha256": "2a67940eb613b66fc1a7f8380e94933b081c55b6f7e55f3964a4bfe1b960b451",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00002",
+      "timestamp": "2026-09-25T08:18:00.099737+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "N",
+      "response": "\n\n\n\n\nThe Story Begins...\n\n     All of the townspeople are seated around the old oaken table at the \nmayor's house. Mayor Mielon sits at the head of the table with Sir Gunther IX \nat his right. You sit behind your master, Borthur the dwarven smith. All twelve \nresidents of Windhall have attended the town meeting.\n     You listen as Sir Gunther continues his boring oration.\n     \"...and I begged upon Our Blessed Lord myself that he would but spare us \njust time to better prepare our funds for his approval.\"\n     \"What funds?\" laughs Denvil the wood elf. \"We don't even have half of what \nthe village owes in taxes.\"\n     \"Thou art such vestile pessilation, thy yonder fop!\" spits Sir Gunther \nangrily. \"Thou dost not even live within thy city limits.\"\n     \"Oh, quit your bawling, Gunther,\" jeers the jolly wood elf.\n     \"This is Sir Gunther IX, and thous shaltith addresseth me as such!\"\n     Your master, Borthur, lets out a little snore in his dozing. You give him \na slight nudge, and he starts out of his sleep, nearly knocking his chair out \nfrom under him.\n     \"And you, yon thief,\" Sir Gunther continues accusingly. \"I'd bet thee a \nfair gold piece thou art holding out on thy funds.\"\n     Kytan, the town trader and well-known thief, glares from under the hood of \nhis robe at the flustered knight.\n     \"I have given just as much as anyone else at this table. If I have more \nleft over, that is simply because I am a much wiser businessman.\"\n     Before Sir Gunther can launch himself into another personal assault, Mayor \nMielon's wife, Idah, stands to address him.\n     \"Well, what happened, Sir Gunther? Did Lord Osrich give us more time or \nnot?\"\n     \"Our Lord said that we hast had enough time to get our affairs in order. \nWe need the money in one week, or this town and land shall be forfeited \nforthright.\"\n     \"What are we to do?\" cries Mayor Mielon.\n     At this time the fighter Midknight leans forward into the light of the \nfire. \"Perhaps we do not have enough wares amongst us to pay off the town's \ndebt, but there is a way.\"\n     \"But what?\" ask Baezil the baker and Creston the cleric at the same time.\n     \"Nostrophidius, do you remember the story of the dragon that used to live \naround here ages ago, gathering treasure in his secret den? What was his name?\"\n     The old wizard, Nostrophidius, leans forward at being addressed. He stares \nat the group for a few moments before answering.\n     \"Yes, the dragon...\"\n     Nostrophidius' step-daughter, Kaela, a young girl about your age, stares \nup at the old man from her spot on the floor near the fire, getting comfortable \nin anticipation of the inevitable story.\n     \"Two hundred years ago, before there even was a town of Windhall, there \nonce roamed a great red dragon on these very lands. Kirizith was his name, and \nall who heard it were stricken with a deep fear in the pits of their stomachs. \nPillaging nearby villages, he massed together hoards of treasure in his hidden \nlair. The dragon grew in age and in power. Many brave knights sought to do \nbattle with the dragon, but all fell before his might. Then one day he simply \ndisappeared. It happened, in fact, on the very same day this town was founded. \nKnights marched here and built these same walls in preparation to do battle \nwith the beast, but the time never came. To this day neither the great dragon \nnor his treasure has ever been found.\"\n     \"Splendid!\" exclaims Sir Gunther. \"When shall I begin my search?\"\n     Creston and Baezil look at each other in exasperation. Borthur only snorts \nfrom behind his beard.\n     \"You, Sir Gunther?\" asks Midknight delicately. \"But, should the town be \nattacked while you are gone, who would be here to protect us? You are...much \nneeded here.\"\n     Sir Gunther muses this compliment over.\n     \"Mighty Midknight, thy words are spoken true. My quest doth not lie in the \ndiscovery of the great treasure, but rather in the safety of the very people \naround this table.\"\n     This draws a chuckle out of Denvil, but Sir Gunther only glares at him.\n     \"But then who?\" cries Mielon. \"You, Midknight? You, Nostrophidius?\"\n     \"No, not me,\" replies Midknight. \"I've retired.\"\n     \"It won't be me, either,\" adds Nostrophidius. \"I'm twenty years past my \nadventuring age.\"\n     Borthur starts suddenly. You jump back as he rises.\n     \"What about my apprentice, Aerin? His apprenticeship in smithing has left \nhim strong and able, and he has both youth and intelligence.\"\n     Everyone turns to look at the old dwarf. Finally Mielon cuts in.\n     \"An excellent idea, Borthur. What a fit young lad for the job!\"\n     \"But...\" you stammer.\n     \"Yes, quite excellent,\" smiles Kytan.\n     \"But how do you expect him to find the treasure?\" muses Idah. \"He doesn't \neven have anything to dig it up with!\"\n     \"Ah, I can fix that!\" laughs Denvil, eager to help.\n     He jumps from his chair and produces from one of the thousand pockets in \nhis hugely oversized robes the oldest, most battered shovel you have ever seen, \nwhich he gleefully hands to you.\n     \"Well now, you're all set,\" smiles Mielon.\n     Everyone wishes you good luck as the meeting breaks up. Borthur draws you \naside.\n     \"Why?\" you ask him. \"Why me?\"\n     \"Ah, don't worry about it, lad. I'm sure you'll make a fine hero.\"\n     And with that he wanders out the door. Your gaze lingers on Kaela as she \nand Nostrophidius leave to head back to their tower, but Midknight slinks out \nof the shadows to stand in front of you, startling you back into reality. Some \nday you'll figure out how he does that.\n     \"Aerin, I wish you to visit me one night while on your quest. I may have \nsomething that will come in handy.\"\n     You stammer out a compliance.\n     \"I live within the forest southeast of town. I'll be watching for you.\"\n     And with that he turns and walks out the door. You race after him to ask \nhim a question, but you find the street empty. Some day you'll figure out how \nhe does that, too.\n\n     Well, best to get started on your search...\n\n\n\"The Path to Fortune\"\nVolume One of \"The Windhall Chronicles\"\nCreated using Unix Inform 5.5\nCopyright (c) 1995, 1996 by Jeff Cassidy and C.E. Forman. All rights reserved.\n(Type HELP for instructions and registration info.)\nRelease 5 / Serial number 960828 / Inform v1502 Library 5/11\n\nCentral Windhall\n     You stand in the midst of the small city of Windhall. The road runs along \nnorth and south from here. To the west is Sir Gunther's small house, and to the \neast lies Baezil's Bakery. You can almost taste all the delicious pastries that \nBaezil bakes fresh every day.\n\n>",
+      "raw_start": 50,
+      "raw_end": 6651,
+      "response_sha256": "8e4397e1dded7f3a7b1bd5f6d8c002a22e0ae8a51945c1d4a97e7b68752b8c02",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-start",
+        "expected_outcome": "Start new game, dismiss resume prompt",
+        "intent": "Answer No to resume saved game question to begin fresh playthrough",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00003",
+      "timestamp": "2026-09-25T08:18:04.455766+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 6651,
+      "raw_end": 6665,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-central"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00004",
+      "timestamp": "2026-09-25T08:18:04.756963+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "start-central.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/windhall/saves/windhal1.z8.save/start-central.sav.qzl'.\nOk.\n\nCentral Windhall\n     You stand in the midst of the small city of Windhall. The road runs along \nnorth and south from here. To the west is Sir Gunther's small house, and to the \neast lies Baezil's Bakery. You can almost taste all the delicious pastries that \nBaezil bakes fresh every day.\n\n>",
+      "raw_start": 6665,
+      "raw_end": 7075,
+      "response_sha256": "4c256bbfd15a6eaf2b97c469b3d155a7424d20b95688f24c592a29e5a4ad28c3",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-central"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00005",
+      "timestamp": "2026-09-25T08:18:10.914945+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying:\n  a pack (being worn and closed)\n  an old shovel\n\n>",
+      "raw_start": 7075,
+      "raw_end": 7144,
+      "response_sha256": "5c7a97d4d9dea620fc9f6cbef54ebe185532f5c9c0afed38e8af72987ee3db71",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-inventory-start",
+        "expected_outcome": "List starting items, likely shovel",
+        "intent": "Check what I am carrying at game start",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00006",
+      "timestamp": "2026-09-25T08:18:17.072939+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "open backpack",
+      "response": "You open the pack, revealing several days' worth of rations.\n\n>",
+      "raw_start": 7144,
+      "raw_end": 7207,
+      "response_sha256": "be0136deff67230f73a41d5685b81e116131f29c2ae1e30f54b075f72cb523d2",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-pack-synonym",
+        "expected_outcome": "Parser may not recognize backpack as pack; observe rejection or success",
+        "intent": "Open my pack using everyday synonym backpack",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00008",
+      "timestamp": "2026-09-25T08:18:27.737198+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "examine shovle",
+      "response": "You can't see any such thing.\n\n>",
+      "raw_start": 7207,
+      "raw_end": 7239,
+      "response_sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-shovel-typo",
+        "expected_outcome": "Parser may reject misspelled shovel; observe message",
+        "intent": "Examine my old shovel (with typo shovle)",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "windhall-ec1287a533:e00010",
+      "timestamp": "2026-09-25T08:18:41.259630+00:00",
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "branch_id": "b0",
+      "event_index": 10,
+      "event_type": "command",
+      "command": "examine shovel",
+      "response": "It's a rusty, battered, beaten, dented, cracked, splintering, sorry excuse for \na shovel. You don't think this thing is in any condition to dig up anything at \nall.\n\n>",
+      "raw_start": 7239,
+      "raw_end": 7406,
+      "response_sha256": "785b9ad5fa5a7771899ae4d723c9b39b78d8e508692e4c6635c02e0c717c7d15",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-shovel-typo",
+        "expected_outcome": "Description of old shovel",
+        "intent": "Examine my old shovel with correct spelling (correction of shovle typo)",
+        "origin": "recovery"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Parent actualheader/raw/hashverified, sourcegaps retained; not completionclaim"
+}

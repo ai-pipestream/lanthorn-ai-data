@@ -1,0 +1,25 @@
+{
+  "event_id": "beyond-the-tesseract-26b2abc71c:e00362",
+  "timestamp": "2026-09-25T08:15:52.316397+00:00",
+  "game_id": "beyond-the-tesseract",
+  "session_id": "beyond-the-tesseract-26b2abc71c",
+  "branch_id": "b0",
+  "event_index": 362,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 29650,
+  "raw_end": 29650,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "1605753236549604f2f7f773e08265a2642ca3d81cae35c76749dd22f39b61ad",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "beyond-the-tesseract-26b2abc71c",
+    "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 145 out of a possible 155, in 251 turns.",
+    "evidence_event_ids": [
+      "beyond-the-tesseract-26b2abc71c:e00353"
+    ],
+    "notes": "Genuine winning ending after all four fragments (TES e00152, RA e00193, CT e00328, SE e00345) and pop-up to office (e00352 password prompt) then say tesseract. Author-intended finale with stack sacrifice and *** You have won ***, score 145/155, not death, chapter transition, or quit; end-menu left unanswered."
+  },
+  "review_status": "unreviewed"
+}

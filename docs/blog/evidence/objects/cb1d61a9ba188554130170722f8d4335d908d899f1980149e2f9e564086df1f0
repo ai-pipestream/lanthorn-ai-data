@@ -1,0 +1,19 @@
+{
+  "reserved_at": "2026-09-25T08:12:55.317781+00:00",
+  "status": "prepared_not_launched",
+  "selected": [
+    "augmented-fourth",
+    "pythos-mask",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ],
+  "excluded_batches": "A-H including all recorded rejected candidates; existing queues and all play identities checked before selection",
+  "variety": {
+    "augmented-fourth": "music-based fantasy puzzles",
+    "pythos-mask": "dialogue-driven court intrigue",
+    "alias-the-magpie": "comic country-house theft and disguise",
+    "a-remote-problem": "compact contemporary household puzzle"
+  },
+  "substitutions": [],
+  "scope": "Exactly four. No registry/split/app changes, remote staging, launch, model work or publication."
+}

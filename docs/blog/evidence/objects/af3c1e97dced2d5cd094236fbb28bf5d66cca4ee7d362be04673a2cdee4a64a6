@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:51:01.904720+00:00",
+  "game_id": "pick-up-the-phone-booth-and-aisle",
+  "events": [
+    {
+      "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00007",
+      "timestamp": "2026-09-25T06:48:11.104751+00:00",
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "pick up the phone booth and aisle",
+      "response": "You do something very cunning and obscure and somehow or other it wins you the \ngame without ever tying up any of the loose ends or explaining what you did or \nhow you got here in the first place but hey.\n\n\n    *** You have won ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 1370,
+      "raw_end": 1664,
+      "response_sha256": "09bfd8da2be82bc8e0acfc5760412134617813e46ef879fb22763feb6c2facc8",
+      "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+        "case_id": "title-action-canonical",
+        "expected_outcome": "Authored ending narrative for the title action",
+        "intent": "Perform the game's title action to reach the authored ending",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Explicit authored absurdist win from title command; deliberate unexplained joke finale. No SAVE/RESTORE checkpoints used. Short game, no quota padding. Independent review pending."
+}

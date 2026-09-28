@@ -1,0 +1,27 @@
+{
+  "game_id": "time-all-things-come-to-an-end",
+  "title": "Time: All Things Come to an End",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/tatctae.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/time.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Complete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end.json",
+  "story_sha256_expected": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "time-all-things-come-to-an-end",
+  "collection_notes": "# Time: All Things Come to an End\n\nStory Z8 R7/970521. Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.\n\nComplete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.\n\nRandom safe codes, keystone eras and other placeholders must be resolved from live clues; never send #### or angle-bracket labels. The guide intentionally uses prior knowledge and restores: label hint-derived knowledge and failed attempts honestly, not as observations from the current path. Make an early safe checkpoint and milestone saves around hazards. Preserve sensible full-route progress without reproducing every optional death or wait. Apply the old SET WATCH work-around only if live evidence warrants it.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 7,
+  "serial": "970521",
+  "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+  "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+  "started_at": "2026-09-25T09:07:06.833909+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

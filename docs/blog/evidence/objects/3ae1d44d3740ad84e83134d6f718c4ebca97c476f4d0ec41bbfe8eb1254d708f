@@ -1,0 +1,31 @@
+{
+  "games": [
+    {
+      "game_id": "adventureland",
+      "title": "Adventureland",
+      "engine": "scott-cli",
+      "story": "/home/krickert/if-games/scott/AdamsGames/adv01.dat",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/adventureland-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/solutions/adamssol.zip#ADVENTUR",
+      "completion": "Require actual winning-ending or final treasure score evidence, independently reviewed."
+    },
+    {
+      "game_id": "pirate-adventure",
+      "title": "Pirate Adventure",
+      "engine": "scott-cli",
+      "story": "/home/krickert/if-games/scott/AdamsGames/adv02.dat",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/pirate-adventure-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/solutions/adamssol.zip#PIRATE",
+      "completion": "Require actual winning-ending or final treasure score evidence, independently reviewed."
+    },
+    {
+      "game_id": "lost-pig",
+      "title": "Lost Pig",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/LostPig.zblorb",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/lost-pig-walkthrough.txt",
+      "walkthrough_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2007/zcode/lostpig/walkthru.txt",
+      "completion": "Require actual winning-ending or final treasure score evidence, independently reviewed."
+    }
+  ]
+}

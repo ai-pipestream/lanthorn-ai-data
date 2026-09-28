@@ -1,0 +1,9 @@
+# Theatre progress — SEGMENT 3b (b2 Lobby, pearls fetched, game incomplete)
+
+Location: Theatre Lobby (e519, branch b2). Just took violet/blue/red pearls (e516-518).
+Carrying (verify): 3 loose pages (2+above-pit+junction?), shiny key, old ticket, violet/blue/red pearls. Lobby now: 12 pages, crystal, tablets, stethoscope, plans, 4 popcorn. Orchestra pit: empty vial. Beast dead in Inside Pit (+3 e487). Iron door open (reopened e511).
+Checkpoints: deep-mines, tunnel-junction, inside-pit, beast-defeated, above-pit, underground-passage, etc.
+Next: return via cloakroom/stair/underground/above-pit/inside-pit/junction/mine-shaft to Deep Mines with pearls; find green pearl (not in Lobby — check NE/SE branches or Trent hint). Then show violet/blue/red/green to trent per L141-149, then U NE SE, drop popcorn E.
+Cases seg3b: pit-tunnel-go-east (none, e494), junction-page-typo (syntax, e496/497), trent-violet-blocked (world_state missing pearl, e504 pending annotate), pearl-violet-take (none, e516). Backlog: annotate trent-violet-blocked after correction; green pearl location.
+Hints: L141-149 trent/popcorn; last hint mode next L141-149.
+Status: honest continuation, no ending; no finish claimed.

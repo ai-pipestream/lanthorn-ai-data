@@ -1,0 +1,25 @@
+{
+  "event_id": "savoir-faire-5a89e6c8ff:e01530",
+  "timestamp": "2026-09-25T05:57:50.766238+00:00",
+  "game_id": "savoir-faire",
+  "session_id": "savoir-faire-5a89e6c8ff",
+  "branch_id": "b13",
+  "event_index": 1530,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 366235,
+  "raw_end": 366235,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 120 out of a possible 125, in 769 turns, giving you the \nrank of returned prodigal.",
+    "evidence_event_ids": [
+      "savoir-faire-5a89e6c8ff:e01522",
+      "savoir-faire-5a89e6c8ff:e01523"
+    ],
+    "notes": "Genuine author-intended winning ending on branch b13: after REVERSE LINK STONE TO PILLOW lets Marie knock out D'Envers and escape (e01522), the MORE prompt continues to the Ten-days-later Paris epilogue with *** You have won ***, score 120/125, rank returned prodigal, and the standard RESTART/RESTORE/FULL/AMUSING/QUIT end prompt (e01523). Not death (no death text), not quitting (QUIT only offered), not a chapter transition. Missing 5 points not chased per manifest."
+  },
+  "review_status": "unreviewed"
+}

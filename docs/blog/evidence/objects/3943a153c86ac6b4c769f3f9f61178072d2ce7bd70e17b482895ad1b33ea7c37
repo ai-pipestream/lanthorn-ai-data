@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T08:28:40.393474+00:00",
+  "game_id": "the-wedding",
+  "events": [
+    {
+      "event_id": "the-wedding-396e8f7efc:e00441",
+      "timestamp": "2026-09-25T08:16:12.716800+00:00",
+      "game_id": "the-wedding",
+      "session_id": "the-wedding-396e8f7efc",
+      "branch_id": "b0",
+      "event_index": 441,
+      "event_type": "command",
+      "command": "deborah, go north",
+      "response": "Deborah coos in wonder as you lead her through the secret passageway and up the \nstairs.\n\nShe follows you up the stairs, sees Malcolm and freezes. \"What's going on?\" she \nhisses, and Malcolm cowers. \"I've been trapped up here, love,\" he says. \n\"Someone knocked me out and tied me up!\"\n\nYou step in and confirm Malcolm's story, telling Deborah that her mother \norganised the whole thing. Deborah boils over. \"That just takes the biscuit! \nThat's it. I'm leaving home for good.\" Then she notices Malcolm again, and her \nmood lightens in a flash. \"Let's just forget the big family wedding and run off \nto Gretna Green,\" she says, taking his hand, and they dash off down the steps \ntogether, giggling like schoolchildren.\n\nYou stand there grinning like an idiot, until a thought occurs to you. \"Hey!\" \nyou call, \"what about me? Don't mind me! I've just been dashing around like a \nwombat on steroids to sort out your problems, so hey, forget I'm here!\" And \nthey do.\n\n- - -\n\nA year goes by, mercifully free of weddings, security guards and mothers in \nlaw, with not a peep out of the (presumably) happy couple. A simple 'thank you' \nwould have been nice; still, no point being bitter about it. Then, one bright \nsunny morning, you receive a letter from Deborah and Malcolm asking you to be \ntheir son's godparent. Perhaps unwisely, you accept.\n\nOn the morning before the Christening, you are ironing your best shirt when the \nphone rings. \"Mate, is that you?\" a desperate-sounding Malcolm says at the \nother end of the line. \"Look, you've got to get up here quickly and help us \nsort out this mess!\"\n\nThere is only one reaction you can give to that, and it is\n\n      \"Aaaaaaaaarrrrrrrrggggghhhhhhh!\"\n\n\n\n    *** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 303 turns, earning you the \nrank of Dazzling Mastermind.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame, see a few SECRETS or QUIT?\n Spacious attic                                     Score: 20\n                                                    Moves: 303\n\n\n                 Forbid it Heaven, a favour or a debt\n                 She e'er should cancel - but she may forget.\n                 Safe is your secret still in Chloe's ear;\n                 But none of Chloe's shall you ever hear.\n\n                 --- Alexander Pope, \"Chloe\"\n> ",
+      "raw_start": 169660,
+      "raw_end": 172016,
+      "response_sha256": "813957f66fc70b23e350c1678752132e830479cbc71b119aef338b4eed277e28",
+      "story_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-deborah-go-north",
+        "expected_outcome": "Both enter the attic, reunion with Malcolm",
+        "intent": "Lead Deborah north into the attic to reunite her with Malcolm",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "DEBORAH, GO NORTH reunites couple, GretnaGreen elopement/year-later Christening epilogue and explicitwin/menu. Preserve repeated Pope quotation/status tail for isolated response attribution review. Parent raw/text/hashverified; independentreviewpending."
+}

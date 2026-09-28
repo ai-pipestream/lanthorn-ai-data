@@ -1,0 +1,70 @@
+"""One-off supervised same-session resume after diagnosed provider quota reset."""
+import concurrent.futures,fcntl,json,subprocess,sys
+from pathlib import Path
+sys.path.insert(0,str(Path.cwd()/'scripts'))
+from maintain_workers import processes,inventory,pending,input_state,launch
+from play_broker import ROOT,now,write_json
+remote_code=r'''
+import fcntl,hashlib,importlib.util,json,subprocess,sys,time
+from pathlib import Path
+root=Path.home()/'lanthorn-muse'
+spec=importlib.util.spec_from_file_location('fh',root/'fleet_host.py');fh=importlib.util.module_from_spec(spec);spec.loader.exec_module(fh)
+games=CONFIG
+out=[]
+for gid,sid in games.items():
+ base=root/'play'/gid
+ with (base/'.bridge.lock').open('a') as bridge,(root/'state/start.lock').open('a') as start:
+  fcntl.flock(bridge,fcntl.LOCK_EX);fcntl.flock(start,fcntl.LOCK_EX)
+  old=fh.state(gid);assert not old['alive'] and not old['muse_alive'] and old['state']=='failed' and old['exit']==1
+  assert json.loads((base/'.bridge-state.json').read_text())['session_id']==sid==json.loads((base/'manifest.json').read_text())['session_id']
+  assert not (base/'ending-claim.json').exists()
+  assert not [p for p in (base/'inbox').glob('*.json') if not (base/'responses'/p.name).exists()]
+  occupied=sum(s['alive'] or s['muse_alive'] for s in (fh.state(p.stem) for p in (root/'state').glob('*.json')))
+  assert occupied<3
+  for p in Path('/proc').glob('[0-9]*/cmdline'):
+   try:
+    args=p.read_bytes().split(b'\0')
+    assert not (b'muse' in args[0] and str(base).encode() in args), 'orphan Muse'
+   except OSError:pass
+  history=root/'history'/'quota-20260925T0743';history.mkdir(parents=True,exist_ok=True)
+  state=root/'state'/(gid+'.json'); archived=history/(gid+'.json');assert not archived.exists()
+  oldhash=hashlib.sha256(state.read_bytes()).hexdigest();state.rename(archived)
+  with (root/'runs'/(gid+'-supervisor.log')).open('ab') as log:
+   child=subprocess.Popen([sys.executable,str(root/'fleet_host.py'),'worker',gid],stdin=subprocess.DEVNULL,stdout=log,stderr=log,start_new_session=True)
+  fh.write(state,{'pid':child.pid,'state':'starting'})
+  out.append(dict(game_id=gid,session_id=sid,pid=child.pid,archived_state=str(archived),archived_sha256=oldhash))
+print(json.dumps(out))
+'''
+def remote(item):
+ host,games=item
+ p=subprocess.run(['ssh','-o','BatchMode=yes','-o','ForwardAgent=no','-o','ConnectTimeout=8',host,'python3 -'],input=remote_code.replace('CONFIG',repr(games)),text=True,capture_output=True,timeout=40)
+ if p.returncode: return host,dict(error=p.stderr[-2500:])
+ return host,json.loads(p.stdout)
+with (ROOT/'control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ assert not json.loads((ROOT/'control/worker-pool.json').read_text())['enabled']
+ assert not json.loads((ROOT/'control/fleet/settings.json').read_text())['enabled']
+ canary=json.loads((ROOT/'play/delusions/latest.json').read_text());assert canary['event_index']>238 and canary['engine_state']=='awaiting_input_or_idle'
+ assignments=json.loads((ROOT/'control/fleet/assignments.json').read_text()); held=json.loads((ROOT/'control/provider-quota-hold-20260925T0728.json').read_text())
+ workers,brokers=inventory(processes());assert set(workers)=={'delusions'}
+ groups={};checks=[]
+ for gid,pids in brokers.items():
+  base=ROOT/'play'/gid
+  if gid=='delusions':continue
+  assert len(pids)==1 and not pending(base) and not (base/'ending-claim.json').exists()
+  rows=[json.loads(s) for s in (base/'events.jsonl').read_text().splitlines()]; assert input_state(rows)=='awaiting_input_or_idle'
+  sid=json.loads((base/'manifest.json').read_text())['session_id'];checks.append(dict(game_id=gid,session_id=sid,last_event=rows[-1]['event_id']))
+  if gid in assignments:
+   a=assignments[gid];assert a['session_id']==sid
+   groups.setdefault(a['host'],{})[gid]=sid
+ assert len(checks)==33 and len(groups)==8 and all(len(v)==3 for v in groups.values())
+ local=[]
+ for row in held['local']:
+  gid=row['game_id']
+  if gid=='delusions':continue
+  w,_=inventory(processes());assert gid not in w and len(w)<10
+  child=launch(['bash',str(ROOT/'run-fullplay.sh'),gid],'quota-resume-'+gid)
+  local.append(dict(game_id=gid,pid=child.pid))
+ with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:remotes=dict(ex.map(remote,groups.items()))
+ write_json(ROOT/'control/fleet/quota-resume-launch-20260925T0743.json',dict(at=now(),canary_event=canary['event_id'],checks=checks,local=local,remote=remotes))
+ print(json.dumps(dict(local=local,remote=remotes)))

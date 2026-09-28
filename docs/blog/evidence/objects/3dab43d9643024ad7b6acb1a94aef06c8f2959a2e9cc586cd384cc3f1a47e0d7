@@ -1,0 +1,18 @@
+{
+  "story": "kooku.z5",
+  "guide": "kooku.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/kooku.sol",
+  "accessed_at": "2026-09-25T06:02:04.049176+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 1,
+  "serial": "971119",
+  "sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+  "bytes": 94208,
+  "header_hex": "050000013ab43ab52690010a15011faa001039373131313900425b8e3b33000000000000000000000000000000000000000000000000010200000000362e3134",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/kooku.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.292372+00:00",
+  "downloaded_story_sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+  "download_matches_local": true
+}

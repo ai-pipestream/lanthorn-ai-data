@@ -1,0 +1,16 @@
+{
+  "at": "20260926T205230Z",
+  "reason": "Fleet enabled unexpectedly during explicit quota hold until Sep28 00:00 UTC",
+  "original_settings": {
+    "enabled": true,
+    "hosts": [
+      "cm5ai1"
+    ],
+    "per_host": 1,
+    "worker_cli": "kimi"
+  },
+  "original_text": "{\n  \"enabled\": true,\n  \"hosts\": [\n    \"cm5ai1\"\n  ],\n  \"per_host\": 1,\n  \"worker_cli\": \"kimi\"\n}\n",
+  "change": {
+    "enabled": false
+  }
+}

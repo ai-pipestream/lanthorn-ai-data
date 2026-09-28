@@ -1,0 +1,14 @@
+# Progress — WadeWars III: Askin (branch b2, WON 100/100, COMPLETE)
+
+## Final
+- Result: *** you have won ***, 100/100 in 228 turns (e00378, branch b2)
+- Ending path: Ring of Fire PUSH RED (escape before fireballs) -> Moorh-Tab -> W -> Y-Duts -> auto Kitchen EPILOGUE (e00377) -> SPACE -> won (e00378)
+- Key finding: ritual timers are TURN-based; b1 died (e00358) because 2 extra probe turns (steal-ring e00345, give-it-him e00350) consumed the walkthrough's wait slack. b2 replay without extras matched walkthrough Z Z PUSH RED W exactly.
+- Checkpoints: chapter4-gargoyle restore -> b2; all milestones verified.
+
+## Cases (39 total, 39 annotated)
+- Seg1: case01-17 DONE. Seg2: case18-39 DONE (18 planning, 19 none, 20 none, 21 none, 22 ambiguity, 23 none, 24 none, 25 none, 26 none, 27 none, 28 none, 29 none, 30 planning, 31 vocabulary, 32 none, 33 ambiguity, 34 none, 35 syntax, 36 none, 37 vocabulary, 38 vocabulary, 39 ambiguity).
+- Types covered: vocabulary, syntax, ambiguity, planning, world_state (seg1), none-acceptances. No pending.
+
+## Hints
+- All walkthrough lines consumed through end (line 266 + blanks). Live verified: paper 1357, basket 3823, neon ezlwot, journal gargoyle/marbles, Laws' aids.

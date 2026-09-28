@@ -1,0 +1,10 @@
+# Gerbil Riot progress
+
+Location: Brick-wall dead-end with electric sheep (e00360 verified); tunnel-mouth/east chain explored to eucalyptus tree dead-end (e00352-e00355 blocked N/E). Burn-bush blocked.
+Inventory (observed e00345): matchbox, empty bucket, bulb horn, small key, white blanket (worn), milk-bottle top, picture of cat, empty syringe. Jacket given to Arnold e00323.
+Checkpoints: prior list plus after-arnold-jacket (e00325-e00326 verified).
+Route done since last update: gave jacket probe e00322 (juggle to self) + correction e00323 (Arnold accepts, wanders off), annotate e00324, checkpoint after-arnold-jacket, east e00327 to bend, north e00328 to matchbox dead-end, get matches accepted e00329 (annotate e00330), south e00331 bend, west x2 e00332-e00333 to Arnold-empty and veg (leek), north e00334 pleasant path, north x3 e00335-e00337 mouth then wall then blocked 4th north, look wall e00338, help e00339 (burn route), burn probe e00340 rejected, burn bush e00341 rejected, help e00342, south e00343 mouth, examine bush e00344 rejected, inventory e00345, north e00346 wall, strike match e00347 unknown, light bush e00348 rejected, south e00349 mouth, east e00350 pleasant, east e00351 lake, east e00352 tree, look e00353, north e00354 blocked, east e00355 blocked, help e00356 repeat, west x3 e00357-e00359 to mouth, north e00360 wall, burn bush with matches e00361 rejected, open matchbox e00362 (with what?).
+Pending annotates: burn-omitted e00340 -> e00341 both fail (world_state/vocabulary to label); strike-match unknown e00347 vocabulary; light-bush variant e00348; burn-with-matches e00361; open-matchbox e00362; plus older list (ink, tissue, inject, fudge, south/east blocks).
+Cases: ~70+.
+Last hint: e00356 — same chain: South West West North x4 Burn bush East East North pit/hub/button Give top to Tony South South tattoo/wad/guard/east exit.
+Next: find actual bush location/verb at wall area (examine sheep/wall/fence, try set-fire phrasings, search rooms south/west); then East East North pit/hub/button; Give top to Tony; South South; tattoo/wad/guard/east exit. Game incomplete, no finish claimed.

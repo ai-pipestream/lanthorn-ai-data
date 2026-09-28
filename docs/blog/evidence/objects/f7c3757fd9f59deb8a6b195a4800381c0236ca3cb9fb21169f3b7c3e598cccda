@@ -1,0 +1,7 @@
+# Collection notes
+
+Local adv03.dat identifies itself as MISSION IMPOSSIBLE by Scott Adams (also known as Secret Mission). Exact DAT is hashed in manifest. Guide MISSION is from adamssol.zip; release compatibility must be established by responses. Timed mission: preserve a checkpoint before deliberate mistakes that spend turns. Finishing requires actual mission-success output, not death or score alone.
+
+Collect varied synthetic command mistakes with explicit intent and actual failed/recovery responses. All labels start unreviewed. Ask for small walkthrough excerpts only as needed. Never read the full guide outside the broker or publish/train on this material. Preserve checkpoints and evidence.
+
+2026-09-25 03:44 UTC menu transport note: MENU INPUT: For a menu that says RETURN or Enter, send an empty command string ("command":""). Do not spell RETURN, ENTER, SPACE or BACKSPACE as words. A literal space ("command":" ") is a different key from Enter. The plain CLI passes the first byte of nonempty input; an empty line sends Return. Menu controls are not ordinary parser commands: consult the actual menu labels. Avoid optional HELP/file menus if collection-notes.md documents stalled transport; request a small broker walkthrough excerpt instead. If output times out, await_output only; never use another key to flush it.

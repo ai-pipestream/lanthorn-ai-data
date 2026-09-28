@@ -1,0 +1,15 @@
+# Kimi coordinator pilot — 2026-09-25
+
+The user authorized testing Kimi as coordinator for three or four Muse games before considering wider delegation. Muse remains the player; Kimi reviews health and evidence. Existing local/fleet schedulers retain all runtime ownership.
+
+Two actual Kimi Code 2.1.1 calls used configured `kimi-code/k3` with a custom profile exposing zero tools and no subagent dispatch. Each received a fresh, immutable four-game dossier with collector-verified raw spans: Time, Enemies, Traffic, and Pytho’s Mask. This cohort deliberately contains two active games, an ending claim, and a held startup. It is not four newly launched clients. No credentials, full guides, or stories were copied.
+
+Both passes recommended continuing Time and Enemies, reviewing Traffic’s ending, and preserving Pytho’s hold without extra keys or replacement. The first pass misunderstood whether certifying Traffic would release capacity. The brief was corrected to state that an ending claim can already have triggered refill; the second pass correctly kept the schedulers unchanged and requested no extra launch. Raw first-pass output remains preserved.
+
+Traffic’s recommendation led to parent verification of actual e233 WAIT on branch b3: revised-present survival, father exonerated and reunited with family, and explicit terminal win. Evidence is `control/ending-parent-verification-20260925T0927-traffic.json`. Its slot had already been refilled; no additional capacity was released.
+
+The second reply used a Markdown JSON fence despite the output instruction. The harness accepts only an exact outer JSON fence or a raw JSON object, then validates snapshot ID, exact game scope, sessions, event references and capacity. Five negative fixtures reject stale snapshots, stale sessions, invented events, extra games and wrong capacity. These are harness checks, not model-quality scores. Natural-language recommendations remain subject to human/parent semantic review and are never executed by the runner.
+
+Evidence: `control/kimi-pilot/20260925T092417.148209Z/` and `control/kimi-pilot/20260925T092601.202521Z/` contain snapshots, prompts, untouched outputs, exit statuses, parsed decisions and parent reviews. The first local CLI invocation rejected combining `--auto` with `-p`; it made no provider call, and its failure remains at `20260925T092404.704070Z`. Profile: `control/kimi-pilot/coordinator.md`; runner: `scripts/kimi_coordinator_pilot.py`.
+
+This supports a supervised operational pilot. It does not establish reliable autonomous launches, timeout recovery, quota handling, source selection or whole-fleet coordination. No recurring Kimi daemon was installed, no Muse worker moved, no model trained, and no application or dataset was published. Any further lifecycle delegation must retain central locks, current-session checks, immutable requests, bounded host capacity and independent ending certification.

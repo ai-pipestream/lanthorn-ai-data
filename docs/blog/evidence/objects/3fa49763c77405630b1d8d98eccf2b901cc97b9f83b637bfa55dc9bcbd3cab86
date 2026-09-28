@@ -1,0 +1,9 @@
+# Schooldays progress
+
+- Session: schooldays-b371c6a97d, branch b0, event e00051 (Kitchen 6:57am, checkpoint kitchen-down verified).
+- Location: Kitchen (up ladder to hall above, south to front hall). Cupboard/drawer/fridge closed, stove present.
+- Inventory: jar open (screws), nail, knapsack (form), waterbottle filled open, ladder placed above (leads up), worn clothes+shoes.
+- Checkpoints: start-bedroom, kitchen-down.
+- Cases done (11 annotated): bedroom-look-synonym, bed-under-search, jar-nail-blocked, door-unlock-omitted(none), door-open-ambiguous, corridor-south-typo, ladder-synonym(none), waterbottle-closed-fill, ladder-drop-phrasing. Open: trapdoor-high-probe e00031 (Can't reach) + route-ladder-setup e00032 (put ladder syntax) need canonical bedroom-trapdoor solution later if attic required.
+- Last hint: DROP LADDER done; descended to Kitchen.
+- Next: help next excerpt after DROP LADDER; explore Kitchen south to front hall/escape.

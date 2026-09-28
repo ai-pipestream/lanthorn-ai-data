@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-25T09:50:29.289663+00:00",
+  "target": 10,
+  "workers": {},
+  "attention": [
+    "anchorhead: unfinished without launcher; needs diagnosis, evidence retained",
+    "curses: unfinished without launcher; needs diagnosis, evidence retained",
+    "delusions: unfinished without launcher; needs diagnosis, evidence retained",
+    "windhall: unfinished without launcher; needs diagnosis, evidence retained",
+    "pythos-mask: unfinished without launcher; needs diagnosis, evidence retained",
+    "time-all-things-come-to-an-end: unfinished without launcher; needs diagnosis, evidence retained",
+    "mulldoon-legacy: unfinished without launcher; needs diagnosis, evidence retained",
+    "teacher-feature: unfinished without launcher; needs diagnosis, evidence retained",
+    "mystery-fun-house: unfinished without launcher; needs diagnosis, evidence retained",
+    "punk-points: unfinished without launcher; needs diagnosis, evidence retained"
+  ],
+  "ending_review_pending": [
+    "i-0",
+    "mansion",
+    "believable-adventures-invisible-man",
+    "bicon",
+    "cacophony",
+    "detective"
+  ],
+  "queued": [
+    "all-roads",
+    "blue-chairs",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ]
+}

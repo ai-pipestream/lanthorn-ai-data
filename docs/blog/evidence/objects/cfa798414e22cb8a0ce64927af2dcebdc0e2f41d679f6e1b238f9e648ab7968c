@@ -1,0 +1,11 @@
+# Mansion progress (segment 2, PAUSED — step budget out, game incomplete)
+
+Location: Outside the Garden Shed (ordinary prompt). Branch b1.
+Inventory: torch in hand (OFF), bag[tweezers, needle, lavender, spanner, key, boots, packet(seeds), saucepan, plate, straw, knife, floorboard], net(frog). Score 4.
+Checkpoints: ... maze-lavender, top-of-stairs (verified e00358-59). Restore point: top-of-stairs.
+
+Since last full update: mapped Conservatory (flavor plants, E to Garden Pond), confirmed Dining E <-> Bottom of Stairs W loop. Mixture hint refined (lines 304-312): ONE go-south then get lavender/seeds/spinach + open jar/empty into pan — all in one place south of unknown room. Shed rechecked: biscuit tin (Hanford's Shortcake) CLOSED, cannot open — PC refuses (spider memory, e00390). Compost heap examined (pungent, nothing found yet — NOT searched/dug).
+Spinach + jar still unfound. Candidates: search/dig compost; shed interior re-search; lower pools/rockery; kitchen fireplace; front door area (never entered via front!).
+
+Cases total ~19 (7 this segment). No unresolved cases.
+Next: search compost heap; look inside shed (look command); try front door south from Front Drive; help for jar/mixture context if still stuck.

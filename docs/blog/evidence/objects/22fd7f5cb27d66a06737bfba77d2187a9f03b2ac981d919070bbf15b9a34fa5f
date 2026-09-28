@@ -1,0 +1,10 @@
+# Bronze progress — SEGMENT 1 STOP (incomplete, pending)
+
+Game: bronze R11/060503. Session bronze-edcd114f65, branch b0. Latest confirmed e00157 (unlock chimes fails, not seen).
+Location: Central Courtyard standing on stool (e154), helmet worn, shackle carried, stool placed. Rooms 20/55.
+Inventory confirmed e00130: helmet worn, stool, shackle. Stool then placed e00153 and entered e00154.
+Checkpoints confirmed: drawbridge-start, parlor-puzzle, treasure-room, helmet-stool, courtyard-chimes.
+Pending in-flight: inbox/m0144.json listen to re-reveal iron windchimes (well-formed, do NOT duplicate or resubmit under new name). Retry responses/m0144.json, then latest.json; allow 190s. Slow listen actions take ~45-60s.
+Key puzzles unresolved: iron windchimes visible only right after listen with helmet (e145/e150/e155) but take/unlock/x fail as not seen (e148-149, e151, e156-157); cage key missing (take shoes blocked e97, unlock needs key e98, small door needs key e101, think cage says address another issue); silver bell north of Parlor blocked by roses/death needing breeze; Beast not found (need ~28/55 rooms, have 20; hint TAKE OFF HELMET/N/X GLASS/UP...).
+Cases: ~40 collected (typo, synonym, omitted, ambiguous, wrong-object, blocked-state), most annotated unreviewed. See events for e-ids.
+Resume: read progress.md, latest.json, retry responses/m0144.json. Do NOT restart. After listen reveals chimes, try EXAMINE iron windchimes first (not unlock/take), then unlock/take. Do not inject SAVE into yes/no or Which-questions.

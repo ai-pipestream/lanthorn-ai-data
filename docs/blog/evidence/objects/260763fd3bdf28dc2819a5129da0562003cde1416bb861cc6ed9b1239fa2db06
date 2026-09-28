@@ -1,0 +1,16 @@
+# Progress — Reverberations
+
+Location: Law Office (Jill gave key to mayor's cabinet)
+Inventory: key (to verify), score 7
+Branch: b0, last event e00056
+
+Milestones:
+- Courthouse cleared, met Jill north of courthouse, followed to Office Building 2F east
+- Law Office: Jill gave key for mayor's cabinet; checkpoint law-office-key verified
+
+Cases: 9 annotated (through syn-show-file-09). Need 20-40 total; continue varied probes.
+
+Last hint (e00049): Law Office (jill gives key); next Mayor's Office
+
+Next: inventory, ask Jill about mayor?, exit to find Mayor's Office location, get hint.
+Checkpoints: start-behind-counter, street-with-pizza, courthouse-arrival, law-office-key

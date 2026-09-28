@@ -1,0 +1,24 @@
+# Deephome playthrough progress (IN PROGRESS — branch b1, score 67)
+
+## Where to resume
+Continue from actual state; latest checkpoint `temple-fresto` (verified Ok, e00155-156, branch b1). Do NOT restart. Earlier `library-leshosh` retained.
+
+## Current state (all observed, branch b1)
+Location: Dwarven Village (score 67, e00161). Only exit observed: stairway down SE to Main Hall.
+Route: Library (took Fresto, e00149) -> S Main St (e00151-152) -> Great Temple west (Dark Spirit seen, score 66, e00153) -> back east S Main (e00154) -> checkpoint temple-fresto (e00155-156) -> north N Main (e00157-158) -> north Main Hall (e00159-160) -> northwest Dwarven Village (e00161).
+Inventory (observed): King's Order, lantern (lit), Sword, shield, magical torch (lit), pickaxe/axe, gear/cog, Fresto's tome (taken e00149). Leshosh's Encyclopedia left in Library.
+Mission: 1. Restore Power [DONE] 2. Restore Water [open: intake pipe at Waterfall] 3. Visit each location 4. Open City Gates 5. Make city SAFE (exorcisms; last exorcism = ending per manifest).
+
+## Checkpoints (all Ok)
+start-secret-entrance, guard-post, main-hall, after-coal, power-restored, before-rail-ride, after-gear, library-leshosh, temple-fresto.
+
+## Cases: 19 annotated
+New: fresto-tome syntax pair e00144-145 (full title truncated, short 'examine fresto' works, m0118); take-book-ambiguous pair e00148-149 (bare 'take book' disambiguation, 'take fresto' Taken, m0122). Prior last: terrock-lookup e00138-139.
+Key engine findings: bare 'exit' outside rail car corrupted b0; safe disembark is 'out'. Full book titles exceed parser noun phrase ('I only understood you as far as...'); use short owner names.
+
+## Last hint (NOT observed, guide lines 35-43 via e00143)
+"Waterfall / x terrock / Library / l up terrock in leshosh / West Royal Road (WRR) / get moss". Terrock lore (e00139): nests near running water; violently allergic to some plants; VERY deadly. Moss presumably the plant weapon/allergy counter.
+
+## Next actions
+1) SE back to Main Hall, try NE small opening (tapestry opening) for WRR route. 2) If not, systematic search: Main Hall W railway, N Main shops (clothier/bakery/scrivener), S Main south extension. 3) At WRR: probe variation before 'get moss', then take moss. 4) Checkpoint at moss + milestones. Keep 1 command per unknown route; conserve light (lantern+torch lit).
+Lantern + torch both lit and carried; no idle waits.

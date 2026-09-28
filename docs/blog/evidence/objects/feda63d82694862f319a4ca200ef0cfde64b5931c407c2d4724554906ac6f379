@@ -1,0 +1,11 @@
+# Mother Loose — progress (update 5, e00084)
+
+Location: Rickety Fence, Score 15, Moves 48. Egg rescued and gone; ladder retaken.
+Inventory (observed): wooden ladder (carrying). Dropped: picnic basket + bent spoon + cracked dish in Meadow Behind Bungalow (e00066-68); empty iron pot in Deep Forest (e00076). Hairpin given to Mary.
+Checkpoints (verified): start-fence, forest-hairpin, meadow-ladder (e00064-65), fence-rescue (e00083-84).
+
+Cases: prior ~13 plus mary-ladder-ask(none, e00058 done), bungalow-go-south, bungalow-go-se, ladder-typo(vocabulary, e00061+e00069 annotated e00070), ladder-encumbered, drop-for-ladder, ladder-lean-phrasing(none, e00079-80: 'put ladder against fence' accepted, egg rescued +5), fence-look-after, ladder-take-back. Unresolved minor: egg-ask-help.
+
+Last hint (walkthrough, NOT player-observed): m0065 e00071 lines 25-33: e / e / ne / s / s / lean ladder against fence / take ladder / n / n. Consumed through fence rescue; east blocked at Meadow Behind Cottage (e00073), routed NE-E-NE-S-S back to fence instead.
+
+Next: (1) return north through Forest/Deep Forest to village, then to Meadow Behind Bungalow; (2) return/drop ladder in back per Mary, retrieve basket/spoon/dish; (3) checkpoint; (4) request next hint only when stuck (topic: kitten/key/locked-door/figure + final wait); (5) continue diverse synthetic probes toward nursery-rhyme rescue resolution per manifest. Game incomplete — no ending reached.

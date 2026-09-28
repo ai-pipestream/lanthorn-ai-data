@@ -1,0 +1,14 @@
+# Gourmet progress (continuation — m0286 pending, game incomplete)
+
+- Location: Seating Area at table one (after GO 1 e00299). Latest e00300 help.
+- m0280 RESOLVED e00295 `out` table two -> main.
+- m0281 RESOLVED e00296 `dial lester` main silent empty.
+- m0282 RESOLVED e00297 `inventory`: cordless phone, bloody mop, bandage worn, bloody glove, open kit+note, knife, hat worn.
+- m0283 RESOLVED e00298 `dial chester` main silent empty.
+- m0284 RESOLVED e00299 `go 1` -> at table one; family still dining, band ends In the Mood. Silent dials did not clear.
+- m0285 RESOLVED e00300 help dial-clearing: repeats GIVE TEA/OUT/DIALs/GO 1/GET ON TABLE/X+HIT/SHOW sequence (lines 176-184). Tea already done (empty teacup e00294). No new clearing mechanism; hints are suggestions, not observed success.
+- m0286 PENDING: `get on table one` route-get-on-table-test to confirm still blocked. Well-formed inbox/m0286.json verified. Latest e00300. Do NOT resubmit/duplicate. Allow 190s+.
+- Core block: GET ON TABLE must clear diners; X/HIT LOBSTER can't see; DIAL/CALL silent (CALL= DIAL per e00272 annotation).
+- Forward: after m0286 resolves (likely blocked): LOOK at table one, consider band/wait/listening or tube clues; request refined help on band/family clearing if needed. Do not repeat dials blindly.
+- Restore: office-phone; at-table-one; tube-reset; postsoup-halted; soup-ready; kitchen-mopped; tea-served; teacup-found; firstcourse-kitchen; start-kitchen; after-prelude.
+- Requests through m0286. Game incomplete — no lobster service, no ending.

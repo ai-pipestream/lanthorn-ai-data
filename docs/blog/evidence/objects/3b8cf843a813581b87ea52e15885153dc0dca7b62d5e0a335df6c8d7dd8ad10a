@@ -1,0 +1,23 @@
+# Progress - Risorgimento Represso - COMPLETE (50/50)
+
+## Final state
+WON. Branch b3, score 50/50, 264 turns, Doctor of Letters. Final descent through toilet hole with slicked-up Ninario -> Outside Vechlee, Plumbers Union uprising, rift storm, flight to Blumph on flying settee. "*** You have won ***" at e00508.
+
+## Inventory at end
+Worn: helmet, satchel, clothes, butter. Carried: red carpet, silver coin change, scrying bowl, ginger beer, chamberpot etc. Given away: goggles (hermit), drill (Ned). Consumed: WizStrip (explosion), margarine (Ninario), hastener (door).
+
+## Checkpoints (verified, b3)
+- ninario-freed, before-final-descent (final), before-bear-pass, before-tree-climb, castle-escaped, before-cannon-shot, powder-made, workshop-arrival, study-post-rug, post-rift-rescue, clean-spectacles, before-wizstrip-pour, older arrivals
+- Death branch b2 preserved (e00183).
+
+## Cases seg3 (88-112, all resolved)
+- 88 ask old man tears (none); 89 hand->give goggles (vocab); 90 show hermit the bottle (none)
+- 91 take off carpet->remove rug (world_state); 92 backpack=satchel (none)
+- 93 say hi to guard (none); 94 ask ned himself (none); 95 megre->meagre (syntax)
+- 96 ask ned science (none); 97 show guard the drill (none); 98 offer drill (none)
+- 99 copper pipe (none); 100 connect hose (none); 101 hose in grille (none); 102 turn on valve (none)
+- 103 ginger beer (none); 104 take bottle of ginger beer (none); 105 pick up margarine (none)
+- 106 place->put wizstrip (vocab); 107 shut door (none); 108 wait (none, explosion)
+- 109 rub hastener (none); 110 hello ninario (none); 111 enter hole (none); 112 stick of margarine (none)
+
+Totals: seg1 01-35, seg2 36-87, seg3 88-112 = 112 cases. Finish submitted with e00508.

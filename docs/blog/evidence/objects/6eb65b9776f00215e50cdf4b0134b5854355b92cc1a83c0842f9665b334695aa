@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T08:12:26.318371+00:00",
+  "game_id": "magic-toyshop",
+  "events": [
+    {
+      "event_id": "magic-toyshop-9a53f3ebb2:e00291",
+      "timestamp": "2026-09-25T08:01:06.822649+00:00",
+      "game_id": "magic-toyshop",
+      "session_id": "magic-toyshop-9a53f3ebb2",
+      "branch_id": "b2",
+      "event_index": 291,
+      "event_type": "command",
+      "command": "enter chest",
+      "response": "You climb into the chest, which turns out to be full of drapery: large \nengulfing folds of cloth. You struggle to be free of them, and pulling the last \none aside, you find yourself walking down a Victorian arcade. Looking around, \nyou see no sign of the toyshop, but clutched in your hands, you find a wrapped \nparcel with a tag saying \"To Isabelle, on her birthday.\" You are unsure of how \nyou acquired it, but you are somehow sure that Isabelle will enjoy it...\n\n\n    *** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 179 turns.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n[Score 20, up 2]\n> ",
+      "raw_start": 34433,
+      "raw_end": 35103,
+      "response_sha256": "327d932d89b760529f6c8d287fa0493ea3f3576d45e46e5882216542bb000f5d",
+      "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-enter-chest",
+        "expected_outcome": "Ending narrative",
+        "intent": "Climb into the opened chest",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "ENTER CHEST gives Victorian arcade/birthday parcel epilogue and explicit win/final menu. No all-case coverage claim from20/20. Parent raw/text/hash verified; independent review pending."
+}

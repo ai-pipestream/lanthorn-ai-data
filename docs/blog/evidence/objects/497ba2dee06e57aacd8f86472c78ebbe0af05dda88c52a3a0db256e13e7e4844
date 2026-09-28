@@ -1,0 +1,26 @@
+# Traffic progress — past night
+
+Location: Past night corner Jones/Elm, in worker body. John (pudgy, vest, clipboard) + gray box. Events to e00027. Branch b0.
+
+Inventory: Past body unknown — need `inventory`. Original package crushed in death.
+
+Cases done:
+- room-desc-synonym-01 (look around fail / look win) syntax
+- inventory-typo-02 vocab
+- box-synonym-03 none (look at box accepted + man reveal)
+- examine-omitted-04 syntax
+- stroller-baby-05 none (look at baby eye contact + required death transition)
+- past-man-synonym-06 none (look at man)
+- talk-john-08 syntax (talk needs topic / ask about clipboard mentions Bill)
+Unresolved:
+- clipboard-read-07 (read clipboard + read papers both give holder line, no contents yet)
+- death-continue-01 (SPACE menu, no annotate needed)
+
+Last hint: e00005 timeloop eye-contact + die. Verified. Next need traffic past hint (John/Bill/box).
+
+Next:
+- inventory in past body
+- ask John about Bill / box / work; examine box/papers; help excerpt for traffic signal past
+- checkpoint past-night-man done; next milestone after solving past
+
+Checkpoints: start-corner, past-night-man

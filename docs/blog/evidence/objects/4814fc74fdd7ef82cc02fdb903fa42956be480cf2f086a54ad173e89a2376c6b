@@ -1,0 +1,23 @@
+{
+  "game_id": "change-in-weather",
+  "title": "A Change in the Weather",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/weather.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/change-in-weather-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/weather.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require author-intended successful conclusion against raw output; no ordinary death/flood/quitting/partial scores. Guide explicitly R6/960613; compare actual story header. Timed puzzle: collect safe probes/checkpoints without labeling an early flood/death as completion.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/change-in-weather.json",
+  "story_sha256_expected": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+  "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+  "dataset_split": "test",
+  "game_family": "change-in-weather",
+  "zmachine_version": 5,
+  "release": 6,
+  "serial": "960613",
+  "collection_notes": "# A Change in the Weather\n\nExact storyR6/960613. Guide explicitly R6/960613; compare actual story header. Timed puzzle: collect safe probes/checkpoints without labeling an early flood/death as completion.\n\nSmall broker help excerpts only; retain provenance. Save early/at milestones only at normal prompts. Collect varied labeled synthetic mistakes and actual repairs. Menu Enter is empty command, not literal space/RETURN word. No extra input to flush timeout. No training/publication.\n",
+  "session_id": "change-in-weather-3ff9a98393",
+  "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+  "started_at": "2026-09-25T05:28:06.489235+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

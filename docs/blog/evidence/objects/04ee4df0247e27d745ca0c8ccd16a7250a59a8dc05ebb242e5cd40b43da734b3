@@ -1,0 +1,8 @@
+# Return to Karn — progress (branch b1) — e00316 Storage, full-toolkit K9 retry
+
+Location: TARDIS Storage Room b1 e00316 (K9 inert, panel OPEN e00315; X K9 open-panel confirmed e00316). Score 20/170 (e00285). Game INCOMPLETE.
+Inventory (e00303 + workshop fixes): branch, yo-yo, key, jacket/hat worn carried; battery in K9 panel (pending reseat m0276); toolkit on workbench now holds pouch(empty)+match+scalpel (drop-in e00307)+screwdriver (e00309)+gold (e00310). Brown card on console floor; fluid link shut in drawer; homing in saucer hatch (saucer launched e00242); scarf tied at ledge.
+Checkpoints verified: console-hum-b1 e00228-29; console-gold-slot e00251-52; storage-k9-inert e00273-74; k9-clean-reseat-fail e00300-301. New: workshop toolkit completed e00307-310; storage return e00311-313.
+Hints (NOT observed, provisional): K9 order lines 63-71 (Enter Tardis Drop scarf E,E match>toolkit N X K9 battery>panel close =10/35) repeated e00302; toolkit missing scalpel/screwdriver was the likely block (fixed); scarf-drop step still unmet (scarf tied at ledge). Later: K9 follow / W open hatch / torch,mine>toolkit / N,W ask K9 door / X bubble (e00267). Departure blocked FLUID LINK NON-CONDUCTIVE e00254.
+Key evidence new: drop scalpel in toolkit ACCEPTED e00307 (annotate e00308 failure_type none); put screwdriver/gold in toolkit e00309-310; X K9 closed e00314 vs open e00316 both inert.
+Resume: From storage open-panel e00315-316: take battery (m0276 pending), put battery in panel, close panel, k9 follow, score. If still silent, checkpoint before risky probes, then consider scarf retrieval (ledge untie>drop in TARDIS) or restore to clearing-tardis-b1 for exact order replay without repeating probes. DO NOT replay old probes.

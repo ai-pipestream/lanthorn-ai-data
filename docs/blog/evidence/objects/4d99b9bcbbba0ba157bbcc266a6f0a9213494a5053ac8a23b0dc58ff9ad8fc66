@@ -1,0 +1,5 @@
+# Jigsaw collection notes
+
+Exact local header: R3/951129. Guide1995, release unspecified; shared protagonist reference to Curses conservatively grouped with Curses in train. Guide source: https://ifarchive.org/if-archive/solutions/Jigsaw.step. Preserve differences; hints are not observed success.
+
+Use prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.

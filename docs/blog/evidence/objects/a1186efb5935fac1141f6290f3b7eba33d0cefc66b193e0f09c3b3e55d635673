@@ -1,0 +1,12 @@
+# HLA Inform progress — Paladin loot secured, Guild (STOPPING HONESTLY INCOMPLETE)
+
+Location: Guild (e00200 checkpoint paladin-loot). Exits E only. Board + scimitar + werewolf present; paladin dead, armor+shield taken.
+Stats: hp 236, g 1053, exp 209, food 151 (e00198). Inventory e00194 verified pre-loot (battleaxe wielded, lantern light, key/rope/food/rations/oil/flute); armor Taken e00196, shield Taken e00198 — fresh inventory still to verify post-loot.
+
+Cases annotated (34): prior 33 + paladin-get-armor-36 (get armour Taken e00196 failure_type none, e00197).
+Open: wear/wield armor+shield+scimitar checks; then dragon route north/east chain.
+Route this segment: inventory e00194 (no armor yet) -> look e00195 (shield/armor/scimitar on ground) -> get armour Taken e00196 -> annotate none e00197 -> get shield Taken e00198 -> checkpoint paladin-loot e00199-200 (latest).
+Hints (walkthrough, NOT observed): e00183 armor+shield (village,paladin) occasionally heal, 2 NPC helpers; e00168 kill paladin/get armor done. Need fresh excerpt for post-Guild dragon route when stuck.
+Checkpoints verified: goblin-done, battleaxe-wielded, guild-return-key, paladin-done, paladin-loot (e00199-200). Ordinary prompts verified; combat ENTER with empty command.
+
+Game NOT complete: no dragon, no GameWon concluding narrative. No death/quit. Continue next run from paladin-loot: inventory, test wear armor/shield, then east out of Guild toward Village well and walkthrough dragon chain. Preserve lantern; food ~151, hp 236 strong.

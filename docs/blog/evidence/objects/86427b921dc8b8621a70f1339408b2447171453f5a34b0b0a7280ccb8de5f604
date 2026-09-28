@@ -1,0 +1,22 @@
+# Ghost Train progress
+
+Location: Outside Signal Box base (Top Of Wooden Steps door locked). Track tunnel area east with green signal lamp, Darkness tunnel south.
+Inventory as observed: carrying nothing (e00050 post-accident). Ticket lost in accident.
+Checkpoints: start-carriage (e00003-e00004); before-signalbox (e00038-e00039 verified).
+Last hint: signal box entry lines 38-46 — WEST UP WEST assumed open + phone/handle/necklace/coin/lever/panel inside; R7 door locked with keyhole blocks route (e00043/e00045). Repeat hint lines 34-42 gives no key.
+Unresolved case IDs (selection, 20-40 diverse target):
+- open-paper-synonym e00007 success (annotate none pending)
+- open-ingrid-typo e00008 fail->e00009 success (vocabulary pending)
+- open-kiss-pronoun e00010 success (none pending)
+- open-examine-omitted e00012 ->ticket (none pending)
+- open-ticket-show e00015-17 animate rejects (review pending)
+- wreck-train-synonym e00023 success (none pending)
+- wreck-bodies-synonym DONE e00026->e00027 annotated e00028
+- track-light e00030/31 both fail wrong segment (world_state pending)
+- signal-lamp-synonym e00036 success (none pending)
+- signalbox-climb e00041 climb-steps fail -> e00042 up success (syntax/vocab pending)
+- signalbox-door-push e00044 push fail + e00045 open-locked (world_state/planning pending; break e00075 violence-no, knock e00074 unknown-verb)
+- route-track-west e00034 blocked (world_state useful)
+- tunnel-south e00068 Darkness + retreat e00069 (route)
+- searches: ground e00056 nothing, embankment e00067 dismiss, signalbox e00071 nothing, debris e00060 nothing, bodies e00061 nothing, brambles e00064 impenetrable, under-steps e00054 dismiss
+Next: find signal box key — searched wreck/debris/bodies/ground/embankment/box/steps, tunnel dark needs light. Try x/take candidates around lamp/box/base, north endless-track probe, then help for key/underground.

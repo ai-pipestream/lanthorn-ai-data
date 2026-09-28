@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-25T10:35:25.342721+00:00",
+  "automation_id": "lanthorn-test-data-collection",
+  "parent_interval_minutes": 60,
+  "kimi_watcher_pid": 763144,
+  "kimi_login": "central authentication verified by prior successful provider calls; no credentials read or transferred",
+  "remote_role": "Muse clients remain on Pis; no Kimi installation or login needed for central coordination",
+  "quota_reset_at": "2026-09-25T12:41:27Z",
+  "authority": "routine Kimi coordination; exceptional recovery and final verification supervised"
+}

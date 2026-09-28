@@ -1,0 +1,39 @@
+# Progress — The Wedding (segment 2)
+
+## Current state
+- Location: Passage (ground floor), cellar door OPEN to the west
+- Score: 17, Moves: 240
+- Camera (empty, open?) on polished table; recorded tape now in drawing-room VCR (played, left inside)
+- Remote control in inventory (used for code entry); TV on channel 8; VCR played tape
+- Guard's cellar code OBSERVED on playback (e00348): guard typed 3719, door swung open, guard went inside
+- Cellar door opened live with 3-7-1-9 on remote (e00350-e00353, score 17)
+- No footsteps currently; guard whereabouts unknown (was outside front after ejection at move 217; may be in cellar per tape)
+- Inventory unverified since move 200: verify with `inventory` when safe
+
+## Route this segment (events 325-355)
+- contseg2_0001: waited in Passage w/ footsteps audible → guard EJECTED us outside front (move 217). Lesson: never wait when footsteps audible in Passage.
+- Recovered: E to patio, S to Grand Hall (quiet), S to Passage (quiet, door mention gone = closed, camera still on table)
+- Open camera; get tape (recorded); checkpoint `tape-recorded`
+- SW drawing room; help excerpt lines 176-184 (remote 8, wait rew, play, wait x3, note number, NE, digits)
+- PROBE `insert tape in vcr` accepted (= PUT); rew; switch on tv (Chloe tuts, adverts); get remote
+- PROBE `press 8 on remote` accepted (digit for word); TV to channel 8
+- Waited 3x to <clunk>; press play (grainy passage view); wait x3 → guard typed 3719, door opened, guard went in
+- NE passage; press 3/7/1/9 on remote (each blipped); 4th digit: click + fanfare, door open, score 17
+- Checkpoint `cellar-open` (verified Ok)
+
+## Annotated cases this segment (3)
+- vcr-load-verb (none): INSERT accepted (= PUT)
+- remote-eight-digit (none): digit 8 accepted (= word eight)
+- Running total ~49; probes only where natural.
+
+## Last hint
+- Lines 176-184: "Get remote. Press eight / Wait (rewound) / Press play / Wait x3 / note number / NE / Press <1st> / Press <2nd>..." — consumed through code entry. Digits came from LIVE screen text 3719 (e00348), never placeholders.
+- Next hint needed for: cellar interior / Sheryl sequence after entering.
+
+## Next actions
+1. `w` into cellar (from cellar-open checkpoint); observe occupants (guard? Sheryl?)
+2. Follow Sheryl/cellar sequence with small hints; then Deborah-directed finale
+3. Verify inventory when safe; checkpoint after cellar resolution
+
+## Checkpoints
+- start-outside, before-apple-throw, inside-entrance, drawing-chloe, malcolm-freed, william-pizza, garden-box, diamond-found, guard-confessed, tape-recorded, cellar-open (all verified Ok)

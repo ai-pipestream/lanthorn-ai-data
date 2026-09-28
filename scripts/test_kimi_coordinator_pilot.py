@@ -1,0 +1,577 @@
+#!/usr/bin/env python3
+"""Pure fixtures and fake provider/clock; never touches live games or invokes a model."""
+import copy
+import datetime as dt
+import json
+from pathlib import Path
+import subprocess
+import tempfile
+import unittest
+from unittest.mock import patch, Mock
+
+import kimi_coordinator_pilot as pilot
+import watch_kimi_coordinator as watcher
+
+NOW = dt.datetime(2026, 9, 25, 10, tzinfo=dt.timezone.utc)
+ROOT = Path('/fixture')
+
+
+def zstory():
+    data = bytearray(80)
+    data[0] = 5; data[2:4] = b'\x00\x02'; data[18:24] = b'260925'
+    return bytes(data)
+
+
+class MemoryCapture(pilot.Capture):
+    def __init__(self, files):
+        super().__init__(ROOT)
+        self.files = files
+
+    def peek(self, name):
+        key = str(self.root / name)
+        if key not in self.files:
+            raise FileNotFoundError(key)
+        return self.files[key]
+
+    def glob(self, pattern):
+        return sorted(str(Path(p).relative_to(self.root)) for p in self.files
+                      if Path(p).relative_to(self.root).match(pattern))
+
+
+def fixture():
+    files = {}
+    def put(path, obj):
+        files[str(ROOT / path)] = pilot.encode(obj)
+    put('control/worker-pool-status.json', dict(timestamp=NOW.isoformat(), target=10, queued=[]))
+    put('control/fleet/status.json', dict(timestamp=NOW.isoformat(), per_host=3, hosts=[f'h{i}' for i in range(8)], assigned={}))
+    put('control/fleet/assignments.json', {})
+    put('runs/fullplay-status.json', dict(verified_historical_endings=[]))
+    story = zstory(); digest = pilot.sha(story)
+    files[str(ROOT / 'story.z5')] = story
+    for gid in (*pilot.GAMES, 'new-game'):
+        base = 'play/' + gid + '/'; sid = gid + '-sid'
+        put(base + 'manifest.json', dict(game_id=gid, session_id=sid, engine='zvm-cli', story=str(ROOT / 'story.z5'),
+            story_sha256=digest, story_sha256_expected=digest, release=2, serial='260925', zmachine_version=5))
+        raw = b'An ordinary prompt.\n>'
+        event = dict(event_id=sid+':e1', event_index=1, session_id=sid, game_id=gid, branch_id='b0',
+                     story_sha256=digest, raw_start=0, raw_end=len(raw), response=raw.decode(),
+                     response_sha256=pilot.sha(raw), engine_state='awaiting_input_or_idle', metadata={})
+        files[str(ROOT / base / 'events.jsonl')] = pilot.encode(event).replace(b'\n', b'') + b'\n'
+        files[str(ROOT / base / 'stdout.raw')] = raw
+    holdgid = 'pythos-mask'
+    put('play/' + holdgid + '/supervisor-hold.json', dict(session_id=holdgid+'-sid', reason='preserve'))
+    gid = 'traffic'; sid = gid + '-sid'
+    claim = dict(event_id=sid+':e2', event_index=2, session_id=sid, game_id=gid, branch_id='b0',
+                 story_sha256=digest, raw_start=len(raw), raw_end=len(raw), response='',
+                 response_sha256=pilot.sha(b''), engine_state='unchanged', metadata={'evidence_event_ids':[sid+':e1']})
+    put('play/traffic/ending-claim.json', claim)
+    files[str(ROOT / 'play/traffic/events.jsonl')] += json.dumps(claim).encode()+b'\n'
+    proc = {1:dict(exe='/bin/muse-bin-1.0', argv=['/bin/muse-bin-1.0','exec','--workspace',str(ROOT/'play/new-game')])}
+    return files, proc
+
+
+def collect_fixture(fleet=False, files=None, proc=None):
+    defaults = fixture()
+    cap = MemoryCapture(files if files is not None else defaults[0])
+    process = proc if proc is not None else defaults[1]
+    data, cap = pilot.collect(fleet, ROOT, cap, lambda: process, lambda: NOW)
+    return data, cap
+
+
+def proposal(data):
+    games = []
+    for game in data['games']:
+        held = bool(game['supervisor_hold'])
+        ending = bool(game['ending_claim'])
+        disposition = 'hold' if held else ('verify_ending' if ending else 'continue')
+        games.append(dict(game_id=game['game_id'], session_id=game['session_id'], disposition=disposition,
+            evidence_event_ids=[e['event_id'] for e in game['evidence']], reason='Needs parent review.',
+            next_action=next(iter(pilot.ACTIONS[disposition])), confidence='medium', priority='normal'))
+    return dict(snapshot_id=data['snapshot_id'], games=games,
+                capacity=dict(active_local=data['active_local'], active_remote=data['active_remote'],
+                              held_slots=len(data['held_slots']), target=34, another_launch_justified=False, note='Counts are not health.'),
+                recommendation='Parent reviews proposals; no operations authorized.')
+
+
+def stream(decision):
+    return json.dumps({'role':'assistant','content':json.dumps(decision)}) + '\n'
+
+
+class DecisionTests(unittest.TestCase):
+    def setUp(self):
+        self.data, _ = collect_fixture()
+        self.decision = proposal(self.data)
+
+    def validate(self, value):
+        return pilot.validate_decision(json.dumps(value), self.data, NOW)
+
+    def test_valid_and_exact_outer_fence(self):
+        self.validate(self.decision)
+        _, fenced = pilot.validate_decision('```json\n'+json.dumps(self.decision)+'\n```', self.data, NOW)
+        self.assertTrue(fenced)
+        for text in ('extra '+json.dumps(self.decision), '```\n'+json.dumps(self.decision)+'\n```', json.dumps(self.decision)+' trailing'):
+            with self.assertRaises(ValueError): pilot.validate_decision(text, self.data, NOW)
+
+    def test_schema_bad_types_missing_extra_duplicates(self):
+        variants = []
+        d=copy.deepcopy(self.decision); del d['recommendation']; variants.append(d)
+        d=copy.deepcopy(self.decision); d['games'][0]['reason']={'bad':1}; variants.append(d)
+        d=copy.deepcopy(self.decision); d['games'][0]['priority']='critical'; variants.append(d)
+        d=copy.deepcopy(self.decision); d['games'][0]['extra']='input'; variants.append(d)
+        d=copy.deepcopy(self.decision); d['capacity']['active_local']=True; variants.append(d)
+        d=copy.deepcopy(self.decision); d['games'][0]=d['games'][1]; variants.append(d)
+        d=copy.deepcopy(self.decision); d['recommendation']=' '; variants.append(d)
+        for d in variants:
+            with self.subTest(d=d), self.assertRaises(pilot.Rejected): self.validate(d)
+        with self.assertRaises(pilot.Rejected): pilot.loads('{"a":1,"a":2}')
+        with self.assertRaises(pilot.Rejected): pilot.loads('{"a":NaN}')
+
+    def test_stale_sid_scope_and_refs(self):
+        for key, value in [('session_id','stale'),('game_id','foreign'),('evidence_event_ids',['missing'])]:
+            d=copy.deepcopy(self.decision); d['games'][0][key]=value
+            with self.subTest(key=key), self.assertRaises(pilot.Rejected): self.validate(d)
+        with self.assertRaises(pilot.Rejected): pilot.validate_decision(json.dumps(self.decision),self.data,NOW+dt.timedelta(seconds=pilot.MAX_SNAPSHOT_SECONDS+1))
+
+    def test_full_capacity_and_underfull_never_launch(self):
+        for local, remote in [(9,24),(1,0)]:
+            self.data.update(active_local=local,active_remote=remote)
+            d=proposal(self.data); d['capacity']['another_launch_justified']=True
+            with self.assertRaises(pilot.Rejected): self.validate(d)
+
+    def test_hold_timeout_pending_unknown_guards(self):
+        d=copy.deepcopy(self.decision); g=d['games'][-1]; g.update(disposition='diagnose',next_action='parent_diagnosis')
+        with self.assertRaises(pilot.Rejected): self.validate(d)
+        for state,pending in [('no_output_timeout',[]),('awaiting_input_or_idle',['m1']),('unknown',[])]:
+            self.data['games'][0].update(latest_actual_input_state=state,pending_requests=pending)
+            with self.subTest(state=state), self.assertRaises(pilot.Rejected): self.validate(self.decision)
+        self.data['games'][0].update(latest_actual_input_state='no_output_timeout',pending_requests=[])
+        d=copy.deepcopy(self.decision); d['games'][0].update(disposition='diagnose',next_action='passive_await_output_only')
+        self.validate(d)
+        self.data['games'][0]['pending_requests']=['m1']
+        with self.assertRaises(pilot.Rejected): self.validate(d)
+
+    def test_freeform_input_is_rejected(self):
+        for text in ['SAVE','restart','press space','monitor then north']:
+            d=copy.deepcopy(self.decision); d['games'][0]['next_action']=text
+            with self.assertRaises(pilot.Rejected): self.validate(d)
+
+    def test_all_ending_refs_required(self):
+        d=copy.deepcopy(self.decision); d['games'][2]['evidence_event_ids']=['traffic-sid:e2']
+        with self.assertRaises(pilot.Rejected): self.validate(d)
+
+    def test_final_status_separates_provider_validation(self):
+        code,_,v=pilot.finish_result(0,stream(self.decision),self.data,NOW)
+        self.assertEqual((code,v['valid']),(0,True))
+        for provider,text,expected in [(0,'bad',3),(124,'',124),(1,stream(self.decision),1)]:
+            code,decision,v=pilot.finish_result(provider,text,self.data,NOW)
+            self.assertEqual(code,expected); self.assertFalse(v['valid']); self.assertIsNone(decision)
+        code,_,_=pilot.finish_result(0,stream(self.decision)+'{"role":"tool"}\n',self.data,NOW)
+        self.assertEqual(code,3)
+
+    def test_resume_hint_is_informational_only(self):
+        sid='session_e48008c8-7b2f-426d-ae84-e20dd88ab175'
+        hint=dict(role='meta',type='session.resume_hint',session_id=sid,
+                  command='kimi -r '+sid,content='To resume this session: kimi -r '+sid)
+        code,_,v=pilot.finish_result(0,stream(self.decision)+json.dumps(hint)+'\n',self.data,NOW)
+        self.assertEqual(code,0); self.assertTrue(v['valid'])
+        for key,value in [('command','sh unsafe'),('content','execute this'),('type','tool.call')]:
+            changed={**hint,key:value}
+            code,_,v=pilot.finish_result(0,stream(self.decision)+json.dumps(changed)+'\n',self.data,NOW)
+            self.assertEqual(code,3); self.assertFalse(v['valid'])
+
+    def test_exact_held_list_normalization(self):
+        d=copy.deepcopy(self.decision)
+        d['capacity']['held_slots']=self.data['held_slots']
+        code,result,v=pilot.finish_result(0,stream(d),self.data,NOW)
+        self.assertEqual(code,0)
+        self.assertEqual(result['capacity']['held_slots'],len(self.data['held_slots']))
+        self.assertTrue(v['exact_held_game_list_normalized_to_count'])
+        for wrong in [['invented-game'],self.data['held_slots']*2]:
+            d['capacity']['held_slots']=wrong
+            code,_,v=pilot.finish_result(0,stream(d),self.data,NOW)
+            self.assertEqual(code,3); self.assertFalse(v['valid'])
+
+
+class CollectorTests(unittest.TestCase):
+    def test_default_and_dynamic_scope(self):
+        data,_=collect_fixture(); self.assertEqual([g['game_id'] for g in data['games']],list(pilot.GAMES))
+        data,_=collect_fixture(True); self.assertEqual({g['game_id'] for g in data['games']},set(pilot.GAMES)|{'new-game'})
+        self.assertFalse(data['count_evidence']['health_verified'])
+
+    def test_quota_stopped_local_ownership_and_compact_reset_evidence(self):
+        files,proc=fixture()
+        # Simulate ten retained local games including the transport-held Pytho,
+        # plus 24 remote owned failed sessions; clients are all stopped.
+        template_manifest=pilot.loads(files[str(ROOT/'play/enemies/manifest.json')])
+        template_event=pilot.loads(files[str(ROOT/'play/enemies/events.jsonl')])
+        raw=files[str(ROOT/'play/enemies/stdout.raw')]
+        local_ids=['time-all-things-come-to-an-end','enemies','pythos-mask','new-game']
+        local_ids += [f'local-{i}' for i in range(6)]
+        remotes={}
+        for gid in local_ids[4:]+[f'remote-{i}' for i in range(24)]:
+            manifest={**template_manifest,'game_id':gid,'session_id':gid+'-sid'}
+            event={**template_event,'game_id':gid,'session_id':gid+'-sid','event_id':gid+'-sid:e1'}
+            files[str(ROOT/'play'/gid/'manifest.json')]=pilot.encode(manifest)
+            files[str(ROOT/'play'/gid/'events.jsonl')]=json.dumps(event).encode()+b'\n'
+            files[str(ROOT/'play'/gid/'stdout.raw')]=raw
+            if gid.startswith('remote-'):
+                remotes[gid]=dict(host='h'+str(int(gid.split('-')[1])//3),session_id=gid+'-sid',
+                                  state='attention',error='quota',worker={'muse_alive':False},last_sync=NOW.isoformat())
+        fleet=pilot.loads(files[str(ROOT/'control/fleet/status.json')]); fleet['assigned']=remotes
+        files[str(ROOT/'control/fleet/status.json')]=pilot.encode(fleet)
+        files[str(ROOT/'control/fleet/assignments.json')]=pilot.encode(remotes)
+        hold_time=NOW-dt.timedelta(seconds=600)
+        pool=pilot.loads(files[str(ROOT/'control/worker-pool-status.json')]); pool['timestamp']=hold_time.isoformat()
+        pool['attention']=[gid+': unfinished without launcher' for gid in local_ids]
+        files[str(ROOT/'control/worker-pool-status.json')]=pilot.encode(pool)
+        files[str(ROOT/'control/worker-pool.json')]=pilot.encode({'enabled':False})
+        files[str(ROOT/'control/fleet/settings.json')]=pilot.encode({'enabled':False})
+        quota=dict(created_at=hold_time.isoformat(),reset_at='2026-09-25T12:41:27Z',reason='Meta quota',status='held',
+                   original_settings={'irrelevant_large_settings':'must not reach prompt'})
+        files[str(ROOT/'control/provider-quota-hold-20260925T0950.json')]=pilot.encode(quota)
+        data,_=collect_fixture(True,files,{})
+        self.assertEqual(data['active_local'],0); self.assertEqual(data['active_remote'],0)
+        self.assertEqual(data['retained_slots'],34)
+        self.assertEqual(set(data['owned_local_game_ids']),set(local_ids))
+        self.assertEqual(len(data['games']),35) # 34 retained plus unreviewed Traffic
+        self.assertNotIn('traffic',data['retained_slot_game_ids'])
+        self.assertEqual(data['provider_quota_hold']['reset_at'],'2026-09-25T12:41:27Z')
+        self.assertNotIn('original_settings',data['provider_quota_hold'])
+        decision=proposal(data)
+        with self.assertRaises(pilot.Rejected): pilot.validate_decision(json.dumps(decision),data,NOW)
+        for game in decision['games']:
+            if game['game_id'] in data['retained_slot_game_ids'] and game['disposition']!='hold':
+                game.update(disposition='diagnose',next_action='parent_diagnosis')
+        pilot.validate_decision(json.dumps(decision),data,NOW)
+        # A parent resume does not silently convert the frozen pool cache into fresh evidence.
+        files[str(ROOT/'control/worker-pool.json')]=pilot.encode({'enabled':True})
+        with self.assertRaises(pilot.Rejected): collect_fixture(True,files,{})
+
+    def test_verified_claim_omitted_only_for_exact_identity(self):
+        files,proc=fixture()
+        path=str(ROOT/'runs/fullplay-status.json')
+        record=dict(game_id='traffic',session_id='traffic-sid',story_sha256=pilot.sha(zstory()),event_id='traffic-sid:e1')
+        files[path]=pilot.encode(dict(verified_historical_endings=[record]))
+        data,_=collect_fixture(True,files,proc); self.assertNotIn('traffic',{g['game_id'] for g in data['games']})
+        record['session_id']='old'; files[path]=pilot.encode(dict(verified_historical_endings=[record]))
+        data,_=collect_fixture(True,files,proc); self.assertIn('traffic',{g['game_id'] for g in data['games']})
+
+    def test_legacy_manifest_observes_header_without_inventing_fields(self):
+        files,proc=fixture(); key=str(ROOT/'play/enemies/manifest.json')
+        manifest=pilot.loads(files[key])
+        for field in ('release','serial','zmachine_version'): del manifest[field]
+        files[key]=pilot.encode(manifest)
+        data,_=collect_fixture(files=files,proc=proc)
+        game=next(g for g in data['games'] if g['game_id']=='enemies')
+        self.assertEqual((game['release'],game['serial'],game['version']),(2,'260925',5))
+        self.assertEqual(set(game['manifest_fields_unavailable']),{'release','serial','zmachine_version'})
+
+    def test_legacy_ledger_decisive_intersection_preserves_session_branch(self):
+        claim=dict(game_id='traffic',session_id='traffic-sid',story_sha256='story',branch_id='b1',
+                   metadata={'evidence_event_ids':['traffic-sid:e1','traffic-sid:e2']})
+        record=dict(game_id='traffic',event_id='traffic-sid:e2',verdict='reviewed ending')
+        ledger={'verified_historical_endings':[record]}
+        self.assertTrue(pilot.claim_reviewed(claim,ledger))
+        for field,value in [('event_id','old-sid:e2'),('session_id','old'),('story_sha256','wrong'),('branch_id','b0')]:
+            altered=copy.deepcopy(record); altered[field]=value
+            self.assertFalse(pilot.claim_reviewed(claim,{'verified_historical_endings':[altered]}))
+
+    def test_large_journals_pinned_not_copied_story_never_copied(self):
+        data,c=collect_fixture(); copies=c.copies()
+        for path,item in copies.items():
+            if path.endswith(('events.jsonl','stdout.raw','runs/fullplay-status.json')):
+                self.assertNotIn('bytes_base64',item); self.assertGreater(item['captured_byte_count'],0)
+        self.assertNotIn(str(ROOT/'story.z5'),copies)
+        self.assertNotIn('input_sha256',data)
+
+    def test_raw_hash_text_bounds_and_story_mismatch(self):
+        for field,value in [('response_sha256','bad'),('response','different'),('raw_start',-1),('raw_end',999),('story_sha256','bad')]:
+            files,proc=fixture(); path=str(ROOT/'play/enemies/events.jsonl'); e=pilot.loads(files[path]); e[field]=value; files[path]=json.dumps(e).encode()
+            with self.subTest(field=field),self.assertRaises(pilot.Rejected): collect_fixture(files=files,proc=proc)
+
+    def test_claim_hold_session_missing_refs(self):
+        for path,change in [('play/traffic/ending-claim.json',{'session_id':'old'}),
+                            ('play/pythos-mask/supervisor-hold.json',{'session_id':'old'}),
+                            ('play/traffic/ending-claim.json',{'metadata':{'evidence_event_ids':['missing']}})]:
+            files,proc=fixture(); key=str(ROOT/path); value=pilot.loads(files[key]); value.update(change); files[key]=pilot.encode(value)
+            with self.subTest(path=path),self.assertRaises(pilot.Rejected): collect_fixture(files=files,proc=proc)
+
+    def test_session_boundary_after_entire_collection(self):
+        files,proc=fixture(); cap=MemoryCapture(files); original=cap.unchanged
+        def change(paths):
+            if len(paths)>3:
+                key=str(ROOT/'play/time-all-things-come-to-an-end/manifest.json'); m=pilot.loads(files[key]); m['session_id']='recovered'; files[key]=pilot.encode(m)
+            original(paths)
+        cap.unchanged=change
+        with self.assertRaises(pilot.Rejected): pilot.collect(False,ROOT,cap,lambda:proc,lambda:NOW)
+
+    def test_stale_pool_and_fleet_cache_fail(self):
+        for name in ['control/worker-pool-status.json','control/fleet/status.json']:
+            files,proc=fixture(); key=str(ROOT/name); d=pilot.loads(files[key]); d['timestamp']=(NOW-dt.timedelta(seconds=121)).isoformat(); files[key]=pilot.encode(d)
+            with self.subTest(name=name),self.assertRaises(pilot.Rejected): collect_fixture(files=files,proc=proc)
+
+    def test_active_remote_requires_fresh_sync_and_matching_assignment(self):
+        for bad in ['stale','assignment','host']:
+            files,proc=fixture(); record=dict(host='h0',session_id='enemies-sid',state='running',worker={'muse_alive':True},last_sync=NOW.isoformat())
+            if bad=='stale': record['last_sync']=(NOW-dt.timedelta(seconds=121)).isoformat()
+            if bad=='host': record['host']='unknown'
+            fleet=pilot.loads(files[str(ROOT/'control/fleet/status.json')]); fleet['assigned']={'enemies':record}; files[str(ROOT/'control/fleet/status.json')]=pilot.encode(fleet)
+            if bad!='assignment': files[str(ROOT/'control/fleet/assignments.json')]=pilot.encode(fleet['assigned'])
+            with self.subTest(bad=bad),self.assertRaises(pilot.Rejected): collect_fixture(files=files,proc=proc)
+
+    def test_failed_but_owned_remote_is_in_scope_with_honest_zero_count(self):
+        files,proc=fixture()
+        record=dict(host='h0',session_id='enemies-sid',state='attention',error='provider failed',
+                    worker={'muse_alive':False},last_sync=NOW.isoformat())
+        fleet=pilot.loads(files[str(ROOT/'control/fleet/status.json')]); fleet['assigned']={'enemies':record}
+        files[str(ROOT/'control/fleet/status.json')]=pilot.encode(fleet)
+        files[str(ROOT/'control/fleet/assignments.json')]=pilot.encode(fleet['assigned'])
+        data,_=collect_fixture(True,files,proc)
+        self.assertIn('enemies',{g['game_id'] for g in data['games']})
+        self.assertEqual(data['active_remote'],0)
+        decision=proposal(data)
+        with self.assertRaises(pilot.Rejected): pilot.validate_decision(json.dumps(decision),data,NOW)
+        game=next(g for g in decision['games'] if g['game_id']=='enemies')
+        game.update(disposition='diagnose',next_action='parent_diagnosis')
+        pilot.validate_decision(json.dumps(decision),data,NOW)
+
+    def test_prompt_compaction_keeps_exact_ending_output(self):
+        data,_=collect_fixture()
+        ending=next(g for g in data['games'] if g['ending_claim'])
+        ending['evidence'][0]['response']='whole ending '*100
+        for game in data['games']:
+            if not game['ending_claim']: game['progress_untrusted']='discardable notes '*3000
+        original=copy.deepcopy(data)
+        prompt=pilot.build_prompt(data)
+        self.assertLessEqual(len(prompt.encode()),pilot.MAX_PROMPT_BYTES)
+        view=pilot.loads(prompt.split('\nCopied evidence:\n',1)[1])
+        self.assertIn('prompt_compaction',view)
+        for game in view['games']:
+            before=next(g for g in original['games'] if g['game_id']==game['game_id'])
+            self.assertEqual([e['response'] for e in game['evidence']],[e['response'] for e in before['evidence']])
+        self.assertEqual(data,original)
+
+    def test_counts_use_real_binary_not_launchers(self):
+        _,proc=fixture(); proc[2]=dict(exe='/bin/bash',argv=['bash','run-fullplay.sh','enemies'])
+        self.assertEqual(pilot.muse_inventory(proc,ROOT),{'new-game':[1]})
+        proc[3]=copy.deepcopy(proc[1])
+        with self.assertRaises(pilot.Rejected): pilot.muse_inventory(proc,ROOT)
+
+    def test_actual_z_and_glulx_blorb_header(self):
+        manifest=dict(engine='zvm-cli',story_sha256=pilot.sha(zstory()),release=2,serial='260925',zmachine_version=5)
+        self.assertEqual(pilot.story_identity(zstory(),manifest)['release'],2)
+        manifest['serial']='wrong'
+        with self.assertRaises(pilot.Rejected): pilot.story_identity(zstory(),manifest)
+        glul=bytearray(64); glul[:4]=b'Glul'; glul[4:8]=(0x20000).to_bytes(4,'big'); glul[36:44]=b'Info\x00\x01\x00\x00'; glul[52:54]=b'\x00\x04'; glul[54:60]=b'020223'
+        chunk=b'GLUL'+len(glul).to_bytes(4,'big')+glul
+        blorb=b'FORM'+(len(chunk)+4).to_bytes(4,'big')+b'IFRS'+chunk
+        manifest=dict(engine='gvm-cli',story_sha256=pilot.sha(blorb),release=4,serial='020223')
+        identity=pilot.story_identity(blorb,manifest); self.assertEqual(identity['executable_offset'],20); self.assertEqual(identity['serial'],'020223')
+        with self.assertRaises(pilot.Rejected): pilot.story_identity(blorb[:-1],manifest)
+
+
+class InvocationTests(unittest.TestCase):
+    def setUp(self):
+        self.temp=tempfile.TemporaryDirectory(prefix='kimi-fixtures-')
+        self.addCleanup(self.temp.cleanup)
+        self.root=Path(self.temp.name)
+        (self.root/'control/kimi-pilot').mkdir(parents=True)
+        (self.root/'scripts').mkdir()
+        self.profile=b'---\nname: fixture\ndescription: fixture\ntools: []\nsubagents: []\n---\nFixture only.'
+        (self.root/'control/kimi-pilot/coordinator.md').write_bytes(self.profile)
+        (self.root/'scripts/kimi_coordinator_pilot.py').write_text('# fixture collector')
+        self.cli=self.root/'fake-cli'; self.cli.write_text('fixture, never executed')
+        self.data,self.capture=collect_fixture()
+        self.decision=proposal(self.data)
+
+    def run_fake(self,runner):
+        with patch.object(pilot,'CLI',self.cli),patch.object(pilot,'collect',return_value=(self.data,self.capture)),patch.object(pilot,'utcnow',return_value=NOW):
+            return pilot.run_once(root=self.root,runner=runner)
+
+    def test_pins_before_call_and_final_receipts(self):
+        def fake(argv,**kwargs):
+            profile=Path(argv[2]); self.assertEqual(profile.read_bytes(),self.profile)
+            run=kwargs['cwd']; self.assertTrue((run/'invocation.json').exists())
+            (self.root/'control/kimi-pilot/coordinator.md').write_text('parent edit while running')
+            kwargs['stdout'].write(stream(self.decision)); return subprocess.CompletedProcess(argv,0)
+        code,run=self.run_fake(fake); self.assertEqual(code,0)
+        receipt=pilot.loads((run/'run.json').read_bytes())
+        self.assertEqual(receipt['profile_sha256'],pilot.sha(self.profile))
+        self.assertTrue(receipt['actual_model_unresolved']); self.assertIsNone(receipt['actual_model'])
+        self.assertEqual(receipt['provider_exit_code'],0)
+        self.assertEqual((run/'exit.status').read_text(),'0\n')
+
+    def test_provider_success_validation_failure_is_final_failure(self):
+        def fake(argv,**kwargs):
+            kwargs['stdout'].write('not JSON'); return subprocess.CompletedProcess(argv,0)
+        code,run=self.run_fake(fake); receipt=pilot.loads((run/'run.json').read_bytes())
+        self.assertEqual((code,receipt['provider_exit_code'],receipt['exit_code']),(3,0,3))
+        self.assertEqual((run/'exit.status').read_text(),'3\n'); self.assertFalse((run/'decision.json').exists())
+
+    def test_prompt_size_fails_before_provider_without_truncating_ending(self):
+        self.data['games'][2]['evidence'][0]['response']='ending '*20000
+        runner=Mock(side_effect=AssertionError('must not call provider'))
+        code,run=self.run_fake(runner); self.assertEqual(code,3); runner.assert_not_called()
+        snapshot=pilot.loads((run/'snapshot.json').read_bytes())
+        self.assertEqual(snapshot['games'][2]['evidence'][0]['response'],'ending '*20000)
+        self.assertIn('100 KiB',(run/'validation.json').read_text())
+
+    def test_timeout_and_auth_failure(self):
+        runner=Mock(side_effect=subprocess.TimeoutExpired('fake',300))
+        code,run=self.run_fake(runner); self.assertEqual(code,124)
+        self.assertEqual(pilot.loads((run/'run.json').read_bytes())['provider_exit_code'],124)
+
+    def test_profile_tools_refused_before_provider(self):
+        (self.root/'control/kimi-pilot/coordinator.md').write_bytes(self.profile.replace(b'tools: []',b'tools: [shell]'))
+        runner=Mock(); code,_=self.run_fake(runner)
+        self.assertEqual(code,3); runner.assert_not_called()
+
+
+class WatcherTests(unittest.TestCase):
+    def test_sequential_bounded_loop(self):
+        clock=[0]; calls=[]; receipts=[]
+        def invoke(root): calls.append(clock[0]); clock[0]+=50; return 0,'fixture-run',None
+        def sleep(seconds): clock[0]+=seconds
+        code=watcher.run_loop(ROOT,1080,300,invoke,lambda:clock[0],sleep,lambda p,v:receipts.append(copy.deepcopy(v)), preflight=lambda root:{'skip_provider':False}, preserve=lambda root:{})
+        self.assertEqual(code,0); self.assertEqual(calls,[0,350]); self.assertLessEqual(clock[0],1080)
+        self.assertEqual(receipts[-1]['status'],'completed_duration')
+
+    def test_provider_validation_failure_stops_without_retry(self):
+        for exit_code in [1,3,124]:
+            invoke=Mock(return_value=(exit_code,None,'failure')); sleep=Mock(); receipts=[]
+            code=watcher.run_loop(ROOT,10800,300,invoke,lambda:0,sleep,lambda p,v:receipts.append(copy.deepcopy(v)), preflight=lambda root:{'skip_provider':False}, preserve=lambda root:{})
+            self.assertEqual(code,exit_code); self.assertEqual(invoke.call_count,1); sleep.assert_not_called()
+            self.assertEqual(receipts[-1]['status'],'stopped_failure_no_retry')
+
+    def test_duration_interval_and_singleton(self):
+        for duration,interval in [(10801,300),(10800,299),(100,300)]:
+            with self.assertRaises(ValueError): watcher.run_loop(ROOT,duration,interval)
+        with tempfile.TemporaryDirectory(prefix='kimi-lock-fixture-') as directory:
+            with patch.object(watcher,'ROOT',Path(directory)),patch('sys.argv',['watcher']),patch.object(watcher.fcntl,'flock',side_effect=BlockingIOError),patch.object(watcher,'run_loop') as loop:
+                self.assertEqual(watcher.main(),73); loop.assert_not_called()
+
+
+class QuotaPreflightTests(unittest.TestCase):
+    def setUp(self):
+        self.snapshot,self.capture=collect_fixture(True)
+        self.snapshot['provider_quota_hold']=dict(active=True,local_enabled=False,remote_enabled=False,
+            reset_at='2026-09-25T12:41:27Z',reason='quota',status='held',receipt_sha256='volatile-receipt')
+        for name in ('control/worker-pool.json','control/fleet/settings.json'):
+            self.capture.inputs[str(ROOT/name)]=pilot.encode({'enabled':False,'target':10})
+        self.prior=dict(run=str(ROOT/'control/kimi-pilot/20260925T103142.522311Z'),
+            snapshot=copy.deepcopy(self.snapshot),inputs=copy.deepcopy(self.capture.copies()),
+            decision_sha256='decision-pin',snapshot_sha256='snapshot-pin')
+
+    def check(self,now=NOW,baseline=True):
+        return watcher.quota_preflight(ROOT,lambda **kwargs:(self.snapshot,self.capture),lambda:now,
+                                       lambda root:self.prior if baseline else None)
+
+    def test_unchanged_skips_only_before_reset_and_with_prior_success(self):
+        result=self.check()
+        self.assertTrue(result['skip_provider']); self.assertFalse(result['decision_is_fresh'])
+        self.assertEqual(result['provider_calls'],0)
+        self.assertEqual(result['baseline_decision_sha256'],'decision-pin')
+        self.assertFalse(self.check(baseline=False)['skip_provider'])
+        reset=dt.datetime(2026,9,25,12,41,27,tzinfo=dt.timezone.utc)
+        self.assertFalse(self.check(reset)['skip_provider'])
+        self.snapshot['provider_quota_hold']['active']=False
+        self.assertFalse(self.check()['skip_provider'])
+
+    def test_volatile_fields_and_queue_order_ignored(self):
+        self.snapshot.update(snapshot_id='new',captured_at='new',capture_finished_at='new',fleet_observed_at='new')
+        self.snapshot['provider_quota_hold'].update(receipt_sha256='other',created_at='other')
+        game=self.snapshot['games'][0]; game['evidence'][0].update(timestamp='new',revision=52)
+        self.prior['snapshot']['queued']=['b','a']; self.snapshot['queued']=['a','b']
+        self.assertTrue(self.check()['skip_provider'])
+
+    def test_semantic_changes_invoke(self):
+        original=copy.deepcopy(self.snapshot)
+        mutations=[lambda s:s['games'][0].update(session_id='recovered'),
+            lambda s:s['games'][0].update(story_sha256='different'),
+            lambda s:s['games'][0].update(latest_actual_input_state='no_output_timeout'),
+            lambda s:s['games'][0]['evidence'][0].update(response='new raw'),
+            lambda s:s['games'][0].update(progress_untrusted='new progress'),
+            lambda s:s['games'][0].update(ending_claim={'new':'claim'}),
+            lambda s:s['games'][0].update(supervisor_hold={'new':'hold'}),
+            lambda s:s['games'][0].update(pending_requests=['m1']),
+            lambda s:s.update(owned_remote_game_ids=['different']),
+            lambda s:s.update(active_local=0),
+            lambda s:s['provider_quota_hold'].update(reset_at='2026-09-25T13:00:00Z'),
+            lambda s:s['provider_quota_hold'].update(status='different provider status'),
+            lambda s:s['provider_quota_hold'].update(local_enabled=True),
+            lambda s:s.update(queued=['new-game']),
+            lambda s:s['games'][0].update(remote_state={'worker':{'state':'failed','exit':1}})]
+        for mutate in mutations:
+            self.snapshot=copy.deepcopy(original); mutate(self.snapshot)
+            with self.subTest(mutation=mutate): self.assertFalse(self.check()['skip_provider'])
+
+    def test_complete_progress_and_settings_not_only_snapshot_tail(self):
+        for name in ['play/'+self.snapshot['games'][0]['game_id']+'/progress.md','control/worker-pool.json']:
+            original=self.capture.inputs[str(ROOT/name)]
+            self.capture.inputs[str(ROOT/name)]=b'changed outside visible tail' if name.endswith('.md') else pilot.encode({'enabled':False,'target':9})
+            self.assertFalse(self.check()['skip_provider'])
+            self.capture.inputs[str(ROOT/name)]=original
+
+    def test_fresh_collection_failure_never_skips_or_calls_provider(self):
+        def fail(root):
+            return watcher.quota_preflight(root,Mock(side_effect=pilot.Rejected('stale evidence')),lambda:NOW,lambda root:self.prior)
+        invoke=Mock(); receipts=[]
+        code=watcher.run_loop(ROOT,10800,300,invoke,lambda:0,Mock(),lambda p,v:receipts.append(copy.deepcopy(v)),
+                              preflight=fail,preserve=lambda root:{})
+        self.assertEqual(code,3); invoke.assert_not_called()
+        self.assertEqual(receipts[-1]['status'],'stopped_failure_no_retry')
+
+    def test_skips_persist_reference_and_never_increment_provider_calls(self):
+        tick=[0]; receipts=[]; invoke=Mock(side_effect=AssertionError('no provider'))
+        def sleep(seconds): tick[0]+=seconds
+        code=watcher.run_loop(ROOT,1000,300,invoke,lambda:tick[0],sleep,lambda p,v:receipts.append(copy.deepcopy(v)),
+                              preflight=lambda root:self.check(),preserve=lambda root:{'old':'archive'})
+        self.assertEqual(code,0); invoke.assert_not_called()
+        status=receipts[-1]
+        self.assertEqual(status['provider_calls'],0); self.assertEqual(status['calls_completed'],0)
+        self.assertEqual(status['skipped_calls'],2); self.assertFalse(status['decision_is_fresh'])
+        self.assertEqual(status['preflight']['baseline_run'],self.prior['run'])
+
+    def test_preflight_time_cannot_exceed_remaining_call_budget(self):
+        tick=[0]; invoke=Mock()
+        def preflight(root): tick[0]+=100; return {'skip_provider':False}
+        watcher.run_loop(ROOT,700,300,invoke,lambda:tick[0],Mock(),lambda p,v:None,
+                         preflight=preflight,preserve=lambda root:{})
+        invoke.assert_not_called()
+        self.assertEqual(pilot.MAX_RUN_SECONDS,600)
+        self.assertEqual(pilot.MAX_SNAPSHOT_SECONDS,720)
+        self.assertEqual(watcher.CALL_BUDGET,630)
+
+    def test_restart_archives_prior_failed_status_bytes(self):
+        with tempfile.TemporaryDirectory(prefix='kimi-status-fixture-') as directory:
+            root=Path(directory); base=root/'control/kimi-pilot'; base.mkdir(parents=True)
+            old=b'{"status":"stopped_failure_no_retry","last_exit_code":124}'
+            for name in ('watcher-status.json','latest-status.json'): (base/name).write_bytes(old)
+            saved=watcher.preserve_previous_status(root)
+            for name,record in saved.items():
+                self.assertEqual(Path(record['path']).read_bytes(),old)
+                self.assertEqual(record['sha256'],pilot.sha(old))
+                (base/name).write_text('restarted')
+                self.assertEqual(Path(record['path']).read_bytes(),old)
+
+    def test_last_validated_ignores_later_failure_and_pins_historical_snapshot(self):
+        with tempfile.TemporaryDirectory(prefix='kimi-baseline-fixture-') as directory:
+            root=Path(directory); base=root/'control/kimi-pilot'
+            valid=base/'20260925T103142.522311Z'; valid.mkdir(parents=True)
+            historical=copy.deepcopy(self.prior['snapshot']); historical['provider_quota_hold']={}
+            snap=pilot.encode(historical); inputs=pilot.encode(self.prior['inputs'])
+            (valid/'snapshot.json').write_bytes(snap); (valid/'captured-inputs.json').write_bytes(inputs)
+            (valid/'decision.json').write_bytes(pilot.encode(proposal(historical)))
+            (valid/'validation.json').write_bytes(pilot.encode({'valid':True,'status':'validated_proposal_only','actions_executed':[]}))
+            (valid/'run.json').write_bytes(pilot.encode({'exit_code':0,'provider_exit_code':0,'snapshot_sha256':pilot.sha(snap),
+                'inputs_sha256':pilot.sha(inputs),'finished_at':NOW.isoformat()}))
+            failed=base/'20260925T104128.748159Z'; failed.mkdir()
+            (failed/'run.json').write_bytes(pilot.encode({'exit_code':124,'provider_exit_code':124}))
+            prior=watcher.last_validated(root)
+            self.assertEqual(prior['run'],str(valid))
+            (valid/'snapshot.json').write_bytes(snap+b' ')
+            with self.assertRaises(pilot.Rejected): watcher.last_validated(root)
+
+
+if __name__=='__main__':
+    unittest.main()

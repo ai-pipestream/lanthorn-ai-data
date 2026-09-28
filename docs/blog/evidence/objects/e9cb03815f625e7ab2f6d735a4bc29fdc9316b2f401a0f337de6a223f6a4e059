@@ -1,0 +1,8 @@
+# SpiritWrak progress — INCOMPLETE, Subway Entrance searching for icebox (R3 mismatch?)
+
+State: Subway Entrance e293 (southern city, stairs down, circular sign; no icebox). Route: General Store e280-281 no icebox/south pit, open icebox e283 unseen, inventory e284 (square key/egg/amulet/flour/book), south e285 pit blocked, northwest e286 Frostham, look e287, help m0253 lines 104-112 (scroll/zemdor/blue boxes, no location), west e289 Ski Resort (skier waxing with scroll), east e290 Frostham, southwest e291 Governor's Waiting Room, northeast e292 Frostham, south e293 Subway Entrance.
+Inventory: square key, corbie egg, amulet worn (light), flour, prayer book. Score 12.
+Checkpoints (Ok): attic-key, hallway-crates, general-store, etc.
+Cases: ~43 incl icebox-open-locked probe e283 unseen (no annotate yet — needs world_state/planning label: icebox not present in R3 store). No help pending.
+Last hint: m0253 lines 104-112 Take scroll/read/Gnusto zemdor/Zemdor blue box — assumes icebox already opened; location still unknown, likely R2 vs R3 mismatch (manifest preserves mismatch).
+Next: 1) annotate e283 open-icebox as world_state (icebox absent in store) or hold until found; 2) return north to Frostham/store/hallway to inspect crate/pit mechanism; 3) help refined topic General Store R3 icebox vs pit; 4) update progress every 10-15. Conserve lamp (amulet light, no lamp drain noted).

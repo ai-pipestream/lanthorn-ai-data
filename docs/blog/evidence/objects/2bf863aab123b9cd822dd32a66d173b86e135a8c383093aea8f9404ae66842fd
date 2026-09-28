@@ -1,0 +1,77 @@
+{
+  "game_id": "critical-breach",
+  "title": "Critical Breach",
+  "author": "Grey",
+  "url": "https://ifarchive.org/if-archive/solutions/criticalbreach.txt",
+  "accessed_at": "2026-09-25T06:11:49.564467+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/criticalbreach.txt",
+  "source_sha256": "230822e99d395caf59a92fe6119d1d1e428041f7eda18ba5fcba5c44ccf211e5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/critical-breach-walkthrough.txt",
+  "normalized_sha256": "230822e99d395caf59a92fe6119d1d1e428041f7eda18ba5fcba5c44ccf211e5",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/CriticalBreach.z8",
+  "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+  "compatibility": "Local R3/130817 matches archive. Author guide shares IFDB identity and documents two endings but gives no release/serial; its 2010 archive date predates this 2013 release. Preserve the release gap and verify scene compatibility from output.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 3,
+  "serial": "130817",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000003a6e0a6e19662010a223c8e1500503133303831370042831bb4f9000000000000000000000000000000008e14000000000000010200000000362e3331",
+    "header_sha256": "2338dcc43756127fccb3bbafa0e4e4b48afad17c1f2c29ff0307c12231262233",
+    "checksum_hex": "b4f9",
+    "declared_length": 268504,
+    "file_bytes": 268800
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "CriticalBreach.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/CriticalBreach.z8",
+    "accessed_at": "2026-09-25T06:13:02.394459+00:00",
+    "remote_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+    "local_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+    "bytes": 268800,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 3,
+    "remote_serial": "130817"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#CriticalBreach.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "CriticalBreach.z8\n◆\n[20-Aug-2013]\nIFDB entry\nIFWiki:\nCritical Breach\nCritical Breach, an Escape Story, by Grey.\nWritten for the 2010 Jay Is Games\n\"One-Room-Escape\" competition.\nRelease 3 / Serial number 130817.\n(a solution is in\nsolutions/criticalbreach.txt;\nthe original competition entry is in\ngames/mini-comps/cgdc7/CriticalBreach.z8)",
+    "tuid": "d4d28pkufwxfhen"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#criticalbreach.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "criticalbreach.txt\n◆\n[25-Feb-2010]\nIFDB entry\nSolution to Critical Breach, by the game's author.",
+    "tuid": "d4d28pkufwxfhen"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the full laboratory/specimen/chip escape sequence, then pursue the Scientist ending through its confrontation and resulting narrative. Preserve and correctly label the intended Thing ending if chosen instead; do not require both or reject it merely for its altered-character outcome. Ordinary early death, a lab exit or a guide heading alone is not completion.",
+    "limitations": "Guide has timed waits and two mutually exclusive ending branches. Follow observed prompts and state rather than concatenating both endings or literal section headings. Checkpoint before the divergence when an ordinary command prompt and safe save are available.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "critical-breach",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Both Thing and Scientist endings and all releases stay in this family. Science-fiction horror themes alone do not establish overlap with existing games."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission."
+}

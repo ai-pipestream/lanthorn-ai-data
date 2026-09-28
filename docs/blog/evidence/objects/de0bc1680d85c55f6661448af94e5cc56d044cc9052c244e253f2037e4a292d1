@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "gumshoe.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/gumshoe.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/gumshoe.sol",
+    "accessed_at": "2026-09-25T06:42:12.740063+00:00",
+    "sha256": "dec19e255650e11ef65814504b2d82057a891ad00b1fb29187495e0cf2b1b29b",
+    "bytes": 5287
+  },
+  {
+    "filename": "FineTune.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/FineTune.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/FineTune.sol",
+    "accessed_at": "2026-09-25T06:42:12.730176+00:00",
+    "sha256": "8544d7748a820514742ea71b01220ac9c549e6b5ef95cfd1f553c12062437f3e",
+    "bytes": 2840
+  },
+  {
+    "filename": "lost.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/lost.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/lost.sol",
+    "accessed_at": "2026-09-25T06:42:12.730023+00:00",
+    "sha256": "090b11f2e481034479b8373bad8615832e12254ed225871c28cb86bd4f4a7da3",
+    "bytes": 8579
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T06:42:12.771034+00:00",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T06:42:12.762107+00:00",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "magictoy.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/magictoy.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/magictoy.sol",
+    "accessed_at": "2026-09-25T06:43:12.120326+00:00",
+    "sha256": "8aa7f37cbba406f57e563b41ebf8a390442edcd89a316380af1fe74960b1c106",
+    "bytes": 2904
+  },
+  {
+    "filename": "christminster.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/christminster.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/christminster.sol",
+    "accessed_at": "2026-09-25T06:43:12.122508+00:00",
+    "sha256": "34c29365df7ca4be8ba8b78fd02f854ee07e88d5333533e09651c80080b7398f",
+    "bytes": 10017
+  },
+  {
+    "filename": "lost-competition-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition97/inform/lost/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition97/inform/lost/",
+    "accessed_at": "2026-09-25T06:43:12.132332+00:00",
+    "sha256": "126e74e8c3d5256f9283e151829fd17689df0738b7f71a71141a6f952b31ef3c",
+    "bytes": 2865
+  }
+]

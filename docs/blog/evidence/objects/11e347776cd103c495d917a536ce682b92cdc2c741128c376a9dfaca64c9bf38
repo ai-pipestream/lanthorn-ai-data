@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-09-25T06:36:02.856022+00:00",
+  "target": 10,
+  "workers": {
+    "curses": [
+      908334
+    ],
+    "zork-i7": [
+      1729082
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "tryst-of-fate": [
+      2968512
+    ],
+    "delusions": [
+      2999855
+    ],
+    "childs-play": [
+      2999896
+    ],
+    "the-edifice": [
+      3111269
+    ],
+    "anchorhead": [
+      3134277
+    ],
+    "so-far": [
+      3148645
+    ],
+    "paper-chase": [
+      3167249
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "savoir-faire",
+    "jewel-of-knowledge",
+    "moon-shaped",
+    "reverberations",
+    "asylum",
+    "nine-points"
+  ],
+  "queued": [
+    "mansion",
+    "pick-up-the-phone-booth-and-aisle",
+    "bse",
+    "bedlam",
+    "critical-breach",
+    "danger-adventurer-at-work"
+  ]
+}

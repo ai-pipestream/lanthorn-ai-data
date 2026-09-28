@@ -1,0 +1,22 @@
+{
+  "game_id": "dreamhold",
+  "title": "The Dreamhold",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/dreamhold.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/dreamhold-walkthrough.txt",
+  "walkthrough_url": "https://plover.net/~davidw/sol/dreamhold.html",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/dreamhold.json",
+  "story_sha256_expected": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+  "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+  "dataset_split": "development",
+  "game_family": "dreamhold",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "041231",
+  "session_id": "dreamhold-362786f871",
+  "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+  "started_at": "2026-09-25T02:34:59.867684+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

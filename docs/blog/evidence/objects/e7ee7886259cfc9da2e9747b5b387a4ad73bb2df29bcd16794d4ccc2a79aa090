@@ -1,0 +1,320 @@
+# Explicit service-timeout recovery
+
+Current session: savoir-faire-5a89e6c8ff, branch b3. Restored basin-full successfully.
+Save evidence: savoir-faire-3e83fd4831:e00092. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Scullery
+A small, workmanlike room with a floor of white stones. The principal features 
+of the room are a counter, with a large inset washbasin also made of stone, and 
+a tall wooden cupboard.
+
+On the countertop are a loaf of stale bread and a sack (in which is a single 
+yellow onion).
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+## Progress savoir-faire — 2026-09-25 continuation seg 3 (STOPPED pending)
+
+STOPPED with game incomplete: broker response for inbox/m0087.json (await_output to resolve SPACE no_output_timeout) still pending; latest.json remains e00103 (no_output_timeout, raw 16668-16668). m0086 already resolved to same e00103 delayed_output empty. Request verified well-formed; not duplicated per protocol.
+
+Resume: read latest.json + progress.md; retry responses/m0087.json first. If resolved to HELP menu, send Q to resume game at ordinary prompt only, verify with look at basin. Branch b1 = basin-full checkpoint (basin plugged, full to brim, 5 loads). Do NOT replay identical probes. Next puzzle: TAKE BAUBLE (hint e00098 names bauble; take ring e00094 / take all e00097 failed) then LOOK IN BAUBLE / link-mirror route, or pivot to corridor/attic jars/bee, roses with butcher knife, contraption recipe. Checkpoints available: start-garden, have-sausages, basin-full.
+
+Counts so far: ~103 events, 4 broker helps (well, basin plug, basin amount, floated-object/bauble link hint), 5 annotations (well syntax, bread vocabulary, sausage ambiguity, cupboard typo, plug vocabulary). Need 20-40 diverse cases across complete game; many accepted-paraphrase none-annotations still queued (read sundial, open shed, chop/pour/fill variants, take knife, pick up sponge). Conserve light; no timed resources used.
+
+Detailed state at basin-full (b1): Location Scullery in HELP menu. Inventory: hat worn, swordstick, sword, snuffbox closed, andouillettes, butcher knife, cup empty, teapot full open. Bread on scullery counter. Sponge plugging basin hole. Basin full to brim after 5 loads (cup x3 + teapot x2); teapot 6th refused full. LINK/REMEMBER learned from HELP Special Instructions (player-observed). Menu flow: HELP (m0082) -> 3 (m0083) -> RETURN (m0084 linking text) -> SPACE (m0085 no_output_timeout) -> await_output m0086 (e00103 no_output_timeout) -> await_output m0087 pending -> then Q to resume. Never SAVE inside menu.
+
+## Continuation seg 1 (2026-09-25 03:29-03:31 UTC, branch b3)
+
+Location: Kitchen Corridor (e00017-e00020). At ordinary prompt, checkpoint corridor-safe OK.
+Inventory observed e00007: teapot open full to brim, cup, butcher knife, andouillettes, sword, hat worn, swordstick, snuffbox closed. Sponge remains plugging basin; basin full (e00008/e00011: great deal water + sponge, no floated object named).
+Basin probes: take bauble e00010 fails "can't see"; look in basin e00011 only water+sponge. Helps e00009/e00012 repeat bauble-link and float hints, no new identity. Basin stuck, pivoted per plan.
+Corridor: go west e00014 new room, double doors locked (open door e00015 parses as doors, world_state locked). Down e00016 is Darkness, retreated up e00017. Block e00018 plain stone. Checkpoint corridor-safe e00019-e00020.
+Unresolved cases: basin-bauble-01, basin-inspect-b3-01, corridor-doors-01 (accepted parse, locked), route-cellar darkness. Queued annotations: basin bauble, corridor door accepted paraphrase.
+Last hints: e00012 float/plug excerpt (lines 443-451).
+Next: east to kitchen, attic upstairs for jars/bee/light, garden roses with butcher knife, ditch outflow, contraption. Avoid HELP menus. Conserve light; darkness without lamp is death risk.
+Checkpoints: start-garden, have-sausages, basin-full, corridor-safe.
+
+## Continuation seg 1b (03:31-03:35 UTC, branch b3 e00021-e00052)
+
+Location: Scullery (e00043-e00049). Sack secured, cup recovered via sack capacity.
+Kitchen->garden: roses probe cut roses e00027 asks tool; cut with knife e00028 thorns refusal; help confirms no blade works (lines 35-43). Pipe e00030 through wall, ditch e00031 only mud (no flush). Snuffbox: open box e00032 accepted (none-annotation), take snuff e00033, remember me/father e00034-35. Herbs mint e00036. Shed look e00039, SE e00040 still blocked. Help next lines 44-52, 53-61 reveal TAKE/CLIMB/CUT roses are walkthrough false steps; sack is rucksack.
+Scullery: get bag e00044 fails (vocab), take sack e00045 too-many, put cup e00046, take sack e00047 success (annotated vocab). Inventory e00048: sack open+onion, teapot full, knife, sausages, sword, hat, swordstick, snuffbox now in sack after auto-stow; take cup e00049 auto-stows snuffbox. Annotations e00050-52: sack vocab, roses planning, open-box none.
+Unresolved: attic hanky get hanky e00023 parsed but too-many (needs recovery take now), basin bauble, corridor door. Next: kitchen->attic take handkerchief with sack room, then well/bar/climb/swim per hints (X BAR CLIMB BAR etc), remember well, examine sundial/gnomon.
+Checkpoints: corridor-safe OK; basin-full intact (sponge still plugging, do not drain).
+
+## Continuation seg 1c (03:35-03:37 UTC, branch b3 e00053-e00076)
+
+Location: Servants Dormitory attic (e00054-e00073). Checkpoint attic-finds OK e00074-75.
+Attic: take handkerchief e00055 success via sack auto-stow (annotated world_state vs get hanky e00023). Fireplace e00057 tickles memory; remember fireplace e00058 reveals coins behind brick. Search e00059 empty, take brick e00060 cemented, pry brick e00061 vocab fail, push brick e00062 same cemented; help lines 105-113 lists X BRICK TAKE BRICK + REMEMBER ANTON/LEONIE. Look brick e00064 pushed forward (loose-looking) but take e00067 still cemented; remember Anton/Leonie e00065-66, look in fireplace e00068 empty. R8 mismatch suspected; brick pending.
+Bed e00069 SCORE 2: silver cylinder + crumpled paper. Cylinder e00070 Lentil Soup recipe; read e00071 ingredients lentils/onion/water/garlic/bay/olive/salt. Read paper e00072 accepted (none-annotation e00076), remember Marie e00073.
+Inventory now includes sack, teapot full, cup, knife, sausages, sword, hanky, etc with auto-stows. Unresolved: brick coins, basin bauble, well bar/climb/swim, sundial gnomon, contraption lentil build. Next: well/bar/water remembers in garden, then kitchen contraption, then corridor jars/bee/light search. Conserve light; darkness still risky.
+Checkpoints: attic-finds, corridor-safe, basin-full.
+
+## Continuation seg 1d (03:38-03:39 UTC, branch b3 e00077-e00095)
+
+Location: Kitchen (e00087-e00094). Checkpoint kitchen-garlic OK e00092-93.
+Garden well: look well e00079 bar+water, remember well e00080 father climbing memory, climb well e00081 crosses bar safely (accepted), go down e00082 waistcoat refusal, swim e00083 cold refusal, look e00084 still garden. Sundial e00085 decorative firmly-attached. Misdirected look doors e00086 fails in garden (location mismatch).
+Kitchen contraption: look e00088 Andouillettes cylinder loaded, open e00089 reveals garlic, take clove e00090 success auto-stow sword (none-annotation e00094). Inventory e00091: paper, Lentil cylinder, hanky, sack (sword/swordstick/snuffbox/onion), knife, hat, garlic, andouillettes, cup, teapot full. Brick pry/push annotated vocab e00095.
+Unresolved: brick coins still cemented, basin bauble, lentil ingredients (bay, lentils, oil, salt), double-door opening, cellar light. Next: garden bay leaf, kitchen search for lentils/oil/salt, corridor doors/block, then contraption swap. Conserve light.
+Checkpoints: kitchen-garlic, attic-finds, corridor-safe, basin-full.
+
+## Continuation seg 1e (03:40-03:41 UTC, branch b3 e00096-e00112)
+
+Location: Dining Room (e00111-112). Score 9.
+Garden bay pick bay e00097 accepted. Kitchen search tables e00099 only contraption. Corridor doors look e00101; help lines 128-136 LINK TEAPOT TO DOORS. Take stone e00103 auto-stow cup, link teapot e00104 SCORE 4, close/open cycle e00105-107 opens doors via link, unlink e00108, checkpoint doors-open e00109-110, west e00111 SCORE 9 to Dining Room (west + southwest exits, doors east).
+Inventory carries bay now plus prior sack/teapot/cup/garlic etc. Unresolved: lentil remaining (lentils/oil/salt), brick coins, basin bauble, cellar light, dining hunger timer, sitting room rug/bauble mirror route. Next: quick dining exits survey, then sitting room, then jars/bee/light. Conserve light; watch hunger.
+Checkpoints: doors-open, kitchen-garlic, attic-finds, corridor-safe, basin-full.
+
+## Continuation seg 1f (03:41-03:43 UTC, branch b3 e00113-e00133)
+
+Location: Staircase First Floor (e00133). Score 9.
+Dining west e00113 hunger starts + Library; south e00114 Entrance Hall (up/down/north/northeast, clock); northeast e00115 back dining; southwest e00116 hall; up e00117 staircase; east e00118 Long Salon (north/east closed, portrait); north e00119 Sitting Room rug + case; look e00120; case e00121 dancers+bee DO NOT BREAK + memory tickle; remember case e00122 gears/links; look up e00123 syntax fail (only look); rug e00124; help e00125-126 bauble on shelf, PUT RUG UNDER SHELF, PLAY WALTZ alt, REVERSE LINK SPONGE, THROW HAT, TAKE BAUBLE, Marie mirrors light. Salon south e00127, east door e00128 locked, west e00129 stairs, north e00130 Conservatory bauble on high shelf + pianoforte + Marie west. Checkpoint conservatory-bauble e00131-32. South e00133 stairs.
+Next: fetch rug from sitting room, fetch sponge from basin (drains! use checkpoints), PUT RUG UNDER SHELF, reverse link, throw hat. Watch hunger; conserve light. Need lentils/oil/salt still.
+Checkpoints: conservatory-bauble, doors-open, kitchen-garlic, attic-finds, basin-full.
+
+## Continuation seg 1g (03:44-03:45 UTC, branch b3 e00134-e00152)
+
+Location: Conservatory (e00139-e00147). Score 13. Checkpoint have-bauble e00148-49.
+Rug fetch: east e00134 salon, north e00135 sitting (hunger worse), take carpet e00136 accepted auto-stow sausages (none e00150). South e00137 salon, west e00138 stairs, north e00139 conservatory. Put carpet under shelf e00140 placed rug (none e00151). Reverse link sponge e00141 fails not visible (sponge in basin). Piano e00142 empty stand. Throw hat e00143 dropped only (ambiguity e00152), take hat e00144, throw hat at bauble e00145 knocks bauble to rug, hat to shelf. Take bauble e00146 SCORE 13, look in e00147 sun+star.
+Inventory: bauble, rug placed, hat on shelf (not worn!), sack heavy. Hat lost from head – need recover? Next: take hat from shelf? Then Marie west for mirrors (light source for cellar/basement), then jars/bee, lentil ingredients, hunger meal. Watch hunger, conserve light.
+Checkpoints: have-bauble, conservatory-bauble, doors-open, kitchen-garlic, basin-full.
+
+## Continuation seg 1h (03:45-03:47 UTC, branch b3 e00153-e00172)
+
+Location: Marie's Chamber (e00154-e00167). Score 17. Checkpoint marie-light e00168-69.
+Hat on shelf too high e00153. West e00154 Marie chamber (mirror sunlight, desk, wallpaper). Mirror e00155, desk e00156 two drawers, open drawer e00157 ambiguity top/bottom (annotated e00170), top e00158 papers, bottom e00159 dark box. Look box e00160 ambiguity wooden vs snuff (annotated e00171), wooden e00161, open e00162 mirror inset + necklace + letter. Link mirrors e00163 fail, inset naming e00164-65, link inset to mirror e00166 glows (annotated e00172). Take necklace e00167 SCORE 17.
+Next: read letter, take box as light to basement jars/bee, address hunger (proper meal via contraption lentil?), brick coins pending, basin bauble pending (sponge still in basin). Watch hunger timer.
+Checkpoints: marie-light, have-bauble, doors-open, kitchen-garlic, basin-full.
+
+## Continuation seg 1i (03:47-03:49 UTC, branch b3 e00173-e00188)
+
+Location: Wine Antechamber (e00185-e00187). Hungry (pretty hungry e00176). Checkpoint wine-antechamber OK.
+Marie: read sealed e00173 refused, open e00174 cracks seal, read e00175 cipher + dancers sketch (annotated world_state e00188). Take wooden box e00176 light OK. East e00177 conservatory rug+hat shelf, south e00178 stairs, down e00179 hall, down e00180 Root Cellar lit by box (boxes/barrels menacing, east door). Barrels e00181, boxes e00182 same barrels text, open east e00183, east e00184 servants stairs, east e00185 wine antechamber (grey-blue S open, red E closed, russet NE open, red N chained vault, W back).
+Next: south grey-blue and northeast russet for jars/bee/lentils/oil/salt; vault needs key?; hunger proper meal via contraption — do not eat random food. Conserve box light (sunlight, infinite).
+Checkpoints: wine-antechamber, marie-light, have-bauble, doors-open, basin-full.
+
+## Continuation seg 1j STOPPED incomplete (03:49-03:50 UTC, b3 e00189-e00200)
+
+Location: Dessert Wines (e00195-e00198). Score 17. Checkpoint dessert-wines OK e00199-200.
+South grey-blue e00189 Among Reds (russet E locked e00192, trapdoor locked e00191); north e00193 antechamber; NE e00194 Fortified; SE e00195 Dessert (mead, south crumble, white N no-handle e00198, yellow SW, peacock W). Look through e00196 sees Cheese Corner chest+silver key+green jar + hunger note; go south e00197 blocked N/W/NW/SW only.
+Next: reach Cheese Corner via white/yellow/peacock route for jar/key/chest (lentils/oil/salt?), then contraption lentil meal for hunger, brick coins, basin bauble (sponge), bee jars, mirrors/box light already have. Hunger pretty-hungry worsening — prioritize meal.
+No pending broker request; latest e00200 dessert-wines.sav OK. Resume from dessert-wines.
+
+## Continuation seg 2 (03:52-03:56 UTC, b3 e00201-e00254)
+
+Location: Closet (e00241-245). Score 22. Checkpoint closet-tin OK e00246-247.
+Dessert yellow SW locked e00201 while brass open; peacock disambiguated to west no-handle e00202. Fortified green S locked e00204, russet E locked e00205. Helps e00206/e00210/e00225/e00234: cellar maze same-color linkage (brass=yellow), lentils in barrels, CLOSE BRASS+NORTH, white door scrape, SW to Closet.
+Antechamber red ambiguous east vs vault e00208, east locked e00209. Root barrels: vanilla e00213, 'again' syntax fail e00214, apples e00215, pork e00216, lentils e00217, take e00218 hunger worse. Brass shut synonym OK e00220, open e00221, east e00222, close e00223, south e00224 reds, close north opens trap e00226, down subcellar blue salt + red sugar e00227, take jar ambiguity e00228, blue e00229, red e00230, up e00231, open north closes trap e00232, north e00233 antechamber brass closed.
+Maze: NE e00235 fortified, SE e00236 dessert, take bottle accepted for mead e00237, examine white e00238 faded, scrape reveals blue e00239 hunger pastry dream, open yellow now succeeds e00240 (world_state linkage), SW closet e00241 score 22 tin+iron key, pick up tin e00242, take key e00243, open tin dark beans e00244, inventory e00245 (teapot full, cup empty, lentils/bay/garlic/onion, salt/sugar jars, mead, vanilla, beans, bauble/necklace/box-light in sack).
+Annotations e00248-254: yellow world_state, red ambiguity, jar ambiguity, barrels syntax, shut/bottle/pick-up nones.
+Next: NE to dessert, maze onward to Cheese Corner for green jar/oil + silver key + chest/salers per hints; then kitchen contraption lentil meal for hunger (urgent), brick coins, basin bauble, bee. Hunger worsening — prioritize meal after cheese.
+Checkpoints: closet-tin, dessert-wines, wine-antechamber, marie-light, have-bauble, doors-open, basin-full.
+No pending; latest e00254 annotation OK. Resume in Closet.
+
+## Continuation seg 2b (03:56-04:03 UTC, b3 e00255-e00306)
+
+Location: Dessert Wines (e00306). Score 24. Checkpoint dessert-blue OK e00299-300.
+Closet beans look e00256, sniff synonym OK e00257 chocolate, close tin e00258, key russet string e00259. Route NE/NW/SW/S e00260-263 to reds (brass now open via yellow linkage). Unlock east omitted-key auto-resolves iron e00264, east to Whites e00265, take blanc e00266, open green north e00267, north Centre e00268, take chocolate cylinder e00269 hunger omelette, read e00270 vanilla/sugar/cocoa (have all), north to Fortified e00271 (green open, russet east open via linkage). Helps e00272/e00274/e00288: EAST to Spanish, blue-light via bauble in blue jar, CLOSE DARK BOX then south door appears blue, then salt back.
+Spanish east e00273, barrel e00275, open e00276 navy bundle, take e00277, open cloak+documents e00278, read e00279 score 24 charts/hostages. Blue jar take e00280, open e00281, cup e00282, salt to cup e00283, put bauble in jar generic resolves blue e00284, look e00285 no change, open white south e00286, south loops to Dessert e00287.
+Blue-light failure: close box gives pitch dark e00289/292/297/302, open restores e00290/294/298/306; inventory e00291 blue jar+bauble held, box inset white in sack. Look in jar e00295 no glow, close jar e00296 still dark, look dark e00303/305, open jar in dark e00304 still dark, bauble examine e00301 reverse-link rock. No blue glow observed; white door still streaked, south opening impassable. R6/R8 mismatch suspected; do not blindly replay.
+Next: diagnose blue (explicit put bauble in blue jar? link? remember? hanky color? Spanish vs Dessert room?) or bypass to kitchen contraption meal (chocolate/lentil) before hunger death, then brick/basin/bee/cheese. Hunger Jerusalem oranges e00291 – urgent.
+Checkpoints: dessert-blue, closet-tin, dessert-wines, wine-antechamber, marie-light, have-bauble, basin-full.
+No pending; latest e00306 open-box OK. Resume in Dessert with box open.
+
+## Continuation seg 2c STOPPED incomplete (04:03-04:09 UTC, b3 e00307-e00342)
+
+Location: Kitchen (e00335-342). Score 28. Checkpoint kitchen-choc OK e00341-342.
+Exit maze: NW Dessert→Fortified e00307 (russet SW closed, green S open), S→Centre e00308. m0376 batch (S/W/N) malformed — outer } missing, no events, reported not duplicated; resumed single-step S→Whites e00309 (blue E closed), W→Reds e00310, N→antechamber e00311 (russet NE now closed), W servants e00312 hunger artichokes, W root e00313, up hall e00314, NE dining e00315, E corridor e00316, E kitchen e00317.
+Contraption had Andouillettes cylinder (box empty). Helps e00319-320 too early (chef intro, dial). Take cylinder auto-Andouillettes e00321, load chocolate e00322, vanilla take/put e00323-324, red jar take/open e00325-326, sugar load e00327, tin take/open cocoa e00328-329, beans load e00330 (blue jar+bauble auto-stowed to sack). Turn on demands plate e00331; scullery plate look/take e00332-334; south kitchen e00335; plate in e00336; turn on cooks chocolate score 28 e00337; open e00338 chocolate lump on plate; eat e00339 NOT enough for real hunger. Andouillettes recipe e00340 needs oil + white wine + onion + salt (have blanc, onion, salt in cup; missing oil from cheese green jar).
+Blue-light root cause still open: bauble in blue jar gives darkness not blue (open e00289/292, closed e00297, dark looks e00303/305, jar-open-in-dark e00304 still dark). Theory: white streaked doors link to real blue door (Whites E closed e00309) only under blue; Spanish white S must be opened with box closed to trigger link, then restore (take bauble, salt back, close jar) and walk W S S E to Cheese. Not yet attempted; use kitchen-choc/dessert-blue checkpoints, never SAVE in dark.
+Hunger critical (spinach e00332, artichokes e00312, oranges e00291) — prioritize cheese oil → lentil/andouillettes meal next run. Annotations still queued: sniff none e00257, unlock omitted-key none e00264, put-bauble generic none e00284, cylinder auto-resolve, chocolate load/meal.
+Checkpoints: kitchen-choc, dessert-blue, closet-tin, dessert-wines, wine-antechamber, marie-light, have-bauble, basin-full.
+No pending broker request; latest e00342 kitchen-choc.sav OK. Resume in Kitchen at ordinary prompt with box open (white light).
+
+## Continuation seg 3 (04:13-04:20 UTC, b3 e00343-e00402)
+
+Location: Dessert Wines (e00402). Score 28. Hunger worsening (pastry e00370, chocolate e00391).
+Kitchen->cellar: look e00343 kitchen contraption plate inside; inventory e00344 (lentils/bay/garlic/andouillettes/onion, blanc+mead, salt in cup, water teapot, blue jar+bauble, box-light, cloak/documents, iron key russet, tin+red jars empty after chocolate). W corridor e00345, W dining e00346, SW hall e00347, down root e00348, E servants e00349, E antechamber e00350 (oranges).
+Help e00351 (lines 323-331): PUT SALT IN BLUE JAR CLOSE, W S S E to Cheese. S reds e00352 (russet E open), E whites e00353, N centre e00354, N fortified e00355, E Spanish e00356 (white S streaked open).
+Salt probe: put salt in jar e00357 auto-resolved to RED jar (no ambiguity asked; intent blue not preserved). Look blue e00358 bauble inside. Take bauble e00359. Put salt in blue e00360 (red->blue). Close e00361. Checkpoint spanish-salt e00362-363 OK.
+W fortified e00364, S centre e00365, S whites e00366 (blue E still closed). Open blue e00367 locked. Help-next e00368 vault/silver (post-cheese). Help e00369 reveals precondition: OPEN SOUTH DOOR (real blue opens too), OPEN BOX, TAKE BAUBLE, SALT, CLOSE, W S S E.
+Returned N centre e00370 (pastry), N fortified e00371, E Spanish e00372. Opened blue jar e00373, take-salt-from-blue bare-hands refused e00374 (world_state: need container), put salt in cup e00375 (blue->cup), put bauble in blue e00376. Close box e00377 dark, close jar in dark e00378, look e00379 dark. Open box e00380 restores Spanish.
+Bauble examine e00384 reverse-link rock, doubt lasted. Help e00385 (lines 310-318): walkthrough claims PUT BAUBLE IN BLUE JAR => generates blue immediately; R8 does NOT (verified open e00388-389 dark, sealed e00381-382 dark, Dessert held e00400-401 dark). Inventory e00386 confirms walkthrough preconditions met (salt cup half, bauble jar held, box open white) except jar closed; opened e00387, re-closed box e00388 dark, look e00389 dark.
+Checkpoint spanish-blue-try e00392-393 OK. Remember bauble e00394 no memories. Link bauble->jar e00395 dissimilar; link bauble->stone e00395 dissimilar (hunger chocolate e00391). S Dessert e00396. Look through opening e00397 Cheese visible (chest/silver/green) — accepted paraphrase of look-through-hole. Enter opening e00398 refused. Take bauble e00399, close box e00400 dark, look e00401 dark (held bauble no glow), open box e00402 Dessert restored.
+R8 MISMATCH CONFIRMED: exact R6 blue setup yields plain darkness in both Spanish and Dessert, open or sealed, jar or held. Next: restore spanish-blue-try (bauble in jar, salt cup, Spanish light) then test R8 alternatives: link inset/bauble variants, REMEMBER Marie with bauble, hanky/cloak color, pianoforte waltz, or vault/silver-key order. Do NOT replay dark looks. Prioritize oil->meal; hunger critical, kitchen-choc fallback intact.
+Checkpoints added: spanish-salt, spanish-blue-try. Annotations queued this seg: salt-jar auto-resolve (ambiguity, intent not preserved), take-salt bare-hands (world_state), look-through-opening (none), enter-opening (world_state), link dissimilar x2, remember none.
+No pending broker request; latest e00402 Dessert box-open OK.
+
+## Continuation seg 3b (b4 e00403-e00429, Spanish->Whites)
+
+Restored spanish-blue-try OK b4 e00403-404; look e00405 Spanish (white S open).
+Dark-door tests: close white e00406; close box e00407 dark; 'open south door' syntax fail e00408 (only understood 'open south'); 'open white door' in dark fails 'can't see' e00409; open box restores e00410 (white closed); open white e00411 OK. Annotated salt-ambiguity e00412, salt-container e00413, south-syntax e00414, look-opening-none e00415.
+R8 alternatives: link inset->bauble e00416 incompatible-reflective (mirror only links reflective); scrape white+knife e00417 same ineffectual blue-underlying as bare scrape e00239; remember Marie e00418 'ought to be here' (no activation); barrel empty e00419. Route W fortified e00420, S centre e00421, S whites e00422 (blue E closed). Close box e00423 dark, look e00424 dark (Whites too — R6 method fails in 3rd room). Open box e00425 restores.
+Link blue-jar->blue-door e00426 new message: door linkages too old/strong for raw will (not dissimilar) + hunger petits-fours. Reverse-link bauble->stone e00427 dissimilar + pickier note. Checkpoint whites-test e00428-429 OK (Whites, light on, bauble jar open, salt cup).
+Next: find perfectly round rock (bauble reverse-link partner; stone block dissimilar) — garden/ditch/sundial/corridor-block candidates; or test contraption without oil to confirm gate; or help topic round rock. Hunger petits-fours — meal urgent. Do NOT replay dark looks.
+Latest e00429 whites-test.sav OK, branch b4.
+
+## Continuation seg 3c (b5 kitchen oilgate e00431-e00446, b6 Whites e00447-449)
+
+Help e00430 (lines 134-142): hunger NEVER kills ('never die of hunger'); REMEMBER WALLPAPER is first reverse-link lesson. Time pressure off.
+Restored kitchen-choc b5 e00431-432; look e00433 plate inside; inventory e00434 (bauble in open blue jar, salt cup, box open white, lentils/bay/garlic/sausages/onion, blanc+mead, water teapot).
+Oil-gate test: take chocolate cylinder e00435; load Andouillettes cylinder e00436; put onion refused unpeeled e00437; 'peel onion with knife' syntax fail e00438 (only understood 'peel onion'); 'peel onion' e00439 success; put onion e00440; salt e00441 (cup exhausted, oranges); blanc whole-bottle e00442; sausages e00443; turn on e00444: 'Monsieur le Chef!! You need more! olive oil!!!' — oil gate PROVEN, Cheese required. Checkpoint andou-ready e00445-446 OK (b5: onion/salt/wine/sausages loaded, plate in, needs only oil).
+Restored whites-test b6 e00447-448; look e00449 Whites blue E closed.
+Next: REMEMBER WALLPAPER in Marie chamber (reverse-link lesson), then find perfectly round rock for bauble re-link; hunger harmless. Queued annotations: peel-syntax, onion-unpeeled, oilgate evidence (no repair).
+Latest e00449 Whites b6 OK.
+
+## Continuation seg 3d (b6 Marie trek e00452-e00466, b7 e00467-469)
+
+Trek Whites->Marie: W reds e00452, N antechamber e00453 (vault chained N noted), W servants e00454, W root e00455, up hall e00456, up stairs e00457, N conservatory e00458 (rug floor, hat shelf, pianoforte), W Marie e00459.
+Wallpaper: remember e00460 none; examine e00461 ivory/powder-blue blush roses (no memory trigger; R6 REMEMBER WALLPAPER lesson absent in R8 here — maybe dining wallpaper instead).
+LINK SIDE EFFECT DISCOVERED: 'link blue jar to inset' e00462 first UNLINKED inset from gilt mirror (light source!) then failed incompatible. Restored via 'link inset to mirror' e00463 (auto-resolved gilt-wood). Checkpoint marie-link-test e00464-465 OK.
+'link bauble to mirror' e00466 same trap: unlinked gilt from inset, bauble incompatible. Restored via restore marie-link-test b7 e00467-468; look e00469 Marie OK.
+LINK RULES: attempts unlink existing link first; failure LOSES old link; mirrors only link reflective (glass jar/bauble both refused). Always checkpoint before link probes. Parser note: 'mirror' auto-resolves gilt-wood with parenthetical.
+Next: conservatory pianoforte/stand examine (PLAY WALTZ alt hint), then garden round-rock hunt or dining wallpaper. Hunger harmless per e00430.
+Checkpoints: marie-link-test (b7 Marie light intact). Latest e00469 b7 OK.
+
+## Continuation seg 3e (b7 garden e00470-e00483)
+
+Conservatory piano e00471 lid closed stand empty (waltz alt N/A, have bauble). Route S stairs e00472, down hall e00473, NE dining e00474, remember wallpaper DINING e00475 SUCCESS — reverse-link lesson (Marie: reverse harder, always tell). E corridor e00476, E kitchen e00477, E garden e00478.
+Rock hunt: sundial e00479 bronze firmly-attached gnomon (no rock); ditch e00480 only mud; stone block e00481 roughly SQUARED masonry (not round, explains dissimilar). Help e00482 (lines 123-131): X STONE TAKE STONE corridor crest (our block) + TAKE COINS + WEAR BAG (sack as bag!) — attic brick-coins still open.
+Jar examine e00483 normal wide-mouth stopper, bauble inside, no blocker.
+Rock-hole theory: R6 glow needs no rock; R8 examine backstory may lack rock object. Next: attic WEAR BAG + brick/coins (hint-ordered), then shed/well. Hunger harmless.
+Latest e00483 garden b7 OK.
+
+## Continuation seg 3f (b7 attic e00484-e00492)
+
+W kitchen e00484, upstairs attic e00485. 'wear sack' refused sackcloth joke e00486; 'wear bag' no-such-thing e00487 — R8 sack not wearable (R6 WEAR BAG false step, cf. roses CUT false steps). Brick pushed-forward e00488 but take e00489 / pull e00490 same cemented (Anton/Leonie memory applied, still stuck; tool-pry untested).
+Inventory e00491 confirms textbook R6 glow preconditions (jar open+bauble held, salt cup half held, box open white, cloak/docs, key, food/wine/cylinders, teapot full). 'reverse link bauble to blue jar' e00492 dissimilar+pickier, no harm.
+Next: WAIT-in-dark test (timed glow?) in Spanish/Whites; corridor down-staircase shortcut check; brick tool-pry. Hunger harmless.
+Latest e00492 attic b7 OK.
+
+## Continuation seg 3g (b7 cellar return + wait test e00493-e00506)
+
+Down kitchen e00493 (turbot/cake), W corridor e00494, DOWN shortcut e00495 → servants stairs bottom (shortcut confirmed, skips hall/root)! E antechamber e00496, S reds e00497, E whites e00498 (blue E closed). Checkpoint whites-wait e00499-500 OK.
+WAIT test: close box e00501 dark, wait e00502 'Time passes', look e00503 dark (no delayed glow). Open box e00504 restores. Examine blue e00505 bare ('closed', no lock info). Unlock blue with iron e00506 wrong-fit (key auto-taken, red jar stowed).
+R8 STATUS: glow fails open/sealed/held/3 rooms/waited; blue needs non-iron key or link-open; white-manipulation untested variants remain (closed-white+dark, Dessert-white). Next: sitting-room case bee/jars (unexplored), then Spanish closed-white test.
+Latest e00506 Whites b7 OK, light on.
+
+## STOPPED incomplete seg 3h (b7 sitting e00507-518, b8 Spanish toggle e00519-536)
+
+Trek W reds e00507, N antechamber e00508, W servants e00509, W root e00510, up hall e00511, up stairs e00512 (creme caramel), E salon e00513 (portrait, E closed), N sitting e00514. Case e00515 dancers+bee DO NOT BREAK (bee method still unknown; not blue-relevant).
+One-jar confirmed (e00277/e00280: single blue glass salt jar from subcellar). Separated link test: take bauble e00516, link bauble->jar e00517 still dissimilar, put back e00518.
+Restored spanish-blue-try b8 e00519-520. Inverted-linkage test: close white e00521; W fort e00522, S centre e00523, S whites e00524 (blue STILL closed); open blue e00525 locked. Dead.
+Closed-white dark look: N centre e00526, N fort e00527, E Spanish e00528 (white closed); close box e00529 dark, look e00530 dark (combo dead); open box e00531 restores. Checkpoint spanish-toggle e00532-533 OK.
+En route to teapot-link test (UNTRIED, RISKY: may break white-blue linkage — restore spanish-toggle if it fails): W fort e00534, S centre e00535, S whites e00536 (blue closed).
+STOPPED on step budget. No pending request; latest e00536 Whites b8 OK, light on, textbook state (jar open+bauble, salt cup, box open). Resume: checkpoint Whites, then 'link teapot to blue door' (teapot full, currently unlinked). Fallbacks: andou-ready (b5 meal prepped, needs oil only), whites-wait/whites-test/marie-link-test/spanish-toggle.
+Annotations banked this seg: salt-ambiguity, salt-container, south-syntax, look-opening-none, peel-syntax, onion-unpeeled. Count toward 20-40: ~10 done, more queued (link dissimilars, remember-none, scrape-none, wear jokes, brick planning).
+
+NOTE 04:04 UTC: inbox/m0376.json verified malformed — ends with }] (commands array closed, outer object missing final }). Content: route-exit-03 batch go south/west/north from Centre. No response will arrive; no events added (latest remains e00308 Centre). Reported for supervisor repair; file left untouched, not overwritten or duplicated as new batch. Resume with single-step m0377+ instead.
+
+## Continuation seg 4 (04:39-04:41 UTC, b8 e00537-554)
+
+Location: Among Whites (e00554). Score ~28. Hunger dreams but harmless per e00430.
+Checkpoint whites-teapot-test OK e00537-538. Link teapot->blue e00539 refused too-old/strong; reversed word-order probe e00542 identical (annotated none e00543).
+Help e00540 (lines 320-328): OPEN SOUTH DOOR (real blue opens too), OPEN BOX, TAKE BAUBLE, SALT, CLOSE, W S S E to Cheese.
+Inventory e00541 textbook (jar open+bauble, salt cup half, box open white, teapot full unlinked).
+Spanish: N Centre e00544, N Fortified e00545, E Spanish e00546 (white S closed streaked). Open white e00547 OK, no blue-open message. W Fort e00548, S Centre e00549, S Whites e00550 blue STILL closed — R6 linkage dead in R8.
+Closed-jar variant: close blue jar e00551 OK; look e00552 no glow; close box e00553 pitch dark (no blue); open box e00554 restores Whites.
+R8 STATUS: glow fails open AND closed, light AND dark, Spanish/Whites/Dessert, waited; direct teapot/wordorder links refused; white-open linkage dead.
+Next: Spanish closed-jar + white-open combo retest?; sitting bee/jars; brick tool-pry; vault/silver order; help next excerpt (mode next) only after one more reasonable attempt. Fallbacks: whites-teapot-test, spanish-toggle, andou-ready (meal needs oil only).
+No pending; latest e00554 Whites b8 light on, jar now CLOSED+bauble (differs from whites-teapot-test open).
+
+## Continuation seg 4b (04:41-04:44 UTC, b8 e00555-594)
+
+Spanish closed-jar+white-open combo dead: N Centre e00555, N Fort e00556, E Spanish e00557 (white still open e00547); look e00558 no glow. Help e00559 (lines 310-318): OPEN jar, SALT CUP, BAUBLE=>blue, CLOSE BOX, LOOK. Reopened jar e00560; close box e00561 pitch dark again (exact R6 seq fails in Spanish); open box e00562 restores. Checkpoint spanish-white-open e00563-564 OK.
+Trek to sitting: W Fort e00565, S Centre e00566, S Whites e00567, W Reds e00568 (trap closed), N antechamber e00569 (russet NE closed — maze toggles), batch e00570-574 (W servants, W root creme-caramel, up hall, up stairs, E salon). N sitting e00575.
+Bee: examine case e00576 (dancers+bee DO NOT BREAK); checkpoint sitting-bee e00577-578 OK. Take bee probe e00579 refused case-isn't-open. Help e00580 warns bee kills without trap/avoid; order X RUG REMEMBER RUG TAKE RUG X CASE REMEMBER CASE X DANCERS. Remember case e00581 gears/magic-links; X dancers e00582 copper/silver/ivory cogs; help e00583 adds X BEE CUT CASE WITH DIAMOND; X bee e00584 poison blades; X necklace e00585 diamond pendant confirmed. Help e00586 repeats cut then SOUTH WEST DOWN NORTH.
+Salon detour (no cut yet — death risk): S salon e00587; X portrait e00588; look behind e00589 darker paint+back writing; take e00590; X held e00591 Baroness D'Envers backstory. X east door e00592 touch-memory/servant-key links; touch e00593 forgotten; open e00594 locked.
+R8 STATUS unchanged on blue (exact seq re-failed); bee CUT not attempted (no trap method yet; diamond confirmed). Next: N sitting, safe remembers (bee/dancers/rug?), trap candidates (jars? hanky? cloak? snuff? link?), then help next beyond cut. Fallbacks: sitting-bee, spanish-white-open, whites-teapot-test, andou-ready.
+No pending; latest e00594 Long Salon b8, portrait carried.
+
+## Continuation seg 4c (04:44-04:47 UTC, b8 e00595-620)
+
+Sitting safe probes: N sitting e00595; remember bee e00596 none; remember dancers e00597 none. Helps e00598 (off-topic brick, refined), e00599 (same 237-245, refined), mode-next e00600 (lines 246-254): after CUT go SOUTH WEST DOWN NORTH to Library, PUT BAUBLE IN MODEL LINK BAUBLE TO SUN, X/TAKE/READ HOLLOW, TAKE/PIN/WEAR.
+Cut tests (checkpoint sitting-bee safety): cut case with diamond e00601 auto-takes necklace, stows red jar, scratch-only; cut glass with necklace probe e00602 identical (annotated none e00603); repeat cut e00604 same — R8 diamond cannot open case, no cumulation. No break attempted (death risk).
+Library: S salon e00605; batch W stairs/DOWN hall/N Library e00606-608 OK. Checkpoint library-model e00609-610 OK. X model e00611 needs sun-holder + foyer link + tickle; take bauble e00612 (stows tin); put bauble e00613 clicks; link bauble to sun e00614 shines. X hollow probe e00615 can't-see; wait e00616 time passes; X model e00617 still still; X Jupiter e00618 pierced+lens; X lens e00619 focuses light out/away; remember model e00620 Marie 'put light in, make it go'.
+Next: 'make it go' (turn/push/model verbs? foyer south link? wait more?), then hollow/pin. Fallbacks: library-model, sitting-bee, spanish-white-open, andou-ready.
+No pending; latest e00620 Library b8, bauble in model linked shining.
+
+## Continuation seg 4d (04:47-04:48 UTC, b8 e00621-632)
+
+Make-it-go: turn model e00621 own-power refusal; wait e00622 + X model e00623 still still; S hall e00624; X clock e00625 German dark-wood, little door, NOT ticking, 10:13; N Library e00626; X shelves e00627; X books e00628 (Vegetable Dyes, Clock Repair); look-through-lens probe e00629 refused. Help e00630 (lines 249-257): after LINK, X/TAKE/READ HOLLOW, TAKE/X/WEAR PIN, TAKE BAUBLE SOUTH DOWN (two light sources). Wait e00631 + X hollow e00632 still can't-see.
+Theory: model linked to foyer clock which is stopped — start clock (pendulum/wind) to make model go. Next: S hall, push pendulum / wind clock, N Library, recheck hollow.
+Fallbacks: library-model (pre-bauble), sitting-bee, spanish-white-open, andou-ready.
+No pending; latest e00632 Library b8, bauble in model linked.
+
+## Continuation seg 4e (04:48-04:49 UTC, b8 e00633-649) Score 36
+
+Clock fix (vocab repair): S hall e00633; push pendulum e00634 nothing; wind clock e00635 unrecognized verb; remember clock e00636 none. Checkpoint library-sun e00637-638 (hall). Pull weights e00639 clock ticks + SCORE 32. Annotated vocab wind->pull e00640.
+Library payoff: N Library e00641 model stopped, Jupiter-focused beam highlights The World Is Hollow. Take hollow e00642; read e00643 pin inside; take pin e00644 SCORE 36 (auto-stows blue jar); X pin e00645 diamond bow, clasp shut; wear pin e00646 (open/close); take bauble e00647 planets dark. Checkpoint library-pin e00648-649 OK.
+Next: SOUTH DOWN to Root Cellar per hint (two light sources: bauble + box?), then bee trap with pin? or Cheese/blue with pin light? Watch hunger (harmless). Fallbacks: library-pin, library-sun/model, sitting-bee, spanish-white-open, andou-ready.
+No pending; latest e00649 Library b8, pin worn, bauble held, hollow held.
+
+## Continuation seg 4f (04:50-04:51 UTC, b8 e00650-661) Score 36 — BLUE LIGHT SOLVED
+
+Root-cellar helps e00652-654 (food/maze recaps; next-mode sequences). Theory test: bauble now LINKED TO SUN and shining (not raw) may be true R8 glow precondition. Put bauble in blue jar e00655 OK; close box e00656 (NO pitch-dark!); look e00657 root visible under bauble light. E servants e00658, E antechamber e00659 COLORS SHIFTED: open BLUE S (was grey-blue), closed BLACK E (was red), closed BLUE NE (was russet) — blue light confirmed in R8. Checkpoint blue-light e00660-661 OK.
+R8 RULE: raw bauble never glows (open/closed/light/dark/3 rooms/waited all dead); sun-linked shining bauble in jar + box closed = blue. Walkthrough order assumed link-after; R8 needs Library sun-link BEFORE Cheese.
+Next: S Reds under blue, E Whites, check blue E open, then W S S E Cheese pattern (silver key, green jar, oil). Do NOT open box (kills blue). Fallbacks: blue-light, library-pin/sun/model, sitting-bee.
+No pending; latest e00661 antechamber b8 blue light, box closed.
+
+## Continuation seg 4g STOPPED incomplete (04:51-04:53 UTC, b8 e00662-682) Score 36
+
+Blue-maze survey: S Reds e00662 (blue E/N, blue trap); E Whites e00663 (black N, BLUE E STILL CLOSED); N Centre e00664 (blue E closed, black N/S, black W); N Fortified e00665 (blue E/SE open, black S, blue SW closed); E Spanish e00666 (blue S streaked OPEN, blue W).
+Linkage attempt: close south e00667 + open south e00668 under blue — NO real-blue-open message; batch W/S/S e00669-671 Whites E STILL CLOSED. R8: white-cycle does not open Whites blue (walkthrough claims it does).
+Dessert under blue: N Centre/N Fort/E Spanish e00672-674; S Dessert e00675 (south opening, black SW, blue N streaked, blue NW, closed blue W). Look through e00676 Cheese shows chest+silver key+BLACK jar (green shifted); enter e00677 refused (same as white light); open west e00678 no-handle (Cheese-side exit).
+Helps: e00679 (294-302: blanc/cylinder route, bauble-in-jar, hanky changes color), e00680 next (303-311: red/green jar lights, box-too-big-for-jars), e00681 next (312-320: TAKE JAR/OPEN, SALT CUP, BAUBLE=>blue, CLOSE BOX, LOOK south-appears-blue, OPEN SOUTH). X hanky e00682 currently blue.
+R8 STATUS: blue light itself SOLVED (sun-link precondition); Cheese ENTRY unsolved — Whites E stays closed, Dessert W exit-only, opening refused. Candidates: hanky-blue use (link? tie? wear?), exact LOOK-then-OPEN order in Spanish, OPEN BOX+TAKE BAUBLE+SALT+CLOSE walk sequence (doors may stay open), Fortified SW / Centre E closed-blues.
+Next: restore blue-light (antechamber, box closed, bauble jar shining) then Spanish LOOK+OPEN SOUTH, or test hanky. Do NOT open box except per walkthrough order (kills blue; blue-light restores). Fallbacks: blue-light, library-pin/sun/model, sitting-bee, spanish-white-open, andou-ready (meal still needs oil).
+STOPPED on step budget with game incomplete; no pending broker request; latest e00682 Dessert b8 blue light box-closed. Resume from blue-light.sav + this note; do NOT replay dark looks or raw-bauble glows.
+
+## Continuation seg 5 (04:54-04:57 UTC, b8 e00683-716+) Score 36 — CHEESE CORNER REACHED
+
+Help-next e00683 (lines 321-329): OPEN SOUTH (real blue opens too), OPEN BOX, TAKE BAUBLE, SALT IN JAR, CLOSE, W S S E to Cheese; TAKE SILVER KEY/GREEN JAR, X CHEST/OPEN/X SALERS.
+Dessert peer-probe e00684 accepted (= look through opening; none-annotation queued). Checkpoint dessert-blue-entry e00685-686 OK.
+Spanish exact-order test: N Spanish e00687 (blue S streaked open); close south e00688; look e00689 (closed blue streaked); ambiguous 'open blue door' probe e00690 auto-resolved south with parenthetical (none-annotation queued) — still NO linkage message.
+Inventory e00691 textbook (jar open+bauble shining blue, salt cup half, box closed; iron key 'opens blue door west'; hanky blue). Walkthrough order: open box e00692; look e00693 white restored (russet W, white S streaked open — white dominates even with bauble in jar); take bauble e00694; salt cup->blue e00695; close jar e00696.
+Batch W/S/S/E e00697-700: Fortified/Centre/Whites (blue E closed), then E auto-opens blue ('swings more lightly') into CHEESE CORNER (chest, silver key, green jar closed w/ goat+oil). KEY LESSON: earlier failure walked under BLUE light; walkthrough walks under WHITE after opening south. Linkage silent in R8 (no 'real blue opens' message) but door state persisted.
+Checkpoint cheese-corner e00701-702 OK.
+Loot: typo probe 'take sliver key' e00703 can't-see; correction e00704 taken (annotated vocab e00705). X silver e00706 (reddish string). Ambiguous 'take jar' e00707 auto-green (annotated none e00708). Look in green closed e00709 shows goat+oil. X chest e00710 stone; 'look in chest' probe e00711 refused-closed (world_state); open e00712 reveals salers+brie (annotated e00713). Batch X salers/oil/goat e00714-716.
+Help-next requested m0747 (post-X-SALERS: what to take, where next).
+Location: Cheese Corner, box open white light, bauble held shining (sun-linked), salt in closed blue jar.
+Next: read m0747 hint; take oil (+goat/salers/brie per hint); exit W/N/N/W? to antechamber; kitchen contraption meal (andou-ready b5 needs oil only — but current branch has chocolate residue? check: contraption state unknown on b8; andou-ready is b5 with onion/salt/wine/sausages loaded — may need rebuild or restore); bee trap with pin?; vault/silver-key order.
+Annotations banked seg5: key-typo vocab, jar-ambig none, chest world_state. Queued: peer none, spanish-blue-ambig none.
+Fallbacks: cheese-corner, dessert-blue-entry, blue-light, library-pin/sun, andou-ready (b5 meal prepped).
+
+## Continuation seg 5b (04:57-04:58 UTC, b8 e00717-737) Score 41 — VAULT
+
+Help-next e00717 (lines 330-338): SMELL/TAKE SALERS, X/SMELL/TAKE BRIE, LOOK IN HOLE, W N to Centre, UNLOCK WEST WITH SILVER, W N to Vault, Chateauneuf is treasure (don't open).
+Loot: smell salers e00718 faint; 'get salers' synonym probe e00719 accepted (none queued — also proves e00044 'get bag' failed on noun, not verb). Batch X brie (Count's preservation) e00720, smell e00721 'Ah....', take e00722. Look in hole e00723 sees Dessert yellow SW door.
+Oil: 'take olive oil' probe e00724 bare-hands refused; 'put oil in cup' e00725 blocked by closed jar; open green e00726; put oil e00727 cup to brim (annotated world_state e00728). Take goat e00729.
+Vault run: batch W Whites e00730 / N Centre e00731 (red W closed, peacock E closed). Omitted-key probe 'unlock west door' e00732 auto-silver parenthetical (annotated none e00733, mirrors e00264 iron). Batch W antechamber e00734 / N VAULT e00735 SCORE 41: pine chest closed + Chateauneuf closed. Checkpoint wine-vault e00736-737 OK.
+Location: Wine Cellar Vault, box open white, oil in cup, salers/brie/goat carried, silver key used.
+Next: read m0763 hint (pine chest + meal order); kitchen contraption andouillettes (oil now in cup!) — note andou-ready b5 has onion/salt/wine/sausages loaded but salt supply was exhausted there; current b8 contraption likely still chocolate state (kitchen-choc) — verify on arrival and rebuild as needed. Bee trap/pin, brick coins, basin bauble still open.
+Annotations banked seg5b: oil world_state, unlock-omitted none. Queued: peer none, spanish-blue-ambig none, get-salers none.
+Fallbacks: wine-vault, cheese-corner, andou-ready (b5), library-pin.
+
+## Continuation seg 5c (04:58-05:00 UTC, b8 e00738-759) Score 45 — SOFT-LOCK FOUND, RESTORE PLANNED
+
+Help-next e00738 (lines 339-347): TAKE PAPE, X/OPEN CHEST, TAKE ALL, X utensils, S W U E kitchen, chocolate ROSE (recipe on spindle, vanilla+plate in).
+Vault loot: 'take pape' truncation probe e00739 accepted SCORE 45 (none queued). Batch X pape (Duke-in-Paris gift) e00740, X chest e00741, open e00742 (corkscrew/fork/spoon/knife). Take-all e00743. 'look at fork' synonym probe e00744 accepted (none queued). Batch X knife/spoon/corkscrew e00745-747.
+Trek batch S/W/U/E e00748-751: antechamber/servants/corridor(shortcut U works)/kitchen. Machine e00752: Chocolate recipe loaded, off, plate in. Inventory e00753: tin EMPTY, red jar EMPTY, vanilla GONE (consumed by seg-2c chocolate cook e00321-339); salt restored in blue jar (half); oil in cup (brim) + jar reserve; andouillettes+lentil ingredients all present.
+Help-next e00754 (lines 348-356): tin cocoa + red sugar in machine, TURN DIAL until ROSE, SAVE, CLOSE, TURN ON, TAKE PLATE, X/SMELL ROSE, EAST.
+Barrel check: batch W/DOWN/W e00755-757 to root; 'search barrels' e00758 lists ONLY pork+apples — no more vanilla/cocoa/sugar anywhere (single sources exhausted).
+Help-next e00759 (lines 357-365): LINK ROSE TO ROSES, EAT ROSE, SOUTHEAST to SHED (blocked e00040!), X dirt/evidence/rust/ladder, TAKE LADDER, OUT W W W SW U E N to Countess sitting room. ROSE IS REQUIRED PATH (shed/ladder), and b8 cannot make it: walkthrough cooks chocolate exactly ONCE (as rose); our extra seg-2c cook consumed finite vanilla/sugar/cocoa. B8 SOFT-LOCKED for completion (meals still possible, rose not).
+RESTORE PLAN: dessert-blue (b3, e00299-300) is the LATEST pre-chocolate checkpoint (Dessert, box open, tin/red/vanilla intact, bauble raw in jar). Restore starts b9; replay efficiently WITHOUT chocolate cook: Dessert exit -> Library FIRST (bauble from jar, model+sun-link, clock pull-weights, hollow/pin) -> root blue -> Spanish cycle -> cheese -> vault -> kitchen ROSE (+meals) -> garden LINK/EAT/SE shed -> ladder... Bee pin-cut test, brick coins, basin bauble as opportunities arise. Chocolate cook was pure detour (score only); nothing on b8 depended on it.
+Queued annotations: peer none e00684, spanish-blue-ambig none e00690, get-salers none e00719, pape-truncation none e00739, lookat none e00744 (plus older: sniff, unlock-iron, put-bauble-generic, cylinder auto-resolve).
+Fallbacks: dessert-blue (RESTORE TARGET, pre-chocolate), wine-vault/cheese-corner/blue-light (post-chocolate, meals possible), kitchen-garlic (earliest pre-chocolate).
+
+
+
+
+
+
+
+

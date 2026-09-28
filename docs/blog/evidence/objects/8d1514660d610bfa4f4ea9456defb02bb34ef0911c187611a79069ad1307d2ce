@@ -1,0 +1,13 @@
+# Christminster progress (branch b1)
+
+Location: Bridge Street at busker. Score 4.
+Inventory (observed): brass key (recovered from under blue cup), feather, telegram, handbag (open, map inside).
+State: Key trick done correctly: key under red cup when don arrived; don accused me with empty hands shown; constable led DON away. Found key under blue cup (+1). Next per hint: open the gate with brass key.
+
+Unresolved case IDs:
+- gate-open-generic (b0: open gate -> locked; now have key on b1, about to resolve)
+- guess-cup (b0 only; 'say green' -> Nothing happens; constable resolved trick anyway)
+
+Last hint (m0055, lines 7-15): ...after arrest get key and open gate (+2=5).
+Checkpoints: chapel-street-start (b0), before-busker-trick (b0), busker-asking-key-run (b1, verified).
+Next: west to Chapel St, unlock gate with brass key, open gate, go east into college; checkpoint inside.

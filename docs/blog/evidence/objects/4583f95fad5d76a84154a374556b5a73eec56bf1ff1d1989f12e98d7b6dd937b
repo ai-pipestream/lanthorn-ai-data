@@ -1,0 +1,77 @@
+{
+  "game_id": "fine-tuned",
+  "title": "Fine-Tuned",
+  "author": "Dennis Jerz (Dionysius Porcupine)",
+  "url": "https://ifarchive.org/if-archive/solutions/FineTune.sol",
+  "accessed_at": "2026-09-25T06:42:12.730176+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/FineTune.sol",
+  "source_sha256": "8544d7748a820514742ea71b01220ac9c549e6b5ef95cfd1f553c12062437f3e",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned-walkthrough.txt",
+  "normalized_sha256": "8544d7748a820514742ea71b01220ac9c549e6b5ef95cfd1f553c12062437f3e",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/FineTune.z8",
+  "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+  "compatibility": "Local R8/020520 matches archive binary and title/author. The author guide header explicitly says release 6 and sample complete walkthrough; no serial. Its archive upload date matches R8, but the body still targets R6, so preserve the two-release gap rather than assuming it was updated.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 8,
+  "serial": "020520",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000008abc0abc1770402005dd06962001030323035323001388f754c8e00000000000000000000000000000000696100000000000001f800000000362e3231",
+    "header_sha256": "e98f34749864518542fc9ebb2d427774be861ac8067db549619d81208cfd0686",
+    "checksum_hex": "4c8e",
+    "declared_length": 293800,
+    "file_bytes": 293888
+  },
+  "guide_release": 6,
+  "guide_serial": null,
+  "guide_release_gap": 2,
+  "story_identity": {
+    "filename": "FineTune.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/FineTune.z8",
+    "accessed_at": "2026-09-25T06:43:45.150715+00:00",
+    "remote_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "local_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "bytes": 293888,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 8,
+    "remote_serial": "020520"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#FineTune.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "FineTune.z8\n◆\n[20-May-2002]\nIFDB entry\nIFWiki:\nFine-Tuned\nFine-Tuned, An Auto-mated Romance\nby Dennis Jerz (writing as Dionysius Porcupine).\nRelease 8 / Serial number 020520.\n(the original competition entry and a solution are in\ngames/competition2001/inform/finetune/, and an MS-DOS\nexecutable is in games/pc/FineTune.exe)",
+    "tuid": "39pi00x5dls5z2l2"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#FineTune.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "FineTune.sol\n◆\n[20-May-2002]\nIFDB entry\nSolution to Fine-Tuned, by the author, Dennis\nJerz.",
+    "tuid": "39pi00x5dls5z2l2"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.",
+    "limitations": "Author labels the route complete but unoptimized; the command-only guide omits many reasons and scene prompts. Blank lines and repeated waits are not directions to flush transport. Respond to observed questions and state before following later steps, and request only short excerpts. Take safe checkpoints before travel, captivity and rescue sequences.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "fine-tuned",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "All Fine-Tuned releases and ports stay together. No shared-world/puzzle relationship with existing games was identified from the guide and archive."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting and availability do not establish training or redistribution permission."
+}

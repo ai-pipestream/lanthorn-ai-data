@@ -1,0 +1,7 @@
+# Progress — believable-adventures-invisible-man (COMPLETE, ending verified in raw output)
+
+Location: Boss's Office terminal prompt (RESTART/RESTORE/QUIT) after e347.
+State: complete-revenge branch done: cooler flood e317, shoot pipe e320 (dog chased students+secretary away), key e325, e328/e329, bandages/bathrobe off e330/e331, unlock e332, open boss door e335, w to Boss Office e337, boss-office checkpoint e338-e339, switch on computer e341, screen e343, under keyboard e344, sticky note 123 e345, type 123 rejected e346, enter 123 on keyboard e347 → full access, Facebook deface, apartment/lab epilogue, *** Your revenge is complete ***.
+Checkpoints verified: kitchen-card, engoffice-window, secretary-fled-key (e323-e324), boss-office (e338-e339). No restore needed; branch b0 continuous.
+Pending: m0298 annotation done e348. Next: finish with evidence e347. No further game input (terminal prompt, not ordinary prompt).
+Annotate backlog: see events; new pairs e334/e335 ambiguity, e346/e347 syntax, accepted e325/e332/e341 (none).

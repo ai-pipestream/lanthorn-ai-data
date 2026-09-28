@@ -1,0 +1,7 @@
+# Schooldays progress
+
+- Session: schooldays-b371c6a97d, branch b0, event e00001 (startup prologue, press-any-key).
+- Pending: inbox/m0001.json (empty Enter to begin), awaiting responses/m0001.json.
+- Location/inventory: unknown until opening description.
+- Checkpoints: none yet; will checkpoint at first ordinary prompt.
+- Next: read opening description, then `look`, map house escape.

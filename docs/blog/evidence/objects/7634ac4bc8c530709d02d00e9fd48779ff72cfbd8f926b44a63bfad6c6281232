@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-26T16:53:20.572472+00:00",
+  "pid": 4142408,
+  "log": "runs/export-watcher-20260926T1653.log",
+  "previous_pid": 3863122,
+  "previous_absent": true,
+  "existing_export_absent": true,
+  "duration_seconds": 10800,
+  "reason": "Normal three-hour expiry; routine singleton renewal"
+}

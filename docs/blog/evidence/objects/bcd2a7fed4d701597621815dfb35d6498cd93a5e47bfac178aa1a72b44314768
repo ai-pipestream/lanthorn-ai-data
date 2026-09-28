@@ -1,0 +1,27 @@
+# Jigsaw progress (update 2)
+
+Location: Behind Beer Tent.
+Inventory (observed): white party ticket, sparkler, jigsaw piece, rucksack (Taken e00025), tagged key + curious device (Taken e00031). Score 3 (piece e00016, tent e00022, key/device e00031).
+Checkpoints: start-park.
+
+Cases (5 total, all annotated):
+- syn-park-01-typo-sparkler: e00009->e00011 vocab.
+- syn-park-02-omit-piece: e00016 none (take jigsaw accepted).
+- syn-park-03-dir-syntax: e00021->e00022 syntax (south-east vs southeast).
+- syn-tent-04-synonym-rucksack: e00024->e00025 vocab (backpack vs rucksack).
+- syn-tent-05-multi-take: e00031 none (take key and device accepted).
+Unresolved: none.
+
+Observations:
+- Beer Tent south blocked by canvas (e00013).
+- Behind Beer Tent via southeast from park (e00022).
+- Box contents revealed by 'look in box' (e00030): tagged key + curious device.
+- Rucksack: Paris allusion (e00033). Key: east European tag (e00034). Device: compass-like, white button, arrow to 99, 'tempora mutantur...' (e00035).
+
+Last hint (m0018, lines 31-39): southeast / get rucksack / examine crate / get key,device / examine rucksack/key/device + Curses allusion note.
+
+Next:
+1. Request next hint excerpt (after device examination).
+2. Likely: examine tag language? Push button? Time travel? Need walkthrough.
+3. Checkpoint at Behind Beer Tent once route clear.
+4. Continue synthetic variety: pronoun, word order, wrong object, world-state.

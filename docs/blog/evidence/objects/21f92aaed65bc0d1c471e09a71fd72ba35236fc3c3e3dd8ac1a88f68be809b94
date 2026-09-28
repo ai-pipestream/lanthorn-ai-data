@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T06:45:59.460930+00:00",
+  "game_id": "moon-shaped",
+  "events": [
+    {
+      "event_id": "moon-shaped-ba4995ebc4:e00406",
+      "timestamp": "2026-09-25T06:32:15.589992+00:00",
+      "game_id": "moon-shaped",
+      "session_id": "moon-shaped-ba4995ebc4",
+      "branch_id": "b1",
+      "event_index": 406,
+      "event_type": "command",
+      "command": "sprinkle powder onto bones",
+      "response": "As the first grains of the sugary orange powder fall on the bones, they begin \nto smoke. The initial wisps rapidly become a thick orange cloud that spills out \nacross the graveyard encompassing you, grandmother, and the wolf.\n\nYou breathe in the orange smoke and your lungs burn with the familiar almondy \nsmell of the old woman's cave. Sparks fill every hidden corner of your body and \nyour skin crackles with electricity. The pain is intense, yet you know that \nthis is the cleansing of the curse from your blood. The smoke begins to swirl \naround you and dissipate. As the cloud fades so does the prickling pain.\n\nYou raise your head and see that the wolf is gone. In his place lies a man, his \nbody healed. You don't recognize him, but you know that he is your father. His \nvoice is raspy and gentle. He says only your name -- \"Rosalind...\" -- before he \nbegins to cry. \"Oh, how I've missed you.\"\n\nHer strength returning, grandmother crawls to him holds him in her arms. He \ntries feebly to push her away, \"No, mother... I don't deserve...\" She holds him \ntighter and he begins to cry again.\n\nShe whispers, \"It's alright. We're going to be alright.\" With eyes full of \ntears and pride, grandmother looks at you and smiles.\n\n\"I see you found my locket.\"\n\n\n\n    *** Das M\u00e4rchen ist vor\u00fcber. ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+      "raw_start": 99697,
+      "raw_end": 101059,
+      "response_sha256": "817cef69c43240cd70b6449f13965341e40cc43fe5ea51bc6b548560670a69f8",
+      "story_sha256": "6fd4335a00bc2c3a95fc2c0c39e731987b309616c71d7af821dda63fda291607",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-sprinkle-powder-bones",
+        "intent": "Sprinkle sweet powder on Hansel bones for best ending",
+        "origin": "guided",
+        "expected_outcome": "Curse lifted, best ending"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Ending 1: powder removes curse; father and grandmother alive, family reunion with Rosalind, explicit final marker/menu. Earlier grandmother-death branch is distinct. Independent review pending."
+}

@@ -1,0 +1,146 @@
+{
+  "verified_at": "2026-09-25T03:46:30.261070+00:00",
+  "recovery": {
+    "previous_session_id": "anchorhead-4f68bc5f05",
+    "checkpoint_event_id": "anchorhead-4f68bc5f05:e00281",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-day2-circulation.sav.qzl",
+    "checkpoint_sha256": "82fbc4afffa37f3fb351e185f394b610478fbd9595df081ffb5c7140a8646e73",
+    "reason": "Book menu space submitted as Enter produced empty timeout e302. Preserve old history, restore latest confirmed library checkpoint in new session; no pending replay.",
+    "session_id": "anchorhead-51ee2d15c2",
+    "branch_id": "b2",
+    "restored_at": "2026-09-25T03:46:05.114699+00:00",
+    "observed_event_id": "anchorhead-51ee2d15c2:e00006"
+  },
+  "events": [
+    {
+      "event_id": "anchorhead-51ee2d15c2:e00001",
+      "timestamp": "2026-09-25T03:46:03.901138+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-51ee2d15c2",
+      "branch_id": "b1",
+      "event_index": 1,
+      "event_type": "session_recovery",
+      "command": null,
+      "response": "",
+      "raw_start": 74884,
+      "raw_end": 74884,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "unchanged",
+      "metadata": {
+        "previous_session_id": "anchorhead-4f68bc5f05",
+        "checkpoint_event_id": "anchorhead-4f68bc5f05:e00281",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-day2-circulation.sav.qzl",
+        "checkpoint_sha256": "82fbc4afffa37f3fb351e185f394b610478fbd9595df081ffb5c7140a8646e73",
+        "reason": "Book menu space submitted as Enter produced empty timeout e302. Preserve old history, restore latest confirmed library checkpoint in new session; no pending replay."
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-51ee2d15c2:e00002",
+      "timestamp": "2026-09-25T03:46:03.902721+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-51ee2d15c2",
+      "branch_id": "b1",
+      "event_index": 2,
+      "event_type": "request_cancelled",
+      "command": null,
+      "response": "",
+      "raw_start": 74884,
+      "raw_end": 74884,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "unchanged",
+      "metadata": {
+        "request_file": "m0247.json",
+        "reason": "Old pending request not replayed after recovery",
+        "request_sha256": "feb0952228a488a64f23100871487ffbc3e4f0b6488d040568e17f94bb4e17de"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-51ee2d15c2:e00003",
+      "timestamp": "2026-09-25T03:46:04.208942+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-51ee2d15c2",
+      "branch_id": "b1",
+      "event_index": 3,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n                             A N C H O R H E A D\n\n\n               [Press 'R' to restore; any other key to begin]\n\n\n\n\n                 The oldest and strongest emotion of mankind\n                 is fear, and the oldest and strongest kind\n                 of fear is fear of the unknown.\n\n                 -- H.P. Lovecraft\n",
+      "raw_start": 74884,
+      "raw_end": 75220,
+      "response_sha256": "6ac0180412d4e47820cfeffc504fb31be45930b357698275d265920fd7857e5d",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-51ee2d15c2:e00004",
+      "timestamp": "2026-09-25T03:46:04.510036+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-51ee2d15c2",
+      "branch_id": "b2",
+      "event_index": 4,
+      "event_type": "restore",
+      "command": "restore",
+      "response": "\nsaves: 1 alley-before-window.sav   2 day2-card-ready.sav   3 day2-morning-bedroom.sav   4 file-room-inside.sav   5 foyer-night-arrival.sav   6 keys-obtained.sav   7 library-day2-circulation.sav   8 library-michael-meeting.sav   9 outside-house-arrival.sav   10 outside-with-keys.sav   11 start-outside-office.sav   12 town-search-office-return.sav\nRestore from file: ",
+      "raw_start": 75220,
+      "raw_end": 75588,
+      "response_sha256": "984adf01e4d1e2ae4ff4d1cc5809c27004420b09ad75e1b6f327dab6b9d19b02",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "library-day2-circulation",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-51ee2d15c2:e00005",
+      "timestamp": "2026-09-25T03:46:04.811729+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-51ee2d15c2",
+      "branch_id": "b2",
+      "event_index": 5,
+      "event_type": "checkpoint_filename",
+      "command": "library-day2-circulation.sav",
+      "response": "Ok.\n\n>",
+      "raw_start": 75588,
+      "raw_end": 75594,
+      "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "library-day2-circulation",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-51ee2d15c2:e00006",
+      "timestamp": "2026-09-25T03:46:05.114502+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-51ee2d15c2",
+      "branch_id": "b2",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nLibrary\nShadows roost thickly in the vaulted ceiling, and small, green-shaded desk \nlamps cast pools of warm radiance here and there around the library's dim \ninterior. You pause a moment to let the hushed peacefulness of this place soak \nin -- a welcome relief from the unsettling events of the day. An exit lies \neast, and a small alcove to the north houses the circulation counter.\n\n>",
+      "raw_start": 75594,
+      "raw_end": 75982,
+      "response_sha256": "af2ce61c248e2d14f08e72c6b817d6887e4a16d04f47092b1865da202fcb704c",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Observe restored location"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hashes_verified": true
+}

@@ -1,0 +1,18 @@
+{
+  "game_id": "slouching-bedlam",
+  "title": "Slouching Towards Bedlam (competition edition)",
+  "url": "https://ifarchive.org/if-archive/solutions/slouch.sol",
+  "accessed_at": "2026-09-25T02:34:48.968313+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/slouching-bedlam.source",
+  "source_sha256": "abb85c232514721a9747b38d38d213b6689780932a644a5f3f1403e098eb3de9",
+  "normalization": "entire source document",
+  "normalized_sha256": "ec21017da0be71cfca3f06689283ecb093a5c97452be3ba95027f8b07d528e58",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/slouching-bedlam-walkthrough.txt",
+  "story": "/home/krickert/if-games/ifcomp/2003/zcode/slouch/slouch.z5",
+  "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+  "compatibility": "Local competition2003 story selected with solution linked by archive to that competition; verify startup and subsequent play.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "030925"
+}

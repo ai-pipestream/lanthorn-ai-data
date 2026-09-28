@@ -1,0 +1,8 @@
+# I-0 progress
+
+- Location: Restored to Roadside (branch b1, e30 Ok) after fatal north crossing (e28 hospital/Bronco, NOT winning ending — kept as failure).
+- Inventory (observed): pepper spray, wallet (empty), lip balm; T-shirt + cut-offs. Seatbelt unbuckled, purse open in car.
+- Checkpoints: `start-car` ok; `roadside-out` ok, restored ok (b1).
+- Cases: + sign-typo-sing annotated e25; fence examined e26; look-north e27 nothing unexpected; north crossing e28 death.
+- Last hint: off-topic Larry/hitchhike (e10); death hint says look both ways before crossing.
+- Next: verify restore with look; explore east/west along roadside (not north); seek Larry/hitchhike/assistance route east-west; probe variations; milestone checkpoint when safe.

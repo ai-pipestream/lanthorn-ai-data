@@ -1,0 +1,24 @@
+# Deephome playthrough progress (IN PROGRESS — branch b3, score 173, Coal Mines; BlackSmith not yet found)
+
+## Where to resume (continuation run: start here)
+Continue live from branch b3 at Coal Mines (e00381, checkpoint `coal-mines-search` verified Ok). Do NOT restart. No pending broker requests (m0303 confirmed e00381). Fallback: `clearing-clover` (e00337-338).
+
+## Current state (all observed, branch b3)
+Location: Coal Mines (dead end; only exit west to Mining Center). Score 173/300.
+Route tail since clearing-clover: Clearing read sign S+E out (e00339) -> s Forest (e00340) -> e Limits (e00341) -> e Western Rd (e00344) -> e Entrance (e00345-346) -> n City Gates (e00347-348) -> n blocked (e00349) -> nw E.Guard Post (e00350-351) -> w Intersection (e00352-353) -> s Extreme South (e00354-355) -> n Intersection (e00356) -> n S.Main (e00357-358) -> n N.Main (e00359-360) -> n Main Hall (e00361-362) -> s s s Intersection (e00364-366) -> w E.Royal (e00367-368) -> w W.Royal (e00369-370) -> e E.Royal (e00371) -> s Lesser Noble Palace (e00372) -> n E.Royal (e00373) -> e Intersection (e00374) -> s Extreme South (e00375) -> s Mining Center (e00376-377) -> e Coal Mines (e00378-379).
+Excluded: Main Hall (NE/NW/W/S checked via look, no forge); N.Main shops (not entered); S.Main Library/Temple (not entered); E.Royal south gate = Lesser Noble Palace (not smith); W.Royal north gate + palace outer court (not entered); Extreme South generator/waterworks (not entered); ore mines south of Mining Center (not entered); Ember south side (not searched).
+Inventory (last seen): Fresto tome, pickaxe, torch (lit), shield, Sword, King's Order, lantern (lit), hammer, four-leaf clover. Both lights lit — conserve. Health good.
+Mission: Power/Water/Gates/Eranti+hammer/clover DONE; NEXT per hint e00363: BlackSmith: get scraps; open forge; light coal (with torch); put scraps in forge; wait till melts; get scraps; put scraps on anvil; hammer scraps > sharp pick; then Common Bank box > key.
+
+## Checkpoints (all Ok)
+coal-mines-search (e00380-381, latest); clearing-clover (e00337-338); hammer-claimed; eranti-dead; before-eranti; plus pre-gates saves.
+
+## Cases (annotated through get-clover e00336)
+Same as before; no new annotations since Clearing (search moves only). Need probe-before-canonical at forge once found.
+
+## Last hint (NOT observed, via e00363)
+"BlackSmith get scraps; ... hammer scraps > sharp pick; The Common Bank x box; pick lock with sharp pick; open box; l in box > key".
+
+## Next actions (continuation)
+1) w to Mining Center, s to ore mines, look (BlackSmith may be near ore/forge). 2) If not, return n n to Intersection; try W.Royal north gate + outer court west; then S.Main/N.Main side rooms (bakery/scrivener/clothier/library/temple); then generator/waterworks; then Ember south (Entrance s s... to Town of Ember/Tool Shop area). 3) At forge: checkpoint before risky steps; collect synthetic_probe variations first. 4) Ending requires last exorcism terminal conclusion with raw IDs + exact quote; parent review required.
+Game incomplete — ending NOT reached. Stopped with precise checkpoint; NOT done.

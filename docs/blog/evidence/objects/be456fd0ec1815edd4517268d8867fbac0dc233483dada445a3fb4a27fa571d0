@@ -1,0 +1,6 @@
+# Save Princeton — progress (STOPPING: step budget, game incomplete, PENDING m0184)
+
+State: Branch b1, Murray-Dodge kitchen (e00209). Dough taken e00210. PENDING broker request inbox/m0184.json 'put dough on tray' (no response yet, latest e00210). Do NOT resubmit m0184. Next: read responses/m0184.json, then put tray in oven, turn on oven, bake, eat cookie (hunger critical; food-like item is POISON e00200 b0 death, do not eat).
+Branch: b1 after restore hallway-222-free. Score 70. Lamp in hand. b0 death annotated e00203.
+Checkpoints: hallway-222-free; with-lava-lamp; door-222-open; in-front-222; after-poster-dry.
+Next continuation: 1) read m0184; 2) 'put tray in oven' / 'turn on oven'; 3) take/eat cookie; 4) checkpoint; 5) cafe up/north/north, Firestone/Library/camera per e00170.

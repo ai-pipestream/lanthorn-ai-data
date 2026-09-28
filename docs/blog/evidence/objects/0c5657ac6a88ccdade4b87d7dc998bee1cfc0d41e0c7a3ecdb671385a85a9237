@@ -1,0 +1,10 @@
+# Schooldays progress
+
+- Session: schooldays-b371c6a97d, branch b0, event e00107 (Basement West 7:27am, ordinary prompt).
+- Location: Basement West (east to basement). Stool repaired with leg.
+- Inventory (observed): jar open (screws), nail, knapsack (form), waterbottle filled open, tokens, clothes+shoes, Super Glue (used?), shed key (e101), repaired stool (e106). Dance light in front hall (plugged, on). Ladder top-stairs<->kitchen.
+- Checkpoints: start-bedroom, kitchen-down, basement-lit (verified).
+- Cases this run: + route-basement-down e95 none; basement-cord e97->e98 vocabulary (yank); basement-take-key e101 none; basement-take-stool e103->e104 vocabulary (chair); glue-leg-stool e106 none (reversed args OK). Older: cabinet batch (e70-e78), dancelight batch (e81-e85), push e87->e88 syntax, knob e90 none. Open old: trapdoor-high e31 + put-ladder-syntax e32, kitchen-east-blocked e53.
+- Last hint (e00094 lines 39-47): DOWN(done) / PULL CORD(done) / WEST(done) / GET KEY+STOOL(done) / GLUE(done) / EAST / UP / WEST / DROP STOOL.
+- Next: EAST, UP to front hall, WEST to living room?, DROP STOOL stepwise; then help mode=next.
+- Status: game incomplete; no pending request (m0103 answered e00107).

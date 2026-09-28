@@ -1,0 +1,27 @@
+# Gumshoe progress — b2 Logitek lobby done (continuation)
+
+## State at stop
+- b2 in Logitek lobby north of entrance (e00329). Receptionist Barbara cooperating after license (e00332) + snapshot (e00333 reveals manager + Nicole to Giuseppe's) + funeral (e00338 Nicole's father).
+- Arrival: m0260 cab to Logitek e00309; checkpoint b2-logitek-stakeout e00310-311. Wasted 10 waits in cab (e00313-321, Boggs sedan e00313-314) before help revealed Exit N required. Exited via synthetic "get out of taxi" e00328 (accepted), north e00329.
+- Checkpoints confirmed: b2-office-opening, b2-sandra-accepted, b2-logitek-stakeout, b2-barbara-done e00339-340. Branch b2, session gumshoe-2933d54ccf.
+- Score 5/24 in 107 turns at e00324. Game incomplete, no ending.
+
+## Inventory (observed)
+- Carrying: Times (LA Times 8/13/95, sections incl Funeral Notices e00336), snapshot, card, license, money. No drops yet (walkthrough says drop license/snapshot but not done). Coat/hat on office rack. No camera.
+
+## Cases
+- Accepted paraphrases annotated: taxi-exit e00328 (m0284), license-to-receptionist e00332 (m0285) failure_type none.
+- New probes pending annotation: newspaper->Times e00336 + read funeral e00337 (synonym then canonical, same intent funeral notices); snapshot guided e00333; funeral show e00338.
+- Unresolved: "time" vocab fail e00318 (no repair yet; score gives moves not time); blue-cab waits were misordered (world_state/planning, not wording).
+- Count ~25 total incl prior 20.
+
+## Last hints
+- m0277 lines 61-69: Hail/Enter/go logitek then Logitek Exit N.
+- m0281 lines 68-76: Show license Drop, Show snapshot Drop, Read funeral Show funeral, save, S Hail Enter go Giuseppe.
+- m0262/m0272 stakeout excerpt (Hail Enter Wait again save follow blue cab) applies LATER, not at first Logitek arrival.
+
+## Next
+1. Annotate newspaper/funeral pair (failure_type none if newspaper accepted as Times).
+2. S, hail cab, enter, cabbie go Giuseppe (one command at a time).
+3. Keep probes out of timed follow; checkpoint before surveillance.
+- Do not resubmit serviced requests; read responses before next actions.

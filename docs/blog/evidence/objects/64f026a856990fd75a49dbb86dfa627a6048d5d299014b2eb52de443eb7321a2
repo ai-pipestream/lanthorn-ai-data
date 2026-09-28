@@ -1,0 +1,33 @@
+# Deephome playthrough progress (IN PROGRESS — branch b5, score 179; forge/BlackSmith NOT yet found; STOPPED at step budget)
+
+## Where to resume (continuation run: start here)
+Continue live from branch b5. Last confirmed: Dwarven Village (e00483, look verified). One request PENDING: inbox/m0363.json (se Main Hall + w railway station + look) — do NOT resubmit; read responses/m0363.json first. No restart. Fallbacks: `throne-room` (e00459-460 Ok), `clearing-clover` (b5 e00430-431), `coal-mines-search` (b3).
+NOTE: m0363 batch assumed Village se→Main Hall (per Village look e00483: "stairway leads down and southeast") and Main Hall w→railway (per Main Hall look e00478). Verify each event on resume; broker may stop batch early.
+
+## Current state (all observed, branch b5)
+Score 179. Inventory (e00436): clover, hammer, Sword (wielded), Fresto tome, pickaxe, torch (lit), shield (worn), King's Order, lantern (lit). Both lights lit — conserve.
+Throne Room holds a passive Luminous Spirit (e00457-458) — likely exorcism target; do NOT touch until forge→sharp pick→bank key chain is done; checkpoint `throne-room` covers it.
+
+## Forge search results (observed this run)
+- Coal Mines dead end; Ore Mines shut (s/e blocked, signs iron/copper/nickle); enter gold mine rejected.
+- Ember Tool Shop: no forge/scraps/anvil (Young Man only). Small Shack: hay/blanket + large iron chest w/ peculiar lock (NOT the bank box; needs unknown key).
+- City Generator: furnace for power only, no forge. Water Works: pipes + wheel, no forge.
+- N.Main shops: Bakery (ovens, empty bottle — NOTE bottle may be useful later, left in place), Scrivener's, Clothier — no forge. Scores 177/178/179.
+- Greater Noble's Palace (score 174), Outer Court (175), Throne Room (176): no forge.
+- Northern Guard Post (Main Hall NE): secret tunnel entrance, empty cabinet — not forge.
+- Dwarven Village (Main Hall NW): all doors locked, only exit se — dead end, no forge.
+- NOT yet checked: railway station W of Main Hall (pending m0363); Lesser Noble Palace interior S of E.Royal; Ember pond S of square; Common Bank location unknown.
+
+## Walkthrough puzzle (NOT observed, via broker e00389/390, e00429)
+BlackSmith: get scraps; open forge; light coal (torch); put scraps in forge; wait till melts; get scraps; put scraps on anvil; hammer scraps > sharp pick. Then Common Bank: x box; pick lock with sharp pick; open box; l in box > key.
+Route puzzle UNRESOLVED: "read sign; s e → BlackSmith" after clover does NOT reproduce — Clearing s→Forest then e→Limits (twice, b4+b5), and Clearing se diagonal BLOCKED (e00432). Guide omits navigation per manifest; "s e" may be partial. Clearing sign poem = S then E; Limits riddle encodes maze route w sw w s e n w e.
+
+## Cases
+Annotated through get-clover (e00336). Since then exploration/recovery only, no new probes annotated. At forge (once found): checkpoint first, then synthetic_probe variations before canonical.
+
+## Checkpoints (all Ok)
+throne-room (b5 e00459-460, latest safe); clearing-clover; coal-mines-search (b3).
+
+## Next actions (continuation)
+1) Read responses/m0363.json (railway station). 2) If no forge: Lesser Noble Palace interior, Ember pond south, Common Bank hunt. 3) At forge: checkpoint + synthetic probes. 4) Ending requires last-exorcism terminal conclusion with raw IDs + exact quote; parent review required.
+Game incomplete — ending NOT reached. Stopped at step budget with precise checkpoint; NOT done.

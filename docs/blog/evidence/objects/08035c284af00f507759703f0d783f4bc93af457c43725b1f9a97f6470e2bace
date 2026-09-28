@@ -1,0 +1,8 @@
+{
+  "pid": 722166,
+  "log": "runs/kimi-coordinator-20260925T0955.log",
+  "duration_seconds": 10800,
+  "interval_seconds": 300,
+  "status": "first_cycle_validation_pending",
+  "authority": "routine_readonly_supervision_and_triage_no_game_executor"
+}

@@ -1,0 +1,8 @@
+# Frozen progress (IN PROGRESS — game incomplete, branch b1)
+
+Location: Pentagram Room standing ON pentagram (e00141-142). Room: pentagram, dust, SE exit only; no figure/lights visible (e00138).
+Inventory (e00148): bottle of sand, circle page, amulet worn. Pour did not consume (bottle still full).
+Cases pending annotate: pentagram-pour-sand (e00144 prompt -> e00145 star can't-see -> e00147 pentagram poured-onto-floor; star not implemented, pentagram is; effect uncertain, bottle unconsumed); pentagram-show-page (e00149 show page -> e00150 show circle page to figure, both 'only to something animate', no figure present).
+Checkpoints: pentagram-return e00139-140. Prior: storage, library, front-yard, pentagram, in-lab, before-basement-door, third-floor, start-lab.
+Hints: repeated excerpt ends at 'pour sand in star' + asterisks (e00126, e00146...). No figure present; square/star pages never found (storage N/S searched, Library searched).
+Next: help for figure identity + square/star pages (mode next for post-pour lines), then annotate pour/show pairs. Game NOT complete; no ending, no finish.

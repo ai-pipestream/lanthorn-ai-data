@@ -1,0 +1,98 @@
+{
+  "game_id": "christminster",
+  "title": "Christminster",
+  "author": "Gareth Rees",
+  "url": "https://ifarchive.org/if-archive/solutions/christminster.sol",
+  "accessed_at": "2026-09-25T06:43:12.122508+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/christminster.sol",
+  "source_sha256": "34c29365df7ca4be8ba8b78fd02f854ee07e88d5333533e09651c80080b7398f",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/christminster-walkthrough.txt",
+  "normalized_sha256": "34c29365df7ca4be8ba8b78fd02f854ee07e88d5333533e09651c80080b7398f",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/minster.z5",
+  "story_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+  "compatibility": "Local R4/961117 matches the archive story and game/guide IFDB identity. Audrey De Lisle guide was revised 1995-12-20 and names two proofplayers. It does not declare one exact target release/serial; a comment refers to version 1, and other comments warn that names and final key metal may vary. Preserve older-guide/later-release uncertainty.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "961117",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000048cf08cf1600d020c4ab3522a0000393631313137014cdefb7caf00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "ca8fa23c68f646fe8b3aa4852d2e78671706ba81341997e2812ec0befd4bb7a0",
+    "checksum_hex": "7caf",
+    "declared_length": 228332,
+    "file_bytes": 228352
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "minster.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/minster.z5",
+    "accessed_at": "2026-09-25T06:43:45.139432+00:00",
+    "remote_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "local_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "bytes": 228352,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 4,
+    "remote_serial": "961117"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#minster.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "minster.z5\n◆\n[17-Nov-1996]\nIFDB entry\nIFWiki:\nChristminster\nChristminster, An Interactive Conspiracy by Gareth Rees.\nRelease 4, serial number 961117.",
+    "tuid": "fq26p07f48ckfror"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#christminster.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "christminster.sol\n◆\n[21-Feb-1996]\nIFDB entry\nIFWiki:\nChristminster\nsolution, point list, and list of objects for\nChristminster, by Audrey De Lisle",
+    "tuid": "fq26p07f48ckfror"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the college investigation, book/clue gathering, elixir and dinner phases, then carry the rescue through the crypt and stairs to Malcolm's final escape north. Require the genuine concluding rescue narrative. A witnessed murder, temporary revival, dinner transition or 50-point annotation is not by itself completion.",
+    "limitations": "The guide groups work by area and includes variable names, keys and timing rather than a fully fixed transcript. Do not type blank placeholders or blindly substitute its example scholar names. Keep ingredients separate until the proper recipe step. Verify a checkpoint before the tightly timed crypt endgame; avoid synthetic probes during that sequence.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "curses",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Guide inventory explicitly includes History of the Meldrews, also present in the existing Curses guide. Conservatively use existing curses/train (which already includes Jigsaw). This is a concrete book/world reference, not proof of identical puzzles or a canonical shared universe; extent remains uncertain for parent review."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting and availability do not establish training or redistribution permission.",
+  "family_reference_evidence": {
+    "existing_game_id": "curses",
+    "source_path": "/work/experiments/lanthorn-recall-training/control/curses-walkthrough.txt",
+    "source_sha256": "fb3e602cacdcd2e5b83bc10ca0ea01574c6f81ba82295a218adc6cb5f4be540e",
+    "matching_lines": [
+      {
+        "line": 5,
+        "text": "3) History of the Meldrews - Contents,"
+      },
+      {
+        "line": 229,
+        "text": "3) History of the Meldrews - Contents"
+      }
+    ],
+    "guide_matching_lines": [
+      {
+        "line": 201,
+        "text": "        History of the Meldrews         Edward's Room  no value"
+      }
+    ]
+  }
+}

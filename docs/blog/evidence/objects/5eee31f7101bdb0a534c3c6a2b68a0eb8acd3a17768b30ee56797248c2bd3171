@@ -1,0 +1,13 @@
+# Traffic progress — IN CAB at badly parked car (e134+)
+
+Location: In cab on Elm St heading north right lane as cab driver (branch b0). After cab-start checkpoint (e129-130) drove north 4x: e131 (student 1 ahead left, traffic-avoid radio), e132 (police stuck, police-chase radio), e133 (police 2 behind left stuck, Sarah Elman Elementary radio), e134 (badly parked car ahead left lane, student stopped, police stuck behind opposite lane, last-seen-north radio). Help e135-137 unchanged engine. Pending: inbox/m0127.json drive north past parked zone.
+
+Inventory: cab driver, no passengers. Radio so far this loop: jingle (e128) + Umber/Elm/Jones/Oak avoid (e131) + police chase forthcoming (e132) + Sarah Elman Elementary (e133) + last-seen north Elm stay clear (e134). Sarah info secured.
+
+Cases: ~35 + cab-drive-52 (e131-134). Need annotate later: cab-eye (e101-104), say-no Felix (e114), student stop/drive (e117-118), radio listens (e119-120), plus new cab-drive radio sequence.
+
+Checkpoints (verified): start-corner, past-night-man, past-reset, stroller-start, mid-stroller-solved, bus-start, mid-bus-solved, student-start, mid-cab-loop, cab-start (e129-130). Next milestone: post-cab-block or elevator.
+
+Next: 1) await m0127 drive result. 2) Keep cab blocking student lane-switch; request full-walkthrough approach excerpt if stuck (no one-way solve). 3) Student-driver solve (YOUNG MAN/STOP, name Felix to verify). 4) Sarah (needs radio info already gathered). 5) Revised present best ending incl Sarah + normal delivery alternate.
+
+Game INCOMPLETE. Timed cab sequence — one command at a time, no quota probes.

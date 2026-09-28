@@ -1,0 +1,7 @@
+# Critical Breach — progress (b11 oldchip-loaded, e439)
+
+Location: west Workbench with loaded injector. East cage OPEN with immobile sedated scorpig (e418 x cage; e419 sedated).
+Inventory (e414): injector loaded with registered OLD chip (e437), pliers, beaker, keycard, worn coat. New chip destroyed on take e408 (fragile after e396 attack drops); injector recovered e406.
+Route: furnace opened e422; bare-hands dead specimen refused fused-wall e423 → pliers take e424 (annot e425 world_state); cabinet already open e426; pour bottle→disposer e427; put specimen→dissolved leaving chip e428; bare-hands take chip refused acid-melt e429 → take old chip with pliers e430 (annot e431); w e432; put old chip on scanner e433; select four accepted=registered e434 (annot e435 none); take old chip e436; load chip e437.
+Cases ~40 (injecter typo e405-406 vocab; dead-specimen hands; beaker-chip hands; select-four accepted). Checkpoints: b11-oldchip-loaded BEST e438-439, b11-grasped, b10-open-mouse.
+Next: e, inject scorpig sedated (1 cmd), then close/seal cage, SELECT 5 monitor; checkpoint after inject. 1 cmd near hazard.

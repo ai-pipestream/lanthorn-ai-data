@@ -1,0 +1,268 @@
+[
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T09:46:50.058376+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T09:46:50.067225+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "metamorp-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2000/inform/metamorp/",
+    "accessed_at": "2026-09-25T09:46:50.029892+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2000/inform/metamorp/",
+    "sha256": "dc240618092edf36de978e83136cd12c6b3f8e1a04e8bf8b6fb3698fe56dc237",
+    "bytes": 3132
+  },
+  {
+    "filename": "lash-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2000/inform/lash/",
+    "error": "curl: (22) The requested URL returned error: 404\n",
+    "http_result": "404 https://ifarchive.org/indexes/if-archive/games/competition2000/inform/lash/"
+  },
+  {
+    "filename": "change-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition99/inform/change/",
+    "accessed_at": "2026-09-25T09:46:50.077461+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition99/inform/change/",
+    "sha256": "c9d7a051d5aae0e499c5fee12427cfe581bcd8e21a48160a067093dda4e6605f",
+    "bytes": 2869
+  },
+  {
+    "filename": "bluemen-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition98/inform/bluemen/",
+    "accessed_at": "2026-09-25T09:46:50.092795+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition98/inform/bluemen/",
+    "sha256": "1272276f8ffe9c46d98db7f5aca0fad1be7d23eb17584aa81cd1382856cc4066",
+    "bytes": 2884
+  },
+  {
+    "filename": "metawalk.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2000/inform/metamorp/metawalk.txt",
+    "accessed_at": "2026-09-25T09:47:16.957170+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2000/inform/metamorp/metawalk.txt",
+    "sha256": "0594019702bae372da86a5ef8a7558244096a08744c875672f4deffea43f2307",
+    "bytes": 1812
+  },
+  {
+    "filename": "adverbum-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2000/inform/adverbum/",
+    "accessed_at": "2026-09-25T09:47:16.858211+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2000/inform/adverbum/",
+    "sha256": "6a8272a7f331822dd980230e0d269c080d30bfcf885457aeeb72a62d16fa0d45",
+    "bytes": 2897
+  },
+  {
+    "filename": "winter-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition99/inform/winter/",
+    "accessed_at": "2026-09-25T09:47:16.865006+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition99/inform/winter/",
+    "sha256": "5db286ec5384b0c43fa2eb42a20620a3fe8d61fc4c1901a09bbfa9d03ed4ac2e",
+    "bytes": 3102
+  },
+  {
+    "filename": "devours-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/devours/",
+    "accessed_at": "2026-09-25T09:47:16.860989+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/devours/",
+    "sha256": "bee77ba6bfe5c5393c8bbedaf8f2111d93267ced95547320045658e7a8edb855",
+    "bytes": 2899
+  },
+  {
+    "filename": "devours.inf",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/devours.inf",
+    "accessed_at": "2026-09-25T09:47:16.973648+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/devours.inf",
+    "sha256": "875986cf0dc1a9bf5dff12edd4fd0ee8c73b6ed4b163047adcf365eef2c50d5b",
+    "bytes": 220728
+  },
+  {
+    "filename": "gourmet-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/gourmet/",
+    "accessed_at": "2026-09-25T09:47:40.621498+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/gourmet/",
+    "sha256": "fabbeaaa9ed342be254c7698ae58e02a49803fb988caa74ca7523864e3711955",
+    "bytes": 3323
+  },
+  {
+    "filename": "adamssol.zip",
+    "url": "https://ifarchive.org/if-archive/solutions/adamssol.zip",
+    "accessed_at": "2026-09-25T09:47:40.627342+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/adamssol.zip",
+    "sha256": "ef6749aba0fa27aef24886fa4e6837024b743bdfb8aa80f418101b240ae4e7da",
+    "bytes": 38210
+  },
+  {
+    "filename": "AdamsGames.remote.zip",
+    "url": "https://ifarchive.org/if-archive/scott-adams/games/scottfree/AdamsGames.zip",
+    "accessed_at": "2026-09-25T09:47:40.631773+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/scott-adams/games/scottfree/AdamsGames.zip",
+    "sha256": "6a79737d6359414dbaa8e4ba246f776301e5ce1a23194a43c431dbedf288e882",
+    "bytes": 107198
+  },
+  {
+    "filename": "scott-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/",
+    "accessed_at": "2026-09-25T09:47:40.628975+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/",
+    "sha256": "41b87ccdf756374f0befc92e6dac2c717fa9a0c12e586025d79faf945cf871d6",
+    "bytes": 13464
+  },
+  {
+    "filename": "gourmet-walkthru.raw.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+    "accessed_at": "2026-09-25T09:47:55.119982+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+    "sha256": "52d2429cb2ee2207b4558d84287393c5f93aee8dc7e506c87b4244a2dec3838a",
+    "bytes": 3021
+  },
+  {
+    "filename": "gourmet.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.txt",
+    "accessed_at": "2026-09-25T09:47:55.123100+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.txt",
+    "sha256": "eb3dab9d283afb3544f9178d7c0204c70b5d0209c6d04a61915764e7ca7f492b",
+    "bytes": 1014
+  },
+  {
+    "filename": "devours-author.html",
+    "url": "https://devours.amirrorclear.net/",
+    "error": "curl: (22) The requested URL returned error: 403\n",
+    "http_result": "403 https://devours.amirrorclear.net/"
+  },
+  {
+    "filename": "vespers-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2005/zcode/vespers/",
+    "accessed_at": "2026-09-25T09:48:28.303916+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2005/zcode/vespers/",
+    "sha256": "0471ef785c6549fdbbe128734acb21e1843cd54041e6cba6e0bf5d8677b9d053",
+    "bytes": 2877
+  },
+  {
+    "filename": "bofh-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/bofh/",
+    "accessed_at": "2026-09-25T09:48:28.307703+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/bofh/",
+    "sha256": "b5635dbe3afcef23b71e917147a51a0e5a9d116f821a087784b5cc8c488badf7",
+    "bytes": 3280
+  },
+  {
+    "filename": "distress-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2005/zcode/distress/",
+    "error": "curl: (22) The requested URL returned error: 404\n",
+    "http_result": "404 https://ifarchive.org/indexes/if-archive/games/competition2005/zcode/distress/"
+  },
+  {
+    "filename": "gourmet.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.z5",
+    "accessed_at": "2026-09-25T09:48:28.391378+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.z5",
+    "sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "bytes": 181760
+  },
+  {
+    "filename": "metamorp.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/metamorp.z5",
+    "accessed_at": "2026-09-25T09:48:28.370245+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/metamorp.z5",
+    "sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+    "bytes": 177664
+  },
+  {
+    "filename": "bofhwalk.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+    "accessed_at": "2026-09-25T09:48:44.585439+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+    "sha256": "8fb90b1d27724a95fe051b75fbe1bd1ad9296e93a0869faafdce48257d02d089",
+    "bytes": 39173
+  },
+  {
+    "filename": "bofh-readme.1st",
+    "url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/readme.1st",
+    "accessed_at": "2026-09-25T09:48:44.647547+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2002/zcode/bofh/readme.1st",
+    "sha256": "2f3c273a31176780aab25e7256c6de5924e1c70c39574d061766f3c9bf750620",
+    "bytes": 4132
+  },
+  {
+    "filename": "rentaspy-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/rentaspy/",
+    "accessed_at": "2026-09-25T09:48:44.525043+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/rentaspy/",
+    "sha256": "579f21cbe29257a561a5ee0894a4fa5d3f8aa1275df3bd2ce6fbec09bef651bf",
+    "bytes": 3130
+  },
+  {
+    "filename": "baluthar-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/baluthar/",
+    "accessed_at": "2026-09-25T09:48:44.538808+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/baluthar/",
+    "sha256": "c020d4481fe2e9b8fa4ce69a13f91250da26f8d0ac265ac8df3c2bf4c78884f2",
+    "bytes": 3114
+  },
+  {
+    "filename": "dinner-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2000/inform/dinner/",
+    "accessed_at": "2026-09-25T09:48:44.581292+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2000/inform/dinner/",
+    "sha256": "8c270b7dbd03f06f7d5ae074d3534bd1892ec65de2d83dc6baa715f19e0fd3cf",
+    "bytes": 2895
+  },
+  {
+    "filename": "splashdown-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/splashdown/",
+    "accessed_at": "2026-09-25T09:48:44.589201+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/splashdown/",
+    "sha256": "8b167d3ea9672875246ac6131ea79bf011def09e6f42dfdb88e1edd7850691d3",
+    "bytes": 3605
+  },
+  {
+    "filename": "splashdown-Walkthrough.raw.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+    "accessed_at": "2026-09-25T09:49:05.882410+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+    "sha256": "ad5b8546a2510ebdf88a0cb36a3e90ff3cb750a592af5fe192af594dff706a41",
+    "bytes": 1660
+  },
+  {
+    "filename": "splashdown-ReadMe.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/ReadMe.txt",
+    "accessed_at": "2026-09-25T09:49:05.883524+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/splashdown/ReadMe.txt",
+    "sha256": "f4e8c4409ecf1cd37314e47dc9a0261e63b4780768f1fc8e711c61fa516e2bf3",
+    "bytes": 463
+  },
+  {
+    "filename": "bofh.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofh.z5",
+    "accessed_at": "2026-09-25T09:49:05.901103+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofh.z5",
+    "sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "bytes": 127488
+  },
+  {
+    "filename": "Splashdown.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Splashdown.z5",
+    "accessed_at": "2026-09-25T09:49:05.892852+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Splashdown.z5",
+    "sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "bytes": 146944
+  },
+  {
+    "filename": "metamorp-competition.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/competition2000/inform/metamorp/metamorp.z5",
+    "accessed_at": "2026-09-25T09:49:06.927852+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2000/inform/metamorp/metamorp.z5",
+    "sha256": "6cdff9633e052c9d1c74b3394382d4093ed30d9bfbe7bf8e4f777ef5c605b8ee",
+    "bytes": 167424
+  }
+]

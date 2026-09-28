@@ -1,0 +1,83 @@
+{
+  "game_id": "muse-autumn-romance",
+  "title": "Muse: An Autumn Romance",
+  "author": "Christopher Huang",
+  "url": "https://ifarchive.org/if-archive/solutions/Muse.Solve",
+  "accessed_at": "2026-09-25T06:54:20.452625+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/Muse.Solve",
+  "source_sha256": "52dcfdba2972cbb79f512a6d189a54d366901b6df1403fac78f88b8cc06bb95a",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/muse-autumn-romance-walkthrough.txt",
+  "normalized_sha256": "52dcfdba2972cbb79f512a6d189a54d366901b6df1403fac78f88b8cc06bb95a",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF; reflow only lines longer than 110 characters at word boundaries, preserving word order, punctuation and final newline state",
+    "word_sequence_preserved": true
+  },
+  "story": "/home/krickert/if-games/zcode/muse.z5",
+  "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+  "compatibility": "Local Z5 R2/990922 is byte-identical to the archive story. Quentin D. Thompson guide is copyright 1999 with a 990406 date near its editor/version header, earlier than local R2. It does not explicitly pin a story release/serial; the MS-DOS Editor Version 2.0.026 is not a game version. Preserve possible competition-release versus post-competition R2 differences.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "990922",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000002516c516d2e56010a194f248600103939303932320042aae83cd7000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "5f2dc8a6fa3dbc3a30f6bec9308dcaf7799615308e5b1a63a417fb8c1ae94256",
+    "checksum_hex": "3cd7",
+    "checksum_valid": true,
+    "declared_length": 175008,
+    "file_bytes": 175104
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": null,
+  "story_identity": {
+    "filename": "muse.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/muse.z5",
+    "accessed_at": "2026-09-25T06:54:20.563368+00:00",
+    "remote_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+    "local_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+    "bytes": 175104,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "990922"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#muse.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/zcode-index.txt",
+    "snapshot_sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "entry_text": "# muse.z5\nifwiki: Muse: An Autumn Romance\ntuid: j2e98wy467jfih8q\n\nMuse: An Autumn Romance, by Christopher Huang.\nRelease 2 / Serial number 990922.\n(the original competition entry is in\n</if-archive/games/competition98/inform/muse/#muse.z5>)",
+    "tuid": "j2e98wy467jfih8q"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Muse.Solve",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/solutions-index.txt",
+    "snapshot_sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "entry_text": "# Muse.Solve\nifwiki: Muse:_An_Autumn_Romance\ntuid: j2e98wy467jfih8q\n\ndetailed solution plus observations on Muse,\nby Quentin D. Thompson",
+    "tuid": "j2e98wy467jfih8q"
+  },
+  "guide_author": "Quentin D. Thompson",
+  "guide_review": {
+    "body_read": false,
+    "sections_reviewed": "Reviewed title/version disclaimer, opening early-ending warning, complete short route through both endings, and detailed Part Three ending explanation. Did not treat amusing/review sections as walkthrough instructions.",
+    "route_summary": "Complete the substantive three-part reconciliation story: rescue Viktor, resolve the family/artistic relationships and pay John using the cheque from Emma, then reach a genuine final epilogue. Prefer the guide happy-ending route after retrieving the trunk and the final downward exit; a genuine alternative post-reconciliation finale may be retained with an accurate label. Early departure on the opening ferry, a part boundary, Viktor dying, QUIT or merely exhausting the guide is not full-play completion.",
+    "limitations": "Guide mixes a short route, detailed route, jokes, criticism, speculative commands and an amusing section. Its prose opinion is not author intent or observed evidence. Do not execute parenthesized early-ending examples, restore branches or the trailing QUIT blindly. Dialogue introductions and timed character arrivals matter. Read only small relevant broker excerpts and keep alternate ending branches distinct.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "muse-autumn-romance",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": true,
+    "rationale": "No shared setting/puzzle relationship established. Guide references to Enemies, Spider and Web and other games are commentary/comparisons, not evidence of family membership. This game is unrelated to the Muse worker software. Keep its own ports/releases together.",
+    "splits_snapshot_sha256": "b26d5ff38df8a550ab292d51bfa005ced6947931017faa984fa1a150eebde288",
+    "checked_at": "2026-09-25T06:57:11.552512+00:00"
+  },
+  "reuse_claims_observed": "No game/guide reuse permission established; private collection only. Public hosting, source availability and download access do not establish training or redistribution permission."
+}

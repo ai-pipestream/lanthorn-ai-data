@@ -1,0 +1,15 @@
+# Child's Play progress
+
+Location: Middle of the Living Room, standing after pulling up on red footstool. Mom left to get ready for playgroup. Score 5.
+Inventory (observed e00014): hands empty. Visible: red footstool, squishy ball, plush book, favorite toy now visible on footstool (after e00022).
+Checkpoints: start-dark, living-room-start, after-pullup (all confirmed Ok).
+
+Cases:
+- syn-look-around e00011->e00012 syntax success (look around vs look)
+- syn-typo-examine e00015->e00016 vocabulary success (examin vs examine footstool)
+- syn-omitted-take e00018->e00019 syntax failure (bare take prompts, take toy still can't see until pulled up) – needs revisit now that toy visible
+- syn-stand-pullup e00021->e00022 world_state success (stand up vs pull up on footstool)
+
+Last hint e00007: examine/take darkness for intro (used examine darkness e00008 to trigger peekaboo).
+
+Next: take toy now visible (retry syn-omitted intent), examine ball/book/mom-pillows, explore exits (pillow ring, directions), collect pronoun/word-order/wrong-object variations. Checkpoint after toy retrieved.

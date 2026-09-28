@@ -1,0 +1,7 @@
+# Curses progress — SEGMENT 3 MID2 (incomplete, branch b5)
+
+Branch b5 (restored library-storage), Score 27/550 Turns 285 Old Furniture. Parcel opened via unwrap to box of chocolates + card.
+Inventory (e00475): parcel->chocolates/card, scarf, mask worn, rucksack(spade, weed, ball, painting, key, wishbone, History II, map), gloves worn, torch lit, dictionary. Whistle + medicine bottle still in scratched cupboard (take all failed, hardly portable).
+Findings: Correct dream path is E through hide wall to General Tent, N to Shrine of Bear, take mascot hears lagach, drop mascot, S,W,SW,E wake via dolmen. Prior b4 SW-first missed mascot and consumed premonition; b5 redo verified. Take gift and unwrap parcel both accepted (none). Calendar Feb must be re-flipped on b5 (was b4 calendar-feb, now stale).
+Cases: 53 annotated (+3 seg3: potting-go vocab, mascot-bear vocab, parcel-gift none, parcel-unwrap none). Hints walkthrough_not_player_observed.
+Next: Take whistle, take bottle, read card, N,N,W to lair, examine calendar, flip to Feb yellow, W give chocolates, remove mask, say yellow. Then E,E,S,S,SE,W pull cord postcard flash per hint. Conserve torch. No winning ending seen.

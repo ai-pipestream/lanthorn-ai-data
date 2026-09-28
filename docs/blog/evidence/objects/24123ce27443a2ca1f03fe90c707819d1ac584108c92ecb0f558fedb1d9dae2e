@@ -1,0 +1,8 @@
+# Progress — danger-adventurer-at-work (ACTIVE, game incomplete)
+
+Location: Alley-ette dead end (only exit N), witch gone after give phone e00088, took broom e00090. Checkpoint alley-broom verified e00092-93.
+Inventory (verify next): head, torso, boltcutters, LLEG, broom; phone receiver given to witch (gone). Rope/bull lost at shop; sausage lost.
+Checkpoints verified: early-pub, street-after-window, field-before-torso, shop-cutters, street-phone-done, alley-broom. No pending request: m0087 done (e00094).
+Cases since last update: fence-go-south exploration e00082, witch-examine none e00083->e00084, witch-talk syntax e00085->e00086, witch-give-phone none e00088->e00089, alley-take-broom none e00090->e00091. Earlier annotated street-east-stroll, shopstreet-east-variation, fence-take-leg.
+Hints: lines 26-34 seen (take broom, n e read sign) — guidance only. Late lines 112-120 (brick/matches/chasm/button/seed/balrog/game) still future.
+Next actions: n to fence street, e to sign area, read sign; inventory to verify; continue toward chasm/river/pony per manifest.

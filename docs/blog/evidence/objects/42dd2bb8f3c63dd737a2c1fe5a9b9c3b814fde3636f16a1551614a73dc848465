@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-09-25T05:58:17.685368+00:00",
+  "events": [
+    {
+      "event_id": "theatre-8533784a56:e01699",
+      "timestamp": "2026-09-25T05:53:20.941799+00:00",
+      "game_id": "theatre",
+      "session_id": "theatre-8533784a56",
+      "branch_id": "b23",
+      "event_index": 1699,
+      "event_type": "command",
+      "command": "get in car",
+      "response": "\nYou get into your car, and start the engine. As you look out the windows to \ncheck that the way is clear, a leather-dressed figure limps into view. There is \nsomething sinister about the figure and the jerky way he walks, so you slip the \ncar into gear and drive off. You get the uncanny sensation that the figure is \nstaring at you, as you disappear into the distance.\n\n\n    *** You have won ***\n\n\nYou have discovered the secret of the Theatre and have completed the game with \na score of forty-seven out of a possible fifty in eight hundred and eighty-two \nturns, meaning that you have almost reached the perfect score.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame, UNDO the previous turn, or QUIT?\n> ",
+      "raw_start": 357628,
+      "raw_end": 358372,
+      "response_sha256": "8d9c5b5b0be7fb519592572adcd3162fda1f244ee2d4e8b797dd7331f84e61e9",
+      "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "seg9-enter-car",
+        "intent": "Enter parked car to drive to opera",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Ending or in car"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hash_and_text_verified": true,
+  "verdict": "Author-intended ending explicitly printed with final menu; Dreamhold Doorstep portal, Theatre escape by car, Weather reunion with companions. No maximal-content claim."
+}

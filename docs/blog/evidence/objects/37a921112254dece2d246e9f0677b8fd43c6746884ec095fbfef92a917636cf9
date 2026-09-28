@@ -1,0 +1,8 @@
+# BSE progress
+
+- Location: The Green Calf (Turns 65, Score 7, e00131/e00132). Ordinary prompt confirmed. Checkpoint pub-beer verified e00133/e00134.
+- Inventory (observed): carrying garden fork, aluminium can (from Dick, score 7 up 2 e00128); white coat worn containing glass jar + toy pistol; faxed note dropped in pub e00126; briefcase (+typed note) in boot with remote, burnt battery, key ring. Fax text: Ref DCK 817S, Operation Red-Chevette, Agent 398-MUGWUG codeword contact + devil worship link.
+- Checkpoints verified: start-lane, boot-open, coat-worn, briefcase-read, lane-ready, pub-beer. Continuation: restore pub-beer if needed; no timed/lamp resources consumed; safe ordinary prompt in pub.
+- Cases this branch (~34): lane-jar-pocket none e00097; lane-pistol-pocket vocab e00099->e00100; lane-fork-recover e00102; lane-go-north vocab e00105->e00106; pub-ask-tom-cows vocab e00109->e00110; pub-waits e00112/e00113/e00117/e00118/e00122/e00123; pub-ask-dick-bse syntax e00114->e00115; pub-ask-harry-devil typo e00119->e00120; pub-faxed-read none e00124; pub-faxed-drop none e00126; pub-ask-dick-chevette none e00128 (space for hyphen); pub-ask-tom-beer syntax e00130->e00131.
+- Last hint: lines 41-49 fully executed through Ask Tom about beer (Sikstons, take pint, barman absent). Guidance only.
+- Next: help mode=next for post-pub route (likely take pint/can, leave pub toward farm/laboratory); checkpoint before risky/timed sequences. Then farm/laboratory investigation, demon encounter + timed return + final west per manifest. Keep probes 1-at-a-time. All requests m0100-m0127 serviced; no pending.

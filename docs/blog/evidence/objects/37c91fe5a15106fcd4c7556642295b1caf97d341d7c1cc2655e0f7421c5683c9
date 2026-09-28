@@ -1,0 +1,16 @@
+# Windhall progress — segment 3 PAUSED on step budget (branch b2, game incomplete)
+
+STOP POINT: Central Windhall, Day 3 9:51am (e00835). Score 134. Checkpoint gunther-wait-134 VERIFIED Ok. No pending broker request; last response m0567/e00835 read.
+Location: Central (new shovel + sword staged here). Carrying: pack(worn), quarterstaff, soap, sleep spell. Other caches: N.staff+empty box+nest field; blue+green+dead beast Rocky Hill; fireball+metal Forest Bend; map+idol+bow river; tube grove.
+Score: 134.
+
+Since m0543: Foothills quarterstaff fetched (pull failed→get fix); back via Plains/Bend; board→Borthur→NEW SHOVEL (hand-verb failed→give fix, 134); Idah temple tale + rhyme (shrine failed→temple fix; rhyme = 12:03 PM); sword+shovel staged Central, soap+sleep retrieved. Waiting till 11:30am for Sir Gunther (wakes 11:30).
+
+Checkpoints (verified Ok): gunther-wait-134, staff-131-field, book-121-river, steep-incline, idol-110-river, day3-morning, + Test chain + older. Branch b2.
+
+Cases: ~80. New: syn-pull-staff (planning), syn-take-plank (none), syn-hand-board (vocabulary), syn-ask-shrine (vocabulary). Unresolved: none. Through m0567/e00835.
+
+Last hint (e00821 lines 306-314, PART-DONE): E,E, ask Idah temple, W,N, drop sword/shovel, get soap/sleep DONE; next: (Gunther locked till 11:30am) W,E wait loops, then mode-next on SAME topic 'long maze solution' (global pointer — never interleave!).
+NEXT (continuation): run W,E pairs (or z's) checking time till ≥11:30am; visit Sir Gunther W per guide; continue same-chain mode-next (expect Sun Gem/dark-elves/desert-temple). Fireball after 7pm only. Denvil done.
+
+KEY release-5 findings: sleep turn-gated ~245; Denvil AM feast→idol; maze shortcut verified; Xrfthankrtz tiny, tube scares; Kaela=nymph book→staff; beast needs spark+tinder+sword; Borthur hafts shovel from board; temple rhyme = 12:03 PM; Gunther wakes 11:30am.

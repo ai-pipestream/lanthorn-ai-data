@@ -1,0 +1,8 @@
+# Tube Trouble – progress (update 12, won)
+
+Location: Inside Train, game won (e00139). Do NOT send further game commands; end prompt offers RESTART/RESTORE/QUIT.
+Inventory implied post-win: real trilby hat only (chocolate eaten, pound spent). Last observed pre-win: hat + chocolate bar (e00128).
+Checkpoints: start-safe, platform-two, platform-one, pre-vending, post-vending, choc-note, platform-one-hat, post-cap, post-fiver, post-real-hat (verified Ok each). No checkpoint at end prompt per protocol.
+Hints: e00109 (E,E/Wait/W,W/Look/W train), e00118 Eat bar 1/1 final. No more hints needed.
+Cases: ~23 synthetic probes (barrier, notice/sign, coin/penny, vendor/machine, display/sign, cap/hat, beggar/tramp, insert/put, handle/lever, penny/machine none, levre typo, tray search none, change/sixpence, sixpense typo, note none, hat at/in none, cap premature world_state, give=buy none, put-on=wear none, purchase=buy none, search/x bag none, zip world_state, eat-chocolate none). Annotations e00140-143 confirm last four.
+Next: submit finish with e00139 evidence; no further moves, saves, or restores.

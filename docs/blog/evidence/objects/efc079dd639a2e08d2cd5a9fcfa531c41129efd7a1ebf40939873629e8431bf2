@@ -1,0 +1,31 @@
+{
+  "game_id": "anchorhead",
+  "title": "Anchorhead",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/anchor.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/anchorhead-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/anchor.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/anchorhead.json",
+  "story_sha256_expected": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+  "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+  "dataset_split": "test",
+  "game_family": "anchorhead",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "990206",
+  "automatic_checkpoints": false,
+  "recovery_reason": "Book menu space submitted as Enter produced empty timeout e302. Preserve old history, restore latest confirmed library checkpoint in new session; no pending replay.",
+  "session_id": "anchorhead-51ee2d15c2",
+  "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+  "started_at": "2026-09-25T03:46:05.114740+00:00",
+  "recovery": {
+    "previous_session_id": "anchorhead-4f68bc5f05",
+    "checkpoint_event_id": "anchorhead-4f68bc5f05:e00281",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-day2-circulation.sav.qzl",
+    "checkpoint_sha256": "82fbc4afffa37f3fb351e185f394b610478fbd9595df081ffb5c7140a8646e73",
+    "reason": "Book menu space submitted as Enter produced empty timeout e302. Preserve old history, restore latest confirmed library checkpoint in new session; no pending replay."
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

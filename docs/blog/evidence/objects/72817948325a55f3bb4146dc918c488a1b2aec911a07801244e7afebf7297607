@@ -1,0 +1,12 @@
+# Theatre progress — SEGMENT 1 STOP (step budget)
+
+Location: Sick Bay (e221, branch b1). Bed has letter + small glass vial (clear blue liquid). Closed medical cabinet. Exit south to North End Long Corridor.
+Carrying (last verified e163 + adds): patterned lens, old ticket (re-taken e174), blue pearl (e209), Back Wall page + 2 recess pages + earlier pages (counts unverified — run inventory first next segment).
+Room states: chandelier swinging/lowered; spotlight burned into lens (+2); bookcases toppled, slug dead; crow down chimney; Guest Star Room behind (west of north corridor).
+
+Checkpoints confirmed: start-lobby, basement-entry, outside-theatre, lobby-trapped, attic-south, attic-observatory, aisle-patterned-lens, western-balcony, theatre-roof.
+Branch: b1 after restore aisle-patterned-lens (m0156). Chandelier ride re-done fast (push/drop/E/E/N/go) to Western Balcony → NW hole → Back Wall → S → W library → N recess → S,S → unhook chain → push bookcase → S nest (pearl) → W balcony → U roof → chimney down → E → N Sick Bay.
+
+Last hint (lines 61-69): open coffin / D / open chest get bottle / get lump clean it / get key / U,U,E,S,W / get mask / break bottle / get mask. Coffin NOT yet found — Sick Bay was exploratory north (not the coffin). Next: checkpoint sick-bay, examine letter/vial/cabinet (1 variation each before canonical), then find coffin (try west door at north corridor), continue hints.
+Annotations done: ambiguity hook, popcorn typo, trap typo, handle vocab, bin world_state, chandelier typo, chain vocab, chimney syntax (+b1). Backlog to annotate next: lobby-stairs block (e06→e124 world_state), cleanhook/thragtrap/pager/switch/pages accepts (failure_type none), drawer typo uncertain (e36→e37 outcome uncertain — needs re-probe), eastdoor open-door generic (e128-129, no success yet), curtains singular accept, pearl take accept, recess take accept, crow catch vocab (e214 fail, no success — correction never taken since crow fled; label vocab, observed uncertain), climb-chandelier fail (e178) → go success (e188) needs annotate (planning/vocab?).
+Do NOT replay old probes blindly; reuse puzzle knowledge. Conserve light/timers.

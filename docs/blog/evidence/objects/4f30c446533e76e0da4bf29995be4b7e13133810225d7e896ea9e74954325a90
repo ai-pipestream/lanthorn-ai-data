@@ -1,0 +1,20 @@
+[
+  {
+    "member": "Walkthrough1.txt",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Walkthrough1.txt",
+    "raw_sha256": "06eb7ba4cce10c680b6489b7853b78520a489894f4ebb79439ad357595162c2e",
+    "bytes": 279
+  },
+  {
+    "member": "Walkthrough2.txt",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Walkthrough2.txt",
+    "raw_sha256": "2cc41af834f0213d2b550977751df0e9d05aff82fc5be2fa07a08dcf2c92fef8",
+    "bytes": 2293
+  },
+  {
+    "member": "Walkthrough3.txt",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Walkthrough3.txt",
+    "raw_sha256": "32b22dd14fc50fec166d872e98222aa8330ed7adf324f1f194e2b21f011599f5",
+    "bytes": 2301
+  }
+]

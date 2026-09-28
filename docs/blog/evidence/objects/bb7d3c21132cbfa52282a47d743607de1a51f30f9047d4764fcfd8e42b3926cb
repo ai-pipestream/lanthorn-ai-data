@@ -1,0 +1,220 @@
+{
+  "at": "2026-09-25T08:28:40.397653+00:00",
+  "game_id": "varicella",
+  "session_id": "varicella-0ca3ff14a0",
+  "header": {
+    "version": 8,
+    "release": 1,
+    "serial": "990831"
+  },
+  "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+  "events": [
+    {
+      "event_id": "varicella-0ca3ff14a0:e00001",
+      "timestamp": "2026-09-25T08:19:42.351494+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\nVaricella by Adam Cadre\n\n(1) Start a new game in full color \n(2) Start a new game in limited color \n(3) Start a new game without color \n(4) Restore a saved game \n(5) How to play interactive fiction \n(6) Special commands \n(7) Credits \n(8) Test whether your interpreter correctly handles color \n(9) Quit \n\n> ",
+      "raw_start": 0,
+      "raw_end": 309,
+      "response_sha256": "aeb6762fc32cdd44d64d72c2fd571dfe411e4b78aabc76690dd1a369a41b97be",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00002",
+      "timestamp": "2026-09-25T08:20:12.824521+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "3",
+      "response": "\n\nMonochrome it is. Press a key to begin!",
+      "raw_start": 309,
+      "raw_end": 350,
+      "response_sha256": "c56629577aa32d47fc0491f16bffdda37001523b4717b969eba164bffe2b465e",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "case_id": "varicella-start-01",
+        "expected_outcome": "Game begins with opening room description",
+        "intent": "Select 'Start a new game without color' from startup menu",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00003",
+      "timestamp": "2026-09-25T08:20:30.847904+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\nYou are Primo Varicella, Palace Minister at the Palazzo del Piemonte. This \ntitle is unlikely to impress anyone. Piedmont is the laughingstock of the \nCarolingian League, and the Palace Ministry has devolved into little more than \na glorified (and not even especially glorified) butlership: your duties include \norganizing banquets, overseeing the servants, and greeting visitors. It is safe \nto assume that the War Minister and the Coffers Minister lose little sleep over \nyour presence in the King's Cabinet.\n\nBut Charles Martel was a Palace Minister, and he turned back the Moors at Tours \nlo these many years ago. His son Pepin was a Palace Minister, and he became \nKing of the Franks. It is not unprecedented for Palace Ministers to make \nsomething of themselves. One might even say it is tradition. All you need is an \nopportunity.\n\nAnd that opportunity is now.\n\nKing Charles was not an old king. Indeed, he had a good forty years left in \nhim. Perhaps even fifty. But an assassin's bullet or a well-placed icepick can \nsteal fifty years in less time than it takes to say the words. And a sudden \nillness? An illness such as the one King Charles contracted two days ago? \nPerhaps not as quick, but just as effective. For if this letter you've just \nreceived is correct, just such a disease has claimed the life of the King. This \nleaves the principality in the hands of his son, Prince Charles. Prince Charles \nis five years old. Piedmont, it seems, will be requiring the services of a \nregent for the foreseeable future. And you can think of no better candidate \nthan yourself.\n\nOf course, you shall scarcely be alone in seeking the position. The King's \nCabinet is not a small body. And your fellow ministers will no doubt try all \nsorts of unseemly tactics in their quest for the throne. Some will try bribery. \nOthers will employ treachery. A few may even resort to brute force. But would \nPrimo Varicella stoop to using one of these methods? Perish the thought! You're \nbetter than that. You shall employ all three.\n\nIt will be an uphill struggle, to say the least. Of those soon to be clamoring \nfor the regency, you are among the lowest in rank. But you are not without a \nnumber of advantages. The drama to unfold will play out in the palace -- your \npalace. Time is also on your side: at present, only you and the Queen know of \nthe King's demise. And you've known of his illness for a couple of days now, \ndays in which you've hatched a flawless plan. There should be little to stand \nin the way of your ascent to power so long as you put your plan into action \nimmediately.\n\nOr at least as soon as this manicure is finished. One must have one's \npriorities.\n\nV A R I C E L L A\nwritten and programmed by Adam Cadre\nVersion 1.14 (31 August 1999) / Serial number 9339\nWritten in Inform 6.15, library 6/7\n\nSalon\nYou've funneled the lion's share of the palace improvements budget -- and most \nlikely the tiger's share as well -- into renovating the salon... not that the \nPhilistines you live among are equipped to appreciate it. From the plush \nQuattordici chairs to the handsome volumes in the library to the imported Ming \ntea service to the steward you hired to attend to your grooming needs, this is \nan oasis of taste and comfort in what is otherwise a fairly uncomfortable and \ntasteless building. Ah, well. When you become Regent you'll have greater \nlatitude to redecorate. The arched windows overlook the western gardens, while \nthe exit leads east.\n\nThe steward shapes the final nail with a pair of scissors.\n\n>",
+      "raw_start": 350,
+      "raw_end": 3886,
+      "response_sha256": "9de93fe1cade051a27790ff372972c8497967ef5d032c3d9994e6af2f4f21439",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "case_id": "varicella-start-02",
+        "expected_outcome": "Opening narrative and first room description",
+        "intent": "Press a key to begin the game",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00004",
+      "timestamp": "2026-09-25T08:20:54.573956+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nSalon\nFrom the plush Quattordici chairs to the handsome volumes in the library to the \nimported Ming tea service to the steward you hired to attend to your grooming \nneeds, this is an oasis of taste and comfort in what is otherwise a fairly \nuncomfortable and tasteless building. The arched windows overlook the western \ngardens, while the exit leads east.\n\nThe steward shapes the final nail with a pair of scissors.\n\n>",
+      "raw_start": 3886,
+      "raw_end": 4306,
+      "response_sha256": "fae31fef590124e55bfd596ff3eb93427306c289755ad51c4956ebcc2c2cd6b3",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "case_id": "route-opening-look",
+        "expected_outcome": "Salon description with exits and steward",
+        "intent": "Confirm current surroundings at game start in the Salon",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00005",
+      "timestamp": "2026-09-25T08:21:12.593932+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 4306,
+      "raw_end": 4320,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "name": "early-saloon"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00006",
+      "timestamp": "2026-09-25T08:21:12.895299+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "checkpoint_filename",
+      "command": "early-saloon.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/varicella/saves/vgame.z8.save/early-saloon.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 4320,
+      "raw_end": 4437,
+      "response_sha256": "7f42e4054da27053a643309564c50074ee95c86af3ca192d1c019c2ac392f7e6",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "name": "early-saloon"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00007",
+      "timestamp": "2026-09-25T08:21:36.628959+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying a letter from the Queen and your master key. You are wearing a \nshirt of the finest imported Chinese silk, a doublet of a subtle purple hue, an \nold-style jerkin with a pleasingly high collar, a fittingly understated pair of \nblack hose, a fashionable pair of paned knee-breeches, a black cloak edged with \na splendid silver brocade, a pair of stylish custom-made shoes and a hat that \nis all the rage in Paris this season.\n\n>",
+      "raw_start": 4437,
+      "raw_end": 4880,
+      "response_sha256": "e4d0000a511739c2d7cea184b70fe69f369dbe1688ef0550791afd4662cb3174",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "case_id": "route-opening-inventory",
+        "expected_outcome": "List of carried items such as the letter",
+        "intent": "See what Primo is carrying at game start",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00008",
+      "timestamp": "2026-09-25T08:21:48.799595+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "x stewrad",
+      "response": "That is either not in the immediate area, or is beneath your concern.\n\n>",
+      "raw_start": 4880,
+      "raw_end": 4952,
+      "response_sha256": "4dbb4d53d8a9983b6b953cf291304613acbf81adc95712dffe2009a1062ec223",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "case_id": "salon-steward-examine-01",
+        "expected_outcome": "Description of the steward",
+        "intent": "Examine the steward attending to my nails (typo for 'steward')",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "varicella-0ca3ff14a0:e00010",
+      "timestamp": "2026-09-25T08:22:18.697399+00:00",
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "branch_id": "b0",
+      "event_index": 10,
+      "event_type": "command",
+      "command": "x steward",
+      "response": "This was far and away your most important hire upon your appointment as Palace \nMinister, and you agonized over the choice for months: you can countenance the \noccasional undusted endtable or poorly polished piece of silverware, but a less \nthan perfect manicure? Never!\n\n>",
+      "raw_start": 4952,
+      "raw_end": 5225,
+      "response_sha256": "d0b291fde39765a6f45fbcd8b3ff052ac44a9a9bd0f449c1eca9dd117b8fff57",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "varicella-0ca3ff14a0",
+        "case_id": "salon-steward-examine-01",
+        "expected_outcome": "Description of the steward",
+        "intent": "Examine the steward (corrected spelling after typo rejection)",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Parent actualheader/raw/hashverified, sourcegaps retained; not completionclaim"
+}

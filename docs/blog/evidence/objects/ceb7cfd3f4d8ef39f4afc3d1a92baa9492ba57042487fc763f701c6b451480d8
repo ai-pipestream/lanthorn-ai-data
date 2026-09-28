@@ -1,0 +1,23 @@
+{
+  "game_id": "return-to-karn",
+  "title": "Return to Karn",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/karn.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/karn.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/source.json",
+  "story_sha256_expected": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+  "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+  "dataset_split": "train",
+  "game_family": "doctor-who",
+  "collection_notes": "# Return to Karn\n\nGuide explicitly matches R2/961207 and was updated by the game author. Colour sequences depend on observation; placeholders must not be treated as literal commands.\n\nCompletion: Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient.\n\nFamily/split: Archive explicitly identifies Doctor Who setting. Group all Doctor Who/Karn ports or shared-world games together; no such family found in existing corpus or current batch A. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "961207",
+  "session_id": "return-to-karn-bf86b7da19",
+  "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+  "started_at": "2026-09-25T06:13:17.656873+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,18 @@
+{
+  "game_id": "theatre",
+  "title": "Theatre",
+  "url": "https://ifarchive.org/if-archive/solutions/theatre.step",
+  "accessed_at": "2026-09-25T03:09:31.845498+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/theatre.source",
+  "source_sha256": "127175abddb098ff2c0fe8c41fb65ff0b150222ab8426452689a5f70f6701a07",
+  "encoding": "utf-8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/theatre-walkthrough.txt",
+  "normalized_sha256": "3720027c46ea7478c9f7e4d993759151091b90484bfbcb371023ca88d931e634",
+  "story": "/home/krickert/if-games/zcode/theatre.z5",
+  "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+  "compatibility": "Guide version not established. Original Z-code story; do not assume modern remakes match. Full-route compatibility requires observed play.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "951203"
+}

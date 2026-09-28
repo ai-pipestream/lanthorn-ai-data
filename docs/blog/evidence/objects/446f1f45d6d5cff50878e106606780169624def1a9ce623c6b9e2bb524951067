@@ -1,0 +1,20 @@
+# Kook U progress
+
+Location: North End of Hall (door unlocked, score 10). Drawer loot taken (card+beeper). Terminal/memo examined.
+Inventory observed: beeper, Cabal membership card. Score 10.
+Checkpoints: start-office, hall-reader (both verified).
+
+Cases (9 annotated):
+- office-terminal-typo vocab (e04->e06)
+- office-desk-omitted-drawer vocab (e08->e10)
+- office-memo-wrong-object ambiguity (e12->e13)
+- office-card-short-phrasing none (e15)
+- office-beeper-typo vocab (e17->e18)
+- office-exit-synonym none (e21 walk east)
+- hall-sign-wrong-object vocab (e25 read door -> e26 read sign)
+- hall-reader-wrong-target ambiguity (e28 put card in door -> e29 put cabal in reader, unlock score10)
+Plus route inventory e20.
+
+Last hint: put cabal in reader done; next open door; n; turn on router; s s e; x terminal (6 targets); w s s.
+
+Next: probe door-open phrasing, go north, router area, collect diverse syntax/pronoun/word-order cases. Need 20-40 total; currently 8-9. Update every 10-15 requests.

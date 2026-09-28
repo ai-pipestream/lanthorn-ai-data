@@ -1,0 +1,10 @@
+# Tube Trouble – progress (update 3, pending help)
+
+Location: Platform One (train just missed). Clothes pile + hat visible, large electric sign.
+Inventory: shilling, penny.
+Checkpoints: start-safe, platform-two.
+Annotated (4): notice-sign, penny-coin, machine-vendor, sign-display.
+Hints so far: purpose eat chocolate on train; S Get penny Read notice E X machine; sign says next train platform one.
+Pending: inbox/m0024.json help mode=next continuation after E X machine – no responses/m0024.json yet, latest e00026. Valid JSON, awaiting broker.
+Next after hint: examine hat/clothes/sign on platform one with probes, checkpoint, work vending/hat/train toward eating chocolate aboard train.
+Continuation: state is ordinary prompt on Platform One; checkpoints platform-two/start-safe usable; do not replay identical probes.

@@ -1,0 +1,13 @@
+# Alias the Magpie — progress (game incomplete — Drive e00332, m0303 pending)
+
+Location: Drive e00332 (north from Great Hall opened front door, went outside). Exits: NORTH south inside. Previous: Saloon e00327 -> Great Hall e00331 -> Drive e00332.
+Inventory (observed, last e00266 + returns): NO brass key (Lady took e00325), NO fake scarab (in locked case e00321); carry false beard, Maraca Medley record, banana, Times, telegram + syphon partly drained; wearing moustache; secret pocket feather.
+m0300 checkpoint saloon-post-return ANSWERED e00329/e00330 Ok. Do not resubmit.
+m0301 `north` Saloon->Great Hall ANSWERED e00331. Do not resubmit.
+m0302 `north` Great Hall->Drive ANSWERED e00332 (outside, not wardrobe). Hint m0299 N/OPEN WARDROBE... is STALE: repeats Major's Bedroom route already completed e00249-e00261 (wardrobe opened, shoebox, fake scarab). Do not follow blindly. Office search = Study (Hamcester's office) per e00261/e00321 text.
+m0303 `south` Drive->Great Hall PENDING (no responses/m0303.json yet; latest e00332). Do not resubmit or duplicate. Poll responses/m0303.json first.
+Next: after m0303 confirmed in Great Hall, go west to Library then north to Study for office/original-scarab search, grounding each step in observations; collect synthetic_probe variation before canonical office actions. Continue toward late confinement finale (stick/gum/case/picks, remove suit escape).
+
+Checkpoints Ok: study-brass-key; collection-scarab-returned; saloon-post-return; + prior list through study-breast-pocket.
+Cases b0: through e00332.
+Game incomplete, no finish/restart. No supervisor-hint.json.

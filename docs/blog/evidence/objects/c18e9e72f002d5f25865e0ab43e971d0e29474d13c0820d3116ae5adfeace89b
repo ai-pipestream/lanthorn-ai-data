@@ -1,0 +1,27 @@
+{
+  "game_id": "hla-inform",
+  "title": "HLA Inform: A Classic Quest",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/HLAinform.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/hla-inform-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/HLAA-walk.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Complete the main Dragon Quest and require the actual GameWon concluding narrative and terminal win. The archived Inform source HLA-objs.inf identifies dragon defeat as the main quest and calls GameWon followed by deadflag=2; HLAinform.inf supplies alternate authored winning narratives. Individual quest credit, other monster kills, experience or equipment are not completion.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/hla-inform.json",
+  "story_sha256_expected": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "hla-adventure",
+  "collection_notes": "# HLA Inform: A Classic Quest\n\nLocal Z5 R1/050715 is byte-identical to the archive Inform port. Archive matches game and guide identity. Guide gives no version/serial or port designation. Linked source HLAinform.zip describes HLA Adventure 3.20 and Inform port version 0.3, July 2005; these are different version axes, not the Z-machine release number. No rebuild or runtime compatibility proof.\n\nComplete the main Dragon Quest and require the actual GameWon concluding narrative and terminal win. The archived Inform source HLA-objs.inf identifies dragon defeat as the main quest and calls GameWon followed by deadflag=2; HLAinform.inf supplies alternate authored winning narratives. Individual quest credit, other monster kills, experience or equipment are not completion.\n\nGuide is an unsigned combat/quest route, with nine quest annotations and variable combat. Its NPC equipment, food and companion conditions agree with the linked port source, but command-by-command behavior is untested. No exact RNG assumptions or repeated combat as quota filler. Original HLA Adventure and this explicitly selected Inform conversion are one family; do not silently switch binaries.\n\nFamily/split proposal: hla-adventure / train. Explicit port of Paul Panks HLA Adventure; group all original/Inform releases and shared-puzzle remakes as hla-adventure. No existing HLA family found. Generic fantasy combat does not establish a relationship with Scott Adams or Zork. Parent review before registry integration.\n\nUse only small broker help excerpts: at most 9 lines / 1000 characters. No complete guide reads, direct guide URL access, or serial excerpts to reconstruct a guide. All story files, full guides, raw transcripts and saves stay central; do not stage them remotely. Help is suggested, not observed game evidence. Resolve startup questions and key pauses first. Save early at a safe ordinary command prompt and at safe milestones; verify actual save success. Menu Enter is an empty command, not a literal space or the word RETURN. On timeout use await_output only: no repeated input, flush commands, keys, restart, new SAVE or waits sent to the game. Collect diverse useful labeled synthetic_probe cases with stated intent and actual same-intent repairs supported by event IDs; no quotas, repeated filler or forced case counts. Use one command at a time near hazards, questions and menus. Keep failures and ordinary deaths labeled as failures. Parent independently verifies the real finale against raw output. Private collection only: game and guide reuse permission remains unknown. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "050715",
+  "session_id": "hla-inform-09ea9c8220",
+  "story_sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+  "started_at": "2026-09-25T07:52:54.471669+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

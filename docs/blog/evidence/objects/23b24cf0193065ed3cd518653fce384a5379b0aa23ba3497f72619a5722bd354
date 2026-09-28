@@ -1,0 +1,23 @@
+{
+  "game_id": "dracula-prince-of-darkness",
+  "title": "Dracula - Prince of Darkness",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/dracula.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/dracula_prince_of_darkness.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/source.json",
+  "story_sha256_expected": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+  "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+  "dataset_split": "train",
+  "game_family": "dracula-prince-of-darkness",
+  "collection_notes": "# Dracula - Prince of Darkness\n\nCorrect guide dracula_prince_of_darkness.txt shares the story TUID; original requested dracula.txt is an unrelated Dutch game and is rejected. Guide gives no release/serial; story R3/051012. Timed puzzles are unforgiving; the guide ends with QUIT, which is never success evidence.\n\nCompletion: Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+  "zmachine_version": 8,
+  "release": 3,
+  "serial": "051012",
+  "session_id": "dracula-prince-of-darkness-d75c304699",
+  "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+  "started_at": "2026-09-25T06:13:19.664099+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,18 @@
+# Cacophony progress (update 43 - SEGMENT 4, b8 Idol tested, game incomplete)
+
+Location: Idol Room b8 e681 (idol/pedestal, flaming bowl, door E, NO trophy). Red present. Inventory: screwdriver, notepad (recovered), crowbar, suitcase OPEN (hammer/card/wallet/badge/folder/leaflet), bedroom photo OPENLY carried, torn note.
+Branch: b8 (non-nightcap closed-bag dream). Photo hidden e663-e679 delayed Red: Kitchen e667 + Idol e668 Red-free (vs b6 e640 Red coalesced Kitchen with photo open). Red arrived east e669 on take-note turn (coalesced offstage). Photo revealed e680, wait e681: no Green.
+
+Key mechanics proven SEG3-4:
+- Closed workbag transfers awake->dream suitcase WITHOUT nightcap (b4 e601, b6, b8 e657). Open+no-nightcap fails (b1 e415 empty). Open+nightcap works (b1 e476) but gives Red + trophy + "different".
+- Photo openly carried triggers Red coalesce (b6 e640 Kitchen onstage). Hidden in closed case delays only (b8: Red-free e667-668, Red arrives e669).
+- Trophy case in Idol ONLY in nightcap "different" dream (b1 e483/e498 rooms; m0438/m0441/m0448/m0461/m0474). Non-nightcap Idol never has trophy (b4 m0513, b8 m0549 same hash).
+- Red takes any offered item (crowbar/notepad/photo), grin + antics (bash floor, bang head e675, stare/somersault), puts down (e676). Never gives remote/gizmo. Z wait alone: "Time passes".
+- First-dream only (b0/b5/b7): Green follows everywhere, Garden hands torn note "You're dreaming, fool". Give notepad to Green hands back WITHOUT photo (b5 e620, b7 e647-648, G again same). Give torn note -> uninterested (m0215).
+- Guide chain (hints m0124/m0142/m0157/m0277/m0464): photo -> W W Idol (trophy) -> wait Green -> give notepad (remote) -> G (gizmo) -> touch gizmo (Red) -> give crowbar -> Z opens case -> lantern -> case -> wake -> lantern on -> W leprechaun. R4 breaks it: Green never post-wake, Red spontaneous (not via gizmo), spontaneous Red never opens trophy (b1 Library tests; Idol untested).
+- UNTESTED LEADS: (A) nightcap Idol + give crowbar to Red + Z with trophy present (b1 gave in Library, wrong room?); (B) nightcap Idol + give notepad to Red (remote in Idol?); (C) post-wake Garden rush with photo hidden BEFORE Red coalesces -> Green? (b4 Garden check timing unclear vs Red); (D) route 2 mission-delivery alternate per manifest.
+
+Cases 46 (probe44 put-photo-short accepted none e664; probe45 take-note resolved torn-note + Red-arrival e670; probe46 offer-notepad-red accepted as give e677).
+Checkpoints: b8-idol-red-hiddenphoto (b8 Idol, Red present, photo HIDDEN closed case, note taken, notepad carried - restore to retry hidden-state tests); screwdriver-bagged (awake full kit, redo base); dream-tools (b1 nightcap Library tools+Red - use for lead A/B Idol tests); idol-room (b0 first-dream Idol Green, no photo); + kitchen-start/study-doors/tv-room/dark-room-entry/bedroom-wake/work-room/bagged-awake.
+
+Next: Restore dream-tools -> go Idol (trophy) -> give crowbar to Red -> Z (lead A). If fail, give notepad to Red in Idol (lead B). If fail, Garden rush (lead C) or help for route 2.

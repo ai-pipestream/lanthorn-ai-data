@@ -1,0 +1,43 @@
+import json,hashlib,fcntl,subprocess,zipfile,io
+from pathlib import Path
+from datetime import datetime,timezone
+sha=lambda b:hashlib.sha256(b).hexdigest()
+lf=lambda b:b.decode('utf-8').replace('\r\n','\n').replace('\r','\n').encode()
+p=Path('control/fleet-batch-k-20260925.json');games=json.loads(p.read_text())['games'];checked=[]
+for g in games:
+ r=json.loads(Path(g['source_record']).read_text());data=Path(g['story']).read_bytes();assert sha(data)==g['story_sha256_expected']==r['story_sha256'];h=r['story_header'];assert sha(data[:64])==h['header_sha256'] and data[:64].hex()==h['header_hex'];assert g['zmachine_version']==data[0]
+ release=int.from_bytes(data[2:4],'big');serial=data[18:24].decode();assert release==g['release']==r['release'] and serial==g['serial']==r['serial']
+ length=int.from_bytes(data[26:28],'big')*(8 if data[0]==8 else 4);assert length==h['declared_length'];assert sum(data[64:length])%65536==int.from_bytes(data[28:30],'big')
+ if 'story_container' in r:
+  c=r['story_container'];local=Path(c['local_path']).read_bytes();remote=subprocess.check_output(['curl','-fsSL','--max-time','30',c['url']]);assert local==remote and sha(local)==c['local_sha256']==c['remote_sha256']
+  with zipfile.ZipFile(io.BytesIO(local)) as z:
+   assert z.read(c['member'])==data
+   rd=r['packaged_readme'];assert z.read(rd['member'])==Path(rd['raw_path']).read_bytes();assert sha(z.read(rd['member']))==rd['sha256']
+ else:
+  remote=subprocess.check_output(['curl','-fsSL','--max-time','30',r['story_identity']['url']]);assert remote==data
+ raw=Path(r['raw_path']).read_bytes();norm=Path(g['walkthrough']).read_bytes();assert sha(raw)==r['source_sha256'] and sha(norm)==r['normalized_sha256'];expected=lf(raw);n=r['normalization']
+ if 'segmentation' in n:
+  seg=n['segmentation'];expected=expected.replace(seg['find'].encode(),seg['replace'].encode())
+ if 'assembly' in n:
+  assert expected==Path(n['base_normalized_path']).read_bytes() and sha(expected)==n['base_normalized_sha256'];a=n['assembly'];c=r['guide_correction'];cr=Path(c['raw_path']).read_bytes();cn=Path(c['normalized_path']).read_bytes();assert sha(cr)==c['source_sha256'] and lf(cr)==cn and sha(cn)==c['normalized_sha256']==a['correction_normalized_sha256']
+  assert expected.count(a['start_anchor'].encode())==1 and expected.count(a['end_anchor'].encode())==1
+  start=expected.index(a['start_anchor'].encode());end=expected.index(a['end_anchor'].encode());assert start==a['base_start_byte'] and end==a['base_end_byte']
+  replacement=cn[a['correction_body_start_byte']:].rstrip(b'\n')+b'\n\n';assert sha(replacement)==a['replacement_sha256'];expected=expected[:start]+replacement+expected[end:]
+ assert expected==norm,g['game_id']+' normalization'
+ for key in ('archive_game_entry','archive_guide_entry','family_related_archive_entry'):
+  e=r.get(key)
+  if e:assert sha(Path(e['snapshot']).read_bytes())==e['snapshot_sha256']
+ assert r['archive_game_entry']['tuid']==r['archive_guide_entry']['tuid']
+ checked.append(dict(game_id=g['game_id'],story_sha256=sha(data),guide_sha256=sha(norm),release=release,serial=serial,engine=g['engine'],family=g['game_family'],split=g['dataset_split'],compatibility=r['compatibility'],archive_bytes_rechecked=True,normalization_reproduced=True))
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ pool=json.loads(Path('control/worker-pool.json').read_text());splits=json.loads(Path('batches/splits.json').read_text());ids={g['game_id'] for c in pool['queue_configs'] for g in json.loads(Path(c).read_text())['games']}
+ for g in games:
+  gid=g['game_id'];assert gid not in ids and gid not in splits['assignments'] and not (Path('play')/gid).exists()
+  for old,fam in splits['families'].items():
+   if fam==g['game_family']:assert splits['assignments'][old]==g['dataset_split']
+  splits['assignments'][gid]=g['dataset_split'];splits['families'][gid]=g['game_family']
+ idx=next(i for i,c in enumerate(pool['queue_configs']) if Path(c).name=='fleet-batch-i-20260925.json');pool['queue_configs'].insert(idx,str(p.resolve()))
+ for path,value in [('batches/splits.json',splits),('control/worker-pool.json',pool),('control/fleet/batch-k-parent-validation.json',dict(at=datetime.now(timezone.utc).isoformat(),games=checked,status='parent local/archive/container/member/header/checksum/source raw-normalized hash and exact assembly/family checked; registered before remaining I; runtime unproven'))]:
+  tmp=Path(path).with_suffix('.parent.tmp');tmp.write_text(json.dumps(value,indent=2)+'\n');tmp.replace(path)
+print('registered', [g['game_id'] for g in games])

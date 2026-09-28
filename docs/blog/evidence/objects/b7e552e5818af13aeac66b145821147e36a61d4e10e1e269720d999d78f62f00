@@ -1,0 +1,18 @@
+{
+  "game_id": "anchorhead",
+  "title": "Anchorhead",
+  "url": "https://ifarchive.org/if-archive/solutions/anchor.sol",
+  "accessed_at": "2026-09-25T03:09:31.845498+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/anchorhead.source",
+  "source_sha256": "68d85b4604d7dbd75e3a1ce7eaa28b1f45e1946e054beb0dd33bb63aa25c64ac",
+  "encoding": "utf-8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/anchorhead-walkthrough.txt",
+  "normalized_sha256": "c9960cd17a347410980f4cd595112b0ff87f7fcb342406f1eb5538f3615a32c6",
+  "story": "/home/krickert/if-games/zcode/anchor.z8",
+  "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+  "compatibility": "Guide version not established. Original Z-code story; do not assume modern remakes match. Full-route compatibility requires observed play.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "990206"
+}

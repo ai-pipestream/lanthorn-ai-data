@@ -1,0 +1,109 @@
+{
+  "game_id": "detective",
+  "title": "Detective",
+  "author": "Matt Barringer; Inform port by Stuart Moore",
+  "url": "https://ifarchive.org/if-archive/solutions/detective_solution.txt",
+  "accessed_at": "2026-09-25T08:28:20.620523+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective_solution.txt",
+  "source_sha256": "b34c4d054d398c662b17fca859aa9394b973ee03d6559b55f77ec8cd222da0f1",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective-walkthrough.txt",
+  "normalized_sha256": "b34c4d054d398c662b17fca859aa9394b973ee03d6559b55f77ec8cd222da0f1",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/detective.z5",
+  "story_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+  "compatibility": "Local Z5 R1/000715 exactly matches archive bytes. Archive identifies Stuart Moore's straight Inform port of Matt Barringer's original. James Mullish guide entry points to the AGT original and provides no release/serial; preserve the AGT-to-Inform gap. Guide body misspells the author name, but shared IFDB identity and linked port source corroborate the intended game and final room/up route. Static source inspection is not a runtime or reproducible-build claim.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "000715",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000014a0c4a0d3deb010a1a75356b00503030303731350042690e2d8000000000000000000000000000000000356a000000000000010200000000362e3231",
+    "header_sha256": "96ade8234424547fb809ca785eb9f4d61c802e693ab9864ec44efcd2a8350c59",
+    "checksum_hex": "2d80",
+    "declared_length": 107576,
+    "file_bytes": 108032
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "detective.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/detective.z5",
+    "accessed_at": "2026-09-25T08:29:36.553782+00:00",
+    "remote_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+    "local_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+    "bytes": 108032,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "000715"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#detective.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "detective.z5\n◆\n[15-Jul-2000]\nIFDB entry\nIFWiki:\nDetective\nDetective, originally by Matt Barringer. This is a\nstraight port to Inform, by Stuart Moore.\nRelease 1 / Serial number 000715.\n(source code is in\ngames/source/inform/Detectivesrc.zip;\nthe AGT original is in\ngames/agt/detect13.zip)",
+    "tuid": "1po9rgq2xssupefw"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#detective_solution.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "detective_solution.txt\n◆\n[11-Jan-2020]\nIFDB entry\nIFWiki:\nDetective\nSolution to Detective, written by James Mullish.\n(the game itself is in games/agt/detect13.zip)",
+    "tuid": "1po9rgq2xssupefw"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "James Mullish (archive attribution)",
+    "route_summary": "Follow the mayor-murder investigation route through the authored arrest/promotion narrative in Room 30, then the instructed upward exit into the Info victory ending. The linked Inform source sets the winning state there. Require independent raw-output confirmation of this conclusion; room-visit points, the monster encounter, generic death or a quit prompt alone are insufficient.",
+    "limitations": "The very short guide has missing punctuation between some commands. Preserve raw text and infer one action at a time from observed room exits and prompts, never submit the whole line. The source shows a short turn limit at the dazed-man encounter; save safely before it and keep probes outside that hazard. Do not require maximum score or pad this short complete game with filler.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "detective-matt-barringer",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Use detective-matt-barringer across the AGT original and Inform port. Distinct from registered Gumshoe by author, archive identity and plot. Generic detective fiction is not a shared family. Source commentary mentions other games as criticism, not shared-world or puzzle reuse."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public hosting and source availability do not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "static_ending_evidence": {
+    "url": "https://ifarchive.org/if-archive/games/source/inform/Detectivesrc.zip",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/Detectivesrc.zip",
+    "sha256": "03e268850a15df0c7772e8d9acc7f3c765abea56685c48ebd432aca3794e4371",
+    "members": [
+      {
+        "member": "GAME.INF",
+        "sha256": "0576a911f81f7a73060fc697e3b54e4d631709d8e09a8fd680c7a9b66287912d",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective-source-GAME.INF"
+      },
+      {
+        "member": "Rooms.h",
+        "sha256": "fd92074db1811a1d9d07680d34864ead37044dacc0b04fb9768cd4137bee1471",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective-source-Rooms.h"
+      },
+      {
+        "member": "NPCs.h",
+        "sha256": "8940806c79c90d7881ccd5884fb9b8ec987497ab90c80aefd29afc8c342e7726",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective-source-NPCs.h"
+      }
+    ],
+    "finding": "Rooms.h Room 30 narrates arrest/promotion, then u_to ROOM_Info. Info sets deadflag from number 2 (winning); NPCs.h confirms the timed encounter on the guide route.",
+    "limitation": "No guide commands executed, no compile or byte-equivalence claim for source. Whole source and extracted members central only."
+  }
+}

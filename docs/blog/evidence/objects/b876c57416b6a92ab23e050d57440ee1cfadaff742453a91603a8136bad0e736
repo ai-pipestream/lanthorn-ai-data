@@ -1,0 +1,7 @@
+# Critical Breach — progress (b10 east closed-cage, e378)
+
+Location: east Test Area, cage CLOSED with capsule mouse + sedated scorpig (close e377, wait e378 Time passes). West computer menu verified e371 (1 instructions, 2 food, 3 manipulate, 4 register, 5 monitor). Instructions e372: load chip → sedate/prepare → inject → close/seal → monitor; register if needed. SELECT3 already unlocked e373; SELECT2 denied not-consumed e374 (mouse uneaten). Chip registered carried, injector empty, pliers/beaker/keycard/coat (i e358).
+East history: typo scropig e348→TAKE e349 refuse (annot e350); 4Z floor e352-355 no eat; TAKE e356 + GRAB e357 refuse (annot e359); cabinet disposer/anesthetic e360, disposal furnace e361; put-mouse omitted e362→needs-holding e363 (annot e364); take mouse e365, put in cage e366, x cage shivering e367-369; west select1-3, east close.
+Blocker: natural eat not observed open or closed (1 wait each) despite capsule mouse inside. Gas sedation persists; SELECT2 blocked until consumed.
+Cases ~35 (typo, grab-syn, put-omitted). Checkpoints: b10-registered BEST, b8-drop-wait, b9-grasped attack ref. Pending: m0348 x cage closed.
+Next: await m0348; if still shivering try further waits (up to ~4 closed) then help on closed-cage eat; avoid LOAD/INJECT before grasp (chip fragile e237/e321); 1 cmd near hazard.

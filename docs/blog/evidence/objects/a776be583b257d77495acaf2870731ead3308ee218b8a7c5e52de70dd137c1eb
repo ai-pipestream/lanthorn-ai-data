@@ -1,0 +1,17 @@
+# Nine Points – progress (update 3)
+
+Location: Great Uncle's Bedroom, door slammed shut.
+Inventory (observed e00038): green plant, brass lantern, tiny closed bottle (Doctor Tung's Epicene Digestive Remedy).
+Branch b0. Last: e00039 x bottle.
+
+Checkpoints: start-hallway, bedroom-entry verified.
+
+Cases pending annotation:
+- bedroom-bookcase-synonym e00036 ACCEPTED (look at shelf -> bookcase, floating 2in, fake books) – needs none-annotate
+- bedroom-plant-take e00037 ACCEPTED (take plant Taken, revealed bottle in inventory?) – needs none-annotate (expectation wrong, observed takeable)
+- bedroom-inventory-check e00038, bedroom-bottle-examine e00039 exploration
+Annotated: bed-wordorder, furniture-typo, lantern-synonym, plus earlier lounge/hallway set.
+
+Clues: bed worn spot by foot; bookcase floating 2in with fake books; window north with light; plant taken.
+
+Next: probe push/move bed and bookcase, examine window/plant/pot, open bottle, request hint if two pushes fail; checkpoint before risky pushes.

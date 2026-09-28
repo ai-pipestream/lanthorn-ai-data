@@ -1,0 +1,8 @@
+# Photopia progress
+
+Location: Alley's bedroom (framing story revealed - Alley babysitting Wendy, telling the Wendy-tale); Alley doing homework, bedtime.
+Inventory: as Wendy (empty chest); now playing as Wendy-listener? Parents coming home soon.
+Route since forest update: ask weather man failed (absent) -> north/east looped -> talk wolf (no shared language) -> waits -> up blocked (canopy) -> inventory (coin/pod/open chest) -> put pod in dirt (salesman appears!) -> talk menu (queen/rain/wolf) -> 2 rain (one gold piece) -> give coin (cloud rains, bush grows, wolf fed, pod gone) -> bedtime reveal. Checkpoints: forest-clearing, alley-bedroom (Saved/Ok).
+Cases pending annotation: forest-weatherman-call (failure e182, no correction yet - planting pod e192 is the route discovery), forest-feed-wolf (misparse e191). Total annotated still ~26; will annotate weatherman+feed once bedroom done or now if time.
+Last hints: bedroom = ask Alley where she gets ideas, after long transcript turn off light. Nursery conclusion still final target.
+Next: talk to Alley, choose ideas question, read transcript, turn off light; update in ~10.

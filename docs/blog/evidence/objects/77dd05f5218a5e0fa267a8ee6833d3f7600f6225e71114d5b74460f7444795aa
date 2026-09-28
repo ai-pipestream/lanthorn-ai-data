@@ -1,0 +1,127 @@
+{
+  "at": "2026-09-25T06:58:59.429271+00:00",
+  "game_id": "critical-breach",
+  "events": [
+    {
+      "event_id": "critical-breach-b5dd49a3e4:e00001",
+      "timestamp": "2026-09-25T06:50:37.343264+00:00",
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\nCritical Breach\nAn Escape Story by Grey\nRelease 3 / Serial number 130817 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) \n\n(For more information and help, type \"HELP\".)\n\nDarkness\nYou are surrounded by black, cold water in every direction.\n\n>",
+      "raw_start": 0,
+      "raw_end": 240,
+      "response_sha256": "19bcea4a9a873ac35517b53e6af8703dc4c7170973cc6ad7b42a71cd91a3bf06",
+      "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "critical-breach-b5dd49a3e4:e00002",
+      "timestamp": "2026-09-25T06:51:02.904065+00:00",
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "look",
+      "response": "Darkness\nYou are surrounded by black, cold water in every direction.\n\nSomething is wrong. I can't wake up...Am I dreaming? It seems so real.\n\n>",
+      "raw_start": 240,
+      "raw_end": 383,
+      "response_sha256": "738013ca93e1e5d1a8e32f8034b2b29827e3471b67ffcc9d6ab325b8a99d9f1f",
+      "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "critical-breach-b5dd49a3e4",
+        "case_id": "route-opening",
+        "expected_outcome": "Room description",
+        "intent": "Describe my current surroundings",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "critical-breach-b5dd49a3e4:e00003",
+      "timestamp": "2026-09-25T06:51:20.931997+00:00",
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "command",
+      "command": "help",
+      "response": " > Introduction to Critical Breach\n   Instructions for Play\n   Credits\n                                Instructions\n\n N = Next                                                        Q = Quit Menu\n P = Previous                                                    ENTER = Select\n",
+      "raw_start": 383,
+      "raw_end": 659,
+      "response_sha256": "67890981fe59bc920a50797a356192c1cef434e249fd15e5e86aa06e7a20776b",
+      "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "critical-breach-b5dd49a3e4",
+        "case_id": "route-opening",
+        "expected_outcome": "Help text with how to play",
+        "intent": "Get game help and controls",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "critical-breach-b5dd49a3e4:e00004",
+      "timestamp": "2026-09-25T06:51:39.257968+00:00",
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "",
+      "response": "\n The setting is basically science fiction with some horror elements. I tried to \nkeep it easy for casual gamers and newcomers to IF.\n The puzzles should be pretty simple, and only a couple of extra verbs are \nnecessary (for example INJECT and POUR). It should be impossible to make the \ngame unwinnable, but there is a \"bonus\" ending.\n I'm not a native speaker, so please be patient.\n\n\n\nPlease press SPACE to continue.\n                      Introduction to Critical Breach\n\n N = Next                                                        Q = Quit Menu\n P = Previous                                                    ENTER = Select\n",
+      "raw_start": 659,
+      "raw_end": 1293,
+      "response_sha256": "e8406bc4bf4a06153bd24c1f709e77abccb1cc32c9eb6640914ec503f114d629",
+      "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "critical-breach-b5dd49a3e4",
+        "case_id": "route-opening",
+        "expected_outcome": "Select current help menu entry",
+        "intent": "Press Enter to select highlighted help topic",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "critical-breach-b5dd49a3e4:e00008",
+      "timestamp": "2026-09-25T06:52:21.482037+00:00",
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "checkpoint_filename",
+      "command": "start-darkness.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/critical-breach/saves/CriticalBreach.z8.save/start-darkness.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1726,
+      "raw_end": 1860,
+      "response_sha256": "3d26592e4bfb28b40cf9cb2367955dd0d8d95c0ceff8b619e24ade1fb9eba35a",
+      "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "critical-breach-b5dd49a3e4",
+        "name": "start-darkness"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "header": {
+    "version": 8,
+    "release": 3,
+    "serial": "130817"
+  },
+  "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+  "checkpoint_verified": true,
+  "note": "Parent checked exact raw span/text/hash and header. Bedlam is preview, no full-game claim. Guide gaps retained. Independent review pending."
+}

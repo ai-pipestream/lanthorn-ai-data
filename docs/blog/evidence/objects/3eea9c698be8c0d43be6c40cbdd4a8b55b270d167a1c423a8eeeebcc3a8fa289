@@ -1,0 +1,19 @@
+# BiCon progress (update 8 - continuation checkpoint, game incomplete)
+
+Location: Lawn after ball blocked. Score 8. Need outfit from flat south.
+Last: Reception north blocked (not ready, need outfit). Returned south to Lawn (e00198).
+Inventory last known: colourful bag, phone on, backpack (kit+timetable), badge, clothes, menus? Shiny left in Reception (may be gone on revisit e00196). Verify with inventory next.
+Checkpoints: start-argentina, britain-picnic, denmark-after-fizzbuzz, reception-arrival, denmark-ice-broken, reception-shiny-dropped, lawn-after-pizza (all ok).
+
+Cases: syn-juggle-20 syntax annotated (juggle balls -> juggle, both fail skill). Belly dance, bouncy castle success. Ball blocked world_state (need costume).
+
+Last hint e00189 lines 143-151 done through s (second s pending). Next walkthrough after s,s expected: flat/key/costume/ball route per manifest.
+
+Next actions on resume:
+1. Read latest.json + this file
+2. south to flats from Lawn (route-south-flats)
+3. Follow room-key, costume, ball route via help mode next
+4. Checkpoint at flat arrival and before costume/ball
+5. Continue 20-40 synthetic probes; currently ~20 cases
+
+Game incomplete: stopped on step budget, not ending. No finish attempted.

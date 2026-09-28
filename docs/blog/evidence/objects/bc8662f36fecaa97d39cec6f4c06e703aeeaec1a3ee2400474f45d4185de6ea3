@@ -1,0 +1,25 @@
+{
+  "games": [
+    {
+      "game_id": "savoir-faire",
+      "title": "Savoir-Faire",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/Savoir-Faire.zblorb",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/savoir-faire-walkthrough.txt",
+      "walkthrough_url": "https://ifarchive.org/if-archive/solutions/savoir.html",
+      "response_timeout_seconds": 180,
+      "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/savoir-faire.json",
+      "story_sha256_expected": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+      "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+      "dataset_split": "development",
+      "game_family": "savoir-faire",
+      "zmachine_version": 8,
+      "release": 8,
+      "serial": "040205",
+      "recovery_checkpoint": "basin-full",
+      "automatic_checkpoints": false,
+      "recovery_reason": "Explicit new session after help/file menu produced repeated empty timeouts. Old pending input is cancelled, never replayed."
+    }
+  ]
+}

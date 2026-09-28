@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-25T10:10:33.128053+00:00",
+  "accepted_for_routine_supervised_triage": true,
+  "scope_games": 37,
+  "retained_slots": 33,
+  "actual_clients": 0,
+  "supervisor_hold_is_subset_of_retained_slots": true,
+  "validation": {
+    "valid": true,
+    "status": "validated_proposal_only",
+    "parent_semantic_review_required": true,
+    "actions_executed": [],
+    "json_fence_removed": false,
+    "exact_held_game_list_normalized_to_count": false
+  },
+  "limitations": [
+    "Capacity note says plus explicit hold; Pytho is already INCLUDED in33retained, never34unfinished",
+    "Four historical ending/branch flags already independentlyreviewed; no repeatedcertification needed",
+    "Localquota cause is known from parentreceipt despite genericdiagnose disposition"
+  ],
+  "actions_executed": [],
+  "autonomous_game_recovery_authorized": false
+}

@@ -1,0 +1,10 @@
+# Hunt For Relief — progress
+
+Location: Big Crowded Room, ordinary prompt. Score 2 (e80).
+Inventory (e79-e80): floppy, book, rest of silver key, handle, magnet, rusty pot, bottle+sulfuric acid; plus gloves + spoon taken via 'get all' e80.
+Glue recipe (e66): 2kg dry mammal shit, 3L clear water, 2 knife tips salt, optional 200ml salpetric.
+Cases: lookup-glue-omitted e65-e66 syntax annotated e67; lookup-salpetric-pronoun e69-e70 none annotated e71; fridge-synonym-icebox e74 vocab -> e76 guided, annotated e77; drawer-get-all-omitted e80 none pending m0076.
+Hints: e75 fridge+gloves useless for now, ice misleading as water, x desk/open drawer; e78 get all from drawer / open bathroom retry.
+Revealed by 'get all' e80: pile of shit (Nah), refridgerator spelling, basin, cooling/freeze compartments, red ON/OFF switch, disk drive, metal lock.
+Checkpoints: start-home, found-pot, found-key-magnet, retrieved-fragment.
+Next: confirm m0076 annotation; x pile of shit / spoon-shit handling; find water (ice/basin), salt, salpetric; make glue, repair key, unlock bathroom, use toilet.

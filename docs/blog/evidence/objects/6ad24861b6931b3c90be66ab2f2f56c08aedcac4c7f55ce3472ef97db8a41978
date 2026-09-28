@@ -1,0 +1,27 @@
+# Progress - A Bear's Night Out (update 4)
+
+## Current location
+Living Room. Score 5, Moves 82. TV on (shopping muzak), yoyo glowing.
+
+## Inventory
+- flyer, ball (in jacket?), jacket worn, night shirt worn, baguette, yoyo (charged glowing), ukulele
+
+## Key progress
+- Bathroom pull drawer -> hole +3 (score 5). Hole leads to Darkness (need light).
+- Hint: turn on tv charges yoyo. Done via 'switch on television' (probe25 none success).
+- Box still not found; front entrance has no box in R5. May appear after hole/computer steps or version differs. Need next hints after Bathroom section.
+- Early hints: Cupboard wear jacket, Bathroom drawer/yoyo/pull, South hall ball, Living turn on tv charges yoyo, Bathroom...
+
+## Cases
+- probe23 yank/pull drawer vocab success e117->e118
+- probe24 enter hole e123 darkness (needs light, climbed back e124)
+- probe25 switch on TV none e130 yoyo glowing
+- Pending: probe14 study locked, probe18 bench too high, probe20 bathroom open drawer success, probe21 take yoyo.
+
+## Next
+- Checkpoint living-charged, return to bathroom, descend hole with glowing yoyo.
+- Get next hint for Bathroom after charge.
+- Search hole foundations for box/chip/leaflet?
+
+## Checkpoints
+- start-bedroom, south-hallway-ball, kitchen-bench, bathroom-hole

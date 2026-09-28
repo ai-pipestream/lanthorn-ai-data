@@ -1,0 +1,7 @@
+# SpiritWrak progress — INCOMPLETE, pausing at step budget (Top of tree, shake pending)
+
+State: Top of tree e211 (nest with egg). Probe 'shake tree' e212 gave 'Nothing happens'. Recovery inbox/m0192.json ('shake branch', case tree-shake-object) SUBMITTED but response NOT yet confirmed — do NOT resubmit; on continuation read responses/m0192.json and latest.json first.
+Inventory (observed): flour, sand, prayer book (+swanko/foblub), amulet worn; pallet on boulder below (e206); dirty swanko scroll consumed by gnusto e198. Score 8.
+Checkpoints (Ok, verify in events): slope-top e209-e210, cliff-recovered, mountain-peak, cliff-face, trapdoor-open, storeroom-flour, kitchen-recipe, library-planes, etc.
+Cases: ~33 incl boulder-synonym-rock none e206-e207; tree-shake-object PENDING (e212 fail -> m0192 recovery unconfirmed). No help pending. Last hint m0182 lines 65-73 done through Climb tree; remaining Shake branch, D,D.
+Next (continuation): 1) confirm m0192; if egg dropped to pallet, annotate pair (failure_type world_state or vocabulary? 'shake tree' no-effect vs 'shake branch' success — same intent, different object granularity); 2) D,D per hint; 3) help mode next; 4) update progress. Never replay probes blindly; preserve pallet-cushion route.

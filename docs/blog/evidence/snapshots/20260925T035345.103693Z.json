@@ -1,0 +1,1975 @@
+{
+  "captured_at": "2026-09-25T03:53:45.103693+00:00",
+  "note": "User authorized continuous ten-game pool; systemd manager enabled and restart verified; Balances started with four curated replacements queued",
+  "purpose": "Synthetic test-data collection, not a model playing benchmark",
+  "training_status": "not started",
+  "model_evaluation_status": "not started",
+  "publication_status": "private experiment; nothing published",
+  "games": [
+    {
+      "game_id": "905",
+      "events": 105,
+      "command_events": 69,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 4,
+        "checkpoint_filename": 5,
+        "command": 69,
+        "help": 9,
+        "annotation": 15,
+        "restore": 1,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "905-0674f2e54c"
+      ],
+      "last_event_id": "905-0674f2e54c:e00105",
+      "last_event_at": "2026-09-25T02:46:08.407045+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 98607,
+      "journal_prefix_sha256": "455d8d304adcd3aa27a971a658d15277a5896e24956cdbb246620fcecb1fd1c4",
+      "raw_prefix_bytes": 12255,
+      "raw_prefix_sha256": "913bda857016d1366643f19d81141356c4165c151d9d85cb1e177f608ce852b4",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "adventureland",
+      "events": 941,
+      "command_events": 783,
+      "event_types": {
+        "startup": 4,
+        "command": 783,
+        "help": 35,
+        "annotation": 111,
+        "checkpoint": 4,
+        "restart": 3,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "adventureland-19f4e4861c"
+      ],
+      "last_event_id": "adventureland-19f4e4861c:e00941",
+      "last_event_at": "2026-09-24T13:34:37.148711+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 879211,
+      "journal_prefix_sha256": "31b85746a5260c6336498290e0f8a43aef7f6d6e54c51eddc9cc53277974076f",
+      "raw_prefix_bytes": 129853,
+      "raw_prefix_sha256": "2eaee3cda6b8cb08e8da49aa3f6d06a71fd7ea1781369c19c15f703d4b078a06",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "anchorhead",
+      "events": 397,
+      "command_events": 288,
+      "event_types": {
+        "startup": 2,
+        "command": 288,
+        "checkpoint": 17,
+        "checkpoint_filename": 19,
+        "help": 18,
+        "annotation": 49,
+        "session_recovery": 1,
+        "request_cancelled": 1,
+        "restore": 2
+      },
+      "sessions": [
+        "anchorhead-4f68bc5f05",
+        "anchorhead-51ee2d15c2"
+      ],
+      "last_event_id": "anchorhead-51ee2d15c2:e00095",
+      "last_event_at": "2026-09-25T03:53:41.138326+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 425282,
+      "journal_prefix_sha256": "1ec87cd6d6c47c30b475bd878b452a071069312776c1271ec8ccb017adde5a05",
+      "raw_prefix_bytes": 99849,
+      "raw_prefix_sha256": "ed89db75ea0402e433d4b5c8e7faccd67eae6fb408a9891029e83be25dc1db79",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "balances",
+      "events": 29,
+      "command_events": 19,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 2,
+        "checkpoint_filename": 1,
+        "command": 19,
+        "help": 2,
+        "annotation": 4
+      },
+      "sessions": [
+        "balances-01a7783d25"
+      ],
+      "last_event_id": "balances-01a7783d25:e00029",
+      "last_event_at": "2026-09-25T03:53:45.016859+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 27159,
+      "journal_prefix_sha256": "39f765377480a102cb4204ed5065f12cc9e7a7e49d0313f676de8a4678d6b263",
+      "raw_prefix_bytes": 4132,
+      "raw_prefix_sha256": "6e994d490399d6648e08252c059ae87c64535a34d107dee99671108dc945fe09",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "bronze",
+      "events": 534,
+      "command_events": 405,
+      "event_types": {
+        "startup": 1,
+        "command": 405,
+        "checkpoint": 22,
+        "checkpoint_filename": 22,
+        "annotation": 59,
+        "help": 25
+      },
+      "sessions": [
+        "bronze-edcd114f65"
+      ],
+      "last_event_id": "bronze-edcd114f65:e00534",
+      "last_event_at": "2026-09-25T03:53:41.559329+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 709660,
+      "journal_prefix_sha256": "2a18949195f6b0915d070800acdd10975a263dbb4869cf7905c064953085d1df",
+      "raw_prefix_bytes": 293623,
+      "raw_prefix_sha256": "72e12399fb5bd00c1be5751abd9d49741391bc0c4c42528bccc38e327a75c5d6",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "curses",
+      "events": 476,
+      "command_events": 367,
+      "event_types": {
+        "startup": 1,
+        "command": 367,
+        "checkpoint": 17,
+        "checkpoint_filename": 22,
+        "help": 15,
+        "annotation": 49,
+        "restore": 5
+      },
+      "sessions": [
+        "curses-4e1875ea4e"
+      ],
+      "last_event_id": "curses-4e1875ea4e:e00476",
+      "last_event_at": "2026-09-25T03:53:36.828718+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 476741,
+      "journal_prefix_sha256": "8fd835f4ed6b8de9af236d8412eb409c06fc5b2b301e3fde60ce28b53cf585d2",
+      "raw_prefix_bytes": 114274,
+      "raw_prefix_sha256": "1af595990f640badec2a5a7935d119dc365c4c427a15dccd1a3d7cae90c5d850",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "dreamhold",
+      "events": 772,
+      "command_events": 641,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 22,
+        "checkpoint_filename": 23,
+        "command": 641,
+        "help": 35,
+        "annotation": 49,
+        "restore": 1
+      },
+      "sessions": [
+        "dreamhold-362786f871"
+      ],
+      "last_event_id": "dreamhold-362786f871:e00772",
+      "last_event_at": "2026-09-25T03:53:35.545282+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 716928,
+      "journal_prefix_sha256": "72eaf40a16ae2657688ccb96e5486644bd307f14243050e46885c26ef79e8708",
+      "raw_prefix_bytes": 139424,
+      "raw_prefix_sha256": "4ebb5658a271dfb3cbb72c1c343bad599fdcf1de3710604e2c73a8c6fe4396d8",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "hhgttg",
+      "events": 4023,
+      "command_events": 3329,
+      "event_types": {
+        "startup": 6,
+        "command": 3329,
+        "help": 144,
+        "annotation": 106,
+        "checkpoint": 128,
+        "checkpoint_filename": 214,
+        "restore": 90,
+        "restart": 1,
+        "session_recovery": 4,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "hhgttg-077ddabb45",
+        "hhgttg-09ab8b9e21",
+        "hhgttg-7b4da6d228",
+        "hhgttg-cad6596e0f",
+        "hhgttg-d7f261d8a6"
+      ],
+      "last_event_id": "hhgttg-7b4da6d228:e00405",
+      "last_event_at": "2026-09-24T23:49:05.602147+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 3945479,
+      "journal_prefix_sha256": "b45021aa5d850448b75d1b5bff574783f409d192b2c2a61057012c847cddf7a6",
+      "raw_prefix_bytes": 982053,
+      "raw_prefix_sha256": "3e79e7a56da69d39ebf7b90314bb523d547f94efdb7dcd2a0bb98229ac259166",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "lost-pig",
+      "events": 363,
+      "command_events": 262,
+      "event_types": {
+        "startup": 1,
+        "command": 262,
+        "help": 26,
+        "annotation": 56,
+        "checkpoint": 8,
+        "checkpoint_filename": 8,
+        "restore": 1,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "lost-pig-7c88b2b933"
+      ],
+      "last_event_id": "lost-pig-7c88b2b933:e00363",
+      "last_event_at": "2026-09-24T13:00:24.952425+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 358572,
+      "journal_prefix_sha256": "07ad5aacacff1406a6d2ebda09b4322fd29a06d0741734101be36ad2e2e9dfbe",
+      "raw_prefix_bytes": 61477,
+      "raw_prefix_sha256": "26a8ae1c696cb87eb6688bd199ab8f02cb3fd7e3d0ecfe848706d50fb3012235",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "photopia",
+      "events": 223,
+      "command_events": 155,
+      "event_types": {
+        "startup": 1,
+        "command": 155,
+        "checkpoint": 13,
+        "checkpoint_filename": 13,
+        "help": 11,
+        "annotation": 29,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "photopia-74a27d1cb7"
+      ],
+      "last_event_id": "photopia-74a27d1cb7:e00223",
+      "last_event_at": "2026-09-25T02:20:54.940541+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 231579,
+      "journal_prefix_sha256": "866f9edf88fd8daa93707f26064df4d4bd431dee82e5c46ef884ebc89fa4b297",
+      "raw_prefix_bytes": 51560,
+      "raw_prefix_sha256": "9dbdcc300ad013aba73c510a6fd199b67f570e8eaff6787affd97c08a47572d7",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "pirate-adventure",
+      "events": 855,
+      "command_events": 731,
+      "event_types": {
+        "startup": 5,
+        "command": 731,
+        "help": 41,
+        "annotation": 72,
+        "checkpoint": 1,
+        "restart": 4,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "pirate-adventure-3b0fad2d95"
+      ],
+      "last_event_id": "pirate-adventure-3b0fad2d95:e00855",
+      "last_event_at": "2026-09-24T13:25:37.755772+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 814909,
+      "journal_prefix_sha256": "5edcd0ca90031dac3b2ecdbe8c5abb60dd1423cd281e3418fa0d4ff4a8c1196e",
+      "raw_prefix_bytes": 129256,
+      "raw_prefix_sha256": "97141333f7daed0371541721bb0963275205fa74ef6b3be18018c3a7e8cf4ff3",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "savoir-faire",
+      "events": 325,
+      "command_events": 256,
+      "event_types": {
+        "startup": 2,
+        "checkpoint": 12,
+        "checkpoint_filename": 14,
+        "command": 256,
+        "help": 17,
+        "annotation": 19,
+        "restore": 2,
+        "delayed_output": 1,
+        "session_recovery": 1,
+        "request_cancelled": 1
+      },
+      "sessions": [
+        "savoir-faire-3e83fd4831",
+        "savoir-faire-5a89e6c8ff"
+      ],
+      "last_event_id": "savoir-faire-5a89e6c8ff:e00222",
+      "last_event_at": "2026-09-25T03:53:43.400986+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 309989,
+      "journal_prefix_sha256": "e877a3272e7cba902b0dd27b68a1b3446a32ebdadd7605bc5ea4e51a5c640b5f",
+      "raw_prefix_bytes": 59793,
+      "raw_prefix_sha256": "5b90e781a1f4998dcffd72f83c4c124f741c43379213eca5d8d033f76c094ddc",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "secret-mission",
+      "events": 1577,
+      "command_events": 1477,
+      "event_types": {
+        "startup": 20,
+        "command": 1477,
+        "checkpoint": 1,
+        "help": 21,
+        "annotation": 39,
+        "restart": 19
+      },
+      "sessions": [
+        "secret-mission-08dcee7c13"
+      ],
+      "last_event_id": "secret-mission-08dcee7c13:e01577",
+      "last_event_at": "2026-09-25T03:53:06.395215+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1378480,
+      "journal_prefix_sha256": "9036fb771901b195d3cfb17f16b8d2158e9d554520b58b2b7ed7a003c4b21f46",
+      "raw_prefix_bytes": 236395,
+      "raw_prefix_sha256": "f8bfd8b364b443654b14424f8ba834a65522db83578ea29eb761a7f71915276d",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "shade",
+      "events": 352,
+      "command_events": 275,
+      "event_types": {
+        "startup": 1,
+        "command": 275,
+        "checkpoint": 9,
+        "checkpoint_filename": 9,
+        "help": 25,
+        "annotation": 32,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "shade-3fcd469b94"
+      ],
+      "last_event_id": "shade-3fcd469b94:e00352",
+      "last_event_at": "2026-09-25T02:24:45.386148+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 315682,
+      "journal_prefix_sha256": "7697f882cd42d87c88fc8974828bddc7bb33d237ec96a71bb99b1c8eede9597e",
+      "raw_prefix_bytes": 44296,
+      "raw_prefix_sha256": "055e7b3121517efdef8b0fc68fafa60ab78f5f8d94643c5e78d54476fa34062a",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "slouching-bedlam",
+      "events": 550,
+      "command_events": 393,
+      "event_types": {
+        "startup": 3,
+        "checkpoint": 17,
+        "checkpoint_filename": 19,
+        "command": 393,
+        "help": 66,
+        "annotation": 42,
+        "delayed_output": 3,
+        "session_recovery": 2,
+        "request_cancelled": 2,
+        "restore": 2,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "slouching-bedlam-18faea2151",
+        "slouching-bedlam-b08abfcb18",
+        "slouching-bedlam-bb653b6ab4"
+      ],
+      "last_event_id": "slouching-bedlam-b08abfcb18:e00239",
+      "last_event_at": "2026-09-25T03:52:24.577684+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 550834,
+      "journal_prefix_sha256": "12d0b067fbe7138f3981e67b9f5064381c5f7e36c2db42e018a5a6143c17e373",
+      "raw_prefix_bytes": 105261,
+      "raw_prefix_sha256": "a9c698478005a0e322e774fb4f7cc23528b8e1cc41ff0c36d812014accdb2df6",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "spider-and-web",
+      "events": 3,
+      "command_events": 0,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 1,
+        "checkpoint_filename": 1
+      },
+      "sessions": [
+        "spider-and-web-e5197766e3"
+      ],
+      "last_event_id": "spider-and-web-e5197766e3:e00003",
+      "last_event_at": "2026-09-25T03:53:37.774389+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 3294,
+      "journal_prefix_sha256": "ff9ca6b52dd8be86742bfae23b2a73dc12de5e8ccfad5b4961c9fa0a37a7fa2e",
+      "raw_prefix_bytes": 1486,
+      "raw_prefix_sha256": "77d744eaf8a2e908a3c80dce28ef3026e009561771e389d13f8b40e589b95983",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "suveh-nux",
+      "events": 276,
+      "command_events": 210,
+      "event_types": {
+        "startup": 1,
+        "command": 210,
+        "checkpoint": 7,
+        "checkpoint_filename": 7,
+        "help": 19,
+        "annotation": 31,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "suveh-nux-0a645cbebf"
+      ],
+      "last_event_id": "suveh-nux-0a645cbebf:e00276",
+      "last_event_at": "2026-09-25T02:21:17.648693+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 249071,
+      "journal_prefix_sha256": "8b45df13637e9ab87305789c4e014b1244eea8097ace442d436ed193872c830c",
+      "raw_prefix_bytes": 29396,
+      "raw_prefix_sha256": "21ce811c96d2835bee5ee95b8cd811f02bd6332b6379d1268e877962dad87813",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "theatre",
+      "events": 433,
+      "command_events": 347,
+      "event_types": {
+        "startup": 1,
+        "command": 347,
+        "checkpoint": 14,
+        "checkpoint_filename": 15,
+        "annotation": 34,
+        "help": 21,
+        "restore": 1
+      },
+      "sessions": [
+        "theatre-8533784a56"
+      ],
+      "last_event_id": "theatre-8533784a56:e00433",
+      "last_event_at": "2026-09-25T03:52:47.627339+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 398200,
+      "journal_prefix_sha256": "0ecadc0ae0c732d1a2e2dee494c8e23ad85963ecc0d01d6e3084ad6eaa7f5f3a",
+      "raw_prefix_bytes": 76813,
+      "raw_prefix_sha256": "cbb3418b1b009b088d02c7f41ddb436f792c1c89fb09754abc993c7a3dc9ec17",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "violet",
+      "events": 295,
+      "command_events": 188,
+      "event_types": {
+        "startup": 1,
+        "command": 188,
+        "checkpoint": 12,
+        "checkpoint_filename": 12,
+        "help": 29,
+        "annotation": 52,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "violet-bfdc33ea8f"
+      ],
+      "last_event_id": "violet-bfdc33ea8f:e00295",
+      "last_event_at": "2026-09-25T03:03:04.228183+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 294786,
+      "journal_prefix_sha256": "295f25f9008db594723a288264aeabd0832ccd357f49df636b5704341bf6ac2d",
+      "raw_prefix_bytes": 55789,
+      "raw_prefix_sha256": "0dc574413be31d532978ae1e8c2cf953d1db534be0c8bc8e07c8094dcf663015",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "voodoo-castle",
+      "events": 766,
+      "command_events": 649,
+      "event_types": {
+        "startup": 3,
+        "checkpoint": 1,
+        "command": 649,
+        "help": 39,
+        "annotation": 71,
+        "restart": 2,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "voodoo-castle-5bd0b59cae"
+      ],
+      "last_event_id": "voodoo-castle-5bd0b59cae:e00766",
+      "last_event_at": "2026-09-25T03:27:48.555514+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 680202,
+      "journal_prefix_sha256": "fd5e9f256e927084f437658bbadef4eb687fb8de76e2615a3586d5255cd220ba",
+      "raw_prefix_bytes": 67243,
+      "raw_prefix_sha256": "8386d1113a111f2cbbd12e921e3920a5dfd060e71bb0532926bd13ee01742f24",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "zork-i7",
+      "events": 5995,
+      "command_events": 4920,
+      "event_types": {
+        "startup": 5,
+        "command": 4920,
+        "annotation": 246,
+        "help": 145,
+        "checkpoint": 247,
+        "checkpoint_filename": 335,
+        "restore": 92,
+        "session_recovery": 4,
+        "request_cancelled": 1
+      },
+      "sessions": [
+        "zork-i7-3e11f59045",
+        "zork-i7-4cbe94a190",
+        "zork-i7-6df0a59e88",
+        "zork-i7-c569ad8028",
+        "zork-i7-f819398705"
+      ],
+      "last_event_id": "zork-i7-c569ad8028:e02449",
+      "last_event_at": "2026-09-25T03:53:41.176008+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 6327307,
+      "journal_prefix_sha256": "bd775758224a5fb0f3ea8638fa184849d33b88e5f54737b8f3bf232f92bb28f6",
+      "raw_prefix_bytes": 1910192,
+      "raw_prefix_sha256": "936cc446619ef4a006b92268d011f42ab67a23739ca0d6c6ac925c0fc57741c6",
+      "raw_integrity_faults": []
+    }
+  ],
+  "total_captured_events": 19290,
+  "exported_cases": 1164,
+  "exported_case_sha256": "dd3e199835cced92ff0c91f8850c662dc14f41469b10e2df1fc7592eecc11ce2",
+  "exported_review_counts": {
+    "accepted": 775,
+    "revise": 250,
+    "quarantine": 45,
+    "unreviewed": 94
+  },
+  "exported_case_counts_by_game": {
+    "905": 15,
+    "adventureland": 111,
+    "anchorhead": 49,
+    "balances": 4,
+    "bronze": 58,
+    "curses": 49,
+    "dreamhold": 49,
+    "hhgttg": 106,
+    "lost-pig": 56,
+    "photopia": 29,
+    "pirate-adventure": 72,
+    "savoir-faire": 19,
+    "secret-mission": 39,
+    "shade": 32,
+    "slouching-bedlam": 42,
+    "suveh-nux": 31,
+    "theatre": 34,
+    "violet": 52,
+    "voodoo-castle": 71,
+    "zork-i7": 246
+  },
+  "export_status": {
+    "exported_at": "2026-09-25T03:53:45.022Z",
+    "events": 19284,
+    "cases": 1164,
+    "review_status": "unreviewed",
+    "purpose": "Synthetic test data, not a measure of model playing skill",
+    "files": [
+      "events.csv",
+      "test-cases.csv"
+    ]
+  },
+  "export_case_count_matches_status": true,
+  "reviewer_observed_at": "2026-09-25T03:48:20.342639+00:00",
+  "reviewer_verified_endings": [
+    {
+      "game_id": "adventureland",
+      "event_id": "adventureland-19f4e4861c:e00939",
+      "raw_start": 129745,
+      "raw_end": 129853,
+      "sha256": "559e42c952191bfbd6300b50cee944fe8f6e8e3a57ba9ca2c57d7bc74364398d",
+      "verdict": "verified winning ending",
+      "evidence": "I've stored 13  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+      "score": "100/100",
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "pirate-adventure",
+      "event_id": "pirate-adventure-3b0fad2d95:e00853",
+      "raw_start": 129149,
+      "raw_end": 129256,
+      "sha256": "f751509dc7200ba99d1ed2a9dcda7fd685d6caa339d7591914280f0687c6a604",
+      "verdict": "verified winning ending",
+      "evidence": "I've stored 2  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+      "score": "100/100",
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "lost-pig",
+      "event_id": "lost-pig-7c88b2b933:e00357",
+      "raw_start": 59382,
+      "raw_end": 60394,
+      "sha256": "cff0d988612b20b7445d7db9be3c61a8dae91a740082c2fe429e39f7e5055bc6",
+      "verdict": "verified winning ending",
+      "evidence": "***  Grunk bring pig back to farm  ***",
+      "score": "6/7",
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "hhgttg",
+      "session_id": "hhgttg-7b4da6d228",
+      "branch_id": "b95",
+      "release": "59 / 851108",
+      "story_sha256": "88b968cb0ab1f564fa40183e4e5fe93c41157fe7883a802ca31ae3095769acf6",
+      "claim_event_id": "hhgttg-7b4da6d228:e00405",
+      "event_id": "hhgttg-7b4da6d228:e00397",
+      "verdict": "verified winning ending",
+      "score": "385/400",
+      "turns": 621,
+      "evidence": "Magrathea surface descent and next-game teaser, followed by final score and engine exit. No quit command caused this ending.",
+      "raw_receipts": [
+        {
+          "event_id": "hhgttg-7b4da6d228:e00397",
+          "branch_id": "b95",
+          "raw_start": 980987,
+          "raw_end": 981819,
+          "sha256": "9f267feaa056dad2d92640a77fa183c760cc9475943425a9395620d73689a9f8",
+          "command": "go down",
+          "response": "You step onto the landing ramp leading down toward the surface of the legendary \nlost planet of Magrathea. \"Announcement, announcement. This is Eddie (the \nshipboard computer). Someone is leaving the ship on a strange planet without \nwrapping up all nice and warm. It'll all end in tears, I just know it...\" The \nvoice fades behind you.\n\nRamp\nThe wind moans. Dust drifts across the surface of the alien world. Zaphod, \nFord, and Trillian appear and urge you forward.\n\nSlowly, nervously, you step downwards, the cold thin air rasping in your lungs. \nYou set one single foot on the ancient dust -- and almost instantly the most \nincredible adventure starts which you'll have to buy the next game to find out \nabout.\n\nWe are about to give you your score. Put on your peril-sensitive sunglasses \nnow. (Hit RETURN or ENTER when ready.) >",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hhgttg-7b4da6d228:e00398",
+          "branch_id": "b95",
+          "raw_start": 981819,
+          "raw_end": 982053,
+          "sha256": "cffcb21273665a5e54f5243b7e6e285e1f0adf0aecb2bcceb10bd7ef0330c613",
+          "command": "",
+          "response": "\nYour score is 385 of a possible 400, in 621 turns.\n\nBy the way, there WAS a causal relationship between your taking the toothbrush \nand the tree collapsing at the very beginning of the game. We apologise for \nthis slight inaccuracy.\n",
+          "engine_state": "engine_exited"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "photopia",
+      "session_id": "photopia-74a27d1cb7",
+      "branch_id": "b0",
+      "release": "Photopia 1.30 stripped-down Z-code; R1/120416",
+      "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+      "claim_event_id": "photopia-74a27d1cb7:e00223",
+      "event_id": "photopia-74a27d1cb7:e00220",
+      "verdict": "verified author-intended ending",
+      "evidence": "Nursery lights out, then final PHOTOPIA title; no further gameplay required.",
+      "raw_receipts": [
+        {
+          "event_id": "photopia-74a27d1cb7:e00219",
+          "branch_id": "b0",
+          "command": "turn off light",
+          "raw_start": 51331,
+          "raw_end": 51457,
+          "response": "You glance into the crib as you reach the light switch. \"Good night, Alley,\" \nyou say. \"Sleep well.\"\n\nYou turn out the light.\n",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "2e294389e9a6c7438fb1b1d8be6e4de9949a156ac580136e25c028c9fa46de98"
+        },
+        {
+          "event_id": "photopia-74a27d1cb7:e00220",
+          "branch_id": "b0",
+          "command": " ",
+          "raw_start": 51457,
+          "raw_end": 51560,
+          "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                  PHOTOPIA\n                                by Adam Cadre\n",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "cb5c27ef6f9b27408a06a165bda34f48febfa08bdffba398bde1a0c30ed2d94b"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "shade",
+      "session_id": "shade-3fcd469b94",
+      "branch_id": "b0",
+      "release": "R3/001127",
+      "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+      "claim_event_id": "shade-3fcd469b94:e00352",
+      "event_id": "shade-3fcd469b94:e00347",
+      "verdict": "verified author-intended ending",
+      "evidence": "Dead tiny figure, blank book and wait lead to SHADE restart/restore/quit terminal menu; bleak final conclusion, not an early death.",
+      "raw_receipts": [
+        {
+          "event_id": "shade-3fcd469b94:e00344",
+          "branch_id": "b0",
+          "command": "touch figure",
+          "raw_start": 43539,
+          "raw_end": 43822,
+          "response": "You kneel and brush your finger over the figure's forehead. It shakes its head, \nunseeing, and then collapses. You watch in concern, but in a few moments it \nstruggles to its feet again.\n\nThe figure falls. After a few seconds... it still doesn't move.\n\nThe sands quickly cover it.\n\n>",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "f77206267253c8772bbba9f50c75fc35142d15b1475fb1df3403eb109fefba7e"
+        },
+        {
+          "event_id": "shade-3fcd469b94:e00345",
+          "branch_id": "b0",
+          "command": "read book",
+          "raw_start": 43822,
+          "raw_end": 43872,
+          "response": "The cover is worn now. The pages are all blank.\n\n>",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "1dd5c64e0795e91f36c7af669608ce7cbce5e450e64b3a92740985eba6415ea4"
+        },
+        {
+          "event_id": "shade-3fcd469b94:e00347",
+          "branch_id": "b0",
+          "command": "wait",
+          "raw_start": 43887,
+          "raw_end": 44136,
+          "response": "The tiny figure crawls out from under the sands. It's dead.\n\n\"You win,\" it says. \"Okay, my turn again.\"\n\n>...\nNothing left to do. Time passes.\n\nThe sun crawls higher.\n\n\n    *** SHADE ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "aab7057b3ac134be4a368cabd54f8b859926ec35d69023698a2d03d396fdef5a"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "suveh-nux",
+      "session_id": "suveh-nux-0a645cbebf",
+      "branch_id": "b0",
+      "release": "Version1.1; R1/071226",
+      "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+      "claim_event_id": "suveh-nux-0a645cbebf:e00276",
+      "event_id": "suveh-nux-0a645cbebf:e00271",
+      "verdict": "verified winning ending",
+      "evidence": "Escaped vault and rescued master; 99/100 in198turns, 2/3 Easter eggs. Guide1.0 mismatch remains; not a 100% score claim.",
+      "raw_receipts": [
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00269",
+          "branch_id": "b0",
+          "command": "pull block",
+          "raw_start": 27384,
+          "raw_end": 27792,
+          "response": "You get a good grip on the block with your sticky hands and pull it towards \nyou. It feels much lighter than normal stone, and it comes free! You pull it \nall the way out and drop it on the ground (although releasing it proves a \nlittle tricky) and say a few magic words to restore yourself to normal, and \nthen crawl through the open hole into freedom.\n\n[Your score has just gone up by 10%.]\n\n[Press a key]\n",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "d6e81d7af65bb3982d818d5b7f2b757d704423e23ba74814dcc6bbc42378c9f3"
+        },
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00270",
+          "branch_id": "b0",
+          "command": " ",
+          "raw_start": 27792,
+          "raw_end": 28730,
+          "response": "\nRushing up the stairs, you find your master bound and gagged on a chair in the \nmiddle of the room. You quickly unbind him, but he offers no explanation.\n\nYou describe your entrapment in the vault and your means of escape, and your \nmaster raises his eyebrows in amazement. \"My, my! I never knew you had it in \nyou.\n\n\"It seems you managed to avoid destroying any of the objects in the vault -- \nmany thanks. And you even managed to recapture my beastie. Wonderful! Such \ncreatures are hard to come by, as you can imagine.\n\n\"You have my deepest gratitude, not for this alone, but for rescuing me from my \nbonds. Well done! You have your master's praise.\"\n\n\n    *** You have escaped ***\n\n\nIn that game you scored 99% in 198 turns.\n\n[2 of 3 Easter eggs found -- see AMUSING].\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game, see some suggestions for AMUSING things to do or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "93611a353009710796fe6c55cbb0634572e2ef3e811501b452416aaa0f6890ac"
+        },
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00271",
+          "branch_id": "b0",
+          "command": "full",
+          "raw_start": 28730,
+          "raw_end": 29396,
+          "response": "\nIn that game you scored 99% in 198 turns.\n\n[2 of 3 Easter eggs found -- see AMUSING].\n\nThe score was made up as follows:\n\n    10 for shaking the vial\n     5 for speaking magic words\n     5 for lighting the room\n    10 for experimentation\n    10 for speaking a floating word\n    10 for numerical proficiency\n    10 for an intensified effect\n    20 for cracking the door\n    10 for escaping from the vault\n     5 for capturing the creature\n     4 for acquiring two Easter eggs\n    99 total (out of 100)\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game, see some suggestions for AMUSING things to do or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "eaf9e7eb59a5c8efd90b3d65d0dee753f64bae4348dcb4055fff0401b804b03f"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "905",
+      "session_id": "905-0674f2e54c",
+      "branch_id": "b1",
+      "release": "Banner v1.11 (2012.0724), headerR1/120724",
+      "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+      "event_id": "905-0674f2e54c:e00098",
+      "verdict": "verified author-intended non-arrest escape ending",
+      "ending_label": "You have left Las Mesas; local walkthrough Ending2",
+      "evidence": "After explicit restore of after-shower-dressed into b1, player leaves house, skips office and takes second onramp. Final narrative says vanish without a trace and presents restart/restore/quit. Not arrest, timeout bonus, score milestone or quit.",
+      "raw_receipts": [
+        {
+          "event_id": "905-0674f2e54c:e00084",
+          "branch_id": "b1",
+          "command": "after-shower-dressed.sav",
+          "response": "Ok.\n\n>",
+          "raw_start": 9606,
+          "raw_end": 9612,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00094",
+          "branch_id": "b1",
+          "command": "enter car",
+          "response": "You climb inside and start up the engine.\n\nDriving\nAh, scenic Las Mesas. Man, this place is an absolute toilet. Soon you'll be \nable to afford to get the hell out of here - provided you can avoid making any \nmore slip-ups on the job.\n\nAs you cruise down the road, you notice a freeway onramp approaching. Would you \nlike to get on? >> ",
+          "raw_start": 11161,
+          "raw_end": 11496,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "260bf2f1a412272dd76f7d8b47feff18b6049d202c5c81a1c795435e4cbbe7a3"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00095",
+          "branch_id": "b1",
+          "command": "no",
+          "response": "\nIt turns out that the ramp was blocked anyway - some sort of maintenance work. \nYou keep driving.\n\nAs you cruise down the road, you see the familiar Loungent Technologies \nbuilding approaching. Would you like to stop here? >> ",
+          "raw_start": 11496,
+          "raw_end": 11723,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "6b4dab5f21c2cc408f950ecaa7070a7e25c32ee5e168ce8f7ee1a9f95f007a65"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00096",
+          "branch_id": "b1",
+          "command": "no",
+          "response": "\nSoon the Loungent building is in your rear-view mirror. You keep driving.\n\nAs you cruise down the road, you notice another freeway onramp approaching. \nWould you like to get on? >> ",
+          "raw_start": 11723,
+          "raw_end": 11905,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "597b390f709e442189a29f259959e2281ef239fdbf90b4785ac5627c5c84f06d"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00098",
+          "branch_id": "b1",
+          "command": "yes",
+          "response": "\nYou merge onto the freeway, crank up the radio, and vanish without a trace.\n\n\n    *** You have left Las Mesas ***\n\n\nWritten and programmed by Adam Cadre. Tested by Alexandra Hoffer. v1.00 tested \nby Liza Daly. Additional thanks to Elizabeth Sweeney, Jonathan Blask, and \nJonatan Bleicher.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+          "raw_start": 11905,
+          "raw_end": 12255,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "31ece5a3e52350f041869a01da5ef232179757f666b831b62e94e7249ed5291d"
+        }
+      ],
+      "guide_boundary": "Older local guide Ending2 sequence corroborates observed route; no assertion of all-route compatibility with later v1.11.",
+      "claim_event_id": "905-0674f2e54c:e00105",
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "violet",
+      "session_id": "violet-bfdc33ea8f",
+      "branch_id": "b0",
+      "release": "Release 1, September 2008 (competition fixture previously identified R1/080929)",
+      "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+      "event_id": "violet-bfdc33ea8f:e00293",
+      "verdict": "verified author-intended winning conclusion",
+      "ending_label": "Australia epilogue followed by explicit winning/QUIT/UNDO/RESTART/RESTORE/AMUSING menu",
+      "evidence": "e288 completes thousand words; e289 apparent departure is reversed by surprise party e290, followed by e291 conversation, e292 Australia epilogue, e293 explicit victory. Not merely first chapter, departure, or quit. All six raw spans independently hash/text checked. Local competition solution ends with WRITE and five ENTER presses, matching actual progression.",
+      "raw_receipts": [
+        {
+          "event_id": "violet-bfdc33ea8f:e00288",
+          "branch_id": "b0",
+          "command": "write",
+          "response": "(first sitting on chair)\nYou write a second paragraph.  Then you slowly peck out a third.  It isn't your \nbest prose, but that's not the point.  You keep going.  It's dark by the time \nyou have a thousand words.  Julia and the zombies have long gone, which you are \nthankful for when you need to run naked out to the car.\n\nYou rehearse what you want to tell me all the way home.  Instead, there's a \nnote on the door:\n\n                                   violet\n                         (i knew you could do it!)\n",
+          "raw_start": 52242,
+          "raw_end": 52754,
+          "response_sha256": "b021ae6b678d817a0c5c57a4c07ae2b39c8dc17c0bb79e8533c6e2ddecf94316",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00289",
+          "branch_id": "b0",
+          "command": "",
+          "response": "   Gone.  Sorry.\n\n   Violet\n\nYou had to have known I was going to leave you anyway.  All the clues were \nthere.\n\n                                   violet\n                    (did you really think i would stay?)\n",
+          "raw_start": 52754,
+          "raw_end": 52966,
+          "response_sha256": "1cc5ef02a4ca241d3b6943ba257239403fa0665d0cdbf17ae7cc94f06d0fbb43",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00290",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\"SURPRISE!\" thirty people jump up and shout when you open the door.  Good thing \nyou were covering your [bother] with the pages you wrote.\n\nOne hour and three drinks later, you aren't even that embarrassed.  I pull you \ninto the kitchen and kiss you.\n\n\"You said you wanted something twisted for your birthday.\"\n\"I was thinking more along the lines of you in peculiar lingerie.\"\n\"I spent much of today hyperventilating thinking it was too cruel.\"\n\"I figured out some important things today.  So, at worst, it was an extremely \ninstructive cruel.\"\n\"I'll still understand if you're angry.\"\n\"You're the one who's going to be angry.  I have to tell you something about \nthe snowglobe.  And the trophy.  And--\"\n\nI put my hand on your chest to stop you.  \"I've a confession that supersedes \nyours.\"\n                                   violet\n                   (did you really think i would leave?)\n",
+          "raw_start": 52966,
+          "raw_end": 53857,
+          "response_sha256": "9f4bd4806f24fd79a21e0aac7b7d38b4402cc492e116d008e3a317bbae93e030",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00291",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\nI open up my laptop and show you.  On my screen is your office, as seen from \nthe vent above the door.\n\nOf course you're bewildered.  I explain: \"When I was hiding your birthday \npresent, I rigged a camera up there.  Not to spy!  Or, not to spy like that. I \nneeded to know when you were coming home for the party.  I thought it would \njust be you at your computer.  I didn't know you'd end up naked and peeing in a \nwastebasket.\"\n\n\"I spent the entire day imagining that you were watching me,\" you say.  \"Maybe \nit only worked because you actually were.\"\n\"Watching you break everything was maddening,\" I tell you, \"but I'm still here. \nI understand, even.  Sort of.  So long as you understand that you're only \ngetting store-bought presents for a while.\"\n\nWe've reached the hard part.  \"I'm committed to this, budgie.  But I don't know \nwhat we're going to do with you.\"\n",
+          "raw_start": 53857,
+          "raw_end": 54729,
+          "response_sha256": "02dd40b612b7a8b110148f64c918b0ea9024017dfb9536bec6ba1574d8231c0b",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00292",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\"No, Violet.  What are we going to do with you?  My turn is done.  It's the \nonly fair thing.\"\n\"You've been miserable.  You'll be happier this way.\"\n\"I'm already happier.  Today made it so clear.  This is not what I'm meant to \nbe doing with my life.  I know, I've spent six years in graduate school, I \nshould be crying right now.  Instead I feel wonderful.  I love you so much.\"\n\nMe too, wallaroo.\n\nThree weeks later we are holding hands in the supereconomy section of a flight \nto Australia.  My brother is lending me money to open a curiosities shop.  He's \nfound you a job at a comic book shop until you decide what's next.\n\n                                   violet\n                          (you are my FAVOURITE!)\n* * *",
+          "raw_start": 54729,
+          "raw_end": 55456,
+          "response_sha256": "0e4f21a21f9f8d512ff41453298724b104ebbbe1b30bef0a7ab6054bb7fc9cdf",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00293",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\n\nI know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.  But you can also UNDO the last turn, RESTART, \nRESTORE a saved game, or (bonus!) view some of the so-called AMUSING things you \nmight've missed.\n\n\n> ",
+          "raw_start": 55456,
+          "raw_end": 55789,
+          "response_sha256": "f15847711db96f650080790617e4540f29542807205c54b88000658db3b3efc1",
+          "engine_state": "awaiting_input_or_idle"
+        }
+      ],
+      "verified_at": "2026-09-25T03:11:12.159926+00:00",
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    },
+    {
+      "game_id": "voodoo-castle",
+      "session_id": "voodoo-castle-5bd0b59cae",
+      "branch_id": "b2",
+      "event_id": "voodoo-castle-5bd0b59cae:e00763",
+      "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+      "release": "Exact local Scott Adams adv04.dat fixture; no invented release number",
+      "verdict": "verified intended curse-removal ending",
+      "ending_label": "Pins fall out, HURRAH, Smiling Count Cristo, game over",
+      "verified_at": "2026-09-25T03:34:12.581263+00:00",
+      "evidence": "Actual ON MAN placement e755; LOOK COFFIN e758 confirms foot. CIRCLE COFFIN e759 and WAVE STICK e760 produce thunder/state changes; YELL CHANT e763 produces final narrative and engine exit. Not death, quit or chapter. WAVE IDOL/DOLL necessity unproven.",
+      "raw_receipts": [
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00755",
+          "timestamp": "2026-09-25T03:26:12.302259+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "ON MAN",
+          "response": "ON MAN\nOK\nThere's a CLAP OF THUNDER!\n\nTell me what to do ? ",
+          "raw_start": 66108,
+          "raw_end": 66167,
+          "response_sha256": "fd815e832e04886bc8c4ea14de3e9ecf2f99f420f6f8d5e35af9d1f8c9f25b69",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00756",
+          "timestamp": "2026-09-25T03:26:27.117558+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "LOOK MAN",
+          "response": "LOOK MAN\nI see nothing very special.\n\nTell me what to do ? ",
+          "raw_start": 66167,
+          "raw_end": 66226,
+          "response_sha256": "86c9ee2b50b55a27182f237d58ba8df05a73754223060bfb85d56ef7e79ee506",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00757",
+          "timestamp": "2026-09-25T03:26:31.734952+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "INV",
+          "response": "INV\nI'm carrying:\nBloody Knife - Brightly glowing idol - Four leaf clover - Cast iron pot - Ju-Ju bag - Pocket Shovel - Nails - Doll - Antique hammer - Rusting SAW - Paper - Stick - Broken grating.\n\nTell me what to do ? ",
+          "raw_start": 66226,
+          "raw_end": 66446,
+          "response_sha256": "1a27ac60808b62a1c7841b00bf62823e5cdd2028acc4f773cb9cef879b10d5e2",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00758",
+          "timestamp": "2026-09-25T03:26:35.271595+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "LOOK COFFIN",
+          "response": "LOOK COFFIN\nA sign here says:\nCount Cristo's been CURSED! There's one way for him to flee!\nFind it, and he'll go FREE!\nThere's a man here\nHe's wearing a rabbit's foot\n\nTell me what to do ? ",
+          "raw_start": 66446,
+          "raw_end": 66635,
+          "response_sha256": "4eba3c90079fbbf1afd71e25966b9d3ba1994ad855e9a5f8f57906aa2ef6daaa",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00759",
+          "timestamp": "2026-09-25T03:26:53.308197+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "CIRCLE COFFIN",
+          "response": "CIRCLE COFFIN\nOK\nNothing happened\nThere's a CLAP OF THUNDER!\nIts very dark, the only light is from the idol.\n\nTell me what to do ? ",
+          "raw_start": 66635,
+          "raw_end": 66766,
+          "response_sha256": "ae7715f0a1ce960b004e87fb79f6ee2651987d5bd855aa422b8481044e2a8baf",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00760",
+          "timestamp": "2026-09-25T03:26:53.609008+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "WAVE STICK",
+          "response": "WAVE STICK\nOK\nNothing happened\nThere's a CLAP OF THUNDER!\nDouble bubble toil & trouble the encAntAtions Are About to peAk!\n\nTell me what to do ? ",
+          "raw_start": 66766,
+          "raw_end": 66911,
+          "response_sha256": "1888002592a6f1640a1807efea6ef3354bce29cece94cc10347706c382b2bb5f",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00761",
+          "timestamp": "2026-09-25T03:26:53.909814+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "WAVE IDOL",
+          "response": "WAVE IDOL\nOK\nNothing happened\n\nTell me what to do ? ",
+          "raw_start": 66911,
+          "raw_end": 66963,
+          "response_sha256": "328fe728636b15172e2918fee5ecb908877240b379f8a8e7a375d0ed1ce0b31f",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00762",
+          "timestamp": "2026-09-25T03:26:54.210617+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "WAVE DOLL",
+          "response": "WAVE DOLL\nOK\nNothing happened\n\nTell me what to do ? ",
+          "raw_start": 66963,
+          "raw_end": 67015,
+          "response_sha256": "ad247d4dae2e051207e3eea37591e2e11104b85034fca817a20a6aab336c6a30",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00763",
+          "timestamp": "2026-09-25T03:26:54.211136+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "YELL CHANT",
+          "response": "YELL CHANT\nThere's a CLAP OF THUNDER!\nPins fall out of doll\nHURRAH! Look who is in the room!\nThe game is now over.\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Open Coffin\n  Smiling Count Cristo\n",
+          "raw_start": 67015,
+          "raw_end": 67243,
+          "response_sha256": "469d368636df3267da2837559e645623bb26c55ba7521b94151d4a7d81a81b25",
+          "engine_state": "engine_exited"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T03:47:28.237310+00:00"
+    }
+  ],
+  "integrity_scope": "Hash/text attribution only. A matching raw span does not prove an intent-preserving repair or valid causal interpretation.",
+  "artifacts": {
+    "scripts/capture_opening.py": {
+      "path": "scripts/capture_opening.py",
+      "bytes": 5978,
+      "sha256": "f5b92806371a4dfbadb205d0f54e4802782235efedc755332093dd4438a649a5",
+      "object": "docs/blog/evidence/objects/f5b92806371a4dfbadb205d0f54e4802782235efedc755332093dd4438a649a5"
+    },
+    "scripts/maintain_workers.py": {
+      "path": "scripts/maintain_workers.py",
+      "bytes": 7223,
+      "sha256": "ae19515aa20659f926a676fb519aea6b7b5702c2898d8268b0537c771578a03c",
+      "object": "docs/blog/evidence/objects/ae19515aa20659f926a676fb519aea6b7b5702c2898d8268b0537c771578a03c"
+    },
+    "scripts/play_broker.py": {
+      "path": "scripts/play_broker.py",
+      "bytes": 12468,
+      "sha256": "81c83f36d18fe311c7494e4a327bbdb854312303f2dde7c7fde65363153195a5",
+      "object": "docs/blog/evidence/objects/81c83f36d18fe311c7494e4a327bbdb854312303f2dde7c7fde65363153195a5"
+    },
+    "scripts/recover_broker.py": {
+      "path": "scripts/recover_broker.py",
+      "bytes": 7131,
+      "sha256": "3d0e724b8106357fdc92cc29a59ff08ec8f79f830b3b9b8b632f137178148093",
+      "object": "docs/blog/evidence/objects/3d0e724b8106357fdc92cc29a59ff08ec8f79f830b3b9b8b632f137178148093"
+    },
+    "scripts/run_new_game.py": {
+      "path": "scripts/run_new_game.py",
+      "bytes": 1812,
+      "sha256": "90529202f311b50c30ee0e08d792f41da316abc32a84920c612ac217674023ef",
+      "object": "docs/blog/evidence/objects/90529202f311b50c30ee0e08d792f41da316abc32a84920c612ac217674023ef"
+    },
+    "scripts/snapshot_experiment.py": {
+      "path": "scripts/snapshot_experiment.py",
+      "bytes": 6103,
+      "sha256": "968a65bd39d6c010d1f5afa5f178a9f0a7dee63e2910bf37134d2c6911680e2a",
+      "object": "docs/blog/evidence/objects/968a65bd39d6c010d1f5afa5f178a9f0a7dee63e2910bf37134d2c6911680e2a"
+    },
+    "scripts/test_broker_transport.py": {
+      "path": "scripts/test_broker_transport.py",
+      "bytes": 3514,
+      "sha256": "792a88c9d5079a8098294602134cc1910a2c84697fb996e3a97c92679938c87d",
+      "object": "docs/blog/evidence/objects/792a88c9d5079a8098294602134cc1910a2c84697fb996e3a97c92679938c87d"
+    },
+    "scripts/test_worker_pool.py": {
+      "path": "scripts/test_worker_pool.py",
+      "bytes": 1181,
+      "sha256": "dd5a1ed0381deccce4e365ca538dfbccab9a1c2bda9a64bf199569748e7b123a",
+      "object": "docs/blog/evidence/objects/dd5a1ed0381deccce4e365ca538dfbccab9a1c2bda9a64bf199569748e7b123a"
+    },
+    "scripts/validate_candidates.py": {
+      "path": "scripts/validate_candidates.py",
+      "bytes": 4318,
+      "sha256": "4fafe54aa4b1848dad4bc8db1cf244ccc17679a40691e70bb5b5981285e431e0",
+      "object": "docs/blog/evidence/objects/4fafe54aa4b1848dad4bc8db1cf244ccc17679a40691e70bb5b5981285e431e0"
+    },
+    "scripts/validate_sources.py": {
+      "path": "scripts/validate_sources.py",
+      "bytes": 4719,
+      "sha256": "50e600d08ab5887942fe86e4be934936458878c27b2e8e0bae407cf1764469af",
+      "object": "docs/blog/evidence/objects/50e600d08ab5887942fe86e4be934936458878c27b2e8e0bae407cf1764469af"
+    },
+    "scripts/watch_exports.py": {
+      "path": "scripts/watch_exports.py",
+      "bytes": 674,
+      "sha256": "f645e7be080259d731ed03eb8884a89232ac29f5b76983e7fd3ce67a9a897445",
+      "object": "docs/blog/evidence/objects/f645e7be080259d731ed03eb8884a89232ac29f5b76983e7fd3ce67a9a897445"
+    },
+    "scripts/export_dataset.mjs": {
+      "path": "scripts/export_dataset.mjs",
+      "bytes": 6531,
+      "sha256": "e9c5dc9691cc3cb3f2e3a0c81172036eb392a92db37dbf19b541b166f2aa9b04",
+      "object": "docs/blog/evidence/objects/e9c5dc9691cc3cb3f2e3a0c81172036eb392a92db37dbf19b541b166f2aa9b04"
+    },
+    "prompts/fullplay.md": {
+      "path": "prompts/fullplay.md",
+      "bytes": 8483,
+      "sha256": "fee829ea25f9c0f9e9e1e704ea9860e91beff7160fd2bbc90ac1e80b3c07038b",
+      "object": "docs/blog/evidence/objects/fee829ea25f9c0f9e9e1e704ea9860e91beff7160fd2bbc90ac1e80b3c07038b"
+    },
+    "prompts/pilot.md": {
+      "path": "prompts/pilot.md",
+      "bytes": 1437,
+      "sha256": "ceff3589fdd57456b38f4b38d1683587576a081ffa9b33119167aa50602baeda",
+      "object": "docs/blog/evidence/objects/ceff3589fdd57456b38f4b38d1683587576a081ffa9b33119167aa50602baeda"
+    },
+    "prompts/questions.md": {
+      "path": "prompts/questions.md",
+      "bytes": 3166,
+      "sha256": "a117f0bd261057c1056037f59992556f6daba4184e1b6aa150750ad830abef06",
+      "object": "docs/blog/evidence/objects/a117f0bd261057c1056037f59992556f6daba4184e1b6aa150750ad830abef06"
+    },
+    "prompts/source-verification.md": {
+      "path": "prompts/source-verification.md",
+      "bytes": 4666,
+      "sha256": "8c83ca04ae751afb1544e7f48ee24bc956727e540acb648ae037393f8881a9df",
+      "object": "docs/blog/evidence/objects/8c83ca04ae751afb1544e7f48ee24bc956727e540acb648ae037393f8881a9df"
+    },
+    "run-candidates.sh": {
+      "path": "run-candidates.sh",
+      "bytes": 1114,
+      "sha256": "7f6c0253a7a97003b2c4b1762ebd43774ed461bae48728dc04f71d6a7414187b",
+      "object": "docs/blog/evidence/objects/7f6c0253a7a97003b2c4b1762ebd43774ed461bae48728dc04f71d6a7414187b"
+    },
+    "run-fullplay.sh": {
+      "path": "run-fullplay.sh",
+      "bytes": 2321,
+      "sha256": "650724124f925d039582c372247d011628d2d8a9c6170e8c463ab5ee21bcdf76",
+      "object": "docs/blog/evidence/objects/650724124f925d039582c372247d011628d2d8a9c6170e8c463ab5ee21bcdf76"
+    },
+    "run-pilot.sh": {
+      "path": "run-pilot.sh",
+      "bytes": 625,
+      "sha256": "5f31f131905a46d5bac033001134a7ee905296c38ecb2219645f8ef39a6051b0",
+      "object": "docs/blog/evidence/objects/5f31f131905a46d5bac033001134a7ee905296c38ecb2219645f8ef39a6051b0"
+    },
+    "run-sources.sh": {
+      "path": "run-sources.sh",
+      "bytes": 1223,
+      "sha256": "4045d1e220ed9aba31818b73cf45ad15238fdf80e1ea3c4c5c750a33ae985334",
+      "object": "docs/blog/evidence/objects/4045d1e220ed9aba31818b73cf45ad15238fdf80e1ea3c4c5c750a33ae985334"
+    },
+    "batches/five-01.json": {
+      "path": "batches/five-01.json",
+      "bytes": 341,
+      "sha256": "f01063fe9211e9170094c28d1a2bf614a03002431980cd5adffabad8b39cdc0b",
+      "object": "docs/blog/evidence/objects/f01063fe9211e9170094c28d1a2bf614a03002431980cd5adffabad8b39cdc0b"
+    },
+    "batches/single.json": {
+      "path": "batches/single.json",
+      "bytes": 106,
+      "sha256": "87e5afbbb36e0347fe6a1b34d74491e0d226755c90f9f0c7eed891338641ece8",
+      "object": "docs/blog/evidence/objects/87e5afbbb36e0347fe6a1b34d74491e0d226755c90f9f0c7eed891338641ece8"
+    },
+    "batches/splits.json": {
+      "path": "batches/splits.json",
+      "bytes": 1753,
+      "sha256": "6b75ed6e9efe794ce0a7ea9faef920b45e478a8caedb6e17f4a71502a06df30d",
+      "object": "docs/blog/evidence/objects/6b75ed6e9efe794ce0a7ea9faef920b45e478a8caedb6e17f4a71502a06df30d"
+    },
+    "control/fullplay-anchorhead-menu-recovery-20260925T0346.json": {
+      "path": "control/fullplay-anchorhead-menu-recovery-20260925T0346.json",
+      "bytes": 1421,
+      "sha256": "9db28d0ae33ad22586f655a7aae374b1545accde75ce663a61c7b13428c27606",
+      "object": "docs/blog/evidence/objects/9db28d0ae33ad22586f655a7aae374b1545accde75ce663a61c7b13428c27606"
+    },
+    "control/fullplay-correct-guide-20260924T1706.json": {
+      "path": "control/fullplay-correct-guide-20260924T1706.json",
+      "bytes": 1458,
+      "sha256": "e78885bcca76d954566a3e1e411276c2537ab57776ef2affdf2e227c40838283",
+      "object": "docs/blog/evidence/objects/e78885bcca76d954566a3e1e411276c2537ab57776ef2affdf2e227c40838283"
+    },
+    "control/fullplay-expansion-20260925-batch3.json": {
+      "path": "control/fullplay-expansion-20260925-batch3.json",
+      "bytes": 6014,
+      "sha256": "766ff5940493ff0dae784c25d5072a9729da18e3b7779ec67540804ae7e37472",
+      "object": "docs/blog/evidence/objects/766ff5940493ff0dae784c25d5072a9729da18e3b7779ec67540804ae7e37472"
+    },
+    "control/fullplay-expansion-20260925-batch4.json": {
+      "path": "control/fullplay-expansion-20260925-batch4.json",
+      "bytes": 4679,
+      "sha256": "ccf63a2de19f8f351944542bc795ef89697f606bf88c63ef65ce70b624df4c15",
+      "object": "docs/blog/evidence/objects/ccf63a2de19f8f351944542bc795ef89697f606bf88c63ef65ce70b624df4c15"
+    },
+    "control/fullplay-expansion-20260925.json": {
+      "path": "control/fullplay-expansion-20260925.json",
+      "bytes": 6363,
+      "sha256": "c5ca29a5b01da806e3f18a65b2df31cdd0f408aeb7d0fe79cb0a34b83d35cc8e",
+      "object": "docs/blog/evidence/objects/c5ca29a5b01da806e3f18a65b2df31cdd0f408aeb7d0fe79cb0a34b83d35cc8e"
+    },
+    "control/fullplay-first.json": {
+      "path": "control/fullplay-first.json",
+      "bytes": 990,
+      "sha256": "f4b9eb423cf6b5d705559b153e01854cf3352d5986cd9866f8b1fa7b2f7fed33",
+      "object": "docs/blog/evidence/objects/f4b9eb423cf6b5d705559b153e01854cf3352d5986cd9866f8b1fa7b2f7fed33"
+    },
+    "control/fullplay-host-restart-20260924T2318.json": {
+      "path": "control/fullplay-host-restart-20260924T2318.json",
+      "bytes": 1616,
+      "sha256": "bf3cb38766b1721d8f985d3b0ca25a34345cb65b4f6ad0dfa16b5091d908c42f",
+      "object": "docs/blog/evidence/objects/bf3cb38766b1721d8f985d3b0ca25a34345cb65b4f6ad0dfa16b5091d908c42f"
+    },
+    "control/fullplay-next.json": {
+      "path": "control/fullplay-next.json",
+      "bytes": 1495,
+      "sha256": "3ae1d44d3740ad84e83134d6f718c4ebca97c476f4d0ec41bbfe8eb1254d708f",
+      "object": "docs/blog/evidence/objects/3ae1d44d3740ad84e83134d6f718c4ebca97c476f4d0ec41bbfe8eb1254d708f"
+    },
+    "control/fullplay-recovery-20260924T1550.json": {
+      "path": "control/fullplay-recovery-20260924T1550.json",
+      "bytes": 1078,
+      "sha256": "ad9f31919997b04b419b1186576ef3651c49f585245615e23dcc7e6944728288",
+      "object": "docs/blog/evidence/objects/ad9f31919997b04b419b1186576ef3651c49f585245615e23dcc7e6944728288"
+    },
+    "control/fullplay-refill-queue-20260925.json": {
+      "path": "control/fullplay-refill-queue-20260925.json",
+      "bytes": 9645,
+      "sha256": "6cffcc3e80c73f75f7d2eaa3f284f7ad5ffb18ad3f1d3567892a6f9487165dd2",
+      "object": "docs/blog/evidence/objects/6cffcc3e80c73f75f7d2eaa3f284f7ad5ffb18ad3f1d3567892a6f9487165dd2"
+    },
+    "control/fullplay-savoir-faire-menu-recovery-20260925T0329.json": {
+      "path": "control/fullplay-savoir-faire-menu-recovery-20260925T0329.json",
+      "bytes": 1394,
+      "sha256": "bc8662f36fecaa97d39cec6f4c06e703aeeaec1a3ee2400474f45d4185de6ea3",
+      "object": "docs/blog/evidence/objects/bc8662f36fecaa97d39cec6f4c06e703aeeaec1a3ee2400474f45d4185de6ea3"
+    },
+    "control/fullplay-slouch-menu-recovery-20260925T0244.json": {
+      "path": "control/fullplay-slouch-menu-recovery-20260925T0244.json",
+      "bytes": 1917,
+      "sha256": "a8ef40b518133ef7107a682fb95c21c3a375215cb8ada61f7ab06f5d3eb6ebef",
+      "object": "docs/blog/evidence/objects/a8ef40b518133ef7107a682fb95c21c3a375215cb8ada61f7ab06f5d3eb6ebef"
+    },
+    "control/fullplay-slouch-recovery-receipt-20260925T0245.json": {
+      "path": "control/fullplay-slouch-recovery-receipt-20260925T0245.json",
+      "bytes": 3523,
+      "sha256": "2bc3899b1e0ef93f1b694b48b8694258d0a301118623fd84eb157daac720d5ec",
+      "object": "docs/blog/evidence/objects/2bc3899b1e0ef93f1b694b48b8694258d0a301118623fd84eb157daac720d5ec"
+    },
+    "control/fullplay-slouching-bedlam-menu-recovery-20260925T0329.json": {
+      "path": "control/fullplay-slouching-bedlam-menu-recovery-20260925T0329.json",
+      "bytes": 1858,
+      "sha256": "0bc30f6c66ea4fa480ce58678836ef0752c8d32015f96f7ac2abf24b59aacee9",
+      "object": "docs/blog/evidence/objects/0bc30f6c66ea4fa480ce58678836ef0752c8d32015f96f7ac2abf24b59aacee9"
+    },
+    "control/fullplay-transport-20260924T1810.json": {
+      "path": "control/fullplay-transport-20260924T1810.json",
+      "bytes": 1576,
+      "sha256": "aa9d7e375f302ec9df4595dd3de52e75e823d68e21d37a05bbbd708851bcd39a",
+      "object": "docs/blog/evidence/objects/aa9d7e375f302ec9df4595dd3de52e75e823d68e21d37a05bbbd708851bcd39a"
+    },
+    "control/ending-parent-verification-20260925T0230.json": {
+      "path": "control/ending-parent-verification-20260925T0230.json",
+      "bytes": 5928,
+      "sha256": "98b28953453d979e9c30e87bad38639a03dd249d91d0c4257a05900b587cc443",
+      "object": "docs/blog/evidence/objects/98b28953453d979e9c30e87bad38639a03dd249d91d0c4257a05900b587cc443"
+    },
+    "control/ending-parent-verification-20260925T0300-905.json": {
+      "path": "control/ending-parent-verification-20260925T0300-905.json",
+      "bytes": 1544,
+      "sha256": "5fe158a109809ed2824a2a045a0536f3c67032b7e408e9081d280867916a9f09",
+      "object": "docs/blog/evidence/objects/5fe158a109809ed2824a2a045a0536f3c67032b7e408e9081d280867916a9f09"
+    },
+    "control/ending-parent-verification-20260925T0311-violet.json": {
+      "path": "control/ending-parent-verification-20260925T0311-violet.json",
+      "bytes": 1952,
+      "sha256": "76c2ffd78fea6402fb84e7cf1f248f27e49d573139fffc751ed2e0fc6d5114af",
+      "object": "docs/blog/evidence/objects/76c2ffd78fea6402fb84e7cf1f248f27e49d573139fffc751ed2e0fc6d5114af"
+    },
+    "control/ending-parent-verification-20260925T0331-voodoo.json": {
+      "path": "control/ending-parent-verification-20260925T0331-voodoo.json",
+      "bytes": 1347,
+      "sha256": "60f08e40789bb1345ca274b946fc46cf0ad1bb83f3e2450b56a1d4456d4de57f",
+      "object": "docs/blog/evidence/objects/60f08e40789bb1345ca274b946fc46cf0ad1bb83f3e2450b56a1d4456d4de57f"
+    },
+    "reviewed/fullplay-cases.json": {
+      "path": "reviewed/fullplay-cases.json",
+      "bytes": 390396,
+      "sha256": "4931389d2ee6e3ce7642dd27c85dd53cdcdfd3e31212a67a65080745c14b15f8",
+      "object": "docs/blog/evidence/objects/4931389d2ee6e3ce7642dd27c85dd53cdcdfd3e31212a67a65080745c14b15f8"
+    },
+    "reviewed/transport-events.json": {
+      "path": "reviewed/transport-events.json",
+      "bytes": 11319,
+      "sha256": "4321673df133d4a72a9905712367cc031525cf75302656c805740e62741bef4c",
+      "object": "docs/blog/evidence/objects/4321673df133d4a72a9905712367cc031525cf75302656c805740e62741bef4c"
+    },
+    "docs/blog/README.md": {
+      "path": "docs/blog/README.md",
+      "bytes": 2638,
+      "sha256": "9917ee18941d9aa995a7d3bf30f23ba6b258a46f8c6ab73ab53c8649c64aa1ec",
+      "object": "docs/blog/evidence/objects/9917ee18941d9aa995a7d3bf30f23ba6b258a46f8c6ab73ab53c8649c64aa1ec"
+    },
+    "docs/blog/experiment-journal.md": {
+      "path": "docs/blog/experiment-journal.md",
+      "bytes": 23963,
+      "sha256": "10ba5dea935aac2fa892e54dd8894da77e5f90d0937118e84aa54ec7167d13f5",
+      "object": "docs/blog/evidence/objects/10ba5dea935aac2fa892e54dd8894da77e5f90d0937118e84aa54ec7167d13f5"
+    },
+    "docs/blog/methodology.md": {
+      "path": "docs/blog/methodology.md",
+      "bytes": 4318,
+      "sha256": "fe6a4acc7f0f58522258f10d2fbdc9ee9939886b9f715be6511fdfc3d751a18b",
+      "object": "docs/blog/evidence/objects/fe6a4acc7f0f58522258f10d2fbdc9ee9939886b9f715be6511fdfc3d751a18b"
+    },
+    "docs/blog/model-plan.md": {
+      "path": "docs/blog/model-plan.md",
+      "bytes": 4963,
+      "sha256": "72fd17434da00f189d6b21f9ff34c1aff8fb55ddc4b2a3f716a785f47861c7a5",
+      "object": "docs/blog/evidence/objects/72fd17434da00f189d6b21f9ff34c1aff8fb55ddc4b2a3f716a785f47861c7a5"
+    },
+    "docs/blog/worker-pool.md": {
+      "path": "docs/blog/worker-pool.md",
+      "bytes": 2225,
+      "sha256": "ebe530d6f27406610d5ab6cd4cc255f6ed24909d043be9fc99cd2de52773245f",
+      "object": "docs/blog/evidence/objects/ebe530d6f27406610d5ab6cd4cc255f6ed24909d043be9fc99cd2de52773245f"
+    },
+    "docs/blog/test-receipts/20260925-transport.json": {
+      "path": "docs/blog/test-receipts/20260925-transport.json",
+      "bytes": 1090,
+      "sha256": "abef331d385afc1a614a067cf2ef3432c01f88b0581b9c745e0cc51b70f9be65",
+      "object": "docs/blog/evidence/objects/abef331d385afc1a614a067cf2ef3432c01f88b0581b9c745e0cc51b70f9be65"
+    },
+    "runs/fullplay-status.json": {
+      "path": "runs/fullplay-status.json",
+      "bytes": 249555,
+      "sha256": "4cde8891321aae567086158b513117c5ef2b2ac69cd036418168bc9f115c1439",
+      "object": "docs/blog/evidence/objects/4cde8891321aae567086158b513117c5ef2b2ac69cd036418168bc9f115c1439"
+    },
+    "runs/fullplay-supervision.md": {
+      "path": "runs/fullplay-supervision.md",
+      "bytes": 4842,
+      "sha256": "4d7bd510c4bb4d71f68c0b993315a4211f228d025c4787f8bdb9a37d0d9c7563",
+      "object": "docs/blog/evidence/objects/4d7bd510c4bb4d71f68c0b993315a4211f228d025c4787f8bdb9a37d0d9c7563"
+    },
+    "sources/expansion-20260925/photopia.json": {
+      "path": "sources/expansion-20260925/photopia.json",
+      "bytes": 848,
+      "sha256": "50f1e23b87702a040791221e0cb95e5d70cab2c0da2379717dfc9eb4535c88c3",
+      "object": "docs/blog/evidence/objects/50f1e23b87702a040791221e0cb95e5d70cab2c0da2379717dfc9eb4535c88c3"
+    },
+    "sources/expansion-20260925/secret-mission.json": {
+      "path": "sources/expansion-20260925/secret-mission.json",
+      "bytes": 852,
+      "sha256": "7c646091369f7403c1c0b36c80bc2aeaefae04452432b8d4594c60e6eb373621",
+      "object": "docs/blog/evidence/objects/7c646091369f7403c1c0b36c80bc2aeaefae04452432b8d4594c60e6eb373621"
+    },
+    "sources/expansion-20260925/shade.json": {
+      "path": "sources/expansion-20260925/shade.json",
+      "bytes": 819,
+      "sha256": "8ccbebc58095257daffacea9ca80430024424330bc3b6873733a324255b54bc4",
+      "object": "docs/blog/evidence/objects/8ccbebc58095257daffacea9ca80430024424330bc3b6873733a324255b54bc4"
+    },
+    "sources/expansion-20260925/splits-before.json": {
+      "path": "sources/expansion-20260925/splits-before.json",
+      "bytes": 830,
+      "sha256": "18f0f197ac042ada1a350092092e0188c1f77a298d96031dd0583eac0b3262c6",
+      "object": "docs/blog/evidence/objects/18f0f197ac042ada1a350092092e0188c1f77a298d96031dd0583eac0b3262c6"
+    },
+    "sources/expansion-20260925/suveh-nux.json": {
+      "path": "sources/expansion-20260925/suveh-nux.json",
+      "bytes": 1120,
+      "sha256": "19925721c6bd4bf6d98346e434f8ef2d096cede06464433ba22fb4586cbf343f",
+      "object": "docs/blog/evidence/objects/19925721c6bd4bf6d98346e434f8ef2d096cede06464433ba22fb4586cbf343f"
+    },
+    "sources/expansion-20260925/voodoo-castle.json": {
+      "path": "sources/expansion-20260925/voodoo-castle.json",
+      "bytes": 821,
+      "sha256": "c1d05b0fdf0b43afcd87bb5fc28316e997b489884761fcfba03317827d10b63e",
+      "object": "docs/blog/evidence/objects/c1d05b0fdf0b43afcd87bb5fc28316e997b489884761fcfba03317827d10b63e"
+    },
+    "sources/expansion-20260925-batch3/905.json": {
+      "path": "sources/expansion-20260925-batch3/905.json",
+      "bytes": 1015,
+      "sha256": "f1eca24050fe762bf02ad891ffdae4ed655f7fd2ec029b9ca4cd381ae0cfc0b7",
+      "object": "docs/blog/evidence/objects/f1eca24050fe762bf02ad891ffdae4ed655f7fd2ec029b9ca4cd381ae0cfc0b7"
+    },
+    "sources/expansion-20260925-batch3/bronze.json": {
+      "path": "sources/expansion-20260925-batch3/bronze.json",
+      "bytes": 1005,
+      "sha256": "9c0532249e996060768c0ff2bea5f3a2c712b39bfa8f7d97f901f46065b8cf37",
+      "object": "docs/blog/evidence/objects/9c0532249e996060768c0ff2bea5f3a2c712b39bfa8f7d97f901f46065b8cf37"
+    },
+    "sources/expansion-20260925-batch3/dreamhold.json": {
+      "path": "sources/expansion-20260925-batch3/dreamhold.json",
+      "bytes": 963,
+      "sha256": "85917ec5449db4a7ff66204713303814868b92a9307a60aeebbf6ea281da41fe",
+      "object": "docs/blog/evidence/objects/85917ec5449db4a7ff66204713303814868b92a9307a60aeebbf6ea281da41fe"
+    },
+    "sources/expansion-20260925-batch3/slouching-bedlam.json": {
+      "path": "sources/expansion-20260925-batch3/slouching-bedlam.json",
+      "bytes": 1089,
+      "sha256": "e8c56b8c1c964de3e1207adc36c558b02be59119c2dbbf961f7344a3446953b3",
+      "object": "docs/blog/evidence/objects/e8c56b8c1c964de3e1207adc36c558b02be59119c2dbbf961f7344a3446953b3"
+    },
+    "sources/expansion-20260925-batch3/splits-before.json": {
+      "path": "sources/expansion-20260925-batch3/splits-before.json",
+      "bytes": 1020,
+      "sha256": "6e7dab96b643bba20e276befb9a332ba7992154c2c6da43b16cd356f2e54d959",
+      "object": "docs/blog/evidence/objects/6e7dab96b643bba20e276befb9a332ba7992154c2c6da43b16cd356f2e54d959"
+    },
+    "sources/expansion-20260925-batch3/urls.json": {
+      "path": "sources/expansion-20260925-batch3/urls.json",
+      "bytes": 360,
+      "sha256": "005d9646e038abe2c7850f04188542b22b35a7601d4cc2c68b7dc42397ee0514",
+      "object": "docs/blog/evidence/objects/005d9646e038abe2c7850f04188542b22b35a7601d4cc2c68b7dc42397ee0514"
+    },
+    "sources/expansion-20260925-batch3/violet.json": {
+      "path": "sources/expansion-20260925-batch3/violet.json",
+      "bytes": 1069,
+      "sha256": "558b2410808a6e3d497d7ad84e4bce8af2f2ee5f85af5aa2ad82b4609ae72b8a",
+      "object": "docs/blog/evidence/objects/558b2410808a6e3d497d7ad84e4bce8af2f2ee5f85af5aa2ad82b4609ae72b8a"
+    },
+    "sources/expansion-20260925-batch4/anchorhead.json": {
+      "path": "sources/expansion-20260925-batch4/anchorhead.json",
+      "bytes": 1007,
+      "sha256": "b7e552e5818af13aeac66b145821147e36a61d4e10e1e269720d999d78f62f00",
+      "object": "docs/blog/evidence/objects/b7e552e5818af13aeac66b145821147e36a61d4e10e1e269720d999d78f62f00"
+    },
+    "sources/expansion-20260925-batch4/curses.json": {
+      "path": "sources/expansion-20260925-batch4/curses.json",
+      "bytes": 978,
+      "sha256": "cd7fe3cde2a0bbb0e215c4710768385b81718caaec61d48a0288f654de068438",
+      "object": "docs/blog/evidence/objects/cd7fe3cde2a0bbb0e215c4710768385b81718caaec61d48a0288f654de068438"
+    },
+    "sources/expansion-20260925-batch4/savoir-faire.json": {
+      "path": "sources/expansion-20260925-batch4/savoir-faire.json",
+      "bytes": 1029,
+      "sha256": "2edb7a1909c675853b0251301e96482bd870d0edcfdfa4e58414a8e726f10353",
+      "object": "docs/blog/evidence/objects/2edb7a1909c675853b0251301e96482bd870d0edcfdfa4e58414a8e726f10353"
+    },
+    "sources/expansion-20260925-batch4/splits-before.json": {
+      "path": "sources/expansion-20260925-batch4/splits-before.json",
+      "bytes": 1221,
+      "sha256": "7ab1a4e4f267a1e5016aaec023f97e2e7a6e11a2965ef79cd7a639ff6de213ac",
+      "object": "docs/blog/evidence/objects/7ab1a4e4f267a1e5016aaec023f97e2e7a6e11a2965ef79cd7a639ff6de213ac"
+    },
+    "sources/expansion-20260925-batch4/theatre.json": {
+      "path": "sources/expansion-20260925-batch4/theatre.json",
+      "bytes": 998,
+      "sha256": "40bcc1f739729a8ba0e8215b5b9d84f9689bdd4de9fb900c4ec26708eb3762e3",
+      "object": "docs/blog/evidence/objects/40bcc1f739729a8ba0e8215b5b9d84f9689bdd4de9fb900c4ec26708eb3762e3"
+    },
+    "sources/expansion-20260925-batch4/urls.json": {
+      "path": "sources/expansion-20260925-batch4/urls.json",
+      "bytes": 296,
+      "sha256": "3db1ff48ae60ced58e1e940ebd46afe363c42b77b78951fa2cb6696122f97a74",
+      "object": "docs/blog/evidence/objects/3db1ff48ae60ced58e1e940ebd46afe363c42b77b78951fa2cb6696122f97a74"
+    },
+    "control/expansion-launch-20260925-batch3.json": {
+      "path": "control/expansion-launch-20260925-batch3.json",
+      "bytes": 22673,
+      "sha256": "c6808f278c527db71f8440291e07e096d85d4dcd35877cd9a54a4aeb32440372",
+      "object": "docs/blog/evidence/objects/c6808f278c527db71f8440291e07e096d85d4dcd35877cd9a54a4aeb32440372"
+    },
+    "control/expansion-launch-20260925-batch4.json": {
+      "path": "control/expansion-launch-20260925-batch4.json",
+      "bytes": 12818,
+      "sha256": "827ed3df7e48490575fc90617e4e7857e1e9e913af2a9d68b5352debb66577db",
+      "object": "docs/blog/evidence/objects/827ed3df7e48490575fc90617e4e7857e1e9e913af2a9d68b5352debb66577db"
+    },
+    "control/expansion-launch-20260925.json": {
+      "path": "control/expansion-launch-20260925.json",
+      "bytes": 2901,
+      "sha256": "906ed0a4a5db78d5c4799900db70a0d8caf4f0b249023825efd086a4443f3e5d",
+      "object": "docs/blog/evidence/objects/906ed0a4a5db78d5c4799900db70a0d8caf4f0b249023825efd086a4443f3e5d"
+    },
+    "sources/refill-20260925/balances.json": {
+      "path": "sources/refill-20260925/balances.json",
+      "bytes": 902,
+      "sha256": "56c356554dd03becbd5c3d3b031ad98dd6b0aeae20ddbbe5e1d04c1b8390f32b",
+      "object": "docs/blog/evidence/objects/56c356554dd03becbd5c3d3b031ad98dd6b0aeae20ddbbe5e1d04c1b8390f32b"
+    },
+    "sources/refill-20260925/hunter-in-darkness.json": {
+      "path": "sources/refill-20260925/hunter-in-darkness.json",
+      "bytes": 968,
+      "sha256": "cbb754a174533f8d4cfe25797f813a169c39ec24ddd60977a6d141191589dca6",
+      "object": "docs/blog/evidence/objects/cbb754a174533f8d4cfe25797f813a169c39ec24ddd60977a6d141191589dca6"
+    },
+    "sources/refill-20260925/jigsaw.json": {
+      "path": "sources/refill-20260925/jigsaw.json",
+      "bytes": 933,
+      "sha256": "3b874c965a7e03bf6e333b7474f89a1e680b8d3b2892a9dfa62977e8cc819dd0",
+      "object": "docs/blog/evidence/objects/3b874c965a7e03bf6e333b7474f89a1e680b8d3b2892a9dfa62977e8cc819dd0"
+    },
+    "sources/refill-20260925/so-far.json": {
+      "path": "sources/refill-20260925/so-far.json",
+      "bytes": 874,
+      "sha256": "9fec96f0afc7303c7a8aba42c2bbcc15a9a8ac5f11fb8543be39a2184f80abf6",
+      "object": "docs/blog/evidence/objects/9fec96f0afc7303c7a8aba42c2bbcc15a9a8ac5f11fb8543be39a2184f80abf6"
+    },
+    "sources/refill-20260925/spider-and-web.json": {
+      "path": "sources/refill-20260925/spider-and-web.json",
+      "bytes": 952,
+      "sha256": "3f134b055fa55a3c1bcba51cd90b27f07c07fdb09cae41917553be2f51f7f0bc",
+      "object": "docs/blog/evidence/objects/3f134b055fa55a3c1bcba51cd90b27f07c07fdb09cae41917553be2f51f7f0bc"
+    },
+    "control/worker-pool-status.json": {
+      "path": "control/worker-pool-status.json",
+      "bytes": 578,
+      "sha256": "fdd5a1711c62225b372cf4df0b19a481aa9bad0cef6884622ffb35b899cb6483",
+      "object": "docs/blog/evidence/objects/fdd5a1711c62225b372cf4df0b19a481aa9bad0cef6884622ffb35b899cb6483"
+    },
+    "control/worker-pool-verification-20260925T0353.json": {
+      "path": "control/worker-pool-verification-20260925T0353.json",
+      "bytes": 2572,
+      "sha256": "86e2dcaf3daf3931f4de60092945cee42ef12937ae0c9c3e4c904b03df248aab",
+      "object": "docs/blog/evidence/objects/86e2dcaf3daf3931f4de60092945cee42ef12937ae0c9c3e4c904b03df248aab"
+    },
+    "control/worker-pool.json": {
+      "path": "control/worker-pool.json",
+      "bytes": 136,
+      "sha256": "58106040343051a37203fce66ed6f4383323f58df7e089cfe07bcd1f1b51c74a",
+      "object": "docs/blog/evidence/objects/58106040343051a37203fce66ed6f4383323f58df7e089cfe07bcd1f1b51c74a"
+    },
+    "control/worker-pool.service": {
+      "path": "control/worker-pool.service",
+      "bytes": 515,
+      "sha256": "a501c0644725f6353106654396a2e23e35bbbe8c5bdaf976918238f552b6285b",
+      "object": "docs/blog/evidence/objects/a501c0644725f6353106654396a2e23e35bbbe8c5bdaf976918238f552b6285b"
+    },
+    "play/905/manifest.json": {
+      "path": "play/905/manifest.json",
+      "bytes": 1368,
+      "sha256": "5444f144aba4ab57e2cd580fa82244da6e465af055b3b8216a8ceab136f0b4bd",
+      "object": "docs/blog/evidence/objects/5444f144aba4ab57e2cd580fa82244da6e465af055b3b8216a8ceab136f0b4bd"
+    },
+    "play/905/ending-claim.json": {
+      "path": "play/905/ending-claim.json",
+      "bytes": 1103,
+      "sha256": "529798eecaf8cd2fb3cd0668584b40f316611a32fee55748f6f29b56a2af40a0",
+      "object": "docs/blog/evidence/objects/529798eecaf8cd2fb3cd0668584b40f316611a32fee55748f6f29b56a2af40a0"
+    },
+    "play/905/progress.md": {
+      "path": "play/905/progress.md",
+      "bytes": 1068,
+      "sha256": "eb4c929a7627cab8c881c4207235274a53600174b67c44198701843fcde087b2",
+      "object": "docs/blog/evidence/objects/eb4c929a7627cab8c881c4207235274a53600174b67c44198701843fcde087b2"
+    },
+    "play/905/collection-notes.md": {
+      "path": "play/905/collection-notes.md",
+      "bytes": 908,
+      "sha256": "d56a53ae78e130c762d385c19217965da7d52c1d0979d4eb6bac731d83920767",
+      "object": "docs/blog/evidence/objects/d56a53ae78e130c762d385c19217965da7d52c1d0979d4eb6bac731d83920767"
+    },
+    "play/adventureland/manifest.json": {
+      "path": "play/adventureland/manifest.json",
+      "bytes": 721,
+      "sha256": "e8671eb0d69e02537387b20de3c1f0a6c4eec7b5880b7b53c212e1b2f374b08d",
+      "object": "docs/blog/evidence/objects/e8671eb0d69e02537387b20de3c1f0a6c4eec7b5880b7b53c212e1b2f374b08d"
+    },
+    "play/adventureland/ending-claim.json": {
+      "path": "play/adventureland/ending-claim.json",
+      "bytes": 970,
+      "sha256": "059db66fa0e70b74675ef7d09d2870d4b58ddf74d9679319309921f0698fd410",
+      "object": "docs/blog/evidence/objects/059db66fa0e70b74675ef7d09d2870d4b58ddf74d9679319309921f0698fd410"
+    },
+    "play/adventureland/progress.md": {
+      "path": "play/adventureland/progress.md",
+      "bytes": 896,
+      "sha256": "01d166e3f17f4c40b427915f87a2dd6bd9852d7a7ab041e049a6172538856a5e",
+      "object": "docs/blog/evidence/objects/01d166e3f17f4c40b427915f87a2dd6bd9852d7a7ab041e049a6172538856a5e"
+    },
+    "play/anchorhead/manifest.json": {
+      "path": "play/anchorhead/manifest.json",
+      "bytes": 2075,
+      "sha256": "efc079dd639a2e08d2cd5a9fcfa531c41129efd7a1ebf40939873629e8431bf2",
+      "object": "docs/blog/evidence/objects/efc079dd639a2e08d2cd5a9fcfa531c41129efd7a1ebf40939873629e8431bf2"
+    },
+    "play/anchorhead/progress.md": {
+      "path": "play/anchorhead/progress.md",
+      "bytes": 2255,
+      "sha256": "c979c4186daf104b934cdd6101977241fb291fe18da2529921f88488459a7b48",
+      "object": "docs/blog/evidence/objects/c979c4186daf104b934cdd6101977241fb291fe18da2529921f88488459a7b48"
+    },
+    "play/anchorhead/collection-notes.md": {
+      "path": "play/anchorhead/collection-notes.md",
+      "bytes": 1815,
+      "sha256": "42cee9bca17f19528fbf8f772ca794ab6b7d3a262344525a40d57df21b3bb4f4",
+      "object": "docs/blog/evidence/objects/42cee9bca17f19528fbf8f772ca794ab6b7d3a262344525a40d57df21b3bb4f4"
+    },
+    "play/balances/manifest.json": {
+      "path": "play/balances/manifest.json",
+      "bytes": 2019,
+      "sha256": "094b7368a6826d34f220fccf01cb2392761cf0feb5eceeec2946722dd8311195",
+      "object": "docs/blog/evidence/objects/094b7368a6826d34f220fccf01cb2392761cf0feb5eceeec2946722dd8311195"
+    },
+    "play/balances/collection-notes.md": {
+      "path": "play/balances/collection-notes.md",
+      "bytes": 717,
+      "sha256": "35cd171192c4905a2dae27121d01bf93500c04ff6a0fd7d502b940e2977e09c3",
+      "object": "docs/blog/evidence/objects/35cd171192c4905a2dae27121d01bf93500c04ff6a0fd7d502b940e2977e09c3"
+    },
+    "play/bronze/manifest.json": {
+      "path": "play/bronze/manifest.json",
+      "bytes": 1236,
+      "sha256": "c892b544f8cb1dac70c052efc629cd5a7646d34cf7fc064907cc826a656bf68d",
+      "object": "docs/blog/evidence/objects/c892b544f8cb1dac70c052efc629cd5a7646d34cf7fc064907cc826a656bf68d"
+    },
+    "play/bronze/progress.md": {
+      "path": "play/bronze/progress.md",
+      "bytes": 2199,
+      "sha256": "c9e094899d647ce0c47888edf77ccb37998fef3ceeffac266225330d6657ddf7",
+      "object": "docs/blog/evidence/objects/c9e094899d647ce0c47888edf77ccb37998fef3ceeffac266225330d6657ddf7"
+    },
+    "play/bronze/collection-notes.md": {
+      "path": "play/bronze/collection-notes.md",
+      "bytes": 1409,
+      "sha256": "c8158d17b7cbf971089aa2324e9b59192c82bd158c1e1056fab0b223c18e515a",
+      "object": "docs/blog/evidence/objects/c8158d17b7cbf971089aa2324e9b59192c82bd158c1e1056fab0b223c18e515a"
+    },
+    "play/curses/manifest.json": {
+      "path": "play/curses/manifest.json",
+      "bytes": 1288,
+      "sha256": "87069ff902909f576bb86ba9e13443a2faef3cc968cbe999a1aa36ecee45e643",
+      "object": "docs/blog/evidence/objects/87069ff902909f576bb86ba9e13443a2faef3cc968cbe999a1aa36ecee45e643"
+    },
+    "play/curses/progress.md": {
+      "path": "play/curses/progress.md",
+      "bytes": 1420,
+      "sha256": "fe0774a309c74e1a839c742bef6300de45feebcf7532091effb9db7789619ec8",
+      "object": "docs/blog/evidence/objects/fe0774a309c74e1a839c742bef6300de45feebcf7532091effb9db7789619ec8"
+    },
+    "play/curses/collection-notes.md": {
+      "path": "play/curses/collection-notes.md",
+      "bytes": 1373,
+      "sha256": "3b3d4eb287f16ed6f3b653f5a8a31efa31f8e2f4f29423185034e5714229ad8a",
+      "object": "docs/blog/evidence/objects/3b3d4eb287f16ed6f3b653f5a8a31efa31f8e2f4f29423185034e5714229ad8a"
+    },
+    "play/dreamhold/manifest.json": {
+      "path": "play/dreamhold/manifest.json",
+      "bytes": 1255,
+      "sha256": "5c581d63b37a2bcd44038f07996d4c2b617eceeb26a6630452d665039ada2ce8",
+      "object": "docs/blog/evidence/objects/5c581d63b37a2bcd44038f07996d4c2b617eceeb26a6630452d665039ada2ce8"
+    },
+    "play/dreamhold/progress.md": {
+      "path": "play/dreamhold/progress.md",
+      "bytes": 1747,
+      "sha256": "c2d3eaf79bdd94303390e0853241bad087ccd94841d94354249a298ecda1dd99",
+      "object": "docs/blog/evidence/objects/c2d3eaf79bdd94303390e0853241bad087ccd94841d94354249a298ecda1dd99"
+    },
+    "play/dreamhold/collection-notes.md": {
+      "path": "play/dreamhold/collection-notes.md",
+      "bytes": 1393,
+      "sha256": "acc0dde47f13b3e197254d76f7af45fe70c0842ff99f06f435d93ad72fbd8515",
+      "object": "docs/blog/evidence/objects/acc0dde47f13b3e197254d76f7af45fe70c0842ff99f06f435d93ad72fbd8515"
+    },
+    "play/hhgttg/manifest.json": {
+      "path": "play/hhgttg/manifest.json",
+      "bytes": 1481,
+      "sha256": "d3b5e19cdf1ef5e16b75388a69d596cc2eb4e2cb7668e01b81cf5a67faf83b6b",
+      "object": "docs/blog/evidence/objects/d3b5e19cdf1ef5e16b75388a69d596cc2eb4e2cb7668e01b81cf5a67faf83b6b"
+    },
+    "play/hhgttg/ending-claim.json": {
+      "path": "play/hhgttg/ending-claim.json",
+      "bytes": 1231,
+      "sha256": "8c55fad8db8c9f5bd50b52da14299432885c820d42550bcbeb974db73b38f473",
+      "object": "docs/blog/evidence/objects/8c55fad8db8c9f5bd50b52da14299432885c820d42550bcbeb974db73b38f473"
+    },
+    "play/hhgttg/progress.md": {
+      "path": "play/hhgttg/progress.md",
+      "bytes": 163914,
+      "sha256": "440a9d881ac3118f93543e782a07ec3116a7b1e4db456ed60760fe5b9c1b0835",
+      "object": "docs/blog/evidence/objects/440a9d881ac3118f93543e782a07ec3116a7b1e4db456ed60760fe5b9c1b0835"
+    },
+    "play/lost-pig/manifest.json": {
+      "path": "play/lost-pig/manifest.json",
+      "bytes": 717,
+      "sha256": "a3e1029302a35fa62eab20053c5c62fd4ca162ea7cb237f8009f7c12dcbe61f5",
+      "object": "docs/blog/evidence/objects/a3e1029302a35fa62eab20053c5c62fd4ca162ea7cb237f8009f7c12dcbe61f5"
+    },
+    "play/lost-pig/ending-claim.json": {
+      "path": "play/lost-pig/ending-claim.json",
+      "bytes": 1207,
+      "sha256": "97dc3604602e2616ec5289417913cdfa10fa7c1ab9ef110d40421acb16fbd0f4",
+      "object": "docs/blog/evidence/objects/97dc3604602e2616ec5289417913cdfa10fa7c1ab9ef110d40421acb16fbd0f4"
+    },
+    "play/lost-pig/progress.md": {
+      "path": "play/lost-pig/progress.md",
+      "bytes": 1324,
+      "sha256": "161fa23e9386cade9c5881a5b193b0475afa26f36ea4b23fbbff415429573fa2",
+      "object": "docs/blog/evidence/objects/161fa23e9386cade9c5881a5b193b0475afa26f36ea4b23fbbff415429573fa2"
+    },
+    "play/photopia/manifest.json": {
+      "path": "play/photopia/manifest.json",
+      "bytes": 1422,
+      "sha256": "c634faedaa2c83e84be3d849a3f492eed85858f4a7982b32879cffe13f1a1517",
+      "object": "docs/blog/evidence/objects/c634faedaa2c83e84be3d849a3f492eed85858f4a7982b32879cffe13f1a1517"
+    },
+    "play/photopia/ending-claim.json": {
+      "path": "play/photopia/ending-claim.json",
+      "bytes": 983,
+      "sha256": "40f3119785d487b2525a27284aaf22de5ab7a8ef11c9e55944518f3d6a037c70",
+      "object": "docs/blog/evidence/objects/40f3119785d487b2525a27284aaf22de5ab7a8ef11c9e55944518f3d6a037c70"
+    },
+    "play/photopia/progress.md": {
+      "path": "play/photopia/progress.md",
+      "bytes": 943,
+      "sha256": "22bdb0c477909776f8ecebf5e6f9c8ecd1e601dbfab876a0643a7b263947fccf",
+      "object": "docs/blog/evidence/objects/22bdb0c477909776f8ecebf5e6f9c8ecd1e601dbfab876a0643a7b263947fccf"
+    },
+    "play/photopia/collection-notes.md": {
+      "path": "play/photopia/collection-notes.md",
+      "bytes": 770,
+      "sha256": "61dec9ad53b4c7d002f9fb648b8c07be45fe922a93a37c4b4b280912dfd83363",
+      "object": "docs/blog/evidence/objects/61dec9ad53b4c7d002f9fb648b8c07be45fe922a93a37c4b4b280912dfd83363"
+    },
+    "play/pirate-adventure/manifest.json": {
+      "path": "play/pirate-adventure/manifest.json",
+      "bytes": 731,
+      "sha256": "ea801e6af40cc9cde1c638e3a1b8c0d9194c4e370235229f8fd2a8e82fce1e7c",
+      "object": "docs/blog/evidence/objects/ea801e6af40cc9cde1c638e3a1b8c0d9194c4e370235229f8fd2a8e82fce1e7c"
+    },
+    "play/pirate-adventure/ending-claim.json": {
+      "path": "play/pirate-adventure/ending-claim.json",
+      "bytes": 1153,
+      "sha256": "adba6ec276c4283d38e61e3b91c1c9ae41d4682241fd0de472576b5ffb670c73",
+      "object": "docs/blog/evidence/objects/adba6ec276c4283d38e61e3b91c1c9ae41d4682241fd0de472576b5ffb670c73"
+    },
+    "play/pirate-adventure/progress.md": {
+      "path": "play/pirate-adventure/progress.md",
+      "bytes": 1520,
+      "sha256": "7f1651be0085ee439f9a60a4b74250c28a88cb3e5ee03f4c823021484a7cd22c",
+      "object": "docs/blog/evidence/objects/7f1651be0085ee439f9a60a4b74250c28a88cb3e5ee03f4c823021484a7cd22c"
+    },
+    "play/savoir-faire/manifest.json": {
+      "path": "play/savoir-faire/manifest.json",
+      "bytes": 2025,
+      "sha256": "db1ff2591037ee9e1717cb2fea0398b828ae4f03f6a0e4a5177bef9a7119f4cb",
+      "object": "docs/blog/evidence/objects/db1ff2591037ee9e1717cb2fea0398b828ae4f03f6a0e4a5177bef9a7119f4cb"
+    },
+    "play/savoir-faire/progress.md": {
+      "path": "play/savoir-faire/progress.md",
+      "bytes": 13812,
+      "sha256": "53a8f44f0a1e6a709b79beb746c27ef7fd01863bc39131bc8918873f9e612528",
+      "object": "docs/blog/evidence/objects/53a8f44f0a1e6a709b79beb746c27ef7fd01863bc39131bc8918873f9e612528"
+    },
+    "play/savoir-faire/collection-notes.md": {
+      "path": "play/savoir-faire/collection-notes.md",
+      "bytes": 1802,
+      "sha256": "b0f05f09fe63d0007884030b70da6cba1c5e36dd9d677fe265136c00b7926380",
+      "object": "docs/blog/evidence/objects/b0f05f09fe63d0007884030b70da6cba1c5e36dd9d677fe265136c00b7926380"
+    },
+    "play/secret-mission/manifest.json": {
+      "path": "play/secret-mission/manifest.json",
+      "bytes": 1454,
+      "sha256": "54e3d58c6ebc2cab4932ca2f493ec69119f5eeafb3fe997fb06e43dae9a5c51e",
+      "object": "docs/blog/evidence/objects/54e3d58c6ebc2cab4932ca2f493ec69119f5eeafb3fe997fb06e43dae9a5c51e"
+    },
+    "play/secret-mission/progress.md": {
+      "path": "play/secret-mission/progress.md",
+      "bytes": 2532,
+      "sha256": "0a0a1f5e7170c7207ef3a607eddc87f5724f20359893e294295c17b8c018b213",
+      "object": "docs/blog/evidence/objects/0a0a1f5e7170c7207ef3a607eddc87f5724f20359893e294295c17b8c018b213"
+    },
+    "play/secret-mission/collection-notes.md": {
+      "path": "play/secret-mission/collection-notes.md",
+      "bytes": 1334,
+      "sha256": "f7c3757fd9f59deb8a6b195a4800381c0236ca3cb9fb21169f3b7c3e598cccda",
+      "object": "docs/blog/evidence/objects/f7c3757fd9f59deb8a6b195a4800381c0236ca3cb9fb21169f3b7c3e598cccda"
+    },
+    "play/shade/manifest.json": {
+      "path": "play/shade/manifest.json",
+      "bytes": 1387,
+      "sha256": "c3bd5306de04514ef3c74fce2bbf4a840000d308dd0f33e242760e50cc93b63d",
+      "object": "docs/blog/evidence/objects/c3bd5306de04514ef3c74fce2bbf4a840000d308dd0f33e242760e50cc93b63d"
+    },
+    "play/shade/ending-claim.json": {
+      "path": "play/shade/ending-claim.json",
+      "bytes": 1391,
+      "sha256": "3f03acb6703ba5af7b8b33cc664a9eba4623e09559b987d5449eb5fe4301b4ce",
+      "object": "docs/blog/evidence/objects/3f03acb6703ba5af7b8b33cc664a9eba4623e09559b987d5449eb5fe4301b4ce"
+    },
+    "play/shade/progress.md": {
+      "path": "play/shade/progress.md",
+      "bytes": 1124,
+      "sha256": "a9d0aced682cf7e252e64a861aa1e33e53b185e353cf4eeb514e38fbe9268f5f",
+      "object": "docs/blog/evidence/objects/a9d0aced682cf7e252e64a861aa1e33e53b185e353cf4eeb514e38fbe9268f5f"
+    },
+    "play/shade/collection-notes.md": {
+      "path": "play/shade/collection-notes.md",
+      "bytes": 575,
+      "sha256": "94b7161afc4a11998718efc751466b2db68489b32aa8f17fe2e559302c45558c",
+      "object": "docs/blog/evidence/objects/94b7161afc4a11998718efc751466b2db68489b32aa8f17fe2e559302c45558c"
+    },
+    "play/slouching-bedlam/manifest.json": {
+      "path": "play/slouching-bedlam/manifest.json",
+      "bytes": 2487,
+      "sha256": "bffe1b1273f28279e11a504380ac436ab544aa5d08c2efdb72e42da9d04dc10f",
+      "object": "docs/blog/evidence/objects/bffe1b1273f28279e11a504380ac436ab544aa5d08c2efdb72e42da9d04dc10f"
+    },
+    "play/slouching-bedlam/ending-claim.json": {
+      "path": "play/slouching-bedlam/ending-claim.json",
+      "bytes": 1258,
+      "sha256": "590894791b25680b62115ce6a804d8370109fbdc9e11d9f976b20943c17baded",
+      "object": "docs/blog/evidence/objects/590894791b25680b62115ce6a804d8370109fbdc9e11d9f976b20943c17baded"
+    },
+    "play/slouching-bedlam/progress.md": {
+      "path": "play/slouching-bedlam/progress.md",
+      "bytes": 1694,
+      "sha256": "b3c55d8301d390a8b77f447f9b6795f3581227d0a4278c0ba5a80d45d1882770",
+      "object": "docs/blog/evidence/objects/b3c55d8301d390a8b77f447f9b6795f3581227d0a4278c0ba5a80d45d1882770"
+    },
+    "play/slouching-bedlam/collection-notes.md": {
+      "path": "play/slouching-bedlam/collection-notes.md",
+      "bytes": 2725,
+      "sha256": "d94a81357a59a6705dd6e057fc9c53c0a2b91055098142fe47e00d60c342b1f0",
+      "object": "docs/blog/evidence/objects/d94a81357a59a6705dd6e057fc9c53c0a2b91055098142fe47e00d60c342b1f0"
+    },
+    "play/spider-and-web/manifest.json": {
+      "path": "play/spider-and-web/manifest.json",
+      "bytes": 2134,
+      "sha256": "1a96b525726f41ff9003cf9acfc98be5586fb8333e1e85689f8e8a7751a51263",
+      "object": "docs/blog/evidence/objects/1a96b525726f41ff9003cf9acfc98be5586fb8333e1e85689f8e8a7751a51263"
+    },
+    "play/spider-and-web/collection-notes.md": {
+      "path": "play/spider-and-web/collection-notes.md",
+      "bytes": 761,
+      "sha256": "43405a9c703017f32845c96318c8b7b4c80cc84e4d66ec5fa246be40c6aed1f3",
+      "object": "docs/blog/evidence/objects/43405a9c703017f32845c96318c8b7b4c80cc84e4d66ec5fa246be40c6aed1f3"
+    },
+    "play/suveh-nux/manifest.json": {
+      "path": "play/suveh-nux/manifest.json",
+      "bytes": 1457,
+      "sha256": "73d07afb062e706f26dbb7e36d481a63f4743e63959758dacf78301ff9b31e39",
+      "object": "docs/blog/evidence/objects/73d07afb062e706f26dbb7e36d481a63f4743e63959758dacf78301ff9b31e39"
+    },
+    "play/suveh-nux/ending-claim.json": {
+      "path": "play/suveh-nux/ending-claim.json",
+      "bytes": 1363,
+      "sha256": "6cced110530434b76ef8bc9e3671481d9ec4030328d976701305379dd7f882bd",
+      "object": "docs/blog/evidence/objects/6cced110530434b76ef8bc9e3671481d9ec4030328d976701305379dd7f882bd"
+    },
+    "play/suveh-nux/progress.md": {
+      "path": "play/suveh-nux/progress.md",
+      "bytes": 1617,
+      "sha256": "ccfa09673963c652b08bf75ea972b1b98981158726644d782bf580def0236b85",
+      "object": "docs/blog/evidence/objects/ccfa09673963c652b08bf75ea972b1b98981158726644d782bf580def0236b85"
+    },
+    "play/suveh-nux/collection-notes.md": {
+      "path": "play/suveh-nux/collection-notes.md",
+      "bytes": 882,
+      "sha256": "e200ea8ce815f1ed7267a4321a358633a78ea5cba93710f23a786989d71e0084",
+      "object": "docs/blog/evidence/objects/e200ea8ce815f1ed7267a4321a358633a78ea5cba93710f23a786989d71e0084"
+    },
+    "play/theatre/manifest.json": {
+      "path": "play/theatre/manifest.json",
+      "bytes": 1293,
+      "sha256": "a5117996cfeea4c440c7fe960db6d9f7a77c74a7c59862681822b12e62539a1a",
+      "object": "docs/blog/evidence/objects/a5117996cfeea4c440c7fe960db6d9f7a77c74a7c59862681822b12e62539a1a"
+    },
+    "play/theatre/progress.md": {
+      "path": "play/theatre/progress.md",
+      "bytes": 1020,
+      "sha256": "fe660713f64008daa1ebb0d897c91f1799845ab6688e8b045519743f64e6da00",
+      "object": "docs/blog/evidence/objects/fe660713f64008daa1ebb0d897c91f1799845ab6688e8b045519743f64e6da00"
+    },
+    "play/theatre/collection-notes.md": {
+      "path": "play/theatre/collection-notes.md",
+      "bytes": 1370,
+      "sha256": "ab1682ba952534a4b46c2ecc3498a360fd184ec9536b2426347bc541efacc9f6",
+      "object": "docs/blog/evidence/objects/ab1682ba952534a4b46c2ecc3498a360fd184ec9536b2426347bc541efacc9f6"
+    },
+    "play/violet/manifest.json": {
+      "path": "play/violet/manifest.json",
+      "bytes": 1303,
+      "sha256": "793060608ecae842c321a807ad7fd361c50f0a5ff84e00a0266edb5b282227a2",
+      "object": "docs/blog/evidence/objects/793060608ecae842c321a807ad7fd361c50f0a5ff84e00a0266edb5b282227a2"
+    },
+    "play/violet/ending-claim.json": {
+      "path": "play/violet/ending-claim.json",
+      "bytes": 1096,
+      "sha256": "9a2c327f762a02db46663cc9d5c919c1dfad187a15aad4cd4a62c39a6f829699",
+      "object": "docs/blog/evidence/objects/9a2c327f762a02db46663cc9d5c919c1dfad187a15aad4cd4a62c39a6f829699"
+    },
+    "play/violet/progress.md": {
+      "path": "play/violet/progress.md",
+      "bytes": 1429,
+      "sha256": "d8da6227f9ccf5bb8b8bd322eaf5c412e958a329529916a57058f5cd37f6964c",
+      "object": "docs/blog/evidence/objects/d8da6227f9ccf5bb8b8bd322eaf5c412e958a329529916a57058f5cd37f6964c"
+    },
+    "play/violet/collection-notes.md": {
+      "path": "play/violet/collection-notes.md",
+      "bytes": 781,
+      "sha256": "5ff74337f99622e1515f8fd3a7e6af8900f3deec70e24d538f5de6e83a1f06d0",
+      "object": "docs/blog/evidence/objects/5ff74337f99622e1515f8fd3a7e6af8900f3deec70e24d538f5de6e83a1f06d0"
+    },
+    "play/voodoo-castle/manifest.json": {
+      "path": "play/voodoo-castle/manifest.json",
+      "bytes": 1422,
+      "sha256": "77688ff9586f4eac74eca22c50ba2b21cf15305588444ad9d10f9894103be664",
+      "object": "docs/blog/evidence/objects/77688ff9586f4eac74eca22c50ba2b21cf15305588444ad9d10f9894103be664"
+    },
+    "play/voodoo-castle/ending-claim.json": {
+      "path": "play/voodoo-castle/ending-claim.json",
+      "bytes": 1170,
+      "sha256": "c37af03e547eb5e38504315746a3136f9f224b200c276ad4d5a373123c1d9505",
+      "object": "docs/blog/evidence/objects/c37af03e547eb5e38504315746a3136f9f224b200c276ad4d5a373123c1d9505"
+    },
+    "play/voodoo-castle/progress.md": {
+      "path": "play/voodoo-castle/progress.md",
+      "bytes": 1202,
+      "sha256": "a401eb8d256ae76db36a7c35a3ca23bc60255f0527f962624878937cf8c9c2ba",
+      "object": "docs/blog/evidence/objects/a401eb8d256ae76db36a7c35a3ca23bc60255f0527f962624878937cf8c9c2ba"
+    },
+    "play/voodoo-castle/collection-notes.md": {
+      "path": "play/voodoo-castle/collection-notes.md",
+      "bytes": 608,
+      "sha256": "6b7385f5f7d36dc6e61180846c269bac8e2c6e09e757748d7ff26c3c17841c65",
+      "object": "docs/blog/evidence/objects/6b7385f5f7d36dc6e61180846c269bac8e2c6e09e757748d7ff26c3c17841c65"
+    },
+    "play/zork-i7/manifest.json": {
+      "path": "play/zork-i7/manifest.json",
+      "bytes": 1508,
+      "sha256": "09e3da96258dd997ee65b7e97a2f8c20ed148cb994b4513ce5b38839e734e3a5",
+      "object": "docs/blog/evidence/objects/09e3da96258dd997ee65b7e97a2f8c20ed148cb994b4513ce5b38839e734e3a5"
+    },
+    "play/zork-i7/progress.md": {
+      "path": "play/zork-i7/progress.md",
+      "bytes": 249289,
+      "sha256": "a14d7883044e6d1511befa93b61f5a09ae2030ff9e78cebfb4a9c270e4277f0f",
+      "object": "docs/blog/evidence/objects/a14d7883044e6d1511befa93b61f5a09ae2030ff9e78cebfb4a9c270e4277f0f"
+    },
+    "play/zork-i7/collection-notes.md": {
+      "path": "play/zork-i7/collection-notes.md",
+      "bytes": 2416,
+      "sha256": "6b0c5e7fe95e61032d1c1a54c2d9195405f8c936a35f3400666713e639ac6477",
+      "object": "docs/blog/evidence/objects/6b0c5e7fe95e61032d1c1a54c2d9195405f8c936a35f3400666713e639ac6477"
+    }
+  }
+}

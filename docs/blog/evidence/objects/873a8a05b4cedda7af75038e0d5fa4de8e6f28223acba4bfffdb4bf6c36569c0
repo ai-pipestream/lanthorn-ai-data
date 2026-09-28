@@ -1,0 +1,8 @@
+# Enemies progress
+
+Branch b1 (restored from start-street). Location: Pennyworth Lane outside Joanna's apartment. Score 2.
+Inventory last seen: photo, phone, watch. Phone call resolved by saying Joanna after 4 waits (walkthrough-guided).
+Checkpoints: start-street (b0), need apartment-entrance next.
+Cases: syn-rider-look accepted (e00028, failure none). Death on b0 from slow riddle kept as failure (e00021).
+Next: checkpoint at apartment entrance, then explore entrance per walkthrough (request next excerpt).
+Events through e00037.

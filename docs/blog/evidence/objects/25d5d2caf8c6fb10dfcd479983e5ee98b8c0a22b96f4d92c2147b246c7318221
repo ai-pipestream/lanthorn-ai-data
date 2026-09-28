@@ -1,0 +1,24 @@
+# So Far — progress (branch b23) — Segment 1: dark arrival thud-attached
+
+STATE: Dark arrival room (e01312, b23), thud attached (envelops, re-followed after detach test), chord dead (6th banish e01306), blanket WORN. Checkpoint arrival-thud-b23 still valid base (thud attached, chord dead, arrival). Glass-noise + silent areas STILL UNFOUND. Game INCOMPLETE.
+
+INVENTORY: casket, key, blanket (worn), pod, chip, square (ordinary ceramic, cool), knife, jar, box. (Unchanged; no saddle.)
+
+DARK MECHANICS (verified b23 R6/961218, incl. this segment):
+- follow X + directional sound = move; + nearby sound (thud/bubbling) = ATTACH (exclusive, first-wins).
+- Mutual exclusion PROVEN both ways (e01202, e01282).
+- OUT = detach ("step to one side", e01309); OUT with no attunement = "Out from what?" (e01311) — NO dark exit via OUT. Re-follow works (e01312).
+- Chord re-forms on wailing visits; sing-to-box banishes (6x). Left loud escalates painfully->agonizingly.
+- Wings random ambience; "thing flaps away into silent dark" flavor only so far.
+- "plooping" NOT parser vocabulary: literal follow plooping = "can't see" (e01294). Correction follow plipping bells->plopping moves (e01297). Help excerpt circular (repeats plooping).
+- follow rapping from wailing (directional rap N) MOVES to arrival (e01304, acceptance) — gerund OK directionally; differs from arrival-nearby difficult (e01245). follow hissing/hiss split remains (hissing fails, hiss moves).
+- Barriers with thud: plopping NW/W=silver (e01299/1300, new), N/E/SE/SW=silver, NE=drip force, S ok; arrival E/N=rap blow (e01307/08), W/S ok; arrival E unattuned also rap (e01310) — attunement-independent.
+- Prior: rap/rap-blow, teeth (bells), silver (plopping ring), drip (plopping NE), shriek (wailing E/NW glass-edged), abyss (rumble x6), freeze (hiss E x5+3), beasts (hiss NE blare).
+
+UNTESTED (priority): arrival NE/NW/SE/SW/up/down; bells S/W/NE/etc barriers; wailing S/W/E/up/down; rumble exact abyss dirs; hiss N/S/up/down; follow thing/flapping/creature; listen to glass/silence; item verbs (open/hit/tap jar/pod/chip/key/knife/casket; light square?); 'leave' as OUT synonym; climb/crawl/jump; plopping NE/N unattuned + bubbling-attuned retest.
+
+CASES: 27 annotated total (2 this segment: plooping vocab e01294>297 uncertain; rap acceptance e01304 none). Target 20-40: on track, need diverse rooms/puzzles.
+
+SUPERVISOR: m1003 help returned same plooping excerpt (lines 41-49), circular. No help pending. No malformed this segment.
+
+CHECKPOINTS: arrival-thud-b23 (CURRENT BASE, b23 arrival thud+chord-dead); thud-attuned-b23 (rumble); dark-arrival-b22 (pre-attune); pedestal-found-b22 (park); shady-park-b20; wailing-thud-b20; violet-saddled-b19. NO pending (m1017 answered e01312). Resume: continue in place (arrival thud attached chord dead).

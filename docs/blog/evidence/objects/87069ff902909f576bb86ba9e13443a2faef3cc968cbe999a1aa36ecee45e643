@@ -1,0 +1,22 @@
+{
+  "game_id": "curses",
+  "title": "Curses",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/curses.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/curses-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/CursesR16.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/curses.json",
+  "story_sha256_expected": "330100bf1c1ab8ed64065ceb58145ebb87cb6faef5b331fbc6684be4f14fe7da",
+  "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+  "dataset_split": "train",
+  "game_family": "curses",
+  "zmachine_version": 5,
+  "release": 16,
+  "serial": "951024",
+  "session_id": "curses-4e1875ea4e",
+  "story_sha256": "330100bf1c1ab8ed64065ceb58145ebb87cb6faef5b331fbc6684be4f14fe7da",
+  "started_at": "2026-09-25T03:10:04.316901+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

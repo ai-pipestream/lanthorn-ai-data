@@ -1,0 +1,663 @@
+{
+  "timestamp": "2026-09-25T07:32:50.341484+00:00",
+  "per_host": 3,
+  "hosts": [
+    "cm5ai1",
+    "cm5v1",
+    "cm5v2",
+    "krickert@cm5v3.local",
+    "pi500p",
+    "pi5ai1",
+    "krickert@pi5ai2p.local",
+    "pi5v2"
+  ],
+  "assigned": {
+    "frozen": {
+      "host": "cm5ai1",
+      "state": "attention",
+      "config": "control/fullplay-refill-queue7-20260925.json",
+      "assigned_at": "2026-09-25T06:07:13.360468+00:00",
+      "broker_pid": 3082902,
+      "session_id": "frozen-a2e5d2eea9",
+      "worker": {
+        "pid": 108713,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/frozen-1790319772244798195",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320715.4924777
+      },
+      "last_sync": "2026-09-25T07:32:49.799638+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "spiritwrak": {
+      "host": "cm5ai1",
+      "state": "attention",
+      "config": "control/fullplay-refill-queue7-20260925.json",
+      "assigned_at": "2026-09-25T06:13:10.313285+00:00",
+      "broker_pid": 3094140,
+      "session_id": "spiritwrak-8e02d83255",
+      "worker": {
+        "pid": 109687,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/spiritwrak-1790320289250319570",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320710.3284445
+      },
+      "last_sync": "2026-09-25T07:32:49.811339+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "asylum": {
+      "host": "cm5ai1",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:10.814362+00:00",
+      "broker_pid": 3094144,
+      "session_id": "asylum-0815a6d270",
+      "worker": {
+        "pid": 109688,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:30:42.000754+00:00",
+      "completed_at": "2026-09-25T06:30:42.000773+00:00"
+    },
+    "pentari": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:11.315433+00:00",
+      "broker_pid": 3094148,
+      "session_id": "pentari-63be930153",
+      "worker": {
+        "pid": 8012,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:50:42.832597+00:00",
+      "completed_at": "2026-09-25T06:50:42.832604+00:00"
+    },
+    "nine-points": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:11.816475+00:00",
+      "broker_pid": 3094152,
+      "session_id": "nine-points-013d843149",
+      "worker": {
+        "pid": 8010,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:33:38.882469+00:00",
+      "completed_at": "2026-09-25T06:33:38.882486+00:00"
+    },
+    "enemies": {
+      "host": "cm5v1",
+      "state": "attention",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:12.317847+00:00",
+      "broker_pid": 3094159,
+      "session_id": "enemies-0b4aba49fe",
+      "worker": {
+        "pid": 8008,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/enemies-1790320623748731510",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320712.8494513
+      },
+      "last_sync": "2026-09-25T07:32:49.724612+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "heist": {
+      "host": "cm5v2",
+      "state": "attention",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:12.819212+00:00",
+      "broker_pid": 3094163,
+      "session_id": "heist-a079eba445",
+      "worker": {
+        "pid": 41061,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/heist-1790319748613788247",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320714.2331548
+      },
+      "last_sync": "2026-09-25T07:32:49.733517+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "all-quiet-on-the-library-front": {
+      "host": "cm5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:13.320282+00:00",
+      "broker_pid": 3094167,
+      "session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+      "worker": {
+        "pid": 41062,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:50:36.359952+00:00",
+      "completed_at": "2026-09-25T06:50:36.359957+00:00"
+    },
+    "night-at-the-computer-center": {
+      "host": "cm5v2",
+      "state": "attention",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:13.821367+00:00",
+      "broker_pid": 3094171,
+      "session_id": "night-at-the-computer-center-d16c3b6cd5",
+      "worker": {
+        "pid": 41102,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/night-at-the-computer-center-1790320202776684650",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320711.293144
+      },
+      "last_sync": "2026-09-25T07:32:49.729103+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "vindaloo": {
+      "host": "krickert@cm5v3.local",
+      "state": "attention",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:14.322314+00:00",
+      "broker_pid": 3094175,
+      "session_id": "vindaloo-85744e25ee",
+      "worker": {
+        "pid": 42963,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/vindaloo-1790319989316429742",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320710.0466895
+      },
+      "last_sync": "2026-09-25T07:32:49.855394+00:00",
+      "last_error_at": "2026-09-25T07:32:20.423472+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "gerbil-riot": {
+      "host": "krickert@cm5v3.local",
+      "state": "attention",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:14.823459+00:00",
+      "broker_pid": 3094179,
+      "session_id": "gerbil-riot-f0779de162",
+      "worker": {
+        "pid": 42964,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790320197694321098",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320710.1866908
+      },
+      "last_sync": "2026-09-25T07:32:49.848489+00:00",
+      "last_error_at": "2026-09-25T07:32:20.423041+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "i-0": {
+      "host": "krickert@cm5v3.local",
+      "state": "attention",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:15.324775+00:00",
+      "broker_pid": 3094187,
+      "session_id": "i-0-d1ac7729bb",
+      "worker": {
+        "pid": 42962,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/i-0-1790320536870511883",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320712.9187186
+      },
+      "last_sync": "2026-09-25T07:32:49.846612+00:00",
+      "last_error_at": "2026-09-25T07:32:20.423289+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "tube-trouble": {
+      "host": "pi500p",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:15.826091+00:00",
+      "broker_pid": 3094225,
+      "session_id": "tube-trouble-1b2d95be53",
+      "worker": {
+        "pid": 4383,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:54:25.116036+00:00",
+      "completed_at": "2026-09-25T06:54:25.116067+00:00"
+    },
+    "slacker-x": {
+      "host": "pi500p",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:16.327262+00:00",
+      "broker_pid": 3094229,
+      "session_id": "slacker-x-70f303cb52",
+      "worker": {
+        "pid": 4381,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:51:26.234676+00:00",
+      "completed_at": "2026-09-25T06:51:26.234684+00:00"
+    },
+    "beyond-the-tesseract": {
+      "host": "pi500p",
+      "state": "attention",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:16.828245+00:00",
+      "broker_pid": 3094233,
+      "session_id": "beyond-the-tesseract-26b2abc71c",
+      "worker": {
+        "pid": 4382,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/beyond-the-tesseract-1790320416695401403",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320711.331144
+      },
+      "last_sync": "2026-09-25T07:32:49.977549+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "return-to-karn": {
+      "host": "pi5ai1",
+      "state": "attention",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:17.329269+00:00",
+      "broker_pid": 3094239,
+      "session_id": "return-to-karn-bf86b7da19",
+      "worker": {
+        "pid": 7661,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/return-to-karn-1790319555431050913",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320714.0566125
+      },
+      "last_sync": "2026-09-25T07:32:49.995292+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "heroines-mantle": {
+      "host": "pi5ai1",
+      "state": "attention",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:17.830634+00:00",
+      "broker_pid": 3094243,
+      "session_id": "heroines-mantle-4053f4fad7",
+      "worker": {
+        "pid": 7662,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790320142631545434",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320716.5006125
+      },
+      "last_sync": "2026-09-25T07:32:50.003528+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "kook-u": {
+      "host": "pi5ai1",
+      "state": "attention",
+      "config": "control/fullplay-kook-u-menu-recovery-20260925T0634.json",
+      "assigned_at": "2026-09-25T06:13:18.331691+00:00",
+      "broker_pid": 3164868,
+      "session_id": "kook-u-ef2767bf50",
+      "last_sync": "2026-09-25T07:32:50.025323+00:00",
+      "handoff_from": "kook-u-489e2b24ed",
+      "worker": {
+        "pid": 14798,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/kook-u-1790320666681071297",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320722.3846126
+      },
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "only-after-dark": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:18.832827+00:00",
+      "broker_pid": 3094258,
+      "session_id": "only-after-dark-612a20ec77",
+      "worker": {
+        "pid": 131167,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:47:21.370986+00:00",
+      "completed_at": "2026-09-25T06:47:21.370998+00:00"
+    },
+    "dracula-prince-of-darkness": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "attention",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:19.334201+00:00",
+      "broker_pid": 3094264,
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "worker": {
+        "pid": 131168,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790319849685829627",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320735.1363592
+      },
+      "last_sync": "2026-09-25T07:32:50.184830+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "zuni-doll": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:19.835340+00:00",
+      "broker_pid": 3094302,
+      "session_id": "zuni-doll-16d63fd0ac",
+      "worker": {
+        "pid": 131169,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:44:39.360760+00:00",
+      "completed_at": "2026-09-25T06:44:39.360770+00:00"
+    },
+    "deephome": {
+      "host": "pi5v2",
+      "state": "attention",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:20.336494+00:00",
+      "broker_pid": 3094404,
+      "session_id": "deephome-56e3d50bda",
+      "worker": {
+        "pid": 113038,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/deephome-1790319990573742765",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320741.991745
+      },
+      "last_sync": "2026-09-25T07:32:50.116881+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "save-princeton": {
+      "host": "pi5v2",
+      "state": "attention",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:20.837614+00:00",
+      "broker_pid": 3094443,
+      "session_id": "save-princeton-e0a2654e41",
+      "worker": {
+        "pid": 113067,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/save-princeton-1790320504618375007",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320711.3795588
+      },
+      "last_sync": "2026-09-25T07:32:50.119514+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "space-station": {
+      "host": "pi5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:21.338667+00:00",
+      "broker_pid": 3094447,
+      "session_id": "space-station-b15ae148d4",
+      "worker": {
+        "pid": 113069,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T07:13:20.894974+00:00",
+      "completed_at": "2026-09-25T07:13:20.894988+00:00"
+    },
+    "mother-loose": {
+      "host": "cm5ai1",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:30:42.836357+00:00",
+      "broker_pid": 3150615,
+      "session_id": "mother-loose-608208fd92",
+      "worker": {
+        "pid": 115974,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T07:17:25.530030+00:00",
+      "completed_at": "2026-09-25T07:17:25.530039+00:00"
+    },
+    "hunt-for-relief": {
+      "host": "cm5v1",
+      "state": "attention",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:33:39.745877+00:00",
+      "broker_pid": 3167532,
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "worker": {
+        "pid": 15691,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/hunt-for-relief-1790320660206596699",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320730.3291948
+      },
+      "last_sync": "2026-09-25T07:32:50.052037+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "pick-up-the-phone-booth-and-aisle": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:44:39.372973+00:00",
+      "broker_pid": 3302412,
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "worker": {
+        "pid": 152032,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:49:48.738142+00:00",
+      "completed_at": "2026-09-25T06:49:48.738149+00:00"
+    },
+    "bse": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "attention",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:47:21.947885+00:00",
+      "broker_pid": 3315035,
+      "session_id": "bse-ec63f1779d",
+      "worker": {
+        "pid": 152975,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/bse-1790320308412446008",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320714.1886535
+      },
+      "last_sync": "2026-09-25T07:32:50.291983+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "bedlam": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "attention",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:49:48.743348+00:00",
+      "broker_pid": 3323681,
+      "session_id": "bedlam-59f5a6e860",
+      "worker": {
+        "pid": 153862,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/bedlam-1790320175966395454",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320728.1964567
+      },
+      "last_sync": "2026-09-25T07:32:50.329240+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "critical-breach": {
+      "host": "cm5v2",
+      "state": "attention",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:50:37.006286+00:00",
+      "broker_pid": 3324847,
+      "session_id": "critical-breach-b5dd49a3e4",
+      "worker": {
+        "pid": 54960,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/critical-breach-1790320071841057465",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320714.0851543
+      },
+      "last_sync": "2026-09-25T07:32:50.118718+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "danger-adventurer-at-work": {
+      "host": "cm5v1",
+      "state": "attention",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:50:43.569916+00:00",
+      "broker_pid": 3325194,
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "worker": {
+        "pid": 22157,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/danger-adventurer-at-work-1790320122801098713",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320717.0051968
+      },
+      "last_sync": "2026-09-25T07:32:50.158544+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "gumshoe": {
+      "host": "pi500p",
+      "state": "attention",
+      "config": "control/fleet-batch-d-20260925.json",
+      "assigned_at": "2026-09-25T06:51:26.601894+00:00",
+      "broker_pid": 3329939,
+      "session_id": "gumshoe-2933d54ccf",
+      "worker": {
+        "pid": 16943,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/gumshoe-1790320196318464926",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320718.4391367
+      },
+      "last_sync": "2026-09-25T07:32:50.234955+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "fine-tuned": {
+      "host": "pi500p",
+      "state": "attention",
+      "config": "control/fleet-batch-d-20260925.json",
+      "assigned_at": "2026-09-25T06:54:26.100015+00:00",
+      "broker_pid": 3395975,
+      "session_id": "fine-tuned-989503b0a7",
+      "worker": {
+        "pid": 18019,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/fine-tuned-1790320284266108398",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320716.5831387
+      },
+      "last_sync": "2026-09-25T07:32:50.336552+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "ghost-train": {
+      "host": "pi5v2",
+      "state": "attention",
+      "config": "control/fleet-batch-e-20260925.json",
+      "assigned_at": "2026-09-25T07:13:21.132921+00:00",
+      "broker_pid": 3675383,
+      "session_id": "ghost-train-b026ef4aab",
+      "worker": {
+        "pid": 133005,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/ghost-train-1790320407907105544",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320723.4876323
+      },
+      "last_sync": "2026-09-25T07:32:50.338210+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    },
+    "schooldays": {
+      "host": "cm5ai1",
+      "state": "attention",
+      "config": "control/fleet-batch-e-20260925.json",
+      "assigned_at": "2026-09-25T07:17:25.794124+00:00",
+      "broker_pid": 3682519,
+      "session_id": "schooldays-b371c6a97d",
+      "worker": {
+        "pid": 133037,
+        "state": "failed",
+        "exit": 1,
+        "run": "/home/krickert/lanthorn-muse/runs/schooldays-1790320652322683836",
+        "alive": false,
+        "muse_alive": false,
+        "log_mtime": 1790320711.840454
+      },
+      "last_sync": "2026-09-25T07:32:50.336451+00:00",
+      "error": "Remote worker exited or failed to start; no blind restart"
+    }
+  }
+}

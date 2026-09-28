@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "assignments": {
+    "dreamhold": "development",
+    "lost-pig": "train",
+    "bronze": "train",
+    "photopia": "test",
+    "905": "train",
+    "shade": "test",
+    "zork-i7": "development",
+    "hhgttg": "test",
+    "adventureland": "train",
+    "pirate-adventure": "train",
+    "suveh-nux": "test",
+    "secret-mission": "train",
+    "voodoo-castle": "train"
+  },
+  "family_policy": "All releases, ports and branches of a game stay together. Split keys are canonical game-family IDs. Any later discovered shared-puzzle/remake relationship must be reviewed before export.",
+  "evaluation_policy": "Development pilot can inform prompts. Held-out test queries require independent review and must not inform model training or threshold tuning.",
+  "families": {
+    "zork-i7": "zork-i",
+    "hhgttg": "hhgttg",
+    "adventureland": "scott-adams",
+    "pirate-adventure": "scott-adams",
+    "suveh-nux": "suveh-nux",
+    "secret-mission": "scott-adams",
+    "voodoo-castle": "scott-adams"
+  }
+}

@@ -1,0 +1,8 @@
+# Frozen progress
+
+Location: Front Yard (e00079). Charred body crumbled (e00080) revealing amulet; amulet taken (e00081) and worn via put on (e00082) == wear (e00083). Deep chasm with south path; north back to house.
+Inventory as observed: wearing amulet; otherwise carrying amulet? `i` not rechecked after wear — need `i`. Calendar left in Lab; nothing else carried into Pentagram (e00072 empty).
+Cases annotated (14): prior 12 + yard-amulet-wear (none e00082->e00083), pentagram-exit-south (world_state e00073->e00074). Pending annotation: yard-chasm-jump (e00087 jump-partial + e00088 go-south can't-go, both fail — needs correct crossing or help resolution).
+Last hint m0082 lines 6-14: Front Yard x body/get amulet/wear it, then Library (navigation omitted per manifest; south chasm crossing NOT confirmed as next step).
+Checkpoints verified: start-lab, third-floor, before-basement-door, in-lab, pentagram, front-yard (e00085-86).
+IN-FLIGHT: none. Next: `look`, `x chasm`, `x path` in Front Yard; then north to Entry and explore north room toward Library. Do NOT assume go-south failure is parser error — guide omits navigation. Game NOT complete; no ending.

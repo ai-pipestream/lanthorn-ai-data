@@ -1,0 +1,24 @@
+{
+  "event_id": "spider-and-web-e5197766e3:e00801",
+  "timestamp": "2026-09-25T05:18:52.450662+00:00",
+  "game_id": "spider-and-web",
+  "session_id": "spider-and-web-e5197766e3",
+  "branch_id": "b20",
+  "event_index": 801,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 148720,
+  "raw_end": 148720,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "Then the world vanishes. Blackness slaps into you with a silent snap.\n\n\n    *** You have made a difference ***",
+    "evidence_event_ids": [
+      "spider-and-web-e5197766e3:e00781"
+    ],
+    "notes": "Genuine winning escape, not death/quitting/chapter: after stealing the lab research papers, restoring the logic plate, and activating the teleporter from inside the sealed cage, the pulse fires as guards breach the door — 'the papers in your hand' plus banner 'You have made a difference' (vs death banner 'You have failed'). Walkthrough labels this the 'best' ending. No score; conclusion is the escape narrative itself."
+  },
+  "review_status": "unreviewed"
+}

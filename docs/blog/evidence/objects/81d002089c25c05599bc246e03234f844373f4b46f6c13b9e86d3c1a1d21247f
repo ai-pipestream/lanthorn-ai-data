@@ -1,0 +1,27 @@
+# Delusions progress — SEGMENT 4g (b39 SEALED BOTH, score 36/50, INCOMPLETE — STOP, need R4 source)
+
+No winning ending. HINT menu forbidden. Cases quota met (earlier segments). LIVE STATE: DEAD b39e01062 (no-redial suicide+several-days-blast 36) — STOP HONESTLY, game sealed R4 post-phone all paths die. Continuation needs R4-specific source (NOT R2 walkthrough; R2 has no murders/security/suicide).
+
+CURRENT (verified to m0807, e01062):
+- NO-REDIAL HIDE TESTED (b39 s36→hide→waits23→open NW E get X NO-REDIAL→U SE close→waits): Checkmate on U-lab (turn-based post-phone, NOT E/redial-gated!) + flush beat1 + your-turn beat2 + Shimada beat3 + never-planned beat4 + murders: suicide ("And now me", body vs door, Justy gasping/Shimada crying ALIVE wounded) + "After SEVERAL DAYS, security under suspicious Executives, blast on sight" (36/50). Redial variant (b27/b34): suicide + "few MINUTES later" blast (38/50). Security UNAVOIDABLE (called quick OR suspicious slow, both blast). Timer = phone-fight+~8 to Checkmate+5 to murders/suicide, ALL actions advance, redial irrelevant (+2pts + faster blast only).
+- POST-PHONE SEALED (all die, no gun): factory/lab/quarters-open triple (36 no-redial / 38 redial); quarters-closed suicide+blast (36 slow / 38 fast); attack solo; all t5 acts (drop/enter/talk/take/give/computer/suit/hide-unparsed). NW/W shot pre+post. Sphere/suit/system refused standoff ("hardly/better not"). UNDO refused. FULL (b35 38): 3fish+1ins+3micro+1carry+1shell+4alarm+1antitox+4sensory+3implant+3gel+4VRprison+5coupler+3magnet+2security. Missing 12 = R2 tail assumed (gun1+pencil4+CHESS4+rescue2+nohint1) but R4 missing UNCONFIRMED (FULL lists scored only).
+- FULL MAP (no gun/pencil reachable): lab+Output(Cray/printer/racks-unimpl)+MedLab(empty)+Factory(android/coupler-cracked/bins-chips/conveyors-unimpl)+Kitchenette(empty)+Justy's(desk-bare/under-nothing/bed/films/holo; sketch-behind MICRO-untested)+ours(all+alcove violin-bow-pillow-amplifier/behind-under/niche-magnet)+Corridor(elevator-LOCKED-no-button/lavatory-unimpl)+Shimada-q(blade/mirror/futon/painting/vase-unimpl; office-shelf/desk UNREACHABLE N-auto/W-shot)+Cynthia-LOCKED(pre)/shot(during). Under-desks (lab/Justy/ours) nothing. Manual consults (chess/xyxxy/passwords/gun) nothing. Computer pre Justy-guarded ("don't mess").
+- Violin (alcove violin+bow+amplifier, Shimada memory flavor): UNTESTED play (calm Cynthia? 10+ req route: s36 hide waits get-violin-bow carry post-phone hide play-murder-turn). LOW promise (flavor). Sketch-behind/knock-Cynthia micro-untested (LOW).
+
+NEXT (continuation with R4 source or fresh ideas — DO NOT repeat sealed set):
+1) VIOLIN test (only novel left, LOW): s36 hide → waits: enter alcove get violin get bow out (4 turns safe door-closed?) → waits to 23 → open NW E get X NO-redial (carry violin+bow+phone+blade?) → U SE close → PLAY violin/?? on murder turn ("play violin", "play violin with bow"?) instead of wait → if calms/stops (survive?) → checkpoint → quest; if dies → record.
+2) Micro: Justy sketch-behind ("look behind sketch" Justy's SW), knock Cynthia's pre-standoff ("knock on cynthia's door" s33 lab NW? locked→knock? answer?), office-desk? (unreachable, skip unless glitch).
+3) R4 SOURCE: Request supervisor R4/971121-specific guidance (NOT R2/961021 broker excerpts; R2 lacks murders/security/suicide/gun-gating). Ask: real gun location R4? pencil R4? drop-39 gating? security-spare (disarm? vouch? wounded? surrender? evidence? timing? unarmed? door? location?)?
+4) If source reveals gun pre-phone: s33/s36 fetch → s38 drop-t5 (expect 1/39 + murders PREVENTED per R2 logic?) → NW pencil → tail. If pencil pre-phone: fetch → sharpen/rub (when? pre/post?) → computer → sphere → rescue.
+Do NOT repeat: ALL post-phone t5 (redial+no-redial, all rooms/acts), NW/W standoff, standoff blocks, searches above (done), manual/computer pre (blocked), FULL/UNDO, desk/bed pre-hide (beat waste).
+
+## Checkpoints (newest first)
+- s38-redial (post-redial 38 SEALED w/ fast blast; timer Checkmate+5; redial=+2+fast-blast ONLY)
+- s36-factory (pre-phone 36 — ALL TESTS BASE: hide-first U SE close, waits, open NW E get X (NO-redial for slow-blast test / redial for pts), U SE close wait = sealed both; violin-carry variant untested)
+- s33-justy (wake 33 — safe map base; N standoff trigger; violin/sketch/knock micro left)
+- s30-gun, s29-strip, s22-sleep2, s14-inject2, post-inject1, overflow-13, quarters-8913, push-8000, postrun3-7302, pre-push-6724, before-third-run, etc.
+
+## Dead (POST-PHONE SEALED R4, do not repeat without R4 source/gun)
+- Triple 36/38 (factory/lab/quarters-open, redial+no-redial). Suicide+blast fast-38 (redial hide) + slow-36 (no-redial hide, several-days suspicious). Solo attack. Every t5 act. NW/W shot. All blocks.
+## Dead (search, do not repeat)
+- Entire map above (all rooms+under/behind/shelves/niche/drawers/desks/beds/bins/racks/fridge/micro/cabinet/elevator-locked/Cynthia-locked). Manual useless. Computer Justy/standoff-blocked.

@@ -1,0 +1,44 @@
+# Seg19 (b36) — Birth Records Day3, safe combo hunt via year-flip syntax found. GAME INCOMPLETE.
+
+Current: session anchorhead-9852cd5b9d b36 e00039 (m1600). Location: Birth Records Day3. Score 39 (m1581). Inventory verified m1580: hands Haermoniacon/keyring-5/lit lantern; pockets matches(2), calipers, umbrella, mirror#2, tin closed, hook, drawing, skull, flashlight, gold+silver lockets, newspaper, opener, manual, soggy pages, slip, faculty card, 3 keys. Branch b36 (restored library-safe-day3).
+Seg19 work (m1580-m1600): inv/score verify; safe-examine typo probe (sfae can't-see m1582) + correction (m1583), annotated vocab m1584; route Library→Courthouse Basement (m1585-87); Wilhelm/Eustacia/Croseus all UNFAMILIAR Day3 (m1589-91, b34 History-ch2 familiarity did not carry to this restore); annotated wilhelm-typo pair as vocab-failure m1592 (correction blocked by unfamiliarity); flip-syntax hunt: 'flip through the records/1954/documents for 1954' all can't-see (m1593/94/96), help m1597 off-topic (amulet/records generic lines 105-113), found working syntax 'look up 1954' → William b.Jun22-1954 (m1598), annotated syntax m1599; birth-year batch 1958/1962/1997/1961/1953 all empty (m1600) — year lookup only shows familiar names, so no new names this way.
+Key finding: records (name or year) only answer familiar names; Day3 familiar = Edward/William/Anna only; same-date pair needs older names from crypt/church/north-town sources or Day2 sweep knowledge carried player-side.
+Next: 1) Birth room: examine/search piles-documents for loose docs. 2) Death Records: same + death-year lookups for birth years (1936/1954/1960). 3) Courthouse corridor doors. 4) Crypt: examine plates closely + try familiar-name lookup syntax there. 5) Asylum/slaughterhouse/churchyard-exterior Day3 south sweep. 6) Study fireplace examine (walkthrough post-safe step, may work pre-safe). 7) If Day3 exhausted: restore Day2 (library-day2-circulation) for north-town name sweep WITHOUT book menus (supervisor ban), carry dates player-side back to library-safe-day3. Never replay m1576-79 pending book-menu inputs.
+Checkpoints: library-safe-day3 (Day3 HERE-base), sitting-room-day3, cellar-fuse-day3, day2-card-ready, library-day2-circulation.
+Unresolved: safe combo (all prior guesses fail; R5 slip/laptop have no digits); Wilhelm/Eustacia/Croseus unfamiliar Day3; church Day3 padlock; Cauldron/disk Day3; wine Secret Door; Burial Mound.
+Last hint: m1597 lines 105-113 (off-topic). Last evidence: e00039 empty year lookups.
+
+# Current explicit checkpoint recovery
+
+{
+  "previous_session_id": "anchorhead-2c1c588159",
+  "checkpoint_event_id": "anchorhead-2c1c588159:e00174",
+  "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+  "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+  "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+  "session_id": "anchorhead-9852cd5b9d",
+  "branch_id": "b36",
+  "restored_at": "2026-09-25T07:12:45.230686+00:00",
+  "observed_event_id": "anchorhead-9852cd5b9d:e00006"
+}
+
+Supervisor 2026-09-25: Do not READ BOOK / historical overview, READ NEWSPAPER CLIPPINGS, or open optional in-game HELP/book menus. Repeated transport faults are confirmed. Use small broker help for relevant lore. Book/slip/clue text already observed is historical knowledge, not a reason to reopen menus. Restore library-safe-day3; do not blindly replay unsaved actions.
+
+Observed restored room:
+
+Library
+Whatever else their faults may have been, the Verlacs were evidently not ones 
+to shun the printed word. Books line the walls from floor to ceiling in this 
+dark-paneled, green-carpeted room, interrupted only by doorways to the east and 
+south. A rich, brown leather armchair sits in stately repose near the window, 
+with a polished brass pipe stand nearby completing the picture of some 
+blue-blooded country squire's literary refuge. Once again, you are struck by 
+how easily this place could have been the perfect home.
+
+A beautiful pair of mahogany sliding doors lead east, to the study.
+
+A section of the shelves in the western wall has slid to one side, revealing a 
+hidden safe.
+
+>
+Old progress is archived under session-history and is historical only. Read actual inventory/room and continue from the restored state. Never replay old pending requests; fresh unique request IDs only.

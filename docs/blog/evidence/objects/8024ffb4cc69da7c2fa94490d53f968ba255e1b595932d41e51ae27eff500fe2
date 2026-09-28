@@ -1,0 +1,7 @@
+# Progress — believable-adventures-invisible-man (ACTIVE, game incomplete)
+
+Location: Engineering Office, first-floor window OPEN (e295); looked through to boss window below guarded by puppy at Back of Building (e296). In patient disguise holding bedsheet, syringe, manila, paycheck, pipe. Ordinary prompt.
+Route: gave card (e285 food order), open door (e286), e to Building (e287); help lines 106-114 (u waitx3 n w open window look + save point); u to First Floor (e289); waits e290-e291 plain, e292 event (secretary opens dept door with food, engineers to break room); n to First Floor Corridor (e293); w to empty Engineering Office (e294); open window (e295); look through window (e296).
+Next: m0250 checkpoint pending (engoffice-window); then help mode next for complete-revenge branch path (boss window/dog/syringe-pipe? sheet?); then execute toward boss office computer/password terminal revenge. Checkpoint before timed waits. Do NOT restart.
+Pending: m0250 sent. Next file m0251.
+Annotate backlog: e235/e236, e251/e252, e254, e265, e223-vs-e252, e164/e172, e270, e280, e292 waits.

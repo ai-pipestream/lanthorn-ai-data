@@ -1,0 +1,14 @@
+# Progress - All Quiet on the Library Front
+
+Location: Second Floor Stacks, rare books door unlocked+open (ordinary prompt, branch b0, event e00061, Score 15 Moves 32)
+Inventory (observed e00046): a key (Rare Books Room key via Alan exchange)
+Checkpoints: lobby-start, stacks-librarian (verified Ok) — need milestone at second floor after entry resolved
+
+Cases:
+- prior 13 annotated per old note + stairs-climb vocab (e48 fail climb stairs, e49 n success) annotated e50
+- rare-door-open-locked world_state (e53 open fail locked, e54 unlock success) annotated e55
+- pending annotation: rare-enter-door (e59 enter door fail "can't go that way"), rare-enter-west (e60 w fail maze +8 moves), rare-door-examine (e61 examine door -> sconces/plaque/engraving, not direction)
+- hints: e57 rare books excerpt (circulation key steps), e58 next excerpt (I, Give card, W N, X stairs, Smell, Look under stairs, U, X painting, Give fish to grue). Missed sub-steps: X stairs/smell/under-stairs/painting/fish-grue not yet done; may need backtrack for points.
+- pending help m0059 (rare books entry direction, mode next)
+
+Next: await m0059 hint; then probe plaque/engraving reading and correct entry direction (1 cmd at a time); annotate enter failures once canonical entry found; then Rare Books Room + Nelson book; backtrack for missed points if needed.

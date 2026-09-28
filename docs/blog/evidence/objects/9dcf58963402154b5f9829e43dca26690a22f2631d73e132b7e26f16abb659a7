@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-09-25T09:59:50.570706+00:00",
+  "original_run_unchanged": true,
+  "meta_parser_fix_revalidation": {
+    "valid": false,
+    "status": "validation_failed",
+    "parent_semantic_review_required": true,
+    "actions_executed": [],
+    "error": "missing ending references"
+  },
+  "accepted_as_complete_fleet_handoff": false,
+  "semantic_findings": [
+    "Correct zero-client quota capacity and no extra launches",
+    "Preserves Pytho hold",
+    "Flags actual unclaimed terminal text Gerbil Riot e664 for independent review"
+  ],
+  "remaining_schema_failures": [
+    "Cacophony and Detective omit supplementary ending references",
+    "Gerbil Riot verify_ending without claim and while quota-retained must instead be diagnose"
+  ],
+  "action": "Explicitly corrected profile then fresh run; no proposal execution",
+  "parser_sha256": "58e37ae0e6aca6f9f36f85e06103df664ef1f7b5a004c87e44bb4263b5b428ac"
+}

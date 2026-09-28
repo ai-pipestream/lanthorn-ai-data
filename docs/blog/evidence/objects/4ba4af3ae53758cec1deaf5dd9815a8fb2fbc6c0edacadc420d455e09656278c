@@ -1,0 +1,83 @@
+{
+  "game_id": "attack-of-the-yeti-robot-zombies",
+  "title": "Attack of the Yeti Robot Zombies",
+  "author": "Oyvind Thorsby",
+  "url": "https://ifarchive.org/if-archive/solutions/Attack_of_the_Yeti_Robot_Zombies.txt",
+  "accessed_at": "2026-09-25T06:54:20.414809+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/Attack_of_the_Yeti_Robot_Zombies.txt",
+  "source_sha256": "3424a544aad2dc37bcb127ec38892b97098c6b9b49a45c8e8a567d7aa7420129",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/attack-of-the-yeti-robot-zombies-walkthrough.txt",
+  "normalized_sha256": "53ab264b0d6c8b8895a75e687114c9126243fc1254d0a4254072901e3a851e85",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF; reflow only lines longer than 110 characters at word boundaries, preserving word order, punctuation and final newline state",
+    "word_sequence_preserved": true
+  },
+  "story": "/home/krickert/if-games/zcode/AOTYRZ.z5",
+  "story_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+  "compatibility": "Actual local and archive header is Z5 R0/060825; release zero is recorded literally, not silently replaced or treated as a demo. James Mullish guide dated 2020-12-28 identifies the game but specifies no story release/serial. Matching archive game/guide identity and byte-identical story verified; route compatibility remains untested.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 0,
+  "serial": "060825",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000004b044b05349f010a1ae82499005030363038323500429b65b044000000000000000000000000000000002498000000000000010200000000362e3330",
+    "header_sha256": "662ffce2c508cf83ab1faa0c1d890571320271dc30cde03d8966b0d9c1e2cc77",
+    "checksum_hex": "b044",
+    "checksum_valid": true,
+    "declared_length": 159124,
+    "file_bytes": 159232
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": null,
+  "story_identity": {
+    "filename": "AOTYRZ.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/AOTYRZ.z5",
+    "accessed_at": "2026-09-25T06:54:20.512817+00:00",
+    "remote_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+    "local_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+    "bytes": 159232,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 0,
+    "remote_serial": "060825"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#AOTYRZ.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/zcode-index.txt",
+    "snapshot_sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "entry_text": "# AOTYRZ.z5\nifwiki: Attack of the Yeti Robot Zombies\ntuid: bt9tjt1fg2ucbxgc\n\nAttack of the Yeti Robot Zombies, by Oyvind Thorsby.\nRelease 0 / Serial number 060825.",
+    "tuid": "bt9tjt1fg2ucbxgc"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Attack_of_the_Yeti_Robot_Zombies.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/solutions-index.txt",
+    "snapshot_sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "entry_text": "# Attack_of_the_Yeti_Robot_Zombies.txt\ntuid: bt9tjt1fg2ucbxgc\n\nSolution to Attack of the Yeti Robot Zombies, written by James Mullish.",
+    "tuid": "bt9tjt1fg2ucbxgc"
+  },
+  "guide_author": "James Mullish",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Read entire short guide, including final boss/button/descent instructions.",
+    "route_summary": "Complete the full escape and confrontation, including the successive boss returns, then the red-button and yellow-button descent sequence. Require the game-authored terminal victory/concluding narrative after descent. A helicopter crash, apparent initial boss defeat, ordinary death, room transition or guide assertion that the game is complete is not sufficient.",
+    "limitations": "Community prose guide contains spelling errors, optional actions and timing assumptions, and no observed transcript. Its main route is one long paragraph; normalized text reflows long lines without changing word order or punctuation so 9-line/1000-character help does not discard the remaining route. Preserve guide suggestions separately from observations; do not copy retry counts into synthetic filler.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "attack-of-the-yeti-robot-zombies",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": true,
+    "rationale": "No shared world, remake or puzzle relationship established with existing corpus or A-E. Horror, zombies and action motifs alone are insufficient. Keep all releases/ports of this game together.",
+    "splits_snapshot_sha256": "b26d5ff38df8a550ab292d51bfa005ced6947931017faa984fa1a150eebde288",
+    "checked_at": "2026-09-25T06:57:11.552512+00:00"
+  },
+  "reuse_claims_observed": "No game/guide reuse permission established; private collection only. Public hosting, source availability and download access do not establish training or redistribution permission."
+}

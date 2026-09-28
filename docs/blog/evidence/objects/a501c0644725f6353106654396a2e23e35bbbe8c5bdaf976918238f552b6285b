@@ -1,0 +1,16 @@
+[Unit]
+Description=Lanthorn private synthetic data Muse worker pool
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/work/experiments/lanthorn-recall-training
+ExecStart=/usr/bin/python3 /work/experiments/lanthorn-recall-training/scripts/maintain_workers.py
+Environment=PATH=/home/krickert/.local/bin:/usr/local/bin:/usr/bin:/bin
+Restart=on-failure
+RestartSec=10
+# Preserve live interpreters if the manager alone restarts; it rediscovers them.
+KillMode=process
+
+[Install]
+WantedBy=default.target

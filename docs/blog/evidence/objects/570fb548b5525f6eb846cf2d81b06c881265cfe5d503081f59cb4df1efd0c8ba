@@ -1,0 +1,8 @@
+# Hunt For Relief — progress
+
+Location: Your Icky Bathroom, end prompt (RESTART/RESTORE/QUIT). Score 20/20 won e167.
+Glue route done: pot on oven, cube, 3L water score10, mix score11, heat score12, get glue, got-glue checkpoint, glue handle to rest score15 perfect key, key-repaired checkpoint.
+Bathroom route: open bathroom locked e149; unlock bathroom omitted e150-e151 score16; open bathroom e153; bathroom-open checkpoint e155-156; enter bathroom synonym accepted e157 score18; look bathroom e159; open loo rejected e160; open toilet e161; toilet-open checkpoint e163-164; use toliet verb rejected e165; help sit on toilet e166; sit on toilet wins e167 20/20; annotated e168.
+Cases this session: bathroom-open-without-unlock world_state; bathroom-unlock-omitted-key syntax; bathroom-enter-synonym none; toilet-open-synonym-loo vocabulary; toilet-use-typo vocabulary.
+Checkpoints: start-home, oven-cleaned, got-glue, key-repaired, bathroom-open, toilet-open. Do not SAVE into end prompt.
+Next: update finish with e167 evidence; no further game commands.

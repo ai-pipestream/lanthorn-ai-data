@@ -1,0 +1,45 @@
+# Seg21 (b36) — Study Day3, full Verlac chain to Croseus, all dialable M-D-Y pairs fail. GAME INCOMPLETE.
+
+Current: session anchorhead-9852cd5b9d b36 e00166 (m1650). Location: Study Day3 (SW maze corridor OPEN). Score 40 (+1 pattern revelation e00095). Ring REMOVED (in inventory, was worn at checkpoint). Branch b36.
+FULL CHAIN (all same-day pairs): Croseus d.Mar11-1651 → Wilhelm b.Mar11-1651 (d.Oct18-1734) → Heinrich b.Oct18-1734 (d.Dec16-1802) → Elijah b.Dec16-1802 (d.Jan30-1886) → Mordecai b.Jan30-1886 (d.Apr26-1960) → Edward b.Apr26-1960 (d.Mar14-1997). Others: William b.Jun22-1954 d.Sep18-1958; Anna b.Jun24-1936 d.Mar23-1962; Julia b.May4-1964 d.Jan10-1997; Gertrude b.Jul14-1988 d.Jan10-1997; Sonia b.Oct8-1995 (name) BUT b.Nov18-1995 (year lookup!) d.Jan10-1997 — R5 records internally inconsistent.
+Seg21 work (m1624-m1650): slip read: 'born-died same date? have to chk. records' NO digits (m1624-25); chain via year lookups: death 1886→Elijah d.Jan30-1886 (m1626), birth Elijah b.Dec16-1802 (m1627), death 1802→Heinrich d.Dec16-1802 +POINT revelation e00095 (m1628), birth Heinrich b.Oct18-1734 (m1629), death 1734→Wilhelm d.Oct18-1734 (m1630), birth Wilhelm b.Mar11-1651 (m1631), death 1651→Croseus d.Mar11-1651 (m1632); checkpoint records-chain-day3 (m1633); m1503 syntax check (turn×3+open); travel to Study (m1634-36); 'read the laptop' ACCEPTED journal no digits, annotated none m1637-38; safe tries: 3-11-51 fail (m1639-40), 10-18-34 fail (m1641), 12-16-2 fail (m1642); ring removed, Jun28 confirmed (m1643); laptop examine/type-0628 refused (m1643-44); dial=2, armchair/pipe generic (m1645); search books nothing, dial-0 REJECTED 1-60 only (m1646); 4-26-60 no-spin control FAIL (m1647); library deep search nothing (m1648); screen=journal (batch cut early, 2 unsent m1649), desk=laptop only, shelves can't-see (m1650).
+Key finding: all 5 chain pairs fail M-D-Y (4-26-60 twice); 1-30-86 undialable (86>60); dial 1-60 no zero; R5 slip/laptop/ring/screen/desk/shelves/books/furniture hold NO numbers. Day3 house+records+library exhausted.
+Next: 1) Mill-blueprint recon via restore mill-before-maze (read-only, then restore back records-chain-day3). 2) Church padlock keys (long steel/small steel/small copper). 3) Crypt plates re-check. 4) Maze walk SW from Study. 5) Day2 restore north sweep (office/pub/church/lighthouse/mill/slaughterhouse/Cauldron) LAST. 6) Reordered triples (D-M-Y, Y-M-D) reserve. Never replay m1576-79; no READ BOOK/CLIPPINGS/HELP menus.
+Checkpoints: records-chain-day3 (Day3 return base, Death Records, score 40), library-safe-day3, sitting-room-day3, cellar-fuse-day3, day2-card-ready, library-day2-circulation.
+Unresolved: safe combo (16 fails total); Sonia dual-birth anomaly; church Day3 padlock; Cauldron/disk Day3; wine Secret Door; Burial Mound.
+Last hint: m1618 lines 123-131. Last evidence: e00166 shelves can't-see.
+
+# Current explicit checkpoint recovery
+
+{
+  "previous_session_id": "anchorhead-2c1c588159",
+  "checkpoint_event_id": "anchorhead-2c1c588159:e00174",
+  "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+  "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+  "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+  "session_id": "anchorhead-9852cd5b9d",
+  "branch_id": "b36",
+  "restored_at": "2026-09-25T07:12:45.230686+00:00",
+  "observed_event_id": "anchorhead-9852cd5b9d:e00006"
+}
+
+Supervisor 2026-09-25: Do not READ BOOK / historical overview, READ NEWSPAPER CLIPPINGS, or open optional in-game HELP/book menus. Repeated transport faults are confirmed. Use small broker help for relevant lore. Book/slip/clue text already observed is historical knowledge, not a reason to reopen menus. Restore library-safe-day3; do not blindly replay unsaved actions.
+
+Observed restored room:
+
+Library
+Whatever else their faults may have been, the Verlacs were evidently not ones 
+to shun the printed word. Books line the walls from floor to ceiling in this 
+dark-paneled, green-carpeted room, interrupted only by doorways to the east and 
+south. A rich, brown leather armchair sits in stately repose near the window, 
+with a polished brass pipe stand nearby completing the picture of some 
+blue-blooded country squire's literary refuge. Once again, you are struck by 
+how easily this place could have been the perfect home.
+
+A beautiful pair of mahogany sliding doors lead east, to the study.
+
+A section of the shelves in the western wall has slid to one side, revealing a 
+hidden safe.
+
+>
+Old progress is archived under session-history and is historical only. Read actual inventory/room and continue from the restored state. Never replay old pending requests; fresh unique request IDs only.

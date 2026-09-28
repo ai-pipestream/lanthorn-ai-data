@@ -1,0 +1,8 @@
+# Lecture Feature – progress (update 2)
+
+Location: Lyssa's room. Lyssa present, sunglasses on bedside table.
+Inventory: trousers worn, wallet. Mark recruited (chaining remark), Lyssa recruited (ideological rebuke but done).
+Waits so far: 3x wait, Lyssa still present (e31,e33,e35 + looks e32,e36). Walkthrough says repeat wait until she leaves, then get sunglasses, look under bed, get handcuffs.
+Cases so far: 6 annotated (trousers take/wear, recruit mark/lyssa), plus pending sunglasses-take-01 blocked e34 ("Leave my things alone!") – needs success after Lyssa leaves for world_state pair.
+Hints: handcuffs/sunglasses route confirmed (n, recruit lyssa, wait, get sunglasses, look under bed, get handcuffs).
+Next: keep waiting, then take sunglasses + handcuffs, annotate pair, checkpoint.

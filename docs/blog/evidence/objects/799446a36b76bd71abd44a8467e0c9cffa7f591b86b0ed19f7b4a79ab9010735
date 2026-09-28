@@ -1,0 +1,18 @@
+# Progress — Pick Up the Phone Booth and Aisle — COMPLETE (pending Terra verification)
+
+Game: short alternate-ending structure (~210 ending commands, not sequential).
+Completion: coherent nonfatal authored narrative ending, preferably title-action branch. Single-action story is sufficient.
+Checkpoint policy: NO broker checkpoint / SAVE / RESTORE — guide lists them as ending commands. None used.
+
+Route (branch b0):
+- e00001 startup: The Town Square, phone booth present.
+- m0001 inventory -> e00002 exploding-pants death (*** Ka-boom ***; early death, not target).
+- m0002/m0003 help: guide header only; proceeded with literal title guess.
+- m0004 in-game RESTART -> e00005 Town Square (recovery).
+- m0005 typo "pick up the phone boothe and aisle" -> e00006 parser partial-understanding, game continues.
+- m0006 canonical "pick up the phone booth and aisle" -> e00007 WIN: cunning/obscure narrative + *** You have won ***.
+- m0007 annotate -> e00008 (vocabulary, intent preserved, synthetic_probe).
+- m0008 finish rejected (quote whitespace); m0009 finish with verbatim quote -> e00009 ending_claim recorded, awaiting Terra verification.
+
+Cases: town-square-baseline (death), recover-restart-after-pants-death (recovery), title-action-typo-probe (vocabulary failure + annotated repair), title-action-canonical (win).
+No further game commands. Done.

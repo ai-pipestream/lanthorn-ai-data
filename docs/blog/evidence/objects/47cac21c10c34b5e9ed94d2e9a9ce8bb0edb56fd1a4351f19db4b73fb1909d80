@@ -1,0 +1,12 @@
+# Critical Breach — progress (b5 mouse hunt)
+
+Location (b5 Workbench): restored b4-unloaded (chip separate, injector empty). SELECT 2 e140 dispensed food + crunching; E e141 test area empty; LOOK e142 no mouse; TAKE MOUSE e143 and TAKE CAPSULE e144 both can't-see; X CAGE e145 scorpig frantically breach-seeking (awake); W e146 back workbench; LOOK e147 nothing. Second SELECT 2 e149 same crunching, no mouse.
+Inventory: chip separate, empty injector, pliers, beaker, keycard (plus coat).
+
+Evidence: bare `take scorpig` e135 and `take scorpig with pliers` e137 both refuse identically (Robert/fingers) — pliers alone insufficient without mouse distraction. Help m0126 confirms DROP MOUSE + ZZZZ + TAKE SCORPIG WITH PLIERS + LOAD CHIP + INJECT; help m0137 gives TAKE CHIP/W/SELECT 2/E/TAKE MOUSE/TAKE CAPSULE/LOAD CAPSULE/INJECT MOUSE/DROP MOUSE. Mouse/capsule not from pre-sedation SELECT 2 alone; likely elsewhere (cabinet package wording, S/W exits unexplored).
+
+Checkpoints: start-darkness, lab-arrival, before-inject (expired), b2-ready-sedate, b4-unloaded (clean separate chip, restored as b5).
+
+Last hint: m0137 lines 33-41 mouse/capsule/load/inject/drop sequence.
+
+Next: explore S/W exits and cabinet package wording for mouse/capsule; keep single commands; checkpoint before sedation once mouse ready.

@@ -1,0 +1,23 @@
+# Delusions progress — segment 4c (b12, mapping complete, no weak/woozy thru ~6600)
+
+Location: VR Lab (e00081 Cray manual). Score 10/50. Branch b12. Justy still at terminal (blocks report e00013, configure e00080).
+Inventory: punch, antitoxin, gelstrip, X-Acto, syringe; jumpsuit + fingerwatch. Pizza eaten. Quarters: magnet closed (ON from b8), painting, lightstick, tongs; alcove amp/fader10/violin/bow/pillow.
+Time: ~6600+ (6329 at e00058, +~25 turns mapping/manual). Alarm2 set e00059 (~6340), not yet fired (needs ~19 turns; ~15 elapsed). No weak/woozy. Inject refused 5792-6278 (3 locs). Sleep refused x3 (25 gurney waits).
+Checkpoints: before-pizza (base), older. Next after sleep/report breakthrough at ordinary prompt.
+Cases: ~49 annotated. OPEN: inject, report (needs sleep), sleep1 (needs woozy).
+
+MAPPING b12 (re-verified, no new rooms):
+- VR Lab N=Output Station (Cray+printer, no output yet), S=MedLab, NE=Kitchenette, NW=Cynthia's (busy, snubs in b8), SW=Justy's (b8), W=Steel Corridor, SE=Quarters (metal door), D/E=Factory Storage (android, cracked coupler), U from Storage=Lab.
+- Output: Cray examined (printer+recycle slot), printer empty. Manual Cray (e00081): report controls printing, must recycle previous printout via slot. No printout currently on bench/Cynthia/Output (need to locate old VR printouts?).
+- Corridor: S=Lavatory (b8 mirror inconsistency), N=elevator (b8 world_state blocked, no button), W=Shimada (b8 waves/blocks).
+- Configure icon also blocked by Justy (e00080, same as report). All workstation icons gated on Justy leaving, which needs first sleep.
+WALKTHROUGH (R2): sleep (93-101) BEFORE report (102-110). R4 weak/woozy not triggering by 6600 despite 25 waits, pizza, alarms. R4 vs R2 drift suspected (reef 0 vs 3pts, pizza maybe R4-only, insulin timing?).
+DEAD ENDS b12: 25 gurney waits, quarters waits, 2 alarms (1 fired, no symptom), inject x3, sleep x3, configure early, mapping all exits.
+
+NEXT: 1) Kitchenette re-check (fridge/freezer/microwave for missed R4 items/triggers). 2) Locate old VR printouts (lab bench? Cynthia? Output racks?) for recycle hypothesis. 3) Ask help for weak trigger (R2 lines 80-88 "(notice the time)" context) and/or post-135 (Open cabinet onward) with b12 IDs e00054/e00065/e00080/e00081. 4) If help gives no R4 fix, consider time push to 7000-8000 via waits (last resort) or third VR run test. 5) Checkpoint on breakthrough only.
+
+## Recovery base
+Restored before-pizza e00389 into b12 after HINT SPACE e448/e449 timeout. m0341 cancelled. Avoid HINT menus; broker excerpts only.
+
+## Historical b8
+Was MedLab HINT MENU subject-2, 10/50, e00448 timeout. Stages 1 Fish VR / 2 Lab / 3 Lab Sim / 4 Endgame, in stage 2. Dead ends as above.

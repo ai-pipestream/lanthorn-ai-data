@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-25T09:26:51.034520+00:00",
+  "game_id": "traffic",
+  "events": [
+    {
+      "event_id": "traffic-dc40d385c3:e00233",
+      "timestamp": "2026-09-25T09:14:15.605780+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b3",
+      "event_index": 233,
+      "event_type": "command",
+      "command": "wait",
+      "response": "Time passes.\n\nYou brace yourself for the speeding car that should be speeding towards you any \nminute now...\n\nYes, any minute now...\n\nBut nothing happens. No out-of-control car driving up on the sidewalk and \ncrushing you. Just traffic as usual. The sun is shining down from a blue sky, \nand everyone seems to just be going about their business.\n\nYou blink in disbelief. Several light-changes later, you cross the street and \nhead back to the lab, incredulous that you're still alive.\n\n\nThe rest of the day proceeds pretty much like any other, which is maddeningly \nstrange, given all the things you've been through. You want to tell someone, \nanyone, about your impossible time-travel adventures, but who would believe \nyou? At one point you even consider telling Dr. Roth, but you break into a \nbrief but uncontrollable fit of laughter that fortunately no one in the lab \nwitnesses. You muddle through a few test experiments, let Dr. Roth know that \nyou're not feeling like yourself (\"When has that stopped you before?\" he says \nwith a disappointed frown), and head home early, taking the long way there.\n\nBy the time you arrive back in your apartment, you've convinced yourself it was \nsome sort of mental nightmare brought on by a near death experience. That's the \nonly sane way of thinking about it. All of that jumping into other people's \nbodies was probably some sort of wild cognitive distortion. The idea of some \nsort of out-of-body time travel seems preposterous. It couldn't possibly have \nbeen real, right?\n\nAfter a rather basic dinner, you flop onto the ugly green couch your sister \ngave you (second hand, of course) and search for something on television. You \nslowly breathe away the last bits of anxiety from the day. You switch to the \nnightly news.\n\n\"Earlier today, a man turned himself in at the uptown police station. According \nto our sources, the man was thinking about fleeing the country due to some \nembezzlement situation at his job working for Loomis Bank.\"\n\nThe station shows some logo for Loomis Bank, who you're not sure you've ever \nheard of.\n\n\"Luckily, the man was given a second chance, by his own daughter.\"\n\nA candid picture of a little blond girl is shown, a face you are familiar with.\n\n\"The story we're being told is that the man's daughter convinced him to turn \nhimself into the police rather than run. Parents watching this story, take \nnote, your child might be giving you exactly the advice you need.\"\n\nA short grainy video of a man being detained by police officers in some police \nstation is shown. You can't quite make out his face.\n\n\"There's a happy ending to this story -- we're told investigators, with the \nhelp of Loomis Bank, have determined that the man was innocent. The man's \nemployment account with the bank had been hacked and professional criminals had \nused his account to access bank funds.\n\n\"Police report that the man was released and is now at home, reunited with his \nwife and little girl. We'll have more on this story as it develops.\"\n\nYou feel a great sense of relief, despite not knowing this man at all, despite \nknowing that at various points in your recent history (so to speak) this very \nman, on numerous occasions, hit you with his car.\n\nThe news report switches to some business story about how well the Pineapple \n16XL is selling, so you switch the TV off and sit for a moment, lost in \nthought. Impossible as it seems, all those little things you did really led to \nthis outcome. Arguably, you didn't even do these things, someone else's body \ndid the work. But, through this crazy sequence of events, you were able to \nchange the way things went. To change the whole story. Shouldn't you feel good \nabout that? And, adding to that, when you really compare things to all the \ncomplications in all the other lives you experienced, doesn't that put some of \nyour current anxieties in a somewhat more mundane, and therefore more positive, \nlight?\n\nPerhaps. Stuff to think about tomorrow. For now, you get to sleep to another \nday. You turn the lights out and head to bed. \n\n    *** You have won ***\n\n\n\nIn that game you scored 0 out of a possible 0, in 83 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n>",
+      "raw_start": 82636,
+      "raw_end": 86836,
+      "response_sha256": "19dc56ff9b36ba122757a0cccec17ef8fd8bdaf5e26fa2c69ad2f1ca00b0deb0",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "case_id": "revised-present-84",
+        "expected_outcome": "Further revised traffic development",
+        "intent": "Keep watching intersection",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Parent independently checked exact raw text and SHA. WAIT in revised present branch b3 produces survived street crossing, father exonerated and reunited with family, protagonist sleeps to another day, explicit win and final menu. Authored conclusion verified; independent Dirac audit pending. Score0/0 does not measure coverage. Do not resume. Its compute slot was already automatically refilled; certification releases no additional capacity.",
+  "coordination": "Kimi pilot proposed independent verification; parent verified actual bytes. No Kimi game input or scheduler mutation."
+}

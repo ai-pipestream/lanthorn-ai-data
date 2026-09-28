@@ -1,0 +1,10 @@
+# HLA Inform progress — South chain toward barbarian (INCOMPLETE)
+
+Location: On the path heading south e00218. Exits N,S,W. Castle far south, hills E/N, decaying forest W. Werewolf with.
+Stats: hp 236, g 1053, exp 209, food 140 (e00218). Armor+shield worn, battleaxe wielded, lantern light.
+Cases annotated (36): same as guild-geared update (armor-wear-39, shield-40). No new annot since.
+Open: continue S per walkthrough to barbarian (quest 3), then S,S knight, S,S sorcerer (quest 4).
+Route: Guild-geared e00209 -> help e00210-211 (e,s*8 kill barbarian... ) -> east to well e00212 -> south to Entrance e00213 -> south to Well-lit e00214 -> south to Forest e00215 -> south to Intersection e00216 -> south On path e00217 -> south On path heading south e00218 (latest).
+Hints (walkthrough, NOT observed): e00211 e,s*8 kill barbarian quest3; s,s kill knight; s,s kill sorcerer quest4; n*8 enter portal x2.
+Checkpoints: guild-geared e00208-209 verified. Next milestone after barbarian/knight/sorcerer.
+Game NOT complete: no dragon/GameWon. Continue S one at a time; collect pre-canonical probe at barbarian encounter.

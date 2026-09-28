@@ -1,0 +1,8 @@
+# Heist progress (incomplete — Dark Alleyway rear, score 25)
+
+Location: Dark Alleyway (NE of Estate; rear window above, council refuse bin, rigged rope hanging within reach; e00226).
+Inventory (observed e00200, minus flowers/bar/rope left rigged): holding est. steel key, credit card + bag (arm, cutter, letter, frame/student, girl+boy photos); iron bar wedged in ledge hole (e00215), rope tied to bar (e00216, score 24), flowers laid on tokens (e00205). Flowers/polythene/ribbon consumed at tokens. Score 25 (e00224 ejection +1).
+Checkpoints verified: early-graveyard, grave-coffin, industrial-machine, church-organ, church-altar, church-painting, main-street-photo, flower-beds, estate-staged (e00201-e00202 Saved Ok), landing-closed (e00222-e00223 Saved Ok).
+Cases: 36 annotated (35 prior + bag-ambiguous-polythene ambiguity e00193/e00194). Climb refusal e00217 (bare hands) resolved via hint, not annotated as probe. No pending requests; m0215 alley confirmed, m0216 search-bin pending.
+Last hint (e00225 heist.sol lines 51-59, walkthrough_not_player_observed): (Uncle's apartment) ne. search bin. get gloves. wear gloves. u. w. x chair. search cushions. sit in chair. z (until recording done; note Uncle's birth date varies + 'part of us' line). get up. open door. w. search tokens. get photo. e. close door. x clock. (Set clock hands to Uncle's birthday: day, month, last-2-year; varies; hour=10s digit, minute=1s, 10 for 0; passage opens.) Verified through ne.
+Next: search bin, get gloves, wear gloves, u (climb rope with gloves), w (through window to Kitchen), chair/cushion/recording sequence, clock birthday passage. Keep probes outside timed/routine; at 36 cases prioritize route. Conserve light. Continuation checkpoint: landing-closed (also estate-staged).

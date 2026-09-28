@@ -1,0 +1,25 @@
+{
+  "event_id": "nine-points-013d843149:e00073",
+  "timestamp": "2026-09-25T06:32:50.605573+00:00",
+  "game_id": "nine-points",
+  "session_id": "nine-points-013d843149",
+  "branch_id": "b0",
+  "event_index": 73,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 7489,
+  "raw_end": 7489,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "nine-points-013d843149",
+    "ending_quote": "*** You have finished this sample game ***",
+    "evidence_event_ids": [
+      "nine-points-013d843149:e00061"
+    ],
+    "notes": "Genuine winning ending, not death/quitting/intermediate: e00061 Outside after north through open window. Scripted mugging loses crown (manifest-intended), awards Minoan sceptre, prints finished-sample-game banner with 8/8 in 35 turns, then RESTART/RESTORE/QUIT prompt. Full treasure route resolved: bookcase passage, pot key, unlocked/opened chest, crown taken, window exit."
+  },
+  "review_status": "unreviewed"
+}

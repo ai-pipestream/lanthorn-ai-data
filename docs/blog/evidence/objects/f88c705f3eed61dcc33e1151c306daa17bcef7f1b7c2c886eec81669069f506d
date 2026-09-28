@@ -1,0 +1,23 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: Roof north side (above lift shaft, emergency hatch open), Score 25, Moves 105 (e00224)
+Description: chilly breeze, snow, four triangular quadrants to fenceless edges; directly above lift shaft.
+Inventory as observed: optical disc in bra, compact taser in bra, pink bubblegum in bra; mother's silver chain (worn), gold bracelet closed+worn, underwear; blue evening dress used as rope in shaft (torn/holed); toilet brush dropped in Lift Shaft (for later). Paper ball read/dropped in Lobby.
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy, washroom-secure, presentation-baron, bathroom-perfume, cocktail-lift, lift-paper, lobby-disc, s21 (e00206-207 Ok), s25 (e00226-227 Ok).
+
+Cases this run (all synthetic_probe unless noted; annotated):
+- reception-pry-doors-brush (none e00202-203; paraphrase of open doors with brush, doors pried apart Moves 94)
+- elevator-enter-lift-route (guided e00204; stepped atop lift to Lift Shaft Score 21 Moves 95)
+- shaft-drop-brush-route (guided e00205; Dropped Moves 96)
+- shaft-remove-dress-synonym (none e00209-210; take off = remove, Moves 97)
+- shaft-throw-dress-ladder (none e00211-212; toss = throw, loop taut Moves 98)
+- shaft-climb-dress-first (none e00213-214; climb up dress fell off, intermediate fall before turn, Moves 99)
+- shaft-turn-dress-twist (none e00215-216; twist = turn, rope spiral Moves 100)
+- shaft-climb-dress-second-route (guided e00217; ladder dropped jammed, Score 25 Moves 101)
+- shaft-stow-disc-bra (vocabulary e00218→e00220-221; stuff rejected, put disc in bra Moves 102; help e00219 confirmed excerpt)
+- shaft-stow-taser-gum-route (guided e00222-223; taser Moves 103, gum Moves 104)
+- shaft-climb-ladder-up (none e00224-225; climb ladder = u to Roof north Moves 105)
+
+Last hints (walkthrough, NOT observed): lines 143-151 done (remove dress; throw dress at ladder; climb dress; turn dress; climb dress 4/25; put disc,taser,gum in bra; u; save s25). Help e00219 re-confirmed same lines for bra verb.
+
+On resume: start inbox/m0207.json with help mode=next for post-s25 roof excerpt (topic roof north hatch quadrants); then checkpointed roof exploration with synthetic probes (synonyms/typos) before canonical moves. Game incomplete — Crusader/helicopter finale per manifest still required; no finish evidence.

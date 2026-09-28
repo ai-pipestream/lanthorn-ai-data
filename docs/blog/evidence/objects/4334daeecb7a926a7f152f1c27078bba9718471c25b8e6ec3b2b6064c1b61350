@@ -1,0 +1,25 @@
+{
+  "event_id": "schooldays-b371c6a97d:e00605",
+  "timestamp": "2026-09-25T21:39:31.093535+00:00",
+  "game_id": "schooldays",
+  "session_id": "schooldays-b371c6a97d",
+  "branch_id": "b3",
+  "event_index": 605,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 142366,
+  "raw_end": 142366,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "schooldays-b371c6a97d",
+    "ending_quote": "    *** You have won ***\n\n\nThere is no score in this game.",
+    "evidence_event_ids": [
+      "schooldays-b371c6a97d:e00603"
+    ],
+    "notes": "Completed house escape, subway Queen-to-Union, school/basketball and travel tickets (airline+Pacers e00595), then Front Street taxi KNOCK/OPEN/ENTER/CLOSE and DRIVER, GO TO AIRPORT e00603 producing *** You have won *** with no score and RESTART/RESTORE/QUIT prompt. Author-intended win, not death, quitting, or intermediate transit/score."
+  },
+  "review_status": "unreviewed"
+}

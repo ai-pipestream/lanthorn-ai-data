@@ -1,0 +1,7 @@
+# Progress — earth-and-sky-episode-1
+
+Location: Storage Room (door closed), wearing blue bodysuit. Inventory: blue bodysuit worn, note, access card; sweatshirt/pants/sneakers removed. Lab legal pad read.
+Checkpoints: start-outside-lab (e00002-03), after-suit (e00027-28 verified).
+Cases (6): read-note-synonym vocab (e05->e07); lab-door-blocked world_state (e09->e10); legal-pad-synonym none (e15); suit-fabric none (e18); close-door-ambiguous none (e23); wear-suit-typo syntax+world_state (e21 typo -> e25 success after close; e22 intermediate blocked).
+Last hint: m0004 "swipe card/e/s/close door/wear suit/n/u" — used through wear suit; n/u provisional.
+Next: n to lab, then u per hint; probe movement wording (e.g. omitted direction) before canonical; checkpoint after powers/Austin milestones.

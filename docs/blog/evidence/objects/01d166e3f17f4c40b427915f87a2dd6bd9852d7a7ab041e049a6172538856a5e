@@ -1,0 +1,5 @@
+# Adventureland progress — DONE b3 WIN 100 (e00939)
+
+b3 WIN: 13 treasures, 100/100, engine_exited e00939. Stump holds all 13 (rubies, fish, net, rug, crown, mirror, fruit, ox, ring, bracelet, firestone, eggs, honey). Bees suffocated on honey drop; dragon sting → limbo → go up recovered. Checkpoint before-bees unsupported (save unknown, e00910) — reported, not assumed.
+b3 cases ~35: dragon none; axe typo; ox statue; bunyon none; hole-enter; flint pronoun; fruit apple; climb; chop world_state; stump-enter none; rubies pot; lamp brass; dark-hole dark; door push; bladder bag; gas fill; ignite-light none; chasm leap; bear shout; bricks singular none; crown gold; flint steel; rug carpet; dam wall; firestone stone; lake fill-bottle; fish catch none; pour-water empty; final say-score syntax. Plus b2 lamp-noflint + door-hall.
+NEXT: finish with e00939. No further moves; engine exited.

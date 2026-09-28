@@ -1,0 +1,94 @@
+[
+  {
+    "filename": "traffic.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/traffic.z5",
+    "accessed_at": "2026-09-25T07:16:59.463863+00:00",
+    "remote_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+    "local_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+    "bytes": 187392,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "241027",
+    "zcode_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+    "story_header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "05000002431043112f3b010e1a12241700103234313032370046b6bf6b2b000000000000000000000000000000002416000000000000010600000000362e3333",
+      "header_sha256": "994e5ac31be243bc99839dbb817e31aafaf4c4af97525237e28c34d70b89406b",
+      "checksum_hex": "6b2b",
+      "declared_length": 187132,
+      "file_bytes": 187392
+    }
+  },
+  {
+    "filename": "BiCon.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/BiCon.zblorb",
+    "accessed_at": "2026-09-25T07:16:59.484531+00:00",
+    "remote_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "local_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "bytes": 366836,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 4,
+    "remote_serial": "101006",
+    "zcode_sha256": "87deeaeb9c675443249b4bf81ae81e4c116e54b76e451b9a982944b7bc4d5dce",
+    "story_header": {
+      "container": "blorb-zcod",
+      "header_bytes": 64,
+      "header_hex": "08000004d0b8d0b9b885010a46c0b0b0005031303130303600429d65856e00000000000000000000000000000000b0af000000000000010200000000362e3331",
+      "header_sha256": "bffd63233de17026babd10f5195f32ef66e4f715ddb0d50cc2bcb0c67bd71ecd",
+      "checksum_hex": "856e",
+      "declared_length": 322344,
+      "file_bytes": 366836,
+      "zcod_offset": 56,
+      "zcod_bytes": 322560,
+      "zcod_sha256": "87deeaeb9c675443249b4bf81ae81e4c116e54b76e451b9a982944b7bc4d5dce",
+      "container_bytes": 366836
+    }
+  },
+  {
+    "filename": "mortlake.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/mortlake.z8",
+    "accessed_at": "2026-09-25T07:16:59.466349+00:00",
+    "remote_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+    "local_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+    "bytes": 261632,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 1,
+    "remote_serial": "120304",
+    "zcode_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+    "story_header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "08000001cb18cb19b98f010a4762b2d3005031323033303400427fad8d5a00000000000000000000000000000000b2d2000000000000010200000000362e3332",
+      "header_sha256": "3e0efbfdb127aa58fbc0813f1c9a0160547749119be14b5f13a67df4d7d23eab",
+      "checksum_hex": "8d5a",
+      "declared_length": 261480,
+      "file_bytes": 261632
+    }
+  },
+  {
+    "filename": "windhal1.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/windhal1.z8",
+    "accessed_at": "2026-09-25T07:16:59.477395+00:00",
+    "remote_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+    "local_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+    "bytes": 320000,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 5,
+    "remote_serial": "960828",
+    "zcode_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+    "story_header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "08000005931093116d72022654a25af1000039363038323801669c020d3500000000000000000000000000000000000000000000000000000000000000000000",
+      "header_sha256": "7d3b195e0b62989b7787ceeddc30d1bd3e4f8bcb9b297d54f897ee29143e7f6d",
+      "checksum_hex": "0d35",
+      "declared_length": 319504,
+      "file_bytes": 320000
+    }
+  }
+]

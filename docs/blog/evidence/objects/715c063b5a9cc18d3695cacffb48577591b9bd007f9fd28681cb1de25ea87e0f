@@ -1,0 +1,11 @@
+# Kook U — progress (continuation checkpoint, game incomplete)
+
+Session kook-u-ef2767bf50 b2, event e00092. Score 47. Release 1/971119.
+Location: Outside Loan Office (w from Commons e00091, n e00092), ordinary prompt, engine awaiting_input.
+Inventory (observed): beeper, Cabal card, unlabeled cassette tape, newspaper article (used), bill (used), electric fan (Taken e00083).
+Targets done: Grubor (give article, score 37, grubor-done), Sanford (give bill, score 47, sanford-done).
+Checkpoints verified: start-office, hall-reader, computer-room-network-up, outside-cs, library-april, grubor-done, sanford-done.
+
+Pending/issued but final state confirmed via latest.json e00092 (Outside Loan). Inbox m0179 serviced as e00091+e00092. No unconfirmed pending.
+
+Next run: read latest.json + events tail from e00088. At Outside Loan with fan: try placing/turning on fan? Earlier x fan/turn on fan failed WITHOUT fan in inventory (e00070/e00072). Now carrying fan, retry 'turn on fan' at Outside Loan, then 'nw', 'get pack'. Then Neutopia 'open pack; give joint'. Then find Implant Al (kill), Boursy, April player puzzle (player still unfound), dean + final router/name/file/news + concluding narrative. Avoid SPACE menus. Checkpoint before kill/risky. Collect 1 synthetic variation per puzzle with help after 2 failures.

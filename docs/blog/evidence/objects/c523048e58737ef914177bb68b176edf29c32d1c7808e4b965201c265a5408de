@@ -1,0 +1,9 @@
+{
+  "result": "needs policy clarification before second pass",
+  "provider_succeeded": true,
+  "tool_count": 0,
+  "four_expected_dispositions": true,
+  "linked_refs_valid": true,
+  "issue": "Traffic already exited and automatic refill maintains24 remote. Certifying its ending must not free a second slot. Pilot brief omitted explicit distinction between compute refill and independent ending certification. Hold-all-launches prose could be misread as changing enabled schedulers; no such change was made.",
+  "actions_executed": []
+}

@@ -1,0 +1,28 @@
+# Varicella — collection progress
+
+## State (event e00068, branch b0)
+- Location: Royal Quarters (N of throne room). King dead in bed; medical rigging; Queen Sarah grieving, refuses to discuss Sierra.
+- Throne room: green hotline (receiver + 4-digit access + 4-digit country codes); royal portraits/photos S wall; whistling guard at royal door.
+- Upper level west mapped: SW ant—Western Hall (Wehrkeit's quarters W, giggling guard; balcony E)—NW ant—Throne Room—Royal Quarters.
+- Still unfound: Miss Sierra, eastern upper rooms (southern hall, NE tower, eastern side), kitchen, chapel, outside.
+- Inventory: Queen's letter, master key (+ clothes).
+
+## Checkpoints
+- early-saloon, foyer-mapped, before-throne (all Ok).
+
+## Cases completed (11 annotated)
+1. salon-steward-examine-01 (vocabulary) e08/e10.
+2. salon-exit-east-01 (vocabulary) e15/e16.
+3. hall-tapestry-look-01 (none) e20.
+4. hall-armor-examine-01 (none) e22.
+5. ballroom-fresco-examine-01 (syntax) e26/e27.
+6. foyer-guard-talk-01 (vocabulary) e31/e32.
+7. foyer-guard-ask-02 (ambiguity) e32/e33.
+8. courtyard-louis-pronoun-01 (none) e44.
+9. louis-trash-search-01 (none) e53.
+10. route-louis-magazine (world_state, failure stands) e55.
+11. throne-phone-examine-01 (none) e65.
+
+## Next actions
+- Sweep eastern upper rooms for Sierra; try eastern halls/NE tower.
+- Still needed: planning, word-order variation, reasonable-wrong-object, typo variety.

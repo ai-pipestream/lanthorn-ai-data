@@ -1,0 +1,23 @@
+# Deephome playthrough progress (IN PROGRESS — branch b1, score 79)
+
+## Where to resume
+Continue from actual state at Waterfall (Terrock gone with nest, score 79, e00193-194). Checkpoints: `wrr-moss` (verified Ok, e00174-175) has moss+Fresto; `temple-fresto` earlier. Do NOT restart.
+
+## Current state (all observed, branch b1)
+Location: Waterfall (e00190-193). Terrock took nest and flew away after moss (+10, score 79). Intake pipe present, pulled from water (e00191 look). Rod mentioned in guide next ("x pipe; push rod") but not yet observed in room text — examine pipe next.
+Route since last update: WRR moss (e00171 typo fail, e00172 Taken) -> checkpoint wrr-moss -> help (Waterfall put moss in nest; x pipe; push rod, e00176) -> east E Royal (e00177) -> batch east/north/north/north to Main Hall (e00178-181) -> west station + enter car (e00182-183, Main Hall panel: yellow Smithy, green Barracks, red Treasury) -> push green FAILED as moss interference (e00184 '(the green moss) Nothing obvious happens') -> push green button rode to Barracks side (e00185) -> out (e00187) -> west Barracks, SW Training, SW Waterfall (e00188-190) -> look (e00191) -> put moss probe (e00192 'over?') -> put moss in nest success (e00193).
+Inventory: King's Order, lantern (lit), Sword, shield, magical torch (lit), pickaxe/axe, gear/cog, Fresto's tome, green moss (consumed? put in nest — moss flung into water, likely gone; verify with inventory later).
+Mission: Power DONE; Water open (intake pipe + rod next); visit locations; City Gates; SAFE exorcisms (Dark Spirit seen Great Temple e00153; Fresto tome carried).
+
+## Checkpoints (all Ok)
+start-secret-entrance, guard-post, main-hall, after-coal, power-restored, before-rail-ride, after-gear, library-leshosh, temple-fresto, wrr-moss.
+
+## Cases: 22 annotated (last: waterfall-nest syntax pair e00192-193, m0158)
+New since library: wrr-moss vocab typo pair e00171-172 (m0144); rail-moss-interference ambiguity e00184-185 (bare 'push green' hit moss; 'push green button' rode car, m0152); waterfall-nest syntax e00192-193. Plus fresto-tome syntax e00144-145; take-book-ambiguous e00148-149.
+Engine findings: bare 'exit' corrupts; safe disembark 'out'. Full titles truncate — use short names. Color-only rail verbs fail when matching inventory carried; add 'button'. 'put X' requires indirect object, phrased as 'over'.
+
+## Last hint (NOT observed, guide lines 38-46 via e00176)
+"West Royal Road get moss / Waterfall put moss in nest [10]; x pipe; push rod". Done moss. Next: x pipe; push rod. Then request following excerpt.
+
+## Next actions
+1) Examine pipe (probe synonym first, e.g. 'look at pipe' vs 'x pipe' — but 'x pipe' is guide canonical; do variation before canonical). 2) Find/push rod. 3) Checkpoint after water restored. 4) Exorcisms (Temple Dark Spirit), city gates, last exorcism = ending. 1 command per unknown; conserve light.

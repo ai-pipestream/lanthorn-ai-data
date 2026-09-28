@@ -1,0 +1,15 @@
+# So Far — progress (branch b22 -> restore dark-arrival-b22 next)
+
+STATE: Plopping room (e01213, b22). STUCK LOOP: followed bubbling at arrival (now surrounds/keeps pace everywhere) -> thud in rumble room un-followable ("bubbling too loud", e01200+e01202); follow plopping/plipping in plopping room "difficult to locate" (e01209, e01213); NE drip-blocked (e01210); bare follow prompts "What..." (e01211). Chord appeared after rumble visit, banished via sing (weaken e01206) + sing to box (gone e01207). Theory: walkthrough's "plooping" = plopping/plipping, NOT bubbling; bubbling-first was my error. Fix: RESTORE dark-arrival-b22, skip bubbling, route bells->follow plipping->plopping, back, rumble->follow thudding.
+
+INVENTORY: casket, key, blanket (carried, unworn), pod, chip, square, knife, jar, box.
+
+SUPERVISOR: m0938 malformed (trailing ]) still unanswered — left for repair; m0951 mode=next (continuation of m0930, NOT a duplicate) already supplied lines 47-55, so m0938 repair is now low-priority (same ground).
+
+HINTS: lines 38-55: park=enter shadow; dark=follow plooping (new dir), follow thud, sing-to-box kills chord, go glass-noise area, enter silent area; next=Cramped (crush pod into jar, light trickle, pipes R L L L R R R R...).
+
+DARK MAP (verified b22): arrival<->W bells<->N(follow plipping) plopping; arrival<->S wailing<->SW rumble (thud+rumbling+NE wail+E hiss) / SE hiss; blockers: drip NE plopping, silver NW plopping (prior). NEVER drop in dark. 24 cases annotated.
+
+NEXT: restore dark-arrival-b22 (new branch); verify; W; follow plipping; S; E; S; SW; follow thudding (expect success w/o bubbling); then glass-noise hunt per hint.
+
+CHECKPOINTS: dark-arrival-b22 (restore target); pedestal-found-b22; shady-park-b20; wailing-thud-b20; violet-saddled-b19. NO pending game input (m0952 answered e01213).

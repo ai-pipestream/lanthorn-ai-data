@@ -1,0 +1,13 @@
+# So Far — progress (branch b23) — thud attuned, glass hunt
+
+STATE: Wailing room (e01243, b23), chord re-banished (2nd time; chord re-forms in wailing, must manage). Thud envelops (thud-only correct). Plopping room fully mapped: S->bells only; N/E/W/NW/SE/SW silver; NE drip; up no; down solid. Wailing NW still glass-shriek-blocked (e01242). Glass-noise area + silent area NOT found. Next: arrival, try 'follow rapping' (rapping is nearby/non-directional, never follow-tested); then hiss room survey.
+
+INVENTORY: casket, key, blanket (carried), pod, chip, square, knife, jar, box.
+
+HINTS: lines 38-55 (dark: plooping->plopping move; thud attune; sing-to-box; go glass-noise area; enter silent area; next Cramped: crush pod in jar, light trickle, pipes...). m0938 malformed superseded by m0951; no help pending.
+
+DARK MAP (b23 verified): arrival: rap nearby, bells W, wail S, bubbling nearby (NOT followed); bells: rap E, plip N; plopping: bells S, plip NE; wailing: hiss SE, rumble SW, rap N; rumble: wail NE, hiss E, thud (attuned here); hiss: ? (survey pending). Attunement: thud-only; bubbling-first blocks thud (annotated e01202->e01224). NEVER drop in dark. 25 cases annotated.
+
+NEXT: N to arrival; 'follow rapping'; if attune-swap test carefully (checkpoint thud-attuned-b23 is fallback); survey hiss room all dirs; listen in each room.
+
+CHECKPOINTS: thud-attuned-b23 (current base BEST); dark-arrival-b22; pedestal-found-b22; shady-park-b20; wailing-thud-b20; violet-saddled-b19. NO pending (m0971 answered e01243).

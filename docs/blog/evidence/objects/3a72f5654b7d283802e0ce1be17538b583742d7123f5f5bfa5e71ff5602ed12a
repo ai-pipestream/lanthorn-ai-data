@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-25T08:01:08.251427+00:00",
+  "selected": [
+    "varicella",
+    "cacophony",
+    "risorgimento-represso",
+    "wadewars-iii-askin"
+  ],
+  "variety": [
+    "timed political court intrigue",
+    "branching surreal dream investigation",
+    "comic fantasy rescue",
+    "alternate-world science fantasy"
+  ],
+  "family_exclusions": "Exclude all A-G and current play identities. Also avoid previously identified HHGTTG/Babelfish overlap candidates and same-family alternate releases; no existing family knowingly reassigned.",
+  "new_family_links": [
+    "wade-wars also reserves Got Toast? and other series entries",
+    "risorgimento-represso also reserves sequel Illuminismo Iniziato"
+  ],
+  "scope": "Exactly four; no registry or pool writes."
+}

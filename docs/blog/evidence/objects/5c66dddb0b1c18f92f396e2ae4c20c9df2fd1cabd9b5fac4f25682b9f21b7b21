@@ -1,0 +1,7 @@
+# Critical Breach — progress (b10 old-chip hunt, e339)
+
+Location: Lab Workbench west, branch b10. e332 W ok; e333 SELECT4 needs chip on scanner; e334 X WORKBENCH plate+drawer; e335 PUT CHIP ON SCANNER ok; e336 SELECT4 already registered; e337 TAKE OLD CHIP can't-see; e338 OPEN DRAWER already open; e339 X DRAWER empty. m0310 X SCANNER pending.
+Inventory: chip on scanner (not carried), injector empty carried? (b10 from b8-drop-wait: injector empty, pliers, beaker, keycard, coat; mouse dropped east, scorpig sedated open cage east).
+Findings: b9 attack dead end labeled (chip fragile e321-e322); grasp breakthrough labeled (e319-e320); new hint lines 26-34 gives OLD CHIP path: SELECT4, TAKE OLD CHIP, LOAD CHIP, E, OPEN CAGE, INJECT, TAKE INJECTOR, TAKE CHIP, W. Registration done, old chip location unknown (drawer empty).
+Next: observe m0310 X SCANNER; if old chip on scanner, TAKE OLD CHIP; else search plate/drawer/computer (X PLATE, X COMPUTER, LOOK). Keep 1 cmd. Update annotations for select4/old-chip after observed.
+Checkpoints: b8-drop-wait (chip-intact base), b9-grasped, b7-sealed-mouse.

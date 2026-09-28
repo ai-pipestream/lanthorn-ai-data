@@ -1,0 +1,7 @@
+{
+  "valid": false,
+  "status": "validation_failed",
+  "parent_semantic_review_required": true,
+  "actions_executed": [],
+  "error": "unexpected stream/tool event"
+}

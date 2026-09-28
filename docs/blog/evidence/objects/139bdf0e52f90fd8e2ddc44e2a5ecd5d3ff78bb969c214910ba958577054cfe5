@@ -1,0 +1,11 @@
+# Schooldays progress (continuation checkpoint)
+
+- Session: schooldays-b371c6a97d, branch b0, event e00246 (School Corridor West End 8:47am, ordinary prompt).
+- Location: School Corridor - West End. Locker closed. Gym north, classroom south, dressing room NE, hall east.
+- School sequence (verified): SOUTH to Outside High e00232 (Frank asks pop, fussy); HELP e00233 OPEN CASHBOX/GET LOONIES/BUY COKE/NORTHWEST/GIVE/ASK/EAST/SOUTH/SEARCH MESS; ASK early e00234 Coke-no-Pepsi; SE to store e00235 (fridge Coke+Pepsi); BUY PEPSI e00236; NW e00237; GIVE PEPSI rejected I hate Pepsi e00238; SE e00239 (fridge Coke only); BUY COKE e00240; NW e00241 (Frank asks for Coca-cola); GIVE COKE Thanks e00242; ANNOTATE pop-brand planning e00243; ASK basketball Sure ball e00244; ANNOTATE frank-early world_state e00245; EAST to corridor e00246.
+- Checkpoints verified: start-bedroom, kitchen-down, basement-lit, backyard-shed-open, shed-loonies-taken, house-exit, subway-gates, platform, rosedale-street.
+- Cases: rosedale-exit-dir annotated e00227 (up/no-except-down world_state); store-pop-brand annotated e00243 (Pepsi vs Coke planning); frank-basketball-early annotated e00245 (needs Coke trade world_state). Train waits/ride/out route only.
+- Hints: e00233 VERIFIED for Coke/basketball/school entry; next EAST/SOUTH/SEARCH MESS relevant.
+- Carries (approx): basketball, Pepsi can, basketball? plus earlier house kit (periodic table, Rap CD, loonies? spent 2 on pops, Mastercard, passport, blue/shed keys, stop sign, knapsack with roll, waterbottle, nail, jar/screws, permission form, shovel), clothes+shoes. Need fresh inventory soon.
+- Next: SOUTH to classroom per hint, SEARCH MESS, then locker/gym/basketball ticket sequence; single commands; checkpoint school milestones; collect locker-combination and dunk variations with help when stuck.
+- Status: game INCOMPLETE (school/basketball, travel tickets, taxi/airport, authored conclusion ahead). No winning ending. No death/quitting.

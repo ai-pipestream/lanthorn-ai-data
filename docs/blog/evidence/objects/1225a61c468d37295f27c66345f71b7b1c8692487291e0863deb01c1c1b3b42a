@@ -1,0 +1,15 @@
+# Windhall progress — segment 2 (in progress, branch b1)
+
+Location: Abandoned Shed (collapsed into boards). Keys dropped here.
+Carrying (observed): makeshift fishing rod (unstrung bow + bent-nail hook), tinder box, piece of metal with hole, shovel head, pack (worn, open, rations emptier x2).
+Caches: sun dagger + sun gem + arrow + bowman corpse at Cliffs(2); gold nugget on glen pedestal; blue + green + nest North of Forest; wine + worm + tube Near Lyndra River; roll Small Field; flowers Stack of Crates; lamp (off) Kytan's shop; boomerang + twine Old Cave (NOT retrieved).
+Score: 57. Time: NIGHT fell during e00261 (get arrow); Midknight appears after 7pm — night active, so evening. No lamp carried (dark-travel risk; moons 8pm/10pm).
+
+Checkpoints (verified Ok): start-central, after-green-stone, northern-cache, old-cellar, seg2-northern-potion, before-potion-vines, field-blue-cache, before-glen-ray, after-glen-ray, shed-collapse. Branch b1.
+
+Cases: ~38 total. New since last update: syn-dagger-sunlight (none), syn-gold-lay-pedestal (vocab lay→put), syn-gem-jewel-ray (vocab jewel→gem), syn-unstring-remove (syntax remove→unstring), syn-unlock-omitted (syntax, supply keys), syn-bend-nail-omitted (syntax, supply shape), syn-hook-tie-bow (none). Unresolved: none pending. All responses through m0269/e00286.
+
+Last hint (e00286 lines 150-158): x boards. Get board. W,W,W,S. Drop metal. N. save. (Midknight after 7pm) z. x Midknight.
+Next: x boards, get board, W,W,W,S to forest, drop metal, N, wait/examine Midknight. Note string from unstring vanished (not in inv, not on ground) — observe if needed later.
+
+Safe resume: read latest.json + progress.md. No pending broker request. At ordinary prompt at shed rubble.

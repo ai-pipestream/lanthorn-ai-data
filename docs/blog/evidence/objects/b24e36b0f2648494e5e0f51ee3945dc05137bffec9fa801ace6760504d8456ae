@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-25T05:12:45.613094+00:00",
+  "target": 10,
+  "workers": {
+    "dreamhold": [
+      427838
+    ],
+    "curses": [
+      908334
+    ],
+    "theatre": [
+      908515
+    ],
+    "savoir-faire": [
+      1256997
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "spider-and-web": [
+      1458912
+    ],
+    "zork-i7": [
+      1729082
+    ],
+    "so-far": [
+      1751669
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "bears-night-out": [
+      2539169
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [],
+  "queued": [
+    "acorn-court",
+    "change-in-weather",
+    "jewel-of-knowledge",
+    "tryst-of-fate"
+  ]
+}

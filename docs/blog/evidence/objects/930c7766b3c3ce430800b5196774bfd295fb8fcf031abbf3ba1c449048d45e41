@@ -1,0 +1,8 @@
+# SpiritWrak progress — INCOMPLETE, North end of Hallway after dusty push
+
+State: North end of Hallway e237 (dusty crate here, two dark doorways above on northern wall, floor-shake mechanism triggered). Route: shake branch e213 egg to pallet, D,D to Bottom Slope e216 egg safe, checkpoint egg-safe e217-218, typo take eeg e219 rejected, take egg e220 Taken score 10, help m0199 lines 74-82, U,E,S,S to On Frozen River e226, drop sand e227 score 12 (accepted as Throw sand), S,S,S,S,SE to General Store e233, checkpoint general-store e234-235, push dusty crate e236 slid bit, push dusty crate south e237 to hallway.
+Inventory (observed): corbie egg (taken e220), flour, prayer book (+swanko/foblub), amulet worn; pallet left on boulder; sand consumed e227; dirty swanko scroll consumed e198. Score 12.
+Checkpoints (Ok): egg-safe, general-store, slope-top, cliff-recovered, mountain-peak, cliff-face, trapdoor-open, storeroom-flour, kitchen-recipe, library-planes, etc.
+Cases: ~37 incl tree-shake-object vocab e212-e213 annotated e214; egg-take-typo vocab e219-e220 annotated e221; sand-throw-synonym none e227 annotated e228; crate-push-direction PENDING (e236 partial -> e237 success, m0207 annotate submitted unconfirmed, failure_type syntax omitted-direction). No help pending.
+Last hint: m0199 lines 74-82 Take egg U,E,S,S Throw sand S,S,S,S,SE Push dusty S. N — done through Push dusty S; remaining N plus next excerpt.
+Next: 1) confirm m0207 annotate; 2) look/inventory at hallway; 3) help mode next for after Push dusty S; 4) update progress every 10-15 requests. Preserve pallet-cushion route; never replay probes blindly.

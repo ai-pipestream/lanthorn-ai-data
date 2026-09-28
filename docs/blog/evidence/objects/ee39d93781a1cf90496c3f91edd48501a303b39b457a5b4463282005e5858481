@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-25T09:34:39.896928+00:00",
+  "pid": 640478,
+  "reason": "Previous watcher died on60secondexporttimeout at~65000events; verified watcher and exporter absent; raised boundedtimeout180seconds and started exactlyone watcher",
+  "previous_log": "runs/pool-export-refresh-1790324920406374866.log",
+  "previous_log_sha256": "618fa8c74541bcdbffd32ac1e998a78455d6588a8ceeb2c5795ae81c0aa0628d",
+  "new_log": "runs/export-watcher-20260925T0935.log",
+  "verified_refresh": {
+    "exported_at": "2026-09-25T09:37:45.862Z",
+    "events": 66260,
+    "cases": 4740,
+    "review_status": "unreviewed",
+    "purpose": "Synthetic test data, not a measure of model playing skill",
+    "files": [
+      "events.csv",
+      "test-cases.csv"
+    ]
+  },
+  "transport_exclusions_verified": {
+    "fine-tuned-989503b0a7:e00040": "quarantine_delayed_output",
+    "fine-tuned-989503b0a7:e00041": "quarantine_delayed_output",
+    "pythos-mask-a39eb2af1a:e00003": "quarantine_delayed_output",
+    "pythos-mask-a39eb2af1a:e00004": "quarantine_delayed_output"
+  }
+}

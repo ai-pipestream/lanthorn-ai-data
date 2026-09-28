@@ -1,0 +1,9 @@
+# Heroine's Mantle — progress (b2, STOPPED — resume here)
+
+Current: b2 Roof east side, Score 47, Moves 228 (e00507). TIMED DANGER: cut flagpole dragging Lisa east off the edge ("feet dangle over the edge"). Cable tied around bra; knife in underwear, NOT in hand. IN-FLIGHT: inbox/m0455.json (get knife + cut cable with knife) may still be pending — on resume, read responses/m0455.json FIRST before sending anything.
+If m0455 failed/pending: checkpoint s47 restores pre-fall state (e00500-501); retry get knife, cut cable with knife.
+Next after cable cut: broker help for rooftop-fight lines (hatch/knife-hoops/brush-box-button seen at lines 266-274; verify against game, may be later section).
+Checkpoints: s44, s44-door, s44-duct, s45-jacuzzi, s47. Pre-existing s28.sav (other branch) intact — never overwrite.
+Branches: b0 dead at 171; b1 laptop broken by 1234 first code; b2 canonical in progress.
+Annotated: wedge-door dress+jacket (world_state), door-close-early (none), chip-early (none). Unresolved: bracelet-open-phrasing (early-game chapel context — closed). Pending annotate: roof cut-cable-without-holding (e00507→recovery) once recovery observed.
+Game incomplete — Crusader/helicopter finale still required. No finish evidence.

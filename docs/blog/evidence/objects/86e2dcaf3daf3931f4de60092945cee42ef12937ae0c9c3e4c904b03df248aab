@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-09-25T03:53:40.341266+00:00",
+  "workers": {
+    "zork-i7": [
+      307329
+    ],
+    "dreamhold": [
+      427838
+    ],
+    "bronze": [
+      428080
+    ],
+    "curses": [
+      908334
+    ],
+    "theatre": [
+      908515
+    ],
+    "secret-mission": [
+      1255058
+    ],
+    "savoir-faire": [
+      1256997
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "balances": [
+      1446704
+    ],
+    "spider-and-web": [
+      1458912
+    ]
+  },
+  "brokers": {
+    "zork-i7": [
+      31447
+    ],
+    "hhgttg": [
+      31447
+    ],
+    "secret-mission": [
+      223217
+    ],
+    "dreamhold": [
+      425758
+    ],
+    "bronze": [
+      425957
+    ],
+    "curses": [
+      907555
+    ],
+    "theatre": [
+      907670
+    ],
+    "savoir-faire": [
+      1254810
+    ],
+    "anchorhead": [
+      1430945
+    ],
+    "balances": [
+      1446699
+    ],
+    "spider-and-web": [
+      1458829
+    ]
+  },
+  "balances_startup": {
+    "event_id": "balances-01a7783d25:e00001",
+    "timestamp": "2026-09-25T03:50:37.385482+00:00",
+    "game_id": "balances",
+    "session_id": "balances-01a7783d25",
+    "branch_id": "b0",
+    "event_index": 1,
+    "event_type": "startup",
+    "command": null,
+    "response": "\n\n\n\n\n[Welcome to a short story called \"Balances\", one of the example games for the \nInform design system. Some people may recognise the setting, but others might \nlike to type \"how do spells work\" - the game responds to a few such questions.] \n\nYou feel a little confused as to how you got here. Something to do with \nHelistar!  That's right, and how the world is so far off balance nowadays, \nafter the Great Change.\n\n\nBALANCES\nAn Interactive Short Story \nCopyright (c) 1994, 1995, 1996 by Graham Nelson.\nRelease 5 / Serial number 961216 / Inform v6.10 Library 6/3\nStandard interpreter 1.1\n\nRamshackle Hut\nUntil quite recently, someone lived here, you feel sure. Now the furniture is \nmatchwood and the windows are glassless. Outside, it is a warm, sunny day, and \ngrasslands extend to the low hills on the horizon.\n\n>",
+    "raw_start": 0,
+    "raw_end": 819,
+    "response_sha256": "cfac7cbd70f76c220d0cb03100de7627d22a642d169c843c85b0cb8ae700f2c3",
+    "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "origin": "system"
+    },
+    "review_status": "unreviewed"
+  },
+  "startup_hash_verified": true,
+  "pool_policy_tests": "3 passed",
+  "manager_restart": "preserved worker/broker PIDs",
+  "user_linger": true
+}

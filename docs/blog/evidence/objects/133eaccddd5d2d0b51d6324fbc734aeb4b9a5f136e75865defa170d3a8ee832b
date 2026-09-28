@@ -1,0 +1,16 @@
+# Windhall progress — segment 2 (Day 2 morning, branch b2)
+
+Location: Borthur's Smithy, Day 2 5:33am. Denvil awake (5:30am-3pm); Mielon/Idah at 6am.
+Carrying: longsword, shovel head, pack (rations). All Day-1 caches intact (b2): fish Central; rod + wine + tube river; box + stones + nest field; board Southern; metal bend; sun dagger + gem + arrow Cliffs(2); gold pedestal; keys shed; roll Small Field; flowers cellar; lamp Kytan's; boomerang + twine Old Cave.
+Score: 67. Sleep: release 5 OK (tiredness-gated; Borthur wakes at 5:33am; no bug seen).
+
+KEY FINDINGS: (1) Day-1 8:27 Idah deadline infeasible in r5 (conversations ~2min/turn). (2) Forest-heart SE = Cliffs(2) shortcut, not tower. Tower likely laundry-transport-only. (3) Dead tree = lightning/cursed lore.
+
+Checkpoints (verified Ok): + before-sleep, day2-morning. Branch b2.
+
+Cases: ~47. New: syn-lie-bed (world_state tiredness gate, failure documented), syn-x-burnt-tree (vocab). Unresolved: none. Through m0343/e00412.
+
+Last hint (e00363 lines 186-194): wizard asks temple/magic, Yes (2/73), sword in spot, rope tie/pull...
+Next: E,N to Central, get fish, N,E,NE,NE,NE,SE to Denvil, give fish→idol; then Idah laundry morning test (6am+); then wizard via laundry transport.
+
+Safe resume: read latest.json + progress.md. No pending request. Ordinary prompt in smithy.

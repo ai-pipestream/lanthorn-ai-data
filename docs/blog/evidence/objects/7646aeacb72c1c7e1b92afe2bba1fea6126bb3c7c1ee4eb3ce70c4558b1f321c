@@ -1,0 +1,33 @@
+{
+  "game_id": "slouching-bedlam",
+  "title": "Slouching Towards Bedlam (competition edition)",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/ifcomp/2003/zcode/slouch/slouch.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/slouching-bedlam-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/slouch.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions. The guide documents five deliberately ambiguous endings. Complete a substantive intended branch, identify its ending and preceding investigation; do not classify it as a happy win or require all five. Distinguish an intended tragic finale from an ordinary failure.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/slouching-bedlam.json",
+  "story_sha256_expected": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+  "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+  "dataset_split": "development",
+  "game_family": "slouching-bedlam",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "030925",
+  "automatic_checkpoints": false,
+  "recovery_reason": "Explicit recovery from manual-menu input followed by empty timeout; restore engine-confirmed start-office in new session, preserve uncertain/menu evidence, never replay pending input.",
+  "restore_confirmation_line": "/(yesunfoldingbackwardsRESTORErenewpointtimespace)\\",
+  "restore_confirmation_evidence": "control/slouch-restore-check-20260925T0245/receipt.json",
+  "session_id": "slouching-bedlam-18faea2151",
+  "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+  "started_at": "2026-09-25T02:45:03.545078+00:00",
+  "recovery": {
+    "previous_session_id": "slouching-bedlam-bb653b6ab4",
+    "checkpoint_event_id": "slouching-bedlam-bb653b6ab4:e00003",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/slouching-bedlam/saves/slouch.z5.save/start-office.sav.qzl",
+    "checkpoint_sha256": "97dbb1885f2376d0acd1ee7f2877d1138c965a472c6be7fcbf97e4affa156325",
+    "reason": "Explicit recovery from manual-menu input followed by empty timeout; restore engine-confirmed start-office in new session, preserve uncertain/menu evidence, never replay pending input."
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,30 @@
+# Progress - Time: All Things Come to an End - SEGMENT 2 (b1, in progress)
+
+## Current state (Disused Station, score 11, b1 e00250)
+- Branch b1 (restored lavatory-clear e00224; b0 estate-search kept pipe-less state).
+- Location: Disused Station, vending machine pushed twice, gum taken.
+- Inventory (6 listed): rusty pipe, dull knife, metallic disc, ID card, steel button, wad of chewing gum. Pipe seems to consume extra carrying capacity (6 listed items still blocked gum pickup until 2nd drop).
+- Dropped at station (one-way point, taxi next): crumpled newspaper (date July 20th 2065 already read, walkthrough says read-then-drop) and Carpenter note (full text preserved in b0 e00136). Gun + plastic bag remain in lavatory.
+- Graffiti read x5 (flavor + possible era hints): "Adam Jones is a nutcase", "Corpers must die!", "Death to Unbelievers. Radion rules", "Egypt '32. Praise the Slovaksarim.", "Xeron Megacorp: The beginning of the end."
+- Score 11 (pipe +1, gum +1 on top of restored 9).
+
+## Resolved annotated this segment (3 new; ~28 total)
+- pipe-take01 none: 'take pipe' accepted first try (e00228, score 10).
+- machine-shake01 vocabulary: 'shake machine' verb unknown e00237 -> 'push machine' e00238 rattles.
+- gum-take-wad01 world_state: 'take wad' e00244 hands-full -> same command e00247 Taken score 11 after drops. Proves 'wad' resolves.
+
+## Key hint findings (R5 walkthrough, verify live in R7)
+- m0209 lines 67-75: lavatory 'X pipes. Pull pipe', 'Drop bag', graffiti, 'S,W, Push machine, G, Get all'.
+- m0226 lines 50-58: 'Read newspaper then drop it', 'X gutter (1/5) (we need the button)'. Button needed, newspaper droppable.
+- m0154: after taxi 'Give disc to driver, Drop disc' - frees slot for rope at fence.
+
+## Next actions (do NOT restart)
+1. U, E to street; taxi sequence (X taxi, knock, open, enter, close, 'Driver, drive to Gerants Heath' - b0 used 'driver, drive to estate' variant successfully).
+2. At estate: give disc fare, Drop disc, N (front: card slot disabled, door blocked - known), S, NE (side), X knife, turn handle, cut fence, cut rope, W (backyard).
+3. Backyard: bend pipe, tie rope to pipe, throw pipe at platform, chew gum (19-move moist window!), U. Move briskly once gum chewed.
+4. Collect 1 probe per new room/puzzle (synonyms, typo, pronoun, word-order); checkpoint at estate with kit + after platform climb.
+5. Capacity watch: 6 listed + pipe bulk = full. After fare, Drop disc before taking rope. Do NOT pick up stray items without a free slot.
+
+## Useful checkpoints
+- b0: start-lab, panel-open, machine-working, chapter1-bin, street-corner, lavatory-clear, estate-search (pipe-less, superseded)
+- b1: station-fullkit (Disused Station, pipe+gum, score 11) - current base

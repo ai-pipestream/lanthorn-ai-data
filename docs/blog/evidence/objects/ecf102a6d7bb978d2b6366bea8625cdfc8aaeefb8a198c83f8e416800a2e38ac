@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T07:57:11.796187+00:00",
+  "game_id": "kook-u",
+  "events": [
+    {
+      "event_id": "kook-u-ef2767bf50:e00187",
+      "timestamp": "2026-09-25T07:50:54.642261+00:00",
+      "game_id": "kook-u",
+      "session_id": "kook-u-ef2767bf50",
+      "branch_id": "b2",
+      "event_index": 187,
+      "event_type": "command",
+      "command": "turn on name",
+      "response": "You switch the name server on.\n\nYou've done it!  The Kook U campus network has been made operational again and \nhas been purged of all network abusers.\n\nIn the coming days you learn of the Dean's pending retirement. Thr rumor is \nthat the Dean is moving to Pittsburgh to participate in some secretive \nundercover operation. Sick of the drudgery of network administration, you apply \nfor the Dean's vacant position and, to your delight, are accepted.\n\nSeveral weeks later you receive a list of next year's applicants to the Kook U \nCollege of Computer Science. Examining the list, you notice some familiar \nnames...\n\nRicardo Hector Gonzales\nBill Palmer\nColin James III\nS.P.\nReverend Steve Winter\nDave Hayes\n\nIt's going to be another busy year!\n\n\n    *** You have won ***\n\n\nIn that game you scored 100 out of a possible 100, in 125 turns, earning you \nthe rank of Fluffy!\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n[Score 100, up 9]\n> ",
+      "raw_start": 34100,
+      "raw_end": 35084,
+      "response_sha256": "9d870e1b9eb1a5a64f5f17f9373845835d41b6b4c6271fe617d11161f0bf9e1b",
+      "story_sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "kook-u-ef2767bf50",
+        "case_id": "finale-name-on-final",
+        "expected_outcome": "Name server on, network restored, concluding narrative",
+        "intent": "Switch the name server back on as final network-restore step per walkthrough hint",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Name server switched on after restored-network sequence; authored Dean appointment epilogue, explicit You have won and final menu. Score100/100 not all-content coverage proof. Parent raw/text/hash verified, independent review pending."
+}

@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-25T06:29:16.618078+00:00",
+  "game_id": "reverberations",
+  "event": {
+    "event_id": "reverberations-b43cf5e223:e00151",
+    "timestamp": "2026-09-25T06:20:24.762796+00:00",
+    "game_id": "reverberations",
+    "session_id": "reverberations-b43cf5e223",
+    "branch_id": "b0",
+    "event_index": 151,
+    "event_type": "command",
+    "command": "hit floor with axe",
+    "response": "(the floor with the fire axe)\nSwinging the axe high above your head, you pause for just a minute and look Mr. \nTasker in the eye. \"I'll see you all in hell,\" you comment lightly.\n\nYou bring the axe down with a mighty chop, smack in the middle of the crack in \nthe floor. A gigantic rift opens in the floor. The mafia guys topple and fall \nright down into the office below. Having seen it coming, you manage to leap \nonto the window sill, out of harm's way.\n\nAt the same moment, the door opens with a loud crash. Seven heavily armed \npolice officers barge in, aiming their weapons at you. \"You're under arrest...\" \nthey begin to say.\n\n\"No, YOU'RE under arrest,\" says a voice behind them. You grin broadly as you \nsee Jill leaning on the door frame. Backing her up is a great big SWAT team. \nUsing the evidence that you collected for her, Jill was able to get support \nfrom the state's higher court and expose the corrupt local government.\n\n\"How convenient that your mafia friends just happened to land right in my \noffice,\" says Jill. Looking past her, you see all the dark suited guys being \nhandcuffed and booked by the SWAT team. The team leader adds, \"You're all under \narrest for bribery, corruption, public endangerment, impersonating police \nofficers... and, um, extreme stupidity.\"\n\n\"Take 'em away, boys,\" says Jill.\n\nAs the police drag Mr. Tasker past you, he says to you, \"I hope you realize... \nYOU'RE FIRED!\"  \"Fine!\" you reply. \"You can take this job and shove it anyway.\" \nJill chimes in, \"Especially since you have a brilliant career as a hired \ninvestigator ahead of you!\"\n\nYou look at Jill as the dust begins to settle. \"Really?\" you ask. \"How about a \nfuture on date with you?\" She smiles and gives you a big kiss. The earth moves \nfor you. Or maybe it's just the quake.\n\n\n    *** You Rule!  The game's totally over! ***\n\n\nIn that game you scored 50 out of a possible 50, in 92 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n[Score 50, up 7]\n> ",
+    "raw_start": 26865,
+    "raw_end": 28844,
+    "response_sha256": "6bb1136e3a5930d5f292c613e8299a8ff9f9345fe91ba238f18580791ca90f16",
+    "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "syn-hit-floor-21",
+      "intent": "Hit cracked floor with axe to break through",
+      "origin": "guided",
+      "expected_outcome": "Floor breaks, score +7"
+    },
+    "review_status": "unreviewed"
+  },
+  "verdict": "Authored finale: cracked-floor axe blow, mafia exposed, investigator offer, explicit game-over and final menu. Independent Terra audit requested.",
+  "maximal_coverage_claim": false
+}

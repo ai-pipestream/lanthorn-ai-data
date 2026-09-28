@@ -1,0 +1,32 @@
+# Delusions progress — SEGMENT 4b (b30 MURDERS UNSOLVED, score 38/50, INCOMPLETE)
+
+No winning ending yet. HINT menu forbidden. Cases quota met. LIVE STATE: DEAD b30e00846 (triple-murder) — continuation must RESTORE s38-redial (or s36 for pre-phone tests).
+
+CURRENT (verified to m0715, e00846):
+- s38-redial base (factory, score 38). Post-redial 4 beats safe, turn5 = death everywhere tested:
+  * Factory/lab waits or quiet acts → triple-murder (Cynthia kills Justy+Shimada+player, "spots you" even when visible in lab).
+  * Lab NW or W (pre- AND post-redial, b22/b28/b29) = shot in back ("Hey!" + needles). Lab SE→quarters works (sneak, safe); factory NW blocked ("stairs only"); factory U→lab works.
+  * Quarters close+wait (b27e00831): NEW VARIANT — Justy gasps, Shimada cries, Cynthia suicides ("And now me", body vs door), then security (called via redial) blasts us ("judging you responsible"). Score 38.
+  * Attack blade (b25): solo death (uppercut, gun between eyes, turn744, preempts triple). Take gun (b30): refused ("belongs to Cynthia") + triple. Talk "cynthia, stop" (b26): "Better not—might hear you" + triple. Drop blade (b23): dropped + triple, no pt. Enter sphere (b24): "hardly the time!" + triple.
+  * Lab bench drawer = tool belt (empty strap, Project buckle, no pencil, b26/b30). Screen (b30e00845): Justy GUI, message box + Launch/Configure/Report/Debug/System/Flush icons.
+- Pencil/pad NOWHERE observed (not lab bench/belt/screen, not quarters shelves/niche/lightstick/tongs/painting listed, not factory switch/curtain/android/coupler). R2 "NW Get pencil" = Cynthia's (all observed NW→Cynthia's pre-standoff), but NW blocked throughout standoff (pre-phone b29 + post-redial b22). Point 39 (Drop gun) unobtainable — no gun (sim gun lost on wake, Cynthia holds real gun, no other gun observed).
+- Help m0686-0687 = R2 207-223 only (no R4 fix). R2 order (redial→7 waits→drop gun→NW pencil) impossible in R4 (murders turn5, NW shot, no gun).
+
+NEXT (restore s38-redial → b31+, 4 safe + murder turn5; each test = restore + batch + probe):
+1) SURRENDER tests (t5 in lab): "give phone to cynthia" (return Shimada's phone she fought over — may appease; untested) > "show phone to cynthia" > "drop all" > "drop phone". If any prevents triple, checkpoint immediately.
+2) HIDE tests: "hide behind sphere" / "hide behind bench" (t4 hide + t5 wait; parser untested) > "wear suit" (t5) > "enter tank" (t5). Goal = survive Cynthia (hostages may still die); then handle securityaju.
+3) COMPUTER info (expect death but learn): "x box" / "x message box" (t5) → later "close box/open system/type XYZZY/type CHESS" if time ever opens. Screen icons confirmed; box text unknown.
+4) QUARTERS search (needs time): shelves/niche may hide pencil? From s38: U+SE (t1-2), x shelves (t3), search shelves/niche (t4), ?? t5 dies (security if door closed, Cynthia if open?). Risky; do after 1-3.
+5) PRE-PHONE NW retest? NW shot pre-phone (b29e00839, turn712) AND post-redial — post-phone/pre-redial moment (fight distracts?) untested but unlikely; requires s36 redo (~30 turns/8 reqs). Defer.
+6) If 1-4 all die: consider NO-REDIAL route (s36→phone→skip redial→unlimited time? but NW still blocked?) or FULL score/UNDO probe at death prompt (allowed answers: RESTART/RESTORE/FULL/HINT/UNDO/QUIT — FULL lists score breakdown? UNDO revives turn5? Information only, no hint menu).
+Do NOT repeat: passive waits t5 any room, NW/W standoff, enter sphere t5, drop blade, attack blade, take gun, comma-talk, factory NW, quarters close+wait (security blast).
+
+## Checkpoints (newest first)
+- s38-redial (post-redial factory, 38 — murders-test base; U→lab SE→quarters safe, NW/W shot)
+- s36-factory (pre-phone factory, 36 — phone redo = U SE close, wait23, open NW E get phone)
+- s33-justy, s30-gun, s29-strip, s22-sleep2, s14-inject2, post-inject1, overflow-13, quarters-8913, push-8000, postrun3-7302, pre-push-6724, before-third-run, etc.
+
+## Dead (post-redial turn5, do not repeat)
+- Triple-murder: waits factory/lab, drop blade, enter sphere (refused), comma-talk, take gun (refused). Solo: attack blade. Security-blast: quarters close+wait (Cynthia suicides, security blasts). Exits: NW/W shot pre+post, factory NW blocked.
+## Dead (phone-search, do not repeat)
+- Factory waits lit/dark beat11, lab linger, west evac, hide/curtain/bins (no mech); early phone absent to turn10; gun paths (no gun).

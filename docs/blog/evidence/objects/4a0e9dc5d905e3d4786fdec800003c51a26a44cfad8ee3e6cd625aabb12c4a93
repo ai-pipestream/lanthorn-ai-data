@@ -1,0 +1,14 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: Cocktail Reception, 24th floor (Yamitsi building), Score 20, Moves 93 (e00199)
+Description: globe circumnavigable SE/SW; lift doors north; stairwell descends to lobby.
+Inventory as observed: compact taser, blue evening dress (re-worn), toilet brush, mother's silver chain (worn), gold bracelet closed+worn, underwear, optical disc, bubblegum. Paper ball read and dropped in Lobby.
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy, washroom-secure, presentation-baron, bathroom-perfume, cocktail-lift, lift-paper, lobby-disc (Ok).
+
+Cases this run (all synthetic_probe unless noted; annotated unless noted): lift-press-button (none e00129), lift-enter (none e00131), lift-take-paper (none e00132), lift-read-ball (none-partial e00135), lift-unfold-paper (none e00136), lift-look-panel (none e00140), lift-read-sign (none e00141), lift-press-2 (none e00148), lift-exit-bare (none e00150), offices-x-photos (none e00152; president E. MARISAWA 1998-2000), offices-dwn-typo (vocabulary e00154→e00155), lobby-discard-paper (none e00157), lobby-inspect-compartments (vocabulary e00159→e00160; tiny disc), lobby-look-window (none e00163; alarmed contacts), lobby-takeoff-chain (none e00165), lobby-stick-gum (none e00167), lobby-place-chain (none e00169), lobby-open-compartment (none e00171; +2 Score 17), lobby-take-disc (none e00173; +1 Score 18), lobby-shut-compartment (none e00175), lobby-grab-chain (none e00177), lobby-collect-gum (vocabulary e00180→e00181), lobby-look-desk (none e00186; PAYED directory), lobby-find-marisawa (none e00188; ELAINE KYORO MARISAWA 25F ACYB25P; +2 Score 20), lobby-push-the-button (none e00190), lobby-enter-bare (none e00192), lift-wordnumber (syntax e00194→e00195; words rejected, digits rode to 23), lift23-go-south (none e00197), offices23-go-up (none e00199). UNANNOTATED: lobby-wear-it-route (exploration e00179, pronoun resolved to chain).
+
+Last hints (walkthrough, NOT observed): lines 125-133 done (save s18; x desk; look up Marisawa 2/20 ACYB25P; push button; n; push 23; s; u).
+
+RESOLVED: m0183 help (e00201) gave lines 134-142 — 'The Elevator': open doors with brush; n (1/21); drop brush (needed here later!); save s21. No new requests submitted; game state unchanged (24F reception, Score 20, Moves 93).
+
+On resume: start inbox/m0184.json with a probe for opening the lift doors with the toilet brush (e.g. 'pry doors with brush' or 'force doors' — intent: open lift doors using brush; correct with 'open doors with brush' per excerpt); then n / drop brush / checkpoint per policy; never save during menus/keypauses. Game incomplete — Crusader/helicopter finale per manifest still required; no finish evidence.

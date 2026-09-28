@@ -1,0 +1,75 @@
+{
+  "game_id": "tube-trouble",
+  "title": "Tube Trouble",
+  "author": "Richard Tucker",
+  "url": "https://ifarchive.org/if-archive/solutions/tube.sol",
+  "accessed_at": "2026-09-25T06:02:02.382953+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/tube.sol",
+  "source_sha256": "e147f58a766a2b3534b44deea56131316cb13fe74fae7128519139b1e34d2b53",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/tube-trouble-walkthrough.txt",
+  "normalized_sha256": "e147f58a766a2b3534b44deea56131316cb13fe74fae7128519139b1e34d2b53",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/tube.z5",
+  "story_sha256": "ede1e3571bc16da5c27ca48f38b95f4afcb2c71da1c6be7d835750f760609c33",
+  "compatibility": "Guide explicitly R0/950901, exact local header match. Release zero is valid and must not be treated as missing. Variable waiting sequences depend on observed NPC/train state.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 0,
+  "serial": "950901",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000000231023111694010207aa0dab0000393530393031004230e021e000000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "db085a384f37d8acf90a4eb51fc613807324caaa116626f287a196e4c1764477",
+    "checksum_hex": "21e0",
+    "declared_length": 50048,
+    "file_bytes": 50176
+  },
+  "guide_release": 0,
+  "guide_serial": "950901",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "tube.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/tube.z5",
+    "accessed_at": "2026-09-25T06:03:03.658090+00:00",
+    "remote_sha256": "ede1e3571bc16da5c27ca48f38b95f4afcb2c71da1c6be7d835750f760609c33",
+    "local_sha256": "ede1e3571bc16da5c27ca48f38b95f4afcb2c71da1c6be7d835750f760609c33",
+    "bytes": 50176,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 0,
+    "remote_serial": "950901"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#tube.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "tube.z5\n◆\n[05-Dec-1995]\nIFDB entry\nIFWiki:\nTube Trouble\nTube Trouble, a mini-adventure by Richard Tucker.\nRelease 0 / Serial number 950901.\n(a solution is in solutions/tube.sol;\nthe original competition entry is in\ngames/competition95/tube.z5)"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#tube.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "tube.sol\n◆\n[25-May-1997]\nIFDB entry\nIFWiki:\nTube Trouble\nstep-by-step solution to Tube Trouble,\nrelease 0 (950901), by Paul J. Godfrey\n(the game itself is in games/zcode/tube.z5)"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the vending/hat/train sequence and eat the chocolate bar aboard the train, verifying the actual concluding narrative. A one-point score or merely boarding the train is insufficient alone.",
+    "limitations": "Guide estimates about 50 moves. Wait only when the visible state warrants it; never use waits to flush a transport timeout. Vending action order matters; preserve the observed command and repair.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "tube-trouble",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "All releases and competition variants of Tube Trouble stay together; no concrete shared-world/puzzle link to an existing queue identified."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

@@ -1,0 +1,14 @@
+{
+  "story": "eric_dm.z5",
+  "guide": "eric_dm.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/eric_dm.sol",
+  "accessed_at": "2026-09-25T06:02:04.148989+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 1,
+  "serial": "000001",
+  "sha256": "4e4b8a36f49c6cdaf02eb7c38b98871ea8e766257b0041f68959bacfaf4feb53",
+  "bytes": 116224,
+  "header_hex": "0500000140e040e13169010a1f2628d7005030303030303100427127292d0000000000000000000000000000000028d6000000000000010200000000362e3330"
+}

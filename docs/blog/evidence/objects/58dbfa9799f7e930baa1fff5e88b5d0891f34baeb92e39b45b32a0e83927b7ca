@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "hosts": [
+    "cm5ai1"
+  ],
+  "per_host": 1,
+  "worker_cli": "kimi"
+}

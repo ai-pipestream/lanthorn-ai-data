@@ -1,0 +1,15 @@
+# Pentari — collection progress (in progress, game incomplete)
+
+Game: pentari (Z5 R6/030206). Route target: emerald/box conclusion, nobody else in room, 60/70 intentional.
+Branch: b0, session pentari-63be930153.
+
+Location: Castle Entrance (via COVERT from mansion library, then 'walk south' to entrance). Score 15.
+Present: Magical Seal was here; destroyed via 'break seal' (score 15, up 10).
+Inventory as observed: fine Pentarian sword, copy of The Legends and Lore of Pentari, fine scroll (Luminus light spell).
+Map: Quarters -n-> Compound -n-> Barracks (transporter, IN then CITY) => Entrance Hall -e-> Library; Entrance Hall -n-> Main Hall (scroll found). COVERT => Castle intersection -s-> Castle Entrance (seal, now broken).
+Checkpoints verified Ok: start-quarters, entrance-hall, library-morden, castle-after-covert.
+Cases annotated: read-book-ambiguous (none/accept e00020), talk-wizard-synonym (vocabulary; correction no-reply, outcome failure e00023/e00025), take-lore-book (vocabulary copy/book success e00028/e00029), read-scroll-probe (none/accept e00033), morden-direct-address (none/accept e00054), castle-go-south-synonym (none/accept e00066 'walk south'), seal-break-synonym (none/accept e00068 'break seal').
+Open: consult-tome pair (e00052 wrong-object books vs e00053 correct legends target, no entry on transporter) not yet annotated; morden-why/yes/transporter-topic no-replies unannotated.
+Last hint (walkthrough lines 19-27, NOT observed): N,N,IN,CITY,E,COVERT done; S done ('walk south'); SMASH SEAL done ('break seal'); next tokens N,N,N,IN,GET SCROLL,OUT,S,E,N,GET TOWEL,W,W,GET DAGGER,N,OPEN TOWEL,FWOOSH (only if elf absent),GET EMERALD,PUT EMERALD IN TOWEL,S,E,E,U,GET EMERALD,PUT EMERALD ON BOX,LOOK.
+IN-FLIGHT: inbox/m0065.json ('n' guided step back north to intersection) submitted, response responses/m0065.json NOT yet present — do not resubmit; read it first on continuation, then continue N,N,IN route verification.
+Next: read m0065 response; continue route verification north; checkpoint at milestones; annotate consult-tome pair.

@@ -1,0 +1,16 @@
+# Deephome playthrough progress (IN PROGRESS — branch b5, Wooded Path squirrel trapped, score 205; STOPPING HERE)
+
+## Where to resume (continuation run: start here)
+Branch b5 in Wooded Path at ordinary prompt (latest e00678 annotate Ok; game e00677 take net Taken with squirrel, e00675 climb tree squirrel trap score 205). Checkpoint `wooded-squirrel` Ok e00679-680; fallback `treasury-pickaxe` Ok e00653-654, `shack-net` Ok e00628-629, `before-treasury-spirit` safe resume. No pending requests; m0510 resolved. Do NOT restart. Inventory (observed e00604 + changes): Gold Coin, sharp pick, clover, Sword wielded, Fresto, torch+lantern lit (conserve — long treks done), shield worn, Order, pickaxe (retrieved e00652, key dropped Treasury e00651), net+squirrel carried e00677 (hole dug e00669, net placed e00671, acorn e00672-673, climb e00675); hammer cached Small Shack e00626, large key cached Treasury e00651. Score 205/300.
+
+## Current state (observed, branch b5)
+Library Partaim rite e00602: spread net, coin in it, pour water, take coin, pray Kraxis then say Manaz. Help e00603 (guidance only): Yetzuiz/Fresto, squirrel/Leshosh, Small Shack chest>net, Wooded Path dig/acorns/squirrel. Wooded: dig bare e00633 asks tool; sharp pick e00634 can't do that; dig with axe e00669 2ft hole (annotated syntax e00670). put net e00671; get acorn singular Taken e00672 (annotated none e00674; put acorn→acorns e00673); climb tree e00675 trap +10 (205); take squirrel fails e00676; take net Taken e00677 (annotated world_state e00678 — take container, not animal).
+Next (do NOT replay completed probes): inventory check, Library `look up squirrel in leshosh` + `look up yetzuiz in fresto` (need to carry squirrel? test), Temple ask name>Indanaz (observe), Throne ask name>Cholok (observe), lookups Ternalim/Yetzuiz, help mode next for water source + pray/Manaz banish verbs + remaining rites, then Treasury Kebarn exorcism (net+coin+water+pray+Manaz) → Temple/Throne exorcisms → last-exorcism terminal conclusion (raw IDs + exact quote; parent review). Keep hints distinct from observed; reuse puzzle knowledge without repeating identical probes; conserve light (torch+lantern lit); retrieve hammer/key only if needed.
+
+## Cases (annotated this run)
+kebarn-lookup-phrasing vocab (lookup vs look up, Partaim); shack-chest-open-locked world_state; wooded-dig-omitted syntax (axe not sharp pick); wooded-acorn-number none (singular/plural); wooded-take-squirrel world_state (take net not squirrel). Earlier: bank-box-open-locked world_state; bank-pick-omitted syntax; bank-box-search none; treasury-spirit-talk vocab. Pending: treasury-exorcise-probe e00585 + treasury-book-open e00587 (annotate once banish confirmed).
+
+## Checkpoints (Ok unless noted)
+wooded-squirrel; treasury-pickaxe; shack-net; before-treasury-spirit; bank-key; before-bank; sharp-pick; smithy-court; throne-room; clearing-clover; coal-mines-search (b3).
+
+Game incomplete — ending NOT reached. Stopped at step budget with precise checkpoint; NOT done.

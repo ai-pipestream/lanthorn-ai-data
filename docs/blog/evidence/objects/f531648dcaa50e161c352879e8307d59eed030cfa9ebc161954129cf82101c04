@@ -1,0 +1,27 @@
+{
+  "game_id": "detective",
+  "title": "Detective",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/detective.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/detective_solution.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Follow the mayor-murder investigation route through the authored arrest/promotion narrative in Room 30, then the instructed upward exit into the Info victory ending. The linked Inform source sets the winning state there. Require independent raw-output confirmation of this conclusion; room-visit points, the monster encounter, generic death or a quit prompt alone are insufficient.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective.json",
+  "story_sha256_expected": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "detective-matt-barringer",
+  "collection_notes": "# Detective\n\nStory Z5 R1/000715. Local Z5 R1/000715 exactly matches archive bytes. Archive identifies Stuart Moore's straight Inform port of Matt Barringer's original. James Mullish guide entry points to the AGT original and provides no release/serial; preserve the AGT-to-Inform gap. Guide body misspells the author name, but shared IFDB identity and linked port source corroborate the intended game and final room/up route. Static source inspection is not a runtime or reproducible-build claim.\n\nFollow the mayor-murder investigation route through the authored arrest/promotion narrative in Room 30, then the instructed upward exit into the Info victory ending. The linked Inform source sets the winning state there. Require independent raw-output confirmation of this conclusion; room-visit points, the monster encounter, generic death or a quit prompt alone are insufficient.\n\nThe very short guide has missing punctuation between some commands. Preserve raw text and infer one action at a time from observed room exits and prompts, never submit the whole line. The source shows a short turn limit at the dazed-man encounter; save safely before it and keep probes outside that hazard. Do not require maximum score or pad this short complete game with filler.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "000715",
+  "session_id": "detective-8419402e7b",
+  "story_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+  "started_at": "2026-09-25T09:10:05.388535+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

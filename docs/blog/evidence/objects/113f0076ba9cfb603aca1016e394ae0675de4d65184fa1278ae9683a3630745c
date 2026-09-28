@@ -1,0 +1,10 @@
+# HLA Inform progress — Mansion Quest done, butler dead (INCOMPLETE)
+
+Location: Mansion living room (butler dead). Mansion Quest completed e00302 (+459g 1716->2175). Exits N,S. Werewolf with.
+Stats: hp 1197, g 2175, exp 656, food 109 (e00302). Armor+shield worn, battleaxe wielded, lantern light.
+Cases: butler-talk-73 (talk to butler -> hostile Shoo reply e00295, success/probe); butler-fight-74 kill butler starts combat 276 e00296; combat ENTERs e00297-301; butler died e00302. Annotations for butler pair still to file.
+Checkpoints: mansion-butler e00293-294 verified; butler-done pending (m0351). Earlier: sorcerer-done, intersection-portal, knight-done.
+Route tail: talk butler e00295 -> kill butler e00296 -> ENTERs e00297-301 -> butler died Mansion Quest e00302 -> checkpoint butler-done (pending).
+Hints (walkthrough, NOT observed): post-line-67 route still unresolved (e00283/284 off-topic). Exploring directly; mansion north exit next.
+Game NOT complete: no dragon, no GameWon narrative. No death/quit. Food 109, hp 1197 strong; lantern lit.
+Next run: confirm butler-done, annotate talk/kill pair, look living room, go north; checkpoint at milestones.

@@ -1,0 +1,24 @@
+# Progress — WadeWars III: Askin (branch b1, Chapter II tower done, SEGMENT END)
+
+## Current (exact resume point)
+- Location: Phosphorus Pool (normal world, east of Cliff Base)
+- Inventory (observed): paper note (live code 1357 verified e00195), small black box (red button), phosphorus crystal (recovered after swap e00194)
+- Score: 35 (5 journal +10 Askin +5 stone +10 swap +5 keypad recording)
+- Last actions: Penthouse TYPE 1357 (recording e00211) -> S (Elevator e00213) -> N (Basement e00214) -> PUSH RED BUTTON (to backwards pool e00215) -> E (Esab then auto Cliff Base e00216) -> E (Pool e00217)
+- Next per walkthrough (e00207: S N TYPE S N PUSH E E N): N from Pool to Phosphorus Cave, then need following excerpt (mode next on Chapter 1 topic chain) for post-cave goal (likely orchard transportation / blue-from-silver / launch code 3823 basket, READ neon sign for EZLWOT per e00059 note)
+- Checkpoints verified: start-dining-room, before-press-button, chapter1-base-tower, before-crystal-search, before-statue-swap, chapter2-after-swap
+
+## Cases (17 total, 17 annotated)
+- case01 typo yellow DONE syntax; case02 press ambiguity DONE; case03 fridge none DONE; case04 grab vocab DONE; case05 walk-south world_state DONE (blocked); case06 head-north vocab DONE; case07 cross-bridge vocab DONE (east fatal b0 death e00071, restored b1); case08 read-sign none DONE; case09 read-statue planning DONE; case10 gravestone planning DONE; case11 open-locked world_state DONE; case12 unlock wordorder syntax DONE; case13 read-paper none DONE; case14 get-crystal none DONE; case15 put-down none DONE; case16 push-button none DONE; case17 type-1357 syntax DONE (omitted keypad)
+- Pending: none; next probes should cover pronoun ambiguity, reasonable wrong object in tower/orchard/cloud, world_state for launch sequence
+
+## Hints (source, not observed)
+- e00211 Urthwin recording: orchard transportation, 'Use blue from silver', launch with correct sequence to Laws home
+- e00059: paper 1357 (verified live), basket 3823 (verify live), must READ neon sign to cast EZLWOT
+- Fatal routes learned: Beach east capture death; Moorh Tab uncle early fatal (avoided via Tesolc)
+
+## Resume instructions
+1. Read latest.json + progress.md; confirm at Phosphorus Pool
+2. N to Phosphorus Cave; inspect; get walkthrough mode-next for Chapter II continuation
+3. Expect orchard NW of Penthouse view, balloon basket (3823 live), neon sign (READ for spell), cloud journey, rescue Uncle Seamore, return-machine finale per manifest — meeting/swap/chapter not ending
+4. Checkpoint at milestones; keep probes varied; drop/pickup discipline for swaps

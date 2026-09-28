@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-25T06:08:49.891143+00:00",
+  "passed": true,
+  "scope": "Static broker-config/source/path/hash/header/identity/duplicate checks only. No interpreter launch or guide command execution.",
+  "games": 12,
+  "split_counts": {
+    "train": 10,
+    "development": 2
+  },
+  "exact_downloaded_local_story_matches": 12,
+  "matching_story_guide_tuids": 12,
+  "valid_story_header_checksums": 12,
+  "existing_json_records_checked": 196,
+  "collisions": [],
+  "batch_a_guide_candidates_excluded": [
+    "Enemies.sol",
+    "GerbilRiot.sol",
+    "I-0.sol",
+    "asylum.sol",
+    "heist.sol",
+    "library.step",
+    "night.sol",
+    "ninepts.sol",
+    "pentari.sol",
+    "slackerx.sol",
+    "tube.sol",
+    "vindaloo.sol"
+  ],
+  "engine_executable_exists": true,
+  "runtime_smoke_performed": false,
+  "guide_commands_executed": 0,
+  "family_review_required": [
+    "space-station: provisional zork-i/development; Planetfall sample transcript and Zork currency connection"
+  ],
+  "launch_format": "Existing run_new_game.py accepts each config.json plus its game_id, or the aggregate control config plus game_id. Preparation did not invoke it.",
+  "files_written_scope": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/",
+    "/work/experiments/lanthorn-recall-training/control/fleet-batch-b-20260925.json"
+  ],
+  "existing_play_manifests_checked": 33
+}

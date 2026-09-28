@@ -1,0 +1,11 @@
+# Critical Breach — progress (IN PROGRESS, b6 test area, capsule loaded, mouse missing)
+
+Location: Laboratory (Test Area), branch b6, cabinet open. Scorpig frantic (e182), not sedated.
+Inventory (e193): marking chip separate, pliers, beaker, jet injector (loaded with anesthetic capsule), keycard, worn coat. Capsule loaded via 'put capsule in injector' (e190); checkpoint b6-capsule-loaded verified (e191-e192).
+Blocker: takeable mouse absent in R3/130817. SELECT 2 dispenses with crunching (e178); TAKE MOUSE fails east immediate (e181) and west (e185); TAKE FOOD (e194) and GRAB MOUSE (e195) also fail can't-see; LOOK east (e183) and X CAGE (e182) show no mouse. Guide order E TAKE MOUSE TAKE CAPSULE LOAD CAPSULE INJECT MOUSE DROP MOUSE verified as hint only (e176/e186), not observed. X PACKAGE (e197) confirms anesthetic only.
+Checkpoints verified: start-darkness, lab-arrival, b2-ready-sedate, b4-unloaded (as b6), b6-capsule-loaded.
+Cases banked since last update: select2-synonym vocab annotated (e179), mouse east/west failures, capsule-load via put phrasing (e190, needs none-annotation), mouse-food (e194) + mouse-grab (e195) world_state annotated (e196), package survey (e197).
+Last hint: e186 TAKE INJECTOR/TAKE CHIP/W/SELECT 2/E/TAKE MOUSE/TAKE CAPSULE/LOAD CAPSULE/INJECT MOUSE (suggested, not observed).
+Next: W to workbench, X COMPUTER / search dispenser nouns; try SELECT 2 again only once with immediate E + TAKE MOUSE; if still absent, help with refined feeding-product topic. Keep 1 command per request; do not spam take-mouse.
+
+Pending broker: none (m0184 done e197). Next request m0185+.

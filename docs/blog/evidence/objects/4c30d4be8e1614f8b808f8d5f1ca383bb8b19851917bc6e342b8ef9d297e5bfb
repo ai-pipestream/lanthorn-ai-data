@@ -1,0 +1,13 @@
+# Jigsaw progress (update 39 — SEGMENT 6, Ch10 cell STUCK on white button, game incomplete)
+
+Location: In Captivity cell (branch b3, e01545). Edge piece + gadget + folder + sack recovered; device tested in sack/in hand/on floor.
+BLOCKER: 'press white button' (also 'push white button') always 'Nothing obvious happens' (e01528/e01530/e01536/e01539/e01543); no ball exists (e01534). Walkthrough expects press→ball→'put black in ball, enter ball'.
+LEADING THEORY (timing): door-blow disturbance ('cloud of disturbed air') settles after a few turns; walkthrough does north/get sack/south/press with ZERO extra turns, but our 3 table-gets (edge/gadget/folder, needed because R3 'put all in sack' fails post-capture with 'can't use multiple objects') let it settle ('air still again' already in our south response e01527). Verb/placement/examine-gating ruled out; Black searched (nothing); waiting only chimes the ormolu clock; corridor guards now gone.
+Slash-free mappings VERIFIED this segment: CUTENG/L='press cuteng l'; RES/F='press reserve'; LOWER/U='press undercarriage' ('press lower u' fails oddly, 'lower' not a verb); REL/B='press release' ('press rel b' fails); AUT/P='turn autopilot on/off'. LOWER/U+REL/B failures unannotated (route probes, may annotate after Ch10 done).
+Board: 14 lit (d1, d2 vacant); Ch10 edge piece in hand (would go d2 per walkthrough).
+Cases: 75 total, all annotated, none unresolved.
+Help: Ch10 chain at line ~1167 (m0999). Next mode=next gives 1168+ (glass-case endgame).
+Checkpoints: ch10-cell-stuck (e01538, stuck state), ch10-landed (e01485, OK — RESTORE TARGET), ch10-before-landing, ch10-before-descent, ch10-refueled, ch10-start; older ch9/ch8 chain intact.
+
+FAST-REPLAY PLAN (restore ch10-landed → branch b4): replay identically BUT (1) skip redundant 'get gadget' (auto-held); (2) at airfield before 'get shelf', individually 'put beige folder in sack' + 'put gadget in sack' (capture believed event-driven on get-shelf; if early capture fires, restore again and skip); (3) post-capture: black hello, z5, north, get sack, get edge piece (ONE extra turn only), south, press white button IMMEDIATELY. If ball appears: checkpoint, then put black in ball etc. per walkthrough.
+Next inbox file: m1009.json. Last response: m1008 (e01545).

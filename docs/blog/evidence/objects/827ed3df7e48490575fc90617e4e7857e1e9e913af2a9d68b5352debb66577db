@@ -1,0 +1,234 @@
+{
+  "recorded_at": "2026-09-25T03:10:48.465156+00:00",
+  "games": [
+    {
+      "game_id": "anchorhead",
+      "broker": {
+        "pid": 907374,
+        "engine_pid": 907438,
+        "state": "running",
+        "session_id": "anchorhead-4f68bc5f05",
+        "started_at": "2026-09-25T03:10:03.118300+00:00"
+      },
+      "manifest": {
+        "game_id": "anchorhead",
+        "title": "Anchorhead",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/anchor.z8",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/anchorhead-walkthrough.txt",
+        "walkthrough_url": "https://ifarchive.org/if-archive/solutions/anchor.sol",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/anchorhead.json",
+        "story_sha256_expected": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+        "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+        "dataset_split": "test",
+        "game_family": "anchorhead",
+        "zmachine_version": 8,
+        "release": 5,
+        "serial": "990206",
+        "session_id": "anchorhead-4f68bc5f05",
+        "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+        "started_at": "2026-09-25T03:10:03.118189+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "latest": {
+        "event_id": "anchorhead-4f68bc5f05:e00003",
+        "timestamp": "2026-09-25T03:10:46.516472+00:00",
+        "game_id": "anchorhead",
+        "session_id": "anchorhead-4f68bc5f05",
+        "branch_id": "b0",
+        "event_index": 3,
+        "event_type": "command",
+        "command": " ",
+        "response": "\n\n\n\n\n                              * THE FIRST DAY *\n\n              I was far from home, and the spell of the eastern\n              sea was upon me.\n\n              -- H.P. Lovecraft\n",
+        "raw_start": 2176,
+        "raw_end": 2358,
+        "response_sha256": "0f97d20b71b64827235e4fff87549953c32c199fa84f4ede754a1673c62b44da",
+        "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "case_id": "startup-continue",
+          "intent": "Advance past intro text to first location",
+          "origin": "exploration",
+          "expected_outcome": "First room description"
+        },
+        "review_status": "unreviewed"
+      }
+    },
+    {
+      "game_id": "curses",
+      "broker": {
+        "pid": 907555,
+        "engine_pid": 907619,
+        "state": "running",
+        "session_id": "curses-4e1875ea4e",
+        "started_at": "2026-09-25T03:10:04.317078+00:00"
+      },
+      "manifest": {
+        "game_id": "curses",
+        "title": "Curses",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/curses.z5",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/curses-walkthrough.txt",
+        "walkthrough_url": "https://ifarchive.org/if-archive/solutions/CursesR16.sol",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/curses.json",
+        "story_sha256_expected": "330100bf1c1ab8ed64065ceb58145ebb87cb6faef5b331fbc6684be4f14fe7da",
+        "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+        "dataset_split": "train",
+        "game_family": "curses",
+        "zmachine_version": 5,
+        "release": 16,
+        "serial": "951024",
+        "session_id": "curses-4e1875ea4e",
+        "story_sha256": "330100bf1c1ab8ed64065ceb58145ebb87cb6faef5b331fbc6684be4f14fe7da",
+        "started_at": "2026-09-25T03:10:04.316901+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "latest": {
+        "event_id": "curses-4e1875ea4e:e00005",
+        "timestamp": "2026-09-25T03:10:47.578933+00:00",
+        "game_id": "curses",
+        "session_id": "curses-4e1875ea4e",
+        "branch_id": "b0",
+        "event_index": 5,
+        "event_type": "command",
+        "command": "look",
+        "response": "\nAttic\nThe attics, full of low beams and awkward angles, begin here in a relatively \ntidy area which extends north, south and east. The wooden floorboards seem \nfairly sound, just as well considering how heavy all these teachests are. But \nthe old wiring went years ago, and there's no electric light.\n\nA hinged trapdoor in the floor stands open, and light streams in from below.\n\n Attic                                      Score: 0\n (in Meldrew Hall)                          Turns: 2           June 3rd, 1993\n>",
+        "raw_start": 1442,
+        "raw_end": 1955,
+        "response_sha256": "704f03c9ee38c143cd47663bb00f93ef2acc239f645725e636cfe1ea424547f5",
+        "story_sha256": "330100bf1c1ab8ed64065ceb58145ebb87cb6faef5b331fbc6684be4f14fe7da",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "case_id": "route-opening-look",
+          "expected_outcome": "Full attic description",
+          "intent": "Describe current surroundings in detail",
+          "origin": "exploration"
+        },
+        "review_status": "unreviewed"
+      }
+    },
+    {
+      "game_id": "theatre",
+      "broker": {
+        "pid": 907670,
+        "engine_pid": 907743,
+        "state": "running",
+        "session_id": "theatre-8533784a56",
+        "started_at": "2026-09-25T03:10:05.499610+00:00"
+      },
+      "manifest": {
+        "game_id": "theatre",
+        "title": "Theatre",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/theatre.z5",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/theatre-walkthrough.txt",
+        "walkthrough_url": "https://ifarchive.org/if-archive/solutions/theatre.step",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/theatre.json",
+        "story_sha256_expected": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+        "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+        "dataset_split": "train",
+        "game_family": "theatre",
+        "zmachine_version": 5,
+        "release": 2,
+        "serial": "951203",
+        "session_id": "theatre-8533784a56",
+        "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+        "started_at": "2026-09-25T03:10:05.499488+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "latest": {
+        "event_id": "theatre-8533784a56:e00002",
+        "timestamp": "2026-09-25T03:10:48.295376+00:00",
+        "game_id": "theatre",
+        "session_id": "theatre-8533784a56",
+        "branch_id": "b0",
+        "event_index": 2,
+        "event_type": "command",
+        "command": "",
+        "response": "\n[Instructions and other information is available by typing HELP at the \">\" \nprompt and pressing enter or return.]\n\nAnother day, another dollar! Life is good at the moment, the property market is \nbooming. Still, it does have its down side; when showing those Mulluer \nCorporation executives around that old theatre dump, err, opportunity you must \nhave left your pager down in the basement. Better hurry, you have to meet the \nothers at the opera in an hour, and be careful. It wouldn't do to show up with \nyour clothes all dirty.\n\nTheatre Lobby\nThis room is a tribute to the now-faded glory of the theatre. The still-smiling \nfaces of forgotten productions stare out from faded posters at you. An old \ngrand staircase leads up, while the exit lies to the south. Small private doors \nlead northeast and northwest.\n\nWhat do you want to do now?\n> ",
+        "raw_start": 281,
+        "raw_end": 1127,
+        "response_sha256": "c69aa38a842a2200abb853ceb530d7a8b6ea681283644a7d8a1c648ccae8f2d7",
+        "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "case_id": "route-start",
+          "intent": "Dismiss title keypress pause to reach story start",
+          "origin": "exploration",
+          "expected_outcome": "Intro text or first location description"
+        },
+        "review_status": "unreviewed"
+      }
+    },
+    {
+      "game_id": "savoir-faire",
+      "broker": {
+        "pid": 907839,
+        "engine_pid": 907965,
+        "state": "running",
+        "session_id": "savoir-faire-3e83fd4831",
+        "started_at": "2026-09-25T03:10:06.723232+00:00"
+      },
+      "manifest": {
+        "game_id": "savoir-faire",
+        "title": "Savoir-Faire",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/Savoir-Faire.zblorb",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/savoir-faire-walkthrough.txt",
+        "walkthrough_url": "https://ifarchive.org/if-archive/solutions/savoir.html",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/savoir-faire.json",
+        "story_sha256_expected": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+        "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+        "dataset_split": "development",
+        "game_family": "savoir-faire",
+        "zmachine_version": 8,
+        "release": 8,
+        "serial": "040205",
+        "session_id": "savoir-faire-3e83fd4831",
+        "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+        "started_at": "2026-09-25T03:10:06.723109+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "latest": {
+        "event_id": "savoir-faire-3e83fd4831:e00003",
+        "timestamp": "2026-09-25T03:10:42.018716+00:00",
+        "game_id": "savoir-faire",
+        "session_id": "savoir-faire-3e83fd4831",
+        "branch_id": "b0",
+        "event_index": 3,
+        "event_type": "checkpoint_filename",
+        "command": "start-garden.sav",
+        "response": "Saved to '/work/experiments/lanthorn-recall-training/play/savoir-faire/saves/Savoir-Faire.zblorb.save/start-garden.sav.qzl'.\nOk.\n\n>",
+        "raw_start": 1799,
+        "raw_end": 1930,
+        "response_sha256": "d4f740522a72a90f4839eb42003c40486d8ef6464df68b1edf17c1f2d715e015",
+        "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "name": "start-garden"
+        },
+        "review_status": "unreviewed"
+      }
+    }
+  ],
+  "active_launchers": [
+    " 224610   20232    01:14:59 bash ./run-fullplay.sh secret-mission",
+    " 307329   20232       42:10 bash ./run-fullplay.sh zork-i7",
+    " 427838   20232       35:17 bash ./run-fullplay.sh dreamhold",
+    " 428080   20232       35:15 bash ./run-fullplay.sh bronze",
+    " 455978   20232       25:29 bash ./run-fullplay.sh slouching-bedlam",
+    " 895105   20232       02:19 bash ./run-fullplay.sh voodoo-castle",
+    " 908156   20232       00:40 bash ./run-fullplay.sh anchorhead",
+    " 908334   20232       00:39 bash ./run-fullplay.sh curses",
+    " 908515   20232       00:38 bash ./run-fullplay.sh theatre",
+    " 908695   20232       00:37 bash ./run-fullplay.sh savoir-faire"
+  ]
+}

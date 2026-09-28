@@ -1,0 +1,9 @@
+{
+  "native_log": "/home/krickert/.kimi-code/sessions/wd_20260925t095457.227309z_ab4236c4edfa/session_e48008c8-7b2f-426d-ae84-e20dd88ab175/logs/kimi-code.log",
+  "captured_prefix_bytes": 216,
+  "prefix_sha256": "1cedfe9cba8b81ff530aabd8168293947903e2521e992a1bd23fed5af741d401",
+  "config_line": "2026-09-25T09:54:59.346Z INFO  llm config  turnStep=0.1 provider=openai model=k3 modelAlias=kimi-code/k3 thinkingEffort=max systemPromptChars=4909 toolCount=0",
+  "actual_model_alias": "kimi-code/k3",
+  "actual_tool_count": 0,
+  "runtime_response_validation": "pending"
+}

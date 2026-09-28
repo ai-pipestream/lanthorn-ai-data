@@ -1,0 +1,50 @@
+# Seg12 continuation (b32) — Foyer, Day 3, score 38
+
+Current: session anchorhead-2c1c588159 b32 e00029 (m1425 annotated). Location: Foyer.
+Inventory (m1407, verified post-restore): hands Haermoniacon + keyring(5: bronze/brass/iron/house/cellar) + lit lantern; pockets matches(2), calipers, umbrella, mirror #2, tin closed, meat hook, drawing, skull, flashlight, gold+silver lockets, newspaper, letter opener, Manual of Wardes and Seales, soggy pages, slip, faculty card, 3 keys (long steel, small steel, small copper). NO box/clippings (restored pre-take), NO towel (left on mill valve m1007), NO teddy/broom/robe/disk/flute/hairpin.
+Score 38 (m1408).
+
+Seg12 work (m1407-m1425): verified inv+score; fuse cabinet now parses as plugs (all ~24 blown, m1411) — annotated box/cabinet→plugs vocabulary (m1412); south to Storage (m1414, crates junk, web gone) — annotated go-to-room→south planning (m1415); east to Wine Cellar (m1419, 40-50 bottles, generic); route west/north/southeast/east/south to Foyer (m1420); luggage hairpin blocked: look-through/examine/search all no-motivation (m1421/22/24) — help excerpt (m1423) confirms Part 2 hairpin after Burial Mound flute; annotated world_state failure (m1425).
+
+Blockers: Part 1 Burial Mound needs (a) disk→telescope name (puzzle box never found; William coffin only animal skeleton; Edward sealed needs chisel/crowbar never found; Cauldron closed Day3), (b) wine Secret Door (bottles generic; letters/dates unread; turn C/P no-such; towel-on-valve may be needed to wipe), (c) flute (never seen; searched child jewelry/vanity/library/study/bed/straw/crawlspace/square). Part 2 luggage gated on Part 1 (motivation). Study holes + observatory (no disk) done pre-restore (m1203-m1220).
+
+Next: 1) Help for flute pickup location (minimal topic). 2) Sweep unchecked house rooms for flute/chisel (sitting room, dining?, playroom?). 3) Consider mill run to retrieve towel for wine bottles. 4) If Day3 exhausted, restore Day2 (day2-card-ready / bum-doctor-william) to hunt puzzle box/chisel/disk while Cauldron open, then replay Day3.
+Checkpoints: cellar-fuse-day3 (b32 HERE pre-box), square-obelisk-day3, day2-card-ready, bum-doctor-william, + full list in m1397.
+Clippings path QUARANTINED per collection-notes: never re-read clippings/box menu; use help excerpts.
+
+# Explicit service-timeout recovery
+
+Current session: anchorhead-2c1c588159, branch b32. Restored cellar-fuse-day3 successfully.
+Save evidence: anchorhead-51ee2d15c2:e01571. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Cellar
+The old, flagstone walls gleam with unwholesome-smelling moisture, and the 
+sagging timbers creak uneasily above your head. Ancient, frayed wiring festoons 
+the ceiling like some strange species of clinging vine. Portions of the cellar 
+extend south and east into the clammy darkness, though you could always beat a 
+hasty retreat up the stairs to the north.
+
+One largish bundle of wires leads down to a rusty old fuse cabinet bolted to 
+the far wall.
+
+You can also see a cardboard box (in which are some newspaper clippings) here.
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+# Anchorhead — b30 STOP m1405 await_output pending (game incomplete, continuation needed)
+
+Current: session anchorhead-51ee2d15c2 b30 e01578 (m1404 delayed empty, processed 2026-09-25T06:24:08Z). Cellar, box auto-taken. Score 38 (m1400). Lantern lit, 2 matches. Hands (m1399 + box): Haermoniacon, keyring (5 keys), lantern, cardboard box (taken m1402). Pockets: matches(2), calipers, umbrella, mirror #2, tin closed, hook, drawing, skull, flashlight, lockets x2, newspaper, opener, manual, soggy pages, slip, faculty card, 3 keys (long steel, small steel, small copper). No disk/box/flute/robe/teddy/hairpin. PENDING: m1405 {"action":"await_output"} for e01577/e01578 no_output_timeout (examine the cardboard box) submitted seg11, response absent after extensive read-only review (30+ reads: cellar/fuse/wine/pub/crypt history, Day3/flute hints, annotate examples, checkpoints); latest.json still e01578 no_output_timeout. Do NOT duplicate m1405 and do NOT send game commands/checkpoints until its response is read. On resume: read responses/m1405.json first; if present, continue per its engine_state (if still no_output_timeout, submit fresh await_output as m1406; if awaiting_input, resume cellar exploration); if still absent after 190s review, treat as broker-stuck and report.
+
+Seg11 work (m1405 only): verified m1404 now exists with engine_state no_output_timeout (empty response, raw 577389-577389, arrived after seg10 ended); submitted m1405 await_output with correct JSON; re-read request to rule out malformation; polled latest.json + response repeatedly with read-only history/hint review in between. No game commands sent (forbidden during timeout). No supervisor-hint.json checked via explicit read this segment (prior segments: absent).
+
+Blocked: same as seg10 + m1405 pending. Clippings text unread (m1402 truncated "(first taking the cardboard box)", m1403 empty timeout). Disk unobtainable Day3 (Cauldron gone); wine inactive without disk/name; flute unknown; Edward sealed. Book-menu transport risk e302 noted: await_output only, never flush with keys.
+
+Next (after m1405 resolves): 1) Read clippings carefully (avoid optional book menus). 2) Annotate cellar-box-read pair (world_state/planning: box vs contents) only after confirmed text. 3) Explore Cellar south (Storage) + east (Wine) for Secret Door/tools. 4) Restore Day2 (day2-card-ready or bum-doctor-william) to hunt puzzle box/chisel/crowbar + disk while Cauldron open; then replay Day3 Parts 1-6 in order per hints. 5) Keep 20-40 case diversity (already 80+ annotate files, continue varied coverage); checkpoint before risky probes.
+
+Checkpoints: cellar-fuse-day3 (b30, pre-box-take, HERE), square-obelisk-day3, cellar-blocked, foyer-south-return, mill-road-michael-stuck, narrow-before-mob2, mill-road-after-mirror, catwalk-after-mirror, workshop-catwalk, maze-ladder-room, day2-card-ready, bum-doctor-william.

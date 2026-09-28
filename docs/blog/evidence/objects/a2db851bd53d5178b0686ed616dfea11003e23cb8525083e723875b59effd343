@@ -1,0 +1,9 @@
+# Mortlake Manor — collection progress (IN PROGRESS, branch b1)
+
+- Session: mortlake-manor-e0475539fe, branch b1. Location: North End of Dining Room (door N; broken chairs scenery-only e00119).
+- Inventory (b1): gold key. Score: +5 key (e00080), -10 cabbage vomit (e00113) = net -5.
+- Manor map (b1): interior Back Door -n-> junction (N-S corr/E-W pass) -n-> N-S corr (W: dining S) -w-> dining S (W: kitchen N; chandelier INTACT + cutters) -w-> kitchen N (N small door, E large door, oven, cabbage EATEN) -n-> corridor junction (N/W, doorway S) -n-> bend (E/S) -e-> E-W corr (door S) -s-> dining N (door N).
+- Chandelier puzzle: `get wire` rejected e00100; `get cutters` too-high e00101; `shake` unknown verb e00108; `pull` fixed e00109. Hints (m0085/m0091, walkthrough NOT observed): chandelier ends up smashed, cutters takeable. Smash trigger UNKNOWN — suspect timed ghost event (footsteps e00102, footprints e00117) or an action elsewhere. `wait` once did nothing (e00111).
+- Cases: +9 gold-key (annotated m0072); +10 backdoor-entry (world_state, annotated m0077); +11 wire-cutters OPEN (`get wire` vocab rejection e00100 recorded); +12 cabbage (accepted w/ -10, annotated m0095); +13 chandelier-verbs (`shake` unknown e00108 recorded).
+- Next: explore E-W corridor east/west, first-junction E-W passage, kitchen large door east, dining-N door north; re-check dining-S chandelier periodically for ghost smash. Then light/tools, fountain, diamond.
+- Checkpoints: start-road, manor-front, garden-middle, french-windows (b0, holds branch), manor-inside (b1, confirmed e00095-96).

@@ -1,0 +1,34 @@
+# Space Station — collection progress
+
+Location: Sick Bay (fore of Main Hallway Sector N). Fussbudget AWAKE
+("wake fussbudget" worked, e00022).
+Inventory (observed): mechanical translator (worn), chronometer (worn),
+Patrol uniform (worn), box of radioactive isotopes (closed).
+Scooter state: docked at BG-12, hatch open; toolbox locked; slot takes
+a form to activate scooter (finale-relevant).
+
+Checkpoints: start-scooter, docked-exit (both verified saved).
+
+Cases:
+- scooter-survey: look/inventory/examine toolbox (exploration). DONE
+- toolbox-typo: "open toolbx" e00007 rejected (can't see); "open
+  toolbox" from couch e00008 blocked (world_state); standing e00009
+  docked; "open toolbox" standing e00010 LOCKED. Annotation deferred
+  until toolbox opens; correction chain spans couch/stand/lock states.
+- scooter-stand "stand" (exploration). DONE
+- scooter-docked look/examine slot (exploration). DONE
+- leave-scooter "out" (exploration). DONE
+- hallway-dir-synonym: "go right" e00017 rejected; "starboard" e00018
+  reached Sector N. ANNOTATED e00019 (vocabulary).
+- sector-n-fore "fore" -> Sick Bay e00020 (exploration). DONE
+- sickbay-survey: examine fussbudget e00021 (has pencil/paper),
+  examine cage e00024 (bars welded). DONE
+- fussbudget-wake: "wake fussbudget" e00022 ACCEPTED (failure none).
+  ANNOTATED e00023.
+- cage-open: "break cage" e00025 refused (too strong by hand — needs
+  tool); "open cage" m0023 PENDING at last check.
+
+Next: read open-cage result; try syringe (take/examine); talk to
+Fussbudget (ask/give pencil?); survey rest of station (port side,
+tube down at Sector N); toolbox key hunt. Help after 2 failures on
+same puzzle. Update checkpoints at milestones.

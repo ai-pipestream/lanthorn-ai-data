@@ -1,0 +1,10 @@
+# Frozen progress
+
+Location: Hall (exited Computer Lab NE). Exits: stairs north and south, lab west.
+Inventory as observed: carrying nothing (e00004). Back pack opened (e00007), empty (e00009). Computer examined (e00010).
+Cases:
+- lab-pack-synonym: e00005 fail vocab -> e00007 success (annotated e00008)
+- lab-exit-north: e00011 fail world_state -> e00012 success (annotated e00013)
+Last hint: m0004 excerpt off-topic (Office 3rd floor calendar; Lab basement sphere/pentagram). Not yet used.
+Checkpoints: start-lab verified.
+Next: explore Hall stairs N/S, map building, seek Office/calendar thread per hint. Need ~20-40 diverse cases. Checkpoint after next milestone.

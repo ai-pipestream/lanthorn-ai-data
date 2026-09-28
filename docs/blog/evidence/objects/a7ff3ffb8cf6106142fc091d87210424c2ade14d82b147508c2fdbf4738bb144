@@ -1,0 +1,8 @@
+# Curses progress — SEGMENT 4 STOP (incomplete, branch b6, continuation ready)
+
+Branch b6, Score 51/550 Turns 406 Potting Room. Checkpoints OK: potting-room (score 51), wine-cellars, storage-room, cellars-wheel, cellarwest-chute (+ older).
+Inventory assumed e00573 (iron/brass/prayer/torch lit/stick/gloves) + daisy chain just given (score +2 e00658); rucksack+History II still in cupboard elsewhere.
+Route: Airing Cupboard dead end south (e00656); north to Jemima (e00657); west to Potting Room Jemima daisy chain +2 score 51 (e00658); checkpoint potting-room (e00659-660); look Potting Room plants/conservatory music (e00661).
+Cases: 5 annotated seg4 (door none, goeast ambiguity, turn world_state, ask world_state, enter-shaft none). Unresolved: ironbound door keys fail; demon advancing question; unlock-omitted; b5 Attic-trapdoor quit e00642 (missed point, NOT ending — restored).
+Last hint e00646: Stone Cross Alison -> S,SW,W push south wall -> S lie/flag/sleep etc (walkthrough_not_observed).
+Next (continuation): From potting-room.sav, find conservatory (music source) to garden/stream/surface, then Stone Cross (hint N,N,E,S,E,NE,N examine cross), read Alison in history book (need History II from cupboard — locate without Attic trapdoor), push south wall Dead End. Conserve torch. No winning ending seen.

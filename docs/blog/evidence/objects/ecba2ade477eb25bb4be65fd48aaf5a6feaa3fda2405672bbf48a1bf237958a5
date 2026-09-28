@@ -1,0 +1,75 @@
+{
+  "game_id": "vindaloo",
+  "title": "Vindaloo",
+  "author": "Adam G Crutchlow",
+  "url": "https://ifarchive.org/if-archive/solutions/vindaloo.sol",
+  "accessed_at": "2026-09-25T06:02:02.373371+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/vindaloo.sol",
+  "source_sha256": "a4812fd6a7d7dbb6746da93227e16fd313ffca5fb87e9967d03242c13df58279",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/vindaloo-walkthrough.txt",
+  "normalized_sha256": "a4812fd6a7d7dbb6746da93227e16fd313ffca5fb87e9967d03242c13df58279",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/vindaloo.z5",
+  "story_sha256": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+  "compatibility": "Local R1/960613. Guide identifies Vindaloo but no release or serial. Its room-keyed recipe route ends at an 18-point cooking action without quoting final narrative.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "960613",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001295c295d1afd01020c2312280000393630363133004233b2b87b00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "429b1e309c3dba3100e8613e02a49f938c489c8d461345e9118b05426dc76fe1",
+    "checksum_hex": "b87b",
+    "declared_length": 52936,
+    "file_bytes": 53248
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "vindaloo.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/vindaloo.z5",
+    "accessed_at": "2026-09-25T06:03:03.647310+00:00",
+    "remote_sha256": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+    "local_sha256": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+    "bytes": 53248,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "960613"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#vindaloo.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "vindaloo.z5\n◆\n[13-Jun-1996]\nIFDB entry\nIFWiki:\nVindaloo\nVindaloo, An Interactive Recipe by Adam G Crutchlow.\nRelease 1 / Serial number 960613."
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#vindaloo.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "vindaloo.sol\n◆\n[02-May-1997]\nIFDB entry\nSolution to Vindaloo, by Ambat Sasi"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the ingredient/tool collection and curry preparation through the stove sequence; require the actual concluding recipe narrative. A score of 18 or merely turning on the stove is insufficient if the story still has a required concluding action.",
+    "limitations": "Guide omits travel steps and has multi-action shorthand. Resolve actual room access and object state from output; record useful noun/tool/preposition probes away from irreversible cooking actions.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "vindaloo",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "No concrete shared-world or shared-puzzle relationship identified in the inspected guide and archive entries; all releases stay together."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

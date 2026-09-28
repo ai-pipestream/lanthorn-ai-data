@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-09-25T06:59:58.872680+00:00",
+  "result": "pass",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-f-20260925.json",
+  "config_sha256": "76e9412aeec7237836e9d6469612be4d45472b058d1c7e9d4799183a0658887c",
+  "ready_static": 4,
+  "splits": {
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "checks": [
+    "D top-level and per-game schema parity",
+    "local story equals archived bytes and pinned sha256",
+    "actual header release/serial/version, header hash, declared length and checksum",
+    "raw and normalized guide hashes; unchanged word sequence",
+    "matching archive game/guide TUID and pinned index excerpts",
+    "guide/config paths central under F; response timeout 180",
+    "distinct ids/story hashes and no current control/source/play manifest collisions",
+    "game ids absent from current shared splits; family review flagged",
+    "configured central engine binary exists and is executable"
+  ],
+  "games": [
+    {
+      "game_id": "attack-of-the-yeti-robot-zombies",
+      "passed": true,
+      "release": 0,
+      "serial": "060825",
+      "story_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129"
+    },
+    {
+      "game_id": "hla-inform",
+      "passed": true,
+      "release": 1,
+      "serial": "050715",
+      "story_sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442"
+    },
+    {
+      "game_id": "muse-autumn-romance",
+      "passed": true,
+      "release": 2,
+      "serial": "990922",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55"
+    },
+    {
+      "game_id": "believable-adventures-invisible-man",
+      "passed": true,
+      "release": 2,
+      "serial": "100130",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950"
+    }
+  ],
+  "collision_scan": {
+    "json_files_checked": 453,
+    "matches": [],
+    "e_game_ids": [
+      "the-wedding",
+      "ghost-train",
+      "schooldays",
+      "not-just-a-game"
+    ]
+  },
+  "splits_sha256": "e77e1c3ffbbf953be540fa2afdb5e5c614557bbae0bcd5d83f4252c95aeb2851",
+  "engine_binary": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "limitations": [
+    "Static validation only; no interpreter launch, gameplay, guide execution or runtime finale verification.",
+    "One guide explicitly matches story release; none pins serial; three release/port caveats retained.",
+    "Reuse permission unknown; parent family/split review required."
+  ],
+  "scope": "Only F aggregate and F source directory written; no shared registry/split edits or remote staging."
+}

@@ -1,0 +1,75 @@
+{
+  "game_id": "enemies",
+  "title": "Enemies",
+  "author": "Andy Phillips",
+  "url": "https://ifarchive.org/if-archive/solutions/Enemies.sol",
+  "accessed_at": "2026-09-25T06:02:02.329243+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/Enemies.sol",
+  "source_sha256": "4a47257b26612cdcecdb4ce274465109fd9b6cfb4a67962a07a5cb02c70c45ad",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/enemies-walkthrough.txt",
+  "normalized_sha256": "4a47257b26612cdcecdb4ce274465109fd9b6cfb4a67962a07a5cb02c70c45ad",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Enemies.z8",
+  "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+  "compatibility": "Guide explicitly R4/990115, exact local header match. It warns of crashes on some interpreters, random puzzle values, and tightly timed late scenes. No runtime smoke was performed.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "990115",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000004d228d2297c47013063bb6a4d000039393031313500708d3bc11a00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "105888f13588c3e6ec9fc91908e465697236a1f78b86f2ed828da54ced06657b",
+    "checksum_hex": "c11a",
+    "declared_length": 289240,
+    "file_bytes": 289280
+  },
+  "guide_release": 4,
+  "guide_serial": "990115",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "Enemies.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Enemies.z8",
+    "accessed_at": "2026-09-25T06:03:03.605463+00:00",
+    "remote_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "local_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "bytes": 289280,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 4,
+    "remote_serial": "990115"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Enemies.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Enemies.z8\n◆\n[18-Jan-1999]\nIFDB entry\nEnemies, An Interactive Psychothriller,\nby Andy Phillips.\nRelease 4 / Serial number 990115.\n(an MSDOS executable is in games/pc/Enemies.zip)"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Enemies.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "Enemies.sol\n◆\n[18-Feb-1999]\nIFDB entry\nSolution to Enemies, by Paul J. Godfrey"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.",
+    "limitations": "Guide estimates about 570 moves. Derive random canister/locker/bomb/pricing/lock values from observed clues; never send placeholders. Take verified checkpoints before time-critical scenes and avoid synthetic probes inside them. Report an interpreter fault rather than hiding it with extra commands.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "enemies",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Guide recommends the same author's Time and Heist; this alone does not demonstrate shared world or puzzles. Parent should review any subsequently observed links before export, particularly Heist's Zork puzzle overlap."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

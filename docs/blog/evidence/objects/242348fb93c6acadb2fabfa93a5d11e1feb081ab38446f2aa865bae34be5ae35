@@ -1,0 +1,29 @@
+# Delusions progress — SEGMENT 6 FINAL (b55 VARIED-VERBS COMPLETE, score 33/50 safe, INCOMPLETE — STOP, R4-unwinnable-from-R2)
+
+No winning ending. HINT menu forbidden. LIVE STATE: ALIVE b55e01327 (s33-justy safe lab 33, x pad can't-see) — STOP HONESTLY. Varied-verb pre-standoff search complete, no gun/pencil/pad in accessible map. R2 walkthrough requires locked Cynthia's + lost gun + blocked computer, all impossible R4. Continuation needs R4/971121-specific source, not R2 broker.
+
+CURRENT (verified to m0982, e01327):
+- b53 VARIED-VERB SEARCH (s33 safe 33, all rooms, no pencil): lab under-bench nothing (e01269), serch→search bench typo→lists manual/workstation/mouse (e01270-71 SYN vocab); Justy under-bed/desk nothing (e01274-75), search desk nothing (e01276); ours under-bed/desk nothing (e01279-80), x shelves amp-on-top (e01281), enter alcove pillow/bow/violin/amp (e01283), out, behind-painting nothing (e01285); Factory behind-android ambig→nothing (e01288-89 SYN ambig), search conveyors unimpl (e01291); Output behind-racks unimpl (e01294); MedLab under-gurney nothing (e01297); Kitchenette behind-fridge misparse-closed (e01300); Corridor S lavatory, search toilet unimpl (e01304); Shimada knock/open/W trigger (e01305-08), under-futon nothing (e01309), behind-painting nothing (e01310), open drawer blade-only (e01311), get blade (e01312), x vase unimpl (e01313), N blocked finish-first (e01314), x mirror true-self (e01315), 4 waits explanation (e01316-19), search tatami unimpl (e01320). Cynthia locked-pre (b36e00900).
+- b54 X PAD RANT: s36 U lab → x pad can't-see (e01324, no pad in lab during standoff).
+- b55 X PAD SAFE: s33 restored (e01326, score 33) → x pad can't-see (e01327, no pad in safe lab pre-standoff). Pad absent entire accessible map; must be in locked Cynthia's with pencil.
+- b46-52 SEALED (prior): all 6 lab exits shot rant+post (N/S/NW/W/SW/NE), computer blocked (system/msgbox/chess/beeps rant+post), msgbox close doesn't unblock, SE-T5 triple, violin unplugged/hardly, drop-blade no-score triple.
+- SEALED R4 FULL (do not repeat without R4 source): pre-standoff full map X/search/varied-verbs empty (lab+Output+MedLab+Kitchenette+Factory+Justy+ours+Corridor+Shimada+office+Cynthia-locked, no gun/pencil/pad); standoff triangle only (lab/factory/quarters) with rant-search + post-murders+blast; all exits shot; computer/sphere/suit blocked; violin needs amp; blade≠gun; FULL 38 breakdown confirms missing 12 = Drop1+Sharpen2+Rub2+CHESS4+Rescue2+Nohint1, all gated on Cynthia's/gun/computer.
+- SYN b53-55: search-typo (vocab, serch→search bench), android-ambig (yourself-vs-body→behind-body nothing). Total 47+ cases, quota exceeded, diverse.
+
+NEXT (continuation ONLY with R4/971121 source — DO NOT repeat sealed/varied-verbs):
+1) Obtain R4-specific: Cynthia's unlock (key? verb? timing? post-suicide window?)? real gun R4 (not sim-lost)? pencil/pad R4 (not Cynthia's)? computer unblock (not Justy/standoff)? security spare (evidence? surrender? location?)?
+2) If source reveals fetch/unlock: s33 (b55 alive safe) → fetch → s36 → s38 → tail. If survival verb: s38 test (1 branch).
+3) Else STOP: record R4-unwinnable-from-R2, preserve evidence (b46-55 + prior).
+Do NOT repeat: b46-55 set + prior sealed (b44-45 etc.) + b53 varied-verbs (under/behind/inside/search all rooms) + x pad (safe+rant).
+
+## Checkpoints (newest first, all verified saves)
+- s33-justy (wake 33 SAFE — b55 alive here for continuation; full map searched, no pencil)
+- s36-violin-factory (violin-carry 36, rant-tested)
+- s38-redial (post-redial 38 factory, msgbox/drop-tested)
+- s36-factory (pre-phone 36, rant-computer-tested)
+- s30-gun (sim gun, pre-Kill-me), s29-strip, s22-sleep2, s14-inject2, etc.
+
+## Dead (SEALED R4, verified to e01327)
+- Triple/murders+blast (all locations/timings/unarmed/violin), all 6 exits shot (rant+post), all computer/sphere/suit, drop/take/give/attack/talk, search deaths.
+## Searched CLEAR (varied verbs, verified b53-55)
+- Entire accessible pre-standoff map via X/search/look-under/behind/inside/enter/search/move: no gun/pencil/pad. Cynthia locked, pad absent lab (safe+rant).

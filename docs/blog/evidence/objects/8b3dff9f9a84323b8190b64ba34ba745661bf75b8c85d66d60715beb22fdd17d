@@ -1,0 +1,19 @@
+import ast,fcntl,json,subprocess,sys
+from pathlib import Path
+sys.path.insert(0,str(Path.cwd()/'scripts'))
+from maintain_workers import processes,inventory,pending,input_state
+from play_broker import now,write_json
+# Reuse the inspected bridge/start-lock transaction, with fresh specific preconditions.
+tree=ast.parse(Path('control/fleet/resume-quota-20260925T0743.py').read_text())
+remote_code=next(ast.literal_eval(n.value) for n in tree.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='remote_code' for t in n.targets))
+remote_code=remote_code.replace("old['exit']==1","old['exit']==124 and old['run'].endswith('enemies-1790323197435979876')").replace("'quota-20260925T0743'","'timeout-20260925T0848'")
+remote_code=remote_code.replace("oldhash=hashlib.sha256(state.read_bytes()).hexdigest();state.rename(archived)","oldhash=hashlib.sha256(state.read_bytes()).hexdigest(); loghash=hashlib.sha256((Path(old['run'])/'events.jsonl').read_bytes()).hexdigest(); assert (Path(old['run'])/'exit.status').read_text().strip()=='124'; state.rename(archived)")
+remote_code=remote_code.replace('archived_sha256=oldhash','archived_sha256=oldhash,old_run=old[\'run\'],old_log_sha256=loghash')
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ gid='enemies';b=Path('play')/gid;records=json.loads(Path('control/fleet/assignments.json').read_text());a=records[gid];sid=json.loads((b/'manifest.json').read_text())['session_id']
+ assert a['host']=='cm5v1' and a['state']=='attention' and a['session_id']==sid=='enemies-0b4aba49fe'
+ _,brokers=inventory(processes());assert len(brokers[gid])==1 and not pending(b) and not (b/'ending-claim.json').exists()
+ rows=[json.loads(x) for x in (b/'events.jsonl').read_text().splitlines()];assert input_state(rows)=='awaiting_input_or_idle';last=rows[-1]['event_id']
+ r=subprocess.run(['ssh','-o','BatchMode=yes','-o','ForwardAgent=no','cm5v1','python3 -'],input=remote_code.replace('CONFIG',repr({gid:sid})),text=True,capture_output=True,timeout=40);assert r.returncode==0,r.stderr
+ result=json.loads(r.stdout);write_json(Path('control/fleet/enemies-timeout-resume-20260925T0848.json'),dict(at=now(),reason='Diagnosed supervisor2700second timeout exit124/SIGTERM, no pending requests, same-session broker input normal; failedstate/log preserved; no broker restart or input replay.',before_event=last,launch=result));print(result)

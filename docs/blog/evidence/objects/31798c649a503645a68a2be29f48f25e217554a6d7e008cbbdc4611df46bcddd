@@ -1,0 +1,16 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — continuation needed)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Tiny Room (e311 checkpoint tiny-room verified). Ordinary prompt. No death/quit/ending. Fire behind cottage still burning last seen e295.
+
+Inventory e282: tinderbox + glowing hot glass bottle (light). No shovel/seed/coin/Devil key.
+
+Key results since last update: dig wall e287 needs tool + extra plea; floor e288 mud/roots; help e289 same shovel excerpt (e/s/s/sw/strike tinder/get shovel); east e290 cellar; up e291 cottage; east e292 clearing; southwest e293 behind; look e294 fire only; examine fire e295 intense; south e296 only northeast; get shovel e297 rejected; examine straw e298 tinder-dry piled high; search straw e299 same; annotate break->dig e300 vocab uncertain; northeast e301 clearing + west e302 cottage (batch); examine floor e303 hole down; help e304 same shovel excerpt origin unknown; east e305 clearing (mislabeled case_id tinyroom-dig-bottle-syn, do not annotate); west e306 cottage + down e307 cellar + west e308 tiny room; dig wall with bottle e309 same as bare hands (instrument ignored, needs tool); checkpoint tiny-room e310-311 success.
+
+Hints (guidance only): shovel excerpt lines 89-97 e/s/s/sw/strike tinder/get shovel/ne/n/n origin unknown — twice repeated, no origin. Seed/winch/witch hints as before. Do NOT replay as script.
+
+Checkpoints: behind-cottage fallback; forest-clearing e273-274; tiny-room e310-311 (current safety).
+
+Unresolved cases: tinyroom-dig-bottle-syn e309 (bottle ignored, needs shovel — annotate after shovel success); behindcottage-get-shovel e297; shovel origin unknown. Note m0259 case_id collision (east labeled dig-bottle) — do not use m0259 for annotation.
+
+Continuation: 1) from tiny room, try examine roots/mud, then backtrack to hunt shovel origin — possibly earlier region (Tate Hill/start) requiring restore branch, or winch/ship north route; 2) annotate dig-bottle pair after proper tool found; 3) need Chapel confrontation + escape finale per manifest, never QUIT. Update progress every 10-15 requests.

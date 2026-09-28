@@ -1,0 +1,118 @@
+{
+  "slouching-bedlam": {
+    "recovery": {
+      "previous_session_id": "slouching-bedlam-18faea2151",
+      "checkpoint_event_id": "slouching-bedlam-18faea2151:e00179",
+      "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/slouching-bedlam/saves/slouch.z5.save/office-journal.sav.qzl",
+      "checkpoint_sha256": "6d15690a99e91df07a090eaa7dff882a8d6f393f2834ade9c20379688e43af11",
+      "reason": "Explicit new session after help/file menu produced repeated empty timeouts. Old pending input is cancelled, never replayed.",
+      "session_id": "slouching-bedlam-b08abfcb18",
+      "branch_id": "b4",
+      "restored_at": "2026-09-25T03:28:54.747905+00:00",
+      "observed_event_id": "slouching-bedlam-b08abfcb18:e00006"
+    },
+    "confirmed_events": [
+      {
+        "event_id": "slouching-bedlam-b08abfcb18:e00005",
+        "timestamp": "2026-09-25T03:28:54.444452+00:00",
+        "game_id": "slouching-bedlam",
+        "session_id": "slouching-bedlam-b08abfcb18",
+        "branch_id": "b4",
+        "event_index": 5,
+        "event_type": "checkpoint_filename",
+        "command": "office-journal.sav",
+        "response": "/(yesunfoldingbackwardsRESTORErenewpointtimespace)\\\n\n>",
+        "raw_start": 57853,
+        "raw_end": 57907,
+        "response_sha256": "de8b817cdca79979c94764b1ce2c3a19855577db2aa623a38a680cd60b611412",
+        "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "name": "office-journal",
+          "reason": "Explicit service-timeout recovery"
+        },
+        "review_status": "unreviewed"
+      },
+      {
+        "event_id": "slouching-bedlam-b08abfcb18:e00006",
+        "timestamp": "2026-09-25T03:28:54.747714+00:00",
+        "game_id": "slouching-bedlam",
+        "session_id": "slouching-bedlam-b08abfcb18",
+        "branch_id": "b4",
+        "event_index": 6,
+        "event_type": "command",
+        "command": "look",
+        "response": "\nOffice\nA massive cedar desk, well-polished and worn, looks elegantly out-of-place \namong the chaos. Papers, files, and books cover nearly every flat surface in \nthe room.\n\nTriage sits near the door to the south.\n\nThere is a phonograph on the table near the window.\n\n\"Bedlam seems both purgatory and paradise at this moment. I remember the \nhistory of the place well enough -- of the Governors' decision to renovate the \nsite in '15 and the slow implementation of Urquhart and Bentham's now infamous \nPanopticon Plan. In the end it was nothing more than a final stab at \nrespectability for the site, which has now languished as a home for the \nhopeless, the poor, and the criminally insane for almost twenty years.\"\n\n>",
+        "raw_start": 57907,
+        "raw_end": 58625,
+        "response_sha256": "581b66620fd7294c50d505914c190d0a8e77bae64e69aaffee08a461520bd12c",
+        "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "recovery",
+          "intent": "Observe restored location"
+        },
+        "review_status": "unreviewed"
+      }
+    ],
+    "raw_spans_verified": true
+  },
+  "savoir-faire": {
+    "recovery": {
+      "previous_session_id": "savoir-faire-3e83fd4831",
+      "checkpoint_event_id": "savoir-faire-3e83fd4831:e00092",
+      "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/savoir-faire/saves/Savoir-Faire.zblorb.save/basin-full.sav.qzl",
+      "checkpoint_sha256": "003a4c94b347d99d96822e1519b89a0ee45358cca591a3e2fdf82c0409906c99",
+      "reason": "Explicit new session after help/file menu produced repeated empty timeouts. Old pending input is cancelled, never replayed.",
+      "session_id": "savoir-faire-5a89e6c8ff",
+      "branch_id": "b3",
+      "restored_at": "2026-09-25T03:28:55.958179+00:00",
+      "observed_event_id": "savoir-faire-5a89e6c8ff:e00006"
+    },
+    "confirmed_events": [
+      {
+        "event_id": "savoir-faire-5a89e6c8ff:e00005",
+        "timestamp": "2026-09-25T03:28:55.638577+00:00",
+        "game_id": "savoir-faire",
+        "session_id": "savoir-faire-5a89e6c8ff",
+        "branch_id": "b3",
+        "event_index": 5,
+        "event_type": "checkpoint_filename",
+        "command": "basin-full.sav",
+        "response": "Ok.\n\n>",
+        "raw_start": 18540,
+        "raw_end": 18546,
+        "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+        "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "name": "basin-full",
+          "reason": "Explicit service-timeout recovery"
+        },
+        "review_status": "unreviewed"
+      },
+      {
+        "event_id": "savoir-faire-5a89e6c8ff:e00006",
+        "timestamp": "2026-09-25T03:28:55.957986+00:00",
+        "game_id": "savoir-faire",
+        "session_id": "savoir-faire-5a89e6c8ff",
+        "branch_id": "b3",
+        "event_index": 6,
+        "event_type": "command",
+        "command": "look",
+        "response": "\nScullery\nA small, workmanlike room with a floor of white stones. The principal features \nof the room are a counter, with a large inset washbasin also made of stone, and \na tall wooden cupboard.\n\nOn the countertop are a loaf of stale bread and a sack (in which is a single \nyellow onion).\n\n>",
+        "raw_start": 18546,
+        "raw_end": 18837,
+        "response_sha256": "27ca58ff1372db1ac1e034297dd98da26f406e69cac0a06a8e929f6931da38df",
+        "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "recovery",
+          "intent": "Observe restored location"
+        },
+        "review_status": "unreviewed"
+      }
+    ],
+    "raw_spans_verified": true
+  }
+}

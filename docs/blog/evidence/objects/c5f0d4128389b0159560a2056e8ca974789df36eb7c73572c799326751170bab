@@ -1,0 +1,24 @@
+{
+  "event_id": "bronze-edcd114f65:e00872",
+  "timestamp": "2026-09-25T04:40:59.675007+00:00",
+  "game_id": "bronze",
+  "session_id": "bronze-edcd114f65",
+  "branch_id": "b1",
+  "event_index": 872,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 482401,
+  "raw_end": 482401,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have restored the King and freed his servants ***",
+    "evidence_event_ids": [
+      "bronze-edcd114f65:e00854"
+    ],
+    "notes": "Walkthrough end branch (GO TO BEAST/RING GONG/KISS→Branch 2→RING GONG -> end) executed: gong freed servants, affection restored Beast to a man of 45 with girdle/Yvette reckoning, contracts stamped PROPERTY OF THE LIE LIBRARY and dissolved, then victory banner plus Inform RESTART/RESTORE/QUIT menu halting play. Not death (no demise text), not quitting (no QUIT issued; menu is post-victory), not intermediate score or chapter transition (no onward prompt, contracts arc resolved). Bleak parting tone is the author-intended conclusion."
+  },
+  "review_status": "unreviewed"
+}

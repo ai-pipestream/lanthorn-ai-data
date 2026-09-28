@@ -1,0 +1,262 @@
+{
+  "at": "2026-09-25T09:12:09.882179+00:00",
+  "game_id": "time-all-things-come-to-an-end",
+  "manifest": {
+    "game_id": "time-all-things-come-to-an-end",
+    "title": "Time: All Things Come to an End",
+    "engine": "zvm-cli",
+    "story": "/home/krickert/if-games/zcode/tatctae.z8",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end-walkthrough.txt",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/time.sol",
+    "response_timeout_seconds": 180,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Complete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end.json",
+    "story_sha256_expected": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "dataset_split": "train",
+    "game_family": "time-all-things-come-to-an-end",
+    "collection_notes": "# Time: All Things Come to an End\n\nStory Z8 R7/970521. Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.\n\nComplete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.\n\nRandom safe codes, keystone eras and other placeholders must be resolved from live clues; never send #### or angle-bracket labels. The guide intentionally uses prior knowledge and restores: label hint-derived knowledge and failed attempts honestly, not as observations from the current path. Make an early safe checkpoint and milestone saves around hazards. Preserve sensible full-route progress without reproducing every optional death or wait. Apply the old SET WATCH work-around only if live evidence warrants it.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "release": 7,
+    "serial": "970521",
+    "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+    "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "started_at": "2026-09-25T09:07:06.833909+00:00",
+    "broker_guards": {
+      "fleet_session": 1,
+      "restart_timeout": 1
+    },
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+  },
+  "events": [
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00001",
+      "timestamp": "2026-09-25T09:07:06.833697+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\nPROLOGUE: BREAKTHROUGH\n\n\"Due to the circumstances and lack of developments in your project so far, your \ncontract will be terminated, effective immediately.\"\n\nThat's what he said. Some stupid corporate moron sitting in his office, wearing \na daft suit and DigiCorp Technologies tie. Years of work, dozens of failed \nexperiments, all the effort, simply to be phased out by a bunch of stupid \ncompany directors. As you stand alone in your laboratory, thinking about what \nmight have been, you feel desolate. If only the blasted machinery would work!\n\n[Press SPACE to continue]",
+      "raw_start": 0,
+      "raw_end": 576,
+      "response_sha256": "6a9e2733168ec91a66a427ebdfbf1b9fa4deae42289c90836d44448e111f1cd5",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00002",
+      "timestamp": "2026-09-25T09:07:14.792299+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": " ",
+      "response": "\n\n\nTIME\n\"All things come to an end\"\nAn original piece of Interactive Fiction\nCopyright (c) 1996, Andy Phillips\nRelease 7 / Serial number 970521 / Inform v1502 Library 5/12\nStandard interpreter 1.1\n\nLaboratory\nThe lab is a complete shambles. Hurriedly stacked pieces of paper make your \nworkbench in the centre of the room totally unrecognisable. Steps lead up to \nthe rooftop, the lab storeroom is to the north, and the exit from the \nlaboratory is to the south. In one corner of the lab is the result of what is \nin effect your entire life's work, the translocation machine.\n\n>",
+      "raw_start": 576,
+      "raw_end": 1154,
+      "response_sha256": "fbbdb5001a49c0b5ba17ae4b3134ff2fb12ea6821b47488e3e419b5fbdb3d991",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "startup-01",
+        "intent": "Advance past prologue SPACE pause",
+        "origin": "exploration",
+        "expected_outcome": "Next prologue text or prompt"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00003",
+      "timestamp": "2026-09-25T09:07:20.198943+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1154,
+      "raw_end": 1168,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-lab"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00004",
+      "timestamp": "2026-09-25T09:07:20.500288+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "start-lab.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/time-all-things-come-to-an-end/saves/tatctae.z8.save/start-lab.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1168,
+      "raw_end": 1305,
+      "response_sha256": "4406fef779de1ad864cc9a2ed1c31e9f84199ae9ed7cf1b65d44c67385be616f",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-lab"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00005",
+      "timestamp": "2026-09-25T09:07:28.009936+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying nothing.\n\n>",
+      "raw_start": 1305,
+      "raw_end": 1333,
+      "response_sha256": "7018e2ddea82132c655199c6e5d0e9fafcf7599bcc97bdc6eb48b4a461930d56",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "lab-inventory",
+        "intent": "Check starting inventory",
+        "origin": "exploration",
+        "expected_outcome": "List carried items"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00006",
+      "timestamp": "2026-09-25T09:07:34.019118+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "examine machine",
+      "response": "The machine consists of various components, stuck together in a rather mishap \nfashion (practical work never was your strong side), the largest being a \nplatform at the base of the machine. Other prominent features include a panel \nto one side and a large red button. You wrote down all the details in your lab \nnotebook, if only you could find the thing.\n\nThe lights in the room flicker briefly.\n\n>",
+      "raw_start": 1333,
+      "raw_end": 1732,
+      "response_sha256": "9845f0dffae5b59f5dbf88f6ec022567b12547601a2efdc4409b8cad44fa3012",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "lab-examine-machine",
+        "intent": "Inspect the translocation machine",
+        "origin": "exploration",
+        "expected_outcome": "Description of machine and controls"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00007",
+      "timestamp": "2026-09-25T09:07:37.474953+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "examine workbench",
+      "response": "That's not something you need to refer to in the course of this game.\n\n>",
+      "raw_start": 1732,
+      "raw_end": 1804,
+      "response_sha256": "cebb519bda7dadc500a62dfeef2cda62acce30593c3e5fb94d686b7a304ee6fb",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "lab-examine-workbench",
+        "intent": "Look at workbench and papers for notebook",
+        "origin": "exploration",
+        "expected_outcome": "Find notebook or clues"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00008",
+      "timestamp": "2026-09-25T09:07:41.231954+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "search papers",
+      "response": "Buried under the various notes you find your laboratory notebook. You pick it \nup, hoping its potentially valuable information will be of some use.\n\nFrom outside the building comes the muffled sound of thunder.\n\n[Your score has just gone up by one point.]\n\n[Score 1, up 1]\n>",
+      "raw_start": 1804,
+      "raw_end": 2078,
+      "response_sha256": "603bbcfe5ad645f85d812a837c4a254ee10e195e801e65baa1a9a555cb45029c",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "lab-search-papers",
+        "intent": "Find lab notebook among papers",
+        "origin": "exploration",
+        "expected_outcome": "Find notebook"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00009",
+      "timestamp": "2026-09-25T09:07:50.997396+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 9,
+      "event_type": "command",
+      "command": "peruse notebook",
+      "response": "That's not a verb I recognise.\n\n>",
+      "raw_start": 2078,
+      "raw_end": 2111,
+      "response_sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "read-notebook-syn01",
+        "intent": "Read the lab notebook for machine instructions",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Notebook contents shown"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00010",
+      "timestamp": "2026-09-25T09:07:55.655687+00:00",
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "branch_id": "b0",
+      "event_index": 10,
+      "event_type": "help",
+      "command": null,
+      "response": "",
+      "raw_start": 2111,
+      "raw_end": 2111,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "engine_state": "unchanged",
+      "metadata": {
+        "help_trigger": "stuck",
+        "reason": "Tried 'peruse notebook' to read lab notebook for machine instructions but verb not recognised. Need guidance on correct verb to read notebook and early lab steps.",
+        "related_event_ids": [
+          "time-all-things-come-to-an-end-fad9ab092f:e00009"
+        ],
+        "topic": "laboratory notebook read",
+        "hint_source": "https://ifarchive.org/if-archive/solutions/time.sol",
+        "line_start": 21,
+        "line_end": 29,
+        "hint_text": "X picture\n(this picture does not appear\n to be important to the game)\nS. X machine\nOpen panel. Drop screwdriver\nRead lab\nConsult lab on machine\nConsult lab on project\n(you are living in the year 1997)",
+        "source_kind": "walkthrough_not_player_observed"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "note": "Actual local story/header and startup/early raw span/text/SHA verified; only confirmed SAVE establishes checkpoint. Preserve guide version and port gaps."
+}

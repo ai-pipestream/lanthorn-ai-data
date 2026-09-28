@@ -1,0 +1,10 @@
+# Gerbil Riot progress (continuation checkpoint)
+
+Location: Secret Room north of Johnson cell (e00070 north via secret door; e00076 key taken, e00074 ink taken).
+Inventory (observed): syringe (e00011), picture (e00029), milk-bottle top (e00044 take bottle), garlic (e00049), blanket worn (e00055 put on), bottle of ink (e00074 take bottle), small key (e00076 pick up key).
+Checkpoints: start-treatment, after-picture.
+Pending: none (m0074 annotation e00077 verified).
+Cases: ~20 annotated; unresolved: cupboard-open-locked e00013.
+Last hints: e00072 lines 45-53 far-ahead (West West West Up Up North East North Unlock cupboard with key LoIn Take copper Make battery... Spill ink Give tissue) — off-topic jump, need refine for immediate south route; e00043 earlier route to push wall done.
+Next: checkpoint secret-room at ordinary prompt, then south south west route back toward Treatment cupboard, probe unlock wording, keep collecting varied probes toward money/guard + east exit ending.
+Game incomplete, no finish claimed.

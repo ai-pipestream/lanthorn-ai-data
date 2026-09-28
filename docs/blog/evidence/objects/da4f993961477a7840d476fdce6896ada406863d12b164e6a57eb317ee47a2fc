@@ -1,0 +1,419 @@
+{
+  "at": "2026-09-26T10:47:46.147531+00:00",
+  "remote": {
+    "cm5ai1": {
+      "clients": [],
+      "states": {
+        "all-roads": {
+          "state": {
+            "pid": 402965,
+            "state": "segments_exhausted",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "schooldays": {
+          "state": {
+            "pid": 374453,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "asylum": {
+          "state": {
+            "pid": 109688,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "mother-loose": {
+          "state": {
+            "pid": 115974,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "frozen": {
+          "state": {
+            "pid": 404498,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/frozen-1790385127685162307"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/frozen (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=d689c25d-d14a-4e2c-82d3-1d8d143f508f]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "spiritwrak": {
+          "state": {
+            "pid": 405921,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/spiritwrak-1790385179995786406"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/spiritwrak (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=60557ce4-be22-45e1-bc2c-1ead6d1cf85b]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        }
+      }
+    },
+    "cm5v1": {
+      "error": "TimeoutExpired"
+    },
+    "cm5v2": {
+      "error": "TimeoutExpired"
+    },
+    "krickert@cm5v3.local": {
+      "clients": [],
+      "states": {
+        "vindaloo": {
+          "state": {
+            "pid": 72816,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "i-0": {
+          "state": {
+            "pid": 72818,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "bofh": {
+          "state": {
+            "pid": 254904,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/bofh-1790385215215863679"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/bofh (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=c7ef9214-c48b-480b-b403-3497be1f1b95]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "gerbil-riot": {
+          "state": {
+            "pid": 72817,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790328606140894416"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/gerbil-riot (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=2e8238bb-d7ce-4a3d-a61c-a5846f7f2847]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n"
+        },
+        "dash-slapney-patrol-leader": {
+          "state": {
+            "pid": 217329,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "lecture-feature": {
+          "state": {
+            "pid": 252416,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/lecture-feature-1790385247795095962"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/lecture-feature (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=729416ac-b12d-4172-8d06-45337231c17b]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "believable-adventures-invisible-man": {
+          "state": {
+            "pid": 79227,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "gourmet": {
+          "state": {
+            "pid": 253681,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/gourmet-1790385280215930870"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/gourmet (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=5228acf9-0708-4a18-999a-f875d5bc04cd]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        }
+      }
+    },
+    "pi500p": {
+      "clients": [],
+      "states": {
+        "beyond-the-tesseract": {
+          "state": {
+            "pid": 34993,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "tube-trouble": {
+          "state": {
+            "pid": 4383,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "fine-tuned": {
+          "state": {
+            "pid": 282682,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/fine-tuned-1790385124810981034"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/fine-tuned (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=9a57a01d-87c7-48ec-bea9-0423b0957e89]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "slacker-x": {
+          "state": {
+            "pid": 4381,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "splashdown": {
+          "state": {
+            "pid": 282874,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/splashdown-1790385254198795757"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/splashdown (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=16a09a39-d7b2-4620-a3bf-26fcd026a191]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "gumshoe": {
+          "state": {
+            "pid": 284874,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/gumshoe-1790384462581045682"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/gumshoe (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=8aeaa0d7-0567-4672-990f-294a6dccefd4]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "mortlake-manor": {
+          "state": {
+            "pid": 286666,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/mortlake-manor-1790385209325816119"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/mortlake-manor (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=5999052d-4c38-4315-afbb-7e7a5fbe6525]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        }
+      }
+    },
+    "pi5ai1": {
+      "clients": [],
+      "states": {
+        "alias-the-magpie": {
+          "state": {
+            "pid": 305678,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/alias-the-magpie-1790385082833775983"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/alias-the-magpie (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=62b74e9a-ac55-42b6-85bb-ba488fd5fb80]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "heroines-mantle": {
+          "state": {
+            "pid": 309298,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790385053334580832"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/heroines-mantle (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=0a68877c-19b9-4bfa-8998-77c9cfe4cb41]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "hla-inform": {
+          "state": {
+            "pid": 303511,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "return-to-karn": {
+          "state": {
+            "pid": 310710,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/return-to-karn-1790385191091430809"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/return-to-karn (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=01f570ff-86b6-40e8-b605-fabb00940aa4]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "kook-u": {
+          "state": {
+            "pid": 40803,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        }
+      }
+    },
+    "krickert@pi5ai2p.local": {
+      "clients": [],
+      "states": {
+        "a-remote-problem": {
+          "state": {
+            "pid": 392538,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "pick-up-the-phone-booth-and-aisle": {
+          "state": {
+            "pid": 152032,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "bse": {
+          "state": {
+            "pid": 172657,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "bedlam": {
+          "state": {
+            "pid": 172658,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "underoos-that-ate-new-york": {
+          "state": {
+            "pid": 224216,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "zuni-doll": {
+          "state": {
+            "pid": 131169,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "traffic": {
+          "state": {
+            "pid": 180420,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "only-after-dark": {
+          "state": {
+            "pid": 131167,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "busted": {
+          "state": {
+            "pid": 430238,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/busted-1790385226970225050"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/busted (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=84393380-7209-4a14-a74c-e1320b25848f]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "inside-woman": {
+          "state": {
+            "pid": 431612,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/inside-woman-1790385069907552971"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/inside-woman (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=2d8d80dc-848f-49d1-96c9-178eaa787d61]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "dracula-prince-of-darkness": {
+          "state": {
+            "pid": 431541,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790385167211939918"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/dracula-prince-of-darkness (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=2d1fa548-02b1-4758-8b7b-f1d830f87fc7]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        }
+      }
+    },
+    "pi5v2": {
+      "clients": [],
+      "states": {
+        "augmented-fourth": {
+          "state": {
+            "pid": 358158,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/augmented-fourth-1790384874542850764"
+          },
+          "pending": [],
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/augmented-fourth (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=a30048b0-e36d-4445-afd0-da25946398b6]: Subscription quota exhausted. Your usage window resets at 2026-09-28T00:00:00Z. (rate_limit_error)\n"
+        },
+        "space-station": {
+          "state": {
+            "pid": 113069,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "save-princeton": {
+          "state": {
+            "pid": 143448,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "earth-and-sky-episode-1": {
+          "state": {
+            "pid": 346036,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "ghost-train": {
+          "state": {
+            "pid": 143449,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        },
+        "deephome": {
+          "state": {
+            "pid": 340539,
+            "state": "finished",
+            "exit": 0
+          },
+          "pending": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "event_id": "suveh-nux-0a645cbebf:e00276",
+  "timestamp": "2026-09-25T02:21:17.648693+00:00",
+  "game_id": "suveh-nux",
+  "session_id": "suveh-nux-0a645cbebf",
+  "branch_id": "b0",
+  "event_index": 276,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 29396,
+  "raw_end": 29396,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "    *** You have escaped ***",
+    "evidence_event_ids": [
+      "suveh-nux-0a645cbebf:e00269",
+      "suveh-nux-0a645cbebf:e00270",
+      "suveh-nux-0a645cbebf:e00271"
+    ],
+    "notes": "Genuine winning ending, not death/quitting/chapter change. e00269: pull block frees it (+10%) and crawl through hole into freedom, [Press a key]. e00270: keypress reveals concluding narrative (master found bound/gagged, freed, gives praise and thanks) followed by the author banner *** You have escaped *** and 'scored 99% in 198 turns'. e00271 FULL breakdown totals 99/100 with all main points (20 crack, 10 escape, 5 creature); the single missing point is the optional third Easter egg (2 of 3 found). Escape banner plus master-rescued scene is the intended conclusion."
+  },
+  "review_status": "unreviewed"
+}

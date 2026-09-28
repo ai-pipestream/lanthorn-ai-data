@@ -1,0 +1,46 @@
+# Fullplay supervision
+
+Bounded review completed 2026-09-25T07:35:53.720285+00:00; fixed case cutoff 2026-09-25T07:28:01.792774+00:00.
+
+**120 annotations across 50 games: 99 accepted, 19 revise, 2 quarantine.** Both endpoints and 735 distinct nearby/intervening raw spans matched bytes/SHA and exported commands/responses/branches. No selected mismatch. The Christminster gate comparison explicitly crosses a restore into b1; it is historical prerequisite evidence, not a same-state wording repair.
+
+Current export: **3138 unique annotations; 1675 accepted, 434 revise, 82 quarantine, 947 unreviewed.** Counts use annotation identity and exact unique endpoint sets; cached CSV status may lag. Unreviewed rows remain unapproved.
+
+## Provider hold
+
+All 34 client failures are documented in parent receipt control/provider-quota-hold-20260925T0728.json. I independently verified local 10 stderr hashes, quota429/reset messages and exit1 markers. Remote 24 stopped-client evidence remains parent-receipt evidence; I did not contact/retry them.
+
+Both launch settings are disabled. All 34 parent-named broker PIDs still exist, and central inboxes have no pending requests. Current local process snapshot is in status JSON; existence of a broker process is not a fresh engine-response test.
+
+Provider reset is announced for **07:40:45Z**, not independently proven future availability. Parent owns the post-reset canary and resumption. No retry, game input, reset or launch was sent by this review.
+
+## New independently verified conclusions
+
+Historical total **40**, preserving all prior 38.
+
+- **Space Station R2/040130**, space-station-b15ae148d4 b0 e00237 WAIT: after form insertion, scooter departs with Fussbudget, reactor is seen going critical from safety, explicit win23/23 and final menu. Raw32552:33678, SHA ee7782a907378d2424841dcac823536f5132f6886d290bd5f19537cf61eb7648. Claim e00239. The game's invitation to check for a next version does not extend this verdict beyond the captured release.
+- **Mother Loose R2/981128**, mother-loose-608208fd92 b1 e00182 Z: after mother reunion and departure agreement, Humpty's episode resolves and mother/child/kitten go home, with happily-ever-after and THE END. Raw51528:54055, SHA d056ff98046982b026f494a1e78a6eb93e7e53c0eff112aadea49fa778aa4517. Claim e00188. Score50 alone was not used as proof.
+
+Both story headers/SHA and raw surrounding events were independently checked. Guides name no exact target release. No maximal-content or exhaustive-case claim. Later unverified claims: none at this snapshot.
+
+## Pair quality
+
+Quarantined: LEARN FROTZ presented as successful spell use; failed EAST paired with WEST to a different destination in Curses. Neither is a verified same-action correction. Separate explicit planning/prerequisite examples may be retained with corrected intent labels.
+
+Revisions include accepted commands whose broader goals remain unmet (powering a computer that immediately shuts off, yelling without attracting help, selecting a menu action blocked by missing chip), wrong syntax-error labels on physical refusals, score notifications conflicting with status displays, and unsupported light-budget/impossibility claims. Generic confirmations need command/context; no standalone retrieval answer is inferred.
+
+Observed state repairs remain distinct from wording repairs: glue before Toyshop assembly, bracelet before restricted access, adapter before power, rock strike before entering Edifice. Source guidance is not execution evidence.
+
+## Narrow checkpoint fix review
+
+Read-only checks against source SHA f10b5bb9b70372b69398038a21b365420635238fcd44538fc2075f5fa9d1b134 and parent receipt0732 confirm both SAVE halves must be clean, manual exclusions work, delayed targets are excluded, and a preceding nonempty timeout prevents selection. Correct Anchor e174 and Savoir e86 saves still selected. The parent receipt's source/test hashes match. No fixture-writing tests or engine actions were run.
+
+One **P2 edge remains** at scripts/recover_broker.py:23: the truthiness test on command skips an empty Enter input. An empty-command timeout followed by clean-looking SAVE/filename is still selected in an in-memory reproduction. Detect command-is-not-None (or explicit input event types), and test empty-keypress timeout history. No currently verified checkpoint is invalidated by this example.
+
+## Preserved historical boundaries
+
+All prior ending receipts and reviews remain in status JSON. So Far e1409 remains source guidance; later b28 raw low-plooping transition and separate b30 ending are observed. Anchor/Savoir metadata corrections cite actual SAVE rather than later RESTORE; immutable journals preserve original mis-citations.
+
+Prior delayed Zork/menu chains and failed Delusions startup restore remain quarantined. Library Front's ending body is verified while its stale tail is excluded from clean pairing. Spider's winb19 precedes restoreb20; Only After Dark's winb2 precedes later restores. Nine Points is a sample, Slacker X an installment, and Slouch's gallows/Logos ending is not containment. Exact release gaps and non-maximal-content limits remain.
+
+Bounded pass complete. Only three owned review files changed. No gameplay, launches, training, evaluation or publication.

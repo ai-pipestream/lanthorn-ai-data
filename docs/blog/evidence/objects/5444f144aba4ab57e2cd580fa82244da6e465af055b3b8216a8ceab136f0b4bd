@@ -1,0 +1,22 @@
+{
+  "game_id": "905",
+  "title": "9:05",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/905.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/905-walkthrough.txt",
+  "walkthrough_url": "https://jayisgames.com/review/905.php",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions. Multiple endings exist; pursue a full non-arrest escape route after the morning sequence. Do not stop simply by waiting for the bonus timeout or reaching a failure ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/905.json",
+  "story_sha256_expected": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+  "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+  "dataset_split": "train",
+  "game_family": "905",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "120724",
+  "session_id": "905-0674f2e54c",
+  "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+  "started_at": "2026-09-25T02:35:02.271114+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

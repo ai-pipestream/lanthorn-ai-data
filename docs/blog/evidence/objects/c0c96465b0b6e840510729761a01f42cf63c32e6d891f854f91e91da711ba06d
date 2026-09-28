@@ -1,0 +1,9 @@
+# Not Just A Game — progress
+
+State: Cube hole-room-2 (south end, with hole down to Rocky), via U from Rocky (e00147). Branch b0. Score 10.
+Route: fuse retrieved e00136 (score 10), checkpoint after-fuse confirmed e00137/e00138. W to Rocky e00143. N to white-cube room e00144, S back e00145. Inventory e00146: steel rod + chewed gum on it, electrical fuse, black cube, red ball, business card, gold stone, booklet, matchbook (3). Plate featureless e00140. E to Brass Room (brass sphere on stand) e00141, W back e00143. Help e00142 (lines 33-41): PUT FUSE IN SOCKET, PRESS GREEN, crucible/ingot sequence. Socket location unresolved; U to hole-room-2 e00147 to trace EEEE/D/S route.
+Cases (~39): + brass-west, rocky-north/whitecube-south, fuse-inventory, rocky-up moves; gum-rod-stick annotated e00135. Unannotated successes: ball-open e00129, gum-take e00130, fuse-fish e00136, plate-examine e00140, etc.
+IN-FLIGHT: nothing. Next: explore E from hole-room-2 toward socket; update counter. Inbox at m0141; next new file is inbox/m0142.json.
+Last hint (e00142): E U EEEE D S PUT FUSE IN SOCKET PRESS GREEN ... (walkthrough, not observed).
+Checkpoints: start-living-room, before-safe, after-lever, after-capture, after-fuse (all confirmed). Game incomplete: socket/crucible/ingot, crystal/spheres ahead.
+Inventory (observed e00146): rod+gum, fuse, black cube, red ball, card, gold stone, booklet, matches(3).

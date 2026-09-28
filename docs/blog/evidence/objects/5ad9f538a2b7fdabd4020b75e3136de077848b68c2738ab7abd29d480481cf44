@@ -1,0 +1,12 @@
+# Mortlake Manor — collection progress (STOPPED, game incomplete — continuation run needed)
+
+- Session: mortlake-manor-e0475539fe, branch b0, event e00060
+- Location: Middle of the Front Garden (statue W; paths S/E). Ordinary prompt confirmed.
+- Inventory (observed): twisty branch (`Taken` e00048). Nothing else.
+- Pending (UNVERIFIED): inbox/m0058.json (checkpoint "garden-middle") — response not read; confirm on resume.
+- Full outdoor map: road loop, manor loop, garden paths, glade (dead end), oak (branch taken), river bank (dead end), French Windows + hedgemaze/fountain entrance (E, unentered).
+- Cases: 1 route-opening; 2 doorbell-synonym (vocab, annotated e00015); 3 enter-manor (blocked e00017); 4 statue-key (`move figleaves` no-op e00022; `search statue` no-interest e00059); 5 search-grounds (scenery unimplemented e00032/33/35/41); 6 backdoor-entry (locked e00029; `unlock door` quirk e00030); 7 twisty-branch (accepted e00048, annotated e00049); 8 gold-key OPEN.
+- Key finding: statue ruled out as key site. Suspect hedgemaze dead-end E of French Windows.
+- Last hint: m0040/e00043 — gold key at dead-end exiting east (walkthrough, NOT observed).
+- Resume plan: confirm garden-middle checkpoint; go E (manor front), E (NE corner), S (French Windows); checkpoint; enter maze E; map maze dead-ends for gold key; `get key`; back to Back Door; `unlock door with key`; N; annotate backdoor-entry + enter-manor repairs.
+- Checkpoints: start-road, manor-front (confirmed); garden-middle (pending).

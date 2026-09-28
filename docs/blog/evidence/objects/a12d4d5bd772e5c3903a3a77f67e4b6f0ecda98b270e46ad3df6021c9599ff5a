@@ -1,0 +1,51 @@
+# The Edifice — collection progress (SEGMENT 2, in progress)
+
+## Current state
+- Location: At the Tree (era 1). Snapped Dead Branch into Stick + Log;
+  carrying Stick (e00359). Log + twisty branches + twigs left at tree.
+- Inventory (carried): Purple Paste, White Bark (feverleaf picture), Bone,
+  Useful Rock, Stick. (Handful of grass dropped in Canyon as failed bait.)
+- Hunger timer fired: 'beginning to feel rather hungry' (e00359). Food
+  needed soon: era-2 berries (Forest Path bush, may regrow) or eat paste?
+- Score: 'visited two levels, solved one' (level 1 unsolved; level 2 =
+  son cured; level 3 = horse, in progress).
+
+## Branch solution (verified in play)
+- 'break branch' refused: smaller branches in way (NOT wording — 'break
+  branch in half' failed identically before stripping).
+- 'pull branches' ambiguous (twisty vs Tree); 'pull twigs' partial;
+  'strip twisty branches' refused; 'hit branch with rock' blocked too.
+- Correct: 'pull twisty branches' (side branches off) then 'break branch
+  in half' → Stick + Log. Matches recording lines 68-76.
+- Recording then: 'throw stick at beast' (x2), 'follow beast',
+  'beast, hello', 'attack beast' (lines 77-85) — purpose unclear.
+
+## Horse puzzle attempts (all failed; case 33 open)
+- ride (no easy mount + unwilling), pet (won't let near), offer paste /
+  grass (unaware), drop-grass bait + wait (ignored), tame/chase/catch/
+  mount (not verbs), follow (right here), wait+pet (no), hide (no place),
+  climb wall (too high). get all: nothing in Canyon/Path/Village.
+- New lead: STICK. Uses? Vault onto horse? Goad? Mounting pole? Test in
+  Canyon next. Also test stick on Beast ('throw stick at beast' per rec).
+
+## Era-1 map corrections
+- Near Arch: SE invalid; east → Open Grassland (Beast). Chain: Open
+  Grassland →N→ By Stump →N→ Pool →N→ Tree. Rapids east of Stump; Pool
+  NW of Rapids. NEW: Muddy Spring NW of Open Grassland (spring source).
+- Overlook north = death-flavored refusal, harmless respawn (e00281-82).
+
+## Checkpoints
+start-at-edifice, recess-open, grassland-arch, thirst-quenched-pool,
+level-two, era2-hut-clearing, got-feverleaf-stem, son-cured, level-three.
+
+## Cases (34 annotated; 1 open)
+- 34 branch-break-half: planning, success (strip then break in half).
+- 33 horse-ride-wild: OPEN (e00273 probe; needs successful ride).
+- 01-32 as before.
+
+## Next
+1. Examine stick; try 'throw stick at beast' near Beast (recording);
+   try riding Beast again with stick (vault?).
+2. Carry stick to Canyon; try vault/mount/throw at horse.
+3. Eat soon (berries era 2 or paste) before hunger worsens.
+4. Checkpoint after next milestone.

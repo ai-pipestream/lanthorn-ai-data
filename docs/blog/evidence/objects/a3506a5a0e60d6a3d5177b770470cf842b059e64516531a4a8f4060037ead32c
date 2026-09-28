@@ -1,0 +1,10 @@
+# Progress — danger-adventurer-at-work
+
+Location: Booth street east (long street + phone booth + farm track N). Rope taken, exited booth.
+Inventory: head + rope (take rope OK e00035; sausage missing — only head listed at e00028, note loss).
+Checkpoints: early-pub; street-after-window.
+Cases done:
+- pub-stool typo vocab; pub-break-window none; pub-take-stool none; pub-exit none; street-go-east none; street-take-head none; booth-take-rope vocab grab->take (e00034->e00035); booth-enter/booth-exit accepted (enter booth e00033, leave booth e00037 — need none annotations).
+- pub-door-open pending (open->open door What with; window was true exit).
+Hints: lines 1-9 verified; lines 10-18: take head/e/go booth/take rope/out.n.e/take torso/take bull/w.s.e.s — verified through take rope; now at out (leave booth worked).
+Next: n then e toward torso/bull; milestone checkpoint after torso/bull; then request next excerpt.

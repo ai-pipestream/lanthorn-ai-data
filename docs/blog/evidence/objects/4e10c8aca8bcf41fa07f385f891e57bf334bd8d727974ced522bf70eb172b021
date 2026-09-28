@@ -1,0 +1,56 @@
+# Seg23 OPEN (b39) — Maze/observatory/attic verified Day3; safe still locked. GAME INCOMPLETE.
+
+Seg23 so far (m1697-m1710): b39 Library score 40 baseline (m1697: lantern lit in hands, 2 matches, no towel); Study→SW→SW maze route re-verified (m1698); NEW cases: b39-hole-peek vocab (peek rejected→look, m1699-1701) and b39-telescope-typo vocab (telscope→telescope, m1705-1707); hole-2 still darkness Day3 (m1702); Observatory identical Day3, charts=comet tonight, telescope shows maelstrom (m1703-1708); checkpoint observatory-day3 confirmed (m1704); SE→crawlspace→attic, north door open, Attic Cell empty (m1708-1710).
+Next: restore library-assault-day3; hunt R5 safe combo source (examine dial closely, obelisk, newspaper, crypt coffins Edward/William, Day2 north sweep for triples). Disk path = safe→puzzle box→Cauldron proprietor (m1222 hint). Maze maps: Study SW→SW(hole1 sitting rm)→NW(hole2 dark)→SW→SE(Observatory)→SE(crawl)→E(attic); return via down→Upstairs Hall. Mill Narrow-Aisle maze is SEPARATE (mill-before-maze save).
+Checkpoints: +observatory-day3 (Observatory score 40). Unresolved: safe combo (28 fails); church padlock; wine Secret Door (needs towel); Sonia dual-birth.
+Seg23 cont (m1711-m1718): restored library-assault-day3→b40; dial examined (1-60, at 35, m1712); newspaper = Greer/Edward lore no digits (m1712); slip/armchair/pipe-stand dead ends (m1713); restored records-chain-day3→b41; Death sweep: Croseus d.Mar11-1651, 1997 deaths (Julia/Gertrude/Sonia Jan10, Edward Mar14), surname too broad (m1715); Birth sweep: Croseus foreign-born no cert, 1997 births none (chain ends Edward), Ward=Julia May4-1964 (m1716); xcheck: Julia/Gertrude/William consistent name-vs-year, ONLY Sonia anomalous (Oct8 name vs Nov18 year) (m1717). Walkthrough m1718 (lines 365-373): kitchen matches, cellar secret door, Windy passage kills torch(flashlight), PUB LANTERN survives pit wind, cross pit footprint-side, DOWN stairs to Burial Mound in darkness. Mob kills bridge-crossers Day3 (m1511-12 evidence). Lineage lacks amulet/flask/towel — endgame reqs TBD via help chain.
+Seg23 cont2 (m1719-m1731): walkthrough m1719 (lines 374-382): mound finale = show ring, PUT AMULET ON MIKE (exorcise Croseus), cover flute holes+blow timed (Mike dies if slow, partial 65/80; note walkthrough max 80 vs our 100). Sewer bypass PROVEN Day3: BirthRec→square→Riverwalk→down→UnderBridge→door→shaft→down→Sewer→N→Dripping→N→Broken→up→Outflow→E→Beach→W→Alley→NW→Office→W→Narrow (m1720-24); checkpoint narrow-day3-bypass (m1725). Twisting Lane west loops Day3, NO graffiti event, aperture unfindable (m1726-28) → CAULDRON/AMULET UNREACHABLE Day3. Lane exit = SOUTHWEST (est. b29 m1303, reused m1730). Pub Day3 empty: table nothing, bar plain, lanterns scenery (m1730-31) vs Day2 pub (workers + table lantern m0482). William coffin = animal bones, no child (m0624). 2c1c lineage NEVER had amulet/flask/towel (m1407 inventory = current). CONCLUSION: Day3 lineage cannot reach full ending (amulet+box-opening Cauldron-gated, safe locked). PIVOT: Day2 redo from day2-card-ready for amulet+flask+lantern+combo-hunt (office/church/mill/lighthouse/slaughterhouse/Cauldron), then sleep→Day3.
+Seg23 cont3 (m1732-m1750): day2-card-ready→b42/b44: bedroom score 5, card+flask+umbrella+2keys, pockets empty (m1733). day3-morning-dressed→b43: bedroom score 25, HAS towel/lockets/lantern/skull/broom/books/slip/card, LACKS amulet/flask/matches; Michael wanders south (m1735). Office files = keys only (m0051-55). 51ee lost amulet via BUM TRADE: skull-showdown then give amulet→copper key +5 +evening (m0643-46). b34 Day2 Cauldron template: office→pub→lane→graffiti→court→shop, amulet +5 (m1546-55); box/safe asks gated. b44 redo: flask=bootleg rotgut ✓ (m1737); Foyer→unlock house key→Outside→Scenic→Chilly (m1738-39); square NO mob Day2 +Herald (m1740); bridge CLEAR (m1741); pub patrons +table lantern (m1742); table empty (flask Day1), lantern blown out+taken (m1743); lane graffiti FIRED Day2 (m1744); NEW none-cases: b44-graffiti-spraypaint (m1745-46), b44-shopkeeper-amulet +5 (m1748-49); cabinet ask nothing, violin scenery (m1750). Checkpoint day2-amulet-cauldron (m1751).
+
+# Seg22 CLOSED (b39) — Library Day3 score 40, safe locked after 28 fails. GAME INCOMPLETE, continuation needed.
+
+Current: session anchorhead-9852cd5b9d b39 e00292 (m1696). Location: Library Day3 at safe (restored library-assault-day3). Score 40. Ring worn. Branch b39. Maze entrance verified: Study SW → Narrow Corridor e00288 (b38), then restored back to Library for clean handoff (m1693-96).
+Seg22 work (m1651-m1692): restored mill-before-maze→b37 Mill Floor score 36 (m1651-52); control bank lever+button no numbers (m1653); OPENED TIN: fish oil (m1654); silver locket oval tiny picture (m1655); 'examine tiny picture' can't-see (m1656); 'look at picture'→ambiguous woman's/boy's (m1657); both viewed (m1658), annotated ambiguity m1659; restored records-chain-day3→b38 Death Records score 40 (m1660-61); to Behind Church (m1662-65): 3 loose keys DON'T fit shiny padlock (m1666), padlock needs key (m1667); to Wine Cellar (m1668-71): bottles generic (m1672), racks nothing odd (m1673), bottles fixed (m1674), rack generic (m1675), wipe leaves marks (m1676-77), 'read bottles' labels faded/dusty few readable (m1678); to Library (m1679-80); SAFE ASSAULT 12 fails: D-M-Y 26-4-60/11-3-51/18-10-34/16-12-2 (m1681-84), Y-M-D 60-4-26/51-3-11/34-10-18/2-12-16 (m1685-88), clippings 8-12-56/3-3-18/9-19-58/4-9-35 (m1689-92).
+Key finding: safe is NOT any chain pair (M-D-Y, D-M-Y, Y-M-D all fail), NOT clipping titles; 28 fails total. R5 combo source still unknown. Church needs unknown key; wine labels need towel (mill valve); mill floor has no visible numbers.
+Next (continuation): 1) Map maze from Study SW (no exits listed; prior saves suggest north-heavy route to ladder-room → mill side; walkthrough's next step, untimed now). 2) Day2 restore (day2-card-ready) north sweep for explicit triples: office files, pub, church plaques (unlocked Day2), lighthouse log, mill blueprints, slaughterhouse picture, Cauldron proprietor re-ask. Carry findings player-side back to library-assault-day3. 3) Crypt plates re-check with chain knowledge (low yield). Never replay m1576-79; no READ BOOK/CLIPPINGS/HELP menus (supervisor ban, transport faults).
+Checkpoints: library-assault-day3 (HERE, Library score 40), records-chain-day3 (Death Records score 40), library-safe-day3, sitting-room-day3, cellar-fuse-day3, day2-card-ready, library-day2-circulation.
+Unresolved: safe combo (28 fails, R5 source unknown); Sonia dual-birth (Oct8 vs Nov18 1995); church padlock key; wine Secret Door (needs towel from mill valve); Cauldron/disk Day3; Burial Mound Part 1 (needs flute+disk from safe).
+Last hint: m1618 lines 123-131 (safe dial, box+flute, fireplace, maze). Last evidence: e00292 score 40 Library.
+Annotations this segment (6): b36-birth-omitted syntax m1605; b36-death-synonym none m1608; b36-death-typo vocab m1612; b36-court-door-ambig world_state-fail m1623; b36-laptop-read none m1638; b37-locket-picture ambiguity m1659.
+
+Chain reference (m1626-m1632): Croseus d.Mar11-1651 → Wilhelm b.Mar11-1651 (d.Oct18-1734) → Heinrich b.Oct18-1734 (d.Dec16-1802) → Elijah b.Dec16-1802 (d.Jan30-1886) → Mordecai b.Jan30-1886 (d.Apr26-1960) → Edward b.Apr26-1960 (d.Mar14-1997). Others: William b.Jun22-1954 d.Sep18-1958; Anna b.Jun24-1936 d.Mar23-1962; Julia b.May4-1964, Gertrude b.Jul14-1988, Sonia b.Oct8-1995 (name) BUT b.Nov18-1995 (year lookup!) — all d.Jan10-1997. Safe fails (28): M-D-Y all 5 pairs + 6-28/60-6-28/6-2-8/6-22-54/9-18-58/6-24-36/2-27-19/53-57-2/1-7-8/53-57-27/19-53-57; D-M-Y all 4 dialable; Y-M-D all 4 dialable; clippings 8-12-56/3-3-18/9-19-58/4-9-35. 1-30-86 undialable; dial 1-60 no zero.
+
+# Current explicit checkpoint recovery
+
+{
+  "previous_session_id": "anchorhead-2c1c588159",
+  "checkpoint_event_id": "anchorhead-2c1c588159:e00174",
+  "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+  "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+  "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+  "session_id": "anchorhead-9852cd5b9d",
+  "branch_id": "b36",
+  "restored_at": "2026-09-25T07:12:45.230686+00:00",
+  "observed_event_id": "anchorhead-9852cd5b9d:e00006"
+}
+
+Supervisor 2026-09-25: Do not READ BOOK / historical overview, READ NEWSPAPER CLIPPINGS, or open optional in-game HELP/book menus. Repeated transport faults are confirmed. Use small broker help for relevant lore. Book/slip/clue text already observed is historical knowledge, not a reason to reopen menus. Restore library-safe-day3; do not blindly replay unsaved actions.
+
+Observed restored room:
+
+Library
+Whatever else their faults may have been, the Verlacs were evidently not ones 
+to shun the printed word. Books line the walls from floor to ceiling in this 
+dark-paneled, green-carpeted room, interrupted only by doorways to the east and 
+south. A rich, brown leather armchair sits in stately repose near the window, 
+with a polished brass pipe stand nearby completing the picture of some 
+blue-blooded country squire's literary refuge. Once again, you are struck by 
+how easily this place could have been the perfect home.
+
+A beautiful pair of mahogany sliding doors lead east, to the study.
+
+A section of the shelves in the western wall has slid to one side, revealing a 
+hidden safe.
+
+>
+Old progress is archived under session-history and is historical only. Read actual inventory/room and continue from the restored state. Never replay old pending requests; fresh unique request IDs only.

@@ -1,0 +1,22 @@
+{
+  "game_id": "theatre",
+  "title": "Theatre",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/theatre.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/theatre-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/theatre.step",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/theatre.json",
+  "story_sha256_expected": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+  "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+  "dataset_split": "train",
+  "game_family": "theatre",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "951203",
+  "session_id": "theatre-8533784a56",
+  "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+  "started_at": "2026-09-25T03:10:05.499488+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

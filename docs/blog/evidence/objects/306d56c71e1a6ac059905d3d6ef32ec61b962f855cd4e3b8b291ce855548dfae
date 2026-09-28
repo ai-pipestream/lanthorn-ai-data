@@ -1,0 +1,13 @@
+# Voodoo Castle progress (b2, branched 2026-09-25T02:24Z)
+
+Location: fresh restart (b2). b1 ended in death by DOWN in kettle dark hole (engine_exited, e00283).
+Status: game incomplete; replaying efficient route with established knowledge.
+Key banked facts (player-observed, not hints):
+- Shield protects tube pickup: GET TUBES with shield -> "O.K. One of the test tubes EXPLODED!" but alive (e00258). Without shield = death.
+- Tubes keep exploding every few turns even with shield; hurry after pickup.
+- Kettle: LOOK KETTLE reveals hole under it + soup present (e00265). GET/TAKE SOUP -> "I've no container" despite carrying pot (e00266/e00268). FILL/MAKE unknown vocab.
+- MOVE KETTLE reveals Dark hole object (e00275). READ PLAQUE gives safe combo 38 33 (e00281).
+- DROP IDOL while small is one-way: GET IDOL then fails "beyond my power" (e00282). GO HOLE after dropping idol -> "too dark" (e00277); ENTER HOLE -> "can't do that yet" (e00278); DOWN -> death in dark (e00283).
+- Walkthrough hints (NOT player-observed): move kettle on the way back; drop idol then enter hole; glass+plaque to read combo; rabbit's foot invisible in hole; safe TURN 38/33 for antique hammer.
+Next: b2 replay to kettle WITHOUT pre-dropping idol; try ENTER HOLE carrying idol light. If blocked, try dropping tubes/plaque/glass load or ENTER DARK HOLE variants.
+Checkpoints: SAVE unsupported on this engine; restarts only.

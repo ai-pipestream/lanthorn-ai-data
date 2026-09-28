@@ -1,0 +1,18 @@
+{
+  "game_id": "moon-shaped",
+  "title": "Moon-Shaped",
+  "url": "https://ifarchive.org/if-archive/solutions/Moon-Shaped.txt",
+  "accessed_at": "2026-09-25T05:43:49.566328+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/Moon-Shaped.txt",
+  "source_sha256": "4afc2bf1f82b3b8ee8303921c00674513ce277b42492a72ebf14d8a517d27acf",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/moon-shaped-walkthrough.txt",
+  "normalized_sha256": "4afc2bf1f82b3b8ee8303921c00674513ce277b42492a72ebf14d8a517d27acf",
+  "story": "/home/krickert/if-games/zcode/Moon-Shaped.zblorb",
+  "story_sha256": "6fd4335a00bc2c3a95fc2c0c39e731987b309616c71d7af821dda63fda291607",
+  "embedded_zcode_sha256": "8e9cb525e452fccc60b6c7dfab4e1968344ed89d42c27dbd7d2f82a03e2d1de4",
+  "compatibility": "Story embedded Z8 R2/080710. Jason Ermer annotated guide explicitly for Release2, serial unspecified. Guide documents8final outcomes. Aim for ending1: Rosalind, grandmother and father survive with curse lifted. Other intended finales must be identified as alternate outcomes, never misreported as best ending; ordinary early death is not completion.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 2,
+  "serial": "080710"
+}

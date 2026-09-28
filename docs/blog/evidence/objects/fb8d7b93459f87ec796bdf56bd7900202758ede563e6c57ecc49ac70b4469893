@@ -1,0 +1,75 @@
+{
+  "game_id": "gerbil-riot",
+  "title": "The Gerbil Riot of '67",
+  "author": "Simon Avery; Inform port by Duncan Cross",
+  "url": "https://ifarchive.org/if-archive/solutions/GerbilRiot.sol",
+  "accessed_at": "2026-09-25T06:02:02.391292+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/GerbilRiot.sol",
+  "source_sha256": "d516b110cf4c021c5cfffc14d8296857ec02b9c0a37cec340641f238ad16a80a",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/gerbil-riot-walkthrough.txt",
+  "normalized_sha256": "d516b110cf4c021c5cfffc14d8296857ec02b9c0a37cec340641f238ad16a80a",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/GerbilRiot.z5",
+  "story_sha256": "b285c5c896400784cfe1b50fa8715c9e2262a51fa1d0dc9b05afdefd839cfc2f",
+  "compatibility": "Duncan Cross guide requests release 2, matching local R2/000513; no guide serial stated. Archive identifies the Quill-to-Inform port. Guide also gives a conditional release-1 detour; use the observed release-2 branch.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "000513",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000246184619330a010a1e1828f2005030303035313300424d4b24a5000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "99cef711b9b751ff7b93cf6416187b82a23b26e514c289f0538fb1e9dd71e0ea",
+    "checksum_hex": "24a5",
+    "declared_length": 79148,
+    "file_bytes": 79360
+  },
+  "guide_release": 2,
+  "guide_serial": null,
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "GerbilRiot.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/GerbilRiot.z5",
+    "accessed_at": "2026-09-25T06:03:03.651117+00:00",
+    "remote_sha256": "b285c5c896400784cfe1b50fa8715c9e2262a51fa1d0dc9b05afdefd839cfc2f",
+    "local_sha256": "b285c5c896400784cfe1b50fa8715c9e2262a51fa1d0dc9b05afdefd839cfc2f",
+    "bytes": 79360,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "000513"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#GerbilRiot.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "GerbilRiot.z5\n◆\n[13-May-2000]\nIFDB entry\nIFWiki:\nThe Gerbil Riot of '67\nGerbil Riot, originally written by Simon Avery and\nported from The Quill to Inform by Duncan Cross.\nRelease 2 / Serial number 000513."
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#GerbilRiot.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "GerbilRiot.sol\n◆\n[03-Jun-2000]\nIFDB entry\nIFWiki:\nThe_Gerbil_Riot_of_'67\nSolution to Gerbil Riot, by Duncan Cross."
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the substantive escape route through the money/guard sequence and final east exit, then verify actual ending output. The guide's concluding congratulations is author commentary and must not be passed off as a game-output quote.",
+    "limitations": "Read the release-specific horn branch carefully. LoIn is guide shorthand for looking in a container; adapt only against parser output. Parenthesized amusement steps are optional.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "gerbil-riot",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Original Quill game and Inform port share game identity and should remain in the same family. No existing matching queue family found."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

@@ -1,0 +1,9 @@
+# Manual-menu recovery instruction
+
+The earlier take manual entered a manual menu, not the ordinary parser. It produced no output and could not be cleared with await_output. Parent has explicitly restored the confirmed start-office checkpoint in a new session. Read recovery.json and latest.json; old unsaved actions did not carry over. Do not duplicate old pending requests. Reuse puzzle knowledge but observe all current state. If a manual menu shows N/P/RETURN/Q, send q to leave the MENU before any ordinary command or SAVE. This q is explicitly menu exit, not quitting the game. Avoid reopening the manual unless needed; broker hints can help. Automatic timer checkpoints are disabled for this recovered session; save only at ordinary command prompts.
+
+# Collection notes
+
+Actual startup: Slouching Towards Bedlam competition R1/030925 by Star C. Foster and Daniel Ravipinto. Michael Martin guide explicitly describes five ambiguous endings and does not name a single right one. Complete one substantive author-intended ending after real investigation; record which ending and why final output supports it. A tragic ending can be intended; ordinary premature death/quitting is not enough. Do not blindly use the guide ending shortcuts to skip collection. Checkpoints/undo are potentially story-relevant: observe their actual effects and preserve provenance.
+
+Collect labeled synthetic human-like command variations, actual responses and same-intent recoveries. Ask for small hints through broker help. Do not read the full guide directly. Save at ordinary prompts when supported. All model labels remain unreviewed until independently checked. No training, application changes or publication.

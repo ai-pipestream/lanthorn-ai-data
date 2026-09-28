@@ -1,0 +1,7 @@
+# Jigsaw progress (update 50 — GAME COMPLETE, 100/100, Centurion)
+
+Location: Epilogue done. Final: Century Park, Black + Teddy Bear. *** You have won *** 100/100, 1364 turns, drawing 15/16, rank Centurion (e02396, branch b9).
+STATUS: COMPLETE. Ch16 solved this segment: (1) scree-avalanche root cause = multi-item "get all" after knock-over; single "get oval rock" with empty hands is safe (cache at Toll Gate). (2) Tree exchange on examine; felled tree = log bridge; grenade to southern bank. (3) Rabbit herded W-drop-rod/E/E/W/S across log bridge; sketched apes+rabbit. (4) Ticket-throw made apes hurl grenade east to Culvert web. (5) Spider sticky; caged woodpecker (rod TAMES it here, opposite of Adventure), released at web, grenade dislodged but stuck to hand; acid river dissolved glue (+1, 99). (6) Pin pulled, grenade in canal, explosion, Pyramid melted. (7) Epilogue: sketch book to Toby (Teddy Bear), cases, Black + bear = win (+1, 100).
+Cases: 84 annotated (83 woodpecker draw=sketch accepted none; 84 grab/catch vocabulary). No pending.
+Checkpoints: r3-epilogue-start, r3-ch16-grenade, r3-ch16-felled, r3-ch16-tree, r3-ch16-start, older. Next: m1457.json (finish).
+NEXT ACTIONS: submit finish with e02396 evidence.

@@ -1,0 +1,10 @@
+# Voodoo Castle progress (b2) — segment 3b, game incomplete
+
+Location: Chapel, branch b2 (Open Coffin; man confirmed via LOOK COFFIN e00607). Engine awaiting input.
+Status: cell escape solved (SAW DOOR e00571); endgame ritual still blocked on foot-on-Count. No checkpoints (SAVE unsupported).
+Inventory (e00575): knife, glowing idol (=lamp; WAVE LAMP accepted same as WAVE IDOL e00596-97), clover, pot, bag (opened), foot (FOOT=RABBIT same prompt e00595), shovel, nails, doll, hammer, SAW, paper (SAY ZAP), stick, broken grating.
+Ritual: book (knife/circle) + page (stick/lamp/CHANT/doll) all give OK-nothing even as 5-batch CIRCLE/WAVE STICK/WAVE IDOL/WAVE DOLL/WAVE FOOT e00609-613 + SAY CHANT e00614. WAVE CLOVER also OK-nothing e00617. YELL CHANT = SAY CHANT (both OK, e00509/e00598).
+Foot blocker update: CRISTO (no H) is correct noun (PUT CRISTO beyond-power e00375; PUT CHRISTO What? e00590); COUNT unknown (What? e00483); MAN/COFFIN recognized but fixed (PUT/DROP/GET/PULL beyond-power; PUSH/TOUCH unknown vocab). PUT/DROP/LEAVE/THROW FOOT all ask On-what (open and closed coffin alike); bare MAN/COFFIN answers unknown (verb expected); same-batch PUT FOOT+PUT MAN shows no chaining (e00618-19). WEAR/LAY/PLACE/HOLD/TOUCH unknown. LISTEN CRISTO hears nothing e00594. CLOSE/OPEN COFFIN cycle safe (e00604-607).
+Banked: b0 ~40 + prior 28 + this segment 4 annotations (OPEN->SAW, PUSH->SAW, WAVE LAMP none, YELL none). Requests thru m0416/e00620.
+INCIDENT: inbox/m0417.json was miswritten with this progress text instead of action JSON — malformed request, left untouched for supervisor repair; do not process as game command. Next request uses m0418+.
+Next: keep probing foot-placement verb (consider receptacle POT/BAG or foot stays carried and order matters). Claim finish only on genuine TA-DA winning narrative.

@@ -1,0 +1,19 @@
+# Kook U progress
+
+Location: Your Office (start). Drawer opened.
+Inventory observed: USENET Cabal membership card (Taken, Score 1). Drawer revealed beeper, memo, card; beeper/memo not yet taken. Terminal examined (VT100, network down). Memo read (Dean Uffy USENET abuse).
+Score: 1.
+
+Cases done:
+- office-terminal-typo (e00004 typo computor -> e00006 x terminal) vocabulary success
+- office-desk-omitted-drawer (e00008 open desk -> e00010 open drawer) vocabulary success
+- office-memo-wrong-object (e00012 read paper ambiguous -> e00013 read memo) ambiguity success
+- office-card-short-phrasing (e00015 get card accepted) none success
+
+Unresolved: none currently.
+
+Last hint (e00005): x desk; open drawer; read memo; get cabal card; e; put cabal in reader; open door; n; turn on router; s s e; x terminal (6 targets); w s s. Guidance provisional, verifying stepwise.
+
+Checkpoints: start-office (verified e00002-e00003).
+
+Next: take beeper (+ maybe memo), inventory, go east, follow reader/door/router route with synthetic probes (synonym/typo/omitted/pronoun/word-order) at each new room/puzzle. Need 20-40 diverse cases. Update progress every 10-15 requests.

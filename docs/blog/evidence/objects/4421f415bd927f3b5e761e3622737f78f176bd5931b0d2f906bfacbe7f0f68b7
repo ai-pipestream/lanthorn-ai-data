@@ -1,0 +1,18 @@
+{
+  "story": "oad.z5",
+  "guide": "oad.walkthrough.txt",
+  "url": "https://ifarchive.org/if-archive/solutions/oad.walkthrough.txt",
+  "accessed_at": "2026-09-25T06:02:04.097221+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 2,
+  "serial": "000913",
+  "sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+  "bytes": 78336,
+  "header_hex": "0500000230683069215d010a0db61922005030303039313300424c640025000000000000000000000000000000001921000000000000010200000000362e3231",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/oad.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.337166+00:00",
+  "downloaded_story_sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+  "download_matches_local": true
+}

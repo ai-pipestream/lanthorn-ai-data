@@ -1,0 +1,49 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T05:17:41.369091+00:00. Synthetic test data only. Fixed cutoff: 2026-09-25T05:13:00+00:00. No engine commands, restores, worker launches, training, evaluation, publication or other-file mutations by reviewer.
+
+1553 unique exported annotations: 1087 accepted,327 revise,57 quarantine,82 unreviewed under exact endpoint-set matching. This pass adds80 decisions:63 accepted,16 revise,1 quarantine across13games. All160 endpoint references and486 nearby/intervening events passed raw span SHA256/text checks, plus explicitly cited supporting events. No selected branch mismatch, intervening restore, known timeout or delayed-output chain. Hunter contains a backward evidence link, which is not recovery. CSV statuses can lag review updates; later arrivals remain pending.
+
+## Current findings
+
+Hunter e00142 is quarantined: corrected WAIT e139 occurs before fatal THROW e141. Earlier survival does not prove recovery after death or a successful attack. Fatal response remains usable only as its own observed failure, with prior WAIT clearly a separate historical comparison.
+
+Hunter e00140 WAIT does not recover crossbow; e00166 POOL is a clarification answer after DRINK BLOOD e164 and still fails because bats guard it. These need failure/partial labels, not success. Hunter e00160 does support actual escape, but requires intervening swarm and AHEAD move to Rising Path before UP, not an unchanged-location retry. Completed Hunter remains counted once.
+
+Balances by-hand box opening and explicitly unreversed spell intents lose those method constraints under spell/reversal recovery. Preserve alternate plans, not literal intent equivalence. Cyclops-to-mace target change is explicitly distinct; remove incorrect claim cyclops is harmless. Same command text can conceal a changed spell state.
+
+Jigsaw GET CLOCK only acquires it; actual operation is SET CLOCK TO59 e102. Unlocking dresser does not open it until e152. PRESS A4 is physically observed, but time travel is not proved at that endpoint. Both STRANGER/BLACK examinations provide the same descriptive sentence plus changing dialogue, so neither absent-description nor isolated alias causality is supported.
+
+Bears CLIMB CHAIR is partial: subsequent CLIMB TABLE e46 still cannot reach. PUSH CHAIR rolls it, without proving targeted positioning toward table. Flyer automatic acquisition is corroborated by already-held response e60 and inventory e61.
+
+Bronze e00870 RING GONG reports servants already released; librarian stamping/dissolving contracts e846 precedes it. Ringing must not receive causal credit for freeing servants. HUG ending e00871 is accepted as actually observed, without inventing a KISS command. Anchor padlock break needs later OPEN TRAP DOOR e731 for completed opening.
+
+Spider e00739 CONSLE/CONSOLE is a clean local typo repair in Laboratory b18: nearby e733-740 show no interrogation rewind. Earlier Spider rewind quarantines/revisions remain; no global branch-only safety assumption. Source help provides suggestions, never observed puzzle success.
+
+## Fifteen verified conclusions
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux,905,Violet,Voodoo Castle,Slouching Bedlam,Secret Mission,Bronze,Balances and Hunter in Darkness. Earlier13 verdicts remain timestamped historical audits; Balances and Hunter were independently checked at05:04Z in the prior follow-up.
+
+Balances balances-01a7783d25 b3 e00653 PUT SNAKE CUBE IN BOTTOM LEFT SOCKET follows three other actual cube placements. Raw71873:72628 SHA256ccf4f8992685c66443270ccc7404c30919731844ac29c4d406677620cbbb3eee. Borphee Labs awakening, explicit You have won,50/51 points,139turns and final menu. Actual R5/961216; unspecified guide release remains a gap. No need to infer victory from score alone.
+
+Hunter hunter-in-darkness-d1b183a1fc b3 e00187 UP: raw26897:27229 SHA2561ebfe472318a9036d0c17928319b27fcb81121eb1e2e320434cd49fd373e731d. Actual swarm e185 and passing beast e186 precede daylight escape and It's over/final menu. This is an intended conclusion. Wumpus death is suggested by cut-off scream, not explicitly established as a kill. R4/991119 verified; guide release unspecified. Both games wait at ending menus rather than exiting engine.
+
+Bronze bronze-edcd114f65 b1 e00854 actual command HUG BEAST: raw481384:482401 SHA2565b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84. Explicit restored-King/servants-free ending banner and RESTART/RESTORE/QUIT menu. Claim e00872 mentioning KISS does not establish a KISS execution or equivalence. Engine waits at ending menu. Actual R11/060503 remains distinct from advertised/downloaded R13 selection; this route is observed, full release compatibility is not.
+
+Slouch's gallows route ends in worldwide Logos spread, not containment or a happy win. Secret Mission's actual POUR WATER defuses bomb; earlier bomb deaths remain failures. Other partial scores, deaths and chapter transitions remain insufficient for conclusions.
+
+## New startup verification
+
+Jigsaw jigsaw-673cabd620: e1 splash requests SPACE; actual literal-space e2 reaches R3/951129 banner/Century Park. e3/e4 save acknowledged to exact path,558bytes,SHA2567077bd5d2f11f2e6ed566537ee10eec505f679caa140575c33b9f2f7b06d0e5b. Story header/hash1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf verified. Guide1995 release unspecified; recorded curses/train family is preserved.
+
+Bears Night Out bears-night-out-a79e3c9a58: e1 SPACE splash, literal-space e2 actual R5/990224 Bedroom banner. e3/e4 exact save acknowledgment,774bytes,SHA2564dfd774dcd1fd148956a4c0cc0568ddb6cecf06b9cd1818ff1c0a244ea19735c. Story header/hash1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb verified. Guide release unspecified. Neither new startup is an ending; new annotations stay pending.
+
+Jewel of Knowledge and Tryst are parent-reported queued additions with release gaps; no reviewer launch or startup verification. Source hints remain guidance until engine observations establish behavior.
+
+## Current bounded snapshot
+
+10 launcher processes observed; duplicates:{}. New unverified claims detected:[]. Fifteen verified conclusions preserved. Latest input spans checked only; historical whole-log transport boundaries remain timestamped. Stop after this bounded pass.
+
+## Historical boundaries
+
+Earlier menu/delayed chains retain quarantine after explicit recoveries. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with maintainer guide, not commercial ZorkI. Its cap recovery to05114e1aff b99 and prior resource audits are historical, not proof of current resources or an ending. Engine key mapping source is not binary-equivalence proof. Pool guards and tests remain timestamped prior audits; provisional refill never promotes a completion claim. Guide/version gaps remain for Bronze, Dreamhold, Savoir, So Far and unspecified-release guides.

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-09-25T09:30:03.464171+00:00",
+  "target": 10,
+  "workers": {
+    "windhall": [
+      448152
+    ],
+    "cacophony": [
+      456003
+    ],
+    "time-all-things-come-to-an-end": [
+      532950
+    ],
+    "baltimore-24": [
+      561526
+    ],
+    "delusions": [
+      4066543
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "mansion": [
+      4161234
+    ],
+    "christminster": [
+      4161254
+    ]
+  },
+  "attention": [
+    "pythos-mask: unfinished without launcher; needs diagnosis, evidence retained"
+  ],
+  "ending_review_pending": [
+    "i-0",
+    "ghost-train",
+    "bicon",
+    "risorgimento-represso"
+  ],
+  "queued": [
+    "mulldoon-legacy",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ]
+}

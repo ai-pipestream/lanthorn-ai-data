@@ -1,0 +1,9 @@
+# Progress slouching-bedlam — continuation seg 1 (updated 4)
+
+Current session: slouching-bedlam-18faea2151, branch b2.
+Location: Corridor 6 (e00135). Explored 6A (bare chair, Triage UNKNOWN/UNLISTED), 6C (collapsing fist-hole, left), 6D (wall writing examined + Triage Kabbalah decode: MALKUTH IS IN KETHER...). 6B stuck with water drip; E/F unexplored. Rod remains in Panopticon keyhole; inventory: 2D key only. NOTE malformed inbox/m0115.json left untouched for supervisor.
+Unresolved: 6B entry (open/unlock/break generic nouns fail; go east stuck); chamber tape name; archive 2D incomplete code.
+Last hints: m0070 X WRITING/POINT verified in 6D; dial hints used; tape hints scrambled.
+Next: 6E/6F, then south to Panopticon/Lobby, ask James about doctor/patients/codes, revisit Archives only with full code; checkpoint after west wing.
+Checkpoints: start-office, after-rod, lobby-james, walkway-west, chamber-rod, corridor6.
+Cases: ~35 total; wardB-open-58 annotated syntax+blocked; need annotate wardB-force-60, wardB-wall, wardA/C/D entries mostly exploration.

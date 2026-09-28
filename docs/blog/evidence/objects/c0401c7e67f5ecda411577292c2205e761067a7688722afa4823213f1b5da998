@@ -1,0 +1,10 @@
+# Voodoo Castle progress (b2) — CONTINUATION CHECKPOINT, game incomplete
+
+Location: Chapel, branch b2 (Open Coffin; ENTER COFFIN e00629拒绝 no room; man confirmed LOOK COFFIN e00607). Engine awaiting input. Continue from latest.json (e00632) + responses/m0429.json.
+Status: cell escape solved (SAW DOOR e00571 → dungeon → EAST stairwell → NORTH chapel). Final curse ritual blocked on rabbit-foot-on-Count. No checkpoints (SAVE unsupported).
+Inventory (e00575): knife, glowing idol (=lamp; WAVE LAMP=WAVE IDOL), clover, pot, bag (opened), foot (RABBIT=FOOT), shovel, nails, doll, hammer, SAW, paper (SAY ZAP), stick, broken grating.
+Ritual texts: book knife/circle (e00439); page stick/lamp/CHANT/doll (e00440). Full 5-batch CIRCLE/WAVE STICK/WAVE IDOL/WAVE DOLL/WAVE FOOT (e00609-613) + SAY CHANT (e00614) all OK-nothing. WAVE CLOVER OK-nothing. YELL=SAY. SAY ZAP works in parlor (statue cracks e00413) but chapel ZAP does nothing (e00621).
+Foot blocker: PUT/DROP/LEAVE/THROW FOOT always On-what (chapel open/closed, parlor too e00625); PUT/DROP/GET/PULL MAN|CRISTO|COFFIN beyond-power; PUSH/SHOW/TOUCH unknown; PUT COUNT/CHRISTO/BODY What? (CRISTO-no-H correct); bare MAN/COFFIN answers unknown; batch PUT FOOT+PUT MAN no chaining (e00618-19); WEAR/LAY/PLACE/HOLD unknown. CLOSE/OPEN COFFIN safe (e00604-607). UP fails, CLIMB STAIRS→parlor (annotated e00628); DOWN→stairwell; SOUTH chapel↔stairwell, NORTH→chapel.
+Banked: b0 ~40 + prior 28 + this segment 5 annotations (OPEN->SAW e00572, PUSH->SAW e00573, WAVE LAMP none e00601, YELL none e00602, UP->CLIMB e00628). Requests thru m0429/e00632.
+INCIDENT: inbox/m0417.json miswritten with progress text (no braces) — malformed, left for supervisor repair; never submitted; next names from m0418.
+Next: solve PUT FOOT target verb (try POT/BAG receptacle or alternate verb e.g. COVER/RUB/INSERT; verify against game, not walkthrough). Then full ritual order, claim finish only on genuine TA-DA winning narrative with evidence IDs.

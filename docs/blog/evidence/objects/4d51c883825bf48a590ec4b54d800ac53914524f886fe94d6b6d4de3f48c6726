@@ -1,0 +1,8 @@
+# Return to Karn — progress (branch b1) — STOP at step budget, e00224 Corridor
+
+Location: TARDIS Corridor b1 e00224 (west along corridor toward console; storage K9 behind). Score 20/170 in 136 turns (e00222). Pending: inbox/m0197.json 'west' serviced as e00224; responses/m0197.json not yet read at stop.
+Inventory (e00191): branch, battery now in K9 panel, scalpel, match unlit, gold card, screwdriver, jacket/hat worn, yo-yo, TARDIS key. Homing in saucer hatch; scarf tied at ledge.
+Checkpoints: b1 clearing-tardis-b1 verified e00163-64. No checkpoint after K9 battery; make one at console when resumed.
+Hints (NOT observed): e00221 lines 63-71 (Enter Tardis Drop scarf; E E Get match>toolkit; N X K9; battery>panel Close panel 10/35; S W W save s35). Score still 20 so 10/35 not yet granted — needs review.
+Key: Above Clearing push/jam/pull/get e00176-79 done; Rocky Trail boulder blocks SE e00185-86; K9 storage found e00204; 'put battery in k9' failed e00207, 'put battery in panel' worked e00215 (annotated syntax e00216); panel closed e00218 but K9 still inert e00219-20, follow no response e00217.
+Resume: read responses/m0197.json; continue west to Console Room, then investigate match>toolkit + scarf + drawer/slot/brown/gold per hints. Game INCOMPLETE; completion needs brain + TARDIS return + give brain to Time Lord. No finish claimed.

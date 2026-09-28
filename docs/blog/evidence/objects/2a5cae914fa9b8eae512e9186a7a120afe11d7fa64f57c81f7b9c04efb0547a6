@@ -1,0 +1,9 @@
+# Vindaloo progress — e00314 Kitchen plucked chicken (game incomplete)
+
+Location: Kitchen with plucked dead chicken e00314. Ordinary prompt.
+Inventory held (e00290): spices, crowbar, front door key (3); worm consumed e00286. Cached in west park: onion, scarf, spade (dropped e00279-283 to free worm slot). Score 8 (feed 6 e00286, kill 7 e00311, pluck 8 e00314).
+Route learned: Park north = Road junction; junction east = Shop road, west = western Road; western Road north = Front; Front unlock+open+north+north = Hallway+Kitchen with chicken following.
+Next: help m0296 after pluck chicken; then inventory/look in kitchen; retrieve onion/scarf/spade as needed; alley garbage-hat still unresolved.
+Checkpoints verified: building-site-crowbar, shop-spices, kitchen-chicken e00309-310.
+Cases since e00285: chicken-give-worm none-accept e00286-287; front-open-door world_state e00303-305; kitchen-kill hit-accept e00311-312; kitchen-pluck bird-vocabulary e00313-315.
+No pending except m0296 help; next inbox m0297.

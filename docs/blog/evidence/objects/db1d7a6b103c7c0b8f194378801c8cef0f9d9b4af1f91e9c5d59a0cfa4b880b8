@@ -1,0 +1,103 @@
+{
+  "game_id": "splashdown",
+  "title": "Splashdown",
+  "author": "Paul J. Furio",
+  "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+  "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+  "accessed_at": "2026-09-25T09:49:05.882410+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-Walkthrough.raw.txt",
+  "source_sha256": "ad5b8546a2510ebdf88a0cb36a3e90ff3cb750a592af5fe192af594dff706a41",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-walkthrough.txt",
+  "normalized_sha256": "680cb4172904a91712e3b80ced9d6187bbae57b9711182e73e9fc9404ad77338",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/ifcomp/2004/zcode/splashdown/Splashdown.z5",
+  "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+  "compatibility": "Local competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "040926",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000017b587b596691010a53c05de4005030343039323600428f01bf86000000000000000000000000000000005de3000000000000010200000000362e3330",
+    "header_sha256": "1bd6c698e0797037fdba4f9c4acfeb95249a95b2320a65811380a12d39ffd924",
+    "checksum_hex": "bf86",
+    "computed_checksum_hex": "bf86",
+    "declared_length": 146436,
+    "file_bytes": 146944
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified in guide; package association documented separately",
+  "story_identity": {
+    "filename": "Splashdown.z5",
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Splashdown.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Splashdown.z5",
+    "accessed_at": "2026-09-25T09:49:05.892852+00:00",
+    "remote_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "local_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "bytes": 146944,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "040926"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/splashdown/#Splashdown.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-index.html",
+    "snapshot_sha256": "8b167d3ea9672875246ac6131ea79bf011def09e6f42dfdb88e1edd7850691d3",
+    "entry_text": "Splashdown.z5 ◆ [26-Sep-2004]",
+    "tuid": null
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/splashdown/#Walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-index.html",
+    "snapshot_sha256": "8b167d3ea9672875246ac6131ea79bf011def09e6f42dfdb88e1edd7850691d3",
+    "entry_text": "Walkthrough.txt ◆ [26-Sep-2004]",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Paul J. Furio (author-package attribution)",
+    "authorship_evidence": "Author-signed ReadMe identifies Walkthrough.txt as moves for a winning gameplay; both are in the same official IFComp package. Guide body has no separate byline.",
+    "route_summary": "Complete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.",
+    "limitations": "Use the complete author-packaged route, including the recorded status and message playback that provides narrative context. Computer and spider instructions are addressed to fictional in-game agents; do not execute them on any host or network. Observe power priorities, cabling, controls, atmosphere and timed light changes. The guide's waits describe turns, not timeout recovery. Save early after the opening has reached a safe ordinary prompt and at repair milestones; do not save through a question or key pause. Do not send the trailing QUIT as a gameplay step.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "splashdown",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent science-fiction ship-recovery game; no explicit shared world or puzzle reuse with current titles found in the full guide and author ReadMe. Reserve splashdown for ports/releases."
+  },
+  "reuse_claims_observed": "No story/guide training or redistribution permission established. Public availability does not establish these rights. Private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "packaged_readme": {
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/ReadMe.txt",
+    "accessed_at": "2026-09-25T09:49:05.883524+00:00",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-ReadMe.txt",
+    "sha256": "f4e8c4409ecf1cd37314e47dc9a0261e63b4780768f1fc8e711c61fa516e2bf3",
+    "body_read": true
+  },
+  "guide_package_association": {
+    "game_url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Splashdown.z5",
+    "guide_url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+    "directory": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/splashdown/",
+    "same_directory": true,
+    "guide_version_claim": "Only BOFH explicitly declares its recorded version; package co-location alone does not establish exact build compatibility."
+  }
+}

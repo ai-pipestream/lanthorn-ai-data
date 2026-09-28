@@ -1,0 +1,12 @@
+# Ghost Train progress
+
+Location: First Class Carriage, still on first train pre-accident.
+Inventory as observed: ticket (carrying). Seen: newspaper on table, Ingrid with jade necklace, suitcase fell from overhead, ticket collector present.
+Checkpoints: start-carriage (verified e00003-e00004).
+Last hint: ON THE FIRST TRAIN — read newspaper, talk/kiss/x Ingrid, x necklace, inventory/ticket, then accident after few turns (lines 21-29).
+Unresolved case IDs:
+- open-paper-synonym (e00007 success, needs annotate none)
+- open-ingrid-typo (e00008 fail -> e00009 success, needs annotate)
+- open-kiss-pronoun (e00010 success, needs annotate none)
+- open-examine-omitted (e00012 bare examine defaulted to ticket, needs annotate none with notes)
+Next: show ticket / talk to collector / wait for accident; then underground railway. Need annotate batch + milestone checkpoint after accident.

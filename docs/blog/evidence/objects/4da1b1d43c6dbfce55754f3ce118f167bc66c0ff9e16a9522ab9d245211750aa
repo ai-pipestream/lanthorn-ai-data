@@ -1,0 +1,8 @@
+# Fine-Tuned progress
+
+Location: Your Driveway -- Near the House (in the Pratt Dynamo). Entered car.
+Inventory observed: gloves (taken), index card (taken, read - ignition/brake/drive instructions), in car visible: Aloysius, goggles, peaked riding cap, scarf. Outside on luggage rack: tool chest, crate.
+Checkpoints: start-driveway (verified e00003-e00004).
+Cases done: dynamo-synonym-car (none, e6), dynamo-typo (vocab e7->e8), gloves-singular (none e9), enter-car-synonym (none e10), read-card-short (none e12). Annotations e13-e17 done.
+Last hint: none yet; card gives push ignition, brake, drive [direction].
+Next: probe wear/gear synonyms, then push ignition button, release brake, drive east. Need broker help for full route (automobile/artifact/rescue/professor/horse/music/PLAY). Single commands near driving.

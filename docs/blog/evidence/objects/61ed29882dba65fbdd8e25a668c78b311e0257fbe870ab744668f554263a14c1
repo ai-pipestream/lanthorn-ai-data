@@ -1,0 +1,74 @@
+[
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/zcode-index.txt",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+    "accessed_at": "2026-09-25T08:12:55.422580+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/Index",
+    "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "bytes": 175387
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/glulx-index.txt",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Index",
+    "accessed_at": "2026-09-25T08:12:55.566155+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/glulx/Index",
+    "sha256": "f6f1a4032df37f195df0f05eb40867706c7d58fae97940b41d59859174f272a6",
+    "bytes": 82877
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/solutions-index.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Index",
+    "accessed_at": "2026-09-25T08:12:55.623455+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Index",
+    "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "bytes": 77265
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Aug4.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Aug4.z8",
+    "accessed_at": "2026-09-25T08:12:55.691403+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/Aug4.z8",
+    "sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c",
+    "bytes": 364544
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Aug4Solution.zip",
+    "url": "https://ifarchive.org/if-archive/solutions/Aug4Solution.zip",
+    "accessed_at": "2026-09-25T08:12:55.762494+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Aug4Solution.zip",
+    "sha256": "b460c4e8a74189313fabe5e032f1df193ab70d421b2b816cb8ae308d939af6ff",
+    "bytes": 250504
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pytho.blb",
+    "url": "https://ifarchive.org/if-archive/games/glulx/pytho.blb",
+    "accessed_at": "2026-09-25T08:12:55.896112+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/glulx/pytho.blb",
+    "sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "bytes": 437408
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/PythosMask_walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/PythosMask_walkthrough.txt",
+    "accessed_at": "2026-09-25T08:12:55.945296+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/PythosMask_walkthrough.txt",
+    "sha256": "af8db4e171b7e67efec1958b515112e9a281d02466af9315c0c52b7824b2d3f5",
+    "bytes": 9398
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/A Remote Problem.zip",
+    "url": "https://ifarchive.org/if-archive/games/glulx/A%20Remote%20Problem.zip",
+    "accessed_at": "2026-09-25T08:12:56.361296+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/glulx/A%20Remote%20Problem.zip",
+    "sha256": "a6ce9f6e615d28393406671df06a97c8b3f68d8e02b105034bc32acc80d7c77e",
+    "bytes": 8145844
+  },
+  {
+    "file": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Alias_The_Magpie.zip",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Alias_The_Magpie.zip",
+    "accessed_at": "2026-09-25T08:12:56.594791+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/glulx/Alias_The_Magpie.zip",
+    "sha256": "9ecfae9e1f342a3b46626ccbbf359577b5f1cae76486bf5f3f170746e6df0055",
+    "bytes": 6050946
+  }
+]

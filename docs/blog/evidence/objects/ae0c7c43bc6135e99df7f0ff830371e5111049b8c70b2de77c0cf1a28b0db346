@@ -1,0 +1,10 @@
+# Vindaloo progress — e00164 Back Garden onion (game incomplete, continuation needed)
+
+Location: Back Garden e00164 (south of Kitchen via back door; N/E/W blocked, S to Kitchen). Ordinary prompt, awaiting input. Checkpoints kitchen-entered + garden-onion OK.
+Inventory e00157: onion, scarf, pound coin, spade, front door key (5 items). Onion found via search weeds e00154 score 2; take onion e00156 already-have (auto-carried).
+State: e00164 latest confirmed; m0150 garden-to-alley help pending. Next inbox m0151 after m0150 serviced.
+Map: Hallway-N-Kitchen-N(back door, now open)-Garden; Garden description: alley entrance at end of garden but N/E/W fail, enter alley e00163 can't-see. Front door unlocked/open, back door open. Front-S-Road-E-chicken-road-S-Park-W deeper park; Outside Shop-E-Works dead ends.
+Hints: walkthrough Garden search weeds>onion done; Alley search garbage>hat next; give hat>tomato. Help m0119 got Garden/Alley/Fruit&Veg excerpt; m0150 asks garden-to-alley route.
+Annotated: front-unlock-omitted e142-143 syntax (m0131); garden-search-weeds vocab singular/plural e153-154 (m0141); earlier hall-look, front-north, scarf, spade-shovel synonym etc.
+Checkpoints Ok: start-bedroom, hallway, outside-front, indian-shop, stall, kitchen-entered, garden-onion.
+Continuation: resolve m0150 help, try alley wording (go entrance/exit/out/north variants) without repeating identical probes. No timed/light resources. Do not restart.

@@ -1,0 +1,8 @@
+# Progress — danger-adventurer-at-work (ACTIVE, game incomplete)
+
+Location: Farm e00219-e00222 with steaming dung + brass coin taken. All responses through m0201 resolved.
+Inventory (observed): head, torso, boltcutters, LLEG, tube, bucket (sand), RARM, rock, game, seed, coin; needle+camel vanished; broom→hedgepig; kipper eaten; phone→witch; gold spent to teacher.
+Checkpoints: early-pub, street-after-window, field-before-torso, shop-cutters, street-phone-done, alley-broom, beach-tube-done, hedgepig-needle-done, cave-before-dragon, school-done, fence-seed-done.
+Cases (~34): beach-fill syntax e00204/e00205, camel give-needle none e00213, dung-examine none e00218, coin none e00219, dung-take planning e00216/e00218.
+Hints: e00207 lines 62-70 via camel; e00217 lines 65-73 through take coin. Next: after coin toward chasm/river/pony.
+Resume: help topic 'after coin farm where go' with related e00218/e00219; single commands.

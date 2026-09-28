@@ -1,0 +1,24 @@
+{
+  "event_id": "bears-night-out-a79e3c9a58:e00371",
+  "timestamp": "2026-09-25T05:37:58.779050+00:00",
+  "game_id": "bears-night-out",
+  "session_id": "bears-night-out-a79e3c9a58",
+  "branch_id": "b0",
+  "event_index": 371,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 118132,
+  "raw_end": 118132,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***",
+    "evidence_event_ids": [
+      "bears-night-out-a79e3c9a58:e00366"
+    ],
+    "notes": "Genuine author-intended win, not death/quitting/intermediate: 'sleep' in bed produced full morning-after picnic narrative plus '*** You have won ***' and 'scored 33 out of a possible 33, rank of lifelong companion'. Perfect score confirms nothing skipped."
+  },
+  "review_status": "unreviewed"
+}

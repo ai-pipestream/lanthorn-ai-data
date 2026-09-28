@@ -1,0 +1,8 @@
+# Night at the Computer Center — progress
+
+Location: Computer Site Moves 157 Score 10 branch b2 (e00263 put stolen printer on table -> WIN). End prompt offers RESTART/RESTORE/FULL/AMUSING/QUIT; left untouched.
+Inventory (last observed e00239 + e00257-e00263): before placement carrying stolen laser printer, flashlight (providing light), UGGS Manual; after e00263 printer on printer table. Inform Designer's Manual given to gnome e00214.
+Checkpoints verified: start-computer-site, stairwell-third, before-flashlight, stairwell-first, before-fountain, maze-entry, gnome-lair, after-manual-print, gnome-with-manual, hall-with-printer (e00235-236), before-printer-return (e00258-259).
+Annotated: printer-table-01 (e00260 put printer ambiguity -> e00261 stolen -> e00262 table can't contain -> e00263 put stolen printer on table success, e00264), gnome-ask-02, gnome-show-01, plus ~20 earlier. No pending annotates for final sequence.
+Last hint: e00238 lines 22-30: Gnome room give manual; get printer; Computer room put printer on table [*2/10*] — verified by e00263.
+Next (m0221 done, next m0222): finish with e00263 as winning ending; do NOT send QUIT/RESTART or SAVE at end prompt. No in-flight requests after m0221.

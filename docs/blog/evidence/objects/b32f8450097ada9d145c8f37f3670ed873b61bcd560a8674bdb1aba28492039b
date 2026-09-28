@@ -1,0 +1,46 @@
+# Delusions progress — SEGMENT 2 active (b14 quarters-redo, game INCOMPLETE, testing early chess-wait hypothesis)
+
+No winning ending. Score 10/50. Weak/woozy never triggered thru 7025 (b12 eaten) and 6044 (b13 uneaten). R2 walkthrough to line 138 exhausted; R4 timing differs. HINT menu forbidden (SPACE timeout e448/e449).
+
+CURRENT (b14, verified):
+- Restored quarters-staged (m0442, Ok, b14 e00160-161). Location: Your Quarters after 2nd VR redo (ordinary prompt, standing).
+- quarters-staged base: time 4336 (e00163), score 10/50 in 103 turns (e00165), inv empty (jumpsuit+watch only, e00164). Room: magnet closed, painting, lightstick, tongs, syringe (e00162).
+- Redo 2nd run (m0447-0452): NW wear suit (Coral Reef e00167), E Anemones octopus e00168, E Grotto distracted e00169, W e00170, D Seafloor shadow e00171, U shark follows e00172, W Reef waver e00173, W Shallows e00174, W Sandbar shark leaves e00175, E Shallows e00176, swallow gravel e00177, E Reef e00178, E Anemones stingray e00179, D Seafloor e00180, drop gravel snake e00181, enter left hole Shipwreck win e00182 (same text as b8 e00233, Cynthia leaves NW).
+- Lab-time test: time in lab immediately after exit = 4571 (e00183, m0453). SE quarters e00184, inject e00185 STILL "You don't need to yet" (m0455). Location hypothesis DEAD (lab 4571 vs quarters 4575 identical refusal).
+- Inventory now: syringe taken (during inject attempt), wearing jumpsuit+watch. Time ~457? (verify on next). Score still 10/50 expected.
+
+UNRESOLVED (symptom-gated, not wording):
+- inject (weak->insulin): refused b12 x4, b13 x2, b14 x1 (e00185). No weak message ever.
+- sleep1 (woozy->sleep): refused b12 x4, b13 x1. No woozy ever. 40+ gurney waits, 2 alarms fired no symptom.
+- report/configure: blocked by Justy "don't mess with that" (needs sleep1 for Justy to leave).
+
+LAST HINTS (broker R2, not observed):
+- m0401 lines 83-91: (notice time) Open door SE Inject Drop NW save s14 (late inject).
+- m0412 lines 130-138: Get up Open cabinet Eat caplet Close cabinet Lie on gurney.
+- R2 early 26-34 (m0093): (Cynthia chess) zzzzz (moves make no sense) SE Open metal door SE Inject Drop NW NE Open freezer get light. b8 SKIPPED the 5 chess waits (m0087-0092 went NW picture then SE lab then VR run2, never waited in Cynthia's). b13 did 5 waits LATE (m0435, 6030, only "Time passes", no chess moves) – inject still refused. Early chess may be time-gated.
+- R2 full: early inject 26-34 -> light/magnet/violin -> 2nd run 71-79 -> late inject 83-91 -> manual 87-95 (4 turns) -> sleep1 93-101 (S Lie Wait-woozy Sleep, m0348) -> report 102-110 (zzzz zzzz Get up N Open report) -> printer/configure 112-120 (Read output 2 clues, hand checkbox 4/18) -> sleep2 121-129 (Set watch, 4/22) -> post 130-138 (Eat caplet).
+
+EXHAUSTED (do not repeat blindly):
+- b14 lab-time hypothesis DEAD (above).
+- b12: 40 gurney waits to 7025, 2 alarms, inject x4, sleep x4, full mapping, Cray manual, configure blocked, 3rd VR death same, etc.
+- b13: pizza UNEATEN test DEAD (identical refusals to b12 eaten).
+- Cases: ~49 annotated. No new failures in b13/b14 to annotate (same messages).
+
+NEXT:
+1) Restore lab-after-reef-win (post-1st-win, VR Lab, m0082) -> new branch b15. Verify look/time/score/i (1 cmd each while recovering).
+2) Exact R2 early: NW Cynthia's, observe chess description, 5x 'z' (watch for chess moves text vs "Time passes"), SE lab, SE quarters (open metal door if closed), 'inject insulin'. If succeeds: Drop needle, continue R2 (NW NE freezer light...). If refuses with no chess moves: R4 removed early inject/chess.
+3) If 2 fails: request help for lines 139+ (post-Lie-on-gurney to Lab Sim/endgame) to see bypass, or consider 8000-10000 time push (checkpoint first) as last resort. DO NOT use HINT menu, DO NOT eat caplet early.
+4) Collect 1-2 diverse probes only in genuinely new situations; do not re-probe inject/sleep/report wording.
+
+## Checkpoints (verified, ordinary prompts only)
+- nopizza-6044 (b13 Cynthia's 6044, pizza uneaten, 10/50)
+- before-pizza (5792 Kitchenette, pizza uneaten, b12/b13 base)
+- before-third-run (6714 Cynthia's, pizza eaten, b12 fallback)
+- quarters-staged (4336 Your Quarters, pre-2nd-run, 10/50, inv empty)
+- lab-after-reef-win (post-1st-win VR Lab, for early test)
+- lab-report-sequence, lab-hub-map, shimada-office, etc.
+
+## Recovery bases (do not delete)
+- b12 restored before-pizza e00389 after HINT SPACE e448/e449 timeout (m0341 cancelled). Avoid HINT menus.
+- b13 restored before-pizza again e00131-132 for no-pizza test (distinct branch).
+- b14 restored quarters-staged e00160-161 for lab-time test (distinct branch).

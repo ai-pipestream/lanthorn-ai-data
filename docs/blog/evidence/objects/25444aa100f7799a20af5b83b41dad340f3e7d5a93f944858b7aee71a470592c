@@ -1,0 +1,11 @@
+# Vindaloo progress
+
+Location: Indian Shop (Raj, shelves). Score 1.
+Inventory: spade, front door key.
+Hint 1 (walkthrough excerpt, NOT observed): Fruit & Veg "give bill hat > tomato"; Indian shop "buy spices (from Raj with money)"; Building site "search bricks > crowbar". Must verify each in game.
+
+Annotated (confirmed): bed-ellipsis (none), take-key (vocab), closet (planning), spade-shovel (none), unlock-omitted-key (none), reenter-locked (world_state), talk-verb (vocab).
+Open: probe-buy-spices (e00055 no money -> pending money + buy), probe-front-door-locked (no repair needed).
+
+Checkpoints: start-bedroom, hallway, outside-front, indian-shop (all Ok).
+Next: south out of shop, east to roadworks/building site, verify "search bricks"; then find Fruit & Veg (west?) and money source; keep probes varied (typo, pronoun, word order, wrong object).

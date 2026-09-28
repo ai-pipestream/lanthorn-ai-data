@@ -1,0 +1,105 @@
+{
+  "game_id": "space-station",
+  "title": "Space Station",
+  "url": "https://ifarchive.org/if-archive/solutions/spacest2.sol",
+  "accessed_at": "2026-09-25T06:02:04.152245+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/spacest2.sol",
+  "source_sha256": "bb42684a3657f0e0b0be1c954611ab37f79522a28f67f7a07045914fdee93756",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/walkthrough.txt",
+  "normalized_sha256": "7ef115c9a6119832c23f0f4982d6df292ebdb2cb53e0d345b594d3363853736b",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/spacest2.z5",
+  "story_sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/spacest2.z5",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/spacest2.z5",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 5,
+    "release": 2,
+    "serial": "040130",
+    "header_hex": "05000002541c541d3ae8010a25112f7b00503034303133300042858686d0000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "20bc3641d301b3b4b630ff1531d4077d8701c5988de49fab35a47e3e64b2c4ff",
+    "checksum": "86d0",
+    "computed_checksum": "86d0",
+    "checksum_valid": true,
+    "file_bytes": 137216,
+    "declared_file_bytes": 136728
+  },
+  "compatibility": "Community guide gives no release/serial; story R2/040130. Matching release-2 author source confirms the safe scooter departure finale and Planetfall transcript derivation. Source contains Zork currency. Conservative provisional grouping with existing zork-i/development requires parent review.",
+  "compatibility_status": "needs_smoke_check",
+  "guide_version_match": "unspecified_or_port_gap",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "p3vgmr8ji1vckus7",
+    "guide_tuid": "p3vgmr8ji1vckus7",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/spacest2.sol",
+      "accessed_at": "2026-09-25T06:02:04.152245+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/spacest2.sol",
+      "sha256": "bb42684a3657f0e0b0be1c954611ab37f79522a28f67f7a07045914fdee93756",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/spacest2.z5",
+      "accessed_at": "2026-09-25T06:03:44.413434+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/spacest2.z5",
+      "sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/source/inform/spacest2.zip",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/spacest2.zip",
+      "sha256": "0f47254469ab5fa1a08bf289855ac033e5939be360b1a9a21f7ea70b1c758753",
+      "role": "author release-2 source: finale and family evidence"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "zork-i",
+    "proposed_split": "development",
+    "existing_corpus_checked": true,
+    "reason": "Archive and author documentation explicitly derive Space Station from the Planetfall sample transcript; source documentation names a Zorkmid. Conservatively co-locate with existing zork-i family (zork-i7 and spiritwrak) in development pending parent review. This is a leakage precaution, not a claim of identical Zork puzzles."
+  },
+  "completion": "Require safe departure in the scooter and the subsequent narrative of the station reactor going critical, with the Fussbudget rescued and the full successful resolution. Author source procs.h sets the win state on departure and distinguishes lethal hatch/couch failures. A partial score, the lethal station explosion while aboard, or obtaining the form is insufficient.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "040130",
+  "author": "David Ledgard"
+}

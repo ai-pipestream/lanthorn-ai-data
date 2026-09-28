@@ -1,0 +1,31 @@
+# Fullplay supervision
+
+Current snapshot: 2026-09-25T03:34:12.581263+00:00. Synthetic test data only; no training/publication or reviewer game input.
+
+1057 unique exported annotation rows: 745 accepted, 242 revise, 43 quarantine, 27 unreviewed under exact endpoint-matched decisions. This bounded50-row pass adds38 accepted,11 revise,1 quarantine;100 endpoint references checked against raw bytes, hashes, text, commands and branches. Later arrivals remain pending. Legacy/transport-only review keys are separate from annotation totals.
+
+## Ten verified conclusions
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905, Violet, and now Voodoo Castle. Primary raw ending spans rechecked. Voodoo e763 YELL CHANT shows pins falling, HURRAH, Smiling Count Cristo and game over; engine exits. Raw67015:67243, SHA256469d368636df3267da2837559e645623bb26c55ba7521b94151d4a7d81a81b25. Exact story is local adv04.dat SHA256ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db. No further Voodoo actions needed.
+
+Foot placement e755 is confirmed by LOOK COFFIN e758, not LOOK MAN e756. E764 is revise: preceding PUT FOOT is not proven mandatory for independent ON MAN action. E765 is accepted as a world-state chain with intervening ritual conditions; no-effect WAVE IDOL/DOLL are not established prerequisites. Source guidance itself remains distinct from observed evidence.
+
+## Explicit menu recoveries verified
+
+Slouching Bedlam new session slouching-bedlam-b08abfcb18 b4 restores office-journal from old e179; checkpoint SHA2566d15690a99e91df07a090eaa7dff882a8d6f393f2834ade9c20379688e43af11. New e5 gives exact story-specific restore acknowledgment; e6 LOOK shows Office with Triage. Savoir-Faire new savoir-faire-5a89e6c8ff b3 restores basin-full from old e92; checkpoint SHA256003a4c94b347d99d96822e1519b89a0ee45358cca591a3e2fdf82c0409906c99. New e5 says Ok, e6 LOOK shows Scullery. Save bytes, original save outputs and new raw spans independently verified.
+
+Old pending Slouch m0277 and Savoir m0087 are explicitly cancelled in new session metadata and response files; preserved original hashes match. Startup/restore/LOOK sequence is recorded rather than silent replay. New brokers use --hours12 and configurations disable automatic checkpoints; notes avoid interactive menus. This recovers collection, not the underlying menu defect. Do not transplant post-checkpoint progress into restored branches.
+
+Historical Slouch e290–292 and Savoir e102 timeouts remain quarantined, along with older contaminated chains. Fresh sessions are tracked separately. Secret m0529 preserved bytes match receipt and supervisor error response: extra trailing bracket rejected without execution. It is a malformed help request, not a game turn or parser failure.
+
+Latest-session transport fault IDs in this bounded snapshot: []. Recorded byte/hash integrity alone is not transport success.
+
+## Review and compatibility boundaries
+
+Voodoo e746 quarantined: claimed corrected event precedes failure and reports no ritual effect. Voodoo e716/e717 reuse earlier exact endpoints; accepted content is not new independent evidence. Revisions distinguish pushing/pulling/turning/unhooking as physical strategies, actual reading from recognized-but-unintelligible text, and typo plus capacity repair from vocabulary alone. First recovered Slouch annotation e41 was reviewed against e38/e40 raw spans: actual keyhole insertion succeeds, but SLOT refers to a different tape dispenser, so its world_state classification needs revision. Savoir-Faire had no exported new-session pairs at the snapshot; command outputs and recovery chain were verified.
+
+Secret Mission b18 e1292–1294 already verifies post-break TV deactivation and ledge passage without prior alarm; that is local progress, not completion. Nineteen games in scope, nine incomplete. No additional ending inferred from worker claims.
+
+Version gaps preserved: Savoir-Faire R8 versus R6 guide with deliberate false steps; Dreamhold R5 versus R4 guide; Bronze R11 versus advertised/download R13. Anchorhead R5 and Theatre R2 guide releases unspecified; Curses R16 guide matches release label. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with full maintainer guide, not commercial ZorkI. Historical resource estimates apply only to named checkpoints.
+
+Only three owned review/status files changed. Parent owns logged hints, recoveries, exports, expansions, engine state and blog records. No completed game restarted; no Pi workers launched or reviewed.

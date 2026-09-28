@@ -1,0 +1,8 @@
+# Heist progress (incomplete — Python's Eye imitation jewel made, score 33)
+
+Location: Kitchen with weird oven (e00318 JAP white, dial 10). Pulled lever e00319, tray had cheap imitation jewel e00321, taken e00322.
+Inventory (last observed e00249 + additions): gloves worn, steel key, credit card, bag (arm, cutter, letter, girl/boy/musician/statue photos); frame on hook in Memorabilia; + imitation jewel (e00322 Taken). Score 33 (e00319 lever).
+Checkpoints: flat-clock-open Saved Ok (e00265-266); before-oven Saved Ok (e00297-298). No checkpoint since oven solved.
+Cases: ~47 annotated (41 prior + counter-lookat e00323 + tray-lookat e00324 + press-red-syn e00325 + dial-word e00326 + lever-article e00327 + take-syn e00328). Eye observed: Japan origin=JAP, diamond=white, decahedral=10 faces (e00289-e00290, confirmed by lever success).
+Last hint (e00296 heist.sol lines 60-68): push red/green for origin+color; dial to faces; pull lever; look in tray; get jewel; e sw s s wait for absent-minded jeweller.
+Next: e, sw, s, s to jewellers; wait for absent-minded; swap/show jewel? Need help excerpt lines 68+ for jeweller swap. Do NOT resubmit m0284/m0302 (done). Continuation: branch b0 event 328.

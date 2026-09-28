@@ -1,0 +1,8 @@
+# Asylum progress — WON
+
+Route completed: brass key (start) -> unlock/open closet -> wooden key -> open globe -> hammer -> unlock/open drawer (wooden) -> glass heart -> break -> black key -> unlock/open wooden box (black) -> chisel -> hit wall (auto chisel+hammer) -> north exit -> WIN.
+Inventory at win: brass, wooden, black keys, hammer, chisel (plus glass shards?).
+Checkpoints: start-safe, after-closet, before-glass, before-wall, after-wall (all verified).
+Win event: e00046 'n' -> '*** You have won ***, scored 0/0 in 28 turns' + RESTART/RESTORE/QUIT prompt. Genuine author conclusion via breached-wall exit, not death/quit.
+Annotations: 14 pairs logged (mat vocab, box/drawer/closet world_state, closet-unlock none, closet-key none, shelf planning, hammer vocab, drawer ambiguity, glass-take none, glass-smash none, blackkey syntax, chisel syntax, wall none, exit none).
+Next: finish with e00046 evidence.

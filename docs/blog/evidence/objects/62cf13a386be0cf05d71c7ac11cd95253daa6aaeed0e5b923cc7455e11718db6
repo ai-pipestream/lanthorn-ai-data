@@ -1,0 +1,1164 @@
+{
+  "at": "2026-09-25T08:47:46.700090+00:00",
+  "local": [
+    {
+      "pid": 468257,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/risorgimento-represso",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-risorgimento-represso-20260925T083355Z-u3EtQF/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 469567,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/wadewars-iii-askin",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-wadewars-iii-askin-20260925T083511Z-YZrWE4/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 470031,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/windhall",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-windhall-20260925T083539Z-mH5ftO/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 481473,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/anchorhead",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-anchorhead-20260925T084158Z-7WiKSP/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 483052,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/christminster",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-christminster-20260925T084231Z-9BqsMq/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 486435,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/cacophony",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-cacophony-20260925T084410Z-lPe7Mm/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 492981,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/delusions",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-delusions-20260925T084645Z-3vZ2yx/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 493673,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/mansion",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-mansion-20260925T084706Z-gFgq84/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    },
+    {
+      "pid": 493708,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/curses",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-curses-20260925T084706Z-wJWTLj/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ],
+      "cwd": "/work/experiments/lanthorn-recall-training"
+    }
+  ],
+  "remote": {
+    "cm5ai1": [
+      {
+        "pid": 161116,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/frozen",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/frozen-1790325125883536475/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 164828,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/schooldays",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/schooldays-1790325728283935347/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 165487,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/spiritwrak",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/spiritwrak-1790325838276737458/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "cm5v1": [
+      {
+        "pid": 64787,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/varicella",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/varicella-1790325605329727385/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 65851,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/danger-adventurer-at-work",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/danger-adventurer-at-work-1790325766149712658/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 67179,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/enemies",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/enemies-1790325978684130509/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "cm5v2": [
+      {
+        "pid": 97069,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/critical-breach",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/critical-breach-1790325512536133219/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 98407,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/not-just-a-game",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/not-just-a-game-1790325721591674783/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 100112,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/heist",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/heist-1790325995721752780/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "krickert@cm5v3.local": [
+      {
+        "pid": 91548,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/gerbil-riot",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790325545635145307/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 92601,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/believable-adventures-invisible-man",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/believable-adventures-invisible-man-1790325738116418108/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 94025,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/lecture-feature",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/lecture-feature-1790325979509924919/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "pi500p": [
+      {
+        "pid": 51682,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/mortlake-manor",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/mortlake-manor-1790325104761233011/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 53227,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/fine-tuned",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/fine-tuned-1790325370188778176/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 55908,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/gumshoe",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/gumshoe-1790325861600508375/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "pi5ai1": [
+      {
+        "pid": 59964,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/return-to-karn",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/return-to-karn-1790325291008459211/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 60734,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/heroines-mantle",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790325412123005042/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 62815,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/hla-inform",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/hla-inform-1790325752953401232/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "krickert@pi5ai2p.local": [
+      {
+        "pid": 197164,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/dracula-prince-of-darkness",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790325546416753606/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 202896,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/traffic",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/traffic-1790325844240351758/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 208042,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/bse",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/bse-1790326001226308600/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ],
+    "pi5v2": [
+      {
+        "pid": 161759,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/augmented-fourth",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/augmented-fourth-1790325404194804865/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 164140,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/ghost-train",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/ghost-train-1790325841925698019/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      },
+      {
+        "pid": 164336,
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/deephome",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/deephome-1790325871580060456/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "cwd": "/home/krickert"
+      }
+    ]
+  },
+  "health": {
+    "anchorhead": {
+      "last_event": "anchorhead-9852cd5b9d:e00650",
+      "timestamp": "2026-09-25T08:47:43.716915+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3672312
+      ],
+      "last_response": "(in the nameplates)\nThe nameplate reads \"Edward Verlac, b. April 26, 1960, d. March 14, 1997\". Like \nthe others, this coffin is built of solid oak, sealed with lead.\n\n>"
+    },
+    "augmented-fourth": {
+      "last_event": "augmented-fourth-d479b421d9:e00046",
+      "timestamp": "2026-09-25T08:47:44.614447+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        472264
+      ],
+      "last_response": "The bronze sign shows a thin layer of settled dust.\n\nNolava Odd Community\nBuilding Code #006 \n\n>"
+    },
+    "believable-adventures-invisible-man": {
+      "last_event": "believable-adventures-invisible-man-5201a7e372:e00188",
+      "timestamp": "2026-09-25T08:47:38.527530+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        221234
+      ],
+      "last_response": "You open the white mail cylinder, revealing a memo.\n\n>"
+    },
+    "bse": {
+      "last_event": "bse-ec63f1779d:e00336",
+      "timestamp": "2026-09-25T08:47:38.031105+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3315035
+      ],
+      "last_response": ""
+    },
+    "cacophony": {
+      "last_event": "cacophony-c47d99b6d3:e00231",
+      "timestamp": "2026-09-25T08:47:39.972252+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        455978
+      ],
+      "last_response": "You see your own face in the mirror. Nothing surprising.\n\n>"
+    },
+    "christminster": {
+      "last_event": "christminster-735155fc69:e00652",
+      "timestamp": "2026-09-25T08:47:39.465460+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3561047
+      ],
+      "last_response": "            And a black veil that molds to my face,\n               they are making me one of them.\n             They are leading me to the shorn grove,\n               the circle of hives.\n\n               -- Sylvia Plath, \"The Bee Meeting\"\n>"
+    },
+    "critical-breach": {
+      "last_event": "critical-breach-b5dd49a3e4:e00304",
+      "timestamp": "2026-09-25T08:47:44.291905+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3324847
+      ],
+      "last_response": "It's already sedated.\n\n>"
+    },
+    "curses": {
+      "last_event": "curses-4e1875ea4e:e02967",
+      "timestamp": "2026-09-25T08:47:45.368465+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        907555
+      ],
+      "last_response": "(being worn)\n  a photographer's flash (which is closed)\n  an electric torch (providing light and closed)\n\n Souvenirs Room                             Score: 280\n (in Meldrew Hall)                          Turns: 1830        June 3rd, 1993\n>"
+    },
+    "danger-adventurer-at-work": {
+      "last_event": "danger-adventurer-at-work-cf41e07892:e00361",
+      "timestamp": "2026-09-25T08:47:38.251003+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3325194
+      ],
+      "last_response": "A truly grotesque creature, an aura of evil emanates from its very being.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n\n>"
+    },
+    "deephome": {
+      "last_event": "deephome-56e3d50bda:e00549",
+      "timestamp": "2026-09-25T08:47:38.517953+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094404
+      ],
+      "last_response": "Saved to '/work/experiments/lanthorn-recall-training/play/deephome/saves/deephome.z5.save/before-bank.sav.qzl'.\nOk.\n\n>"
+    },
+    "delusions": {
+      "last_event": "delusions-8997f25a87:e01062",
+      "timestamp": "2026-09-25T08:45:32.713500+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3320074
+      ],
+      "last_response": " that game you scored 36 out of a possible 50, in 745 turns, earning you the \nrank of \"Virtual Visionary.\"\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame, receive a HINT, UNDO the last move, or QUIT?\n> "
+    },
+    "dracula-prince-of-darkness": {
+      "last_event": "dracula-prince-of-darkness-d75c304699:e00442",
+      "timestamp": "2026-09-25T08:47:38.116955+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094264
+      ],
+      "last_response": "\nWet Stone Steps\nNarrow stone steps lead DOWN into the water or UP. You hear ticking.\n\n>"
+    },
+    "enemies": {
+      "last_event": "enemies-0b4aba49fe:e00366",
+      "timestamp": "2026-09-25T08:47:37.675824+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094159
+      ],
+      "last_response": ""
+    },
+    "fine-tuned": {
+      "last_event": "fine-tuned-989503b0a7:e00328",
+      "timestamp": "2026-09-25T08:47:31.991916+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3395975
+      ],
+      "last_response": ""
+    },
+    "frozen": {
+      "last_event": "frozen-a2e5d2eea9:e00471",
+      "timestamp": "2026-09-25T08:46:43.394769+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3082902
+      ],
+      "last_response": "You pick up some of the books in an attempt to tidy up, but with no place to \nput them you soon give up the task as futile.\n\n>"
+    },
+    "gerbil-riot": {
+      "last_event": "gerbil-riot-f0779de162:e00488",
+      "timestamp": "2026-09-25T08:47:31.860936+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094179
+      ],
+      "last_response": "\nGarden\n You're standing on a grassy, rather pleasant spot in the gardens. A pretty \nlittle path winds its merry way West.\nI can also see:-\n An exit East. (where the lake used to be)\n\nI await your advice.\n>"
+    },
+    "ghost-train": {
+      "last_event": "ghost-train-b026ef4aab:e00275",
+      "timestamp": "2026-09-25T08:47:38.299512+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3675383
+      ],
+      "last_response": "This is a church, not a library!\n\n>"
+    },
+    "gumshoe": {
+      "last_event": "gumshoe-2933d54ccf:e00321",
+      "timestamp": "2026-09-25T08:47:32.230621+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3329939
+      ],
+      "last_response": "Time passes.\n\n>"
+    },
+    "heist": {
+      "last_event": "heist-a079eba445:e00486",
+      "timestamp": "2026-09-25T08:47:44.036741+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094163
+      ],
+      "last_response": "on ends abruptly to the south at the edge of the clifftop. To \nthe west of you a narrow road winds its way towards a distant village.\n\nA beam of yellow light from the lighthouse is currently illuminating a \nparticular patch of grassland.\n\n>"
+    },
+    "heroines-mantle": {
+      "last_event": "heroines-mantle-4053f4fad7:e00481",
+      "timestamp": "2026-09-25T08:47:32.214887+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094243
+      ],
+      "last_response": "Saved to '/work/experiments/lanthorn-recall-training/play/heroines-mantle/saves/Heroine.z8.save/s44-duct.sav.qzl'.\nOk.\n\n>"
+    },
+    "hla-inform": {
+      "last_event": "hla-inform-09ea9c8220:e00196",
+      "timestamp": "2026-09-25T08:47:38.373464+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        185983
+      ],
+      "last_response": "Taken.\n\nHLA Adventure - Version 3.20a : hp: 236 g: 1053 exp: 209 food: 152\nhttp://members.tripod.com/~panks/hlaadv.html\n>"
+    },
+    "lecture-feature": {
+      "last_event": "lecture-feature-fbf9767abc:e00007",
+      "timestamp": "2026-09-25T08:47:38.551947+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        491802
+      ],
+      "last_response": "All you've got right now is a hangover.\n\n>"
+    },
+    "mansion": {
+      "last_event": "mansion-cc50b3ae7d:e01024",
+      "timestamp": "2026-09-25T08:46:27.290940+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3277099
+      ],
+      "last_response": "Saved to '/work/experiments/lanthorn-recall-training/play/mansion/saves/Mansion.z5.save/seg3-b2-entrance-blocked.sav.qzl'.\nOk.\n\n>"
+    },
+    "mortlake-manor": {
+      "last_event": "mortlake-manor-e0475539fe:e00133",
+      "timestamp": "2026-09-25T08:47:38.532741+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        446500
+      ],
+      "last_response": "You can't see any such thing.\n\n>"
+    },
+    "not-just-a-game": {
+      "last_event": "not-just-a-game-8201b5a6d4:e00211",
+      "timestamp": "2026-09-25T08:47:38.245565+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        87474
+      ],
+      "last_response": "\"Acme Gas Furnace Company\n Model 1273A\n Maximum Temperature: 1800 F\"\n\n>"
+    },
+    "pythos-mask": {
+      "last_event": "pythos-mask-a39eb2af1a:e00004",
+      "timestamp": "2026-09-25T08:44:01.844865+00:00",
+      "input_state": "no_output_timeout",
+      "pending": [],
+      "broker_pids": [
+        473922
+      ],
+      "last_response": ""
+    },
+    "return-to-karn": {
+      "last_event": "return-to-karn-bf86b7da19:e00493",
+      "timestamp": "2026-09-25T08:47:31.866817+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094239
+      ],
+      "last_response": "\nRocky Clearing\n\nThe TARDIS sits reassuringly nearby.\n\nAgainst the western rockface stands a massive boulder.\n\nK9 trails in after you.\n\n>"
+    },
+    "risorgimento-represso": {
+      "last_event": "risorgimento-represso-513c23c1c0:e00136",
+      "timestamp": "2026-09-25T08:47:41.863945+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        468244
+      ],
+      "last_response": ""
+    },
+    "schooldays": {
+      "last_event": "schooldays-b371c6a97d:e00218",
+      "timestamp": "2026-09-25T08:47:38.362432+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3682519
+      ],
+      "last_response": "Time passes.\n\n Spadina Subway Station, platform\n Saturday, June 17, 2000                             Time:  8:25 am\n>"
+    },
+    "spiritwrak": {
+      "last_event": "spiritwrak-8e02d83255:e00460",
+      "timestamp": "2026-09-25T08:47:38.017176+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094140
+      ],
+      "last_response": "You can't see any such thing.\n\n>"
+    },
+    "traffic": {
+      "last_event": "traffic-dc40d385c3:e00136",
+      "timestamp": "2026-09-25T08:47:32.275523+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        234466
+      ],
+      "last_response": ""
+    },
+    "varicella": {
+      "last_event": "varicella-0ca3ff14a0:e00103",
+      "timestamp": "2026-09-25T08:47:26.276398+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        450649
+      ],
+      "last_response": "h emerald fury. \"Don't think I don't \nknow what's going on out there. Now that the king's dead things are liable to \nget really unstable really fast. I'm not feeling all that stable myself. So \nthis had better be good. What do you want?\"\n\n>"
+    },
+    "wadewars-iii-askin": {
+      "last_event": "wadewars-iii-askin-b613801aeb:e00136",
+      "timestamp": "2026-09-25T08:47:44.496912+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        469488
+      ],
+      "last_response": "Taken.\n\n[Your score has just gone up by five points.]\n\n[Score 20, up 5]\n>"
+    },
+    "windhall": {
+      "last_event": "windhall-ec1287a533:e00320",
+      "timestamp": "2026-09-25T08:47:45.465903+00:00",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        448148
+      ],
+      "last_response": ""
+    }
+  },
+  "held": "pythos-mask startup unresolved; no save, no input/replay/reset",
+  "watcher": [
+    460667
+  ],
+  "attention": [
+    "pythos-mask: unfinished without launcher; needs diagnosis, evidence retained"
+  ]
+}

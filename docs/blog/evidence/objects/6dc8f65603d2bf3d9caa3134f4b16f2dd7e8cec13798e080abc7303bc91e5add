@@ -1,0 +1,107 @@
+#!/usr/bin/env python3
+"""Bounded singleton proposal loop. Parent review only; never executes decisions."""
+import argparse
+import fcntl
+import json
+import os
+from pathlib import Path
+import signal
+import subprocess
+import sys
+import time
+
+from kimi_coordinator_pilot import ROOT, MAX_RUN_SECONDS, loads, utcnow, write_json
+
+CALL_BUDGET = MAX_RUN_SECONDS + 30
+
+
+def invoke_pilot(root):
+    # Only our own process group may be terminated on timeout. No worker/game signals.
+    command = [sys.executable, '-B', str(root / 'scripts/kimi_coordinator_pilot.py'), '--fleet']
+    with subprocess.Popen(command, cwd=root, stdin=subprocess.DEVNULL,
+                          stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                          text=True, start_new_session=True) as child:
+        try:
+            stdout, stderr = child.communicate(timeout=CALL_BUDGET)
+        except subprocess.TimeoutExpired:
+            os.killpg(child.pid, signal.SIGTERM)
+            try:
+                child.communicate(timeout=2)
+            except subprocess.TimeoutExpired:
+                os.killpg(child.pid, signal.SIGKILL)
+                child.communicate()
+            return 124, None, 'pilot invocation exceeded bounded timeout'
+    if child.returncode:
+        return child.returncode, None, (stderr or stdout)[-2000:]
+    try:
+        result = loads(stdout)
+        run = Path(result['run'])
+        if run.parent != root / 'control/kimi-pilot' or result['exit_code'] != 0:
+            raise ValueError('invalid child run receipt')
+        status = loads((run / 'run.json').read_bytes())
+        validation = loads((run / 'validation.json').read_bytes())
+        if (status['exit_code'] != 0 or status['provider_exit_code'] != 0 or
+                validation['valid'] is not True or validation['status'] != 'validated_proposal_only' or
+                validation['actions_executed'] != [] or not (run / 'decision.json').is_file()):
+            raise ValueError('child run did not produce a validated proposal')
+        return 0, str(run), None
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        return 3, None, str(exc)
+
+
+def run_loop(root=ROOT, duration=10800, interval=300, invoke=invoke_pilot,
+             clock=time.monotonic, sleep=time.sleep, emit=write_json):
+    if not (CALL_BUDGET + 3 <= duration <= 10800 and interval >= 300):
+        raise ValueError('duration must be 333..10800 seconds; interval at least 300 seconds')
+    started = clock()
+    status = dict(started_at=utcnow().isoformat(), duration_seconds=duration,
+                  interval_seconds=interval, calls_completed=0, status='running',
+                  parent_review_required=True, actions_executed=[])
+    path = root / 'control/kimi-pilot/watcher-status.json'
+    emit(path, status)
+    try:
+        while clock() + CALL_BUDGET + 3 <= started + duration:
+            status.update(last_started_at=utcnow().isoformat())
+            emit(path, status)
+            code, run, error = invoke(root)
+            status.update(last_exit_code=code, last_run=run, error=error,
+                          last_finished_at=utcnow().isoformat())
+            if code:
+                status['status'] = 'stopped_failure_no_retry'
+                emit(path, status)
+                emit(root / 'control/kimi-pilot/latest-status.json', status)
+                return code
+            status['calls_completed'] += 1
+            emit(path, status)
+            remaining = started + duration - clock() - CALL_BUDGET - 3
+            if remaining < interval:
+                break
+            sleep(interval)  # completion-to-next-start; no overlapping calls, no catch-up bursts
+        status['status'] = 'completed_duration'
+        emit(path, status)
+        return 0
+    except (OSError, ValueError, KeyboardInterrupt) as exc:
+        status.update(status='stopped_failure_no_retry', error=str(exc), last_exit_code=3)
+        emit(path, status)
+        emit(root / 'control/kimi-pilot/latest-status.json', status)
+        return 3
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--duration-seconds', type=int, default=10800)
+    parser.add_argument('--interval-seconds', type=int, default=300)
+    args = parser.parse_args()
+    directory = ROOT / 'control/kimi-pilot'
+    directory.mkdir(parents=True, exist_ok=True)
+    with (directory / 'watcher.lock').open('a') as lock:
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            print('Kimi watcher already owns singleton lock', file=sys.stderr)
+            return 73
+        return run_loop(duration=args.duration_seconds, interval=args.interval_seconds)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

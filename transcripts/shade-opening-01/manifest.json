@@ -1,0 +1,32 @@
+{
+  "observed_release": {
+    "number": "3",
+    "serial": "001127"
+  },
+  "release_matches_source": false,
+  "game_id": "shade",
+  "session_id": "shade-ffcca0f01802",
+  "access_time": "2026-09-24T12:04:26.798714+00:00",
+  "source_record": "/work/experiments/lanthorn-recall-training/runs/sources-20260924T115654Z-9rT0aa/records/shade.json",
+  "source_record_sha256": "012f62fe19915cb6a708a1df0262a0cfa108fe4fdb198debd81d503b230c867f",
+  "story_path": "/home/krickert/if-games/zcode/shade.z5",
+  "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+  "interpreter": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "interpreter_sha256": "f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda",
+  "argv": [
+    "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+    "--plain",
+    "--sound",
+    "off",
+    "/home/krickert/if-games/zcode/shade.z5"
+  ],
+  "stdout_sha256": "045ea105b4cdfef69b6440883ab6735b4af62c03c0c9ae0a59d734525d8bb7bc",
+  "requested_commands": 20,
+  "captured_commands": 20,
+  "last_read_status": "prompt",
+  "exit_code": 0,
+  "release_banner": "\n\n    *** SHADE ***\nA brief story by \"Ampe R. Sand\" (Andrew Plotkin)\nFirst-time players should type \"about\".\nRelease 3 / Serial number 001127 / Inform v6.21 Library 6/10 \n\nOdd, how the light just makes your apartment gloomier. Pre-dawn darkness pools \nin the corners and around the tops of walls. Your desk lamp glares yellow, but \nthe shadows only draw your eyes and deepen.\n\nNot much of an apartment, no. One desk, paper-piled, with a dusty computer \nshoved to the side. Your futon. Second-hand stereo sitting on a cardboard crate.\nA kitchen nook one way and a bathroom nook the other, with a closet to the side.\nA broad mirror tries to make the place seem twice its size; it halfway works. \nOne window, whose shade is down, and the front door firmly shut.\n\nYour luggage is piled untidily by the door. A potted hyacinth sits beneath the \nwindow.\n\nYou are sprawled on the futon, staring up into that gloom. Your eyes feel \ngritty. But it's too late -- early -- no time left for sleep, anyway. In a few \nhours your ride will arrive.\n\nOn the desk are your to-do list and a travel book.\n\n>",
+  "review_status": "unreviewed",
+  "compatibility_scope": "Opening only; not a complete walkthrough validation.",
+  "input_index_note": "Input order, not the game engine turn counter."
+}

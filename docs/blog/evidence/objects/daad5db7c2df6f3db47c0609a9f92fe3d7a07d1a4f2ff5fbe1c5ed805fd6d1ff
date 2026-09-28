@@ -1,0 +1,16 @@
+# Critical Breach — progress
+
+Location: Laboratory (Workbench), terminal lit, specimen sedated/cage unlocked, drawer opened, inventory: injector+chip, beaker, pliers, keycard, coat worn. Ordinary prompt.
+
+Checkpoints: start-darkness, lab-arrival (verified). Next milestone after specimen/chip section.
+
+Cases done:
+- light-hit-synonym none (e15 hit, e16 punch both ok)
+- drawer-typo vocab (e25 drawr fail, e27 open drawer ok)
+- keycard-put-synonym none (e31 card beep, e32 keycard placed)
+- select3-synonym vocab (e35 choose fail, e36 select ok)
+- takeall-omitted syntax (e38 bare take->coat, e39 take all ok)
+
+Last hint m0023: X COAT / PUT KEYCARD / SELECT 3 / OPEN DRAWER / TAKE ALL / E / OPEN FURNACE. Verified through TAKE ALL.
+
+Next: E to test area, probe furnace opening variations, update checkpoints. Need diverse types: pronoun, word-order, wrong object, world_state blocked. Inventory observed via e39.

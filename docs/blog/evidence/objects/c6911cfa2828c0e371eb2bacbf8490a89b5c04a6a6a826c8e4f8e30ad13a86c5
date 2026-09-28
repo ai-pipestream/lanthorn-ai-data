@@ -1,0 +1,75 @@
+{
+  "game_id": "pentari",
+  "title": "Pentari",
+  "author": "Howard Sherman",
+  "url": "https://ifarchive.org/if-archive/solutions/pentari.sol",
+  "accessed_at": "2026-09-25T06:02:02.327632+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/pentari.sol",
+  "source_sha256": "4017fd8dbd5ff5249207d733f2e6eb203ca3f5794f711890cceb1fe4222ce550",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/pentari-walkthrough.txt",
+  "normalized_sha256": "4017fd8dbd5ff5249207d733f2e6eb203ca3f5794f711890cceb1fe4222ce550",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/pentari.z5",
+  "story_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+  "compatibility": "Local R6/030206; author walkthrough archived in 1998 gives no release/serial and predates this story. It explicitly describes three endings and a direct 60/70-point route. Later-release route compatibility remains untested.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 6,
+  "serial": "030206",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000063678367925d6010a13471d930010303330323036004258ee2aba000000000000000000000000000000001d92000000000000010200000000362e3231",
+    "header_sha256": "ab507ec5a9979e26298a4641880887f08721f61a186a455464a0634756ee82e4",
+    "checksum_hex": "2aba",
+    "declared_length": 91064,
+    "file_bytes": 91136
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "pentari.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/pentari.z5",
+    "accessed_at": "2026-09-25T06:03:03.609218+00:00",
+    "remote_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+    "local_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+    "bytes": 91136,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 6,
+    "remote_serial": "030206"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#pentari.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "pentari.z5\n◆\n[09-Feb-2003]\nIFDB entry\nPentari, an Interactive Prequel to \"The Mission\",\nby Howard Sherman.\nRelease 6 / Serial number 030206."
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#pentari.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "pentari.sol\n◆\n[01-Nov-1998]\nIFDB entry\nSolution to Pentari, by Howard Sherman"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Pursue the author guide's emerald/box conclusion with nobody else in the room. Its 60/70 score is intentional, not an incomplete route. Preserve and label the two alternate endings involving the elf and Morden if encountered; do not require all three or chase maximum points after a verified conclusion.",
+    "limitations": "The guide conditions a spell on the elf being absent; observe the live scene before action. Distinguish its bonus suggestions from the chosen route.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "pentari",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Archive calls this a prequel to The Mission. Keep future Pentari/The Mission releases or ports together pending parent relationship review; no existing matching family found."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

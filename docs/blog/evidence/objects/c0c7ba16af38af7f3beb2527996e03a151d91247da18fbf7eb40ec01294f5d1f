@@ -1,0 +1,55 @@
+{
+  "at": "2026-09-25T09:12:09.879456+00:00",
+  "game_id": "danger-adventurer-at-work",
+  "events": [
+    {
+      "event_id": "danger-adventurer-at-work-cf41e07892:e00437",
+      "timestamp": "2026-09-25T09:06:40.893110+00:00",
+      "game_id": "danger-adventurer-at-work",
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "branch_id": "b0",
+      "event_index": 437,
+      "event_type": "command",
+      "command": "ride pony",
+      "response": "The pony trots off into the plains. You hold on tightly, grateful that you \nremembered to take the sickness pills as you are bumped along. After a couple \nof miles, the pony suddenly grows wings. While you're still trying to adjust to \nthis change, the wings flap and take you (and the pony) skywards. Eventually, \nthe pony deposits you on a cloud, surrounded by numerous computers and a vast \ncollection of all the adventures ever released. \n\nHooray! You've done it! \n\nCongratulations !!!\n\n                           Press any key to continue\n",
+      "raw_start": 62383,
+      "raw_end": 62927,
+      "response_sha256": "b4b70caac0f6da63e01006d09f4c499b843b85b6bcd1ab2b3d89f8dd447fa06b",
+      "story_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "danger-adventurer-at-work-cf41e07892",
+        "case_id": "pony-ride",
+        "expected_outcome": "Ride pony east across plain to conclusion",
+        "intent": "Ride the pony east across the vast plain",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "danger-adventurer-at-work-cf41e07892:e00438",
+      "timestamp": "2026-09-25T09:06:59.137598+00:00",
+      "game_id": "danger-adventurer-at-work",
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "branch_id": "b0",
+      "event_index": 438,
+      "event_type": "command",
+      "command": "",
+      "response": "\nYou have taken 217 turns.\nYou have scored 100%\n\n\n                                END OF D.A.A.W.\n\n                           Do you wish to play again?\n>",
+      "raw_start": 62927,
+      "raw_end": 63081,
+      "response_sha256": "18b89f51b4feb21538f3c0d6def8d62b3a94511b01af40200b7332fdc464d6e8",
+      "story_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "danger-adventurer-at-work-cf41e07892",
+        "case_id": "pony-conclusion-continue",
+        "expected_outcome": "Final concluding text after congratulations",
+        "intent": "Press key to continue past pony conclusion",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "RIDE PONY reaches cloud/computers/adventures with congratulations; empty Enter gives END OF D.A.A.W./100%/playagain. Substantive authored ending, not score alone. Parent exact raw/text/hash verified; independent review pending. No full content/case coverage claim."
+}

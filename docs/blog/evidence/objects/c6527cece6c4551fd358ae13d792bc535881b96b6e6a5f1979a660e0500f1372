@@ -1,0 +1,77 @@
+{
+  "game_id": "hunt-for-relief",
+  "title": "The Hunt For Relief",
+  "author": "Christian Gaertner",
+  "url": "https://ifarchive.org/if-archive/solutions/Relief.walkthrough.txt",
+  "accessed_at": "2026-09-25T06:11:49.519938+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/Relief.walkthrough.txt",
+  "source_sha256": "10726883c6f29e6229383b82a370ab7ff33dc25a8de579049d82f5b15cb1e825",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/hunt-for-relief-walkthrough.txt",
+  "normalized_sha256": "10726883c6f29e6229383b82a370ab7ff33dc25a8de579049d82f5b15cb1e825",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Relief.z5",
+  "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+  "compatibility": "Local R1/000820 matches archive entry; author guide explicitly names Relief.z5 and shares its IFDB identity, but supplies no release/serial. Guide was archived six days after the story; proximity is not an exact version guarantee.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "000820",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000012e0c2e0d2017010a0d7417ce001030303038323000425c35121c0000000000000000000000000000000017cd000000000000010200000000362e3231",
+    "header_sha256": "28481b624c22ebd6184258df8d3d37a546451c5889bf03f18fd96ccc93a2b7b4",
+    "checksum_hex": "121c",
+    "declared_length": 94420,
+    "file_bytes": 94720
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "Relief.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Relief.z5",
+    "accessed_at": "2026-09-25T06:13:02.323325+00:00",
+    "remote_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+    "local_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+    "bytes": 94720,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "000820"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Relief.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Relief.z5\n◆\n[20-Aug-2000]\nIFDB entry\nThe Hunt For Relief, a toilettic experience,\nby Christian Gaertner.\nRelease 1 / Serial number 000820.",
+    "tuid": "z8wgwnz83s66y3ku"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Relief.walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "Relief.walkthrough.txt\n◆\n[26-Aug-2000]\nIFDB entry\nWalkthrough for Hunt for Relief by the game's\nauthor, Christian Gaertner.",
+    "tuid": "z8wgwnz83s66y3ku"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Resolve the glue/key/bathroom route and continue to using the toilet, requiring the actual authored relief conclusion. Merely opening the bathroom, opening the toilet or observing the guide's final parenthetical note is not completion.",
+    "limitations": "The author acknowledges unfair puzzles and describes some misleading objects. Distinguish walkthrough commentary from commands; derive repeated attempts and state changes from actual output. In-story PC ordering is fictional gameplay, not host networking.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "hunt-for-relief",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "All releases of Hunt For Relief stay together; no concrete shared-world/puzzle relationship identified in inspected sources."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission."
+}

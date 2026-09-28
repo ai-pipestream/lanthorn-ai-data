@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-09-25T07:01:21.788707+00:00",
+  "target": 10,
+  "workers": {
+    "zork-i7": [
+      1729082
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "tryst-of-fate": [
+      2968512
+    ],
+    "the-edifice": [
+      3111269
+    ],
+    "anchorhead": [
+      3134277
+    ],
+    "paper-chase": [
+      3167249
+    ],
+    "mansion": [
+      3277256
+    ],
+    "curses": [
+      3313049
+    ],
+    "delusions": [
+      3320129
+    ],
+    "magic-toyshop": [
+      3539038
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "so-far",
+    "childs-play",
+    "pentari",
+    "all-quiet-on-the-library-front",
+    "tube-trouble",
+    "slacker-x",
+    "only-after-dark",
+    "zuni-doll",
+    "paper-chase",
+    "pick-up-the-phone-booth-and-aisle"
+  ],
+  "queued": [
+    "christminster",
+    "the-wedding",
+    "ghost-train",
+    "schooldays",
+    "not-just-a-game",
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man"
+  ]
+}

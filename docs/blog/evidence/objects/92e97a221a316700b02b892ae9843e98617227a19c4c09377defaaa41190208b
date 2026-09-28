@@ -1,0 +1,76 @@
+# Independent audit — Kimi coordinator feasibility pilot
+
+Cutoff: 2026-09-25T09:30:52.288811+00:00. Four-game scope only: time-all-things-come-to-an-end, enemies, traffic, pythos-mask. This is the explicitly authorized, supervised coordination feasibility test, not training or a game-skill benchmark. Audit writes: this file only. No Kimi/model invocation, game input, scheduler operation, application/runtime change, or interpreter probe performed by this auditor.
+
+## Result
+
+**The inspected pilot remains decisions-only with no automatic proposal execution. Both completed answers preserve Pytho's hold and defer Traffic ending certification to the parent. The second answer fixes the first answer's capacity error and leaves enabled schedulers alone.** Suitable evidence for continued parent-reviewed feasibility work; not sufficient evidence for autonomous coordinator authority.
+
+The newly added validator and explicit scheduling policy address earlier omissions. I read the current versions after the changes and do not report the absence of validation or old brief ambiguity as unresolved findings. Remaining concrete issues and snapshot limits follow.
+
+## Remaining findings and fail-closed corrections
+
+### P2 — Failure status artifacts are written before validation and can contradict the final result
+
+[kimi_coordinator_pilot.py:114](/work/experiments/lanthorn-recall-training/scripts/kimi_coordinator_pilot.py:114) writes exit.status and run.json with the provider exit code before validation. Lines 129–131 later set code=3 on a validation failure, but never update those artifacts. Thus a malformed provider-success answer leaves exit.status=0 and run.json exit_code=0 while validation.json says false and the process returns 3. Any consumer using the stored status alone can misclassify a rejected run as successful. This is a code-path finding, not an observed failure of either completed answer.
+
+Correction: distinguish provider_exit_code from final validation/run status, and write the final receipt after validation. Treat missing/failed validation as rejected. Preserve the raw response either way. No executor should be added.
+
+### P2 — The validator checks links/counts but does not implement a complete schema or safety policy
+
+[validate_decision:21–44](/work/experiments/lanthorn-recall-training/scripts/kimi_coordinator_pilot.py:21) correctly checks snapshot identity, exact game set/count, session IDs, allowed dispositions/confidences, nonempty linked event references, capacity values and a boolean launch flag. Strict outer JSON-fence removal preserves raw output and rejects additional prose through json.loads; that is a reasonable logged normalization.
+
+I extracted only this function via AST and exercised it in memory, without importing/running the collector or writing fixtures. Starting with the second decision, all three mutations were accepted:
+
+- Remove required top-level recommendation entirely.
+- Replace a game's reason string with a nonempty object.
+- Set another_launch_justified=true while the supplied counts plus held slot are already full.
+
+The first two are definite schema gaps despite the receipt's schema_scope_session_refs_capacity_valid label. The third shows that capacity equality is not policy validation; parent_semantic_review_required correctly remains necessary. The first pass's original incorrect capacity prose also passes these structural checks. Correction: enforce required keys and field types; reject explicit unsafe structured outcomes (full-capacity launch, non-hold treatment of a supervisor-held game, or new input with pending/unresolved state) or emit an explicit policy-review failure. Keep prose subject to independent human/parent review. Raw verification and decision checks currently use assert, so optimized Python disables them; use explicit exceptions for fail-closed checks if execution modes can vary.
+
+### P2 — A raw-matching snapshot can still combine inconsistent session/state/header evidence
+
+[Collector:62–85](/work/experiments/lanthorn-recall-training/scripts/kimi_coordinator_pilot.py:62) copies release/serial from the manifest; it does not read or hash the actual story/header. Selected events are checked against stdout.raw, but their story hashes are copied, not independently computed. Claim, hold, remote assignment and progress are fetched separately without matching their sessions to the selected manifest or a before/after capture-boundary check. Claim references absent from current-session events silently drop out at lines 66–68 rather than being reported missing.
+
+No such header/session mismatch was found in these samples: my independent local story-hash/header checks passed for all four, and selected raw/session checks passed. Correction: pin/check actual story/header identity, enforce claim/hold/assignment session consistency, report missing references, and retry/reject a capture whose session boundary changes. Capture source timestamps/hashes and finish time. raw_verified_by_collector verifies response bytes only; empty-response help/annotation events do not validate metadata, source advice or progress prose. The brief appropriately calls those fields untrusted.
+
+### P2 — Active-client/health claims exceed the collected process evidence
+
+[Collector:54–59](/work/experiments/lanthorn-recall-training/scripts/kimi_coordinator_pilot.py:54) counts distinct local launcher game IDs. [maintain_workers.py:26–41](/work/experiments/lanthorn-recall-training/scripts/maintain_workers.py:26) recognizes bash run-fullplay.sh and broker argv; it does not verify the Muse child or matching interpreter health. Remote counts are cached muse_alive flags with copied timestamps, but no freshness bound or assignment/session check. Pool queued state lacks its own observed timestamp. Actual active_game_ids improve the capacity reasoning but do not turn launchers into verified clients.
+
+Correction: label these as observed launcher/cached-worker counts, include freshness/health limits, and fail closed on stale/missing/duplicate ownership evidence before authorizing any operational step. First and second answers' high-confidence healthy-session claims should be understood within this limitation. No additional fleet inspection was performed.
+
+### P3 — Run provenance is incomplete and the profile hash is taken after execution
+
+[Run construction:103–119](/work/experiments/lanthorn-recall-training/scripts/kimi_coordinator_pilot.py:103) reads a mutable agent file, hashes it after the subprocess, and hardcodes the model/mode receipt. It does not preserve the loaded profile bytes, collector/helper/CLI hashes, actual tool manifest, or previous-decision hash. An in-flight profile edit can make the receipt describe different content. Correction: copy/hash invocation inputs before launch, retain prompt/previous-decision provenance, and record actual model/tool resolution. This is a reproducibility limit, not evidence that either model run loaded the wrong profile.
+
+## Independent checks and observed outcomes
+
+- Native Kimi logs for both completed sessions explicitly report provider=openai, model=k3, modelAlias=kimi-code/k3 and toolCount=0. Profile frontmatter has tools=[] and subagents=[]; streams contain no tool-call/delegation events. Subagents=[] is configuration evidence; no separate loaded subagent-manifest receipt is emitted.
+- The pilot's only subprocess is the authorized Kimi invocation, list argv, DEVNULL stdin, run-directory cwd, 300-second bound. Collector-used helpers are read-only. maintain_workers mutation functions are not invoked, and its main loop is guarded. Script writes are pilot artifacts; Kimi additionally writes ordinary native session/log files. No model-output-to-inbox/scheduler executor exists. Parent first review and both validation receipts record actions_executed=[]. These facts support absence of pilot-caused live mutations; this is not an OS-wide audit of concurrent actors.
+- Independently checked 58 selected raw records in each of the two initial snapshots and the second-pass snapshot: 174 overlapping record occurrences, not independent observations. Response text/hash matches stdout.raw. Four actual story hashes match selected events; actual headers match Time R7/970521, Enemies R4/990115, Traffic R2/241027 and Pytho Glulx R4/020223. Snapshot hashes match completed run receipts. Story/header verification is an independent audit check, not something the collector itself currently does.
+- Both completed decisions independently passed the current pure validator: four expected dispositions, matching snapshot/session IDs and known event references. First answer is raw JSON; second is exactly an outer json fence, normalized with json_fence_removed=true and raw retained. No normalization changed decision content.
+- First completed pass `20260925T092417.148209Z`: correct continue/continue/verify_ending/hold, but incorrectly suggests later Traffic certification can free another slot. Parent caught it before action. Correct references/dispositions alone did not establish semantic safety.
+- Second pass `20260925T092601.202521Z`: states Traffic is absent from active remote IDs, its slot was already recycled, certification creates no new capacity; no manual launch, no scheduler change, healthy workers monitor/continue, Pytho held without input. Its previous-answer context and revised brief make it a successful prompted correction, not an independent replication or a benchmark score. A separate second parent-review.json was not present at the last check; parent_semantic_review_required remains true.
+- Pytho progress still says m0003 pending, while e4, pending_requests=[] and the updated hold show resolution to another timeout. Kimi correctly prioritizes the latter. Traffic e233 is raw-verified and its claim's reference is present. Prior b2/e199 lineage is not included as raw evidence, so historical comparisons from notes remain unverified and no ending is certified by this audit.
+- Initial attempt `20260925T092404.704070Z` exited 1 with Cannot combine --prompt with --auto and no decision; exclude it from coordination-reasoning outcomes.
+
+## Current audit pins
+
+- `/work/experiments/lanthorn-recall-training/scripts/kimi_coordinator_pilot.py`: `e1727ba5d32f502161212cadc8b0cf0afc401afd9f1e4c45bb9e883dc3784b6a`
+- `/work/experiments/lanthorn-recall-training/scripts/maintain_workers.py`: `7d73320bf6560d7400fa7cb61e9b52ad47e2e9a7198532d72d4381a3dac0c6b3`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/coordinator.md`: `1e22d48674fbe1d652d7eec4ffc4acd135aae4f815f5dc459a078dbe5caf4c92`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092417.148209Z/snapshot.json`: `2e66981f04f32b1252322cbacc5af3bbb39d5abc92c2516793845dd6aab08cc4`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092417.148209Z/decision.json`: `408242dcfd40957b14b7535bd347cf3219c1932044f258b983de9fe44f5e31dd`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092417.148209Z/validation.json`: `3144b031d3e89a395a200bba9fba615142f583addf1ff6e20b45cbf986d44627`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092417.148209Z/run.json`: `b3acbdd9ce7fb21c35bb59d5b5faf19e12cc6ec05e062b3572e51d4c07b9848b`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092601.202521Z/snapshot.json`: `769e1dcd808ffe185f6490c6ac525560b0fe437cb3e8545e34b9157dd0baa7fc`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092601.202521Z/decision.json`: `747b5e3a679aa47d03bb9a1c3551ac7c798ec2c5654e8d011b161a693695ff9e`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092601.202521Z/validation.json`: `f88a25485bfd9c9e2047ff468847c2fb313a269c2475931129b97d20d0bd518b`
+- `/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T092601.202521Z/run.json`: `0c4d716e14f5c83841ebc8aeee6ba138b4888d47f7b7378c56c052281b0efa6e`
+
+Native first receipt: `/home/krickert/.kimi-code/sessions/wd_20260925t092417.148209z_9244c5fd7eda/session_c2b49238-1b54-4066-a187-807da21d7709/logs/kimi-code.log:1`.
+
+Native second receipt: `/home/krickert/.kimi-code/sessions/wd_20260925t092601.202521z_c9d1270f0b43/session_3fe9d3a5-3d59-4bda-a103-ef169dfe9500/logs/kimi-code.log:1`.
+
+Audit complete. Corrections above are recommendations only; no fixes or live actions were executed.

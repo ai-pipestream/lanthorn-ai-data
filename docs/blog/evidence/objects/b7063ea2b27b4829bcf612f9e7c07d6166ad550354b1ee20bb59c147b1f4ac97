@@ -1,0 +1,8 @@
+# Bedlam progress (WINNING ENDING OBSERVED, needs annotate + finish)
+
+Session bedlam-59f5a6e860 b0, latest e00143 turn on car -> WIN.
+Location: Garage in car. Ending observed: preview complete, *** You have won ***.
+Inventory at e00136: ring of keys, magnifying glass, empty glue tube, bible (open, $10 bill), axe, clothes+mitts worn. Coin glued, broom on patio, bat+bottle in Tony room.
+Checkpoints: start-bedroom, after-alarm, after-mitts, after-pill, after-axe, after-tony-clean, after-bible, after-keys.
+Last hint (e00139): open car; enter car; start car (with keys). Used get in car (accepted) + turn on car (won).
+Next: annotate ~20 pairs (cabinet, bottle-take, mitts, washer, garage-enter, leave-house, axe, wife-clean, tony-clean, dresser-smash, splinter, bible, coin-glue, coin-take, glass, curtains, cord, wife-keys, car-open, car-enter/start acceptances, glue/screwdriver capacity), update progress, then finish with e00143 quote. Do NOT send further game commands (would disturb won prompt).

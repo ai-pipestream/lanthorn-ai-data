@@ -1,0 +1,297 @@
+# Experiment journal
+
+Dates are UTC. Initial entries reconstruct earlier work from retained artifacts;
+they are not notes written contemporaneously. Append subsequent findings with
+their evidence instead of silently rewriting the history.
+
+## 2026-09-24: scope and discovery
+
+The user wanted to ease text-adventure frustrations while retaining the original
+interpreter. Recall came first; command assistance became a related collection
+target. Hybrid retrieval and MiniLM were discussed. Neither discussion selected
+a final model or established that training would help.
+
+We created a separate experiment workspace. Muse uses the Meta provider; Terra
+independently reviews evidence. The first source pilot failed to adequately verify
+walkthrough bodies. Revised prompts and validation required actual fetch receipts.
+
+Evidence: `sources/pilot-*`, `runs/pilot-review.md`, `scripts/validate_sources.py`,
+`run-sources.sh`, and retained per-run prompts and outputs in `runs/`.
+
+## 2026-09-24: actual play and synthetic mistakes
+
+The user clarified that the target is useful test data, not Muse's playing skill.
+Workers inject labeled synthetic human-like mistakes while advancing real games.
+They request small walkthrough excerpts through a logged broker action. Actual
+game output supplies evidence; guide prose and model recollection cannot replace it.
+
+The initial games were the Zork/Dungeon Inform 7 port, Hitchhiker's Guide,
+Adventureland, Pirate Adventure and Lost Pig. If an alternative command works,
+it stays an accepted alternative rather than becoming an invented parser failure.
+
+Evidence: `prompts/fullplay.md`, `run-fullplay.sh`, `scripts/play_broker.py`, and
+each game's `manifest.json`, `events.jsonl` and `stdout.raw` under `play/`.
+
+## 2026-09-24: capture and review failures
+
+A slow Zork response demonstrated that a quiet output interval did not mean the
+interpreter was ready for input. Delayed text could be attributed to the following
+command. The broker now checks whether the owned interpreter is waiting to read
+stdin and blocks further input after an uncertain timeout. Earlier affected
+examples remain quarantined. Tests of the corrected transport do not retroactively
+validate old captures.
+
+Review also caught changed-intent repairs, cross-branch state assumptions and
+unsupported explanations of why a command failed. Parser acceptance differs from
+achieving the intended world effect. Separate those labels instead of treating
+any later success as a correction.
+
+CSV tooling inferred dates and formulas from strings. The exporter now protects
+literal text and verifies readback before emitting quoted CSV. JSON retains
+original timestamp precision; CSV timestamps use milliseconds.
+
+Evidence: `scripts/test_broker_transport.py`, `scripts/export_dataset.mjs`,
+`reviewed/fullplay-cases.json` and `runs/fullplay-supervision.md`.
+
+## 2026-09-24 23:20: host restart recovery
+
+After the user reported a restart, we preserved history and recovered from
+engine-confirmed saves with story/save hash checks. Recovery creates explicit
+new sessions and branches. Uncertain pending inputs were not blindly replayed.
+
+Evidence: `control/fullplay-host-restart-20260924T2318.json`,
+`scripts/recover_broker.py`, recovery receipts in `runs/fullplay-status.json`.
+
+## 2026-09-24: four independently verified endings
+
+The reviewer record retains the raw spans and hashes for these receipts:
+
+- Adventureland: `adventureland-19f4e4861c:e00939`, 13 treasures and explicit
+  completion.
+- Pirate Adventure: `pirate-adventure-3b0fad2d95:e00853`, both treasures and
+  explicit completion.
+- Lost Pig: `lost-pig-7c88b2b933:e00357`, farm-return ending, score 6/7.
+- Hitchhiker's Guide: `hhgttg-7b4da6d228:e00397` and `e00398`, Magrathea arrival,
+  final score 385/400 and natural engine exit.
+
+A maximum score is not always necessary for an ending. Conversely, a high rank,
+death, quit or scene transition does not establish an intended ending.
+
+## 2026-09-25: Zork remains incomplete
+
+The story is Zork/Dungeon 3.2B, an Inform 7 port, not commercial Zork I. The first
+guide did not cover the same content. A matching source archive contained a story
+binary with the same hash, providing a stronger identity check than the title.
+
+Exploratory commands repeatedly exhausted lamp power needed later. Sending a
+shorter route does not prove it ran: after advice to restore an early checkpoint,
+the worker restored a later depleted one. Report observed execution separately
+from instructions and resource estimates.
+
+A parent hypothesis that an exhausted lamp could be reactivated was also wrong:
+it missed a source guard and actual output contradicted it. Preserve that mistake
+in the account. Source inspection and supervisor advice also need verification.
+The intermediate 586-point/wraith stage is not a verified ending.
+
+Evidence: `control/ZorkI7-source.zip`, `control/zork-port-story.ni`,
+`control/zork-port-walkthrough.txt`, and the supervision record. Guidance at
+`zork-i7-c569ad8028:e01394` differs from the actual restore at `e01424`/`e01425`.
+
+## 2026-09-25 01:54: five more games
+
+The user authorized Photopia, Shade, Suveh Nux, Secret Mission and Voodoo Castle.
+Separate brokers use existing local story files and privately retained guide
+sources. A new-game broker refuses an existing game directory to prevent silent
+resets. Game-family split assignments were preserved before collection.
+
+Startup checks exposed distinctions worth recording:
+
+- Photopia is stripped-down Z-code 1.30, not Glulx 2.01.
+- Shade is release 3 / 001127, matching the guide's stated release.
+- Suveh Nux's selected 2007 binary reports version 1.1; its guide describes 1.0.
+  The initial collection note implied a match and was subsequently corrected.
+- Secret Mission's actual banner says MISSION IMPOSSIBLE by Scott Adams.
+- Voodoo Castle's banner credits Alexis Adams.
+- Initial SAVE commands failed in both new Scott-format games. An attempted
+  checkpoint is not a recoverable save without engine confirmation.
+
+Evidence: `control/fullplay-expansion-20260925.json`,
+`sources/expansion-20260925/`, `control/expansion-launch-20260925.json`,
+`batches/splits.json`, and startup receipts in `runs/fullplay-status.json`.
+
+## 2026-09-25 02:18: blog evidence record
+
+The user requested a durable account of acquisition, capture, testing and future
+model creation. Added this journal, methodology, proposed model plan and a dated
+evidence snapshot script.
+
+The initial snapshot captured 12,475 events and a CSV with 709 cases: 433 accepted,
+165 revise, 15 quarantine and 96 unreviewed. All recorded response byte spans
+matched their hashes and decoded text. This verifies byte integrity, not intent
+preservation or causal attribution. Collection, review and export run separately;
+their timestamps may differ.
+
+Evidence: `docs/blog/evidence/snapshots/20260925T021805.922507Z.json`.
+The three current transport tests also passed in this documentation pass, in
+3.925 seconds. Training and model evaluation have not started.
+
+## 2026-09-25 02:30: three more endings; Zork continuation corrected
+
+Parent review verified the actual raw spans and response hashes for Photopia's
+nursery lights-out and final title (e00219/e00220), Shade's final desert narrative
+and restart/restore/quit menu (e00347), and Suveh Nux's vault escape and master
+rescue with explicit escape banner (e00269/e00270/e00271, 99%). The Photopia and
+Shade guide endings were compared locally to distinguish final narrative from
+earlier scene transitions or deaths. Terra's separate review was requested;
+consult its dated status for the independent verdict and candidate-case review.
+
+Evidence: `control/ending-parent-verification-20260925T0230.json`, containing exact
+session event IDs, byte spans, hashes and responses. Seven games now have endings
+verified by the parent against interpreter evidence. No completed game was resumed.
+
+Zork's launcher had exhausted its twelve continuation segments and stopped cleanly
+without an ending. The interpreter broker remained alive with no pending requests.
+A new worker reused that broker. A dated collection note explicitly superseded
+stale b88 guidance, preserving the previous notes and all checkpoints. This time
+actual events e01592/e01593 acknowledge restoration of shaft-coal-in-basket-b43,
+starting a new branch. The short route's eventual lamp reserve and completion
+remain unverified; successful restore alone proves neither.
+
+Evidence: `control/zork-collection-notes-before-20260925T0230.md`,
+`play/zork-i7/collection-notes.md`, `runs/fullplay-zork-i7-20260925T022837Z-cS2k3t/`,
+`zork-i7-c569ad8028:e01592` and `e01593`. Secret Mission and Voodoo Castle continue.
+
+## 2026-09-25 02:35: second authorized five-game expansion
+
+The user requested more Muse agents. Started separate real interpreters and Muse
+workers for The Dreamhold, Bronze, 9:05, Violet and Slouching Towards Bedlam.
+This brings the scope to fifteen games. Existing sessions were not reset.
+Startup story hashes and raw-response hashes were verified before workers began.
+
+Story files already existed in the private library. Retrieved and retained guides
+with source URL, access timestamp, hashes and normalization notes. The 9:05 HTML
+was limited to the AustinH walkthrough section; unrelated review/comments are not
+part of its hint text. Violet uses the original competition file and author guide
+from the same directory; Slouch uses the competition2003 file and archive-linked
+Michael Martin solution. Dreamhold's R4 guide versus R5 story, Bronze's unspecified
+guide on the R13 site versus local R11 story, and 9:05's older guide versus actual
+v1.11/2012.0724 remain explicit compatibility gaps, not claims of full matching.
+
+Bronze initially asks a yes/no question; Violet pauses for a key. Per-game notes
+prevent an early SAVE from becoming a reply to the wrong kind of prompt. Slouch's
+five deliberately ambiguous endings require identifying a substantive intended
+route, rather than imposing a happy-win criterion. 9:05 is short: use diverse
+cases rather than repeating probes for a quota, and seek a non-arrest escape
+rather than forcing its timeout ending.
+
+Preserved prior split assignments for Dreamhold/development, Bronze/train and
+905/train. Assigned Violet/test and Slouching Bedlam/development before generation;
+all versions and branches within each game family remain together. No training
+or model evaluation occurred. Terra was asked to review new startup identities
+and exact failed/recovery pairs. The monitor now covers fifteen games.
+
+Evidence: `control/fullplay-expansion-20260925-batch3.json`,
+`control/expansion-launch-20260925-batch3.json`,
+`sources/expansion-20260925-batch3/`, `batches/splits.json`,
+`play/*/collection-notes.md`, and timestamped `runs/fullplay-*` launch directories.
+
+## 2026-09-25 02:45: manual-menu stall and explicit recovery
+
+Slouching Towards Bedlam's EXAMINE MANUAL opened a menu at original-session
+`slouching-bedlam-bb653b6ab4:e00017`. Muse then sent TAKE MANUAL as if it were an
+ordinary parser prompt. The command and later await-output both produced empty
+timeouts (e00018/e00019). The broker correctly blocked further input, but waiting
+could not exit this menu. These records remain uncertain/quarantined, not clean
+wording-repair evidence.
+
+Stopped only this game's worker and broker, preserving history and its confirmed
+start-office save. The first recovery attempt refused the save because our helper
+required literal Ok., although the CLI had printed Saved to the exact save path.
+Read-only CLI source inspection confirmed that successful writes print this line;
+an isolated restore check retained the game's distinctive restore response.
+Updated the experiment recovery helper to accept the exact saved-path receipt and
+a configured exact restore-response line. No interpreter/application code changed.
+
+Recovery used a new explicit session `slouching-bedlam-18faea2151`, branch b2,
+with a verified save hash and successful restore response; old pending input was
+not replayed. A post-restore LOOK confirmed the Office. Timer-driven checkpoints
+are disabled for this session so SAVE cannot be injected into another manual
+menu. The new worker's notes require Q to leave a displayed manual menu before
+ordinary commands. Historical unsaved actions are not assumed to carry over.
+
+Evidence: `control/fullplay-slouch-menu-recovery-20260925T0244.json`,
+`control/slouch-restore-check-20260925T0245/`,
+`control/fullplay-slouch-recovery-receipt-20260925T0245.json`,
+`play/slouching-bedlam/recovery.json` and `session-history/`.
+The three transport regression tests passed (3.950 seconds); new recovery raw
+spans/hashes were checked against stdout.raw. This is a harness recovery, not a
+completed game or a retroactive validation of the timed-out command.
+
+## 2026-09-25 02:58: 9:05 escape verified
+
+9:05 completed the non-arrest escape branch. Actual event
+`905-0674f2e54c:e00098` (b1) describes merging onto the freeway and shows the
+You have left Las Mesas ending, credits and restart/restore/quit menu. Parent
+checked exact stdout bytes/hash; Terra independently verified completion in its
+02:47 status. The earlier b0 arrest ending remains separate failure evidence.
+This is eight completed games of fifteen, not eight maximum-score runs.
+
+Evidence: `control/ending-parent-verification-20260925T0300-905.json`,
+`play/905/ending-claim.json`, `play/905/stdout.raw`, `runs/fullplay-status.json`.
+The completed worker and broker remain stopped. Seven other workers continue;
+review of new cases is ongoing. The two Scott-format games still show repeated
+puzzle/timing failures; their proposed explanations are hypotheses until checked
+against exact game data or observed responses.
+
+A further capture-protocol mistake surfaced during this check: Slouch's
+`inbox/m0115.json` contained a Markdown progress note rather than a JSON request.
+The broker correctly skipped it without executing anything, but an unanswered
+file could block the next worker continuation. Parent preserved its bytes and
+SHA in `control/slouch-m0115-rejection-20260925T0301.*` and supplied an explicit
+supervisor error response. The request was not rewritten as a command and did
+not become a game turn. This illustrates why process exit and file presence are
+insufficient proof of a successfully serviced request.
+
+## 2026-09-25 03:10: ten concurrent Muse workers
+
+The user authorized increasing concurrent games to ten and offered Raspberry Pis
+as later worker hosts. At the live check, Violet had reached its author winning
+narrative (`violet-bfdc33ea8f:e00293`); parent checked the actual response/hash and
+requested Terra's independent verdict. It remains stopped. Six games were still
+incomplete, but Voodoo's launcher had stopped because another Markdown progress
+note was written into inbox/m0417.json. Parent preserved/rejected that invalid
+request without game input and resumed the existing Voodoo interpreter.
+
+Added Anchorhead (original Z-code R5/990206), Curses (R16/951024), Theatre
+(R2/951203) and Savoir-Faire (R8/040205), bringing scope to nineteen games and
+verified live launchers to ten. Story files came from the existing private
+library; fetched guides and raw hashes are retained. Curses guide matches R16;
+Anchorhead/Theatre guide editions are unspecified; Savoir-Faire guide is based on
+R6 and deliberately includes false/nonessential steps. These distinctions are
+recorded rather than hidden by title matching. Three new games start with key
+pauses; the fourth starts at an ordinary prompt. Per-game notes handle both.
+
+Host check showed about91GiB available RAM and a4.38 one-minute load average;
+this observation justified the modest local increase, not an inference-throughput
+benchmark. The installed Muse executable is x86-64. Pi deployment remains a
+proposed pilot requiring ARM-compatible installation and user authentication;
+no Pi workers are claimed as running. No model training or publication occurred.
+
+Evidence: `control/fullplay-expansion-20260925-batch4.json`,
+`control/expansion-launch-20260925-batch4.json`,
+`sources/expansion-20260925-batch4/`,
+`control/ending-parent-verification-20260925T0311-violet.json`, and
+`control/voodoo-m0417-rejection-20260925T0310.*`. The monitor covers nineteen games
+with a cap of ten concurrent workers. New games beyond this batch are not
+implicitly added whenever a slot opens.
+
+
+## 2026-09-25T03:17:32.479165+00:00: source-supported Scott hints and independent expansion review
+
+Terra independently confirmed Violet's ending (violet-bfdc33ea8f:e00293) and the four batch4 startups, bringing verified completed games to nine of nineteen. See runs/fullplay-supervision.md and runs/fullplay-status.json, with source review archived in control/scott-hints-review-20260925T031627.md.
+
+Narrow static-data hints were delivered through the help broker as voodoo-castle-5bd0b59cae:e00673 and secret-mission-08dcee7c13:e01257. Voodoo's second-part ON MAN command requires the rabbit foot and open coffin; Secret Mission's broken window reactivates the camera, so picture display must follow the break. These are source-supported hypotheses, not successful play evidence, and are explicitly separated from player-observed recall. Original bytes and SHA256 are in the archived review and request metadata.
+
+Muse live session-message attempts returned external_agent_ingress_closed; receipts are control/scott-hints-message-voodoo-castle-20260925T0316.json and control/scott-hints-message-secret-mission-20260925T0316.json. Healthy workers were left running. supervisor-hint.json points to each broker response for the next continuation; no claim that the current workers have consumed those hints. No reset, replay or game command was issued by the supervisor.
+
+The automation now records nine independently verified conclusions and keeps the ten-worker ceiling. No Pi worker has been installed, no further games added, no training/evaluation or publication started.

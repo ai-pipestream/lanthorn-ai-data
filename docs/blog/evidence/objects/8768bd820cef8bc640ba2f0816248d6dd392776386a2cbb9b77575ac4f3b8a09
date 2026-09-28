@@ -1,0 +1,243 @@
+{
+  "at": "2026-09-25T07:41:26.918718+00:00",
+  "checks": [
+    {
+      "game_id": "curses",
+      "broker": 907555,
+      "session_id": "curses-4e1875ea4e",
+      "last_event": "curses-4e1875ea4e:e02287"
+    },
+    {
+      "game_id": "zork-i7",
+      "broker": 1722859,
+      "session_id": "zork-i7-05114e1aff",
+      "last_event": "zork-i7-05114e1aff:e01789"
+    },
+    {
+      "game_id": "jigsaw",
+      "broker": 2537645,
+      "session_id": "jigsaw-673cabd620",
+      "last_event": "jigsaw-673cabd620:e01844"
+    },
+    {
+      "game_id": "frozen",
+      "broker": 3082902,
+      "session_id": "frozen-a2e5d2eea9",
+      "last_event": "frozen-a2e5d2eea9:e00252"
+    },
+    {
+      "game_id": "spiritwrak",
+      "broker": 3094140,
+      "session_id": "spiritwrak-8e02d83255",
+      "last_event": "spiritwrak-8e02d83255:e00245"
+    },
+    {
+      "game_id": "enemies",
+      "broker": 3094159,
+      "session_id": "enemies-0b4aba49fe",
+      "last_event": "enemies-0b4aba49fe:e00231"
+    },
+    {
+      "game_id": "heist",
+      "broker": 3094163,
+      "session_id": "heist-a079eba445",
+      "last_event": "heist-a079eba445:e00237"
+    },
+    {
+      "game_id": "night-at-the-computer-center",
+      "broker": 3094171,
+      "session_id": "night-at-the-computer-center-d16c3b6cd5",
+      "last_event": "night-at-the-computer-center-d16c3b6cd5:e00249"
+    },
+    {
+      "game_id": "vindaloo",
+      "broker": 3094175,
+      "session_id": "vindaloo-85744e25ee",
+      "last_event": "vindaloo-85744e25ee:e00223"
+    },
+    {
+      "game_id": "gerbil-riot",
+      "broker": 3094179,
+      "session_id": "gerbil-riot-f0779de162",
+      "last_event": "gerbil-riot-f0779de162:e00239"
+    },
+    {
+      "game_id": "i-0",
+      "broker": 3094187,
+      "session_id": "i-0-d1ac7729bb",
+      "last_event": "i-0-d1ac7729bb:e00208"
+    },
+    {
+      "game_id": "beyond-the-tesseract",
+      "broker": 3094233,
+      "session_id": "beyond-the-tesseract-26b2abc71c",
+      "last_event": "beyond-the-tesseract-26b2abc71c:e00212"
+    },
+    {
+      "game_id": "return-to-karn",
+      "broker": 3094239,
+      "session_id": "return-to-karn-bf86b7da19",
+      "last_event": "return-to-karn-bf86b7da19:e00224"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "broker": 3094243,
+      "session_id": "heroines-mantle-4053f4fad7",
+      "last_event": "heroines-mantle-4053f4fad7:e00236"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "broker": 3094264,
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "last_event": "dracula-prince-of-darkness-d75c304699:e00231"
+    },
+    {
+      "game_id": "deephome",
+      "broker": 3094404,
+      "session_id": "deephome-56e3d50bda",
+      "last_event": "deephome-56e3d50bda:e00272"
+    },
+    {
+      "game_id": "save-princeton",
+      "broker": 3094443,
+      "session_id": "save-princeton-e0a2654e41",
+      "last_event": "save-princeton-e0a2654e41:e00220"
+    },
+    {
+      "game_id": "the-edifice",
+      "broker": 3111264,
+      "session_id": "the-edifice-79519f86df",
+      "last_event": "the-edifice-79519f86df:e00587"
+    },
+    {
+      "game_id": "kook-u",
+      "broker": 3164868,
+      "session_id": "kook-u-ef2767bf50",
+      "last_event": "kook-u-ef2767bf50:e00164"
+    },
+    {
+      "game_id": "hunt-for-relief",
+      "broker": 3167532,
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "last_event": "hunt-for-relief-b4de5c739d:e00148"
+    },
+    {
+      "game_id": "mansion",
+      "broker": 3277099,
+      "session_id": "mansion-cc50b3ae7d",
+      "last_event": "mansion-cc50b3ae7d:e00392"
+    },
+    {
+      "game_id": "bse",
+      "broker": 3315035,
+      "session_id": "bse-ec63f1779d",
+      "last_event": "bse-ec63f1779d:e00105"
+    },
+    {
+      "game_id": "delusions",
+      "broker": 3320074,
+      "session_id": "delusions-8997f25a87",
+      "last_event": "delusions-8997f25a87:e00238"
+    },
+    {
+      "game_id": "bedlam",
+      "broker": 3323681,
+      "session_id": "bedlam-59f5a6e860",
+      "last_event": "bedlam-59f5a6e860:e00089"
+    },
+    {
+      "game_id": "critical-breach",
+      "broker": 3324847,
+      "session_id": "critical-breach-b5dd49a3e4",
+      "last_event": "critical-breach-b5dd49a3e4:e00106"
+    },
+    {
+      "game_id": "danger-adventurer-at-work",
+      "broker": 3325194,
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "last_event": "danger-adventurer-at-work-cf41e07892:e00106"
+    },
+    {
+      "game_id": "gumshoe",
+      "broker": 3329939,
+      "session_id": "gumshoe-2933d54ccf",
+      "last_event": "gumshoe-2933d54ccf:e00087"
+    },
+    {
+      "game_id": "fine-tuned",
+      "broker": 3395975,
+      "session_id": "fine-tuned-989503b0a7",
+      "last_event": "fine-tuned-989503b0a7:e00102"
+    },
+    {
+      "game_id": "magic-toyshop",
+      "broker": 3539034,
+      "session_id": "magic-toyshop-9a53f3ebb2",
+      "last_event": "magic-toyshop-9a53f3ebb2:e00162"
+    },
+    {
+      "game_id": "christminster",
+      "broker": 3561047,
+      "session_id": "christminster-735155fc69",
+      "last_event": "christminster-735155fc69:e00200"
+    },
+    {
+      "game_id": "the-wedding",
+      "broker": 3662441,
+      "session_id": "the-wedding-396e8f7efc",
+      "last_event": "the-wedding-396e8f7efc:e00129"
+    },
+    {
+      "game_id": "anchorhead",
+      "broker": 3672312,
+      "session_id": "anchorhead-9852cd5b9d",
+      "last_event": "anchorhead-9852cd5b9d:e00040"
+    },
+    {
+      "game_id": "ghost-train",
+      "broker": 3675383,
+      "session_id": "ghost-train-b026ef4aab",
+      "last_event": "ghost-train-b026ef4aab:e00021"
+    },
+    {
+      "game_id": "schooldays",
+      "broker": 3682519,
+      "session_id": "schooldays-b371c6a97d",
+      "last_event": "schooldays-b371c6a97d:e00005"
+    }
+  ],
+  "canary_game": "delusions",
+  "canary_pid": 4066543,
+  "status": "succeeded; provider model tool actions followed by real same-session interpreter output",
+  "verified_event_ids": [
+    "delusions-8997f25a87:e00239",
+    "delusions-8997f25a87:e00240",
+    "delusions-8997f25a87:e00241",
+    "delusions-8997f25a87:e00242",
+    "delusions-8997f25a87:e00243",
+    "delusions-8997f25a87:e00244",
+    "delusions-8997f25a87:e00245",
+    "delusions-8997f25a87:e00246",
+    "delusions-8997f25a87:e00247",
+    "delusions-8997f25a87:e00248",
+    "delusions-8997f25a87:e00249",
+    "delusions-8997f25a87:e00250",
+    "delusions-8997f25a87:e00251",
+    "delusions-8997f25a87:e00252",
+    "delusions-8997f25a87:e00253",
+    "delusions-8997f25a87:e00254",
+    "delusions-8997f25a87:e00255",
+    "delusions-8997f25a87:e00256",
+    "delusions-8997f25a87:e00257",
+    "delusions-8997f25a87:e00258",
+    "delusions-8997f25a87:e00259",
+    "delusions-8997f25a87:e00260",
+    "delusions-8997f25a87:e00261",
+    "delusions-8997f25a87:e00262",
+    "delusions-8997f25a87:e00263",
+    "delusions-8997f25a87:e00264",
+    "delusions-8997f25a87:e00265",
+    "delusions-8997f25a87:e00266"
+  ],
+  "verified_at": "2026-09-25T07:45:35.952149+00:00"
+}

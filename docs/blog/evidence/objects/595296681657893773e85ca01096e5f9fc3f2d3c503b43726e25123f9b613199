@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "hosts": [
+    "cm5ai1",
+    "cm5v1",
+    "cm5v2",
+    "krickert@cm5v3.local",
+    "pi500p",
+    "pi5ai1",
+    "krickert@pi5ai2p.local",
+    "pi5v2"
+  ],
+  "per_host": 3
+}

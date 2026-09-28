@@ -1,0 +1,29 @@
+# Anchorhead collection progress — SEGMENT 2 IN PROGRESS (game incomplete, Day 1 university hunt)
+
+Branch b0, session anchorhead-4f68bc5f05. No restarts/restores. All from broker responses.
+
+## Where we are (event e00135)
+- Location: Riverwalk (returned SE from Under Bridge e00134). Gate OPEN behind (to Under Bridge metal door, unopened). Exits: W square, E lot, S Chilly, N gate steps.
+- Umbrella: OPEN outdoors.
+- Inventory: ring/coat/clothes + keyring + umbrella + flask. No new items.
+- Score: +2 only.
+- Route since last update: N lane e00128 -> N Chilly e00129 -> N Riverwalk e00130 -> open gate e00131 -> N Under Bridge e00132 (metal door seen) -> SE Riverwalk e00134.
+- Dead ends reconfirmed: wharf, asylum, courthouse closed, alley blind, S Down Road turn-back, SW Chilly mist-block, church front/back loop. Remaining unprobed: lot mattress, church trap-door (have cellar key but saving), metal door under bridge, pub NPC directions, obelisk ring/hieroglyphs detail.
+- University NOT found; walkthrough hints loop same lines (office->blank wall->library interior->house e,s,sw,nw) with no exterior approach direction. House SW route currently mist-blocked; likely needs Michael or later condition.
+
+## Checkpoints
+- start-outside-office, alley-before-window, file-room-inside, keys-obtained, outside-with-keys. Next at University/Michael.
+
+## Repair cases (25 annotated + 1 pending)
+- 25th: river-gate-open "open the gate" accepted e00131 none (e00133).
+- PENDING: university-go-synonym e00097 can't-see — no recovery until direction found.
+- Counts: vocabulary 4, syntax 3, ambiguity 4, world_state 4, planning 1, none 9 ( + pending).
+
+## Hints (NOT observed)
+- e00127 house from obelisk e,s,sw,nw + ask "michael, where is the house?" + read notice/unlock. e00135 repeats blank-wall lines. No university exterior direction yet.
+
+## Next
+1. W to square, N bridge, N Narrow, N pub (understood batch) to ask NPCs for university directions with probes (e.g. "ask fisherman about university" vs canonical ask syntax).
+2. If NPCs fail, probe mattress/trap-door/metal door/ring one at a time with help before risky opens; checkpoint before cellar/metal doors.
+3. Progress update every ~10. Conserve light; umbrella open outdoors.
+Game incomplete. No ending claimed.

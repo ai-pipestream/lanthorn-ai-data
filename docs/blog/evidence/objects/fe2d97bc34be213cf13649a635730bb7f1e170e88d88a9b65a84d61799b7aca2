@@ -1,0 +1,83 @@
+{
+  "game_id": "believable-adventures-invisible-man",
+  "title": "The Believable Adventures of an Invisible Man",
+  "author": "Hannes Schueller",
+  "url": "https://ifarchive.org/if-archive/solutions/invisible_walkthrough.txt",
+  "accessed_at": "2026-09-25T06:54:20.377470+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/invisible_walkthrough.txt",
+  "source_sha256": "b810371c06858d75840ac35e97b831c21045eadccd8a41cb7cec780e96e28eaa",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/believable-adventures-invisible-man-walkthrough.txt",
+  "normalized_sha256": "c46fe9c8742a011f808b17182bae6bc874a9e513c470df20d3ab2a3a8fdd245e",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF; reflow only lines longer than 110 characters at word boundaries, preserving word order, punctuation and final newline state",
+    "word_sequence_preserved": true
+  },
+  "story": "/home/krickert/if-games/zcode/invisible.z8",
+  "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+  "compatibility": "Local Z8 R2/100130 is byte-identical to the archive story. Author Hannes Schueller guide explicitly targets the second release, matching release 2, but gives no serial. Archive game/guide identities match. No interpreter smoke or finale execution performed.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 2,
+  "serial": "100130",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000002fcf8fcf9e82a010a5efbdded00503130303133300042a47bbcd600000000000000000000000000000000ddec000000000000010200000000362e3331",
+    "header_sha256": "1c06595448c2cfdce8ee1ebfe8df4f9db2084a71a1d0a5de32edf6fc11c03001",
+    "checksum_hex": "bcd6",
+    "checksum_valid": true,
+    "declared_length": 336856,
+    "file_bytes": 336896
+  },
+  "guide_release": 2,
+  "guide_serial": null,
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "invisible.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/invisible.z8",
+    "accessed_at": "2026-09-25T06:54:20.616533+00:00",
+    "remote_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+    "local_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+    "bytes": 336896,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 2,
+    "remote_serial": "100130"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#invisible.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/zcode-index.txt",
+    "snapshot_sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "entry_text": "# invisible.z8\ntuid: 6goxl3lwhy5n75i5\nifwiki: The Believable Adventures of an Invisible Man\n\nThe Believable Adventures of an Invisible Man: a\nReasonably Realistic Revenge Romp, by Hannes Schueller.\nRelease 2 / Serial number 100130.\n(a walkthrough is at\n</if-archive/solutions/#invisible_walkthrough.txt>,\nand the original competition entry is in\n</if-archive/games/competition2009/#zcode/invisible>)",
+    "tuid": "6goxl3lwhy5n75i5"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#invisible_walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/solutions-index.txt",
+    "snapshot_sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "entry_text": "# invisible_walkthrough.txt\ntuid: 6goxl3lwhy5n75i5\nifwiki: The Believable Adventures of an Invisible Man\n\nWalkthrough for The Believable Adventures of an\nInvisible Man by the game's author, Hannes Schueller.\n(the game itself is at\n</if-archive/games/zcode/#invisible.z8>)",
+    "tuid": "6goxl3lwhy5n75i5"
+  },
+  "guide_author": "Hannes Schueller (game author)",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Read complete 206-line author guide including branching save point and all revenge endpoints.",
+    "route_summary": "Follow a coherent revenge branch through the boss office and final computer/password action and require the resulting author-intended terminal revenge outcome or epilogue. Prefer the complete-revenge branch; if an authored lesser-revenge ending is reached, label its exact outcome and leave adequacy for parent review. Becoming invisible, entering the office, obtaining a key, a chapter change or a partial score alone is not completion.",
+    "limitations": "Author guide offers separate complete, lots and some-revenge branches plus an alternative route. They are alternatives from the marked save point, not a consecutive script. Correct obvious guide typo charactersistic only against observed vocabulary; preserve source text. Wait counts depend on engineers and secretary state. Save safely before the branch and avoid synthetic probes in timed sequences.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "believable-adventures-invisible-man",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": true,
+    "rationale": "No shared world or puzzle relationship established with current corpus/A-E. The title allusion and invisibility premise alone do not justify grouping it with another game. Keep all releases and ports together.",
+    "splits_snapshot_sha256": "b26d5ff38df8a550ab292d51bfa005ced6947931017faa984fa1a150eebde288",
+    "checked_at": "2026-09-25T06:57:11.552512+00:00"
+  },
+  "reuse_claims_observed": "No game/guide reuse permission established; private collection only. Public hosting, source availability and download access do not establish training or redistribution permission."
+}

@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:57:15.628018+00:00",
+  "game_id": "tube-trouble",
+  "events": [
+    {
+      "event_id": "tube-trouble-1b2d95be53:e00139",
+      "timestamp": "2026-09-25T06:50:56.119521+00:00",
+      "game_id": "tube-trouble",
+      "session_id": "tube-trouble-1b2d95be53",
+      "branch_id": "b0",
+      "event_index": 139,
+      "event_type": "command",
+      "command": "eat chocolate",
+      "response": "You stuff the delicious chocolate into your mouth. At last your hunger has been \nsatisfied.\n\n\n    *** You have won ***\n\n\nIn that game you scored 1 out of a possible 1, in 70 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n[Score 1, up 1]\n> ",
+      "raw_start": 11940,
+      "raw_end": 12197,
+      "response_sha256": "6facac0d677d7a63b6f2b3b15cd8c3c7527fc410c1a543e29699581b4aa1c93b",
+      "story_sha256": "ede1e3571bc16da5c27ca48f38b95f4afcb2c71da1c6be7d835750f760609c33",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "tube-trouble-1b2d95be53",
+        "case_id": "eat-chocolate-ending",
+        "expected_outcome": "Win by eating bar aboard 1/1",
+        "intent": "Eat the chocolate bar aboard the train",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "EAT CHOCOLATE hunger-satisfied authored conclusion with explicit win/finalmenu. 1/1 not content-coverage proof. Independent review pending."
+}

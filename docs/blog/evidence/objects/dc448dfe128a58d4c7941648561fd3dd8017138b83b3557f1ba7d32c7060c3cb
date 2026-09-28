@@ -1,0 +1,25 @@
+{
+  "event_id": "space-station-b15ae148d4:e00239",
+  "timestamp": "2026-09-25T07:12:32.364092+00:00",
+  "game_id": "space-station",
+  "session_id": "space-station-b15ae148d4",
+  "branch_id": "b0",
+  "event_index": 239,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 33678,
+  "raw_end": 33678,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "space-station-b15ae148d4",
+    "ending_quote": "*** You have won ***",
+    "evidence_event_ids": [
+      "space-station-b15ae148d4:e00237"
+    ],
+    "notes": "Safe scooter departure after hatch/couch/form/wait sequence; reactor goes critical (star brightens then disappears); Fussbudget aboard and survives acceleration; score 23/23 with congratulations and all-problems-solved. Matches manifest win state, not death, quitting, chapter, or partial score."
+  },
+  "review_status": "unreviewed"
+}

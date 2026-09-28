@@ -1,0 +1,24 @@
+{
+  "event_id": "risorgimento-represso-513c23c1c0:e00509",
+  "timestamp": "2026-09-25T09:23:00.999948+00:00",
+  "game_id": "risorgimento-represso",
+  "session_id": "risorgimento-represso-513c23c1c0",
+  "branch_id": "b3",
+  "event_index": 509,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 134566,
+  "raw_end": 134566,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***",
+    "evidence_event_ids": [
+      "risorgimento-represso-513c23c1c0:e00508"
+    ],
+    "notes": "Genuine author-intended winning ending after final descent through toilet hole with Ninario: escape Outside Vechlee, Plumbers Union uprising, rift storm, flight to Blumph. Full 50/50 score with 'You have won', not death/quitting/chapter transition."
+  },
+  "review_status": "unreviewed"
+}

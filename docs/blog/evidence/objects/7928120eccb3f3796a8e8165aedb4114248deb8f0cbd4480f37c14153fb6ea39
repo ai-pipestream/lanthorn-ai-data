@@ -1,0 +1,39 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T04:04:54.400408+00:00. Synthetic test-data collection only. Authorized pool target10 with curated replacements; 10 launcher processes observed and 4 queued. Reviewer issued no game commands, process mutations, training, evaluation or publication.
+
+1232 unique exported annotation rows: 792 accepted, 253 revise, 46 quarantine, 141 unreviewed under exact endpoint matching. This pass reviewed supervisor changes only; no new cases accepted. Previous bounded21-case pass added17 accepted,3 revise,1 quarantine with42 endpoint checks. Later arrivals remain unreviewed.
+
+## Verified outcomes and new startup identities
+
+Eleven conclusions verified: Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905, Violet, Voodoo Castle and Slouching Bedlam. Their primary ending raw spans were rechecked. Scores, deaths and model claims alone are insufficient.
+
+Slouch slouching-bedlam-b08abfcb18 b4 e00233, WEAR NOOSE: raw102314:105261, SHA256d4439fd038e6cd45c1b69e3545a81f23b32eb377546400016da67b92c6bbeaa4. Gallows execution leads into a worldwide Logos epilogue: James and Reggie dead, Alexandra infects Cypherists, humanity transforms; explicit finish and Appendix B unlock follow. This is an author-intended bleak finale, not successful containment or a happy win. Model label burn-the-infection does not describe the actual outcome. Final noose annotation needs narrower wording: tested PUT NOOSE ON failed and WEAR NOOSE succeeded; all PUT ON forms were not tested.
+
+Balances balances-01a7783d25 startup matches R5/961216; story header/hash, guide body/hash and initial save confirmed. Guide dates1994 with no exact release claim, so route compatibility remains unproven. Spider and Web spider-and-web-e5197766e3 startup matches R4/980226 and the guide's stated release; story/header/hash, source body and first save independently verified. No Spider annotation had landed in the inspected event snapshot; interrogation/rewind is not an ending.
+
+## Current pool follow-up (2026-09-25T04:04:54.400408+00:00)
+
+Four existing unit tests and eight isolated in-memory resume checks pass. No live tick or engine commands were executed. Source SHA256 b5ffae080f4e34a01b08ddc4c6b59e743d886bd978da8eefb140a45b040d4319.
+
+Resume now ignores unchanged metadata, checks exact child engine/story/save-dir identity, respects supervisor-hold.json and requires the latest recorded segment exit0. The no-run-history case intentionally permits initial worker creation. Capacity is refreshed before resume and immediately before worker launch. Parent pausing the pool for external launches remains necessary because a count check is not a global reservation. Active configured event caps now raise attention.
+
+One remaining defect: maintain_workers.py:139 checks active timeout attention against latest.json only. A timeout followed by unchanged help/annotation masks this alert, although input_state(history) still returns no_output_timeout. Use that same helper for active health checks and test the actual attention path. This is a reproduced predicate gap, not a claim of a current live transport failure.
+
+Provisional compute refill and ending_review_pending are now explicit and separate. A claim is not promoted to verified completion; false/uncertain claims still need parent diagnosis. 10 launcher processes observed; no duplicates. Pool lists 4 queued and pending ending reviews ['secret-mission']. Process counts alone do not establish productive gameplay.
+
+Earlier2500 cap risk is resolved for Zork: verified olde02501 save, SHA256a3175bd27537e59cce5f148f765810d13fb0bca699350659b3b1f53cddea8ced, newzork-i7-05114e1aff b99 restore Ok and Round Room LOOK. Current configured cap100000. Previous broader pool findings are preserved in JSON history and superseded by this section.
+
+## Review findings
+
+Savoir e00150 is quarantined: intended TAKE CARPET links PUT CARPET UNDER SHELF, which places the rug. Secret e01474 needs partial-progress labeling because KICK DOOR opens only slightly. Bronze e00430 correctly records failure but permanent fixed-object status is unproven. Secret GET WATER success has independent same-branch inventory evidence e01348. Anchor sleeping and locking examples are state-prerequisite chains, not syntax repairs. Accepted local noun-resolution observations do not prove general parser rules.
+
+Current-session recorded byte/hash checks have no integrity mismatches. Historical delayed/menu chains remain quarantined. Valid empty hashes do not establish successful transport or parser readiness.
+
+## Historical recovery and compatibility boundaries
+
+Anchorhead old e302 space/intended-Enter timeout remains quarantined; new anchorhead-51ee2d15c2 explicitly restored library-day2-circulation from verified old e281, with cancelled pending request, exact save hash, restore acknowledgement and Library LOOK. Slouch b08abfcb18 and Savoir5a89e6c8ff recoveries likewise retain original menu failures and cancellations. None proves menu defects fixed. CLI source maps empty toReturn13, space32 and RETURN text toR82; running binary equivalence and all menu paths were not established.
+
+Voodoo e00763 curse-removal finale remains verified; LOOK COFFIN e00758 confirms foot placement. Mandatory prior PUT FOOT and necessity of no-effect idol/doll waves remain unproven. Secret bomb deaths are not completed missions.
+
+Guide gaps remain: Savoir R8 versus R6 with deliberate false steps; Dreamhold R5 versus R4; Bronze actual R11 versus advertised R13; unspecified Anchorhead/Theatre guide versions. Curses R16 guide matches release. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 using full maintainer guide, not commercial ZorkI. Historical branch scores and lamp estimates never transfer into current branches.

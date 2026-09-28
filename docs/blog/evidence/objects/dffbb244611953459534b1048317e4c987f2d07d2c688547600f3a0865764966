@@ -1,0 +1,8 @@
+# Progress slouching-bedlam — seg6 active, game incomplete, branch b4
+
+Location: Room 6D (e00074). Corridor 6 wards swept: 6A bare chair (e00067), 6B stuck+water drip (e00061), 6C collapsing hole (e00070), 6D writing/cot/chair/fixtures no visible key (e00047-00075), 6E rubble-collapsed (e00052), 6F broken lock+wind (e00072).
+Inventory (e00007): March-16 cylinder, brass rod (in console keyhole since e00040, 12 o'clock + B selected), 2D key. No iron key held.
+Retrieval: F6A142 spider RETRIEVAL COMPLETE re-established cleanly (e00027) after dirty-tape reset (2D prefix -> 411111 NOT FOUND reset -> F6A142). File menu NOT reopened (timeout trap). Checkpoint seg6-archives-file good (e00028-29).
+Cases seg6: rod-slot-probe world_state annotated (e00038/40); ward-A-synonym syntax annotated (e00064/65); ward-D-key-probe 'get key' -> 'already have' (2D key ambiguity, needs iron-key disambiguation); cot/corridor world_state observations.
+Hints: wards/Fleet excerpt D LOOK GET KEY W S DRIVER FLEET OUT S SE (e00053) + continuation U UNLOCK DOOR WITH IRON KEY OPEN DOOR E X BED X PLANKS GET PUZZLE BOX (e00054). GET KEY ward unresolved — D shows no key; E collapsed; A/B/C/F bare/stuck/broken.
+Next: search D fixtures done (flickering only); try alternative D searches or other corridors; then Fleet route (corridor S, walkway E, lobby S, courtyard cab, DRIVER FLEET) to test iron-key door. Never SAVE in menu; checkpoints only at ordinary prompts. Checkpoints: seg6-start, seg6-archives-file.

@@ -1,0 +1,19 @@
+import concurrent.futures,subprocess,json,datetime,pathlib
+hosts=['cm5ai1','cm5v1','cm5v2','krickert@cm5v3.local','pi500p','pi5ai1','krickert@pi5ai2p.local','pi5v2']
+script='''probe_dir=$(mktemp -d /tmp/lanthorn-muse-readiness.XXXXXX)
+"$HOME/.local/bin/muse" exec --provider meta --workspace "$probe_dir" --no-session-log --json --max-model-steps 2 --reasoning-effort minimal --approval-mode never --disable-write --disable-shell --disable-web-tools --no-foreign-personal-context 'Do not call tools. Reply with the single word READY.'
+'''
+def probe(h):
+ try:
+  p=subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=8','-o','ForwardAgent=no',h,script],capture_output=True,text=True,timeout=50)
+  events=[]
+  for line in p.stdout.splitlines():
+   try:events.append(json.loads(line))
+   except ValueError:pass
+  # Only persist readiness classification and schema, not auth error contents or credentials.
+  combined=p.stdout+'\n'+p.stderr
+  return dict(host=h,exit=p.returncode,ready=p.returncode==0 and 'READY' in p.stdout,auth_error=any(s in combined.lower() for s in ['not logged in','unauthorized','authentication failed','login required']),event_types=[e.get('type',e.get('event')) for e in events],timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat())
+ except subprocess.TimeoutExpired:return dict(host=h,ready=False,error='probe timeout')
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:rows=list(ex.map(probe,hosts))
+p=pathlib.Path('/work/experiments/lanthorn-recall-training/control/fleet/auth-probe-20260925.json');p.write_text(json.dumps(rows,indent=2)+'\n')
+for row in rows:print(json.dumps(row))

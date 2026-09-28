@@ -1,0 +1,14 @@
+# Deephome playthrough progress
+
+Location: Northern Guard Post (score 7). Secret Entrance door opened via push mountain.
+Inventory (observed): King's Order, lantern (providing light). Cabinet open: Sword and shield seen (e00025).
+Checkpoints: start-secret-entrance, guard-post (verified Ok).
+Cases so far:
+- door-typo-probe: opne door -> open door (locked); annotated syntax, e00007/e00008.
+- symbol-press-probe: press tree accepted (flavor); annotated none, e00012.
+- mountain-synonym-probe: shove mountain rejected; push mountain opened door +5; annotated vocabulary, e00015/e00016.
+- cabinet-synonym-probe: open cupboard rejected; open cabinet revealed Sword+shield; annotated vocabulary, e00022/e00023.
+- cabinet-contents: look in cabinet confirmed Sword and shield (e00025).
+Last hint (m0012, walkthrough excerpt, NOT player-observed): N Guard Post: open cabinet; look in cabinet (shield, sword); search table (letter); read letter; sw to Main Hall.
+Pending: m0023 take-sword-synonym probe (grab sword) submitted, response not yet present as of latest e00025; do NOT resubmit. Next poll responses/m0023.json, then continue take shield / search table / read letter.
+Next: take sword/shield, search table, read letter, then SW to Main Hall. Conserve lantern.

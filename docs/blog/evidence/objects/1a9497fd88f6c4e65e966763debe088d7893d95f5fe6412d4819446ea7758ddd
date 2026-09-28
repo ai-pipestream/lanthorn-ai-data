@@ -1,0 +1,27 @@
+{
+  "game_id": "cacophony",
+  "title": "Cacophony",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Cacophony.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Cacophony.zip",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Prefer the substantial third author route, including its optional five-page history when feasible, through the final television action and actual concluding narrative. The second route is an intended mission-delivery alternate, retained centrally. The first route is an authored death ending: preserve its outcome if observed but do not use it as the successful full-route target. Dream/wake transitions, being swallowed, score changes and guide annotations are not ending proof.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony.json",
+  "story_sha256_expected": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "cacophony",
+  "collection_notes": "# Cacophony\n\nStory Z8 R4/091209. Local archive-identical Z8 R4/091209. Author guide archive contains three walkthroughs, none naming a release or serial. Archive guide date 2009-08-02 predates the R4 story listing 2009-12-09; do not infer exact release compatibility. Primary normalized guide is the unedited text of ZIP member Walkthrough3.txt with LF line endings; ZIP bytes and all members are separately pinned.\n\nPrefer the substantial third author route, including its optional five-page history when feasible, through the final television action and actual concluding narrative. The second route is an intended mission-delivery alternate, retained centrally. The first route is an authored death ending: preserve its outcome if observed but do not use it as the successful full-route target. Dream/wake transitions, being swallowed, score changes and guide annotations are not ending proof.\n\nThe optional history branch in the third guide jumps between marked positions; do not concatenate every line into a blind replay. Observe moving characters and timing. Parenthesized directions are commentary; G repeats the previous actual action only when appropriate. Read telephone/keypad clues in-game and adapt nouns from output. Start with a safe checkpoint after any startup question, and save before irreversible ending choices.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "091209",
+  "session_id": "cacophony-c47d99b6d3",
+  "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+  "started_at": "2026-09-25T08:25:22.625161+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,10 @@
+# Tube Trouble – progress (update 6, STOPPING – game incomplete)
+
+Location: Platform Two, sixpence just put in slot (e00062). Must pull lever next.
+Inventory (last observed e00057): sixpence spent into slot; expect empty until tray dispenses pound note + chocolate.
+Checkpoints verified: start-safe, platform-two, platform-one, pre-vending, post-vending (e00058-59).
+Pending: inbox/m0057.json annotate sixpence-typo (e00061->e00062) – responses/m0057.json not yet seen; check before new requests.
+Hints: after sixpence+lever, look in tray (pound note + chocolate), get all, save, W W to platform one; then hat/train/chocolate aboard train per manifest.
+Annotated (13): notice, penny-coin, machine-vendor, sign-display, hat-cap(fail), tramp-beggar, shilling-insert, lever-handle, penny-machine(none), lever-typo, tray-search(none), sixpence-change, sixpence-typo pending.
+Next (do NOT replay probes): 1) read responses/m0057.json 2) pull lever 3) look in tray 4) get all 5) inventory 6) checkpoint choc-note 7) help mode=next for hat/train 8) W W to platform one.
+State: ordinary prompt, Platform Two vending machine. No light/timed resource issues. Do not restart; continue from actual state.

@@ -1,0 +1,34 @@
+{
+  "reserved_at": "2026-09-25T06:53:56.027036+00:00",
+  "status": "prepared_not_launched",
+  "candidates": [
+    {
+      "story": "AOTYRZ.z5",
+      "guide": "Attack_of_the_Yeti_Robot_Zombies.txt"
+    },
+    {
+      "story": "HLAinform.z5",
+      "guide": "HLAA-walk.txt"
+    },
+    {
+      "story": "muse.z5",
+      "guide": "Muse.Solve"
+    },
+    {
+      "story": "invisible.z8",
+      "guide": "invisible_walkthrough.txt"
+    }
+  ],
+  "excluded_e_candidates": [
+    "njag.z5",
+    "ghost.z8",
+    "schooldays.z5",
+    "wedding.z5"
+  ],
+  "game_ids": [
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man"
+  ]
+}

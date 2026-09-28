@@ -1,0 +1,6 @@
+# Delusions
+
+Story R4/971121 versus community walkthrough R2/961021. Guide augments built-in hints, but use broker excerpts instead of optional hint menus. Seek final rescue/conclusion; intermediate computer scenes and partial scores are insufficient.
+Source: https://ifarchive.org/if-archive/solutions/delusion.sol
+
+Small broker help excerpts only; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones at ordinary command prompts, never a menu/question. Empty command sends Return, literal space is different. Timeout permits await_output only. No training or publication.

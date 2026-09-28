@@ -1,0 +1,121 @@
+{
+  "game_id": "metamorphoses",
+  "title": "Metamorphoses",
+  "author": "Emily Short",
+  "url": "https://ifarchive.org/if-archive/games/competition2000/inform/metamorp/metawalk.txt",
+  "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2000/inform/metamorp/metawalk.txt",
+  "accessed_at": "2026-09-25T09:47:16.957170+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metawalk.txt",
+  "source_sha256": "0594019702bae372da86a5ef8a7558244096a08744c875672f4deffea43f2307",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metamorphoses-walkthrough.txt",
+  "normalized_sha256": "c88f776a2a81edb372107930c55ad83f79922632698295066c9ba09c26533b1b",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state. Then replace every period-space with period-LF to segment compact command chains without rewriting words or punctuation.",
+    "segmentation": {
+      "find": ". ",
+      "replace": ".\n",
+      "scope": "entire LF-normalized text",
+      "reason": "bounded help excerpts for compact command chains"
+    }
+  },
+  "story": "/home/krickert/if-games/zcode/metamorp.z5",
+  "story_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+  "compatibility": "Local Z5 R4/020222 matches fresh archive bytes and catalog. The complete packaged walkthrough accompanies original competition Z5 R1/000930, separately hash/header verified. Guide itself states no release or serial: companion-to-selected gap is three releases and 510 days. This is the proper full Metamorphoses, not the modified/clipped Fractured Metamorphoses example.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "020222",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000048228822963d2010a4ed35a8600103032303232320042ad6c9606000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "3f1ef4697afd8cb42034f040a5148baae040f96ca8e6eb8c3cabc7c1e1ca4b85",
+    "checksum_hex": "9606",
+    "computed_checksum_hex": "9606",
+    "declared_length": 177584,
+    "file_bytes": 177664
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified in guide; package association documented separately",
+  "story_identity": {
+    "filename": "metamorp.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/metamorp.z5",
+    "effective_url": "https://ifarchive.org/if-archive/games/zcode/metamorp.z5",
+    "accessed_at": "2026-09-25T09:48:28.370245+00:00",
+    "remote_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+    "local_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+    "bytes": 177664,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 4,
+    "remote_serial": "020222"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#metamorp.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "metamorp.z5 ◆ [23-Feb-2002] IFDB entry IFWiki: Metamorphoses Metamorphoses, by Emily Short. Release 4 / Serial number 020222. (the original competition entry is in games/competition2000/inform/metamorp/metamorp.z5 , and a special version intended to show how the game works is in games/zcode/fracture.z5 ; a Russian translation is in games/zcode/russian/metamorpR.zip )",
+    "tuid": "j61yaux1cqbptxyb"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2000/inform/metamorp/#metawalk.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metamorp-index.html",
+    "snapshot_sha256": "dc240618092edf36de978e83136cd12c6b3f8e1a04e8bf8b6fb3698fe56dc237",
+    "entry_text": "metawalk.txt ◆ [30-Sep-2000]",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "uncredited in text; packaged with Emily Short competition entry",
+    "authorship_evidence": "Original IFComp package walkthrough; text has no individual byline. Catalog identifies Emily Short as the game author. Do not overstate independently established guide authorship.",
+    "route_summary": "Follow the full lake/tower transformation route, recover the required objects, return by gondola and enter the mirror through the actual authored homecoming conclusion. The guide explicitly says other endings exist; preserve any genuine intended alternative with an accurate label. Puzzle completion, returning to the lake, ordinary death, or issuing ENTER MIRROR alone is insufficient without concluding output.",
+    "limitations": "The guide is a quick example route and explicitly warns it omits side detail and more satisfying puzzle alternatives. Prefer a sensible full route with useful examination and context, not a blind minimal replay. Observe item sizes, machinery orientation, pronouns and NPC commands. The normalized copy adds period-space line breaks for bounded help excerpts; raw wording and punctuation remain intact. Save early at a safe ordinary prompt, and before transformations that may change access. Record any divergence from the older competition guide.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "metamorphoses",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Distinct transformation/tower story. Shared Emily Short authorship and broad mythic themes with other titles do not establish a shared world or copied puzzles. Reserve metamorphoses across releases, translations and the clipped Fractured Metamorphoses teaching variant."
+  },
+  "reuse_claims_observed": "No story/guide training or redistribution permission established. Public availability does not establish these rights. Private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "guide_associated_story": {
+    "url": "https://ifarchive.org/if-archive/games/competition2000/inform/metamorp/metamorp.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2000/inform/metamorp/metamorp.z5",
+    "accessed_at": "2026-09-25T09:49:06.927852+00:00",
+    "local_path": "/home/krickert/if-games/ifcomp/2000/inform/metamorp/metamorp.z5",
+    "central_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metamorp-competition.z5.remote",
+    "sha256": "6cdff9633e052c9d1c74b3394382d4093ed30d9bfbe7bf8e4f777ef5c605b8ee",
+    "byte_identical": true,
+    "zmachine_version": 5,
+    "release": 1,
+    "serial": "000930",
+    "header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "05000001811081116315010a4e3659e900103030303933300042a3167cb0000000000000000000000000000000000000000000000000010200000000362e3135",
+      "header_sha256": "f3f7c4b37749b0c9433a247cccb2e5ff772940a99511c01357368a96dff6f708",
+      "checksum_hex": "7cb0",
+      "computed_checksum_hex": "7cb0",
+      "declared_length": 167000,
+      "file_bytes": 167424
+    },
+    "release_gap_to_selected": 3,
+    "serial_gap_days": 510,
+    "association": "Packaged alongside guide; the guide does not itself declare this release/serial.",
+    "selected_for_launch": false
+  }
+}

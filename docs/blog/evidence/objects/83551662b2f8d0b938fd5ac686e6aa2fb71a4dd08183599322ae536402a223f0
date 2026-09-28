@@ -1,0 +1,18 @@
+{
+  "story": "spacest2.z5",
+  "guide": "spacest2.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/spacest2.sol",
+  "accessed_at": "2026-09-25T06:02:04.152245+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 2,
+  "serial": "040130",
+  "sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+  "bytes": 137216,
+  "header_hex": "05000002541c541d3ae8010a25112f7b00503034303133300042858686d0000000000000000000000000000000000000000000000000010200000000362e3135",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/spacest2.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.413434+00:00",
+  "downloaded_story_sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+  "download_matches_local": true
+}

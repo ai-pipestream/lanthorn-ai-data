@@ -1,0 +1,17 @@
+{
+  "game_id": "spiritwrak",
+  "title": "SpiritWrak",
+  "url": "https://ifarchive.org/if-archive/solutions/spirit.step",
+  "accessed_at": "2026-09-25T05:58:50.120336+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/spirit.step",
+  "source_sha256": "ac8cccfa5f0ba87faa51d00b36ce2afefdd8032c9dd608adac33c864d320b657",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/spiritwrak-walkthrough.txt",
+  "normalized_sha256": "ac8cccfa5f0ba87faa51d00b36ce2afefdd8032c9dd608adac33c864d320b657",
+  "story": "/home/krickert/if-games/zcode/spirit.z5",
+  "story_sha256": "258199e5fb7b494d3c6e60cc4fbe466b08f729e90a06753db49f4af7bfdca2d5",
+  "compatibility": "Story R3/960606, community guide explicitly R2 with R1 notes. Preserve mismatch. Shared FROTZ/GNUSTO spell vocabulary motivates conservative grouping with Zork family/development, not a claim of identical game or shared complete puzzles.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "960606"
+}

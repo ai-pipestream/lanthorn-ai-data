@@ -1,0 +1,23 @@
+# Progress - All Quiet on the Library Front
+
+Location: Lobby (ordinary prompt, branch b0, event e00044-45)
+Inventory (observed): key to Rare Books Room (ID card held by Alan after exchange e00044, +5 pts, Score 15 Moves 15)
+Checkpoints: lobby-start, stacks-librarian (both verified Ok)
+
+Cases (13 annotated):
+- attendant-talk vocab (e08 fail talk, e10 ask attendant about nelson success)
+- attendant-look none (e12 look at attendant)
+- alan-book-synonym none (e15 ask alan about book -> ref librarian; e16 novel -> Debt of Honor; distinct topics)
+- alan-librarian-omitted syntax (e18 ask about librarian fail, e19 ask alan about librarian success)
+- gates-typo syntax (e21 securty fail, e22 security gates success)
+- west-stacks-phrasing syntax (e24 go to stacks fail, e25 w success to Ground Floor Stacks)
+- librarian-pronoun ambiguity (e29 ask her about nelson fail no antecedent, e30 ask librarian about nelson success Rare Books Room)
+- librarian-woman none (e33 look at woman success Score 15)
+- marion-rarebooks-pronoun none (e36 ask her about rare books success after antecedent: 2nd floor stairs north need key)
+- marion-key-about syntax (e38 ask marion key fail, e39 ask her about key success circulation desk)
+- alan-key-pronoun none (e42 ask him about key success need ID)
+- give-id-wordorder none (e44 give alan id card success key exchange)
+
+Last hints: stacks rare books (e32): X librarian Read tag Ask Marion Nelson/her rare books/her key E Ask Alan key. Done up to key exchange.
+
+Next: inventory to confirm key, w to stacks, n to stairs/second floor, explore Rare Books Room. Need help excerpt for upstairs/Rare Books after stairs. Aim 20-40 total; currently ~12-13 cases.

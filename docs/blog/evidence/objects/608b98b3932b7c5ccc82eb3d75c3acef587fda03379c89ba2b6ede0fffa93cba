@@ -1,0 +1,11 @@
+# Christminster progress (branch b1)
+
+Location: Small Courtyard (via library secret passage). Score 20, moves 178.
+Inventory (e00234 + takes e00236/e00239): carrying Holy Bible, The Clavicula (Lully), The Reign of Akhenaten (Arkwright), Men of Biblioll (MacLane); handbag open contains Letter Substitution Ciphers (Zinovic), dinner ticket, telegram, lab book, note, feather, map, copper/iron/brass keys.
+State: Library index done: MacLane 16 (Men of Biblioll), Zinovic 17 (Ciphers), Lully 18 (Clavicula), God 19 (Bible). Zinovic keyword method learned (e00233). Lab-book decoded with Christabel: Lully 364; Arkwright 143 = honey of Egypt (Osiris ritual, e00237); John 11:43 = bath of king; third = Noble/Heliogabalus verse clue. Arkwright 143 read, Bible John generic. MacLane Hawksmoor entry read (no score), index Hawksmoor opened secret east passage +1=20.
+Lab cipher key: Christabel (help m0211).
+
+Unresolved case IDs: guess-cup (b0, stale, death); arkwright-handbag (e00235 in-handbag fail vs e00237 success, needs annotate); bible-john-verse (need 11:43 specific); maclane-men lookups (Bungay/Jarboe/Wilderspin/Baskeyfield etc still to do); lully-364 and third-ingredient still to do.
+Last hint (m0211, lines 37-45): Zinovic decode keyword Christabel, MacLane clues to men, Arkwright 143 / Hawksmoor +1=20.
+Checkpoints: library-secret-courtyard (b1, score 20), after-master-first-court (b1, score 14), inside-first-court (b1), + earlier.
+Next: Explore Small Courtyard: look, manhole, ladder, weeds, east to kitchens, north staircase; continue MacLane/Bible/Lully numbered lookups; annotate arkwright-handbag pair.

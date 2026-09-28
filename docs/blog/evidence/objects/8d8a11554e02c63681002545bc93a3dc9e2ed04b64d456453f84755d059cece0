@@ -1,0 +1,46 @@
+# The Edifice — collection progress (SEGMENT 3: restoring to fix level 1)
+
+## DECISION (evidence-based): RESTORE level-three, redo gently on branch b1
+- Beast PERMANENTLY gone on branch b0: full 7-room sweep (Arch, Open
+  Grassland, Stump, Muddy Spring, Pool, Tree, Rapids) shows no Beast
+  and no 'Beast roams' lines ~250 turns after e00403.
+- Recording lines 77-144 (all seen): stick throws AT beast, stump
+  practice, 'sharpen stick', more grinding, etching checks, wandering.
+  No kill yet by 144; era-2 content starts ~258. Level-1 solution is
+  Beast-centric (hunt lesson: era1=hunt, era2=heal, era3=ride).
+- Corpse immovable decor ('stuck at the bottom', e00665); Log generic
+  (e00657); era-3 fruit does NOT feed era-1 hunger ('looks unchanged',
+  e00648-49); paste does (e00650). No Beast-free level-1 goal found.
+- level-three checkpoint (e00262): era 2 solved, era 3 entered, Beast
+  alive, NO era-1 stick work yet. Redo from there.
+
+## REDO PLAN (branch b1, ~20 reqs)
+1. Era 1 gentle: pull twigs + pull twisty branches + 'break branch in
+   half' (Stick+Log) + 'sharpen stick' (defaults to Rock) + stump
+   practice (THROW AT STUMP ONLY, away from Beast) until consistent
+   hits. NEVER throw unsharpened stick at Beast.
+2. Checkpoint 'before-beast-throw'. Approach Beast, ONE 'throw spear
+   at beast' with sharpened practiced spear. If flees: restore + vary
+   (distance? chase? single throw from adjacent room?).
+3. Kill aftermath: discover (take meat? butcher? eat?). Verify Level
+   One etchings span full room + score 'solved three'.
+4. Era 3 redo (documented): fruit, lead, DROP bait on path, UP, JUMP,
+   GRAB MANE, X HORSE, LEAN BACK, WAIT x2, X ME, X LARGE, LEAN LEFT,
+   PULL MANE LEFT, LEAN RIGHT, X ME, INV, TAKE OFF HEADDRESS, PUT
+   HEADDRESS ON HORSE. Then GET ALL gear on path.
+5. Finale: all 3 solved -> final ascent + last door (manifest).
+
+## CURRENT STATE (branch b0, pre-restore)
+- Location: Stream Rapids (era 1). Hunger active; paste eaten e00650.
+- Inventory: Spear, Rock, Bone, Bark, Paste, Fruit, Headdress(worn?).
+- Score: solved 2/3 (levels 2+3). Level 1 etchings partial.
+- Checkpoints: ... ridge-bait-set, horse-tamed-village (b0 fallback).
+
+## Broker position
+- Last delivered: 136-144 ('sharpen' chain). Fresh-topic jumps work;
+  chain consecutive nexts only.
+
+## Cases (39 annotated; 0 open)
+- 33 CLOSED (planning). 37 pick-fruit none. 38 feed-horse syntax.
+  39 large-thing vocabulary. 01-32, 34-36 as before.
+- Pending probes for redo: 'pull mane' synonyms? jump phrasing? (later)

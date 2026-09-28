@@ -1,0 +1,30 @@
+# The Edifice — collection progress
+
+## Current state
+- Location: Level One (round room inside the Edifice; entered via opened recess).
+- Inventory (observed): Rock.
+- Checkpoints: start-at-edifice, recess-open.
+- Level One features: staircase up along curved wall, simple door east (closed),
+  wall etchings (grassland with stream panel next to door), open recess west
+  (green sunlight from forest).
+
+## Route so far
+- Took Rock (grab accepted); throwing it at the Edifice just bounces off.
+- "hit recess with rock" dissolved the darker stone into spongy blackness; entered.
+
+## Cases collected (7 annotated)
+- edifice-examine-typo-01 (vocabulary): ediface -> edifice.
+- rock-synonym-stone-02 (ambiguity): 'stone' resolves to Edifice, not Rock.
+- rock-take-synonym-03 (none): 'grab rock' accepted.
+- recess-wording-hole-04 (vocabulary): hole -> recess.
+- irregularities-wording-05 (vocabulary): marks -> irregularities.
+- rock-throw-edifice-06 (planning): throwing at edifice fails; hit recess with rock opens.
+- hit-recess-omit-08 (syntax): bare 'hit recess' weak; needs 'with rock'.
+- enter-edifice-07 (world_state): 'go inside' too shallow before opening; 'enter recess' after.
+
+## Unresolved
+- None currently.
+
+## Next
+- Probe etchings wording ('pictures' vs 'etchings'), examine door, open door / go up.
+- Ask broker help when stuck (two failed attempts).

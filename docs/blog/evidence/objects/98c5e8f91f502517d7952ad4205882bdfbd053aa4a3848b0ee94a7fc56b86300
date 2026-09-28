@@ -1,0 +1,76 @@
+{
+  "at": "2026-09-25T08:43:40.620353+00:00",
+  "game_id": "bicon",
+  "events": [
+    {
+      "event_id": "bicon-e4b7be4302:e00304",
+      "timestamp": "2026-09-25T08:33:27.751384+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 304,
+      "event_type": "command",
+      "command": "kiss",
+      "response": "(Phoenix)\nPhoenix holds you close and kisses you intensely. You tingle all over. This is \na good BiCon.\n\n\n\n    *** You have won Phoenix's heart. ***\n\n\nIn that game you scored 10 out of a possible 10, in 203 turns.\n\n\nWould you like to RESTART, RESTORE a saved game, see some suggestions for \nAMUSING things to do, QUIT or UNDO the last command?\n> ",
+      "raw_start": 38768,
+      "raw_end": 39114,
+      "response_sha256": "0b561ed2a31143bf9c63f83178a4e7b889cbd8cfd33dc739a53ed5a1ca0e1d28",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-kiss-bare-39",
+        "intent": "Kiss Phoenix in dark Canada room",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Ask whom or kiss Phoenix"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00305",
+      "timestamp": "2026-09-25T08:33:46.171947+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 305,
+      "event_type": "command",
+      "command": "UNDO",
+      "response": "Darkness\n[Previous turn undone.]\n\n>",
+      "raw_start": 39114,
+      "raw_end": 39149,
+      "response_sha256": "502fb088f69d65e66edd6de8decb5c1bbf293837ff21cdd7ffcea35ffe6bbb3c",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-undo-win",
+        "intent": "Undo winning kiss to test explicit phrasing",
+        "origin": "recovery",
+        "expected_outcome": "Return to dark room before kiss"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00306",
+      "timestamp": "2026-09-25T08:33:51.050854+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 306,
+      "event_type": "command",
+      "command": "kiss phoenix",
+      "response": "Phoenix holds you close and kisses you intensely. You tingle all over. This is \na good BiCon.\n\n\n\n    *** You have won Phoenix's heart. ***\n\n\nIn that game you scored 10 out of a possible 10, in 203 turns.\n\n\nWould you like to RESTART, RESTORE a saved game, see some suggestions for \nAMUSING things to do, QUIT or UNDO the last command?\n> ",
+      "raw_start": 39149,
+      "raw_end": 39485,
+      "response_sha256": "f37c8374e2ac78bf2d7bd07fb9a911563aaa7a4b33396180a50b1772fcfe5774",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-kiss-bare-39",
+        "intent": "Kiss Phoenix in dark Canada room",
+        "origin": "guided",
+        "expected_outcome": "Win with explicit phrasing"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "KISS defaults to Phoenix and wins at e304; UNDO e305 then explicit KISS PHOENIX wins e306. Preserve native UNDO chronology despite unchanged broker branch b0; both are accepted phrasings, not failed/corrected pair. Parent exact raw/text/SHA verified; independent review pending."
+}

@@ -1,0 +1,125 @@
+{
+  "game_id": "a-remote-problem",
+  "title": "A Remote Problem",
+  "author": "André Kosmos",
+  "url": "https://ifarchive.org/if-archive/games/glulx/A%20Remote%20Problem.zip#A%20Remote%20Problem/solution.txt",
+  "accessed_at": "2026-09-25T08:12:56.361296+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/a-remote-problem-guide.raw.txt",
+  "source_sha256": "c090959dcb9a3be6b9b3385916847c92c9ef77104ba35f1f1615f69f748ee75f",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/a-remote-problem-walkthrough.txt",
+  "normalized_sha256": "e13f7c32c8d1b8108c9dad67c0a7249fd8c747d14e4e1b5c8ad606f3dec803fc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "transformation": "Decode text, CRLF/CR to LF; wrap long lines at 110 characters without changing tokens or punctuation.",
+    "word_sequence_preserved_after_html_extraction": true
+  },
+  "guide_container": {
+    "path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/A Remote Problem.zip",
+    "url": "https://ifarchive.org/if-archive/games/glulx/A%20Remote%20Problem.zip",
+    "sha256": "a6ce9f6e615d28393406671df06a97c8b3f68d8e02b105034bc32acc80d7c77e",
+    "member": "A Remote Problem/solution.txt"
+  },
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/a-remote-problem.gblorb",
+  "story_sha256": "4443f056c00fcea12eb68bf97dbe235a1e3d8901b7ceb3228453c9c763f26b73",
+  "story_header": {
+    "container": "Blorb/IFRS",
+    "glul_chunk_offset": 68,
+    "glul_chunk_bytes": 668160,
+    "glul_sha256": "4c7450965eac210ed56a1b7dbe90639567feadf6e35ed8341c204b1644a21b49",
+    "vm_header_bytes": 36,
+    "vm_header_hex": "476c756c000301020007a900000a3200000a3200000100000000003c000633ed9fc49d8b",
+    "header_sha256": "f4e256e4ae692a70de2ad71369a5ed17d6ab33969b41317d5b10d04998fe797d",
+    "inform_identification_hex": "496e666f00010000362e3333302e33380003323530393230",
+    "glulx_version": "3.1.2",
+    "checksum_hex": "9fc49d8b",
+    "checksum_valid": true,
+    "chunks": [
+      {
+        "type": "RIdx",
+        "offset": 20,
+        "bytes": 40
+      },
+      {
+        "type": "GLUL",
+        "offset": 68,
+        "bytes": 668160
+      },
+      {
+        "type": "IFmd",
+        "offset": 668236,
+        "bytes": 2295
+      },
+      {
+        "type": "Fspc",
+        "offset": 670540,
+        "bytes": 4
+      },
+      {
+        "type": "PNG ",
+        "offset": 670552,
+        "bytes": 610279
+      },
+      {
+        "type": "PNG ",
+        "offset": 1280840,
+        "bytes": 38301
+      }
+    ],
+    "file_bytes": 1319142
+  },
+  "zmachine_version": null,
+  "release": 3,
+  "serial": "250920",
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": null,
+  "compatibility": "Local bundle is byte-identical to archive bundle. Extracted Glulx Inform R3/250920 agrees with embedded metadata and archive. Guide comes in the same distribution but states no target release/serial. No silent replacement with earlier releases; runtime behavior remains untested.",
+  "compatibility_status": "needs_runtime_verification",
+  "story_identity": {
+    "local_library_path": "/home/krickert/if-games/glulx/A%20Remote%20Problem.zip",
+    "local_library_sha256": "a6ce9f6e615d28393406671df06a97c8b3f68d8e02b105034bc32acc80d7c77e",
+    "remote_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/A Remote Problem.zip",
+    "remote_url": "https://ifarchive.org/if-archive/games/glulx/A%20Remote%20Problem.zip",
+    "remote_sha256": "a6ce9f6e615d28393406671df06a97c8b3f68d8e02b105034bc32acc80d7c77e",
+    "accessed_at": "2026-09-25T08:12:56.361296+00:00",
+    "byte_identical": true,
+    "archive_member": "A Remote Problem/A Remote Problem.gblorb",
+    "story_sha256": "4443f056c00fcea12eb68bf97dbe235a1e3d8901b7ceb3228453c9c763f26b73"
+  },
+  "archive_game_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/glulx-index.txt",
+    "snapshot_sha256": "f6f1a4032df37f195df0f05eb40867706c7d58fae97940b41d59859174f272a6",
+    "entry_text": "# A Remote Problem.zip\ntuid: jrj39372zyg531r8\n\nA Remote Problem, by André Kosmos.\nRelease 3 / Serial number 250920.\nFreeware.\nStory file, map, and solution.",
+    "tuid": "jrj39372zyg531r8",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Index"
+  },
+  "archive_guide_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/glulx-index.txt",
+    "entry_text": "# A Remote Problem.zip\ntuid: jrj39372zyg531r8\n\nA Remote Problem, by André Kosmos.\nRelease 3 / Serial number 250920.\nFreeware.\nStory file, map, and solution.",
+    "tuid": "jrj39372zyg531r8",
+    "snapshot_sha256": "f6f1a4032df37f195df0f05eb40867706c7d58fae97940b41d59859174f272a6",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Index"
+  },
+  "guide_author": "Guide bundled with author game distribution; no separate contributor byline",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Entire text guide including last route/ending instructions; no map/PDF review or guide command execution.",
+    "completion": "Solve the flashlight/remote battery puzzle and turn on the television in time for the intended show, then require actual authored successful closing narrative or terminal outcome. Obtaining batteries or the remote and merely issuing TURN ON TV are not proof of completion; an expired deadline or failure is not success.",
+    "limitations": "Short bundled command route has no explanatory transcript or ending quote. Initial room, timing and input prompts must be checked in actual output. The story is described as short, not a demo. Freeware archive description is not a guide reuse or training license. No map/PDF bulk guidance is included in the broker guide.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "a-remote-problem",
+  "family_review": {
+    "parent_review_required": true,
+    "rationale": "No shared world/puzzle relationship established with current batches; television/remote and battery tropes alone do not merge unrelated titles. Group versions/ports of this exact title together.",
+    "splits_sha256": "7e9fd86dad4a43e639f92910c85a2fd1a11bb9840fc5be1482d228d5c6351616",
+    "checked_at": "2026-09-25T08:16:38.999676+00:00"
+  },
+  "reuse_permission": "unknown; private collection only",
+  "reuse_claims_observed": "Archive calls A Remote Problem freeware; no additional game/guide training or redistribution rights inferred.",
+  "central_only": true,
+  "glulx_version": "3.1.2",
+  "header_spec_source": "https://eblong.com/zarf/glulx/Glulx-Inform-Tech.html#static-data"
+}

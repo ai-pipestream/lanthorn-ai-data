@@ -1,0 +1,23 @@
+{
+  "game_id": "space-station",
+  "title": "Space Station",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/spacest2.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/spacest2.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require safe departure in the scooter and the subsequent narrative of the station reactor going critical, with the Fussbudget rescued and the full successful resolution. Author source procs.h sets the win state on departure and distinguishes lethal hatch/couch failures. A partial score, the lethal station explosion while aboard, or obtaining the form is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/spacest2/source.json",
+  "story_sha256_expected": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+  "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "collection_notes": "# Space Station\n\nCommunity guide gives no release/serial; story R2/040130. Matching release-2 author source confirms the safe scooter departure finale and Planetfall transcript derivation. Source contains Zork currency. Conservative provisional grouping with existing zork-i/development requires parent review.\n\nCompletion: Require safe departure in the scooter and the subsequent narrative of the station reactor going critical, with the Fussbudget rescued and the full successful resolution. Author source procs.h sets the win state on departure and distinguishes lethal hatch/couch failures. A partial score, the lethal station explosion while aboard, or obtaining the form is insufficient.\n\nFamily/split: Archive and author documentation explicitly derive Space Station from the Planetfall sample transcript; source documentation names a Zorkmid. Conservatively co-locate with existing zork-i family (zork-i7 and spiritwrak) in development pending parent review. This is a leakage precaution, not a claim of identical Zork puzzles. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "040130",
+  "session_id": "space-station-b15ae148d4",
+  "story_sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+  "started_at": "2026-09-25T06:13:21.666725+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

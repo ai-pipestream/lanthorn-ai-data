@@ -1,0 +1,77 @@
+{
+  "game_id": "magic-toyshop",
+  "title": "The Magic Toyshop",
+  "author": "Gareth Rees",
+  "url": "https://ifarchive.org/if-archive/solutions/magictoy.sol",
+  "accessed_at": "2026-09-25T06:43:12.120326+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/magictoy.sol",
+  "source_sha256": "8aa7f37cbba406f57e563b41ebf8a390442edcd89a316380af1fe74960b1c106",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/magic-toyshop-walkthrough.txt",
+  "normalized_sha256": "8aa7f37cbba406f57e563b41ebf8a390442edcd89a316380af1fe74960b1c106",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/magic-toyshop.z5",
+  "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+  "compatibility": "Guide explicitly R1/951018, exactly matching the local header and byte-identical archive story. Archive directly links this guide and story with matching IFDB identity. It is a complete short game, not a preview.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "951018",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000130c430c5217001020c1016c40000393531303138004247719e2300000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "74975ef95b588c9590c08ca2e43d47528ce202f2bb84fa24d9a037f27035a50b",
+    "checksum_hex": "9e23",
+    "declared_length": 73156,
+    "file_bytes": 73216
+  },
+  "guide_release": 1,
+  "guide_serial": "951018",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "magic-toyshop.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/magic-toyshop.z5",
+    "accessed_at": "2026-09-25T06:43:45.130108+00:00",
+    "remote_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "local_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "bytes": 73216,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "951018"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#magic-toyshop.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "magic-toyshop.z5\n◆\n[18-Oct-1995]\nIFDB entry\nIFWiki:\nThe Magic Toyshop\nThe Magic Toyshop, a fun game for all the family\nby Gareth Rees. Release 1, serial number 951018.\n(Source code to this version is in\ngames/source/inform/magic-toyshop.inf;\na walkthrough is in\nsolutions/magictoy.sol;\nthe original competition entry is in\ngames/competition95/magic-toyshop.z5)",
+    "tuid": "52x2zxt8ers4rxc0"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#magictoy.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "magictoy.sol\n◆\n[07-Aug-1996]\nIFDB entry\nIFWiki:\nThe Magic Toyshop\nstep-by-step solution to The Magic Toyshop,\nrelease 1, by Paul J. Godfrey.\n(the game file is at\ngames/zcode/magic-toyshop.z5)",
+    "tuid": "52x2zxt8ers4rxc0"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Resolve the sequence of games and object puzzles, including the mouse, sundial, tea and chest combination, and enter the chest to the actual authored conclusion. Solving one board game, obtaining the key, 20 points or the final FULL listing alone is not completion. The guide's unconventional puzzle shortcuts are part of its intended solution; preserve observed outcomes.",
+    "limitations": "Guide estimates about 86 moves. Catherine's offered games advance with time; follow observed offers and board state. Never send the guide's # placeholder literally. Short game means a few varied useful probes suffice; do not repeat games or pad the route to meet a quota. Save at safe ordinary prompts before consequential puzzle steps.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "magic-toyshop",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Same author as Christminster is not evidence of shared world or puzzles. Board-game puzzles and talking toys alone do not connect this to existing families; keep all Magic Toyshop releases together."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting and availability do not establish training or redistribution permission."
+}

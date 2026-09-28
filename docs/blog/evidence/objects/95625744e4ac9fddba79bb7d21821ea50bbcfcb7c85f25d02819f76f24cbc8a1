@@ -1,0 +1,71 @@
+{
+  "at": "2026-09-25T10:27:32.564005+00:00",
+  "config_sha256": "d74309effc6829ca6a7797c84ca48189043fe70ebfcfe9cdf3d145abc2770d0f",
+  "games": [
+    {
+      "game_id": "metamorphoses",
+      "story_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+      "header_sha256": "3f1ef4697afd8cb42034f040a5148baae040f96ca8e6eb8c3cabc7c1e1ca4b85",
+      "release": 4,
+      "serial": "020222",
+      "guide_raw_sha256": "0594019702bae372da86a5ef8a7558244096a08744c875672f4deffea43f2307",
+      "guide_normalized_sha256": "c88f776a2a81edb372107930c55ad83f79922632698295066c9ba09c26533b1b",
+      "family": "metamorphoses",
+      "split": "train",
+      "compatibility": "Local Z5 R4/020222 matches fresh archive bytes and catalog. The complete packaged walkthrough accompanies original competition Z5 R1/000930, separately hash/header verified. Guide itself states no release or serial: companion-to-selected gap is three releases and 510 days. This is the proper full Metamorphoses, not the modified/clipped Fractured Metamorphoses example.",
+      "raw_sources_refetched": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "gourmet",
+      "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+      "header_sha256": "7b3576667010318fcdaf1facc7ab44ca544afb2606342be3da84f65f01a37e90",
+      "release": 1,
+      "serial": "030927",
+      "guide_raw_sha256": "52d2429cb2ee2207b4558d84287393c5f93aee8dc7e506c87b4244a2dec3838a",
+      "guide_normalized_sha256": "c9938c38645f6fea55145dc39fa1e2744a8a0de660364aebe4156a4e65bf27cc",
+      "family": "gourmet",
+      "split": "train",
+      "compatibility": "Local competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.",
+      "raw_sources_refetched": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "bofh",
+      "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+      "header_sha256": "98b0750e232f2f80a625a697e02d0d98281a3cffc3b0ff0d9ae8e0ba426a45b3",
+      "release": 2,
+      "serial": "020927",
+      "guide_raw_sha256": "8fb90b1d27724a95fe051b75fbe1bd1ad9296e93a0869faafdce48257d02d089",
+      "guide_normalized_sha256": "a5a1a5a96c32bb8e02f71834fe9a66e3b2a19077def12cfd3c5207af731d0ccc",
+      "family": "bofh",
+      "split": "train",
+      "compatibility": "Local Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.",
+      "raw_sources_refetched": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "splashdown",
+      "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+      "header_sha256": "1bd6c698e0797037fdba4f9c4acfeb95249a95b2320a65811380a12d39ffd924",
+      "release": 1,
+      "serial": "040926",
+      "guide_raw_sha256": "ad5b8546a2510ebdf88a0cb36a3e90ff3cb750a592af5fe192af594dff706a41",
+      "guide_normalized_sha256": "680cb4172904a91712e3b80ced9d6187bbae57b9711182e73e9fc9404ad77338",
+      "family": "splashdown",
+      "split": "train",
+      "compatibility": "Local competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.",
+      "raw_sources_refetched": true,
+      "normalization_reproduced": true
+    }
+  ],
+  "family_review": {
+    "metamorphoses": "Reserve full releases/translations and Fractured Metamorphoses teaching variant in same train family. Shared Emily Short authorship is not shared-world proof.",
+    "bofh": "Read author credits: explicit Simon Travaglia BOFH adaptation. Reserve BOFH-series adaptations together. No concrete shared world/puzzle with Baltimore24/Pentari established; both alreadytrain. Generic XYZZY allusion is not sufficient proof of ColossalCave derivative. Keep uncertainty documented and recheck any future related held-out title.",
+    "gourmet": "Distinct restaurant game; reserve ports/releases together.",
+    "splashdown": "Distinct ship-repair game; reserve ports/releases together. Trailing guide QUIT never proves completion."
+  },
+  "status": "parent validated and registered; quota launch hold preserved; runtime unproven",
+  "launches": 0,
+  "source_records_unchanged": true
+}

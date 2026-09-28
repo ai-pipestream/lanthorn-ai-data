@@ -1,0 +1,12 @@
+# Critical Breach — progress (b3 clean loaded, testing sedation timing)
+
+Location (b3): Laboratory Workbench, restored from b2-ready-sedate (e107-e108). SELECT 1 (e109) confirms order: load chip → sedate → inject → close/seal cage → start monitoring. Inventory verified e111: pliers, beaker, jet injector (loaded with marking chip), keycard, coat worn. No sedation yet on b3 except pending SELECT 3 (m0104).
+Inventory: loaded injector + pliers + beaker + keycard.
+
+Evidence: b2 fast route (SELECT 3 e101 → E → OPEN CAGE → INJECT e104, 3 turns) still fails with attack + chirps; slow b0/b1 routes (~20-40 turns) also fail. Both wordings `inject scorpig with injector` (e75) and `inject scorpig` (e82/e104) parse but trigger world_state attack, annotated world_state (m0078). SELECT 3 re-sedation impossible once loose (e85 says already unlocked). Hints m0098/m0102 repeat OPEN CAGE/INJECT/TAKE INJECTOR/TAKE CHIP/W/SELECT 2 with no wait info; timed waits noted in collection-notes must be elsewhere or narrow window.
+
+Checkpoints: start-darkness, lab-arrival, before-inject (expired), b2-ready-sedate (clean loaded pre-sedation, restored as b3).
+
+Last hint: m0102 lines 26-34 same SELECT 4/TAKE OLD CHIP/LOAD CHIP/E/OPEN CAGE/INJECT sequence; no wait timing given.
+
+Next: resolve m0104 SELECT 3, then test E → OPEN CAGE → INJECT with minimal turns; if fails again, examine injector/cage/cabinet states and request next excerpt (mode next) for TAKE OLD CHIP location. Keep single commands near hazard. Update progress every 10-15 requests.

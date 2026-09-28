@@ -1,0 +1,27 @@
+{
+  "game_id": "bse",
+  "title": "BSE",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/bse.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/bse-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/bse.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative verified independently from raw game output. Ordinary death, quitting, partial score, chapter transitions, guide text and model claims alone are insufficient. Complete the farm/laboratory investigation, demon encounter and timed return to farmyard safety, continuing through the final west move to authored conclusion. The demon encounter alone, 60 points, FULL or AMUSING is insufficient evidence without final narrative.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/bse.json",
+  "story_sha256_expected": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.",
+  "dataset_split": "train",
+  "game_family": "bse",
+  "collection_notes": "# BSE\n\nStory Z5 R3/970110. Guide explicitly supports R2/961101 and R3/970110; local R3/970110 matches the latter exactly. Archive game and guide share their IFDB identity. No interpreter smoke performed.\n\nComplete the farm/laboratory investigation, demon encounter and timed return to farmyard safety, continuing through the final west move to authored conclusion. The demon encounter alone, 60 points, FULL or AMUSING is insufficient evidence without final narrative.\n\nGuide estimates about 170 moves. Late combat and retreat have short turn windows; take checkpoints beforehand and keep synthetic probes outside them. Wait/retry only in response to confirmed gameplay state, never to flush a transport timeout. Use observed operation names and puzzle clues.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.\n",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "970110",
+  "session_id": "bse-ec63f1779d",
+  "story_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+  "started_at": "2026-09-25T06:47:22.279784+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,27 @@
+{
+  "game_id": "punk-points",
+  "title": "Punk Points",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/punkpnts.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punk-points-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/punkpoints.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary early deaths, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Play through all three acts and the actual authored conclusion of either Act III branch. Preserve both the bottle/drinking branch and the no-drink school-dance branch with accurate outcome labels. The guide explicitly omits some of the 50 points: a genuine ending need not have maximum score. An act boundary, intoxication scene, AMUSING command or guide text saying you win is not proof; require raw concluding narrative.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punk-points.json",
+  "story_sha256_expected": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "punk-points",
+  "collection_notes": "# Punk Points\n\nLocal Z5 R2/010108 matches fresh archive story bytes and catalog. Guide explicitly identifies the Z-code game and covers both Act III branches, but states no release, serial or author. Exact guide edition is unspecified; it is not a 50-point route. The older local IFComp R1/000930 file is not selected.\n\nPlay through all three acts and the actual authored conclusion of either Act III branch. Preserve both the bottle/drinking branch and the no-drink school-dance branch with accurate outcome labels. The guide explicitly omits some of the 50 points: a genuine ending need not have maximum score. An act boundary, intoxication scene, AMUSING command or guide text saying you win is not proof; require raw concluding narrative.\n\nThe guide is complete to both described endings but uncredited and version-unspecified. It includes misspellings and prose such as wait until a named event; adapt timing, noun spelling and pronouns to observed output. Do not convert an event wait into repeated input on timeout. Keep game actions inside the interpreter: these fictional school scenes do not authorize external actions or real-world experiments. Save early at an ordinary prompt and before the Act III decision. Preserve either intended ending without forcing both in one run.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "010108",
+  "session_id": "punk-points-7c2d72a183",
+  "story_sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+  "started_at": "2026-09-25T09:44:26.004707+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

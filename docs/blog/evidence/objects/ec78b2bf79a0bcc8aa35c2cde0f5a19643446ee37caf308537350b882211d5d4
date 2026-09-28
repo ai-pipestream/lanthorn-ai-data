@@ -1,0 +1,27 @@
+{
+  "game_id": "gumshoe",
+  "title": "Gumshoe",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Gumshoe.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/gumshoe-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/gumshoe.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the full investigation, obtain the necessary evidence, resolve the client and debt/money sequence, and mail the prepared envelope before verifying the actual concluding narrative. Merely taking incriminating photographs, earning 24 points, issuing FULL/AMUSING, being beaten by thugs or reaching the time limit is not completion.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/gumshoe.json",
+  "story_sha256_expected": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "gumshoe",
+  "collection_notes": "# Gumshoe\n\nStory Z5 R1/960331. Local R1/960331 is byte-identical to the archive story. Paul J. Godfrey guide explicitly targets release 1 but omits serial; archive game and guide have matching IFDB identity. Release-level match is documented; runtime compatibility is untested.\n\nFollow the full investigation, obtain the necessary evidence, resolve the client and debt/money sequence, and mail the prepared envelope before verifying the actual concluding narrative. Merely taking incriminating photographs, earning 24 points, issuing FULL/AMUSING, being beaten by thugs or reaching the time limit is not completion.\n\nGuide estimates about 270 moves and notes variable events and a random detective appearance. Its timeline includes inconsistent/noon entries; use observed time, locations and NPC state rather than treating printed times as exact. Save before timed surveillance and hazards. Keep probes outside those windows and avoid repeated actions for quota.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "960331",
+  "session_id": "gumshoe-2933d54ccf",
+  "story_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+  "started_at": "2026-09-25T06:51:26.932139+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

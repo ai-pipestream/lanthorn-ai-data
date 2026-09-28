@@ -1,0 +1,18 @@
+# Augmented Fourth — collection progress (ACTIVE, game incomplete)
+
+## State (e00185 confirmed; wedding-love checkpoint VERIFIED)
+- Location: Drawing Room after wedding. Widow + butler married via second PLAY LOVE, carried east over threshold; east now privacy-blocked. Score 14 (+2 Meddling tell-diary, +2 Cupid Substitution).
+- Inventory (observed): trumpet (magic, embouchure improved), note, manual, Timeline pamphlet, gold ring.
+- Route since last update: fern pushed in engrossed window (e00163) → W/FY → W/Butler's Cottage → read book=diary (e00169) → examine music → learn love (e00171) → E/FY (butler emerged) → E/Drawing (fern reset) → tell widow about diary (+2) → examine-widow engrossed → push fern → Z, Z (2nd Z widow noticed, called butler) → play love (widow smiled, butler entered) → look (butler cleaning) → play love again (wedding, east opened then closed, +2).
+- Checkpoints verified: ... fou-llama, fern-pushed (e00166), wedding-love (e00185).
+
+## Cases (annotated 13+; backlog growing)
+- New banked: drawing-open-door (ambiguity→refusal), drawing-door-ambiguity (direction rejected, color works), drawing-push-fern move/push synonym (both refused while watched).
+- Needs annotation: fern timing world_state (e00158 refused → e00163 success engrossed), read book→diary acceptance (e00169, failure_type none), learn love, tell-diary (+2), play-love-1 partial (smile, nothing else) vs play-love-2 wedding success, east privacy refusal (e00183).
+- Hint used (m0141, verified in game): engrossed→PUSH FERN→W,W,READ DIARY,LEARN LOVE→TELL WIDOW→PUSH FERN→Z,Z,PLAY LOVE→W,S. Next: W, S per hint into maze/south route.
+- Unannotated backlog: maze moves, ring take, pamphlet 07, plaques, manual 113/114.
+
+## Next
+1. W to Front Yard, then S to maze/outside per hint (W, S); explore south route (Mullog? Snoobar/Finney?).
+2. Annotate banked pairs above before they age out.
+3. Checkpoint at next safe milestone. Goal still far: Snoobar door, Finney key, S Plaza spire ladder, surface + Throne Room finale.

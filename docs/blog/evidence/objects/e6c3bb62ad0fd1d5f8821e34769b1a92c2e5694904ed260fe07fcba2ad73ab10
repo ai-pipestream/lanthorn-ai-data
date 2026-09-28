@@ -1,0 +1,17 @@
+{
+  "game_id": "jewel-of-knowledge",
+  "title": "The Jewel of Knowledge",
+  "url": "https://ifarchive.org/if-archive/solutions/jewel.sol",
+  "accessed_at": "2026-09-25T05:02:23.304538+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/jewel.sol",
+  "source_sha256": "a66bae856bee15b07d747dfce227fdec2b1f29157e56cfe72ffecbbde67b1062",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/jewel-of-knowledge-walkthrough.txt",
+  "normalized_sha256": "a66bae856bee15b07d747dfce227fdec2b1f29157e56cfe72ffecbbde67b1062",
+  "story": "/home/krickert/if-games/zcode/jewel.z5",
+  "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+  "compatibility": "Story R2/990710 versus walkthrough R1/990629. Guide includes an intentional losing GET JEWEL branch followed by restore; seek author-intended final mirror route, never label that failure as completion.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "990710"
+}

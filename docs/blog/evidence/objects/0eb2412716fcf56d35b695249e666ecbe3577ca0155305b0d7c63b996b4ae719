@@ -1,0 +1,97 @@
+{
+  "game_id": "lecture-feature",
+  "title": "Lecture Feature",
+  "author": "Paul Equinox Collins",
+  "url": "https://ifarchive.org/if-archive/solutions/lecture_feature.txt",
+  "accessed_at": "2026-09-25T08:27:15.130782+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture_feature.txt",
+  "source_sha256": "46ef8303741ba32f6c92e8083b248f9cdb6ca7b262349bf1aacc8c7b7d1d013f",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature-walkthrough.txt",
+  "normalized_sha256": "46ef8303741ba32f6c92e8083b248f9cdb6ca7b262349bf1aacc8c7b7d1d013f",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/lecture.zblorb",
+  "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+  "compatibility": "Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "200414",
+  "story_header": {
+    "container": "blorb-zcod",
+    "header_bytes": 64,
+    "header_hex": "08000001ef10ef11d2fb010a5d9ecc0d00503230303431340042c3c5c2f500000000000000000000000000000000cc0c000000000000010200000000362e3332",
+    "header_sha256": "bcd1969032f1b45f95567ffe976dbe8933f74544116f34238ea5c4b4eac419e1",
+    "checksum_hex": "c2f5",
+    "declared_length": 400936,
+    "file_bytes": 493520,
+    "zcod_offset": 56,
+    "zcod_bytes": 401408,
+    "zcod_sha256": "9673c2ed3b0f60c615596bd0bdf57177d39dc13f803895567d8fc27318d22dd9",
+    "container_bytes": 493520
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "lecture.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/lecture.zblorb",
+    "accessed_at": "2026-09-25T08:29:36.584938+00:00",
+    "remote_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "local_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "bytes": 493520,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 1,
+    "remote_serial": "200414"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#lecture.zblorb",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "lecture.zblorb\n◆\n[14-Apr-2020]\nIFDB entry\nIFWiki:\nLecture Feature\nLecture Feature, by Paul Equinox Collins. The sequel to\n\"Teacher Feature\".\nRelease 1 / Serial number 200414.\n(source code is in games/source/inform/lecture.txt)",
+    "tuid": "iq229ydvxexbv3x7"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#lecture_feature.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "lecture_feature.txt\n◆\n[26-Mar-2014]\nIFDB entry\nIFWiki:\nLecture Feature\nWalkthrough for Paul Collins' game Lecture Feature.\n(the game itself is at games/zcode/lecture.zblorb)",
+    "tuid": "iq229ydvxexbv3x7"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "not specified in archive entry or guide body",
+    "route_summary": "Follow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.",
+    "limitations": "NPCs move; find them from current output and reorient at the rooms named by the guide. Lines beginning arrows and parenthesized waits are advice, not literal commands. No fixed wait count is authoritative. The opening FLUSH TOILET is an in-game puzzle action at an ordinary prompt, never a transport flush. Save early safely and before final commitments; use useful observations and same-intent repairs rather than quotas.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "teacher-feature",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Archive explicitly calls this a sequel to Teacher Feature, and linked source includes direct Teacher Feature references. Conservatively use teacher-feature for both games and all releases. Neither Teacher Feature nor Lecture Feature is in the current registered/play exclusions. Parent review requested for retaining this grouping."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public hosting and source availability do not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "static_ending_evidence": {
+    "url": "https://ifarchive.org/if-archive/games/source/inform/lecture.txt",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-source.txt",
+    "sha256": "fe29bab4cb4c953d02bd7712dc59ba2708235c57678fcad0daac0387553565e4",
+    "lines": "998-1005",
+    "finding": "Kiss-ready Lyssa scene prints concluding narrative, waits for key, shows recruitment status and ends game in victory.",
+    "limitation": "Source inspected statically; source-to-binary correspondence not proven. Entire source remains central and masked from Muse."
+  }
+}

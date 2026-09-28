@@ -1,0 +1,15 @@
+# Traffic progress — PRESENT corner after cab-improved fail; restore pending (e160)
+
+Location: Present corner Jones/Elm (e160 tail) OR restoring cab-improved (inbox/m0149 pending). Branch b0 (restore creates new branch). Bus + stroller woman + police/cab/student south on Elm. Awaiting restore to cab-improved (e157-159: cab alongside student left, police alongside, chase radio).
+
+Inventory: present-self holds package (crushed in deaths). Radio this loop: avoid Umber/Elm/Jones/Oak (e156), police chase forthcoming (e157). Sarah Elman Elementary secured earlier (e133). Jingle at starts.
+
+Key findings: Felix = young man's name (e149: third practice session). 'felix, stop' rejected e150 (can't see whom) — must address 'young man'; 'young man, stop' e151 holds block, 'drive north' e152 holds, but e153 DRIVE NORTH at parked car refused (afraid), cab ahead 1, police dodges parked car and passes → cab restart with improved alignment (student alongside, police 2 behind). Cab-improved drives e156-157 held alongside; e160 DRIVE into parked zone let police dodge/pass → present. Checkpoint cab-improved verified e158-159.
+
+Cases: ~40+. New: cab-drive-60 (e156-157, e160 fail), student-name-57 (Felix e149), felix-stop fail e150 vs young-man-stop success e151 (annotate pair), student-drive-59 e152-153 parked refusal + reset.
+
+Checkpoints: cab-start, cab-improved (e158-159), plus earlier start-corner/past/stroller/bus/student/mid-cab-loop. Restore m0149 pending — verify new branch before acting.
+
+Next: 1) await restore. 2) At cab-improved, try STOP/WAIT (not DRIVE) at parked approach to keep two-car block; if fail, use present LOOKs + death to re-enter student and test lane-change verbs (drive east/change lanes) at parked refusal. 3) Then Sarah, revised present, best ending + normal delivery alternate. 4) Annotate: e150/e151, e152/e153, e156-160 sequence, radio accepts.
+
+Game INCOMPLETE. One command at a time in timed sequences.

@@ -1,0 +1,15 @@
+[Unit]
+Description=Lanthorn distributed Muse clients with central interpreter evidence
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/work/experiments/lanthorn-recall-training
+ExecStart=/usr/bin/python3 /work/experiments/lanthorn-recall-training/scripts/maintain_fleet.py
+Environment=PATH=/home/krickert/.local/bin:/usr/local/bin:/usr/bin:/bin
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=default.target

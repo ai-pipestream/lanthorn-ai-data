@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "lecture_feature.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/lecture_feature.txt",
+    "accessed_at": "2026-09-25T08:27:15.130782+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/lecture_feature.txt",
+    "sha256": "46ef8303741ba32f6c92e8083b248f9cdb6ca7b262349bf1aacc8c7b7d1d013f",
+    "bytes": 2767
+  },
+  {
+    "filename": "underoos.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/underoos.sol",
+    "accessed_at": "2026-09-25T08:27:15.132229+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/underoos.sol",
+    "sha256": "be0f9b118548f7308713d6d0b34de72632d2b07c53de8db6880c2f87b6e71cbc",
+    "bytes": 732
+  },
+  {
+    "filename": "cycles_hints.htm",
+    "url": "https://ifarchive.org/if-archive/solutions/cycles_hints.htm",
+    "accessed_at": "2026-09-25T08:27:15.136318+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/cycles_hints.htm",
+    "sha256": "4e96c98c23a2d9b45a0ab7a56d08bba5373ea417c2aaa7e7d73820bfd6cf2295",
+    "bytes": 3100
+  },
+  {
+    "filename": "time.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/time.sol",
+    "accessed_at": "2026-09-25T08:27:15.131371+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/time.sol",
+    "sha256": "ff26aaf6901319ead97dae1dad2b54c4d714991155c9f8bbb35a7bc9d0fb2459",
+    "bytes": 18853
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T08:27:15.216966+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T08:27:15.227725+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "iceprin.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/iceprin.sol",
+    "accessed_at": "2026-09-25T08:27:49.073898+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/iceprin.sol",
+    "sha256": "4f8eb494bd36e1ea275327eddc4004dcbce185c374895b02e7a221a70a873846",
+    "bytes": 5855
+  },
+  {
+    "filename": "lecture-source.txt",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/lecture.txt",
+    "accessed_at": "2026-09-25T08:27:49.224031+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/lecture.txt",
+    "sha256": "fe29bab4cb4c953d02bd7712dc59ba2708235c57678fcad0daac0387553565e4",
+    "bytes": 163913
+  },
+  {
+    "filename": "detective_solution.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/detective_solution.txt",
+    "accessed_at": "2026-09-25T08:28:20.620523+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/detective_solution.txt",
+    "sha256": "b34c4d054d398c662b17fca859aa9394b973ee03d6559b55f77ec8cd222da0f1",
+    "bytes": 285
+  },
+  {
+    "filename": "Detectivesrc.zip",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/Detectivesrc.zip",
+    "accessed_at": "2026-09-25T08:28:40.154331+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/Detectivesrc.zip",
+    "sha256": "03e268850a15df0c7772e8d9acc7f3c765abea56685c48ebd432aca3794e4371",
+    "bytes": 16958
+  }
+]

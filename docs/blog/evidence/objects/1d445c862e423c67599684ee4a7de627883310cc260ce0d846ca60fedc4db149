@@ -1,0 +1,53 @@
+{
+  "at": "2026-09-25T09:12:09.881256+00:00",
+  "game_id": "wadewars-iii-askin",
+  "events": [
+    {
+      "event_id": "wadewars-iii-askin-b613801aeb:e00377",
+      "timestamp": "2026-09-25T09:06:04.518976+00:00",
+      "game_id": "wadewars-iii-askin",
+      "session_id": "wadewars-iii-askin-b613801aeb",
+      "branch_id": "b2",
+      "event_index": 377,
+      "event_type": "command",
+      "command": "west",
+      "response": "\nY-Duts\nYou can see Uncle Seamore here.\nUncle Seamore vanishes. \n\nYou experience a passing wave of confusion and feel momentarily disoriented...\n\n\nKitchen\n\nThis is the kitchen. There aren't any dishes to wash in here because your uncle \nbroke them all several years ago in a levitation experiment that failed. \nLooking at the kitchen it is easy to tell that he was not someone who cleaned \nregularly. The refrigerator and counters are filthy. The dining room lies to \nthe West.\nYou can see Uncle Seamore here.\n                                       \n                                       \n                                       \n                                       \n                                       \n                                   EPILOGUE\n\n\n\nYou and your uncle grasp each other as the world returns to normal and you find \nyourself standing in the kitchen. Your uncle falls to his knees from exhaustion \nand begins weeping with happiness. \"Thank goodness,\" he says. \"I don't ever \nwant to go to that horrible place again! I'm going to go and disassemble my \ntrans-dimensional teleportation device right now!\" \n\nYou watch your favorite uncle leave the room then look intently at the small \nblack box with the red and blue buttons. You can almost hear the Law of \nProphecy's declaration: \"..once to save his own, then again to save our own...\" \nYou know that you are the counterpart to Lord Urthwin of Askin. You know that \nyou bear a certain amount of responsibility because of that. You know that you \nmust go back and rid Askin of the Evil One. Not now, but when you are ready. \nYou must!\n                                      ---\n\n                            Press SPACE to continue\n",
+      "raw_start": 83894,
+      "raw_end": 85594,
+      "response_sha256": "ad8018933e291a196195e5647ec23900fa2d8c115e747f2e6161f51ffa5f95e7",
+      "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-b2-moorh-w",
+        "expected_outcome": "Follow uncle to backwards study",
+        "intent": "Go west after Uncle Seamore",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "wadewars-iii-askin-b613801aeb:e00378",
+      "timestamp": "2026-09-25T09:06:10.152529+00:00",
+      "game_id": "wadewars-iii-askin",
+      "session_id": "wadewars-iii-askin-b613801aeb",
+      "branch_id": "b2",
+      "event_index": 378,
+      "event_type": "command",
+      "command": " ",
+      "response": "\n\n\n    *** you have won ***\n\n\n[In that game you scored 100 out of a possible 100, in 228 turns.]\n\n[Would you like to RESTART, RESTORE a saved game or QUIT?]\n[Score 100, up 10]\n> ",
+      "raw_start": 85594,
+      "raw_end": 85772,
+      "response_sha256": "072187c9489a89bb2f885ea5b53945da679eaeb11dfa21028c81068b54c7af24",
+      "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-epilogue-space",
+        "expected_outcome": "Advance past epilogue to conclusion",
+        "intent": "Press SPACE to continue past epilogue",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "WEST returns to kitchen with rescued Uncle, epilogue then literalSPACE explicitwin100/100 finalmenu. Current b2 ending after prior b1 death/recovery; promises future return to Askin, so installment finale does not resolve every series threat. Parent exact raw/text/hash verified; independent review pending. No full content/case coverage claim."
+}

@@ -1,0 +1,10 @@
+# Tube Trouble – progress (update 8, STOPPING – game incomplete, request pending)
+
+Location: Platform Two vending machine, pound note + chocolate collected (e00066/e00068/e00069).
+Inventory (e00069): bar of chocolate + pound note.
+Checkpoints verified: start-safe, platform-two, platform-one, pre-vending, post-vending, choc-note (e00070-71).
+Pending: inbox/m0069.json {"west"} west-corridor-leg1 – responses/m0069.json not yet present after multiple polls; latest.json still e00075. DO NOT resubmit or duplicate; on resume first read responses/m0069.json and latest.json.
+Hints: e00074 (lines 30-38) + e00075 (lines 39-47): Look in hat / tramp appears / Get hat / Buy hat (pound note) / get cap / Wear cap / save. Still need excerpt after Wear cap for train boarding + eat chocolate ending (request mode=next once pending clears).
+Annotated (15+): notice, penny-coin(none), machine-vendor, sign-display, hat-cap(fail), tramp-beggar, shilling-insert, lever-handle, penny-machine(none), lever-typo, tray-search(none), sixpence-change, sixpence-typo, pound-note(none e00066), plus route events e00064-65/e00068-69 unannotated.
+Next (do NOT replay probes): 1) read responses/m0069.json 2) west to Platform One corridor leg 3) west to Platform One 4) look in hat 5) get hat probe + correction 6) buy hat / wear cap 7) help mode=next for train/eat 8) board + eat chocolate for ending.
+State: ordinary prompt, Platform Two. No light/timed issues. Continue from actual state; choc-note.sav is safe fallback; do not restart.

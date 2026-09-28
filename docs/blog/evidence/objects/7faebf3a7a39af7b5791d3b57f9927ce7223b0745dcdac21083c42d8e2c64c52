@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-09-25T09:24:04.725890+00:00",
+  "finished_at": "2026-09-25T09:24:05.040227+00:00",
+  "exit_code": 1,
+  "snapshot_sha256": "a943730fb953c974a30324f29faa0c695385e92c07270b81790502ada1981d16",
+  "profile_sha256": "d9c540bfe2c782f34e169af0592ca507c1a47432bedcfb883c9600a818049a0a",
+  "model_configured": "kimi-code/k3",
+  "mode": "decisions only; no tool access"
+}

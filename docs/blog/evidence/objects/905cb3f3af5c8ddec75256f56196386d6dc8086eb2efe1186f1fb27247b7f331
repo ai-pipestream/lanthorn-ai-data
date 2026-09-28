@@ -1,0 +1,27 @@
+{
+  "game_id": "pick-up-the-phone-booth-and-aisle",
+  "title": "Pick Up the Phone Booth and Aisle",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/PUTPBAA.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative verified independently from raw game output. Ordinary death, quitting, partial score, chapter transitions, guide text and model claims alone are insufficient. Respect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle.json",
+  "story_sha256_expected": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+  "checkpoint_policy": "Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.",
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "collection_notes": "# Pick Up the Phone Booth and Aisle\n\nStory Z5 R2/010618. Local R2/010618 matches archive; guide shares its IFDB identity but specifies no release/serial. Guide is a catalog of roughly 210 alternate ending commands, not a sequential walkthrough. SAVE, RESTORE and ordinary metacommands are listed among ending-producing inputs.\n\nRespect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.\n\nDo not issue SAVE, RESTORE, or broker checkpoint automatically: the guide lists them as ending commands. Preserve startup event evidence; no ordinary save checkpoint is established. Ask only for a small hint about the selected branch. Parent must separately supervise any restart to sample a different meaningful branch; never execute the guide as one sequence or inflate collection volume.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "010618",
+  "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+  "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+  "started_at": "2026-09-25T06:44:39.711569+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

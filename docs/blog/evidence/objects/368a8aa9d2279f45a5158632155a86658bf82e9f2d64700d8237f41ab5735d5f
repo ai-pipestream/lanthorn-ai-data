@@ -1,0 +1,37 @@
+# Fullplay supervision
+
+Bounded review completed 2026-09-25T07:49:50.302032+00:00; fixed selection cutoff 2026-09-25T07:42:39.210201+00:00.
+
+**120 annotations across 48 games: 101 accepted, 14 revise, 5 quarantine.** Both endpoints and 617 distinct nearby/intervening raw spans matched bytes, SHA256, text and exported command/branch fields. No hash/export mismatch. Acceptance is scoped to the annotated local behavior, not comprehensive walkthrough compatibility.
+
+Current export snapshot: **3215 unique annotations: 1776 accepted, 448 revise, 87 quarantine, 904 unreviewed.** Counts use exact annotation IDs plus unique endpoint-set equality. Cached CSV labels may lag; legacy and unexported review entries are not extra exported cases. The growing tail remains unreviewed.
+
+## Current findings
+
+The empty-Enter P2 is closed in checkpoint selection and exporter transport classification. Source hashes match parent receipt docs/blog/test-receipts/empty-enter-transport-20260925T0744.json. Independent in-memory selector checks include empty and nonempty preceding timeouts, both dirty/excluded SAVE halves, delayed targets and clean selection. The three production-loop Node assertions pass for timeout Enter plus metadata/next input, clean Enter and delayed drain. No fixture-writing Python suite or engine operation was run.
+
+Delusions canary delusions-8997f25a87 e00239-e00241 has real S, X RECTANGLE and X ME responses at07:43:49; all raw byte/hash/text checks pass and session is unchanged. Parent reports supervised34-client resumption07:44. Current launch flags/local process snapshot are in JSON; remote activity is not individually certified by this reviewer. The07:28 quota hold is historical, not current state.
+
+## Pair verdicts requiring exclusion
+
+- so-far-8d580943cf:e01400: Independent exact endpoint and nearby/intervening raw SHA/text review. WHISTLE high note is replaced by HUM with faint lower thrum. Intended pitch/result not preserved or established. Retain only as separate explicitly different vocal probe.
+- mother-loose-608208fd92:e00051: Independent exact endpoint and nearby/intervening raw SHA/text review. Hairpin unlocking changes to knock-knock joke; reply Whos there starts dialogue but entry not achieved. Do not present as same-intent successful entry repair; separate incomplete plan.
+- paper-chase-23fbd9b726:e00046: Independent exact endpoint and nearby/intervening raw SHA/text review. SHOW ID becomes GIVE ID, transferring possession; endpoint only accepts card, not book. Explicitly different action must not be labeled successful same-meaning repair; retain separate plan with intent no.
+- space-station-b15ae148d4:e00127: Independent exact endpoint and nearby/intervening raw SHA/text review. OPEN DOOR changes to UNLOCK DOOR; intended surgery entry not achieved at endpoint. Separate prerequisite plan with intent not preserved, not successful entry/wording correction.
+- all-quiet-on-the-library-front-a0c0a11bad:e00066: Independent exact endpoint and nearby/intervening raw SHA/text review. Corrected S reaches Rare Books Room but response carries trailing fragment of previous Pratchett quotation after new Hubbard quote. Preserve body as observed; quarantine whole pair pending tail attribution, with intervening W wander retained.
+
+The Library Front e00063 destination body is readable, but its raw response includes a trailing fragment of the prior Pratchett quotation after the new Hubbard quote. Whole-pair quarantine is conservative; this is not proof of a particular transport cause. Its earlier W wander and time progression remain attached to the review.
+
+Fourteen revisions address partial goals, mixed vocabulary/state prerequisites, physical refusals mislabeled as unknown words, and unproved exact pronoun references. Examples: sphere touch transports without possession; entering I-0 car does not prove heat relief; learning the correct Jigsaw noun still needs soldier permission; Mansion door still needs unlocking; hearing wheels spin does not prove northward mouse travel.
+
+Observed state repairs remain distinct from wording: taking baguette before placement, spell preparation before casting, key before opening, and successive cage cuts. Native Enemies nightmare and Heroine time transitions remain explicit even within a branch. Generic Taken requires command/context and is not standalone response-only retrieval evidence.
+
+## Historical conclusions and provenance
+
+**40 independently verified historical conclusions, unchanged.** No new conclusion promoted in this pass. Prior ending records and raw receipts remain in status JSON. Sample/preview/installment labels and exact release/guide gaps remain; no score establishes exhaustive case coverage.
+
+Zork is the exact Dungeon/I7 port, not commercial Zork I. Historical ZIL hints remain inference until observed. So Far e1409 is source guidance; later b28 transition and separate b30 ending are actual evidence. Spider b19 win precedes b20 restore; Only After Dark b2 win precedes later branches. Slouch gallows/Logos finale is not containment. Library Front ending body remains verified while its stale tail is excluded.
+
+Earlier delayed Zork/menu chains and failed Delusions startup restore remain quarantined. Anchor/Savoir correction receipts identify actual SAVE rather than later RESTORE; original raw journals retained. Fleet fence findings remain historical scoped audits, not blanket rollout or durability guarantees.
+
+Bounded pass finished. Only the three owned review files changed. No game input, reset, launch, training, evaluation or publication.

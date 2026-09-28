@@ -1,0 +1,21 @@
+# Beyond the Tesseract — progress
+
+Location as observed: infinite point (north of origin). Exit south.
+- Origin: exits N,E,S,W. Took mobius strip (Taken).
+- `grab strip` -> "That's not a verb I recognise." (e00021); `take strip` -> Taken (e00022).
+- `nort` typo -> unknown verb (e00024); `north` -> infinite point with non-differentiable function and group (e00025).
+
+Inventory as observed: stack + mobius strip (need to verify with inventory command).
+
+Cases:
+- probe-office-crt-typo: e00007->e00009 vocab success (annotated)
+- probe-scan-crt-omitted: e00012 none accepted (annotated)
+- probe-origin-mobius-short: e00017 none accepted (annotated)
+- probe-origin-take-synonym: e00021->e00022 vocab success (annotated e00023 pending)
+- probe-origin-north-typo: e00024->e00025 vocab success (annotation m0023 pending)
+
+Last hint: lines 10-18: Read book / disk in projector / Push 4 / Read Tomb "THE ETERNAL SOUL" <TES>; Break prism / Read tetrahedron "SEEKS THE EXACT" <SE>. Not yet located; need to explore origin E/S/W and infinite point.
+
+Next: confirm m0023 annotation, inventory, scan function/group, explore south back, then origin other exits.
+
+Checkpoints: start-office ok, origin-arrived ok.

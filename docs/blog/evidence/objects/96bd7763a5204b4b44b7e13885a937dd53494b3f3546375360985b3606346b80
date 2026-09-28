@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T07:13:13.903206+00:00",
+  "game_id": "so-far",
+  "events": [
+    {
+      "event_id": "so-far-8d580943cf:e01571",
+      "timestamp": "2026-09-25T06:59:17.572777+00:00",
+      "game_id": "so-far",
+      "session_id": "so-far-8d580943cf",
+      "branch_id": "b30",
+      "event_index": 1571,
+      "event_type": "command",
+      "command": "",
+      "response": "\nThe sun's glow has faded in the west of the sky. The crowd outside the theater \nshifts, murmuring; you push a little forward, out from under the theater \nportico. A hot, crowded evening to a hotter, crowded day. But is that the start \nof a breeze? You fan yourself hopefully with the paper in your hand -- a \nplaybill for Rito and Imita that you must have latched onto in the dark.\n\nNever mind. It's the moment of the almost-conjunction. People gasp, or sigh. \nThe two moons are swinging past each other, seeming to glow in each other's \nlight; closer, closer, not quite touching... and away again. So near, yet --\n\nSomeone is standing there, a few paces ahead, rapt in the sky. Curve of chin. \nLong hair, black in the moonslight. To hell with the theater. Dawn is distant \nyet, so you move nearer to her, into the first cool smoky breeze of autumn.\n\n\n\n    *** You have won ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, see the AFTERWORD, or QUIT?\n> ",
+      "raw_start": 441417,
+      "raw_end": 442378,
+      "response_sha256": "de54d8ff71c44d1d8b5f09dfa16833903f6725a321955cbd3fb88b2269dab8ad",
+      "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "b30-ending-key",
+        "expected_outcome": "Final narrative",
+        "intent": "Press Return at ending keypause",
+        "origin": "recovery"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Moons almost-conjunction/theater return/approaching her in autumn epilogue; explicit You have won/final menu. No coverage claim; independent review pending."
+}

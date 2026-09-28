@@ -1,0 +1,106 @@
+[
+  {
+    "filename": "wedding.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/wedding.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/wedding.sol",
+    "accessed_at": "2026-09-25T06:11:49.516555+00:00",
+    "sha256": "18ed4dee218ef83facf5fb3c6161a7ae7940c5435031e1c096cf93e49480cce0",
+    "bytes": 4291
+  },
+  {
+    "filename": "Relief.walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Relief.walkthrough.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Relief.walkthrough.txt",
+    "accessed_at": "2026-09-25T06:11:49.519938+00:00",
+    "sha256": "10726883c6f29e6229383b82a370ab7ff33dc25a8de579049d82f5b15cb1e825",
+    "bytes": 1530
+  },
+  {
+    "filename": "mansion.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/mansion.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/mansion.sol",
+    "accessed_at": "2026-09-25T06:11:49.521143+00:00",
+    "sha256": "ce444563b616e8789da66c8844db9de427c4fca1319c82d623ca7937f4405659",
+    "bytes": 3349
+  },
+  {
+    "filename": "putpbaa.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+    "accessed_at": "2026-09-25T06:11:49.516870+00:00",
+    "sha256": "463d45e9dcd4bcabeb17f82ccd837772a4705f76612b7c56f894772d845d05c7",
+    "bytes": 2940
+  },
+  {
+    "filename": "bse.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/bse.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/bse.sol",
+    "accessed_at": "2026-09-25T06:11:49.520192+00:00",
+    "sha256": "889bdab5ad24f8fbc0499ba74e575891dd638fc1cb95b6e043ddbd9a8cbacdbf",
+    "bytes": 3669
+  },
+  {
+    "filename": "bedlam.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/bedlam.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/bedlam.sol",
+    "accessed_at": "2026-09-25T06:11:49.533879+00:00",
+    "sha256": "3817db1cab04e5780521d798990dc2f962fac04401191768430b6d45709c190e",
+    "bytes": 825
+  },
+  {
+    "filename": "criticalbreach.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/criticalbreach.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/criticalbreach.txt",
+    "accessed_at": "2026-09-25T06:11:49.564467+00:00",
+    "sha256": "230822e99d395caf59a92fe6119d1d1e428041f7eda18ba5fcba5c44ccf211e5",
+    "bytes": 802
+  },
+  {
+    "filename": "atwork.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/atwork.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/atwork.sol",
+    "accessed_at": "2026-09-25T06:11:49.572275+00:00",
+    "sha256": "9d98a09a54cd9c1a05e552fb8ab5e1b97a41e831d35b85dad19fc763b53c0840",
+    "bytes": 1673
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T06:11:49.611494+00:00",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T06:11:49.613424+00:00",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "PaperChase.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/PaperChase.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/PaperChase.sol",
+    "accessed_at": "2026-09-25T06:13:02.218353+00:00",
+    "sha256": "5ee8c105492befb9c5f83d40e971065951d404a271cace8cf4b15adff08f0cd5",
+    "bytes": 4297
+  },
+  {
+    "filename": "gumshoe.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/gumshoe.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/gumshoe.sol",
+    "accessed_at": "2026-09-25T06:13:02.263860+00:00",
+    "sha256": "dec19e255650e11ef65814504b2d82057a891ad00b1fb29187495e0cf2b1b29b",
+    "bytes": 5287
+  },
+  {
+    "filename": "mansion-ifdb.html",
+    "url": "https://ifdb.org/viewgame?id=bpk1o1ver1er00k",
+    "http_result": "200 https://ifdb.org/viewgame?id=bpk1o1ver1er00k",
+    "accessed_at": "2026-09-25T06:13:51.116288+00:00",
+    "sha256": "d4b45aabe8d9b8b1e73f8bb127d9678207c171e35cf2fca4d7c65e7eb036f7d5",
+    "bytes": 38804
+  }
+]

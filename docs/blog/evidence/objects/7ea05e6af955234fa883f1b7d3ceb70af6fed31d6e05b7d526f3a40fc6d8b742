@@ -1,0 +1,13 @@
+# All Roads — collection progress (IN PROGRESS, branch b1 top-staircase)
+
+- Location: Top of the Grand Staircase b1 e00282-283 after enlisted exit (canal window, Denizen N, Giuseppe S, aide door closed, appointments book on pedestal). Ordinary '>' prompt.
+- Session: all-roads-d8ab21c941, branch b1, latest.json e00283 (annotate denizen-exit-sout-typo via responses/m0261.json).
+- Inventory as observed: ring worn (retrieved e00219); room key; signed form stays with Denizen (grab/take refused hers now e00272-273); Army enrolment complete, pardons given, return 26th for uniform (e00271); form examined x it e00276.
+- m0259 CONFIRMED b1 e00281 sout typo rejected vocabulary (responses/m0259.json).
+- m0260 CONFIRMED b1 e00282 canonical s to Top staircase (responses/m0260.json).
+- m0261 CONFIRMED b1 e00283 annotate sout->s vocabulary (responses/m0261.json).
+- m0262 PENDING: command go west verbose probe, case top-staircase-go-west-verbose (submitted inbox/m0262.json, no responses/m0262.json yet; latest b1 e00283). Do NOT resubmit.
+- NEXT: await m0262; if go west succeeds annotate none (accepted paraphrase for w); then per hint 113-121 continue d then nw single commands. Collect varied probes, avoid repeating typo in same room. Continue toward final Guiseppe sequence.
+- Cases: ~92 recorded plus go-west pending.
+- Checkpoints: through denizen-enlisted; b1 active.
+- Continuation: read progress.md + latest.json (b1 e00283); start by reading responses/m0262.json.

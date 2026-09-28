@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T08:12:26.317524+00:00",
+  "game_id": "bedlam",
+  "events": [
+    {
+      "event_id": "bedlam-59f5a6e860:e00143",
+      "timestamp": "2026-09-25T07:57:00.629807+00:00",
+      "game_id": "bedlam",
+      "session_id": "bedlam-59f5a6e860",
+      "branch_id": "b0",
+      "event_index": 143,
+      "event_type": "command",
+      "command": "turn on car",
+      "response": "Off you go...  Congratulations. You have just completed the Bedlam preview. \nThis demo covers about one-fourth of the finished project. Still to come are \nmore misadventures that you will experience  in town. In addition, the sequence \nyou have just completed will be further embellished. You can expect an attic, \nthe basement, more puzzles, and you will finally be able to explore the back \nyard.\n\n  If you encounter any typos, please send them to zeyguy at aol.com along with \nany and all comments you might have.\n\n\n    *** You have won ***\n\n\nBear with me. I just haven't gotten around to implementing a scoring system \nyet. I'll do it in the completed game. Promise.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 16936,
+      "raw_end": 17667,
+      "response_sha256": "9e037aab4f3732a15de6a7d80d58e83c2521654bae81a1937ec40cf4245f2d62",
+      "story_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "bedlam-59f5a6e860",
+        "case_id": "bedlam-car-start-01",
+        "expected_outcome": "Start car and depart with preview conclusion",
+        "intent": "Start the red car engine to drive away",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Michael Zey PREVIEW completion only; actual text explicitly says about one-fourth of planned project. TURN ON CAR authored preview ending, not full-game completion. Parent raw/text/hash verified; independent review pending."
+}

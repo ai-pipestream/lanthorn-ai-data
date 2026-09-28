@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T08:43:40.617489+00:00",
+  "game_id": "save-princeton",
+  "events": [
+    {
+      "event_id": "save-princeton-e0a2654e41:e00443",
+      "timestamp": "2026-09-25T08:34:59.994490+00:00",
+      "game_id": "save-princeton",
+      "session_id": "save-princeton-e0a2654e41",
+      "branch_id": "b1",
+      "event_index": 443,
+      "event_type": "command",
+      "command": "play trumpet",
+      "response": "\nYou put the trumpet to your lips and blow it so hard that your earplugs pop out\n. The noise that issues forth is thunderous, although it isn't enough to wake \nKing Ash or his guard. It is enough, however, to summon most of the student \nbody. Through the office window you see people pouring out of their dorms, \ngiving fierce battle cries. Within moments, you hear a pounding on the outside \nof the office door. It shatters, and about fifty students flood into the room. \nWhile a few of them bind and gag King Ash and his guard, others dismantle the \ndais and scrape the crimson paint off the picture frames, restoring the office \nto its former layout.\n\nSomeone produces a case of champagne, and bottles begin popping. Professors, \nundergraduates, townspeople, and grad students all cluster around you, slapping \nyour back and shaking your hand. Wandering among the crowd, you bump into such \nluminaries as George Schultz '43, Brooke Shields '87, and Jimmy Stewart '33. \nAll of them want your autograph. You even receive a toast from F. Scott \nFitzgerald '17, who has come back from the dead especially for this occasion.\n\nSuddenly, the hubbub dies down, and you see President Shapiro gesturing for \nsilence. He turns to you and puts a hand on your shoulder. \"Superbly done,\" he \nsays. \"Now, please, I'll have to ask you all to leave. Before the invasion, I \nwas filling out the university's tax records for fiscal 1991, and I simply \ncan't wait to get back to them.\n\n\n    *** You have won ***\n\n\nIn that game you scored 200 out of a possible 200, in 297 turns. This makes you \nSavior Of The University. Mazel tov!\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game or QUIT?\n[Score 200, up 25]\n> ",
+      "raw_start": 86314,
+      "raw_end": 88065,
+      "response_sha256": "9e95c4e0944430ffa89aec41862087df15726d6b48c3edfb8e4aad50e89f44f4",
+      "story_sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "save-princeton-e0a2654e41",
+        "case_id": "finale-trumpet-blow-1",
+        "expected_outcome": "Trumpet sounds or game prompts to blow",
+        "intent": "Sound the trumpet to resolve King finale and save Princeton",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "PLAY TRUMPET: students bind King and guard, restore university office, champagne/Shapiro thanks, explicit win200/200. Directly accepted wording is not a repaired failure. Parent exact raw/text/SHA verified; independent review pending."
+}

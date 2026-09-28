@@ -1,0 +1,17 @@
+{
+  "game_id": "spider-and-web",
+  "title": "Spider and Web",
+  "url": "https://ifarchive.org/if-archive/solutions/tangle.sol",
+  "accessed_at": "2026-09-25T03:48:59.573460+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/tangle.sol",
+  "source_sha256": "f47da577316c37fb5bb0b08e9e1e605f9b2cc81217991a72895fe74ff10c4a9b",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/spider-and-web-walkthrough.txt",
+  "normalized_sha256": "f47da577316c37fb5bb0b08e9e1e605f9b2cc81217991a72895fe74ff10c4a9b",
+  "story": "/home/krickert/if-games/zcode/Tangle.z5",
+  "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+  "compatibility": "GuideR4/980226; interrogation transitions and rewinds are not endings. Require actual concluding escape outcome.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "980226"
+}

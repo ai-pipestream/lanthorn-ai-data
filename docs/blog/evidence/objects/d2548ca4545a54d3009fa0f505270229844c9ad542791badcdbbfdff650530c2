@@ -1,0 +1,75 @@
+{
+  "game_id": "i-0",
+  "title": "I-0",
+  "author": "Adam Cadre",
+  "url": "https://ifarchive.org/if-archive/solutions/I-0.sol",
+  "accessed_at": "2026-09-25T06:02:02.381140+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/I-0.sol",
+  "source_sha256": "4a0942da431c6b540a98a5b9c99a4ef8b9ffdb62cb33ba6ac312d9660dc00962",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/i-0-walkthrough.txt",
+  "normalized_sha256": "4a0942da431c6b540a98a5b9c99a4ef8b9ffdb62cb33ba6ac312d9660dc00962",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/I-0.z5",
+  "story_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+  "compatibility": "Local and byte-identical archive binary both R5/140603. Archive index instead prints serial 14729; retain that catalog discrepancy and trust the bytes for the pin. Bruce Hollebone travelogue revised August 1998 gives no release/serial, predates the 2014 binary, and deliberately leaves the final two scenes unexplained.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 5,
+  "serial": "140603",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050200056ea86ea94e23010a38e6429d00503134303630330042d590046600000000000000000000000000000000429c000000000000010200000000362e3330",
+    "header_sha256": "710931bd4fea9dfb3a840a1c5e866818aac510780acbd4d53ec8477e61a1a398",
+    "checksum_hex": "0466",
+    "declared_length": 218688,
+    "file_bytes": 219136
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "I-0.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/I-0.z5",
+    "accessed_at": "2026-09-25T06:03:03.698349+00:00",
+    "remote_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+    "local_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+    "bytes": 219136,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 5,
+    "remote_serial": "140603"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#I-0.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "I-0.z5\n◆\n[04-Jun-2014]\nIFDB entry\nIFWiki:\nI-0\nI-0: the \"jailbait on the interstate\" game, Release 5\n(v2.00), Serial number 14729; contains some adult content.\n(a Spanish translation is in games/zcode/spanish/i-0esp.z5)"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#I-0.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "I-0.sol\n◆\n[07-Aug-1998]\nIFDB entry\na plot tree for I-0: Jailbait on Interstate Zero,\nby Bruce Hollebone"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Choose the substantial return-home route via roadside assistance, Larry, Willowbutton and the bus. Continue after arrival at the Front Porch through both final home scenes to actual concluding narrative. Preserve legitimate alternate homecoming routes if taken; do not treat arrest, death, hospital outcomes, desert timeout, or mere porch arrival as this full-route completion.",
+    "limitations": "This is an incomplete branching travelogue, not an exact walkthrough. Prefer the nonsexual assistance/bus route and ordinary observation and conversation probes. Do not copy sexual optional suggestions. Watch traffic and story time; checkpoints before hazards must be at confirmed ordinary prompts. Parent must verify the final two scenes from raw output.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "i-0",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Adam Cadre also authored already collected games; shared author alone is not evidence of shared puzzles/world. Provisional standalone family; flag any concrete cross-game reuse to parent before export."
+  },
+  "reuse_claims_observed": "Guide says it is not copyrighted by Bruce Hollebone; scope of permission not resolved; private-only batch policy retained."
+}

@@ -1,0 +1,129 @@
+{
+  "game_id": "zorkian-stories-1-gue",
+  "title": "Zorkian Stories 1: G.U.E.",
+  "author": "Marshal Tenner Winter",
+  "url": "https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+  "accessed_at": "2026-09-25T09:13:57.404798+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian1.sol",
+  "source_sha256": "ebd0fe3779c6ea93002fb0200faccf8afc617d4c9daff973dc812f7ca6f537d9",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian-stories-1-gue-walkthrough.txt",
+  "normalized_sha256": "ebd0fe3779c6ea93002fb0200faccf8afc617d4c9daff973dc812f7ca6f537d9",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/zcode/ZorkianStories1-GUE.zblorb",
+  "story_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+  "compatibility": "Local Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "121014",
+  "story_header": {
+    "container": "blorb-zcod",
+    "header_bytes": 64,
+    "header_hex": "080000018f108f117dcf010a3f2e7699005031323130313400428248d1ea000000000000000000000000000000007698000000000000010200000000362e3332",
+    "header_sha256": "6b0e11c592f8294dcff84598a2ea43c75a1844207c910eb7eb693859192d815a",
+    "checksum_hex": "d1ea",
+    "computed_checksum_hex": "d1ea",
+    "declared_length": 266816,
+    "file_bytes": 267264,
+    "zcod_offset": 56,
+    "zcod_bytes": 267264,
+    "zcod_sha256": "55143c8ade7f59a9f05fd0a499ba174dcd9ec03d3e849f8b08459750df5f7a1f",
+    "container_bytes": 380454,
+    "chunks": [
+      {
+        "type": "RIdx",
+        "offset": 12,
+        "bytes": 28
+      },
+      {
+        "type": "ZCOD",
+        "offset": 48,
+        "bytes": 267264
+      },
+      {
+        "type": "IFmd",
+        "offset": 267320,
+        "bytes": 1559
+      },
+      {
+        "type": "Fspc",
+        "offset": 268888,
+        "bytes": 4
+      },
+      {
+        "type": "JPEG",
+        "offset": 268900,
+        "bytes": 111545
+      }
+    ],
+    "resource_index": [
+      {
+        "usage": "Exec",
+        "number": 0,
+        "start": 48
+      },
+      {
+        "usage": "Pict",
+        "number": 1,
+        "start": 268900
+      }
+    ]
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "ZorkianStories1-GUE.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/ZorkianStories1-GUE.zblorb",
+    "accessed_at": "2026-09-25T09:19:50.939712+00:00",
+    "remote_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "local_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "bytes": 380454,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 1,
+    "remote_serial": "121014"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#ZorkianStories1-GUE.zblorb",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "ZorkianStories1-GUE.zblorb ◆ [15-Oct-2012] IFDB entry Zorkian Stories 1: G.U.E. A diversion, by Marshal Tenner Winter. Release 1 / Serial number 121014.",
+    "tuid": "iad2jc9l3usqazgx"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#zorkian1.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "zorkian1.sol ◆ [25-Dec-2014] IFDB entry Solution to Zorkian Stories 1: G.U.E., by Matt Goh.",
+    "tuid": "iad2jc9l3usqazgx"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Matt Goh",
+    "route_summary": "Follow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.",
+    "limitations": "Combat outcomes can vary; checkpoint safely before hazards and use observed state rather than blindly repeating the guide's G commands. The guide has the apparent typo \"throw skull in put\"; preserve its raw text and adapt only from actual room/parser evidence. Menu confirmation Y belongs only to the displayed question. The clear G.U.E./Zork setting is conservatively grouped with existing zork-i development games.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Explicit Zork/G.U.E. world relationship. Reuse existing zork-i family and development split, covering shared-world/puzzle uncertainty conservatively; do not create a fresh train family."
+  },
+  "reuse_claims_observed": "No training or redistribution permission established for story or guide. Public availability does not establish such rights; private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

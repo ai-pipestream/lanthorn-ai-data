@@ -1,0 +1,10 @@
+# Dash Slapney, Patrol Leader — progress (FINISH CLAIMED e00077; awaiting Terra)
+
+GAME COMPLETE, finish claim submitted as inbox/m0072.json → e00077 (ending_claim, awaiting Terra verification).
+Evidence: e00072 final scoring + "Best of all, everyone feels like he contributed, too!" + SPACE pause; e00073 reflection + *** The End *** + RESTART/RESTORE/QUIT/UNDO prompt.
+Record 4-3 everyone-happy route (wins Ditch e00042, Bridge e00047, Meadow e00065, Fire e00072; losses Field e00052, Forest e00061, Knot e00069).
+Checkpoints: early-bedroom; registration-ready; ditch-ready; forest-ready.
+
+Cases (~20, all annotated): take-all e00007/e00009 world_state (e00076, m0071); knots-typo e00012; candy-synonym e00015; sheet-omitted e00018; give-soda e00022 none; give-it e00024 none; knot-singular e00026/e00027; wrappers e00029 none; sheet-hand e00031/e00032; register-typo e00035/e00036; ditch-wait e00042 none; bridge-examine e00046/e00047 planning; field-wait-typo e00051/e00052; forest-examine e00055 none; forest-go-north e00060/e00061 world_state; meadow-pickup e00064 none; fire-light e00071/e00072 planning (e00074); knot-examine-poster e00068 none (e00075, m0070).
+Pending: none. Do NOT send game commands at END prompt. No further broker actions needed unless Terra requests more.
+Next: poll responses/m0072.json already cleared (e00077); report done.

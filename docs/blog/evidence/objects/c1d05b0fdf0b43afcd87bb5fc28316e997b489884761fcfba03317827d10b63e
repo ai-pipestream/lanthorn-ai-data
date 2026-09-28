@@ -1,0 +1,14 @@
+{
+  "url": "https://ifarchive.org/if-archive/solutions/adamssol.zip#VOODOO",
+  "archive_member": "VOODOO",
+  "accessed_at": "2026-09-25T01:54:41.089761+00:00",
+  "source_sha256": "8b86df6697957a1ac2f4b1eb507234f3e709897d7bfb15dbccfa16affcb56e84",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/voodoo-castle-walkthrough.txt",
+  "normalized_sha256": "762cc997f0794b3ef7d471424a05fe24473c4a7900c8fe31c72be65afd85cb28",
+  "reuse_permission": "unknown; private collection only",
+  "compatibility": "matching title; release compatibility unproven, check against real responses",
+  "game_id": "voodoo-castle",
+  "story": "/home/krickert/if-games/scott/AdamsGames/adv04.dat",
+  "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+  "title": "Voodoo Castle, Scott Adams #4"
+}

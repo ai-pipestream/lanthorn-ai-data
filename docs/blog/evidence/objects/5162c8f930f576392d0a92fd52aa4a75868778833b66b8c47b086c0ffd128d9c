@@ -1,0 +1,74 @@
+# Fullplay supervision
+
+Bounded audit completed 2026-09-25T08:34:58.169660+00:00; fixed selection cutoff 2026-09-25T08:29:10.437680+00:00.
+
+**120 annotations across61 games:94 accepted,18 revise,8 quarantine.** Both endpoints and 733 distinct nearby/intervening journal spans independently match raw offsets, SHA256, response text and exported command/branch fields. Zero raw/hash/export mismatch.
+
+Current export snapshot: **3913 unique annotation rows; 2062 accepted, 494 revise, 115 quarantine, 1242 unreviewed.** Exact annotation identity and unique endpoint-set equality determine counts. Cached CSV labels may lag. No approval of the growing tail.
+
+## Four independently verified conclusions
+
+Historical total **51**, preserving prior47 and all qualifications. This includes Nine Points SAMPLE and Bedlam PREVIEW, not51 full planned games.
+
+- **zork-i7** zork-i7-05114e1aff:e02122 (b129): Verified b129 SOUTH into Treasury of Zork, Dungeon Master transformation, explicit win and716/716 final menu. This is Dean Menezes/Jay Midura full Dungeon3.2B Inform7 port R4/190920, not commercial ZorkI. Raw 2954294:2956181, SHA256 5b7abe8445657458def31561e61f60cfb0482e031b81b21a212fd867ae26b2dd. Current Glulx bytes SHA d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932 match previously established exact port; archived maintainer readme and original raw banner rechecked. Current guide is bundled ZorkAndDungeonWalkthroughForCopyPaste, replacing incomplete commercial-ZorkI guide. No all-cases claim.
+- **the-wedding** the-wedding-396e8f7efc:e00441 (b0): Verified b0 DEBORAH, GO NORTH leads bride to Malcolm, elopement then year-later christening epilogue, explicit win20/20. Pope/status tail separately attributed; substantive finale is unambiguous. Raw 169660:172016, SHA256 813957f66fc70b23e350c1678752132e830479cbc71b119aef338b4eed277e28. Observed Z5R5/970825 versus author-amended guideR3; release gap retained despite actual ending.
+- **beyond-the-tesseract** beyond-the-tesseract-26b2abc71c:e00353 (b0): Verified b0 SAY TESSERACT password destroys Doomsday complex, stack stasis field protects player, Earth saved, explicit win145/155. Explosion is not player death; score does not prove maximal content. Raw 28808:29650, SHA256 04459f1dd0c4b7915a59d409bc177e3f3085b10ede210e203572a9ab760d95ee. Observed Inform port Z5R2/031227; guide predates port and supplies no exact release/serial.
+- **attack-of-the-yeti-robot-zombies** attack-of-the-yeti-robot-zombies-504df4e144:e00103 (b0): Verified b0 DOWN after red-button explosions/yellow-button stairs reaches explicit country-saved finale and terminal menu. Raw 21361:21613, SHA256 5ee0a516e0a1e7e612cf800a5d15ebc2296f0ef69c5800fc0985bbd3e766e60f. Observed Z5R0/060825 recorded literally; guide exact release unspecified.
+
+Zork is the full Dungeon3.2B Inform7 port R4/190920. Original raw banner and maintainer readme were rechecked; exact current story hash is unchanged. Treasury narrative and Dungeon Master transformation establish the conclusion;716/716 is supporting evidence, not evidence that every possible test case was collected. Earlier commercial-ZorkI guidance was incomplete and was explicitly replaced by the bundled port guide; raw history remains unchanged.
+
+Wedding's finale body raw169660:171608 SHA675f4c5b23c1f8dc8415d215f7e5bea74edd80c44548f091973fa9d65bfb7518 independently establishes elopement and year-later epilogue. Its raw171608:172016 tail SHAbfc3b5e2493828ddd6a02d449a52829806f4149110521ddfe027a8dcbd4edae1 contains intact Pope quotation and status, recurring on preceding turns. It is ancillary UI, not a separate observed action or proof of delayed transport.
+
+Tesseract protects the player in a stasis field and describes Earth saved; the explosion is not a death ending. Yeti's country-saved final menu follows the red/yellow button sequence. Only metadata follows these finales before their claims; no unseen replay inferred.
+
+## Replacement startup identities
+
+- **mortlake-manor** mortlake-manor-e0475539fe: Z8R1/120304 and Inform7 build6G60 match raw banner and author transcript. e1 Lonely Road, e2/e3 SAVE and current nonempty file verified. Introductory design is not itself a preview label.
+- **windhall** windhall-ec1287a533: Z8R5/960828; startup asks resume Y/N, observed N gives prologue/banner/Central Windhall. e3/e4 SAVE verified. Guide explicitly R3: sleep work-around is not proof of an R5 bug.
+- **varicella** varicella-0ca3ff14a0: Header Z8R1/990831; actual banner Version1.14 (31 August1999), Serial9339 preserved as separate identifiers. Menu3 then empty Enter reaches Salon; e5/e6 SAVE verified. Guide exact release unspecified.
+- **cacophony** cacophony-c47d99b6d3: Z8R4/091209 banner build5J39. e1-e4 progress through introductory scene text; e5 LOOK reaches Kitchen/banner. e6/e7 SAVE verified at ordinary prompt. Author ZIP guide release unspecified and predates listed R4; no exact compatibility claim.
+
+Story bytes/header, raw startup spans and early save confirmations were checked independently. Save file hashes describe current files, not an unperformed restore test. Header and banner identifiers stay separate. Guide compatibility gaps persist despite successful startup. BatchI registration alone is not runtime evidence.
+
+## Case revisions and quarantine
+
+- mortlake-manor-e0475539fe:e00015: Independent exact endpoint and nearby/intervening raw SHA/text review. RING BELL to PUSH DOORBELL changes verb and noun. Success is verified, but unsupported BELL synonym cannot be isolated without RING DOORBELL or PUSH BELL. Remove categorical noun-only diagnosis.
+- all-quiet-on-the-library-front-a0c0a11bad:e00077: Independent exact endpoint and nearby/intervening raw SHA/text review. Locking body succeeds, but whole response retains mixed Hubbard and Pratchett quotation fragments. Exclude unsplit command-output pair.
+- christminster-735155fc69:e00225: Independent exact endpoint and nearby/intervening raw SHA/text review. Lully retrieval body is valid, but quotation lines visibly overlap old and new texts/attributions. Also Lully supplies an underspecified topic. Exclude unsplit response.
+- critical-breach-b5dd49a3e4:e00175: Independent exact endpoint and nearby/intervening raw SHA/text review. Both taking forms refuse identically. Hint's mouse/wait sequence is source guidance, not observed proof of missing prerequisite or sedation success. Retain failures; mark causal explanation provisional.
+- jigsaw-673cabd620:e00735: Independent exact endpoint and nearby/intervening raw SHA/text review. SEED completes feeding and is consumed; distraction/nest-theft goal is not proved by endpoints. Narrow to feeding or link subsequent evidence of distraction.
+- magic-toyshop-9a53f3ebb2:e00219: Independent exact endpoint and nearby/intervening raw SHA/text review. LIGHT and STRIKE have different actions/effects: charging is verified, illumination is not. Split charge intent from ambiguous charge/light wording; no untested parser-cause assertion.
+- night-at-the-computer-center-d16c3b6cd5:e00104: Independent exact endpoint and nearby/intervening raw SHA/text review. Retain Night's conservative isolated-full-response exclusion for recurring status/Relax tail. Local navigation body is readable; repetition alone is not proof of transport delay.
+- save-princeton-e0a2654e41:e00065: Independent exact endpoint and nearby/intervening raw SHA/text review. Corrected endpoint e58 precedes failure e63; later e64 merely says already held. Valid historical successful phrasing, not a chronological repair/new acquisition. Record reverse order explicitly.
+- so-far-8d580943cf:e01513: Independent exact endpoint and nearby/intervening raw SHA/text review. THICK PIPE resolves one of two objects, not the stated examination of both. Remove untested exclusion of WIDE/NARROW and narrow goal to chosen pipe.
+- the-edifice-79519f86df:e00065: Independent exact endpoint and nearby/intervening raw SHA/text review. Vocabulary repair remains physically blocked by stuck corpse. Upstream clean water is a proposed next step, not established by these outputs; retain failure and separate inference.
+- traffic-dc40d385c3:e00032: Independent exact endpoint and nearby/intervening raw SHA/text review. UNLOCK succeeds but does not yet grant interior access. Later e33 OPEN reveals panel. Relink completed access or narrow endpoint goal to unlocking.
+- zork-i7-05114e1aff:e02108: Independent exact endpoint and nearby/intervening raw SHA/text review. LOOK works after LOOK AROUND fails locally. Remove assertion about internal parser treating AROUND as an object; output alone does not establish implementation cause.
+- all-quiet-on-the-library-front-a0c0a11bad:e00081: Independent exact endpoint and nearby/intervening raw SHA/text review. TALK to EXAMINE changes social to inspection goal despite yes label; response also has visibly overlapping Emerson/Hubbard/Pratchett fragments. Exclude.
+- anchorhead-9852cd5b9d:e00080: Independent exact endpoint and nearby/intervening raw SHA/text review. Both forms locally fail because locked; no ambiguity shown. Remove global claim that no rephrasing can ever open the doors; two tested refusals do not prove impossibility.
+- believable-adventures-invisible-man-5201a7e372:e00048: Independent exact endpoint and nearby/intervening raw SHA/text review. GREET to X changes social contact into description, not a successful wording repair. Retain only as explicit alternate goal, not uncertain-intent success.
+- christminster-735155fc69:e00228: Independent exact endpoint and nearby/intervening raw SHA/text review. ABOUT GOD fetches Bible after FOR grammar failure, but whole output contains overlapping old/new quotation fragments. Exclude unsplit response.
+- danger-adventurer-at-work-cf41e07892:e00098: Independent exact endpoint and nearby/intervening raw SHA/text review. E moves east after HEAD EAST's broad incomprehension. Body-part noun interpretation/ambiguity is unproved; retain local correction without parser diagnosis.
+- fine-tuned-989503b0a7:e00058: Independent exact endpoint and nearby/intervening raw SHA/text review. Linked correction only OPENs mailbox. Actual TAKE POSTCARD is e48 after failed pronoun e47. Relink completed taking or label prerequisite/partial outcome.
+- heist-a079eba445:e00074: Independent exact endpoint and nearby/intervening raw SHA/text review. Explicit intent-no correctly separates whole ladder from rung, but GET RUNG only detaches it. Acquisition occurs e75 TAKE RUNG. Narrow success to detachment or relink.
+- magic-toyshop-9a53f3ebb2:e00224: Independent exact endpoint and nearby/intervening raw SHA/text review. Loaf is pushed in and retrieved; final placement fails/no obstruction. Recognition is verified, but retained bread and unproved mouse prerequisite must not become successful placement.
+- mansion-cc50b3ae7d:e00212: Independent exact endpoint and nearby/intervening raw SHA/text review. DRIVE CAR to ENTER CAR changes intended driving-away goal into getting inside. Entry after OPEN is real, but not same-intent success; driving impossibility also unproved.
+- mother-loose-608208fd92:e00132: Independent exact endpoint and nearby/intervening raw SHA/text review. PLACE receives wolf Huh, not an explicit parser unknown-verb message; PUT lowers ladder. Keep observed correction, remove confidently diagnosed parser cause.
+- night-at-the-computer-center-d16c3b6cd5:e00107: Independent exact endpoint and nearby/intervening raw SHA/text review. Night's prior conservative full-response tail exclusion retained. FOLLOW/CHASE bodies show following on consecutive turns, not equal-state equivalence or proof of delayed bytes.
+- nine-points-013d843149:e00067: Independent exact endpoint and nearby/intervening raw SHA/text review. PUSH BED is parsed but fixed-in-place refusal; outcome should be failure/recognized refusal, not success for moving/checking the clue.
+- paper-chase-23fbd9b726:e00067: Independent exact endpoint and nearby/intervening raw SHA/text review. TAKE PLEDGE PIN is stopped by Bluto and starts challenge. Recognition is not acquisition; relabel blocked/prerequisite, not success.
+- tube-trouble-1b2d95be53:e00080: Independent exact endpoint and nearby/intervening raw SHA/text review. LOOK AT HAT describes coins; annotation itself reports LOOK IN differs. Do not call AT/IN equivalent; retain distinct inspection responses.
+
+Save Princeton's success e58 precedes failure e63; later e64 says already held. It is a historical positive, not a chronological repair. Partial endpoints include opening mailbox rather than taking postcard, detaching rung rather than acquiring it, and starting pledge-pin challenge rather than obtaining the pin. Generic parser refusal cannot prove an internal noun parse, missing prerequisite or global impossibility.
+
+Changed social/inspection and driving/entry goals remain quarantined. Explicit planning examples may be retained when the same stated goal is achieved through observed multistep actions, but they are not wording equivalence. Nearby and intervening state matters even when branch IDs match. Source help is not observed success; generic Taken requires command/context.
+
+LibraryFront and Christminster selected outputs visibly contain overlapping quotation fragments; full-response pairs stay quarantined. Intact recurring quotations alone do not establish delay. Night's prior conservative full-response isolation exclusions remain unchanged.
+
+## Current operation and retained boundaries
+
+Parent reports34healthy clients. Reviewer checked central latest recorded inputs and local process snapshot only; no remote worker contact or game actions. Latest raw faults: []. Additional claims outside this fixed pass: bicon, muse-autumn-romance.
+
+All earlier verdicts, raw receipts, release gaps, startup errors, transport quarantines and recovery history remain in status JSON. HLA's startup error is not erased by later success. Spider b19 ending preceded b20 restore; I-0 first ended in b8 then again in restored b9; historical endings do not automatically describe latest live branch state. Older quota and running-status fields are historical.
+
+Bounded pass complete. Only three owned review files changed. No engine input, reset, launch, training, evaluation or publication.

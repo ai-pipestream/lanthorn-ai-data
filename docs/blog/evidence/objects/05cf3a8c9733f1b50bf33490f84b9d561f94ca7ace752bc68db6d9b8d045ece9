@@ -1,0 +1,77 @@
+{
+  "game_id": "bse",
+  "title": "BSE",
+  "author": "Chris Smith",
+  "url": "https://ifarchive.org/if-archive/solutions/bse.sol",
+  "accessed_at": "2026-09-25T06:11:49.520192+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/bse.sol",
+  "source_sha256": "889bdab5ad24f8fbc0499ba74e575891dd638fc1cb95b6e043ddbd9a8cbacdbf",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/bse-walkthrough.txt",
+  "normalized_sha256": "889bdab5ad24f8fbc0499ba74e575891dd638fc1cb95b6e043ddbd9a8cbacdbf",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/bse.z5",
+  "story_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+  "compatibility": "Guide explicitly supports R2/961101 and R3/970110; local R3/970110 matches the latter exactly. Archive game and guide share their IFDB identity. No interpreter smoke performed.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "970110",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000033ac43ac525db010215571bff001039373031313000425694c23a000000000000000000000000000000000000000000000000000000000000362e3033",
+    "header_sha256": "e8601133047695da3b43f147b718e2920ec565eaecf4fd9fb9afa8f521dff2fa",
+    "checksum_hex": "c23a",
+    "declared_length": 88656,
+    "file_bytes": 89088
+  },
+  "guide_release": 3,
+  "guide_serial": "970110",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "bse.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/bse.z5",
+    "accessed_at": "2026-09-25T06:13:02.334209+00:00",
+    "remote_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+    "local_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+    "bytes": 89088,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "970110"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#bse.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "bse.z5\n◆\n[11-Jan-1997]\nIFDB entry\nIFWiki:\nBSE\nBSE, An Interactive Epidemic by Chris Smith.\nRelease 3 / Serial number 970110.\nWinner of the Acorn User 1996 IF Competition",
+    "tuid": "290phmec0t6qcy85"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#bse.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "bse.sol\n◆\n[23-Jan-1997]\nIFDB entry\nIFWiki:\nBSE\ncommented stepwise solution to BSE (releases 2 and 3)\nby Paul J. Godfrey",
+    "tuid": "290phmec0t6qcy85"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the farm/laboratory investigation, demon encounter and timed return to farmyard safety, continuing through the final west move to authored conclusion. The demon encounter alone, 60 points, FULL or AMUSING is insufficient evidence without final narrative.",
+    "limitations": "Guide estimates about 170 moves. Late combat and retreat have short turn windows; take checkpoints beforehand and keep synthetic probes outside them. Wait/retry only in response to confirmed gameplay state, never to flush a transport timeout. Use observed operation names and puzzle clues.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "bse",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "No concrete shared world or reused puzzle with the existing corpus identified; keep all BSE releases together."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission."
+}

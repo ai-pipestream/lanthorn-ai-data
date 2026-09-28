@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T05:02:23.304538+00:00",
+  "games": [
+    {
+      "game_id": "jewel-of-knowledge",
+      "title": "The Jewel of Knowledge",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/jewel.z5",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/jewel-of-knowledge-walkthrough.txt",
+      "walkthrough_url": "https://ifarchive.org/if-archive/solutions/jewel.sol",
+      "response_timeout_seconds": 180,
+      "completion": "Require author-intended ending verified against real raw output. Death, quitting, chapter transition, model claim or partial score are insufficient. Story R2/990710 versus walkthrough R1/990629. Guide includes an intentional losing GET JEWEL branch followed by restore; seek author-intended final mirror route, never label that failure as completion.",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/jewel-of-knowledge.json",
+      "story_sha256_expected": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+      "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+      "dataset_split": "train",
+      "game_family": "jewel-of-knowledge",
+      "collection_notes": "# The Jewel of Knowledge\n\nStory R2/990710 versus walkthrough R1/990629. Guide includes an intentional losing GET JEWEL branch followed by restore; seek author-intended final mirror route, never label that failure as completion.\nGuide: https://ifarchive.org/if-archive/solutions/jewel.sol\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n",
+      "zmachine_version": 5,
+      "release": 2,
+      "serial": "990710"
+    },
+    {
+      "game_id": "tryst-of-fate",
+      "title": "Tryst of Fate",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/tryst205.z5",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/tryst-of-fate-walkthrough.txt",
+      "walkthrough_url": "https://ifarchive.org/if-archive/solutions/tryst.step",
+      "response_timeout_seconds": 180,
+      "completion": "Require author-intended ending verified against real raw output. Death, quitting, chapter transition, model claim or partial score are insufficient. Story R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/tryst-of-fate.json",
+      "story_sha256_expected": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+      "dataset_split": "development",
+      "game_family": "tryst-of-fate",
+      "collection_notes": "# Tryst of Fate\n\nStory R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.\nGuide: https://ifarchive.org/if-archive/solutions/tryst.step\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n",
+      "zmachine_version": 5,
+      "release": 205,
+      "serial": "970629"
+    }
+  ]
+}

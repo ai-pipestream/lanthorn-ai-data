@@ -1,0 +1,24 @@
+{
+  "event_id": "pirate-adventure-3b0fad2d95:e00855",
+  "timestamp": "2026-09-24T13:25:37.755772+00:00",
+  "game_id": "pirate-adventure",
+  "session_id": "pirate-adventure-3b0fad2d95",
+  "branch_id": "b4",
+  "event_index": 855,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 129256,
+  "raw_end": 129256,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "e8f5099105147503be7d2dd663f3782573957eb5c8fee390722e17ca634728ce",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "I've stored 2  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+    "evidence_event_ids": [
+      "pirate-adventure-3b0fad2d95:e00853"
+    ],
+    "notes": "Genuine winning ending on b4: both island treasures (DUBLEONS + RARE STAMPS) returned to London Flat, auto-scored on drop (Score 1, 2), bare 'score' gives 100/100 and engine_exited. Not death/quit/intermediate: prior b0 monastery death annotated separately; ship built, both sails completed, box opened, snakes cleared with parrot."
+  },
+  "review_status": "unreviewed"
+}

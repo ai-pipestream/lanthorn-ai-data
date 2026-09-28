@@ -1,0 +1,9 @@
+# Gerbil Riot progress (continuation checkpoint)
+
+Location: Johnson's cell, north wall pushed down (e00066 wall falls). Inventory: syringe, picture, bottle top, garlic, blanket worn.
+Checkpoints: start-treatment, after-picture.
+Pending: inbox/m0064.json annotates wall-push-ambiguous (e00065 ambiguous -> e00066 success); verify responses/m0064.json next run.
+Cases: ~17 annotated; unresolved: cupboard-open-locked e00013.
+Last hints to e00043: after push wall likely go north through fallen wall; request next help excerpt next run.
+Next: read responses/m0064.json, look/north from Johnson cell, checkpoint before risky moves, keep collecting varied probes toward money/guard + east exit ending.
+Game incomplete, no finish claimed.

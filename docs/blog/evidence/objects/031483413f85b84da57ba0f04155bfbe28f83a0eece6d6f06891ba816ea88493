@@ -1,0 +1,54 @@
+{
+  "at": "2026-09-25T06:20:34.533505+00:00",
+  "script_sha256": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e",
+  "hosts": [
+    {
+      "host": "cm5ai1",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "cm5v1",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "cm5v2",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "krickert@cm5v3.local",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "pi500p",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "pi5ai1",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "krickert@pi5ai2p.local",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    },
+    {
+      "host": "pi5v2",
+      "exit": 0,
+      "stdout": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e  /home/krickert/lanthorn-muse/fleet_host.py\n",
+      "stderr": ""
+    }
+  ]
+}

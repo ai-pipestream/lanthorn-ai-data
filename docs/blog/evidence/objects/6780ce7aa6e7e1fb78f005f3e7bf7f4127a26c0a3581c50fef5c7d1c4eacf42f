@@ -1,0 +1,95 @@
+{
+  "game_id": "hla-inform",
+  "title": "HLA Inform: A Classic Quest",
+  "author": "Paul Panks; Inform conversion by Roger Pepitone",
+  "url": "https://ifarchive.org/if-archive/solutions/HLAA-walk.txt",
+  "accessed_at": "2026-09-25T06:54:20.382053+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/HLAA-walk.txt",
+  "source_sha256": "a51df74de33bafb75a9c84cf7a41163dcde81733b84f6268d7b359bb3b3af5f2",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/hla-inform-walkthrough.txt",
+  "normalized_sha256": "a51df74de33bafb75a9c84cf7a41163dcde81733b84f6268d7b359bb3b3af5f2",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF; reflow only lines longer than 110 characters at word boundaries, preserving word order, punctuation and final newline state",
+    "word_sequence_preserved": true
+  },
+  "story": "/home/krickert/if-games/zcode/HLAinform.z5",
+  "story_sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+  "compatibility": "Local Z5 R1/050715 is byte-identical to the archive Inform port. Archive matches game and guide identity. Guide gives no version/serial or port designation. Linked source HLAinform.zip describes HLA Adventure 3.20 and Inform port version 0.3, July 2005; these are different version axes, not the Z-machine release number. No rebuild or runtime compatibility proof.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "050715",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000189c889c976c2010a63f56e2800503035303731350042a4ffa176000000000000000000000000000000006e27000000000000010200000000362e3330",
+    "header_sha256": "9cbeeff671899ed9da96efc7386dcd2d0a561a5006f04d7f69f091c037d62a88",
+    "checksum_hex": "a176",
+    "checksum_valid": true,
+    "declared_length": 168956,
+    "file_bytes": 168960
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": null,
+  "story_identity": {
+    "filename": "HLAinform.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/HLAinform.z5",
+    "accessed_at": "2026-09-25T06:54:20.465969+00:00",
+    "remote_sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+    "local_sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+    "bytes": 168960,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "050715"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#HLAinform.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/zcode-index.txt",
+    "snapshot_sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "entry_text": "# HLAinform.z5\ntuid: ba6xlbvc9gq3fks9\n\nHLA Inform: A Classic Quest. Originally written by\nPaul Panks and converted to Inform by \"Roger Pepitone\".\nRelease 1 / Serial number 050715.\n(source code is in </if-archive/games/source/inform/#HLAinform.zip>,\nand the original is in </if-archive/games/pc/paul-panks/#hlaadv.zip>)",
+    "tuid": "ba6xlbvc9gq3fks9"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#HLAA-walk.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/solutions-index.txt",
+    "snapshot_sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "entry_text": "# HLAA-walk.txt\ntuid: ba6xlbvc9gq3fks9\n\nWalkthrough for HLA Adventure.",
+    "tuid": "ba6xlbvc9gq3fks9"
+  },
+  "guide_author": "Not identified in guide body or archive entry",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Read entire 80-line guide and checked final Dragon Quest/GameWon against linked Inform source.",
+    "route_summary": "Complete the main Dragon Quest and require the actual GameWon concluding narrative and terminal win. The archived Inform source HLA-objs.inf identifies dragon defeat as the main quest and calls GameWon followed by deadflag=2; HLAinform.inf supplies alternate authored winning narratives. Individual quest credit, other monster kills, experience or equipment are not completion.",
+    "limitations": "Guide is an unsigned combat/quest route, with nine quest annotations and variable combat. Its NPC equipment, food and companion conditions agree with the linked port source, but command-by-command behavior is untested. No exact RNG assumptions or repeated combat as quota filler. Original HLA Adventure and this explicitly selected Inform conversion are one family; do not silently switch binaries.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "hla-adventure",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": true,
+    "rationale": "Explicit port of Paul Panks HLA Adventure; group all original/Inform releases and shared-puzzle remakes as hla-adventure. No existing HLA family found. Generic fantasy combat does not establish a relationship with Scott Adams or Zork.",
+    "splits_snapshot_sha256": "b26d5ff38df8a550ab292d51bfa005ced6947931017faa984fa1a150eebde288",
+    "checked_at": "2026-09-25T06:57:11.552512+00:00"
+  },
+  "reuse_claims_observed": "No game/guide reuse permission established; private collection only. Public hosting, source availability and download access do not establish training or redistribution permission.",
+  "additional_sources": [
+    {
+      "filename": "HLAinform.zip",
+      "url": "https://ifarchive.org/if-archive/games/source/inform/HLAinform.zip",
+      "accessed_at": "2026-09-25T06:54:44.073122+00:00",
+      "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/HLAinform.zip",
+      "sha256": "2f48f19d5a2e9d3f5ddb8b7da475bd424cdc02936457671ea43681d9affc7d15",
+      "bytes": 44166,
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/HLAinform.zip",
+      "evidence": "HLAinform.inf lines 7-9 identify original 3.20 / port 0.3; HLA-objs.inf lines 515-519 define Dragon Quest victory; HLAinform.inf GameWon at line 424."
+    }
+  ]
+}

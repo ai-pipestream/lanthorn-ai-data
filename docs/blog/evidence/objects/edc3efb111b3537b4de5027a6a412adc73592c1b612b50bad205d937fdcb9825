@@ -1,0 +1,37 @@
+# Explicit service-timeout recovery
+
+Current session: slouching-bedlam-18faea2151, branch b2. Restored start-office successfully.
+Save evidence: slouching-bedlam-bb653b6ab4:e00003. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Office
+A massive cedar desk, well-polished and worn, looks elegantly out-of-place 
+among the chaos. Papers, files, and books cover nearly every flat surface in 
+the room.
+
+There is a phonograph on the table near the window.
+
+A black cube on wheels sits near the door to the south.
+
+The phonograph continues to play.
+
+"I discredit my profession; examining madness as if the world were a fluent 
+thing and sanity as malleable as the warm wax of a candle."
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+# Progress slouching-bedlam
+
+Location: Office, but MANUAL MENU MODAL active after 'examine manual' (e00017 shows TRIAGE manual menu awaiting number/N/P/Q/RETURN).
+Inventory as observed: nothing carried at start; drawer opened (e00015) reveals manual + flanged brass rod, not yet taken.
+Unresolved case IDs: take-manual (m0016 resolved as e00018 no_output_timeout, empty response; m0017 await_output SUBMITTED inbox/m0017.json, responses/m0017.json NOT YET PRESENT - PENDING, do not duplicate).
+Last hint: m0008 general excerpt (three phases, five endings), off-topic for cube noun.
+Next actions (after m0017 resolves): send 'Q' to exit manual menu if still in menu; then 'take manual', 'take rod', examine sandalwood box/blotter, interact Triage cube, go south. Need help with targeted topic 'Triage analysis mode' if stuck.
+Checkpoints: start-office confirmed (e00002-e00003).
+Cases: office-intro, office-inventory, office-look, desk-synonym-01 accepted, papers-synonym-02 accepted, cube-typo-03 annotated e00009->e00011, open-omitted-04 annotated e00014->e00015, drawer-manual e00017.
+Continuation: read latest.json (currently e00018 no_output_timeout) and poll responses/m0017.json; allow 190s from m0017 submission before declaring failure; never re-submit m0016/m0017 under new names; other commands refused until pending output resolved.

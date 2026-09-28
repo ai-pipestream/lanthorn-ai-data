@@ -1,0 +1,10 @@
+# Gerbil Riot progress (continuation checkpoint)
+
+Location: In Drained Lake, knee-deep mud, exits east/west (e00160 east verified, e00161 mud yields wire).
+Inventory (observed): prior + zinc, glands, wire (e00161); garlic consumed; rope+plug at garden (drained); plug text Guild address e00158 with keypress continued e00159.
+Checkpoints: start-treatment, after-picture, secret-room, before-fire, after-zinc (e00140-141).
+Pending: none (m0154 e00163 verified; latest e00163).
+Cases: ~40 annotated; new: garden e abbrev none (e00152), rope get none (e00155 drains lake), plug look none (e00157 writing) + read (e00158 Guild, keypress e00159 garden rope+plug east exit), lakebed east (e00160), mud look none (e00161 wire).
+Last hints: e00154 route (Pull rope, East, Examine mud, East, tree optional, West West South, release-2 Blow horn) — rope/mud done; next is East toward tree then West West South + Blow horn for release 2.
+Next: east, handle tree per hint (optional amusement skip unless needed), then West West South, verify release-2 horn branch, checkpoint.
+Game incomplete, no finish claimed. No ending quote. Resume via latest.json + this file; do not restart.

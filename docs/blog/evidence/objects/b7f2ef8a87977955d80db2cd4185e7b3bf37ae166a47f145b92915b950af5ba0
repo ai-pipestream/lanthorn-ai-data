@@ -1,0 +1,115 @@
+{
+  "game_id": "all-roads",
+  "title": "All Roads",
+  "author": "Jon Ingold",
+  "url": "https://ifarchive.org/if-archive/games/competition2001/inform/AllRoads/roadwalk.txt",
+  "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2001/inform/AllRoads/roadwalk.txt",
+  "accessed_at": "2026-09-25T09:35:28.547300+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/roadwalk.txt",
+  "source_sha256": "d988a4a81fa7a4f0b75423c4ecee215d82d010a502eeed74aebfa7a65b244d31",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/all-roads-walkthrough.txt",
+  "normalized_sha256": "d988a4a81fa7a4f0b75423c4ecee215d82d010a502eeed74aebfa7a65b244d31",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text, whitespace and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/zcode/AllRoads.z5",
+  "story_sha256": "f61a758243bb2f115552d2b0404eabbf8f8e02a2f52b71fc2781ca25fc627516",
+  "compatibility": "Local Z5 R1/011119 matches fresh current archive story bytes and catalog. The author walkthrough is bundled with the original competition story R1/010908, independently hash/header checked. The guide itself gives no release/serial. Numeric releases agree but serials differ by 72 days; this is an explicit edition gap, not an exact guide/story match. Use the current local release; original-companion bytes remain central provenance only.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "011119",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000014d9c4d9d3682010a205d2c3f00103031313131390042a7f60b96000000000000000000000000000000002c3e000000000000010200000000362e3231",
+    "header_sha256": "300e08fa8c7d37c7e0c2de85d32f5df5a755c9a31ffe15aa740eeb057a2bd241",
+    "checksum_hex": "0b96",
+    "computed_checksum_hex": "0b96",
+    "declared_length": 171992,
+    "file_bytes": 172032
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified in guide; see associated competition story edition",
+  "story_identity": {
+    "filename": "AllRoads.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/AllRoads.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/zcode/AllRoads.z5",
+    "accessed_at": "2026-09-25T09:35:28.532884+00:00",
+    "remote_sha256": "f61a758243bb2f115552d2b0404eabbf8f8e02a2f52b71fc2781ca25fc627516",
+    "local_sha256": "f61a758243bb2f115552d2b0404eabbf8f8e02a2f52b71fc2781ca25fc627516",
+    "bytes": 172032,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "011119"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#AllRoads.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "AllRoads.z5 ◆ [19-Nov-2001] IFDB entry IFWiki: All Roads All Roads, by Jon Ingold. Winner of the 2001 IF Competition. Release 1 / Serial number 011119. (the original competition entry is in games/competition2001/inform/AllRoads/AllRoads.z5 ; a Russian translation is in games/zcode/russian/AllRoadsR.z5 )",
+    "tuid": "4s7uohdncurgqb0h"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2001/inform/AllRoads/#roadwalk.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/allroads-index.html",
+    "snapshot_sha256": "467e1dc3516a11ddad05ad61184e379bc2011f21e7b6e7394f6cab05b6818f69",
+    "entry_text": "roadwalk.txt ◆ [29-Sep-2001]",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Jon Ingold",
+    "authorship_evidence": "Walkthrough heading credits Jon Ingold (c) 2001; archived with the original competition entry.",
+    "route_summary": "Follow the full time-shifting Venice story through its returns, identities and final Guiseppe sequence, allowing the concluding narrative to finish. Opening execution imagery, captivity, apparent deaths, scene changes and repeated dark transitions can be story progression rather than endings. Do not stop at one of those scenes or at the last listed command alone. Require the genuine final authored narrative, preserving any intended alternate conclusion accurately.",
+    "limitations": "The author calls the walkthrough an example route and says many command permutations are valid. Follow observed identities, inventory and scene context rather than blindly replaying it. Its repeated conversation and wait commands are state-dependent. Save early once startup questions and narrative pauses are resolved, then at confirmed ordinary prompts across scene boundaries. Guide edition differs in serial from the selected story; document any actual parser/route divergence for parent review.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "all-roads",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Distinct Venice/time-shifting story; body changes and nonlinear narration do not themselves establish a shared-world/puzzle relationship with other games. Reserve all-roads for its original, updated and translated editions."
+  },
+  "reuse_claims_observed": "No story/guide training or redistribution permission established. Public availability is not such permission. Private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "guide_associated_story": {
+    "url": "https://ifarchive.org/if-archive/games/competition2001/inform/AllRoads/AllRoads.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2001/inform/AllRoads/AllRoads.z5",
+    "accessed_at": "2026-09-25T09:36:19.782639+00:00",
+    "local_path": "/home/krickert/if-games/ifcomp/2001/inform/AllRoads/AllRoads.z5",
+    "central_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/AllRoads-competition.z5.remote",
+    "sha256": "f40fefd5103103461a6b45919ad1ecaf44b79db8cf0506256c26cf9747e81e2e",
+    "byte_identical": true,
+    "zmachine_version": 5,
+    "release": 1,
+    "serial": "010908",
+    "header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "050000014d9c4d9d3682010a205d2c3f00103031303930380042a7ca9f4b000000000000000000000000000000002c3e000000000000010200000000362e3231",
+      "header_sha256": "a0d62d6d90254fc021033119e736411d87d773fd37421e1c7c3a6a899997d421",
+      "checksum_hex": "9f4b",
+      "computed_checksum_hex": "9f4b",
+      "declared_length": 171816,
+      "file_bytes": 172032
+    },
+    "release_gap_to_selected": 0,
+    "serial_gap_days": 72,
+    "association": "Packaged alongside guide in original IFComp directory; guide itself does not declare this release/serial.",
+    "selected_for_launch": false
+  }
+}

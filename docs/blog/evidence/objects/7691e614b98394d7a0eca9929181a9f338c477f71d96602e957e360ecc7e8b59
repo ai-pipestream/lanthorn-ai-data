@@ -1,0 +1,17 @@
+{
+  "game_id": "bears-night-out",
+  "title": "A Bear's Night Out",
+  "url": "https://ifarchive.org/if-archive/solutions/bear.sol",
+  "accessed_at": "2026-09-25T03:59:40.565429+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/bear.sol",
+  "source_sha256": "417d8290e9930fabc3e706f7e00a4b3a7ba70a49ddbecd68e3a4d313d8f3ea5d",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/bears-night-out-walkthrough.txt",
+  "normalized_sha256": "417d8290e9930fabc3e706f7e00a4b3a7ba70a49ddbecd68e3a4d313d8f3ea5d",
+  "story": "/home/krickert/if-games/zcode/bear.z5",
+  "story_sha256": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+  "compatibility": "Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 5,
+  "serial": "990224"
+}

@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-25T05:01:37.418684+00:00",
+  "event": {
+    "event_id": "balances-01a7783d25:e00653",
+    "timestamp": "2026-09-25T04:56:36.427570+00:00",
+    "game_id": "balances",
+    "session_id": "balances-01a7783d25",
+    "branch_id": "b3",
+    "event_index": 653,
+    "event_type": "command",
+    "command": "put snake cube in bottom left socket",
+    "response": "As you place the final cube into the sockets, you feel imbued with celestial \nwisdom (more so than usually). You find yourself growing to the height of the \ncube, so that you pull the balances back level by hand, and then you grow still \nfurther, out of the temple until it is but a cube in your hand, and you are a \ngiant towering over the land. \n\nThen, of course, you wake up, glumly realising it's time to go to your job at \nthe new Borphee Laboratories and all those Wheatstone bridge experiments. But \nat least you can dream about the old days.\n\n\n    *** You have won ***\n\n\nIn that game you scored 50 out of a possible 51, in 139 turns, earning you the \nrank of Scientist.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n[Score 50, up 5]\n> ",
+    "raw_start": 71873,
+    "raw_end": 72628,
+    "response_sha256": "ccf4f8992685c66443270ccc7404c30919731844ac29c4d406677620cbbb3eee",
+    "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "b3-podium-03",
+      "expected_outcome": "Snake placed, ending?",
+      "intent": "Place snake bottom left",
+      "origin": "guided"
+    },
+    "review_status": "unreviewed"
+  },
+  "verdict": "Explicit winning ending after all four cubes: Borphee Laboratories epilogue and victory banner, 50/51.",
+  "raw_hash_and_text_verified": true
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T06:17:00.388207+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-c-20260925.json",
+  "candidate_count": 8,
+  "counts": {
+    "train": 7,
+    "development": 1,
+    "test": 0
+  },
+  "substitutions": [
+    {
+      "rejected": "Wedding.zblorb/wedding.sol",
+      "replacement": "paperchase.z5/PaperChase.sol"
+    }
+  ],
+  "status": "queue spares prepared; no launch",
+  "scope": "Only batch C source directory and config written. No shared registry, pool, splits, scripts or play mutations; no training/evaluation/publication.",
+  "parent_actions": [
+    "Stage and verify exact story/guide hashes on Pi workers and remap absolute host paths.",
+    "Mask all guide/source/index/receipt paths and URLs from Muse; serve only bounded broker excerpts. Keep parent-only provenance and the model-visible collection notes separate.",
+    "Honor provisional family split assignments; no registry updates were made here.",
+    "Mansion R3 has a reported torch-manipulation bug; guide predates R3. Parent must inspect observed behavior without claiming the reported R4 fix is present.",
+    "PUTPBAA needs the explicit no-automatic-SAVE exception: its guide lists SAVE and RESTORE as authored ending commands. Do not impose an artificial long playthrough or all-endings quota.",
+    "Bedlam is the distinct Michael Zey preview; verify its actual preview finale, not an invented full-game continuation.",
+    "Critical Breach has two intended endings. Preserve the chosen narrative and independently verify it against actual raw output."
+  ],
+  "family_review": [
+    {
+      "game_id": "paper-chase",
+      "proposed_family": "paper-chase",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Paper Chase and its original Collegiate Capers BASIC version belong together. Campus setting alone does not establish shared puzzles with batch B Save Princeton or Kook U."
+    },
+    {
+      "game_id": "hunt-for-relief",
+      "proposed_family": "hunt-for-relief",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "All releases of Hunt For Relief stay together; no concrete shared-world/puzzle relationship identified in inspected sources."
+    },
+    {
+      "game_id": "mansion",
+      "proposed_family": "mansion",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "House/inheritance tropes do not establish shared puzzles with Curses or Nine Points. Keep Mansion releases together; provisional standalone family pending any concrete reuse evidence."
+    },
+    {
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "proposed_family": "zork-i",
+      "dataset_split": "development",
+      "uncertain": true,
+      "rationale": "Guide includes FROTZ, NITFOL, OZMOO, FILFRE and ZORK, plus Aisle/phone-booth and Adventure references. Conservatively group with existing zork-i/development as for SpiritWrak and batch A Heist; exact shared-world/puzzle extent is uncertain. Future Aisle/phone-booth/Adventure additions need parent review before split assignment."
+    },
+    {
+      "game_id": "bse",
+      "proposed_family": "bse",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "No concrete shared world or reused puzzle with the existing corpus identified; keep all BSE releases together."
+    },
+    {
+      "game_id": "bedlam",
+      "proposed_family": "bedlam-michael-zey",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Separate identity, title, story hash, release date, premise and archive ID from Slouching Towards Bedlam. The shared word Bedlam and batch A Asylum title are not a shared-world/puzzle relationship."
+    },
+    {
+      "game_id": "critical-breach",
+      "proposed_family": "critical-breach",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Both Thing and Scientist endings and all releases stay in this family. Science-fiction horror themes alone do not establish overlap with existing games."
+    },
+    {
+      "game_id": "danger-adventurer-at-work",
+      "proposed_family": "danger-adventurer-at-work",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "Same Quill author/Inform porter as batch A Gerbil Riot does not alone prove common puzzles/world. Guide contains Humpty and a balrog, but no concrete puzzle overlap was established with batch B Mother Loose. Keep standalone train provisionally; parent should revisit if a specific reused puzzle appears."
+    }
+  ],
+  "limits": {
+    "response_timeout_seconds": 180,
+    "broker_help_max_lines": 9,
+    "broker_help_max_characters": 1000,
+    "broker_commands_per_request": [
+      1,
+      5
+    ],
+    "max_development_candidates": 3,
+    "configured_development_candidates": 1,
+    "synthetic_probe_quota": null,
+    "concurrency_assigned": null,
+    "event_cap_configured": null,
+    "worker_time_limit_configured": null,
+    "note": "Only response_timeout_seconds is an executable timing setting in these configs. No scheduling or event budget changed. All eight are static launch candidates, not runtime-verified sessions."
+  }
+}

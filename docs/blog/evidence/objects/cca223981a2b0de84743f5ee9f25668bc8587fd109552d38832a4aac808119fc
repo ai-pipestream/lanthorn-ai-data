@@ -1,0 +1,25 @@
+{
+  "event_id": "a-remote-problem-30f9dc27b1:e00082",
+  "timestamp": "2026-09-25T19:30:51.869801+00:00",
+  "game_id": "a-remote-problem",
+  "session_id": "a-remote-problem-30f9dc27b1",
+  "branch_id": "b0",
+  "event_index": 82,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 7875,
+  "raw_end": 7875,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "4443f056c00fcea12eb68bf97dbe235a1e3d8901b7ceb3228453c9c763f26b73",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "a-remote-problem-30f9dc27b1",
+    "ending_quote": "Finely! success, and you still have 54 minutes left to watch\n\n\n    *** The End ***\n\n\nIn that game you scored 80 out of a possible 100, in 38 turns.",
+    "evidence_event_ids": [
+      "a-remote-problem-30f9dc27b1:e00080"
+    ],
+    "notes": "Turned on TV with AAA-powered remote in TV Room before deadline. Score 80/100 with 54 minutes left and authored *** The End ***, not death, quit, or chapter transition."
+  },
+  "review_status": "unreviewed"
+}

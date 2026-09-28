@@ -1,0 +1,198 @@
+{
+  "checked_at": "2026-09-25T06:11:47.693922+00:00",
+  "games": [
+    {
+      "game_id": "asylum",
+      "story_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+      "guide_sha256": "d419117e8ab79c0b14918e734df53e4a3fe43b3666ce42f7d02e05a5e28d3b61",
+      "family": "asylum",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "pentari",
+      "story_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+      "guide_sha256": "4017fd8dbd5ff5249207d733f2e6eb203ca3f5794f711890cceb1fe4222ce550",
+      "family": "pentari",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "nine-points",
+      "story_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+      "guide_sha256": "c1302401d5ab71800d6add47cc2ad2d7f8bef74cefa6f0d332cab4a1ee813c90",
+      "family": "nine-points",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "enemies",
+      "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+      "guide_sha256": "4a47257b26612cdcecdb4ce274465109fd9b6cfb4a67962a07a5cb02c70c45ad",
+      "family": "enemies",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "heist",
+      "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+      "guide_sha256": "0b4d857f1a527827ec57b39ae887b301593c38aa22ed2b481b94177fc2f4fb97",
+      "family": "zork-i",
+      "split": "development",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "all-quiet-on-the-library-front",
+      "story_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+      "guide_sha256": "7343e9b03a787255ae7e6fe01ae9db041a2cceb4601b3e6d75f5e16ccd7940af",
+      "family": "zork-i",
+      "split": "development",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "night-at-the-computer-center",
+      "story_sha256": "134081ad18cf4c0fd643af8e7cd9a620955e45104ea4e1a96f70bb79745617d4",
+      "guide_sha256": "5eb8ac1886b3c9fe30db28f292160b44f0bde842bcbe319803686fae922ed3b1",
+      "family": "night-at-the-computer-center",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "vindaloo",
+      "story_sha256": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+      "guide_sha256": "a4812fd6a7d7dbb6746da93227e16fd313ffca5fb87e9967d03242c13df58279",
+      "family": "vindaloo",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "gerbil-riot",
+      "story_sha256": "b285c5c896400784cfe1b50fa8715c9e2262a51fa1d0dc9b05afdefd839cfc2f",
+      "guide_sha256": "d516b110cf4c021c5cfffc14d8296857ec02b9c0a37cec340641f238ad16a80a",
+      "family": "gerbil-riot",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "i-0",
+      "story_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+      "guide_sha256": "4a0942da431c6b540a98a5b9c99a4ef8b9ffdb62cb33ba6ac312d9660dc00962",
+      "family": "i-0",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "tube-trouble",
+      "story_sha256": "ede1e3571bc16da5c27ca48f38b95f4afcb2c71da1c6be7d835750f760609c33",
+      "guide_sha256": "e147f58a766a2b3534b44deea56131316cb13fe74fae7128519139b1e34d2b53",
+      "family": "tube-trouble",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "slacker-x",
+      "story_sha256": "a9528b18c7b9557a356d9ea3bb09924be218d4322ca6416748b89b02864dd3a5",
+      "guide_sha256": "dce914409ae2ba36656b1daf7559559628bc854daed48b96f4cf286989ee42b6",
+      "family": "slacker-x",
+      "split": "train",
+      "config": "control/fleet-batch-a-20260925.json"
+    },
+    {
+      "game_id": "beyond-the-tesseract",
+      "story_sha256": "1605753236549604f2f7f773e08265a2642ca3d81cae35c76749dd22f39b61ad",
+      "guide_sha256": "4a8213bfd3432545ebc207da43a29572f16d1f2d480f00a3770779badc523cfa",
+      "family": "beyond-the-tesseract",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "return-to-karn",
+      "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+      "guide_sha256": "3bec8dc2019b52b0439ac34938651b7c0261402fa3f1de27f40be1c7dd843105",
+      "family": "doctor-who",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "story_sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+      "guide_sha256": "3ba1dfa4d7fac1401adea880ff60299489be18b6d4121d50c2d65d78b055b36d",
+      "family": "heroines-mantle",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "kook-u",
+      "story_sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+      "guide_sha256": "23b963aebbd1a4035de5265e0fc90e75d05a94c12178b024ec8be4321f0a55c0",
+      "family": "kook-u",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "only-after-dark",
+      "story_sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+      "guide_sha256": "467ce36771321a3f1e00328a63fee1f60c5f4fd0b617ff07e1a7843ef7e73fad",
+      "family": "only-after-dark",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+      "guide_sha256": "1ebda4c2fac234a702f665e017e78823a8ddde1b5b71c16334a40046ba36f620",
+      "family": "dracula-prince-of-darkness",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "zuni-doll",
+      "story_sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+      "guide_sha256": "ba4bf916f0667300a3d2d3a17aab526c1d6c355fa7598ee7d5a435effc22aa43",
+      "family": "zuni-doll",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "deephome",
+      "story_sha256": "fdae5bd090fda6fc1b0390051531190968e04355060153ad5b2ab6b75a387b31",
+      "guide_sha256": "e9d0c8c37c1f52fc6c65f99326cb73f3ef148566f7e41e855f63775d23882462",
+      "family": "telleen-return",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "save-princeton",
+      "story_sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+      "guide_sha256": "97252141bd50d40edc0d00f376a91f751a6bfa8fe56898688038302d8fcfa904",
+      "family": "save-princeton",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "space-station",
+      "story_sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+      "guide_sha256": "7ef115c9a6119832c23f0f4982d6df292ebdb2cb53e0d345b594d3363853736b",
+      "family": "zork-i",
+      "split": "development",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "the-edifice",
+      "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+      "guide_sha256": "6f3b9b908c0c45a9b471c419dc281948f64f1167dcf18aac1a368788f14cf672",
+      "family": "the-edifice",
+      "split": "development",
+      "config": "control/fleet-batch-b-20260925.json"
+    },
+    {
+      "game_id": "mother-loose",
+      "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+      "guide_sha256": "811ceb410206f090a33926c5067a559f65febb3e53ee8a95240fe7e276e7950f",
+      "family": "mother-loose",
+      "split": "train",
+      "config": "control/fleet-batch-b-20260925.json"
+    }
+  ],
+  "scope": "Local bytes/hash, unique IDs, conservative family-split consistency. Runtime proof pending."
+}

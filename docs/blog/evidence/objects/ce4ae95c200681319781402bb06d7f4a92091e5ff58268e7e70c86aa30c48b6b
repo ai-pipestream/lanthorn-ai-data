@@ -1,0 +1,112 @@
+{
+  "game_id": "baltimore-24",
+  "title": "Baltimore:24",
+  "author": "Howard A. Sherman",
+  "url": "https://ifarchive.org/if-archive/solutions/baltimore-24_solution.txt",
+  "accessed_at": "2026-09-25T08:44:02.278920+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24_solution.txt",
+  "source_sha256": "786b29454626b54694ed58d60ff951d31e657a00b53f37c6141393fef9fb0b80",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24-walkthrough.txt",
+  "normalized_sha256": "283a95a4728cd03d49727997ea6f8ae53945877ab2de3e3101700d25833028b6",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF/CR to LF, then replace every literal period-plus-space with period-plus-LF. This segments the compact command/prose chain so a standard nine-line help excerpt does not expose the complete guide; command and punctuation text are unchanged.",
+    "segmentation": {
+      "find": ". ",
+      "replace": ".\n",
+      "scope": "entire LF-normalized text",
+      "reason": "bounded help excerpts for an originally three-line guide"
+    }
+  },
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BALT.Z5",
+  "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+  "compatibility": "Local balt24.zip matches archive bytes; extracted BALT.Z5 is Z5 R2/970706, matching the catalog. The James Mullish guide identifies the 1997 game but gives no release/serial; exact guide version remains unspecified. Bundled readme describes a short complete game, not a preview. Pin ZIP and story separately.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "970706",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000228ec28ed1cdc010a0c0f15ec0010393730373036004238e4529b000000000000000000000000000000000000000000000000010200000000362e3133",
+    "header_sha256": "15afd999d9dc0bf7d9e379c43753d073c9c80395f16a7f974bfcf1c4acc1c398",
+    "checksum_hex": "529b",
+    "declared_length": 58256,
+    "file_bytes": 58368
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "BALT.Z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/balt24.zip#BALT.Z5",
+    "accessed_at": "2026-09-25T08:45:26.878977+00:00",
+    "remote_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "local_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "bytes": 58368,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "970706"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#balt24.zip",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "balt24.zip\n◆\n[01-Aug-1997]\nView contents\nIFDB entry\nBaltimore:24, An Exercise in Interactive Fiction\nby Howard A. Sherman. Z5 game file and README.\nRelase 2 / Serial number 970706.",
+    "tuid": "1ymyzuvvjhr61rik"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#baltimore-24_solution.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "baltimore-24_solution.txt\n◆\n[08-Jan-2020]\nIFDB entry\nSolution to Baltimore 24, written by James Mullish.",
+    "tuid": "1ymyzuvvjhr61rik"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "James Mullish",
+    "route_summary": "Complete the full router-replacement journey, including the hotel/service-provider sequence and delivery to Robert, through actual authored service-restoration conclusion. The guide's 30-point total or repeated router-pickup score increases are not completion evidence. A delivery command alone is insufficient without concluding output.",
+    "limitations": "The guide mixes a command chain with explanatory prose. Send one action at a time, observe car/room state, and adapt syntax to live output. CALL is a fictional in-game action, never an external phone or network operation. Do not exploit the reported router score bug or pad this short full game with repetitive probes. Save early and before travel commitments at ordinary prompts. The normalized guide adds sentence/command line breaks for bounded help; raw punctuation and command wording are preserved.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "baltimore-24",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent contemporary service-restoration story. Shared Howard A. Sherman authorship with registered Pentari does not establish shared world or puzzles; no concrete relationship was found. Reserve baltimore-24 for its releases and ports."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public availability does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "story_container": {
+    "format": "zip",
+    "local_path": "/home/krickert/if-games/zcode/balt24.zip",
+    "url": "https://ifarchive.org/if-archive/games/zcode/balt24.zip",
+    "member": "BALT.Z5",
+    "local_sha256": "8bb2977dc4a310ecdb289d62e2329967c7b717646b79e80e6f3ba6a2ed753dd7",
+    "remote_sha256": "8bb2977dc4a310ecdb289d62e2329967c7b717646b79e80e6f3ba6a2ed753dd7",
+    "byte_identical": true,
+    "container_bytes": 37750,
+    "member_bytes": 58368,
+    "member_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "extracted_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BALT.Z5",
+    "storage": "central_only"
+  },
+  "packaged_readme": {
+    "member": "README.TXT",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/balt24-readme.txt",
+    "sha256": "a213bed547a19eba36c5babb5711beb8d0c128ac526bcbcf88cc7001f01a15b6",
+    "container_sha256": "8bb2977dc4a310ecdb289d62e2329967c7b717646b79e80e6f3ba6a2ed753dd7",
+    "body_read": true
+  }
+}

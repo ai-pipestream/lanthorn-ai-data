@@ -1,0 +1,24 @@
+{
+  "event_id": "bicon-e4b7be4302:e00308",
+  "timestamp": "2026-09-25T08:34:24.078932+00:00",
+  "game_id": "bicon",
+  "session_id": "bicon-e4b7be4302",
+  "branch_id": "b0",
+  "event_index": 308,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 39485,
+  "raw_end": 39485,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won Phoenix's heart. ***",
+    "evidence_event_ids": [
+      "bicon-e4b7be4302:e00306"
+    ],
+    "notes": "Genuine win, not death/quitting/chapter. Friends/pizza, room-key, costume, ball, Phoenix-follow to dark Canada. Explicit kiss won e00306, 10/10 in 203 turns, authored kiss narrative + win banner in raw output."
+  },
+  "review_status": "unreviewed"
+}

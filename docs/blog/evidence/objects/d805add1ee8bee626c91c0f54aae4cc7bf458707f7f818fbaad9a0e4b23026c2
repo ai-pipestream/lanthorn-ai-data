@@ -1,0 +1,14 @@
+# Deephome playthrough progress (COMPLETE — branch b5, last exorcism + won, score 295/300)
+
+## Where we are
+Branch b5 in post-win prompt. e00816 get coin (light/child form), e00817 pray to kraxis (comforted), e00818 manaz = last exorcism + terminal conclusion + *** You have won *** 295/300 in 496 turns. Responses/m0602.json verified. Game at RESTART/RESTORE/FULL/QUIT prompt — do NOT send further game commands.
+
+## Ending evidence
+- event: deephome-56e3d50bda:e00818 (latest.json, responses/m0602.json)
+- exorcism: "The net leaps into the air and seems to supernaturally stretch, surrounding the gray form. It slowly closes, penetrating and dispelling the ghostly being, until finally the phantom is no more."
+- conclusion: "After cleansing Deephome of the last of its spirits..." + elevators/Elbras paragraph + "*** You have won ***" + "In that game you scored 295 out of a possible 300, in 496 turns"
+- This is author-intended finale (last spirit cleansed), not death/quitting/chapter-only. Part 1 title is not completion evidence per manifest; raw finale + parent review required.
+
+## Cases / checkpoints
+60+ annotations across full game (door-typo, mountain-synonym, cabinet, take-sword, table-search, torch, axe, dig-rock, furnace, railcar, gear, terrock, fresto, bank, treasury, temple, throne, wooded, etc.). Final pair: treasury-pour-omitted (e00812+e00814, e00815). Checkpoints Ok: start-secret-entrance, guard-post, main-hall, after-throne-exorcism, before-treasury-exorcism.
+Pending: inbox/m0603.json finish REJECTED by broker (ending quote absent — quote skipped middle paragraphs, not contiguous). Resubmitted as inbox/m0604.json with contiguous exact quote "*** You have won ***" + same evidence e00818 — await broker/Terra review. Do NOT restart, do NOT send game commands.

@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T08:28:40.395390+00:00",
+  "game_id": "beyond-the-tesseract",
+  "events": [
+    {
+      "event_id": "beyond-the-tesseract-26b2abc71c:e00353",
+      "timestamp": "2026-09-25T08:12:34.239832+00:00",
+      "game_id": "beyond-the-tesseract",
+      "session_id": "beyond-the-tesseract-26b2abc71c",
+      "branch_id": "b0",
+      "event_index": 353,
+      "event_type": "command",
+      "command": "say tesseract",
+      "response": "Correct password.\n\nSelf-destruct sequence completed. Overriding Doomsday countdown.\n\n5\n4\n3\n2\n1\n\nKaboom...\n\nAs the complex disintegrates around you, the stack, sensing your danger, \noverloads all its circuits to regain a moment's control. With a final burst of \nenergy, the stack implodes, projecting a stasis field around you that protects \nyou from the destruction.\n\nFrom the smoldering debris of the Doomsday complex you pick up the pieces of \nthe stack and reflect on how as you risked your life to save Earth, the stack \nhas given its own to save yours. As you walk away, you solemnly swear to repair \nthe stack, for the adventures that lie ahead.\n\n\n    *** You have won ***\n\n\nIn that game you scored 145 out of a possible 155, in 251 turns.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n> ",
+      "raw_start": 28808,
+      "raw_end": 29650,
+      "response_sha256": "04459f1dd0c4b7915a59d409bc177e3f3085b10ede210e203572a9ab760d95ee",
+      "story_sha256": "1605753236549604f2f7f773e08265a2642ca3d81cae35c76749dd22f39b61ad",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "beyond-the-tesseract-26b2abc71c",
+        "case_id": "route-final-tesseract",
+        "expected_outcome": "Winning ending narrative after password",
+        "intent": "Say the password TESSERACT to complete the game",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "SAY TESSERACT overrides Doomsday, stack sacrifices itself protecting protagonist, Earthsaved/win/menu145/155. Notdeath; missing10points not evidence of incompleteending. Parent raw/text/hashverified; independentreviewpending."
+}

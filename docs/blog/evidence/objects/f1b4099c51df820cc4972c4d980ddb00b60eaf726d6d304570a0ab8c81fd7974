@@ -1,0 +1,84 @@
+{
+  "game_id": "not-just-a-game",
+  "title": "Not Just A Game",
+  "author": "John Menichelli",
+  "url": "https://ifarchive.org/if-archive/solutions/njag_walkthru.txt",
+  "accessed_at": "2026-09-25T06:51:10.686634+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/njag_walkthru.txt",
+  "source_sha256": "f5463f438f8c8bc5cb508ac10e68c5c7297dd1f6a6a5438ba92d80aa34d55412",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/not-just-a-game-walkthrough.txt",
+  "normalized_sha256": "f5463f438f8c8bc5cb508ac10e68c5c7297dd1f6a6a5438ba92d80aa34d55412",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/njag.z5",
+  "story_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+  "compatibility": "Local R3/210603 is byte-identical to the archive story. Archive identifies this as John Menichelli's game and author walkthrough with matching IFDB fg73hgne2htwpbak; both were archived 2021-06-03. Guide body supplies no release/serial, so the shared archive date does not prove exact version coverage.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "210603",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000370e070e1579801da3d684d5800103231303630330112a9d23dc9000000000000000000000000000000004d5700000000000001d200000000362e3335",
+    "header_sha256": "25be426e925fc5a8512fd35230a31a2cb8ce09cd9a36ffec46e5db7bf413e9e6",
+    "checksum_hex": "3dc9",
+    "declared_length": 173896,
+    "file_bytes": 174080
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "njag.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/njag.z5",
+    "accessed_at": "2026-09-25T06:51:49.745822+00:00",
+    "remote_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "local_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "bytes": 174080,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "210603"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#njag.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "njag.z5\n◆\n[03-Jun-2021]\nIFDB entry\nIFWiki:\nNot Just A Game\nNot Just A Game, by John Menichelli.\nRelease 3 / Serial number 210603.\n(source code is in games/source/inform/njag_source.zip)",
+    "tuid": "fg73hgne2htwpbak"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#njag_walkthru.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "njag_walkthru.txt\n◆\n[03-Jun-2021]\nIFDB entry\nWalkthrough for Not Just A Game, by the game's author, John Menichelli.",
+    "tuid": "fg73hgne2htwpbak"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.",
+    "limitations": "Read safe numbers from the in-game card; never send the guide's angle-bracket placeholders. Its long lines combine many actions, so request small topic-specific help excerpts and send one command at a time around questions, machinery and irreversible steps. Adapt noun references from actual output. Use early and milestone checkpoints at confirmed safe ordinary prompts.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "not-just-a-game",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Board coordinates and puzzle boxes alone do not establish shared puzzles with The Magic Toyshop or Nine Points. No specific reused world/puzzle identified in the inspected guide and archive; keep all versions together."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

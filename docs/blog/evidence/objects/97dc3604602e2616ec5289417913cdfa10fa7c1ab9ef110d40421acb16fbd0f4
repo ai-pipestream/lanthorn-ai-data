@@ -1,0 +1,24 @@
+{
+  "event_id": "lost-pig-7c88b2b933:e00363",
+  "timestamp": "2026-09-24T13:00:24.952425+00:00",
+  "game_id": "lost-pig",
+  "session_id": "lost-pig-7c88b2b933",
+  "branch_id": "b1",
+  "event_index": 363,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 61477,
+  "raw_end": 61477,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "bc9363abdb3a4a5cc5826f22683300d8c8a96c08cfb7e0b302d8b9ab16e29227",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "***  Grunk bring pig back to farm  ***",
+    "evidence_event_ids": [
+      "lost-pig-7c88b2b933:e00357"
+    ],
+    "notes": "Genuine winning ending on b1: Grunk exits via windy/twisty tunnels with gnome's help carrying pig + orb, returns to farm (boss asleep), puts pig back quietly and goes to bed. Score 6/7 per FULL (e00358); missing 7th is a bonus point (likely THANK GNOME, skipped). Not death (Grunk alive, in bed), not quitting (QUIT never issued; post-ending menu/undo only inspected score), not intermediate (farm return + pig home + *** banner). 55+ annotated repair cases across full game (b0+b1)."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,3006 @@
+{
+  "captured_at": "2026-09-25T05:43:58.238417+00:00",
+  "note": "Bears ending parent verified, Jewel pinned startup/save checked, Moon-Shaped R2 author guide queued, ten worker pool healthy",
+  "purpose": "Synthetic test-data collection, not a model playing benchmark",
+  "training_status": "not started",
+  "model_evaluation_status": "not started",
+  "publication_status": "private experiment; nothing published",
+  "games": [
+    {
+      "game_id": "905",
+      "events": 105,
+      "command_events": 69,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 4,
+        "checkpoint_filename": 5,
+        "command": 69,
+        "help": 9,
+        "annotation": 15,
+        "restore": 1,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "905-0674f2e54c"
+      ],
+      "last_event_id": "905-0674f2e54c:e00105",
+      "last_event_at": "2026-09-25T02:46:08.407045+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 98607,
+      "journal_prefix_sha256": "455d8d304adcd3aa27a971a658d15277a5896e24956cdbb246620fcecb1fd1c4",
+      "raw_prefix_bytes": 12255,
+      "raw_prefix_sha256": "913bda857016d1366643f19d81141356c4165c151d9d85cb1e177f608ce852b4",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "acorn-court",
+      "events": 85,
+      "command_events": 51,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 4,
+        "checkpoint_filename": 4,
+        "command": 51,
+        "help": 3,
+        "annotation": 21,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "acorn-court-7685b36b67"
+      ],
+      "last_event_id": "acorn-court-7685b36b67:e00085",
+      "last_event_at": "2026-09-25T05:27:22.490553+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 83470,
+      "journal_prefix_sha256": "50c218a34153bf07b7cdd2c36b74d974558a4bfe7e892b5a9802da90147acf4c",
+      "raw_prefix_bytes": 11869,
+      "raw_prefix_sha256": "95ec6e0465931eb06d377aacd9df1c767096b9198f2aef45dbbfe0c4cc66a1cc",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "adventureland",
+      "events": 941,
+      "command_events": 783,
+      "event_types": {
+        "startup": 4,
+        "command": 783,
+        "help": 35,
+        "annotation": 111,
+        "checkpoint": 4,
+        "restart": 3,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "adventureland-19f4e4861c"
+      ],
+      "last_event_id": "adventureland-19f4e4861c:e00941",
+      "last_event_at": "2026-09-24T13:34:37.148711+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 879211,
+      "journal_prefix_sha256": "31b85746a5260c6336498290e0f8a43aef7f6d6e54c51eddc9cc53277974076f",
+      "raw_prefix_bytes": 129853,
+      "raw_prefix_sha256": "2eaee3cda6b8cb08e8da49aa3f6d06a71fd7ea1781369c19c15f703d4b078a06",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "anchorhead",
+      "events": 1547,
+      "command_events": 1184,
+      "event_types": {
+        "startup": 2,
+        "command": 1184,
+        "checkpoint": 60,
+        "checkpoint_filename": 88,
+        "help": 99,
+        "annotation": 84,
+        "session_recovery": 1,
+        "request_cancelled": 1,
+        "restore": 28
+      },
+      "sessions": [
+        "anchorhead-4f68bc5f05",
+        "anchorhead-51ee2d15c2"
+      ],
+      "last_event_id": "anchorhead-51ee2d15c2:e01245",
+      "last_event_at": "2026-09-25T05:42:36.374898+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1698093,
+      "journal_prefix_sha256": "6030ca718b878a03fbe228aa8d736f07148ca2b46726044a3af2d57e3465956c",
+      "raw_prefix_bytes": 472262,
+      "raw_prefix_sha256": "766ed760ed6dc82cb0196dd3dfd7bb53237dc8ba10de4fbbf56a8760da506e66",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "balances",
+      "events": 654,
+      "command_events": 497,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 21,
+        "checkpoint_filename": 24,
+        "command": 497,
+        "help": 58,
+        "annotation": 49,
+        "restore": 3,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "balances-01a7783d25"
+      ],
+      "last_event_id": "balances-01a7783d25:e00654",
+      "last_event_at": "2026-09-25T04:57:18.877883+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 581116,
+      "journal_prefix_sha256": "0a240f64b27302b0d5a58ea6bb291d55e9a55cc274af82475c1faeefb8236c2a",
+      "raw_prefix_bytes": 72628,
+      "raw_prefix_sha256": "e4299da5384fbdc8a91029c575eefeba34d1759737ea5d0c913074310763d720",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "bears-night-out",
+      "events": 371,
+      "command_events": 275,
+      "event_types": {
+        "startup": 1,
+        "command": 275,
+        "checkpoint": 11,
+        "checkpoint_filename": 11,
+        "annotation": 54,
+        "help": 18,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "bears-night-out-a79e3c9a58"
+      ],
+      "last_event_id": "bears-night-out-a79e3c9a58:e00371",
+      "last_event_at": "2026-09-25T05:37:58.779050+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 423198,
+      "journal_prefix_sha256": "210050339ee9a3ec735f4e89fe77131fe9e0502be80ae8dd8049396fa71df6b2",
+      "raw_prefix_bytes": 118132,
+      "raw_prefix_sha256": "fedfffff744819b81aa132d5be8a37249c7e450f830a777068450cbc5a53875c",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "bronze",
+      "events": 872,
+      "command_events": 644,
+      "event_types": {
+        "startup": 1,
+        "command": 644,
+        "checkpoint": 31,
+        "checkpoint_filename": 32,
+        "annotation": 91,
+        "help": 71,
+        "restore": 1,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "bronze-edcd114f65"
+      ],
+      "last_event_id": "bronze-edcd114f65:e00872",
+      "last_event_at": "2026-09-25T04:40:59.675007+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 1174421,
+      "journal_prefix_sha256": "35a076a861e7ac7ca9854c460b443b3abb1d58883890f9807fe1268e536fb876",
+      "raw_prefix_bytes": 482401,
+      "raw_prefix_sha256": "43c00293565802bbf82f4c21482610daa9677ae5198426b69e8488253f3c7ccc",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "change-in-weather",
+      "events": 170,
+      "command_events": 116,
+      "event_types": {
+        "startup": 1,
+        "command": 116,
+        "checkpoint": 6,
+        "checkpoint_filename": 7,
+        "help": 22,
+        "annotation": 17,
+        "restore": 1
+      },
+      "sessions": [
+        "change-in-weather-3ff9a98393"
+      ],
+      "last_event_id": "change-in-weather-3ff9a98393:e00170",
+      "last_event_at": "2026-09-25T05:43:57.095432+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 170561,
+      "journal_prefix_sha256": "981c79a102030b76a5cc5c40e5405b2100981407842027468d348074e50bcf7e",
+      "raw_prefix_bytes": 29629,
+      "raw_prefix_sha256": "f5a23c36020b59ad018659c347aa90192b8a1fabb76a643b920b24f47b7c38c8",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "curses",
+      "events": 1473,
+      "command_events": 1185,
+      "event_types": {
+        "startup": 1,
+        "command": 1185,
+        "checkpoint": 51,
+        "checkpoint_filename": 68,
+        "help": 60,
+        "annotation": 91,
+        "restore": 17
+      },
+      "sessions": [
+        "curses-4e1875ea4e"
+      ],
+      "last_event_id": "curses-4e1875ea4e:e01473",
+      "last_event_at": "2026-09-25T05:43:50.138283+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1513279,
+      "journal_prefix_sha256": "8ac5048bace5ef9f85d7943da639eb632b9773ef3dfb987f9ff8f42f37b2ff30",
+      "raw_prefix_bytes": 398480,
+      "raw_prefix_sha256": "4991a87f995a6d2d086148ed19f99afc6be4ca92019f31e8e7640c792a8b729e",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "dreamhold",
+      "events": 1860,
+      "command_events": 1563,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 51,
+        "checkpoint_filename": 59,
+        "command": 1563,
+        "help": 107,
+        "annotation": 71,
+        "restore": 8
+      },
+      "sessions": [
+        "dreamhold-362786f871"
+      ],
+      "last_event_id": "dreamhold-362786f871:e01860",
+      "last_event_at": "2026-09-25T05:43:57.468866+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1740925,
+      "journal_prefix_sha256": "9130d21d3852fb3235a25f9a019703fda69a621dcabddc41e64a205bf267a6a9",
+      "raw_prefix_bytes": 345072,
+      "raw_prefix_sha256": "86d99a8c02b45c44fffdb9cd8af4386a3d0f684a3c343cfd62eb8847db2a96af",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "hhgttg",
+      "events": 4023,
+      "command_events": 3329,
+      "event_types": {
+        "startup": 6,
+        "command": 3329,
+        "help": 144,
+        "annotation": 106,
+        "checkpoint": 128,
+        "checkpoint_filename": 214,
+        "restore": 90,
+        "restart": 1,
+        "session_recovery": 4,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "hhgttg-077ddabb45",
+        "hhgttg-09ab8b9e21",
+        "hhgttg-7b4da6d228",
+        "hhgttg-cad6596e0f",
+        "hhgttg-d7f261d8a6"
+      ],
+      "last_event_id": "hhgttg-7b4da6d228:e00405",
+      "last_event_at": "2026-09-24T23:49:05.602147+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 3945479,
+      "journal_prefix_sha256": "b45021aa5d850448b75d1b5bff574783f409d192b2c2a61057012c847cddf7a6",
+      "raw_prefix_bytes": 982053,
+      "raw_prefix_sha256": "3e79e7a56da69d39ebf7b90314bb523d547f94efdb7dcd2a0bb98229ac259166",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "hunter-in-darkness",
+      "events": 188,
+      "command_events": 132,
+      "event_types": {
+        "startup": 1,
+        "command": 132,
+        "checkpoint": 4,
+        "checkpoint_filename": 7,
+        "help": 20,
+        "annotation": 20,
+        "restore": 3,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "hunter-in-darkness-d1b183a1fc"
+      ],
+      "last_event_id": "hunter-in-darkness-d1b183a1fc:e00188",
+      "last_event_at": "2026-09-25T05:00:01.051235+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 180733,
+      "journal_prefix_sha256": "7aa4b70e16c31754ba7bac343bd68762b10bf4289b6330815d8adc3b1afecc1e",
+      "raw_prefix_bytes": 27229,
+      "raw_prefix_sha256": "3afe23440173650e26725fd74702c74ee2afc6c2b9257c44d2d94bb4648e71e6",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "jewel-of-knowledge",
+      "events": 61,
+      "command_events": 38,
+      "event_types": {
+        "startup": 1,
+        "command": 38,
+        "checkpoint": 2,
+        "checkpoint_filename": 2,
+        "help": 6,
+        "annotation": 12
+      },
+      "sessions": [
+        "jewel-of-knowledge-61db1c70d2"
+      ],
+      "last_event_id": "jewel-of-knowledge-61db1c70d2:e00061",
+      "last_event_at": "2026-09-25T05:43:54.805494+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 66580,
+      "journal_prefix_sha256": "62d27b16d9aca2825b5ed8e0ddee1f7cd5798a2eb23ccfe9d57f0421d312b9e9",
+      "raw_prefix_bytes": 13360,
+      "raw_prefix_sha256": "404fe2fd34cd07efdd82d97d4081013f4e7699f8aa11f28f29e1a562bb3b1a6e",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "jigsaw",
+      "events": 577,
+      "command_events": 422,
+      "event_types": {
+        "startup": 1,
+        "command": 422,
+        "checkpoint": 22,
+        "checkpoint_filename": 22,
+        "help": 56,
+        "annotation": 54
+      },
+      "sessions": [
+        "jigsaw-673cabd620"
+      ],
+      "last_event_id": "jigsaw-673cabd620:e00577",
+      "last_event_at": "2026-09-25T05:43:52.255042+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 540475,
+      "journal_prefix_sha256": "bd342081cd860d770863ea53a3f912c30746829b1c401f1fa0436ce33e5d7dd6",
+      "raw_prefix_bytes": 87750,
+      "raw_prefix_sha256": "3db5086fcdc805ead4004924f016cc7b48d1fa65b5bb2b1477ea6ab2ff894078",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "lost-pig",
+      "events": 363,
+      "command_events": 262,
+      "event_types": {
+        "startup": 1,
+        "command": 262,
+        "help": 26,
+        "annotation": 56,
+        "checkpoint": 8,
+        "checkpoint_filename": 8,
+        "restore": 1,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "lost-pig-7c88b2b933"
+      ],
+      "last_event_id": "lost-pig-7c88b2b933:e00363",
+      "last_event_at": "2026-09-24T13:00:24.952425+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 358572,
+      "journal_prefix_sha256": "07ad5aacacff1406a6d2ebda09b4322fd29a06d0741734101be36ad2e2e9dfbe",
+      "raw_prefix_bytes": 61477,
+      "raw_prefix_sha256": "26a8ae1c696cb87eb6688bd199ab8f02cb3fd7e3d0ecfe848706d50fb3012235",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "photopia",
+      "events": 223,
+      "command_events": 155,
+      "event_types": {
+        "startup": 1,
+        "command": 155,
+        "checkpoint": 13,
+        "checkpoint_filename": 13,
+        "help": 11,
+        "annotation": 29,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "photopia-74a27d1cb7"
+      ],
+      "last_event_id": "photopia-74a27d1cb7:e00223",
+      "last_event_at": "2026-09-25T02:20:54.940541+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 231579,
+      "journal_prefix_sha256": "866f9edf88fd8daa93707f26064df4d4bd431dee82e5c46ef884ebc89fa4b297",
+      "raw_prefix_bytes": 51560,
+      "raw_prefix_sha256": "9dbdcc300ad013aba73c510a6fd199b67f570e8eaff6787affd97c08a47572d7",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "pirate-adventure",
+      "events": 855,
+      "command_events": 731,
+      "event_types": {
+        "startup": 5,
+        "command": 731,
+        "help": 41,
+        "annotation": 72,
+        "checkpoint": 1,
+        "restart": 4,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "pirate-adventure-3b0fad2d95"
+      ],
+      "last_event_id": "pirate-adventure-3b0fad2d95:e00855",
+      "last_event_at": "2026-09-24T13:25:37.755772+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 814909,
+      "journal_prefix_sha256": "5edcd0ca90031dac3b2ecdbe8c5abb60dd1423cd281e3418fa0d4ff4a8c1196e",
+      "raw_prefix_bytes": 129256,
+      "raw_prefix_sha256": "97141333f7daed0371541721bb0963275205fa74ef6b3be18018c3a7e8cf4ff3",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "savoir-faire",
+      "events": 1479,
+      "command_events": 1216,
+      "event_types": {
+        "startup": 2,
+        "checkpoint": 46,
+        "checkpoint_filename": 55,
+        "command": 1216,
+        "help": 85,
+        "annotation": 63,
+        "restore": 9,
+        "delayed_output": 1,
+        "session_recovery": 1,
+        "request_cancelled": 1
+      },
+      "sessions": [
+        "savoir-faire-3e83fd4831",
+        "savoir-faire-5a89e6c8ff"
+      ],
+      "last_event_id": "savoir-faire-5a89e6c8ff:e01376",
+      "last_event_at": "2026-09-25T05:43:29.308953+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1461128,
+      "journal_prefix_sha256": "5da797ae25d9f1e2d31084428ab90178abbc55087acc67cefed0cacd48cf584d",
+      "raw_prefix_bytes": 324911,
+      "raw_prefix_sha256": "b88cdd9849adb85928d9078222f7e3e78ee33e6b2444e4b47a187fd7fbd00606",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "secret-mission",
+      "events": 1794,
+      "command_events": 1685,
+      "event_types": {
+        "startup": 22,
+        "command": 1685,
+        "checkpoint": 1,
+        "help": 21,
+        "annotation": 43,
+        "restart": 21,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "secret-mission-08dcee7c13"
+      ],
+      "last_event_id": "secret-mission-08dcee7c13:e01794",
+      "last_event_at": "2026-09-25T04:02:51.580827+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 1565202,
+      "journal_prefix_sha256": "fe7f759fb0f1065daa2c3eb1526c2b55127eb2c0c0a91f55ba826f1c252df9f6",
+      "raw_prefix_bytes": 270260,
+      "raw_prefix_sha256": "87b888396f55ddbe9b28a119c6a4e83b5868d63dde044a73abbb3e027cb9ec1b",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "shade",
+      "events": 352,
+      "command_events": 275,
+      "event_types": {
+        "startup": 1,
+        "command": 275,
+        "checkpoint": 9,
+        "checkpoint_filename": 9,
+        "help": 25,
+        "annotation": 32,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "shade-3fcd469b94"
+      ],
+      "last_event_id": "shade-3fcd469b94:e00352",
+      "last_event_at": "2026-09-25T02:24:45.386148+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 315682,
+      "journal_prefix_sha256": "7697f882cd42d87c88fc8974828bddc7bb33d237ec96a71bb99b1c8eede9597e",
+      "raw_prefix_bytes": 44296,
+      "raw_prefix_sha256": "055e7b3121517efdef8b0fc68fafa60ab78f5f8d94643c5e78d54476fa34062a",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "slouching-bedlam",
+      "events": 550,
+      "command_events": 393,
+      "event_types": {
+        "startup": 3,
+        "checkpoint": 17,
+        "checkpoint_filename": 19,
+        "command": 393,
+        "help": 66,
+        "annotation": 42,
+        "delayed_output": 3,
+        "session_recovery": 2,
+        "request_cancelled": 2,
+        "restore": 2,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "slouching-bedlam-18faea2151",
+        "slouching-bedlam-b08abfcb18",
+        "slouching-bedlam-bb653b6ab4"
+      ],
+      "last_event_id": "slouching-bedlam-b08abfcb18:e00239",
+      "last_event_at": "2026-09-25T03:52:24.577684+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 550834,
+      "journal_prefix_sha256": "12d0b067fbe7138f3981e67b9f5064381c5f7e36c2db42e018a5a6143c17e373",
+      "raw_prefix_bytes": 105261,
+      "raw_prefix_sha256": "a9c698478005a0e322e774fb4f7cc23528b8e1cc41ff0c36d812014accdb2df6",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "so-far",
+      "events": 979,
+      "command_events": 801,
+      "event_types": {
+        "startup": 1,
+        "command": 801,
+        "help": 29,
+        "annotation": 52,
+        "checkpoint": 28,
+        "checkpoint_filename": 48,
+        "restore": 20
+      },
+      "sessions": [
+        "so-far-8d580943cf"
+      ],
+      "last_event_id": "so-far-8d580943cf:e00979",
+      "last_event_at": "2026-09-25T05:43:34.848829+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1017719,
+      "journal_prefix_sha256": "7891d1285e2cdb46a48333447c12d4783f4e2a907d915b7de5266a16978518a5",
+      "raw_prefix_bytes": 297564,
+      "raw_prefix_sha256": "71ec9c8b412340496416e1981c55122d1b19c6caba6bcf94eeca9cb1e1ffdc41",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "spider-and-web",
+      "events": 801,
+      "command_events": 609,
+      "event_types": {
+        "startup": 1,
+        "checkpoint": 28,
+        "checkpoint_filename": 46,
+        "command": 609,
+        "help": 73,
+        "annotation": 23,
+        "restore": 20,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "spider-and-web-e5197766e3"
+      ],
+      "last_event_id": "spider-and-web-e5197766e3:e00801",
+      "last_event_at": "2026-09-25T05:18:52.450662+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 761996,
+      "journal_prefix_sha256": "d3e37c7e54d02ae82e9e798c6f84314611dc688a9c5d60fb04e57895ec49f5ed",
+      "raw_prefix_bytes": 148720,
+      "raw_prefix_sha256": "972255930425c0b2825941b108be6b9b1ba5e51a775cf9f718b224755c39cf77",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "suveh-nux",
+      "events": 276,
+      "command_events": 210,
+      "event_types": {
+        "startup": 1,
+        "command": 210,
+        "checkpoint": 7,
+        "checkpoint_filename": 7,
+        "help": 19,
+        "annotation": 31,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "suveh-nux-0a645cbebf"
+      ],
+      "last_event_id": "suveh-nux-0a645cbebf:e00276",
+      "last_event_at": "2026-09-25T02:21:17.648693+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 249071,
+      "journal_prefix_sha256": "8b45df13637e9ab87305789c4e014b1244eea8097ace442d436ed193872c830c",
+      "raw_prefix_bytes": 29396,
+      "raw_prefix_sha256": "21ce811c96d2835bee5ee95b8cd811f02bd6332b6379d1268e877962dad87813",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "theatre",
+      "events": 1596,
+      "command_events": 1306,
+      "event_types": {
+        "startup": 1,
+        "command": 1306,
+        "checkpoint": 41,
+        "checkpoint_filename": 64,
+        "annotation": 76,
+        "help": 85,
+        "restore": 23
+      },
+      "sessions": [
+        "theatre-8533784a56"
+      ],
+      "last_event_id": "theatre-8533784a56:e01596",
+      "last_event_at": "2026-09-25T05:43:54.126470+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 1491134,
+      "journal_prefix_sha256": "b9fdcb80b8497355ae3916898fb22b8b166723f90576f4341a28a0a6e897ce38",
+      "raw_prefix_bytes": 327367,
+      "raw_prefix_sha256": "b453c55d39de3ac53b99939023df64ff5e9036dd6a892d680452a7e3b88dc066",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "violet",
+      "events": 295,
+      "command_events": 188,
+      "event_types": {
+        "startup": 1,
+        "command": 188,
+        "checkpoint": 12,
+        "checkpoint_filename": 12,
+        "help": 29,
+        "annotation": 52,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "violet-bfdc33ea8f"
+      ],
+      "last_event_id": "violet-bfdc33ea8f:e00295",
+      "last_event_at": "2026-09-25T03:03:04.228183+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 294786,
+      "journal_prefix_sha256": "295f25f9008db594723a288264aeabd0832ccd357f49df636b5704341bf6ac2d",
+      "raw_prefix_bytes": 55789,
+      "raw_prefix_sha256": "0dc574413be31d532978ae1e8c2cf953d1db534be0c8bc8e07c8094dcf663015",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "voodoo-castle",
+      "events": 766,
+      "command_events": 649,
+      "event_types": {
+        "startup": 3,
+        "checkpoint": 1,
+        "command": 649,
+        "help": 39,
+        "annotation": 71,
+        "restart": 2,
+        "ending_claim": 1
+      },
+      "sessions": [
+        "voodoo-castle-5bd0b59cae"
+      ],
+      "last_event_id": "voodoo-castle-5bd0b59cae:e00766",
+      "last_event_at": "2026-09-25T03:27:48.555514+00:00",
+      "ending_claim_present": true,
+      "journal_prefix_bytes": 680202,
+      "journal_prefix_sha256": "fd5e9f256e927084f437658bbadef4eb687fb8de76e2615a3586d5255cd220ba",
+      "raw_prefix_bytes": 67243,
+      "raw_prefix_sha256": "8386d1113a111f2cbbd12e921e3920a5dfd060e71bb0532926bd13ee01742f24",
+      "raw_integrity_faults": []
+    },
+    {
+      "game_id": "zork-i7",
+      "events": 6943,
+      "command_events": 5732,
+      "event_types": {
+        "startup": 6,
+        "command": 5732,
+        "annotation": 285,
+        "help": 164,
+        "checkpoint": 275,
+        "checkpoint_filename": 373,
+        "restore": 102,
+        "session_recovery": 5,
+        "request_cancelled": 1
+      },
+      "sessions": [
+        "zork-i7-05114e1aff",
+        "zork-i7-3e11f59045",
+        "zork-i7-4cbe94a190",
+        "zork-i7-6df0a59e88",
+        "zork-i7-c569ad8028",
+        "zork-i7-f819398705"
+      ],
+      "last_event_id": "zork-i7-05114e1aff:e00896",
+      "last_event_at": "2026-09-25T05:43:47.345842+00:00",
+      "ending_claim_present": false,
+      "journal_prefix_bytes": 7436155,
+      "journal_prefix_sha256": "61c2402ff0071c928ce68b245ab8468e4b5d3e394702b3da80d638c50bec9c68",
+      "raw_prefix_bytes": 2335718,
+      "raw_prefix_sha256": "8a406c750949f58975f2c85923a14886c0355c4b5b8d589b6a7468b9a33b090a",
+      "raw_integrity_faults": []
+    }
+  ],
+  "total_captured_events": 30199,
+  "exported_cases": 1722,
+  "exported_case_sha256": "b94dbf0ef2843fd252fefc570645ebbbe713bbec58f4ff6ce996facf13c6f15e",
+  "exported_review_counts": {
+    "accepted": 1153,
+    "revise": 336,
+    "quarantine": 62,
+    "unreviewed": 171
+  },
+  "exported_case_counts_by_game": {
+    "905": 15,
+    "acorn-court": 21,
+    "adventureland": 111,
+    "anchorhead": 84,
+    "balances": 49,
+    "bears-night-out": 54,
+    "bronze": 91,
+    "change-in-weather": 17,
+    "curses": 91,
+    "dreamhold": 71,
+    "hhgttg": 106,
+    "hunter-in-darkness": 20,
+    "jewel-of-knowledge": 11,
+    "jigsaw": 54,
+    "lost-pig": 56,
+    "photopia": 29,
+    "pirate-adventure": 72,
+    "savoir-faire": 63,
+    "secret-mission": 43,
+    "shade": 32,
+    "slouching-bedlam": 42,
+    "so-far": 52,
+    "spider-and-web": 23,
+    "suveh-nux": 31,
+    "theatre": 76,
+    "violet": 52,
+    "voodoo-castle": 71,
+    "zork-i7": 285
+  },
+  "export_status": {
+    "exported_at": "2026-09-25T05:43:58.069Z",
+    "events": 30185,
+    "cases": 1722,
+    "review_status": "unreviewed",
+    "purpose": "Synthetic test data, not a measure of model playing skill",
+    "files": [
+      "events.csv",
+      "test-cases.csv"
+    ]
+  },
+  "export_case_count_matches_status": true,
+  "reviewer_observed_at": "2026-09-25T05:36:33.136102+00:00",
+  "reviewer_verified_endings": [
+    {
+      "game_id": "adventureland",
+      "event_id": "adventureland-19f4e4861c:e00939",
+      "raw_start": 129745,
+      "raw_end": 129853,
+      "sha256": "559e42c952191bfbd6300b50cee944fe8f6e8e3a57ba9ca2c57d7bc74364398d",
+      "verdict": "verified winning ending",
+      "evidence": "I've stored 13  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+      "score": "100/100",
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "pirate-adventure",
+      "event_id": "pirate-adventure-3b0fad2d95:e00853",
+      "raw_start": 129149,
+      "raw_end": 129256,
+      "sha256": "f751509dc7200ba99d1ed2a9dcda7fd685d6caa339d7591914280f0687c6a604",
+      "verdict": "verified winning ending",
+      "evidence": "I've stored 2  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+      "score": "100/100",
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "lost-pig",
+      "event_id": "lost-pig-7c88b2b933:e00357",
+      "raw_start": 59382,
+      "raw_end": 60394,
+      "sha256": "cff0d988612b20b7445d7db9be3c61a8dae91a740082c2fe429e39f7e5055bc6",
+      "verdict": "verified winning ending",
+      "evidence": "***  Grunk bring pig back to farm  ***",
+      "score": "6/7",
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "hhgttg",
+      "session_id": "hhgttg-7b4da6d228",
+      "branch_id": "b95",
+      "release": "59 / 851108",
+      "story_sha256": "88b968cb0ab1f564fa40183e4e5fe93c41157fe7883a802ca31ae3095769acf6",
+      "claim_event_id": "hhgttg-7b4da6d228:e00405",
+      "event_id": "hhgttg-7b4da6d228:e00397",
+      "verdict": "verified winning ending",
+      "score": "385/400",
+      "turns": 621,
+      "evidence": "Magrathea surface descent and next-game teaser, followed by final score and engine exit. No quit command caused this ending.",
+      "raw_receipts": [
+        {
+          "event_id": "hhgttg-7b4da6d228:e00397",
+          "branch_id": "b95",
+          "raw_start": 980987,
+          "raw_end": 981819,
+          "sha256": "9f267feaa056dad2d92640a77fa183c760cc9475943425a9395620d73689a9f8",
+          "command": "go down",
+          "response": "You step onto the landing ramp leading down toward the surface of the legendary \nlost planet of Magrathea. \"Announcement, announcement. This is Eddie (the \nshipboard computer). Someone is leaving the ship on a strange planet without \nwrapping up all nice and warm. It'll all end in tears, I just know it...\" The \nvoice fades behind you.\n\nRamp\nThe wind moans. Dust drifts across the surface of the alien world. Zaphod, \nFord, and Trillian appear and urge you forward.\n\nSlowly, nervously, you step downwards, the cold thin air rasping in your lungs. \nYou set one single foot on the ancient dust -- and almost instantly the most \nincredible adventure starts which you'll have to buy the next game to find out \nabout.\n\nWe are about to give you your score. Put on your peril-sensitive sunglasses \nnow. (Hit RETURN or ENTER when ready.) >",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hhgttg-7b4da6d228:e00398",
+          "branch_id": "b95",
+          "raw_start": 981819,
+          "raw_end": 982053,
+          "sha256": "cffcb21273665a5e54f5243b7e6e285e1f0adf0aecb2bcceb10bd7ef0330c613",
+          "command": "",
+          "response": "\nYour score is 385 of a possible 400, in 621 turns.\n\nBy the way, there WAS a causal relationship between your taking the toothbrush \nand the tree collapsing at the very beginning of the game. We apologise for \nthis slight inaccuracy.\n",
+          "engine_state": "engine_exited"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "photopia",
+      "session_id": "photopia-74a27d1cb7",
+      "branch_id": "b0",
+      "release": "Photopia 1.30 stripped-down Z-code; R1/120416",
+      "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+      "claim_event_id": "photopia-74a27d1cb7:e00223",
+      "event_id": "photopia-74a27d1cb7:e00220",
+      "verdict": "verified author-intended ending",
+      "evidence": "Nursery lights out, then final PHOTOPIA title; no further gameplay required.",
+      "raw_receipts": [
+        {
+          "event_id": "photopia-74a27d1cb7:e00219",
+          "branch_id": "b0",
+          "command": "turn off light",
+          "raw_start": 51331,
+          "raw_end": 51457,
+          "response": "You glance into the crib as you reach the light switch. \"Good night, Alley,\" \nyou say. \"Sleep well.\"\n\nYou turn out the light.\n",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "2e294389e9a6c7438fb1b1d8be6e4de9949a156ac580136e25c028c9fa46de98"
+        },
+        {
+          "event_id": "photopia-74a27d1cb7:e00220",
+          "branch_id": "b0",
+          "command": " ",
+          "raw_start": 51457,
+          "raw_end": 51560,
+          "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                  PHOTOPIA\n                                by Adam Cadre\n",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "cb5c27ef6f9b27408a06a165bda34f48febfa08bdffba398bde1a0c30ed2d94b"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "shade",
+      "session_id": "shade-3fcd469b94",
+      "branch_id": "b0",
+      "release": "R3/001127",
+      "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+      "claim_event_id": "shade-3fcd469b94:e00352",
+      "event_id": "shade-3fcd469b94:e00347",
+      "verdict": "verified author-intended ending",
+      "evidence": "Dead tiny figure, blank book and wait lead to SHADE restart/restore/quit terminal menu; bleak final conclusion, not an early death.",
+      "raw_receipts": [
+        {
+          "event_id": "shade-3fcd469b94:e00344",
+          "branch_id": "b0",
+          "command": "touch figure",
+          "raw_start": 43539,
+          "raw_end": 43822,
+          "response": "You kneel and brush your finger over the figure's forehead. It shakes its head, \nunseeing, and then collapses. You watch in concern, but in a few moments it \nstruggles to its feet again.\n\nThe figure falls. After a few seconds... it still doesn't move.\n\nThe sands quickly cover it.\n\n>",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "f77206267253c8772bbba9f50c75fc35142d15b1475fb1df3403eb109fefba7e"
+        },
+        {
+          "event_id": "shade-3fcd469b94:e00345",
+          "branch_id": "b0",
+          "command": "read book",
+          "raw_start": 43822,
+          "raw_end": 43872,
+          "response": "The cover is worn now. The pages are all blank.\n\n>",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "1dd5c64e0795e91f36c7af669608ce7cbce5e450e64b3a92740985eba6415ea4"
+        },
+        {
+          "event_id": "shade-3fcd469b94:e00347",
+          "branch_id": "b0",
+          "command": "wait",
+          "raw_start": 43887,
+          "raw_end": 44136,
+          "response": "The tiny figure crawls out from under the sands. It's dead.\n\n\"You win,\" it says. \"Okay, my turn again.\"\n\n>...\nNothing left to do. Time passes.\n\nThe sun crawls higher.\n\n\n    *** SHADE ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "aab7057b3ac134be4a368cabd54f8b859926ec35d69023698a2d03d396fdef5a"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "suveh-nux",
+      "session_id": "suveh-nux-0a645cbebf",
+      "branch_id": "b0",
+      "release": "Version1.1; R1/071226",
+      "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+      "claim_event_id": "suveh-nux-0a645cbebf:e00276",
+      "event_id": "suveh-nux-0a645cbebf:e00271",
+      "verdict": "verified winning ending",
+      "evidence": "Escaped vault and rescued master; 99/100 in198turns, 2/3 Easter eggs. Guide1.0 mismatch remains; not a 100% score claim.",
+      "raw_receipts": [
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00269",
+          "branch_id": "b0",
+          "command": "pull block",
+          "raw_start": 27384,
+          "raw_end": 27792,
+          "response": "You get a good grip on the block with your sticky hands and pull it towards \nyou. It feels much lighter than normal stone, and it comes free! You pull it \nall the way out and drop it on the ground (although releasing it proves a \nlittle tricky) and say a few magic words to restore yourself to normal, and \nthen crawl through the open hole into freedom.\n\n[Your score has just gone up by 10%.]\n\n[Press a key]\n",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "d6e81d7af65bb3982d818d5b7f2b757d704423e23ba74814dcc6bbc42378c9f3"
+        },
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00270",
+          "branch_id": "b0",
+          "command": " ",
+          "raw_start": 27792,
+          "raw_end": 28730,
+          "response": "\nRushing up the stairs, you find your master bound and gagged on a chair in the \nmiddle of the room. You quickly unbind him, but he offers no explanation.\n\nYou describe your entrapment in the vault and your means of escape, and your \nmaster raises his eyebrows in amazement. \"My, my! I never knew you had it in \nyou.\n\n\"It seems you managed to avoid destroying any of the objects in the vault -- \nmany thanks. And you even managed to recapture my beastie. Wonderful! Such \ncreatures are hard to come by, as you can imagine.\n\n\"You have my deepest gratitude, not for this alone, but for rescuing me from my \nbonds. Well done! You have your master's praise.\"\n\n\n    *** You have escaped ***\n\n\nIn that game you scored 99% in 198 turns.\n\n[2 of 3 Easter eggs found -- see AMUSING].\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game, see some suggestions for AMUSING things to do or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "93611a353009710796fe6c55cbb0634572e2ef3e811501b452416aaa0f6890ac"
+        },
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00271",
+          "branch_id": "b0",
+          "command": "full",
+          "raw_start": 28730,
+          "raw_end": 29396,
+          "response": "\nIn that game you scored 99% in 198 turns.\n\n[2 of 3 Easter eggs found -- see AMUSING].\n\nThe score was made up as follows:\n\n    10 for shaking the vial\n     5 for speaking magic words\n     5 for lighting the room\n    10 for experimentation\n    10 for speaking a floating word\n    10 for numerical proficiency\n    10 for an intensified effect\n    20 for cracking the door\n    10 for escaping from the vault\n     5 for capturing the creature\n     4 for acquiring two Easter eggs\n    99 total (out of 100)\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game, see some suggestions for AMUSING things to do or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "eaf9e7eb59a5c8efd90b3d65d0dee753f64bae4348dcb4055fff0401b804b03f"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "905",
+      "session_id": "905-0674f2e54c",
+      "branch_id": "b1",
+      "release": "Banner v1.11 (2012.0724), headerR1/120724",
+      "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+      "event_id": "905-0674f2e54c:e00098",
+      "verdict": "verified author-intended non-arrest escape ending",
+      "ending_label": "You have left Las Mesas; local walkthrough Ending2",
+      "evidence": "After explicit restore of after-shower-dressed into b1, player leaves house, skips office and takes second onramp. Final narrative says vanish without a trace and presents restart/restore/quit. Not arrest, timeout bonus, score milestone or quit.",
+      "raw_receipts": [
+        {
+          "event_id": "905-0674f2e54c:e00084",
+          "branch_id": "b1",
+          "command": "after-shower-dressed.sav",
+          "response": "Ok.\n\n>",
+          "raw_start": 9606,
+          "raw_end": 9612,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00094",
+          "branch_id": "b1",
+          "command": "enter car",
+          "response": "You climb inside and start up the engine.\n\nDriving\nAh, scenic Las Mesas. Man, this place is an absolute toilet. Soon you'll be \nable to afford to get the hell out of here - provided you can avoid making any \nmore slip-ups on the job.\n\nAs you cruise down the road, you notice a freeway onramp approaching. Would you \nlike to get on? >> ",
+          "raw_start": 11161,
+          "raw_end": 11496,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "260bf2f1a412272dd76f7d8b47feff18b6049d202c5c81a1c795435e4cbbe7a3"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00095",
+          "branch_id": "b1",
+          "command": "no",
+          "response": "\nIt turns out that the ramp was blocked anyway - some sort of maintenance work. \nYou keep driving.\n\nAs you cruise down the road, you see the familiar Loungent Technologies \nbuilding approaching. Would you like to stop here? >> ",
+          "raw_start": 11496,
+          "raw_end": 11723,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "6b4dab5f21c2cc408f950ecaa7070a7e25c32ee5e168ce8f7ee1a9f95f007a65"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00096",
+          "branch_id": "b1",
+          "command": "no",
+          "response": "\nSoon the Loungent building is in your rear-view mirror. You keep driving.\n\nAs you cruise down the road, you notice another freeway onramp approaching. \nWould you like to get on? >> ",
+          "raw_start": 11723,
+          "raw_end": 11905,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "597b390f709e442189a29f259959e2281ef239fdbf90b4785ac5627c5c84f06d"
+        },
+        {
+          "event_id": "905-0674f2e54c:e00098",
+          "branch_id": "b1",
+          "command": "yes",
+          "response": "\nYou merge onto the freeway, crank up the radio, and vanish without a trace.\n\n\n    *** You have left Las Mesas ***\n\n\nWritten and programmed by Adam Cadre. Tested by Alexandra Hoffer. v1.00 tested \nby Liza Daly. Additional thanks to Elizabeth Sweeney, Jonathan Blask, and \nJonatan Bleicher.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+          "raw_start": 11905,
+          "raw_end": 12255,
+          "engine_state": "awaiting_input_or_idle",
+          "sha256": "31ece5a3e52350f041869a01da5ef232179757f666b831b62e94e7249ed5291d"
+        }
+      ],
+      "guide_boundary": "Older local guide Ending2 sequence corroborates observed route; no assertion of all-route compatibility with later v1.11.",
+      "claim_event_id": "905-0674f2e54c:e00105",
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "violet",
+      "session_id": "violet-bfdc33ea8f",
+      "branch_id": "b0",
+      "release": "Release 1, September 2008 (competition fixture previously identified R1/080929)",
+      "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+      "event_id": "violet-bfdc33ea8f:e00293",
+      "verdict": "verified author-intended winning conclusion",
+      "ending_label": "Australia epilogue followed by explicit winning/QUIT/UNDO/RESTART/RESTORE/AMUSING menu",
+      "evidence": "e288 completes thousand words; e289 apparent departure is reversed by surprise party e290, followed by e291 conversation, e292 Australia epilogue, e293 explicit victory. Not merely first chapter, departure, or quit. All six raw spans independently hash/text checked. Local competition solution ends with WRITE and five ENTER presses, matching actual progression.",
+      "raw_receipts": [
+        {
+          "event_id": "violet-bfdc33ea8f:e00288",
+          "branch_id": "b0",
+          "command": "write",
+          "response": "(first sitting on chair)\nYou write a second paragraph.  Then you slowly peck out a third.  It isn't your \nbest prose, but that's not the point.  You keep going.  It's dark by the time \nyou have a thousand words.  Julia and the zombies have long gone, which you are \nthankful for when you need to run naked out to the car.\n\nYou rehearse what you want to tell me all the way home.  Instead, there's a \nnote on the door:\n\n                                   violet\n                         (i knew you could do it!)\n",
+          "raw_start": 52242,
+          "raw_end": 52754,
+          "response_sha256": "b021ae6b678d817a0c5c57a4c07ae2b39c8dc17c0bb79e8533c6e2ddecf94316",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00289",
+          "branch_id": "b0",
+          "command": "",
+          "response": "   Gone.  Sorry.\n\n   Violet\n\nYou had to have known I was going to leave you anyway.  All the clues were \nthere.\n\n                                   violet\n                    (did you really think i would stay?)\n",
+          "raw_start": 52754,
+          "raw_end": 52966,
+          "response_sha256": "1cc5ef02a4ca241d3b6943ba257239403fa0665d0cdbf17ae7cc94f06d0fbb43",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00290",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\"SURPRISE!\" thirty people jump up and shout when you open the door.  Good thing \nyou were covering your [bother] with the pages you wrote.\n\nOne hour and three drinks later, you aren't even that embarrassed.  I pull you \ninto the kitchen and kiss you.\n\n\"You said you wanted something twisted for your birthday.\"\n\"I was thinking more along the lines of you in peculiar lingerie.\"\n\"I spent much of today hyperventilating thinking it was too cruel.\"\n\"I figured out some important things today.  So, at worst, it was an extremely \ninstructive cruel.\"\n\"I'll still understand if you're angry.\"\n\"You're the one who's going to be angry.  I have to tell you something about \nthe snowglobe.  And the trophy.  And--\"\n\nI put my hand on your chest to stop you.  \"I've a confession that supersedes \nyours.\"\n                                   violet\n                   (did you really think i would leave?)\n",
+          "raw_start": 52966,
+          "raw_end": 53857,
+          "response_sha256": "9f4bd4806f24fd79a21e0aac7b7d38b4402cc492e116d008e3a317bbae93e030",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00291",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\nI open up my laptop and show you.  On my screen is your office, as seen from \nthe vent above the door.\n\nOf course you're bewildered.  I explain: \"When I was hiding your birthday \npresent, I rigged a camera up there.  Not to spy!  Or, not to spy like that. I \nneeded to know when you were coming home for the party.  I thought it would \njust be you at your computer.  I didn't know you'd end up naked and peeing in a \nwastebasket.\"\n\n\"I spent the entire day imagining that you were watching me,\" you say.  \"Maybe \nit only worked because you actually were.\"\n\"Watching you break everything was maddening,\" I tell you, \"but I'm still here. \nI understand, even.  Sort of.  So long as you understand that you're only \ngetting store-bought presents for a while.\"\n\nWe've reached the hard part.  \"I'm committed to this, budgie.  But I don't know \nwhat we're going to do with you.\"\n",
+          "raw_start": 53857,
+          "raw_end": 54729,
+          "response_sha256": "02dd40b612b7a8b110148f64c918b0ea9024017dfb9536bec6ba1574d8231c0b",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00292",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\"No, Violet.  What are we going to do with you?  My turn is done.  It's the \nonly fair thing.\"\n\"You've been miserable.  You'll be happier this way.\"\n\"I'm already happier.  Today made it so clear.  This is not what I'm meant to \nbe doing with my life.  I know, I've spent six years in graduate school, I \nshould be crying right now.  Instead I feel wonderful.  I love you so much.\"\n\nMe too, wallaroo.\n\nThree weeks later we are holding hands in the supereconomy section of a flight \nto Australia.  My brother is lending me money to open a curiosities shop.  He's \nfound you a job at a comic book shop until you decide what's next.\n\n                                   violet\n                          (you are my FAVOURITE!)\n* * *",
+          "raw_start": 54729,
+          "raw_end": 55456,
+          "response_sha256": "0e4f21a21f9f8d512ff41453298724b104ebbbe1b30bef0a7ab6054bb7fc9cdf",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "violet-bfdc33ea8f:e00293",
+          "branch_id": "b0",
+          "command": "",
+          "response": "\n\nI know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.  But you can also UNDO the last turn, RESTART, \nRESTORE a saved game, or (bonus!) view some of the so-called AMUSING things you \nmight've missed.\n\n\n> ",
+          "raw_start": 55456,
+          "raw_end": 55789,
+          "response_sha256": "f15847711db96f650080790617e4540f29542807205c54b88000658db3b3efc1",
+          "engine_state": "awaiting_input_or_idle"
+        }
+      ],
+      "verified_at": "2026-09-25T03:11:12.159926+00:00",
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "voodoo-castle",
+      "session_id": "voodoo-castle-5bd0b59cae",
+      "branch_id": "b2",
+      "event_id": "voodoo-castle-5bd0b59cae:e00763",
+      "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+      "release": "Exact local Scott Adams adv04.dat fixture; no invented release number",
+      "verdict": "verified intended curse-removal ending",
+      "ending_label": "Pins fall out, HURRAH, Smiling Count Cristo, game over",
+      "verified_at": "2026-09-25T03:34:12.581263+00:00",
+      "evidence": "Actual ON MAN placement e755; LOOK COFFIN e758 confirms foot. CIRCLE COFFIN e759 and WAVE STICK e760 produce thunder/state changes; YELL CHANT e763 produces final narrative and engine exit. Not death, quit or chapter. WAVE IDOL/DOLL necessity unproven.",
+      "raw_receipts": [
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00755",
+          "timestamp": "2026-09-25T03:26:12.302259+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "ON MAN",
+          "response": "ON MAN\nOK\nThere's a CLAP OF THUNDER!\n\nTell me what to do ? ",
+          "raw_start": 66108,
+          "raw_end": 66167,
+          "response_sha256": "fd815e832e04886bc8c4ea14de3e9ecf2f99f420f6f8d5e35af9d1f8c9f25b69",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00756",
+          "timestamp": "2026-09-25T03:26:27.117558+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "LOOK MAN",
+          "response": "LOOK MAN\nI see nothing very special.\n\nTell me what to do ? ",
+          "raw_start": 66167,
+          "raw_end": 66226,
+          "response_sha256": "86c9ee2b50b55a27182f237d58ba8df05a73754223060bfb85d56ef7e79ee506",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00757",
+          "timestamp": "2026-09-25T03:26:31.734952+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "INV",
+          "response": "INV\nI'm carrying:\nBloody Knife - Brightly glowing idol - Four leaf clover - Cast iron pot - Ju-Ju bag - Pocket Shovel - Nails - Doll - Antique hammer - Rusting SAW - Paper - Stick - Broken grating.\n\nTell me what to do ? ",
+          "raw_start": 66226,
+          "raw_end": 66446,
+          "response_sha256": "1a27ac60808b62a1c7841b00bf62823e5cdd2028acc4f773cb9cef879b10d5e2",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00758",
+          "timestamp": "2026-09-25T03:26:35.271595+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "LOOK COFFIN",
+          "response": "LOOK COFFIN\nA sign here says:\nCount Cristo's been CURSED! There's one way for him to flee!\nFind it, and he'll go FREE!\nThere's a man here\nHe's wearing a rabbit's foot\n\nTell me what to do ? ",
+          "raw_start": 66446,
+          "raw_end": 66635,
+          "response_sha256": "4eba3c90079fbbf1afd71e25966b9d3ba1994ad855e9a5f8f57906aa2ef6daaa",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00759",
+          "timestamp": "2026-09-25T03:26:53.308197+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "CIRCLE COFFIN",
+          "response": "CIRCLE COFFIN\nOK\nNothing happened\nThere's a CLAP OF THUNDER!\nIts very dark, the only light is from the idol.\n\nTell me what to do ? ",
+          "raw_start": 66635,
+          "raw_end": 66766,
+          "response_sha256": "ae7715f0a1ce960b004e87fb79f6ee2651987d5bd855aa422b8481044e2a8baf",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00760",
+          "timestamp": "2026-09-25T03:26:53.609008+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "WAVE STICK",
+          "response": "WAVE STICK\nOK\nNothing happened\nThere's a CLAP OF THUNDER!\nDouble bubble toil & trouble the encAntAtions Are About to peAk!\n\nTell me what to do ? ",
+          "raw_start": 66766,
+          "raw_end": 66911,
+          "response_sha256": "1888002592a6f1640a1807efea6ef3354bce29cece94cc10347706c382b2bb5f",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00761",
+          "timestamp": "2026-09-25T03:26:53.909814+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "WAVE IDOL",
+          "response": "WAVE IDOL\nOK\nNothing happened\n\nTell me what to do ? ",
+          "raw_start": 66911,
+          "raw_end": 66963,
+          "response_sha256": "328fe728636b15172e2918fee5ecb908877240b379f8a8e7a375d0ed1ce0b31f",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00762",
+          "timestamp": "2026-09-25T03:26:54.210617+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "WAVE DOLL",
+          "response": "WAVE DOLL\nOK\nNothing happened\n\nTell me what to do ? ",
+          "raw_start": 66963,
+          "raw_end": 67015,
+          "response_sha256": "ad247d4dae2e051207e3eea37591e2e11104b85034fca817a20a6aab336c6a30",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "voodoo-castle-5bd0b59cae:e00763",
+          "timestamp": "2026-09-25T03:26:54.211136+00:00",
+          "session_id": "voodoo-castle-5bd0b59cae",
+          "branch_id": "b2",
+          "event_type": "command",
+          "command": "YELL CHANT",
+          "response": "YELL CHANT\nThere's a CLAP OF THUNDER!\nPins fall out of doll\nHURRAH! Look who is in the room!\nThe game is now over.\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Open Coffin\n  Smiling Count Cristo\n",
+          "raw_start": 67015,
+          "raw_end": 67243,
+          "response_sha256": "469d368636df3267da2837559e645623bb26c55ba7521b94151d4a7d81a81b25",
+          "engine_state": "engine_exited"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "slouching-bedlam",
+      "session_id": "slouching-bedlam-b08abfcb18",
+      "branch_id": "b4",
+      "event_id": "slouching-bedlam-b08abfcb18:e00233",
+      "claim_event_id": "slouching-bedlam-b08abfcb18:e00239",
+      "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+      "release": "1 / 030925",
+      "raw_start": 102314,
+      "raw_end": 105261,
+      "sha256": "d4439fd038e6cd45c1b69e3545a81f23b32eb377546400016da67b92c6bbeaa4",
+      "verdict": "verified author-intended bleak conclusion",
+      "route": "Gallows execution followed by worldwide Logos spread. James and Reggie dead; Alexandra infects the Cypherists. Explicit finish marker and Appendix B unlock. Containment failed; not a happy win or an ordinary isolated death.",
+      "evidence": "Worldwide epilogue, finishendcompleteconclude marker, reachedfoundendfinishcomplete marker and APPENDIX-B-availableaccessableopen.",
+      "raw_receipts": [
+        {
+          "event_id": "slouching-bedlam-b08abfcb18:e00233",
+          "session_id": "slouching-bedlam-b08abfcb18",
+          "branch_id": "b4",
+          "command": "wear noose",
+          "response": "The noose slips easily enough over the head.\n\nThe fit is loose at first, then with a noise from above the wires pull upward \ncausing it to tighten. An unseen bell gongs from beneath, shaking the \nfloorboards.\n\nWith a rapid series of clicks, cogs grinding against cogs, the automaton turns \nits head towards the empty street. There is a hiss of static, then a recorded \nvoice speaks: \n\n\"All good people, pray heartily unto God for this poor sinner who is now going \nto his death, for whom the great bell tolls.\"\n\nMore clicks, and the automaton turns to face the noose. The static sounds like \nsteam leaking.\n\n\"You that are condemned to die, repent with lamentable tears; ask mercy of the \nLord for the salvation of your soul. You have one minute remaining of your \nlife. You may use this time to beg forgiveness of God and the Good People of \nthis Great Kingdom, or to make your peace with your maker in silence. Your \nminute begins now.\"\n\nA minute to reflect. A minute to regret. A minute to repent.\n\nSuddenly, the trap door snaps open. The landscape rises up in a rush, a quick \njerk, and then, darkness.\n\nIf there are words for this...\n\n/(reference|point|metaphor)\\\n\n...they have not yet been written.\n\n/(:timeline/date/1919:wbyeates/secondcoming)\\\n\nIt starts simply enough. Nothing occurs for the first week. It takes that long \nto incubate.\n\n/(the darkness drops again; but now I know)\\\n\nJames, thankfully, is not alive to see any of it. They find his body laid \nacross the floor of the lobby and mutter about Bedlam claiming yet another life.\n\n/(that twenty centuries of stony sleep)\\\n\nThey find Reggie's body in the alleyway and write it off as a robbery.\n\n/(were vexed to nightmare by a rocking cradle,)\\\n\nAlexandra goes on with business as usual. By the time her incubation is \ncomplete, the Cypherists are once again meeting. Ironically, she infects the \nonly group of people who could possibly have understood what was going on.\n\nIt all goes fairly quickly after that.\n\n/(and what rough beast)\\\n\nIt spreads - subtle and strange...sudden lost memories, new forms of action \nand, universally, a reaching, grasping curiosity...\n\n/(its hour come round at last)\\\n\nThe lost begin to gather together - first in twos, then in growing crowds - to \nspeak nonsense at one other.\n\n/(slouches towards)\\\n\nThe language of the angels - of Babel - fills the streets of London, and then \nevery city in the world.\n\n/(bethlehem)\\\n\nThe death shroud of humanity becomes the birth caul of something ... new -\n\n/(?behtlehem?)\\\n\ninhaling its first breath\n\n/(BEDLAM)\\\n\npreparing to cry out\n\n/(to be born?)\\\n\nits Name.\n\n\n    ***/(finishendcompleteconclude|periodmomentpointspacetime))\\***\n\n\n/(reachedfoundendfinishcomplete|possibleprobablyonlyoneinofmany))\\\n/(nowfurtheryetaheadrelease-APPENDIX-B-availableaccessableopen))\\\n\n/(?? RESTARTperiodfirstrevisit ?? RESTOREbackrecallrelease ?? \nUNDObackreverseunmake ?? APPENDIXfurtherjumpyet ?? QUITleaveenddone ??))\\\n> ",
+          "raw_start": 102314,
+          "raw_end": 105261,
+          "response_sha256": "d4439fd038e6cd45c1b69e3545a81f23b32eb377546400016da67b92c6bbeaa4",
+          "engine_state": "awaiting_input_or_idle"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "secret-mission",
+      "session_id": "secret-mission-08dcee7c13",
+      "branch_id": "b21",
+      "event_id": "secret-mission-08dcee7c13:e01789",
+      "claim_event_id": "secret-mission-08dcee7c13:e01794",
+      "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+      "raw_start": 270134,
+      "raw_end": 270260,
+      "sha256": "2d8cfbf195b2422399cd934ddb49d8467c7eab4f54e285145ccbba48008d2ea3",
+      "verdict": "verified mission completion",
+      "evidence": "POUR WATER defuses bomb; explicit IMPOSSIBLE mission completed, game over and engine exit. Earlier bomb deaths are failures.",
+      "raw_receipts": [
+        {
+          "event_id": "secret-mission-08dcee7c13:e01789",
+          "session_id": "secret-mission-08dcee7c13",
+          "branch_id": "b21",
+          "command": "pour water",
+          "response": "pour water\nthe water spills on the bomb and\ndefuses it! FANTASTIC, You completed an IMPOSSIBLE mission!\nThe game is now over.\n",
+          "raw_start": 270134,
+          "raw_end": 270260,
+          "response_sha256": "2d8cfbf195b2422399cd934ddb49d8467c7eab4f54e285145ccbba48008d2ea3",
+          "engine_state": "engine_exited"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:21:10.754494+00:00"
+    },
+    {
+      "game_id": "bronze",
+      "session_id": "bronze-edcd114f65",
+      "branch_id": "b1",
+      "event_id": "bronze-edcd114f65:e00854",
+      "claim_event_id": "bronze-edcd114f65:e00872",
+      "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+      "release": "11 / 060503",
+      "raw_start": 481384,
+      "raw_end": 482401,
+      "sha256": "5b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84",
+      "verdict": "verified King restoration and servants freed conclusion",
+      "evidence": "Actual HUG BEAST produces explicit restored-King/servants-free banner and ending menu. Claim narrative mentioning KISS is not proof KISS was executed. Engine waits at end menu, not engine exit.",
+      "compatibility": "Actual local R11; advertised/downloaded R13 choice remains separate. Ending proves this played route only.",
+      "raw_receipts": [
+        {
+          "event_id": "bronze-edcd114f65:e00854",
+          "session_id": "bronze-edcd114f65",
+          "branch_id": "b1",
+          "command": "hug beast",
+          "response": "As you do, you can't help remembering -- because of the girdle -- how many \nwomen before you this king imprisoned against their will. And why should he \ndeserve to be forgiven, merely because he has been less cruel to you than to \nthe others?\n\nWhen you lift your head, he is his proper self: a man, about forty-five. \nHandsome, perhaps, but in the style of the lord mayor, not someone you would \nhave aspired to wed. His face has perhaps softened a little since his youth, \nbut he is still recognizably the same person.\n\nHis fingers stretch in experiment. \"Dear virgin mother. You did it. The \nservants are free?\"\n\nYou nod.\n\n\"Good girl.\" He touches your cheek affectionately; then freezes. \"And you're \nwearing Yvette's girdle. I suppose you heard her story, in that case.\" He \nsticks out his jaw. \"You can go now. It won't kill me, this time.\"\n\nYou draw a breath and give him your answer.\n\n\n    *** You have restored the King and freed his servants ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+          "raw_start": 481384,
+          "raw_end": 482401,
+          "response_sha256": "5b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84",
+          "engine_state": "awaiting_input_or_idle"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T04:52:59.271160+00:00"
+    },
+    {
+      "game_id": "balances",
+      "session_id": "balances-01a7783d25",
+      "branch_id": "b3",
+      "event_id": "balances-01a7783d25:e00653",
+      "claim_event_id": "balances-01a7783d25:e00654",
+      "release": "5 / 961216",
+      "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+      "raw_start": 71873,
+      "raw_end": 72628,
+      "sha256": "ccf4f8992685c66443270ccc7404c30919731844ac29c4d406677620cbbb3eee",
+      "verdict": "verified victory",
+      "evidence": "Final fourth cube placement triggers growth/balancing, Borphee Laboratories awakening, explicit You have won and final menu; score50/51,139turns. Full score is not required for this observed win.",
+      "raw_receipts": [
+        {
+          "event_id": "balances-01a7783d25:e00645",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": null,
+          "response": "",
+          "raw_start": 71246,
+          "raw_end": 71246,
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "engine_state": "unchanged"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00646",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "examine top left socket",
+          "response": "The top left socket, cubical and slightly more than four inches on a side, is \ndecorated with a scene in a bazaar.\n\n>",
+          "raw_start": 71246,
+          "raw_end": 71363,
+          "response_sha256": "60a814363f4fddcd24968341a831afab1d5fee8f2e9ff2573872f3070a6ac5ca",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00647",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "put lottery cube in top left socket",
+          "response": "The cube is a predictably perfect fit in the socket.\n\n>",
+          "raw_start": 71363,
+          "raw_end": 71418,
+          "response_sha256": "cb93ea1a64252be97ac7e5a36d787dceeb37119418f540065caa3dd8db9ea7e2",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00648",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "examine top right socket",
+          "response": "The top right socket, cubical and slightly more than four inches on a side, is \ndecorated with an eye.\n\n>",
+          "raw_start": 71418,
+          "raw_end": 71523,
+          "response_sha256": "054fcb75f7213e021ad3fe177c7139384c1a382b8cd31e1b0723a68721e4daed",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00649",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "put cyclops cube in top right socket",
+          "response": "The cube is a predictably perfect fit in the socket.\n\n>",
+          "raw_start": 71523,
+          "raw_end": 71578,
+          "response_sha256": "cb93ea1a64252be97ac7e5a36d787dceeb37119418f540065caa3dd8db9ea7e2",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00650",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "examine bottom right socket",
+          "response": "The bottom right socket, cubical and slightly more than four inches on a side, \nis decorated with an engraving of a rocky cave.\n\n>",
+          "raw_start": 71578,
+          "raw_end": 71708,
+          "response_sha256": "80adecc2a1a31ed4ff557e0c9fb2da70211998d7b395c3880d7096348e7497f0",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00651",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "put balance cube in bottom right socket",
+          "response": "The cube is a predictably perfect fit in the socket.\n\n>",
+          "raw_start": 71708,
+          "raw_end": 71763,
+          "response_sha256": "cb93ea1a64252be97ac7e5a36d787dceeb37119418f540065caa3dd8db9ea7e2",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00652",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "examine bottom left socket",
+          "response": "The bottom left socket, cubical and slightly more than four inches on a side, \nis decorated with a serpent.\n\n>",
+          "raw_start": 71763,
+          "raw_end": 71873,
+          "response_sha256": "8db91bcd3dd0f49c3a24643942c23f915d7cfa25b87ae5e520011411d1e891cd",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "balances-01a7783d25:e00653",
+          "session_id": "balances-01a7783d25",
+          "branch_id": "b3",
+          "command": "put snake cube in bottom left socket",
+          "response": "As you place the final cube into the sockets, you feel imbued with celestial \nwisdom (more so than usually). You find yourself growing to the height of the \ncube, so that you pull the balances back level by hand, and then you grow still \nfurther, out of the temple until it is but a cube in your hand, and you are a \ngiant towering over the land. \n\nThen, of course, you wake up, glumly realising it's time to go to your job at \nthe new Borphee Laboratories and all those Wheatstone bridge experiments. But \nat least you can dream about the old days.\n\n\n    *** You have won ***\n\n\nIn that game you scored 50 out of a possible 51, in 139 turns, earning you the \nrank of Scientist.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n[Score 50, up 5]\n> ",
+          "raw_start": 71873,
+          "raw_end": 72628,
+          "response_sha256": "ccf4f8992685c66443270ccc7404c30919731844ac29c4d406677620cbbb3eee",
+          "engine_state": "awaiting_input_or_idle"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T05:04:56.836151+00:00",
+      "compatibility": "Guide release unspecified; observed ending route verified, no full release-equivalence claim.",
+      "engine_boundary": "Ending menu awaits input; no engine exit required."
+    },
+    {
+      "game_id": "hunter-in-darkness",
+      "session_id": "hunter-in-darkness-d1b183a1fc",
+      "branch_id": "b3",
+      "event_id": "hunter-in-darkness-d1b183a1fc:e00187",
+      "claim_event_id": "hunter-in-darkness-d1b183a1fc:e00188",
+      "release": "4 / 991119",
+      "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+      "raw_start": 26897,
+      "raw_end": 27229,
+      "sha256": "1ebfe472318a9036d0c17928319b27fcb81121eb1e2e320434cd49fd373e731d",
+      "verdict": "verified daylight escape conclusion",
+      "evidence": "UP follows observed bat distraction and AHEAD passage to Rising Path; daylight escape, explicit It's over and final menu. Scream cut off suggests Wumpus fate, but a specific kill is inference rather than explicit observed text.",
+      "raw_receipts": [
+        {
+          "event_id": "hunter-in-darkness-d1b183a1fc:e00183",
+          "session_id": "hunter-in-darkness-d1b183a1fc",
+          "branch_id": "b3",
+          "command": "wait",
+          "response": "Time passes.\n\nMore bats are arriving, streaming across the canyon.\n\n>",
+          "raw_start": 25917,
+          "raw_end": 25986,
+          "response_sha256": "579ccba56765bf465035a3bc5adbc0c250e9491b6a96640143158f54653c3409",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hunter-in-darkness-d1b183a1fc:e00184",
+          "session_id": "hunter-in-darkness-d1b183a1fc",
+          "branch_id": "b3",
+          "command": "wait",
+          "response": "Time passes.\n\nThe swarm grows thicker, swirling above the Wumpus, which tosses its head \naround angrily before returning its gaze to you.\n\n>",
+          "raw_start": 25986,
+          "raw_end": 26126,
+          "response_sha256": "98d72c8729c199eef2ecf1724f820e35e589a63c1a8b526232ed7a65b4fa9aa6",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hunter-in-darkness-d1b183a1fc:e00185",
+          "session_id": "hunter-in-darkness-d1b183a1fc",
+          "branch_id": "b3",
+          "command": "wait",
+          "response": "Time passes.\n\nThe Wumpus grunts, and swats at an overbold bat. The tiny shape shrieks and \nfalls broken to the ground; but the Wumpus hisses as well, and shakes blood \nfrom its forelimb.\n\nAnd the swarm descends.\n\n>",
+          "raw_start": 26126,
+          "raw_end": 26340,
+          "response_sha256": "28c79c4ef56fd78802bfdbc0feeee6eaff55329d638014a58fdba7d5240e8bf1",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hunter-in-darkness-d1b183a1fc:e00186",
+          "session_id": "hunter-in-darkness-d1b183a1fc",
+          "branch_id": "b3",
+          "command": "ahead",
+          "response": "You take a hesitant step sideways. And another, sliding past the beast, trying \nto be a thin part of the canyon wall...\n\nThe Wumpus, lashing out at bats, doesn't seem to notice.\n\nRising Path\nYou are partway up the canyon wall, on a narrow path that climbs from ledge to \nledge. The cavern is vast around you, water-hewn strata stretching upward to \nthe stone forest of the roof; and somewhere above you, a crack of daylight sets \nit all glimmering...\n\nDown on the canyon floor, the Wumpus thrashes within a rustling black cloud. \nDark growls rise to you.\n\n>",
+          "raw_start": 26340,
+          "raw_end": 26897,
+          "response_sha256": "07cb40a4fcf0676593f68c1434e5d43ac0a84b654ddf58bb71fd773be0bd6b0f",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hunter-in-darkness-d1b183a1fc:e00187",
+          "session_id": "hunter-in-darkness-d1b183a1fc",
+          "branch_id": "b3",
+          "command": "up",
+          "response": "You pick your way... slowly... up the canyon wall. Everything is heavy; you're \nglad you have nothing more to carry.\n\nSomewhere below, a hissing scream is cut off, abruptly. You round a pale fold \nof limestone, and you are blinded by daylight.\n\n\n\n    *** It's over ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+          "raw_start": 26897,
+          "raw_end": 27229,
+          "response_sha256": "1ebfe472318a9036d0c17928319b27fcb81121eb1e2e320434cd49fd373e731d",
+          "engine_state": "awaiting_input_or_idle"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T05:04:56.836151+00:00",
+      "compatibility": "Guide release unspecified; observed ending route verified, no full release-equivalence claim.",
+      "engine_boundary": "Ending menu awaits input; no engine exit required."
+    },
+    {
+      "game_id": "spider-and-web",
+      "session_id": "spider-and-web-e5197766e3",
+      "branch_id": "b19",
+      "event_id": "spider-and-web-e5197766e3:e00781",
+      "claim_event_id": "spider-and-web-e5197766e3:e00801",
+      "claim_branch_id": "b20",
+      "release": "4 / 980226",
+      "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+      "raw_start": 146563,
+      "raw_end": 147402,
+      "sha256": "291b98bef394f53c6cd5e395a41ccee6ed2eff568e345d6e7dc6b57c29e3576a",
+      "verdict": "verified witnessed b19 escape with research papers",
+      "evidence": "G repeats WAIT after pulse countdown. Papers explicitly remain in hand, world vanishes, You have made a difference and final menu. Later e790/e791 restore papers into b20; claim e801 is made in b20 but refers to witnessed b19 ending. b20 live state is NOT final.",
+      "raw_receipts": [
+        {
+          "event_id": "spider-and-web-e5197766e3:e00774",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "push lower",
+          "response": "The hum intensifies, coming from all around you.\n\nThe console readout blinks; it now says, \"Accumulators charging: pulse in 5. \nNote: scan-web coverage not yet complete.\"\n\n\"Look at the power readout. Something's going on in there,\" comes a worried \nmutter from outside. A louder voice calls, \"Has the cursed Chief finished his \ncursed nap yet?\"\n\n>",
+          "raw_start": 144174,
+          "raw_end": 144521,
+          "response_sha256": "e0dc4606b25778d5d6c7f44ecf3f92af68f568b951f858e7f1b80246f1de4ec5",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00775",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "enter platform",
+          "response": "You step through the open flap and onto the platform.\n\nThe console readout blinks; it now says, \"Accumulators charging: pulse in 4. \nNote: scan-web coverage not yet complete.\"\n\n\"Yes, he cursed has.\" The tone is dry and amused, but the familiar voice chills \nyou. \"What's the situation?\"\n\n>",
+          "raw_start": 144521,
+          "raw_end": 144810,
+          "response_sha256": "b88bc9c362d9f7c5671629a9cee33fe515064d07dc10c53140eb19888612283e",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00776",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "close flap",
+          "response": "You pull the flap back against its seals, closing yourself in the cage.\n\nThe console readout blinks; it now says, \"Accumulators charging: pulse in 3.\"\n\n\"It's under control, with',\" someone says calmly. \"The target is trapped in the \nlab. We're bringing up a cutter.\"\n\n>",
+          "raw_start": 144810,
+          "raw_end": 145079,
+          "response_sha256": "06bfd003c441a8c7a4d26cf4f4d25abf54a631d101542615bb9b1c0ff2f162b4",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00777",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "read papers",
+          "response": "(the stack of important papers)\nYou have no notion what any of it means, but it all matches the profile you \nwere given of material relevant to the work done here.\n\nThe console readout blinks; it now says, \"Accumulators charging: pulse in 2.\"\n\nThere is a choking sound. \"Trapped in the-- in--\" In all the hours you spent in \nhis chair, you never heard that voice lost for words.\n\n>",
+          "raw_start": 145079,
+          "raw_end": 145460,
+          "response_sha256": "c8f1070bafb42505b7618a69ea46207878f6d883b7fa1463ba068a6068c3745b",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00778",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "save",
+          "response": "\nsaves: 1 acid-free.sav   2 acid.sav   3 annex-after-interrogation.sav   4 annex-with-pen.sav   5 annex.sav   6 b10-south-north-pen.sav   7 b11-timer-pen2.sav   8 b11-voice-4blip.sav   9 b16-full-cycle-pen.sav   10 b16-south-east-pen.sav   11 b2-annex-pen-minimal.sav   12 b3-annex-timer-pen.sav   13 b6-annex-4story.sav   14 b8-annex-cont.sav   15 blast.sav   16 clatter.sav   17 escape.sav   18 guards.sav   19 gun.sav   20 in-lab.sav   21 labdoor.sav   22 outside-lab.sav   23 package.sav   24 papers.sav   25 sharp-corner.sav   26 start-alley.sav   27 takeit.sav\nSave to file: ",
+          "raw_start": 145460,
+          "raw_end": 146041,
+          "response_sha256": "c7f6048ee6e01a7aca0b1b1f23a506c1ec0da3fabc4ff5a7735d88ce20c5f545",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00779",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "end1.sav",
+          "response": "Saved to '/work/experiments/lanthorn-recall-training/play/spider-and-web/saves/Tangle.z5.save/end1.sav.qzl'.\nOk.\n\n>",
+          "raw_start": 146041,
+          "raw_end": 146156,
+          "response_sha256": "88e774ec25af636ea5d336dda2712876d6e69357cbc69efb20966747f85ba825",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00780",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "wait",
+          "response": "Time passes.\n\nThe console readout blinks; it now says, \"Accumulators charging: pulse in 1.\"\n\n\"There's only one entrance, with-commander. We're standing in front of it,\" the \nvoice continues, a little nervously now. \"The walls are armor plate underneath. \nThe ventilation system is secure. We haven't been briefed on any explosive or \ncutting equipment in the lab inventory. There's simply nowhere to go.\"\n\n>",
+          "raw_start": 146156,
+          "raw_end": 146563,
+          "response_sha256": "c6bf8308e2b8a8878ffa9bcfb805a28a9687fe22aac50c121eccc83ce24de7fc",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00781",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b19",
+          "command": "g",
+          "response": "Time passes.\n\n\"Nowhere...\" the familiar voice begins, and there is a terrible silence.\n\nThen, \"Blast it down,\" he says, very quietly. And screams, \"BLAST IT!\"\n\nBut a light is pouring out around you, a sourceless glow that seems to shine \nstraight through solidity, as if metal and plastic were starlit ice. The light \nbuilds and builds...\n\nBeyond the light you see the door burst open, with a distant, dreamlike roar. \nThe lucent faces that crowd through seem to move in slow motion. Their guns are \nfiring, but the pulses are frozen in space. You can see their eyes slide across \nyou, the cage around you, the papers in your hand, the light.\n\nThen the world vanishes. Blackness slaps into you with a silent snap.\n\n\n    *** You have made a difference ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, or QUIT?\n> ",
+          "raw_start": 146563,
+          "raw_end": 147402,
+          "response_sha256": "291b98bef394f53c6cd5e395a41ccee6ed2eff568e345d6e7dc6b57c29e3576a",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00790",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b20",
+          "command": "restore",
+          "response": "\nsaves: 1 acid-free.sav   2 acid.sav   3 annex-after-interrogation.sav   4 annex-with-pen.sav   5 annex.sav   6 b10-south-north-pen.sav   7 b11-timer-pen2.sav   8 b11-voice-4blip.sav   9 b16-full-cycle-pen.sav   10 b16-south-east-pen.sav   11 b2-annex-pen-minimal.sav   12 b3-annex-timer-pen.sav   13 b6-annex-4story.sav   14 b8-annex-cont.sav   15 blast.sav   16 clatter.sav   17 end1.sav   18 escape.sav   19 guards.sav   20 gun.sav   21 in-lab.sav   22 labdoor.sav   23 outside-lab.sav   24 package.sav   25 papers.sav   26 sharp-corner.sav   27 start-alley.sav   28 takeit.sav\nRestore from file: ",
+          "raw_start": 147402,
+          "raw_end": 148002,
+          "response_sha256": "ff809f95c03d1a9d48a6eb7f60890ad086c068ddc250cb91d1da3ede6abc959f",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00791",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b20",
+          "command": "papers.sav",
+          "response": "Ok.\n\n>",
+          "raw_start": 148002,
+          "raw_end": 148008,
+          "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "spider-and-web-e5197766e3:e00801",
+          "session_id": "spider-and-web-e5197766e3",
+          "branch_id": "b20",
+          "command": null,
+          "response": "",
+          "raw_start": 148720,
+          "raw_end": 148720,
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "engine_state": "unchanged"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T05:36:33.136102+00:00",
+      "compatibility": "Matching R4 guide; exact observed ending verified.",
+      "engine_boundary": "Final menu awaits input; engine exit not required."
+    },
+    {
+      "game_id": "acorn-court",
+      "session_id": "acorn-court-7685b36b67",
+      "branch_id": "b0",
+      "event_id": "acorn-court-7685b36b67:e00082",
+      "claim_event_id": "acorn-court-7685b36b67:e00085",
+      "claim_branch_id": "b0",
+      "release": "3 / 970904",
+      "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+      "raw_start": 11694,
+      "raw_end": 11869,
+      "sha256": "779dd6e0f1cfd3d79f6d2f17c445dd41d53db7b6d2abb7e3da69011df7a2c613",
+      "verdict": "verified explicit victory, 30/30",
+      "evidence": "OPEN GATE after verified unlock triggers You have won, 30/30 in40turns and final menu. Westward traversal never occurs; do not promote GO WEST -> OPEN GATE to successful directional correction.",
+      "raw_receipts": [
+        {
+          "event_id": "acorn-court-7685b36b67:e00075",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "open gate",
+          "response": "It seems to be locked.\n\n[The Court Yard]> ",
+          "raw_start": 11263,
+          "raw_end": 11305,
+          "response_sha256": "f6f92be148e4b9f8b2f4972b25f7cc19490a7e4f3cb02ae2f54de9633b36c2f1",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00076",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "unlock gate",
+          "response": "What do you want to unlock the iron gate with?\n\n[The Court Yard]> ",
+          "raw_start": 11305,
+          "raw_end": 11371,
+          "response_sha256": "1d2ab551ad513e6a81318fd333ad7aae236ca3456715865827fb9a6b68b89ec4",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00077",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "unlock gate with key",
+          "response": "You unlock the iron gate.\n\n[The Court Yard]> ",
+          "raw_start": 11371,
+          "raw_end": 11416,
+          "response_sha256": "6ea5804065b9d3e3a6c7d2eaba9f01d3525a7962a2bd84138ecadb0666a8a89e",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00078",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "save",
+          "response": "\nsaves: 1 after-acorns-down.sav   2 bucket-fixed.sav   3 start-courtyard.sav\nSave to file: ",
+          "raw_start": 11416,
+          "raw_end": 11507,
+          "response_sha256": "b5f08673745f8125a175dc6f2b9ec301b9856f2443bb390afdb7deff5fe84e91",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00079",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "before-gate-open.sav",
+          "response": "Saved to '/work/experiments/lanthorn-recall-training/play/acorn-court/saves/acorncourt.z5.save/before-gate-open.sav.qzl'.\nOk.\n\n[The Court Yard]> ",
+          "raw_start": 11507,
+          "raw_end": 11652,
+          "response_sha256": "7d3d6638e71e63516922a48fec720cb449fc2ee89920215e97d451c92374e46e",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00081",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "go west",
+          "response": "You can't go that way.\n\n[The Court Yard]> ",
+          "raw_start": 11652,
+          "raw_end": 11694,
+          "response_sha256": "4c25bcecf51b039d085a2a77a6356aef7dc81dce818b815b35c8d25306a2fb0e",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00082",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": "open gate",
+          "response": "You open the iron gate.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 40 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+          "raw_start": 11694,
+          "raw_end": 11869,
+          "response_sha256": "779dd6e0f1cfd3d79f6d2f17c445dd41d53db7b6d2abb7e3da69011df7a2c613",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "acorn-court-7685b36b67:e00085",
+          "session_id": "acorn-court-7685b36b67",
+          "branch_id": "b0",
+          "command": null,
+          "response": "",
+          "raw_start": 11869,
+          "raw_end": 11869,
+          "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "engine_state": "unchanged"
+        }
+      ],
+      "primary_raw_rechecked_at": "2026-09-25T05:36:33.136102+00:00",
+      "compatibility": "Guide release unspecified; observed route ending verified, not full release equivalence.",
+      "engine_boundary": "Final menu awaits input; engine exit not required."
+    }
+  ],
+  "integrity_scope": "Hash/text attribution only. A matching raw span does not prove an intent-preserving repair or valid causal interpretation.",
+  "artifacts": {
+    "scripts/capture_opening.py": {
+      "path": "scripts/capture_opening.py",
+      "bytes": 5978,
+      "sha256": "f5b92806371a4dfbadb205d0f54e4802782235efedc755332093dd4438a649a5",
+      "object": "docs/blog/evidence/objects/f5b92806371a4dfbadb205d0f54e4802782235efedc755332093dd4438a649a5"
+    },
+    "scripts/maintain_workers.py": {
+      "path": "scripts/maintain_workers.py",
+      "bytes": 10190,
+      "sha256": "2da657f21720d8472ba998964ecb5b2330ae9469f3d3b4f20e9514b7288faf0a",
+      "object": "docs/blog/evidence/objects/2da657f21720d8472ba998964ecb5b2330ae9469f3d3b4f20e9514b7288faf0a"
+    },
+    "scripts/play_broker.py": {
+      "path": "scripts/play_broker.py",
+      "bytes": 12468,
+      "sha256": "81c83f36d18fe311c7494e4a327bbdb854312303f2dde7c7fde65363153195a5",
+      "object": "docs/blog/evidence/objects/81c83f36d18fe311c7494e4a327bbdb854312303f2dde7c7fde65363153195a5"
+    },
+    "scripts/recover_broker.py": {
+      "path": "scripts/recover_broker.py",
+      "bytes": 7162,
+      "sha256": "b419cd3a01d969dcf668a242ad6cf1597fc10a9aa2fd52a8f681628803f17e32",
+      "object": "docs/blog/evidence/objects/b419cd3a01d969dcf668a242ad6cf1597fc10a9aa2fd52a8f681628803f17e32"
+    },
+    "scripts/run_new_game.py": {
+      "path": "scripts/run_new_game.py",
+      "bytes": 1812,
+      "sha256": "90529202f311b50c30ee0e08d792f41da316abc32a84920c612ac217674023ef",
+      "object": "docs/blog/evidence/objects/90529202f311b50c30ee0e08d792f41da316abc32a84920c612ac217674023ef"
+    },
+    "scripts/snapshot_experiment.py": {
+      "path": "scripts/snapshot_experiment.py",
+      "bytes": 6103,
+      "sha256": "968a65bd39d6c010d1f5afa5f178a9f0a7dee63e2910bf37134d2c6911680e2a",
+      "object": "docs/blog/evidence/objects/968a65bd39d6c010d1f5afa5f178a9f0a7dee63e2910bf37134d2c6911680e2a"
+    },
+    "scripts/test_broker_transport.py": {
+      "path": "scripts/test_broker_transport.py",
+      "bytes": 3514,
+      "sha256": "792a88c9d5079a8098294602134cc1910a2c84697fb996e3a97c92679938c87d",
+      "object": "docs/blog/evidence/objects/792a88c9d5079a8098294602134cc1910a2c84697fb996e3a97c92679938c87d"
+    },
+    "scripts/test_worker_pool.py": {
+      "path": "scripts/test_worker_pool.py",
+      "bytes": 2276,
+      "sha256": "f6152b76ea72290f91054007f9f679567c1ea6b7f1fd32dd5331a3b9235b79f6",
+      "object": "docs/blog/evidence/objects/f6152b76ea72290f91054007f9f679567c1ea6b7f1fd32dd5331a3b9235b79f6"
+    },
+    "scripts/validate_candidates.py": {
+      "path": "scripts/validate_candidates.py",
+      "bytes": 4318,
+      "sha256": "4fafe54aa4b1848dad4bc8db1cf244ccc17679a40691e70bb5b5981285e431e0",
+      "object": "docs/blog/evidence/objects/4fafe54aa4b1848dad4bc8db1cf244ccc17679a40691e70bb5b5981285e431e0"
+    },
+    "scripts/validate_sources.py": {
+      "path": "scripts/validate_sources.py",
+      "bytes": 4719,
+      "sha256": "50e600d08ab5887942fe86e4be934936458878c27b2e8e0bae407cf1764469af",
+      "object": "docs/blog/evidence/objects/50e600d08ab5887942fe86e4be934936458878c27b2e8e0bae407cf1764469af"
+    },
+    "scripts/watch_exports.py": {
+      "path": "scripts/watch_exports.py",
+      "bytes": 674,
+      "sha256": "f645e7be080259d731ed03eb8884a89232ac29f5b76983e7fd3ce67a9a897445",
+      "object": "docs/blog/evidence/objects/f645e7be080259d731ed03eb8884a89232ac29f5b76983e7fd3ce67a9a897445"
+    },
+    "scripts/export_dataset.mjs": {
+      "path": "scripts/export_dataset.mjs",
+      "bytes": 6531,
+      "sha256": "e9c5dc9691cc3cb3f2e3a0c81172036eb392a92db37dbf19b541b166f2aa9b04",
+      "object": "docs/blog/evidence/objects/e9c5dc9691cc3cb3f2e3a0c81172036eb392a92db37dbf19b541b166f2aa9b04"
+    },
+    "prompts/fullplay.md": {
+      "path": "prompts/fullplay.md",
+      "bytes": 8483,
+      "sha256": "fee829ea25f9c0f9e9e1e704ea9860e91beff7160fd2bbc90ac1e80b3c07038b",
+      "object": "docs/blog/evidence/objects/fee829ea25f9c0f9e9e1e704ea9860e91beff7160fd2bbc90ac1e80b3c07038b"
+    },
+    "prompts/pilot.md": {
+      "path": "prompts/pilot.md",
+      "bytes": 1437,
+      "sha256": "ceff3589fdd57456b38f4b38d1683587576a081ffa9b33119167aa50602baeda",
+      "object": "docs/blog/evidence/objects/ceff3589fdd57456b38f4b38d1683587576a081ffa9b33119167aa50602baeda"
+    },
+    "prompts/questions.md": {
+      "path": "prompts/questions.md",
+      "bytes": 3166,
+      "sha256": "a117f0bd261057c1056037f59992556f6daba4184e1b6aa150750ad830abef06",
+      "object": "docs/blog/evidence/objects/a117f0bd261057c1056037f59992556f6daba4184e1b6aa150750ad830abef06"
+    },
+    "prompts/source-verification.md": {
+      "path": "prompts/source-verification.md",
+      "bytes": 4666,
+      "sha256": "8c83ca04ae751afb1544e7f48ee24bc956727e540acb648ae037393f8881a9df",
+      "object": "docs/blog/evidence/objects/8c83ca04ae751afb1544e7f48ee24bc956727e540acb648ae037393f8881a9df"
+    },
+    "run-candidates.sh": {
+      "path": "run-candidates.sh",
+      "bytes": 1114,
+      "sha256": "7f6c0253a7a97003b2c4b1762ebd43774ed461bae48728dc04f71d6a7414187b",
+      "object": "docs/blog/evidence/objects/7f6c0253a7a97003b2c4b1762ebd43774ed461bae48728dc04f71d6a7414187b"
+    },
+    "run-fullplay.sh": {
+      "path": "run-fullplay.sh",
+      "bytes": 2321,
+      "sha256": "650724124f925d039582c372247d011628d2d8a9c6170e8c463ab5ee21bcdf76",
+      "object": "docs/blog/evidence/objects/650724124f925d039582c372247d011628d2d8a9c6170e8c463ab5ee21bcdf76"
+    },
+    "run-pilot.sh": {
+      "path": "run-pilot.sh",
+      "bytes": 625,
+      "sha256": "5f31f131905a46d5bac033001134a7ee905296c38ecb2219645f8ef39a6051b0",
+      "object": "docs/blog/evidence/objects/5f31f131905a46d5bac033001134a7ee905296c38ecb2219645f8ef39a6051b0"
+    },
+    "run-sources.sh": {
+      "path": "run-sources.sh",
+      "bytes": 1223,
+      "sha256": "4045d1e220ed9aba31818b73cf45ad15238fdf80e1ea3c4c5c750a33ae985334",
+      "object": "docs/blog/evidence/objects/4045d1e220ed9aba31818b73cf45ad15238fdf80e1ea3c4c5c750a33ae985334"
+    },
+    "batches/five-01.json": {
+      "path": "batches/five-01.json",
+      "bytes": 341,
+      "sha256": "f01063fe9211e9170094c28d1a2bf614a03002431980cd5adffabad8b39cdc0b",
+      "object": "docs/blog/evidence/objects/f01063fe9211e9170094c28d1a2bf614a03002431980cd5adffabad8b39cdc0b"
+    },
+    "batches/single.json": {
+      "path": "batches/single.json",
+      "bytes": 106,
+      "sha256": "87e5afbbb36e0347fe6a1b34d74491e0d226755c90f9f0c7eed891338641ece8",
+      "object": "docs/blog/evidence/objects/87e5afbbb36e0347fe6a1b34d74491e0d226755c90f9f0c7eed891338641ece8"
+    },
+    "batches/splits.json": {
+      "path": "batches/splits.json",
+      "bytes": 2316,
+      "sha256": "b279dd3ff3c5645b6495857ea77380db65a7c8e12815a5260265715fc22e5cc2",
+      "object": "docs/blog/evidence/objects/b279dd3ff3c5645b6495857ea77380db65a7c8e12815a5260265715fc22e5cc2"
+    },
+    "control/fullplay-anchorhead-menu-recovery-20260925T0346.json": {
+      "path": "control/fullplay-anchorhead-menu-recovery-20260925T0346.json",
+      "bytes": 1421,
+      "sha256": "9db28d0ae33ad22586f655a7aae374b1545accde75ce663a61c7b13428c27606",
+      "object": "docs/blog/evidence/objects/9db28d0ae33ad22586f655a7aae374b1545accde75ce663a61c7b13428c27606"
+    },
+    "control/fullplay-correct-guide-20260924T1706.json": {
+      "path": "control/fullplay-correct-guide-20260924T1706.json",
+      "bytes": 1458,
+      "sha256": "e78885bcca76d954566a3e1e411276c2537ab57776ef2affdf2e227c40838283",
+      "object": "docs/blog/evidence/objects/e78885bcca76d954566a3e1e411276c2537ab57776ef2affdf2e227c40838283"
+    },
+    "control/fullplay-expansion-20260925-batch3.json": {
+      "path": "control/fullplay-expansion-20260925-batch3.json",
+      "bytes": 6014,
+      "sha256": "766ff5940493ff0dae784c25d5072a9729da18e3b7779ec67540804ae7e37472",
+      "object": "docs/blog/evidence/objects/766ff5940493ff0dae784c25d5072a9729da18e3b7779ec67540804ae7e37472"
+    },
+    "control/fullplay-expansion-20260925-batch4.json": {
+      "path": "control/fullplay-expansion-20260925-batch4.json",
+      "bytes": 4679,
+      "sha256": "ccf63a2de19f8f351944542bc795ef89697f606bf88c63ef65ce70b624df4c15",
+      "object": "docs/blog/evidence/objects/ccf63a2de19f8f351944542bc795ef89697f606bf88c63ef65ce70b624df4c15"
+    },
+    "control/fullplay-expansion-20260925.json": {
+      "path": "control/fullplay-expansion-20260925.json",
+      "bytes": 6363,
+      "sha256": "c5ca29a5b01da806e3f18a65b2df31cdd0f408aeb7d0fe79cb0a34b83d35cc8e",
+      "object": "docs/blog/evidence/objects/c5ca29a5b01da806e3f18a65b2df31cdd0f408aeb7d0fe79cb0a34b83d35cc8e"
+    },
+    "control/fullplay-first.json": {
+      "path": "control/fullplay-first.json",
+      "bytes": 990,
+      "sha256": "f4b9eb423cf6b5d705559b153e01854cf3352d5986cd9866f8b1fa7b2f7fed33",
+      "object": "docs/blog/evidence/objects/f4b9eb423cf6b5d705559b153e01854cf3352d5986cd9866f8b1fa7b2f7fed33"
+    },
+    "control/fullplay-host-restart-20260924T2318.json": {
+      "path": "control/fullplay-host-restart-20260924T2318.json",
+      "bytes": 1616,
+      "sha256": "bf3cb38766b1721d8f985d3b0ca25a34345cb65b4f6ad0dfa16b5091d908c42f",
+      "object": "docs/blog/evidence/objects/bf3cb38766b1721d8f985d3b0ca25a34345cb65b4f6ad0dfa16b5091d908c42f"
+    },
+    "control/fullplay-next.json": {
+      "path": "control/fullplay-next.json",
+      "bytes": 1495,
+      "sha256": "3ae1d44d3740ad84e83134d6f718c4ebca97c476f4d0ec41bbfe8eb1254d708f",
+      "object": "docs/blog/evidence/objects/3ae1d44d3740ad84e83134d6f718c4ebca97c476f4d0ec41bbfe8eb1254d708f"
+    },
+    "control/fullplay-recovery-20260924T1550.json": {
+      "path": "control/fullplay-recovery-20260924T1550.json",
+      "bytes": 1078,
+      "sha256": "ad9f31919997b04b419b1186576ef3651c49f585245615e23dcc7e6944728288",
+      "object": "docs/blog/evidence/objects/ad9f31919997b04b419b1186576ef3651c49f585245615e23dcc7e6944728288"
+    },
+    "control/fullplay-refill-queue-20260925.json": {
+      "path": "control/fullplay-refill-queue-20260925.json",
+      "bytes": 9645,
+      "sha256": "6cffcc3e80c73f75f7d2eaa3f284f7ad5ffb18ad3f1d3567892a6f9487165dd2",
+      "object": "docs/blog/evidence/objects/6cffcc3e80c73f75f7d2eaa3f284f7ad5ffb18ad3f1d3567892a6f9487165dd2"
+    },
+    "control/fullplay-refill-queue2-20260925.json": {
+      "path": "control/fullplay-refill-queue2-20260925.json",
+      "bytes": 3444,
+      "sha256": "656dcb598ab56c1de601862a122c427b369bec7d2b72ace86e627278e4d7a24e",
+      "object": "docs/blog/evidence/objects/656dcb598ab56c1de601862a122c427b369bec7d2b72ace86e627278e4d7a24e"
+    },
+    "control/fullplay-refill-queue3-20260925.json": {
+      "path": "control/fullplay-refill-queue3-20260925.json",
+      "bytes": 1755,
+      "sha256": "97886b0c83a7c8586b479d407ae495a037071ee2d4399c5f3457aa6ca457c22e",
+      "object": "docs/blog/evidence/objects/97886b0c83a7c8586b479d407ae495a037071ee2d4399c5f3457aa6ca457c22e"
+    },
+    "control/fullplay-refill-queue4-20260925.json": {
+      "path": "control/fullplay-refill-queue4-20260925.json",
+      "bytes": 3953,
+      "sha256": "bdef9098cad92102011dcb3b709864dae2def25900554f388b7ad2c170ef91c1",
+      "object": "docs/blog/evidence/objects/bdef9098cad92102011dcb3b709864dae2def25900554f388b7ad2c170ef91c1"
+    },
+    "control/fullplay-refill-queue5-20260925.json": {
+      "path": "control/fullplay-refill-queue5-20260925.json",
+      "bytes": 3952,
+      "sha256": "369b433dca3815d24cf15b6113ab31abe143a3c0b88e3e77ba55583a42bb5222",
+      "object": "docs/blog/evidence/objects/369b433dca3815d24cf15b6113ab31abe143a3c0b88e3e77ba55583a42bb5222"
+    },
+    "control/fullplay-refill-queue6-20260925.json": {
+      "path": "control/fullplay-refill-queue6-20260925.json",
+      "bytes": 2116,
+      "sha256": "0b7a79e6ca403ee4b9b0cea3befb8cd11bc6fe97b0e662f2968bb3e6081252fe",
+      "object": "docs/blog/evidence/objects/0b7a79e6ca403ee4b9b0cea3befb8cd11bc6fe97b0e662f2968bb3e6081252fe"
+    },
+    "control/fullplay-savoir-faire-menu-recovery-20260925T0329.json": {
+      "path": "control/fullplay-savoir-faire-menu-recovery-20260925T0329.json",
+      "bytes": 1394,
+      "sha256": "bc8662f36fecaa97d39cec6f4c06e703aeeaec1a3ee2400474f45d4185de6ea3",
+      "object": "docs/blog/evidence/objects/bc8662f36fecaa97d39cec6f4c06e703aeeaec1a3ee2400474f45d4185de6ea3"
+    },
+    "control/fullplay-slouch-menu-recovery-20260925T0244.json": {
+      "path": "control/fullplay-slouch-menu-recovery-20260925T0244.json",
+      "bytes": 1917,
+      "sha256": "a8ef40b518133ef7107a682fb95c21c3a375215cb8ada61f7ab06f5d3eb6ebef",
+      "object": "docs/blog/evidence/objects/a8ef40b518133ef7107a682fb95c21c3a375215cb8ada61f7ab06f5d3eb6ebef"
+    },
+    "control/fullplay-slouch-recovery-receipt-20260925T0245.json": {
+      "path": "control/fullplay-slouch-recovery-receipt-20260925T0245.json",
+      "bytes": 3523,
+      "sha256": "2bc3899b1e0ef93f1b694b48b8694258d0a301118623fd84eb157daac720d5ec",
+      "object": "docs/blog/evidence/objects/2bc3899b1e0ef93f1b694b48b8694258d0a301118623fd84eb157daac720d5ec"
+    },
+    "control/fullplay-slouching-bedlam-menu-recovery-20260925T0329.json": {
+      "path": "control/fullplay-slouching-bedlam-menu-recovery-20260925T0329.json",
+      "bytes": 1858,
+      "sha256": "0bc30f6c66ea4fa480ce58678836ef0752c8d32015f96f7ac2abf24b59aacee9",
+      "object": "docs/blog/evidence/objects/0bc30f6c66ea4fa480ce58678836ef0752c8d32015f96f7ac2abf24b59aacee9"
+    },
+    "control/fullplay-transport-20260924T1810.json": {
+      "path": "control/fullplay-transport-20260924T1810.json",
+      "bytes": 1576,
+      "sha256": "aa9d7e375f302ec9df4595dd3de52e75e823d68e21d37a05bbbd708851bcd39a",
+      "object": "docs/blog/evidence/objects/aa9d7e375f302ec9df4595dd3de52e75e823d68e21d37a05bbbd708851bcd39a"
+    },
+    "control/fullplay-zork-pool-cap-recovery-20260925T0358.json": {
+      "path": "control/fullplay-zork-pool-cap-recovery-20260925T0358.json",
+      "bytes": 831,
+      "sha256": "5acdfc7f172b275053ad7716888cad68d586d832ea5516e581206f69820d1e8e",
+      "object": "docs/blog/evidence/objects/5acdfc7f172b275053ad7716888cad68d586d832ea5516e581206f69820d1e8e"
+    },
+    "control/ending-parent-verification-20260925T0230.json": {
+      "path": "control/ending-parent-verification-20260925T0230.json",
+      "bytes": 5928,
+      "sha256": "98b28953453d979e9c30e87bad38639a03dd249d91d0c4257a05900b587cc443",
+      "object": "docs/blog/evidence/objects/98b28953453d979e9c30e87bad38639a03dd249d91d0c4257a05900b587cc443"
+    },
+    "control/ending-parent-verification-20260925T0300-905.json": {
+      "path": "control/ending-parent-verification-20260925T0300-905.json",
+      "bytes": 1544,
+      "sha256": "5fe158a109809ed2824a2a045a0536f3c67032b7e408e9081d280867916a9f09",
+      "object": "docs/blog/evidence/objects/5fe158a109809ed2824a2a045a0536f3c67032b7e408e9081d280867916a9f09"
+    },
+    "control/ending-parent-verification-20260925T0311-violet.json": {
+      "path": "control/ending-parent-verification-20260925T0311-violet.json",
+      "bytes": 1952,
+      "sha256": "76c2ffd78fea6402fb84e7cf1f248f27e49d573139fffc751ed2e0fc6d5114af",
+      "object": "docs/blog/evidence/objects/76c2ffd78fea6402fb84e7cf1f248f27e49d573139fffc751ed2e0fc6d5114af"
+    },
+    "control/ending-parent-verification-20260925T0331-voodoo.json": {
+      "path": "control/ending-parent-verification-20260925T0331-voodoo.json",
+      "bytes": 1347,
+      "sha256": "60f08e40789bb1345ca274b946fc46cf0ad1bb83f3e2450b56a1d4456d4de57f",
+      "object": "docs/blog/evidence/objects/60f08e40789bb1345ca274b946fc46cf0ad1bb83f3e2450b56a1d4456d4de57f"
+    },
+    "control/ending-parent-verification-20260925T0354-slouch.json": {
+      "path": "control/ending-parent-verification-20260925T0354-slouch.json",
+      "bytes": 4325,
+      "sha256": "5f9336d8a8b126bfef63529dbb0bdec14a86a264f000e35fe984e24c93183cae",
+      "object": "docs/blog/evidence/objects/5f9336d8a8b126bfef63529dbb0bdec14a86a264f000e35fe984e24c93183cae"
+    },
+    "control/ending-parent-verification-20260925T0413-secret.json": {
+      "path": "control/ending-parent-verification-20260925T0413-secret.json",
+      "bytes": 1131,
+      "sha256": "b9dc423a0273ca97b18eb2c2b945abdf27670885e13e7a9aa0a324a66be2cc92",
+      "object": "docs/blog/evidence/objects/b9dc423a0273ca97b18eb2c2b945abdf27670885e13e7a9aa0a324a66be2cc92"
+    },
+    "control/ending-parent-verification-20260925T0443-bronze.json": {
+      "path": "control/ending-parent-verification-20260925T0443-bronze.json",
+      "bytes": 2185,
+      "sha256": "f93f9d43bacb78274aa87d6a1808cb10ec86307b5e2640fff6862a6989b37ffc",
+      "object": "docs/blog/evidence/objects/f93f9d43bacb78274aa87d6a1808cb10ec86307b5e2640fff6862a6989b37ffc"
+    },
+    "control/ending-parent-verification-20260925T0502-balances.json": {
+      "path": "control/ending-parent-verification-20260925T0502-balances.json",
+      "bytes": 1805,
+      "sha256": "2badc073e7ed48201bbb6e095011346d55912b6aeb1b280e93a341e6f6eb4de9",
+      "object": "docs/blog/evidence/objects/2badc073e7ed48201bbb6e095011346d55912b6aeb1b280e93a341e6f6eb4de9"
+    },
+    "control/ending-parent-verification-20260925T0502-hunter-in-darkness.json": {
+      "path": "control/ending-parent-verification-20260925T0502-hunter-in-darkness.json",
+      "bytes": 1387,
+      "sha256": "e69d5b2971599b03ea523bda313f89d1f59b4742bf0ff1889ee4f13f10c110cf",
+      "object": "docs/blog/evidence/objects/e69d5b2971599b03ea523bda313f89d1f59b4742bf0ff1889ee4f13f10c110cf"
+    },
+    "control/ending-parent-verification-20260925T0528-acorn-court.json": {
+      "path": "control/ending-parent-verification-20260925T0528-acorn-court.json",
+      "bytes": 1305,
+      "sha256": "a81c10de52fa5b64834dffbf7e6530980c1219ee5dc696f99e6ca8aa4812444c",
+      "object": "docs/blog/evidence/objects/a81c10de52fa5b64834dffbf7e6530980c1219ee5dc696f99e6ca8aa4812444c"
+    },
+    "control/ending-parent-verification-20260925T0528-spider-and-web.json": {
+      "path": "control/ending-parent-verification-20260925T0528-spider-and-web.json",
+      "bytes": 1942,
+      "sha256": "3ff88ff2dffaef5a420568580e5d4e3eca9fff597e3560389ade01832c66cf51",
+      "object": "docs/blog/evidence/objects/3ff88ff2dffaef5a420568580e5d4e3eca9fff597e3560389ade01832c66cf51"
+    },
+    "control/ending-parent-verification-20260925T0543-bears.json": {
+      "path": "control/ending-parent-verification-20260925T0543-bears.json",
+      "bytes": 1889,
+      "sha256": "78bd44160885f7a162469cb07ff3bfbdf8c936a2e8c477c059d9c28129fca5c7",
+      "object": "docs/blog/evidence/objects/78bd44160885f7a162469cb07ff3bfbdf8c936a2e8c477c059d9c28129fca5c7"
+    },
+    "reviewed/fullplay-cases.json": {
+      "path": "reviewed/fullplay-cases.json",
+      "bytes": 549247,
+      "sha256": "be1f89469ed738a3fd9d6e94c3d3dd8f94c0bc705af924979ccb3142c8561e2c",
+      "object": "docs/blog/evidence/objects/be1f89469ed738a3fd9d6e94c3d3dd8f94c0bc705af924979ccb3142c8561e2c"
+    },
+    "reviewed/transport-events.json": {
+      "path": "reviewed/transport-events.json",
+      "bytes": 11319,
+      "sha256": "4321673df133d4a72a9905712367cc031525cf75302656c805740e62741bef4c",
+      "object": "docs/blog/evidence/objects/4321673df133d4a72a9905712367cc031525cf75302656c805740e62741bef4c"
+    },
+    "docs/blog/README.md": {
+      "path": "docs/blog/README.md",
+      "bytes": 2638,
+      "sha256": "9917ee18941d9aa995a7d3bf30f23ba6b258a46f8c6ab73ab53c8649c64aa1ec",
+      "object": "docs/blog/evidence/objects/9917ee18941d9aa995a7d3bf30f23ba6b258a46f8c6ab73ab53c8649c64aa1ec"
+    },
+    "docs/blog/experiment-journal.md": {
+      "path": "docs/blog/experiment-journal.md",
+      "bytes": 35928,
+      "sha256": "75624dae6fcfa98007c84cf329b794bcfa596ac7bd8cdd6fb3e94d910e0a6aae",
+      "object": "docs/blog/evidence/objects/75624dae6fcfa98007c84cf329b794bcfa596ac7bd8cdd6fb3e94d910e0a6aae"
+    },
+    "docs/blog/methodology.md": {
+      "path": "docs/blog/methodology.md",
+      "bytes": 4318,
+      "sha256": "fe6a4acc7f0f58522258f10d2fbdc9ee9939886b9f715be6511fdfc3d751a18b",
+      "object": "docs/blog/evidence/objects/fe6a4acc7f0f58522258f10d2fbdc9ee9939886b9f715be6511fdfc3d751a18b"
+    },
+    "docs/blog/model-plan.md": {
+      "path": "docs/blog/model-plan.md",
+      "bytes": 4963,
+      "sha256": "72fd17434da00f189d6b21f9ff34c1aff8fb55ddc4b2a3f716a785f47861c7a5",
+      "object": "docs/blog/evidence/objects/72fd17434da00f189d6b21f9ff34c1aff8fb55ddc4b2a3f716a785f47861c7a5"
+    },
+    "docs/blog/worker-pool.md": {
+      "path": "docs/blog/worker-pool.md",
+      "bytes": 2225,
+      "sha256": "ebe530d6f27406610d5ab6cd4cc255f6ed24909d043be9fc99cd2de52773245f",
+      "object": "docs/blog/evidence/objects/ebe530d6f27406610d5ab6cd4cc255f6ed24909d043be9fc99cd2de52773245f"
+    },
+    "docs/blog/test-receipts/20260925-transport.json": {
+      "path": "docs/blog/test-receipts/20260925-transport.json",
+      "bytes": 1090,
+      "sha256": "abef331d385afc1a614a067cf2ef3432c01f88b0581b9c745e0cc51b70f9be65",
+      "object": "docs/blog/evidence/objects/abef331d385afc1a614a067cf2ef3432c01f88b0581b9c745e0cc51b70f9be65"
+    },
+    "runs/fullplay-status.json": {
+      "path": "runs/fullplay-status.json",
+      "bytes": 464156,
+      "sha256": "5fc1dc6af5a293c556bc1c2d5af6bb39aa684c541394beeca165004ec04bb681",
+      "object": "docs/blog/evidence/objects/5fc1dc6af5a293c556bc1c2d5af6bb39aa684c541394beeca165004ec04bb681"
+    },
+    "runs/fullplay-supervision.md": {
+      "path": "runs/fullplay-supervision.md",
+      "bytes": 8746,
+      "sha256": "ee3857ebc5a9bdd0cd7bb7c13125b519f27ae0b44eef5b23492ebc86fc0e52ed",
+      "object": "docs/blog/evidence/objects/ee3857ebc5a9bdd0cd7bb7c13125b519f27ae0b44eef5b23492ebc86fc0e52ed"
+    },
+    "sources/expansion-20260925/photopia.json": {
+      "path": "sources/expansion-20260925/photopia.json",
+      "bytes": 848,
+      "sha256": "50f1e23b87702a040791221e0cb95e5d70cab2c0da2379717dfc9eb4535c88c3",
+      "object": "docs/blog/evidence/objects/50f1e23b87702a040791221e0cb95e5d70cab2c0da2379717dfc9eb4535c88c3"
+    },
+    "sources/expansion-20260925/secret-mission.json": {
+      "path": "sources/expansion-20260925/secret-mission.json",
+      "bytes": 852,
+      "sha256": "7c646091369f7403c1c0b36c80bc2aeaefae04452432b8d4594c60e6eb373621",
+      "object": "docs/blog/evidence/objects/7c646091369f7403c1c0b36c80bc2aeaefae04452432b8d4594c60e6eb373621"
+    },
+    "sources/expansion-20260925/shade.json": {
+      "path": "sources/expansion-20260925/shade.json",
+      "bytes": 819,
+      "sha256": "8ccbebc58095257daffacea9ca80430024424330bc3b6873733a324255b54bc4",
+      "object": "docs/blog/evidence/objects/8ccbebc58095257daffacea9ca80430024424330bc3b6873733a324255b54bc4"
+    },
+    "sources/expansion-20260925/splits-before.json": {
+      "path": "sources/expansion-20260925/splits-before.json",
+      "bytes": 830,
+      "sha256": "18f0f197ac042ada1a350092092e0188c1f77a298d96031dd0583eac0b3262c6",
+      "object": "docs/blog/evidence/objects/18f0f197ac042ada1a350092092e0188c1f77a298d96031dd0583eac0b3262c6"
+    },
+    "sources/expansion-20260925/suveh-nux.json": {
+      "path": "sources/expansion-20260925/suveh-nux.json",
+      "bytes": 1120,
+      "sha256": "19925721c6bd4bf6d98346e434f8ef2d096cede06464433ba22fb4586cbf343f",
+      "object": "docs/blog/evidence/objects/19925721c6bd4bf6d98346e434f8ef2d096cede06464433ba22fb4586cbf343f"
+    },
+    "sources/expansion-20260925/voodoo-castle.json": {
+      "path": "sources/expansion-20260925/voodoo-castle.json",
+      "bytes": 821,
+      "sha256": "c1d05b0fdf0b43afcd87bb5fc28316e997b489884761fcfba03317827d10b63e",
+      "object": "docs/blog/evidence/objects/c1d05b0fdf0b43afcd87bb5fc28316e997b489884761fcfba03317827d10b63e"
+    },
+    "sources/expansion-20260925-batch3/905.json": {
+      "path": "sources/expansion-20260925-batch3/905.json",
+      "bytes": 1015,
+      "sha256": "f1eca24050fe762bf02ad891ffdae4ed655f7fd2ec029b9ca4cd381ae0cfc0b7",
+      "object": "docs/blog/evidence/objects/f1eca24050fe762bf02ad891ffdae4ed655f7fd2ec029b9ca4cd381ae0cfc0b7"
+    },
+    "sources/expansion-20260925-batch3/bronze.json": {
+      "path": "sources/expansion-20260925-batch3/bronze.json",
+      "bytes": 1005,
+      "sha256": "9c0532249e996060768c0ff2bea5f3a2c712b39bfa8f7d97f901f46065b8cf37",
+      "object": "docs/blog/evidence/objects/9c0532249e996060768c0ff2bea5f3a2c712b39bfa8f7d97f901f46065b8cf37"
+    },
+    "sources/expansion-20260925-batch3/dreamhold.json": {
+      "path": "sources/expansion-20260925-batch3/dreamhold.json",
+      "bytes": 963,
+      "sha256": "85917ec5449db4a7ff66204713303814868b92a9307a60aeebbf6ea281da41fe",
+      "object": "docs/blog/evidence/objects/85917ec5449db4a7ff66204713303814868b92a9307a60aeebbf6ea281da41fe"
+    },
+    "sources/expansion-20260925-batch3/slouching-bedlam.json": {
+      "path": "sources/expansion-20260925-batch3/slouching-bedlam.json",
+      "bytes": 1089,
+      "sha256": "e8c56b8c1c964de3e1207adc36c558b02be59119c2dbbf961f7344a3446953b3",
+      "object": "docs/blog/evidence/objects/e8c56b8c1c964de3e1207adc36c558b02be59119c2dbbf961f7344a3446953b3"
+    },
+    "sources/expansion-20260925-batch3/splits-before.json": {
+      "path": "sources/expansion-20260925-batch3/splits-before.json",
+      "bytes": 1020,
+      "sha256": "6e7dab96b643bba20e276befb9a332ba7992154c2c6da43b16cd356f2e54d959",
+      "object": "docs/blog/evidence/objects/6e7dab96b643bba20e276befb9a332ba7992154c2c6da43b16cd356f2e54d959"
+    },
+    "sources/expansion-20260925-batch3/urls.json": {
+      "path": "sources/expansion-20260925-batch3/urls.json",
+      "bytes": 360,
+      "sha256": "005d9646e038abe2c7850f04188542b22b35a7601d4cc2c68b7dc42397ee0514",
+      "object": "docs/blog/evidence/objects/005d9646e038abe2c7850f04188542b22b35a7601d4cc2c68b7dc42397ee0514"
+    },
+    "sources/expansion-20260925-batch3/violet.json": {
+      "path": "sources/expansion-20260925-batch3/violet.json",
+      "bytes": 1069,
+      "sha256": "558b2410808a6e3d497d7ad84e4bce8af2f2ee5f85af5aa2ad82b4609ae72b8a",
+      "object": "docs/blog/evidence/objects/558b2410808a6e3d497d7ad84e4bce8af2f2ee5f85af5aa2ad82b4609ae72b8a"
+    },
+    "sources/expansion-20260925-batch4/anchorhead.json": {
+      "path": "sources/expansion-20260925-batch4/anchorhead.json",
+      "bytes": 1007,
+      "sha256": "b7e552e5818af13aeac66b145821147e36a61d4e10e1e269720d999d78f62f00",
+      "object": "docs/blog/evidence/objects/b7e552e5818af13aeac66b145821147e36a61d4e10e1e269720d999d78f62f00"
+    },
+    "sources/expansion-20260925-batch4/curses.json": {
+      "path": "sources/expansion-20260925-batch4/curses.json",
+      "bytes": 978,
+      "sha256": "cd7fe3cde2a0bbb0e215c4710768385b81718caaec61d48a0288f654de068438",
+      "object": "docs/blog/evidence/objects/cd7fe3cde2a0bbb0e215c4710768385b81718caaec61d48a0288f654de068438"
+    },
+    "sources/expansion-20260925-batch4/savoir-faire.json": {
+      "path": "sources/expansion-20260925-batch4/savoir-faire.json",
+      "bytes": 1029,
+      "sha256": "2edb7a1909c675853b0251301e96482bd870d0edcfdfa4e58414a8e726f10353",
+      "object": "docs/blog/evidence/objects/2edb7a1909c675853b0251301e96482bd870d0edcfdfa4e58414a8e726f10353"
+    },
+    "sources/expansion-20260925-batch4/splits-before.json": {
+      "path": "sources/expansion-20260925-batch4/splits-before.json",
+      "bytes": 1221,
+      "sha256": "7ab1a4e4f267a1e5016aaec023f97e2e7a6e11a2965ef79cd7a639ff6de213ac",
+      "object": "docs/blog/evidence/objects/7ab1a4e4f267a1e5016aaec023f97e2e7a6e11a2965ef79cd7a639ff6de213ac"
+    },
+    "sources/expansion-20260925-batch4/theatre.json": {
+      "path": "sources/expansion-20260925-batch4/theatre.json",
+      "bytes": 998,
+      "sha256": "40bcc1f739729a8ba0e8215b5b9d84f9689bdd4de9fb900c4ec26708eb3762e3",
+      "object": "docs/blog/evidence/objects/40bcc1f739729a8ba0e8215b5b9d84f9689bdd4de9fb900c4ec26708eb3762e3"
+    },
+    "sources/expansion-20260925-batch4/urls.json": {
+      "path": "sources/expansion-20260925-batch4/urls.json",
+      "bytes": 296,
+      "sha256": "3db1ff48ae60ced58e1e940ebd46afe363c42b77b78951fa2cb6696122f97a74",
+      "object": "docs/blog/evidence/objects/3db1ff48ae60ced58e1e940ebd46afe363c42b77b78951fa2cb6696122f97a74"
+    },
+    "control/expansion-launch-20260925-batch3.json": {
+      "path": "control/expansion-launch-20260925-batch3.json",
+      "bytes": 22673,
+      "sha256": "c6808f278c527db71f8440291e07e096d85d4dcd35877cd9a54a4aeb32440372",
+      "object": "docs/blog/evidence/objects/c6808f278c527db71f8440291e07e096d85d4dcd35877cd9a54a4aeb32440372"
+    },
+    "control/expansion-launch-20260925-batch4.json": {
+      "path": "control/expansion-launch-20260925-batch4.json",
+      "bytes": 12818,
+      "sha256": "827ed3df7e48490575fc90617e4e7857e1e9e913af2a9d68b5352debb66577db",
+      "object": "docs/blog/evidence/objects/827ed3df7e48490575fc90617e4e7857e1e9e913af2a9d68b5352debb66577db"
+    },
+    "control/expansion-launch-20260925.json": {
+      "path": "control/expansion-launch-20260925.json",
+      "bytes": 2901,
+      "sha256": "906ed0a4a5db78d5c4799900db70a0d8caf4f0b249023825efd086a4443f3e5d",
+      "object": "docs/blog/evidence/objects/906ed0a4a5db78d5c4799900db70a0d8caf4f0b249023825efd086a4443f3e5d"
+    },
+    "sources/refill-20260925/acorn-court.json": {
+      "path": "sources/refill-20260925/acorn-court.json",
+      "bytes": 978,
+      "sha256": "dd98b97952181ed1aa00f832624127b8153a35f989090595bab11418dba603e7",
+      "object": "docs/blog/evidence/objects/dd98b97952181ed1aa00f832624127b8153a35f989090595bab11418dba603e7"
+    },
+    "sources/refill-20260925/balances.json": {
+      "path": "sources/refill-20260925/balances.json",
+      "bytes": 902,
+      "sha256": "56c356554dd03becbd5c3d3b031ad98dd6b0aeae20ddbbe5e1d04c1b8390f32b",
+      "object": "docs/blog/evidence/objects/56c356554dd03becbd5c3d3b031ad98dd6b0aeae20ddbbe5e1d04c1b8390f32b"
+    },
+    "sources/refill-20260925/bears-night-out.json": {
+      "path": "sources/refill-20260925/bears-night-out.json",
+      "bytes": 971,
+      "sha256": "7691e614b98394d7a0eca9929181a9f338c477f71d96602e957e360ecc7e8b59",
+      "object": "docs/blog/evidence/objects/7691e614b98394d7a0eca9929181a9f338c477f71d96602e957e360ecc7e8b59"
+    },
+    "sources/refill-20260925/change-in-weather.json": {
+      "path": "sources/refill-20260925/change-in-weather.json",
+      "bytes": 1013,
+      "sha256": "94e0d1ee968c44c8a26240e94f447f1806644e1fe523e52e2b1f89e5c4c3132d",
+      "object": "docs/blog/evidence/objects/94e0d1ee968c44c8a26240e94f447f1806644e1fe523e52e2b1f89e5c4c3132d"
+    },
+    "sources/refill-20260925/childs-play.json": {
+      "path": "sources/refill-20260925/childs-play.json",
+      "bytes": 1329,
+      "sha256": "249bd0e218152a958a37598dd946ebf4ae86fa19b00dbe7b8d200e3a27120a75",
+      "object": "docs/blog/evidence/objects/249bd0e218152a958a37598dd946ebf4ae86fa19b00dbe7b8d200e3a27120a75"
+    },
+    "sources/refill-20260925/delusions.json": {
+      "path": "sources/refill-20260925/delusions.json",
+      "bytes": 1207,
+      "sha256": "72dad17ded7827692d7b9feefa92443953600eb36807c58e9fb34194fc6d7b55",
+      "object": "docs/blog/evidence/objects/72dad17ded7827692d7b9feefa92443953600eb36807c58e9fb34194fc6d7b55"
+    },
+    "sources/refill-20260925/hunter-in-darkness.json": {
+      "path": "sources/refill-20260925/hunter-in-darkness.json",
+      "bytes": 968,
+      "sha256": "cbb754a174533f8d4cfe25797f813a169c39ec24ddd60977a6d141191589dca6",
+      "object": "docs/blog/evidence/objects/cbb754a174533f8d4cfe25797f813a169c39ec24ddd60977a6d141191589dca6"
+    },
+    "sources/refill-20260925/jewel-of-knowledge.json": {
+      "path": "sources/refill-20260925/jewel-of-knowledge.json",
+      "bytes": 1055,
+      "sha256": "e6c3bb62ad0fd1d5f8821e34769b1a92c2e5694904ed260fe07fcba2ad73ab10",
+      "object": "docs/blog/evidence/objects/e6c3bb62ad0fd1d5f8821e34769b1a92c2e5694904ed260fe07fcba2ad73ab10"
+    },
+    "sources/refill-20260925/jigsaw.json": {
+      "path": "sources/refill-20260925/jigsaw.json",
+      "bytes": 933,
+      "sha256": "3b874c965a7e03bf6e333b7474f89a1e680b8d3b2892a9dfa62977e8cc819dd0",
+      "object": "docs/blog/evidence/objects/3b874c965a7e03bf6e333b7474f89a1e680b8d3b2892a9dfa62977e8cc819dd0"
+    },
+    "sources/refill-20260925/moon-shaped.json": {
+      "path": "sources/refill-20260925/moon-shaped.json",
+      "bytes": 1295,
+      "sha256": "d6c00573725254d8be7dd49a85f519e79c14ba04fd4ef5d5157ccf562ee947af",
+      "object": "docs/blog/evidence/objects/d6c00573725254d8be7dd49a85f519e79c14ba04fd4ef5d5157ccf562ee947af"
+    },
+    "sources/refill-20260925/so-far.json": {
+      "path": "sources/refill-20260925/so-far.json",
+      "bytes": 874,
+      "sha256": "9fec96f0afc7303c7a8aba42c2bbcc15a9a8ac5f11fb8543be39a2184f80abf6",
+      "object": "docs/blog/evidence/objects/9fec96f0afc7303c7a8aba42c2bbcc15a9a8ac5f11fb8543be39a2184f80abf6"
+    },
+    "sources/refill-20260925/spider-and-web.json": {
+      "path": "sources/refill-20260925/spider-and-web.json",
+      "bytes": 952,
+      "sha256": "3f134b055fa55a3c1bcba51cd90b27f07c07fdb09cae41917553be2f51f7f0bc",
+      "object": "docs/blog/evidence/objects/3f134b055fa55a3c1bcba51cd90b27f07c07fdb09cae41917553be2f51f7f0bc"
+    },
+    "sources/refill-20260925/tryst-of-fate.json": {
+      "path": "sources/refill-20260925/tryst-of-fate.json",
+      "bytes": 1044,
+      "sha256": "c403204034ae0d914adeb02eff0c7d1610079515a6b47bacefc2fbc415ffc959",
+      "object": "docs/blog/evidence/objects/c403204034ae0d914adeb02eff0c7d1610079515a6b47bacefc2fbc415ffc959"
+    },
+    "control/worker-pool-status.json": {
+      "path": "control/worker-pool-status.json",
+      "bytes": 663,
+      "sha256": "fff43e29006bcb73ca86fcfea7f30951dc9ef355a68378edad80b8ad267bb492",
+      "object": "docs/blog/evidence/objects/fff43e29006bcb73ca86fcfea7f30951dc9ef355a68378edad80b8ad267bb492"
+    },
+    "control/worker-pool-verification-20260925T0353.json": {
+      "path": "control/worker-pool-verification-20260925T0353.json",
+      "bytes": 2572,
+      "sha256": "86e2dcaf3daf3931f4de60092945cee42ef12937ae0c9c3e4c904b03df248aab",
+      "object": "docs/blog/evidence/objects/86e2dcaf3daf3931f4de60092945cee42ef12937ae0c9c3e4c904b03df248aab"
+    },
+    "control/worker-pool.json": {
+      "path": "control/worker-pool.json",
+      "bytes": 396,
+      "sha256": "cc452d290b7bde8cabb5136670f8de793eaebd36928e4925087e60b6dff9bdbb",
+      "object": "docs/blog/evidence/objects/cc452d290b7bde8cabb5136670f8de793eaebd36928e4925087e60b6dff9bdbb"
+    },
+    "control/worker-pool.service": {
+      "path": "control/worker-pool.service",
+      "bytes": 515,
+      "sha256": "a501c0644725f6353106654396a2e23e35bbbe8c5bdaf976918238f552b6285b",
+      "object": "docs/blog/evidence/objects/a501c0644725f6353106654396a2e23e35bbbe8c5bdaf976918238f552b6285b"
+    },
+    "play/905/manifest.json": {
+      "path": "play/905/manifest.json",
+      "bytes": 1368,
+      "sha256": "5444f144aba4ab57e2cd580fa82244da6e465af055b3b8216a8ceab136f0b4bd",
+      "object": "docs/blog/evidence/objects/5444f144aba4ab57e2cd580fa82244da6e465af055b3b8216a8ceab136f0b4bd"
+    },
+    "play/905/ending-claim.json": {
+      "path": "play/905/ending-claim.json",
+      "bytes": 1103,
+      "sha256": "529798eecaf8cd2fb3cd0668584b40f316611a32fee55748f6f29b56a2af40a0",
+      "object": "docs/blog/evidence/objects/529798eecaf8cd2fb3cd0668584b40f316611a32fee55748f6f29b56a2af40a0"
+    },
+    "play/905/progress.md": {
+      "path": "play/905/progress.md",
+      "bytes": 1068,
+      "sha256": "eb4c929a7627cab8c881c4207235274a53600174b67c44198701843fcde087b2",
+      "object": "docs/blog/evidence/objects/eb4c929a7627cab8c881c4207235274a53600174b67c44198701843fcde087b2"
+    },
+    "play/905/collection-notes.md": {
+      "path": "play/905/collection-notes.md",
+      "bytes": 908,
+      "sha256": "d56a53ae78e130c762d385c19217965da7d52c1d0979d4eb6bac731d83920767",
+      "object": "docs/blog/evidence/objects/d56a53ae78e130c762d385c19217965da7d52c1d0979d4eb6bac731d83920767"
+    },
+    "play/acorn-court/manifest.json": {
+      "path": "play/acorn-court/manifest.json",
+      "bytes": 1877,
+      "sha256": "73368ac13e0ce0a6edc9e4489ffe95474c1542753e2072058402451ea6654790",
+      "object": "docs/blog/evidence/objects/73368ac13e0ce0a6edc9e4489ffe95474c1542753e2072058402451ea6654790"
+    },
+    "play/acorn-court/ending-claim.json": {
+      "path": "play/acorn-court/ending-claim.json",
+      "bytes": 1147,
+      "sha256": "7c4cd9405cd580b5faa308aa90ea0aa6dc1a76f80e182032efb370663776e136",
+      "object": "docs/blog/evidence/objects/7c4cd9405cd580b5faa308aa90ea0aa6dc1a76f80e182032efb370663776e136"
+    },
+    "play/acorn-court/progress.md": {
+      "path": "play/acorn-court/progress.md",
+      "bytes": 2203,
+      "sha256": "3ae890aeca139217f07c09ff7d3bb4051e317feef8fbcc3dacd64a0a660354ff",
+      "object": "docs/blog/evidence/objects/3ae890aeca139217f07c09ff7d3bb4051e317feef8fbcc3dacd64a0a660354ff"
+    },
+    "play/acorn-court/collection-notes.md": {
+      "path": "play/acorn-court/collection-notes.md",
+      "bytes": 524,
+      "sha256": "da08500a41f3e5315c478ba92999d2683b128fcb13b49964a78a173dad8c9aa7",
+      "object": "docs/blog/evidence/objects/da08500a41f3e5315c478ba92999d2683b128fcb13b49964a78a173dad8c9aa7"
+    },
+    "play/adventureland/manifest.json": {
+      "path": "play/adventureland/manifest.json",
+      "bytes": 721,
+      "sha256": "e8671eb0d69e02537387b20de3c1f0a6c4eec7b5880b7b53c212e1b2f374b08d",
+      "object": "docs/blog/evidence/objects/e8671eb0d69e02537387b20de3c1f0a6c4eec7b5880b7b53c212e1b2f374b08d"
+    },
+    "play/adventureland/ending-claim.json": {
+      "path": "play/adventureland/ending-claim.json",
+      "bytes": 970,
+      "sha256": "059db66fa0e70b74675ef7d09d2870d4b58ddf74d9679319309921f0698fd410",
+      "object": "docs/blog/evidence/objects/059db66fa0e70b74675ef7d09d2870d4b58ddf74d9679319309921f0698fd410"
+    },
+    "play/adventureland/progress.md": {
+      "path": "play/adventureland/progress.md",
+      "bytes": 896,
+      "sha256": "01d166e3f17f4c40b427915f87a2dd6bd9852d7a7ab041e049a6172538856a5e",
+      "object": "docs/blog/evidence/objects/01d166e3f17f4c40b427915f87a2dd6bd9852d7a7ab041e049a6172538856a5e"
+    },
+    "play/anchorhead/manifest.json": {
+      "path": "play/anchorhead/manifest.json",
+      "bytes": 2075,
+      "sha256": "efc079dd639a2e08d2cd5a9fcfa531c41129efd7a1ebf40939873629e8431bf2",
+      "object": "docs/blog/evidence/objects/efc079dd639a2e08d2cd5a9fcfa531c41129efd7a1ebf40939873629e8431bf2"
+    },
+    "play/anchorhead/progress.md": {
+      "path": "play/anchorhead/progress.md",
+      "bytes": 2427,
+      "sha256": "d921184aa870bcb210e3d256d7c44543b8f2efb0cab78a5df41b8ddfc7fcdba2",
+      "object": "docs/blog/evidence/objects/d921184aa870bcb210e3d256d7c44543b8f2efb0cab78a5df41b8ddfc7fcdba2"
+    },
+    "play/anchorhead/collection-notes.md": {
+      "path": "play/anchorhead/collection-notes.md",
+      "bytes": 1815,
+      "sha256": "42cee9bca17f19528fbf8f772ca794ab6b7d3a262344525a40d57df21b3bb4f4",
+      "object": "docs/blog/evidence/objects/42cee9bca17f19528fbf8f772ca794ab6b7d3a262344525a40d57df21b3bb4f4"
+    },
+    "play/balances/manifest.json": {
+      "path": "play/balances/manifest.json",
+      "bytes": 2019,
+      "sha256": "094b7368a6826d34f220fccf01cb2392761cf0feb5eceeec2946722dd8311195",
+      "object": "docs/blog/evidence/objects/094b7368a6826d34f220fccf01cb2392761cf0feb5eceeec2946722dd8311195"
+    },
+    "play/balances/ending-claim.json": {
+      "path": "play/balances/ending-claim.json",
+      "bytes": 852,
+      "sha256": "ac0abcb352362acd67667aa0a986dc9a0a9705bec9da3b5005b085ab9c18115d",
+      "object": "docs/blog/evidence/objects/ac0abcb352362acd67667aa0a986dc9a0a9705bec9da3b5005b085ab9c18115d"
+    },
+    "play/balances/progress.md": {
+      "path": "play/balances/progress.md",
+      "bytes": 1039,
+      "sha256": "01c09ad14b8b468a1ef32549fe16773a21a6cdec0abacb9ca13703e05cbd055a",
+      "object": "docs/blog/evidence/objects/01c09ad14b8b468a1ef32549fe16773a21a6cdec0abacb9ca13703e05cbd055a"
+    },
+    "play/balances/collection-notes.md": {
+      "path": "play/balances/collection-notes.md",
+      "bytes": 717,
+      "sha256": "35cd171192c4905a2dae27121d01bf93500c04ff6a0fd7d502b940e2977e09c3",
+      "object": "docs/blog/evidence/objects/35cd171192c4905a2dae27121d01bf93500c04ff6a0fd7d502b940e2977e09c3"
+    },
+    "play/bears-night-out/manifest.json": {
+      "path": "play/bears-night-out/manifest.json",
+      "bytes": 1879,
+      "sha256": "4ed626b6dfc488223b1755c5dd10e580ca37febd7c40cf3766e57957c35dfd33",
+      "object": "docs/blog/evidence/objects/4ed626b6dfc488223b1755c5dd10e580ca37febd7c40cf3766e57957c35dfd33"
+    },
+    "play/bears-night-out/ending-claim.json": {
+      "path": "play/bears-night-out/ending-claim.json",
+      "bytes": 991,
+      "sha256": "a9b295850ebda34a5ce9c95657af52421d12ef1c23244422cd5949b263626e31",
+      "object": "docs/blog/evidence/objects/a9b295850ebda34a5ce9c95657af52421d12ef1c23244422cd5949b263626e31"
+    },
+    "play/bears-night-out/progress.md": {
+      "path": "play/bears-night-out/progress.md",
+      "bytes": 1724,
+      "sha256": "fb8af4c0973162d07cbfa406823064b8fd5a635f124b43ef446debaa71bed57d",
+      "object": "docs/blog/evidence/objects/fb8af4c0973162d07cbfa406823064b8fd5a635f124b43ef446debaa71bed57d"
+    },
+    "play/bears-night-out/collection-notes.md": {
+      "path": "play/bears-night-out/collection-notes.md",
+      "bytes": 521,
+      "sha256": "631933c56df719bdb3911a201b4e3ad0bd931fb344d970a451925b7b12849025",
+      "object": "docs/blog/evidence/objects/631933c56df719bdb3911a201b4e3ad0bd931fb344d970a451925b7b12849025"
+    },
+    "play/bronze/manifest.json": {
+      "path": "play/bronze/manifest.json",
+      "bytes": 1236,
+      "sha256": "c892b544f8cb1dac70c052efc629cd5a7646d34cf7fc064907cc826a656bf68d",
+      "object": "docs/blog/evidence/objects/c892b544f8cb1dac70c052efc629cd5a7646d34cf7fc064907cc826a656bf68d"
+    },
+    "play/bronze/ending-claim.json": {
+      "path": "play/bronze/ending-claim.json",
+      "bytes": 1276,
+      "sha256": "c5f0d4128389b0159560a2056e8ca974789df36eb7c73572c799326751170bab",
+      "object": "docs/blog/evidence/objects/c5f0d4128389b0159560a2056e8ca974789df36eb7c73572c799326751170bab"
+    },
+    "play/bronze/progress.md": {
+      "path": "play/bronze/progress.md",
+      "bytes": 3400,
+      "sha256": "6caad3172f9a7659422cb18aaa83f4e9e78e6aa11dc0315b82634fb3186da2a1",
+      "object": "docs/blog/evidence/objects/6caad3172f9a7659422cb18aaa83f4e9e78e6aa11dc0315b82634fb3186da2a1"
+    },
+    "play/bronze/collection-notes.md": {
+      "path": "play/bronze/collection-notes.md",
+      "bytes": 1409,
+      "sha256": "c8158d17b7cbf971089aa2324e9b59192c82bd158c1e1056fab0b223c18e515a",
+      "object": "docs/blog/evidence/objects/c8158d17b7cbf971089aa2324e9b59192c82bd158c1e1056fab0b223c18e515a"
+    },
+    "play/change-in-weather/manifest.json": {
+      "path": "play/change-in-weather/manifest.json",
+      "bytes": 1879,
+      "sha256": "4814fc74fdd7ef82cc02fdb903fa42956be480cf2f086a54ad173e89a2376c6b",
+      "object": "docs/blog/evidence/objects/4814fc74fdd7ef82cc02fdb903fa42956be480cf2f086a54ad173e89a2376c6b"
+    },
+    "play/change-in-weather/progress.md": {
+      "path": "play/change-in-weather/progress.md",
+      "bytes": 1011,
+      "sha256": "5dfd7789db9384c262169c7d4a087c0ca6267ca6cec782175e70b6fe4bc7ff8c",
+      "object": "docs/blog/evidence/objects/5dfd7789db9384c262169c7d4a087c0ca6267ca6cec782175e70b6fe4bc7ff8c"
+    },
+    "play/change-in-weather/collection-notes.md": {
+      "path": "play/change-in-weather/collection-notes.md",
+      "bytes": 487,
+      "sha256": "ccbf13158c78f07552b365b12e0b87758e6839a28e181530606456fef3711d17",
+      "object": "docs/blog/evidence/objects/ccbf13158c78f07552b365b12e0b87758e6839a28e181530606456fef3711d17"
+    },
+    "play/curses/manifest.json": {
+      "path": "play/curses/manifest.json",
+      "bytes": 1288,
+      "sha256": "87069ff902909f576bb86ba9e13443a2faef3cc968cbe999a1aa36ecee45e643",
+      "object": "docs/blog/evidence/objects/87069ff902909f576bb86ba9e13443a2faef3cc968cbe999a1aa36ecee45e643"
+    },
+    "play/curses/progress.md": {
+      "path": "play/curses/progress.md",
+      "bytes": 3004,
+      "sha256": "4b567563a954674f71bf4d9ed4f35a1dd40f059af0f8a98b6f5ee872502e9c39",
+      "object": "docs/blog/evidence/objects/4b567563a954674f71bf4d9ed4f35a1dd40f059af0f8a98b6f5ee872502e9c39"
+    },
+    "play/curses/collection-notes.md": {
+      "path": "play/curses/collection-notes.md",
+      "bytes": 1373,
+      "sha256": "3b3d4eb287f16ed6f3b653f5a8a31efa31f8e2f4f29423185034e5714229ad8a",
+      "object": "docs/blog/evidence/objects/3b3d4eb287f16ed6f3b653f5a8a31efa31f8e2f4f29423185034e5714229ad8a"
+    },
+    "play/dreamhold/manifest.json": {
+      "path": "play/dreamhold/manifest.json",
+      "bytes": 1255,
+      "sha256": "5c581d63b37a2bcd44038f07996d4c2b617eceeb26a6630452d665039ada2ce8",
+      "object": "docs/blog/evidence/objects/5c581d63b37a2bcd44038f07996d4c2b617eceeb26a6630452d665039ada2ce8"
+    },
+    "play/dreamhold/progress.md": {
+      "path": "play/dreamhold/progress.md",
+      "bytes": 1876,
+      "sha256": "9d03617e1262857af376cd8a5f3ba2bc011adce1e19f0091d5a041cabfbb3fbc",
+      "object": "docs/blog/evidence/objects/9d03617e1262857af376cd8a5f3ba2bc011adce1e19f0091d5a041cabfbb3fbc"
+    },
+    "play/dreamhold/collection-notes.md": {
+      "path": "play/dreamhold/collection-notes.md",
+      "bytes": 1393,
+      "sha256": "acc0dde47f13b3e197254d76f7af45fe70c0842ff99f06f435d93ad72fbd8515",
+      "object": "docs/blog/evidence/objects/acc0dde47f13b3e197254d76f7af45fe70c0842ff99f06f435d93ad72fbd8515"
+    },
+    "play/hhgttg/manifest.json": {
+      "path": "play/hhgttg/manifest.json",
+      "bytes": 1481,
+      "sha256": "d3b5e19cdf1ef5e16b75388a69d596cc2eb4e2cb7668e01b81cf5a67faf83b6b",
+      "object": "docs/blog/evidence/objects/d3b5e19cdf1ef5e16b75388a69d596cc2eb4e2cb7668e01b81cf5a67faf83b6b"
+    },
+    "play/hhgttg/ending-claim.json": {
+      "path": "play/hhgttg/ending-claim.json",
+      "bytes": 1231,
+      "sha256": "8c55fad8db8c9f5bd50b52da14299432885c820d42550bcbeb974db73b38f473",
+      "object": "docs/blog/evidence/objects/8c55fad8db8c9f5bd50b52da14299432885c820d42550bcbeb974db73b38f473"
+    },
+    "play/hhgttg/progress.md": {
+      "path": "play/hhgttg/progress.md",
+      "bytes": 163914,
+      "sha256": "440a9d881ac3118f93543e782a07ec3116a7b1e4db456ed60760fe5b9c1b0835",
+      "object": "docs/blog/evidence/objects/440a9d881ac3118f93543e782a07ec3116a7b1e4db456ed60760fe5b9c1b0835"
+    },
+    "play/hunter-in-darkness/manifest.json": {
+      "path": "play/hunter-in-darkness/manifest.json",
+      "bytes": 2165,
+      "sha256": "570c71690194d81f8569bacce8f7ec546fde5208073cf5646e06cedf571d6c64",
+      "object": "docs/blog/evidence/objects/570c71690194d81f8569bacce8f7ec546fde5208073cf5646e06cedf571d6c64"
+    },
+    "play/hunter-in-darkness/ending-claim.json": {
+      "path": "play/hunter-in-darkness/ending-claim.json",
+      "bytes": 1284,
+      "sha256": "87aafd216a889eb67d1ae397252c94c12e72ac5a40ad21fafed646b71d5cc6d0",
+      "object": "docs/blog/evidence/objects/87aafd216a889eb67d1ae397252c94c12e72ac5a40ad21fafed646b71d5cc6d0"
+    },
+    "play/hunter-in-darkness/progress.md": {
+      "path": "play/hunter-in-darkness/progress.md",
+      "bytes": 854,
+      "sha256": "131db24f5fc6fce97350d1f21dc9881866b72a490a872b28e1dfc94cccd16bda",
+      "object": "docs/blog/evidence/objects/131db24f5fc6fce97350d1f21dc9881866b72a490a872b28e1dfc94cccd16bda"
+    },
+    "play/hunter-in-darkness/collection-notes.md": {
+      "path": "play/hunter-in-darkness/collection-notes.md",
+      "bytes": 765,
+      "sha256": "6537774817ecbb46f0b7eee5f46eb12664d6ef2893aab381bce122ed9d80b22e",
+      "object": "docs/blog/evidence/objects/6537774817ecbb46f0b7eee5f46eb12664d6ef2893aab381bce122ed9d80b22e"
+    },
+    "play/jewel-of-knowledge/manifest.json": {
+      "path": "play/jewel-of-knowledge/manifest.json",
+      "bytes": 2149,
+      "sha256": "eafa3bc3c66c9904baa84bee0feeeb5efe82061c0db7eaac5da390e9141465f5",
+      "object": "docs/blog/evidence/objects/eafa3bc3c66c9904baa84bee0feeeb5efe82061c0db7eaac5da390e9141465f5"
+    },
+    "play/jewel-of-knowledge/progress.md": {
+      "path": "play/jewel-of-knowledge/progress.md",
+      "bytes": 1327,
+      "sha256": "28461075543eb970ea04a3ba8cd75d5c26eacb1dbe5ab6a2b185be037f225575",
+      "object": "docs/blog/evidence/objects/28461075543eb970ea04a3ba8cd75d5c26eacb1dbe5ab6a2b185be037f225575"
+    },
+    "play/jewel-of-knowledge/collection-notes.md": {
+      "path": "play/jewel-of-knowledge/collection-notes.md",
+      "bytes": 675,
+      "sha256": "07fda586166871348406eb73c9b65b0c4ed6af7b0516a4820428d72fc82a0aff",
+      "object": "docs/blog/evidence/objects/07fda586166871348406eb73c9b65b0c4ed6af7b0516a4820428d72fc82a0aff"
+    },
+    "play/jigsaw/manifest.json": {
+      "path": "play/jigsaw/manifest.json",
+      "bytes": 2087,
+      "sha256": "54d23d37e29a8eb58f9fa4d1c46fe598a593e9af518c13eeda9b20926d5016e2",
+      "object": "docs/blog/evidence/objects/54d23d37e29a8eb58f9fa4d1c46fe598a593e9af518c13eeda9b20926d5016e2"
+    },
+    "play/jigsaw/progress.md": {
+      "path": "play/jigsaw/progress.md",
+      "bytes": 2644,
+      "sha256": "4a6378131a8976980a0a21d80f464d8580da5b91b81f2c9a6e114867bbbd0990",
+      "object": "docs/blog/evidence/objects/4a6378131a8976980a0a21d80f464d8580da5b91b81f2c9a6e114867bbbd0990"
+    },
+    "play/jigsaw/collection-notes.md": {
+      "path": "play/jigsaw/collection-notes.md",
+      "bytes": 757,
+      "sha256": "4d99b9bcbbba0ba157bbcc266a6f0a9213494a5053ac8a23b0dc58ff9ad8fc66",
+      "object": "docs/blog/evidence/objects/4d99b9bcbbba0ba157bbcc266a6f0a9213494a5053ac8a23b0dc58ff9ad8fc66"
+    },
+    "play/lost-pig/manifest.json": {
+      "path": "play/lost-pig/manifest.json",
+      "bytes": 717,
+      "sha256": "a3e1029302a35fa62eab20053c5c62fd4ca162ea7cb237f8009f7c12dcbe61f5",
+      "object": "docs/blog/evidence/objects/a3e1029302a35fa62eab20053c5c62fd4ca162ea7cb237f8009f7c12dcbe61f5"
+    },
+    "play/lost-pig/ending-claim.json": {
+      "path": "play/lost-pig/ending-claim.json",
+      "bytes": 1207,
+      "sha256": "97dc3604602e2616ec5289417913cdfa10fa7c1ab9ef110d40421acb16fbd0f4",
+      "object": "docs/blog/evidence/objects/97dc3604602e2616ec5289417913cdfa10fa7c1ab9ef110d40421acb16fbd0f4"
+    },
+    "play/lost-pig/progress.md": {
+      "path": "play/lost-pig/progress.md",
+      "bytes": 1324,
+      "sha256": "161fa23e9386cade9c5881a5b193b0475afa26f36ea4b23fbbff415429573fa2",
+      "object": "docs/blog/evidence/objects/161fa23e9386cade9c5881a5b193b0475afa26f36ea4b23fbbff415429573fa2"
+    },
+    "play/photopia/manifest.json": {
+      "path": "play/photopia/manifest.json",
+      "bytes": 1422,
+      "sha256": "c634faedaa2c83e84be3d849a3f492eed85858f4a7982b32879cffe13f1a1517",
+      "object": "docs/blog/evidence/objects/c634faedaa2c83e84be3d849a3f492eed85858f4a7982b32879cffe13f1a1517"
+    },
+    "play/photopia/ending-claim.json": {
+      "path": "play/photopia/ending-claim.json",
+      "bytes": 983,
+      "sha256": "40f3119785d487b2525a27284aaf22de5ab7a8ef11c9e55944518f3d6a037c70",
+      "object": "docs/blog/evidence/objects/40f3119785d487b2525a27284aaf22de5ab7a8ef11c9e55944518f3d6a037c70"
+    },
+    "play/photopia/progress.md": {
+      "path": "play/photopia/progress.md",
+      "bytes": 943,
+      "sha256": "22bdb0c477909776f8ecebf5e6f9c8ecd1e601dbfab876a0643a7b263947fccf",
+      "object": "docs/blog/evidence/objects/22bdb0c477909776f8ecebf5e6f9c8ecd1e601dbfab876a0643a7b263947fccf"
+    },
+    "play/photopia/collection-notes.md": {
+      "path": "play/photopia/collection-notes.md",
+      "bytes": 770,
+      "sha256": "61dec9ad53b4c7d002f9fb648b8c07be45fe922a93a37c4b4b280912dfd83363",
+      "object": "docs/blog/evidence/objects/61dec9ad53b4c7d002f9fb648b8c07be45fe922a93a37c4b4b280912dfd83363"
+    },
+    "play/pirate-adventure/manifest.json": {
+      "path": "play/pirate-adventure/manifest.json",
+      "bytes": 731,
+      "sha256": "ea801e6af40cc9cde1c638e3a1b8c0d9194c4e370235229f8fd2a8e82fce1e7c",
+      "object": "docs/blog/evidence/objects/ea801e6af40cc9cde1c638e3a1b8c0d9194c4e370235229f8fd2a8e82fce1e7c"
+    },
+    "play/pirate-adventure/ending-claim.json": {
+      "path": "play/pirate-adventure/ending-claim.json",
+      "bytes": 1153,
+      "sha256": "adba6ec276c4283d38e61e3b91c1c9ae41d4682241fd0de472576b5ffb670c73",
+      "object": "docs/blog/evidence/objects/adba6ec276c4283d38e61e3b91c1c9ae41d4682241fd0de472576b5ffb670c73"
+    },
+    "play/pirate-adventure/progress.md": {
+      "path": "play/pirate-adventure/progress.md",
+      "bytes": 1520,
+      "sha256": "7f1651be0085ee439f9a60a4b74250c28a88cb3e5ee03f4c823021484a7cd22c",
+      "object": "docs/blog/evidence/objects/7f1651be0085ee439f9a60a4b74250c28a88cb3e5ee03f4c823021484a7cd22c"
+    },
+    "play/savoir-faire/manifest.json": {
+      "path": "play/savoir-faire/manifest.json",
+      "bytes": 2025,
+      "sha256": "db1ff2591037ee9e1717cb2fea0398b828ae4f03f6a0e4a5177bef9a7119f4cb",
+      "object": "docs/blog/evidence/objects/db1ff2591037ee9e1717cb2fea0398b828ae4f03f6a0e4a5177bef9a7119f4cb"
+    },
+    "play/savoir-faire/progress.md": {
+      "path": "play/savoir-faire/progress.md",
+      "bytes": 73097,
+      "sha256": "ccf57d3134e14f0712df16e8248291c450eed0720d046e394ad2ea9ae87e0960",
+      "object": "docs/blog/evidence/objects/ccf57d3134e14f0712df16e8248291c450eed0720d046e394ad2ea9ae87e0960"
+    },
+    "play/savoir-faire/collection-notes.md": {
+      "path": "play/savoir-faire/collection-notes.md",
+      "bytes": 1802,
+      "sha256": "b0f05f09fe63d0007884030b70da6cba1c5e36dd9d677fe265136c00b7926380",
+      "object": "docs/blog/evidence/objects/b0f05f09fe63d0007884030b70da6cba1c5e36dd9d677fe265136c00b7926380"
+    },
+    "play/secret-mission/manifest.json": {
+      "path": "play/secret-mission/manifest.json",
+      "bytes": 1454,
+      "sha256": "54e3d58c6ebc2cab4932ca2f493ec69119f5eeafb3fe997fb06e43dae9a5c51e",
+      "object": "docs/blog/evidence/objects/54e3d58c6ebc2cab4932ca2f493ec69119f5eeafb3fe997fb06e43dae9a5c51e"
+    },
+    "play/secret-mission/ending-claim.json": {
+      "path": "play/secret-mission/ending-claim.json",
+      "bytes": 1126,
+      "sha256": "2158ab4ac236af8a74f19c5cd633da03d2a41d1c1c505396a68cf8446cc0f676",
+      "object": "docs/blog/evidence/objects/2158ab4ac236af8a74f19c5cd633da03d2a41d1c1c505396a68cf8446cc0f676"
+    },
+    "play/secret-mission/progress.md": {
+      "path": "play/secret-mission/progress.md",
+      "bytes": 1545,
+      "sha256": "bd2eb05a849c1de2d0b8a64cb39ea62694c99ffb130c15cd1e80554baf190cf4",
+      "object": "docs/blog/evidence/objects/bd2eb05a849c1de2d0b8a64cb39ea62694c99ffb130c15cd1e80554baf190cf4"
+    },
+    "play/secret-mission/collection-notes.md": {
+      "path": "play/secret-mission/collection-notes.md",
+      "bytes": 1334,
+      "sha256": "f7c3757fd9f59deb8a6b195a4800381c0236ca3cb9fb21169f3b7c3e598cccda",
+      "object": "docs/blog/evidence/objects/f7c3757fd9f59deb8a6b195a4800381c0236ca3cb9fb21169f3b7c3e598cccda"
+    },
+    "play/shade/manifest.json": {
+      "path": "play/shade/manifest.json",
+      "bytes": 1387,
+      "sha256": "c3bd5306de04514ef3c74fce2bbf4a840000d308dd0f33e242760e50cc93b63d",
+      "object": "docs/blog/evidence/objects/c3bd5306de04514ef3c74fce2bbf4a840000d308dd0f33e242760e50cc93b63d"
+    },
+    "play/shade/ending-claim.json": {
+      "path": "play/shade/ending-claim.json",
+      "bytes": 1391,
+      "sha256": "3f03acb6703ba5af7b8b33cc664a9eba4623e09559b987d5449eb5fe4301b4ce",
+      "object": "docs/blog/evidence/objects/3f03acb6703ba5af7b8b33cc664a9eba4623e09559b987d5449eb5fe4301b4ce"
+    },
+    "play/shade/progress.md": {
+      "path": "play/shade/progress.md",
+      "bytes": 1124,
+      "sha256": "a9d0aced682cf7e252e64a861aa1e33e53b185e353cf4eeb514e38fbe9268f5f",
+      "object": "docs/blog/evidence/objects/a9d0aced682cf7e252e64a861aa1e33e53b185e353cf4eeb514e38fbe9268f5f"
+    },
+    "play/shade/collection-notes.md": {
+      "path": "play/shade/collection-notes.md",
+      "bytes": 575,
+      "sha256": "94b7161afc4a11998718efc751466b2db68489b32aa8f17fe2e559302c45558c",
+      "object": "docs/blog/evidence/objects/94b7161afc4a11998718efc751466b2db68489b32aa8f17fe2e559302c45558c"
+    },
+    "play/slouching-bedlam/manifest.json": {
+      "path": "play/slouching-bedlam/manifest.json",
+      "bytes": 2487,
+      "sha256": "bffe1b1273f28279e11a504380ac436ab544aa5d08c2efdb72e42da9d04dc10f",
+      "object": "docs/blog/evidence/objects/bffe1b1273f28279e11a504380ac436ab544aa5d08c2efdb72e42da9d04dc10f"
+    },
+    "play/slouching-bedlam/ending-claim.json": {
+      "path": "play/slouching-bedlam/ending-claim.json",
+      "bytes": 1258,
+      "sha256": "590894791b25680b62115ce6a804d8370109fbdc9e11d9f976b20943c17baded",
+      "object": "docs/blog/evidence/objects/590894791b25680b62115ce6a804d8370109fbdc9e11d9f976b20943c17baded"
+    },
+    "play/slouching-bedlam/progress.md": {
+      "path": "play/slouching-bedlam/progress.md",
+      "bytes": 1694,
+      "sha256": "b3c55d8301d390a8b77f447f9b6795f3581227d0a4278c0ba5a80d45d1882770",
+      "object": "docs/blog/evidence/objects/b3c55d8301d390a8b77f447f9b6795f3581227d0a4278c0ba5a80d45d1882770"
+    },
+    "play/slouching-bedlam/collection-notes.md": {
+      "path": "play/slouching-bedlam/collection-notes.md",
+      "bytes": 2725,
+      "sha256": "d94a81357a59a6705dd6e057fc9c53c0a2b91055098142fe47e00d60c342b1f0",
+      "object": "docs/blog/evidence/objects/d94a81357a59a6705dd6e057fc9c53c0a2b91055098142fe47e00d60c342b1f0"
+    },
+    "play/so-far/manifest.json": {
+      "path": "play/so-far/manifest.json",
+      "bytes": 1980,
+      "sha256": "023a8081e076ff6c7d68a4af8c12db8c00b62ef59c11c37bc06eb8b36986d5dd",
+      "object": "docs/blog/evidence/objects/023a8081e076ff6c7d68a4af8c12db8c00b62ef59c11c37bc06eb8b36986d5dd"
+    },
+    "play/so-far/progress.md": {
+      "path": "play/so-far/progress.md",
+      "bytes": 1235,
+      "sha256": "c971f5d2a639971d0aa88c0506a94edbc19d897d8322280a7e0ea8501da561a3",
+      "object": "docs/blog/evidence/objects/c971f5d2a639971d0aa88c0506a94edbc19d897d8322280a7e0ea8501da561a3"
+    },
+    "play/so-far/collection-notes.md": {
+      "path": "play/so-far/collection-notes.md",
+      "bytes": 701,
+      "sha256": "ee03f862092a98276dd74356f00337c0cf18c227d54fcc32de00390b9367b67f",
+      "object": "docs/blog/evidence/objects/ee03f862092a98276dd74356f00337c0cf18c227d54fcc32de00390b9367b67f"
+    },
+    "play/spider-and-web/manifest.json": {
+      "path": "play/spider-and-web/manifest.json",
+      "bytes": 2134,
+      "sha256": "1a96b525726f41ff9003cf9acfc98be5586fb8333e1e85689f8e8a7751a51263",
+      "object": "docs/blog/evidence/objects/1a96b525726f41ff9003cf9acfc98be5586fb8333e1e85689f8e8a7751a51263"
+    },
+    "play/spider-and-web/ending-claim.json": {
+      "path": "play/spider-and-web/ending-claim.json",
+      "bytes": 1249,
+      "sha256": "68e78e0b9ac38712900cbdafcf45dfd38555e905481d0aa8bd89b8c1b178e327",
+      "object": "docs/blog/evidence/objects/68e78e0b9ac38712900cbdafcf45dfd38555e905481d0aa8bd89b8c1b178e327"
+    },
+    "play/spider-and-web/progress.md": {
+      "path": "play/spider-and-web/progress.md",
+      "bytes": 2725,
+      "sha256": "ba077c7539fd0561c2951da54aa470978016609761009138bdb85d9beaa09268",
+      "object": "docs/blog/evidence/objects/ba077c7539fd0561c2951da54aa470978016609761009138bdb85d9beaa09268"
+    },
+    "play/spider-and-web/collection-notes.md": {
+      "path": "play/spider-and-web/collection-notes.md",
+      "bytes": 761,
+      "sha256": "43405a9c703017f32845c96318c8b7b4c80cc84e4d66ec5fa246be40c6aed1f3",
+      "object": "docs/blog/evidence/objects/43405a9c703017f32845c96318c8b7b4c80cc84e4d66ec5fa246be40c6aed1f3"
+    },
+    "play/suveh-nux/manifest.json": {
+      "path": "play/suveh-nux/manifest.json",
+      "bytes": 1457,
+      "sha256": "73d07afb062e706f26dbb7e36d481a63f4743e63959758dacf78301ff9b31e39",
+      "object": "docs/blog/evidence/objects/73d07afb062e706f26dbb7e36d481a63f4743e63959758dacf78301ff9b31e39"
+    },
+    "play/suveh-nux/ending-claim.json": {
+      "path": "play/suveh-nux/ending-claim.json",
+      "bytes": 1363,
+      "sha256": "6cced110530434b76ef8bc9e3671481d9ec4030328d976701305379dd7f882bd",
+      "object": "docs/blog/evidence/objects/6cced110530434b76ef8bc9e3671481d9ec4030328d976701305379dd7f882bd"
+    },
+    "play/suveh-nux/progress.md": {
+      "path": "play/suveh-nux/progress.md",
+      "bytes": 1617,
+      "sha256": "ccfa09673963c652b08bf75ea972b1b98981158726644d782bf580def0236b85",
+      "object": "docs/blog/evidence/objects/ccfa09673963c652b08bf75ea972b1b98981158726644d782bf580def0236b85"
+    },
+    "play/suveh-nux/collection-notes.md": {
+      "path": "play/suveh-nux/collection-notes.md",
+      "bytes": 882,
+      "sha256": "e200ea8ce815f1ed7267a4321a358633a78ea5cba93710f23a786989d71e0084",
+      "object": "docs/blog/evidence/objects/e200ea8ce815f1ed7267a4321a358633a78ea5cba93710f23a786989d71e0084"
+    },
+    "play/theatre/manifest.json": {
+      "path": "play/theatre/manifest.json",
+      "bytes": 1293,
+      "sha256": "a5117996cfeea4c440c7fe960db6d9f7a77c74a7c59862681822b12e62539a1a",
+      "object": "docs/blog/evidence/objects/a5117996cfeea4c440c7fe960db6d9f7a77c74a7c59862681822b12e62539a1a"
+    },
+    "play/theatre/progress.md": {
+      "path": "play/theatre/progress.md",
+      "bytes": 2807,
+      "sha256": "f580d7b8ede1758c8d89046ddd98c342f2b76a82285ab0efd192a3ac57061d47",
+      "object": "docs/blog/evidence/objects/f580d7b8ede1758c8d89046ddd98c342f2b76a82285ab0efd192a3ac57061d47"
+    },
+    "play/theatre/collection-notes.md": {
+      "path": "play/theatre/collection-notes.md",
+      "bytes": 1370,
+      "sha256": "ab1682ba952534a4b46c2ecc3498a360fd184ec9536b2426347bc541efacc9f6",
+      "object": "docs/blog/evidence/objects/ab1682ba952534a4b46c2ecc3498a360fd184ec9536b2426347bc541efacc9f6"
+    },
+    "play/violet/manifest.json": {
+      "path": "play/violet/manifest.json",
+      "bytes": 1303,
+      "sha256": "793060608ecae842c321a807ad7fd361c50f0a5ff84e00a0266edb5b282227a2",
+      "object": "docs/blog/evidence/objects/793060608ecae842c321a807ad7fd361c50f0a5ff84e00a0266edb5b282227a2"
+    },
+    "play/violet/ending-claim.json": {
+      "path": "play/violet/ending-claim.json",
+      "bytes": 1096,
+      "sha256": "9a2c327f762a02db46663cc9d5c919c1dfad187a15aad4cd4a62c39a6f829699",
+      "object": "docs/blog/evidence/objects/9a2c327f762a02db46663cc9d5c919c1dfad187a15aad4cd4a62c39a6f829699"
+    },
+    "play/violet/progress.md": {
+      "path": "play/violet/progress.md",
+      "bytes": 1429,
+      "sha256": "d8da6227f9ccf5bb8b8bd322eaf5c412e958a329529916a57058f5cd37f6964c",
+      "object": "docs/blog/evidence/objects/d8da6227f9ccf5bb8b8bd322eaf5c412e958a329529916a57058f5cd37f6964c"
+    },
+    "play/violet/collection-notes.md": {
+      "path": "play/violet/collection-notes.md",
+      "bytes": 781,
+      "sha256": "5ff74337f99622e1515f8fd3a7e6af8900f3deec70e24d538f5de6e83a1f06d0",
+      "object": "docs/blog/evidence/objects/5ff74337f99622e1515f8fd3a7e6af8900f3deec70e24d538f5de6e83a1f06d0"
+    },
+    "play/voodoo-castle/manifest.json": {
+      "path": "play/voodoo-castle/manifest.json",
+      "bytes": 1422,
+      "sha256": "77688ff9586f4eac74eca22c50ba2b21cf15305588444ad9d10f9894103be664",
+      "object": "docs/blog/evidence/objects/77688ff9586f4eac74eca22c50ba2b21cf15305588444ad9d10f9894103be664"
+    },
+    "play/voodoo-castle/ending-claim.json": {
+      "path": "play/voodoo-castle/ending-claim.json",
+      "bytes": 1170,
+      "sha256": "c37af03e547eb5e38504315746a3136f9f224b200c276ad4d5a373123c1d9505",
+      "object": "docs/blog/evidence/objects/c37af03e547eb5e38504315746a3136f9f224b200c276ad4d5a373123c1d9505"
+    },
+    "play/voodoo-castle/progress.md": {
+      "path": "play/voodoo-castle/progress.md",
+      "bytes": 1202,
+      "sha256": "a401eb8d256ae76db36a7c35a3ca23bc60255f0527f962624878937cf8c9c2ba",
+      "object": "docs/blog/evidence/objects/a401eb8d256ae76db36a7c35a3ca23bc60255f0527f962624878937cf8c9c2ba"
+    },
+    "play/voodoo-castle/collection-notes.md": {
+      "path": "play/voodoo-castle/collection-notes.md",
+      "bytes": 608,
+      "sha256": "6b7385f5f7d36dc6e61180846c269bac8e2c6e09e757748d7ff26c3c17841c65",
+      "object": "docs/blog/evidence/objects/6b7385f5f7d36dc6e61180846c269bac8e2c6e09e757748d7ff26c3c17841c65"
+    },
+    "play/zork-i7/manifest.json": {
+      "path": "play/zork-i7/manifest.json",
+      "bytes": 1431,
+      "sha256": "6d8e06049f7451913868fdaa372cf0e47250e027cc1d8ffb92571899f2ba06b8",
+      "object": "docs/blog/evidence/objects/6d8e06049f7451913868fdaa372cf0e47250e027cc1d8ffb92571899f2ba06b8"
+    },
+    "play/zork-i7/progress.md": {
+      "path": "play/zork-i7/progress.md",
+      "bytes": 295249,
+      "sha256": "956f388100fdfaf4b783ce93f57cc4b31d372006564fedff96530c2ed74b4c07",
+      "object": "docs/blog/evidence/objects/956f388100fdfaf4b783ce93f57cc4b31d372006564fedff96530c2ed74b4c07"
+    },
+    "play/zork-i7/collection-notes.md": {
+      "path": "play/zork-i7/collection-notes.md",
+      "bytes": 2416,
+      "sha256": "6b0c5e7fe95e61032d1c1a54c2d9195405f8c936a35f3400666713e639ac6477",
+      "object": "docs/blog/evidence/objects/6b0c5e7fe95e61032d1c1a54c2d9195405f8c936a35f3400666713e639ac6477"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Gerbil Riot progress (continuation checkpoint)
+
+Location: Cellar, dark but navigable, doorway east, pile of crates (e00133 down past fire, m0125 verified).
+Inventory: copper strip, small key, ink bottle, blanket worn, garlic, bottle top, cat picture, syringe, fire bucket (spent sand e00131), bulb horn, acid jar. Ralph fled.
+Checkpoints: start-treatment, after-picture, secret-room, before-fire (e00128-129 verified).
+Pending: none (m0125 e00133 verified; latest.json e00133).
+Cases: ~32 annotated; key recent pairs: bucket-throw-fire none (e00131), acid-take none (e00122), ralph-show syntax (e00117-118), horn-take none (e00113).
+Last hints: e00109 route (South West North Get horn South South Show picture Ralph South Get acid North North East South Down Throw bucket Down LoIn crates Get zinc) — horn/Ralph/acid/fire done; next is LoIn crates Get zinc.
+Next: look in crates, take zinc, checkpoint after zinc, then East Eat garlic / shadows / glands chain toward tree/horn-whistle/battery and money/guard + east exit ending.
+Game incomplete, no finish claimed. No ending quote. Resume by reading latest.json + this file; do not restart.

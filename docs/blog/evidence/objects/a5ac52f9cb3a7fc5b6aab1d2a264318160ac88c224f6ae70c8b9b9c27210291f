@@ -1,0 +1,14 @@
+# Cacophony progress (update 12 - Dark tests)
+
+Location: Dark Room (dim patch N only; S/E/W/U/D blocked; enter darkness not visible).
+Inventory: notepad, mirror, suitcase(open empty), torn note, knife.
+Map: Kitchen N garden/jungle, E study(E library, N lab, S TV), S dark blocked, W idol. Up/down blocked Garden/Kitchen/Idol/Dark. No boxes/phone/bed/trophy.
+
+Cases 27: probe26 shine mirror world_state failure e230/e231 annotated e232 (shine achieves nothing, look shows face, mirror not light); probe27 nap/sleep none success e233/e234 annotated e235 (both not tired, need precondition).
+Unresolved: probe20 screwdriver; probe22 cut tough; probe24 coins cold; sleep needs tired/nightcap/bed.
+
+Checkpoints: kitchen-start, study-doors, tv-room, dark-room-entry, idol-room.
+
+Last hints: repeated tools excerpt; need mode next.
+
+Next: Study/Lab/Library/TV up/down; Lab wait x3/understand/junk/instruments/take; Study trays/carpet/wallpaper; help mode next for tools/trophy/dark/phone/bed.

@@ -1,0 +1,10 @@
+# Gerbil Riot progress (b1 e00512 — game incomplete, cellar branch)
+
+Location: dark damp cellar west of tunnel-mouth tunnel (b1 e00510-e00512 verified). Exits East (tunnel) and West (gloom, shadows threatening). Safe ordinary prompt, light risk noted.
+Route: drey needs battery (m0433/e00502 hint: Give battery to squirrel). b1 lacks battery/copper/wires; matchbox+leek conserved (e00486). Found eastward chain mouth E pleasant E drained lake E eucalyptus+rope climb rope enter drey (e00488-e00497); squirrel dances, hi-fi not switchable, talk ignored. Exited drey Out (e00503) Down (e00504) West lake (e00505) West pleasant+mouth (e00506-e00507); Down fails (e00508), West enters dark tunnel (e00509) West to cellar (e00510).
+Checkpoints: before-cellar-west e00511-e00512 VERIFIED (cellar, current); before-tree-climb e00493-e00494 VERIFIED (tree base); b1-wall-sheep e00460-e00461 VERIFIED. Saves list shows after-battery-wires.sav exists (b0-era) — possible battery source if b1 cupboard route fails.
+Inventory (e00486): leek, matchbox, bucket, horn, key, blanket worn, top, picture, syringe. No battery/copper/wires/tissue/fudge.
+Cases: b0 ~78 + b1 ~55 probes. Pending annotates: drey/tree/hifi/squirrel/cellar/tunnel series plus older burn/sheep/veg set.
+Last hints: m0433/e00502 battery-to-squirrel excerpt (lines 46-54: unlock cupboard LoIn take copper make battery tie wires S W S D D E x4 rope E E throw rope glands climb In give battery Out D W x6 U U N W N ink-tissue...); m0416/e00484 burn route repeat; m0087/e00093 cupboard/battery context.
+Next: single West from cellar toward indoor cupboard (before-cellar-west covers death); if dark death/no cupboard, consider restore after-battery-wires (new branch) then return E E to tree with battery. Still need burn-bush E E N pit/hub/button top→Tony S S tattoo/wad guard final E. Verify ending via raw output only.
+STOP: game incomplete, no finish claimed. At cellar e00512.

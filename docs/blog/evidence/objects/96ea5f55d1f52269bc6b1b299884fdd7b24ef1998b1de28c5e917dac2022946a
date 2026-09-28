@@ -1,0 +1,22 @@
+# Augmented Fourth — collection progress
+
+## State (event e00039)
+- Location: Narrow Passage. Score 1. Trumpet in inventory.
+- Rock pile: granite unportable; manageable rock blocked by carrying capacity (trumpet). Deferred.
+- Checkpoints: `pit-bottom`, `narrow-passage` (both verified Ok).
+
+## Cases (annotated, 4)
+1. take-trumpet-synonym — `get trumpet` accepted (e00015). none. e00016.
+2. pitbottom-typo-puddle — `examine puddel` rejected (e00020); fix (e00019). vocabulary. e00021.
+3. pitbottom-omitted-object — bare `examine` defaulted to broken case (e00023). none/uncertain. e00024.
+4. passage-take-granite — `take granite`→south wall, hardly portable (e00037); `take rock`→pile, carrying too much (e00038). world_state, observed_outcome=failure. e00039.
+
+## Unresolved
+- passage-take-granite correction FAILED (still no rock). Revisit: drop trumpet? explore north first.
+
+## Last hint: none requested.
+
+## Next
+- Go north from Narrow Passage; explore new area.
+- New room → probe first, then canonical.
+- Help at first genuine stuck point after two failed attempts.

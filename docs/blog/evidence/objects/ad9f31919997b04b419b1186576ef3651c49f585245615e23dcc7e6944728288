@@ -1,0 +1,24 @@
+{
+  "games": [
+    {
+      "game_id": "zork-i7",
+      "title": "Zork I, Inform 7 port",
+      "engine": "gvm-cli",
+      "story": "/home/krickert/if-games/glulx/ZorkI7.ulx",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/zork-i7-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/infocom/hints/solutions/zorkI.step2",
+      "completion": "Require actual game ending text; score or process exit alone is not completion.",
+      "recovery_checkpoint": "cache-full"
+    },
+    {
+      "game_id": "hhgttg",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/hitchhiker-r59-s851108.z3",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/hhgttg-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/infocom/hints/solutions/hitchhiker.step",
+      "completion": "Require actual game ending text; score or process exit alone is not completion.",
+      "recovery_checkpoint": "b13-aft-door"
+    }
+  ]
+}

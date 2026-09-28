@@ -1,0 +1,23 @@
+{
+  "game_id": "heist",
+  "title": "Heist: The Crime of the Century",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/heist.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/heist.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Accept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist.json",
+  "story_sha256_expected": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "collection_notes": "# Heist: The Crime of the Century\n\nStory Z8 R5/990217. Local R5/990217 versus Dale Johannesen guide R2/970901. Guide explicitly is not an exact command transcript because several puzzles randomize. Three-release gap requires observation-led adaptation.\n\nAccept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.\n\nGuide estimates about 1000 moves. Observe randomized dates, combinations, appearance and geometry clues. Do not type braces or placeholders as commands. Save before tight timing sequences; keep probe experiments outside them.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "990217",
+  "session_id": "heist-a079eba445",
+  "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+  "started_at": "2026-09-25T06:13:13.149583+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

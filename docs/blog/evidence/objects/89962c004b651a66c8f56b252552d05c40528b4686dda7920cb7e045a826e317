@@ -1,0 +1,24 @@
+{
+  "event_id": "moon-shaped-ba4995ebc4:e00407",
+  "timestamp": "2026-09-25T06:32:49.065091+00:00",
+  "game_id": "moon-shaped",
+  "session_id": "moon-shaped-ba4995ebc4",
+  "branch_id": "b1",
+  "event_index": 407,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 101059,
+  "raw_end": 101059,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "6fd4335a00bc2c3a95fc2c0c39e731987b309616c71d7af821dda63fda291607",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "You raise your head and see that the wolf is gone. In his place lies a man, his \nbody healed. You don't recognize him, but you know that he is your father. His \nvoice is raspy and gentle. He says only your name -- \"Rosalind...\" -- before he \nbegins to cry. \"Oh, how I've missed you.\"\n\nHer strength returning, grandmother crawls to him holds him in her arms. He \ntries feebly to push her away, \"No, mother... I don't deserve...\" She holds him \ntighter and he begins to cry again.\n\nShe whispers, \"It's alright. We're going to be alright.\" With eyes full of \ntears and pride, grandmother looks at you and smiles.\n\n\"I see you found my locket.\"\n\n\n\n    *** Das Märchen ist vorüber. ***",
+    "evidence_event_ids": [
+      "moon-shaped-ba4995ebc4:e00406"
+    ],
+    "notes": "Best ending1: powder on Hansel bones after hatchet attack cleanses curse. Wolf gone, father healed alive, grandmother alive holding him, Rosalind present. Distinct from b0 alternate e00395 where grandmother dead. Final Das Marchen marker with RESTART/RESTORE/QUIT, not death/quitting/intermediate."
+  },
+  "review_status": "unreviewed"
+}

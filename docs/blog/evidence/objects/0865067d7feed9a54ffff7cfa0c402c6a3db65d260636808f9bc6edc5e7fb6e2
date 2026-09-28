@@ -1,0 +1,16 @@
+# Progress — zorkian-stories-1-gue
+
+Location: Intersection (ancient gate blocks east; tunnels N/W/S). Came via Secret Passage -> Long Tunnel -> Intersection.
+Inventory (observed e00006): elvish sword, small lantern (providing light), backpack (worn, open, empty).
+Score: +1 after pushing eyes (e00010).
+
+Route: Vault -> push eyes -> open wall (=open fresco) -> enter fresco -> Secret Passage -> north to Ancient Shrine (altar empty, bones refuse take) -> south back -> east to Long Tunnel -> east to Intersection.
+
+Cases:
+- vault-eyes-touch: e00009 touch eye accepted (none) annotated e00014
+- vault-fresco-open: e00011 open wall accepted (none) annotated e00015
+- shrine-bones-take: e00021 take bones refused "You'd rather not" (pending annotation decision; correct refusal, no repair)
+
+Checkpoints: start-vault; secret-passage (verified e00016/e00017).
+Last hint: none.
+Next: examine gate at Intersection; probe blocked east; explore N/S; checkpoint before hazards.

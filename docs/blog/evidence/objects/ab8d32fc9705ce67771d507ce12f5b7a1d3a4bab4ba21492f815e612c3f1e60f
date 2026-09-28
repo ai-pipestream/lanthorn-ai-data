@@ -1,0 +1,98 @@
+{
+  "game_id": "save-princeton",
+  "title": "Save Princeton",
+  "url": "https://ifarchive.org/if-archive/solutions/SavePrinceton.sol",
+  "accessed_at": "2026-09-25T06:02:04.145665+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/SavePrinceton.sol",
+  "source_sha256": "97252141bd50d40edc0d00f376a91f751a6bfa8fe56898688038302d8fcfa904",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/walkthrough.txt",
+  "normalized_sha256": "97252141bd50d40edc0d00f376a91f751a6bfa8fe56898688038302d8fcfa904",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/saveprinceton.z8",
+  "story_sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/saveprinceton.z8",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/saveprinceton.z8",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 8,
+    "release": 21,
+    "serial": "041125",
+    "header_hex": "08000015da60da61b58c010a9f97aac4005030343131323500428ca0306100000000000000000000000000000000aac3000000000000010200000000362e3231",
+    "header_sha256": "22185d2731824fcfc185ce15bec417242f476f0f04560257cf7cceff55128900",
+    "checksum": "3061",
+    "computed_checksum": "3061",
+    "checksum_valid": true,
+    "file_bytes": 288256,
+    "declared_file_bytes": 288000
+  },
+  "compatibility": "Guide gives no release/serial and does not identify the Inform port; local story is R21/041125. Original TADS and Inform versions belong to the same family. Guide explicitly leaves small puzzles and guess-the-verb details unsolved.",
+  "compatibility_status": "needs_smoke_check",
+  "guide_version_match": "unspecified_or_port_gap",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "x8ai96w31jkizy4n",
+    "guide_tuid": "x8ai96w31jkizy4n",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/SavePrinceton.sol",
+      "accessed_at": "2026-09-25T06:02:04.145665+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/SavePrinceton.sol",
+      "sha256": "97252141bd50d40edc0d00f376a91f751a6bfa8fe56898688038302d8fcfa904",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/saveprinceton.z8",
+      "accessed_at": "2026-09-25T06:03:44.421135+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/saveprinceton/saveprinceton.z8",
+      "sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "save-princeton",
+    "proposed_split": "train",
+    "existing_corpus_checked": true,
+    "reason": "Inform port and original TADS release share the same game/puzzles; keep them together. No existing Save Princeton entry found."
+  },
+  "completion": "Require the final office/King resolution with Hal and the trumpet and raw game output confirming Princeton is saved. Acquiring Hal, entering the office, solving a subpuzzle or guide prose alone is insufficient.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 8,
+  "release": 21,
+  "serial": "041125",
+  "author": "Jacob Weinstein and Karine Schaefer; Inform port by Mike Caesar"
+}

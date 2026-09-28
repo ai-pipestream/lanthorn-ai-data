@@ -1,0 +1,89 @@
+{
+  "game_id": "bedlam",
+  "title": "Bedlam",
+  "author": "Michael Zey",
+  "url": "https://ifarchive.org/if-archive/solutions/bedlam.sol",
+  "accessed_at": "2026-09-25T06:11:49.533879+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/bedlam.sol",
+  "source_sha256": "3817db1cab04e5780521d798990dc2f962fac04401191768430b6d45709c190e",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/bedlam-walkthrough.txt",
+  "normalized_sha256": "3817db1cab04e5780521d798990dc2f962fac04401191768430b6d45709c190e",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/bedlam.z5",
+  "story_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+  "compatibility": "Archive identifies Bedlam, An Interactive Preview by Michael Zey, R1/970711, and explicitly links the guide to bedlam.z5 with matching IFDB identity 3oj97yagdl2990cs. This is distinct from existing Slouching Towards Bedlam, whose guide identity is 032krqe6bjn5au78 and story header is R1/030925. Guide omits release/serial.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "970711",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000012c382c391c3201020d8b13900010393730373131004239c2ad32000000000000000000000000000000000000000000000000000000000000362e3035",
+    "header_sha256": "092e2b794a51268f2a7949790339afd398a0d398bf7ec83a4221fdebb05ee14a",
+    "checksum_hex": "ad32",
+    "declared_length": 59144,
+    "file_bytes": 59392
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "bedlam.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/bedlam.z5",
+    "accessed_at": "2026-09-25T06:13:02.337637+00:00",
+    "remote_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+    "local_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+    "bytes": 59392,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "970711"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#bedlam.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "bedlam.z5\n◆\n[11-Jul-1997]\nIFDB entry\nBedlam, An Interactive Preview by Michael Zey.\nRelease 1 / Serial number 970711.",
+    "tuid": "3oj97yagdl2990cs"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#bedlam.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "bedlam.sol\n◆\n[18-Nov-1997]\nIFDB entry\nSolution to Bedlam, by Ambat Sasi.\n(the game itself is at games/zcode/bedlam.z5)",
+    "tuid": "3oj97yagdl2990cs"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Finish the full available domestic preview route, resolving Tony/wife/keys and departing by car, and require its authored preview conclusion. Starting the car without concluding output is insufficient. Do not invent an unreleased continuation or describe a preview ending as completion of some larger game.",
+    "limitations": "Guide is room-keyed shorthand with omitted navigation. Quoted NPC orders and result arrows are not a batch script. Preserve actual object and room state and confirm the final preview output independently.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "bedlam-michael-zey",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Separate identity, title, story hash, release date, premise and archive ID from Slouching Towards Bedlam. The shared word Bedlam and batch A Asylum title are not a shared-world/puzzle relationship."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission.",
+  "distinct_from_existing": {
+    "game_id": "slouching-bedlam",
+    "title": "Slouching Towards Bedlam (competition edition)",
+    "story": "/home/krickert/if-games/ifcomp/2003/zcode/slouch/slouch.z5",
+    "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+    "release": 1,
+    "serial": "030925",
+    "guide_archive_entry": {
+      "text": "slouch.sol\n◆\n[16-Aug-2004]\nIFDB entry\nIFWiki:\nSlouching Towards Bedlam\nSolution to Slouching Towards Bedlam, including all the\npossible endings, by Michael Martin.\n(the game itself is in\ngames/competition2003/zcode/slouch)",
+      "tuid": "032krqe6bjn5au78"
+    }
+  }
+}

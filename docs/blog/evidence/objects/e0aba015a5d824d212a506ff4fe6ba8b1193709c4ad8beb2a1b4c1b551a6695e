@@ -1,0 +1,9 @@
+# Gumshoe
+
+Story Z5 R1/960331. Local R1/960331 is byte-identical to the archive story. Paul J. Godfrey guide explicitly targets release 1 but omits serial; archive game and guide have matching IFDB identity. Release-level match is documented; runtime compatibility is untested.
+
+Follow the full investigation, obtain the necessary evidence, resolve the client and debt/money sequence, and mail the prepared envelope before verifying the actual concluding narrative. Merely taking incriminating photographs, earning 24 points, issuing FULL/AMUSING, being beaten by thugs or reaching the time limit is not completion.
+
+Guide estimates about 270 moves and notes variable events and a random detective appearance. Its timeline includes inconsistent/noon entries; use observed time, locations and NPC state rather than treating printed times as exact. Save before timed surveillance and hazards. Keep probes outside those windows and avoid repeated actions for quota.
+
+Use only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.

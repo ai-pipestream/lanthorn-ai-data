@@ -1,0 +1,18 @@
+{
+  "game_id": "905",
+  "title": "9:05",
+  "url": "https://jayisgames.com/review/905.php",
+  "accessed_at": "2026-09-25T02:34:48.968313+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/905.source",
+  "source_sha256": "aac7f38c8fb2b239f4e6582c60170b97610a54183978d70372951ffb2fd9d3c3",
+  "normalization": "HTML section div#walkthrough through the first comment-footer (AustinH guide only)",
+  "normalized_sha256": "f695f2e352068b49160954f429af97896c96ac0f0c63a74b9076f3e74e4a559a",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/905-walkthrough.txt",
+  "story": "/home/krickert/if-games/zcode/905.z5",
+  "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+  "compatibility": "Local R1/120724; guide posted2009, no release statement. Later story build; full-route compatibility unproven.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "120724"
+}

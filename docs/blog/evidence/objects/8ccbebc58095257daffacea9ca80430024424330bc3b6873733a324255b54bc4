@@ -1,0 +1,14 @@
+{
+  "url": "https://plover.net/~davidw/sol/shade.html",
+  "accessed_at": "2026-09-25T01:54:41.038186+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/shade.source",
+  "source_sha256": "0296ea9c5b55c04df3125863fd8f863eef6d465d3f738bc03ca14af0ee2d7fee",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/shade-walkthrough.txt",
+  "normalized_sha256": "6914e4635b4d064970f5e74ad4909313aa6a90894816a5567b884621324b0a39",
+  "reuse_permission": "unknown; private collection only",
+  "compatibility": "Shade guide explicitly R3; Suveh Nux guide v1.0; Photopia release unspecified",
+  "game_id": "shade",
+  "story": "/home/krickert/if-games/zcode/shade.z5",
+  "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+  "title": "Shade"
+}

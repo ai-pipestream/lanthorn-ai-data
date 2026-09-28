@@ -1,0 +1,12 @@
+# Progress – Tryst of Fate (SEGMENT 4, game incomplete)
+
+Location: Outside Old Shack (Chapter 3: There and Back Again), score 250 moves 528, visible
+Inventory: blanket, lantern, gold locket (worn, closed, piece inside). Dynamite + yellow rock CONSUMED in blast. Ship wheel MOUNTED on hut door. Dropped: key (Sod Shack), oil can + fork (Train Track), bar (Broken Track), boots (Fork), candle/lit (Mine Shaft), knife (Outside Mine Entrance), match (Mine Shaft), stick-wooden (Bank), tin (Shady Path), shovel (Boot Hill), spoon (Burned Down Shack), pan (Clear Creek). Accordion DESTROYED.
+Score/Moves: 250 / 528, Chapter 3: "There and Back Again"
+
+Cases: ~197 annotated through get-blanket-197 (planning: horse vs blanket). No unresolved case IDs.
+Last hint (lines 460-468): "Open door / Rub locket / save s250 / W (10/260) / X cutout / Open cover / Cover opening with blanket / X frank". Blast +5/245, tunnel +5/250 Ch3, blanket Taken all VERIFIED. NOT yet sent: Open door, rub locket, W, X cutout, open cover, cover opening, X frank.
+Next actions: 1) Open shack door. 2) Rub locket. 3) Checkpoint s250. 4) W into shack. 5) Cutout/cover/blanket/frank sequence.
+
+Checkpoints (confirmed, newest last): endline-230, wall-240-dynamite (Hole in the Wall, score 240, newest fallback).
+No pending requests. m0737 (help next excerpt) answered. Next request number: m0738.

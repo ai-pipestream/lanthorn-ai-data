@@ -1,0 +1,11 @@
+# Bronze progress — SEGMENT 4 STOP (incomplete, continuation needed)
+
+Game R11/060503 b0. Last confirmed e00516 checkpoint basement-return (Rooted Room, ordinary prompt).
+Location: Rooted Room 41/55. Exits SW/U/S. Carrying candle (light) + vial.
+Inventory (e00510): vial, candle (light), contract book, sceptre, shoes, iron/small keys, stool, embroidery, helmet, shackle.
+Pending: none; m0403-m0472 observed. Next inbox should be m0473.
+Milestones this segment: Translation light restored e00455; checkpoint translation-lit; contract lookups (me/father/beast/lucrezia/lamplighter/ostlers/bishops/chimes); grab candle e00478; Bell Castings 37/55 scrap e00490-e00491; Wax Supply 38/55 e00492-e00493; Zoo 39/55 miniature+vial e00494-e00499 (miniature lady green girdle, not Lucrezia; take blocked gargoyle-like; vial taken); think miniature -> Shall I go on? e00500, answered no e00501 (no SAVE into menu); Bear Corridor 40/55 e00503; Rocky Chamber 41/55 leak e00505-e00508 (NW crypt repels light-bearer, needs master-of-below etiquette); basement loop back via Zoo/Wax/Bell/Rooted e00509-e00514.
+Hints held: e00513 next is NE W N SW ... sinister door X SINISTER OPEN IT X CORD X INSCRIPTION READ LETTERING (lines 280-288). From Rooted Room, work toward sinister door; crypt etiquette unresolved (try think about crypt/below, helmet, sceptre — do NOT assume).
+Checkpoints: translation-lit, rose-garden-candle, basement-return (+ older saves listed e00515).
+Annotation backlog (unreviewed labels, record before finishing): e00435 put piece (none), e00438 read puzzle=examine (none), e00445 look at quill (none), e00446 take quill blocked (world_state), e00443 parlor bell absent -> e00453 take silver (world_state), e00449 trans ring absent -> e00455 ring success (world_state), e00478 grab candle (none), e00491 look at scrap (none), e00495-e00496 miniature typo (syntax), e00497 take miniature blocked (world_state/planning, GET IT meant vial e00499), e00506 look at leak (none), e00508 crypt repelled (world_state).
+Next: from Rooted Room follow NE/W/N/SW toward sinister door per e00513; annotate backlog when convenient; update progress every 10-15. Do NOT restart; continue from actual state.

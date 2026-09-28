@@ -1,0 +1,8 @@
+{
+  "valid": true,
+  "status": "validated_proposal_only",
+  "parent_semantic_review_required": true,
+  "actions_executed": [],
+  "json_fence_removed": true,
+  "exact_held_game_list_normalized_to_count": false
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-25T06:36:13.738992+00:00",
+  "tests": {
+    "fleet": 15,
+    "broker_transport": 3
+  },
+  "result": "passed",
+  "source_sha256": {
+    "scripts/maintain_fleet.py": "bb778f67e5285c5a637a280d327d0825313aefdfca06024ae8695c32bc8dc6da",
+    "scripts/play_broker.py": "5cd95f7e88e12d4fa2b71af2432e1c266cf0bed5dff4aec1dccd75892a2e505a",
+    "scripts/recover_broker.py": "ade7556a6914f30c9885cff5d4f6e8356e9bba607b1c54da01bd9cdba7d23a5a",
+    "scripts/test_fleet.py": "2694b1cfd5ff8f8c93042909796a656aa9e724bb31f298a9409cb184ddcba2c3"
+  },
+  "scope": "Older-broker remote restart held even before timeout logged; new/recovered manifests declare actual guards. Existing5pooltests lastpassed before this unchangedpool-code follow-up."
+}

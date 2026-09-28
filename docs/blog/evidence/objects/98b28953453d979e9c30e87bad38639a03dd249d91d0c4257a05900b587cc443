@@ -1,0 +1,81 @@
+{
+  "verified_at": "2026-09-25T02:30:05.231090+00:00",
+  "games": [
+    {
+      "game_id": "photopia",
+      "parent_verdict": "author-intended ending verified",
+      "basis": "Nursery lights-out followed by final PHOTOPIA title. Local guide ends at nursery; matches actual final narrative.",
+      "evidence": [
+        {
+          "event_id": "photopia-74a27d1cb7:e00219",
+          "raw_start": 51331,
+          "raw_end": 51457,
+          "response_sha256": "2e294389e9a6c7438fb1b1d8be6e4de9949a156ac580136e25c028c9fa46de98",
+          "response": "You glance into the crib as you reach the light switch. \"Good night, Alley,\" \nyou say. \"Sleep well.\"\n\nYou turn out the light.\n",
+          "engine_state": "awaiting_input_or_idle",
+          "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5"
+        },
+        {
+          "event_id": "photopia-74a27d1cb7:e00220",
+          "raw_start": 51457,
+          "raw_end": 51560,
+          "response_sha256": "cb5c27ef6f9b27408a06a165bda34f48febfa08bdffba398bde1a0c30ed2d94b",
+          "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                  PHOTOPIA\n                                by Adam Cadre\n",
+          "engine_state": "awaiting_input_or_idle",
+          "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5"
+        }
+      ]
+    },
+    {
+      "game_id": "shade",
+      "parent_verdict": "author-intended ending verified",
+      "basis": "Final desert figure narrative followed by SHADE banner and restart/restore/quit menu; local guide ends after figure, book and wait.",
+      "evidence": [
+        {
+          "event_id": "shade-3fcd469b94:e00347",
+          "raw_start": 43887,
+          "raw_end": 44136,
+          "response_sha256": "aab7057b3ac134be4a368cabd54f8b859926ec35d69023698a2d03d396fdef5a",
+          "response": "The tiny figure crawls out from under the sands. It's dead.\n\n\"You win,\" it says. \"Okay, my turn again.\"\n\n>...\nNothing left to do. Time passes.\n\nThe sun crawls higher.\n\n\n    *** SHADE ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05"
+        }
+      ]
+    },
+    {
+      "game_id": "suveh-nux",
+      "parent_verdict": "author-intended ending verified",
+      "basis": "Escape from vault followed by master rescue, explicit You have escaped banner and final 99% score breakdown.",
+      "evidence": [
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00269",
+          "raw_start": 27384,
+          "raw_end": 27792,
+          "response_sha256": "d6e81d7af65bb3982d818d5b7f2b757d704423e23ba74814dcc6bbc42378c9f3",
+          "response": "You get a good grip on the block with your sticky hands and pull it towards \nyou. It feels much lighter than normal stone, and it comes free! You pull it \nall the way out and drop it on the ground (although releasing it proves a \nlittle tricky) and say a few magic words to restore yourself to normal, and \nthen crawl through the open hole into freedom.\n\n[Your score has just gone up by 10%.]\n\n[Press a key]\n",
+          "engine_state": "awaiting_input_or_idle",
+          "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862"
+        },
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00270",
+          "raw_start": 27792,
+          "raw_end": 28730,
+          "response_sha256": "93611a353009710796fe6c55cbb0634572e2ef3e811501b452416aaa0f6890ac",
+          "response": "\nRushing up the stairs, you find your master bound and gagged on a chair in the \nmiddle of the room. You quickly unbind him, but he offers no explanation.\n\nYou describe your entrapment in the vault and your means of escape, and your \nmaster raises his eyebrows in amazement. \"My, my! I never knew you had it in \nyou.\n\n\"It seems you managed to avoid destroying any of the objects in the vault -- \nmany thanks. And you even managed to recapture my beastie. Wonderful! Such \ncreatures are hard to come by, as you can imagine.\n\n\"You have my deepest gratitude, not for this alone, but for rescuing me from my \nbonds. Well done! You have your master's praise.\"\n\n\n    *** You have escaped ***\n\n\nIn that game you scored 99% in 198 turns.\n\n[2 of 3 Easter eggs found -- see AMUSING].\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game, see some suggestions for AMUSING things to do or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862"
+        },
+        {
+          "event_id": "suveh-nux-0a645cbebf:e00271",
+          "raw_start": 28730,
+          "raw_end": 29396,
+          "response_sha256": "eaf9e7eb59a5c8efd90b3d65d0dee753f64bae4348dcb4055fff0401b804b03f",
+          "response": "\nIn that game you scored 99% in 198 turns.\n\n[2 of 3 Easter eggs found -- see AMUSING].\n\nThe score was made up as follows:\n\n    10 for shaking the vial\n     5 for speaking magic words\n     5 for lighting the room\n    10 for experimentation\n    10 for speaking a floating word\n    10 for numerical proficiency\n    10 for an intensified effect\n    20 for cracking the door\n    10 for escaping from the vault\n     5 for capturing the creature\n     4 for acquiring two Easter eggs\n    99 total (out of 100)\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, give the \nFULL score for that game, see some suggestions for AMUSING things to do or QUIT?\n> ",
+          "engine_state": "awaiting_input_or_idle",
+          "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862"
+        }
+      ]
+    }
+  ],
+  "terra_review": "requested separately; consult runs/fullplay-status.json"
+}

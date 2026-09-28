@@ -1,0 +1,10 @@
+# Dracula Prince of Darkness — collection progress (STOPPED pending, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state per evidence: St Mary's Church (e00019 via 'enter church'); e00021-23 bible-typo annotated; e00024 'speak man' -> '(to yourself) There is no reply.'
+Pending: inbox/m0022.json ('talk to man', same case church-speak-man) submitted but responses/m0022.json absent after many read-only retries; latest.json still e00024; events.jsonl ends e00024. JSON verified well-formed (ends ]}). NOT duplicated.
+Inventory: letter (Lucy: seek Van Helsing in Whitby; sanctuary church).
+Checkpoints verified: start-field (e00003-04), graveyard (e00017-18). Church is one move from graveyard checkpoint.
+Annotated cases (5): field-exit-north-typo vocab e05->e07; abbey-north-blocked world_state e11->e12; path-west-synonym vocab e14->e15; graveyard-enter-church none (accepted) e19; church-bible-typo syntax e21->e22. Help m0004 off-topic excerpt only (bin/cod/cat).
+Continuation: read responses/m0022.json first; if present, annotate e00024+e00025 pair (likely syntax/ambiguity: 'speak man' misparsed vs 'talk to man'); then go west to find praying man, onward to harbour/town; checkpoint milestones; target 20-40 diverse synthetic_probe cases; need walkthrough excerpts via help when stuck (2 failures). Do NOT resubmit m0022 under a new name; do NOT restart (graveyard checkpoint usable).
+No ending reached; no finish claimed.

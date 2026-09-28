@@ -1,0 +1,7 @@
+# SpiritWrak progress — INCOMPLETE, Kitchen recipe done (e143-e144)
+
+State: Monastery Kitchen (N from Refectory, e142). Scrap paper read via examine (e143): Sneffle birthday cake 6 items (flour, sugar cube, baking powder, butter, corbie egg, dornberries) + gloth fold + GUE oven cake setting. Ordinary prompt. Score 6.
+Inventory (observed): holy amulet worn+glowing, pallet glowing, sand, prayer book (gnusto/frotz/espnis/foblub). Re-verify with inventory when needed.
+Checkpoints (Ok): chapel-start, quarters-start, garden-sand, chapel-light, chapel-amulet, toolbox-scroll, sanctum-foblub, steeple-window, library-planes.
+Cases (~27): steeple-climb-window planning e124->e126; library-singular-scripture none e129; library-consult-planes syntax e131->e133; kitchen-synonym-paper none e143 confirmed (m0133 e144). No pending. Last hint m0123/m0114 lines 40-52 done through Read paper.
+Next: S,E per hint (back to Refectory then east), Take flour, Move barrel, Open trapdoor; checkpoint before down/trapdoor moves; request help mode next after trapdoor if needed. Never replay probes blindly.

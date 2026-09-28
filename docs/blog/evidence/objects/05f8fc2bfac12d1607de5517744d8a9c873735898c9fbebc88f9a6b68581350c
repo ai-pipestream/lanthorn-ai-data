@@ -1,0 +1,8 @@
+# Heist progress (incomplete — Ch2 Basement, branch b2, events through 425)
+
+Location: Basement e00422/e00425 (bed remains, dusty table, old electricity generator bulky); reached via down from Lighthouse interior, no open needed. Lighthouse interior e00418; Lamp Tower e00412-e00416 lamp yellow bulb/curved mirror/thin slit/off/movable support.
+Inventory: only surgical gloves worn e00402 (no change observed). Score 38 last observed. Branch b2.
+Checkpoints: before-photos; lighthouse-entry Saved Ok e00407-408; basement-entry Saved Ok e00424-425 at ordinary prompt. Also after-eye-trade, before-oven/swap etc.
+Cases this run: lighthouse-look e00409; syn-climb-stairs e00410 vocab fail -> e00412 up success annotated e00413; syn-look-light e00414 accepted annotated e00415; lamp-slit e00416; lamp-down e00417; lighthouse-look2 e00418; syn-open-hatch e00419 open hatch fail + e00420 open hatchway fail -> e00422 down success annotated e00423 planning; helps m0368 House off-topic, m0378 uniform/sunbeds off-topic (ignored, verified vs game).
+Hints: need pirate/beach/generator/lamp excerpt — refine topic lighthouse basement generator power, verify against game; do not trust off-topic House/uniform excerpts.
+Next: at Basement ordinary prompt from basement-entry — examine generator/table/bed (1 probe per puzzle then canonical: synonyms/typo/omitted object), try exits (up), checkpoint before power/generator manipulation. Continuation: branch b2 event 425.

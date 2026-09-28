@@ -1,0 +1,8 @@
+# SpiritWrak progress
+
+Location: Monastery Gardens (sand taken; snow melts if taken).
+Inventory (observed): sleeping pallet, prayer book, sand. Note left in quarters (read: Joseph asks to stop by chapel).
+Checkpoints: chapel-start, quarters-start (verified). Next: garden-sand.
+Cases (5 annotated): chapel-typo-listen vocab e7->e9; quarters-typo-pallet vocab e14->e15; quarters-omitted-read none e17; quarters-synonym-north vocab e20->e21; garden-wrong-snow planning e25->e26.
+Last hint (m0006 lines 10-18): Take pallet; N,W,W; Take sand; W,N,N; cough/drop for Joseph attention (v1); Wear amulet; I; Read prayer.
+Next: checkpoint garden-sand; W then N,N toward chapel/amulet; probe ambiguity/syntax on the way; request next hint excerpt when route unclear.

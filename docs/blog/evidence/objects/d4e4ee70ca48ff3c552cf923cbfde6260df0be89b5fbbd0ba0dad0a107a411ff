@@ -1,0 +1,29 @@
+# Fullplay supervision
+
+Current bounded audit completed 2026-09-25T06:38:39.858961+00:00; case-selection cutoff 2026-09-25T06:29:05.261122+00:00.
+
+Reviewed80 exact annotation pairs across40 games, including all24 initial Pi games:66 accepted,12 revise,2 quarantine. Verified632 distinct nearby/intervening raw spans, both endpoint commands/responses/branches, and two extra context events; no hash/text/CSV mismatches in this selection. Effective snapshot: 2464 unique exported annotations, 1354 accepted, 366 revise, 71 quarantine, 673 unreviewed. These totals come from exact endpoint-set matching, not cached CSV labels. Remaining cases are not approved.
+
+Independently verified three additional authored conclusions, bringing the historical total to24:
+- Savoir Faire R8/040205: b13 e1522 reverse-link frees Marie; e1523 empty-key continuation gives Paris epilogue, explicit win120/125. GuideR6 remains a version gap.
+- Jewel of Knowledge R2/990710: b3 e424 TOUCH MIRROR gives homecoming/family epilogue and win90/90. b2 poison death e421 precedes explicit restore e422/e423 and is not the winning branch. GuideR1/990629 remains a gap.
+- Reverberations R1/990110: b0 e151 HIT FLOOR WITH AXE gives corruption-resolution epilogue and explicit final banner50/50. Guide release unspecified.
+Raw offsets, exact hashes, full ending text and adjacent-event receipts are preserved in fullplay-status.json. Scores do not prove maximum content or case coverage.
+
+Anchorhead recovery independently verified: old51ee2d15c2:e1571 acknowledged cellar-fuse-day3; current3838-byte save matches SHAe6de1682...; new2c1c588159:e5 says Ok and e6 LOOK confirms Cellar on b32. Requestm1406 is an unchanged await_output file with matching hash and explicit cancellation response, not replayed game input. Olde1576 contains only partial auto-take; e1577..1579 are empty timeouts. Retain the entire chain quarantine even though all byte hashes match. New manifest has max100000, automatic checkpoints false and execution guards.
+
+Case findings:
+- Quarantine Savoir e1526: wearing a different linen bag after three restores is not a same-intent sack wording repair. Frozen e13 changes NORTH to NORTHEAST; retain only after explicitly distinguishing alternate-route planning.
+- Revise partial outcomes: Save Princeton e8 opens envelope but does not read documents; Deephome e9 spelling fix leaves door locked; Only After Dark e11 remains Village Center after interrupt; Library e13 needs later nametag read for name.
+- Asylum e9 cites earlier successful LOOK UNDER before failed LIFT. It is not a subsequently observed recovery.
+- Weather e78 includes native UNDO within unchanged b0; both pushes parse, one gives bad ending rather than death. Treat directional planning and temporal reset explicitly.
+- Edifice e9 actually preserves intended Rock despite STONE resolving the building; correct the false intent_preserved=no label. Generic Taken text requires context, as Curses e1466 illustrates.
+- Explicit intent_preserved=no alternate plans (Jewel firebug/outcrop, Dracula north/west) retained as planning-only examples. Source excerpts remain guidance, not engine observation.
+
+Fleet source rereview: original P1 mirror/session-fence closures retained. New remote restart imports are now rejected unconditionally unless manifest advertises restart_timeout1; new/recovered brokers advertise the execution guard. This closes the legacy queue-before-timeout import issue for new imports, not retroactively queued files. Parent reports15fleet+3transport tests; this pass inspected source but did not rerun fixture-writing suites. Power-loss durability is not claimed; concurrent handoff/progress import still requires explicit manager pause and fencing.
+
+Next bounded audit: parent-reported Asylum e46 ending/Mother Loose startup and Kook U old489e2b24ed→ef2767bf50 handoff at06:34 remain pending independent verification. Additional unreviewed ending claims are present for Moon-Shaped e407 and Nine Points e73. None increases this pass's24 verified conclusions. Current latest-input snapshot has 0 raw faults across61 game manifests; this is not a full health certification.
+
+Historical boundaries retained in status/history: Spider witnessed b19 ending precedes b20 restore; Slouch gallows is global Logos spread, not containment; Bronze HUG BEAST on R11 is not KISS/R13; Zork is exact Inform7 Zork/Dungeon port, not commercial ZorkI. All prior transport quarantines, release/guide gaps and ending receipts remain. This is synthetic test data, with no training, evaluation or publication.
+
+Only the three reviewer-owned files were updated. No game inputs, process changes, launches, raw edits or source modifications. Fixed pass complete.

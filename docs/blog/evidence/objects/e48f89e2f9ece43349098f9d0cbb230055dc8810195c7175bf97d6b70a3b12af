@@ -1,0 +1,11 @@
+# Bedlam
+
+Story Z5 R1/970711. Archive identifies Bedlam, An Interactive Preview by Michael Zey, R1/970711, and explicitly links the guide to bedlam.z5 with matching IFDB identity 3oj97yagdl2990cs. This is distinct from existing Slouching Towards Bedlam, whose guide identity is 032krqe6bjn5au78 and story header is R1/030925. Guide omits release/serial.
+
+Finish the full available domestic preview route, resolving Tony/wife/keys and departing by car, and require its authored preview conclusion. Starting the car without concluding output is insufficient. Do not invent an unreleased continuation or describe a preview ending as completion of some larger game.
+
+Guide is room-keyed shorthand with omitted navigation. Quoted NPC orders and result arrows are not a batch script. Preserve actual object and room state and confirm the final preview output independently.
+
+Use only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.
+
+Checkpoint policy: Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.

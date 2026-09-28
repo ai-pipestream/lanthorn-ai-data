@@ -1,0 +1,27 @@
+# Progress - A Bear's Night Out (SEGMENT 2, in progress)
+
+## Current location
+Computer Room floor. Score 27, Moves 5461. Ordinary prompt.
+
+## Inventory (observed m0274)
+- Carried: *ROYAL HONEY*, druid's hat (worn), last lousy point stamp, promotional leaflet, yellow ball, MessageMate dictaphone; jacket worn (reply card, brass key, ukulele, yoyo providing light, baguette, flyer); night shirt worn.
+- On glass table: black, blue, green disks (all removed after their games). Chip installed in computer.
+- Box + ergonomic chair on Computer Room floor, ready to push.
+
+## Verified route this segment (since phone-done)
+- Box delivered to Front Entrance only after dial 95 + password (explains seg1 no-box).
+- probe45 drag->push box w (syntax: direction required). Pushed box Front->North Hall->South Hall->Computer Room.
+- probe46 search box accepted none (leaflet). look in box x2: z-chip, green disk. All three auto-acquired (probe47 get chip -> already have, world_state).
+- climb chair; probe48 leap onto box accepted none (bounces straight to table, +3 = 22).
+- probe49 insert chip accepted none (+3 = 25). probe50 bare put disk -> ambiguity prompt; black+take+put ok. probe51 switch on computer accepted none (boots Dungeon). probe52 open mail box spaced accepted none (auto-finishes Dungeon, +1 = 26, stamp auto-given). probe53 get blue disk accepted none. Blue disk boots Curses; probe54 shut trapdoor accepted none (auto-finish, Master Druid); probe55 put on hat accepted none (+1 = 27). Green disk boots Adventureland; probe56 full up accepted none (auto-finish, ROYAL HONEY kept in R5 - walkthrough 'disappears' does NOT apply).
+- Down from table ok (tumble).
+
+## Unresolved / next
+- probe33 put tape e175 success needs annotation none. probe34 shake ball e183 needs annotation. probe35 climb basket e198 failed needs annotation world_state.
+- Next per hint: push chair & box to kitchen; Living Room climb chair, jump on box, push jar (lands in basket) +4 = 31; show stamp to holly (licks if awake) +2 = 33; Bedroom enter bed, sleep (ending?).
+- Push route TBD: Computer west -> South Hall -> ? -> Living/Kitchen. Need map check (South Hall north -> North Hall; Living southeast -> North Hall; Kitchen north -> Living). Push both items room by room, alternating.
+- Picnic list heard: reply card + affixed stamp; basket of goodies; teddy bear. Stamp still needs affixing? (show to holly -> licks it).
+
+## Checkpoints (all ok)
+- start-bedroom, south-hallway-ball, kitchen-bench, bathroom-hole, living-yoyo-charged, deep-hole-key, kitchen-tape, bench-phone, phone-done
+- Resume from actual state (Computer Room, score 27); do NOT restart.

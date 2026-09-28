@@ -1,0 +1,7 @@
+# Return to Karn — progress
+
+Location: Corridor (north of Workshop, east of Console Room). Brief 'Corridor' after north (e00025).
+Inventory (observed + taken): tweed jacket/hat/scarf worn, yo-yo, TARDIS key (e00004); sonic screwdriver Taken e00017, homing device Taken e00018, gold card Taken e00024 (from pouch in cupboard). Pouch opened e00022 (gold card inside), cupboard opened e00020.
+Cases: examine-console-typo vocab annotated; scanner-omitted-prep none; corridor-open-door-ambiguous none; toolkit-split-words syntax ('tool kit' vs 'toolkit') annotated; cupboard-search-synonym world_state (must open first) annotated; take-workshop-tools, workshop-pouch-contents, take-gold-card pending annotation (all successes).
+Checkpoints: start-console-room verified e00002/e00003. workshop-tools requested m0021.json PENDING (no responses/m0021.json yet, latest still e00025 as of last check) — do not duplicate; confirm before proceeding.
+Next: confirm workshop-tools save; then go east in corridor to continue TARDIS interior, then west to exit via main doors to Karn; ask broker help on first stuck puzzle. Update every 10-15 requests.

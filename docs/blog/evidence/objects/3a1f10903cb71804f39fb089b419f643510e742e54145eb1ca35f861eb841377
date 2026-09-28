@@ -1,0 +1,84 @@
+{
+  "game_id": "ghost-train",
+  "title": "The Ghost Train",
+  "author": "Paul Johnson",
+  "url": "https://ifarchive.org/if-archive/solutions/ghost_train.txt",
+  "accessed_at": "2026-09-25T06:51:10.699467+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/ghost_train.txt",
+  "source_sha256": "918498de065e4c3c9b0938851e0143d0215ee689edc405d106587be171047327",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/ghost-train-walkthrough.txt",
+  "normalized_sha256": "918498de065e4c3c9b0938851e0143d0215ee689edc405d106587be171047327",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/ghost.z8",
+  "story_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+  "compatibility": "Local R7/290912 exactly matches archive bytes/header. Daphne Brinkerhoff guide explicitly targets R4/070503 and is walkthrough version 1.0 dated 2003-11-12. The walkthrough version is not the game release. Preserve the three-release gap and literal six-byte serials; do not reinterpret 290912 as a normalized date.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 7,
+  "serial": "290912",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0800000775e075e15b20010a471a532f0050323930393132004266d18e4900000000000000000000000000000000532e000000000000010200000000362e3331",
+    "header_sha256": "e18ab8650480ad7dca755041f6f11b4436296d28555cf53435e26d8c8568435c",
+    "checksum_hex": "8e49",
+    "declared_length": 210568,
+    "file_bytes": 210944
+  },
+  "guide_release": 4,
+  "guide_serial": "070503",
+  "guide_release_gap": 3,
+  "story_identity": {
+    "filename": "ghost.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/ghost.z8",
+    "accessed_at": "2026-09-25T06:51:49.740085+00:00",
+    "remote_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+    "local_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+    "bytes": 210944,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 7,
+    "remote_serial": "290912"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#ghost.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "ghost.z8\n◆\n[30-Sep-2012]\nIFDB entry\nIFWiki:\nGhost Train\nThe Ghost Train, by Paul Johnson.\nRelease 7 / Serial number 290912.",
+    "tuid": "puy56alubcq0c4e9"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#ghost_train.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "ghost_train.txt\n◆\n[13-Nov-2003]\nIFDB entry\nIFWiki:\nGhost_Train\nSolution for Ghost Train, by Daphne Brinkerhoff.",
+    "tuid": "puy56alubcq0c4e9"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the train accident, underground railway, cemetery/chapel and Ingrid rescue route through the third train and final escape from the demon. Require the actual authored concluding rescue/escape narrative. Accident, unconsciousness, the second train stopping, a deal with Satan, ordinary death or the guide's congratulatory line alone is not completion.",
+    "limitations": "Read carriage colors and controls from observed output; the guide only suspects its sample color sequence is constant. The final rescue has a stated 60-turn window in the guide, which must be checked against actual output. Take a verified checkpoint before that commitment and keep probes outside it. Its waits are gameplay waits, never transport flushes.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "ghost-train",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Distinct full game identified by Paul Johnson and IFDB puy56alubcq0c4e9. Generic ghosts, trains and underworld imagery do not establish a shared world or puzzle with existing horror titles."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

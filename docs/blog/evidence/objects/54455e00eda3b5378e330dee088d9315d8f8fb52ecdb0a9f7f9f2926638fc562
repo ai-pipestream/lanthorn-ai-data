@@ -1,0 +1,26 @@
+# Space Station — collection progress
+
+Location: Dentist Waiting Room, Fussbudget with me, score 11. Surgery
+door unlocked+open; player fled drills e129, Fussbudget fetched hosing
+e130. Hunger still quite/very? (was quite e111) — need food soon.
+Inventory: translator/chrono/uniform worn, isotopes, toolbox empty,
+key, manual, hacksaw, glue, bracelet worn, syringe, 2 sawn bars,
+hosing (new), adapter in office outlet. Paste fed, empty tube in
+Sick Bay.
+Checkpoints: start-scooter, docked-exit, office-tools, office-computer,
+sickbay-freed (verified). Pending: dentist-hosing m0099.
+
+Cases:
+- dentist-door-unlock ANNOTATED world_state (e125 open-locked /
+  e126 unlock); surgery-enter DONE (e128 open, e129 player fled)
+- fussbudget-hosing ANNOTATED planning (e129 player flees / e130
+  order fussbudget port fetches hosing, score 11)
+- Ram progress: have glue/saw(s)/bars(2)/syringe/hosing; need boards,
+  hydraulic fluid (+ assembly). Dentist 4300 + password 133 done;
+  reactor 6900 warning noted.
+- Hunger: e111 quite hungry; Fussbudget hungry too; mondoweed crate in
+  Store Room likely food — fetch after checkpoint.
+
+Last hint: e108 (saw-cage, dentist unlock/hosing) — completed.
+Next: verify dentist-hosing; inventory; help for ram boards/fluid +
+engineering bulkhead; eat/store-room fruit run; build ram.

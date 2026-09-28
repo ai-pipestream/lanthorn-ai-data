@@ -1,0 +1,17 @@
+{
+  "story": "edifice.z5",
+  "guide": "edifice.rec",
+  "url": "https://ifarchive.org/if-archive/solutions/edifice.rec",
+  "accessed_at": "2026-09-25T06:03:22.187828+00:00",
+  "curl_exit": 0,
+  "version": 5,
+  "release": 2,
+  "serial": "980206",
+  "sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+  "bytes": 181760,
+  "header_hex": "050000026c3c6c3d4f60010a36e841bb00103938303230360042b13a07c1000000000000000000000000000000000000000000000000010200000000362e3134",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/edifice.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.432235+00:00",
+  "downloaded_story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+  "download_matches_local": true
+}

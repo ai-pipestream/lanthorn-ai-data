@@ -1,0 +1,24 @@
+{
+  "event_id": "so-far-8d580943cf:e01573",
+  "timestamp": "2026-09-25T06:59:50.664039+00:00",
+  "game_id": "so-far",
+  "session_id": "so-far-8d580943cf",
+  "branch_id": "b30",
+  "event_index": 1573,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 442378,
+  "raw_end": 442378,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***",
+    "evidence_event_ids": [
+      "so-far-8d580943cf:e01571"
+    ],
+    "notes": "Genuine winning ending e01571: full dark-noise > cramped-metal > shape-plane route completed with author-intended final narrative (theater portico, almost-conjunction of two moons, approach rapt figure in autumn breeze) and explicit *** You have won *** banner plus RESTART/RESTORE/AFTERWORD/QUIT prompt. Not death, quitting, or chapter transition. Initial finish (m1245) rejected on multi-line quote whitespace; refiling with exact banner substring."
+  },
+  "review_status": "unreviewed"
+}

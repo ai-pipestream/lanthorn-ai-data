@@ -1,0 +1,11 @@
+# Christminster progress (branch b8 — restored from before-crypt-45) — SEGMENT 4, ENDGAME. Game INCOMPLETE.
+
+Location: Tunnel east end, door open (restored). Score 45, moves 654 (e01092, b8).
+Inventory: as dinner-done + candle (lit, held?) + corkscrew in door; retort+elixir in handbag(open); silver key NOT YET (in crypt future); rusty key held?; dagger NOT YET.
+State: FIRST CRYPT RUN (b7) ENDED IN DEATH BY FIRE (e01090, 47/50, 678 turns): full sequence verified to Top of Stairs — E crypt (655, 10:30 chime), 7 waits (murders: Malcolm hanged 661, Bungay stabbed/Jarboe flees/fire 662), get dagger (663), search Bungay -> SILVER key (664, NOT zinc — metal varies!), hide key in bag+close (665-666), cut noose +1=46 (667), pull Malcolm E (668), open bag/take retort/pour elixir +1=47 (669-672, Malcolm alive!), pull Malcolm up (673, Jarboe demands key). TOP BLOCKER: 'kill/attack Jarboe with dagger' loops identically 4x (wrist slash, never dies); 'stab' unknown verb; 'push Jarboe down' mocked + treads collapse = death (678). Hiding key did NOT stop Jarboe seeing it ('I see you have the key').
+Plan (b8 replay, FAST): east, 7 waits, get dagger, search Bungay, SKIP hide (test), cut noose, pull E, take retort, pour elixir, pull up (~669, ~9 fire moves spare). At top: IGNORE kill-loop; try unlock-door-with-silver-key -> open -> pull-Malcolm-north = WIN? If Jarboe grabs key, restore and retry WITH hide (+close bag again after pour?).
+Unresolved: Jarboe-top-solution (unlock-first test pending); zinc-key-metal SOLVED=silver-this-release.
+Last hints: m0773 (tunnel door 158-166: corkscrew+rusty+pull +1=47... actual 45); m0683 (endgame 163-171); m0737 (dinner).
+Checkpoints: before-crypt-45 (b7/b8, 45 — VERIFIED RESTORE WORKS); dinner-done-44; elixir-done-41; others as before.
+Annotated seg4 (6): snail-pour-syn; snail-flip; snail-cut-omit; snail-synonym; decanter-port-take; decanter-hand. (36 total.) NO probes in crypt (timed).
+Key findings: Crypt key metal = SILVER this release; dagger kill-loop is futile; rejected commands don't advance fire; ~16 fire moves from ignition (662) to collapse (678).

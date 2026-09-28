@@ -1,0 +1,25 @@
+{
+  "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00009",
+  "timestamp": "2026-09-25T06:49:18.864096+00:00",
+  "game_id": "pick-up-the-phone-booth-and-aisle",
+  "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+  "branch_id": "b0",
+  "event_index": 9,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 1664,
+  "raw_end": 1664,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+    "ending_quote": "You do something very cunning and obscure and somehow or other it wins you the \ngame without ever tying up any of the loose ends or explaining what you did or \nhow you got here in the first place but hey.\n\n\n    *** You have won ***",
+    "evidence_event_ids": [
+      "pick-up-the-phone-booth-and-aisle-64782da4ad:e00007"
+    ],
+    "notes": "Title-action branch: canonical 'pick up the phone booth and aisle' from the Town Square produced the authored nonfatal win narrative with the standard *** You have won *** banner (e00007). Distinct from the earlier exploding-pants inventory death (e00002, *** Ka-boom ***), a restart recovery (e00005), and a typo probe the parser partially rejected without ending the game (e00006, annotated e00008). Single-action story per the game's short alternate-ending structure; no SAVE/RESTORE/checkpoint used."
+  },
+  "review_status": "unreviewed"
+}

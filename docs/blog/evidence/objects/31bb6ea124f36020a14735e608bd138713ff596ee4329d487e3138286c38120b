@@ -1,0 +1,10 @@
+# Gerbil Riot progress
+
+Location: Garden rope area to drained lake (e00211 got rope verified: 'Tis done).
+Inventory (observed): wired battery (e00199 tie wires), rope just taken e00211, monkey glands, wire consumed into battery, small key, horn used; copper/zinc/acid consumed into battery.
+Checkpoints: start-treatment, after-picture, secret-room, before-fire, after-zinc, after-battery-wires (e00200-e00201 verified saved).
+Route done: tie wires e00199, checkpoint, South e00202 corridor, West e00203, South e00204 top stairs, Down e00205 halfway, Down e00206 crates cellar, East e00207 shadows, East e00208 tunnel, East e00209 garden mouth, East e00210 rope garden, Get rope e00211.
+Pending annotates: battery-build-synonym (e00197 fail vocab / e00198 make success), cupboard-open-locked world_state chain, tree-climb e00165, south pair e00168 vs e00170, plus newer accepted paraphrases.
+Cases: ~50+.
+Last hint: e00194 route — now at Get rope done; next East East Throw rope Drink glands Climb rope In Give battery squirrel Out ... money/guard east exit.
+Next: east, east to throw site, then Throw rope; help on failures; checkpoint before risky climb; verify actual ending output raw. Game incomplete, no finish claimed.

@@ -1,0 +1,9 @@
+# Night at the Computer Center — progress
+
+Location: Gnome's Lair Moves 127 Score 8 branch b2 (e00222 ask gnome about printout -> grunt). Flashlight ON. Printer taken e00218.
+Inventory (observed e00215 + e00218): flashlight (providing light), UGGS Manual, plus Owlet-Picker V printer taken e00218 (to be re-verified by inventory). Inform Designer's Manual given to gnome e00214.
+Checkpoints verified: start-computer-site, stairwell-third, before-flashlight, stairwell-first, before-fountain, maze-entry, gnome-lair, after-manual-print, gnome-with-manual (e00212-e00213).
+Annotated: gnome-typo-01 (e00216 pritner -> e00218 get printer, vocab), gnome-show-01 (e00214 show manual accepted, none), gnome-ask-02 (e00221 printer -> e00222 printout both grunt, none), plus prior click-ftp-01, click-archive-01, click-manual-01, click-lpr-01, take-manual-01, ~18 earlier. Pending annotate: maze b1/b2 exploration deadends/follows; older wrongobj-printer-01/give-manual-01 may be superseded by gnome-show/typo.
+Last hint (e00217 lines 14-22): Gnome room get printer; ask gnome about printout; w; x sign; w w w e e w u; Computer room click ftp etc.
+Next (b2, m0187 done, next m0188): w, x sign, then return route w w w e e w u to Hall per hint, back to Computer Site, put printer on table for true ending. Verify concluding narrative per manifest, not 10-point/mouse-end text. Conserve light. Update progress every ~10 requests.
+Pending: no in-flight requests after m0187.

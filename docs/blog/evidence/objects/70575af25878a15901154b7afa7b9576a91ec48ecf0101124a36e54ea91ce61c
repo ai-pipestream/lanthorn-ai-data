@@ -1,0 +1,11 @@
+{
+  "reserved_at": "2026-09-25T08:12:55.317781+00:00",
+  "status": "checking_sources",
+  "selected": [
+    "augmented-fourth",
+    "pythos-mask",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ],
+  "excluded_batches": "A-H including all recorded rejected candidates; existing queues and all play identities checked before selection"
+}

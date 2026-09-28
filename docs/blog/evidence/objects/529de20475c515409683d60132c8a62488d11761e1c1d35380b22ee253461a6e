@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-25T08:46:18.650354+00:00",
+  "reason": "Diagnosed supervisor2700second timeout exit124/SIGTERM, no pending requests, same-session broker input normal; failedstate/log preserved; no broker restart or input replay.",
+  "before_event": "enemies-0b4aba49fe:e00363",
+  "launch": [
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "pid": 67177,
+      "archived_state": "/home/krickert/lanthorn-muse/history/timeout-20260925T0848/enemies.json",
+      "archived_sha256": "db2ddb0f6ea2f86ef5ea2cf16f5695b7f48bea5b8697a21bf045d2b936c03d1b",
+      "old_run": "/home/krickert/lanthorn-muse/runs/enemies-1790323197435979876",
+      "old_log_sha256": "258e1941bdb22a7eb360f31586d0b53aeafbeef6abf5c3b251744a308cab5877"
+    }
+  ]
+}

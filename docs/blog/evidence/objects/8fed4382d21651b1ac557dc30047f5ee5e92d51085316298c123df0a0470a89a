@@ -1,0 +1,8 @@
+# Heist progress (incomplete — Memorabilia Room, score 31)
+
+Location: Memorabilia Room north of flat via clock passage (e00269 score 30). Mona Lisa knocked to floor exposing hook (e00270); get mona lisa refused as junk (e00271); frame taken (e00273) and hung on hook triggering Depository/Crown Jewels vision (e00274 score 31).
+Inventory (e00249 + changes): frame now on hook (not carried); holding? steel key, credit card, bag (arm, cutter, letter, student photo? in frame on hook? actually frame on hook with photo changed), musician/statue/girl/boy photos, gloves worn. Score 31.
+Checkpoints: flat-clock-open Saved Ok (e00265-266). Next milestone after Python's Eye/model.
+Cases: 40 annotated (36 prior + clock-set-day syntax, clock-move-vs-set vocab, mona-take-painting none, frame-hook world_state). get-mona refusal e00271 kept as observed guide-divergence (R5 refuses replica).
+Last hint (e00258 heist.sol 53-61): n, get mona lisa, put frame on hook → (Python's Eye). Verified n + frame-hook; get mona lisa refused in R5.
+Next: examine model/cases/hook room, look for Python's Eye exit or action. Update continuation checkpoint flat-clock-open.

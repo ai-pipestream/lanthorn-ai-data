@@ -1,0 +1,10 @@
+# Voodoo Castle progress (b2) — CONTINUATION, game incomplete
+
+Location: Chapel, branch b2, Open Coffin, man present (LOOK COFFIN e00636 sign+man). Engine awaiting input. Continue from latest.json e00658 + responses/m0451.json.
+Status: cell escape solved. Final ritual still blocked: clean CIRCLE/WAVE STICK/WAVE LAMP/WAVE DOLL/SAY CHANT batch e00645-649 all OK-nothing; YELL CHANT e00656 same; closed-coffin CIRCLE e00651 same. No checkpoints (SAVE unsupported).
+Inventory (e00635): knife, glowing idol, clover, pot, Ju-Ju bag, foot, shovel, nails, doll, hammer, SAW, paper, stick, grating. No book/page (dropped voodoo room e00441-442), no ring (dropped before slide), no shield/tubes (consumed).
+Ritual texts: book knife/circle e00439; page stick/lamp/CHANT/doll e00440. WAVE LAMP=WAVE IDOL e00638/e00647. HOLD LAMP unknown e00653; bare CHANT unknown e00654; WAVE KNIFE OK-nothing e00655; FREE MAN unknown e00657; GIVE DOLL unknown e00658. SCORE unknown e00637. UP fails/CLIMB STAIRS parlor annotated e00628.
+Chapel map: EAST tunnel (ring+chute e00639), WEST ballroom fireplace e00641, NORTH window room e00643, SOUTH stairwell. LOOK bare gives nothing-special e00634.
+Foot history: walkthrough m0247 says early put-foot-on-Count for fireplace return, but b2 bypassed it yet got paper/statue/lab/bag/crack/book/stick/ball/doll; PUT FOOT still On-what, PUT MAN/COFFIN beyond-power, no chaining. Foot is early optional, NOT final ritual.
+Banked: b0 ~40 + prior 28 + segment annotations (incl UP->CLIMB e00628). Requests thru m0451/e00658.
+Next: test ritual variants without extra waves (no FOOT/CLOVER/KNIFE), YELL vs SAY ordering, possible DROP-carry restrictions, re-read book/page in voodoo room if needed. Claim finish only on genuine TA-DA winning narrative with evidence IDs.

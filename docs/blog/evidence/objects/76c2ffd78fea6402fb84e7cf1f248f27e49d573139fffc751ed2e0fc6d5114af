@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-25T03:10:48.444429+00:00",
+  "game_id": "violet",
+  "evidence": [
+    {
+      "event_id": "violet-bfdc33ea8f:e00293",
+      "timestamp": "2026-09-25T03:02:26.091440+00:00",
+      "game_id": "violet",
+      "session_id": "violet-bfdc33ea8f",
+      "branch_id": "b0",
+      "event_index": 293,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\nI know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.  But you can also UNDO the last turn, RESTART, \nRESTORE a saved game, or (bonus!) view some of the so-called AMUSING things you \nmight've missed.\n\n\n> ",
+      "raw_start": 55456,
+      "raw_end": 55789,
+      "response_sha256": "f15847711db96f650080790617e4540f29542807205c54b88000658db3b3efc1",
+      "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "follow-banner-75",
+        "expected_outcome": "Author banner, score, or THE END after * * *",
+        "intent": "Confirm final banner after closing narrative",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "claim": {
+    "ending_quote": "I know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.",
+    "evidence_event_ids": [
+      "violet-bfdc33ea8f:e00293"
+    ],
+    "notes": "Complete playthrough: 1000 words, surprise party (Violet stays), Australia flight, * * * (e00292), then explicit victory prompt e00293 'This is winning... merry glow of victory'. Not death/quitting \u2014 author-intended winning narrative."
+  },
+  "scope": "Actual final response and byte hash checked; separate Terra ending review requested."
+}

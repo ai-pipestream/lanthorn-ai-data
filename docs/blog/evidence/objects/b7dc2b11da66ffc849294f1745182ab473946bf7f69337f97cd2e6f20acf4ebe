@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-25T06:13:09.324313+00:00",
+  "user_authority": "go ahead and use the pis for muse; earlier 3-4 per box",
+  "local_target": 10,
+  "fleet_per_host": 3,
+  "fleet_target": 24,
+  "combined_target": 34,
+  "pilot_evidence": "control/fleet/pilot-and-ending-raw-verification-20260925T0612.json",
+  "tests": "7 fleet tests and 5 local pool tests passed before ramp",
+  "independent_code_review": "requested and pending; not claimed complete"
+}

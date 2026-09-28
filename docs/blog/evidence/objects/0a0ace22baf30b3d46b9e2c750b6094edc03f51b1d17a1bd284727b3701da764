@@ -1,0 +1,50 @@
+# Fullplay supervision
+
+Bounded audit completed 2026-09-25T08:04:04.440731+00:00. Fixed selection cutoff 2026-09-25T07:57:43.568164+00:00.
+
+**120 annotations across 53 games: 91 accepted, 19 revise, 10 quarantine.** Both endpoints and 729 distinct nearby/intervening raw spans match SHA256, bytes, text and exported commands/branch IDs. No hash/export mismatch. The Critical Breach comparison crosses an explicit restore into b1; it is two observed failures, not a same-state wording experiment.
+
+Current export snapshot: **3393 unique annotations; 1867 accepted, 467 revise, 97 quarantine, 962 unreviewed.** Exact annotation identity and unique endpoint-set equality determine counts; cached CSV labels can lag. No approval of the growing tail.
+
+## Three independently verified conclusions
+
+Historical total **43**, preserving all prior40 and their sample/installment/route qualifications.
+
+- **Night at the Computer Center R1/961118**, night-at-the-computer-center-d16c3b6cd5 b2 e00263 PUT STOLEN PRINTER ON TABLE: returned printer, explicit saved-your-job finale and final menu. Full raw44578:45070 SHA bc96c52be42e027573e642aa7356424db36e4e0e6520670a0147194bb1d2be05. Finale body44578:44877 SHA021779bea7544e16687e131b4707e305518a4a145570b3bedfb3d93d0b9f4029 independently supports conclusion. Recurring status/Relax tail44877:45070 SHA04a72e7bac520796a128c876d997adc0d779d2df3e12ff6184f5d1829ee4e5bb remains excluded from isolated full-response cases.
+- **Kook U R1/971119**, kook-u-ef2767bf50 b2 e00187 TURN ON NAME: network restored, Dean succession epilogue, explicit win/final menu. Raw34100:35084 SHA9d870e1b9eb1a5a64f5f17f9373845835d41b6b4c6271fe617d11161f0bf9e1b. Earlier TURN ON NAME SERVER also worked; intervening file/name-off/news changes explain state progression, not shorter phrasing.
+- **Hunt for Relief R1/000820**, hunt-for-relief-b4de5c739d b0 e00167 SIT ON TOILET: relief narrative and explicit win/final menu. Raw21754:22014 SHA2a4ec3012393e3b103c43c2ea0ffc515ccb5d311e861827da3d7f1d14834b009. Failed USE TOLIET explicitly intended relief; this preserves that goal through guided verb refinement plus spelling correction. It does not prove a typo-only repair or that sitting always means using a toilet.
+
+Raw surrounding events, current story hashes/headers and parent-receipt equality checked. Local guides contain the final actions but no exact release/serial targets. Source help remains guidance; actual outputs establish these endings. Scores10/10,100/100,20/20 do not establish maximal content or all cases.
+
+## Replacement startup identities
+
+- **Not Just A Game** not-just-a-game-8201b5a6d4: local header/banner Z5 R3/210603; Living Room; e2/e3 SAVE confirmation and nonempty file verified. Guide supplies no release/serial.
+- **Attack of the Yeti Robot Zombies** attack-of-the-yeti-robot-zombies-504df4e144: header/banner Z5 **R0/060825**, preserved literally. Startup YES advances rules question; e3/e4 SAVE verified. Explicitly unsupported EXAMINE/search interface is game text, not a broker failure. Guide release unspecified; no complete-route compatibility claim.
+- **HLA Inform** hla-inform-09ea9c8220: header Z5 R1/050715. **Startup is not clean:** e1 emits Library error10, player-object outside object tree, before plot keypause. Empty Enter e2 shows Version3.20/Inform port0.2; e3 Guild status says3.20a. Source-note port0.3 remains a separate version axis. e4/e5 SAVE succeeds, file nonempty, later gameplay responds. No cause assigned to initial error and no reset/fix performed.
+
+All startup receipt raw spans, story bytes and early SAVE evidence checked independently. Current save hashes prove current files, not a reconstruction of earlier write contents. Archived story identity assertions remain source-record provenance, not a fresh download comparison.
+
+## Review exclusions and revisions
+
+- night-at-the-computer-center-d16c3b6cd5:e00219: Independent exact endpoint and nearby/intervening raw SHA/text review. Printer acquisition body is clear, but full response includes recurring Relax quotation/status tail whose command attribution is unresolved. Preserve acquisition as observed; exclude unsplit response from isolated correction use until tail handling. No delayed-command cause proven.
+- night-at-the-computer-center-d16c3b6cd5:e00220: Independent exact endpoint and nearby/intervening raw SHA/text review. SHOW MANUAL visibly transfers it to gnome; repeating Relax/status tail is not attributable to this action as story consequence. Exclude whole unsplit example pending body/tail separation, without denying transfer.
+- night-at-the-computer-center-d16c3b6cd5:e00223: Independent exact endpoint and nearby/intervening raw SHA/text review. Both topics elicit grunt but printer and printout are different subjects; identical generic reply does not prove synonym equivalence. Repeated status/Relax tail also unsuitable as isolated answer evidence.
+- night-at-the-computer-center-d16c3b6cd5:e00264: Independent exact endpoint and nearby/intervening raw SHA/text review. Full command returns printer and genuinely ends b2; earlier ambiguity and PUT IN/ON clarification preserved. Quarantine isolated full-response pair for recurring status/Relax tail; finale body independently verified with separate byte range.
+- all-quiet-on-the-library-front-a0c0a11bad:e00067: Independent exact endpoint and nearby/intervening raw SHA/text review. South destination body reaches Rare Books Room, but includes fragment of earlier Pratchett quote below new Hubbard quote. Whole pair excluded pending tail attribution; west wandering and time progression retained.
+- deephome-56e3d50bda:e00126: Independent exact endpoint and nearby/intervening raw SHA/text review. TALK TO TERROCK becomes EXAMINE TERROCK; description is not conversation. Uncertain intent plus success label cannot establish repair; retain separate inspection with intent not preserved.
+- fine-tuned-989503b0a7:e00054: Independent exact endpoint and nearby/intervening raw SHA/text review. DRIVE EAST blocked; PUSH IGNITION only starts motors, without driving. Retain explicitly different prerequisite plan, not same-intent successful driving correction.
+- space-station-b15ae148d4:e00131: Independent exact endpoint and nearby/intervening raw SHA/text review. Player PORT retreat replaced by ordering Fussbudget PORT; actor changes. Retrieval succeeds but is a different-agent plan, not preserved command meaning; retain only explicit intent-not-preserved planning example.
+- all-quiet-on-the-library-front-a0c0a11bad:e00069: Independent exact endpoint and nearby/intervening raw SHA/text review. GET BOOK acquisition body clear, but raw retains prior Pratchett quote below Hubbard plus score announcement/status discrepancy. Whole response excluded from isolated examples pending tail separation.
+- bears-night-out-a79e3c9a58:e00368: Independent exact endpoint and nearby/intervening raw SHA/text review. Tape insertion body explicit, but response contains new KIBITZ/Matthew Russotto quote and dangling Yogi Bear/Boo Boo attribution. Quarantine unsplit response for mixed persistent tail; no claim of command replay.
+
+Night repeats an intact quotation while its status numbers update. That alone does not prove delayed command interleaving. Whole-response quarantine is conservative for isolated-case use; the substantive finale remains verified. Library Front and Bears examples have mixed quotation fragments/attributions, a stronger reason to exclude their unsplit responses.
+
+Revisions include partial goals (ignition versus driving, attention versus following, garden approach versus entry, ice chipping versus breaking, journal menu versus reading), unproved causal explanations after restore, inaccurate score claims, and mixed vocabulary/state prerequisites. Same branch ID never establishes equal state. Guidance is not observed success; generic Taken requires command/context.
+
+## Current operation and retained boundaries
+
+Parent reports34healthy clients and no current quota block. Reviewer performed central raw checks and local process snapshot only; no remote client contact or gameplay. Latest raw-span faults: []. Additional unverified ending claims at this snapshot: bedlam, i-0, magic-toyshop.
+
+All earlier conclusions/raw receipts and review history remain in status JSON. Nine Points is a sample; Slacker X an installment; Slouch gallows/Logos is not containment. Spider b19 ending precedes b20 restore; Only After Dark b2 ending precedes later branches. Zork is the Dungeon/I7 port; historical ZIL hints remain provisional until observed. Old delayed chains, failed startup restore, checkpoint provenance corrections and closed empty-Enter P2 remain recorded.
+
+Bounded pass complete. Only three owned review files changed. No engine input, reset, launch, training, evaluation or publication.

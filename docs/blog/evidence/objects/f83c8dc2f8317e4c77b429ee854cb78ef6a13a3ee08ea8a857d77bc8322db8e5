@@ -1,0 +1,27 @@
+{
+  "game_id": "mortlake-manor",
+  "title": "Mortlake Manor",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/mortlake.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/mortlake-manor-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/MortlakeManorGameTranscript.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Ordinary terminal death is failure; distinguish explicitly authored intermediate death/loop transitions. Complete the manor investigation, acquire the tools and light, repair the fountain and retrieve the diamond through the authored treasure conclusion. The source transcript ends with a treasure-success narrative and The End after taking the diamond. Require independent raw-output confirmation; seeing the treasure from the balcony or a partial score is insufficient.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/mortlake-manor.json",
+  "story_sha256_expected": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "mortlake-manor",
+  "collection_notes": "# Mortlake Manor\n\nStory Z8 R1/120304. Local Z8 R1/120304 matches archive bytes and the full author transcript banner, Inform 7 build 6G60. This is the complete 2012 adaptation of the 1994/2000 game, described as an introduction to IF; the transcript reaches its authored treasure ending, not a preview boundary.\n\nComplete the manor investigation, acquire the tools and light, repair the fountain and retrieve the diamond through the authored treasure conclusion. The source transcript ends with a treasure-success narrative and The End after taking the diamond. Require independent raw-output confirmation; seeing the treasure from the balcony or a partial score is insufficient.\n\nThe source is an author-supplied full transcript, not this collection session. Distinguish commands from narration and adapt ghost movement and waits to live output. Save early at a safe ordinary prompt and before maze or irreversible changes. Do not assume the sample 177-turn timing or repeat waits as transport flushes.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "120304",
+  "session_id": "mortlake-manor-e0475539fe",
+  "story_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+  "started_at": "2026-09-25T08:16:35.096811+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

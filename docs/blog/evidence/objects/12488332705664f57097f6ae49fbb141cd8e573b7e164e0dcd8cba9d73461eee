@@ -1,0 +1,19 @@
+# Spider and Web — collection progress
+
+## Current state (event e00136, branch b0)
+- Location: Security Annex (short hallway end; SW to main corridor; big doorways N/E/S).
+- Goal per interrogator: recover lockpick (guards picked it up) for the lab door.
+- Inventory: package + toolcase + held key transmitter + held radio module (both taken at lab door; link failed).
+- Checkpoints: start-alley, package, clatter, labdoor.
+- Last hints: Lab Junction = wait for guards to leave, E; interrogation Yes(motive)/Z/No,No → rewound to Security Annex.
+
+## Cases (annotated: 4)
+1. alley3-lockpick-syn3 planning (e35→e36) 2. junction-north-syn4 none (e50)
+3. doors-gap-syn5 syntax (e52→e53) 4. hole-package-syn7 vocabulary (e56→e57)
+- Pending annotation: alley-door-syn1 (e05); lab-listen-syn9 acceptance (e109 "nothing unexpected"); lab-open-syn10 (e112 "doesn't open by itself") + lab-plate-touch (e113 "Nothing happens") + transmitter attempts (e114 must-hold, e116 vertical-can't-support, e117 needs-radio-link, e119 can't-contain) — resolve once lab door opens.
+- Hint-verification failure: Dead-End-South "(E. Put rod on plate. W)" never attaches in R4/980226 (6 phrasings); working path was wait → throw rod east → N.
+- New: guard fragment "Yes, with'." = commander's title (per walkthrough); blast-tab-could-open-lab-door (interrogator claim, untested).
+
+## Next
+1. Security Annex: probe (listen/look), then hint for lockpick recovery.
+2. Keep 1 cmd/request while probing; annotate pairs as they resolve.

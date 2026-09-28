@@ -1,0 +1,9 @@
+# Voodoo Castle progress (b2) — COMPLETED WIN, engine_exited
+
+Location: Chapel, Open Coffin + Smiling Count Cristo, e00763. Engine engine_exited. Branch b2.
+Win chain: PUT FOOT e00754 On what? -> ON MAN e00755 OK + CLAP OF THUNDER (verifies supervisor provisional guidance) -> INV e00757 foot gone -> LOOK COFFIN e00758 He's wearing a rabbit's foot -> CIRCLE COFFIN e00759 thunder/dark idol light -> WAVE STICK e00760 thunder + encAntAtions peAk -> WAVE IDOL e00761 OK -> WAVE DOLL e00762 OK -> YELL CHANT e00763 thunder, Pins fall out, HURRAH! Look who is in room! game over, Smiling Count Cristo.
+Inventory at win (e00757): knife, glowing idol, clover, pot, Ju-Ju bag, shovel, nails, doll, hammer, SAW, paper, stick, grating (foot consumed).
+Checkpoints: SAVE unsupported throughout; no usable checkpoints. No restore needed after foot success.
+Annotations banked this segment: a0007 syntax PUT FOOT ON MAN single-line vs two-step ON MAN; a0008 world_state YELL CHANT without/with foot. Prior banked b0 ~40 + 28 + SHAKE->WAVE etc per previous progress.
+Unresolved old probes remain as history but game is over; do not issue further game commands (engine_exited).
+Next: finish with e00763 evidence.

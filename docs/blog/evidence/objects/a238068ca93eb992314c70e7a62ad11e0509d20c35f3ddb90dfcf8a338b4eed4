@@ -1,0 +1,10 @@
+# Enemies progress — PAUSED, game incomplete
+
+Branch b1. Location: Hallway inside Joanna's apartment (entered via open door + north, e00058/e00059). Score 4.
+Hallway details: rooms N/E/W; smashed picture frame with glass on red carpet; Joanna's telephone on coffee table; smell of burning elsewhere.
+Inventory: photo, phone, watch, small metal key (score 3 on take).
+Checkpoints verified: start-street, apartment-entrance. No checkpoint yet for hallway — next run should checkpoint at ordinary hallway prompt before exploring.
+Cases so far (5): syn-rider-look none (e00028); syn-gnome-typo vocabulary (e00043→e00044); syn-ring-pull none (e00047); syn-gnome-lookin syntax (e00050→e00051); syn-take-key none (e00053); syn-door-locked world_state (e00055→e00056). Plus b0 death by slow riddle (e00021) kept as failure.
+Last hint (lines 42-50): after entering, explore apartment, then W. Still need next excerpt (mode next) for hallway puzzles.
+Next actions: 1) checkpoint hallway. 2) request next walkthrough excerpt. 3) explore N/E/W one command at a time with a synthetic probe per new puzzle.
+Pending: m0054 fully processed (both events). No pending requests.

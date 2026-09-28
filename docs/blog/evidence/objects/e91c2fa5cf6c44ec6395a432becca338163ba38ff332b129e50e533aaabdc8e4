@@ -1,0 +1,31 @@
+# Spider and Web — segment 3 LIVE (game incomplete, b14 timer-pen base)
+
+## Exact resume (read this + latest.json on next run)
+- Current: branch b14 from `restore b11-timer-pen2` (e551-552, Ok). Expected: pen + scan-timer in hands at Annex (verify with `i` next).
+- All requests answered through inbox/m0395.json. No pending broker requests. Latest event e552.
+- Key checkpoints: `b11-voice-4blip` (voice south pen + north ghost, pre-SW), `b11-timer-pen2` (relive timer-south pen, pre-east), `b10-south-north-pen`, `b2-annex-pen-minimal`, `b3-annex-timer-pen`, `b8-annex-cont`, plus segment-1/2 bases. 14 saves listed e551.
+
+## Breakthrough (SW Angle Branch loop SOLVED for voice)
+- From clean `annex`, voice SOUTH pen (tango/S/waltz/pen/tango/N/waltz) + voice NORTH ghost (tango/N/waltz/sit in/x bands/looks/x man/get up/tango/S/waltz) then Get all/SW = story 4v4 PASS (b11 e516-517: chair TRUE-memory question, no count rejection). Answered No (known survive; Yes=death per b0 e223) → relive to Annex (e518-519, pen wiped, e520 clean).
+- Ghost requires FIRST north visit with chill (b11 e497 chill, e499 sit chill, e501 pressure, e504 figure, e506-508 man/gone). Repeat north visits (b10) give no chill/pressure/ghost and trip the fake-memory interrogation.
+- Synthetic: `sit on chair` accepted same as `sit in chair` (b10 e459, failure_type none pending annotate). No-chill difference was first-visit flag, NOT preposition.
+
+## Relive branch (Annex-again timer) — CURRENT BLOCK
+- Timer SOUTH pen works: take scan/timer, x timer, connect, drop, push green, push blue, S, get pen, N (auto-off blue), get all (restarts green) — b11 e521-531. Checkpoint b11-timer-pen2.
+- SW with relive timer-pen alone = story 3v4 (b13 e549, same text as b3 e362). Need one more timer use: EAST office per walkthrough (S Get pen N, I, E X plays W, Push green off, Get all, no lockpick).
+- East timer W EXPIRES even on fresh push-pair + E + X plays + W (b11 e541, same as b4 e373/b5 e381). Push green from blue-phase blanks dials (e537 like b4 e369); push blue restarts (e538). X plays safe under timer (e540) but W crosses after expiry. Skipping plays (b5) also expired. Walkthrough implies one push-pair covers south AND east (Turn green/blue to 1 done once) — we skipped Turn commands (dials already 1). Hypothesis: Turn (even to same value) extends cycle, or X green/X blue examination matters, or dials must go higher.
+- Lesson: NEVER restore during [Hit any key.] — m0387 restore during e541 keypause silently failed (e542 replayed alarm rewind, pen wiped); retry at ordinary prompt worked (m0390/b13).
+
+## Next actions (b14)
+1. `i` verify pen+timer assembly.
+2. At Annex with timer in hands (expired blue safe): `x green` + `x blue` (learn dial syntax/state); then probe `turn green to 1` / `turn blue to 1` exactly per walkthrough (may extend cycle) — singles.
+3. Retry east as walkthrough: drop scan, push green, push blue, E, X plays, W, push green(off), get all — if W safe, SW with pen (expect 4v4 pass in relive branch).
+4. If dial-turn fails: probe higher dial values or south+east on ONE push-pair without intermediate get-all/drop (exact walkthrough order from a fresh relive Annex).
+5. Collect backlog annotations (chair-sit-syn none; b8 W-cover-ON world_state; timer push sequences) before finish. No ending reached; no winning text observed.
+
+## Synthetic-case backlog (needs annotate)
+- chair-sit-syn e459/e467 (none, accepted paraphrase; chill gap = visit flag, note limitation).
+- b8-east-exit e436 W-cover-ON alarm (world_state) + b10/b11 north patterns.
+- Timer pushes: e537 blank vs e352 light; e538 sticky-click restart; e369/b4 same.
+- Segment-2 pendings (drop-in-toolcase, tango-unlinked, chair yes/undo/no planning, pen-yes loops, east timer reset, disconnect, 6v4). Segment-1: 5 annotated.
+- Hints are NOT observed text (m0336-m0341 voice route, m0357 Yes/Undo/No, m0378-379 timer-east).

@@ -1,0 +1,20 @@
+# Spider and Web — collection progress
+
+## Current state (event e00079, branch b0)
+- Location: Tee Junction (white corridor E–W, branch N, closed metal door S, dead end E). Footsteps N.
+- Inventory: cloth package (from ceiling hole); lockpick left attached to alley door plate in that memory. Current carriage to verify with `i`.
+- Checkpoints: `start-alley`, `package` (White Junction), `clatter` (Tee Junction).
+- Last hint: Tee Junction — save "clatter", (E. Put rod on plate. W), Wait until guards...; earlier Yes/Yes answers consumed differently (guns-No + silent waits advanced instead).
+- Unresolved: "Open vent" from White Junction excerpt — grille at Corner At Doors refused ("isn't important"); likely vent is elsewhere (Tee area?). Keep an eye out.
+
+## Cases (annotated: 3)
+1. `alley3-lockpick-syn3` planning (e35→e36): direct unlock rejected; put rod on plate works.
+2. `junction-north-syn4` none (e50): "go north" accepted.
+3. `doors-gap-syn5` syntax (e52→e53): bare "climb up" needs object; "jump" grabs hole.
+4. `hole-package-syn7` vocabulary (e56→e57): "grab" unrecognized; "get" works.
+- Pending annotation: `alley-door-syn1` ("open door"→can't see how, e05); correction chain = knock ×N → interrogation → lockpick yes → put rod on plate + waits → door opens (e40). Annotate as planning/world_state once convenient.
+- Raw: press/touch/push plate all no-op (e09,e10,e12,e18); knock persistence (e25–e30 → interrogation lockpick reveal); "open vent/grille" refused (e62,e63); silence "" rejected in interrogation ("I beg your pardon?" e44) while "wait" (=remain silent) advances (e46,e75,e76); "x hole" revealed package (e55); "up" blocked, revealed grille VEN DUCT J-10 (e61); "x grille" (e64); drop "d" safe (e65).
+
+## Next
+1. Tee Junction: probe (listen?), then E per hint; find plate; put rod?? — wait, rod is at alley door. Hint "(E. Put rod on plate. W)" suggests rod in inventory here? Verify with `i` first.
+2. Keep 1 cmd/request while probing; checkpoint at milestones; progress.md every 10–15 requests.

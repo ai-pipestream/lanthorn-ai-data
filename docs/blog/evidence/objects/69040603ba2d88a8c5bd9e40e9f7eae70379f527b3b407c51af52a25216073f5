@@ -1,0 +1,27 @@
+# Varicella — collection progress
+
+## State (event e00035, branch b0)
+- Location: Grand Foyer. Guards #0249, #0531 watching main entrance (south double doors, open, lead outside).
+- Mapped: Salon→W.Ballroom→NW antechamber→Dining Hall→NE antechamber→E.Ballroom→SE antechamber→Grand Foyer.
+- Unexplored: towers (NW/NE/SE), kitchen (N of dining hall, armor-guarded), chapel (E of E.Ballroom), courtyard arches, W.Ballroom south exit, foyer north(?), outside (S doors).
+- Inventory: Queen's letter, master key (+ court clothes).
+- Wehrkeit confirmed in-game rushing back from Venice; guards sealing palace.
+
+## Checkpoints
+- early-saloon (verified Ok).
+
+## Cases completed (7 annotated)
+1. salon-steward-examine-01 (vocabulary): 'x stewrad' → 'x steward'. e08/e10.
+2. salon-exit-east-01 (vocabulary): 'head east' → 'east'. e15/e16.
+3. hall-tapestry-look-01 (none): 'look at tapestry' accepted. e20.
+4. hall-armor-examine-01 (none): 'x suit' accepted. e22.
+5. ballroom-fresco-examine-01 (syntax): 'examine' → 'examine fresco'. e26/e27.
+6. foyer-guard-talk-01 (vocabulary): 'talk to guard' → 'ask guard about venice'. e31/e32.
+7. foyer-guard-ask-02 (ambiguity): 'ask guard…' → 'ask guard #0249…'. e32/e33.
+
+## Last hints (walkthrough, NOT player-observed)
+- Five rivals; Wehrkeit arrives ~3 o'clock; ask Miss Sierra about Venice; throne-room telephone; Sierra wants money.
+
+## Next actions
+- Help excerpt: where is Miss Sierra / throne room.
+- Then route there; checkpoint at milestones; keep probes varied (pronoun, word-order, world_state next).

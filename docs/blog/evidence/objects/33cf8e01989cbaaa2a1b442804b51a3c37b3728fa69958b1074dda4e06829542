@@ -1,0 +1,12 @@
+# Theatre progress — SEGMENT 2 cont. (m0295-m0306)
+
+Location: Manager's Office (e355, branch b1). Safe open (red pearl taken +1), desk open (page+plans taken). Pager present, trapdoor open.
+Carrying: +red pearl, +desk page (now 5 pages?), +plans, +tablets, +stethoscope(removed), star crystal, shiny key, vial, violet+blue pearls. Verify via inventory next.
+Room states: safe/desk open; observatory lens in/mask dropped; boiler done; costume glued.
+
+Checkpoints: observatory-mask, before-break, before-coffin, sick-bay, etc. Branch b1.
+
+Hints: L83-91 done through open desk/get page,plans. Next: need excerpt after plans.
+Annotations new: safe-dial syntax (e343→e344 direction required), steth-remove none (e349), desk world_state (e351→e352).
+Backlog: pirate-costume e296, southcorr doors e239, seg1 backlog.
+Next: inventory, help next, continue.

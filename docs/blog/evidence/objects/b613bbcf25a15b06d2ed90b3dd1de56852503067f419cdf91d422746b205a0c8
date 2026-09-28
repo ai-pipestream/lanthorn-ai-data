@@ -1,0 +1,27 @@
+{
+  "event_id": "mansion-cc50b3ae7d:e01588",
+  "timestamp": "2026-09-25T09:42:47.119786+00:00",
+  "game_id": "mansion",
+  "session_id": "mansion-cc50b3ae7d",
+  "branch_id": "b8",
+  "event_index": 1588,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 198896,
+  "raw_end": 198896,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+  "engine_state": "unchanged",
+  "metadata": {
+    "evidence_event_ids": [
+      "mansion-cc50b3ae7d:e01587",
+      "mansion-cc50b3ae7d:e01583",
+      "mansion-cc50b3ae7d:e01584",
+      "mansion-cc50b3ae7d:e01581"
+    ],
+    "ending_quote": "You take the rose from the table. In familiar writing the label says \"Rosa Aunt \nAgatha\". You look around your new home, secure in the knowledge that you will \nbe very welcome here.\n\n\n    *** You have won ***\n\n\nIn that game you scored 68 out of a possible 68, in 1127 turns, earning you the \ntitle of proud owner of Gharston Hall.",
+    "notes": "Genuine author-intended win, not death/quitting/score alone. Full remedy route: mixture drunk (monster), Brookes flees horror 68/68 (e01581), waits trigger Gharston Hall withdrawal (e01583), tears purchase agreement (e01584), exits Hall, rose Rosa Aunt Agatha taken with *** You have won *** and proud owner of Gharston Hall title (e01587). Property conflict resolved via withdrawal plus document destruction and final rose narrative per manifest."
+  },
+  "review_status": "unreviewed"
+}

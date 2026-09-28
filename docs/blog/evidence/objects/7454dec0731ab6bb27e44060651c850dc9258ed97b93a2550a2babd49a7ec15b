@@ -1,0 +1,8 @@
+# Hunter in Darkness – progress
+
+STATUS: Walkthrough complete – reached daylight ending (e00132) on branch b0. Walkthrough has 51 lines; last cmds ahead/up match.
+Ending text (e00132): pick way up canyon wall / hissing scream cut off below / blinded by daylight / *** It's over *** + RESTART/RESTORE/QUIT prompt.
+Route recap: Branching -cock/fire(left path1 wound)-left-> pit (rags, bandage) -down-> Tight Crawl -ahead x8,back,ahead-> Smallish -right-> Small Cave -enter crawl-> Tiny Cavern (pool) -down-> Roundish Pit -down-> Tiny sand -right-> Tiny pillars -right-> Largish (pool; bats->left) -left-> Tiny pool -down-> Roundish -right-> Small stalactites -ahead-> Cramped -up-> Large Pit -left-> BASE OF CANYON (blood pool) -x pool, take off bandage, wait to ignoring-msg, ahead (Wumpus w/ crossbow standoff), wait to swarm-descends, ahead (slip past), up (Rising Path) -> DAYLIGHT ending.
+Inventory at end: bandage off (trickle), 4 bolts, dead lamplens, no crossbow (Wumpus holds it).
+Checkpoints: start-opening, after-bandage, smallish-cave, base-of-canyon.
+Cases: 12 annotated. Plan: restore base-of-canyon for ~8 more high-value standoff probes (take crossbow, throw bolt, shoot, up-blocked, cross-crevice wording, talk, attack, climb), then replay to ending and finish. Keep pre/post-restore IDs distinct.

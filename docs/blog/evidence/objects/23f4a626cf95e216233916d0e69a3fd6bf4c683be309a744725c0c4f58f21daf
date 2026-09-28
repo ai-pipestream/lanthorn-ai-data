@@ -1,0 +1,17 @@
+{
+  "story": "loose.z5",
+  "guide": "mother_loose_walkthru.txt",
+  "url": "https://ifarchive.org/if-archive/solutions/mother_loose_walkthru.txt",
+  "accessed_at": "2026-09-25T06:05:12.536994+00:00",
+  "curl_exit": 0,
+  "version": 5,
+  "release": 2,
+  "serial": "981128",
+  "sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+  "bytes": 206336,
+  "header_hex": "050000026a606a61423c010a2894340000103938313132380042c927a2bb000000000000000000000000000000000000000000000000010200000000362e3135",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/loose.z5",
+  "story_accessed_at": "2026-09-25T06:05:12.536994+00:00",
+  "downloaded_story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+  "download_matches_local": true
+}

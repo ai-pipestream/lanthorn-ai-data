@@ -1,0 +1,48 @@
+import json,hashlib,fcntl,subprocess
+from pathlib import Path
+from datetime import datetime,timezone
+from concurrent.futures import ThreadPoolExecutor
+sha=lambda b:hashlib.sha256(b).hexdigest()
+p=Path('control/fleet-batch-n-20260925.json');config=p.read_bytes();games=json.loads(config)['games'];records={g['game_id']:json.loads(Path(g['source_record']).read_text()) for g in games}
+urls=set()
+for r in records.values():
+ urls.update([r['url'],r['story_identity']['url']])
+ for key in ['packaged_readme','guide_associated_story']:
+  if key in r:urls.add(r[key]['url'])
+def fetch(u):return u,subprocess.check_output(['curl','-fsSL','--max-time','40',u])
+with ThreadPoolExecutor(max_workers=4) as ex:download=dict(ex.map(fetch,urls))
+checked=[]
+for g in games:
+ r=records[g['game_id']];data=Path(g['story']).read_bytes();h=r['story_header'];assert g['engine']=='zvm-cli' and data==download[r['story_identity']['url']]
+ assert sha(data)==g['story_sha256_expected']==r['story_sha256']==r['story_identity']['remote_sha256']
+ assert data[:64].hex()==h['header_hex'] and sha(data[:64])==h['header_sha256']
+ assert data[0]==g['zmachine_version']==5 and int.from_bytes(data[2:4],'big')==g['release']==r['release'] and data[18:24].decode()==g['serial']==r['serial']
+ length=int.from_bytes(data[26:28],'big')*4;assert length==h['declared_length']<=len(data) and sum(data[64:length])%65536==int.from_bytes(data[28:30],'big')
+ raw=Path(r['raw_path']).read_bytes();assert raw==download[r['url']] and sha(raw)==r['source_sha256'];norm=raw.decode('utf-8').replace('\r\n','\n').replace('\r','\n')
+ if 'segmentation' in r['normalization']:
+  seg=r['normalization']['segmentation'];norm=norm.replace(seg['find'],seg['replace'])
+ assert norm.encode()==Path(g['walkthrough']).read_bytes() and sha(norm.encode())==r['normalized_sha256']
+ for key in ['archive_game_entry','archive_guide_entry']:
+  e=r[key];assert sha(Path(e['snapshot']).read_bytes())==e['snapshot_sha256']
+ if 'packaged_readme' in r:
+  e=r['packaged_readme'];assert Path(e['raw_path']).read_bytes()==download[e['url']] and sha(download[e['url']])==e['sha256']
+ if 'guide_associated_story' in r:
+  e=r['guide_associated_story'];b=Path(e['local_path']).read_bytes();assert b==Path(e['central_snapshot']).read_bytes()==download[e['url']] and sha(b)==e['sha256'];assert b[0]==e['zmachine_version'] and int.from_bytes(b[2:4],'big')==e['release'] and b[18:24].decode()==e['serial'];assert sha(b[:64])==e['header']['header_sha256'];assert e['selected_for_launch'] is False
+ assert g['dataset_split']==r['dataset_split']=='train' and g['game_family']==r['game_family']
+ assert r['reuse_permission']=='unknown; private collection only'
+ checked.append({'game_id':g['game_id'],'story_sha256':sha(data),'header_sha256':sha(data[:64]),'release':g['release'],'serial':g['serial'],'guide_raw_sha256':sha(raw),'guide_normalized_sha256':sha(norm.encode()),'family':g['game_family'],'split':g['dataset_split'],'compatibility':r['compatibility'],'raw_sources_refetched':True,'normalization_reproduced':True})
+family_notes={'metamorphoses':'Reserve full releases/translations and Fractured Metamorphoses teaching variant in same train family. Shared Emily Short authorship is not shared-world proof.','bofh':'Read author credits: explicit Simon Travaglia BOFH adaptation. Reserve BOFH-series adaptations together. No concrete shared world/puzzle with Baltimore24/Pentari established; both alreadytrain. Generic XYZZY allusion is not sufficient proof of ColossalCave derivative. Keep uncertainty documented and recheck any future related held-out title.','gourmet':'Distinct restaurant game; reserve ports/releases together.','splashdown':'Distinct ship-repair game; reserve ports/releases together. Trailing guide QUIT never proves completion.'}
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX);assert p.read_bytes()==config
+ pool=json.loads(Path('control/worker-pool.json').read_text());fleet=json.loads(Path('control/fleet/settings.json').read_text());assert pool['enabled'] is False and fleet['enabled'] is False
+ splits=json.loads(Path('batches/splits.json').read_text());ids={g['game_id'] for c in pool['queue_configs'] for g in json.loads(Path(c).read_text())['games']}
+ for g in games:
+  gid=g['game_id'];assert gid not in ids and gid not in splits['assignments'] and not(Path('play')/gid).exists()
+  for old,fam in splits['families'].items():
+   if fam==g['game_family']:assert splits['assignments'][old]==g['dataset_split']
+  splits['assignments'][gid]=g['dataset_split'];splits['families'][gid]=g['game_family']
+ idx=next(i for i,c in enumerate(pool['queue_configs']) if Path(c).name=='fleet-batch-i-20260925.json');pool['queue_configs'].insert(idx,str(p.resolve()))
+ receipt={'at':datetime.now(timezone.utc).isoformat(),'config_sha256':sha(config),'games':checked,'family_review':family_notes,'status':'parent validated and registered; quota launch hold preserved; runtime unproven','launches':0,'source_records_unchanged':True}
+ for name,value in [('batches/splits.json',splits),('control/fleet/batch-n-parent-validation.json',receipt),('control/worker-pool.json',pool)]:
+  dest=Path(name);tmp=dest.with_suffix('.parent.tmp');tmp.write_text(json.dumps(value,indent=2)+'\n');tmp.replace(dest)
+print('registered',len(games),'pending',sum(not(Path('play')/g['game_id']).exists() for c in pool['queue_configs'] for g in json.loads(Path(c).read_text())['games']),'enabled',pool['enabled'])

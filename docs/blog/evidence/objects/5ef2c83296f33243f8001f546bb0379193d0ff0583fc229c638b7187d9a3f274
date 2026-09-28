@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T07:13:13.907386+00:00",
+  "game_id": "tryst-of-fate",
+  "events": [
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00908",
+      "timestamp": "2026-09-25T07:06:20.644790+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b1",
+      "event_index": 908,
+      "event_type": "command",
+      "command": "get up",
+      "response": "As you get to your feet, you begin to realize that you must have really had a \ngood whack to the head. Dismissing the previous events as a bad dream, you \ncontinue your routine and get ready to start dinner.\n\nIt isn't until some time later that evening that you discover an odd gold \nlocket and a note under your pillow.\n\nThe note reads:\n\"Thank you ma'am for all your help on getting things settled around Deadeye. \nWith the Biscuit Brothers and Black Thad out of the way, people are startin to \nmove back towards town. There's even talk about reopenin the mine and maybe \ndrillin some more wells. Beetlebaum is feelin spry as a colt, and hell, I may \neven rebuild the ol Gumball Factory.\n\nThanks again for yer help and I hope the locket comes in handy from time to \ntime.\n\n(signed) George & Beetlebaum\n\n\n    *** You have won ***\n\n\nIn that game you scored 350 out of a possible 350, in 562 turns, earning you \nthe rank of Hero of Deadeye Gulch.\n\nWould you like to RESTART, RESTORE a saved game, see some suggestions for \nAMUSING things to do or QUIT?\n> ",
+      "raw_start": 181802,
+      "raw_end": 182855,
+      "response_sha256": "deeb02b1f299eb47be98811582e900f2756a5ec14bb42366b698b28c907be819",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-stand-up-220",
+        "intent": "Stand up from the floor (synonym probe for stand up)",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Standing"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "GET UP returns home; gold locket and George/Beetlebaum note resolve Deadeye; explicit win350/350 and finalmenu. No coverage claim; independent review pending."
+}

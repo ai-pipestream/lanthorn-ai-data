@@ -1,0 +1,25 @@
+{
+  "event_id": "night-at-the-computer-center-d16c3b6cd5:e00265",
+  "timestamp": "2026-09-25T07:49:10.563655+00:00",
+  "game_id": "night-at-the-computer-center",
+  "session_id": "night-at-the-computer-center-d16c3b6cd5",
+  "branch_id": "b2",
+  "event_index": 265,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 45070,
+  "raw_end": 45070,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "134081ad18cf4c0fd643af8e7cd9a620955e45104ea4e1a96f70bb79745617d4",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "night-at-the-computer-center-d16c3b6cd5",
+    "ending_quote": "You put the stolen laser printer on the printer table.\n\n\n    *** You have saved your job ***\n\n\nIn that game you scored 10 out of a possible 10, in 157 turns.",
+    "evidence_event_ids": [
+      "night-at-the-computer-center-d16c3b6cd5:e00263"
+    ],
+    "notes": "Printer-task resolution ending on branch b2 in Computer Site: putting the recovered stolen printer on the printer table produces author win text 'You have saved your job' with 10/10 in 157 turns and standard end prompt (RESTART/RESTORE/FULL/AMUSING/QUIT). Not death, quitting, chapter change, or the earlier mouse-following 10-point wording; it completes the gnome/manual/printer sequence per manifest."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,40 @@
+{
+  "started_at": "2026-09-25T11:41:21.713227+00:00",
+  "duration_seconds": 10800,
+  "interval_seconds": 300,
+  "calls_completed": 0,
+  "provider_calls": 0,
+  "cycles_checked": 1,
+  "skipped_calls": 1,
+  "status": "unchanged_quota_hold_historical_reference",
+  "prior_status_archive": {
+    "watcher-status.json": {
+      "path": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/watcher-history/20260925T114121.713244Z/watcher-status.json",
+      "sha256": "e2500604eb48447cc80957c7b76a956bdc24904ba42fd2e724b9cf59ce5915cb"
+    },
+    "latest-status.json": {
+      "path": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/watcher-history/20260925T114121.713244Z/latest-status.json",
+      "sha256": "e2500604eb48447cc80957c7b76a956bdc24904ba42fd2e724b9cf59ce5915cb"
+    }
+  },
+  "parent_review_required": true,
+  "actions_executed": [],
+  "last_started_at": "2026-09-25T11:41:21.713526+00:00",
+  "preflight": {
+    "skip_provider": true,
+    "checked_at": "2026-09-25T11:41:22.416725+00:00",
+    "fresh_capture_snapshot_id": "20260925T114121.713565Z",
+    "decision_is_fresh": false,
+    "provider_calls": 0,
+    "reason": "unchanged pre-reset quota hold; historical decision reference only",
+    "semantic_sha256": "09cf68c4b4c3250fc3d65289ee78f362dd35fbb01aa7f3fa8b6b58d30d62ff40",
+    "baseline_semantic_sha256": "09cf68c4b4c3250fc3d65289ee78f362dd35fbb01aa7f3fa8b6b58d30d62ff40",
+    "baseline_run": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T103142.522311Z",
+    "baseline_snapshot_id": "20260925T103142.522501Z",
+    "baseline_snapshot_sha256": "87a4f8d38cb2797a931773981f90824068df07dd2223493ba55dd651751b4a03",
+    "baseline_decision_sha256": "7e860701861f64328c1dc80b3925d89eac1f658a5656213b74710fe6ad1dbcd0",
+    "quota_reset_at": "2026-09-25T12:41:27Z"
+  },
+  "decision_is_fresh": false,
+  "last_finished_at": "2026-09-25T11:41:22.442996+00:00"
+}

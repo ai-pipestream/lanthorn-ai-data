@@ -1,0 +1,9 @@
+# Night at the Computer Center — progress (STOP, game incomplete)
+
+Location: Computer Site Moves 93 Score 6 (e00138 go southwest from Hall Outside Computer Site). Flashlight OFF. Room terse due to brief mode; desk/computer with ftp/lpr icons expected per start.
+Inventory (observed): UGGS Manual, flashlight (off). Score 6.
+Checkpoints verified: start-computer-site, stairwell-third, before-flashlight, stairwell-first, before-fountain, maze-entry, gnome-lair.
+Annotated (~18): typo-examine, omit-object, pronoun-01, synonym-look, direction, door-blocked, synonym-hear, wordorder-box, wrongobj-hose, typo-flashlight, synonym-push, omit-panel, ambiguity-light, panel-enter, typo-east, synonym-chase, pronoun-mouse. Pending annotate: wrongobj-printer-01 (take gnome e00118 vs get printer e00119 blocked needing manual), give-manual-01 (show manual e00120 UGGS rejected), gnome-ask-01 (e00121 generic).
+Last hint (e00132 lines 19-27): click ftp; click if-archive; click designers_manual; click lpr > manual [*2/8*]; then Gnome give manual/get printer; then Computer room put printer on table [*2/10*]. Provisional, verify stepwise in game.
+Next (do NOT resubmit m0117; already done e00138): at Computer Site, examine computer/desk, then click ftp, click if-archive, click designers_manual, click lpr to get designers manual (single commands, collect click-synonym/typo probes). Then return via panel/maze to gnome (light ON for dark), give manual, get printer, put printer on table for true ending. Verify concluding narrative vs 10-point/mouse-end text per manifest. Conserve light: OFF in lit rooms, ON only dark/maze/tunnels.
+Pending: none — m0117 done. No in-flight requests. Next inbox is m0118.

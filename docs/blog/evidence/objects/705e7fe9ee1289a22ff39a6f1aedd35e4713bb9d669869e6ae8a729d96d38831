@@ -1,0 +1,16 @@
+# Windhall progress — segment 4 LIVE (branch b2, game incomplete)
+
+STOP POINT: Turning Path (mountain), Day 3 ~7pm+ dark (e01074). Score 154. Checkpoint turning-path-154 VERIFIED Ok. No pending; last m0671/e01074 read.
+Location: Turning Path (werewolf vs ogre fighting ahead; E dead-end, W to base). Carrying: pack+rations, soap wad, hammer, fireball spell, holed metal, broken rock. Caches: field idol+N.staff; Central sword+shovel; Gunther's quarterstaff; river map+bow.
+Score: 154.
+
+Since m0658: skipped untriggerable nap (R5 not tired at 7pm, no tire msg); E,S to field, SE,SE to Bend got fireball+metal, SW,SW to Mountain Base got rock, SW,E to Turning Path werewolf/ogre.
+
+Checkpoints: turning-path-154, idol-154-field, gunther-asleep-145, + older. Branch b2.
+
+Cases: ~85. Unresolved: syn-take-nap, syn-lie-down (sleep never succeeded; annotate as world_state failure after route resolves or намеренно). Through m0671/e01074.
+
+Last hint (e00938 342-350 DONE except Sleep): E,S SE,SE fireball/metal SW,SW rock SW,E all DONE; Sleep SKIPPED (R5 gate never reached 12:57-7pm).
+NEXT: help mode-next SAME topic 'long maze solution' for werewolf/ogre (fireball? rock?); single commands only (combat); do NOT interleave topics.
+
+KEY R5: nap untiggerable Day3 afternoon (R3 2:09 wrong for R5); fireball pickup ok 7pm+ without sleep; auto-eat ok; dark mountain navigation ok so far.

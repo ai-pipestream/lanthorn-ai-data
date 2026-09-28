@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-25T08:16:38.999676+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-i-20260925.json",
+  "counts": {
+    "ready_static": 4,
+    "train": 4,
+    "development": 0,
+    "zcode": 1,
+    "glulx": 3,
+    "local_archive_matches": 4,
+    "explicit_guide_release_matches": 1,
+    "guides_copackaged_with_selected_story": 2,
+    "guides_without_release_or_bundle_match": 1,
+    "explicit_guide_serial_matches": 0
+  },
+  "notes": [
+    "Parent must validate/register; no shared registry/split changes.",
+    "All stories/guides stay central. Two stories are exact members of existing local-library ZIPs, extracted only into I.",
+    "Glulx uses the same config keys with zmachine_version=null; actual Glulx headers, Info release/serial, executable hashes and checksums are pinned in source records.",
+    "Pythos Mask walkthrough gives no release or VM; no runtime claims for any game.",
+    "Alias guide contains UNDO, repeated attempts, annotations and a Space cue; read notes before collection.",
+    "Family assignments conservative and provisional; all versions/ports of each title grouped together.",
+    "Reuse permission unknown; private collection only."
+  ]
+}

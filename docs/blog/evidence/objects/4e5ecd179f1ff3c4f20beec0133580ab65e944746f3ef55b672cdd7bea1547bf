@@ -1,0 +1,14 @@
+# Raspberry Pi fleet readiness
+
+Inspected 2026-09-25 around05:49UTC. User proposed3-4Muse workers per box. Start with3 per ready host, then measure a real game pilot before4. Local active Muse RSS observed214-474MiB; no remote sustained game capacity measured yet. Meta inference is remote; Pis host the agent client, tools and interpreter.
+
+- cm5ai1, pi500p, pi5ai1, pi5ai2p.local: ARM64,16GB, Muse1.4.0; successful actual Meta READY response.
+- cm5v1, cm5v2: ARM64,16GB, Muse1.4.0; explicit missing Meta credentials. Run muse login on each.
+- cm5v3.local: ARM64,8GB,Muse1.4.0; missing credentials. LAN resolves; not a Tailscale peer here.
+- pi5v2: ARM64,8GB,Muse1.4.0; first request timed out, diagnostic pending.
+- pi5v4: ARM64,4GB; Muse absent from PATH and ~/.local/bin and no match in usual install roots. Start at2 if later provisioned.
+- pi5v3: Tailscale reports offline; SSH timed out and mDNS did not resolve despite supplied Connect listing showing online.
+
+First-seen cm5v3.local and pi5ai2p.local SSH keys were accepted with accept-new; no changed host keys bypassed. No credentials copied between machines. Readiness requests disabled shell, web and filesystem writes. Probe receipt control/fleet/auth-probe-20260925.json.
+
+Existing10-game local pool stays authoritative. No remote game workers or distributed collection service have been deployed yet. Distributed runner needs host leases, unique game assignment, ARM interpreter binaries, centralized raw/event ingestion and review, and per-host concurrency caps. Source/version/hash and interrupted-session recovery rules remain in force. Authentication smoke checks are not training or model evaluation.

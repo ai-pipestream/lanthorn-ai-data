@@ -1,0 +1,17 @@
+{
+  "game_id": "reverberations",
+  "title": "Reverberations",
+  "url": "https://ifarchive.org/if-archive/solutions/reverb.sol",
+  "accessed_at": "2026-09-25T05:58:50.120336+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/reverb.sol",
+  "source_sha256": "c6fc44c0d73ac0e4caa6d0533327c112b62d7ffd490dcf76dc055383ebe68c5f",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/reverberations-walkthrough.txt",
+  "normalized_sha256": "c6fc44c0d73ac0e4caa6d0533327c112b62d7ffd490dcf76dc055383ebe68c5f",
+  "story": "/home/krickert/if-games/zcode/reverb.z5",
+  "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+  "compatibility": "Story R1/990110, community guide release unspecified. Timed sequences; save at safe milestones and preserve failures.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "990110"
+}

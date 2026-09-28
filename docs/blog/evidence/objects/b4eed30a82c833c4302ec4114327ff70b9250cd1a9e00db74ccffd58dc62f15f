@@ -1,0 +1,15 @@
+# Jigsaw progress (update 35 — SEGMENT 4 END, game incomplete)
+
+STOP: ending segment at clean Ch8 boundary. Game NOT complete. Continuation required.
+Location: Big Kill Devil Hill, CHAPTER 8: 59 SECONDS, 852 FEET (branch b2, e01074-76). Dunes Kitty Hawk; wooden railing below; paper dart in sand. Checkpoint r2-ch8-start (e01076, verified OK).
+Board: 11 lit (a1 Mould, a2 LP, a4 Park, b1 Invalid, b2 Dunes, b4 Snow, c1 Glass, c2 Carriage, c3 Train, c4 Moon, d4 Barge). Vacant: a3, b3, d1, d2, d3.
+SEGMENT 4 DONE: Ch7 b1 (nest+d4, hatch+c4 after 3 turns, missile disarmed green+blue, Toll Gate plaque = M-vs-Y toll lore); b2-blocker diagnosed (Ch4 centre missed: 4 separate 'boy,up' only reach 4th; need continuous 'boy,u.u.u.u' → Top floor); restored ch4-before-ball → centre TAKEN Top floor → b4 (take/turn/relay) + b2 FIRST-TRY fit (dunes) → Ch5 replay (a2 LP; visit-1 grille stash skips seizure+requeue) → Ch6 replay (0 pieces; Land changed with b2: Crags south → NW Pyramid, 'enter pyramid' → Disc) → Ch7 replay (d4+c4; leopard sketch SKIPPED as scoreless flavor, maze random) → clock59 + press b2 → CH8.
+Inventory: as e00841 + no loose pieces; sparkler lit; cable tied in Ch7 (left behind); broom carried.
+Cases: 66 total, all annotated, none unresolved (11 new Ch7: climb-hill, wire-cable, nest-typo, broomstick, seeds-plural-none, feed-goose-syntax [broke route: feed≠drop], toss-cable, sweep-snow-none, rocket, hatch-door, climb-missile).
+Help: mode=next chain at Ch8 line 678 — resume with mode=next after Ch8 opening beats.
+
+Next on resume (state current, do NOT restart/restore):
+1. Ch8 opening: examine device (year?), spin detector (count), examine paper dart/railing.
+2. Help mode=next for Ch8 steps; small probes at new rooms (target already exceeded — sparse).
+3. Vacant squares after Ch8+: a3, b3, d1, d2, d3.
+Next inbox file: m0740.json. Last response: m0739 (e01076).

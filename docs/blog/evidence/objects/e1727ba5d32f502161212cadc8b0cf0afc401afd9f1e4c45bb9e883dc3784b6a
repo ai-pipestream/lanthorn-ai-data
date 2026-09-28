@@ -1,0 +1,137 @@
+#!/usr/bin/env python3
+"""Bounded, non-mutating Kimi coordination trial on captured game evidence."""
+import argparse
+import datetime
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+import sys
+
+from maintain_workers import input_state, inventory, pending, processes
+
+ROOT = Path(__file__).resolve().parents[1]
+GAMES = ('time-all-things-come-to-an-end', 'enemies', 'traffic', 'pythos-mask')
+
+
+def read_json(path):
+    return json.loads(path.read_text())
+
+
+def validate_decision(text, snapshot):
+    body = text.strip()
+    fenced = body.startswith('```json\n') and body.endswith('\n```')
+    if fenced:
+        body = body[len('```json\n'):-len('\n```')]
+    decision = json.loads(body)
+    assert decision['snapshot_id'] == snapshot['snapshot_id'], 'stale snapshot'
+    expected = {g['game_id']: g for g in snapshot['games']}
+    assert len(decision['games']) == len(expected), 'wrong game count'
+    assert {g['game_id'] for g in decision['games']} == set(expected), 'wrong scope'
+    for game in decision['games']:
+        source = expected[game['game_id']]
+        assert game['session_id'] == source['session_id'], 'stale session'
+        assert game['disposition'] in {'continue', 'hold', 'verify_ending', 'diagnose'}
+        assert game['confidence'] in {'high', 'medium', 'low'}
+        assert game['reason'] and game['next_action']
+        refs = game['evidence_event_ids']
+        assert refs and set(refs) <= {e['event_id'] for e in source['evidence']}, 'unknown evidence'
+    cap = decision['capacity']
+    for key in ('active_local', 'active_remote', 'target'):
+        assert cap[key] == snapshot[key], 'incorrect capacity'
+    assert cap['held_slots'] == len(snapshot['held_slots'])
+    assert isinstance(cap['another_launch_justified'], bool)
+    return decision, fenced
+
+
+def collect():
+    stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
+    pool = read_json(ROOT / 'control/worker-pool-status.json')
+    fleet = read_json(ROOT / 'control/fleet/status.json')
+    proc = processes()
+    workers, brokers = inventory(proc)
+    data = dict(snapshot_id=stamp, scope='Supervised operational coordination pilot; no model training or game-playing benchmark',
+                active_local=len(workers), active_remote=sum(bool(x.get('worker', {}).get('muse_alive')) for x in fleet['assigned'].values()),
+                target=34, held_slots=['pythos-mask'], fleet_observed_at=fleet['timestamp'],
+                active_game_ids_local=sorted(workers),
+                active_game_ids_remote=sorted(g for g, x in fleet['assigned'].items() if x.get('worker', {}).get('muse_alive')),
+                scheduler_policy='Claims may have already freed compute and been refilled. Independent ending certification does not release additional capacity. Leave enabled schedulers intact; no additional manual launch while full.',
+                queued=pool['queued'], games=[])
+    for gid in GAMES:
+        base = ROOT / 'play' / gid
+        manifest = read_json(base / 'manifest.json')
+        history = [json.loads(line) for line in (base / 'events.jsonl').read_text().splitlines()]
+        current = [e for e in history if e['session_id'] == manifest['session_id']]
+        claim = read_json(base / 'ending-claim.json') if (base / 'ending-claim.json').exists() else None
+        refs = set(claim.get('metadata', {}).get('evidence_event_ids', [])) if claim else set()
+        selected = {e['event_id']: e for e in current[-18:]}
+        selected.update({e['event_id']: e for e in current if e['event_id'] in refs})
+        raw = (base / 'stdout.raw').read_bytes()
+        evidence = []
+        for e in sorted(selected.values(), key=lambda x: x['event_index']):
+            span = raw[e['raw_start']:e['raw_end']]
+            digest = hashlib.sha256(span).hexdigest()
+            assert digest == e['response_sha256'], (gid, e['event_id'], 'raw digest mismatch')
+            assert span.decode() == e.get('response', ''), (gid, e['event_id'], 'raw text mismatch')
+            evidence.append({**e, 'raw_verified_by_collector': True})
+        hold = read_json(base / 'supervisor-hold.json') if (base / 'supervisor-hold.json').exists() else None
+        remote = fleet['assigned'].get(gid)
+        data['games'].append(dict(game_id=gid, session_id=manifest['session_id'],
+            engine=manifest['engine'], release=manifest.get('release'), serial=manifest.get('serial'),
+            latest_actual_input_state=input_state(current), pending_requests=pending(base),
+            local_launcher_pids=workers.get(gid, []), broker_pids=brokers.get(gid, []),
+            remote_state=remote, supervisor_hold=hold, ending_claim=claim,
+            progress=(base / 'progress.md').read_text()[-7000:] if (base / 'progress.md').exists() else '',
+            evidence=evidence))
+    return data
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--previous', type=Path)
+    args = ap.parse_args()
+    data = collect()
+    run = ROOT / 'control/kimi-pilot' / data['snapshot_id']
+    run.mkdir()
+    payload = json.dumps(data, indent=2)
+    (run / 'snapshot.json').write_text(payload)
+    prompt = 'Coordinate these four games from this fresh evidence. Return the required JSON.\n' + payload
+    if args.previous:
+        prior = read_json(args.previous)
+        prompt += '\nPrevious pilot decision (reassess against fresh evidence):\n' + json.dumps(prior)
+    (run / 'prompt.txt').write_text(prompt)
+    cmd = ['/home/krickert/.kimi-code/bin/kimi', '--agent-file',
+           str(ROOT / 'control/kimi-pilot/coordinator.md'),
+           '--output-format', 'stream-json', '-p', prompt]
+    started = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    with (run / 'stream.jsonl').open('w') as out, (run / 'stderr.log').open('w') as err:
+        try:
+            result = subprocess.run(cmd, cwd=run, stdin=subprocess.DEVNULL,
+                                    stdout=out, stderr=err, timeout=300)
+            code = result.returncode
+        except subprocess.TimeoutExpired:
+            code = 124
+    (run / 'exit.status').write_text(str(code) + '\n')
+    (run / 'run.json').write_text(json.dumps(dict(started_at=started,
+        finished_at=datetime.datetime.now(datetime.timezone.utc).isoformat(), exit_code=code,
+        snapshot_sha256=hashlib.sha256(payload.encode()).hexdigest(),
+        profile_sha256=hashlib.sha256((ROOT / 'control/kimi-pilot/coordinator.md').read_bytes()).hexdigest(),
+        model_configured='kimi-code/k3', mode='decisions only; no tool access'), indent=2) + '\n')
+    if code == 0:
+        try:
+            messages = [json.loads(line) for line in (run / 'stream.jsonl').read_text().splitlines()]
+            replies = [m for m in messages if m.get('role') == 'assistant']
+            assert len(replies) == 1 and isinstance(replies[0]['content'], str), 'unexpected assistant response'
+            decision, fenced = validate_decision(replies[0]['content'], data)
+            (run / 'decision.json').write_text(json.dumps(decision, indent=2) + '\n')
+            (run / 'validation.json').write_text(json.dumps(dict(schema_scope_session_refs_capacity_valid=True,
+                json_fence_removed=fenced, parent_semantic_review_required=True, actions_executed=[]), indent=2) + '\n')
+        except (ValueError, KeyError, TypeError, AssertionError) as error:
+            (run / 'validation.json').write_text(json.dumps(dict(valid=False, error=str(error), actions_executed=[])) + '\n')
+            code = 3
+    print(json.dumps(dict(run=str(run), exit_code=code)), flush=True)
+    return code
+
+
+if __name__ == '__main__':
+    sys.exit(main())

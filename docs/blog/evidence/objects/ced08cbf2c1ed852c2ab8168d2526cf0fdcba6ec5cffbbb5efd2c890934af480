@@ -1,0 +1,190 @@
+{
+  "at": "2026-09-25T08:12:52.364343+00:00",
+  "game_id": "muse-autumn-romance",
+  "session_id": "muse-autumn-romance-dde3ae3e6f",
+  "header": {
+    "version": 5,
+    "release": 2,
+    "serial": "990922"
+  },
+  "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+  "embedded_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+  "events": [
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00001",
+      "timestamp": "2026-09-25T08:02:11.498900+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                           MUSE: An Autumn Romance\n\n\n                        [Please press SPACE to begin.]\n\n\n\n\n                    And though the shadow of a sigh\n                      May tremble through the story,\n                    For 'happy summer days' gone by,\n                      And vanish'd summer glory --\n                    It shall not touch with breath of bale\n                    The pleasance of our fairy-tale.\n\n                              - Lewis Carroll,\n                              \"Through the Looking Glass\"\n",
+      "raw_start": 0,
+      "raw_end": 556,
+      "response_sha256": "35edc078de70045afc5b6f0ae2a90ebe10aaa30532795c1016203fd69da2d0e0",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00002",
+      "timestamp": "2026-09-25T08:02:25.162307+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": " ",
+      "response": "\n\nThe late summer of 1886 found me on the continent for the purpose of regaining \nmy health and spirits. These had been in decline for the past few months, and \nit was Dr Thorne's suggestion that the best cure for me might be a change of \nscenery. A short stay in Ramsgate, perhaps. Or better yet, a visit to the Alps \nin France or Switzerland, where the fresh mountain air would do me no end of \ngood. \n\nI had declined at first to do any such thing. I was, after all, a staid, solid \nclergyman of 59 years, mature enough to weather any foolish fluctuations of \ntemper. Besides which, these frivolities cost money. \n\nThe doctor's recommendation eventually reached the ears of my dear sister Emma, \nhowever, and she immediately took up the task of convincing me of the necessity \nof such a trip. But it was not until I obtained news about relatively \ninexpensive alpine destinations that I relented, and found myself packed off to \nthe continent for a month. \n\nThe month's sojourn improved my health tremendously. However, without the \ndistraction of my usual work, I found the mountains did little to raise my \nspirits. And so I made my journey homeward in a state of mute distraction, even \nas the first brilliance of Autumn began to make itself known among the trees. \n\nAll in all, it had been a smooth and uneventful trip, but for a slight pause at \nthe channel. This was at a small French coastal village from which I chose to \nmake my crossing, it being less expensive than the usual ferry at Calais. Here \nI stopped for a meal at the local inn, and then waited as my trunk was \ntransferred from the train to pier where the boatman was waiting. \n\nIt was only a minor pause.... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMUSE: An Autumn Romance\nCopyright (c) 1998 by Christopher Huang.\n(Please type \"help\" for background and documentation.)\nRelease 2 / Serial number 990922 / Inform v6.15 Library 6/7\n\nPier\nThe pier stretched out into the cold waters of the English Channel from the \nvillage east of here. Overhead, I could hear the gulls swoop and cry. The brisk \nseaside air blew in my face, carrying with it the scent of salt. Far away, \nacross the waves, the white cliffs of Dover could barely be seen in the grey \nclouded light.\n\nMy trusty old steamer trunk lay here.\n\nA fishing boat was moored beside the pier and its boatman was waiting.\n\n>",
+      "raw_start": 556,
+      "raw_end": 2883,
+      "response_sha256": "757e2b95b22d97797c4ed9767d714cfba1737b6ae0144f92872c1e9c2616b642",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "startup-space",
+        "intent": "Press SPACE to begin the game",
+        "origin": "exploration",
+        "expected_outcome": "Title/intro advances past press-SPACE prompt"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00003",
+      "timestamp": "2026-09-25T08:02:28.767434+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 2883,
+      "raw_end": 2897,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "pier-start"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00004",
+      "timestamp": "2026-09-25T08:02:29.068774+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "pier-start.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/muse-autumn-romance/saves/muse.z5.save/pier-start.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 2897,
+      "raw_end": 3021,
+      "response_sha256": "bc5c7d1f9b385d0e3e8a07cb5801afd4d2a375aed32b8fafefba275ef73a075a",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "pier-start"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00005",
+      "timestamp": "2026-09-25T08:02:43.488672+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "glance around",
+      "response": "That was not a verb I recognised.\n\n>",
+      "raw_start": 3021,
+      "raw_end": 3057,
+      "response_sha256": "78af393a552813da143b7c93f4be646271f1d174d740f17b7aba128448aa6d8a",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "pier-look-synonym",
+        "intent": "Describe my current surroundings on the pier",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Room description of the pier"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00007",
+      "timestamp": "2026-09-25T08:02:54.156985+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nPier\nThe pier stretched out into the cold waters of the English Channel from the \nvillage east of here. Overhead, I could hear the gulls swoop and cry. The brisk \nseaside air blew in my face, carrying with it the scent of salt. Far away, \nacross the waves, the white cliffs of Dover could barely be seen in the grey \nclouded light.\n\nMy trusty old steamer trunk lay here.\n\nA fishing boat was moored beside the pier and its boatman was waiting.\n\n>",
+      "raw_start": 3057,
+      "raw_end": 3503,
+      "response_sha256": "99d9bd1950889c3216c26ceb503190b6982cb6d5064c401e3ac193ddf53e749e",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "pier-look-synonym",
+        "intent": "Describe my current surroundings on the pier",
+        "origin": "guided",
+        "expected_outcome": "Room description of the pier"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00009",
+      "timestamp": "2026-09-25T08:03:06.929629+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 9,
+      "event_type": "command",
+      "command": "check my pockets",
+      "response": "I couldn't see any such thing.\n\n>",
+      "raw_start": 3503,
+      "raw_end": 3536,
+      "response_sha256": "8c41a7ef383f3b4ec5491d5a79fee446a59e94b8a72251de8eff1a4bb45547d4",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "pier-inventory-synonym",
+        "intent": "List the items I am carrying",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Inventory listing"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00010",
+      "timestamp": "2026-09-25T08:03:11.138346+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 10,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "I had on my person the following items:\n  my pocket New Testament\n\n>",
+      "raw_start": 3536,
+      "raw_end": 3604,
+      "response_sha256": "a519662d057cb4648e49f7c3e604812730e223bdc00f0d0e5922022a7957551e",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "pier-inventory-synonym",
+        "intent": "List the items I am carrying",
+        "origin": "guided",
+        "expected_outcome": "Inventory listing"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "parent bytes/header/raw spans verified; source compatibility gaps retained; no completion claim"
+}

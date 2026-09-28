@@ -1,0 +1,13 @@
+# Nine Points – progress (update 5, pre-finish)
+
+Location: Outside (game ended, e00061).
+Inventory at end: plant, lantern (lit), bottle, rusty key, crown taken then lost in scripted mugging; sceptre? Actually left with Minoan sceptre per ending text.
+Branch b0. Last annotation: e00072 lounge-door-blocked.
+
+Checkpoints: start-hallway, bedroom-entry, before-passage, before-window-exit (all verified).
+
+Route: push bookcase east revealed vault (score 4); look in pot gave rusty key (score 5); unlock+open chest revealed/taken crown (score 7); x window + open window (score 8); north exited to Outside ending, score 8/8 in 35 turns.
+
+Annotations now 21 total: prior 14 + plant-take e00066, push-bed e00067, lamp-light e00068, pot-search e00069, crown-take e00070, window-open e00071, door-blocked e00072. Covers typos, synonyms, omitted-object, word order, pronoun, world_state/prereq, blocked-door failure.
+
+Next: finish with e00061 ending quote (*** finished ***, 8/8). Do not send further game commands; end prompt is RESTART/RESTORE/QUIT menu.

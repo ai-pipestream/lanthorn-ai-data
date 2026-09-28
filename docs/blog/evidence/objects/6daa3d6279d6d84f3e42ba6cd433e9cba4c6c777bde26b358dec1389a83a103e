@@ -1,0 +1,30 @@
+# Progress - Time: All Things Come to an End
+
+## Current state (Alley after bin)
+- Location: Alley (e00095), narrow dim, bin west, brick wall north, brighter south. Carpenter corpse present, now truly dead after dying speech.
+- Inventory: crumpled newspaper + strange-looking gun (via get everything e00092). Jacket not takeable (incriminating e00101). Body search yields no items but triggers key lore.
+- Score: 4. Branch b0, last event e00102 (search jacket -> nothing, leave area).
+- Dying speech (e00099): stop Xeron project, keystones, time in danger, apartment key hidden down in the... (cut off).
+
+## Critical learning
+- Bin survival requires Z waits until engine fades (e00089), then search/get all safe. Early take is fatal vaporisation (e00082).
+- Exit wording: 'climb out' fails (e00094), 'exit' works (e00095). Bulk 'get everything' works for gun+paper.
+- Corpse synonyms work: 'search corpse' = search body. Jacket take refused; search urges leaving area (possible timed arrival).
+
+## Unresolved cases
+- None pending. Need probes for newspaper/gun reading and south exit.
+
+## Resolved cases (16 annotated)
+- Prior 13 plus: bin-take-all-syn01 none e00092, bin-exit-climb01 syntax e00094->e00095, search-body-syn01 none e00099.
+
+## Last hint
+- m0076: Zx4, Search garbage, Get all, Exit, X body, X jacket, Search body. Verified through Search body. Need next excerpt for newspaper/gun/alley south/apartment.
+
+## Next actions
+1. Read newspaper (with probe variation first, e.g. typo or 'peruse' already used - try 'read paper' synonym), examine gun.
+2. Go south to brighter area before someone shows up; checkpoint after safe arrival.
+3. Ask small help for alley south / apartment key if stuck.
+4. Keep diverse probes; avoid repeating climb/exit phrasing.
+
+## Useful checkpoints
+- start-lab, panel-open, machine-working, chapter1-bin

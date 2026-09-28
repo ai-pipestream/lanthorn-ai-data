@@ -1,0 +1,8 @@
+# Vindaloo progress — WON e00433, score 18/18, finish claimed e00437
+
+Location: Kitchen, post-win prompt (RESTART/RESTORE/QUIT) e00433.
+Inventory at win: knife, key carried; pan on stove with spices/onion/tomato/chicken; table empty; crowbar in kitchen.
+Score 18/18 in 340 turns. Concluding narrative observed in e00433: stove-on cooks meal, enjoying long-awaited vindaloo, *** You have won ***.
+Finish: submitted inbox/m0395.json, recorded as ending_claim e00437, response responses/m0395.json notes awaiting Terra verification. No further commands — game concluded, do not restart.
+Checkpoints verified: kitchen-pan, kitchen-table, alley-hat.
+Cases: 30+ diverse annotated probes across full route (vocabulary/syntax/world_state/planning/none).

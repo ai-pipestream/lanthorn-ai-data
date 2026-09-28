@@ -1,0 +1,25 @@
+{
+  "event_id": "ghost-train-b026ef4aab:e00410",
+  "timestamp": "2026-09-25T09:19:55.449375+00:00",
+  "game_id": "ghost-train",
+  "session_id": "ghost-train-b026ef4aab",
+  "branch_id": "b0",
+  "event_index": 410,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 79217,
+  "raw_end": 79217,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "ghost-train-b026ef4aab",
+    "ending_quote": "    *** You have won ***",
+    "evidence_event_ids": [
+      "ghost-train-b026ef4aab:e00409"
+    ],
+    "notes": "Full route: accident, underground, second train stopped, cemetery/chapel, gargoyle/dancers, 3x circuit summoned demon, Satan one-hour deal, grave/eyes/Pluto, third train NW via RRBBGR, damper x2 escape. e409 shows whistle kills demon grip, spirit line escape and You have won, not death/quit/chapter."
+  },
+  "review_status": "unreviewed"
+}

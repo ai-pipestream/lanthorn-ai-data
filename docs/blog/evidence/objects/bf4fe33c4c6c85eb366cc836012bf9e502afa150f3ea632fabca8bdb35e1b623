@@ -1,0 +1,136 @@
+# Experiment journal
+
+Dates are UTC. Initial entries reconstruct earlier work from retained artifacts;
+they are not notes written contemporaneously. Append subsequent findings with
+their evidence instead of silently rewriting the history.
+
+## 2026-09-24: scope and discovery
+
+The user wanted to ease text-adventure frustrations while retaining the original
+interpreter. Recall came first; command assistance became a related collection
+target. Hybrid retrieval and MiniLM were discussed. Neither discussion selected
+a final model or established that training would help.
+
+We created a separate experiment workspace. Muse uses the Meta provider; Terra
+independently reviews evidence. The first source pilot failed to adequately verify
+walkthrough bodies. Revised prompts and validation required actual fetch receipts.
+
+Evidence: `sources/pilot-*`, `runs/pilot-review.md`, `scripts/validate_sources.py`,
+`run-sources.sh`, and retained per-run prompts and outputs in `runs/`.
+
+## 2026-09-24: actual play and synthetic mistakes
+
+The user clarified that the target is useful test data, not Muse's playing skill.
+Workers inject labeled synthetic human-like mistakes while advancing real games.
+They request small walkthrough excerpts through a logged broker action. Actual
+game output supplies evidence; guide prose and model recollection cannot replace it.
+
+The initial games were the Zork/Dungeon Inform 7 port, Hitchhiker's Guide,
+Adventureland, Pirate Adventure and Lost Pig. If an alternative command works,
+it stays an accepted alternative rather than becoming an invented parser failure.
+
+Evidence: `prompts/fullplay.md`, `run-fullplay.sh`, `scripts/play_broker.py`, and
+each game's `manifest.json`, `events.jsonl` and `stdout.raw` under `play/`.
+
+## 2026-09-24: capture and review failures
+
+A slow Zork response demonstrated that a quiet output interval did not mean the
+interpreter was ready for input. Delayed text could be attributed to the following
+command. The broker now checks whether the owned interpreter is waiting to read
+stdin and blocks further input after an uncertain timeout. Earlier affected
+examples remain quarantined. Tests of the corrected transport do not retroactively
+validate old captures.
+
+Review also caught changed-intent repairs, cross-branch state assumptions and
+unsupported explanations of why a command failed. Parser acceptance differs from
+achieving the intended world effect. Separate those labels instead of treating
+any later success as a correction.
+
+CSV tooling inferred dates and formulas from strings. The exporter now protects
+literal text and verifies readback before emitting quoted CSV. JSON retains
+original timestamp precision; CSV timestamps use milliseconds.
+
+Evidence: `scripts/test_broker_transport.py`, `scripts/export_dataset.mjs`,
+`reviewed/fullplay-cases.json` and `runs/fullplay-supervision.md`.
+
+## 2026-09-24 23:20: host restart recovery
+
+After the user reported a restart, we preserved history and recovered from
+engine-confirmed saves with story/save hash checks. Recovery creates explicit
+new sessions and branches. Uncertain pending inputs were not blindly replayed.
+
+Evidence: `control/fullplay-host-restart-20260924T2318.json`,
+`scripts/recover_broker.py`, recovery receipts in `runs/fullplay-status.json`.
+
+## 2026-09-24: four independently verified endings
+
+The reviewer record retains the raw spans and hashes for these receipts:
+
+- Adventureland: `adventureland-19f4e4861c:e00939`, 13 treasures and explicit
+  completion.
+- Pirate Adventure: `pirate-adventure-3b0fad2d95:e00853`, both treasures and
+  explicit completion.
+- Lost Pig: `lost-pig-7c88b2b933:e00357`, farm-return ending, score 6/7.
+- Hitchhiker's Guide: `hhgttg-7b4da6d228:e00397` and `e00398`, Magrathea arrival,
+  final score 385/400 and natural engine exit.
+
+A maximum score is not always necessary for an ending. Conversely, a high rank,
+death, quit or scene transition does not establish an intended ending.
+
+## 2026-09-25: Zork remains incomplete
+
+The story is Zork/Dungeon 3.2B, an Inform 7 port, not commercial Zork I. The first
+guide did not cover the same content. A matching source archive contained a story
+binary with the same hash, providing a stronger identity check than the title.
+
+Exploratory commands repeatedly exhausted lamp power needed later. Sending a
+shorter route does not prove it ran: after advice to restore an early checkpoint,
+the worker restored a later depleted one. Report observed execution separately
+from instructions and resource estimates.
+
+A parent hypothesis that an exhausted lamp could be reactivated was also wrong:
+it missed a source guard and actual output contradicted it. Preserve that mistake
+in the account. Source inspection and supervisor advice also need verification.
+The intermediate 586-point/wraith stage is not a verified ending.
+
+Evidence: `control/ZorkI7-source.zip`, `control/zork-port-story.ni`,
+`control/zork-port-walkthrough.txt`, and the supervision record. Guidance at
+`zork-i7-c569ad8028:e01394` differs from the actual restore at `e01424`/`e01425`.
+
+## 2026-09-25 01:54: five more games
+
+The user authorized Photopia, Shade, Suveh Nux, Secret Mission and Voodoo Castle.
+Separate brokers use existing local story files and privately retained guide
+sources. A new-game broker refuses an existing game directory to prevent silent
+resets. Game-family split assignments were preserved before collection.
+
+Startup checks exposed distinctions worth recording:
+
+- Photopia is stripped-down Z-code 1.30, not Glulx 2.01.
+- Shade is release 3 / 001127, matching the guide's stated release.
+- Suveh Nux's selected 2007 binary reports version 1.1; its guide describes 1.0.
+  The initial collection note implied a match and was subsequently corrected.
+- Secret Mission's actual banner says MISSION IMPOSSIBLE by Scott Adams.
+- Voodoo Castle's banner credits Alexis Adams.
+- Initial SAVE commands failed in both new Scott-format games. An attempted
+  checkpoint is not a recoverable save without engine confirmation.
+
+Evidence: `control/fullplay-expansion-20260925.json`,
+`sources/expansion-20260925/`, `control/expansion-launch-20260925.json`,
+`batches/splits.json`, and startup receipts in `runs/fullplay-status.json`.
+
+## 2026-09-25 02:18: blog evidence record
+
+The user requested a durable account of acquisition, capture, testing and future
+model creation. Added this journal, methodology, proposed model plan and a dated
+evidence snapshot script.
+
+The initial snapshot captured 12,475 events and a CSV with 709 cases: 433 accepted,
+165 revise, 15 quarantine and 96 unreviewed. All recorded response byte spans
+matched their hashes and decoded text. This verifies byte integrity, not intent
+preservation or causal attribution. Collection, review and export run separately;
+their timestamps may differ.
+
+Evidence: `docs/blog/evidence/snapshots/20260925T021805.922507Z.json`.
+The three current transport tests also passed in this documentation pass, in
+3.925 seconds. Training and model evaluation have not started.

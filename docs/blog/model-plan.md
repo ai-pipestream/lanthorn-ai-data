@@ -1,0 +1,92 @@
+# Proposed model creation and evaluation
+
+No training or model evaluation has started. This is a plan, not permission to
+start it. MiniLM is a discussed candidate, not a selected or validated model.
+
+## Two tasks with different evidence
+
+Recall retrieves clues or descriptions the player already encountered. Positives
+must be captured passages eligible for the current session/branch and time cutoff.
+Future events and guide prose cannot silently supply answers.
+
+Command assistance suggests wording for the player's intended action. It needs
+context, the command, actual response and a reviewed same-intent recovery.
+Embedding similarity alone does not establish whether a command is legal or
+useful in the current game state.
+
+## Before training
+
+1. Freeze data and reviewer versions. Exclude unresolved/quarantined labels and
+   deduplicate repeated probes. Select task-specific cases rather than treating
+   every accepted row as a positive repair.
+2. Preserve game-family splits in `batches/splits.json`. Keep related releases,
+   paraphrases and replayed branches together. Do not tune on held-out families.
+3. Human-check a stratified sample and review disagreements. Separate typos,
+   grammar, accepted synonyms, missing objects, state constraints and new intent.
+4. Compare lexical retrieval, an unchanged small embedding model and their hybrid
+   using identical frozen queries and eligible passages. Establish whether
+   training is needed before investing in it.
+
+## Possible training exercise
+
+Contrastive fine-tuning of an existing small sentence encoder is one option.
+Use reviewed query/passage positives and plausible negatives; another valid
+paraphrase or near-duplicate clue is not automatically a safe negative. Preserve
+the unchanged encoder and lexical baseline for comparison.
+
+Command repair may need a separate reranker or decision layer that can abstain.
+Do not assume a recall encoder can invent useful commands. Include cases where
+the correct help is a state explanation or a clarification question.
+
+## Predeclared measurements
+
+For recall: Recall@k and reciprocal rank, by held-out game family and query type,
+respecting eligible historical context. For command assistance: same-intent
+suggestion precision, coverage and false-help rate, including abstention cases.
+When checking world effects, re-execute only from verified checkpoints in new,
+explicit evaluation sessions. Completion rate is not a substitute for these metrics.
+
+Measure latency, memory and model size on named hardware with recorded settings.
+Report errors and uncertainty as well as aggregate results.
+
+## Future run receipt
+
+Record data/split hashes, label policy and human review; base-model identifier,
+revision and license; tokenizer, code/dependency versions, seeds, hyperparameters
+and hardware; duration, observed resource costs and logs; model hash; evaluation
+code, query set and per-case outputs. Keep failures and null results too.
+
+After validation, Docker packaging would need a pinned model/checksum, license
+review and an offline loading test. This collection task has not produced trained
+weights, application integration or a Docker model bundle.
+
+## Proposed collection targets, 2026-09-25
+
+The user asked how much data is enough and expressed interest in collecting more.
+For fine-tuning an existing small embedding model, use staged working targets,
+not a claim that a fixed sample count guarantees quality:
+
+- About 1,000 reviewed, task-eligible examples: first baseline/learning-curve study.
+- About 5,000 deduplicated reviewed examples: a useful initial collection target,
+  aiming for breadth across roughly 30-50 games rather than repeated puzzle loops.
+- 10,000 or more: expand if held-out evaluation continues improving or exposes
+  specific gaps. No game should manufacture repetitive examples to satisfy a quota.
+- Separately reserve about 500-1,000 reviewed evaluation examples from whole game
+  families excluded from training; sample human review before quality claims.
+
+These are planning estimates, not published thresholds. They do not authorize
+training or automatically adding games. Current authorized scope remains fifteen.
+At 2026-09-25 03:05 UTC, exports held 926 cases, 575 accepted. Of those accepted,
+245 had failure_type=none; this documents useful accepted alternatives but is not
+245 successful repairs. Accepted cases also include planning/state constraints.
+Select task-specific labels before counting usable training examples.
+
+Recall and repair require separate preparations: recall needs questions linked
+to already-observed passages (with historical cutoffs and valid negatives), while
+repair needs context and independently verified same-intent corrections. Our
+playthrough event count is neither of those training-set sizes. Once authorized,
+compare nested subsets such as 500/1,000/2,000/5,000 on a fixed held-out benchmark.
+Increase coverage based on errors rather than assuming a larger raw log helps.
+
+
+2026-09-25 10:05 UTC: The user authorized expanded Kimi operational coordination. Fleet triage and harness validation are separate from training or evaluating the proposed recall and command-assistance models. No model training or application deployment has started.

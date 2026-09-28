@@ -1,0 +1,240 @@
+{
+  "at": "2026-09-25T06:27:53.927535+00:00",
+  "old_session": "anchorhead-51ee2d15c2",
+  "checkpoint_event": {
+    "event_id": "anchorhead-51ee2d15c2:e01571",
+    "timestamp": "2026-09-25T06:15:54.897701+00:00",
+    "game_id": "anchorhead",
+    "session_id": "anchorhead-51ee2d15c2",
+    "branch_id": "b30",
+    "event_index": 1571,
+    "event_type": "checkpoint_filename",
+    "command": "cellar-fuse-day3.sav",
+    "response": "Saved to '/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/cellar-fuse-day3.sav.qzl'.\nOk.\n\n>",
+    "raw_start": 575710,
+    "raw_end": 575833,
+    "response_sha256": "556ec6890a9804f0cc20b3ac3f0ac23eddc6e79f6efa4541e6ae82566c63aa08",
+    "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "name": "cellar-fuse-day3"
+    },
+    "review_status": "unreviewed"
+  },
+  "checkpoint_sha256": "e6de1682b73fddb2b0692d2b0358155d53308760a76015e1fba94df03abe21c7",
+  "stopped_pids": {
+    "1431743": [
+      "bash",
+      "./run-fullplay.sh",
+      "anchorhead",
+      ""
+    ],
+    "3130245": [
+      "timeout",
+      "--signal=TERM",
+      "--kill-after=10s",
+      "2700s",
+      "muse",
+      "exec",
+      "--provider",
+      "meta",
+      "--workspace",
+      "/work/experiments/lanthorn-recall-training/play/anchorhead",
+      "--prompt-file",
+      "/work/experiments/lanthorn-recall-training/runs/fullplay-anchorhead-20260925T062730Z-FSVx2r/prompt.md",
+      "--json",
+      "--max-model-steps",
+      "400",
+      "--max-tool-output-bytes",
+      "262144",
+      "--approval-mode",
+      "never",
+      "--disable-shell",
+      "--disable-web-tools",
+      "--no-foreign-personal-context",
+      ""
+    ],
+    "3130246": [
+      "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+      "exec",
+      "--provider",
+      "meta",
+      "--workspace",
+      "/work/experiments/lanthorn-recall-training/play/anchorhead",
+      "--prompt-file",
+      "/work/experiments/lanthorn-recall-training/runs/fullplay-anchorhead-20260925T062730Z-FSVx2r/prompt.md",
+      "--json",
+      "--max-model-steps",
+      "400",
+      "--max-tool-output-bytes",
+      "262144",
+      "--approval-mode",
+      "never",
+      "--disable-shell",
+      "--disable-web-tools",
+      "--no-foreign-personal-context",
+      ""
+    ],
+    "1430945": [
+      "python3",
+      "scripts/recover_broker.py",
+      "control/fullplay-anchorhead-menu-recovery-20260925T0346.json",
+      "--hours",
+      "12",
+      ""
+    ],
+    "1431024": [
+      "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+      "--plain",
+      "--data-dir",
+      "/work/experiments/lanthorn-recall-training/play/anchorhead/saves",
+      "--sound",
+      "off",
+      "/home/krickert/if-games/zcode/anchor.z8",
+      ""
+    ]
+  },
+  "quarantined_events": [
+    "anchorhead-51ee2d15c2:e01576",
+    "anchorhead-51ee2d15c2:e01577",
+    "anchorhead-51ee2d15c2:e01578",
+    "anchorhead-51ee2d15c2:e01579"
+  ],
+  "reason": "READ NEWSPAPER CLIPPINGS returned partial auto-take; subsequent command and await_output timed out. No more input sent; restore confirmed cellar-fuse-day3 in new session.",
+  "new_broker_pid": 3132179,
+  "config": "control/fullplay-anchorhead-clippings-recovery-20260925T0628.json",
+  "new_session": "anchorhead-2c1c588159",
+  "verified_at": "2026-09-25T06:28:29.086135+00:00",
+  "new_events": [
+    {
+      "event_id": "anchorhead-2c1c588159:e00001",
+      "timestamp": "2026-09-25T06:27:54.962309+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-2c1c588159",
+      "branch_id": "b31",
+      "event_index": 1,
+      "event_type": "session_recovery",
+      "command": null,
+      "response": "",
+      "raw_start": 577389,
+      "raw_end": 577389,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "unchanged",
+      "metadata": {
+        "previous_session_id": "anchorhead-51ee2d15c2",
+        "checkpoint_event_id": "anchorhead-51ee2d15c2:e01571",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/cellar-fuse-day3.sav.qzl",
+        "checkpoint_sha256": "e6de1682b73fddb2b0692d2b0358155d53308760a76015e1fba94df03abe21c7",
+        "reason": "READ NEWSPAPER CLIPPINGS returned partial auto-take; subsequent command and await_output timed out. No more input sent; restore confirmed cellar-fuse-day3 in new session."
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00002",
+      "timestamp": "2026-09-25T06:27:54.970778+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-2c1c588159",
+      "branch_id": "b31",
+      "event_index": 2,
+      "event_type": "request_cancelled",
+      "command": null,
+      "response": "",
+      "raw_start": 577389,
+      "raw_end": 577389,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "unchanged",
+      "metadata": {
+        "request_file": "m1406.json",
+        "reason": "Old pending request not replayed after recovery",
+        "request_sha256": "74db188bcb91744282f8ccf6e2d42848fe51898feb8296d18cd0a400b908644d"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00003",
+      "timestamp": "2026-09-25T06:27:55.276603+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-2c1c588159",
+      "branch_id": "b31",
+      "event_index": 3,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n                             A N C H O R H E A D\n\n\n               [Press 'R' to restore; any other key to begin]\n\n\n\n\n                 The oldest and strongest emotion of mankind\n                 is fear, and the oldest and strongest kind\n                 of fear is fear of the unknown.\n\n                 -- H.P. Lovecraft\n",
+      "raw_start": 577389,
+      "raw_end": 577725,
+      "response_sha256": "6ac0180412d4e47820cfeffc504fb31be45930b357698275d265920fd7857e5d",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00004",
+      "timestamp": "2026-09-25T06:27:55.577515+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-2c1c588159",
+      "branch_id": "b32",
+      "event_index": 4,
+      "event_type": "restore",
+      "command": "restore",
+      "response": "\nsaves: 1 alley-before-window.sav   2 attic-cell-gold.sav   3 beach-after-sewer.sav   4 before-bridge-mob.sav   5 before-riser-jump.sav   6 bum-doctor-william.sav   7 catwalk-after-mirror.sav   8 cellar-blocked.sav   9 cellar-fuse-day3.sav   10 cellar-key-clean.sav   11 cellar-key-obtained.sav   12 church-back-trapdoor.sav   13 church-cellar-lit.sav   14 crypt-inside.sav   15 day2-card-ready.sav   16 day2-morning-bedroom.sav   17 day3-morning-dressed.sav   18 deserted-before-west.sav   19 evening-bath-ready.sav   20 evening-dressed-before-sleep.sav   21 file-room-inside.sav   22 foyer-night-arrival.sav   23 foyer-south-return.sav   24 house-attic-done.sav   25 keys-obtained.sav   26 kitchen-before-crypt.sav   27 kitchen-lantern-lit.sav   28 library-book-obtained.sav   29 library-book-returned.sav   30 library-day2-circulation.sav   31 library-michael-meeting.sav   32 lighthouse-foot.sav   33 master-too-early-sleep.sav   34 maze-3deep-fast.sav   35 maze-3deep-north.sav   36 maze-4deep-north.sav   37 maze-5deep-north.sav   38 maze-5ne-room.sav   39 maze-6deep-north.sav   40 maze-east-2deep.sav   41 maze-ladder-room.sav   42 mill-before-maze.sav   43 mill-road-after-mirror.sav   44 mill-road-michael-stuck.sav   45 narrow-before-mob2.sav   46 outside-house-arrival.sav   47 outside-with-keys.sav   48 pantry-before-cellar.sav   49 riverside-south-bridge.sav   50 shaft-rope-tied.sav   51 shanty-greer-done.sav   52 shanty-town-found.sav   53 square-obelisk-day3.sav   54 start-outside-office.sav   55 study-laptop-unlocked.sav   56 study-manual-read.sav   57 study-records-checked.sav   58 town-search-office-return.sav   59 vacant-before-amulet.sav   60 vacant-copper-key.sav   61 well-before-plywood.sav   62 well-hide-done.sav   63 wine-cellar-checked.sav   64 workshop-catwalk.sav\nRestore from file: ",
+      "raw_start": 577725,
+      "raw_end": 579545,
+      "response_sha256": "a7b9e9a7c8c100ffc6f02f36a89c1e36cee1f8e6848a99ecf47041a2065a1f72",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "cellar-fuse-day3",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00005",
+      "timestamp": "2026-09-25T06:27:55.879338+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-2c1c588159",
+      "branch_id": "b32",
+      "event_index": 5,
+      "event_type": "checkpoint_filename",
+      "command": "cellar-fuse-day3.sav",
+      "response": "Ok.\n\n>",
+      "raw_start": 579545,
+      "raw_end": 579551,
+      "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "cellar-fuse-day3",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00006",
+      "timestamp": "2026-09-25T06:27:56.183496+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-2c1c588159",
+      "branch_id": "b32",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nCellar\nThe old, flagstone walls gleam with unwholesome-smelling moisture, and the \nsagging timbers creak uneasily above your head. Ancient, frayed wiring festoons \nthe ceiling like some strange species of clinging vine. Portions of the cellar \nextend south and east into the clammy darkness, though you could always beat a \nhasty retreat up the stairs to the north.\n\nOne largish bundle of wires leads down to a rusty old fuse cabinet bolted to \nthe far wall.\n\nYou can also see a cardboard box (in which are some newspaper clippings) here.\n\n>",
+      "raw_start": 579551,
+      "raw_end": 580093,
+      "response_sha256": "54dfbdcccce464fe2135f880bb26de49c1eeae26be42e2eca925381d6c1286c4",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Observe restored location"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "worker_pid": 3134277
+}

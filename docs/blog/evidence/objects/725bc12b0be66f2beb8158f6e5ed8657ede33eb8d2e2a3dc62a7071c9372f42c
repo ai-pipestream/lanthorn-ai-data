@@ -1,0 +1,25 @@
+# Gumshoe progress — b1 fast branch at Logitek, awaiting 11:32 departure (incomplete)
+
+## Where / what branch
+- Branch b1 (restored `sandra-accepted`, e00159-160 confirmed, score reset 11). b0 waited 12+ times at Logitek with no departure — judged missed window or missing prereq, restored rather than waited blindly.
+- b1 fast route (10 moves post-restore): look office e00161 → stand e00162 → w reception e00163 (Marge by door, coat+hat on rack) → n hallway e00164 → e foyer e00165 → e street e00166.
+- KEY TIMING EVIDENCE (b1 e00166): Sandra McBride was still on the street and entered the yellow cab as I arrived. On b0 she was long gone. Fast branch is ~11 game-moves earlier — inside the window, hopefully.
+
+## Street findings (b1)
+- `x tires` e00167 → "You can't see any such thing." `x valve` e00168 → same. Walkthrough's "X tires (Tires! What tires?) / X valve / Push pin" objects are NOT present at McMurtry street in this release — no tires/valve/pin anywhere. Skipped as version difference, not a missed prereq (or unresolved — flag if departure fails again).
+- look e00169: parked yellow cab + one drives away; Sandra gone.
+- hail taxi e00170 (score 12) → get in yellow cab e00171 → cabbie, go to logitek e00172 (score 13). At Logitek in cab.
+
+## Logitek surveillance (b1)
+- wait e00173 quiet; again e00174 quiet; z m0165 pending at time of writing.
+- Hint (lines 85-93): "Wait. again (wait for John and Nicole to leave in a cab) / save game / Cabbie, follow the blue cab (1/8)".
+
+## Inventory / score (observed b1)
+- Score 13. Inventory presumed: card, snapshot, Times, license, money (from b0 notes; NOT re-verified on b1 — verify with `i` after surveillance resolves).
+- Camera STILL missing (Marge glare blocked all b0 desk searches). Open problem: photographs needed for evidence. Must solve after tailing (Marge leaves at 2pm? check office later).
+
+## Next
+1. Keep waiting (z/again) for blue-cab departure. If ~8 quiet waits on b1 → checkpoint `logitek-stakeout`, then try `cabbie, follow the blue cab` blind? No — instead re-HELP with refined topic.
+2. On departure: checkpoint immediately, then `cabbie, follow the blue cab`.
+3. Camera hunt before Giuseppe's photos: restore-adjacent — office desk when Marge away, or wear camera hint (m0074 said "wear camera after search desk"?? — camera expected from Marge's desk mess).
+- Checkpoints available: start-hallway, reception-entry, sandra-accepted. Next checkpoint: at Logitek once departure witnessed (pre-follow save).

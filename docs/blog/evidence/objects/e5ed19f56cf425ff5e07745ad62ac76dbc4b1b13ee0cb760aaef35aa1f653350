@@ -1,0 +1,8 @@
+# Fine-Tuned progress (m0810 PENDING help trellis/hatch ordering - game incomplete, Side Yard b1, ordinary prompt e826)
+
+Location b1: Side Yard e826 ('examine trellis' duplicate of e669: firmly attached climbs to roof). Ordinary prompt '>'. Last game output e826.
+State: m0809 DONE e826; m0810 PENDING help trellis/hatch ordering. Inbox m0810.json valid, not yet serviced. Latest e826 (verify on resume). Do NOT resubmit m0632-m0810 or duplicate m0810.
+Inventory: letter opener, rose blossom, hanky, tin pot, clippings, artifact, manuscript, purse(open)+coin+programme (per e713).
+History: e825 se to Side Yard; e826 examine trellis (duplicate, establishes no new info, reuse e669 knowledge); climb trellis x2 refused respect e665/e666; open hatch strength-block e799; open side door locked.
+Resume: read latest.json and responses/m0810.json when present. Pending m0810 only. Next: follow help excerpt (small, ≤9 lines), then single intent-preserving correction; annotate linked pair with event IDs.
+Checkpoints sideyard-b1 GOOD e808-e809, garden-path-b1 GOOD e771-e773, foyer-return-b1 GOOD e788/e789, garret-b1 GOOD e725/e726, upstairs-hall-b1 GOOD e719/e720.

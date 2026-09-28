@@ -1,0 +1,11 @@
+# Theatre progress — tight stairway
+
+Location: Tight Stairway (e70). Winds up west / down east. Came from Cramped Hallway (page taken e69) ← Manager's Office (pager dropped e67) ← Lobby trapped (checkpoint) ← Outside (car stolen) ← Lobby ← Office ← Basement.
+Inventory now: hallway page only? Dropped 4 popcorn+first page in lobby (e63), dropped pager in office (e67), took hallway page (e69). Need verify with inventory later.
+Checkpoints: start-lobby, basement-entry, outside-theatre, lobby-trapped.
+
+Hints:
+- h1 done (popcorn x4 south exit).
+- h2 in progress: N→thug (e56), look thug (e57 accepted syn), wait x4 (e58-61 thug drives back), N retreat (e62), drop all but pager (e63), checkpoint, NW (e66), drop pager (e67), N hallway (e68), take page (e69 syn accepted), W stairway (e70). Remaining h2: W,W,S,W push piano east/south climb up piano.
+
+Next: W (up stairway), W, S, W per hint. Then push piano sequence. Collect 1 variation per new room (synonym/typo) before canonical. Annotate backlog (6+ accepted/failed pairs pending). Need checkpoint after piano milestone.

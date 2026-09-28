@@ -1,0 +1,87 @@
+{
+  "game_id": "augmented-fourth",
+  "title": "Augmented Fourth",
+  "author": "Brian Uri",
+  "url": "https://ifarchive.org/if-archive/solutions/Aug4Solution.zip#Aug4Walk.html",
+  "accessed_at": "2026-09-25T08:12:55.762494+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/augmented-fourth-guide.raw.html",
+  "source_sha256": "059429006745eca653a09866d74971a9d687feb55562092d192e403c7b680af2",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/augmented-fourth-walkthrough.txt",
+  "normalized_sha256": "09d6c192feeb16c5eab71b3e5de033b2c4accf2f187f6abe5b5e9b749d8b30dc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "transformation": "Decode HTML entities; extract body text including hover-hidden hints; retain headings/list text, remove style/markup and collapse layout whitespace; wrap at 110 characters.",
+    "word_sequence_preserved_after_html_extraction": true
+  },
+  "guide_container": {
+    "path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Aug4Solution.zip",
+    "url": "https://ifarchive.org/if-archive/solutions/Aug4Solution.zip",
+    "sha256": "b460c4e8a74189313fabe5e032f1df193ab70d421b2b816cb8ae308d939af6ff",
+    "member": "Aug4Walk.html"
+  },
+  "story": "/home/krickert/if-games/zcode/Aug4.z8",
+  "story_sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000004a0f0a0f16dd301ca52e0613300103230303430310102b1f04d1000000000000000000000000000000000613200000000000001c200000000362e3231",
+    "header_sha256": "e6427c01a3a9e5d8751651196fa2b3cbe6c5d59afac713c92d5955aac9dc1198",
+    "checksum_hex": "4d10",
+    "checksum_valid": true,
+    "declared_length": 364416,
+    "file_bytes": 364544
+  },
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "200401",
+  "guide_release": 4,
+  "guide_serial": null,
+  "guide_release_gap": 0,
+  "compatibility": "Author guide archive explicitly targets release 4, matching Z8 R4/200401. HTML copyright spans 2000–2020, but no target serial is stated. Exact command compatibility and finale are untested.",
+  "compatibility_status": "needs_runtime_verification",
+  "story_identity": {
+    "local_library_path": "/home/krickert/if-games/zcode/Aug4.z8",
+    "local_library_sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c",
+    "remote_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Aug4.z8",
+    "remote_url": "https://ifarchive.org/if-archive/games/zcode/Aug4.z8",
+    "remote_sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c",
+    "accessed_at": "2026-09-25T08:12:55.691403+00:00",
+    "byte_identical": true,
+    "archive_member": null,
+    "story_sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c"
+  },
+  "archive_game_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/zcode-index.txt",
+    "snapshot_sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "entry_text": "# Aug4.z8\nifwiki: Augmented Fourth\ntuid: cpwktis6qwh9ydn8\n\nAugmented Fourth, an Interactive Performance,\nwritten by Brian Uri.\nRelease 4 / Serial number 200401.\n(source code is in </if-archive/games/source/inform/#Aug4Source.zip>)",
+    "tuid": "cpwktis6qwh9ydn8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Index"
+  },
+  "archive_guide_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/solutions-index.txt",
+    "entry_text": "# Aug4Solution.zip\nifwiki: Augmented_Fourth\ntuid: cpwktis6qwh9ydn8\n\nSolution to Augmented Fourth, release 4, written by the\ngame's author, Brian Uri.",
+    "tuid": "cpwktis6qwh9ydn8",
+    "snapshot_sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "url": "https://ifarchive.org/if-archive/solutions/Index"
+  },
+  "guide_author": "Brian Uri (author guide, explicitly attributed by archive and HTML)",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Entire text guide including last route/ending instructions; no map/PDF review or guide command execution.",
+    "completion": "Complete the escape from the pit, music puzzles and return to the surface, then the final Throne Room showdown using the learned combined musical effects. Require actual game-authored victory and closing narrative after the final confrontation; reaching the surface, learning all music, a score or ordinary death is not completion.",
+    "limitations": "Author HTML contains hover-hidden hints, now represented as plain text with heading context. Midgame order is one suggested route. Parenthesized song names and prose waits describe intent, not literal commands. Resolve NPC timing from observed output; no repeated-wait quota filler.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "augmented-fourth",
+  "family_review": {
+    "parent_review_required": true,
+    "rationale": "No established shared world or copied puzzle with A-H/current corpus. Spell-like music and fantasy motifs alone do not establish a Zork/Enchanter relationship. Group all releases/ports of Augmented Fourth together; parent reviews any stronger connection.",
+    "splits_sha256": "7e9fd86dad4a43e639f92910c85a2fd1a11bb9840fc5be1482d228d5c6351616",
+    "checked_at": "2026-09-25T08:16:38.999676+00:00"
+  },
+  "reuse_permission": "unknown; private collection only",
+  "reuse_claims_observed": "Public archive access and author/bundle provenance do not establish reuse permission.",
+  "central_only": true
+}

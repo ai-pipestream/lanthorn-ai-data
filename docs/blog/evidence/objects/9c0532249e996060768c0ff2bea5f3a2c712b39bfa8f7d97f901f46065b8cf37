@@ -1,0 +1,18 @@
+{
+  "game_id": "bronze",
+  "title": "Bronze",
+  "url": "https://i7-examples.github.io/Bronze/Walkthrough.txt",
+  "accessed_at": "2026-09-25T02:34:48.968313+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/bronze.source",
+  "source_sha256": "2505d1976dae43d407887d97635413d88d97d7589a449e0483cc13afc1b68680",
+  "normalization": "entire source document",
+  "normalized_sha256": "ab9e992dbb42d720f6e0474b5eaa6ba79da9950014df91ff6de3a8558b6b7470",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/bronze-walkthrough.txt",
+  "story": "/home/krickert/if-games/zcode/Bronze.zblorb",
+  "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+  "compatibility": "Local Z-code R11/060503; author guide has no release statement, hosted alongside Release13. Full-route compatibility unproven.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 11,
+  "serial": "060503"
+}

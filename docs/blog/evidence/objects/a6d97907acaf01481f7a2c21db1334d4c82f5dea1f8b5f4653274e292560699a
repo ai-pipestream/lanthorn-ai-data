@@ -1,0 +1,9 @@
+# Theatre progress — SEGMENT 3 (b2, beast defeated, game incomplete)
+
+Location: Above the Pit (e490, branch b2, checkpoint beast-defeated). Iron door open west to Underground Passage. Beast in Inside Pit defeated via poisoned corpse.
+Carrying (e463 on b2, verify next): 2 loose pages, shiny key, old ticket. Corpse consumed in beast pit (+3 score e487). Lobby holds 12 pages, crystal, tablets, stethoscope, plans, 4 popcorn, blue/violet/red pearls. Orchestra pit holds empty vial only. Mask in observatory, lens in telescope.
+Checkpoints: underground-passage, above-pit, beast-defeated (b2), plus older lobby-drop, observatory-mask, before-break, before-coffin, sick-bay, etc.
+Next: walkthrough L132-140 tail says drop vial, D, E, get page; vial left in orchestra pit — try D, E, get page without vial first. Then L141+ show violet/blue/red/green to trent, U NE SE, drop popcorn E. Drop key per L132 still pending — decide later.
+Cases done seg3: iron-door-open-blocked (world_state, e436/438), pit-page-paper-synonym (vocabulary, e442/443), beastpit-body-drop (planning drop vs throw in, e485/487). Death e458 by transparent creature restored from above-pit to b2; corpse fetched from orchestra pit (wrong-pit planning error corrected).
+Hints: L132-140 pit sequence done (beast dead); L141-149 trent/popcorn pending. Last hint L141-149 via mode next.
+Status: honest continuation, no ending reached; no finish claimed.

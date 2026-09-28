@@ -1,0 +1,17 @@
+# Progress — Reverberations COMPLETE
+
+Location: Mayor's Office (final confrontation, game over winning)
+Inventory at end: rope tied, hammer, axe used, etc. Score 50/50 in 92 turns.
+Branch: b0, last event e00152 (annotation), game event e00151 WIN
+
+Milestones:
+- Roof: tied rope to rod, held rope, jumped into Mayor's Office +5 (40)
+- Broke glass with hammer +3 (43), got axe, waited for crack, hit floor with axe +7 (50)
+- Winning: mafia dropped to Jill/SWAT, Tasker fired Stan, Jill kiss, You Rule!
+
+Cases: 21 synthetic + 1 natural = 22 total annotated
+- 17 shut box none; 18 show box syntax; 19 tie rope syntax; 20 break box planning; 21 hit floor planning
+
+Checkpoints: start-behind-counter, street-with-pizza, courthouse-arrival, law-office-key, mayor-office-entry, law-office-after-rescue, after-bomb-25, after-thug-30, roof-before-rope
+
+DONE - ready to finish with e00151

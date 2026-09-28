@@ -1,0 +1,10 @@
+# Bronze progress — SEGMENT 3 MID2 (incomplete)
+
+Game R11/060503 b0. Latest e00382 (parlor return).
+Location: Private Parlor 33/55. Route: Law Library -> Dining -> Entrance -> Scarlet -> Labyrinth(dark, retreated) -> Gallery(Lucrezia) -> Treasure -> Scarlet Tower -> Entrance -> Dining -> Kitchen -> Servant Quarters(dark below, retreated) -> Entrance -> Courtyard -> Rotunda -> Parliament -> Courtyard -> Helical up -> Parlor -> Crystal -> Balcony -> Parlor -> Empty Bedroom -> Parlor -> Green Bedroom(portrait) -> Parlor.
+Inventory: contract book, sceptre, puzzle piece, shoes, iron key, stool, small key, embroidery, helmet, shackle.
+Checkpoints: law-library-book, servant-quarters confirmed.
+Cases new this segment: law-read none, law-typo-south syntax, labyrinth-typo-down syntax, gallery-ambiguity painting, green-portrait none. Plus think lamp: light room unexplored.
+Findings: read book needs translation room; go-to translation fails unvisited; think book->ivory door; think ivory generic; think shoes missing object+info; think lamp says light room unreached; darkness below labyrinth + below servant quarters both need light; painting ambiguity repaired; portrait accepted.
+Unresolved: lamp location, ivory door, translation route, shoes, crypt, jigsaw, ending. Rooms 33/55 — Apartments east/west bedrooms remain plus guard tower SW, Law Library hole down, State south?, etc.
+Next: parlor east/west, bellroom north, guard tower SW from Entrance. Single steps. Do NOT restart.

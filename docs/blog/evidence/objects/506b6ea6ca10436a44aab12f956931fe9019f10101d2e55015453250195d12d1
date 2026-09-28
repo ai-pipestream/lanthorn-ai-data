@@ -1,0 +1,189 @@
+{
+  "game_id": "mystery-fun-house",
+  "title": "Mystery Fun House",
+  "author": "Scott Adams",
+  "url": "https://ifarchive.org/if-archive/solutions/Funhouse.txt",
+  "accessed_at": "2026-09-25T09:19:19.188879+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/Funhouse.txt",
+  "source_sha256": "457ba1384026901df503b4bb48ac797389c80bc65103c2e522dda1ca4bc679aa",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/mystery-fun-house-walkthrough.txt",
+  "normalized_sha256": "2005a1ea3fc4ae0826beed30c655b1c3ce897e55070f1539103edd6488d12c23",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state. Then replace every literal comma-space with comma-LF for bounded help excerpts; command wording and punctuation are unchanged.",
+    "segmentation": {
+      "find": ", ",
+      "replace": ",\n",
+      "scope": "entire LF-normalized text",
+      "reason": "break compact command chains into bounded excerpts"
+    }
+  },
+  "story": "/home/krickert/if-games/scott/AdamsGames/adv07.dat",
+  "story_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+  "compatibility": "Local adv07.dat is byte-identical to the same member of both local and freshly downloaded AdamsGames.zip. Collection readme identifies Adventure 7, Mystery Fun House v1.45, a TRS-80 text version converted by Paul David Doherty; the data trailer is version 145, adventure 7. This is the complete game, not sampler1.dat or a graphical SAGA edition. Guide names the game but no version/platform: exact guide edition compatibility is unspecified; multiword examples may require the Scott parser's two-word form.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": null,
+  "release": null,
+  "serial": null,
+  "story_header": {
+    "container": "scottfree-text",
+    "header_bytes": 57,
+    "header_hex": "2035323233200a203734200a20323039200a203839200a203335200a2036200a2031200a2030200a2034200a20353030200a203939200a2030",
+    "header_sha256": "75b0153367a3fbb4bf1c0c4f99c0e660a742d78251f2a9b36574af2b95c6c3e7",
+    "header_values": [
+      5223,
+      74,
+      209,
+      89,
+      35,
+      6,
+      1,
+      0,
+      4,
+      500,
+      99,
+      0
+    ],
+    "header_fields": {
+      "unknown": 5223,
+      "max_item_index": 74,
+      "max_action_index": 209,
+      "max_word_index": 89,
+      "max_room_index": 35,
+      "max_carry": 6,
+      "start_room": 1,
+      "treasure_count": 0,
+      "word_length": 4,
+      "light_time": 500,
+      "max_message_index": 99,
+      "treasure_room": 0
+    },
+    "file_bytes": 17165,
+    "trailer_values": [
+      145,
+      7,
+      637
+    ],
+    "version": "1.45",
+    "adventure_number": 7
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "adv07.dat",
+    "url": "https://ifarchive.org/if-archive/scott-adams/games/scottfree/AdamsGames.zip#adv07.dat",
+    "accessed_at": "2026-09-25T09:19:19.329976+00:00",
+    "remote_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+    "local_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+    "bytes": 17165,
+    "byte_identical": true
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/#AdamsGames.zip",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/scott-index.html",
+    "snapshot_sha256": "41b87ccdf756374f0befc92e6dac2c717fa9a0c12e586025d79faf945cf871d6",
+    "entry_text": "AdamsGames.zip ◆ [03-Dec-1997] View contents IFDB entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry , entry IFWiki: Adventureland , Pirate Adventure , Secret Mission , Voodoo Castle , The Count , Strange Odyssey , Mystery Fun House , Pyramid of Doom , Ghost Town , Savage Island, Part I , Savage Island, Part II , Golden Voyage , Sorcerer of Claymorgue Castle , Return to Pirate's Island , The Adventures of Buckaroo Banzai , The Hulk , Spiderman 17 copyrighted Scott Adams adventures, plus a freely distributable sampler. These text adventures were commercially distributed in the 1970s and 1980s, but today they are distributed as Shareware. The games have been converted to \"ScottFree\" format. Game conversion and readme file by Paul David Doherty.",
+    "tuid": null,
+    "collection_tuids": [
+      "7nkd8ib4xbeqr7pm",
+      "dy4ok8sdlut6ddj7",
+      "zya3mo3njj58hewi",
+      "89kxtet3vb9lzj87",
+      "ay2jy3sc3e6s9j4k",
+      "89qmjvv4cb0z93t5",
+      "025dj4on6jr2c867",
+      "cj05ocxhay4dbrfs",
+      "hew4c6rciycb6vog",
+      "rlxb5i0vjrnfr6x9",
+      "wkaibkem4nxzo53y",
+      "aqy6km542aq20jh4",
+      "4yo4je8dh53ug9qs",
+      "11tnb08k1jov4hyl",
+      "rp9eibu02f9vp2sv",
+      "m85x5yr0zbopyuyb",
+      "4blbm63qfki4kf2p",
+      "ngi8ox3s9gfcand2"
+    ]
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Funhouse.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "Funhouse.txt ◆ [13-Sep-2007] Step-by-Step solution to Mystery Funhouse, by Hayden Presley.",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Hayden Presley",
+    "route_summary": "Complete the full Fun House mission and recover the missing top-secret plans. Require the actual authored winning output, not an ordinary death, park closing, quitting or a score. Static data identifies the WON rule for carrying the plans and the authored HURRAH message followed by game-end; parent must verify this in raw output. The guide's trailing congratulation text is prose, never a command or runtime evidence.",
+    "limitations": "Use the pinned ScottFree text edition and adapt the prose guide to actual two-word parser responses. The guide's comma-separated chain is segmented for small help excerpts. Observe carrying capacity, light, closing-time and fuse timing; save early and before hazard commitments at ordinary prompts. Do not use failed commands as time fillers. This is a distinct Adventure 7 story; the collection ZIP also holds already registered games, but only adv07.dat is proposed.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "scott-adams",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Use the existing conservative scott-adams family and train split used by Adventures 1-4. Adventure 7 has a distinct data member, title, hash and mission. Shared collection container is expected, not a duplicate story."
+  },
+  "reuse_claims_observed": "Collection readme permits freely downloading and enjoying copyrighted shareware with voluntary contribution. This is not permission for training or redistribution of collected data; guide reuse permission unknown. Private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "scott_version": "1.45",
+  "adventure_number": 7,
+  "story_container": {
+    "format": "zip",
+    "local_path": "/home/krickert/if-games/scott/AdamsGames.zip",
+    "url": "https://ifarchive.org/if-archive/scott-adams/games/scottfree/AdamsGames.zip",
+    "member": "adv07.dat",
+    "local_sha256": "6a79737d6359414dbaa8e4ba246f776301e5ce1a23194a43c431dbedf288e882",
+    "remote_sha256": "6a79737d6359414dbaa8e4ba246f776301e5ce1a23194a43c431dbedf288e882",
+    "byte_identical": true,
+    "container_bytes": 107198,
+    "member_bytes": 17165,
+    "member_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+    "extracted_path": "/home/krickert/if-games/scott/AdamsGames/adv07.dat",
+    "storage": "central_only"
+  },
+  "packaged_readme": {
+    "member": "0readme.txt",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/AdamsGames-0readme.txt",
+    "sha256": "e3259ff7e8b00d68b1878596b020fe8d1f82abe2fe2b8a8d262dd3f6b544d04e",
+    "container_sha256": "6a79737d6359414dbaa8e4ba246f776301e5ce1a23194a43c431dbedf288e882",
+    "reviewed_sections": [
+      "contents/version",
+      "shareware notice",
+      "Adventure 7 description",
+      "credits/conversion origin"
+    ]
+  },
+  "static_ending_evidence": {
+    "gameplay_executed": false,
+    "action_comment": "WON",
+    "action_words": [
+      100,
+      1341,
+      0,
+      0,
+      0,
+      0,
+      21213,
+      0
+    ],
+    "item_index": 67,
+    "item_text": "Missing top secret plans/PLAN/",
+    "condition": "item 67 carried",
+    "message_index": 91,
+    "message": "HURRAH! You've done it!",
+    "note": "Static ScottFree data inspection, not a runtime result."
+  }
+}

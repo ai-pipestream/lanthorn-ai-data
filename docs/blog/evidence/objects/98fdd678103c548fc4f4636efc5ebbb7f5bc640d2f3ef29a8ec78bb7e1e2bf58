@@ -1,0 +1,32 @@
+# Progress - Risorgimento Represso
+
+## Current location
+Stairwell first floor (score 3, light on). Came from Sewer via Basement/Main Hall. Heading to Garderobe per hint (n,e) with paint stripper + methane knowledge.
+
+## Inventory (approx, need verify)
+Carried: illuminator (lit), helmet (new), red tube, pouch?/purse?/flask?/vial?/dish?/bowl?/bottle?/cylinder? (some stowed in satchel due to limit). Satchel contains: exercise book, steel key, chamberpot, pillow, silk purse (stowed when helmet taken), etc. Need inventory command to confirm.
+- Key items: paint stripper bottle (methane warning), helmet (protection?), pillow, chamberpot, powder trio (saltpetre/charcoal/sulphur).
+
+## Hypothesis (from hints + observations)
+- Sewer has methane miasma (odourless colourless gas). Paint stripper warns do not mix with methane.
+- Walkthrough goes back to Garderobe (n,e) after confirming methane + stripper. Likely pour stripper down garderobe hole to cause controlled methane blast below, dislodging spectacles from vat/channel? Helmet for protection? Pillow/chamberpot to catch/cushion? Need next excerpt.
+- Cannon needs powder (3-1-1 mix, ball mill, powder bag) - later, possibly to escape castle or rescue? Manifest mentions castle, countryside, rescue, final descent with Ninario.
+
+## Checkpoints
+- lab-arrival latest, plus 4 earlier. Need: before pouring stripper (risky blast).
+
+## Cases (27 total)
+- syn-24 rod (accepted), syn-25 turn rod (accepted, score 3), syn-26 heap (accepted, helmet), syn-27 miasma (accepted = gas).
+- At 27 cases, good. Still need true wrong-object and world_state block and ambiguity-asks-clarification. Most recent many accepted; need some rejections for balance.
+
+## Last hint (e00148, lines 39-47)
+```
+! x gas (methane idea) / x gas / s / u / u / ! x bottle (methane warning) / x bottle / n / e
+```
+Done through u,u. Next: x bottle (already known, can skip or redo), n,e to garderobe. Then need next excerpt for pour/ignite/blast.
+
+## Next actions
+1. n to North Hallway, e to Garderobe (understood route).
+2. Checkpoint before blast/pour.
+3. Examine vat/channel/spectacles? Try pouring stripper? Wear helmet? Need next hint before risky blast.
+4. Inventory to confirm holdings.

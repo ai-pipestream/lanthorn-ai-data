@@ -1,0 +1,15 @@
+# Heist progress
+
+Location: Graveyard (after funeral, letter read, strange man present, open grave hole).
+Inventory (observed e00009): black canvas bag (open), silver picture frame with student's photo. Plus curious envelope opened (blew away) and letter read (e00013). Man gave envelope (e00011).
+
+Checkpoints: early-graveyard (verified Saved Ok at ordinary prompt).
+
+Cases:
+- graveyard-look-typo (lok -> look) annotated e00005->e00007 vocab success
+- envelope-open-omitted (open -> open envelope) annotated e00012->e00013 syntax success
+- route-startup-01, route-opening-inventory, route-ceremony-wait, route-ceremony-wait2, route-accept-assignment (yes -> rhetorical), route-after-letter-look
+
+Last hint (e00006, heist.sol lines 17-25): start graveyard, z.z.z.z, open envelope, answer yes, d, x coffin, x plaque (birth year varies + riddle), get ribbon, push plaque, look in coffin, search corpse, etc. Verified envelope + waits; 'yes' gave rhetorical in R5 (version gap), not acceptance prompt. Next: try 'd' into grave per hint.
+
+Next actions: go down into hole, examine coffin/plaque, record randomized birth year/riddle, collect varied probes (synonyms, typo, omitted object) with help as needed. Need 20-40 cases across full game. Avoid SAVE during yes/no; next checkpoint only at ordinary prompt after grave sequence.

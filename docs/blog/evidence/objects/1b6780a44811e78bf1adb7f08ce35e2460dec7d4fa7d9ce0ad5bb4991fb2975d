@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-25T09:52:13.015592+00:00",
+  "status": "prepared_pending_parent_validation",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-n-20260925.json",
+  "counts": {
+    "games": 4,
+    "zmachine": 4,
+    "scott": 0,
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "limits": {
+    "response_timeout_seconds": 180,
+    "help_excerpt_max_lines": 9,
+    "help_excerpt_max_characters": 1000,
+    "probe_quota": null,
+    "launches": 0,
+    "training": 0,
+    "evaluation": 0,
+    "publication": 0
+  },
+  "central_only": true,
+  "games": [
+    {
+      "game_id": "metamorphoses",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metamorphoses.json",
+      "family": "metamorphoses",
+      "dataset_split": "train",
+      "compatibility": "Local Z5 R4/020222 matches fresh archive bytes and catalog. The complete packaged walkthrough accompanies original competition Z5 R1/000930, separately hash/header verified. Guide itself states no release or serial: companion-to-selected gap is three releases and 510 days. This is the proper full Metamorphoses, not the modified/clipped Fractured Metamorphoses example.",
+      "family_review_required": false
+    },
+    {
+      "game_id": "gourmet",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet.json",
+      "family": "gourmet",
+      "dataset_split": "train",
+      "compatibility": "Local competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.",
+      "family_review_required": false
+    },
+    {
+      "game_id": "bofh",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh.json",
+      "family": "bofh",
+      "dataset_split": "train",
+      "compatibility": "Local Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.",
+      "family_review_required": true
+    },
+    {
+      "game_id": "splashdown",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown.json",
+      "family": "splashdown",
+      "dataset_split": "train",
+      "compatibility": "Local competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.",
+      "family_review_required": false
+    }
+  ],
+  "review_required": [
+    "Parent validates before registering/launching.",
+    "Metamorphoses uses full proper R4, not the clipped teaching variant. Guide is from R1 package.",
+    "BOFH R1 transcript cannot certify R2 behavior; avoid obsolete score exploitation and post-win undo. BOFH family review flagged.",
+    "Splashdown trailing QUIT never counts as completion; require actual final narrative after full repair/beacon/departure route.",
+    "No guide commands or interpreters executed.",
+    "This is the final bounded source-prep assignment; stop after these four."
+  ]
+}

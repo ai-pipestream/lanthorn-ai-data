@@ -1,0 +1,103 @@
+{
+  "game_id": "bofh",
+  "title": "BOFH: The Bastard Operator from Hell",
+  "author": "Howard A. Sherman",
+  "url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+  "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+  "accessed_at": "2026-09-25T09:48:44.585439+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofhwalk.txt",
+  "source_sha256": "8fb90b1d27724a95fe051b75fbe1bd1ad9296e93a0869faafdce48257d02d089",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh-walkthrough.txt",
+  "normalized_sha256": "a5a1a5a96c32bb8e02f71834fe9a66e3b2a19077def12cfd3c5207af731d0ccc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/ifcomp/2002/zcode/bofh/bofh.z5",
+  "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+  "compatibility": "Local Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "020927",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000023ee03ee12bca010a193f2391001030323039323700427c572e9b000000000000000000000000000000002390000000000000010200000000362e3231",
+    "header_sha256": "98b0750e232f2f80a625a697e02d0d98281a3cffc3b0ff0d9ae8e0ba426a45b3",
+    "checksum_hex": "2e9b",
+    "computed_checksum_hex": "2e9b",
+    "declared_length": 127324,
+    "file_bytes": 127488
+  },
+  "guide_release": 1,
+  "guide_serial": "020927",
+  "guide_release_gap": 1,
+  "story_identity": {
+    "filename": "bofh.z5",
+    "url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofh.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofh.z5",
+    "accessed_at": "2026-09-25T09:49:05.901103+00:00",
+    "remote_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "local_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "bytes": 127488,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "020927"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/bofh/#bofh.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh-index.html",
+    "snapshot_sha256": "b5635dbe3afcef23b71e917147a51a0e5a9d116f821a087784b5cc8c488badf7",
+    "entry_text": "bofh.z5 ◆ [28-Sep-2002]",
+    "tuid": null
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/bofh/#bofhwalk.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh-index.html",
+    "snapshot_sha256": "b5635dbe3afcef23b71e917147a51a0e5a9d116f821a087784b5cc8c488badf7",
+    "entry_text": "bofhwalk.txt ◆ [28-Sep-2002]",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Howard A. Sherman",
+    "authorship_evidence": "Author introduction signed Howard; transcript header names the Inform author; author release notes accompany the guide.",
+    "route_summary": "Follow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.",
+    "limitations": "This is an author demonstration transcript with exploratory failures and optional amusements, not a strict command script. Do not imitate repeated LOOKs, obsolete scoring exploits, post-win UNDO or SCRIPT OFF. Use the current calendar excuse, actual inventory and displayed disambiguation prompts. All office/network/security actions are fictional in-game actions, with no external-system authorization. Save early at a confirmed ordinary prompt and before the travel commitment. Read actual release-specific responses; maximum score is not an objective.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "bofh",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Explicitly adapts Simon Travaglia's BOFH fictional series with author permission; reserve bofh across that series. No concrete shared world/puzzle with Sherman's registered Baltimore:24 or Pentari was found. Generic XYZZY allusions alone do not establish a copied Colossal Cave puzzle; parent should review this relationship conservatively."
+  },
+  "reuse_claims_observed": "Story/character copyrights and adaptation permission are stated in author materials. That author-to-author permission is not user training/redistribution permission. Guide reuse remains unknown; private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "packaged_readme": {
+    "url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/readme.1st",
+    "accessed_at": "2026-09-25T09:48:44.647547+00:00",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh-readme.1st",
+    "sha256": "2f3c273a31176780aab25e7256c6de5924e1c70c39574d061766f3c9bf750620",
+    "body_read": true
+  },
+  "guide_package_association": {
+    "game_url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofh.z5",
+    "guide_url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+    "directory": "https://ifarchive.org/indexes/if-archive/games/competition2002/zcode/bofh/",
+    "same_directory": true,
+    "guide_version_claim": "Only BOFH explicitly declares its recorded version; package co-location alone does not establish exact build compatibility."
+  }
+}

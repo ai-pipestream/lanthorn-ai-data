@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "Teacher_Feature.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Teacher_Feature.txt",
+    "accessed_at": "2026-09-25T09:12:29.114746+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Teacher_Feature.txt",
+    "sha256": "8b65eb8f96d877f581dbdfddfb3d3c67ac79656f951b5b134ff34e33892f6aa5",
+    "bytes": 2374
+  },
+  {
+    "filename": "eric_dm.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/eric_dm.sol",
+    "accessed_at": "2026-09-25T09:12:29.125412+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/eric_dm.sol",
+    "sha256": "a89e58bf27c017782bc34a76d3be2add3a13ad358f8d555b5205797d121c6441",
+    "bytes": 1353
+  },
+  {
+    "filename": "adventure-walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/adventure-walkthrough.txt",
+    "accessed_at": "2026-09-25T09:12:29.118674+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/adventure-walkthrough.txt",
+    "sha256": "4d8c6d5174b6964fda0fc02e92e467e153db0e90a3683bda7628b01a330b0e56",
+    "bytes": 14085
+  },
+  {
+    "filename": "RANS_walkthrough.rtf",
+    "url": "https://ifarchive.org/if-archive/solutions/RANS_walkthrough.rtf",
+    "accessed_at": "2026-09-25T09:12:29.124590+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/RANS_walkthrough.rtf",
+    "sha256": "b5710ee628e01c91d82dc1b4376a1011de55da9ca34819bec9709ead59cd04ae",
+    "bytes": 79058
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T09:12:29.190900+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T09:12:29.203964+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "WomanHints.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/WomanHints.txt",
+    "accessed_at": "2026-09-25T09:13:34.996840+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/WomanHints.txt",
+    "sha256": "3222bb55b5330fee6ea26ddb2100e9158ebd91f4d3b7346ca9e8271cde0bb861",
+    "bytes": 123179
+  },
+  {
+    "filename": "zorkian1.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+    "accessed_at": "2026-09-25T09:13:57.404798+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+    "sha256": "ebd0fe3779c6ea93002fb0200faccf8afc617d4c9daff973dc812f7ca6f537d9",
+    "bytes": 803
+  }
+]

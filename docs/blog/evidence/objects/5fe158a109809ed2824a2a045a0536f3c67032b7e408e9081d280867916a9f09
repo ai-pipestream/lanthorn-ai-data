@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-09-25T02:58:45.292976+00:00",
+  "game_id": "905",
+  "verdict": "non-arrest escape ending verified",
+  "evidence": {
+    "event_id": "905-0674f2e54c:e00098",
+    "timestamp": "2026-09-25T02:44:30.394715+00:00",
+    "game_id": "905",
+    "session_id": "905-0674f2e54c",
+    "branch_id": "b1",
+    "event_index": 98,
+    "event_type": "command",
+    "command": "yes",
+    "response": "\nYou merge onto the freeway, crank up the radio, and vanish without a trace.\n\n\n    *** You have left Las Mesas ***\n\n\nWritten and programmed by Adam Cadre. Tested by Alexandra Hoffer. v1.00 tested \nby Liza Daly. Additional thanks to Elizabeth Sweeney, Jonathan Blask, and \nJonatan Bleicher.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+    "raw_start": 11905,
+    "raw_end": 12255,
+    "response_sha256": "31ece5a3e52350f041869a01da5ef232179757f666b831b62e94e7249ed5291d",
+    "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "escape-second-onramp-yes",
+      "intent": "Take second freeway onramp toward escape ending",
+      "origin": "exploration",
+      "expected_outcome": "Second ending narrative"
+    },
+    "review_status": "unreviewed"
+  },
+  "reviewer_status": "runs/fullplay-status.json at2026-09-25T02:47:39.223217+00:00 independently verifies same ending",
+  "distinction": "Earlier b0 arrest remains historical failure. Final b1 is freeway escape, not bonus timeout or quit."
+}

@@ -1,0 +1,204 @@
+{
+  "at": "2026-09-25T07:12:45.392662+00:00",
+  "old_session": "anchorhead-2c1c588159",
+  "checkpoint_event": {
+    "event_id": "anchorhead-2c1c588159:e00174",
+    "timestamp": "2026-09-25T06:51:18.760255+00:00",
+    "game_id": "anchorhead",
+    "session_id": "anchorhead-2c1c588159",
+    "branch_id": "b32",
+    "event_index": 174,
+    "event_type": "checkpoint_filename",
+    "command": "library-safe-day3.sav",
+    "response": "Saved to '/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl'.\nOk.\n\n>",
+    "raw_start": 622630,
+    "raw_end": 622754,
+    "response_sha256": "ccb8dbfad0c5d0b0d9f466a77fb0f8917ef877a84ea95c75272e95d8c92b0cc2",
+    "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "name": "library-safe-day3"
+    },
+    "review_status": "unreviewed"
+  },
+  "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+  "stopped_pids": {
+    "3667991": [
+      "python3",
+      "-",
+      "/work/experiments/lanthorn-recall-training/play/anchorhead"
+    ],
+    "3134277": [
+      "bash",
+      "./run-fullplay.sh",
+      "anchorhead"
+    ],
+    "3132196": [
+      "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+      "--plain",
+      "--data-dir",
+      "/work/experiments/lanthorn-recall-training/play/anchorhead/saves",
+      "--sound",
+      "off",
+      "/home/krickert/if-games/zcode/anchor.z8"
+    ],
+    "3132179": [
+      "python3",
+      "scripts/recover_broker.py",
+      "/work/experiments/lanthorn-recall-training/control/fullplay-anchorhead-clippings-recovery-20260925T0628.json",
+      "--hours",
+      "12"
+    ]
+  },
+  "recovery": {
+    "previous_session_id": "anchorhead-2c1c588159",
+    "checkpoint_event_id": "anchorhead-2c1c588159:e00198",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+    "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+    "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+    "session_id": "anchorhead-9852cd5b9d",
+    "branch_id": "b36",
+    "restored_at": "2026-09-25T07:12:45.230686+00:00",
+    "observed_event_id": "anchorhead-9852cd5b9d:e00006"
+  },
+  "new_events": [
+    {
+      "event_id": "anchorhead-9852cd5b9d:e00001",
+      "timestamp": "2026-09-25T07:12:44.008327+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "branch_id": "b35",
+      "event_index": 1,
+      "event_type": "session_recovery",
+      "command": null,
+      "response": "",
+      "raw_start": 664472,
+      "raw_end": 664472,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "unchanged",
+      "metadata": {
+        "previous_session_id": "anchorhead-2c1c588159",
+        "checkpoint_event_id": "anchorhead-2c1c588159:e00198",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+        "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+        "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay."
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-9852cd5b9d:e00002",
+      "timestamp": "2026-09-25T07:12:44.019109+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "branch_id": "b35",
+      "event_index": 2,
+      "event_type": "request_cancelled",
+      "command": null,
+      "response": "",
+      "raw_start": 664472,
+      "raw_end": 664472,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "unchanged",
+      "metadata": {
+        "request_file": "m1579.json",
+        "reason": "Old pending request not replayed after recovery",
+        "request_sha256": "bc4a59377963e9bd030f8cb2517334915691cefe0862e344ed1f34a73c99be50"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-9852cd5b9d:e00003",
+      "timestamp": "2026-09-25T07:12:44.324977+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "branch_id": "b35",
+      "event_index": 3,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n                             A N C H O R H E A D\n\n\n               [Press 'R' to restore; any other key to begin]\n\n\n\n\n                 The oldest and strongest emotion of mankind\n                 is fear, and the oldest and strongest kind\n                 of fear is fear of the unknown.\n\n                 -- H.P. Lovecraft\n",
+      "raw_start": 664472,
+      "raw_end": 664808,
+      "response_sha256": "6ac0180412d4e47820cfeffc504fb31be45930b357698275d265920fd7857e5d",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-9852cd5b9d:e00004",
+      "timestamp": "2026-09-25T07:12:44.625899+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "branch_id": "b36",
+      "event_index": 4,
+      "event_type": "restore",
+      "command": "restore",
+      "response": "\nsaves: 1 alley-before-window.sav   2 attic-cell-gold.sav   3 beach-after-sewer.sav   4 before-bridge-mob.sav   5 before-riser-jump.sav   6 before-safe-guess.sav   7 bum-doctor-william.sav   8 catwalk-after-mirror.sav   9 cellar-blocked.sav   10 cellar-fuse-day3.sav   11 cellar-key-clean.sav   12 cellar-key-obtained.sav   13 church-back-trapdoor.sav   14 church-cellar-lit.sav   15 crypt-inside.sav   16 day2-card-ready.sav   17 day2-morning-bedroom.sav   18 day3-morning-dressed.sav   19 deserted-before-west.sav   20 evening-bath-ready.sav   21 evening-dressed-before-sleep.sav   22 file-room-inside.sav   23 foyer-night-arrival.sav   24 foyer-south-return.sav   25 house-attic-done.sav   26 keys-obtained.sav   27 kitchen-before-crypt.sav   28 kitchen-lantern-lit.sav   29 library-book-obtained.sav   30 library-book-returned.sav   31 library-day2-circulation.sav   32 library-michael-meeting.sav   33 library-safe-day3.sav   34 lighthouse-foot.sav   35 master-too-early-sleep.sav   36 maze-3deep-fast.sav   37 maze-3deep-north.sav   38 maze-4deep-north.sav   39 maze-5deep-north.sav   40 maze-5ne-room.sav   41 maze-6deep-north.sav   42 maze-east-2deep.sav   43 maze-ladder-room.sav   44 mill-before-maze.sav   45 mill-road-after-mirror.sav   46 mill-road-michael-stuck.sav   47 narrow-before-mob2.sav   48 outside-house-arrival.sav   49 outside-with-keys.sav   50 pantry-before-cellar.sav   51 riverside-south-bridge.sav   52 shaft-rope-tied.sav   53 shanty-greer-done.sav   54 shanty-town-found.sav   55 sitting-room-day3.sav   56 square-obelisk-day3.sav   57 start-outside-office.sav   58 study-laptop-unlocked.sav   59 study-manual-read.sav   60 study-records-checked.sav   61 town-search-office-return.sav   62 vacant-before-amulet.sav   63 vacant-copper-key.sav   64 well-before-plywood.sav   65 well-hide-done.sav   66 wine-cellar-checked.sav   67 workshop-catwalk.sav\nRestore from file: ",
+      "raw_start": 664808,
+      "raw_end": 666709,
+      "response_sha256": "db414f146f94af85b402e9ed03594720936f13da45b1dcb076d80235fe608e47",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "library-safe-day3",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-9852cd5b9d:e00005",
+      "timestamp": "2026-09-25T07:12:44.927387+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "branch_id": "b36",
+      "event_index": 5,
+      "event_type": "checkpoint_filename",
+      "command": "library-safe-day3.sav",
+      "response": "Ok.\n\n>",
+      "raw_start": 666709,
+      "raw_end": 666715,
+      "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "library-safe-day3",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "anchorhead-9852cd5b9d:e00006",
+      "timestamp": "2026-09-25T07:12:45.230550+00:00",
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "branch_id": "b36",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nLibrary\nWhatever else their faults may have been, the Verlacs were evidently not ones \nto shun the printed word. Books line the walls from floor to ceiling in this \ndark-paneled, green-carpeted room, interrupted only by doorways to the east and \nsouth. A rich, brown leather armchair sits in stately repose near the window, \nwith a polished brass pipe stand nearby completing the picture of some \nblue-blooded country squire's literary refuge. Once again, you are struck by \nhow easily this place could have been the perfect home.\n\nA beautiful pair of mahogany sliding doors lead east, to the study.\n\nA section of the shelves in the western wall has slid to one side, revealing a \nhidden safe.\n\n>",
+      "raw_start": 666715,
+      "raw_end": 667412,
+      "response_sha256": "55ddd3e25bc1974a104bfca163872c47eb8fb1093479e262613b76d8dd628c94",
+      "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Observe restored location"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "config": "control/fullplay-anchorhead-book-recovery-20260925T0713.json",
+  "broker_pid": 3672312,
+  "worker_pid": 3672439,
+  "quarantine_event_ids": [
+    "anchorhead-2c1c588159:e00295",
+    "anchorhead-2c1c588159:e00296",
+    "anchorhead-2c1c588159:e00297"
+  ],
+  "note": "Old pending cancelled without replay; raw/history retained. Historic progress archived; current progress reconciled to save."
+}

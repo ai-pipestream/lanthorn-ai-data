@@ -1,0 +1,39 @@
+# Fullplay supervision
+
+Current review/status update: 2026-09-25T03:27:40.422926+00:00; annotation counts snapshot 2026-09-25T03:26:37.017240+00:00. Synthetic test-data collection; no training or publication.
+
+1020 unique exported annotation rows: 707 accepted, 231 revise, 42 quarantine, 40 unreviewed under exact endpoint-matched decisions. Bounded pass:75 annotations,54 accepted/15 revise/6 quarantine;150 endpoint references checked against bytes, SHA256, response text, commands and branch IDs. Later arrivals remain pending. Four transport-event quarantines (Slouch e290/291/292 and Savoir-Faire e102) are separate from annotation totals.
+
+## Current blockers
+
+Slouching Bedlam session slouching-bedlam-18faea2151 b2: e288 opens File F6A142 menu, e289 selects Personal Information, m0274 sends literal RETURN. e290 at03:18:43Z records no_output_timeout after180seconds: raw56504:56504, empty SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855. Quarantined as unresolved menu/transport behavior, not game rejection, successful file read or ending. Parent owns recovery; reviewer sent no input. Future linked annotations need their own exact-pair quarantine.
+
+Last Slouch event checked: slouching-bedlam-18faea2151:e00292; e291/e292 await_output both returned empty timeouts.
+
+Savoir-Faire e99 opens HELP, e100 selects3, e101 empty command reads Special Instructions and requests SPACE. e102 literal space at03:23:44Z times out empty after180seconds. Quarantined as unresolved menu/transport behavior; valid empty hash is not successful transport. Parent owns diagnosis/recovery.
+
+## Scott guidance versus actual outcomes
+
+Both help records match supervisor-hint response pointers and archived source SHA256. Advice itself remains static guidance.
+
+Voodoo foot placement is now observed: e755 ON MAN prints OK/thunder; e757 inventory omits foot; e758 LOOK COFFIN explicitly reports the man wearing a rabbit’s foot. Exact raw offsets/hashes/text saved in status. Earlier static hint incorrectly predicted LOOK MAN confirmation: e756 gives nothing special. This is local puzzle progress, not a game ending.
+
+Secret Mission actual b18 correction independently verified: e1292 WITH RECORDER breaks window and reactivates scanning; e1293 SHOW PICTURE prints TV deactivated; e1294 GO WINDOW reaches ledge without prior alarming response. Exact raw offsets/hashes/text saved in status with e1291–1296 context. This verifies local action order, not completion, future safety, or whether the worker read the advice.
+
+## Verified conclusions and version boundaries
+
+Nine verified conclusions unchanged: Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905 and Violet. Primary raw ending spans rechecked. Violet e288–293 reaches writing completion, surprise party, Australia epilogue and explicit victory menu. e293 raw55456:55789 SHA256 f15847711db96f650080790617e4540f29542807205c54b88000658db3b3efc1.
+
+New unverified ending-claim files at this snapshot: [].
+
+Nineteen games in scope. Anchorhead R5/990206 and Theatre R2/951203 guide releases unspecified; Curses R16/951024 guide targets R16. Savoir-Faire R8/040205 uses R6 guidance containing intentional false/nonessential steps. Dreamhold R5 uses R4 guide; Bronze R11 differs from advertised/download choice R13. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 port with full maintainer guide, not commercial ZorkI. Structured status preserves startup/recovery receipts.
+
+## Review findings and historical boundaries
+
+Six quarantined cases change goals: papers-search becomes desk listing; placing doll becomes taking it; making/filling/taking soup becomes drinking; pushing door becomes sawing. Explicit planning alternatives can be retained separately without pretending command meanings match. Revise unsupported causal necessity, recognition-as-success, omitted-destination classification and combined noun/capacity corrections.
+
+Slouch e192 already triggers travel; e194 says already here, so no failed-syntax-then-second-trip proof. Dreamhold lever movement does not prove descent. Violet figurine hit is observed but required heavier ammo is not isolated. Zork portrait recovery requires both noun resolution and capacity release.
+
+Latest-session raw spans match hashes/text, including empty timeout: byte integrity is not transport success. Older delayed chains and old Slouch menu e18/e19 remain quarantined. Markdown inbox supervisor rejections are not game turns. Historical Zork lamp estimates apply only to named checkpoints, never automatically to current branch.
+
+Only three owned review/status files changed. Parent owns recovery, logged hint delivery, exports, expansions and blog records. No game commands, process changes or Pi workers by reviewer.

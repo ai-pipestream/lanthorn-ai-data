@@ -1,0 +1,10 @@
+# HLA Inform progress — Master Bedroom chest probe PENDING (INCOMPLETE, session stop)
+
+Location: Master Bedroom (e00349). King bed W, armoire E, chest of drawers, bathroom door NE. Exits <east>. Werewolf with.
+Stats: hp 1197, g 2175, exp 656, food ~79 (e00349). Lantern light.
+Cases: bread-typo-95 fail-annotated e00338. archway-gowest-99 accepted e00343. master-west-typo-100 wets e00346 -> west e00347 annotated success e00348. master-look-101 look e00349 done. master-chest-102 examine chest SENT m0389, response PENDING (not yet in latest.json e00349).
+Checkpoints verified: corridor-master e00344-345 (latest verified save), butler-done e00303-304, mansion-butler, sorcerer-done, intersection-portal, knight-done earlier.
+Route tail: corridor e00342 -> checkpoint e00344-345 -> wets e00346 -> west Master Bedroom e00347 -> annotate e00348 -> look e00349 -> examine chest pending m0389.
+Quests done: Goblin(2), Paladin loot, Barbarian(3), Castle/Knight, Sorcerer(4), Mansion/Butler. Remaining: board quests 5,7,8 + Dragon 9 (GameWon + deadflag=2 required).
+Game NOT complete: no dragon, no GameWon narrative. No death/quit. Ordinary prompt in Master Bedroom (pending examine).
+Next run: read progress.md + latest.json + responses/m0389.json; if examine chest resolved, try full canonical (examine chest of drawers / open chest / search) then armoire/bed/bathroom NE with single commands; annotate pair; checkpoint before any combat; continue toward vampire/cavern/dragon chain. Do NOT resubmit m0389. Food ~79, hp strong.

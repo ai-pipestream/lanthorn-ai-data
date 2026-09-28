@@ -1,0 +1,7 @@
+# Enemies progress — PAUSED, game incomplete (Cloakroom, e353; no pending)
+
+Branch b1. Location: Cloakroom (school center) e350. Score 23. Ordinary prompt ">". Last verified checkpoint cloakroom-satchel e352/353.
+Done since last progress: e338 turn on lamp (nothing, empty socket), e339 put lamp in bowl score 22 (piranha electrocuted), e340 turn off lamp, e341 get purple hands-full block, e342 e Main, e343 s Cloakroom (satchel under bench), e344 put all in satchel (7 items), e345 n Main, e346 w Study, e347 get purple score 23 (annotated hands-full world_state e348), e349 e Main, e350 s Cloakroom, e351 put purple in satchel, checkpoint e352-353 verified.
+Inventory as observed: satchel holds key, tungsten, tracing, music, green figurine, invoice, screw, purple figurine; hands free; bracelet worn; lamp in bowl (study); screwdriver in study. Cases ~46 diverse.
+Last hint e337 lines 199-207: turn on lamp, put lamp in bowl (1/22), turn off lamp, get purple (1/23), E S, put all in satchel, save s23.
+Next: help next excerpt for remaining plastic figures (any order); continue school investigation toward escape/crane/final NE. Single commands. Checkpoints at milestones only.

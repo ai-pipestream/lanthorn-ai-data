@@ -1,0 +1,90 @@
+{
+  "at": "2026-09-25T07:14:42.538163+00:00",
+  "changes": [
+    {
+      "game_id": "anchorhead",
+      "old_reference": "anchorhead-2c1c588159:e00198",
+      "correct_save": {
+        "event_id": "anchorhead-2c1c588159:e00174",
+        "timestamp": "2026-09-25T06:51:18.760255+00:00",
+        "game_id": "anchorhead",
+        "session_id": "anchorhead-2c1c588159",
+        "branch_id": "b32",
+        "event_index": 174,
+        "event_type": "checkpoint_filename",
+        "command": "library-safe-day3.sav",
+        "response": "Saved to '/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl'.\nOk.\n\n>",
+        "raw_start": 622630,
+        "raw_end": 622754,
+        "response_sha256": "ccb8dbfad0c5d0b0d9f466a77fb0f8917ef877a84ea95c75272e95d8c92b0cc2",
+        "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "name": "library-safe-day3"
+        },
+        "review_status": "unreviewed"
+      },
+      "recovery": {
+        "previous_session_id": "anchorhead-2c1c588159",
+        "checkpoint_event_id": "anchorhead-2c1c588159:e00174",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+        "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+        "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+        "session_id": "anchorhead-9852cd5b9d",
+        "branch_id": "b36",
+        "restored_at": "2026-09-25T07:12:45.230686+00:00",
+        "observed_event_id": "anchorhead-9852cd5b9d:e00006",
+        "provenance_correction": {
+          "previous_reference": "anchorhead-2c1c588159:e00198",
+          "reason": "Previous helper cited a RESTORE filename response as SAVE confirmation. Corrected to actual confirmed SAVE of the same checkpoint; no game state change.",
+          "receipt": "control/checkpoint-provenance-recovery-receipt-20260925T0715.json"
+        }
+      },
+      "journal_unchanged": true
+    },
+    {
+      "game_id": "savoir-faire",
+      "old_reference": "savoir-faire-3e83fd4831:e00092",
+      "correct_save": {
+        "event_id": "savoir-faire-3e83fd4831:e00086",
+        "timestamp": "2026-09-25T03:18:06.725596+00:00",
+        "game_id": "savoir-faire",
+        "session_id": "savoir-faire-3e83fd4831",
+        "branch_id": "b0",
+        "event_index": 86,
+        "event_type": "checkpoint_filename",
+        "command": "basin-full.sav",
+        "response": "Saved to '/work/experiments/lanthorn-recall-training/play/savoir-faire/saves/Savoir-Faire.zblorb.save/basin-full.sav.qzl'.\nOk.\n\n>",
+        "raw_start": 14265,
+        "raw_end": 14394,
+        "response_sha256": "98379a2898e35b9792f9e7a6ec4d1290dd409e07cb96e3c79f6be68c3d45009f",
+        "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "name": "basin-full"
+        },
+        "review_status": "unreviewed"
+      },
+      "recovery": {
+        "previous_session_id": "savoir-faire-3e83fd4831",
+        "checkpoint_event_id": "savoir-faire-3e83fd4831:e00086",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/savoir-faire/saves/Savoir-Faire.zblorb.save/basin-full.sav.qzl",
+        "checkpoint_sha256": "003a4c94b347d99d96822e1519b89a0ee45358cca591a3e2fdf82c0409906c99",
+        "reason": "Explicit new session after help/file menu produced repeated empty timeouts. Old pending input is cancelled, never replayed.",
+        "session_id": "savoir-faire-5a89e6c8ff",
+        "branch_id": "b3",
+        "restored_at": "2026-09-25T03:28:55.958179+00:00",
+        "observed_event_id": "savoir-faire-5a89e6c8ff:e00006",
+        "provenance_correction": {
+          "previous_reference": "savoir-faire-3e83fd4831:e00092",
+          "reason": "Previous helper cited a RESTORE filename response as SAVE confirmation. Corrected to actual confirmed SAVE of the same checkpoint; no game state change.",
+          "receipt": "control/checkpoint-provenance-recovery-receipt-20260925T0715.json"
+        }
+      },
+      "journal_unchanged": true
+    }
+  ],
+  "test_command": "python3 scripts/test_recovery_startup.py",
+  "tests_passed": 5,
+  "code_sha256": "261d9a53d23b28e7faf335ab50d60d142c80773711bb1f55dd66cfb21dbc4617"
+}

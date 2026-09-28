@@ -1,0 +1,108 @@
+# The Edifice — collection progress (SEGMENT 2 END — step budget reached, STOPPING HONESTLY, game incomplete)
+
+## STOP STATE (checkpoint: ridge-horse-lead, e00577, verified)
+- Location: Ridge Path (era 3). Safe ordinary prompt. No timers firing
+  (hunger silent 100+ turns; thirst silent).
+- Inventory (carried): Spear (pointed), Useful Rock, Bone, White Bark
+  (feverleaf picture), Purple Paste (food, dwindling: 'scoop what you
+  can'), Piece of Fruit #6 (fresh, unoffered).
+- Left behind: handful of grass (Canyon floor), Log + twisty branches +
+  twigs (At the Tree, era 1).
+- Horse: in Canyon with herd (single Horse follows fruit carriers).
+- Beast (era 1): GONE from map since e00403 (~140 turns). 'follow beast'
+  = 'can't see' (e00562). May be permanent (over-attack punishment).
+- Score (e00452): 'visited three, solved one' (level 2 = son cured).
+  Levels 1 and 3 UNSOLVED. Mood 'discontent'.
+
+## HOTTEST LEAD (untested, queued for segment 3)
+HORSE LEADS WITH FRUIT (PROVEN e00555/e00574): carrying fruit, a Horse
+'follows you, sniffing and snorting loudly' from Canyon to Canyon Path.
+- Village crowds scare it back (e00556). Climbing the cliff makes it
+  'snort in disgust' and canter back (e00575) — teased, unrewarded.
+- NEXT TEST: lead to Canyon Path, then OFFER THE FRUIT *ON THE PATH*
+  (reward away from herd!) — repeat several cycles. Theory: on-path
+  feeding builds the trust that canyon feeding (5x identical, no change)
+  does not; a fully trusting horse may kneel/allow mounting (the 'hard
+  way' onto its back). If ride works on the path → mounted lancer
+  (spear + horse) vs Marauders = level 3.
+- Cycle (2 reqs each): from Ridge: down?? (untested descent to path —
+  try 'down'; else SE to Village is wrong way (crowd); alternative route
+  via Overlook impossible) — actually from Ridge go SW?? Ridge exits:
+  NE (Overlook), SE (Village), DOWN (cliff to Canyon Path — TEST 'down'
+  first!). Then NE (Canyon), N (Waterfall), take fruit, S, SW (lead!),
+  offer fruit (ON PATH — do NOT climb!). Then pet/ride tests.
+
+## FRUIT MECHANICS (verified, do not re-probe)
+- Waterfall grove reached NORTH through Canyon crack (e00482). New room!
+- take fruit: one Piece at a time; second pick refused ('use what you
+  have', e00491) until first is consumed/resolved.
+- offer fruit to horse: approach-sniff-pluck-trot-drop-munch(2-3 turns)-
+  finish-rejoin (e00487/e00498/e00508/e00522/e00540 — all identical).
+- Leaving mid-munch ABORTS encounter (fruit lost, e00527-534 pattern).
+- eat fruit: multi-bite ('a bite', 'another bite', e00535-36). Food.
+- 'take apple' rejected; generic 'fruit' required (case 36).
+- Pronoun 'it' after offer = the fruit, not the horse (e00523).
+
+## BEAST-GONE ANALYSIS (level 1 risk)
+- Drove Beast off by repeated spear throws (e00403: 'had enough of your
+  attacks'). Gone ~140 turns; follow = can't-see. Level-1 goal UNKNOWN
+  (hunt? ride? spring? log? corpse? fire? fishing?). Spear-making +
+  stump skill did NOT solve it (score unchanged e00452).
+- IF level 1 needs the Beast → must RESTORE level-three (e00262, before
+  all era-1 stick work) and redo WITHOUT attacking (feed grass/fruit,
+  never throw at Beast). Redo cost ~13 reqs (branch-strip + spear +
+  fruit + horse-lead all documented here). Restore starts branch b1.
+- IF level 1 solvable without Beast (spring? log? other?) → continue
+  from ridge-horse-lead. Muddy Spring examined (generic, e00564; drink
+  untested). Log untouched. Corpse levering failed (instruments
+  unsupported on move/push; corpse itself resolves).
+
+## HORSE DEAD ENDS (verified, do not repeat without new info)
+- Mount verbs (ride/jump onto/climb/get on/sit) → same gate (e00273,
+  e00461-63, e00489, e00538-39). Vault/catch/mount/tame/chase/whistle
+  NOT verbs. Sing untested (likely absent).
+- Proximity refused armed/unarmed/after waitx2/waitx5/during munch/
+  during sniff (e00276/e00308/e00327/e00445/e00480/e00488/e00499/e00507).
+- Food: offer grass/paste 'unaware' (distant); drop-bait ignored; THROW
+  grass/paste dodged ('herd parts... move away', e00466-67). Paste loses
+  mass when thrown — never throw food again.
+- No gear/tack/rope/perch/helpers in era 3 (get all everywhere: nothing;
+  huts: only mine=portal; meeting area: not enterable, searched clean;
+  scrub: not object; People: ask/address/show all useless; white-ball
+  joke). Overlook N/E = death-refusals (free respawn). South = wander.
+- Walls unclimbable; slope unclimbable; no up from Waterfall; sleep
+  refused (not drowsy); listen/drink unrevealing; fruit-on-spear refused
+  ('can't put that on Spear', e00552).
+- Show spear to People: debate, most doubt it (e00472). Spear alone
+  insufficient.
+
+## SPEAR throwaway (verified, keep for finale)
+- Strip: pull twigs (partial) + pull twisty branches (removes sides);
+  'pull branches' ambiguous; then 'break branch in half' → Stick + Log.
+- Stump practice: miss→barely→HIT ('no point'→falls). 'sharpen stick'
+  defaults to Rock (case 35) → pointed Spear. Throw skill generic.
+
+## Walkthrough broker (mechanics learned)
+- mode-next = +9 lines from LAST DELIVERED globally (not per-topic).
+- Fresh topic = earliest keyword match (often already-seen lines).
+- Explicit skip requests IGNORED (m0330: asked 405+, got 95-103).
+- Recording = raw exploration (failures/undo/grinding), not solution.
+- Current broker position: 95-103. Do NOT page (35+ reqs to 405).
+
+## Checkpoints
+start-at-edifice, recess-open, grassland-arch, thirst-quenched-pool,
+level-two, era2-hut-clearing, got-feverleaf-stem, son-cured, level-three,
+ridge-horse-lead (current).
+
+## Cases (36 annotated; 1 open)
+- 33 horse-ride-wild: OPEN (e00273 probe; needs successful ride to close).
+- 34 branch-break-half: planning/success. 35 sharpen-stick-omit:
+  none/success. 36 fruit-naming-apple: vocabulary/success.
+- 01-32 as in prior segments.
+
+## Segment-3 order
+1. From ridge-horse-lead: test 'down' (Ridge→Canyon Path).
+2. On-path feeding cycles → ride test (level 3?).
+3. Marauders → ascent → last door → FINISH (needs level 1 too!).
+4. Level 1: spring-drink? log? Beast-return? Else RESTORE level-three
+   (pre-attack) and redo gently. Decide by evidence, not hope.

@@ -1,0 +1,9 @@
+# Ghost Train progress — ACTIVE, game incomplete
+
+Location: Red Railway Carriage No:2 (e00208) — second train boarded, exits EAST/WEST, red velvet gas lamps.
+Inventory as observed (e00202): railway ticket, bulldog lamp (lit), necklace, rusty key, brass key.
+Checkpoints: start-carriage; before-signalbox; signalbox-inside; after-lever-pull; underground-entrance; waiting-room; second-train-red (e207-208 verified).
+Last hint: lines 69-77 done (ticket->cemetery, SOUTH wait board); need next excerpt for second-train carriage route.
+Resolved: south to platform e204 10:28; wait e205 train arrives carriage 2 open; south e206 board red carriage; checkpoint e207-208.
+Unresolved: none pending; all responses through m0196 confirmed.
+Next: help mode=next for second-train carriages; single-command exploration E/W, lamp conservation. Continuation: read latest.json (e208) + progress.md, resume in red carriage.

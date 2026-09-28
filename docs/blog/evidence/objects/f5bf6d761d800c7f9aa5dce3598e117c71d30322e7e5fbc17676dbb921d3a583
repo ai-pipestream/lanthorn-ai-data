@@ -1,0 +1,9 @@
+# Schooldays progress
+
+- Session: schooldays-b371c6a97d, branch b3, latest e00605 (m0574 finish CLAIM RECORDED).
+- Game position: WIN e00603 *** You have won ***, no score, RESTART/RESTORE/QUIT. No further input.
+- Route: OUT e00589 Union platform -> UP e00590 gates -> WEST e00591 outside -> UP e00592 Front Street (taxi) -> inventory e00595 (airline+Pacers held) -> knock taxi e00596 driver woke/unlocked -> open e00598 -> enter e00599 (driver+3 tokens) -> close e00600 -> driver, go to airport e00603 WIN.
+- Resolved: m0572 driver annotate e00604; m0573 finish rejected (quote); m0574 finish e00605 claim recorded.
+- Pending: none. Terra verification pending.
+- Cases: knock omission accepted e00597; driver comma syntax e00604. Game COMPLETE.
+- Checkpoints: union-street-b3 b3 (e00593/e00594).

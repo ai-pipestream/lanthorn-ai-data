@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-25T08:48:11.523100+00:00",
+  "selected": [
+    "busted",
+    "earth-and-sky-episode-1",
+    "baltimore-24",
+    "mulldoon-legacy"
+  ],
+  "variety": [
+    "campus satire puzzle adventure",
+    "complete superhero first episode",
+    "short contemporary service-repair journey",
+    "long museum/family-history puzzle adventure"
+  ],
+  "engines": "Z-machine only: three Z5, one Z8",
+  "source_policy": "Exclude all A-J, play directories and previously prepared game identities. Preserve teacher-feature series reservation; no Glulx candidates.",
+  "scope": "Exactly four K configs. ZIP extraction and all other writes restricted to K source tree and K config."
+}

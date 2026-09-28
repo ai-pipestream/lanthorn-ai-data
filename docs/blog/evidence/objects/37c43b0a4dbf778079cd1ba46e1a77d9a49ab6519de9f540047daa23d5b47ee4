@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T08:28:40.396084+00:00",
+  "game_id": "attack-of-the-yeti-robot-zombies",
+  "events": [
+    {
+      "event_id": "attack-of-the-yeti-robot-zombies-504df4e144:e00103",
+      "timestamp": "2026-09-25T08:16:35.035059+00:00",
+      "game_id": "attack-of-the-yeti-robot-zombies",
+      "session_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+      "branch_id": "b0",
+      "event_index": 103,
+      "event_type": "command",
+      "command": "down",
+      "response": "You walk down, manage to sneak past a few Satanists and you are out.\n\n\n    ***You saved the country, you big hero you!***\n\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, see some \nsuggestions for AMUSING things to do or QUIT?\n> ",
+      "raw_start": 21361,
+      "raw_end": 21613,
+      "response_sha256": "5ee0a516e0a1e7e612cf800a5d15ebc2296f0ef69c5800fc0985bbd3e766e60f",
+      "story_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+        "case_id": "exit-go-down",
+        "expected_outcome": "Descend secret stairs to victory ending",
+        "intent": "Go down the revealed secret stairs",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "DOWN after finalboss/redKILLALL/yellowexit sequence produces escaped/savedcountry explicit authoredvictory/menu. R0 is literalrelease, notproofdemo. Parent raw/text/hashverified; independentreviewpending."
+}

@@ -1,0 +1,24 @@
+{
+  "event_id": "violet-bfdc33ea8f:e00295",
+  "timestamp": "2026-09-25T03:03:04.228183+00:00",
+  "game_id": "violet",
+  "session_id": "violet-bfdc33ea8f",
+  "branch_id": "b0",
+  "event_index": 295,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 55789,
+  "raw_end": 55789,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "I know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.",
+    "evidence_event_ids": [
+      "violet-bfdc33ea8f:e00293"
+    ],
+    "notes": "Complete playthrough: 1000 words, surprise party (Violet stays), Australia flight, * * * (e00292), then explicit victory prompt e00293 'This is winning... merry glow of victory'. Not death/quitting — author-intended winning narrative."
+  },
+  "review_status": "unreviewed"
+}

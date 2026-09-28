@@ -1,0 +1,18 @@
+# Augmented Fourth — collection progress (STOPPED, to continue)
+
+## State
+- Last confirmed event e00070: Quarry Entrance, trumpet in inventory, rock on west platform (score 2).
+- IN-FLIGHT: inbox/m0065.json (`look at chunk`, case quarry-look-chunk) submitted, response unread. Check responses/m0065.json on resume.
+- Map: Pit Bottom ←W/E→ Narrow Passage ←N/S→ Stone Quarry ←E/W→ Quarry Entrance; Quarry Entrance ←SW/NE→ Narrow Passage (direct).
+- Checkpoints verified: `pit-bottom`, `narrow-passage`, `quarry-platform`.
+
+## Cases annotated (6): take-trumpet-synonym (none), pitbottom-typo-puddle (vocabulary), pitbottom-omitted-object (none/uncertain), passage-take-granite (world_state, FAILED), quarry-read-plaque (none), quarry-pronoun-put-rock (ambiguity).
+- Pending annotation: quarry-open-trapdoor-blocked (`open trapdoor` blocked by platform, e00044, world_state) — annotate once corrected (retry open after clearing platform).
+
+## Hint (walkthrough, provisional): LOOK AT CHUNK → GET NOTE → READ NOTE → OPEN TRAPDOOR → D; then in Darkness PLAY TPT to navigate (PLAY TPT + moves).
+
+## Next on resume
+1. Read responses/m0065.json (look at chunk).
+2. GET NOTE, READ NOTE, OPEN TRAPDOOR, D; checkpoint after.
+3. Darkness: PLAY TPT + directions per hint; verify in game.
+4. Keep probes diverse (word order, wrong object, planning) ~20-40 total; help after 2 failed attempts; progress.md every 10-15 requests.

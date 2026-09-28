@@ -1,0 +1,12 @@
+# Progress – Tryst of Fate (SEGMENT 4, game incomplete)
+
+Location: Jail cell (Chapter 2), score 210 moves 443, visible again
+Inventory (e00661 + changes): brass key, iron bar, yellow rock, ship wheel, rusted oil can, lantern, pitchfork, gold locket (worn, closed, piece inside). Accordion DESTROYED. Dropped: boots (Fork), candle/lit (Mine Shaft), knife (Outside Mine Entrance), match (Mine Shaft), stick (Bank), tin (Shady Path), shovel (Boot Hill), spoon (Burned Down Shack), pan (Clear Creek).
+Score/Moves: 210 / 443, Chapter 2: "The Land Down Under"
+
+Cases: ~161 annotated through get-jail-bar-161 (planning: door vs bar). No unresolved case IDs.
+Last hint (lines 388-396): "Wait / Again (wait ~14 turns for sheriff) / Open door / N, E / save s210 / (finished with town and everything west)". Key +5/205, E,SW,SE,E*4, sign read, cuss=swear flavor, arrested, bar +5/210 all VERIFIED. NOT yet sent: ~14 waits, Open door, N, E.
+Next actions: 1) Wait x15 in batches watching for sheriff. 2) Open door, N, E. 3) Next excerpt (east of town).
+
+Checkpoints (confirmed, newest last): oilpatch-200-rock, gulch-205-prearrest (Deadeye Gulch, score 205, newest fallback).
+No pending requests. m0659 (help next excerpt) answered. Next request number: m0660.

@@ -1,0 +1,38 @@
+{
+  "substitutions": [
+    {
+      "story": "/home/krickert/if-games/zcode/Wedding.zblorb",
+      "story_sha256": "a7cc4106011b2fa5523fd41cc787fe3e9c1d0cb381987d657ed885982bfeb007",
+      "embedded_zcod_sha256": "b5136b87ad6a0ea62474c5c82b2a1e7460a6c62a652c65071f983f31f73f7127",
+      "embedded_zcod_offset": 56,
+      "embedded_zcod_bytes": 163840,
+      "header_hex": "05000001846c846d783b010a38b2721d005031303032323100429fdfce3500000000000000000000000000000000721c000000000000010200000000362e3331",
+      "zmachine_version": 5,
+      "release": 1,
+      "serial": "100221",
+      "story_archive_entry": {
+        "text": "Wedding.zblorb\n◆\n[05-Mar-2010]\nIFDB entry\nWedding, an interactive Life Story, by Kenya Miller.\nRelease 1 / Serial number 100221.",
+        "tuid": "a30o796duklrp6cv"
+      },
+      "guide_archive_entry": {
+        "text": "wedding.sol\n◆\n[29-Mar-1997]\nIFDB entry\nstep-by-step solution to The Wedding release 3.\nWritten by Paul J. Godfrey and updated by Neil Brown.",
+        "tuid": "5r1iabxsfwmz40ev"
+      },
+      "guide_raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/wedding.sol",
+      "guide_source_sha256": "18ed4dee218ef83facf5fb3c6161a7ae7940c5435031e1c096cf93e49480cce0",
+      "reason": "Kenya Miller Wedding (R1/100221, a30o796duklrp6cv) differs from Neil James Brown The Wedding guide (R3, 5r1iabxsfwmz40ev). Do not use this guide for Wedding.zblorb.",
+      "replacement": "paper-chase"
+    }
+  ],
+  "retained_after_identity_review": {
+    "game_id": "mansion",
+    "reason": "Tercel/Derek Barley apparent mismatch resolved by shared archive identity and IFDB author announcement. Retained preferred candidate; older guide and torch bug explicit."
+  },
+  "unused_alternates": [
+    {
+      "story": "Gumshoe.z5",
+      "guide": "gumshoe.sol",
+      "reason": "Fetched while investigating Mansion, but not queued after Mansion identity was resolved. Eight requested entries only."
+    }
+  ]
+}

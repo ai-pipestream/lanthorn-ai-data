@@ -1,0 +1,12 @@
+# Mansion progress (continuation seg 1, PAUSED — step budget out, game incomplete)
+
+Location: Front Drive (ordinary prompt, car CLOSED). Branch b1. Score 7.
+Inventory (e00610 + changes): red torch (CLOSED, grey/working battery inside, held), net(frog), skull[lit candle] in bag, boots worn, bag[spinach, key, tweezers, needle, lavender, spanner, packet(seeds), plate, straw, floorboard]. Knife + saucepan ON kitchen table. Yellow torch (red/dead battery) IN CLOSED CAR. Cooker OFF.
+Checkpoints: pre-torch-swap (e00605-06, Bottom); skull-lantern (Kitchen); secret-basement-skull; pre-wade-search. Restore: pre-torch-swap or skull-lantern.
+
+Walkthrough position: lines 98-106 DONE (red batt>yellow, close yellow, W/D/N/N/N to Drive, yellow in car, close car). Next: lines 107+ (mode=next from e00617 hint 98-106). Expected mid-game: maze/dart/Brookes-key/pump-house? then mixture (lavender/seeds/spinach in hand or staged; jar+fruit gated by progress — they appear like candle did, NOT missing).
+Torch battery swap executed cleanly step-by-step, NO manipulation bug observed in R3 (open red/yellow, get red/grey, cross-insert, close both — e00611-19).
+Recipe (e00432): lavender + seeds + spinach + frogs' eyes + ugli juice in pan, stir, drink. Jar theory = eyes jar.
+
+Cases: ~24 total this run (4 new: syn-spinch-typo vocab e00399; syn-notebook-recipes none e00433; syn-diary-book ambiguity e00437; syn-boots-puton none e00535; syn-window-openbare ambiguity e00572 — actually 5). 1 unresolved: syn-jar-pickles (basement jars red herring; real jar gated).
+Next run: read latest.json (e00627) + this file; help mode=next topic torch battery (lines 107+); continue route; checkpoint milestones; probes for new puzzles (dart, mixture wording, brookes).

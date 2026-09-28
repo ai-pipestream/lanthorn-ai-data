@@ -1,0 +1,27 @@
+{
+  "game_id": "gourmet",
+  "title": "Gourmet",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/ifcomp/2003/zcode/gourmet/gourmet.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet.json",
+  "story_sha256_expected": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "gourmet",
+  "collection_notes": "# Gourmet\n\nLocal competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.\n\nComplete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.\n\nThe phone and NPC presence are variable; wait only when live game state calls for a turn. The guide labels waiting for kettle, band and lobster proximity; do not send repeated waits to flush a timeout. Follow current tube-system clues and controls rather than treating illustrative numbers as universal. Checkpoint early and before hazardous kitchen sequences. DIAL LESTER/CHESTER are fictional game commands, never external calls. Collect varied kitchen manipulation, conversation and correction examples without filler.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "030927",
+  "session_id": "gourmet-512167ec61",
+  "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+  "started_at": "2026-09-25T18:09:19.919924+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

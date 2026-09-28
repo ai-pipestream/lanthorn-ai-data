@@ -1,0 +1,89 @@
+{
+  "at": "2026-09-25T08:12:26.312007+00:00",
+  "games": [
+    {
+      "game_id": "varicella",
+      "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+      "guide_sha256": "d1976e3a9b0f91e52de051360aa3ad7781d66c603b208322ed7c20383a1febe8",
+      "header": {
+        "zmachine_version": 8,
+        "release": 1,
+        "serial": "990831"
+      },
+      "family": "varicella",
+      "split": "train",
+      "compatibility": "Local archive-identical Z8 header is R1/990831. Catalog instead describes public version 1.14 (31 August 1999) and serial 9339. Preserve both metadata layers without replacing the six-byte header serial. The anonymous IF Archive guide identifies Adam Cadre's game and the same IFDB ywwlr3tpxnktjasd but supplies no release or serial; exact guide edition compatibility is unverified.",
+      "family_review": {
+        "uncertain": false,
+        "parent_review_required": false,
+        "rationale": "Adam Cadre also wrote collected I-0, 9:05 and held-out Photopia, but shared authorship alone does not establish shared world or puzzles. The read guide identifies an independent court-intrigue story with its own characters; no concrete shared-family link was found. All Varicella editions belong together."
+      }
+    },
+    {
+      "game_id": "cacophony",
+      "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+      "guide_sha256": "1a94cc9eba37e134ba3fd5df3d297b76c2cdd13c063421070b016cd6a4e5ce15",
+      "header": {
+        "zmachine_version": 8,
+        "release": 4,
+        "serial": "091209"
+      },
+      "family": "cacophony",
+      "split": "train",
+      "compatibility": "Local archive-identical Z8 R4/091209. Author guide archive contains three walkthroughs, none naming a release or serial. Archive guide date 2009-08-02 predates the R4 story listing 2009-12-09; do not infer exact release compatibility. Primary normalized guide is the unedited text of ZIP member Walkthrough3.txt with LF line endings; ZIP bytes and all members are separately pinned.",
+      "family_review": {
+        "uncertain": false,
+        "parent_review_required": false,
+        "rationale": "Independent Owen Parish dream-world story and archive identity. Generic dream transitions do not establish a shared world with held-out Shade or any other registered family. Preserve all three endings and all editions within cacophony; no concrete cross-family reuse identified."
+      }
+    },
+    {
+      "game_id": "risorgimento-represso",
+      "story_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+      "guide_sha256": "9a2c859c93861030896c3e1976f367faafb9b2c285c326a9534ff78eea864f61",
+      "header": {
+        "zmachine_version": 8,
+        "release": 6,
+        "serial": "171114"
+      },
+      "family": "risorgimento-represso",
+      "split": "train",
+      "compatibility": "Local archive-identical Blorb contains ZCOD Z8 R6/171114. Author replay guide is explicitly tested with R5/171024 and its archive entry points to the Glulx edition. Preserve both the one-release gap and Glulx-to-Z-code edition gap; matching title/author/IFDB t0pidhghzbo91i12 does not establish identical command timing or runtime behavior.",
+      "family_review": {
+        "uncertain": true,
+        "parent_review_required": true,
+        "rationale": "IFDB explicitly lists Illuminismo Iniziato as a sequel: reserve the same family for that title and all Risorgimento editions/ports. No such title is currently registered or in play. Generic comic-fantasy influence and a reviewer's Zork comparison do not alone establish shared world/puzzles. Parent should retain this series grouping when later adding the sequel.",
+        "evidence": {
+          "url": "https://ifdb.org/viewgame?id=t0pidhghzbo91i12",
+          "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-ifdb.html",
+          "sha256": "cf6b3f5886e92783b693a8a91f105b1dbe04de53d2ea530bc27622f8fd7035b9",
+          "relationship": "Followed by sequel: Illuminismo Iniziato"
+        }
+      }
+    },
+    {
+      "game_id": "wadewars-iii-askin",
+      "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+      "guide_sha256": "d10c9dfe0d4a166777bc2781db12945fa1c45662af506b23ebc5ca46ff0ea7eb",
+      "header": {
+        "zmachine_version": 5,
+        "release": 106,
+        "serial": "020512"
+      },
+      "family": "wade-wars",
+      "split": "train",
+      "compatibility": "Local Z5 R106/020512 exactly matches the archive binary/header. Author guide explicitly targets the Z-code version, not merely the earlier DOS release, but supplies no release/serial. Its archive date 2001-12-23 predates the story's R106/020512; exact edition coverage remains unverified. Despite Book III in the title, the author identifies this as the first completed book, not an unavailable preview.",
+      "family_review": {
+        "uncertain": true,
+        "parent_review_required": true,
+        "rationale": "The author explicitly links this game to the Wade Wars series and Got Toast?; conservatively reserve wade-wars for those shared-world works and ports. Neither is in current registered/play exclusions. The introduction mentions rediscovering Zork, which establishes inspiration rather than specific shared world/puzzle reuse. Parent review requested for these documented series links."
+      }
+    }
+  ],
+  "status": "parent byte/header/container/guide normalization/archivehash/family checked and registered; runtime compatibility unproven",
+  "series_reservations": {
+    "illuminismo-iniziato": "risorgimento-represso",
+    "got-toast": "wade-wars"
+  },
+  "series_note": "Future installments/ports must use same train family. Same author or generic Zork inspiration alone not a shared-puzzle-family assertion."
+}

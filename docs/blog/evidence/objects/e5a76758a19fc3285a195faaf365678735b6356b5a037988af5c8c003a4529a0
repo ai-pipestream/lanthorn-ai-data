@@ -1,0 +1,24 @@
+{
+  "event_id": "magic-toyshop-9a53f3ebb2:e00292",
+  "timestamp": "2026-09-25T08:01:32.370154+00:00",
+  "game_id": "magic-toyshop",
+  "session_id": "magic-toyshop-9a53f3ebb2",
+  "branch_id": "b2",
+  "event_index": 292,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 35103,
+  "raw_end": 35103,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 179 turns.",
+    "evidence_event_ids": [
+      "magic-toyshop-9a53f3ebb2:e00291"
+    ],
+    "notes": "Genuine author-intended winning ending: entered the opened chest after solving all puzzles (noughts cheat, mouse maze key via bread, Hanoi glue, gnomon filed+glued, dots 3-1, dodgem 2-1, mushroom-shadow rod, egg cooked+eaten, combination 543251543251 self-generating). Game prints *** You have won *** with full 20/20 score, not death, quitting, or partial score."
+  },
+  "review_status": "unreviewed"
+}

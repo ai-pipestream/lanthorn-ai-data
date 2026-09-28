@@ -1,0 +1,25 @@
+{
+  "event_id": "traffic-dc40d385c3:e00234",
+  "timestamp": "2026-09-25T09:14:45.643156+00:00",
+  "game_id": "traffic",
+  "session_id": "traffic-dc40d385c3",
+  "branch_id": "b3",
+  "event_index": 234,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 86836,
+  "raw_end": 86836,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "traffic-dc40d385c3",
+    "ending_quote": "    *** You have won ***\n\n\n\nIn that game you scored 0 out of a possible 0, in 83 turns.",
+    "evidence_event_ids": [
+      "traffic-dc40d385c3:e00233"
+    ],
+    "notes": "Best ending including Sarah: after bark-twice dog sequence, revised present has no speeding car; player crosses to lab, news shows blond daughter convinced Loomis Bank father to turn himself in, innocent hacked account, reunited wife+girl. Distinct from normal package-delivery alternate e199 and from deliberate loop deaths; genuine concluding narrative with win banner and score."
+  },
+  "review_status": "unreviewed"
+}

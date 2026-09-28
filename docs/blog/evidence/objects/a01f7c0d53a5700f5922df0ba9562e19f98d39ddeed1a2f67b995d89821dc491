@@ -1,0 +1,188 @@
+{
+  "verified_at": "2026-09-25T05:58:17.685368+00:00",
+  "events": [
+    {
+      "event_id": "delusions-07b4a7fbbe:e00001",
+      "timestamp": "2026-09-25T05:56:52.534924+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n            He closed his eyes.\n            Found the ridged face of the power stud.\n            And in the bloodlit dark behind his eyes, silver phosphenes\n       boiling in from the edge of space, hypnagogic images jerking past\n       like film compiled from random frames.\n            Symbols, figures, faces, a blurred, fragmented mandala of\n       visual information.\n            ...\n            And flowed, flowered for him, fluid neon origami trick, the\n       unfolding of his distanceless home, his country, transparent 3D\n       chessboard extending to infinity.\n            ...\n            And somewhere he was laughing, in a white-painted loft,\n       distant fingers caressing the deck, tears of release streaking\n       his face.\n\n                                       -- William Gibson, \"Neuromancer\"\n                                 [Press a key.]",
+      "raw_start": 0,
+      "raw_end": 868,
+      "response_sha256": "dcca6d67c93d9776d3f05e95ea6611404ce25ed28e3dede44e0181c33ee0a098",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00002",
+      "timestamp": "2026-09-25T05:57:04.096957+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n                                   Welcome to\n\n\n                           E       U       I       N\n                       D       L       S       O       S\n\n\n                           [Press any key to begin.]\n\n\n\n\n                                             Human kind\n                          Cannot bear very much reality.\n\n                      -- T.S. Eliot, Burnt Norton (1936)\n",
+      "raw_start": 868,
+      "raw_end": 1268,
+      "response_sha256": "426dcd86e9ac9689c0851fde13bbd745772944e47da99b71677e613bf346c1db",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-start",
+        "intent": "Press key to advance past epigraph screen",
+        "origin": "exploration",
+        "expected_outcome": "Intro advances past Gibson quote"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00003",
+      "timestamp": "2026-09-25T05:57:08.003986+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\n\n\n\n\n\n\n\nReality is so... unreal.\n\nThe tangle of observations woven about it, humankind's utter lack of consensus, \nphases it to fit individual desires. Becoming and unbecoming, back and forth \neternally, as it paradoxically coexists with and within infinite variations of \nitself...\n\nAt least, that's what always surfaces in your mind whenever your own perception \nof reality is altered. Which is to say, ten or fifteen times a day. But it's \nyour job, working to someday entertain others with new observations, new \nexperiences, new realities. And after all, you signed up for the Project (as \nyou well remember, even though it was close to five years ago), so you suppose \nit's entirely your fault if you don't like it. Which, when you think about it, \nyou realise you do.\n\nJusty's voice reaches out to you from somewhere you can't see. \"Okay, this \nshould be it. One final test run to check any overload potential, and this \nworld is done! I'm starting her up.\"\n\nA loud CLANK, and the Sphere begins spinning, with you inside it.\n\n\"Brace yourself!\"\n\nBright lights.\n\nPain.\n\nFrom somewhere off in your mind's distance, a telltale splash.\n\nThen, as the resounding thrums fade, a distorted ripple sweeps your vision \nclear, and all traces of the laboratory vanish from your senses.\n\nAll five of them.\n\nWiped clean, twitching, anxious for new input.\n\nVirtual reality has become reality.\n\n\n\n    E       U       I       N\nD       L       S       O       S\nAn Interactive Self-Discovery\nCopyright 1996, 1997 by C.E. Forman (ceforman@worldnet.att.net)\nAll rights reserved, and don't you forget it.\n[Type HELP to learn the secrets of the universe.]\nRelease 4 / Serial number 971121 / Inform v6.14 Library 6/6\nStandard interpreter 1.1\n\nCoral Reef\nTall branches of pale blue coral poke up from clusters of seaweed, glittering \nin the sunlight that filters down through lapping waves. \n\nYou experience a brief moment of sheer terror as you lose the ability to move \nyour arms and legs, which quickly give way to fins and a flat, rudder-like \ntail. Freedom -- passionate, exhilarating freedom beyond any known to man -- \npervades your spirit. Your vision is foggy, but your other senses appear \nstrengthened.\n\nThe reef clears away to what you for some reason perceive as east and west, \nperfectly calm, still. Almost eerily so. But Grieg's Piano Concerto in A Minor, \nplaying through in your mind, soothes away all tension.\n\nOnly Justy's disembodied voice betrays the presence of a virtual reality. \"I \nestimate at max one potential for overload, maybe two. This one isn't all that \ncomplex, compared to the lab sim. Cynthesiser's got the analysis sweep running \nin the background, so you may feel some slight distortion. It's nothing to \nworry about. Just give us a typical walk -- or should I say, swim? -- through \nit.\" \n\n>",
+      "raw_start": 1268,
+      "raw_end": 4083,
+      "response_sha256": "dccbb69494a516cff2c266b250cf39e243d65b0389ee322d06215c5b1ce69571",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-start",
+        "intent": "Press key to begin game from title screen",
+        "origin": "exploration",
+        "expected_outcome": "Game starts with opening location"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00004",
+      "timestamp": "2026-09-25T05:57:13.712978+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 4083,
+      "raw_end": 4097,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-reef"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00005",
+      "timestamp": "2026-09-25T05:57:14.014424+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "checkpoint_filename",
+      "command": "start-reef.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/delusions/saves/Delusns.z5.save/start-reef.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 4097,
+      "raw_end": 4214,
+      "response_sha256": "d999a7d3943d07de9f8dc8169423da749a5e364aaaceb31440ab13a554e2c581",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-reef"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00006",
+      "timestamp": "2026-09-25T05:57:20.024099+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "louk",
+      "response": "That's not a verb I recognise.\n\n>",
+      "raw_start": 4214,
+      "raw_end": 4247,
+      "response_sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "reef-look-typo",
+        "intent": "Look around the coral reef to describe surroundings",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Room description of reef"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00007",
+      "timestamp": "2026-09-25T05:57:23.630051+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "help",
+      "command": null,
+      "response": "",
+      "raw_start": 4247,
+      "raw_end": 4247,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "unchanged",
+      "metadata": {
+        "help_trigger": "stuck",
+        "reason": "Tried 'louk' intending look around reef; parser rejected as unknown verb. Need guidance on correct look command and early reef exploration direction.",
+        "related_event_ids": [
+          "delusions-07b4a7fbbe:e00006"
+        ],
+        "topic": "coral reef look around starting area",
+        "hint_source": "https://ifarchive.org/if-archive/solutions/delusion.sol",
+        "line_start": 17,
+        "line_end": 25,
+        "hint_text": "----------------------------------------------------------------------\n\nE, E, W\nD, U, E (3/3)\n(Justy will be ready for you\n again at around Time: 3640)\nsave (s3)\n\nNW",
+        "source_kind": "walkthrough_not_player_observed"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00008",
+      "timestamp": "2026-09-25T05:57:27.837829+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-07b4a7fbbe",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nCoral Reef\nTall branches of pale blue coral poke up from clusters of seaweed, glittering \nin the sunlight that filters down through lapping waves. The reef clears away \nto what you for some reason perceive as east and west, perfectly calm, still. \nAlmost eerily so. But Grieg's Peer Gynt Suite, playing through in your mind, \nsoothes away all tension. \n\n>",
+      "raw_start": 4247,
+      "raw_end": 4603,
+      "response_sha256": "146f3a76d5516eda98d41dad34907772a6285df1a65e8bebb311a91256a885f2",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "reef-look-typo",
+        "intent": "Look around the coral reef to describe surroundings",
+        "origin": "recovery",
+        "expected_outcome": "Room description of reef"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hashes_verified": true
+}

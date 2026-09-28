@@ -1,0 +1,99 @@
+{
+  "at": "2026-09-25T06:48:01.849461+00:00",
+  "game_id": "mother-loose",
+  "header": {
+    "version": 5,
+    "release": 2,
+    "serial": "981128"
+  },
+  "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+  "events": [
+    {
+      "event_id": "mother-loose-608208fd92:e00001",
+      "timestamp": "2026-09-25T06:30:43.216825+00:00",
+      "game_id": "mother-loose",
+      "session_id": "mother-loose-608208fd92",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\nWhat was that?\n\nYou freeze, all your senses on alert. Not mineral. Not vegetable, either. That \nmeans...animal? Your eyes scan the countryside, swiveling like searchlights, \nand pause briefly on a grove of trees to the north.\n\n\"No, not there! Up here!\" guides a voice edged with impatience. As you whirl \naround, peering up, you squint and shield your eyes against the sun's glare. \nWaving at you from the top of a rickety wooden fence is a well-groomed egg, who \nconfesses, \"I could use a bit of help, if you don't mind.\"\n\nAfter a long and rather awkward silence, the egg mutters, \"It's very rude to \nstare, you know. When I was your age, children were taught to respect their \nelders, not gawk at them as if they were animals in a zoo.\" The egg crosses his \nlegs, folds his arms and pretends to ignore you.\n\n[Press a key to begin.]\n\n",
+      "raw_start": 0,
+      "raw_end": 838,
+      "response_sha256": "6ed4ac080e4aa57699678712e8201be90ee65c1ac1aca9be917eccb21b898382",
+      "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "mother-loose-608208fd92:e00002",
+      "timestamp": "2026-09-25T06:31:07.846659+00:00",
+      "game_id": "mother-loose",
+      "session_id": "mother-loose-608208fd92",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\n\n\nMOTHER LOOSE\nAn Interactive Nursery Rhyme\nCopyright (c) 1998 by Irene Callaci.\nRelease 2 / Serial number 981128 / Inform v6.15 Library 6/7\n\nRickety Fence\nThe ramshackle wooden fence in front of you seems to lurch from one horizon to \nthe other. Although it hasn't fallen over yet, it threatens to at any moment, \nand if that egg isn't careful...\n\nThe footpath running along the fence veers sharply north.\n\nThe egg removes a handkerchief from his pocket and polishes a pair of \nspectacles.\n\n Rickety Fence                     N           Score: 0\n                                   *           Moves: 1\n>",
+      "raw_start": 838,
+      "raw_end": 1445,
+      "response_sha256": "09c3d0b3eaf112d2577093c8f5cef6da5a0e29e55b07b35874398aeeffa36e4d",
+      "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "mother-loose-608208fd92",
+        "case_id": "opening-keypress",
+        "expected_outcome": "Game starts past title pause",
+        "intent": "Press key to begin game",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "mother-loose-608208fd92:e00003",
+      "timestamp": "2026-09-25T06:31:25.718866+00:00",
+      "game_id": "mother-loose",
+      "session_id": "mother-loose-608208fd92",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1445,
+      "raw_end": 1459,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "mother-loose-608208fd92",
+        "name": "start-fence"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "mother-loose-608208fd92:e00004",
+      "timestamp": "2026-09-25T06:31:26.020355+00:00",
+      "game_id": "mother-loose",
+      "session_id": "mother-loose-608208fd92",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "start-fence.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/mother-loose/saves/loose.z5.save/start-fence.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1459,
+      "raw_end": 1578,
+      "response_sha256": "1040a8425eca7b6d694996f82100144c9f4b754ba7798ae974bfb783ef1bdd29",
+      "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "mother-loose-608208fd92",
+        "name": "start-fence"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "note": "Parent raw span/text/hash verified; selected startup/early events only; no independent review or ending implied."
+}

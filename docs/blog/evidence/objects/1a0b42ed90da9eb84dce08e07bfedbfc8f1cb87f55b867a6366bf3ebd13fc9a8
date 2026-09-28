@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-09-25T04:13:31.138433+00:00",
+  "event": {
+    "event_id": "so-far-8d580943cf:e00001",
+    "timestamp": "2026-09-25T04:03:36.620651+00:00",
+    "game_id": "so-far",
+    "session_id": "so-far-8d580943cf",
+    "branch_id": "b0",
+    "event_index": 1,
+    "event_type": "startup",
+    "command": null,
+    "response": "\n\nHot, foul, and dark. How did indoor theater become so fashionable? Well enough \nin spring rain or winter, but not in the thick, dead afternoon of high summer. \nAnd though Rito and Imita looks very fine, shining with electric moonslight in \nthe enclosed gloom, you're much more aware of being crammed in neck-by-neck \nwith your sweaty fellow citizens.\n\nDamn the crowd, in truth: your mood was hot, foul, and dark when you sat down. \nAessa was supposed to meet you here. She's made excuses before, and you don't \nthink about what it might mean. Try not to think, rather. Just watch the story. \nOne of your favorites. But it's miserably hot, and you just aren't caught up in \nthe play...\n\nSO FAR\nAn Interactive Catharsis\nCopyright 1996 by Andrew Plotkin.\n(First-time players should type \"about\".)\nRelease 6 / Serial number 961218 / Inform v1502 Library 5/12\nStandard interpreter 1.1\n\nLower Theater (on the bench)\nIf nothing else, you have a good seat. The stage is only a few rows to the \nnorth. People are jammed on benches in every direction; you think the aisle is \nsomewhere to the west.\n\nThe play is into the final act. Rito has finally found out about Imita's \naffair, and he stalks the stage, whipping voice and hands about himself. A \nfootfall behind him; he turns, and sees Imita. She backs a step at the force of \nhis gaze.\n\n>",
+    "raw_start": 0,
+    "raw_end": 1335,
+    "response_sha256": "7e8efcdc578c99706e8562f2a398ebaa7da9af018ed446b91ffa9bf2fda137f2",
+    "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "origin": "system"
+    },
+    "review_status": "unreviewed"
+  },
+  "raw_hash_verified": true,
+  "source_gap": "StoryR6/961218 vs walkthroughR5/960619, preserved"
+}

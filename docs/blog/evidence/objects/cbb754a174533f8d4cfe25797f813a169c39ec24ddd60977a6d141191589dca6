@@ -1,0 +1,17 @@
+{
+  "game_id": "hunter-in-darkness",
+  "title": "Hunter, in Darkness",
+  "url": "https://ifarchive.org/if-archive/solutions/huntdark.sol",
+  "accessed_at": "2026-09-25T03:48:59.573460+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/huntdark.sol",
+  "source_sha256": "da579cd7008910c3d8ccacc4e47918f0c03bfd7dcb0aa0b20e43463534fa20c5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/hunter-in-darkness-walkthrough.txt",
+  "normalized_sha256": "da579cd7008910c3d8ccacc4e47918f0c03bfd7dcb0aa0b20e43463534fa20c5",
+  "story": "/home/krickert/if-games/zcode/huntdark.z5",
+  "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+  "compatibility": "Guide release unspecified, two paths based on injuring prey. Require intended conclusion, not ordinary death.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "991119"
+}

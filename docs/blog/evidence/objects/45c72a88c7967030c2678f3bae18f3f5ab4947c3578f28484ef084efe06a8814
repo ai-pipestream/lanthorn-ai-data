@@ -1,0 +1,17 @@
+# Magic Toyshop progress (FINAL - game won)
+
+Location: (game over - won). Score 20/20 in 179 turns.
+Ending (e00291): entered chest -> drapery -> Victorian arcade, parcel "To Isabelle, on her birthday." *** You have won ***
+
+Route since update 4:
+- Tea-time: mushroom on sundial (no effect) vs in shadow (inch-high man, mahogany rod). Took rod.
+- Egg: 'light rod' refused; 'strike rod' charged it; 'point rod at egg' cooked it (dropped, hot).
+- Mouse maze: baguette = bread confirmed. 'put loaf in mousehole' parsed but needs mouse first. Put mouse, put bread in.
+- Maze mapping: N,W,W dies (cat). N,N,N,W,W reaches key square (beep+clang). W bumps (disconsolate bleep); E back gets caught (cat shadows top row). Return S,S,S,E,E,E then 4th E exits: mouse runs out, magnet drops key (score 15). Full solution: N,N,N,W,W,S,S,S,E,E,E,E.
+- Egg cooled: 'eat the egg' (score 16). 'unlock chest' asked for instrument; 'key' revealed LCD+keypad (score 17).
+- Combination 543251543251 via 'press' digits + 'press send': self-generating output, chest opens (score 18).
+- Chest empty; 'enter chest' -> WIN (score 20).
+
+Cases annotated total: 15 (8 prior + dodgem-move-ambiguous, mushroom-shadow-target, strike-rod-syn, bread-loaf-syn/none, eat-egg-article/none, unlock-chest-omit, keypad-press-syn/none).
+Unresolved: none. All puzzles solved, authored ending observed.
+Checkpoints: ... after-maze, before-combination, before-enter-chest (all verified).

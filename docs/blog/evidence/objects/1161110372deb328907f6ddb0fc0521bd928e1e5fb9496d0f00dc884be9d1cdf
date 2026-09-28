@@ -1,0 +1,125 @@
+{
+  "game_id": "mulldoon-legacy",
+  "title": "The Mulldoon Legacy",
+  "author": "Jon Ingold",
+  "url": "https://ifarchive.org/if-archive/solutions/mulldoon2.sol",
+  "accessed_at": "2026-09-25T08:44:02.271959+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon2.sol",
+  "source_sha256": "dfde390181bb0881ce7d9d922938506a360e9af16050973dabbdbc844f0c2be1",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy-walkthrough.txt",
+  "normalized_sha256": "bc20163d92947b5ca36e5b03569ddd3f09d3b91ad60e8cfd488af078dc18162c",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Decode UTF-8 and normalize CRLF/CR to LF; replace unique marble-maze section with published release-6 correction. No other guide commands changed.",
+    "base_normalized_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy-release2-walkthrough.txt",
+    "base_normalized_sha256": "dfde390181bb0881ce7d9d922938506a360e9af16050973dabbdbc844f0c2be1",
+    "assembly": {
+      "start_anchor": "In the Marble Maze\n------------------\n",
+      "end_anchor": "The Sword\n---------",
+      "base_start_byte": 32429,
+      "base_end_byte": 33799,
+      "correction_normalized_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy-maze-release6.txt",
+      "correction_normalized_sha256": "e902a55e173b82343d8fa039a8374ef116f81c4f37671d2a73971fc83efb3f99",
+      "correction_body_start_byte": 323,
+      "trailing_newlines": "Strip only correction-body trailing LF, then append exactly two LF before The Sword",
+      "replacement_sha256": "32e6765072732c5daff4f538ad675a5464407ab9f75b8b63b20124b0114f345f"
+    }
+  },
+  "story": "/home/krickert/if-games/zcode/Mulldoon.z8",
+  "story_sha256": "102bce2e12d97644e3fb317dfdb582cb2aac6f28892e5110a332e52af3742e0f",
+  "compatibility": "Local Z8 R6/000724 matches archive bytes/catalog. Main guide explicitly targets release 2 without a serial: retain the four-release gap. D.J. Picton's 2002-04-19 marble-maze correction explicitly says tested for release 6, without serial. The prepared normalized guide replaces only the complete marble-maze section with that correction; both originals, LF-only versions, assembly recipe and hashes are retained. Other release-2 sections remain unverified against R6.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 6,
+  "serial": "000724",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000006ffe8ffe9bfdb0202a4e0aec20050303030373234013ae4f39a6600000000000000000000000000000000aec100000000000001fa00000000362e3231",
+    "header_sha256": "538b8cc3de07dc39f1fa024254662d56c408eed1ef6c842a25ca7ecd7d07ad12",
+    "checksum_hex": "9a66",
+    "declared_length": 468888,
+    "file_bytes": 468992
+  },
+  "guide_release": 2,
+  "guide_serial": null,
+  "guide_release_gap": 4,
+  "story_identity": {
+    "filename": "Mulldoon.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Mulldoon.z8",
+    "accessed_at": "2026-09-25T08:45:26.912152+00:00",
+    "remote_sha256": "102bce2e12d97644e3fb317dfdb582cb2aac6f28892e5110a332e52af3742e0f",
+    "local_sha256": "102bce2e12d97644e3fb317dfdb582cb2aac6f28892e5110a332e52af3742e0f",
+    "bytes": 468992,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 6,
+    "remote_serial": "000724"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Mulldoon.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Mulldoon.z8\n◆\n[04-Aug-2000]\nIFDB entry\nIFWiki:\nThe Mulldoon Legacy\nThe Mulldoon Legacy, a Tale of Time and Self,\nby Jon Ingold.\nRelease 6 / Serial number 000724.",
+    "tuid": "k6yq5koj2zjzstpt"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#mulldoon2.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "mulldoon2.sol\n◆\n[06-Jan-2000]\nIFDB entry\nSolution to Mulldoon release 2, by Paul J. Godfrey",
+    "tuid": "k6yq5koj2zjzstpt"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Paul J. Godfrey; release-6 maze correction by D.J. Picton",
+    "route_summary": "Follow the substantial museum/family-history route through the four key substances, corrected marble maze, crown/sword and final dragon/Abbot sequence, then the final vortex and any authored final epilogue. Require real concluding narrative resolving the family quest. A simulation, ancestor memory, 256 points, FULL, or a guide line saying FINAL alone is insufficient. Preserve genuine alternate conclusions and treat ordinary death as failure.",
+    "limitations": "Use the release-6 corrected maze section, not the obsolete release-2 movement sequence. The guide estimates roughly 2100 moves; this is descriptive, not a quota. In-game guidebook/index/mythos are puzzle objects, not permission to read central walkthrough files. Read live clues and adapt timing, pronouns and inventory. Keep optional undo demonstrations separate from observed progress. Save early and at major puzzle boundaries, then use small topic-specific help excerpts.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "mulldoon",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Archive separately identifies The Mulldoon Murders as an interactive sequel by Jon Ingold. Reserve mulldoon across Legacy, Murders, their releases/ports and related branches. Neither appears in existing prepared/play identities. Parent review requested for this series reservation; generic time travel or museum puzzles alone do not merge other families."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public availability does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "guide_correction": {
+    "url": "https://ifarchive.org/if-archive/solutions/mulldoonmaze.sol",
+    "accessed_at": "2026-09-25T08:44:02.322993+00:00",
+    "access_date": "2026-09-25",
+    "author": "D.J. Picton",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoonmaze.sol",
+    "source_sha256": "e902a55e173b82343d8fa039a8374ef116f81c4f37671d2a73971fc83efb3f99",
+    "normalized_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy-maze-release6.txt",
+    "normalized_sha256": "e902a55e173b82343d8fa039a8374ef116f81c4f37671d2a73971fc83efb3f99",
+    "guide_release": 6,
+    "guide_serial": null,
+    "body_read": true,
+    "archive_entry": {
+      "url": "https://ifarchive.org/indexes/if-archive/solutions/#mulldoonmaze.sol",
+      "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/solutions-index.html",
+      "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+      "entry_text": "mulldoonmaze.sol\n◆\n[19-Apr-2002]\nIFDB entry\nCorrection to the Marble Maze walkthrough in\n\"mulldoon2.sol\", by D.J. Picton.",
+      "tuid": "k6yq5koj2zjzstpt"
+    }
+  },
+  "family_related_archive_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Mullmurd.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Mullmurd.z5\n◆\n[14-Feb-2002]\nIFDB entry\nThe Mulldoon Murders, An Interactive Sequel,\nby Jon Ingold.\nRelease 3 / Serial number 020214.",
+    "tuid": "fkk37ywm4eig3q65"
+  }
+}

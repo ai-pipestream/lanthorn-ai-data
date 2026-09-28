@@ -1,0 +1,44 @@
+# Delusions progress — SEGMENT 2 active (b16 time-push started, bed test dead, game INCOMPLETE)
+
+No winning ending. Score 10/50. Weak/woozy never thru 6859. HINT menu forbidden.
+
+CURRENT (b16, verified):
+- Restored before-third-run (m0479, Ok, b16 e00214-215, Score 10 up 10). Cynthia's Quarters (e00216, late no chess), time 6724 (e00217), inv punch caplet gelstrip X-Acto syringe + jumpsuit/watch, NO pizza (eaten, e00218).
+- Checkpoint pre-push-6724 (m0483, Saved Ok e00219-220).
+- SE lab e00221 (Justy at terminal), S MedLab e00222 (cabinet empty), lie e00223.
+- 5x z e00224-228 all Time passes, no symptom. Time 6859 e00229 (m0486). Rate ~15/time per turn (6724->6859 in ~9 turns). To 9000 need ~140 waits, to 10000 ~210 waits.
+- Sleep on gurney e00230 STILL "can't doze off" (m0487).
+- Get up e00231, N lab e00232, SE quarters e00233 (late: magnet closed, painting, lightstick, tongs, niche, alcove).
+- Lie on bed e00234 Ok ("You lie down on your bed"), sleep e00235 STILL "can't doze off" (m0491). BED HYPOTHESIS DEAD (quarters bed same refusal as gurney).
+- Get up e00236. Location: Your Quarters standing, ordinary prompt.
+
+UNRESOLVED:
+- inject (weak): refused all branches, no weak ever. R2 has 2 injects, R4 both absent.
+- sleep1 (woozy): refused gurney (b12/b13/b16) and bed (b16), no woozy ever. 45+ gurney waits total, 2 alarms fired no symptom.
+- report/configure: blocked by Justy (needs sleep1).
+
+DEAD (do not repeat):
+- Lab-time location (b14), pizza eaten/uneaten (b13), early chess exact (b15, checkmate immediate, waits Time passes only), bed vs gurney (b16 both refuse), manual gating (done pre-sleep in b8).
+
+FULL R2 WALKTHROUGH MAPPED (broker excerpts m0467-0478, lines 133-240, hints not observed):
+- Post-sleep2: Eat caplet Lie zzzz 1/23 zzzz / Get strip knife Cut implant 3/26 Put strip 3/29 save s29 / N X tank NW X picture SE Open SE X violin Giger needle NW W / X doors E NE Open freezer Get light Put in oven Get light (no tongs!) SW E Turn on switch Drop light / Search curtain X android Again Again (hands shake) W X door W S X rectangle / X hands (desperate) N E NW Look under desk Cut box Get gun SE / save s30 Kill me zzz zzz 4/33 save s33 W Knock open / W Open drawer get blade X mirror zzzz N Get magnet Put in niche 3/36 Open door NW E (must go E) / save s36 Wait 23 turns phone appears Get phone Push redial 2/38 (MUST be factory storage) / zzzz zzz Drop gun 1/39 save s39 NW Get pencil Sharpen 2/41 X pad Rub 2/43 / SE X screen X box Open system Type XYZZY Type CHESS 4/47 save s47 Enter sphere / Rescue morrodox 2/49 Full (50th = no-hint bonus).
+- Win: "Rescue morrodox" in sphere, 49/50 with hints, 50/50 no-hint. b12-b16 branches pre-hint, so 50 possible if HINT avoided.
+
+NEXT:
+1) Quick probes before committing to 140-210 waits: find mirror (W Corridor S Lav per b8 mapping), "x me" for symptoms; ask Cynthia about sleep/tired/weak; ask Shimada about sleep; try "wait until woozy" syntax? (likely rejected, 1 probe max).
+2) If quick probes fail: resume time push on gurney (restore pre-push-6724 to reset to lying? Or continue from quarters: SE? Actually need to go back to MedLab lie). Push 5 waits/request, check sleep every 20-30 waits, watch for weak/woozy. Checkpoint every ~50 waits (e.g., push-7500, push-8500) at ordinary prompt (must get up to checkpoint? Checkpoint allowed only at ordinary prompt, lying on gurney is ordinary? Safer to get up, checkpoint standing, lie again). Stop at 10000 if no trigger, report honestly.
+3) Do NOT use HINT menu, DO NOT eat caplet early, DO NOT re-probe inject/sleep wording (covered). Cases ~49 (have 20-40 needed).
+
+## Checkpoints
+- pre-push-6724 (b16 Cynthia's 6724, pizza eaten, 10/50, for push base)
+- before-third-run (6714 Cynthia's, pizza eaten)
+- nopizza-6044 (b13 Cynthia's 6044, pizza uneaten)
+- before-pizza (5792 Kitchenette)
+- quarters-staged (4336), lab-after-reef-win (3380 0/50), etc.
+
+## Recovery bases (do not delete)
+- b12 before-pizza e00389 after HINT SPACE timeout. Avoid HINT.
+- b13 before-pizza e00131-132 no-pizza test.
+- b14 quarters-staged e00160-161 lab-time test.
+- b15 lab-after-reef-win e00186-187 early exact test.
+- b16 before-third-run e00214-215 time-push + bed test.

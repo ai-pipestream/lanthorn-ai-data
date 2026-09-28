@@ -1,0 +1,7 @@
+# Progress — believable-adventures-invisible-man (ACTIVE, game incomplete)
+
+Location: Corridor (e88-e93), invisible, carrying nothing. North wall lab door, west boss's door locked (needs key, e91). Ordinary prompt.
+Last: m0084 annotation boss-door-open-syn (e90 fail vocab, e91 world_state locked) done; m0083 help gave characteristic-key excerpt (lines 138-146).
+State: creepy-guy pizza revenge complete (e71); Street has no creepy guy, only letterbox (e75). Puppy still at Back (e78,e81,e82 chasing butterflies); any window attempt or `i` there triggers dog smell retreat to Dirt Path (e80,e83). Front route works: Campus w to University Building (e86), n to Corridor (e88). Apartment: clothes+badge dropped, oven empty, window open (e74). Checkpoints: start-lab, invisible-lab, street-invisible, campus-invisible, apt-creepy-revenge (e72-73) verified.
+Cases: ~16 annotated incl. ambiguity dog-blocks; new probe boss-door-open-syn annotated failure (wording fixed, still key-blocked). Unannotated explorations e74-e89 are route/looks, no repair needed except noted dog blocks.
+Next: find characteristic-looking key (hint: get key, e, n, bandages/bathrobe, unlock boss's door, open, w, turn on computer). Explore from Corridor: s to Building, w office door, u upstairs, n lab. Single commands, checkpoint before boss-office entry. Need help mode next if key location unclear.

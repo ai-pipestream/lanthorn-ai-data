@@ -1,0 +1,75 @@
+{
+  "game_id": "slacker-x",
+  "title": "Slacker X",
+  "author": null,
+  "url": "https://ifarchive.org/if-archive/solutions/slackerx.sol",
+  "accessed_at": "2026-09-25T06:02:02.392968+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/slackerx.sol",
+  "source_sha256": "dce914409ae2ba36656b1daf7559559628bc854daed48b96f4cf286989ee42b6",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/slacker-x-walkthrough.txt",
+  "normalized_sha256": "dce914409ae2ba36656b1daf7559559628bc854daed48b96f4cf286989ee42b6",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Slackerx.z5",
+  "story_sha256": "a9528b18c7b9557a356d9ea3bb09924be218d4322ca6416748b89b02864dd3a5",
+  "compatibility": "Local R1/971009 matches archive title and header; guide names Slacker X but no release or serial. The archive entry does not name a game author, so none is inferred from the solution author Ambat Sasi Nair.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "971009",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001288c288d1a6901020b2311480000393731303039004235cb5e1700000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "ee9b0f738c3c0237abb4ed9d92d7e982344a96c2e2c639be473913737e6cb7c2",
+    "checksum_hex": "5e17",
+    "declared_length": 55084,
+    "file_bytes": 55296
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "Slackerx.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Slackerx.z5",
+    "accessed_at": "2026-09-25T06:03:03.671400+00:00",
+    "remote_sha256": "a9528b18c7b9557a356d9ea3bb09924be218d4322ca6416748b89b02864dd3a5",
+    "local_sha256": "a9528b18c7b9557a356d9ea3bb09924be218d4322ca6416748b89b02864dd3a5",
+    "bytes": 55296,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "971009"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Slackerx.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Slackerx.z5\n◆\n[26-Mar-1998]\nIFDB entry\nSlacker X, A scatological breakthrough\nin adventure gaming.\nRelease 1 / Serial number 971009.\n(an MS-DOS executable is in games/pc/slackerx.zip)"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#slackerx.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "slackerx.sol\n◆\n[24-Jan-1998]\nIFDB entry\nSolution to Slacker X, by Ambat Sasi Nair"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the bag/item exchanges through obtaining the envelope and its final delivery to Yrrab; verify the game's actual conclusion. Thirteen annotated four-point steps or obtaining the envelope do not prove completion.",
+    "limitations": "Guide is highly compressed and omits many examinations. Treat arrows and numbered point annotations as prose. Keep useful probes in safe states rather than replaying dangerous consumption or irreversible exchanges for volume.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "slacker-x",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "No concrete shared-world/puzzle relationship found in inspected sources. I-0's ordinary use of the word slacker is not a Slacker X identity link."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

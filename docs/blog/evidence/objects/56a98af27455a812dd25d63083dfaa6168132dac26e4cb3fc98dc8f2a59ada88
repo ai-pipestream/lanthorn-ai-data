@@ -1,0 +1,9 @@
+# Jigsaw progress (update 48 — SEGMENT 9, REDO Ch11 Enigma stepping found, game incomplete)
+
+Location: Hut 31, Bletchley 1941 (branch b6, e02016). Sparkler RECOVERED (r3-monument-sparkler checkpoint). Game NOT complete.
+REDO STATUS: restored monument-16lit -> Disc Room -> got sparkler -> Monument safe (no wreck, Ch12 inactive) -> checkpoint r3-monument-sparkler -> press d3 -> Ch11 ghost (paper: Stngs 23,5,? + same 5 pairs; I+III on wardrobe) -> press d3 -> corporeal 1941 -> Hut 31 -> Enigma II/IV/V installed, 5/7 steckers, machine OFF.
+ENIGMA INSTANCE RANDOMIZED: new paper (23,5 vs 11,6), new intercept ciphertext. Walkthrough d-f/x-p + all-Z failed (gibberish). V restricted to fixed 10 stops (set v 11 refused). Wheels removable; reinstall resets positions to factory 23/25/6 (fixed, same both runs); steckers preserved across reinstall.
+KEY FINDING (e02012/e02016): wheels STEP on typing with NO auto-reset; re-type without full re-set gives different output; fresh full sets + single type is DETERMINISTIC. All multi-type batches were polluted after first type. VALID so far (fresh 5/7): Z=6 gibberish (xkmq..., T12=T14). Method: one fresh [set ii 23, set iv 5, set v Z, type] per batch.
+Cases: 82 annotated. No pending. Help: Ch11 hints m1067-81 (method only; instance-specific values useless).
+Checkpoints: r3-monument-sparkler (REDO BASE, pre-Ch11 with sparkler), monument-16lit, ch12-pre-sparkler-run (sparklerless mid-Ch12, b4/b5), ch11-start (stale b4), older. Next: m1251.json. Last: m1250 (Z=18 proper trial).
+NEXT: proper single trials Z in {18,5,4,21,23,14,2,8,17} (skip 6, done) -> find near-miss -> guess 2 missing pairs -> decode+arrest -> z.z.z -> ball -> Land -> Monument -> clock 59 -> press a3 -> Ch12 REDO with sparkler (exact walkthrough route) -> tie/up/drive finale.

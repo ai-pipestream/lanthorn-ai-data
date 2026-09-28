@@ -1,0 +1,11 @@
+# Progress – Tryst of Fate
+
+Location: Master Bathroom (bag in hand, zipper rusted shut)
+Inventory (observed): brown bag (closed, rusted zipper)
+Score/Moves: 0 / 19, Chapter 1
+
+Cases (12): stand-typo-01, stand-synonym-02, gumball-synonym-03, go-north-wording-04, gnome-examine-05, ask-bag-06, ask-omitted-07, ask-gumball-typo-08, go-west-wording-09, open-closet-10, get-bag-11, open-bag-12 (unzip unknown; open parsed but rust-blocked, outcome failure)
+
+Last hint (lines 36-44): E, X dresser, Open drawer, Get gloves+wear, S E, Open shower, Get soap (5/5), Put soap on zipper, Open bag
+Next: E to bedroom, dresser/drawer/gloves with probes, then S E to shower/soap.
+Checkpoints: start-floor

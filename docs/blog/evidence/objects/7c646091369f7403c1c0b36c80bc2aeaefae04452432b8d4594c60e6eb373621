@@ -1,0 +1,14 @@
+{
+  "url": "https://ifarchive.org/if-archive/solutions/adamssol.zip#MISSION",
+  "archive_member": "MISSION",
+  "accessed_at": "2026-09-25T01:54:41.088945+00:00",
+  "source_sha256": "59c351e747550c50ca21c9dec47f0aa72f2b761e5f8dd2f65e68505d63c333a2",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/secret-mission-walkthrough.txt",
+  "normalized_sha256": "25d4eb4d51531eb1c997ee8b798058f355974a8477a17053e0b157ca4458d3d5",
+  "reuse_permission": "unknown; private collection only",
+  "compatibility": "matching title; release compatibility unproven, check against real responses",
+  "game_id": "secret-mission",
+  "story": "/home/krickert/if-games/scott/AdamsGames/adv03.dat",
+  "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+  "title": "Secret Mission (also Mission Impossible), Scott Adams #3"
+}

@@ -1,0 +1,75 @@
+{
+  "game_id": "all-quiet-on-the-library-front",
+  "title": "All Quiet on the Library Front",
+  "author": "Michael S. Phillips",
+  "url": "https://ifarchive.org/if-archive/solutions/library.step",
+  "accessed_at": "2026-09-25T06:02:02.331243+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/library.step",
+  "source_sha256": "7343e9b03a787255ae7e6fe01ae9db041a2cceb4601b3e6d75f5e16ccd7940af",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/all-quiet-on-the-library-front-walkthrough.txt",
+  "normalized_sha256": "7343e9b03a787255ae7e6fe01ae9db041a2cceb4601b3e6d75f5e16ccd7940af",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/library.z5",
+  "story_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+  "compatibility": "Guide explicitly release 2, matching local R2/951204; guide omits serial. Archive matches title, author and exact local header. Release-level correspondence is documented; serial-specific guide compatibility is not.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "951204",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05020002304c304d1e5601020e07144e000039353132303400424693aef900000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "2f5533c0c64cb02d9f376d6d2a47947f7ec12d8ebc9b3f1bbc4fea404297fd2b",
+    "checksum_hex": "aef9",
+    "declared_length": 72268,
+    "file_bytes": 72704
+  },
+  "guide_release": 2,
+  "guide_serial": null,
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "library.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/library.z5",
+    "accessed_at": "2026-09-25T06:03:03.594704+00:00",
+    "remote_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+    "local_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+    "bytes": 72704,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "951204"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#library.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "library.z5\n◆\n[04-Dec-1995]\nIFDB entry\nIFWiki:\nAll Quiet on the Library Front\nAll Quiet on the Library Front, An Interactive Vignette\nby Michael S. Phillips. Release 2 / serial number 951204.\n(a walkthrough is in\nsolutions/library.step;\nthe original competition entry is in\ngames/competition95/library.z5)"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#library.step",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "library.step\n◆\n[01-Oct-1996]\nIFDB entry\nIFWiki:\nAll Quiet on the Library Front\nstep-by-step solution to release 2 of\nAll Quiet on the Library Front, by Paul J. Godfrey\n(the game file is in\ngames/zcode/library.z5)"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Resolve the library investigation and book/key exchanges, then leave through the final east exit and require the resulting concluding narrative. The 30-point tally, saved checkpoint called alldone, and FULL score listing are not completion evidence on their own.",
+    "limitations": "Guide estimates about 50 moves. The parenthesized save names are commentary, not literal route commands. Verify success of real checkpoints.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Guide includes feeding a grue and XYZZY. Grue is a Zork reference; the exact relationship may only be homage, while XYZZY also comes from Adventure. Conservatively keep with existing zork-i/development pending parent review; do not assert identical world or complete shared puzzles."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

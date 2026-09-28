@@ -1,0 +1,15 @@
+# Deephome playthrough progress (IN PROGRESS — branch b5, Bakery after Temple exorcism, score 235; STOPPING at step budget)
+
+## Where to resume (continuation run: start here)
+Branch b5 in Bakery at ordinary prompt (latest e00772 Bakery sharp pick visible; e00770-771 route Temple>S Main>N Main>Bakery via m0573 resolved; e00769 inventory: Gold Coin + clover + ashes, bottle (needs refill), net closed+squirrel, pickaxe, Sword, Fresto, torch lit, shield, Order, lantern lit, magic left Temple; e00768 Temple empty; e00767 coin Taken; e00763 Temple Indanaz banished +30 score 235; checkpoint after-temple-exorcism e00764-765 Ok). Pending broker: NONE confirmed resolved except verify responses/m0573.json when continuing (do NOT resubmit m0573). Do NOT restart. Score 235/300.
+
+## Next (do NOT replay Temple)
+1. Bakery `fill bottle` (single command).
+2. Help mode next for post-Temple order: Treasury Partaim (net+coin+water+pray+Manaz) needs net EMPTY but net holds squirrel for Throne Yetzuiz (give living animal) — order + last-exorcism ending excerpt needed.
+3. Likely Throne give squirrel (free net) then Treasury, or vice versa per guide; then finish with evidence IDs + exact ending quote.
+4. Conserve light (torch+lantern lit); sharp pick cached Bakery, hammer Shack, key Treasury.
+
+## Cases / checkpoints
+Annotated: kebarn vocab; shack world_state; dig syntax; acorn none; take-squirrel world_state; squirrel-omitted syntax; yetzuiz-typo vocab; temple-pronoun ambiguity; throne-wording none; indanaz planning; bottle-typo vocab; bottle-capacity world_state; desk world_state; burn none; pour syntax onto>on; pray syntax bare>to kraxis. Pending: treasury-exorcise e00585 + book-open e00587 (annotate once Treasury banish confirms). Checkpoints Ok: after-temple-exorcism, before-manaz-temple, temple-ready, before-temple-exorcism, wooded-squirrel, treasury-pickaxe, shack-net, before-treasury-spirit.
+
+Game incomplete — ending NOT reached. Stopped honestly at step budget with game incomplete.

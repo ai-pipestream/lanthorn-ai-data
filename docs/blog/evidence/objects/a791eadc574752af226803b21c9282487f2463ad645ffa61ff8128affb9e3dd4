@@ -1,0 +1,21 @@
+# Anchorhead collection — CONTINUATION (game incomplete)
+
+Current: session anchorhead-51ee2d15c2 branch b3 e00270 (m0429). Location: Death Records archive, Courthouse Basement.
+Score 18/100 e00244. Light: flashlight on since pantry; conserve.
+Inventory as last seen e00192: wearing gold+silver+amulet+ring/clothes/trenchcoat; hands keyring(4)+broom+flashlight(on); pockets newspaper/opener/manual/pages/slip/card/flask/umbrella.
+
+Route since wine-cellar-checked e00229: west to Cellar e00230; north/pantry/se/kitchen/east/back-hall/south/foyer e00231-234; open-bag motivation fail e00235; look-in-bag fail e00236; south outside e00237; se Scenic e00238, east steep fail e00239, look e00240; ne Chilly e00241; south Deserted Lane e00242; score e00244; north Chilly e00245, north Riverwalk e00246; west Square e00247; read-monument success e00248 (obelisk carvings unsettling); west Dark Corner e00249; east Square e00250, east Riverwalk e00251; east Vacant Lot e00252 (ragged old man); west Riverwalk e00253, west Square e00254; south Courthouse e00255; down Basement e00256; read slip e00257 (born-died same date? chk records, Michael hand); se Birth Records e00258; search-records guidance e00259 (look up by name or flip by year); help e00260 (look up picked-up names, then home); lookup-Edward vocab fail e00261 -> look-up-Edward success e00262 (born Apr 26 1960), annotated e00263; William birth e00264 (born Jun 22 1954); nw Basement e00265, sw Death Records e00266; Edward death e00267 (died Mar 14 1997); William death e00268 (died Sep 18 1958); Croseus unfamiliar e00269; Verlac needs first name e00270.
+
+Where stuck:
+- Slaughterhouse west still blocked (Deserted e00207, Down Road e00209). Defer; records/courthouse is current Day-2 gate. Walkthrough: look up names/dates then head home.
+- Hairpin bag blocked: open-bag e00235 + look-in-bag e00236 both motivation-drain. Leave per plan; hairpin likely Day-3 or needs other trigger.
+- Church trapdoor padlock heavy e00189; hook downstream of slaughterhouse (well/bones/teddy/hide from Wills, runner, route cut, church back).
+- Records same-date anomaly unresolved: Edward/William births/deaths do not match slip. Need other male Verlac first names (diary/manual/laptop/newspaper?) or flip-by-year. Croseus rejected as unfamiliar; Verlac needs specificity.
+- Crawlspace NW loops e00164; observatory likely church/crypt, not attic.
+
+Checkpoints good: wine-cellar-checked e00229, church-back-trapdoor, house-attic-done, attic-cell-gold, study-laptop-unlocked, cellar-key-clean. Never SAVE in menus; book TOC avoided per transport note.
+
+Repair cases: +3 new (monument-read accepted paraphrase pending none-annotation; lookup/look-up vocabulary annotated e00263; search-records guidance). Older pending none-annotations: cord yank, jewelry UK, childbed push, hole, straw gold, scenic-east steep e00239, attic south fail, lane west fails — annotate failures first when time permits.
+
+Next: in Death Records try remaining first names from diary/manual (e.g. look up Michael? check newspaper name Greer? locket boy?) or flip-through-year syntax; then Birth counterpart; then north/up/square/home per hint. If records done, re-test Deserted Lane west.
+Game incomplete; no winning ending; no quit. Broker pending rule: allow 190s, await_output only on timeout.

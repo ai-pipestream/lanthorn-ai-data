@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-09-25T06:57:11.552512+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-f-20260925.json",
+  "counts": {
+    "ready_static": 4,
+    "train": 4,
+    "development": 0,
+    "test": 0,
+    "archive_byte_matches": 4,
+    "explicit_guide_release_matches": 1,
+    "explicit_guide_serial_matches": 0
+  },
+  "game_ids": [
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man"
+  ],
+  "notes": [
+    "No launches or remote staging; all stories/guides remain on the central host.",
+    "Four novel games, not alternate releases of existing games; HLA is explicitly the named Inform port.",
+    "AOTYRZ actual release is 0/060825. Do not infer a demo from release zero.",
+    "Invisible Man author guide explicitly R2 without serial. Three other guides have unspecified target release; Muse may predate R2, and HLA has an explicit port-version gap.",
+    "Yeti long paragraph reflowed to keep successive broker excerpts usable. All normalized guides preserve word sequence.",
+    "All four independent families proposed train; HLA ports grouped together. Registry/splits were not edited.",
+    "Completion is runtime-unverified; parent must check actual authored finale. No score-only, chapter-only, early departure or QUIT completion."
+  ],
+  "substitutions": [],
+  "reuse": "unknown; private collection only"
+}

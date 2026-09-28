@@ -1,0 +1,24 @@
+# Deephome playthrough progress (IN PROGRESS — branch b1, score 153, City Gates OPEN)
+
+## Where to resume
+Continue from actual state at City Gates OPEN (score 153, e00254). Last safe checkpoint `gates-open` verified Ok (e00256-257). Do NOT restart.
+
+## Current state (all observed, branch b1)
+Location: City Gates, gates open after gear+lever+button (e00244-254, score 153). Panel: red button, lever (Portcullis/Neutral/Gate cycle), small hatch with two posts/pegs (one had small gear).
+Route tail: Waterworks turn wheel -> water flowing +30 score 113 (e00229-230) -> NE/N/E/SE to City Gates (e00235-238) -> inspect/examine panel (e00239-240) -> open hatch (e00244) -> look hatch (e00245-246: two posts, one with small gear) -> put gear on post/peg (e00248-249) -> pull lever Portcullis (e00251) -> push lever Neutral (e00252) -> push lever Gate (e00253) -> push button gates open +40 (e00254).
+Inventory: e00204 base MINUS gear now placed on peg; needs re-check (inventory command pending). Moss consumed. Both lights lit — conserve.
+Mission: Power DONE; Water DONE (intake + wheel); City Gates OPEN; exorcisms NEXT; last exorcism = ending per manifest. Gates opening is NOT completion.
+
+## Checkpoints (all Ok)
+start-secret-entrance, guard-post, main-hall, after-coal, power-restored, before-rail-ride, after-gear, library-leshosh, temple-fresto, wrr-moss, water-restored, before-wheel, water-flowing, before-gates, gates-open.
+
+## Cases: 29 annotated (last: gates-lever world_state e00251-253)
+New since 24: wheel-synonym vocabulary (spin rejected, turn flows +30); gates-panel vocabulary (inspect vs examine); hatch-look syntax (look hatch vs look in hatch); gear-place syntax (put gear vs put gear on post, post=peg); gates-lever world_state (pull=Portcullis, push=Neutral then Gate prerequisite).
+Engine findings (unchanged + lever cycle): bare exit corrupts (use out); full titles truncate; color rail verbs need 'button' with moss; put needs indirect object ('over'); inspect unknown/examine works; pull vs push are opposite lever positions, push cycles Neutral->Gate.
+
+## Last hint (NOT observed, via e00234)
+"City Gates: x panel; open hatch; l in hatch; put gear on post; push lever; push button [40]" — all DONE. Need next excerpt after gates (exorcisms order, Fresto tome use, Temple/Dark Spirit).
+
+## Next actions (continuation)
+1) Inventory check at gates. 2) Help: after gates open exorcism steps. 3) Exorcisms with probe-before-canonical + annotations; checkpoint before each risky spirit encounter. 4) Last exorcism terminal conclusion with raw event IDs and exact quote; parent review required. No deaths/quitting/chapter-only endpoints.
+No pending broker requests (m0203 confirmed e00257). Game incomplete — ending NOT reached.

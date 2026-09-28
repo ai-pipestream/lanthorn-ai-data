@@ -1,0 +1,10 @@
+# Collection notes
+
+Savoir-Faire R8/040205; David Welbourn guide explicitly based on R6 and includes nonessential/false steps. Preserve that mismatch, and do not blindly copy its failed examples. Linking objects and prerequisites are puzzle mechanics, not necessarily wording corrections.
+
+First inspect current startup: answer any key pause or question before saving. Use small broker walkthrough hints. Label synthetic human-like mistakes and verify same-intent recovery effects. Keep coverage varied; do not repeat known failures merely to make more rows. A displayed menu requires its own navigation/exit before ordinary commands. Write progress only to progress.md, never to inbox/*.json; requests must be complete JSON. No training, application changes or publication.
+
+
+Menu transport recovery 2026-09-25 03:29 UTC: avoid HELP and READ FILE interactive menus for now. Literal RETURN/space in those menus produced unresolved empty timeouts. Use broker help for small source excerpts. Preserve the recorded failures; do not repeat menu probes. Continue from recovery.json and reconcile historical progress with restored state. Save only at ordinary command prompts.
+
+2026-09-25 03:44 UTC menu transport note: MENU INPUT: For a menu that says RETURN or Enter, send an empty command string ("command":""). Do not spell RETURN, ENTER, SPACE or BACKSPACE as words. A literal space ("command":" ") is a different key from Enter. The plain CLI passes the first byte of nonempty input; an empty line sends Return. Menu controls are not ordinary parser commands: consult the actual menu labels. Avoid optional HELP/file menus if collection-notes.md documents stalled transport; request a small broker walkthrough excerpt instead. If output times out, await_output only; never use another key to flush it.

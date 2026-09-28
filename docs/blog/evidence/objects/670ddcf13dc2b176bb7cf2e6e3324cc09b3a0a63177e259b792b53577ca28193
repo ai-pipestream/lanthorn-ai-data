@@ -1,0 +1,10 @@
+# Progress – Attack of the Yeti Robot Zombies
+
+Location (observed): bedroom of cabin, out of closet (e00023 “You get out of the closet.”). Prior look e00022: bedroom in closet, exit east. Closet sequence survived e00021.
+Inventory (observed): cell phone taken e00017; plasma rifle taken e00019 (6 shots noted). Phone-call cutscene received orders: cave east of cabin, military base inside. Zombie roar in living room survived via enter closet e00020 + close closet e00021.
+Checkpoints verified: start-outside-cabin (e00004), after-closet-bedroom (e00025).
+Last hint (m0012, e00014, walkthrough lines 4-12): west, take phone+gun, auto-answer, into closet/close, go out, east, south, east, north, northeast, shoot zombie if present, take keys, NW, SW, unlock door (takes tries), west, close+lock, north, move debris, north, up, smash cabinet, press button, up, smash east glass door, east, up, north into chopper, press button, shoot fat+thin zombies.
+Next actions: annotate pending take-gun/closet cases; go east to living room, south outside, east toward cave per hint; single commands near hazards.
+
+Unresolved case IDs: bedroom-take-rifle (needs none-annotation), bedroom-hide-closet, bedroom-close-closet, closet-exit, bedroom-after-closet-look.
+Counts: ~4 annotated cases so far (1 vocabulary, 1 syntax, 2 none). Need 20-40 diverse across full game.

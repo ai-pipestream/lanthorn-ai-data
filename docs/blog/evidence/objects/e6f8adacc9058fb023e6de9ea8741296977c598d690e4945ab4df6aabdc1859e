@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T07:13:13.909850+00:00",
+  "game_id": "paper-chase",
+  "events": [
+    {
+      "event_id": "paper-chase-23fbd9b726:e00335",
+      "timestamp": "2026-09-25T07:00:13.060324+00:00",
+      "game_id": "paper-chase",
+      "session_id": "paper-chase-23fbd9b726",
+      "branch_id": "b4",
+      "event_index": 335,
+      "event_type": "command",
+      "command": "yes",
+      "response": "You leave the college, never to return.\n\n\n    *** You have graduated ***\n\n\nIn that game you scored 98 out of a possible 100, in 126 turns.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n> ",
+      "raw_start": 30247,
+      "raw_end": 30482,
+      "response_sha256": "167045e266c465a379def8a95bc73710d879e6ffe3ed020f82d850a8a9b6c9c8",
+      "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "b4-exit-confirm-yes",
+        "expected_outcome": "Graduation ending with degree",
+        "intent": "Confirm leaving the College with degree to graduate",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "YES confirms leaving college with graduated finale98/100; explicit You have graduated/finalmenu. No coverage claim; independent review pending."
+}

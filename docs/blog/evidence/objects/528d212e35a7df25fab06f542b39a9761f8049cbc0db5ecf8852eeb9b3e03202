@@ -1,0 +1,39 @@
+# Varicella — collection progress
+
+## State (event e00109, branch b0)
+- Location: Miss Sierra's Quarters (NE tower top, door NE from top level). Sierra on bed with tarot cards, pistol drawn, asks what I want.
+- Upper loop fully mapped: NW ant—Throne (green hotline: receiver + 4-digit access + 4-digit country)—Royal Quarters (king dead, queen refuses Sierra talk); NE ant—Eastern Hall (Rico E, balcony windowbox, closed cooler)—SE ant—Southern Hall (Modo S)—SW ant—Western Hall (Wehrkeit W, windowbox E).
+- Lower mapped: Salon—W Ballroom—NW ant—Dining (tapestry, armor)—NE ant—E Ballroom—SE ant—Foyer (guards #0249/#0531, birdie banter)—chapel (empty, Bonfleche S, Rico overhead); kitchen N of dining (chef, fridge, servants entrance guarded; code-red page + steward resignation event seen); Louis quarters SW top (trash: pizza, magazine untouchable, cheez puffs); courtyard (Louis + malt liquor earlier); outside blocked by rifles (lockdown).
+- Sierra findings: 'ask sierra about telephone' -> access code 6970 (e107). 'ask sierra about venice' -> 'Without some cash, nothing' (e104). 'ask sierra about venice code' -> 'For 500 francs, I could' (e108). 'ask sierra about money' unproductive (e106). No francs in inventory.
+- Inventory as observed: Queen's letter, master key (+ clothes). No money seen.
+- Time pressure: code-red signal boxes, page/steward exits, Wehrkeit arrives ~3 o'clock per guide; Rico may bribe Sierra to give false access code (booby trap) — must verify codes against game, not guide alone.
+
+## Checkpoints
+- early-saloon, foyer-mapped, before-throne (all Ok). No new checkpoint yet; consider milestone save at Sierra once cash route is clear (ordinary prompt only).
+
+## Cases completed (12 annotated)
+1. salon-steward-examine-01 (vocabulary) e08/e10.
+2. salon-exit-east-01 (vocabulary) e15/e16.
+3. hall-tapestry-look-01 (none) e20.
+4. hall-armor-examine-01 (none) e22.
+5. ballroom-fresco-examine-01 (syntax) e26/e27.
+6. foyer-guard-talk-01 (vocabulary) e31/e32.
+7. foyer-guard-ask-02 (ambiguity) e32/e33.
+8. courtyard-louis-pronoun-01 (none) e44.
+9. louis-trash-search-01 (none) e53.
+10. route-louis-magazine (world_state, failure stands) e55.
+11. throne-phone-examine-01 (none) e65.
+12. sierra-door-open-01 (planning) e102/e103.
+
+## Unresolved / in-progress
+- route-sierra-venice (e104 cash block), route-sierra-venice-code (e108 needs 500 francs), route-sierra-codes (e107 access 6970 obtained, Venice country code pending).
+- Still needed overall: word-order variation, reasonable-wrong-object, typo variety beyond steward.
+
+## Last hint (e105, walkthrough excerpt, not observed)
+- Wehrkeit retreats to Piedmont, arrives ~3 o'clock; ask Sierra about Venice, contact via throne telephone; Sierra gives codes for money; Rico may bribe her to give false access code (booby trap). Verify in game.
+
+## Next actions
+- Find 500+ francs without wasting moves: check inventory again, examine Sierra room (armoire/bed/cards?), cooler/fridge, Rico quarters (master key?), chef/steward, Louis trash leftovers. Avoid blind replays.
+- Once funded: pay Sierra, get Venice info + country code, verify access code 6970 is still valid (Rico-bribe risk), then call Venice from throne room.
+- Then: Bonfleche spying via own quarters equipment at 2 o'clock (master-key record) per hint; Modo/Rico/Louis routes after.
+- Keep probes safe outside timed windows; single commands near Sierra/gun.

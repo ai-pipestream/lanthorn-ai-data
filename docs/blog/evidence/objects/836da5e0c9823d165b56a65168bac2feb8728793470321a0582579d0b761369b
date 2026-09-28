@@ -1,0 +1,15 @@
+# progress.md - change-in-weather
+
+Location: Edge Of Meadow (start). Release 6 / Serial 960613 confirmed.
+Inventory: empty (observed e00006).
+Checkpoints: start-meadow (e00003-e00004, Ok).
+
+Cases:
+- probe01-typo-look (lok -> look) done, annotated e00010, vocabulary
+- probe02-pronoun-it (examine it -> examine bridge) done, annotated e00014, ambiguity
+
+Hints:
+- e00008 (off-topic for look): NE,E / Push rock south / Get blade / NW,SE / Wedge blade / S,E / wait lighting / Get dirty
+- e00012: Get dirty,branch / SW,N / Drop dirty / save / Examine bridge / wait fox yip / Dig spot / Again
+
+Next: movement probes at meadow, then east across bridge to map hillside; continue collecting varied probes; checkpoint at milestones.

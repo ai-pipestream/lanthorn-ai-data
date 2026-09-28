@@ -1,0 +1,24 @@
+# Progress suveh-nux – COMPLETE (segment 2, 2026-09-25 ~02:21 UTC)
+
+GAME COMPLETE. Escaped vault via triangular block: *** You have escaped *** (e00269/e00270).
+End menu (e00270): master bound/gagged freed, praise, score 99% in 198 turns, 2 of 3 Easter eggs.
+FULL breakdown (e00271): 10 vial shake, 5 magic words, 5 lighting, 10 experimentation,
+10 floating word, 10 numerical proficiency, 10 intensified effect, 20 door crack,
+10 vault escape, 5 capturing creature, 4 two Easter eggs = 99/100. Missing 1pt = third Easter egg (optional).
+
+Location: end menu prompt (RESTART/RESTORE/UNDO/FULL/AMUSING/QUIT). No checkpoint taken at menu (policy).
+Inventory at escape: as segment 1 (crystal, vial, caged creature, scroll, book, parchment).
+
+Checkpoints: opening-darkness, after-heat-spell, after-light-spells, after-self-glow,
+stuck-ceiling, door-cracked-block (e00238), block-cooled (e00256/e00257, ok).
+
+Segment-2 cases annotated (m0206-m0209, all unreviewed):
+- block-push-hot (e00241->e00269) world_state, success
+- block-cold-typo (e00244) none (firneo auto-corrected to fireno, cooled door)
+- block-shove-syn (e00248->e00249) none (shove accepted as push; both failed on heat)
+- block-sticky-natural (e00258->e00259) world_state (spell is puzzle solution)
+Guided route steps (point/fireno/firenos/sticky/light/pull) need no annotation.
+Hints used: m0187 (lines 79-87), m0200 next (lines 88-96). Both verified against game.
+Segment-1 pending: egg-give-ambig (e00160/e00202) was noted pending; segment-1 owner to close.
+
+Next: submit finish with evidence e00269/e00270/e00271. Do NOT restart. Do NOT save at menu.

@@ -1,0 +1,72 @@
+# Collection supervision handoff
+
+User authorization: continuously replace concluded games using source-checked library titles; target10local plus3per8authenticatedPis (34). Latest direct authorization expands Kimi routine coordination to conserve parent usage. Muse plays, deterministic schedulers own launches, Kimi triages evidence, parent/Dirac independently verify and handle exceptional recovery. No application modification, training, unrelated model evaluation, publication, quota purchases, provider switching or messages to people. The authorized Kimi operational pilot is separate from future model training/evaluation.
+
+## Current quota hold, 2026-09-25 09:50UTC
+
+All33 previously active Muse clients failed Meta429 at09:46, provider reset2026-09-25T12:41:27Z. Actual clients ZERO. Nine local and24remote failures individually verified, all34centralbrokers alive, normal actual input and pendingempty except Pytho's existing held timeout. Both enabledflags false under scheduling.lock; both services active and mailboxsync preserved. Exact originalsettings, loghashes, remote process absence, broker/pending checks: control/provider-quota-hold-20260925T0950.json. Do not retry before reset. At/after reset freshly verify absence, ownership/SID/fence, brokers, actualinput and pending; samebroker singlelocalcanary first; actual fresh game output required before other8local24remote and enabledflags restoration. KeepPythoheld. Preserve oldfailedlogs/exits; do not falsify exits. Historical resume scripts have specific preconditions, not reusable blindly. No broker resets or replay.
+
+## Ownership and transport
+
+Services lanthorn-muse-pool.service and lanthorn-muse-fleet.service are singletons, KillMode=process, lingering. Files control/worker-pool.json, control/fleet/{settings,status,assignments}.json; shared control/scheduling.lock. Fleet assignments reserve before broker launch, local excludes them. A failed/disconnected slot remains owned, never compensate by overfilling. Hosts cm5ai1,cm5v1,cm5v2,krickert@cm5v3.local,pi500p,pi5ai1,krickert@pi5ai2p.local,pi5v2. No more hosts without authentication/readiness. No credentials copied. Verify actual /proc/exe muse-bin-1.4.0-R4161.1, exactworkspaces, shell/webdisabled, broker/input/pending; cached health is not fresh processproof.
+
+All story/fullguide/interpreter/save/raw/event assets central. Pis only Muse at ~/lanthorn-muse/play/<game>, trace runs and small brokerhelp excerpts. Immutable unique inbox requests, monotonic revision/session fence and bridge/start locks. Never delete fences, replay uncertain requests, overwrite running progress, or falsify broker guard capabilities. Legacy live brokers without actual restart_timeout guard cannot accept remote interpreter restart actions. Fsync power-loss durability unproven.
+
+Client-only provider/timeout resume can retain SAME broker/SID after diagnosed exit, no oldwrapper/Muse/orphans, central/remotependingempty, normalactualinput, ownership/fencematch. Archivefailed remote state under bridge/start locks, preserveworkspace/inbox/responses/fence/revisions, freshrequestnames. Interpreter recovery needs confirmed SAVE into NEWcentralSID, archiveoldremote generation/uncertainfiles, preinstallnewfence, updateownership without syncwrite race, clear sentcache, manuallyseed recovery/hint/progress before freshclient. Normalbridge doesnotseed those contextfiles. Example control/fleet/kook-u-recovery-20260925T0634.json. Do not stop fleet service as a full pause: workers survive but mailboxsync stops.
+
+## Input and held sessions
+
+Timeout allows passive await_output only, never another key/command/SAVE to flush. Saveonlyordinaryprompts; no menus/questions/keypauses. Emptycommand isReturn (Z13,Glulx0xfffffffa); space differs, literal RETURN sendsR. Preserve delayed/interleaved quarantine. recover_broker.py validates precedingSAVE plusfilename success, session/branch/name andcleantransport, excludesmanual/delayed/firstposttimeout input. RESTORE filenameOk isnotSAVE. StartupEntersteps require explicitbefore/after matches.
+
+Pytho pythos-mask-a39eb2af1a remainsheld e3/e4 emptytimeouts afterstartupMORE, noSAVE. broker473922/CLI473923 lastverified; control/pythos-startup-{hold-20260925T0844,failure-20260925T0848}.json anddiagnosis/sourcefollowup0842/0848. NumericGlulxReturnalreadycorrect, acceptedMOREinputunknown. No liveprobe/reset/formatsubstitution. Keep supervisor-hold and slot. Future actualevidence supersedesPIDs.
+
+Anchorhead anchorhead-9852cd5b9d recovered0713 bookmenu; config control/fullplay-anchorhead-book-recovery-20260925T0713.json max100000,auto=false,expires~07:12Sep26; actualsourceSAVEold174 notRESTORE198. Avoid book/clippingsmenus. Delusions delusions-8997f25a87 recovered0648 beforepizzaold389,new6restore7LOOK, max100000auto=false,expires~06:49Sep26; failed20a1b41aa0 RESTOREatkeypausepreserved,no worker. AvoidHINT/HELP. Currentmanifest/recovery supersedesoldnotes. ZorkI7DungeonR4/190920 andKookU COMPLETE neverresume. Allverifiedendingsstaystopped.
+
+## Evidence and review
+
+Synthetic humanlike user-command cases with statedintent, realresponse andlinked sameintentrepair; no quota filler or skillbenchmark. Help<=9lines/1000chars, sourceadvice distinctfromplayerrecall. Changedplan isnotwordingrepair. Claims freecompute but do notcertifyendings; exactrawspan/text/SHA andsubstantiveauthoredfinale/branch required, notdeath/quit/score/chapter/modelalone. Certification neverfreesextraslot alreadyrefilled.
+
+Dirac01a0d32d-5bf8-7013-affd-a8476f777487 owns reviewed/fullplay-cases.json,runs/fullplay-status.json,runs/fullplay-supervision.md. Delegate bounded120casepasses andending/startupchecks directly; parentreceipt notnecessary before independentreview. Newlabels remainunreviewed. Manual reviewed/transport-events.json overridesexportacceptance. Consult currentledger, nothistoricalcounts. At09:43 independent65historicalconclusions inclNinePointsSAMPLE+BedlamPREVIEW, next4claimsauditactive. Fullscore nevermeanscoverage. Preserve actualbranch/version/endingnuances fromledger/receipts. Kimi's proposals are not independentcertification.
+
+## Queue, agents, exports
+
+RegisteredA-M plusrefillqueues; validations control/fleet/batch-*-parent-validation.json. N4preparation Pasteur01a0d727-3450-7611-a7fe-005912400926 active09:50: control/fleet-batch-n-20260925.json sources/fleet-batch-n-20260925; NOTregistered. Do notduplicate. Parentvalidateactualstory/header/container/member/sourceURL/date/raw+normalizedhashes,guidegaps/private reuse andcanonicalfamilysplits beforeunderlockregistration. Prefer8pendingwhenrunning. Fullassetscentral, no remake/portsubstitution orheldoutfamilyleakage. Sharedauthor/genre alone isn't familyproof. Sourceagents mayprepareboundedbatches; no uncontrolledscope.
+
+Exactlyone scripts/watch_exports.py. CurrentPID640478 started~09:34 expires~12:34UTC. Old460667 died60sexporttimeout; newtimeout180 withsuccessfulrefresh, receipt control/fleet/export-watcher-restart-20260925T0935.json. Verifyabsentbeforerestart, avoidconcurrentmanualexports. Node /home/krickert/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node. Pythoe3/e4,FineTunede40/e41manualquarantine preserved. CSV totals notacceptedcases.
+
+Private docs/blog README,worker-pool,fleet-readiness,experiment-journal,model-plan,kimi-coordinator-pilot; appendmeaningfulUTCmilestones/failures withreceipts, snapshot_experiment.py --note. Snapshotssmallartifacts+rawprefixhashes, notoffhostbackup. Neverpublish.
+
+
+## 10:05UTC Kimi delegation and Gerbil reconciliation
+
+Kimi reviewed38games in the corrected fleet call control/kimi-pilot/20260925T095950.621009Z. Original validation failure remains immutable: it returned held_slots as exact list [pythos-mask], not integer1. Deterministic lossless normalization accepts only the exact supplied held-game list, records conversion, and preserves raw output. Supplemental control/kimi-pilot/revalidation-20260925T1004.json passes allpolicy/SID/ref/capacity checks atoriginalcompletiontime andparentsemanticreview. Earlier42gamecall095457 also omitted supplementaryendingrefs and usedverify_ending forunclaimedGerbil; preservedfailed,briefcorrected, noactionsfromit. StrictCLI resume_hint metadata parser added, never executeshint. 33 puretests pass.
+
+Current singleton Kimi watcher763144, deployment control/kimi-pilot/deployment-20260925T1005.json, runs5minutes completion-to-next-start,3hlifetime~13:05UTC; nextfreshcallinprogress atdeployment. Priorwatchers stoppedonvalidationfailures, no automaticretry. Latest-status can stillshowoldfailure whilefreshcallinprogress; readdeployment/revalidation together. Onfreshfailure diagnose,neverassumesuccess. It onlywritestriageproposals, no gameexecutor. Native firstfleetlog independentlyconfirmskimi-code/k3/toolCount0; runtimeconfiguredmodelnotassumedfromproviderdrivername.
+
+Kimi spotted unclaimedGerbilRiote664 finale. Dirac independently verified asylumescape/congratulations/END/replay onb3, raw83207:83578 SHAefddf29fb2215db62ecab2c3b822ec93b139c18099ff96c23f0abaa9eefeb3cb. Seventyauthoredhistoricalconclusions inclsample/preview. Parent then recordedadministrativefinish viaexistingbroker, nointerpreterinput, andmarkedfleetassignmentcomplete whilefleetmanager brieflystoppedtoavoid syncwrite race. Bothflagsremainfalse, fleetservice/syncrestarted. Remote quota-failedstate/logs notrewritten. Receipt control/fleet/gerbil-completion-reconciliation-20260925T1005.json. Gerbilneverresume. CURRENT33unfinishedslots/brokers:9local+23remote eligiblefordiagnosedquotaresume,plusheldPytho. ZeroMuseclients. After12:41:27reset:onecanary,other8local23remote,thenenablehealthyrefill foronevacantremoteslot; Pythostaysheld. Do notreusehistorical34broker/countassumptions.
+
+BatchN isfinishedpreparedonly,notparentvalidated/registered. Sourceagentsidle. Diracfinishedbounded120pass92accepted24revise4quarantine850spans,confirmedfourclaims thenGerbil,independent70; idle, nofreshcasebatchrequested.
+
+
+At 10:09 UTC the fresh scheduled Kimi cycle completed successfully: 37 supplied games, zero active clients, 33 retained slots including Pytho, no launch recommendation. Provider and validation exits were zero, with no output normalization required. Runtime logs confirm `kimi-code/k3` and zero tools. Watcher763144 remains running, with one completed cycle. Evidence: `control/kimi-pilot/20260925T100510.324038Z/{run,validation,decision,parent-review,native-runtime-verification}.json`. Parent noted a prose count ambiguity (Pytho is included in33, not additional) and four already-reviewed historical branch flags; those do not authorize extra work or launches. Structured decisions remain proposals.
+
+
+10:28UTC override: BatchN4 PARENTVALIDATED/REGISTERED; receipt control/fleet/batch-n-parent-validation.json. Eightqueued successors, bothflagsfalse andquotaholdunchanged. Sourceagentsidle, no furtherbatchneedednow. Kimiwatcher763144 has3validatedcycles, latest102301completed10:26:42. All33unfinishedbrokersalive,pendingempty. No newclaims/failures.
+
+
+## 2026-09-25 10:34 UTC: central Kimi coordination, hourly parent checks
+
+The user requested leaving coordination with Kimi here and checking back in about an hour. Kimi is already authenticated on the central host, demonstrated by successful local provider calls; this architecture does not require Kimi logins on the Pis. The Pis continue running Muse. Existing Kimi watcher763144 continues its bounded five-minute proposal loop; no duplicate coordinator was started.
+
+The parent heartbeat was changed from15 to60 minutes. Routine coordination stays with Kimi and worker scheduling stays with the existing managers. Exceptional recovery and independent verification remain supervised. The next parent visit should arrange a check just after the12:41:27 UTC Meta quota reset, accounting for the export watcher expiry around12:34 and Kimi watcher expiry around13:05. No Muse retry or provider switch was made. The user's delegation request does not remove Meta's quota limit.
+
+
+## 11:41 UTC: Kimi timeout diagnosed and redundant quota checks suppressed
+
+The fifth Kimi call, control/kimi-pilot/20260925T104128.748159Z, reached the 300-second provider bound without a reply after four validated cycles. Native logs show a k3 request with zero tools but no visible provider rejection; the nonresponse cause remains unknown. No Kimi orphan processes remained. Original failure bytes and statuses were preserved.
+
+The watcher now performs a fresh deterministic capture before each call. Only an unchanged pre-reset quota hold can reuse the last validated decision as an explicitly historical reference. Full progress, manifests, scheduler settings and raw/journal prefix hashes participate in comparison. State changes or reset arrival require a provider call; bad capture still stops. The bounded provider timeout is now600seconds, not a claim that the provider issue is fixed. Singer ran42 pure tests normally and with Python optimization; actual read-only preflight matched the last successful103142 snapshot. Receipt: control/kimi-pilot/timeout-fix-receipt.json.
+
+Parent verified deployed script hashes and absence of an existing coordinator, then started singleton watcher1165243 at11:41:21 UTC for three hours. Its first actual capture passed and skipped one redundant call: zero new provider calls, zero fresh decisions, no game actions. Prior failed statuses are archived under control/kimi-pilot/watcher-history/20260925T114121.713244Z. Deployment receipt: control/kimi-pilot/deployment-20260925T1141.json.
+
+Fresh health receipt control/fleet/quota-health-20260925T1135.json confirms33 retained live brokers, empty pending queues and unchanged launch flagsfalse. Pytho remains held. Both sync managers and export watcher640478 remain active. No Muse retry or interpreter input occurred. The next parent visit is scheduled just after the12:41:27 UTC reset, approximately12:42 UTC, using a temporary63-minute interval; restore60-minute cadence at that visit. Export watcher640478 expires~12:34; restart exactly one only after confirming absence during the reset visit. The canary-first recovery protocol remains mandatory.

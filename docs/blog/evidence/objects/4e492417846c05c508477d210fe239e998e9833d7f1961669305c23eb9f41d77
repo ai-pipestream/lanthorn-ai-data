@@ -1,0 +1,44 @@
+import json,sys,hashlib,re,subprocess,shlex,datetime
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+sys.path.insert(0,'scripts')
+from maintain_workers import processes,inventory,pending,input_state
+root=Path.cwd();p=processes();w,b=inventory(p)
+status=json.loads(Path('control/fleet/status.json').read_text()); active={g:a for g,a in status['assigned'].items() if a['state']!='complete'}
+pool=json.loads(Path('control/worker-pool-status.json').read_text()); localgames=[x.split(':',1)[0] for x in pool['attention']]
+code='''import json,hashlib,re,sys
+from pathlib import Path
+root=Path.home()/'lanthorn-muse';games=json.loads(sys.argv[1]);out={'processes':[],'games':{}}
+for p in Path('/proc').glob('[0-9]*/cmdline'):
+ try:
+  a=p.read_bytes().decode().strip('\\0').split('\\0');exe=(p.parent/'exe').resolve(strict=True)
+  if ('muse' in exe.name and '--workspace' in a) or ('fleet_host.py' in ' '.join(a) and 'worker' in a):out['processes'].append({'pid':int(p.parent.name),'exe':str(exe),'args':a})
+ except (OSError,UnicodeError):pass
+for g in games:
+ s=json.loads((root/'state'/f'{g}.json').read_text());run=Path(s['run']);data=(run/'stderr.log').read_bytes();text=data.decode(errors='replace');base=root/'play'/g
+ out['games'][g]={'state':s,'stderr_sha256':hashlib.sha256(data).hexdigest(),'stderr_tail':text[-1700:],'quota_reset':re.findall(r'resets at ([^ ]+)',text),'pending':[p.name for p in (base/'inbox').glob('*.json') if not(base/'responses'/p.name).exists()]}
+print(json.dumps(out))'''
+def remote(h):
+ games=[g for g,a in active.items() if a['host']==h]
+ r=subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=8',h,'python3 -c '+shlex.quote(code)+' '+shlex.quote(json.dumps(games))],text=True,capture_output=True,timeout=25)
+ if r.returncode:raise RuntimeError((h,r.stderr))
+ return h,json.loads(r.stdout)
+with ThreadPoolExecutor(max_workers=8) as ex:rem=dict(ex.map(remote,status['hosts']))
+local=[];health={}
+for g in sorted(set(localgames)|set(active)):
+ base=Path('play')/g;rows=[json.loads(x) for x in (base/'events.jsonl').read_text().splitlines()];m=json.loads((base/'manifest.json').read_text())
+ health[g]={'session_id':m['session_id'],'last_event':rows[-1]['event_id'],'input_state':input_state(rows),'pending':pending(base),'broker_pids':b.get(g,[]),'raw_sha256':hashlib.sha256((base/'stdout.raw').read_bytes()).hexdigest()}
+ if g in localgames and g!='pythos-mask':
+  runs=sorted(Path('runs').glob('fullplay-'+g+'-*'),key=lambda p:p.stat().st_mtime);run=runs[-1];data=(run/'stderr.log').read_bytes();t=data.decode(errors='replace')
+  local.append({'game_id':g,'run':str(run),'exit':(run/'exit.status').read_text().strip(),'stderr_sha256':hashlib.sha256(data).hexdigest(),'stderr_tail':t[-1700:],'quota_reset':re.findall(r'resets at ([^ ]+)',t)})
+clients=[{'pid':pid,'args':a} for pid,a in p.items() if a and 'muse' in Path(a[0]).name and '--workspace' in a and str(root/'play') in ' '.join(a)]
+assert not clients and all(not r['processes'] for r in rem.values())
+assert len(local)==9 and sum(len(r['games']) for r in rem.values())==24
+for r in local:
+ assert r['exit']=='1' and r['quota_reset']==['2026-09-25T12:41:27Z.'],r
+for host,r in rem.items():
+ for g,x in r['games'].items():assert x['state']['exit']==1 and x['quota_reset']==['2026-09-25T12:41:27Z.'] and not x['pending'],(host,g,x)
+for g,h in health.items():
+ assert len(h['broker_pids'])==1 and not h['pending'],(g,h)
+ if g!='pythos-mask':assert h['input_state']=='awaiting_input_or_idle',(g,h)
+path=Path('control/provider-quota-hold-20260925T0950.json');receipt=json.loads(path.read_text());receipt.update(verified_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),status='verified_all33_quota_failed_zero_clients_34_brokers_preserved',local=local,remote=rem,health=health,actual_local_clients=clients,held_game='pythos-mask',services=subprocess.check_output(['systemctl','--user','is-active','lanthorn-muse-pool.service','lanthorn-muse-fleet.service'],text=True));path.write_text(json.dumps(receipt,indent=2)+'\n');print(receipt['status'])

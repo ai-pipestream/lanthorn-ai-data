@@ -1,0 +1,24 @@
+# Paper Chase – progress (branch b4 sober redo, segment 2 COMPLETE)
+
+## Final state
+GRADUATED. Event e00335: "You leave the college, never to return. *** You have graduated *** ... scored 98 out of 100, in 126 turns." Branch b4, score 98 (English 4/5 cost 2 pts vs perfect; completion does not require 100).
+
+## Completed route (b4 sober, guide order)
+- got-book-score14 restore → bin/magazine, financial aid/coins, Bursar gold+tuition receipt + silver (transcript prepaid), English 4/5, psych magazine→folder, gym run sober (+8, score 56)
+- Bar after gym: take pin→Bluto, open bottle, drink rum x3→pin (60), take bottle (64), smell bottle, drink rum→sheet, take paper (68)
+- Union: give book→ID card back; Chem lab south,south; sit down with cheat sheet auto-pass (+8, 76)
+- Bursar: take transcript receipt (80); Records: give transcript receipt→take report (84)
+- Dean: take certificate→ID request; give ID, tuition receipt, report; show folder blackmail (+10, 94); take degree (+4, 98)
+- Exit: east,east,down,down,west,north (Outside), north→leave prompt, yes→graduation.
+
+## Inventory at end
+- degree certificate, sheet of paper, bottle of rum, pledge pin, manilla folder, ballpoint pen (ID/tuition/report consumed by Dean). e00324.
+
+## Checkpoints (all ok)
+- gym-passed-sober-b4, bar-done-sober-b4, before-chem-exam-b4, chem-passed-score76-b4, before-dean-b4, degree-obtained-b4.
+
+## Cases (segment 2: 8 new, total ~34)
+- gym-run-jog world_state (drunk blocks), bar-grab-pin-synonym vocab, bar-open-omitted-object syntax, bar-drink-omitted-object syntax, bar-smell-bottle-noun none, chem-sit-omitted-down syntax, bursar-take-receipt-ambiguous none (auto-disambiguated), records-give-receipt-ambiguous ambiguity, dean-take-certificate-noun none. All annotated with real event IDs.
+
+## Next
+- Submit finish with e00335. No further play needed.

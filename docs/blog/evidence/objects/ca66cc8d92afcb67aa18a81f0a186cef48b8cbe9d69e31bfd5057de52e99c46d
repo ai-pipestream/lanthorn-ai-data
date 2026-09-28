@@ -1,0 +1,30 @@
+# Progress - Time: All Things Come to an End - SEGMENT 1 END (incomplete, step budget)
+
+## Current state (Housing Estate, score 11, b0 e00202)
+- Location: Housing Estate square. Exits: north (up steps to Front of House KDC, metal door ajar but blocked e00173, slot+window) and northeast (Side of house, rope fence cut hole e00180, rope taken e00189, west to Backyard fire-escape platform high, no pipe found).
+- Inventory (observed e00164 + rope): knife glowing (turn handle e00179), rope, newspaper (date 2065 e00103), steel button S (score 5), ID card Carpenter Gerants Heath Estate Trion, metallic disc KDC (fare used, returned), piece of paper (Carpenter note). Gun dropped in lavatory.
+- Score 11. No creds. Taxi left after give disc fare.
+- Last: southwest from estate refused, only N and NE (e00202).
+
+## Unresolved / blocked
+- house-enter01: enter house unseen e00172, open door blocked e00173. Front entry not viable; side/back required but platform unreachable without pipe.
+- Pipe missing in R7 backyard: examine/bend pipe fail e00185/e00191/e00199/e00201. R5 hint expects pipe in backyard after W, then tie rope, throw at platform, chew gum, U. Pipe + gum locations unknown; possibly missed pre-taxi steps (read graffiti, push vending machine for gum/creds per m0153 hint) - but taxi left, return route unknown. Estate has only N/NE; no back path seen.
+- Checkpoints verified: start-lab, panel-open, machine-working, chapter1-bin, street-corner, lavatory-clear. No checkpoint yet at estate/backyard (should checkpoint at estate prompt on resume before risky moves).
+
+## Resolved annotated (25)
+- See prior progress; last: fence-cut-omit01 world_state e00177->e00180, taxi-destination syntax e00155->e00162, car door/knock, toilet, paper ambiguity, talk-girl planning, etc. Total diverse cases ~25 (need 20-40 across full game; continue diversity, avoid repeating same attach/push phrasing).
+
+## Last hints
+- m0182 lines 89-97: cut fence/rope, W, bend pipe, tie rope to pipe, throw pipe at platform, chew gum (19 moves), U (1/14). Pipe absent in live R7 backyard - must verify, not assume.
+- m0153-54: graffiti/push machine/get all before taxi; give disc fare verified.
+
+## Next actions on resume (do NOT restart)
+1. Read latest.json + this file; verify at Housing Estate prompt.
+2. Checkpoint estate/backyard at ordinary prompt (e.g. name estate-search).
+3. Search Front of House (N/up), Side (NE), Backyard (W) thoroughly for pipe/gum: examine slot, plaque, window, ground, fence wires, platform supports; try take pipe variants, look behind/under, push/pull.
+4. If pipe/gum not at house, seek return to station/lavatory: test all directions from estate/side/backyard, look for taxi call, street, manhole; examine button/disc/card for travel; request small refined help (topic pipe location / gum / return to station) only after 2 live failures.
+5. Preserve rope/knife (glowing); conserve resources; collect safe probes only after route secure (pronoun it, typo, word-order) - no probes during urgent threats.
+6. Continue keystone route per manifest: multi-era keystones, school, necklace/frame, final clock, frame destruction + authored concluding narrative. South-lab and bin-noise deaths are failures, not endings.
+
+## Useful checkpoints
+- start-lab, panel-open, machine-working, chapter1-bin, street-corner, lavatory-clear (all verified saves/)

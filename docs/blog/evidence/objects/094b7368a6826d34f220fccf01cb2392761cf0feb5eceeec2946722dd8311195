@@ -1,0 +1,23 @@
+{
+  "game_id": "balances",
+  "title": "Balances",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Balances.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/balances-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Balances.solve",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. Guide1994 release unspecified; demo game, verify actual final outcome.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/balances.json",
+  "story_sha256_expected": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+  "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+  "dataset_split": "train",
+  "game_family": "balances",
+  "zmachine_version": 5,
+  "release": 5,
+  "serial": "961216",
+  "collection_notes": "# Balances collection notes\n\nExact local header: R5/961216. Guide1994 release unspecified; demo game, verify actual final outcome. Guide source: https://ifarchive.org/if-archive/solutions/Balances.solve. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+  "session_id": "balances-01a7783d25",
+  "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+  "started_at": "2026-09-25T03:50:37.385673+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

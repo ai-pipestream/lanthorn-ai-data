@@ -1,0 +1,10 @@
+# Christminster progress (branch b9) — *** GAME WON *** 48/50, 675 turns.
+
+Location: WON. Final: Top of Secret Staircase -> pull Malcolm north (e01139) -> rescue + hospital epilogue + "*** You have won ***".
+Result: Score 48/50 (missing 2 optional: likely wistaria-roof climb + manhole-down/book point — guide numbering differs; win banner explicit). Moves 675.
+Winning path (b9): before-crypt-45 restore -> E crypt (655, 10:30) -> 7 waits (murders) -> dagger (663) -> search Bungay SILVER key (664) -> cut noose +1=46 (665) -> pull E (666) -> take retort (667) -> pour elixir +1=47 Malcolm alive (668) -> HIDE key in bag + close (669-670) -> pull up (671, Jarboe demands KNIFE not key) -> kill-with-dagger makes Jarboe FLEE down into fire (672) -> open bag (673) -> unlock silver (674) -> open door (675) -> pull Malcolm north WINS (676th move... recorded 675 turns).
+KEY SOLUTION: silver key MUST be hidden in closed handbag at top; visible key = begging stalemate (wrist loop, unlock blocked, give = trap). Hidden key = Jarboe demands knife, one slash routs him into the crypt fire (charred bones in epilogue).
+Deaths (labeled failures): b7 e01090 fire collapse 678 (push mocked); b8 e01113 fire 675 (give-key trap + recon).
+Annotated: 36 total (6 seg4: snail-pour-syn, snail-flip, snail-cut-omit, snail-synonym, decanter-port-take, decanter-hand). No crypt probes (timed) — correct.
+Checkpoints: before-crypt-45 (used x2, both verified); dinner-done-44; elixir-done-41; others.
+Evidence: e01139 (b9) contains full concluding rescue narrative + win banner + 48/50. Finish submitted with e01139.

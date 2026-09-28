@@ -1,0 +1,17 @@
+{
+  "game_id": "so-far",
+  "title": "So Far",
+  "url": "https://ifarchive.org/if-archive/solutions/SoFar.sol",
+  "accessed_at": "2026-09-25T03:48:59.573460+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/SoFar.sol",
+  "source_sha256": "8323abb871f4bed976714e015bbf243dbf2fbb1487624f725e975166c427aa20",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/so-far-walkthrough.txt",
+  "normalized_sha256": "8323abb871f4bed976714e015bbf243dbf2fbb1487624f725e975166c427aa20",
+  "story": "/home/krickert/if-games/zcode/SoFar.z8",
+  "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+  "compatibility": "GuideR5/960619. Exact compatibility must be verified in play.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 6,
+  "serial": "961218"
+}

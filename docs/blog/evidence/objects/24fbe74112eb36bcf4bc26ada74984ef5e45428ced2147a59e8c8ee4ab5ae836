@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-26T10:50:39.898485+00:00",
+  "requests": [
+    {
+      "game_id": "all-roads",
+      "session_id": "all-roads-d8ab21c941",
+      "request": "play/all-roads/inbox/supervisor-quota-preserve-20260926T1051.json",
+      "pre_event": "all-roads-d8ab21c941:e00284"
+    },
+    {
+      "game_id": "gourmet",
+      "session_id": "gourmet-512167ec61",
+      "request": "play/gourmet/inbox/supervisor-quota-preserve-20260926T1051.json",
+      "pre_event": "gourmet-512167ec61:e00301"
+    },
+    {
+      "game_id": "bofh",
+      "session_id": "bofh-6da3ab2a37",
+      "request": "play/bofh/inbox/supervisor-quota-preserve-20260926T1051.json",
+      "pre_event": "bofh-6da3ab2a37:e00357"
+    },
+    {
+      "game_id": "splashdown",
+      "session_id": "splashdown-81fa9deae4",
+      "request": "play/splashdown/inbox/supervisor-quota-preserve-20260926T1051.json",
+      "pre_event": "splashdown-81fa9deae4:e00316"
+    },
+    {
+      "game_id": "alias-the-magpie",
+      "session_id": "alias-the-magpie-9ca6049a3d",
+      "request": "play/alias-the-magpie/inbox/supervisor-quota-preserve-20260926T1051.json",
+      "pre_event": "alias-the-magpie-9ca6049a3d:e00333"
+    }
+  ]
+}

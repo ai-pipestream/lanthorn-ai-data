@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-25T10:05:10.275947+00:00",
+  "pid": 763144,
+  "log": "runs/kimi-coordinator-20260925T1005.log",
+  "validated_fleet_response": "control/kimi-pilot/revalidation-20260925T1004.json",
+  "next_cycle_status": "running",
+  "duration_seconds": 10800,
+  "interval_seconds": 300,
+  "authority": "read-only coordination, priorities and review routing; no game executor"
+}

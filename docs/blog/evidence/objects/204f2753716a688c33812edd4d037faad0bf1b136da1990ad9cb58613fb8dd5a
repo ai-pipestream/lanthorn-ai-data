@@ -1,0 +1,31 @@
+# Fullplay supervision
+
+Ending-only audit completed 2026-09-26T10:52:29.844195+00:00. Six named Sep26 claims checked; none already in the70-game ledger. All six are verified, bringing historical authored conclusions to **76**. No false ending claim found; narrower narrative scopes are retained below.
+
+**deephome** (deephome-56e3d50bda, b5): Verified last exorcism: the net dispels the gray phantom, the city is cleansed of spirits, and an Elbras departure coda precedes explicit win295/300 and terminal menu. Released Part1 conclusion only; the elevators remain unrepaired and reporting back to the King is deferred. Appended MANAZ no-apparent-effect text is retained; do not infer that the word alone causes the entire timed ritual.
+Evidence: deephome-56e3d50bda:e00818. Primary raw span 107336:108869, SHA256 8b5977f6b7ce41a4671c7993c7daab310e72bfcd64173073bb4fea652573aed4. Z5R1/991210; guide release/serial unspecified.
+
+**schooldays** (schooldays-b371c6a97d, b3): Verified DRIVER, GO TO AIRPORT after tickets and entering/closing the taxi. Explicit first part of SCHOOLDAYS completed, You have won and terminal menu. Scoreless authored first-part endpoint, not certification of later parts or an observed airport/flight scene.
+Evidence: schooldays-b371c6a97d:e00603. Primary raw span 142133:142366, SHA256 5f07979f517525415e2c3dc50ce743d610bc998863639a127aa54f20d470e928. Z5R3/literal serial092800; guide release unspecified.
+
+**hla-inform** (hla-inform-09ea9c8220, b0): Verified continued dragon battle ends with dragon fallen, GameWon narrative, The End, Dragon Quest completed, You have won and terminal menu. Main quest ending; no all-side-quests claim. Preserve initial Library error10 and player outside object tree; this is not a clean-startup certification.
+Evidence: hla-inform-09ea9c8220:e00670. Primary raw span 160313:160950, SHA256 bb83bb2e22b119efdab2b2d11660ee1fe2b6ca151aeb1d91dd1b6574b9be5d7f. Z5R1/050715 binary; startup says HLA3.20 and Inform port0.2 while footer says3.20a. Separate source version axes remain distinct; guide unspecified.
+
+**earth-and-sky-episode-1** (earth-and-sky-episode-1-2bb22846be, b0): Verified balloon medicine restores Aunt Nina, she embraces siblings, Earth and Sky identification and homeward flight; continuation keys reveal saved-the-day banner then Episode2 teaser and terminal menu. Complete Episode1 only; parents have not been found.
+Evidence: earth-and-sky-episode-1-2bb22846be:e00164, earth-and-sky-episode-1-2bb22846be:e00165, earth-and-sky-episode-1-2bb22846be:e00166. Primary raw span 46829:47012, SHA256 9f8415f99bd9b2d13e49bf87eac945e5f0228a21c3ef08f2f00efc0ab85249bc. Z5R2/011204; guide target release unspecified.
+
+**dash-slapney-patrol-leader** (dash-slapney-patrol-leader-64ff8134ce, b0): Verified Derby completion with four event wins and Smurfs230 victory; everyone feels they contributed. Required SPACE then delivers advanced-division/Eagle Scout reflection, The End and terminal menu. Everyone-happy route; no all-seven-events or Eagle Scout achievement claim.
+Evidence: dash-slapney-patrol-leader-64ff8134ce:e00072, dash-slapney-patrol-leader-64ff8134ce:e00073. Primary raw span 14285:14934, SHA256 adf03a7abae75e33196fd40e3db83ef7e18e072dd920d6f19a5832963150575f. Blorb embedded Z8R3/120510. Author guide gives no release/serial; separately archived source is not rebuilt-equivalence evidence.
+
+**a-remote-problem** (a-remote-problem-30f9dc27b1, b0): Verified correctly sized AAA batteries placed in remote followed by TURN ON TV: explicit success,54 minutes left to watch, The End80/100 and terminal menu. Earlier output says show starts about now; reject before-show-start claim. Successful partial viewing, not full-show or maximal-score coverage.
+Evidence: a-remote-problem-30f9dc27b1:e00080. Primary raw span 7586:7875, SHA256 f3fc136fbbad4c86acd47223162372b7bdef3e11ef221c21ec30c061e8e81485. Blorb embedded Glulx InformR3/250920, VM version0x00030102. Bundled guide release not stated.
+
+Both raw response bytes and surrounding branch-start/final-sequence events were verified. All claim files match journal claim events and current manifest sessions. No input follows the witnessed finale in these six journals. End menus report input-ready; that does not imply further ordinary gameplay.
+
+## Scope and preserved history
+
+This audit reviewed zero candidate cases. reviewed/fullplay-cases.json is byte-unchanged; prior case counts, exclusions and timestamped review history remain in fullplay-status.json. No current export totals are claimed. All earlier70 conclusions, including Gerbil Riot unclaimed at capture, Nine Points SAMPLE, Bedlam PREVIEW and native restore/UNDO distinctions, remain intact. Scores never establish exhaustive content coverage.
+
+Parent reports current quota reset2026-09-28T00:00Z. That provider state was not independently polled here. No client/provider/game input, launch, restart, restore, refill, slot-release or scheduling action was performed. Certification alone does not authorize lifecycle changes.
+
+Receipt: control/ending-review-20260926T1050.json. Raw journals, claims, game files and candidates were not modified.

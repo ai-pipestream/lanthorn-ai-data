@@ -1,0 +1,24 @@
+{
+  "event_id": "secret-mission-08dcee7c13:e01794",
+  "timestamp": "2026-09-25T04:02:51.580827+00:00",
+  "game_id": "secret-mission",
+  "session_id": "secret-mission-08dcee7c13",
+  "branch_id": "b21",
+  "event_index": 1794,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 270260,
+  "raw_end": 270260,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "the water spills on the bomb and\ndefuses it! FANTASTIC, You completed an IMPOSSIBLE mission!\nThe game is now over.",
+    "evidence_event_ids": [
+      "secret-mission-08dcee7c13:e01789"
+    ],
+    "notes": "Author-intended mission-success ending: poured heavy water on the carried time bomb in the break room after cutting its wire, exactly per walkthrough Part Three. Not death, quitting, or score: detector arc resolved, engine exited with FANTASTIC mission-complete banner at ~move 110 on branch b21."
+  },
+  "review_status": "unreviewed"
+}

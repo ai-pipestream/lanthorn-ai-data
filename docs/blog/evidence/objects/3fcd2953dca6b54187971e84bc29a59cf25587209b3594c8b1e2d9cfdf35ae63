@@ -1,0 +1,42 @@
+# Curses progress — SEGMENT 13 LIVE (incomplete, branch b20, score 119/550 ~22%)
+
+SEG13b (e02184+, branch b22, turns 1312): Servant's Room, SAFE ordinary prompt. Score 119. Map+tablet intact (restored). Inventory: stick+scroll+spade+sceptre?+rucksack(Ace/Reaper/Sailor,whistle,TABLET,scarf,weed,ball,postcard,dict,Hamburg map)+torch+gloves.
+HAMBURG SCOUT (b20/b21, restored away): 8 of Wands EXISTS in Tarot box (Castle/Star/8/Maiden) but CANNOT come home w/o Rod (map single-use, Foyer one-way: ball deflated, S barriers jam; cell locked no-exit). Cabinet=stone+papyrus only (+4). Capture on movement (Stein violet pill); tablet CURES (chocolate!) → crook takeable. West stairs vision-blocked (turn back). Still life: seedling+rusty iron rod w/ star+bottle+lamp+keys. Full mid-game mapped (e01289: crook→Souvenirs Fool/miniature→strike Rod→PAST whitewash→weed→bean pole→poetry→roller→marble rose→mural→deck→boat→Octagon convert→lagach,painting→bronze→tombstone).
+Cases: +turn-door (none/success, article omitted); bean-pole annotated; ledge-dig annotated; banister annotated (scenery); scroll coffin 6th fail; timing+read variants fail; dict rod/staff nothing, Merlyn generic.
+Rod hunt: FIRST-Rod STILL unknown; branch (b14-only, ship) ONLY untested pre-Hamburg rod-like. NEXT: umbrella 2nd search; crates take-all/2nd search; ship re-entry? (slot/Fool); point stick/spar at me/mirror (UNTRIED); clean stick w/ scarf; History Helene/Anton/Henri/Capability/Joshua; prayer book; ghost; Evans; well smash+D; DEMON ask about rod (Hell). Rod MANDATORY. Checkpoints: seg13-pre-hamburg-west (b22 here), seg13-hamburg-cards (Hamburg trap, info only), seg13-deadend-start.
+
+SEG13a (e02014-e02096+, turns 1216-1274): Vegetable Garden, spade in hand. SAFE at ordinary prompt. Score 119.
+Inventory: stick + sceptre + spade (in hand) + rucksack (Ace/Reaper/Sailor, whistle, RED TABLET, scarf, weed killer, ball, postcard, dictionary, Hamburg map) + torch + gloves. Roller parked OFF at Family Tree. Tablet intact.
+Checkpoints: seg13-deadend-start (b20 Dead End, newest safe); + all seg12 intact.
+Cases closed seg13: umbrella-singular (world_state fail, scenery; hint revealed functional stand is White Hallway one, already looted); table-leg (world_state fail, scenery); wash-stick (vocabulary fail; wash/dip unrecognised, put can't-contain, clean no-op); bean-pole (present garden has no pole; probe pair e02052-53 NOT YET ANNOTATED); ledge-dig (world_state fail; bare dig needs tool in hand, with-spade misparses, Ledge flagstones unsuitable).
+Rod hunt: walkthrough lines 46-54 + 92-100 mapped (early boat→present; late boat→Octagon; convert quarterstaff/crook/beanpole/8ofwands; 'lagach, painting' needs SPACE). First-Rod source STILL unknown: stick/spar/mallet/spade/sceptre all fail coffin; bean pole absent present; Merlin dig fails at Ledge (flagstones) + Veg Garden (only turns earth). NEXT: banister-rail test (Old Winery, mahogany?); dig Clearing/Family Tree/Lawn; gothic iron key in Unreal Down-by-River (crypt?); well under smashed bust (roller E on b20?); help lines 104-198 endgame/quarterstaff. Rod MANDATORY before Hamburg redo. Keep tablet; checkpoint before transport/dig.
+
+# SEGMENT 12 STOP (incomplete, branch b20, score 119/550 ~22%)
+
+STOP STATE (e02013, turns 1216): Dead End, East Annexe area, Meldrew Hall, June 3 1993 (branch b20). SAFE at ordinary prompt (fire escape hatch open east, secret door open south). Score 119. Step budget exhausted; game NOT complete (Rod of Returning still missing; Hamburg redo pending).
+Inventory (carried): sooty stick + golden sceptre + rucksack open (Ace/Reaper/Sailor, whistle, RED TABLET, scarf, spade, weed killer, ball, postcard, dictionary, Hamburg map) + torch (lit) + gloves worn. Tablet intact. Caches: Octagon (mallet+spar+letter+clover+box+coffin); Attic gold key; Library Storage (wrench+Folly-miniature=etched Ledge miniature+poetry+History); Cupboard (prayer+sketch+flash); Storage (scroll+biscuit+paper); Fool in Souvenirs slot; flag Alison bed; mask LOST Cups (2nd-entry blocked); branch diverged away (b14 only).
+Checkpoints (all intact): seg12-alison-stick (Alison's, newest); seg12-before-lagach (White Hallway); seg12-before-hamburg (Servant's, pre-Hamburg stage); seg12-cabinet-131 (rodless Hamburg); seg12-tree-sd; seg12-attic-ace; seg11-after-roller; seg9-cabinet-127; older.
+Next (continuation): Dead End N Annexe, W wing, NW Old Furniture → SEARCH umbrella stands (plural, contents?) + consider table-leg; then wash-stick test (Garden Stream via Octagon→Sandstone→Dark→Stream), Merlin-grave dig research (Isaac e00275: back garden near motorway; spade unused), help for lines 104-198 (quarterstaff/endgame). Rod MANDATORY before Hamburg capture (b19 sober death e01908). Keep tablet; checkpoint before transport/dig.
+
+STATE (e02010, turns 1213): Stone Cross, NE of House. SAFE at ordinary prompt.
+Inventory: stick + sceptre + rucksack (3 Tarot incl Ace, whistle, TABLET, scarf, spade, weed killer, ball, postcard, dictionary, Hamburg map) + torch + gloves. Tablet intact (b20 pre-Hamburg). Gold key Attic; letter/clover/box/coffin+mallet+spar Octagon; wrench/Folly-miniature(=Ledge etching)/poetry/History Library Storage; prayer/sketch/flash Cupboard; scroll/biscuit/paper Storage (sceptre WITH ME); Fool Souvenirs slot; flag Alison bed; mask LOST Cups.
+Checkpoints: seg12-alison-stick (b20 Alison's, newest safe); seg12-before-lagach; seg12-before-hamburg (pre-Hamburg stage); seg12-cabinet-131 (rodless Hamburg); seg12-tree-sd; seg12-attic-ace; seg11-after-roller; seg9-cabinet-127; older intact.
+
+Seg12 0115-0173 (b20 rod hunt, NO ROD yet):
+- Garage EMPTY (implement was spade, have it). Octagon spade test: put e01929/close/open UNCHANGED e01931 (4th fail).
+- Frame theory DEAD (e01217 break frame only looses sketch, no pieces).
+- Lagach: lagach,painting = powerful-but-imprecise + verb-fail (e01967); say-to painting/isaac same (e01968-69); Lagachable list only ToC (e01970) + next gave walkthrough start (e01971). Parked (likely late-gated).
+- Sceptre fetch (Cellars wheel recall e01942, dumbwaiter up/down): examine Tut-copy (e01948); coffin put e01959/close/open UNCHANGED e01961 (5th fail). Retrieved.
+- ALISON MIRROR BREAKTHROUGH: mirror HIDES stick (shows sceptre+rucksack+torch+gloves only, e01983) = walkthrough's Where's-the-stick; b14 mirror HID spar too (e01135 vs e01131) but SHOWS branch. Wave stick = ridiculous no-op (e01984). Point stick = Ok-(Why?) (e01987). Strike stick = ineffectually bash (e01988, vs dream staff's working strike). Stick mirror-hidden but NOT functional rod. Branch GONE on b20 (diverged b14, ship blocked).
+- ROOF (new): flagpole GONE (e01993), catwalk NW Battlements (new, dead end, peculiarly cold e01995, angel-late?). Balcony unreachable south. Fire escape E from Dead End DOWN to Beside Drive (new, e02000) → NE Footpath (new) → N Stone Cross. Village flavor-only: church barred (e02007), pub closed, E/W green-nothing (e02008-09), Evans form-brush (e02010).
+- MERLIN LEAD (Isaac e00275): Merlin buried back garden near motorway + spade purposeless = DIG hypothesis (quarterstaff?). Location unknown (Ledge hillside? past?); walkthrough silent → possibly late (104-198 unseen) or missed. NOT YET TESTED.
+- Walkthrough audit: NO take-rod in any excerpt 9-104; all take-alls accounted (Garage weed+spade, port flag+spar, cabinet stone+papyrus, cupboard painting+mask+parcel); quarterstaff acquisition in NO excerpt (must be 104+ or unlisted); dream staff fades same-turn (untakeable e01117).
+
+NEXT (cheap first):
+1. Old Furniture umbrella stands SEARCH (plural stands in pile, contents?) + table-leg? (on return route).
+2. Wash stick at Garden Stream (soot disguise? long shot).
+3. Ironbound door + GOLD key (crypt late? complex route, low).
+4. Merlin grave dig (location? Ledge? Vegetable Garden? past? needs research).
+5. Help for lines 104-198 (quarterstaff/Merlin/endgame) with non-repeating topics.
+6. DEFERRED: croquet+watch (sides), maze foot (blocked 1993), Hell (late), Jemima chain (detection only), ground sweep.
+SAFETY: tablet in rucksack; Rod MANDATORY before Hamburg capture (b19 death e01908); checkpoints before transport/lagach/dig.

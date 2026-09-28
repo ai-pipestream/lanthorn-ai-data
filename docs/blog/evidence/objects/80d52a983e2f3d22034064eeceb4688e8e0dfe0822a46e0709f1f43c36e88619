@@ -1,0 +1,7 @@
+# Save Princeton — progress
+
+State: Branch b1, Murray-Dodge kitchen area, score 75 (e00227). Hunger CURED via 'sniff food' (awful smell, never hungry again, +5). Cookies baked and held: batch of fresh chocolate chip cookies + metal tray (e00221-222). 'eat cookie' refused unhealthy (e00223). Mercy resurrection after hunger death e00224.
+Inventory e00224: cookies, tray, lava lamp, receipt, earplugs, dusty note, glass, food-like item, hairdryer+battery, wooden key.
+Checkpoints: hallway-222-free; with-lava-lamp; door-222-open; in-front-222; after-poster-dry; after-cookies-mercy (e00225-226 verified); PENDING after-hunger-cured m0201.
+Annotations: food-smell-cure e00227 none (synonym sniff accepted); earlier b0 poison eat-food death annotated; dough-tray etc.
+Next: 1) confirm m0201; 2) turn off oven, look, go south to cafe then up/north/north to Firestone Library per hint e00170 (take camera, north south south...); need next help excerpt when route unclear. Collect diverse synthetic_probe cases (synonyms/typos) with help after 2 fails.

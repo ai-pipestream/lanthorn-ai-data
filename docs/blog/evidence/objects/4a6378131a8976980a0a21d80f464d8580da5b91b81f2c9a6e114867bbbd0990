@@ -1,0 +1,14 @@
+# Jigsaw progress (update 20 — SEGMENT 3, game incomplete)
+
+Location: Inside the Monument (e00545). Board: 7 played, b4 LIT (white folds of snow, +1, e00550). 6 prior lit unchanged.
+Ch4 Temps Perdu route since update 19: 5th floor via boy-up x5 (e00493); east into Fifth Floor Flat (Proust, +1 e00495); `read invite` ok (e00496); got madeleine (e00498); checkpoint ch4-before-madeleine; `eat madeleine` nibble only (e00501); hint: get tea tray (= edge piece reveal, mss scattered, passage escaped window, e00503); `get edge piece` +1 (e00504); detector 1 chime arms-up (e00505); west, lift down (straight to foyer e00509), out, west, south, west to Maison du The (paperole on clock pendulum, jasmine tea, e00513); `get paperole` blocked by staff (e00514); `drink tea` sip only (e00515); `dip madeleine in tea` (e00516) + `eat madeleine` > school memory (+1 e00517); `swing pendulum` > clock starts, back to tea house, paperole on floor (e00519); got paperole (e00520); drink tea; east/north/east to foyer; lift up (straight to 5th e00527); out, east, `drop paperole` restored (+1, Proust quote, e00530); cloud of disturbed air + detector bell (e00531-533); `get centre piece` fails again (e00534); hint: wait, press white button > cloud condenses to black ball (e00537); checkpoint ch4-before-ball; `enter black ball` (e00540); wait x2 > Land/Glacier Milk (e00542); east (mist e00543), southeast (Disc Room e00544), northwest (Monument e00545); inventory: edge piece, NO centre piece, madeleine cake still held, sparkler still lit (e00546); `put edge piece at b4` fits (e00547), take/turn/re-put > LIT snow +1 (e00548-550).
+
+CENTRE PIECE MISSING: `get centre piece` failed on 4th landing (e00488), in lift (e00491), restored flat (e00534). Detector showed 2 chimes Ch4-start, 1 chime arms-up after edge (e00505). Walkthrough pairs edge-b4 + centre-b2; only edge placed. May come from Black later or missed spot (concierge office? roof? 4th-floor room?). Do NOT grind; proceed to next hint and revisit if b2 blocks.
+
+Checkpoints (all ok): ... ch4-absinthe-found, ch4-before-madeleine (e00499-500), ch4-before-ball (e00538-539, CURRENT safety).
+
+Cases: 52 total (50 synthetic + 2 natural), all annotated, none unresolved. New: ch4-invite-short (none — `read invite` accepted, e00496-497).
+
+Last hint (m0446, lines 459-467): wait, press white button, enter black ball, z.z, east, southeast, northwest, [edge at b4], [centre at b2]. CONSUMED except centre-b2 (no piece).
+
+Next: 1. help mode=next (post-Ch4/clock steps). 2. Likely turn clock / press square for Ch5 — follow hint. 3. Next inbox file: m0458.json. Last response: m0457 (b4 lit).

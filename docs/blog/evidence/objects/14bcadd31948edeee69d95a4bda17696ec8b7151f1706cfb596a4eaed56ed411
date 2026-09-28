@@ -1,0 +1,82 @@
+{
+  "at": "2026-09-25T07:00:51.262391+00:00",
+  "local_workers": {
+    "zork-i7": [
+      1729082
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "tryst-of-fate": [
+      2968512
+    ],
+    "the-edifice": [
+      3111269
+    ],
+    "anchorhead": [
+      3134277
+    ],
+    "paper-chase": [
+      3167249
+    ],
+    "mansion": [
+      3277256
+    ],
+    "curses": [
+      3313049
+    ],
+    "delusions": [
+      3320129
+    ],
+    "magic-toyshop": [
+      3539038
+    ]
+  },
+  "remote_status_timestamp": "2026-09-25T07:00:46.940924+00:00",
+  "remote_muse_pids": {
+    "frozen": 119204,
+    "spiritwrak": 124121,
+    "enemies": 22421,
+    "heist": 53990,
+    "night-at-the-computer-center": 55031,
+    "vindaloo": 55239,
+    "gerbil-riot": 55478,
+    "i-0": 53197,
+    "beyond-the-tesseract": 17925,
+    "return-to-karn": 24099,
+    "heroines-mantle": 20230,
+    "kook-u": 24311,
+    "dracula-prince-of-darkness": 151486,
+    "deephome": 124238,
+    "save-princeton": 126826,
+    "space-station": 126597,
+    "mother-loose": 121228,
+    "hunt-for-relief": 24098,
+    "bse": 152977,
+    "bedlam": 153865,
+    "critical-breach": 54962,
+    "danger-adventurer-at-work": 22160,
+    "gumshoe": 16945,
+    "fine-tuned": 18021
+  },
+  "queue": [
+    "christminster",
+    "the-wedding",
+    "ghost-train",
+    "schooldays",
+    "not-just-a-game",
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man"
+  ],
+  "attention": [],
+  "export_quarantine_checked": [
+    "all-quiet-on-the-library-front-a0c0a11bad:e00123",
+    "delusions-07b4a7fbbe:e00448",
+    "delusions-07b4a7fbbe:e00449",
+    "delusions-20a1b41aa0:e00004",
+    "kook-u-489e2b24ed:e00054"
+  ],
+  "affected_cases": 0
+}

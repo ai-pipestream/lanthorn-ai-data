@@ -1,0 +1,9 @@
+# Fine-Tuned progress (m0170 done, e185)
+
+Location: Greenwood Lane north toward Sneedlewood estate, OUTSIDE Dynamo (e183 auto-exit). Radiator empty undriveable, steam dissipated (e185). Miss Sweet in Dynamo humming. Train thundered past jeering and disappeared ahead (e183). Score 15.
+Inventory (e185 observed): old bucket, loose flyer, small sign, postcard, white envelope, scarf worn, peaked riding cap worn, goggles worn, index card, gloves worn. Trunk on rack (earlier).
+Checkpoints verified: start-driveway, ready-to-drive, mailbox-van, before-rescue, after-rescue, lane-bucket, after-bucket, after-hatchling, town-center, sweet-aboard (e161-e162 Ok).
+Recent: e170 x surrey couple girl watches; e171 shout at driver misparsed to Sweet; e172 blow horn Dies Irae horse rears; e173 look surrey off road clear; e174 annotate shout->horn ambiguity; e175-178 drive north even coach->even loco->lead loco score14->loco behind Sweet smile; e179 children dart LOOK OUT; e180 stop avoids children spins into trees; e181 look motors grind steam score15; e182 x dynamo Sweet waits fix train approaching; e183 x radiator no water undriveable train passes; e184 look lane steam lighter; e185 i bucket confirmed steam dissipates.
+Annotations done: horn-honk world_state e139->e142; surrey-shout-driver ambiguity e171->e173 (m0159). Pending labels: bucket e105, paper e98, start dynamo e116, bird e121-123, trunk e152, kiss/take hand e156/e158, older e63-e93, plus radiator/children stops.
+Hints: m0154 lines 68-76 off-topic (town children). Need next excerpt for radiator water/bucket and mansion/professor route (lines ~77-120); finale 121-129 known.
+Next: help radiator water bucket fill, find water source, fill radiator, drive to mansion. Game INCOMPLETE, no ending reached.

@@ -1,0 +1,203 @@
+{
+  "at": "2026-09-25T06:25:16.666704+00:00",
+  "hosts": [
+    {
+      "host": "cm5ai1",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "asylum",
+          "pid": 109701
+        },
+        {
+          "game": "frozen",
+          "pid": 112364
+        },
+        {
+          "game": "spiritwrak",
+          "pid": 109692
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "cm5v1",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "enemies",
+          "pid": 8014
+        },
+        {
+          "game": "nine-points",
+          "pid": 8023
+        },
+        {
+          "game": "pentari",
+          "pid": 8037
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "cm5v2",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "heist",
+          "pid": 41066
+        },
+        {
+          "game": "night-at-the-computer-center",
+          "pid": 41104
+        },
+        {
+          "game": "all-quiet-on-the-library-front",
+          "pid": 41065
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "krickert@cm5v3.local",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "vindaloo",
+          "pid": 42985
+        },
+        {
+          "game": "i-0",
+          "pid": 42968
+        },
+        {
+          "game": "gerbil-riot",
+          "pid": 42969
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "pi500p",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "beyond-the-tesseract",
+          "pid": 4388
+        },
+        {
+          "game": "tube-trouble",
+          "pid": 4413
+        },
+        {
+          "game": "slacker-x",
+          "pid": 6827
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "pi5ai1",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "heroines-mantle",
+          "pid": 7679
+        },
+        {
+          "game": "return-to-karn",
+          "pid": 7667
+        },
+        {
+          "game": "kook-u",
+          "pid": 7704
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "krickert@pi5ai2p.local",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "zuni-doll",
+          "pid": 131182
+        },
+        {
+          "game": "only-after-dark",
+          "pid": 131173
+        },
+        {
+          "game": "dracula-prince-of-darkness",
+          "pid": 138805
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "pi5v2",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "space-station",
+          "pid": 113084
+        },
+        {
+          "game": "save-princeton",
+          "pid": 113072
+        },
+        {
+          "game": "deephome",
+          "pid": 113055
+        }
+      ],
+      "error": ""
+    }
+  ],
+  "local_workers": {
+    "curses": [
+      908334
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "zork-i7": [
+      1729082
+    ],
+    "so-far": [
+      1751669
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "tryst-of-fate": [
+      2968512
+    ],
+    "delusions": [
+      2999855
+    ],
+    "childs-play": [
+      2999896
+    ],
+    "moon-shaped": [
+      3005196
+    ],
+    "the-edifice": [
+      3111269
+    ]
+  },
+  "local_count": 10,
+  "remote_count": 24,
+  "fleet_errors": [],
+  "queue": [
+    "mother-loose",
+    "paper-chase",
+    "hunt-for-relief",
+    "mansion",
+    "pick-up-the-phone-booth-and-aisle",
+    "bse",
+    "bedlam",
+    "critical-breach",
+    "danger-adventurer-at-work"
+  ]
+}

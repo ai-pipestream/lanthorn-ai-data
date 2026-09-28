@@ -1,0 +1,93 @@
+{
+  "at": "2026-09-25T06:49:10.719841+00:00",
+  "events": [
+    {
+      "event_id": "delusions-20a1b41aa0:e00001",
+      "timestamp": "2026-09-25T06:47:37.551405+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-20a1b41aa0",
+      "branch_id": "b9",
+      "event_index": 1,
+      "event_type": "session_recovery",
+      "command": null,
+      "response": "",
+      "raw_start": 90679,
+      "raw_end": 90679,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "unchanged",
+      "metadata": {
+        "previous_session_id": "delusions-07b4a7fbbe",
+        "checkpoint_event_id": "delusions-07b4a7fbbe:e00389",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/delusions/saves/Delusns.z5.save/before-pizza.sav.qzl",
+        "checkpoint_sha256": "ee3999a94295733e57043bbba979e24f18f81c0112ffb03dff4b550ee777d27d",
+        "reason": "Optional HINT menu SPACE e448 and await e449 timed out; preserve old evidence, restore verified before-pizza; no pending input replay."
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-20a1b41aa0:e00002",
+      "timestamp": "2026-09-25T06:47:37.554109+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-20a1b41aa0",
+      "branch_id": "b9",
+      "event_index": 2,
+      "event_type": "request_cancelled",
+      "command": null,
+      "response": "",
+      "raw_start": 90679,
+      "raw_end": 90679,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "unchanged",
+      "metadata": {
+        "request_file": "m0341.json",
+        "reason": "Old pending request not replayed after recovery",
+        "request_sha256": "bc4a59377963e9bd030f8cb2517334915691cefe0862e344ed1f34a73c99be50"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-20a1b41aa0:e00003",
+      "timestamp": "2026-09-25T06:47:37.859051+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-20a1b41aa0",
+      "branch_id": "b9",
+      "event_index": 3,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n            He closed his eyes.\n            Found the ridged face of the power stud.\n            And in the bloodlit dark behind his eyes, silver phosphenes\n       boiling in from the edge of space, hypnagogic images jerking past\n       like film compiled from random frames.\n            Symbols, figures, faces, a blurred, fragmented mandala of\n       visual information.\n            ...\n            And flowed, flowered for him, fluid neon origami trick, the\n       unfolding of his distanceless home, his country, transparent 3D\n       chessboard extending to infinity.\n            ...\n            And somewhere he was laughing, in a white-painted loft,\n       distant fingers caressing the deck, tears of release streaking\n       his face.\n\n                                       -- William Gibson, \"Neuromancer\"\n                                 [Press a key.]",
+      "raw_start": 90679,
+      "raw_end": 91547,
+      "response_sha256": "dcca6d67c93d9776d3f05e95ea6611404ce25ed28e3dede44e0181c33ee0a098",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-20a1b41aa0:e00004",
+      "timestamp": "2026-09-25T06:47:38.160421+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-20a1b41aa0",
+      "branch_id": "b10",
+      "event_index": 4,
+      "event_type": "restore",
+      "command": "restore",
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n                                   Welcome to\n\n\n                           E       U       I       N\n                       D       L       S       O       S\n\n\n                           [Press any key to begin.]\n\n\n\n\n                                             Human kind\n                          Cannot bear very much reality.\n\n                      -- T.S. Eliot, Burnt Norton (1936)\n",
+      "raw_start": 91547,
+      "raw_end": 91947,
+      "response_sha256": "426dcd86e9ac9689c0851fde13bbd745772944e47da99b71677e613bf346c1db",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "before-pizza",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "reason": "Restore attempted at first startup keypause, consumed R as key; restore was never confirmed. Helper closed engine. No worker launched, no pending action replayed. Retry requires two verified Enter keypauses before restore."
+}

@@ -1,0 +1,26 @@
+# Delusions progress — SEGMENT 7 LIVE (b58 SAFE, INCOMPLETE, s34-output-seg7 + belt)
+
+No winning ending. HINT menu forbidden. LIVE STATE: ALIVE b58 e01505 (VR Lab safe pre-standoff, ordinary prompt, wearing tool belt). Seg7 continuing containers; found bench drawer tool belt.
+
+CURRENT (verified to m1139, e01505):
+- LOCATION: VR Lab (Justy watching, Sphere+VR suit+tank, bench with manual/workstation/mouse/monitor).
+- INVENTORY (b58): carrying nothing; wearing belt+jumpsuit+watch+punch+caplet+gelstrip+X-Acto (e01504). Magnet ON in ours, tongs+light in ours.
+- SEGMENT 7 FINDINGS (live):
+  * OUTPUT: s34-output-seg7 checkpoint verified (m1117 e01482-83). look no exits (e01484); x racks scenery-no-need (e01485); open earth/slot/recycling-slot all identical not-openable SYN world_state m1123 (e01486-88).
+  * LAB: s from Output->VR Lab (e01490); x sphere anti-grav gyro soundproof glass + fail-safe lever (e01491); x suit ambiguous VR-vs-jumpsuit -> x vr suit spandex/kevlar SYN ambiguity m1128 (e01492-93); x tank suspended-animation nothing-new (e01495); x bench single drawer closed + manual/workstation/mouse/monitor (e01496); open bench accepted->drawer tool belt SYN none m1133 (e01497); x belt leather hooks/loops Project logo (e01498); take belt (e01500); drawer empty (e01501); put on belt strapped SYN none (e01502); x lever precautionary VR testing, lab sim has virtual duplicate (e01505).
+- SYN seg7: 4 (open-earth world_state fail m1123; suit ambiguity success m1128; open-bench none m1133; put-on-belt none m1136-37). Prior 47+ met.
+
+UNRESOLVED: top-shelf what/how; pencil/pad/gun R4 where; computer unblock when; Drop-39 timing; belt use (carry?); office/kitchen/MedLab/Corridor containers unsearched.
+
+LAST HINTS: m1052 227-235 final; m1047 221-229; m1050 185-193; etc (seg6, still current).
+
+NEXT:
+1) From VR Lab: map exits (e/w/s?) to office/kitchen/MedLab/Corridor; office via W-knock-open-W checkpoint before (triggers explanation); kitchen fridge/freezer/microwave open; MedLab cabinet/IV/gurney; Corridor elevator/south; lab tank/suit enter/wear careful.
+2) If pencil/pad/gun found: Shimada->niche 36->factory wait23 redial 38->Drop timing->NW->sharpen/rub->XYZZY/CHESS->Enter/Rescue.
+3) If not found: ONE s38-redial branch click-with-button post-redial + Drop variants, then STOP R4-unwinnable.
+Do NOT repeat: shake-shelves, NW-rant-shot e01398, click-pre/rant Better, desk/pillow/android empty, x-pad, old-verbs.
+
+## Checkpoints (verified saves, newest first)
+- s34-output-seg7 (SAFE pre, b58 Output Station e01483, magnet ON ours, tongs/light ours, top intact, pre-belt)
+- s33-justy (SAFE 33 pre, b58 search HERE e01481, magnet ON ours, tongs/light ours, top intact)
+- s36-lab-rant (rant 36 lab, b56), s36-factory, s38-redial (post-redial factory), s36-violin-factory, s30-gun, etc.

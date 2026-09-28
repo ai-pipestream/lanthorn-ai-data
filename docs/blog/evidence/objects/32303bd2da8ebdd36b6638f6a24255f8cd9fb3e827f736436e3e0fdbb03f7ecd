@@ -1,0 +1,20 @@
+# Heroine's Mantle — progress
+
+Current location: Jetty (at Maiden's Wharf), Score 3, Moves 15 (e00026)
+Inventory as observed: shirt and stockings (e00010); staff is Crusader's (e00021/e00024). Crusader has gone after parents farewell (e00026).
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue.
+Pending: inbox/m0019.json annotation for jetty-parents-singular-probe (x mother e00026, failure_type none) — submitted, response not yet present; do NOT duplicate.
+
+Cases so far:
+- drowning-remove-uniform-probe (e00008) — annotated e00009, none (remove uniform accepted)
+- drowning-look/inventory/waits/get-staff — exploration/guided, no annotation needed
+- jetty-examine-woman-probe (e00021) — annotated e00022, none (woman=Crusader)
+- jetty-staff-typo-probe (e00023 rejected, e00024 x staff success) — annotated e00025, vocabulary typo
+- jetty-parents-singular-probe (e00026 x mother success, score 3) — annotation pending m0019
+
+Last hint lines 33-41 (walkthrough, NOT observed): Get staff done; x crusader covered by woman probe; x staff done; x parents covered by x mother; next: W, Read plaque.
+
+Next actions after m0019 resolves:
+1. Go W from Jetty; read plaque.
+2. Checkpoint after Jetty exams.
+3. Request next help excerpt only when stuck (2 failures or new puzzle).

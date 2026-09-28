@@ -1,0 +1,7 @@
+# SpiritWrak progress — INCOMPLETE, Storeroom trapdoor open (e156-e157)
+
+State: Storeroom east of Refectory (e148). Sack of flour taken (e150). Barrel pushed revealing trapdoor (e154); trapdoor opened via 'open door' (e156). Ordinary prompt, trapdoor open. Score 6 (last observed).
+Inventory (observed): sack of flour (new), holy amulet worn+glowing, pallet glowing, sand, prayer book (gnusto/frotz/espnis/foblub). Re-verify with inventory when needed.
+Checkpoints (Ok): chapel-start, quarters-start, garden-sand, chapel-light, chapel-amulet, toolbox-scroll, sanctum-foblub, steeple-window, library-planes, kitchen-recipe, storeroom-flour.
+Cases (~30): + storeroom-typo-flour vocab e149->e150; storeroom-synonym-barrel none e154 (push=move); storeroom-omitted-trapdoor none e156 (open door=trapdoor). No pending. Last hint m0123 lines 40-52 done through Open trapdoor (via push/open door variants, not literal move/trapdoor words).
+Next: checkpoint trapdoor-open before descending; go down; request help mode next if dark/blocked; continue cake-ingredient hunt per guide. Never replay probes blindly.

@@ -1,0 +1,100 @@
+{
+  "at": "2026-09-25T08:43:58.480253+00:00",
+  "game_id": "pythos-mask",
+  "manifest": {
+    "game_id": "pythos-mask",
+    "title": "Pytho's Mask",
+    "engine": "gvm-cli",
+    "story": "/home/krickert/if-games/glulx/pytho.blb",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pythos-mask-walkthrough.txt",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/PythosMask_walkthrough.txt",
+    "response_timeout_seconds": 180,
+    "completion": "Resolve the poisoning plot at the royal toast, survive the confrontation with Valkir, and reach the authored epilogue. Continue through the final epilogue conversation to an actual terminal narrative, recording the chosen romantic or non-romantic outcome. A toast, duel step, room transition, death or merely reaching the walkthrough epilogue heading is insufficient. Guide instructions are provisional; require independent parent verification of actual raw ending output. Quitting, ordinary death, partial scores and chapter transitions are insufficient.",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pythos-mask.json",
+    "story_sha256_expected": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "checkpoint_policy": "Save early and at milestones only at confirmed safe ordinary command prompts; require actual engine success. No save as timeout flush.",
+    "dataset_split": "train",
+    "game_family": "pythos-mask",
+    "collection_notes": "Local Glulx Inform identification is R4/020223, matching the archive. Author walkthrough identifies the game but gives no release, serial or target VM. A Z-code edition also exists; this selection is explicitly the local Glulx release, with cross-format guide applicability untested.\n\nDialogue option letters are tied to the displayed text and may change with history; match the intended answer to actual options. The final romantic and non-romantic routes are alternatives. Optional library backstory and speculative discoveries are not mandatory progress. Preserve original wording, spelling and alternatives. Glulx text/graphics layout has not been exercised.\n\nFamily/split proposal: pythos-mask / train. No shared world/puzzle relationship established with Bronze or Savoir-Faire or other existing Emily Short titles. Common authorship alone does not establish a family. Group Z-code and Glulx releases of this title together. Parent review required.\n\nCENTRAL ONLY: local stories, full guides, source receipts, raw transcripts, saves and interpreter execution remain central. Never stage these assets on a Pi or expose full guide files, source paths or URLs to Muse. Supply only task-relevant broker help excerpts, at most 9 lines / 1000 characters; do not reconstruct a full guide through serial excerpts. Guide content is suggested, not observed evidence. Save early at a confirmed safe ordinary command prompt, verify success, and save at safe milestones. Resolve startup questions/key pauses first. For character prompts empty Enter maps to 13 and literal space to 32; ordinary line prompts differ. Follow actual menus, not guessed keys. On timeout use await_output only; no uncertain input replay, restart, save or flush key. Repeated silent optional-menu timeouts require parent transport review rather than repeated recovery attempts. Collect useful diverse labeled synthetic_probe cases with intent-preserving repairs and actual event evidence, no quotas or filler. Parent verifies the real authored finale against raw output. Private collection only; reuse permission unknown. No training, evaluation, model work or publication.",
+    "zmachine_version": null,
+    "release": 4,
+    "serial": "020223",
+    "session_id": "pythos-mask-a39eb2af1a",
+    "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "started_at": "2026-09-25T08:37:27.378998+00:00",
+    "broker_guards": {
+      "fleet_session": 1,
+      "restart_timeout": 1
+    },
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+  },
+  "events": [
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00001",
+      "timestamp": "2026-09-25T08:37:27.378737+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\nPytho's Mask",
+      "raw_start": 0,
+      "raw_end": 17,
+      "response_sha256": "2794ee66e924a5a1ebbfae31a6add3d9009d27c789560880e4ff11cc7550e949",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00002",
+      "timestamp": "2026-09-25T08:37:38.341707+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "",
+      "response": "[ Press any key to go on. ]\n\nA small room.  Three men; you recognize only one.\n\n\"You, Soteria,\" says the leader.  \"I understand you have an invitation to the Celebration of the Night of the Comet.\"\n\nHeat floods your face.  How does he know that?  \"I have an invitation, but I wasn't sure-- that is, I wasn't planning--\"\n\n\"You'll go,\" he says.\n\nThe words die half-formed.  An urgent command overrides your personal doubts.\n\n\"What am I to do?\"\n\n\"Speak to the Physician -- he's one of ours, but we've been unable to speak to him of late.  Find out anything he knows about the King's illness.  And protect the King.\"\n\n\"From what?\"\n\nThe leader smiles a little wryly.  \"I wish I could tell you, girl.  This is the Night of the Comet.  It could be anything.\"\n\n\n                                    [ MORE ]\n",
+      "raw_start": 17,
+      "raw_end": 816,
+      "response_sha256": "3f718e8105c61ac3d82f3e2a7e0e4e3c94b1f560bd1042509799bd9b433be1f6",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "startup-advance",
+        "intent": "Advance past title screen",
+        "origin": "exploration",
+        "expected_outcome": "Intro text or first prompt"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00003",
+      "timestamp": "2026-09-25T08:40:41.833169+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "command",
+      "command": "",
+      "response": "",
+      "raw_start": 816,
+      "raw_end": 816,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "no_output_timeout",
+      "metadata": {
+        "case_id": "startup-more-1",
+        "intent": "Advance past MORE prompt",
+        "origin": "exploration",
+        "expected_outcome": "More intro text"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "note": "Parent story hash and exact startup/early raw text/SHA verified. Pythos startup times out at MORE with no save; not healthy runtime proof."
+}

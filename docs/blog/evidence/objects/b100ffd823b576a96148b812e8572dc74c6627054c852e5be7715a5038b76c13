@@ -1,0 +1,24 @@
+{
+  "event_id": "christminster-735155fc69:e01140",
+  "timestamp": "2026-09-25T09:32:05.454014+00:00",
+  "game_id": "christminster",
+  "session_id": "christminster-735155fc69",
+  "branch_id": "b9",
+  "event_index": 1140,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 494982,
+  "raw_end": 494982,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***\n\n\nIn that game you scored 48 out of a possible 50, in 675 turns.",
+    "evidence_event_ids": [
+      "christminster-735155fc69:e01139"
+    ],
+    "notes": "Genuine author-intended winning ending on b9: pulled Malcolm north through unlocked door (e01139) into rescue by police constable + fireman, blackout, hospital awakening with Malcolm at bedside ('Christabel!'), epilogue (Edward raised alarm, brigade smashed Bungay's door, C staircase destroyed, Jarboe's charred bones found, Bungay gone), explicit '*** You have won ***' banner, 48/50 in 675 turns. Distinct from b7/b8 '*** You have died ***' fire collapses. Satisfies manifest: college investigation, books/clues, elixir + dinner, rescue through crypt and stairs to Malcolm's final escape north with concluding rescue narrative. 2 optional points unclaimed (score-only, e.g. wistaria roof) do not affect the won state."
+  },
+  "review_status": "unreviewed"
+}

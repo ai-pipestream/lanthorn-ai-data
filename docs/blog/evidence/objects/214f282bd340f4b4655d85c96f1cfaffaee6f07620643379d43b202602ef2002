@@ -1,0 +1,8 @@
+# I-0 progress
+
+- Location: In your car (start), awaiting input. Heat, lifeless car, purse (closed) visible.
+- Inventory (observed): none carried yet; purse closed in car, key in ignition.
+- Checkpoints: requested `start-car` (inbox/m0001.json) — pending response.
+- Unresolved cases: none yet.
+- Last hint: none.
+- Next: confirm checkpoint; then look/inventory/exit car exploration with early synthetic probes.

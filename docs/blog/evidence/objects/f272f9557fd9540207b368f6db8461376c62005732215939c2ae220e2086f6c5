@@ -1,0 +1,11 @@
+# Moon-Shaped progress (segment 2 COMPLETE - best ending)
+
+Location: Graveyard (branch b1) - GAME COMPLETE best ending1.
+Final sequence b1: restored graveyard-wolf; opened Hansel grave bones; took hatchet; checkpoint before-attack; attack wolf with hatchet freed grandmother (e00404 wolf wounded, curse prohibits death); took powder; sprinkle powder onto bones (e00406) -> orange cloud cleanses curse, wolf gone father healed, grandmother holds him, all survive.
+Alternate ending b0 e00395 (powder without saving grandmother): father alive but grandmother dead, correctly identified as alternate, not best.
+
+Cases annotated: 32 total (21 seg1 + 11 seg2: gloves-chain, board-boat, unlock-locket, grab-firefly, rinse-none, drink-planning, glass-worldstate, use-monocle, open-cage, dagger-gloves-nonsynth, break-candies). Within 20-40 target.
+
+Checkpoints: all prior + graveyard-wolf, graveyard-before-attack, cavern-ready-waterfall, cavern-curse, cave-entrance, burned-candies, etc.
+
+Ending1 evidence: e00406 sprinkle powder onto bones after attack. Quote includes father healed, grandmother holds him, locket line, Das Märchen ist vorüber.

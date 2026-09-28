@@ -1,0 +1,91 @@
+{
+  "game_id": "the-wedding",
+  "title": "The Wedding",
+  "author": "Neil James Brown",
+  "url": "https://ifarchive.org/if-archive/solutions/wedding.sol",
+  "accessed_at": "2026-09-25T06:51:10.690553+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/wedding.sol",
+  "source_sha256": "18ed4dee218ef83facf5fb3c6161a7ae7940c5435031e1c096cf93e49480cce0",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/the-wedding-walkthrough.txt",
+  "normalized_sha256": "18ed4dee218ef83facf5fb3c6161a7ae7940c5435031e1c096cf93e49480cce0",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/wedding.z5",
+  "story_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+  "compatibility": "Local R5/970825 (Acorn User CD Edition) matches the archive binary. Guide is by Paul J. Godfrey, amended by the author specifically for release 3, with no serial. Preserve the two-release gap. Both entries identify Neil James Brown's The Wedding, IFDB 5r1iabxsfwmz40ev; this is not Kenya Miller's Wedding.zblorb, which was rejected from batch C.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 5,
+  "serial": "970825",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000054c684c692f3201121e81253800103937303832350052940ae6ff000000000000000000000000000000000000000000000000000000000000362e3035",
+    "header_sha256": "589349340486806efdf78a31372297ff0e745dcd0c3f095a1189e970b495b838",
+    "checksum_hex": "e6ff",
+    "declared_length": 151592,
+    "file_bytes": 152064
+  },
+  "guide_release": 3,
+  "guide_serial": null,
+  "guide_release_gap": 2,
+  "story_identity": {
+    "filename": "wedding.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/wedding.z5",
+    "accessed_at": "2026-09-25T06:51:49.727026+00:00",
+    "remote_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "local_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "bytes": 152064,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 5,
+    "remote_serial": "970825"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#wedding.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "wedding.z5\n◆\n[21-Mar-2024]\nIFDB entry\nIFWiki:\nThe Wedding\nThe Wedding, an Interactive Family Headache\nby Neil James Brown.\n\"Acorn User CD Edition\".\nRelease 5 / Serial number 970825.\nThis game came second in the Acorn User 1996 IF Competition.",
+    "tuid": "5r1iabxsfwmz40ev"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#wedding.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "wedding.sol\n◆\n[29-Mar-1997]\nIFDB entry\nstep-by-step solution to The Wedding release 3.\nWritten by Paul J. Godfrey and updated by Neil Brown.",
+    "tuid": "5r1iabxsfwmz40ev"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the full family-house investigation, release Malcolm, resolve the guard/Sheryl sequence and finish the final Deborah-directed route to the authored wedding conclusion. Rescuing Malcolm, reaching 20 points, a checkpoint named alldone, FULL or SECRETS alone is insufficient. Stop after the independently verified conclusion; bonus amusements are optional.",
+    "limitations": "Guide estimates about 257 moves and groups commands with prose. Observe live alarm, guard and delivery timing. Obtain telephone digits, quiz answers and remote-control sequence from actual clues; never send #### or angle-bracket placeholders. In-game reference books are game objects, not permission to read the central full walkthrough. Save before timed or irreversible sequences.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "the-wedding",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Distinct from Kenya Miller Wedding by title/author, release and archive identity. Neil James Brown also wrote The Lost Spellmaker, but shared authorship does not establish shared world/puzzles. No concrete overlap with an existing collected family identified."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "distinct_from_rejected_pairing": {
+    "archive_entry": {
+      "text": "Wedding.zblorb\n◆\n[05-Mar-2010]\nIFDB entry\nWedding, an interactive Life Story, by Kenya Miller.\nRelease 1 / Serial number 100221.",
+      "tuid": "a30o796duklrp6cv"
+    },
+    "reason": "Different author, release and IFDB ID from Neil James Brown wedding.z5. Batch C rejected Wedding.zblorb paired with wedding.sol; it did not queue this correctly matched game."
+  }
+}

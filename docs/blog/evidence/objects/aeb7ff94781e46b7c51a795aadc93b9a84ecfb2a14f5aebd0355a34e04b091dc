@@ -1,0 +1,98 @@
+{
+  "game_id": "only-after-dark",
+  "title": "Only After Dark",
+  "url": "https://ifarchive.org/if-archive/solutions/oad.walkthrough.txt",
+  "accessed_at": "2026-09-25T06:02:04.097221+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/oad.walkthrough.txt",
+  "source_sha256": "b0e6adfc1084a524f80a69be725ba0b9164d1353893fdd5d180e3cb14716968a",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/walkthrough.txt",
+  "normalized_sha256": "467ce36771321a3f1e00328a63fee1f60c5f4fd0b617ff07e1a7843ef7e73fad",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/oad.z5",
+  "story_sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/oad.z5",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/oad.z5",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 5,
+    "release": 2,
+    "serial": "000913",
+    "header_hex": "0500000230683069215d010a0db61922005030303039313300424c640025000000000000000000000000000000001921000000000000010200000000362e3231",
+    "header_sha256": "1bde74e5fd80e6a3521fa192e1a0c01e4a3972af839db977abb443df9cd37a93",
+    "checksum": "0025",
+    "computed_checksum": "0025",
+    "checksum_valid": true,
+    "file_bytes": 78336,
+    "declared_file_bytes": 78224
+  },
+  "compatibility": "Christian Gaertner guide identifies oad.z5 but gives no release/serial; story R2/000913. Three-day route with timed transitions; preserve guide-version uncertainty.",
+  "compatibility_status": "needs_smoke_check",
+  "guide_version_match": "unspecified_or_port_gap",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "lsnpv1bkylr6vsva",
+    "guide_tuid": "lsnpv1bkylr6vsva",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/oad.walkthrough.txt",
+      "accessed_at": "2026-09-25T06:02:04.097221+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/oad.walkthrough.txt",
+      "sha256": "b0e6adfc1084a524f80a69be725ba0b9164d1353893fdd5d180e3cb14716968a",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/oad.z5",
+      "accessed_at": "2026-09-25T06:03:44.337166+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/oad.z5",
+      "sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "only-after-dark",
+    "proposed_split": "train",
+    "existing_corpus_checked": true,
+    "reason": "No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together."
+  },
+  "completion": "Require the Day Three finale after confronting the shaman, the southwest escape and the final howl, with raw concluding output. Day One or Day Two transitions, capture and death are not completion.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "000913",
+  "author": "Gunther Schmidl"
+}

@@ -1,0 +1,9 @@
+# Hunter in Darkness – progress
+
+Location: Branching Cave (start), Wumpus wounded (path 1).
+Inventory (observed e00008): crossbow (was loaded, now fired 1 bolt), thighband with 4 bolts, lamplens (on wrist).
+Checkpoints: start-opening (e00004-05, ok).
+Cases: syn-cock-typo-01 (typo rejected e00011, corrected e00013, annotated); syn-shoot-synonym-02 (fire at prey accepted e00015, annotated none).
+Last hint: cock crossbow / (1 only) shoot prey / left / x shape / take rags / bandage arm with rags (e00010).
+Next: go left to side chamber, examine shape, take rags, bandage arm, then down + ahead route.
+Notes: R4/991119. Title took 2 Returns. Save works at ordinary prompt.

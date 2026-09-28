@@ -1,0 +1,27 @@
+{
+  "game_id": "critical-breach",
+  "title": "Critical Breach",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/CriticalBreach.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/critical-breach-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/criticalbreach.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative verified independently from raw game output. Ordinary death, quitting, partial score, chapter transitions, guide text and model claims alone are insufficient. Complete the full laboratory/specimen/chip escape sequence, then pursue the Scientist ending through its confrontation and resulting narrative. Preserve and correctly label the intended Thing ending if chosen instead; do not require both or reject it merely for its altered-character outcome. Ordinary early death, a lab exit or a guide heading alone is not completion.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/critical-breach.json",
+  "story_sha256_expected": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.",
+  "dataset_split": "train",
+  "game_family": "critical-breach",
+  "collection_notes": "# Critical Breach\n\nStory Z8 R3/130817. Local R3/130817 matches archive. Author guide shares IFDB identity and documents two endings but gives no release/serial; its 2010 archive date predates this 2013 release. Preserve the release gap and verify scene compatibility from output.\n\nComplete the full laboratory/specimen/chip escape sequence, then pursue the Scientist ending through its confrontation and resulting narrative. Preserve and correctly label the intended Thing ending if chosen instead; do not require both or reject it merely for its altered-character outcome. Ordinary early death, a lab exit or a guide heading alone is not completion.\n\nGuide has timed waits and two mutually exclusive ending branches. Follow observed prompts and state rather than concatenating both endings or literal section headings. Checkpoint before the divergence when an ordinary command prompt and safe save are available.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.\n",
+  "zmachine_version": 8,
+  "release": 3,
+  "serial": "130817",
+  "session_id": "critical-breach-b5dd49a3e4",
+  "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+  "started_at": "2026-09-25T06:50:37.343383+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

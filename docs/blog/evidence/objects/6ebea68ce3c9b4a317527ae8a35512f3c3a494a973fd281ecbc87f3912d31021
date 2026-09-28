@@ -1,0 +1,15 @@
+# Mansion progress (seg 3 DONE, BLOCKED hard at parcel — game incomplete, needs parent)
+
+BRANCHES: b1 (original, 990 events) + b2 (clean variation replay, 1024 events). Canonical S1 = all stopcocks ON, boots worn, frog in net, score 31.
+Location: b2 Entrance Hall (Brookes present, wandering). Checkpoint seg3-b2-entrance-blocked (e01023-24) = precise continuation. Also parcel-block-s1 (b1 Fountain S1, pre-investigation canonical) and seg3-pre-restore-waterhouse (b1 Water House S1).
+Inventory b2: same as b1 S1 (rusty key dropped in Water House, spanner bagged, boots worn, net+frog+skeleton key held, bag open with torch/spinach/tweezers/needle/lavender/seeds/plate/straw/floorboard). Yellow torch in closed car. Tin on Games snooker table. Skull lantern in Attic. House main ON.
+
+PARCEL-BLOCK CONFIRMED ACROSS BRANCHES (walkthrough lines 149-150, R1 guide vs R3/260803):
+- b1: 180+ turns S1-S4 at Fountain negative; Rose 8 waits negative (candlestick absent = expected downstream gate without costume); Rockery (clear water) + Garden + Japanese waits negative; house (Kitchen/Dining/Bottom/Entrance/Games/Doorstep/Drive) + Water House searched, no parcel; boots re-don, frog stash, key drop, call brookes (won't leave house), wade/swim/dive (wade unrecognized; swim/dive 'not enough water') all negative; scenery (shrubs unreferable, east passable to Brick Building, willows/boulders flavor, Dining wall candlesticks unreferable) nothing.
+- b2 (wear-trigger test): restored water-house (blue OFF), removed boots, turned blue ON (e00996), stowed spanner, dropped key, exited, wore boots as REAL change (e01001), exact waits/looks (e01002-009), get parcel FAILS (e01010). Identical to b1. Wear-trigger RULED OUT; post-blue corruption RULED OUT (b2 fresh).
+- Bypass fails: fruit route E,N,E,N from Basement pickles (examine ok e01015) reaches Entrance Hall (e01012-019) but get fruit fails (e01020), look on table accepted/nothing (e01021, Brookes entered). Fruit gated downstream of parcel (120 unknown lines 175-295 between candlestick and fruit). Game is linear; parcel is HARD block.
+- Pre-blue order anomaly (untested hypothesis): tin pickup+ritual done AFTER skull scare (skull e00646, tin e00679/e00694) vs walkthrough tin 40-57 before skull 67+. Redoing in order = 50+ move replay from pre-skull checkpoint, uncertain payoff, not attempted.
+
+HELP this segment: 157-165 waits, 166-174 candlestick/boots/norths, 309-317 mixture assembly. No serial reconstruction beyond need.
+Cases: 33 total annotated. Seg3: syn-rockery-searchwater none e00929-30; syn-hall-lookontable none e01021-22. Old unresolved: syn-jar-pickles.
+Next (needs PARENT): verify parcel spawn in R1/R2 vs R3 (likely R3 regression; guide predates R3, known R3 torch bug, V4 in production) OR authorize order-corrected full replay from pre-skull checkpoint. Do NOT grind more waits; all wait/scan/probe axes exhausted on both branches.

@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T07:57:11.797000+00:00",
+  "game_id": "hunt-for-relief",
+  "events": [
+    {
+      "event_id": "hunt-for-relief-b4de5c739d:e00167",
+      "timestamp": "2026-09-25T07:48:59.318343+00:00",
+      "game_id": "hunt-for-relief",
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "branch_id": "b0",
+      "event_index": 167,
+      "event_type": "command",
+      "command": "sit on toilet",
+      "response": "What a relief! Finally, you allow the things down in your stomach to finish \ntheir journey.\n\n\n    *** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 83 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n[Score 20, up 2]\n> ",
+      "raw_start": 21754,
+      "raw_end": 22014,
+      "response_sha256": "2a4ec3012393e3b103c43c2ea0ffc515ccb5d311e861827da3d7f1d14834b009",
+      "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "hunt-for-relief-b4de5c739d",
+        "case_id": "toilet-use-typo",
+        "expected_outcome": "Relief ending narrative",
+        "intent": "Sit on opened toilet for relief after use verb rejected",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "SIT ON TOILET gives authored relief narrative, explicit You have won and final menu. Score20/20 not all-case coverage proof; USE TOLIET repair intent needs independent review. Parent raw/text/hash verified, independent review pending."
+}

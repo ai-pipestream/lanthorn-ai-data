@@ -1,0 +1,8 @@
+# Voodoo Castle progress (b1) — STOPPING at step budget
+
+Location: Lab (exit West; Ju-Ju bag + chem tubes present), shield just recovered and carried.
+Status: FORCED STOP — model step budget exhausted (390/400). Game incomplete; no ending reached. All data preserved in broker events/annotations.
+Standings: b0 ~40 annotated repair cases banked across full route to kettle-hole blocker + one death (tubes without shield). b1 replay reached lab with shield for tubes-with-protection test — NOT YET EXECUTED. Do not assume its outcome.
+Blocker recap: kettle floor-hole entry rejects ENTER/GO/CLIMB/DOWN HOLE ('can't do that yet'); size confirmed still small; LOOK FLOOR/DARK/HOLE nothing special.
+Continuation: read latest.json + this file, resume in lab on b1: GET TUBES (shield protects?), WEST/WEST/SOUTH to kettle, GET SOUP test, hole entry. If tubes kill even with shield, restart and try CUT BAG / darkness relocation.
+Checkpoints: SAVE unsupported; no restores available.

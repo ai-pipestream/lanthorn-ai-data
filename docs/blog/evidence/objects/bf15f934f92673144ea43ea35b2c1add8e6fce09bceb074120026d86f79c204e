@@ -1,0 +1,24 @@
+{
+  "event_id": "tryst-of-fate-21296bfe76:e00910",
+  "timestamp": "2026-09-25T07:07:02.224527+00:00",
+  "game_id": "tryst-of-fate",
+  "session_id": "tryst-of-fate-21296bfe76",
+  "branch_id": "b1",
+  "event_index": 910,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 182855,
+  "raw_end": 182855,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+  "engine_state": "unchanged",
+  "metadata": {
+    "evidence_event_ids": [
+      "tryst-of-fate-21296bfe76:e00908"
+    ],
+    "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 350 out of a possible 350, in 562 turns, earning you \nthe rank of Hero of Deadeye Gulch.",
+    "notes": "Genuine winning ending, not death/quitting/chapter/partial: game prints *** You have won *** with 350 out of possible 350 (maximal), 562 turns, rank Hero of Deadeye Gulch. Full arc resolved: brothers trapped in cellar, Thad killed by Beetlebaum charge + rockslide, farewell meal, blue gum home, epilogue locket + thank-you note. Post-win prompt offers RESTART/RESTORE/AMUSING/QUIT (standard win terminus); no death text, no player quit, no chapter header."
+  },
+  "review_status": "unreviewed"
+}

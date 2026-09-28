@@ -1,0 +1,17 @@
+# Save Princeton — progress
+
+Location: Small Bedroom, Eric playing violin. Score 15.
+Inventory (observed): girly poster taken (e00027); violin given to Eric; disk given to Jacob; envelope opened in Common Room.
+Checkpoints: start-common-room; after-poster (e00029-e00030 verified).
+Cases (8 annotated, all e-verified):
+- envelope-read world_state e00005->e00007
+- take-disk none e00009 (get synonym)
+- ask-jacob-bare syntax e00012->e00013
+- give-disk none e00015 (word order)
+- violin-typo vocabulary e00017->e00018
+- play-violin none e00022
+- give-violin-pronoun none e00024
+- take-poster vocabulary grab->take e00026->e00027
+Last hint e00006 lines 1-9 (take disk/south/ask names/give disk/violin/west/give violin/take poster) — completed through take poster.
+Next: need next walkthrough excerpt after taking poster; then east to Common Room, continue.
+Unresolved: none; all annotations confirmed through e00028.

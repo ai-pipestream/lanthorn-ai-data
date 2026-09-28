@@ -1,0 +1,300 @@
+{
+  "captured_at": "2026-09-25T02:36:03.975970+00:00",
+  "games": [
+    {
+      "game_id": "dreamhold",
+      "broker": {
+        "pid": 425758,
+        "engine_pid": 425828,
+        "state": "running",
+        "session_id": "dreamhold-362786f871",
+        "started_at": "2026-09-25T02:34:59.867774+00:00"
+      },
+      "manifest": {
+        "game_id": "dreamhold",
+        "title": "The Dreamhold",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/dreamhold.z8",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/dreamhold-walkthrough.txt",
+        "walkthrough_url": "https://plover.net/~davidw/sol/dreamhold.html",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/dreamhold.json",
+        "story_sha256_expected": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+        "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+        "dataset_split": "development",
+        "game_family": "dreamhold",
+        "zmachine_version": 8,
+        "release": 5,
+        "serial": "041231",
+        "session_id": "dreamhold-362786f871",
+        "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+        "started_at": "2026-09-25T02:34:59.867684+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "startup": {
+        "event_id": "dreamhold-362786f871:e00001",
+        "timestamp": "2026-09-25T02:34:59.867510+00:00",
+        "game_id": "dreamhold",
+        "session_id": "dreamhold-362786f871",
+        "branch_id": "b0",
+        "event_index": 1,
+        "event_type": "startup",
+        "command": null,
+        "response": "\nTime shifts and flattens, days and decades folding aside like pages in a book. \nYou can see--\n\n\nTHE DREAMHOLD\nA tutorial adventure by Andrew Plotkin. Copyright 2003-4.\nFirst-time players should type \"about\".\nRelease 5 / Serial number 041231 / Inform v6.21 Library 6/10 \n\n\nYou wrench your eyes open. Rough grey stone. Grey stone ceiling. Your head \nhurts, and -- You're lying on the floor. You're staring at the ceiling, and \nit's rough and grey, and you don't recognize it.\n\nYou roll slowly (smooth cold floor?) and try to sit up. It hurts. You crawl \nupright. The walls, rough stone also, scrape your aching fingers. You can't -- \nthere was white agony, felt like raw light tearing you apart. You can't \nremember anything after that.\n\nYou can't remember anything before that. Gone. You clutch at memory, and \nthere's nothing but empty air.\n\nCell\nThis space, barely wider than outstretched arms, seems to have been chopped raw \nand square from unfinished stone. Only the floor is smooth -- a fine white \nsurface beneath your feet. There is a narrow gap in the east wall.\n\n[Don't know how to get started? Type \"help\" and then hit enter.]\n\n>",
+        "raw_start": 0,
+        "raw_end": 1140,
+        "response_sha256": "ef71e326308010edd06d9354b525998cb2920e98313e71653e1b2b933dccc2e0",
+        "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "system"
+        },
+        "review_status": "unreviewed"
+      },
+      "run_dir": "/work/experiments/lanthorn-recall-training/runs/fullplay-dreamhold-20260925T023531Z-bR7wPe",
+      "processes": [
+        " 425758   20232       01:04 python3 scripts/run_new_game.py control/fullplay-expansion-20260925-batch3.json dreamhold",
+        " 427838   20232       00:32 bash ./run-fullplay.sh dreamhold",
+        " 427908  427838       00:32 timeout --signal=TERM --kill-after=10s 2700s muse exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/dreamhold --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-dreamhold-20260925T023531Z-bR7wPe/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context",
+        " 427909  427908       00:32 /home/krickert/.local/bin/muse-bin-1.3.0-R3401.1 exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/dreamhold --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-dreamhold-20260925T023531Z-bR7wPe/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context"
+      ]
+    },
+    {
+      "game_id": "bronze",
+      "broker": {
+        "pid": 425957,
+        "engine_pid": 426021,
+        "state": "running",
+        "session_id": "bronze-edcd114f65",
+        "started_at": "2026-09-25T02:35:01.081314+00:00"
+      },
+      "manifest": {
+        "game_id": "bronze",
+        "title": "Bronze",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/Bronze.zblorb",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/bronze-walkthrough.txt",
+        "walkthrough_url": "https://i7-examples.github.io/Bronze/Walkthrough.txt",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/bronze.json",
+        "story_sha256_expected": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+        "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+        "dataset_split": "train",
+        "game_family": "bronze",
+        "zmachine_version": 8,
+        "release": 11,
+        "serial": "060503",
+        "session_id": "bronze-edcd114f65",
+        "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+        "started_at": "2026-09-25T02:35:01.081199+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "startup": {
+        "event_id": "bronze-edcd114f65:e00001",
+        "timestamp": "2026-09-25T02:35:01.081004+00:00",
+        "game_id": "bronze",
+        "session_id": "bronze-edcd114f65",
+        "branch_id": "b0",
+        "event_index": 1,
+        "event_type": "startup",
+        "command": null,
+        "response": "\n\n\n\nWhen the seventh day comes and it is time for you to return to the castle in \nthe forest, your sisters cling to your sleeves.\n\n\"Don't go back,\" they say, and \"When will we ever see you again?\" But you \nimagine they will find consolation somewhere.\n\nYour father hangs back, silent and moody. He has spent the week as far from you \nas possible, working until late at night. Now he speaks only to ask whether the \nBeast treated you \"properly.\" Since he obviously has his own ideas about what \nmust have taken place over the past few years, you do not reply beyond a shrug.\n\nYou breathe more easily once you're back in the forest, alone.\n\n\n\n\nBronze\nA fractured fairy tale by Emily Short\nRelease 11 / Serial number 060503 / Inform 7 build 3K27 (I6/v6.30 lib 6/10N) \n\n Drawbridge                                                             N\n Great Outdoors                                                         .\n Rooms searched: 0/55\nHave you played interactive fiction before? >",
+        "raw_start": 0,
+        "raw_end": 981,
+        "response_sha256": "054985e58006f300e32235fc50621ceda98e7c48f18dc9586435be1f17cb9b75",
+        "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "system"
+        },
+        "review_status": "unreviewed"
+      },
+      "run_dir": "/work/experiments/lanthorn-recall-training/runs/fullplay-bronze-20260925T023532Z-rXkvsK",
+      "processes": [
+        " 425957   20232       01:03 python3 scripts/run_new_game.py control/fullplay-expansion-20260925-batch3.json bronze",
+        " 428080   20232       00:31 bash ./run-fullplay.sh bronze",
+        " 428151  428080       00:31 timeout --signal=TERM --kill-after=10s 2700s muse exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/bronze --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-bronze-20260925T023532Z-rXkvsK/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context",
+        " 428152  428151       00:31 /home/krickert/.local/bin/muse-bin-1.3.0-R3401.1 exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/bronze --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-bronze-20260925T023532Z-rXkvsK/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context"
+      ]
+    },
+    {
+      "game_id": "905",
+      "broker": {
+        "pid": 426131,
+        "engine_pid": 426230,
+        "state": "running",
+        "session_id": "905-0674f2e54c",
+        "started_at": "2026-09-25T02:35:02.271218+00:00"
+      },
+      "manifest": {
+        "game_id": "905",
+        "title": "9:05",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/zcode/905.z5",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/905-walkthrough.txt",
+        "walkthrough_url": "https://jayisgames.com/review/905.php",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions. Multiple endings exist; pursue a full non-arrest escape route after the morning sequence. Do not stop simply by waiting for the bonus timeout or reaching a failure ending.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/905.json",
+        "story_sha256_expected": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+        "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+        "dataset_split": "train",
+        "game_family": "905",
+        "zmachine_version": 5,
+        "release": 1,
+        "serial": "120724",
+        "session_id": "905-0674f2e54c",
+        "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+        "started_at": "2026-09-25T02:35:02.271114+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "startup": {
+        "event_id": "905-0674f2e54c:e00001",
+        "timestamp": "2026-09-25T02:35:02.270951+00:00",
+        "game_id": "905",
+        "session_id": "905-0674f2e54c",
+        "branch_id": "b0",
+        "event_index": 1,
+        "event_type": "startup",
+        "command": null,
+        "response": "\n\n\n\nThe phone rings.\n\nOh, no - how long have you been asleep? Sure, it was a tough night, but... This \nis bad. This is very bad.\n\nThe phone rings.\n\n  -----\n9:05 by Adam Cadre\nv1.11 (2012.0724) / Original release 2000.0103\n  -----\n\nBedroom (in bed)\nThis bedroom is extremely spare, with dirty laundry scattered haphazardly all \nover the floor. Cleaner clothing can be found in the dresser. A bathroom lies \nto the south, while a door to the east leads to the living room.\n\nOn the end table are a telephone, a wallet and some keys.\n\nThe phone rings.\n\n>",
+        "raw_start": 0,
+        "raw_end": 550,
+        "response_sha256": "420fe2b1275cac4fe5eab1573c0c556677277bff7db83fd49816ed83161c37a6",
+        "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "system"
+        },
+        "review_status": "unreviewed"
+      },
+      "run_dir": "/work/experiments/lanthorn-recall-training/runs/fullplay-905-20260925T023533Z-chOrmH",
+      "processes": [
+        " 426131   20232       01:02 python3 scripts/run_new_game.py control/fullplay-expansion-20260925-batch3.json 905",
+        " 428241   20232       00:30 bash ./run-fullplay.sh 905",
+        " 428312  428241       00:30 timeout --signal=TERM --kill-after=10s 2700s muse exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/905 --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-905-20260925T023533Z-chOrmH/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context",
+        " 428313  428312       00:30 /home/krickert/.local/bin/muse-bin-1.3.0-R3401.1 exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/905 --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-905-20260925T023533Z-chOrmH/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context"
+      ]
+    },
+    {
+      "game_id": "violet",
+      "broker": {
+        "pid": 426279,
+        "engine_pid": 426346,
+        "state": "running",
+        "session_id": "violet-bfdc33ea8f",
+        "started_at": "2026-09-25T02:35:03.470302+00:00"
+      },
+      "manifest": {
+        "game_id": "violet",
+        "title": "Violet (competition edition)",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/ifcomp/2008/zcode/violet/violet.zblorb",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/violet-walkthrough.txt",
+        "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2008/zcode/violet/solution.txt",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/violet.json",
+        "story_sha256_expected": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+        "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+        "dataset_split": "test",
+        "game_family": "violet",
+        "zmachine_version": 8,
+        "release": 1,
+        "serial": "080929",
+        "session_id": "violet-bfdc33ea8f",
+        "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+        "started_at": "2026-09-25T02:35:03.470189+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "startup": {
+        "event_id": "violet-bfdc33ea8f:e00001",
+        "timestamp": "2026-09-25T02:35:03.469964+00:00",
+        "game_id": "violet",
+        "session_id": "violet-bfdc33ea8f",
+        "branch_id": "b0",
+        "event_index": 1,
+        "event_type": "startup",
+        "command": null,
+        "response": "\n\n\n\nCalm down.  All you have to do is write a thousand words and everything will be \nfine.  And you have all day, except it's already noon.\n",
+        "raw_start": 0,
+        "raw_end": 140,
+        "response_sha256": "a33607f67f74822809697d0e8ba048707958106db2074c63df2fb389fb5afc22",
+        "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "system"
+        },
+        "review_status": "unreviewed"
+      },
+      "run_dir": "/work/experiments/lanthorn-recall-training/runs/fullplay-violet-20260925T023534Z-C2bFmB",
+      "processes": [
+        " 426279   20232       01:00 python3 scripts/run_new_game.py control/fullplay-expansion-20260925-batch3.json violet",
+        " 428412   20232       00:29 bash ./run-fullplay.sh violet",
+        " 428492  428412       00:29 timeout --signal=TERM --kill-after=10s 2700s muse exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/violet --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-violet-20260925T023534Z-C2bFmB/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context",
+        " 428493  428492       00:29 /home/krickert/.local/bin/muse-bin-1.3.0-R3401.1 exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/violet --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-violet-20260925T023534Z-C2bFmB/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context"
+      ]
+    },
+    {
+      "game_id": "slouching-bedlam",
+      "broker": {
+        "pid": 426395,
+        "engine_pid": 426459,
+        "state": "running",
+        "session_id": "slouching-bedlam-bb653b6ab4",
+        "started_at": "2026-09-25T02:35:04.655583+00:00"
+      },
+      "manifest": {
+        "game_id": "slouching-bedlam",
+        "title": "Slouching Towards Bedlam (competition edition)",
+        "engine": "zvm-cli",
+        "story": "/home/krickert/if-games/ifcomp/2003/zcode/slouch/slouch.z5",
+        "walkthrough": "/work/experiments/lanthorn-recall-training/control/slouching-bedlam-walkthrough.txt",
+        "walkthrough_url": "https://ifarchive.org/if-archive/solutions/slouch.sol",
+        "response_timeout_seconds": 180,
+        "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions. The guide documents five deliberately ambiguous endings. Complete a substantive intended branch, identify its ending and preceding investigation; do not classify it as a happy win or require all five. Distinguish an intended tragic finale from an ordinary failure.",
+        "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/slouching-bedlam.json",
+        "story_sha256_expected": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+        "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+        "dataset_split": "development",
+        "game_family": "slouching-bedlam",
+        "zmachine_version": 5,
+        "release": 1,
+        "serial": "030925",
+        "session_id": "slouching-bedlam-bb653b6ab4",
+        "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+        "started_at": "2026-09-25T02:35:04.655470+00:00",
+        "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+      },
+      "startup": {
+        "event_id": "slouching-bedlam-bb653b6ab4:e00001",
+        "timestamp": "2026-09-25T02:35:04.655295+00:00",
+        "game_id": "slouching-bedlam",
+        "session_id": "slouching-bedlam-bb653b6ab4",
+        "branch_id": "b0",
+        "event_index": 1,
+        "event_type": "startup",
+        "command": null,
+        "response": "\n\n*clunk*\n\nThe rotating tin cylinder within the phonograph vibrates slightly as a brass \nneedle scrapes against it. The sound of a throat being cleared emerges from the \nmachine's hornshell speaker, followed by a thin, haunting voice.\n\n\"March the 16th.\"\n\nA deep, shaky breath.\n\n\"I dread to say it, but I believe I am going mad. The -- *moments* -- come more \nfrequently now. I fear that I have found what I have sought, and I shall now \npay the price for it.\"\n\nThe scrape of a chair across flagstone. A sigh.\n\n\"Chaos treads the halls of Bedlam; her work is evident everywhere...\"\n\nSlouching Towards Bedlam\nAn entry in the 9th Annual Interactive-Fiction Competition\nCopyright 2003 by Star C. Foster and Daniel Ravipinto\n[First time players should type 'about'. Credits are available via 'credits'.]\nRelease 1 / Serial number 030925 / Inform v6.21 Library 6/10 \n\nOffice\nA massive cedar desk, well-polished and worn, looks elegantly out-of-place \namong the chaos. Papers, files, and books cover nearly every flat surface in \nthe room.\n\nThere is a phonograph on the table near the window.\n\nA black cube on wheels sits near the door to the south.\n\n>",
+        "raw_start": 0,
+        "raw_end": 1144,
+        "response_sha256": "d47d0ef98cd1c976cb5addf27a1d499eab533cb90759ea17efacde2712afc6fb",
+        "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+        "engine_state": "awaiting_input_or_idle",
+        "metadata": {
+          "origin": "system"
+        },
+        "review_status": "unreviewed"
+      },
+      "run_dir": "/work/experiments/lanthorn-recall-training/runs/fullplay-slouching-bedlam-20260925T023536Z-m8LMwA",
+      "processes": [
+        " 426395   20232       00:59 python3 scripts/run_new_game.py control/fullplay-expansion-20260925-batch3.json slouching-bedlam",
+        " 428648   20232       00:27 bash ./run-fullplay.sh slouching-bedlam",
+        " 428754  428648       00:27 timeout --signal=TERM --kill-after=10s 2700s muse exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/slouching-bedlam --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-slouching-bedlam-20260925T023536Z-m8LMwA/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context",
+        " 428756  428754       00:27 /home/krickert/.local/bin/muse-bin-1.3.0-R3401.1 exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/slouching-bedlam --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-slouching-bedlam-20260925T023536Z-m8LMwA/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context"
+      ]
+    }
+  ]
+}

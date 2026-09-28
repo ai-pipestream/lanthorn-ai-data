@@ -1,0 +1,136 @@
+[
+  {
+    "filename": "Teacher_Feature.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Teacher_Feature.txt",
+    "accessed_at": "2026-09-25T09:12:29.114746+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Teacher_Feature.txt",
+    "sha256": "8b65eb8f96d877f581dbdfddfb3d3c67ac79656f951b5b134ff34e33892f6aa5",
+    "bytes": 2374
+  },
+  {
+    "filename": "eric_dm.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/eric_dm.sol",
+    "accessed_at": "2026-09-25T09:12:29.125412+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/eric_dm.sol",
+    "sha256": "a89e58bf27c017782bc34a76d3be2add3a13ad358f8d555b5205797d121c6441",
+    "bytes": 1353
+  },
+  {
+    "filename": "adventure-walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/adventure-walkthrough.txt",
+    "accessed_at": "2026-09-25T09:12:29.118674+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/adventure-walkthrough.txt",
+    "sha256": "4d8c6d5174b6964fda0fc02e92e467e153db0e90a3683bda7628b01a330b0e56",
+    "bytes": 14085
+  },
+  {
+    "filename": "RANS_walkthrough.rtf",
+    "url": "https://ifarchive.org/if-archive/solutions/RANS_walkthrough.rtf",
+    "accessed_at": "2026-09-25T09:12:29.124590+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/RANS_walkthrough.rtf",
+    "sha256": "b5710ee628e01c91d82dc1b4376a1011de55da9ca34819bec9709ead59cd04ae",
+    "bytes": 79058
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T09:12:29.190900+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T09:12:29.203964+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "WomanHints.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/WomanHints.txt",
+    "accessed_at": "2026-09-25T09:13:34.996840+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/WomanHints.txt",
+    "sha256": "3222bb55b5330fee6ea26ddb2100e9158ebd91f4d3b7346ca9e8271cde0bb861",
+    "bytes": 123179
+  },
+  {
+    "filename": "zorkian1.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+    "accessed_at": "2026-09-25T09:13:57.404798+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+    "sha256": "ebd0fe3779c6ea93002fb0200faccf8afc617d4c9daff973dc812f7ca6f537d9",
+    "bytes": 803
+  },
+  {
+    "filename": "iceprin.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/iceprin.sol",
+    "accessed_at": "2026-09-25T09:17:58.947209+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/iceprin.sol",
+    "sha256": "4f8eb494bd36e1ea275327eddc4004dcbce185c374895b02e7a221a70a873846",
+    "bytes": 5855
+  },
+  {
+    "filename": "teacher.inf",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/teacher.inf",
+    "accessed_at": "2026-09-25T09:17:59.222718+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/teacher.inf",
+    "sha256": "a8707aa5de89d82213803e36f9f769cb246bf54ccb5d7d9176c4885e3291b654",
+    "bytes": 124299
+  },
+  {
+    "filename": "Funhouse.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Funhouse.txt",
+    "accessed_at": "2026-09-25T09:19:19.188879+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Funhouse.txt",
+    "sha256": "457ba1384026901df503b4bb48ac797389c80bc65103c2e522dda1ca4bc679aa",
+    "bytes": 1241
+  },
+  {
+    "filename": "scott-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/",
+    "accessed_at": "2026-09-25T09:19:19.264835+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/",
+    "sha256": "41b87ccdf756374f0befc92e6dac2c717fa9a0c12e586025d79faf945cf871d6",
+    "bytes": 13464
+  },
+  {
+    "filename": "AdamsGames.remote.zip",
+    "url": "https://ifarchive.org/if-archive/scott-adams/games/scottfree/AdamsGames.zip",
+    "accessed_at": "2026-09-25T09:19:19.329976+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/scott-adams/games/scottfree/AdamsGames.zip",
+    "sha256": "6a79737d6359414dbaa8e4ba246f776301e5ce1a23194a43c431dbedf288e882",
+    "bytes": 107198
+  },
+  {
+    "filename": "teacher.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/teacher.z5",
+    "accessed_at": "2026-09-25T09:19:50.918653+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/teacher.z5",
+    "sha256": "9ebae616eae331c1a6f2cb3ad4db25fb83cbb40c42b9d6f26f57e821556ada67",
+    "bytes": 118784,
+    "local_path": "/home/krickert/if-games/zcode/teacher.z5",
+    "byte_identical": true
+  },
+  {
+    "filename": "woman.z8.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/woman.z8",
+    "accessed_at": "2026-09-25T09:19:50.943364+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/woman.z8",
+    "sha256": "041c0c5028998beed62506abc83632bd45e9bbb848e90b6f93e7364fed0e46b8",
+    "bytes": 478720,
+    "local_path": "/home/krickert/if-games/zcode/woman.z8",
+    "byte_identical": true
+  },
+  {
+    "filename": "ZorkianStories1-GUE.zblorb.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/ZorkianStories1-GUE.zblorb",
+    "accessed_at": "2026-09-25T09:19:50.939712+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/ZorkianStories1-GUE.zblorb",
+    "sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "bytes": 380454,
+    "local_path": "/home/krickert/if-games/zcode/ZorkianStories1-GUE.zblorb",
+    "byte_identical": true
+  }
+]

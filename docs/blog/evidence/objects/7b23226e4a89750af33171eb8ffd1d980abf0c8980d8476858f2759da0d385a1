@@ -1,0 +1,8 @@
+# Return to Karn — progress (continuation point, branch b1)
+
+Location: On Top of Saucer b1 (e00137-e00138), score 20. Homing placed in hatch, hatch closed. Battery dropped/spilled acid below on get (e00136).
+Inventory b1: homing placed (no longer carried), screwdriver, scalpel, match, gold card, jacket/hat worn, yo-yo, key; scarf tied above.
+Cases: b0 ~26; b1 sequence guided (retie/climb/open/get/put/close). Pending: m0114 down to Plain. Next m0115+.
+Checkpoints: saucer-top-b1 verified; ledge/plain b0.
+Hints: e00126 (D; Put screwdriver in toolkit; Get battery next). Toolkit conflict: left in workshop — verify in game.
+Resume: read m0114, examine spilled battery/acid below, then toolkit question. Game incomplete.

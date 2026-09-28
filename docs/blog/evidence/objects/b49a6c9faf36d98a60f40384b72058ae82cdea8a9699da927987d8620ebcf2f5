@@ -1,0 +1,9 @@
+# Ghost Train progress — active, game incomplete
+
+Location: Chapel interior (e00275) — pews/altar/lectern Bible, candlelight, inscription above EAST door, SOUTH back outside.
+Inventory (last e00202 + black key e229, ticket punched e232): bulldog lamp lit, necklace, rusty/brass/black keys, punched ticket.
+Checkpoints verified: start; before-signalbox; signalbox-inside; after-lever-pull; underground-entrance; waiting-room; second-train-red; cab-before-stop; cemetery-halt; chapel-inside (e269-270).
+Last hint: lines 116-124 (X DANCERS+NORTH chapel done; X CHAPEL+NORTH inside; X INSCRIPTION; X BIBLE/GET; X PEWS/LECTERN; EAST bell room PULL ROPE does little, X ROPE hints CLIMB ROPE).
+Resolved: x dancers e261; north e262 chapel path south; enter chapel e263 fail -> x chapel e266 + north e267 success (m0250 syntax); x inscription e271 demon poem; x bibble e272 fail -> x bible e273 In the beginning (m0255 vocab); get bible e275 blocked church-not-library.
+Unresolved: X PEWS/LECTERN, bell room rope climb, third train + demon escape + final rescue (60-turn window — checkpoint before commitment).
+Next: x pews; x lectern; east to bell room; probe pull rope then climb rope; single commands, lamp lit. Continuation: read latest.json (e275) + progress.md, resume at chapel prompt.

@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-25T06:42:10.228107+00:00",
+  "url": "https://eblong.com/zarf/ftp/sofar-src.tar.gz",
+  "sha256": "ac129e72c44309ea9e1d5e282e411b9324761fc948c9f906d447ac0c1c94ffc2",
+  "files": {
+    "http-headers.txt": "2f3e1eb23ec177a45d8cb26d8146bf43fed120752ab3e76a8ae9807e7762277f",
+    "sofar-src.tar.gz": "ac129e72c44309ea9e1d5e282e411b9324761fc948c9f906d447ac0c1c94ffc2",
+    "README": "fba965963067b4ebfaa0d5387f239a14151acd68cf5473c9f504d6f5adbb0ba2",
+    "sofar_dark.inf": "b220b3f70fd173bc80ca6307c90e43e95cfc86b1329a8e852fbba73aee7fcdb6"
+  },
+  "purpose": "Private source-derived supplemental hint. Not rebuilt/executed. Exact source release to be checked; hints not player observations."
+}

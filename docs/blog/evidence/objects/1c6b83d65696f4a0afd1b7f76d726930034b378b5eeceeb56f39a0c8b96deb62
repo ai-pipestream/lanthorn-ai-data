@@ -1,0 +1,21 @@
+# Gumshoe progress — Winchester surveillance, NO CAMERA (game incomplete)
+
+## State
+- b2 at Winchester Gardens e00402 (latest). Direct cab trip worked e00385 (Boggs only blocks follow-wording, not direct destination — key planning finding).
+- Exited cab e00386 (embrace ongoing). Detour to electronics store e00387: no camera for sale (parser doesn't know camera e00388; shelves generic e00390). Snapshot = photo of tall man e00389, not a camera.
+- Walkthrough: camera comes from office desk (Search desk, Wear camera) — MISSED ~300 turns ago. Photo op missed: couple inside, blue cab gone e00395.
+- Score 14 (up 1 on a wait e00397 — time-like tick). Waiting for John to leave: waits e00396-00402 all quiet. Pending m0349 (2x wait) NOT yet serviced — do NOT resubmit; read responses/m0349.json first.
+- Checkpoints: b2-winchester-store e00393-394 confirmed; b2-before-follow-blue; older: giuseppe-arrival, barbara-done, logitek-stakeout, office-opening, sandra-accepted. Branch b2, session gumshoe-2933d54ccf.
+- No ending; do not finish.
+
+## Inventory (as observed)
+- Carrying: Times, snapshot (photo of tall man ~45, salt-and-pepper), card, license, money. NO camera.
+
+## Cases / pending annotation
+- Annotated: taxi-exit none, license-receptionist none, man-ambiguity. Pending: newspaper/funeral, snapshot, funeral-show, x nicole; NEW: follow-too-early e00376, Boggs-block pair e00379/e00382 (world_state), direct-destination success e00385 (planning alternative), camera-ask vocab fail e00388, snapshot-identify e00389.
+- Hints: m0338-339 (photo cmd; camera from office desk).
+
+## Next
+1. Read responses/m0349.json; keep waiting for John, then Open door per walkthrough.
+2. Learn Winchester interior for replay; photo point likely lost this branch.
+3. Long-term: restore b2-office-opening, replay WITH camera (reuse route knowledge, batch on understood stretches). Continue, do not restart.

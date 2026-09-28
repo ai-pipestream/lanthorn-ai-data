@@ -1,0 +1,9 @@
+# Not Just A Game — progress
+
+State: Dim Chamber, Go board puzzle in progress (branch b0). Score 4.
+Inventory as observed: matches, 3 white stones + booklet (1 placed), gold stone, business card. Black stones on board: G3 G6 C3 C6.
+Route: 'enter passageway' refused (e00069) -> 'd' to Dim Chamber (e00070, annotated e00071). 'look at pedestal' accepted: wood Go board on top (e00072, annotated e00073 none). 'x board' showed 9x9 board, black at G3 G6 C3 C6, placement syntax PUT/PLACE/PLAY (e00074). Probe 'put stone on c2' asked disambiguation (e00075); answered 'white', O placed on C2 (e00076).
+Cases (~24): latest board-place-unspecified ambiguity (e00075 + correction e00076).
+IN-FLIGHT: inbox/m0073.json (annotate e00075->e00076) submitted, response pending. Do NOT resubmit. On continuation: read responses/m0073.json first, then PLACE WHITE STONE ON C4, PLAY ... B3, PUT ... D3, then CAPTURE C7 per hint; request help excerpt if capture step unclear.
+Last hint (e00021): Under House: PUT WHITE STONE ON C2/C4/B3/D3, CAPTURE C7. Guidance only.
+Checkpoints: start-living-room, before-safe, after-lever (all confirmed). Game incomplete: board capture, tunnel NE, cube/crystal/spheres ahead.

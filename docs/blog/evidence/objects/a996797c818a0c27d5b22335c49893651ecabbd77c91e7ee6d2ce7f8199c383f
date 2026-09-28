@@ -1,0 +1,12 @@
+# Mansion progress (continuation seg 1, IN PROGRESS — game incomplete)
+
+Location: Entrance Hall (ordinary prompt). Branch b1.
+Inventory: unchanged. Score 4. Torch OFF (conserved). Restore point: top-attic-torch.
+
+HUGE LEAD + PUZZLE: Help lines 296-304: examine pickles / E / N / E / N / get fruit / S / W / S. Verified in R3: Basement E->Kitchen, Kitchen N->Dining, Dining E->Bottom, Bottom N->Hall. But Hall has NO fruit (get fruit e00510 can't-see; only flavor round table). Either R1-guide/R3-map drift (guide predates R3!) or fruit needs a trigger. Return path S/W/S (Hall>Bottom>Dining>Kitchen) confirms mixture assembled in Kitchen.
+Same 3-move S/W/S pattern in candle hint (lines 76-84: get candle, S/W/S to Kitchen with knife+saucepan+stove) suggests candle ALSO mapped via Hall in guide — Dining candlesticks NOT referable in R3 (scenery). Possible R1/R3 drift for both.
+Theory: jar = jar of FROGS' EYES (walkthrough mixture has no separate eyes step; open jar/empty into pan covers eyes). Jar + ugli + candle all still unfound in R3.
+Attic searched (empty even lit; beams not referable). Pine tree/hawk/canister done. Pool chain + pump house done. Map fully connected otherwise.
+
+Cases: ~22. 1 unresolved: syn-jar-pickles.
+Next: micro-search R3 (dining table/chairs/portraits, kitchen cooker/table/board, conservatory pots, pool waters with boots?, car boot/under, library shelves/curtains, bottom-south exit?); help for candle preceding context + jar noun variants (preserves/jam); consider R1/R3 drift report to parent if fruit/candle unlocatable.

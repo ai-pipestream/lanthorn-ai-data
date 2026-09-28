@@ -1,0 +1,21 @@
+# Varicella — collection progress
+
+## State (event e00183, branch b1)
+- Location: Prince Louis's Quarters (SW tower top). Ordinary prompt. Trash searched: pizza, pornographic magazine, empty cheez-puff bags; 'take pizza' refused as too low-class/month-old (e182, world_state failure stands, annotated e183).
+- Since last update: Salon exhausted (volumes refusal, tea porcelain, chairs reupholstered, word-order 'chairs examine' rejected e155 -> 'examine chairs' works e156, annotated e157); routed Salon E->W Ballroom S->SW ant E->Foyer E->SE ant SE->SE tower Up->asylum top (guarded) Down->upper SE ant N->Eastern Hall (Rico guard sausage, cooler 'Don't touch' e172); S->SE ant W->Southern Hall W->SW ant SW->SW tower middle Up->SW top SW->Louis quarters; look confirms no listed valuables.
+- Eastern Hall: west blocked — 'balcony isn't capable... windowbox' (e170); 'x windowbox' guardrails only (e171); 'open cooler' blocked by guard (e172). SE tower top is palace asylum (guarded), not Primo's quarters. Primo's own quarters / spying equipment still unlocated (NW tower top unvisited).
+- Inventory: Queen's letter + master key only. No francs. Sierra still needs 500 francs for Venice country code; access 6970 obtained earlier (Rico-bribe risk).
+- Hints: e158/e159 Wehrkeit/Bonfleche overviews repeated; e173 Louis topic returned generic rivals list (not helpful). Francs source still unknown.
+
+## Checkpoints
+- early-saloon, foyer-mapped, before-throne, sierra-found (b0) + sierra-found re-verified b1. No new checkpoint; will save at ordinary prompt once francs route clear.
+
+## Cases (annotated)
+- Prior 12 + salon-chairs-wordorder-01 (syntax e155/e156) + louis-pizza-take-01 (world_state failure stands e182).
+- In-progress/unannotated Salon/East/Louis set: volumes (e151), tea (e153), chairs (e154), fountain slime (e148), fridge (e142), servants blocked (e143), balcony-west blocked (e170), windowbox (e171), cooler-open blocked (e172), Louis look (e180), Louis trash search (e181).
+- Still needed: reasonable-wrong-object beyond pizza? (pizza counts), typo variety, ambiguity/pronoun, diverse 20-40 across full game.
+
+## Next actions
+- Exit Louis (NE), hunt money: courtyard malt-liquor bottle (take?), kitchen chef/steward/silverware, throne phone (call China free?), chapel, NW tower top (possible Primo quarters?), asylum guard?
+- Ask help with sharper topics: 'Rico treasury donate step-by-step', 'steward silverware', 'Bonfleche spying equipment own quarters location', 'step-by-step walkthrough opening commands'.
+- Once funded: pay Sierra, get Venice info + country code, verify 6970, call Venice from throne. Then Bonfleche 2 o'clock spying; Modo/Rico/Louis after. Single commands near hazards; conserve timed moves.

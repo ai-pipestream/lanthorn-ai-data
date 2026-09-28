@@ -1,0 +1,98 @@
+{
+  "game_id": "zuni-doll",
+  "title": "The Zuni Doll",
+  "url": "https://ifarchive.org/if-archive/solutions/doll.sol",
+  "accessed_at": "2026-09-25T06:02:04.099448+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/doll.sol",
+  "source_sha256": "ba4bf916f0667300a3d2d3a17aab526c1d6c355fa7598ee7d5a435effc22aa43",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/walkthrough.txt",
+  "normalized_sha256": "ba4bf916f0667300a3d2d3a17aab526c1d6c355fa7598ee7d5a435effc22aa43",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/doll.z5",
+  "story_sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/doll.z5",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/doll.z5",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 5,
+    "release": 1,
+    "serial": "971031",
+    "header_hex": "0500000132b032b12313010a0ff71b68001039373130333100424ad80cb9000000000000000000000000000000000000000000000000010200000000362e3134",
+    "header_sha256": "9da5a621ea74b4f4cbb880522704ca70b53fbc9c7ca11cadfb739c1dafcbdc5a",
+    "checksum": "0cb9",
+    "computed_checksum": "0cb9",
+    "checksum_valid": true,
+    "file_bytes": 76800,
+    "declared_file_bytes": 76640
+  },
+  "compatibility": "Ambat Sasi Nair guide gives no release/serial; story R1/971031. Timed pursuit and intermediate defeats of the doll are not final.",
+  "compatibility_status": "needs_smoke_check",
+  "guide_version_match": "unspecified_or_port_gap",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "vdzom99fus581ak8",
+    "guide_tuid": "vdzom99fus581ak8",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/doll.sol",
+      "accessed_at": "2026-09-25T06:02:04.099448+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/doll.sol",
+      "sha256": "ba4bf916f0667300a3d2d3a17aab526c1d6c355fa7598ee7d5a435effc22aa43",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/doll.z5",
+      "accessed_at": "2026-09-25T06:03:44.348085+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/doll/doll.z5",
+      "sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "zuni-doll",
+    "proposed_split": "train",
+    "existing_corpus_checked": true,
+    "reason": "No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together."
+  },
+  "completion": "Require the final destruction of the doll in the disposal and its resulting authored conclusion. Trapping it in the freezer, temporarily disabling it, death or 60 points alone is insufficient.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "971031",
+  "author": "Jesse Burneko"
+}

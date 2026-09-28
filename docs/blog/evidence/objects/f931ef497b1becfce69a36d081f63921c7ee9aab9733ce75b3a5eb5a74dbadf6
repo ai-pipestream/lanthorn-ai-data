@@ -1,0 +1,10 @@
+# Jigsaw progress (update 47 — SEGMENT 8, WRECKED x2, REDO PLANNED, game incomplete)
+
+Location: POST-GAME prompt (branch b5, e01884): wrecked history, 88/100, 1196 turns. Game NOT complete.
+ROOT CAUSE (darkness): sparkler (the permanent lamp) snatched by Black in Ch9 (m0808), sat in Disc Room ever since (m0908/m1022/m1056/m1088 sightings, never re-taken). Ch12 cable room needs it; walkthrough assumes it carried. Our Ch12 inventory (m1146) lacks it.
+WRECK TRIGGER (proven, 2x): entering the Monument with FULL board (16/16, incl. Ch9's a3 piece; Ch12 pieceless per walkthrough) WHILE CH12 ACTIVE = instant bad ending (Socialist-Union-1999, 88/100). e01870 (hand~0/alarm-on) AND e01884 (hand-59/alarm-off) both wrecked -> NOT clock-state; = Ch12-active lock-in. Ch11's full-board entries safe (Ch12 inactive). Mid-Ch12 sparkler run IMPOSSIBLE (Disc Room's only exit is Monument).
+UP-MATRIX (dark#2 manhole): closed+car@Corner=long-fail (e01831); open+carAway=short-fail (e01845); open+car@Corner=short-fail (e01861). Car position irrelevant on pushed manhole. PRISTINE+carAway UNTESTED (needs fresh Ch12). Manhole not closable from above (e01853 can't-see).
+REDO PLAN: restore monument-16lit (m1039, post-Ch10/pre-Ch11 hub, Ch12-inactive) -> southeast to Disc Room? -> get sparkler -> Monument (safe) -> press d3 -> REDO Ch11 (Enigma route known from e01652-80) -> press a3 -> REDO Ch12 WITH sparkler, parking car at Brandenburg (w,w,OUT, walk south) to test pristine+carAway up-cell -> tie/up/drive finale -> endgame.
+Cases: 82 annotated. No pending. Help: lines ~1372-80 (m1173); Ch11 Enigma hints m1067-81 reusable.
+Checkpoints: ch12-pre-sparkler-run (b4/b5 mid-Ch12, sparklerless), ch12-manhole-open, ch12-before-descent, ch12-cleaner-present, ch12-unter-den-linden, ch12-start, ch11-start, monument-16lit (REDO BASE). Next: m1216.json. Last: m1215 (FULL at wreck prompt).
+NEXT: m1215 FULL (score breakdown intel) -> read m1030-48 (16lit start-state context) -> restore monument-16lit (b6) -> verify -> southeast/Disc Room/sparkler.

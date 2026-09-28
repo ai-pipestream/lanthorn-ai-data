@@ -1,0 +1,8 @@
+# BSE progress
+
+- Location: Country Lane (Turns 46, Score 5, e93/e94). Ordinary prompt confirmed.
+- Inventory (observed e90, then e93 stash): e90 carrying glass jar, briefcase (open, typed note inside), white coat worn empty, toy pistol (sound closed with watch battery), faxed note. e93 put briefcase in boot, so now carrying jar, coat worn, pistol, faxed note (briefcase+typed note in boot with remote, burnt battery, key ring). Typed note: Operation Red-Chevette Agent 667.
+- Checkpoints verified: start-lane, boot-open, coat-worn, briefcase-read (e83/e84). Continuation: restore briefcase-read if needed; no timed/lamp resources consumed; state is safe ordinary prompt. Note: inbox/m0079 briefly overwritten then restored to checkpoint briefcase-read; verified via search.
+- Cases this branch (~24): prior 20 + jar-examine vocab (inspect rejected, examine works e85/e86); jar-take none (get jar Taken e88); briefcase-stash syntax (put briefcase incomplete -> put in boot e92/e93); inventory-3 exploration (e90).
+- Last hints: lines 27-35 (Get jar, Put briefcase in boot) — now executed. Guidance only.
+- Next: help mode=next for post-briefcase route (pub/farm); checkpoint before risky/timed sequences. Then continue farm/laboratory investigation, demon encounter + timed return + final west per manifest. Keep probes 1-at-a-time.

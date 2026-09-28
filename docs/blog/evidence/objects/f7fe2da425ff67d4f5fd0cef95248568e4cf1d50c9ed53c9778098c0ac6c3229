@@ -1,0 +1,75 @@
+{
+  "game_id": "asylum",
+  "title": "Asylum",
+  "author": "cpuguy",
+  "url": "https://ifarchive.org/if-archive/solutions/asylum.sol",
+  "accessed_at": "2026-09-25T06:02:02.332381+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/asylum.sol",
+  "source_sha256": "d419117e8ab79c0b14918e734df53e4a3fe43b3666ce42f7d02e05a5e28d3b61",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/asylum-walkthrough.txt",
+  "normalized_sha256": "d419117e8ab79c0b14918e734df53e4a3fe43b3666ce42f7d02e05a5e28d3b61",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Asylum.z5",
+  "story_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+  "compatibility": "Guide identifies the Z-code Asylum but gives no release or serial. Archive identifies cpuguy R1/090721, matching the local header and byte-identical archive story. Do not confuse with the earlier commercial Asylum games.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "090721",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001581c581d4d1a010a174647280050303930373231004284336475000000000000000000000000000000004727000000000000010200000000362e3331",
+    "header_sha256": "7f83ed5587022f2c76d3337ecaa999b48792dd1521437901cea10b8478b3d79d",
+    "checksum_hex": "6475",
+    "declared_length": 135372,
+    "file_bytes": 135680
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "Asylum.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Asylum.z5",
+    "accessed_at": "2026-09-25T06:03:03.600351+00:00",
+    "remote_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+    "local_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+    "bytes": 135680,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "090721"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Asylum.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Asylum.z5\n◆\n[21-Jul-2009]\nIFDB entry\nIFWiki:\nAsylum (by cpuguy)\nAsylum, by cpuguy.\nRelease 1 / Serial number 090721."
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#asylum.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "asylum.sol\n◆\n[26-Oct-2009]\nSolution to the Z-code game Asylum."
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the compact escape route through the nested keys and tools to the breached wall and exit. The guide ends with YOU WIN; require the actual game conclusion, not the same words in a help excerpt.",
+    "limitations": "Very short guide; request only the needed local excerpt and do not cycle through it to reconstruct the whole guide. No release-specific runtime compatibility claim.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "asylum",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Modern cpuguy Asylum only; the common title does not establish a relationship to commercial Asylum."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

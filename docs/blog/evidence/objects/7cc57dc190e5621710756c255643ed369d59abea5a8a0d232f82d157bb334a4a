@@ -1,0 +1,233 @@
+{
+  "run": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T125706.646226Z",
+  "exit_code": 0,
+  "provider_exit_code": 0,
+  "status": "validated_proposal_only",
+  "error": null,
+  "parent_review_required": true,
+  "actions_executed": [],
+  "review_queue": [
+    {
+      "game_id": "pythos-mask",
+      "priority": "urgent",
+      "disposition": "hold",
+      "next_action": "preserve_hold"
+    },
+    {
+      "game_id": "anchorhead",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "augmented-fourth",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "bicon",
+      "priority": "normal",
+      "disposition": "verify_ending",
+      "next_action": "parent_verify_ending"
+    },
+    {
+      "game_id": "busted",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "critical-breach",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "curses",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "dash-slapney-patrol-leader",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "deephome",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "delusions",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "earth-and-sky-episode-1",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "enemies",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "fine-tuned",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "frozen",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "gumshoe",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "heist",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "hla-inform",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "i-0",
+      "priority": "normal",
+      "disposition": "verify_ending",
+      "next_action": "parent_verify_ending"
+    },
+    {
+      "game_id": "inside-woman",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "lecture-feature",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "mortlake-manor",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "not-just-a-game",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "only-after-dark",
+      "priority": "normal",
+      "disposition": "verify_ending",
+      "next_action": "parent_verify_ending"
+    },
+    {
+      "game_id": "punk-points",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "return-to-karn",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "schooldays",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "spider-and-web",
+      "priority": "normal",
+      "disposition": "verify_ending",
+      "next_action": "parent_verify_ending"
+    },
+    {
+      "game_id": "spiritwrak",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "teacher-feature",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "varicella",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "windhall",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    },
+    {
+      "game_id": "zorkian-stories-1-gue",
+      "priority": "normal",
+      "disposition": "diagnose",
+      "next_action": "parent_diagnosis"
+    }
+  ]
+}

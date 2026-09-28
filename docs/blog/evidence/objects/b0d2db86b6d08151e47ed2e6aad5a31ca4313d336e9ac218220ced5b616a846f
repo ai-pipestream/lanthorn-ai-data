@@ -1,0 +1,14 @@
+# Mother Loose — progress (update 8 FINAL, e00187)
+
+COMPLETED: Genuine winning ending reached.
+Location: Inside the Clock Tower, Score 50, Moves 109.
+Sequence: get kitten stairs (e00172 mouse/key reveal) → pick up key +2 (e00174, score 25) → unlock door with key (e00176) → s into clock tower (e00179) → look at figure = Mother +5 (e00180, score 30) → n +20 (e00181, score 50, 'Yes, let's go home') → z final (e00182, Humpty faint, water, 'And you all live happily ever after. THE END').
+
+Inventory at end: key taken; basket/spoon/dish dropped on stairs by gong, then presumably recovered? (look e00173 lists basket/spoon/dish on stairs; after unlock they remain there).
+Checkpoints (verified): start-fence, forest-hairpin, meadow-ladder, fence-rescue, ladder-returned, hilltop-kitten, stairs-unlocked (e00177-178).
+
+Cases (diverse, synthetic_probe labeled): egg-typo, egg-chat-verb, forest-walk-north, pot-grab, pot-open-phrasing, pot-drop, basket-get, forest-southwest, door-knock-omitted, bungalow-unlock (planning), mary-hairpin-give, mary-ladder-ask, ladder-typo/encumbered, ladder-lean, well-ladder-place (vocab), well-call-kitty, kitten-take/catch squirm (none/world_state), meadow-south blocked, cottage-door-open (locked), cottage-kitten-examine, stairs-key-pickup (none), stairs-unlock-omitted (syntax), stairs-kitten-get (world_state), figure-look-variation (none).
+Pending: well-basket-lower branch (b0, superseded by ladder solution via restore); cottage door never unlocked (clock tower was the key door).
+
+Last hints: m0143 e00164 lines 39-47 (sw/nw/s/s/take kitten/take key/unlock/s/x figure) located the stairs/mouse/key path.
+Next: submit finish with e00182 evidence; parent review required (family/split, provenance, finale).

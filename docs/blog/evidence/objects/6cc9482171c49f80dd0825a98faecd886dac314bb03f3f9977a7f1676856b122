@@ -1,0 +1,7 @@
+# Balances progress (segment 2, game INCOMPLETE)
+
+Branches: b0 trapped, b1 bazaar, b2 main (Edge of Chasm e337, score 25).
+Latest: b2 snake urbziged to daffodils (e00335), 2nd cube taken score 25 (e00337). Inventory: balance cube, 2nd white cube (unlabeled), feather, book (lobal+urbzig), bronze coin, burin light, silver? (silver on scales left, bronze taken). Scales balanced left silver+2gold vs right 3gold. Door open. Score 25.
+Checkpoints: prior + b2-after-urbzig (e00330 verified).
+Cases: + b2-scales-02 ambiguity (pan disambiguation), b2-snake-01 world_state (learn urbzig prerequisite).
+Continuation: label 2nd cube (need word? check help), carpet/bazaar lottery (2306 elephant+5802 cube per old plan), caskly/gnusto lobal WITH feather swap, lobal me at temple, endgame. Next: help for cube label + bazaar/carpet, then synthetic probe before canonical label.

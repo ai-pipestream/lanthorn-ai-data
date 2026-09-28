@@ -1,0 +1,8 @@
+# Gerbil Riot progress
+
+Location: Your Cell (picture taken, cat photo described). Inventory: syringe, picture.
+Checkpoints: start-treatment, after-picture (verified e00034-35).
+Cases: syringe-typo vocab; cupboard-open-locked unresolved world_state; corridor-east-synonym none; large-room-enter syntax; film-watch-typo vocab; picture-get-synonym none; picture-here-probe world_state (cinema/corridor fail, cell success); picture-examine-pronoun none.
+Last hint (lines 12-20): North Take picture, South East East North.
+Next: South to corridor, East East, North per hint. Collect probe on the way (e.g., word-order or omitted object).
+Pending: none. All responses processed to m0032.

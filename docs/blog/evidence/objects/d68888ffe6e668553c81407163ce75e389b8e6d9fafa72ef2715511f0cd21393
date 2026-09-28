@@ -1,0 +1,25 @@
+{
+  "event_id": "hunt-for-relief-b4de5c739d:e00169",
+  "timestamp": "2026-09-25T07:49:59.432181+00:00",
+  "game_id": "hunt-for-relief",
+  "session_id": "hunt-for-relief-b4de5c739d",
+  "branch_id": "b0",
+  "event_index": 169,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 22014,
+  "raw_end": 22014,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "hunt-for-relief-b4de5c739d",
+    "ending_quote": "What a relief! Finally, you allow the things down in your stomach to finish \ntheir journey.\n\n\n    *** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 83 turns.",
+    "evidence_event_ids": [
+      "hunt-for-relief-b4de5c739d:e00167"
+    ],
+    "notes": "Full glue/key/bathroom route completed to sitting on opened toilet. Score 20/20 with authored relief narrative and You have won, not death, chapter transition, guide note, or quit. Game at RESTART/RESTORE/QUIT prompt."
+  },
+  "review_status": "unreviewed"
+}

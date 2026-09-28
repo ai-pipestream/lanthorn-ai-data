@@ -1,0 +1,12 @@
+# Enemies progress — PAUSED, game incomplete (continuation checkpoint bedroom)
+
+Branch b1. Location: East Bedroom (via east e00074). Score 4. Ordinary prompt, checkpoint bedroom verified e00080/e00081 (bedroom.sav.qzl).
+Bedroom: plants in wicker baskets, rotating fan, moonlight via skylight, spooky ambience (e00074/e00077). No visible intruder; no exits listed in look.
+Kitchen (N of hallway): washer/dryer plain (e00071); knife TAKEN (e00069); stove knobs/handle (e00065), door stuck (e00067), controls too complicated (e00072).
+Hallway (S of kitchen): telephone on table (e00073 return).
+Inventory: photo, phone, watch, small metal key, kitchen knife. Score 4.
+Checkpoints: start-street, apartment-entrance, hallway, bedroom.
+Cases done (9 annotated): syn-rider-look none; syn-gnome-typo vocab; syn-ring-pull none; syn-gnome-lookin syntax; syn-take-key none; syn-door-locked world_state; syn-stove-look syntax (e00064→e00065); syn-knife-pick ambiguity (e00068→e00069). Unresolved: syn-intruder-typo — 'x intrudre' e00075 and 'x intruder' e00076 both 'You can't see any such thing'; NO successful correction yet, do NOT annotate as typo success. Needs world-state timing.
+Last hints: lines 51-59 (Jacuzzi lever + E X intruder + zzzz + What date + Get certificate 1/6 + Apartment poison); lines 52-60 repeat (no new info). Walkthrough order suggests E, X intruder, wait x4, answer date, get certificate.
+Next (continuation): 1) read latest.json (e00081) + responses/m0074.json to confirm. 2) continue z waits one at a time (max 3 more) checking for intruder; then 'x intruder'. 3) if intruder appears, probe + correct + annotate; then What date/certificate. 4) then W room for Jacuzzi/lever + poison. One command per request near timed scenes. Checkpoint milestones only at ordinary prompts.
+Pending: none (m0074 processed). No pending broker requests.

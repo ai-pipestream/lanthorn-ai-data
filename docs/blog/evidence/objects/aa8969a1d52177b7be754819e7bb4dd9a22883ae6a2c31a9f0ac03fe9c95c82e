@@ -1,0 +1,13 @@
+# Only After Dark — progress
+
+Location: Lyca's Hut after wulf reveal (e00023). Wolf-thing loose, player has knife + clothes per narrative; talisman still worn (to verify).
+Inventory last observed e00007: clothes, talisman. Knife newly mentioned e00023.
+Checkpoints: village-start, lyca-hut (verified e00015-e00016).
+Cases done:
+- village-exit-typo (nort->north) vocab success
+- follow-lyca-naming (follow girl accepted) none success
+Pending: m0021.json talisman-throw-omitted probe 'throw talisman' intending throw at Lyca; no response yet after many retries, request JSON verified well-formed. Will correct to 'throw talisman at lyca' once observed.
+Route waits e00017-e00023 document transformation.
+Last hint m0004 (DAY ONE n/follow/z/throw talisman); m0007 off-topic shaman lines.
+Next: resolve m0021, annotate pair, continue Day One per walkthrough excerpts with small help steps. Update every 10-15 requests.
+Branch b0.

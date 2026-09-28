@@ -1,0 +1,95 @@
+{
+  "game_id": "risorgimento-represso",
+  "title": "Risorgimento Represso",
+  "author": "Michael J. Coyne",
+  "url": "https://ifarchive.org/if-archive/solutions/risorg.rec",
+  "accessed_at": "2026-09-25T07:57:18.046853+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorg.rec",
+  "source_sha256": "c872a1e3bb2cb525c36fe2da30b841565919009e62f675f2661d1ef62b3ce3c7",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-represso-walkthrough.txt",
+  "normalized_sha256": "9a2c859c93861030896c3e1976f367faafb9b2c285c326a9534ff78eea864f61",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Decode stated source encoding; CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/risorg.zblorb",
+  "story_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+  "compatibility": "Local archive-identical Blorb contains ZCOD Z8 R6/171114. Author replay guide is explicitly tested with R5/171024 and its archive entry points to the Glulx edition. Preserve both the one-release gap and Glulx-to-Z-code edition gap; matching title/author/IFDB t0pidhghzbo91i12 does not establish identical command timing or runtime behavior.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 6,
+  "serial": "171114",
+  "story_header": {
+    "container": "blorb-zcod",
+    "header_bytes": 64,
+    "header_hex": "08000006c210c211859401c06c817735001031373131313400f8d83a3fa000000000000000000000000000000000773400000000000001b800000000362e3333",
+    "header_sha256": "afc9efc7f5efae2ab1d41af9078a7c72e0186bc304204bf2d54e5b20f49454cc",
+    "checksum_hex": "3fa0",
+    "declared_length": 442832,
+    "file_bytes": 475616,
+    "zcod_offset": 56,
+    "zcod_bytes": 442880,
+    "zcod_sha256": "e54a0453b869a356b46af1277245ff8364a5c701a1ee9ee94ab214287b135eb3",
+    "container_bytes": 475616
+  },
+  "guide_release": 5,
+  "guide_serial": "171024",
+  "guide_release_gap": 1,
+  "story_identity": {
+    "filename": "risorg.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/risorg.zblorb",
+    "accessed_at": "2026-09-25T07:58:09.905191+00:00",
+    "remote_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+    "local_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+    "bytes": 475616,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 6,
+    "remote_serial": "171114"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#risorg.zblorb",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "risorg.zblorb\n◆\n[15-Nov-2017]\nIFDB entry\nIFWiki:\nRisorgimento Represso\nRisorgimento Represso, an Interactive Invigoration,\nwritten by Michael Coyne.\nRelease 6 / Serial number 171114.\n(a Glulx version is in games/glulx/risorg.gblorb,\nsource code to an older version is in\ngames/source/inform/risorg_src.zip,\nand the original competition entry is in\ngames/competition2003/zcode/risorg)",
+    "tuid": "t0pidhghzbo91i12"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#risorg.rec",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "risorg.rec\n◆\n[24-Oct-2017]\nIFDB entry\nIFWiki:\nRisorgimento Represso\nReplay walkthrough for Risorgimento Represso,\nby the author (Michael J. Coyne).\nTested with Release 5, Serial 171024.\n(the game itself is at\ngames/glulx/risorg.gblorb)",
+    "tuid": "t0pidhghzbo91i12"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the full wizard-apprentice castle, countryside and rescue route through Ninario's final escape with the protagonist. Require the resulting authored concluding narrative after the final descent with Ninario. Finding spectacles, closing the early rift, escaping the castle or score alone is insufficient; retain genuine alternate concluding outcomes if observed.",
+    "limitations": "This is an annotated replay source, not permission to replay a file. Lines starting ! are comments; key pauses require the key actually requested on screen. Empty Enter is an empty command. Observe pronouns and inventory after each action, and use small broker excerpts at puzzle boundaries. Take an early safe checkpoint and milestone saves before travel or rescue commitments. Never use gameplay waits to flush transport timeouts.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "risorgimento-represso",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "IFDB explicitly lists Illuminismo Iniziato as a sequel: reserve the same family for that title and all Risorgimento editions/ports. No such title is currently registered or in play. Generic comic-fantasy influence and a reviewer's Zork comparison do not alone establish shared world/puzzles. Parent should retain this series grouping when later adding the sequel.",
+    "evidence": {
+      "url": "https://ifdb.org/viewgame?id=t0pidhghzbo91i12",
+      "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-ifdb.html",
+      "sha256": "cf6b3f5886e92783b693a8a91f105b1dbe04de53d2ea530bc27622f8fd7035b9",
+      "relationship": "Followed by sequel: Illuminismo Iniziato"
+    }
+  },
+  "reuse_claims_observed": "IFDB game metadata lists Creative Commons (BY-ND-NC 1.0), but scope/authority for these exact story and guide bytes was not independently established. Keep reuse_permission unknown; private collection only. No training, evaluation or publication authorized.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "guide_edition_gap": "Archive points to Glulx R5/171024; selected story is Z-code R6/171114."
+}

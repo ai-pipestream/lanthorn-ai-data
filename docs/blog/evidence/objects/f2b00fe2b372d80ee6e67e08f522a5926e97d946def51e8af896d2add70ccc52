@@ -1,0 +1,45 @@
+# The Edifice — collection progress (SEGMENT 2, in progress)
+
+## Current state
+- Location: Canyon floor (era 3) with Herd of Horses. Village (Chief,
+  Marauders threat), Canyon Path (scalable cliff west), Ridge Path,
+  Overlook mapped. North from Overlook = death-flavored refusal
+  ('alternate timeline', respawn at Overlook unharmed, e00281-82).
+- Inventory (carried): Purple Paste, White Bark (feverleaf picture),
+  Bone, Useful Rock.
+- Score (e00256): 'visited two levels, solved one'.
+- Era-3 quest: give village an edge vs Marauders. Riding confirmed as
+  'very good idea' (e00273) but needs mount + willingness.
+
+## Horse puzzle attempts (all failed so far)
+- ride horse (e00273): 'no easy way onto back, even if likely to let you'
+- examine horses (e00274): large, powerful, vegetarian
+- take grass (e00275): 'can't see' — grass not an object
+- pet horse (e00276): won't let near enough
+- offer paste to horse (e00289): 'unaware of Purple Paste'
+- tame horse (e00290), chase horses (e00292): verbs not recognized
+- ask people about horses/marauders: unhelpful (e00268, e00285)
+- West from Village = back to Level Three (own hut is the portal).
+- Untried: hide/wait, climb down from Overlook, follow, village hut
+  contents, jump onto horse from height.
+
+## Route knowledge (verified)
+- Help chain: fresh-topic search resets to recording start; same-topic
+  mode-next continues from last delivered excerpt. Currently at line ~19.
+  Era-3 keywords may jump the search forward — try if stuck.
+- Era-1 parallel unsolved: ride beast fails (steps away) even after
+  feeding grass (m0049, m0091). Same mounting trick may solve both.
+
+## Checkpoints
+start-at-edifice, recess-open, grassland-arch, thirst-quenched-pool,
+level-two, era2-hut-clearing, got-feverleaf-stem, son-cured, level-three.
+
+## Cases (32 annotated; 1 open)
+- 32 level3-door-closed: world_state, success (open then east).
+- 33 horse-ride-wild: OPEN (e00273 probe; needs successful ride to close).
+- 01-31 as before (27 world_state/failure; 30 none; 31 syntax/failure).
+
+## Next
+1. Targeted help with era-3-unique keywords (horse/canyon/marauder).
+2. If unhelpful: hide/wait patience, climb-down at Overlook, village huts.
+3. Keep era-1 Beast parallel in mind — one trick may solve both.

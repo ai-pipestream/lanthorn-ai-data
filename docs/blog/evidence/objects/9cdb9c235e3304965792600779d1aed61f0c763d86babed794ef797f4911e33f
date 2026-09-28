@@ -1,0 +1,8 @@
+# SpiritWrak progress — continuation checkpoint (session paused, game INCOMPLETE)
+
+State: Monastery Chapel with Brother Joseph. Score 2. Ordinary prompt, verified Ok.
+Inventory (observed): holy amulet (worn AND glowing), sleeping pallet (glowing light source), sand, prayer book. Frotz chant currently CONSUMED (last cast was 'frotz amulet', e56) — must 'learn frotz' before next cast.
+Checkpoints (verified Ok): chapel-start, quarters-start, garden-sand, chapel-light, chapel-amulet.
+Cases (11 annotated, all unreviewed model labels): chapel-typo-listen vocab e7->e9; quarters-typo-pallet vocab e14->e15; quarters-omitted-read none e17; quarters-synonym-north vocab e20->e21; garden-wrong-snow planning e25->e26; chapel-omitted-wear syntax e33->e34; chapel-typo-prayer vocab e37->e38; chapel-unlearned-frotz world_state e41->e42; chapel-omitted-frotz none e44; chapel-frotz-pallet world_state e46->e48; chapel-pronoun-frotz ambiguity e54->e56.
+Last hint (m0047, lines 22-30): Cast Frotz on amulet (DONE e56); then S,S,E,E,E,E,E,S; Take scroll then read it (2/4); Gnusto espnis; Read diary; amulet flashes near rod pieces; N,W,S; Read page; N,N.
+Next (continuation run): read progress.md + latest.json, resume at chapel-amulet state; route S,S,E,E,E,E,E,S toward scroll; probe a fresh error type (e.g. word-order or reasonable wrong object) before canonical takes; checkpoint before risky/timed sequences; update progress.md every 10-15 requests. No pending inbox requests (m0053 confirmed Ok).

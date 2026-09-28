@@ -1,0 +1,8 @@
+# Curses progress — SEGMENT 2 CONTINUATION (incomplete)
+
+Branch b1, Score 27/550, Turns 135, Mosaic gardens. Checkpoints: mosaic-ball OK (also family-tree, garden-stream, torch-new, cupboard-painting, attic-key, cellars-mouse, winery-map, old-winery, start-attic).
+Inventory (observed e00202 + ball e00219): painting of Mad Isaac, gas mask worn, rucksack (wishbone + tourist map inside), brass key, gloves worn, torch (providing light, closed), + wooden ball taken at Mosaic. History vol II left in Old Winery — needed for Roger/Isaac/Gerard lookups per hint.
+Location: Mosaic (W Lawn Ornaments, W Family Tree). Bust at Lawn Ornaments examined: Self-Portrait H.M. '54, fixed. Mosaic: Roman 4 quadrants, perspex-covered.
+Cases: 30 annotated (25 seg1 + maze-enter-synonym world_state failure, mosaic-go-destination vocab, bust-woman-object vocab failure-fixed, mosaic-typo syntax, ball-roll-verb none/uncertain). All verified; hints walkthrough_not_player_observed.
+Last hints: maze reseeding present-blocked, past weed-bottle clue (lines 201-209); Roger/Marie, Isaac/Merlyn, Gerard/Stone Cross.
+Next: examine mosaic quadrants, return W-W to Family Tree then W to clearing, find Stone Cross/Gerard, retrieve History II from Old Winery for Roger/Isaac lookups, then past time-travel. Conserve torch. No ending seen — not complete.

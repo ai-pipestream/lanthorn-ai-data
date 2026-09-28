@@ -1,0 +1,27 @@
+{
+  "event_id": "earth-and-sky-episode-1-2bb22846be:e00167",
+  "timestamp": "2026-09-25T19:34:39.026516+00:00",
+  "game_id": "earth-and-sky-episode-1",
+  "session_id": "earth-and-sky-episode-1-2bb22846be",
+  "branch_id": "b0",
+  "event_index": 167,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 47012,
+  "raw_end": 47012,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+    "ending_quote": "\n\n\n\n\nComing in 2002 to an IF archive near you:\n\n\nANOTHER EARTH, ANOTHER SKY\n\n\n\nEpisode 2 of EARTH AND SKY -- watch for it!\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+    "evidence_event_ids": [
+      "earth-and-sky-episode-1-2bb22846be:e00164",
+      "earth-and-sky-episode-1-2bb22846be:e00165",
+      "earth-and-sky-episode-1-2bb22846be:e00166"
+    ],
+    "notes": "Completed Episode 1 route: skysuit fog/blast powers tested with Austin, optional letter shown to Austin and to Nina in e00164, monster blinded/refogged and blasted to knockout at Fifty Yard Line, Austin antibiotic balloon thrown at mouth (e00164 rescue: Nina restored, Call us Earth and Sky), keypress to EARTH AND SKY saved-day banner (e00165), keypress to Episode 2 teaser plus end-of-game RESTART/RESTORE/QUIT prompt (e00166). Not death (no death text; monster defeated, Nina alive), not quitting, not intermediate score or last guide command alone — final balloon action plus authored episodic conclusion observed."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,7 @@
+# Dreamhold progress — continuation segment 1 STOP (step budget)
+
+Location: Subterrane World (via Natural Passage north, then leave light x4). Last observed e00214: dagger examined (broad triangular blade, squared hilt, aching black reflection), still balanced on point in stone circle.
+Inventory as observed: handful white berries, handful orange berries, worn glove, straw torch (unlit), copper key, quill pen, brown mask + gold mask (score 2/7).
+Checkpoints: start-cell, crowded-study, metal-culvert, dark-dome-east, before-jump, dim-shed, balcony, cool-bower, before-dark, subterrane (latest safe resume).
+Unresolved: sub-dagger-55 (take dagger not yet tried); torch-light-40 (fireplace not true fire); torch-berry-49 (white berry frosts, no light yet — hint says use in Confusing Passage/Darkness); catwalk black mask (take too far, jump too wide); lead door + Study south door (copper mismatch); Natural Passage north darkness now mapped to Subterrane via leave light.
+Next: from subterrane, try take dagger carefully (checkpointed), then seek Grey Chamber/Confusing Passage per hint (buckler/breathe/listen), white-berry torch step, Dome ladder down, remaining masks to reach 7/7 and intended ending. Do NOT restart; resume from latest.json + subterrane checkpoint.

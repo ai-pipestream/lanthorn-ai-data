@@ -1,0 +1,25 @@
+# Jigsaw progress (update 26 — SEGMENT 4, game incomplete, RESTORE PENDING)
+
+Location: Tundra, Ch7 (e00757). Seed GONE (fed directly, e00734), cable back at Crags, goose alert.
+LESSON (route-critical): 'feed goose' + 'seed' makes the goose consume the seed INSTANTLY, which does NOT distract it — second 'pull cable' still triggers attack (e00741), cable flung to Crags. Walkthrough's 'drop seed' (eating over time / location separation) is REQUIRED. No alternative: 'wave broom (at goose)' useless (e00754-755), 'hit goose' refused as endangered species (e00757). Broom is not a goose deterrent.
+Recovery tests done: cable respawns at Crags (e00745); one pull brings nest 'just about within reach' but 'get jigsaw piece' unseen (e00751) and 'get nest' lets go of cable, branch springs back (e00752) — second pull is required to detach, and it needs the goose distracted.
+Board: 8 lit. Missing: Ch4 centre (b2) — still open.
+Inventory (e00742, verified): broom held; rucksack holds uniform, madeleine, jacket, detector, 2nd note, 1911 book, syrup, device, clock, pencil, sketch book, typed note, towel, folded note, ticket, 3 keys, 3 newspapers; sparkler lit. NO cable, NO seed.
+
+Checkpoints: ch7-white-start (e00686-687) is the recovery point. DO NOT checkpoint degraded state.
+
+Cases: 62 total (55 prior + 7 new Ch7), all annotated, none unresolved.
+New: syn-ch7-01-climb-hill (vocab); syn-ch7-02-wire-cable (vocab); syn-ch7-03-nest-typo (vocab); syn-ch7-04-broomstick (vocab); syn-ch7-05-seeds-plural (none/accepted); syn-ch7-06-feed-goose (syntax, omitted object — CAUSED route break, see lesson); syn-ch7-07-toss-cable (vocab).
+
+Last hint (m0595, lines 634-642): drop seed, west, throw cable at nest, pull, pull, get piece, spin detector, east, up. Next: mode=next past 642 after piece secured.
+
+Next actions (REDO after restore ch7-white-start; batch ≤5 on understood legs):
+1. Restore ch7-white-start (m0619).
+2. 'examine device' (= wash to Tundra, known trigger), 'examine device' (read 75), skip detector (known: 2 chimes).
+3. Batch: examine snow goose, sketch snow goose, east.
+4. 'sketch snow leopard' (verify leopard present; if maze differs, adapt).
+5. Maze back: replay W,W,E,up,N then S (verify Tundra; last time S from thick-woods exited — if lost, map variants).
+6. Batch: up, get cable, down, west, southwest. Batch: get broom, get seeds, northeast, east, drop seed.
+7. Batch: west, throw cable at nest, pull cable, pull cable, get jigsaw piece. VERIFY piece + score.
+8. Checkpoint (e.g. ch7-piece1), then help mode=next.
+Next inbox file: m0619.json. Last response: m0618 (e00757).

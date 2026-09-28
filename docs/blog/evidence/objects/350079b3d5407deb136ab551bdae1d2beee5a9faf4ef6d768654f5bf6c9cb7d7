@@ -1,0 +1,8 @@
+# Enemies progress — IN PROGRESS, game incomplete (Storeroom, e220; checkpoints to storeroom verified)
+
+Branch b1. Location: Storeroom e213-e220. Score 12. Ordinary prompt ">". Checkpoints verified: college-road, railing-got, after-ball, storeroom e207/208.
+Route since storeroom: i nothing + bracelet/Rose e209 -> x key (lead, 3 empty holes) e210 -> grab key Taken e211 -> look e213 -> hint e214 (X bracelet/look under, X shelves/climb, Get screwdriver+key 1/12, D Get bulb/X bulb tungsten 1/13, E) -> x bracelet solder shut e215 -> look under bracelet needle e216 -> x shelves e217 -> climb shelves finds screwdriver e218 -> grab screwdriver Taken score 12 e219/220.
+Inventory (observed): barrel key + screwdriver; bracelet worn (needle under, soldered). Exits unknown; hint says D then E.
+Annotations: + syn-key-take e211 none, syn-screwdriver-take e219 none. Cases ~28.
+Last hint e214 lines 128-136 as above.
+Next: 1) go D (down from shelves), get bulb, x bulb/get tungsten. 2) single commands, probe synonyms before canonical where new. 3) milestone checkpoints at ordinary prompts.

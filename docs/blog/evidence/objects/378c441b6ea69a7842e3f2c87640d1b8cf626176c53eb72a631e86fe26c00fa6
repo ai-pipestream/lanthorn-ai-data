@@ -1,0 +1,16 @@
+# Voodoo Castle progress (b2, branched 2026-09-25T02:24Z)
+
+Location: Graveyard (via tiny door, still small). Ritual stuck at final step.
+Status: game incomplete; deep endgame reached on b2. Walkthrough excerpts exhausted (empty at lines 103+).
+Route solved so far (all player-observed on b2 unless noted):
+- Full opening replay: coffin/ring/fireplace idol/clean/glass/shovel/armory shield+sword/heads safe-reveal/pot/chemicals/drop shield/move kettle early/shrink/door/saw/clover/tunnel knife/ring/chute/plaque/medium/ball/chapel/kettle.
+- Kettle hole: MOVE KETTLE reveals Dark hole; ENTER HOLE works only CARRYING idol (b1 pre-drop -> GO too-dark, ENTER blocked, DOWN death). READ PLAQUE: safe 38 33.
+- Safe: ROTATE unknown; TURN 38 + TURN 33 opens; TAKE HAMMER ok. Foot: GIVE/WEAR/PLACE/HAND/ATTACH unknown; PUT/DROP/LEAVE/THROW FOOT all ask On-what (unanswerable, bare nouns parsed as verbs); PUT/DROP/THROW MAN|CRISTO|COFFIN all beyond-power (chapel AND parlor).
+- Chimney: OPEN FLUE reveals Dark Chimney; ENTER CHIMNEY; REMOVE NAILS then REMOVE BOARDS reveal GrAting; SAW GRATING -> button; PRESS accepted (fan up); SHOVE unknown, PUSH SWEEP frees sweep; READ PAPER: SAY ZAP to restore stone.
+- Parlor: SPEAK unknown, SAY ZAP restores Ju-Ju man; LISTEN MAN gives bag gift. Lab: GET JU-JU BAG parses as GET JU-JU (What?); GET BAG ok after gift (was stuck pre-gift on b1).
+- Crack: SHAKE unknown; WAVE BAG widens; ENTER CRACK accepted. Voodoo room: GET PAGE, OPEN BAG, GET BOOK; READ BOOK (knife/stand/circle) + READ PAGE (stick/lamp/CHANT/doll). GET STICK ok (invisible). DROP BOOK/PAGE per hint.
+- Doll: CLIMB WINDOW accepted; GRAB unknown; GET DOLL ok. Knife recovered in chapel.
+- Soup: GET/TAKE SOUP no-container (pot carried AND dropped); FILL/MAKE unknown; DRINK SOUP ok but no size change (ENTER DOOR still works, still small). DIG GRAVE joke only.
+- Ritual: CIRCLE COFFIN/WAVE STICK/WAVE DOLL/SAY CHANT all OK-nothing both separately and batched. Missing trigger likely foot-on-Count (syntax unknown) or lamp-hold (HOLD unknown; idol carried).
+Next: try LOOK CHRISTO spelling; probe jail cell (ENTER CELL) for lamp; reconsider foot syntax (DROP COFFIN? SHOW?). Then annotate backlog.
+Checkpoints: SAVE unsupported; restarts only. Inventory (e00455): knife, idol, clover, pot, bag, foot, shovel, nails, doll, boards, hammer, saw, paper, grating + stick (e00460).

@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:51:01.903790+00:00",
+  "game_id": "all-quiet-on-the-library-front",
+  "events": [
+    {
+      "event_id": "all-quiet-on-the-library-front-a0c0a11bad:e00123",
+      "timestamp": "2026-09-25T06:48:04.390943+00:00",
+      "game_id": "all-quiet-on-the-library-front",
+      "session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+      "branch_id": "b0",
+      "event_index": 123,
+      "event_type": "command",
+      "command": "e",
+      "response": "\nEnd Game\n\n\nYou succeed in gaining the biography, and you exit the library. The paper is \nwritten over the week-end, you return the book on Monday (of course), and you \npass the class with flying colors (despite slacking off for the whole \nsemester), and you graduate from college. \n\nShortly thereafter, you meet an investor who loves IF, and you write a wildly \nsuccessful game, get rich off of it, and live the rest of your life thanking \nall the IF authors of the past.\n\n    *** You have won ***\n\n\nIn that game you scored 27 out of a possible 30, in 64 turns.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n End Game                                            Score: 16    Moves: 2\n\n\n\n                Books for general reading always smell badly.\n                The odor of common people hangs about them.\n\n                  -- Friedrich Wilhelm Nietzsche\n\n              reall\n\n                -- Terry Pratchett, Guards! Guards!\n> ",
+      "raw_start": 32990,
+      "raw_end": 33973,
+      "response_sha256": "d1e0ef8328671021977e0f3e2999c8f1dc2e4f6767c1598e8c1fdf0758061f5a",
+      "story_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+        "case_id": "final-east-exit",
+        "expected_outcome": "Leave east through fixed gates to concluding narrative",
+        "intent": "Exit east through the security gates to finish",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Authored book/college graduation and IF-career epilogue with explicit win/finalmenu, 27/30. Trailing stale status/quotation text preserved; candidate evidence remains subject to interleaving review. Independent review pending."
+}

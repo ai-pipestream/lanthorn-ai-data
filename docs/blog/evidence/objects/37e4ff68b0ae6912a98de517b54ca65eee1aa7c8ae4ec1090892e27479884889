@@ -1,0 +1,12 @@
+# Critical Breach — progress (b1 stuck, restoring)
+
+Location (b1): Laboratory Workbench after failed re-sedation. Test Area has loose scorpig + dropped injector/chip on floor (e75/e82). `select 3` (e85) only says cage already unlocked — gas cannot re-sedate loose specimen.
+Inventory: at workbench, hands likely empty (injector/chip dropped in test area).
+
+Evidence: bare `inject scorpig` (e82, b1) fails identically to `inject scorpig with injector` (e75, b0) — world_state (sedation timed out after ~40 turns since select 3 e36), not wording. Annotated inject-wordorder as world_state (m0078, e83).
+
+Checkpoints: start-darkness, lab-arrival (pre-sedation, pre-drawer), before-inject (post-sedation but timer already expired — proved by fast b1 retry failing).
+
+Last hints: m0081 lines 26-34 same inject sequence; no recapture info. SELECT 3 cannot fix loose scorpig.
+
+Next: restore lab-arrival (fresh timer), then efficient canonical route with NO extra probes until inject succeeds: SELECT 3 → OPEN DRAWER → TAKE ALL → E → OPEN FURNACE? (verify if needed) → chip register/load per hint → E → OPEN CAGE → INJECT SCORPIG → TAKE INJECTOR → TAKE CHIP → W → SELECT 2. Collect safe variations only after route preserved. Keep turns minimal between SELECT 3 and INJECT.

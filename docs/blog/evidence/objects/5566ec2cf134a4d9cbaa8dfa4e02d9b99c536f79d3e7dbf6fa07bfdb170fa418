@@ -1,0 +1,8 @@
+# Detective progress — WON on branch b2
+
+Location: Info victory room (e00103-105, branch b2): Exile Games info, *** You have won ***, score 300/360 in 45 turns. End prompt offers RESTART/RESTORE/FULL/AMUSING/QUIT — no further game input sent.
+Route: hotel-15th-floor restore (b1) replayed w/n/w/n to score-200 sauna/Pool-A hallway; east Pool death (b0) and west Sauna death (b1) both fatal traps; north reached Room 30 arrest/promotion (e00093, score 300+100); 'go up' reached Info victory (e00103).
+Inventory at end (e00098): pistol, paper.
+Cases: 20 annotated (13 inherited + hallway-open-door-ambiguous, 15thfloor-pick-flowers, room30-examine-killer, room30-inventory-typo, sauna-west-deathtrap, room30-go-omitted-direction, room30-go-up-accepted).
+Checkpoints: start, have-gun, before-back-room, before-dazed-man, hotel-15th-floor, before-final-rooms, before-final-up (all verified).
+Next: finish with evidence e00093 + e00103; no further commands. Do not QUIT/RESTART.

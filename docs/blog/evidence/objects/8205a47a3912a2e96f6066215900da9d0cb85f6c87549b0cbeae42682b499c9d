@@ -1,0 +1,25 @@
+{
+  "event_id": "zuni-doll-16d63fd0ac:e00114",
+  "timestamp": "2026-09-25T06:43:57.702453+00:00",
+  "game_id": "zuni-doll",
+  "session_id": "zuni-doll-16d63fd0ac",
+  "branch_id": "b0",
+  "event_index": 114,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 16310,
+  "raw_end": 16310,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "zuni-doll-16d63fd0ac",
+    "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 60 out of a possible 60, in 55 turns, earning you the \nrank of Zuni Slayer.",
+    "evidence_event_ids": [
+      "zuni-doll-16d63fd0ac:e00112"
+    ],
+    "notes": "Final destruction in disposal (doll ground up and sucked away) plus authored bedroom/Elmo sleep conclusion and *** You have won *** with 60/60 Zuni Slayer. Not freezer trap, temporary disable, death (no death text), quitting, or partial score; meets manifest completion."
+  },
+  "review_status": "unreviewed"
+}

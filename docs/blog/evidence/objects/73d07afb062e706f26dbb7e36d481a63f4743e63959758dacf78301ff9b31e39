@@ -1,0 +1,22 @@
+{
+  "game_id": "suveh-nux",
+  "title": "Suveh Nux (original 2007 version)",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/old/suvehnux-r1-s071226.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/suveh-nux-walkthrough.txt",
+  "walkthrough_url": "https://plover.net/~davidw/sol/s/suveh07.html",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/suveh-nux.json",
+  "story_sha256_expected": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+  "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "071226",
+  "dataset_split": "test",
+  "game_family": "suveh-nux",
+  "session_id": "suveh-nux-0a645cbebf",
+  "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+  "started_at": "2026-09-25T01:54:51.260625+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

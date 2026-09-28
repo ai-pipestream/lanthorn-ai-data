@@ -1,0 +1,11 @@
+# Progress — believable-adventures-invisible-man (ACTIVE, game incomplete)
+
+Location: Street, invisible empty-handed (e179). Letterbox empty. Ordinary prompt.
+State: mail trick done — manila (with paycheck + nested white inside, closed) in secretary out-tray (e174); screen shows lunch at 12 PM (e175); clock set to 12:00 pm (e176); then e(e177 Building)-e(e178 Campus)-e(e179 Street) per hint.
+Secretary: was distracted at coffee machine (coffee ON, key pocketed e169); clock now noon — need to return west to verify lunch departure.
+Inventory as observed: nothing carried; pen/mail-pen stashed in Apartment with badge+clothes; lab pen dropped in Apartment.
+Checkpoints verified: secretary-office.sav (e103-104) + earlier apt-creepy-revenge, campus-invisible, invisible-lab, start-lab, street-invisible.
+Unresolved cases: need diverse synthetic_probe repair pairs — recent run mostly exploration (m0136-m0144). Prior annotations: floating-carry-block (e140/e144 world_state), boss-door-open-syn (e90/e91 vocabulary). New candidate: cylinder-nest blocked before coffee (e164) vs success after coffee (e172) — needs annotation.
+Last hint (e159 lines 28-36 + e168 lines 22-30): put white in manila, close, put in out-tray, x screen, set clock to 12 PM, e e e — all done.
+Next: w w w back to secretary office to check lunch; then boss-office revenge branch (characteristic key, unlock boss door, computer). Checkpoint before timed waits. Collect safe synthetic variations only when route stable; ask help on first failure.
+Pending: none — m0144 responded e179. Next file m0145.

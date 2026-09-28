@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-25T06:24:07.619142+00:00",
+  "tests": {
+    "fleet": 14,
+    "broker_transport": 3,
+    "local_pool": 5
+  },
+  "status": "passed",
+  "source_sha256": {
+    "scripts/fleet_host.py": "5778920c8413cfaa874735ffdae16c38d5fa3bf3ad8e361ca3a7293f23331b8e",
+    "scripts/maintain_fleet.py": "ed9e026b71faf6dc1bd51c01b3928dba7bd4cf6287b89c54841ac08e0a2413bc",
+    "scripts/maintain_workers.py": "7d73320bf6560d7400fa7cb61e9b52ad47e2e9a7198532d72d4381a3dac0c6b3",
+    "scripts/play_broker.py": "e6784832d3d3c3ab39d4b195f66d692c7a21daeb7b37ca4048d6a87545818b56",
+    "scripts/test_fleet.py": "ca2367c97948982fc364fb1a8639057884c949da993057f874591302451e5f80"
+  },
+  "deployment": "control/fleet/deployment-fencing-20260925T0622.json",
+  "review": "P1 fixes implemented; independent follow-up pending",
+  "extra_guard": "No same-session restart while unresolved input; central bridge protects existing live brokers and future brokers enforce directly."
+}

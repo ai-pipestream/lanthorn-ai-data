@@ -1,0 +1,27 @@
+{
+  "game_id": "alias-the-magpie",
+  "title": "Alias 'The Magpie'",
+  "engine": "gvm-cli",
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/alias-the-magpie.gblorb",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/alias-the-magpie-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/games/glulx/Alias_The_Magpie.zip#solution.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Complete the scarab caper and final disguise/escape sequence, including the late confinement puzzle using the stick, gum, case and lock picks, then leave after removing the suit. Require actual game-authored successful escape/concluding narrative with the theft resolved. Obtaining the scarab, an intermediate disguise, capture, death or a partial score does not establish completion. Guide instructions are provisional; require independent parent verification of actual raw ending output. Quitting, ordinary death, partial scores and chapter transitions are insufficient.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/alias-the-magpie.json",
+  "story_sha256_expected": "d2bc0863ed5d7dae820a9b4705ea00a2b1b943970f3893167a2b1c87e787842f",
+  "checkpoint_policy": "Save early and at milestones only at confirmed safe ordinary command prompts; require actual engine success. No save as timeout flush.",
+  "dataset_split": "train",
+  "game_family": "alias-the-magpie",
+  "collection_notes": "Local bundle is byte-identical to current archive bundle. Extracted Glulx Inform R5/220210 agrees with embedded metadata and archive. Guide is co-packaged with that release, but does not independently state a target release/serial; co-packaging is provenance, not a runtime compatibility claim.\n\nBundled guide includes intentional rejected attempts, repeated commands, UNDO, narrative annotations after ellipses, a misspelled instrument case and a press-Space cue. These are not a batch script. Do not execute UNDO, repeated actions or restore paths blindly; preserve branch provenance and ground each action in observations. Guide ending OUT identifies a candidate finale trigger, not a verified ending quote.\n\nFamily/split proposal: alias-the-magpie / train. No established shared world/puzzle with Gumshoe or other queued heists. Crime/comedy genre does not merge families. All releases/ports and any later demonstrated Magpie continuity belong together. Parent review required.\n\nCENTRAL ONLY: local stories, full guides, source receipts, raw transcripts, saves and interpreter execution remain central. Never stage these assets on a Pi or expose full guide files, source paths or URLs to Muse. Supply only task-relevant broker help excerpts, at most 9 lines / 1000 characters; do not reconstruct a full guide through serial excerpts. Guide content is suggested, not observed evidence. Save early at a confirmed safe ordinary command prompt, verify success, and save at safe milestones. Resolve startup questions/key pauses first. For Glulx character prompts the empty command sends Glk Return (0xffff_fffa), while literal space sends 32. Z-machine Return13 does not describe Glulx. Ordinary line prompts differ; follow actual displayed controls. On timeout use await_output only, never another key. Follow actual menus, not guessed keys. On timeout use await_output only; no uncertain input replay, restart, save or flush key. Repeated silent optional-menu timeouts require parent transport review rather than repeated recovery attempts. Collect useful diverse labeled synthetic_probe cases with intent-preserving repairs and actual event evidence, no quotas or filler. Parent verifies the real authored finale against raw output. Private collection only; reuse permission unknown. No training, evaluation, model work or publication.",
+  "zmachine_version": null,
+  "release": 5,
+  "serial": "220210",
+  "session_id": "alias-the-magpie-9ca6049a3d",
+  "story_sha256": "d2bc0863ed5d7dae820a9b4705ea00a2b1b943970f3893167a2b1c87e787842f",
+  "started_at": "2026-09-25T18:09:21.715174+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,22 @@
+{
+  "game_id": "zork-i7",
+  "title": "Zork/Dungeon 3.2B, Inform 7 port, Release 4 / 190920",
+  "engine": "gvm-cli",
+  "story": "/home/krickert/if-games/glulx/ZorkI7.ulx",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/zork-port-walkthrough.txt",
+  "walkthrough_url": "https://www.ifarchive.org/if-archive/games/source/inform/ZorkI7.zip#ZorkAndDungeonWalkthroughForCopyPaste.txt",
+  "completion": "Require actual game ending text; score or process exit alone is not completion.",
+  "recovery_reason": "User-confirmed host restart. New explicit session restored from last engine-confirmed autosave; historical evidence retained and no pending actions replayed.",
+  "response_timeout_seconds": 180,
+  "session_id": "zork-i7-c569ad8028",
+  "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+  "started_at": "2026-09-24T23:20:15.503780+00:00",
+  "recovery": {
+    "previous_session_id": "zork-i7-f819398705",
+    "checkpoint_event_id": "zork-i7-f819398705:e01525",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/auto-f819398705-1523.sav.qzl",
+    "checkpoint_sha256": "e7b3a3e64122e95ff5a8fe32db434736cd01074f222ded136f06dbd0acb38038",
+    "reason": "User-confirmed host restart. New explicit session restored from last engine-confirmed autosave; historical evidence retained and no pending actions replayed."
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

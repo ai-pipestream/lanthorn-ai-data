@@ -1,0 +1,85 @@
+{
+  "game_id": "underoos-that-ate-new-york",
+  "title": "The Underoos that ate New York!",
+  "author": "Gerry Kevin Wilson",
+  "url": "https://ifarchive.org/if-archive/solutions/underoos.sol",
+  "accessed_at": "2026-09-25T08:27:15.132229+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/underoos.sol",
+  "source_sha256": "be0f9b118548f7308713d6d0b34de72632d2b07c53de8db6880c2f87b6e71cbc",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/underoos-that-ate-new-york-walkthrough.txt",
+  "normalized_sha256": "be0f9b118548f7308713d6d0b34de72632d2b07c53de8db6880c2f87b6e71cbc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/under.z5",
+  "story_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+  "compatibility": "Local Z5 R1/970329 is byte-identical to the archive, which identifies an author conversion from the TADS original. Ambat Sasi Nair guide has the matching archive IFDB identity but no release/serial. Its 1997-02-13 archive date precedes the Z-code port: preserve the likely TADS-to-Inform guide edition gap and do not claim exact parser parity.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "970329",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001291829191ce701020c0815f1001039373033323900423960774f000000000000000000000000000000000000000000000000000000000000362e3131",
+    "header_sha256": "3d2ca58b36e3382e01ef035cbbaa18840b5b05032fafb0fd8fe2a5110d117955",
+    "checksum_hex": "774f",
+    "declared_length": 58752,
+    "file_bytes": 58880
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "under.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/under.z5",
+    "accessed_at": "2026-09-25T08:29:36.548840+00:00",
+    "remote_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+    "local_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+    "bytes": 58880,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "970329"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#under.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "under.z5\n◆\n[03-Apr-1997]\nIFDB entry\nIFWiki:\nThe Underoos that ate New York!\nThe Underoos that ate New York!, by Gerry Kevin Wilson.\nRelease 1 / Serial number 970329.\n(This is a conversion by the author of the TADS\noriginal, which is in games/tads/underoos.gam)",
+    "tuid": "055wty792vfyamss"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#underoos.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "underoos.sol\n◆\n[13-Feb-1997]\nIFDB entry\nSolution to The Underoos that ate New York! by Ambat Sasi",
+    "tuid": "055wty792vfyamss"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Ambat Sasi Nair",
+    "route_summary": "Complete the animated-clothing route, resolve Cindy's hostage scene, dress and follow the final northward exit through actual authored concluding narrative. Defeating an individual garment, collecting a score, or merely issuing north is insufficient. Preserve genuine alternate successful conclusions if observed, while ordinary death and quitting remain failures.",
+    "limitations": "This is a compact room-by-room prose solution, not a replay script. Greater-than signs describe results; ampersands combine distinct actions. Navigate from real room descriptions, translate actions to the current parser and observe the shoes before ending a wait. Take an early safe checkpoint; the short route does not justify filler probes or a command quota.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "underoos-that-ate-new-york",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Distinct animated-clothing comedy with its own archive identity. TADS original and author Inform port must share this family. Shared authorship with other Wilson games, including Zork work, does not establish shared world or puzzles; no concrete overlap with a collected family was found."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public hosting and source availability do not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

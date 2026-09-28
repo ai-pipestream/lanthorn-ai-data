@@ -1,0 +1,124 @@
+{
+  "verified_at": "2026-09-25T03:59:02.037173+00:00",
+  "recovery": {
+    "previous_session_id": "zork-i7-c569ad8028",
+    "checkpoint_event_id": "zork-i7-c569ad8028:e02501",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/pool-cap-2499.sav.qzl",
+    "checkpoint_sha256": "a3175bd27537e59cce5f148f765810d13fb0bca699350659b3b1f53cddea8ced",
+    "reason": "Explicit broker event-cap recovery from fresh engine-confirmed checkpoint, no pending replay.",
+    "session_id": "zork-i7-05114e1aff",
+    "branch_id": "b99",
+    "restored_at": "2026-09-25T03:58:43.117483+00:00",
+    "observed_event_id": "zork-i7-05114e1aff:e00005"
+  },
+  "events": [
+    {
+      "event_id": "zork-i7-05114e1aff:e00001",
+      "timestamp": "2026-09-25T03:58:41.707177+00:00",
+      "game_id": "zork-i7",
+      "session_id": "zork-i7-05114e1aff",
+      "branch_id": "b98",
+      "event_index": 1,
+      "event_type": "session_recovery",
+      "command": null,
+      "response": "",
+      "raw_start": 1937037,
+      "raw_end": 1937037,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+      "engine_state": "unchanged",
+      "metadata": {
+        "previous_session_id": "zork-i7-c569ad8028",
+        "checkpoint_event_id": "zork-i7-c569ad8028:e02501",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/pool-cap-2499.sav.qzl",
+        "checkpoint_sha256": "a3175bd27537e59cce5f148f765810d13fb0bca699350659b3b1f53cddea8ced",
+        "reason": "Explicit broker event-cap recovery from fresh engine-confirmed checkpoint, no pending replay."
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "zork-i7-05114e1aff:e00002",
+      "timestamp": "2026-09-25T03:58:42.110879+00:00",
+      "game_id": "zork-i7",
+      "session_id": "zork-i7-05114e1aff",
+      "branch_id": "b98",
+      "event_index": 2,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\nZork\nA Computerized Fantasy Simulation Game by Infocom -- Ported by Dean Menezes (Last change 2019-09-20)\nRelease 4 / Serial number 190920 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) \n\nWest of House\nYou are in an open field on the west side of a white house with a boarded front door.\n\nThere is a small mailbox here.\nA rubber mat saying \"Welcome to Zork\" lies by the door.\n>",
+      "raw_start": 1937037,
+      "raw_end": 1937413,
+      "response_sha256": "bd860fe3adf277e2d776bdbd78ac27ca0e906eea67e0c64afe7151ab9b5e7d83",
+      "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "zork-i7-05114e1aff:e00003",
+      "timestamp": "2026-09-25T03:58:42.419988+00:00",
+      "game_id": "zork-i7",
+      "session_id": "zork-i7-05114e1aff",
+      "branch_id": "b99",
+      "event_index": 3,
+      "event_type": "restore",
+      "command": "restore",
+      "response": "saves: 1 attic-brick-b55.sav   2 attic-egg.sav   3 auto-3e11f59045-106.sav   4 auto-3e11f59045-214.sav   5 auto-3e11f59045-300.sav   6 auto-3e11f59045-430.sav   7 auto-3e11f59045-445.sav   8 auto-3e11f59045-481.sav   9 auto-3e11f59045-551.sav   10 auto-4cbe94a190-227.sav   11 auto-4cbe94a190-72.sav   12 auto-4cbe94a190-91.sav   13 auto-c569ad8028-1020.sav   14 auto-c569ad8028-1109.sav   15 auto-c569ad8028-1225.sav   16 auto-c569ad8028-1292.sav   17 auto-c569ad8028-1404.sav   18 auto-c569ad8028-1499.sav   19 auto-c569ad8028-1571.sav   20 auto-c569ad8028-1622.sav   21 auto-c569ad8028-1740.sav   22 auto-c569ad8028-1811.sav   23 auto-c569ad8028-1879.sav   24 auto-c569ad8028-2006.sav   25 auto-c569ad8028-201.sav   26 auto-c569ad8028-2105.sav   27 auto-c569ad8028-2253.sav   28 auto-c569ad8028-2289.sav   29 auto-c569ad8028-2425.sav   30 auto-c569ad8028-313.sav   31 auto-c569ad8028-431.sav   32 auto-c569ad8028-470.sav   33 auto-c569ad8028-554.sav   34 auto-c569ad8028-652.sav   35 auto-c569ad8028-715.sav   36 auto-c569ad8028-80.sav   37 auto-c569ad8028-842.sav   38 auto-c569ad8028-870.sav   39 auto-c569ad8028-893.sav   40 auto-f819398705-1000.sav   41 auto-f819398705-1002.sav   42 auto-f819398705-1004.sav   43 auto-f819398705-1006.sav   44 auto-f819398705-1008.sav   45 auto-f819398705-1010.sav   46 auto-f819398705-1012.sav   47 auto-f819398705-1014.sav   48 auto-f819398705-1055.sav   49 auto-f819398705-106.sav   50 auto-f819398705-1104.sav   51 auto-f819398705-1135.sav   52 auto-f819398705-1265.sav   53 auto-f819398705-1360.sav   54 auto-f819398705-1440.sav   55 auto-f819398705-1519.sav   56 auto-f819398705-1521.sav   57 auto-f819398705-1523.sav   58 auto-f819398705-209.sav   59 auto-f819398705-316.sav   60 auto-f819398705-352.sav   61 auto-f819398705-357.sav   62 auto-f819398705-484.sav   63 auto-f819398705-588.sav   64 auto-f819398705-686.sav   65 auto-f819398705-795.sav   66 auto-f819398705-812.sav   67 auto-f819398705-814.sav   68 auto-f819398705-876.sav   69 auto-f819398705-989.sav   70 b25-before-slide-down.sav   71 b26-before-cyclops.sav   72 b32-cyclops-fresh.sav   73 b35-after-cyclops-fled.sav   74 b36-before-cache-ferry.sav   75 b37-egg-at-troll.sav   76 b38-before-thief-up.sav   77 b39-after-thief-dead.sav   78 b40-after-chalice-egg.sav   79 b41-after-grail-bar.sav   80 b42-after-bauble.sav   81 bank-painting.sav   82 bank.sav   83 beach-torch-recovered-b49.sav   84 before-cellar.sav   85 before-slide.sav   86 before-smelly.sav   87 bottom-all-b80.sav   88 bottom-all-b88.sav   89 bottom-all-b92.sav   90 bottom-all-b94.sav   91 bottom-all-b95.sav   92 cache-full.sav   93 candles-banked-b76.sav   94 candles-base-b63.sav   95 chasm-maze.sav   96 dam-base-boat-b96.sav   97 dam-base.sav   98 dam-bolt.sav   99 dam-drained.sav   100 dam-open.sav   101 dambase-boat-b48.sav   102 deadend-coal-b43.sav   103 deep-ravine.sav   104 dome-part10-b49.sav   105 dome-rope-b50.sav   106 dome-rope-recovered-b51.sav   107 dreary-gas-ruby-b51.sav   108 dreary-lantern-b52.sav   109 dreary-mat-keys-b51.sav   110 dreary-sphere-room.sav   111 dreary-sphere-taken.sav   112 east-beach.sav   113 egypt-open-empty.sav   114 egyptian-coffin-taken-b49.sav   115 engravings-b47.sav   116 engravings-maze-b43.sav   117 falls-ride.sav   118 falls-top.sav   119 glacier-balloon-b88.sav   120 glacier-balloon-b92.sav   121 glacier-balloon-b94.sav   122 glacier-balloon-b95.sav   123 glacier-before-melt-b53.sav   124 glacier-before-melt-b55.sav   125 glacier-candles-b63.sav   126 glacier-fresheyes-b70.sav   127 glacier-fullkit-b87.sav   128 guide-switch-1706.sav   129 living-10treasure-b43.sav   130 living-10treasure.sav   131 living-12guide-tube-b90.sav   132 living-12treasure-b85.sav   133 living-12treasure-b90.sav   134 living-14fullkit-b91.sav   135 living-14fullkit-wire-b92.sav   136 living-15treasure-b44.sav   137 living-15treasure-b85.sav   138 living-16bank-b93.sav   139 living-16fullkit-b93.sav   140 living-16treasure-b44.sav   141 living-17stiletto-b93.sav   142 living-17treasure-b85.sav   143 living-18coffin-b94.sav   144 living-18treasure-b87.sav   145 living-19treasure-b47.sav   146 living-20fullset-b92.sav   147 living-21kit-b88.sav   148 living-21shafttrio-b95.sav   149 living-22treasure-b49.sav   150 living-24fullset-b94.sav   151 living-24treasure-b49.sav   152 living-24treasure-knife-b49.sav   153 living-25tube-b94.sav   154 living-26treasure-b49.sav   155 living-26tubecased-b94.sav   156 living-28-outdoor-b88.sav   157 living-28-strange-b88.sav   158 living-28full-b95.sav   159 living-9treasure.sav   160 living-brochure-544-b78.sav   161 living-coffin-347-b87.sav   162 living-coffin-ferry-b87.sav   163 living-coin-stamp-ruby-b72.sav   164 living-crown-b68.sav   165 living-crown-ruby-b78.sav   166 living-fullset-437-b88.sav   167 living-kit-347-b87.sav   168 living-kit-b87.sav   169 living-matchbook-b54.sav   170 living-stiletto-b87.sav   171 living-wraith-586-b79.sav   172 living-wraith-586-b80.sav   173 living-wraith-586-b83.sav   174 living-wraith-586-preserve-b83.sav   175 living-wraith-knife-b81.sav   176 look   177 lowershaft-basket-raised-dark-b43.sav   178 lowroom-sphere-b47.sav   179 machine-diamond-b85.sav   180 machine-diamond-taken-b43.sav   181 maint-buttons.sav   182 maint-match-search-b54.sav   183 maint-tube-b90.sav   184 narrow-coin-stamp-b72.sav   185 pearl-room.sav   186 pool-cap-2499.sav   187 post-blast-b57.sav   188 post-troll.sav   189 puzzle-exit-b44.sav   190 puzzle-top-b44.sav   191 rainbow-gold-b49.sav   192 round-room.sav   193 ruby-candles-b63.sav   194 ruby-candles-b77.sav   195 ruby-taken-b53.sav   196 ruby-taken-b55.sav   197 save   198 shaft-coal-in-basket-b43.sav   199 shaft-figurine-b43.sav   200 shaft-gathered-b85.sav   201 shaft-lamp-conserved-b89.sav   202 shaft-lantern-b51.sav   203 shaft-ready-b92.sav   204 shaft-staged-b90.sav   205 shaft-timber-b85.sav   206 shaft-timber-b90.sav   207 shaft-torch-b84.sav   208 shaft-torch-conserved-b89.sav   209 shaft-treasures-ready-b44.sav   210 shafttop-torch-diamond-b43.sav   211 shafttop-with-timber-b43.sav   212 shore-probe.sav   213 slide-rope-b50.sav   214 sooty-redsphere-taken-b43.sav   215 square-note-b69.sav   216 stream-all-b79.sav   217 stream-all-b80.sav   218 stream-all-b88.sav   219 stream-all-b92.sav   220 stream-all-b94.sav   221 stream-all-b95.sav   222 stream-crown-torch-b68.sav   223 stream-torch-b60.sav   224 stream-valuables-b72.sav   225 supervisor-1452.sav   226 temple-before-bell-b63.sav   227 timber-after-lower-b43.sav   228 timber-room-b90.sav   229 tiny-before-fetch.sav   230 tiny-cave.sav   231 tiny-mat-lid-wire.sav   232 tiny-wire-b51.sav   233 tiny-wire-b87.sav   234 torch-room-b51.sav   235 torch-room.sav   236 torch-taken-b41.sav   237 trollside.sav   238 trunk-run.sav   239 unlock door with key   240 volcano-basket-b53.sav   241 volcano-bottom-all-b79.sav   242 volcano-bottom-allvaluables-b77.sav   243 volcano-bottom-crown-b78.sav   244 volcano-bottom-valuables-b72.sav   245 volcano-crown-landed-b67.sav   246 wide-ledge-b55.sav   247 wide-prefuse-b73.sav\nRestore from file: ",
+      "raw_start": 1937413,
+      "raw_end": 1944506,
+      "response_sha256": "f026aa8fe240abdb65df7a88327512e51187c5273767806590e80c9aa9c6014d",
+      "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "pool-cap-2499",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "zork-i7-05114e1aff:e00004",
+      "timestamp": "2026-09-25T03:58:42.729037+00:00",
+      "game_id": "zork-i7",
+      "session_id": "zork-i7-05114e1aff",
+      "branch_id": "b99",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "pool-cap-2499.sav",
+      "response": "Ok.\n\n>",
+      "raw_start": 1944506,
+      "raw_end": 1944512,
+      "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+      "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "pool-cap-2499",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "zork-i7-05114e1aff:e00005",
+      "timestamp": "2026-09-25T03:58:43.117285+00:00",
+      "game_id": "zork-i7",
+      "session_id": "zork-i7-05114e1aff",
+      "branch_id": "b99",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "look",
+      "response": "Round Room\nThis is a circular room with passages off in eight directions.\n\n>",
+      "raw_start": 1944512,
+      "raw_end": 1944588,
+      "response_sha256": "f7d1608e81a490fee173d75e11a3c6735a0c3886000054f143c1edaf91d0d2da",
+      "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Observe restored location"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hashes_verified": true
+}

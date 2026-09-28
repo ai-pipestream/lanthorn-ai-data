@@ -1,0 +1,18 @@
+# Magic Toyshop progress (update 3)
+
+Location: Toyshop. Score 8.
+Inventory (observed): robot mouse, gnomon, tube of glue, open cardboard box.
+Room: sundial (missing gnomon), mousehole (west wainscot), closed oak chest (SE). Dots paper tidied away.
+
+Route since update 2:
+- Dots game 1: played all outers (a,f,b,e,g,l,i,j) then c -> she closed all 4 (0-4 loss), free rematch.
+- Dots game 2: typo probe 'ply a' rejected; 'play a' ok. Played a,c(f,d? she d),b(e),g... all-horizontals then g -> she closed 2 (TL,TR) + opened l; k,j -> I took BR,BL; 2-2 tiebreak loss, rematch.
+- Dots game 3 (WIN 3-1, score 8): a(f),b(e),g(l), then deliberate OPEN c giving her TL first (she h + extra d opening TR+BR), then i(TR mine),k(BR mine),j(BL mine). Her symmetry/mirror AI confirmed in end text ('Mister Conway said symmetry would never fail').
+- look after win: no new offer yet.
+
+Cases annotated: + play-typo-dots. Total 7 annotated.
+Unresolved: bread location (needed: 'Put bread in hole' before mouse maze; direct N,W,W got mouse ejected by cat).
+Last hints: overview (dots sacrifice confirmed empirically).
+Next: advance time for next offers (bread? Hanoi?). wait/look cycle; examine new items as offered.
+Checkpoints: start-toyshop, before-noughts, mouse-in-hole (mid-maze state, avoid), before-dots (pre-dots-1; dots now won, stale).
+Next checkpoint: after next offer stabilizes.

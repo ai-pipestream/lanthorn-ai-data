@@ -1,0 +1,10 @@
+# Balances progress (update 3)
+
+Location: Inside Cave (lit by glowing burin). White cube on rock, scales balanced: right 3 gold; left bronze+2 gold+crumpled scroll.
+Inventory: book (bozbar,caskly,frotz known? frotz used, rezrov used, none memorised now except caskly/gnusto forever?), coin, burin (glowing), chewed scroll (faded).
+Score: 10. Checkpoints: start-hut, after-wings, inside-cave.
+
+Cases annotated (~10): dir-typo, oats-none, gnusto-syntax, bozbar-world, tortoise-ambiguity, scroll-none, sapphire-none, door-world, dark-world.
+Pending: horse-ride world (e14 vs e31), tortoise-take refusal, chasm-cube blocked, feather missing (take feather failed e68), cave probes next.
+Last hint e76: rezrov door/frotz burin/west (done).
+Next: examine cube/scales/scroll, take cube (probe variation first), label cube per hint, then east/northwest/east routes; revisit feather and snake later.

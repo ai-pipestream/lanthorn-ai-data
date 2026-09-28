@@ -1,0 +1,10 @@
+# Enemies progress — cinema Screen Four e494; STOPPED at step budget, game incomplete
+
+Branch b1. Location: Screen Four (aisle seat) e494. Score 33. Ordinary prompt ">". No pending requests (m0465 serviced e494).
+State: satchel in Cloakroom holds complete 771 key + blue/green/purple figurines etc; bracelet worn; locker opened (perfume left); restaurant arc done (pour/cookie/apartment 1/31); canteen dispenser horror 1/33 e489 (Jade e490); kitchens SPACE to cinema e492-493.
+Last: look at screen e494 (trash film, Sarah in toilet 10+ min) — synthetic_probe accepted, needs annotate as none.
+Next (do not replay blindly): follow hint lines 310-318: z, Get up, S, x toilets; then request next excerpt after toilets toward escape/crane/final NE. Single commands; no SAVE inside pauses/menus. Next milestone checkpoint only at ordinary prompt.
+Checkpoints verified: locker-done-s32 e479/480, before-kiln e433/434, key-examined e417/418. Continuation checkpoint: resume from Screen Four e494 + locker-done-s32 save.
+Unresolved case IDs needing annotate: kiln-pipes-look e428 (none), kiln-gas-wordorder e437 (none), locker-open-direct e464/e465 (world_state), restaurant-pour-omitted e470/e471 (syntax), restaurant-under-table e472, sarah-sapphire/kiss/apartment, canteen-fridge-syn e487 (none), cinema-screen-look e494 (none).
+Help last: e491 lines 310-318 (W cinema What date X screen z Get up S x toilets).
+Score: 33. Ending NOT reached; no finish claim.

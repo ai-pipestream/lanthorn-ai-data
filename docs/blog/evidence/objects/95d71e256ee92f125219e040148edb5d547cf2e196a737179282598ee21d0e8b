@@ -1,0 +1,8 @@
+# Gumshoe progress — Marge desk timing (incomplete)
+
+- Location: Reception area, e00090 (ordinary prompt). Office door OPEN (e00089 "You open the office door"). North hallway door closed. Marge at desk (glare blocks search e00090). Coat+hat on rack.
+- Inventory last seen e00025: LA Times, trenchcoat worn then (now on rack per e00088), PI license, money. No camera yet. e00088 look confirms trenchcoat+hat on rack.
+- Branch b0; checkpoints confirmed: start-hallway, reception-entry. No new checkpoint (still blocked pre-camera).
+- Cases: annotated through chair-ambiguity (~13). Since: x desk cluttered (e00071), look in desk blocked (e00072), x hat plain (e00073), ask marge camera = in desk mess, won't give (e00074), search junk fail (e00076), take camera fail (e00077), open door opened office door (e00078), search desk blocked with door open (e00079), z (e00080), e to office (e00081), w back saw Marge by door then return (e00083), open hallway door fail (e00084), give money refused (e00085), x marge (e00086), x door reversed text (e00087), look reception (e00088), open office door explicit success (e00089), search desk blocked immediate (e00090).
+- Last hints: m0061/m0067/m0074 excerpts (Search desk, Marge closes office door, Wear camera, E, X desk, Search papers...); m0083 help pending on exact search timing.
+- Next: resolve timing — try z then search, or e/w to catch Marge standing (e00083 pattern), then search desk, wear camera, E to office, papers/envelope + mail ending. Single commands only near this trigger. Do not restart.

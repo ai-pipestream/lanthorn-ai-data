@@ -1,0 +1,865 @@
+{
+  "created_at": "2026-09-25T09:50:43.591469+00:00",
+  "reason": "Meta subscription quota exhausted",
+  "reset_at": "2026-09-25T12:41:27Z",
+  "original_settings": {
+    "control/worker-pool.json": {
+      "target": 10,
+      "enabled": true,
+      "queue_configs": [
+        "control/fullplay-refill-queue-20260925.json",
+        "control/fullplay-refill-queue2-20260925.json",
+        "control/fullplay-refill-queue3-20260925.json",
+        "control/fullplay-refill-queue4-20260925.json",
+        "control/fullplay-refill-queue5-20260925.json",
+        "control/fullplay-refill-queue6-20260925.json",
+        "control/fullplay-refill-queue7-20260925.json",
+        "control/fleet-batch-a-20260925.json",
+        "control/fleet-batch-b-20260925.json",
+        "control/fleet-batch-c-20260925.json",
+        "control/fleet-batch-d-20260925.json",
+        "control/fleet-batch-e-20260925.json",
+        "control/fleet-batch-f-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-g-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-h-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-j-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-k-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-l-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-m-20260925.json",
+        "/work/experiments/lanthorn-recall-training/control/fleet-batch-i-20260925.json"
+      ],
+      "poll_seconds": 15
+    },
+    "control/fleet/settings.json": {
+      "enabled": true,
+      "hosts": [
+        "cm5ai1",
+        "cm5v1",
+        "cm5v2",
+        "krickert@cm5v3.local",
+        "pi500p",
+        "pi5ai1",
+        "krickert@pi5ai2p.local",
+        "pi5v2"
+      ],
+      "per_host": 3
+    }
+  },
+  "status": "verified_all33_quota_failed_zero_clients_34_brokers_preserved",
+  "verified_at": "2026-09-25T09:51:34.914996+00:00",
+  "local": [
+    {
+      "game_id": "anchorhead",
+      "run": "runs/fullplay-anchorhead-20260925T092822Z-Xyp3IY",
+      "exit": "1",
+      "stderr_sha256": "9280dfe516bfcfcbf6240253c5f2a72d2f3fed517ca29e4045e982aefb360f6b",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/anchorhead (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=f444058c-217f-4074-aff6-5c8bd14d4b9e]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "curses",
+      "run": "runs/fullplay-curses-20260925T094037Z-bT80hm",
+      "exit": "1",
+      "stderr_sha256": "7c276fe2dbd196d0db2eed85304b08a9b2d79932c27434089c3f1d207a0c1d9e",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/curses (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=20797307-6d20-499c-b0fc-4e63a2d675df]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "delusions",
+      "run": "runs/fullplay-delusions-20260925T093943Z-UNaOnM",
+      "exit": "1",
+      "stderr_sha256": "048e53cced8e3dcab2436f9192c284ec2615f655973f4aa65466f8c919595fcd",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/delusions (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=59b991ec-e0de-4e1f-a4a6-50e1ccdd142f]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "run": "runs/fullplay-mulldoon-legacy-20260925T093250Z-f67ZS1",
+      "exit": "1",
+      "stderr_sha256": "e71350279fa40e9f81379e2fc0073806c31f24248a7fc92b543a0f29e28942d5",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/mulldoon-legacy (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=1b68faff-2f90-43ab-a69e-11e52b6854e5]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "run": "runs/fullplay-mystery-fun-house-20260925T094325Z-cPFaho",
+      "exit": "1",
+      "stderr_sha256": "6f20a53c372f3c8b6b29803af1ce129717597e28bbf732a226f6b34e226a27db",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/mystery-fun-house (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=0ec393c2-33d3-4e8c-b1ac-e437afa313f5]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "punk-points",
+      "run": "runs/fullplay-punk-points-20260925T094426Z-eAhiii",
+      "exit": "1",
+      "stderr_sha256": "be4550ec33ccc0e477e0c2e69a26341a0d836a79f29980c8239d7261f7b577b2",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/punk-points (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=5f295be0-5bcc-4283-8c9e-9a9f219eb549]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "teacher-feature",
+      "run": "runs/fullplay-teacher-feature-20260925T093506Z-p9yPC2",
+      "exit": "1",
+      "stderr_sha256": "b3f058859daa5fdb53709f641be1bbf250ff3088862a2a65bca95d533518b2c9",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/teacher-feature (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=c2594082-2cc6-4e12-bb9c-99db858aaab8]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "run": "runs/fullplay-time-all-things-come-to-an-end-20260925T092601Z-CvrIFR",
+      "exit": "1",
+      "stderr_sha256": "c44b6bec245c7be08b685041eb8d5b69513c6f308080c69c52993630e2f74ae6",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/time-all-things-come-to-an-end (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=010129ca-6a58-41b5-bd11-ae1bc12c7ff5]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    },
+    {
+      "game_id": "windhall",
+      "run": "runs/fullplay-windhall-20260925T092825Z-ZjfJd0",
+      "exit": "1",
+      "stderr_sha256": "028b0af224a87c88e3238d7bb46f549e00dd6bbf246917ebe54a26002e13fd75",
+      "stderr_tail": "muse: workspace root: /work/experiments/lanthorn-recall-training/play/windhall (explicit)\nmuse: Skills: 66 loaded \u00b7 1 warning\nmuse:   `skills_catalog` was trimmed to fit its size limit (32 KB): 4 descriptions compacted, 0 skill ids omitted\nmuse:   Run `muse skills list --source all` for full diagnostics.\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=ca470832-bf72-48ae-9ace-1d55c620427f]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+      "quota_reset": [
+        "2026-09-25T12:41:27Z."
+      ]
+    }
+  ],
+  "remote": {
+    "cm5ai1": {
+      "processes": [],
+      "games": {
+        "frozen": {
+          "state": {
+            "pid": 142860,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/frozen-1790329452687900225"
+          },
+          "stderr_sha256": "6c0b730bae3206d54da0daa46a0f6d5960d62072fa97bebc9d9efb997cda0870",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/frozen (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=e22698f6-4fdd-46f5-a6ea-19aaadd18461]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "spiritwrak": {
+          "state": {
+            "pid": 142862,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/spiritwrak-1790328448516565825"
+          },
+          "stderr_sha256": "f86a781ce59936373a64d845d16c1c30f9263f80cdfeb34375a0ad9f5ed00fd7",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/spiritwrak (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=d6095403-3b15-46e8-92ee-efbbbdf6d70b]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "schooldays": {
+          "state": {
+            "pid": 142863,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/schooldays-1790329089617924427"
+          },
+          "stderr_sha256": "c8a28c1fcd1a426e518059ed642a142e852a5bc16135d8ef577b829f729e994f",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/schooldays (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=9c9b4390-1b6d-48a0-9d2d-68799574e1cc]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "cm5v1": {
+      "processes": [],
+      "games": {
+        "enemies": {
+          "state": {
+            "pid": 67177,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/enemies-1790329515409135188"
+          },
+          "stderr_sha256": "21a00e6957814d9f21b2f3d9ace247b784ac2e16c6f22140378af96d5afb8e03",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/enemies (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=51643d21-d2a5-4590-a8d2-a826aeb9dac3]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "varicella": {
+          "state": {
+            "pid": 56911,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/varicella-1790329205130188062"
+          },
+          "stderr_sha256": "c1dca0b180febc2bf1b3b527142fa050ec1e13e2c7b2ec2a530688023d9e5b4e",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/varicella (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=0e23a7e5-7d4d-4027-be30-732a3e3868f5]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "zorkian-stories-1-gue": {
+          "state": {
+            "pid": 87371,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/zorkian-stories-1-gue-1790329165778129840"
+          },
+          "stderr_sha256": "f71e8485723aa5201daa01a2cf722f7900d4cdede9b2ce72a540b260ae62beca",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/zorkian-stories-1-gue (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=38394619-4f58-4cf3-ac6c-f2c967ea40da]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "cm5v2": {
+      "processes": [],
+      "games": {
+        "heist": {
+          "state": {
+            "pid": 75727,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/heist-1790328066901516414"
+          },
+          "stderr_sha256": "ecca77cfb799945f13d871c22dfc9388d13af223d22ef010299bc7f5e9b6d109",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/heist (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=823535fb-946e-454e-ab7c-cc5a882d79d5]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "critical-breach": {
+          "state": {
+            "pid": 75730,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/critical-breach-1790328972095201723"
+          },
+          "stderr_sha256": "0d9ea34b92a347a78c35b8c1183ba75a5109e880f7521a08a441bdd437519462",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/critical-breach (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=fc982a0d-6015-4635-a7e0-12b8fcc7288b]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "not-just-a-game": {
+          "state": {
+            "pid": 78259,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/not-just-a-game-1790329300561026145"
+          },
+          "stderr_sha256": "cb58c897f6cbf69d2e38ab533e5ea7e16504b138d91bf20154552d190fa9feb1",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/not-just-a-game (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=6fe59a85-bd09-4e10-9173-0f3f7334d6ee]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "krickert@cm5v3.local": {
+      "processes": [],
+      "games": {
+        "gerbil-riot": {
+          "state": {
+            "pid": 72817,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790328606140894416"
+          },
+          "stderr_sha256": "78e21b494548a38dbb660f6838ca62f7ee50134de5dfcc76ecdcf33d81d53b19",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/gerbil-riot (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=2e8238bb-d7ce-4a3d-a61c-a5846f7f2847]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "lecture-feature": {
+          "state": {
+            "pid": 94022,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/lecture-feature-1790329463633962890"
+          },
+          "stderr_sha256": "03d36f2adf365e844bb638985d6191903ccb3fa52e76d2a5f68a780346083b84",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/lecture-feature (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=c00e3cd9-ebd3-43ed-a83e-1c0a6ca527fd]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "dash-slapney-patrol-leader": {
+          "state": {
+            "pid": 113038,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/dash-slapney-patrol-leader-1790329452684572167"
+          },
+          "stderr_sha256": "05e20c2da04a2945d635854e27dea1645d65cf0ccb010437177cf776dd9de4c6",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/dash-slapney-patrol-leader (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=c55e2a40-6ee9-470c-a25d-34ae0aa2f559]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "pi500p": {
+      "processes": [],
+      "games": {
+        "gumshoe": {
+          "state": {
+            "pid": 34994,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/gumshoe-1790328276505746930"
+          },
+          "stderr_sha256": "bd1887ebaa5ae2fd936d2b0ba28ffaaebfd2858a6caf8c9a197ec9d36d1ed947",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/gumshoe (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=6778ad78-dd62-4a94-8fa7-2143ffa10b32]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "fine-tuned": {
+          "state": {
+            "pid": 34995,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/fine-tuned-1790328285595011161"
+          },
+          "stderr_sha256": "5fc0a1fe3100cd139bc09031bb3d7ee9abc448c8effadbca175c43c73bb3c02c",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/fine-tuned (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=799c1471-a5f6-4672-9140-e4d33a58fc6e]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "mortlake-manor": {
+          "state": {
+            "pid": 46505,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/mortlake-manor-1790329269563321464"
+          },
+          "stderr_sha256": "0d956b38736075819380fb213706bd6e99522498546a185a7fe550b2032b8c81",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/mortlake-manor (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=67473232-fed1-4aa2-9e29-c55e24ba9168]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "pi5ai1": {
+      "processes": [],
+      "games": {
+        "return-to-karn": {
+          "state": {
+            "pid": 40801,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/return-to-karn-1790328617322485901"
+          },
+          "stderr_sha256": "5703ec3cafe868610d150edfa847edcdc7fabbf19d5cd1070049a657352d63f3",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/return-to-karn (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=9f8a6d46-0085-45bb-8855-7b1929fc4728]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "heroines-mantle": {
+          "state": {
+            "pid": 40802,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790328655386011016"
+          },
+          "stderr_sha256": "82cb05a0ad220cbac5b735494b7329f075467a7c788ff9b63575d2d6399fdcc7",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/heroines-mantle (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=400ee48b-8847-4cb5-9c46-b75da930677d]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "hla-inform": {
+          "state": {
+            "pid": 44286,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/hla-inform-1790328513542486344"
+          },
+          "stderr_sha256": "6463d8284e014ad2ac99dccc5b30b7eede07add1a37127d9d32369ff224a2e14",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/hla-inform (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=f42c67da-110c-47ba-88da-8b54a7333f90]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "krickert@pi5ai2p.local": {
+      "processes": [],
+      "games": {
+        "dracula-prince-of-darkness": {
+          "state": {
+            "pid": 172655,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790328602960513083"
+          },
+          "stderr_sha256": "31842f1eb84ecaeef8bd7fffe060f2d889e5877c8e204b931597eb19e726c8e3",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/dracula-prince-of-darkness (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=08fa32bb-e66c-4106-8421-27471670f209]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "busted": {
+          "state": {
+            "pid": 228696,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/busted-1790329125820777614"
+          },
+          "stderr_sha256": "9c006bd6e0006448fa22143390bf6099da6f9e5a049e66f23b548b6642958f9e",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/busted (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=9afe6375-5413-465e-a57c-90080fbc8081]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "inside-woman": {
+          "state": {
+            "pid": 235549,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/inside-woman-1790328979956001248"
+          },
+          "stderr_sha256": "35427b739ec44830fa8bfdcc680863afdb2c6740c0d2e60d8f57889a48f08ecc",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/inside-woman (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=eb0b0029-ece2-49a3-9869-d09b8beafab2]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    },
+    "pi5v2": {
+      "processes": [],
+      "games": {
+        "deephome": {
+          "state": {
+            "pid": 143447,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/deephome-1790329104253137426"
+          },
+          "stderr_sha256": "42326094aa10a3cbc61817112050d80511f430cbb267633423e390b961c128e2",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/deephome (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=2bc13392-af7c-4f92-8b24-5770f9a0a7f1]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "augmented-fourth": {
+          "state": {
+            "pid": 161757,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/augmented-fourth-1790328832013601222"
+          },
+          "stderr_sha256": "6ef70e96ca8440b69fb0b10f79658607833ff7ede089c94d762c94fe3ad4a2a1",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/augmented-fourth (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=92f68ebb-58d6-40c9-8aa7-89b6a1e2cd25]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        },
+        "earth-and-sky-episode-1": {
+          "state": {
+            "pid": 176578,
+            "state": "failed",
+            "exit": 1,
+            "run": "/home/krickert/lanthorn-muse/runs/earth-and-sky-episode-1-1790329159837275872"
+          },
+          "stderr_sha256": "e4282d4e2b2e25e95ab796c4e1d92b47c23bed4a47f2559f7ba79a93f04876dc",
+          "stderr_tail": "muse: workspace root: /home/krickert/lanthorn-muse/play/earth-and-sky-episode-1 (explicit)\nmuse: Agent delegation: auto unavailable: workspace is untrusted.\nrun ended with Failed: API error 429 [request_id=f3396d9b-97ca-4fa2-a0c2-87e1783a0be5]: Subscription quota exhausted. Your usage window resets at 2026-09-25T12:41:27Z. (rate_limit_error)\n",
+          "quota_reset": [
+            "2026-09-25T12:41:27Z."
+          ],
+          "pending": []
+        }
+      }
+    }
+  },
+  "health": {
+    "anchorhead": {
+      "session_id": "anchorhead-9852cd5b9d",
+      "last_event": "anchorhead-9852cd5b9d:e01267",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3672312
+      ],
+      "raw_sha256": "e567f37c962c9eb4344f5da063d41e008aee5a23c00d3bb3d2276963e4892097"
+    },
+    "augmented-fourth": {
+      "session_id": "augmented-fourth-d479b421d9",
+      "last_event": "augmented-fourth-d479b421d9:e00247",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        472264
+      ],
+      "raw_sha256": "4c045c656e744621d88933335707e6dac0cf99e943851d158e131cc2be049662"
+    },
+    "busted": {
+      "session_id": "busted-d683906f1b",
+      "last_event": "busted-d683906f1b:e00103",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        546702
+      ],
+      "raw_sha256": "d2f7af5aa83aebf0a108934ebc1a6f3497f652577b7166720981bf6a0318c550"
+    },
+    "critical-breach": {
+      "session_id": "critical-breach-b5dd49a3e4",
+      "last_event": "critical-breach-b5dd49a3e4:e00490",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3324847
+      ],
+      "raw_sha256": "280e89644c537760cd6d0ecc1ec6f1b96eac67c24c48e18847894826b4f20f5f"
+    },
+    "curses": {
+      "session_id": "curses-4e1875ea4e",
+      "last_event": "curses-4e1875ea4e:e03598",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        907555
+      ],
+      "raw_sha256": "999dc481a09bddadfa0f12086d2033267402dbc8d63e2fbe648e3d861c803735"
+    },
+    "dash-slapney-patrol-leader": {
+      "session_id": "dash-slapney-patrol-leader-64ff8134ce",
+      "last_event": "dash-slapney-patrol-leader-64ff8134ce:e00006",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        681545
+      ],
+      "raw_sha256": "a5a0714bc2e88430f0781840abb2097f7d9833954d4f6cccabbd189f11ce80ba"
+    },
+    "deephome": {
+      "session_id": "deephome-56e3d50bda",
+      "last_event": "deephome-56e3d50bda:e00812",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094404
+      ],
+      "raw_sha256": "1e1342fef4eca336cfa701fb4b3e3deda12f63e29c71bcf87db0c9b698e8b830"
+    },
+    "delusions": {
+      "session_id": "delusions-8997f25a87",
+      "last_event": "delusions-8997f25a87:e01538",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3320074
+      ],
+      "raw_sha256": "06cd7bb1959848561a410ade34c492f09877ee8d823cf997292ca4852bdd239d"
+    },
+    "dracula-prince-of-darkness": {
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "last_event": "dracula-prince-of-darkness-d75c304699:e00644",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094264
+      ],
+      "raw_sha256": "1e5fd1b960f6b764198d45a75ef5ee16e2f15e8d0d971ef4dc9c477ecee7599c"
+    },
+    "earth-and-sky-episode-1": {
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "last_event": "earth-and-sky-episode-1-2bb22846be:e00088",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        556195
+      ],
+      "raw_sha256": "d69afde56b94701db9a3559fd0f3da405d2394ee5960eab62fea52e0f344abec"
+    },
+    "enemies": {
+      "session_id": "enemies-0b4aba49fe",
+      "last_event": "enemies-0b4aba49fe:e00568",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094159
+      ],
+      "raw_sha256": "7a236b6285cfd7f319e960daab7ce887ccef088427ebceea1ab3d52f40d26835"
+    },
+    "fine-tuned": {
+      "session_id": "fine-tuned-989503b0a7",
+      "last_event": "fine-tuned-989503b0a7:e00516",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3395975
+      ],
+      "raw_sha256": "80acaf2509b8ffc96b02ae46b478eccf1b4c969374622a1004513869dc72a80f"
+    },
+    "frozen": {
+      "session_id": "frozen-a2e5d2eea9",
+      "last_event": "frozen-a2e5d2eea9:e00726",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3082902
+      ],
+      "raw_sha256": "04de3498ad323fc02693247d6ef07218dedbfca4a29e28385a0ad14279a5375f"
+    },
+    "gerbil-riot": {
+      "session_id": "gerbil-riot-f0779de162",
+      "last_event": "gerbil-riot-f0779de162:e00664",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094179
+      ],
+      "raw_sha256": "72cf2a12628dde24bee27d74132f1ef8721804d12871083453a78a94298675ec"
+    },
+    "gumshoe": {
+      "session_id": "gumshoe-2933d54ccf",
+      "last_event": "gumshoe-2933d54ccf:e00524",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3329939
+      ],
+      "raw_sha256": "ba36622b4d1555cdd0179afde96765b579ad6e525d91a24e6ea8a518241e317e"
+    },
+    "heist": {
+      "session_id": "heist-a079eba445",
+      "last_event": "heist-a079eba445:e00700",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094163
+      ],
+      "raw_sha256": "e72a15634b807c496ebcef0df4654300c4a5c9fba1a753528236b55fb8586259"
+    },
+    "heroines-mantle": {
+      "session_id": "heroines-mantle-4053f4fad7",
+      "last_event": "heroines-mantle-4053f4fad7:e00683",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094243
+      ],
+      "raw_sha256": "57b2ad5a2af993ffe3339623d3e0ee23bf40d8161785a3be0a69f4390b5ba456"
+    },
+    "hla-inform": {
+      "session_id": "hla-inform-09ea9c8220",
+      "last_event": "hla-inform-09ea9c8220:e00409",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        185983
+      ],
+      "raw_sha256": "df6842242401f06916742cd7a7bf0898ada0321e219b3065a3686b3081b41814"
+    },
+    "inside-woman": {
+      "session_id": "inside-woman-70e8855708",
+      "last_event": "inside-woman-70e8855708:e00037",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        649767
+      ],
+      "raw_sha256": "f555f7233817dfcd3de6ae666d93184ed68b6e5d9a9f40a49a20bc43a8d2f32c"
+    },
+    "lecture-feature": {
+      "session_id": "lecture-feature-fbf9767abc",
+      "last_event": "lecture-feature-fbf9767abc:e00225",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        491802
+      ],
+      "raw_sha256": "494e48abeb6d6925a0781aa025cdcc8a507f3709e4e3f77fc969bd0022b33863"
+    },
+    "mortlake-manor": {
+      "session_id": "mortlake-manor-e0475539fe",
+      "last_event": "mortlake-manor-e0475539fe:e00355",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        446500
+      ],
+      "raw_sha256": "d534b3e35d3763c439fa5aa5316f94a38ac811fc828e2b61f367e3283fa67a26"
+    },
+    "mulldoon-legacy": {
+      "session_id": "mulldoon-legacy-7080420221",
+      "last_event": "mulldoon-legacy-7080420221:e00143",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        630160
+      ],
+      "raw_sha256": "a883df4f126eeba6e78cc3f14259711dec8eafb3dae784fd43cec32963632a5f"
+    },
+    "mystery-fun-house": {
+      "session_id": "mystery-fun-house-61d87e14cd",
+      "last_event": "mystery-fun-house-61d87e14cd:e00027",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        678891
+      ],
+      "raw_sha256": "6e440dcc26f85b600d58e24a46c58dfd1d3d0f111b9d09833c815c12780b33d5"
+    },
+    "not-just-a-game": {
+      "session_id": "not-just-a-game-8201b5a6d4",
+      "last_event": "not-just-a-game-8201b5a6d4:e00409",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        87474
+      ],
+      "raw_sha256": "a38608f470ce5e1bfeb52f26c6ee814a3f7c3426bf1160f14650834ba93d1e8e"
+    },
+    "punk-points": {
+      "session_id": "punk-points-7c2d72a183",
+      "last_event": "punk-points-7c2d72a183:e00009",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        682183
+      ],
+      "raw_sha256": "fbbe945c00c04ae8a60892a8e1e1ce77c754eda0e468561b7b8583e6b64ccb09"
+    },
+    "pythos-mask": {
+      "session_id": "pythos-mask-a39eb2af1a",
+      "last_event": "pythos-mask-a39eb2af1a:e00004",
+      "input_state": "no_output_timeout",
+      "pending": [],
+      "broker_pids": [
+        473922
+      ],
+      "raw_sha256": "92753a6ebfa735a81e94efe2613dd47b885aebe809487f6aed5b448835e7546e"
+    },
+    "return-to-karn": {
+      "session_id": "return-to-karn-bf86b7da19",
+      "last_event": "return-to-karn-bf86b7da19:e00709",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094239
+      ],
+      "raw_sha256": "e5c8f495b6b68551a85391a0a9b75af6870f80a95fa5e14ac6fbaccc94445db7"
+    },
+    "schooldays": {
+      "session_id": "schooldays-b371c6a97d",
+      "last_event": "schooldays-b371c6a97d:e00419",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3682519
+      ],
+      "raw_sha256": "96faddc196369150391cd2f63a2302e9388d9218a26ed005be08d212db81f356"
+    },
+    "spiritwrak": {
+      "session_id": "spiritwrak-8e02d83255",
+      "last_event": "spiritwrak-8e02d83255:e00640",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        3094140
+      ],
+      "raw_sha256": "6ec90b69d65b7028af45b48d179e909d7c0dcc94926feb0d83d5606e27f8dde8"
+    },
+    "teacher-feature": {
+      "session_id": "teacher-feature-8ddda176d1",
+      "last_event": "teacher-feature-8ddda176d1:e00122",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        642083
+      ],
+      "raw_sha256": "4c69bab7150dc29d42089665f987b31c196a31da49b3322d9afe6022c6a0ac24"
+    },
+    "time-all-things-come-to-an-end": {
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "last_event": "time-all-things-come-to-an-end-fad9ab092f:e00382",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        532921
+      ],
+      "raw_sha256": "094215540cfdafd60fb6c83cbccce39c75496086d08bbd5f0d73667510c57c3b"
+    },
+    "varicella": {
+      "session_id": "varicella-0ca3ff14a0",
+      "last_event": "varicella-0ca3ff14a0:e00340",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        450649
+      ],
+      "raw_sha256": "4a9b0eb30d2a134c3c615869c4c580151922558494469e293553a12c411969f8"
+    },
+    "windhall": {
+      "session_id": "windhall-ec1287a533",
+      "last_event": "windhall-ec1287a533:e01088",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        448148
+      ],
+      "raw_sha256": "ca2a43f5fe5144d00dbd1df8e55c8af1e0ecd625dcc32d92453cb1467c038541"
+    },
+    "zorkian-stories-1-gue": {
+      "session_id": "zorkian-stories-1-gue-6ffd9e5043",
+      "last_event": "zorkian-stories-1-gue-6ffd9e5043:e00025",
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "broker_pids": [
+        661131
+      ],
+      "raw_sha256": "cb936ea7ae6a2d68205403199972f8eef217c2bbf54bdb1e54e6cb1843053cbc"
+    }
+  },
+  "actual_local_clients": [],
+  "held_game": "pythos-mask",
+  "services": "active\nactive\n"
+}

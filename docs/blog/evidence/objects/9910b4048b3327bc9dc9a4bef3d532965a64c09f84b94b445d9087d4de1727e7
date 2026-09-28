@@ -1,0 +1,86 @@
+{
+  "game_id": "inside-woman",
+  "title": "Inside Woman",
+  "author": "Andy Phillips",
+  "url": "https://ifarchive.org/if-archive/solutions/WomanHints.txt",
+  "accessed_at": "2026-09-25T09:13:34.996840+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/WomanHints.txt",
+  "source_sha256": "3222bb55b5330fee6ea26ddb2100e9158ebd91f4d3b7346ca9e8271cde0bb861",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/inside-woman-walkthrough.txt",
+  "normalized_sha256": "3222bb55b5330fee6ea26ddb2100e9158ebd91f4d3b7346ca9e8271cde0bb861",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/zcode/woman.z8",
+  "story_sha256": "041c0c5028998beed62506abc83632bd45e9bbb848e90b6f93e7364fed0e46b8",
+  "compatibility": "Local Z8 R5/090628 matches fresh archive story bytes and catalog. Archive identifies the author Invisiclues as release 5, matching the local release; the guide supplies no serial. Release-number gap is zero but exact serial equivalence and runtime behavior remain unverified.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "090628",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000005e6e0e6e1968b01b87b3887c4005030393036323800f0e98b224b0000000000000000000000000000000087c300000000000001b000000000362e3330",
+    "header_sha256": "e3a6af9951e665399d1cc3fc8abc0c0822b85b889af0817ad5b88dcb401c90ec",
+    "checksum_hex": "224b",
+    "computed_checksum_hex": "224b",
+    "declared_length": 478296,
+    "file_bytes": 478720
+  },
+  "guide_release": 5,
+  "guide_serial": null,
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "woman.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/woman.z8",
+    "accessed_at": "2026-09-25T09:19:50.943364+00:00",
+    "remote_sha256": "041c0c5028998beed62506abc83632bd45e9bbb848e90b6f93e7364fed0e46b8",
+    "local_sha256": "041c0c5028998beed62506abc83632bd45e9bbb848e90b6f93e7364fed0e46b8",
+    "bytes": 478720,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 5,
+    "remote_serial": "090628"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#woman.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "woman.z8 ◆ [28-Jun-2009] IFDB entry IFWiki: Inside Woman Inside Woman, Interactive Corporate Espionage, written by Andy Phillips. Release 5 / Serial number 090628.",
+    "tuid": "jicj96i5dtdra2j8"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#WomanHints.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "WomanHints.txt ◆ [28-Jul-2009] IFDB entry Invisiclues style hints for Inside Woman (release 5) by the game's author, Andy Phillips.",
+    "tuid": "jicj96i5dtdra2j8"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Andy Phillips",
+    "route_summary": "Complete the Arcology espionage story through the stadium and actual final narrative. The author explicitly identifies disarming the fission core followed by the protagonist dying as the intended sacrifice conclusion: preserve this as authored completion, not an ordinary early death. The surviving deal with Gustav is an intended alternate ending and must be labeled accurately. Registration, capture, defeating an executive, finishing the nested videogame, a score or issuing a final command alone is not completion. Prefer the full rescue route; verify the actual epilogue against raw output.",
+    "limitations": "This is a complete author hint book organized by Arcology level, not a linear script. Use one relevant question at a time, based on observed state. Early exploration permits multiple days; deadlines become critical after late capture. Keep an early safe checkpoint after startup questions, and milestone saves before timed commitments. Read live document details, schedules, lottery patterns and color clues. The nested videogame has a required score for a puzzle object, but that is not a collection quota or whole-story ending. Preserve the intended sacrifice and survival branches without forcing retries just to improve score.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "inside-woman",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Independent Utopia Arcology espionage setting in the reviewed author hints. Shared Andy Phillips authorship with Heroine's Mantle does not itself prove a shared world. Reserve inside-woman for ports/releases; parent should review any additional shared-world evidence before registration/export. Both current proposals are train, so no known held-out crossover is introduced."
+  },
+  "reuse_claims_observed": "No training or redistribution permission established for story or guide. Public availability does not establish such rights; private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

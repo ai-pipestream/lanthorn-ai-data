@@ -1,0 +1,9 @@
+# Vindaloo progress — e00211 Garden alley blocked (game incomplete)
+
+Location: Back Garden e00209-211. Look confirms weeds + alley entrance. North/east/west fail, enter alley / examine entrance / go through entrance all "can't see" (e00160-163, e00166, e00211). Ordinary prompt.
+Inventory: onion, scarf, pound coin, spade, front door key (take ball e00185 full).
+Route: reached Front e00200 via west/east road walk, north fail e00201, open door locked e00202, unlock front door prompted for instrument e00203, explicit unlock with key ok e00204, open front door ok e00205, north hallway e00206 + kitchen e00207, north garden e00208 (back door still open).
+Help: m0194 garden->alley excerpt only order (search weeds onion, search garbage hat), no direction verb.
+Next: south to kitchen, then systematic alley hunt outside garden (stall/bend/shop/works/chicken exits) + consider spade dig in garden later with checkpoint. Do not repeat north/enter/examine/go-through.
+Checkpoints ok: start-bedroom, hallway, outside-front, indian-shop, stall, kitchen-entered, garden-onion. Next inbox m0196.
+Cases: park-take-ball e00185 (limit), front unlock omitted e00203 vs explicit e00204 (instrument syntax), front open ellipsis e00202 locked.

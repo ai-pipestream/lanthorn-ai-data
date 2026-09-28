@@ -1,0 +1,71 @@
+{
+  "snapshot_id": "20260925T092417.148209Z",
+  "games": [
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "disposition": "continue",
+      "evidence_event_ids": [
+        "time-all-things-come-to-an-end-fad9ab092f:e00180",
+        "time-all-things-come-to-an-end-fad9ab092f:e00182",
+        "time-all-things-come-to-an-end-fad9ab092f:e00189",
+        "time-all-things-come-to-an-end-fad9ab092f:e00193"
+      ],
+      "reason": "Healthy local session: launcher pid 532950 and broker pid 532921 present, latest actual input state awaiting_input_or_idle, no pending requests. Recent verified raw output shows real progress on branch b0: knife activated via 'turn handle' (e00179), fence cut (e00180), backyard reached (e00182), rope taken (e00189). Current exploration is searching for the hinted pipe; 'examine pipe'/'bend pipe' returned can't-see, so pipe location is unresolved, but this is ordinary gameplay uncertainty, not a fault. No ending claim. Walkthrough-derived hints remain source advice, not observation.",
+      "next_action": "Allow the worker to keep exploring from the side of house / backyard (e.g., locate the pipe or another route to the platform), checkpoint after house entry. No interference.",
+      "confidence": "high"
+    },
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "disposition": "continue",
+      "evidence_event_ids": [
+        "enemies-0b4aba49fe:e00480",
+        "enemies-0b4aba49fe:e00489",
+        "enemies-0b4aba49fe:e00492",
+        "enemies-0b4aba49fe:e00493",
+        "enemies-0b4aba49fe:e00494"
+      ],
+      "reason": "Healthy remote session on cm5v1: worker pid 67177 and muse pid 73391 alive, state running, last_sync 09:24:16Z with recent log activity, broker 3094159 up, no pending requests, ordinary '>' prompt. Verified progress on branch b1: locker checkpoint locker-done-s32 saved (e00479-e00480), dispenser horror scored 33 (e00489), Jade identified (e00490), kitchen SPACE transition to Screen Four cinema (e00492-e00493). Ending explicitly NOT reached per progress and evidence; score 33 with game incomplete. Several synthetic probes await annotation (e.g., cinema-screen-look e00494) but that is bookkeeping, not a blocker.",
+      "next_action": "Let the worker proceed from Screen Four at the ordinary prompt per its plan (get up, south, examine toilets), with milestone checkpointing only at ordinary prompts and no SAVE inside pauses/menus.",
+      "confidence": "high"
+    },
+    {
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "traffic-dc40d385c3:e00222",
+        "traffic-dc40d385c3:e00229",
+        "traffic-dc40d385c3:e00230",
+        "traffic-dc40d385c3:e00233",
+        "traffic-dc40d385c3:e00234"
+      ],
+      "reason": "Remote worker finished with exit 0 at 09:15:10Z. The ending claim is supported by exact concluding raw output: e00233 contains the full concluding narrative (revised present with no speeding car, news of the Loomis Bank father and blond daughter, reunion) ending in '*** You have won ***' plus 'scored 0 out of a possible 0, in 83 turns' and the RESTART/RESTORE/QUIT prompt, on branch b3 with matching story hash, collector-verified raw. This is distinct from the earlier normal-ending branch (b2 e199). However, the claim and e00233 are unreviewed; I do not certify endings \u2014 parent independent review of the raw output and branch evidence is required before marking complete.",
+      "next_action": "Parent performs independent review of e00233 raw transcript and branch b3 lineage (including revised-present checkpoint e00229-e00230 and bark-twice pivot e00222) against the ending claim e00234. If confirmed, close out the session and free the slot; preserve b2/b3 branch evidence and checkpoints. No further game input.",
+      "confidence": "medium"
+    },
+    {
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "pythos-mask-a39eb2af1a:e00002",
+        "pythos-mask-a39eb2af1a:e00003",
+        "pythos-mask-a39eb2af1a:e00004"
+      ],
+      "reason": "Session is under an active supervisor hold (08:42:15Z) and owns held slot 'pythos-mask'. Actual process state: startup reached the intro MORE prompt (e00002), an empty Enter at MORE produced no_output_timeout (e00003), and the permitted passive await_output (m0003) also returned empty delayed output with no_output_timeout (e00004); the hold record confirms no pending requests remain. Clients are stopped; broker pid 473922 preserved. This is a transport/interpreter output stall at the startup MORE, already documented in control/pythos-startup-diagnosis-20260925T0842.md, not a provider quota error and not a supervisor-timeout-to-quota assumption. Timeout protocol forbids any further key, replay, SAVE, or silent reset; the slot must not be masked by a replacement launch.",
+      "next_action": "Keep the hold and slot ownership; no live commands to the session. Parent reviews the existing diagnosis and decides on broker/interpreter recovery \u2014 which would require a confirmed SAVE into an explicit new session with preserved branch/evidence, none of which exists yet (no checkpoint, intro incomplete) \u2014 or a transport-level fix. Await parent instruction.",
+      "confidence": "high"
+    }
+  ],
+  "capacity": {
+    "active_local": 9,
+    "active_remote": 24,
+    "held_slots": 1,
+    "target": 34,
+    "another_launch_justified": false,
+    "note": "9 local + 24 remote = 33 active. The unresolved held pythos-mask slot reduces actual capacity to 33 of the nominal 34, and that slot is still owned by the held session. Launching any of the queued games (mulldoon-legacy, alias-the-magpie, a-remote-problem) now would mask the held slot; no new launch until the hold resolves or the parent explicitly retires the slot. If traffic's ending is parent-confirmed and its remote slot freed, one launch from the queue becomes justifiable."
+  },
+  "recommendation": "Continue time-all-things-come-to-an-end and enemies without interference. Submit traffic's best-ending claim (e00234 backed by e00233 raw output) for mandatory parent independent review before completion sign-off. Keep pythos-mask held with slot ownership intact, no inputs, pending parent decision on transport recovery per its existing diagnosis. Hold all launches: 33/33 effective slots are occupied while the held slot remains unresolved; reconsider one queued launch only after the hold clears or traffic's slot is verifiably freed."
+}

@@ -1,0 +1,21 @@
+# Slacker X progress
+
+Location: Bathroom (east of Hallway via Secret Exit). Score 15 observed.
+Inventory (last observed at start + takes): satchel (open), No Pot, Dolemite night-light, large bag (of pot), can of gasoline. Verify with inventory on resume.
+
+Route done: SPACE start, get bag (+4, score 13), e to Storage closet, get can (+4, score 14), w to Back bedroom, s to Hallway (score 15), e to Bathroom.
+Current room (e00020): Bathroom, smelly, toothpaste/shaving cream, toilet lid ripped off, Jeremy giggling/lighting things, SPANK magazine present, Jeremy says Dan/Japan/mini van line.
+
+Cases (all annotated unless noted):
+- bag-take-synonym: grab bag e08 vocab fail -> get bag e09 success annotated e10
+- can-take-typo: get cna e12 can't-see -> get can e13 success annotated e14
+- move-west-synonym: head west e15 vocab fail -> w e16 success annotated e17
+- secret-exit-enter: open secret exit e19 can't-see -> e e20 success annotated e21
+
+Checkpoints: early-bedroom confirmed e03-e04.
+
+Hints (walkthrough, NOT observed): opening get bag/e/get can/w s e (lines 2-10); mid excerpt w n n n w / give vodka to barbara>eye(9) / give eye to cody>bill(10) / open bag, put powder in pot, eat pot / give bag to barry>envelope.
+
+Pending: inbox/m0020.json help request (bathroom Jeremy SPANK next route, related e00020) submitted, no responses/m0020.json yet; latest.json still e00021. Do NOT resubmit. On resume: read responses/m0020.json first, then continue.
+
+Next (after hint resolves): examine/take SPANK magazine with a probe first (e.g. typo or synonym), then follow hint; checkpoint at next ordinary prompt before risky probes; update progress every 10-15 requests.

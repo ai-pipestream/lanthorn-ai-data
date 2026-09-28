@@ -1,0 +1,8 @@
+# Progress — underoos-that-ate-new-york
+
+Branch b0, ~43 events. Location: Your Kitchen. Score 1.
+Inventory (observed): broom (taken e30), glowstick (e34), can of lyesmall (e36, via 'get can'). Fridge empty/open. Toaster lever pushed; socks killed by heat, on floor.
+Checkpoints: start-bedroom, kitchen-entry (verified).
+Cases so far: bedroom-west-syn (world_state), bedroom-find-underoos (vocab), kitchen-broom-wording (vocab), kitchen-fridge-syn (none/accepted), kitchen-spray-naming (vocab), kitchen-toaster-lever (ambiguity). Unresolved: closet-shoes-take (needs spray/can route west), bedroom-east block resolved after finding underoos.
+Last hints: kitchen get broom / open fridge>glowstick&spray / push lever>kill socks / wear socks (verified in play).
+Next: wear socks, return west to handle underoos with broom, then closet spray at shoes, milestone checkpoint.

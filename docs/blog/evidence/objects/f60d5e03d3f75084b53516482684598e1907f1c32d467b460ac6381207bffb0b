@@ -1,0 +1,36 @@
+import json,hashlib,fcntl,subprocess
+from pathlib import Path
+from datetime import datetime,timezone
+sha=lambda b:hashlib.sha256(b).hexdigest()
+p=Path('control/fleet-batch-j-20260925.json');games=json.loads(p.read_text())['games'];checked=[]
+for g in games:
+ r=json.loads(Path(g['source_record']).read_text());data=Path(g['story']).read_bytes();assert sha(data)==g['story_sha256_expected']==r['story_sha256'];h=r['story_header'];z=data
+ if data[:4]==b'FORM':
+  assert data[8:12]==b'IFRS';off=12;found=[]
+  while off+8<=len(data):
+   n=int.from_bytes(data[off+4:off+8],'big');v=data[off+8:off+8+n];assert len(v)==n
+   if data[off:off+4]==b'ZCOD':found.append(v)
+   off+=8+n+n%2
+  assert len(found)==1;z=found[0];assert sha(z)==h['zcod_sha256']
+ assert sha(z[:64])==h['header_sha256'] and z[:64].hex()==h['header_hex'];assert g['zmachine_version']==z[0]
+ release=int.from_bytes(z[2:4],'big');serial=z[18:24].decode();assert release==g['release']==r['release'] and serial==g['serial']==r['serial']
+ remote=subprocess.check_output(['curl','-fsSL','--max-time','30',r['story_identity']['url']]);assert remote==data
+ raw=Path(r['raw_path']).read_bytes();norm=Path(g['walkthrough']).read_bytes();assert sha(raw)==r['source_sha256'] and sha(norm)==r['normalized_sha256']
+ assert raw.decode(r['normalization']['source_encoding']).replace('\r\n','\n').replace('\r','\n')==norm.decode()
+ for key in ('archive_game_entry','archive_guide_entry'):
+  e=r[key];assert sha(Path(e['snapshot']).read_bytes())==e['snapshot_sha256']
+ assert r['archive_game_entry']['tuid']==r['archive_guide_entry']['tuid']
+ checked.append(dict(game_id=g['game_id'],story_sha256=sha(data),guide_sha256=sha(norm),release=release,serial=serial,engine=g['engine'],family=g['game_family'],split=g['dataset_split'],compatibility=r['compatibility'],archive_bytes_rechecked=True))
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ pool=json.loads(Path('control/worker-pool.json').read_text());splits=json.loads(Path('batches/splits.json').read_text());ids={g['game_id'] for c in pool['queue_configs'] for g in json.loads(Path(c).read_text())['games']}
+ for g in games:
+  gid=g['game_id'];assert gid not in ids and gid not in splits['assignments'] and not (Path('play')/gid).exists()
+  for old,fam in splits['families'].items():
+   if fam==g['game_family']:assert splits['assignments'][old]==g['dataset_split']
+  splits['assignments'][gid]=g['dataset_split'];splits['families'][gid]=g['game_family']
+ # Keep next Z-code successors ahead of as-yet-unexercised Glulx successors during startup diagnosis.
+ idx=next(i for i,c in enumerate(pool['queue_configs']) if Path(c).name=='fleet-batch-i-20260925.json');pool['queue_configs'].insert(idx,str(p.resolve()))
+ for path,value in [('batches/splits.json',splits),('control/worker-pool.json',pool),('control/fleet/batch-j-parent-validation.json',dict(at=datetime.now(timezone.utc).isoformat(),games=checked,status='parent local/archive bytes, header, source raw/normalization/hash and family checked; registered before remaining I; runtime unproven'))]:
+  tmp=Path(path).with_suffix('.parent.tmp');tmp.write_text(json.dumps(value,indent=2)+'\n');tmp.replace(path)
+print('registered', [g['game_id'] for g in games])

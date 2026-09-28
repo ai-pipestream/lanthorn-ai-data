@@ -1,0 +1,26 @@
+# Mansion progress (segment 2, in progress)
+
+Location: Master Bedroom (ordinary prompt). Branch b1.
+Inventory: bag[tweezers, needle, torch(closed), lavender, spanner, key, boots, packet(seeds), saucepan, plate, straw, knife, floorboard], net(frog). Score 4.
+Checkpoints: ... outside-maze, maze-lavender (b1).
+
+Route state (house map so far):
+- Kitchen: N Dining Room, S Flower Garden, W small door Basement. Cooker + table/cutting board (lily-pad shaped, nothing on it). Brookes wanders.
+- Basement (NEW): empty wine racks, steps up, 2 tiny west windows; shelf with pickles only. No spinach.
+- Dining Room: N Games Room, S Kitchen, E ? (unexplored).
+- Games Room (NEW): snooker table (flavor), dart board (no darts, improvise!), shove ha'penny (need ha'pennies), moose head (sad trophy). Doors E + S.
+- Entrance Hall: W Games Room, E Library, S Bottom of Stairs. Round table (peacock marquetry, flavor).
+- Library: diary/docs/model as left in seg1. Door W only.
+- Bottom of Stairs: stopcock ON (seg1), doors E + W, hall N, stairs up.
+- Top of Stairs: doors E + W, smaller door S.
+- Master Bedroom (E of top): four-poster, fluffy FEATHER pillow (nothing under; feathers maybe for dart?), dressing table unimplemented. Door W only.
+- Unexplored: Dining E, Bottom-of-stairs E/W, Top-of-stairs W + S small door (attic? dark — torch!), brick building entry, spinach location, dart/shove/moose solutions, spiders use, mixture completion, Brookes dart encounter, rose + property resolution.
+- Mixture hint (302-310): lavender + seeds + spinach in pan; S/W/S travel prefix starts from unknown room (not kitchen: S of maze blocked).
+- Pillow feathers noted as possible dart-flight material (unverified).
+
+Cases this segment (6): frog-recatch-syn-catch, car-drive-syn, westside-windows, lavender-pick-syn, butterfly-catch-syn. Total ~18.
+No unresolved cases. Note: m0338 used key "case-id" (typo) — broker processed fine.
+
+Last hints: mixture 302-310; maze 238-264; needle/straw/brookes 213-221.
+Next: Top-of-stairs W, then S small door with torch ready; Dining E; Bottom E/W. Checkpoint before dark stairs.
+Restore point: maze-lavender.

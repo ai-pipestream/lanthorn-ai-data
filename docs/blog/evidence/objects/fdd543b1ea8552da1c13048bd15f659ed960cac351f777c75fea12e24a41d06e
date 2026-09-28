@@ -1,0 +1,12 @@
+# Schooldays progress (continuation checkpoint)
+
+- Session: schooldays-b371c6a97d, branch b0, event e00167 (Front Hall 7:56am, ordinary prompt, front door locked).
+- Location: Front Hall (front door closed+locked south; hole in wall; Freckles the dog tied/barking/sleepy; dance light on; basement stairs down; west living room).
+- Route findings: Backyard SOUTH blocked e00160 (hint SOUTH is station-context, not backyard); Backyard EAST blocked e00162, must ENTER WINDOW e00163 back to Living Room; EAST to Front Hall e00164 OK.
+- Front door: OPEN DOOR -> locked e00165; UNLOCK DOOR auto-tried shed key -> doesn't fit e00166. Hole examined e00167: six inches wide, nothing visible, dog could fit/see.
+- Inventory (e00158): periodic table, Rap CD, 2 loonies, Mastercard, passport, shovel, shed key, glue, knapsack (token+roll, waterbottle, nail, jar/screws, form), clothes+shoes.
+- Checkpoints: start-bedroom, kitchen-down, basement-lit, backyard-shed-open, shed-loonies-taken (verified).
+- Cases (~43): + route-backyard-south planning e160; route-backyard-east syntax e162-163 (east blocked, enter window works); route-living-east e164; frontdoor-open world_state e165; frontdoor-unlock e166; hole-examine e167.
+- Pending: m0162 untie dog; help m0155 repeated station excerpt (off-topic for backyard, noted).
+- Next: untie/send Freckles through hole; annotate frontdoor pair once exit method confirmed; checkpoint at house-exit milestone; single commands only.
+- Status: game incomplete (house exit, subway/school/basketball/tickets/taxi/airport ahead). No winning ending.

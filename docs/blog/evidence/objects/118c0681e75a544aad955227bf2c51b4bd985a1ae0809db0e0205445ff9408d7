@@ -1,0 +1,26 @@
+{
+  "event_id": "dash-slapney-patrol-leader-64ff8134ce:e00077",
+  "timestamp": "2026-09-25T19:23:02.767967+00:00",
+  "game_id": "dash-slapney-patrol-leader",
+  "session_id": "dash-slapney-patrol-leader-64ff8134ce",
+  "branch_id": "b0",
+  "event_index": 77,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 14934,
+  "raw_end": 14934,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "1344d76b5d0eeda188c6b6ef30042f84b8c7a571cfb383aab31b53c3dc7933d2",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "dash-slapney-patrol-leader-64ff8134ce",
+    "ending_quote": "Best of all, everyone feels like he contributed, too!",
+    "evidence_event_ids": [
+      "dash-slapney-patrol-leader-64ff8134ce:e00072",
+      "dash-slapney-patrol-leader-64ff8134ce:e00073"
+    ],
+    "notes": "4-win everyone-happy full route through Klondike Derby final scoring (Smurfs 230 top), SPACE pause, concluding reflection on advanced division/Eagle Scout, *** The End *** plus RESTART/RESTORE/QUIT/UNDO prompt. Wins: Ditch, Bridge, Meadow, Fire; losses: Field, Forest, Knot. Not death, quit, disqualification, or intermediate score."
+  },
+  "review_status": "unreviewed"
+}

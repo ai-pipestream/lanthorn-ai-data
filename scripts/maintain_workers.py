@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Keep the authorized Muse pool full without resetting any interpreter."""
+import fcntl
+import hashlib
+import json
+import os
+from pathlib import Path
+import subprocess
+import time
+
+from play_broker import ROOT, now, write_json
+
+
+def processes():
+    result = {}
+    for p in Path('/proc').glob('[0-9]*/cmdline'):
+        try:
+            args = p.read_bytes().decode().strip('\0').split('\0')
+            if args and args[0]:
+                result[int(p.parent.name)] = args
+        except (OSError, UnicodeError):
+            pass
+    return result
+
+
+def inventory(proc):
+    workers, brokers = {}, {}
+    for pid, args in proc.items():
+        if len(args) >= 3 and Path(args[0]).name == 'bash' and Path(args[1]).name == 'run-fullplay.sh':
+            workers.setdefault(args[2], []).append(pid)
+        if len(args) >= 3 and Path(args[0]).name.startswith('python'):
+            script = Path(args[1]).name
+            if script == 'run_new_game.py' and len(args) >= 4:
+                brokers.setdefault(args[3], []).append(pid)
+            elif script == 'recover_broker.py':
+                try:
+                    for g in json.loads((ROOT / args[2]).read_text())['games']:
+                        brokers.setdefault(g['game_id'], []).append(pid)
+                except (OSError, ValueError, KeyError):
+                    pass
+    return workers, brokers
+
+
+def capacity(target, workers, unfinished):
+    # An interrupted unfinished game retains its slot until supervised recovery.
+    # Completed-but-exiting launchers also count, preventing a transient excess.
+    return max(0, target - len(set(workers) | set(unfinished)))
+
+
+def pending(base):
+    return [p.name for p in (base / 'inbox').glob('*.json')
+            if not (base / 'responses' / p.name).exists()]
+
+
+def input_state(rows):
+    """Metadata cannot turn a timed-out input into an observed prompt."""
+    return next((r.get('engine_state') for r in reversed(rows)
+                 if r.get('engine_state') != 'unchanged'), None)
+
+
+def active_health(gid, history, manifest, recovered):
+    messages = []
+    if recovered and history[-1]['event_index'] >= manifest.get('max_events', 2500):
+        messages.append(f'{gid}: active launcher but broker event cap reached')
+    if input_state(history) == 'no_output_timeout':
+        messages.append(f'{gid}: active launcher with unresolved interpreter timeout')
+    return messages
+
+
+def clean_worker_exit(base):
+    runs = sorted((ROOT / 'runs').glob('fullplay-' + base.name + '-*'),
+                  key=lambda p: p.stat().st_mtime)
+    if not runs:
+        return True
+    status = runs[-1] / 'exit.status'
+    return status.exists() and status.read_text().strip() == '0'
+
+
+def log(kind, **data):
+    with (ROOT / 'control/worker-pool-events.jsonl').open('a') as f:
+        f.write(json.dumps(dict(timestamp=now(), kind=kind, **data)) + '\n')
+
+
+def launch(argv, tag):
+    path = ROOT / 'runs' / f'pool-{tag}-{time.time_ns()}.log'
+    with path.open('ab', buffering=0) as out:
+        child = subprocess.Popen(argv, cwd=ROOT, stdout=out, stderr=subprocess.STDOUT,
+                                 stdin=subprocess.DEVNULL, start_new_session=True)
+    log('process_started', pid=child.pid, argv=argv, output=str(path))
+    return child
+
+
+def can_resume(base, broker_pids):
+    if (len(broker_pids) != 1 or pending(base) or (base / 'ending-claim.json').exists()
+            or (base / 'supervisor-hold.json').exists() or not clean_worker_exit(base)):
+        return False
+    try:
+        latest = json.loads((base / 'latest.json').read_text())
+        history = [json.loads(line) for line in (base / 'events.jsonl').read_text().splitlines()]
+        if input_state(history) != 'awaiting_input_or_idle':
+            return False
+        # Recovered brokers have a service cap; a live PID alone is insufficient.
+        manifest = json.loads((base / 'manifest.json').read_text())
+        if (base / 'recovery.json').exists() and latest['event_index'] >= manifest.get('max_events', 2500):
+            return False
+        engine = Path(f'/proc/{broker_pids[0]}/task/{broker_pids[0]}/children').read_text().split()
+        for pid in engine:
+            args = Path(f'/proc/{pid}/cmdline').read_bytes().decode().strip('\0').split('\0')
+            if (Path(args[0]).name == manifest['engine'] and manifest['story'] in args
+                    and str(base / 'saves') in args):
+                return True
+        return False
+    except (OSError, ValueError, KeyError):
+        return False
+
+
+def tick():
+    with (ROOT / 'control/scheduling.lock').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        tick_locked()
+
+
+def tick_locked():
+    settings = json.loads((ROOT / 'control/worker-pool.json').read_text())
+    if not settings['enabled'] or (ROOT / 'control/stop-broker').exists():
+        return
+    target = settings['target']
+    assert target == 10, 'Changing concurrency requires explicit supervision'
+    workers, brokers = inventory(processes())
+    fleet_path = ROOT / 'control/fleet/assignments.json'
+    reserved = set(json.loads(fleet_path.read_text())) if fleet_path.exists() else set()
+    # A stopped claim frees compute, but is not promoted to verified completion.
+    # The parent/reviewer must check these and recover any false claim.
+    review = json.loads((ROOT / 'runs/fullplay-status.json').read_text())
+    verified_ids = {r['event_id'] for r in review.get('verified_historical_endings', [])}
+    ending_review_pending = []
+    for claim_path in (ROOT / 'play').glob('*/ending-claim.json'):
+        claim = json.loads(claim_path.read_text())
+        refs = set(claim.get('metadata', {}).get('evidence_event_ids', []))
+        if not refs.intersection(verified_ids):
+            ending_review_pending.append(claim_path.parent.name)
+    unfinished = {p.name: p for p in (ROOT / 'play').iterdir()
+                  if p.is_dir() and p.name not in reserved and not (p / 'ending-claim.json').exists()}
+    attention = []
+    if any(len(pids) > 1 for pids in list(workers.values()) + list(brokers.values())):
+        attention.append('Duplicate launcher/broker detected; all automatic launches held')
+        write_json(ROOT / 'control/worker-pool-status.json', dict(timestamp=now(), workers=workers, attention=attention))
+        return
+    for gid, base in unfinished.items():
+        if gid in workers:
+            try:
+                history = [json.loads(line) for line in (base / 'events.jsonl').read_text().splitlines()]
+                manifest = json.loads((base / 'manifest.json').read_text())
+                attention.extend(active_health(gid, history, manifest, (base / 'recovery.json').exists()))
+            except (OSError, ValueError, KeyError):
+                attention.append(f'{gid}: unreadable runtime state; inspect before recovery')
+            continue
+        live_workers, live_brokers = inventory(processes())
+        if gid in live_workers:
+            workers[gid] = live_workers[gid]
+            continue
+        if len(live_workers) < target and can_resume(base, live_brokers.get(gid, [])):
+            child = launch(['bash', './run-fullplay.sh', gid], gid + '-resume')
+            workers[gid] = [child.pid]
+        else:
+            attention.append(f'{gid}: unfinished without launcher; needs diagnosis, evidence retained')
+    slots = capacity(target, workers, unfinished)
+    queue = []
+    for config in settings['queue_configs']:
+        for game in json.loads((ROOT / config).read_text())['games']:
+            if game['game_id'] not in reserved and not (ROOT / 'play' / game['game_id']).exists():
+                queue.append((config, game))
+    for config, game in queue[:slots]:
+        gid = game['game_id']
+        # Recheck immediately before each mutation, including manually started work.
+        current_workers, _ = inventory(processes())
+        if len(current_workers) >= target:
+            break
+        if hashlib.sha256(Path(game['story']).read_bytes()).hexdigest() != game['story_sha256_expected']:
+            attention.append(f'{gid}: story hash mismatch; launch held')
+            continue
+        source = json.loads(Path(game['source_record']).read_text())
+        if hashlib.sha256(Path(game['walkthrough']).read_bytes()).hexdigest() != source['normalized_sha256']:
+            attention.append(f'{gid}: walkthrough hash mismatch; launch held')
+            continue
+        base = ROOT / 'play' / gid
+        child = launch(['python3', 'scripts/run_new_game.py', config, gid, '--hours', '12'], gid + '-broker')
+        deadline = time.monotonic() + 210
+        while not (base / 'manifest.json').exists() and child.poll() is None and time.monotonic() < deadline:
+            time.sleep(.5)
+        if not (base / 'manifest.json').exists():
+            attention.append(f'{gid}: startup incomplete; do not replay or reset')
+            break
+        latest = json.loads((base / 'latest.json').read_text())
+        if latest['engine_state'] != 'awaiting_input_or_idle':
+            attention.append(f'{gid}: startup not ready; manual inspection needed')
+            break
+        (base / 'collection-notes.md').write_text(game['collection_notes'])
+        log('new_game_ready', game_id=gid, session_id=latest['session_id'], startup_event=latest['event_id'],
+            story_sha256=latest['story_sha256'], config=config)
+        live_workers, _ = inventory(processes())
+        if gid in live_workers or len(live_workers) >= target:
+            attention.append(f'{gid}: ready broker held because worker capacity changed')
+            break
+        launched = launch(['bash', './run-fullplay.sh', gid], gid + '-worker')
+        workers[gid] = [launched.pid]
+    write_json(ROOT / 'control/worker-pool-status.json', dict(timestamp=now(), target=target,
+               workers=workers, attention=attention,
+               ending_review_pending=ending_review_pending,
+               queued=[g['game_id'] for _, g in queue if not (ROOT / 'play' / g['game_id']).exists()]))
+
+
+def main():
+    lock = (ROOT / 'control/worker-pool.lock').open('a')
+    fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    while True:
+        # Reap children that exited; their logs and interpreter evidence remain.
+        try:
+            while os.waitpid(-1, os.WNOHANG)[0]:
+                pass
+        except ChildProcessError:
+            pass
+        try:
+            tick()
+        except Exception as exc:
+            log('supervisor_error', error=repr(exc))
+        time.sleep(15)
+
+
+if __name__ == '__main__':
+    main()

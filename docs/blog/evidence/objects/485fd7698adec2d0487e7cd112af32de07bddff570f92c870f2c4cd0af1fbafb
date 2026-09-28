@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:48:01.849461+00:00",
+  "game_id": "zuni-doll",
+  "events": [
+    {
+      "event_id": "zuni-doll-16d63fd0ac:e00112",
+      "timestamp": "2026-09-25T06:43:09.673015+00:00",
+      "game_id": "zuni-doll",
+      "session_id": "zuni-doll-16d63fd0ac",
+      "branch_id": "b0",
+      "event_index": 112,
+      "event_type": "command",
+      "command": "switch on disposal",
+      "response": "You flip the switch on the disposal unit and it grinds away. Within seconds the \nZuni Doll is ground up and sucked away. When the last of it is gone you flip \nthe disposal off. You walk slowly through your living room and pass into your \nbedroom being careful to avoid the glass shards.\n\nCollapsing into bed you see Elmo sleeping peacefully on the edge. You pick him \nup and hold him in your arms. You lie down and stare at the ceiling for a few \nmoments before you pass into sleep. You're last thoughts are that you should \ngive up the mysterious items and artifact collection. It's just not worth it.\n\n\n    *** You have won ***\n\n\nIn that game you scored 60 out of a possible 60, in 55 turns, earning you the \nrank of Zuni Slayer.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n[Score 60, up 3]\n> ",
+      "raw_start": 15465,
+      "raw_end": 16310,
+      "response_sha256": "b416067fe77568e88feef4ad97e59c7e15619790e152586d6a4a53690d57958e",
+      "story_sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "zuni-doll-16d63fd0ac",
+        "case_id": "disposal-switch-synonym",
+        "expected_outcome": "Doll destroyed in disposal, game won",
+        "intent": "Turn on the electric disposal to destroy the doll",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "SWITCH ON DISPOSAL destroys doll, bedroom sleep epilogue, explicit You have won and final menu; 60/60 not coverage proof. Independent review pending."
+}

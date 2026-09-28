@@ -1,0 +1,8 @@
+# Heist progress (branch b3, events through 639; game INCOMPLETE)
+
+Location: Memorabilia Room, boy's photo now in silver frame (image changed to ship's captain; model beam on cruise liner, e637). Score 62. Frame was empty after girl burn; boy photo examined (toy boat, e634).
+Inventory (e636): boy's photo Taken (was in bag); hollow bronze circle auto-stowed into bag; gloves worn; plus student's/medal's/musician's/statue's photos, steel key, credit card, arm, cutter, letter.
+Checkpoints: tomb-entry OK; after-wheel-code OK; before-wheel OK; dam-formed OK; memorabilia-return OK (e632-633).
+Cases: boy-frame-on-prep holding prerequisite annotated e638 (e635 need-holding -> e636 get); ON-for-IN acceptance annotated e639 (e637 none). Pending: boy-kiss-photo-ambiguous m0564 (kiss photo underspecified probe).
+Next: read m0564 response; if ambiguous, correct with kiss boy's photo; enter boy/cruise section; checkpoint at ordinary prompt. Game NOT complete — Crown Jewels/escape far ahead.
+Continuation: branch b3, event 639 confirmed; m0564 pending at time of writing.

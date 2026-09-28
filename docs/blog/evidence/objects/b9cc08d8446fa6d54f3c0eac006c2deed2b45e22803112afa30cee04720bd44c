@@ -1,0 +1,23 @@
+{
+  "game_id": "tryst-of-fate",
+  "title": "Tryst of Fate",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/tryst205.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/tryst-of-fate-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/tryst.step",
+  "response_timeout_seconds": 180,
+  "completion": "Require author-intended ending verified against real raw output. Death, quitting, chapter transition, model claim or partial score are insufficient. Story R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/tryst-of-fate.json",
+  "story_sha256_expected": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+  "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+  "dataset_split": "development",
+  "game_family": "tryst-of-fate",
+  "collection_notes": "# Tryst of Fate\n\nStory R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.\nGuide: https://ifarchive.org/if-archive/solutions/tryst.step\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n",
+  "zmachine_version": 5,
+  "release": 205,
+  "serial": "970629",
+  "session_id": "tryst-of-fate-21296bfe76",
+  "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+  "started_at": "2026-09-25T05:55:03.415685+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-25T04:12:56.762196+00:00",
+  "event": {
+    "event_id": "secret-mission-08dcee7c13:e01789",
+    "timestamp": "2026-09-25T04:01:50.131317+00:00",
+    "game_id": "secret-mission",
+    "session_id": "secret-mission-08dcee7c13",
+    "branch_id": "b21",
+    "event_index": 1789,
+    "event_type": "command",
+    "command": "pour water",
+    "response": "pour water\nthe water spills on the bomb and\ndefuses it! FANTASTIC, You completed an IMPOSSIBLE mission!\nThe game is now over.\n",
+    "raw_start": 270134,
+    "raw_end": 270260,
+    "response_sha256": "2d8cfbf195b2422399cd934ddb49d8467c7eab4f54e285145ccbba48008d2ea3",
+    "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+    "engine_state": "engine_exited",
+    "metadata": {
+      "case_id": "b21-end-025",
+      "expected_outcome": "Bomb deactivated WIN",
+      "intent": "Pour water on bomb",
+      "origin": "recovery"
+    },
+    "review_status": "unreviewed"
+  },
+  "raw_hash_and_text_verified": true,
+  "verdict": "verified mission success: bomb defused, explicit IMPOSSIBLE mission completed and game over"
+}

@@ -1,0 +1,115 @@
+{
+  "verified_at": "2026-09-25T05:42:56.390207+00:00",
+  "events": [
+    {
+      "event_id": "jewel-of-knowledge-61db1c70d2:e00001",
+      "timestamp": "2026-09-25T05:38:40.581835+00:00",
+      "game_id": "jewel-of-knowledge",
+      "session_id": "jewel-of-knowledge-61db1c70d2",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\nFifth Layer of the Earth's Crust\nEndless dark and foreboding passages surround you on all sides. You're cold, \ntired, and that musty smell in the air has really started getting to you \nlately. Spelunking seemed much more romantic when you first agreed to accept \nthe mission for the Jewel. Untold riches, fame, glory; it seemed so perfect. \nNow you're a month into the expedition with little to show for it except for a \nfew rock samples and the death of a party member. You're deep inside the fifth \nlayer of the Earth's crust, surrounded by tight shafts and ominous pits. You \nare quickly descending to the sixth and final layer; the resting place of the \nfabled Jewel.\n\nYour good friend and fellow campaigner Jacob is here. He slowly scuttles \nthrough the underground by your side.\n\n>",
+      "raw_start": 0,
+      "raw_end": 788,
+      "response_sha256": "02af669dc7edfe64ba0134c82ab7101d169c6cbd4fc6190a1c7ace753dbeae36",
+      "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "jewel-of-knowledge-61db1c70d2:e00002",
+      "timestamp": "2026-09-25T05:38:57.097771+00:00",
+      "game_id": "jewel-of-knowledge",
+      "session_id": "jewel-of-knowledge-61db1c70d2",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nFifth Layer of the Earth's Crust\nEndless dark and foreboding passages surround you on all sides. You're cold, \ntired, and that musty smell in the air has really started getting to you \nlately. Spelunking seemed much more romantic when you first agreed to accept \nthe mission for the Jewel. Untold riches, fame, glory; it seemed so perfect. \nNow you're a month into the expedition with little to show for it except for a \nfew rock samples and the death of a party member. You're deep inside the fifth \nlayer of the Earth's crust, surrounded by tight shafts and ominous pits. You \nare quickly descending to the sixth and final layer; the resting place of the \nfabled Jewel.\n\nYour good friend and fellow campaigner Jacob is here. He slowly scuttles \nthrough the underground by your side.\n\n>",
+      "raw_start": 788,
+      "raw_end": 1576,
+      "response_sha256": "02af669dc7edfe64ba0134c82ab7101d169c6cbd4fc6190a1c7ace753dbeae36",
+      "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "opening-look",
+        "intent": "Describe my current surroundings",
+        "origin": "exploration",
+        "expected_outcome": "Room description"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "jewel-of-knowledge-61db1c70d2:e00003",
+      "timestamp": "2026-09-25T05:39:01.604393+00:00",
+      "game_id": "jewel-of-knowledge",
+      "session_id": "jewel-of-knowledge-61db1c70d2",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying:\n  a rucksack (being worn)\n  a firebug\n  a gleaming silver sword\n\nTime stands still as you and Jacob contemplate your next move.\n\n>",
+      "raw_start": 1576,
+      "raw_end": 1724,
+      "response_sha256": "a2756f44e494778da7ad70e9a8dc176955fb8f5be7f938625c0110880154e46e",
+      "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "opening-inventory",
+        "intent": "Check what I am carrying",
+        "origin": "exploration",
+        "expected_outcome": "List of carried items"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "jewel-of-knowledge-61db1c70d2:e00004",
+      "timestamp": "2026-09-25T05:39:05.360994+00:00",
+      "game_id": "jewel-of-knowledge",
+      "session_id": "jewel-of-knowledge-61db1c70d2",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1724,
+      "raw_end": 1738,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-fifth-layer"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "jewel-of-knowledge-61db1c70d2:e00005",
+      "timestamp": "2026-09-25T05:39:05.662362+00:00",
+      "game_id": "jewel-of-knowledge",
+      "session_id": "jewel-of-knowledge-61db1c70d2",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "checkpoint_filename",
+      "command": "start-fifth-layer.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/jewel-of-knowledge/saves/jewel.z5.save/start-fifth-layer.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1738,
+      "raw_end": 1869,
+      "response_sha256": "a55c819b4d3f86c93888a28b04a1f787ab73f8c0c1f9312349f1f1f798ca709d",
+      "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-fifth-layer"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hashes_verified": true,
+  "header_release": 2,
+  "header_serial": "990710",
+  "note": "Release derived from pinned story header; no release banner in initial opening."
+}

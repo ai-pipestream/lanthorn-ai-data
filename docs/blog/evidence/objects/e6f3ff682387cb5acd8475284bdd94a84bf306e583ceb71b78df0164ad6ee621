@@ -1,0 +1,23 @@
+{
+  "game_id": "frozen",
+  "title": "Frozen: A Night at the Lab",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/frozen.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/frozen-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/frozen.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended conclusion against raw output, not deaths/quitting/partial scores. Story R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/frozen.json",
+  "story_sha256_expected": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+  "checkpoint_policy": "Only at ordinary prompts; verify success.",
+  "dataset_split": "train",
+  "game_family": "frozen",
+  "collection_notes": "# Frozen: A Night at the Lab\n\nStory R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.\nGuide: https://ifarchive.org/if-archive/solutions/frozen.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "960620",
+  "session_id": "frozen-a2e5d2eea9",
+  "story_sha256": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+  "started_at": "2026-09-25T06:07:13.688643+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

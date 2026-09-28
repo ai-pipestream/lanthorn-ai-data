@@ -1,0 +1,7 @@
+# Anchorhead — b12 maze 6-deep fast (game incomplete)
+
+Current: session anchorhead-51ee2d15c2 b12 e01098 (m1076 restored). Narrow Aisle 6-deep via Mill Floor E,N,N,N,N,N fast (timer 6, no red). No exit yet; N loops. From 6-deep: N works+red loop (e01087), NE works+red loop (e01090), NW blocked+red (e01093), E blocked+red (e01096). To try: W,S,SE,SW with restore-after-each. Prior b5/b6 deaths quarantined (steam-vat 36). Lantern lit in mill; 3 matches est; tin/fish oil/copper per m0883; no broom (left church cellar pre-jump); umbrella too short for lift button.
+
+Next: restore 6-deep, try west, then south, southeast, southwest (1 cmd + restore each). If no exit, backtrack to 5-deep/4-deep and try diagonals there. Avoid up (death). Goal: 6-room exit to catwalk/blueprints/mirrors/calipers per e01026. Then mill beacon, island/handcuffs, lighthouse SE/SW.
+
+Checkpoints: maze-6deep-north (b12 6-deep timer6), maze-5deep-north, maze-4deep-north, maze-3deep-fast (timer3), maze-east-2deep, maze-3deep-north (timer5 old), mill-before-maze.

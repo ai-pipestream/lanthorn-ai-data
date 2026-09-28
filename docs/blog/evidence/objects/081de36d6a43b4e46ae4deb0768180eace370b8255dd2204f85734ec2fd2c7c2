@@ -1,0 +1,23 @@
+# Curses progress — SEGMENT 12 LIVE (incomplete, branch b19, score 119/550 ~22%)
+
+STATE (e01788, turns 1041): Attic, Meldrew Hall, June 3 1993. SAFE at ordinary prompt. Trapdoor open below — DO NOT GO DOWN (quits: family-uproar giving-up, e00283/e00642/e01634).
+Inventory: Ace of Cups (taken e01788) + rucksack open (2 Tarot Sailor/Reaper, whistle, RED TABLET, scarf, spade, weed killer, ball, postcard, dictionary, TOURIST MAP = HAMBURG MAP per e01365) + torch + gloves worn. Gold key LEFT in Attic (e01784).
+Checkpoints: seg12-attic-ace (b19 CURRENT, pre-projector-swap); seg11-after-roller (b19 Family Tree); seg11-family-tree-roller; seg11-libstore-unreal2; seg11-jemima-lair; seg11-libstore-books; seg10-alison-119; seg9-cabinet-127 (b15 Hamburg 127, b16 intact); older intact.
+
+Seg12 so far (0001-0026):
+- Resume verified Family Tree 119/1026 (e01763-64) + filed all 5 seg11 pending: bell-press none (e01765), poetry-floor none (e01766), cards-plural none (e01767), scale-tree none (e01768), roller-mosaic world_state (e01769).
+- Route FOUND: Family Tree SE Garden Stream, E Beside Wall (dead end E/south), W back, ENTER BUNKER (probe climb-into rejected e01775 vs enter works e01776, annotated vocab) -> Dark Passage -> E Sandstone Passage -> E OCTAGON (letter+clover+box, coffin open) -> SE White Hallway (Mad Isaac hung) -> U,U Servant's Room -> W ATTIC (gold key + Ace).
+- Ace probe: take cup rejected (e01787) vs take ace Taken (e01788), annotated vocab.
+
+KEY FINDINGS from history review:
+- Gas mask dropped in Cups and Glasses e00917 (Tarot box) to take mounted bottle; south re-entry blocked second-time (e00944 Ace, e01622 Fool) — mask likely UNREACHABLE on b19. Walkthrough's later Remove-gas-mask (cabinet E) may be skippable; b15 Hamburg run reached cabinet-127 with NO mask worn (never re-taken) — verify.
+- Tourist map IS Hamburg map (e01365: map of central Hamburg). Read-about-1420 from Servant's Room transports to Museum Foyer Hamburg (e01373, +5).
+- b15 Hamburg 127 post-mortem: cabinet smashed (smash accepted), stone taken (+4), papyrus blocked capacity; Hall still-life (rusty iron rod w/ star clue); north to Foyer triggered Stein capture -> violet pill drug -> Coven Cell (goat Dobbin + crook) but take/drop both drugged-fail -> died sacrifice (e01403). Walkthrough antidote: Strike Rod, Wait druids, EAT TABLET, take crook. We HAVE tablet now; ROD STILL MISSING (zero mahogany rods ever seen).
+- Rod problem: walkthrough assumes mahogany rod(s) before FIRST Octagon convert, and Rod of Returning in rucksack at Hamburg cabinet ("if they are in the rucksack"). Late convert list (e01598): quarterstaff, crook, bean pole, 8 of wands at SECOND Octagon visit. First-rod source unknown — gap lines 64-69 (after Alison cross, before window/gold key)? Next help must target that gap, NOT Octagon/Hamburg repeats.
+
+NEXT:
+1. Help: first mahogany rod / Rod of Returning acquisition — topic after-ship flag branch wheel cross Alison window gold key dumbwaiter (lines ~60-70 gap), related e00940/e01226.
+2. If rod found: convert at Octagon coffin (have gloves), then Servant's Room read-1420 Hamburg with tablet+Rod (checkpoint before Hamburg; conserve torch).
+3. If rod truly unavailable pre-Hamburg: test Hamburg anyway (tablet counters drug; mask removal maybe optional) — checkpoint seg12-attic-ace covers return.
+4. DEFERRED: Souvenirs Fool/Ace swap (south blocked 2nd time, skip unless rod needs it); Ledge/Folly miniature (put miniature in slot comes post-Hamburg per e01289); lagach bronze-mural (late 95-104); Alexandria/Homer/priestess/crypt/Contraption (post-Hamburg).
+5. SAFETY: no trapdoor-down; no landing-SW; checkpoint before Hamburg transport and before cabinet smash; keep tablet always.

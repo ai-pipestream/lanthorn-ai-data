@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-09-25T08:32:39.766106+00:00",
+  "target": 10,
+  "workers": {
+    "muse-autumn-romance": [
+      220843
+    ],
+    "bicon": [
+      329570
+    ],
+    "windhall": [
+      448152
+    ],
+    "cacophony": [
+      456003
+    ],
+    "delusions": [
+      4066543
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "jigsaw": [
+      4161221
+    ],
+    "mansion": [
+      4161234
+    ],
+    "christminster": [
+      4161254
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "zork-i7",
+    "i-0",
+    "beyond-the-tesseract",
+    "the-wedding",
+    "attack-of-the-yeti-robot-zombies"
+  ],
+  "queued": [
+    "risorgimento-represso",
+    "wadewars-iii-askin",
+    "augmented-fourth",
+    "pythos-mask",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ]
+}

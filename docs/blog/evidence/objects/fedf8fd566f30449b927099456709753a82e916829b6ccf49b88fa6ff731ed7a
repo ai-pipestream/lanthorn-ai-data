@@ -1,0 +1,120 @@
+{
+  "game_id": "alias-the-magpie",
+  "title": "Alias 'The Magpie'",
+  "author": "J. J. Guest",
+  "url": "https://ifarchive.org/if-archive/games/glulx/Alias_The_Magpie.zip#solution.txt",
+  "accessed_at": "2026-09-25T08:12:56.594791+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/alias-the-magpie-guide.raw.txt",
+  "source_sha256": "b1ac3cdf9be7adcf5efe312063a77c035b0c81454871cd1b5c0e69e15d686bda",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/alias-the-magpie-walkthrough.txt",
+  "normalized_sha256": "2e88d3d04d8c0364d76d1669b6e7413f05ffdbc14814adb1f31f3071a6dc45c0",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "transformation": "Decode text, CRLF/CR to LF; wrap long lines at 110 characters without changing tokens or punctuation.",
+    "word_sequence_preserved_after_html_extraction": true
+  },
+  "guide_container": {
+    "path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Alias_The_Magpie.zip",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Alias_The_Magpie.zip",
+    "sha256": "9ecfae9e1f342a3b46626ccbbf359577b5f1cae76486bf5f3f170746e6df0055",
+    "member": "solution.txt"
+  },
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/alias-the-magpie.gblorb",
+  "story_sha256": "d2bc0863ed5d7dae820a9b4705ea00a2b1b943970f3893167a2b1c87e787842f",
+  "story_header": {
+    "container": "Blorb/IFRS",
+    "glul_chunk_offset": 56,
+    "glul_chunk_bytes": 1638912,
+    "glul_sha256": "a1efa499cdc1d93cdb9230f2d5fbc24da8b1587337f9784e14aa88b3a96e80d0",
+    "vm_header_bytes": 36,
+    "vm_header_hex": "476c756c00030102001282000019020000190200000100000000003c000db77dbe4e2b61",
+    "header_sha256": "9087aedd283554a7b1ff374a45f0c104f3cefc452e79c7c930ae8c13262e35d3",
+    "inform_identification_hex": "496e666f00010000362e3333302e33380005323230323130",
+    "glulx_version": "3.1.2",
+    "checksum_hex": "be4e2b61",
+    "checksum_valid": true,
+    "chunks": [
+      {
+        "type": "RIdx",
+        "offset": 20,
+        "bytes": 28
+      },
+      {
+        "type": "GLUL",
+        "offset": 56,
+        "bytes": 1638912
+      },
+      {
+        "type": "IFmd",
+        "offset": 1638976,
+        "bytes": 2092
+      },
+      {
+        "type": "Fspc",
+        "offset": 1641076,
+        "bytes": 4
+      },
+      {
+        "type": "PNG ",
+        "offset": 1641088,
+        "bytes": 125166
+      }
+    ],
+    "file_bytes": 1766254
+  },
+  "zmachine_version": null,
+  "release": 5,
+  "serial": "220210",
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": null,
+  "compatibility": "Local bundle is byte-identical to current archive bundle. Extracted Glulx Inform R5/220210 agrees with embedded metadata and archive. Guide is co-packaged with that release, but does not independently state a target release/serial; co-packaging is provenance, not a runtime compatibility claim.",
+  "compatibility_status": "needs_runtime_verification",
+  "story_identity": {
+    "local_library_path": "/home/krickert/if-games/glulx/Alias_The_Magpie.zip",
+    "local_library_sha256": "9ecfae9e1f342a3b46626ccbbf359577b5f1cae76486bf5f3f170746e6df0055",
+    "remote_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/Alias_The_Magpie.zip",
+    "remote_url": "https://ifarchive.org/if-archive/games/glulx/Alias_The_Magpie.zip",
+    "remote_sha256": "9ecfae9e1f342a3b46626ccbbf359577b5f1cae76486bf5f3f170746e6df0055",
+    "accessed_at": "2026-09-25T08:12:56.594791+00:00",
+    "byte_identical": true,
+    "archive_member": "Alias 'The Magpie'.gblorb",
+    "story_sha256": "d2bc0863ed5d7dae820a9b4705ea00a2b1b943970f3893167a2b1c87e787842f"
+  },
+  "archive_game_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/glulx-index.txt",
+    "snapshot_sha256": "f6f1a4032df37f195df0f05eb40867706c7d58fae97940b41d59859174f272a6",
+    "entry_text": "# Alias_The_Magpie.zip\ntuid: yspn49v69hzc8rtb\nifwiki: Alias 'The Magpie'\n\nAlias 'The Magpie', an interactive caper by J. J. Guest.\nRelease 5 / Serial number 220210.\nStory file, partial map, and solution.\n(the original competition entry is in\n</if-archive/games/competition2018/#Alias The Magpie>)",
+    "tuid": "yspn49v69hzc8rtb",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Index"
+  },
+  "archive_guide_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/glulx-index.txt",
+    "entry_text": "# Alias_The_Magpie.zip\ntuid: yspn49v69hzc8rtb\nifwiki: Alias 'The Magpie'\n\nAlias 'The Magpie', an interactive caper by J. J. Guest.\nRelease 5 / Serial number 220210.\nStory file, partial map, and solution.\n(the original competition entry is in\n</if-archive/games/competition2018/#Alias The Magpie>)",
+    "tuid": "yspn49v69hzc8rtb",
+    "snapshot_sha256": "f6f1a4032df37f195df0f05eb40867706c7d58fae97940b41d59859174f272a6",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Index"
+  },
+  "guide_author": "Guide bundled with author game distribution; no separate contributor byline",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Entire text guide including last route/ending instructions; no map/PDF review or guide command execution.",
+    "completion": "Complete the scarab caper and final disguise/escape sequence, including the late confinement puzzle using the stick, gum, case and lock picks, then leave after removing the suit. Require actual game-authored successful escape/concluding narrative with the theft resolved. Obtaining the scarab, an intermediate disguise, capture, death or a partial score does not establish completion.",
+    "limitations": "Bundled guide includes intentional rejected attempts, repeated commands, UNDO, narrative annotations after ellipses, a misspelled instrument case and a press-Space cue. These are not a batch script. Do not execute UNDO, repeated actions or restore paths blindly; preserve branch provenance and ground each action in observations. Guide ending OUT identifies a candidate finale trigger, not a verified ending quote.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "alias-the-magpie",
+  "family_review": {
+    "parent_review_required": true,
+    "rationale": "No established shared world/puzzle with Gumshoe or other queued heists. Crime/comedy genre does not merge families. All releases/ports and any later demonstrated Magpie continuity belong together.",
+    "splits_sha256": "7e9fd86dad4a43e639f92910c85a2fd1a11bb9840fc5be1482d228d5c6351616",
+    "checked_at": "2026-09-25T08:16:38.999676+00:00"
+  },
+  "reuse_permission": "unknown; private collection only",
+  "reuse_claims_observed": "Public archive access and author/bundle provenance do not establish reuse permission.",
+  "central_only": true,
+  "glulx_version": "3.1.2",
+  "header_spec_source": "https://eblong.com/zarf/glulx/Glulx-Inform-Tech.html#static-data"
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-09-25T09:17:25.484327+00:00",
+  "target": 10,
+  "workers": {
+    "windhall": [
+      448152
+    ],
+    "cacophony": [
+      456003
+    ],
+    "risorgimento-represso": [
+      468248
+    ],
+    "time-all-things-come-to-an-end": [
+      532950
+    ],
+    "delusions": [
+      4066543
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "mansion": [
+      4161234
+    ],
+    "christminster": [
+      4161254
+    ]
+  },
+  "attention": [
+    "pythos-mask: unfinished without launcher; needs diagnosis, evidence retained"
+  ],
+  "ending_review_pending": [
+    "i-0",
+    "bse",
+    "danger-adventurer-at-work",
+    "traffic",
+    "bicon",
+    "wadewars-iii-askin"
+  ],
+  "queued": [
+    "earth-and-sky-episode-1",
+    "baltimore-24",
+    "mulldoon-legacy",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ]
+}

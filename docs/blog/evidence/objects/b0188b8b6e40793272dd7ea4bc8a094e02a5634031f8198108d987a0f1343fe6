@@ -1,0 +1,10 @@
+# Heroine's Mantle — progress (b3, Score 67 Moves 264, e00584)
+
+Current: b3 Battlefield, Score 67, Moves 264 (e00584). Picked up Staff of Justice via 'pick up staff'; dying warrior says '...must know...'. s67 checkpoint good (Moves 262, Score 67). IN-FLIGHT: m0520 annotate pickup-staff (none) pending.
+Inventory: broadsword->transformed to staff; have Staff of Justice + rags (need `i` to confirm after transform). No lamp; conserve light.
+Unresolved: know/go-horse next per e00581 (z.z.z, know 2/69, go horse 1/70, s70); older backlog — battlefield-staff world_state, crusader-rescue, roof-nw/shut-hatch none, bracelet closed.
+Annotated this run: gold-warrior-naming e00568->e00570 vocab (e00571); turn-verb rotate e00572 none (e00573); sword-typo e00575->e00576 vocab (e00577); give-sword-woman e00582 none (e00583); pickup-staff-verb e00584 none (m0520 pending).
+Last hints: e00569 Battlefield chain through turn 67/get sword; e00581 give sword/get staff/z.z.z/know 2/69/go horse 1/70/s70. Hints are guidance only.
+Next: await m0520, then `z` x3 or single z to hear instruction, then `know'-route verb with 1 variation before canonical where safe, then go horse. Checkpoint s70 after.
+Branches: b0 dead, b1 broken, b2 died 229 restored to b3 canonical. Preserve provenance.
+Game incomplete — Crusader/helicopter final-button finale still required (400 pts, ~1300 moves). No finish evidence.

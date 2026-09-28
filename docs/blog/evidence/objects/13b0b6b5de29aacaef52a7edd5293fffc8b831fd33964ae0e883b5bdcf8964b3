@@ -1,0 +1,23 @@
+{
+  "game_id": "vindaloo",
+  "title": "Vindaloo",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/vindaloo.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/vindaloo-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/vindaloo.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Follow the ingredient/tool collection and curry preparation through the stove sequence; require the actual concluding recipe narrative. A score of 18 or merely turning on the stove is insufficient if the story still has a required concluding action.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/vindaloo.json",
+  "story_sha256_expected": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "vindaloo",
+  "collection_notes": "# Vindaloo\n\nStory Z5 R1/960613. Local R1/960613. Guide identifies Vindaloo but no release or serial. Its room-keyed recipe route ends at an 18-point cooking action without quoting final narrative.\n\nFollow the ingredient/tool collection and curry preparation through the stove sequence; require the actual concluding recipe narrative. A score of 18 or merely turning on the stove is insufficient if the story still has a required concluding action.\n\nGuide omits travel steps and has multi-action shorthand. Resolve actual room access and object state from output; record useful noun/tool/preposition probes away from irreversible cooking actions.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "960613",
+  "session_id": "vindaloo-85744e25ee",
+  "story_sha256": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+  "started_at": "2026-09-25T06:13:14.649377+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

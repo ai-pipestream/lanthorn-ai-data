@@ -1,0 +1,27 @@
+{
+  "game_id": "attack-of-the-yeti-robot-zombies",
+  "title": "Attack of the Yeti Robot Zombies",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/AOTYRZ.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/attack-of-the-yeti-robot-zombies-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Attack_of_the_Yeti_Robot_Zombies.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Complete the full escape and confrontation, including the successive boss returns, then the red-button and yellow-button descent sequence. Require the game-authored terminal victory/concluding narrative after descent. A helicopter crash, apparent initial boss defeat, ordinary death, room transition or guide assertion that the game is complete is not sufficient.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/attack-of-the-yeti-robot-zombies.json",
+  "story_sha256_expected": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "attack-of-the-yeti-robot-zombies",
+  "collection_notes": "# Attack of the Yeti Robot Zombies\n\nActual local and archive header is Z5 R0/060825; release zero is recorded literally, not silently replaced or treated as a demo. James Mullish guide dated 2020-12-28 identifies the game but specifies no story release/serial. Matching archive game/guide identity and byte-identical story verified; route compatibility remains untested.\n\nComplete the full escape and confrontation, including the successive boss returns, then the red-button and yellow-button descent sequence. Require the game-authored terminal victory/concluding narrative after descent. A helicopter crash, apparent initial boss defeat, ordinary death, room transition or guide assertion that the game is complete is not sufficient.\n\nCommunity prose guide contains spelling errors, optional actions and timing assumptions, and no observed transcript. Its main route is one long paragraph; normalized text reflows long lines without changing word order or punctuation so 9-line/1000-character help does not discard the remaining route. Preserve guide suggestions separately from observations; do not copy retry counts into synthetic filler.\n\nFamily/split proposal: attack-of-the-yeti-robot-zombies / train. No shared world, remake or puzzle relationship established with existing corpus or A-E. Horror, zombies and action motifs alone are insufficient. Keep all releases/ports of this game together. Parent review before registry integration.\n\nUse only small broker help excerpts: at most 9 lines / 1000 characters. No complete guide reads, direct guide URL access, or serial excerpts to reconstruct a guide. All story files, full guides, raw transcripts and saves stay central; do not stage them remotely. Help is suggested, not observed game evidence. Resolve startup questions and key pauses first. Save early at a safe ordinary command prompt and at safe milestones; verify actual save success. Menu Enter is an empty command, not a literal space or the word RETURN. On timeout use await_output only: no repeated input, flush commands, keys, restart, new SAVE or waits sent to the game. Collect diverse useful labeled synthetic_probe cases with stated intent and actual same-intent repairs supported by event IDs; no quotas, repeated filler or forced case counts. Use one command at a time near hazards, questions and menus. Keep failures and ordinary deaths labeled as failures. Parent independently verifies the real finale against raw output. Private collection only: game and guide reuse permission remains unknown. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 0,
+  "serial": "060825",
+  "session_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+  "story_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+  "started_at": "2026-09-25T07:50:24.380169+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

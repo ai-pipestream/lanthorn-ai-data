@@ -1,0 +1,16 @@
+# Deephome playthrough progress (IN PROGRESS — branch b5, score 195, Treasury coin taken; STOPPING HERE)
+
+## Where to resume (continuation run: start here)
+Branch b5 in The Treasury at ordinary prompt (latest e00587 'open book' fails — book cannot be opened that way). Checkpoints: `before-treasury-spirit` (e00573-574 Ok, safe resume), `bank-key`, `before-bank`. No pending requests; m0458 resolved e00587. Do NOT restart. Inventory: large key, sharp pick, clover, hammer, Sword (wielded), Fresto's Exorcisms book, torch+lantern lit (conserve light), shield worn, King's Order, gold coin; pickaxe DROPPED in Treasury e00583. Score 195/300.
+
+## Current state (observed, branch b5)
+Treasury unlocked (large key e00569) → open door e00571 → west Treasury e00572 Shadow Spirit, score 185. Spirit e00575 gray mist; book read e00576 tattered-only; help e00577/586 (guidance only, NOT observed): Treasury ask name>Kebarn, search valuables>coin, get coin [10]; Temple ask name>Indanaz. Probes: talk→unknown verb e00578; ask name→Kebarn e00579 (annotated vocab e00580); search valuables→coin e00581; get coin→too-many e00582; drop pickaxe e00583; get coin→Taken +10 e00584 (195); exorcise spirit→unknown verb e00585 (UNANNOTATED); open book→cannot open e00587. No banishing rite observed yet; walkthrough excerpts so far list only name+coin for Treasury.
+Next: discover banishing verb via refined help topic ('perform exorcism banish spirit Fresto book rite', avoid repeating Treasury-name topic which returns lines 76-84), then Temple Indanaz, then exorcisms → last-exorcism terminal conclusion (raw IDs + exact quote; parent review). Keep hints distinct from observed text; annotate exorcise probe once correction confirmed.
+
+## Cases
+Annotated: bank-box-open-locked world_state; bank-pick-omitted syntax; bank-box-search none; treasury-spirit-talk vocab. Pending annotation: treasury-exorcise-probe (e00585, unknown verb) + treasury-book-open (e00587).
+
+## Checkpoints (all Ok)
+before-treasury-spirit; bank-key; before-bank; sharp-pick; smithy-court; throne-room; clearing-clover; coal-mines-search (b3).
+
+Game incomplete — ending NOT reached. Stopped at step budget with precise checkpoint; NOT done.

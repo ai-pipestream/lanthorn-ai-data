@@ -1,0 +1,12 @@
+# Moon-Shaped progress (segment 2, game incomplete)
+
+Location: Side Yard with wolf's-head walking stick (filthy, carried, gloves off). Jar lantern lit, basket pebbles/monocle/key/hatchet/bread/wine, locket+cape worn.
+Last actions: Returned east/southwest/west/northwest/north with lantern (locket visions at wooded path + garden); cellar lit revealed thick glass (e00261); take glass -> monocle with energy (e00262) annotated; examine monocle -> witch vision orange scarf red eyes (e00265); checkpoint cellar-monocle; side yard search woodpile -> long smooth log filthy (e00280); remove gloves, take log with energy (e00282); examine log -> wolf-head stick vision boy captive hay/crab shells (e00283); stick won't fit basket, blocks gloves; checkpoint sideyard-stick.
+Pending: need monocle wear + candies cage at burned ground; gloves vs stick tradeoff (proceed with stick, gloves in inventory).
+Cases annotated: 28 total (27 + glass-jar world_state). Need ~12 more for 40.
+
+Hints: e00241 walking stick+monocle at grandmother's, wash jar for light (done). e00194 wear monocle at burned ground, orange candies in cage mesmerizing, try things while transfixed for hints to free from spell. Next: take monocle from basket, travel to burned ground, wear monocle, look/concentrate.
+
+Checkpoints: + firefly-lantern, cellar-monocle, sideyard-stick (plus all prior).
+
+Next: east to garden/clearing, follow pebbles southeast/east/northeast/northwest/northeast to burned ground with monocle; collect movement synonym on route; then wear monocle probe (e.g. put on monocle vs wear).

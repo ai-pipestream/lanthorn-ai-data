@@ -1,0 +1,18 @@
+{
+  "story": "karn.z5",
+  "guide": "karn.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/karn.sol",
+  "accessed_at": "2026-09-25T06:02:04.049513+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 2,
+  "serial": "961207",
+  "sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+  "bytes": 165888,
+  "header_hex": "050000025c845c8546dd010235f53d0f00103936313230370042a1af8ded000000000000000000000000000000000000000000000000000000000000362e3035",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/karn.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.295290+00:00",
+  "downloaded_story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+  "download_matches_local": true
+}

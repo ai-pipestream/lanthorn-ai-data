@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "varic.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/varic.txt",
+    "accessed_at": "2026-09-25T07:57:18.037282+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/varic.txt",
+    "sha256": "d1976e3a9b0f91e52de051360aa3ad7781d66c603b208322ed7c20383a1febe8",
+    "bytes": 4471
+  },
+  {
+    "filename": "Cacophony.zip",
+    "url": "https://ifarchive.org/if-archive/solutions/Cacophony.zip",
+    "accessed_at": "2026-09-25T07:57:18.038364+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Cacophony.zip",
+    "sha256": "19345ad6329029aef5d6624c63d7dd4ff4e0857f3028ae90127875fc5fbcfd75",
+    "bytes": 2414
+  },
+  {
+    "filename": "risorg.rec",
+    "url": "https://ifarchive.org/if-archive/solutions/risorg.rec",
+    "accessed_at": "2026-09-25T07:57:18.046853+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/risorg.rec",
+    "sha256": "c872a1e3bb2cb525c36fe2da30b841565919009e62f675f2661d1ef62b3ce3c7",
+    "bytes": 4031
+  },
+  {
+    "filename": "wadewar3walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/wadewar3walkthrough.txt",
+    "accessed_at": "2026-09-25T07:57:18.034453+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/wadewar3walkthrough.txt",
+    "sha256": "87682fd1a8c55548d5c65a609d4da45bf96841cb867a9a636eda4886e64dc2fd",
+    "bytes": 8217
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T07:57:18.121628+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T07:57:18.128088+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "risorgimento-ifdb.html",
+    "url": "https://ifdb.org/viewgame?id=t0pidhghzbo91i12",
+    "accessed_at": "2026-09-25T07:58:57.629343+00:00",
+    "http_result": "200 https://ifdb.org/viewgame?id=t0pidhghzbo91i12",
+    "sha256": "cf6b3f5886e92783b693a8a91f105b1dbe04de53d2ea530bc27622f8fd7035b9",
+    "bytes": 47774
+  },
+  {
+    "filename": "glulx-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/glulx/",
+    "accessed_at": "2026-09-25T07:58:57.569343+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/glulx/",
+    "sha256": "1788d16381b7b315dcde55286a8aadb19c8cd1e9c0769c75a814ef0d278f65c5",
+    "bytes": 243998
+  }
+]

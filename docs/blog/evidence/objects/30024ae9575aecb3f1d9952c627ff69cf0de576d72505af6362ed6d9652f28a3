@@ -1,0 +1,16 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Henrietta Street (henrietta-parchment checkpoint e155-156 with key+parchment). Pending: m0130 s,s south per hint lines 46-54. Ordinary prompt. No death/quit/ending.
+
+Inventory as observed: letter; lantern; rusty iron key; bloody parchment. Cat gone; dead rat in hold.
+
+Annotated (26): last parchment-take e141. Backlog unannotated: hatch-examine e133 (none); route-deck-up2 e144 (guided 'up' fails 'only down' — hint divergence worth noting, not a probe); deck-body-examine e145 (probe success, none); deck-get-all e146 (guided nothing-available); route-deck-to-beach e147-151 (guided reverse route); beach-east e152; henrietta-east e153 blocked. Old: wheel-four e79 (none); choir-wall e82-83 double-fail; hound e89/e91 world_state; hound-call-mars e59; pull-chain e64; light-lantern e63.
+
+Key findings: hint lines 46-54 route back to choir to 'set wheel to 12' (midnight) — matches MARS midnight-bell lore; our wheel-4 was likely wrong state. Deck 'up' invalid; 'get all' empty (parchment already held). Full Demeter loop verified reversible.
+
+Help: m0128 lines 46-54 active (s/s/n/up/up/n/w/x-priest/set-wheel-12). m0121 lines 37-45 consumed (up failed on deck; rest done). Guidance only.
+
+Checkpoints verified: henrietta-parchment e155-156 (current base: key+parchment) + demeter-key + henrietta-bin + choir-wheel etc.
+
+Continuation: await m0130 (expect Tate Hill then hound street); then n/up/up/n/w to choir per hint; x priest; set wheel to 12 (two-digit '12' per mechanism notice); observe bell/hound effects; then Helsing/parchment, Dead Forest, Castle Chapel + escape finale. Need 20-40 cases (26 annotated). No ending; no finish claimed.

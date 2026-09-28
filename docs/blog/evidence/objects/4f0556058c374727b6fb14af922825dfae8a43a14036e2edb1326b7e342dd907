@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-09-25T09:59:50.595691+00:00",
+  "duration_seconds": 10800,
+  "interval_seconds": 300,
+  "calls_completed": 0,
+  "status": "stopped_failure_no_retry",
+  "parent_review_required": true,
+  "actions_executed": [],
+  "last_started_at": "2026-09-25T09:59:50.595859+00:00",
+  "last_exit_code": 3,
+  "last_run": null,
+  "error": "{\"run\": \"/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T095950.621009Z\", \"exit_code\": 3}\n",
+  "last_finished_at": "2026-09-25T10:02:43.435649+00:00"
+}

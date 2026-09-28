@@ -1,0 +1,27 @@
+{
+  "game_id": "wadewars-iii-askin",
+  "title": "The WadeWars Book III: Askin",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/wadewar3.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/wadewar3walkthrough.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Complete all five guide sections through Askin, the cloud journey and rescue of Uncle Seamore, then continue through the final return-machine sequence to actual concluding narrative. Reaching the uncle early can be a fatal route; meeting him, swapping with the statue or completing a chapter is not the ending. Preserve other genuine authored concluding variants if observed.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin.json",
+  "story_sha256_expected": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "wade-wars",
+  "collection_notes": "# The WadeWars Book III: Askin\n\nStory Z5 R106/020512. Local Z5 R106/020512 exactly matches the archive binary/header. Author guide explicitly targets the Z-code version, not merely the earlier DOS release, but supplies no release/serial. Its archive date 2001-12-23 predates the story's R106/020512; exact edition coverage remains unverified. Despite Book III in the title, the author identifies this as the first completed book, not an unavailable preview.\n\nComplete all five guide sections through Askin, the cloud journey and rescue of Uncle Seamore, then continue through the final return-machine sequence to actual concluding narrative. Reaching the uncle early can be a fatal route; meeting him, swapping with the statue or completing a chapter is not the ending. Preserve other genuine authored concluding variants if observed.\n\nProtect needed inventory across the statue exchange; the guide specifically warns about losing the phosphorous crystal. Read live paper/basket codes and the sign needed to learn the spell, rather than assuming knowledge from the guide. Observe the short alternate-reality transition and final timing. The raw guide uses Windows-1252 punctuation; normalize encoding and line endings only, never puzzle commands.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 106,
+  "serial": "020512",
+  "session_id": "wadewars-iii-askin-b613801aeb",
+  "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+  "started_at": "2026-09-25T08:35:11.327631+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

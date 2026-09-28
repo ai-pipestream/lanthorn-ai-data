@@ -1,0 +1,462 @@
+{
+  "snapshot_id": "20260925T141733.592192Z",
+  "games": [
+    {
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "anchorhead-9852cd5b9d:e01267"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "augmented-fourth",
+      "session_id": "augmented-fourth-d479b421d9",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "augmented-fourth-d479b421d9:e00246"
+      ],
+      "reason": "Remote worker on pi5v2 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "bicon-e4b7be4302:e00306",
+        "bicon-e4b7be4302:e00308"
+      ],
+      "reason": "Ending claim with authored concluding text '*** You have won Phoenix's heart. ***' and 10/10 score at e00306 on matching claim branch b0; not independently reviewed. Parent verification proposed; no certification.",
+      "next_action": "parent_verify_ending",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "busted",
+      "session_id": "busted-d683906f1b",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "busted-d683906f1b:e00101"
+      ],
+      "reason": "Remote worker on pi5ai2p exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "critical-breach-b5dd49a3e4:e00490"
+      ],
+      "reason": "Remote worker on cm5v2 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "curses",
+      "session_id": "curses-4e1875ea4e",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "curses-4e1875ea4e:e03597"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "dash-slapney-patrol-leader",
+      "session_id": "dash-slapney-patrol-leader-64ff8134ce",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "dash-slapney-patrol-leader-64ff8134ce:e00006"
+      ],
+      "reason": "Remote worker on cm5v3 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "deephome",
+      "session_id": "deephome-56e3d50bda",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "deephome-56e3d50bda:e00812"
+      ],
+      "reason": "Remote worker on pi5v2 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "delusions-8997f25a87:e01538"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified event a checkpoint save, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "dracula-prince-of-darkness-d75c304699:e00644"
+      ],
+      "reason": "Remote worker on pi5ai2p exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "earth-and-sky-episode-1-2bb22846be:e00088"
+      ],
+      "reason": "Remote worker on pi5v2 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "enemies-0b4aba49fe:e00567"
+      ],
+      "reason": "Remote worker on cm5v1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "fine-tuned",
+      "session_id": "fine-tuned-989503b0a7",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "fine-tuned-989503b0a7:e00516"
+      ],
+      "reason": "Remote worker on pi500p exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "frozen",
+      "session_id": "frozen-a2e5d2eea9",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "frozen-a2e5d2eea9:e00726"
+      ],
+      "reason": "Remote worker on cm5ai1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "gumshoe",
+      "session_id": "gumshoe-2933d54ccf",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "gumshoe-2933d54ccf:e00524"
+      ],
+      "reason": "Remote worker on pi500p exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "heist",
+      "session_id": "heist-a079eba445",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "heist-a079eba445:e00700"
+      ],
+      "reason": "Remote worker on cm5v2 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "session_id": "heroines-mantle-4053f4fad7",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "heroines-mantle-4053f4fad7:e00682"
+      ],
+      "reason": "Remote worker on pi5ai1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified event a checkpoint save; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "hla-inform",
+      "session_id": "hla-inform-09ea9c8220",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "hla-inform-09ea9c8220:e00409"
+      ],
+      "reason": "Remote worker on pi5ai1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "i-0-d1ac7729bb:e00263",
+        "i-0-d1ac7729bb:e00264"
+      ],
+      "reason": "Remote worker finished exit 0; ending claim cites e00263 authored concluding text '*** Thanks for playing! ***' with restart/restore/quit menu on matching branch b9. Unreviewed; parent verification proposed, not certified.",
+      "next_action": "parent_verify_ending",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "inside-woman",
+      "session_id": "inside-woman-70e8855708",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "inside-woman-70e8855708:e00037"
+      ],
+      "reason": "Remote worker on pi5ai2p exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "lecture-feature",
+      "session_id": "lecture-feature-fbf9767abc",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "lecture-feature-fbf9767abc:e00225"
+      ],
+      "reason": "Remote worker on cm5v3 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "mortlake-manor",
+      "session_id": "mortlake-manor-e0475539fe",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "mortlake-manor-e0475539fe:e00355"
+      ],
+      "reason": "Remote worker on pi500p exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "session_id": "mulldoon-legacy-7080420221",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "mulldoon-legacy-7080420221:e00143"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "session_id": "mystery-fun-house-61d87e14cd",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "mystery-fun-house-61d87e14cd:e00027"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher; release identity unverified (scott-cli, manifest fields unavailable). No pending requests. Parent diagnosis required before any resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "not-just-a-game",
+      "session_id": "not-just-a-game-8201b5a6d4",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "not-just-a-game-8201b5a6d4:e00408"
+      ],
+      "reason": "Remote worker on cm5v2 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "only-after-dark",
+      "session_id": "only-after-dark-612a20ec77",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "only-after-dark-612a20ec77:e00085",
+        "only-after-dark-612a20ec77:e00121"
+      ],
+      "reason": "Ending claim e00121 on branch b4 cites win evidence e00085 from branch b2 ('*** You have won ***'); branch linkage mismatch needs parent check. Worker finished exit 0. Verification proposed, not certified.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "punk-points",
+      "session_id": "punk-points-7c2d72a183",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "punk-points-7c2d72a183:e00009"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "pythos-mask-a39eb2af1a:e00004"
+      ],
+      "reason": "Explicit supervisor hold: startup MORE empty-Enter timeout; m0003 resolved as e4 no_output_timeout; diagnosis file recorded; clients stopped, broker/interpreter preserved. Also retained under quota hold. No input, replay, reset, or live commands proposed.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "return-to-karn",
+      "session_id": "return-to-karn-bf86b7da19",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "return-to-karn-bf86b7da19:e00709"
+      ],
+      "reason": "Remote worker on pi5ai1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified event a checkpoint save; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "schooldays",
+      "session_id": "schooldays-b371c6a97d",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "schooldays-b371c6a97d:e00419"
+      ],
+      "reason": "Remote worker on cm5ai1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "spider-and-web",
+      "session_id": "spider-and-web-e5197766e3",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "spider-and-web-e5197766e3:e00781",
+        "spider-and-web-e5197766e3:e00801"
+      ],
+      "reason": "Ending claim e00801 on branch b20 cites b19 win e00781 ('*** You have made a difference ***'); later b20 play exists, so branch linkage needs parent review. Verification proposed, not certified.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "spiritwrak",
+      "session_id": "spiritwrak-8e02d83255",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "spiritwrak-8e02d83255:e00640"
+      ],
+      "reason": "Remote worker on cm5ai1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "teacher-feature",
+      "session_id": "teacher-feature-8ddda176d1",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "teacher-feature-8ddda176d1:e00122"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "time-all-things-come-to-an-end-fad9ab092f:e00382"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "varicella-0ca3ff14a0:e00340"
+      ],
+      "reason": "Remote worker on cm5v1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "windhall-ec1287a533:e01088"
+      ],
+      "reason": "Retained slot under active provider quota hold; local pool flags unfinished without launcher, evidence retained. Last verified output at ordinary prompt, no pending requests. Parent diagnosis required; resume is parent-only.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "zorkian-stories-1-gue",
+      "session_id": "zorkian-stories-1-gue-6ffd9e5043",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "zorkian-stories-1-gue-6ffd9e5043:e00025"
+      ],
+      "reason": "Remote worker on cm5v1 exited (exit 1) during active provider quota hold; retained slot stays owned. Last verified output awaiting input; no pending requests. Diagnose under quota-hold context; parent-only resume.",
+      "next_action": "parent_diagnosis",
+      "confidence": "high",
+      "priority": "low"
+    }
+  ],
+  "capacity": {
+    "active_local": 0,
+    "active_remote": 0,
+    "held_slots": 1,
+    "target": 34,
+    "another_launch_justified": false,
+    "note": "Observed counts are zero local and zero remote Muse clients, but 33 retained slots plus 1 supervisor-held slot (pythos-mask) remain owned under the verified provider quota hold. Reset timestamp has passed, yet reset is not permission: resume is parent-only after reset-evidence review. Queued games wait; deterministic schedulers and refill settings left unchanged; no launch authorized."
+  },
+  "recommendation": "Priority: four unverified ending claims await independent parent review — bicon (e00306), i-0 (e00263), only-after-dark (claim e00121 on b4 cites b2 win e00085; branch mismatch), spider-and-web (claim e00801 on b20 cites b19 win e00781; branch mismatch). Provider quota hold remains active: all 33 retained slots show exited/failed workers with zero active clients; parent alone reviews reset evidence and decides resume. pythos-mask supervisor hold preserved with no live commands proposed. No launch justified; scheduler and refill settings unchanged. All retained games dispositioned diagnose/hold pending parent diagnosis."
+}

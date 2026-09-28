@@ -1,0 +1,19 @@
+{
+  "game_id": "secret-mission",
+  "title": "Secret Mission (also Mission Impossible), Scott Adams #3",
+  "engine": "scott-cli",
+  "story": "/home/krickert/if-games/scott/AdamsGames/adv03.dat",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/secret-mission-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/adamssol.zip#MISSION",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/secret-mission.json",
+  "story_sha256_expected": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+  "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+  "dataset_split": "train",
+  "game_family": "scott-adams",
+  "session_id": "secret-mission-08dcee7c13",
+  "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+  "started_at": "2026-09-25T01:54:52.536294+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

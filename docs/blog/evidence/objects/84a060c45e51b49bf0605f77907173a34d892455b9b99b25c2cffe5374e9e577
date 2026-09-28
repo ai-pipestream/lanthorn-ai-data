@@ -1,0 +1,12 @@
+# Mansion progress (SEG8 COMPLETE — 68/68 WIN, ending claim e01588)
+
+WIN VERIFIED FROM GAME OUTPUT (branch b8):
+- e01580 drink mixture -> monster transformation
+- e01581 call brookes -> flees in horror, score 68/68 MAX
+- e01583 wait -> Brookes withdraws from Gharston Hall development
+- e01584 wait -> tears purchase agreement into small pieces
+- e01585-86 waits/look -> Entrance Hall, Brookes exits, table movement
+- e01587 get rose -> "Rosa Aunt Agatha" rose taken, "*** You have won ***", 68/68 in 1127 turns, "proud owner of Gharston Hall"
+- e01588 ending_claim recorded (inbox/m1031.json accepted; m1029/m1030 rejected for inexact quote missing line-wrap spaces/newlines). Awaiting Terra independent verification.
+
+Route notes (R3): parcel appears only after house OFF/ON drain cycle + immediate get (vanishes in 2-3 turns); jar eyes spare the live frog (cut refused moral); ugli spawns Entrance table late; candlestick needs refill. ~40+ annotated cases across game. No further commands needed; game at RESTART/RESTORE/FULL/QUIT prompt.

@@ -1,0 +1,10 @@
+# Kook U — progress (continuation checkpoint, game incomplete — step budget stop)
+
+Session kook-u-ef2767bf50 b2, event e00162. Score 82. Release 1/971119.
+Location: Day Care Facility, ordinary prompt. Implant squashed e00143. Player TAKEN e00162 (score 82) with unlabeled wedding tape inside (played e00156); NIN tape dropped in room e00152.
+Inventory e00161 + player: pack (open empty), fan (on), bill, beeper, Cabal card, cassette player (closed, contains unlabeled tape).
+Targets done: Grubor 37, Sanford 47, Boursy 62, Neutopia 72, Implant 81. April UNRESOLVED (wedding tape played in Day Care, no score; likely bring player to April in Library).
+Checkpoints verified: ... implant-done, player-played; daycare-found. No checkpoint after player-taken yet.
+Pending: none — m0241 serviced as e00162. No unissued duplicates.
+
+Next (fresh budget): checkpoint after player-taken; travel NE out of Day Care → Outside Day Care → n? to Outside Law → e? to Commons → Outside Library → e Library; check Miss April state; try 'turn on player' in Library / 'give unlabeled tape to april' / show player; then dean office + final router/name/file/news in Computer Room + concluding narrative. Avoid SPACE menus. Help after 2 failures. Current player contains unlabeled tape — do NOT open/drop blindly.

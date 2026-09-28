@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-09-25T10:31:42.522311+00:00",
+  "provider_exit_code": 0,
+  "exit_code": 0,
+  "actual_model": null,
+  "actual_model_unresolved": true,
+  "actual_tool_manifest_unresolved": true,
+  "configured_tools": [],
+  "configured_subagents": [],
+  "actions_executed": [],
+  "mode": "decisions only",
+  "snapshot_sha256": "87a4f8d38cb2797a931773981f90824068df07dd2223493ba55dd651751b4a03",
+  "prompt_sha256": "351cf3da09f1f578d0c45d725b45755f0e550cc59492a17347acb0f40cb4da50",
+  "profile_sha256": "1079189f49c929edc835e879522c97cde279c42d0e6595b1d9b4aa5af4ef496e",
+  "collector_sha256": "fa7d9a8cec65576e5af9dd478b2d8d7dbddcc493c3562b5f8cfcd1c72a0e723d",
+  "cli_path": "/home/krickert/.kimi-code/bin/kimi",
+  "cli_sha256": "66f47536e40b02bb1d577cdd324768f73d39b8b9472e0ca140e73d8e225cd7de",
+  "inputs_sha256": "09498fa11c3c9e723076fed2a929955914eb297e6602ce784498460922ad0355",
+  "snapshot_id": "20260925T103142.522501Z",
+  "finished_at": "2026-09-25T10:36:28.710745+00:00",
+  "validation_status": "validated_proposal_only"
+}

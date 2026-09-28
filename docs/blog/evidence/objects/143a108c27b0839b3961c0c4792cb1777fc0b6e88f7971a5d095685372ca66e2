@@ -1,0 +1,20 @@
+# Slacker X progress
+
+Location: Small room (secret forest room east of Outside, lit by Dolemite). Score 21 observed b1 e00061.
+Inventory (observed b1): satchel (open), bag (closed/large bag of pot), SPANK magazine, Jar of powder (get jar e58), Bottle of pills (get bottle e61), Dolemite night-light ON (turn on dolemite e45). Can given to Jeremy, joint given to Brandon. No Pot / night-light starting items folded into above; verify with inventory on resume.
+
+Route done b1 (restore before-jeremy b0->b1 e42-e43): examine dolemite e44 (off), turn on dolemite e45 (on), checkpoint before-jeremy-lit e46-e47; give can to jeremy e48 redo (+joint); get magazine e49 redo; w hallway e50; s outside e51 (Cody, gremlin); e Small room e52 lit (Brandon, cabinet, toilet); give joint (omit -> to Brandon) e53 Brandon thanks/wanders annotated e54 none; open cabnet e55 can't-see -> open cabinet e56 (+Bottle/Jar) annotated e57; get jar e58 Taken annotated e59 none; grab bottle e60 vocab fail -> get bottle e61 Taken annotated e62.
+
+Cases b1 (plus b0 priors in earlier progress):
+- brandon-give-omit: give joint e53 accepted (to Brandon) annotated e54 none
+- cabinet-open-typo: open cabnet e55 fail -> open cabinet e56 annotated e57 syntax
+- powder-jar-partial: get jar e58 accepted annotated e59 none
+- pills-grab-synonym: grab bottle e60 vocab fail -> get bottle e61 annotated e62
+- darkness-light: turn on night-light e34 can't-see (b0 dark); turn on dolemite e37 mugger-advance (b0 dark) / e45 success lit — world_state/light lesson, not annotated as repair pair
+- brandon-joint-dark b0 e39/e41 not-animate in dark/after-retreat — superseded by lit redo, not annotated
+
+Checkpoints: early-bedroom; before-jeremy b0 e23-e24; before-jeremy-lit b1 e46-e47 (light on, pre-exchange).
+
+Hints (walkthrough, NOT observed): m0035 excerpt: w s e / give joint to brandon; open cabinet>powder(5),pills(6); w; give pills to cody; s e. Next per hint: w to outside, give pills to cody.
+
+Next: w to Outside; probe before canonical give pills to cody (e.g. typo/omit/order); then s e route; checkpoint at next ordinary prompt; update progress every 10-15.

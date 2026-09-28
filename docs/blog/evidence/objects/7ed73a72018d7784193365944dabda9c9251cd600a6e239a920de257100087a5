@@ -1,0 +1,26 @@
+# Progress - Risorgimento Represso - SEGMENT 2 PAUSED (step budget 390/400)
+
+## Current location
+On the Mountaintop (branch b3, score 35). Hermit Robert at lean-to; "examine old man" showed tanned skin + streaming tears (e00428). Wearing essence-rug (hermit sees "ugly bear"). Next walkthrough step: ask hermit about tears.
+
+## Inventory (approx, verify with inventory command)
+Worn: rug (essence), helmet, satchel, clothes, butter. Carried: carpet (new), silver coin (change), silver scrying bowl, WizStrip bottle sealed, gold->silver? Satchel: drill, flare lit, dish+crystals, bowl+crystals, goggles, tube hastener, steel key, book, hose, chamberpot (3 pints water), watering can empty, iron key, flask/pouch/purse empty. Cannonball LEFT in Garden. Pillow/cord consumed in cannon shot. Vial/acid consumed. Jar consumed.
+
+## Checkpoints (verified, b3)
+- before-bear-pass (Ledge, rug worn)
+- before-tree-climb, castle-escaped (23), before-cannon-shot, powder-made (17), workshop-arrival, study-post-rug, post-rift-rescue (13), clean-spectacles (8), before-wizstrip-pour (3), older arrivals
+- Death branch b2 preserved (e00183).
+
+## Cases (87 total: 01-87, syn-87 annotation m0378 PENDING response, all else resolved)
+Seg1 01-35. Seg2 36-87 incl: 73 take off rug; 74 reversed multi-put; 75 read paper; 76 cupboard->cabinet vocab; 77 glass jar; 78 stone bottle; 79 take it pronoun; 80 yellowed paper; 81 gold coin; 82 examine it; 83 purchase bowl; 84 get cheese AMBIGUITY (which of 11? -> asiago); 85 rub jar; 86 take carpet; 87 old man=hermit (response unread, verify e00429+).
+Diversity complete: vocab, syntax, ambiguity, world_state, planning, pronouns, word order, typos, full/short nouns.
+
+## Last hint (e00418, lines 195-203)
+smear jar on rug / wear rug / n / get carpet / e / x hermit / ask hermit about tears
+Done through x hermit. Next: ask hermit about tears, then mode=next.
+
+## Next actions (continuation segment 3)
+1. Read latest.json + verify m0378 annotation response; re-issue NOTHING (never duplicate).
+2. ask hermit about tears (consider probe 'ask old man about tears' first).
+3. mode=next chain to final descent + Ninario escape; checkpoint at rescue milestone.
+4. Manifest requires authored concluding narrative after final descent with Ninario; score/escape alone insufficient.

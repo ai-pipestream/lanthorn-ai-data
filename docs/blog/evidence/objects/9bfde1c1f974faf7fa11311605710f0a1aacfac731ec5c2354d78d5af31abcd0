@@ -1,0 +1,26 @@
+# Delusions progress — SEGMENT 6 (b55 SAFE 33/50, GUI breakthrough, standoff re-entry next)
+
+No winning ending yet. HINT menu forbidden. LIVE STATE: ALIVE b55e01377 (safe lab 33, ordinary prompt). Segment 6 mapped full safe exits + discovered GUI click syntax; Justy blocks computer pre-standoff. Prior R4-unwinnable NOT assumed; novel click-during-standoff untested.
+
+CURRENT (verified to m1032, e01377):
+- LOCATION: VR Lab safe pre-standoff (Justy present, bench manual/workstation/mouse, Sphere/suit/tank).
+- INVENTORY (e01332): carrying nothing; wearing jumpsuit, fingerwatch, punch, caplet, gelstrip, X-Acto. No gun/pencil/pad/phone/blade.
+- SEGMENT 6 MAP SAFE (live): E/D->Factory cables/android/coupler; SE->Ours desk/bed/niche/magnet-closed/lightstick/tongs/Giger/shelves; SW->Justy bed/desk/films/Escher/holovision-on; NE->Kitchenette fridge/microwave-empty; N->Output Cray/racks; S->MedLab IV/gurney/cabinet-empty; W->Steel Corridor (doorway S, office W, elevator N-closed); NW blocked Cynthia door locked (knock no-answer, open locked); U lab can't-go.
+- GUI BREAKTHROUGH (live, not sealed): x workstation PC-desc (e01355); USE rejected vocab (e01356) -> TURN ON accepted already-on (e01357) SYN vocab annotated m1013; x keyboard alias (e01359); TYPE HELP beeps (e01360, computer on but keyboard blocked); x manual binder (e01361); manual COMPUTER=terminal GUI isolated, SEE icons (e01362); manual SYSTEM-ICON ambiguous lab-terminal vs system-icon (e01363-64, clarification repeats); manual SPHERE gyro (e01365), TERMINAL same-as-computer (e01366), LAUNCH sim-needs-Sphere+suit (e01367), REPORT print-to-Cray (e01368), DEBUG restricted Shimada+me (e01369), FLUSH purge-only-Shimada (e01370), CONFIGURE sensory-all-users (e01371), CRAY print-needs-recycle-prev (e01372); x mouse generic (e01373); x monitor shows Launch/Configure/Report/Debug/System/Flush + cursor (e01374); CLICK REPORT needs button syntax (e01375) -> CLICK REPORT WITH LEFT reports Justy "don't mess" block (e01376); CLICK SYSTEM WITH LEFT same Justy block (e01377). Pre-standoff computer syntactically click-with-button, semantically Justy-blocked.
+- PRIOR RANT COMPUTER (history, different verbs): b49 open system -> "Better not right now" + rant (e01242); x msgbox can't-see (e01243); type chess beeps + rant (e01244). Prior NEVER tried CLICK WITH LEFT BUTTON during rant/cower — NOVEL, must test.
+- ROUTE RECAP: s30 sim kill-me 6z wake s33 (Cynthia locked/phone, Shimada explains); office auto-quarters blade mirror 4z N standoff lock; magnet niche s36; factory waits phone-clatter; phone redial s38; waits murders 38/50 death. R2 Drop/NW-pencil/Rub/CHESS diverges (no gun, NW locked, computer Justy-blocked pre).
+- SYN: prior 47+ quota met. Segment 6: 1 new SYN vocab (use->turn-on m1013 success). Click-report syntax (e01375->e01376) pending annotate after standoff success/fail (currently Justy-blocked, not yet success).
+
+UNRESOLVED: route-b55-click-report (e01375 syntax fail -> e01376 Justy-blocked; needs standoff retest for success, then annotate); route-b55-click-system (e01377 Justy-blocked, needs standoff retest).
+
+LAST HINT: m0904 R2 215-223 Drop/NW-pencil/Rub — off-topic R4, retained.
+
+NEXT (live):
+1) Understood route s33->standoff: W knock/open/W office-quarters (4), then drawer/blade/mirror/4z/N (batch), then magnet niche s36, then factory. Checkpoint before standoff N.
+2) During rant/cower (Justy cowers, Cynthia rant): test CLICK REPORT/SYSTEM/FLUSH/DEBUG WITH LEFT BUTTON (1 each, novel). If report prints, recycle via Cray slot per manual, read printout for password/chess.
+3) If computer opens: follow icons; if pencil/pad appears (Cynthia quarters unlocks mid-standoff?), fetch per R2. If murders still force, test ONE hide/disarm/timing variant per branch.
+Do NOT repeat: b53 varied-verbs, x pad, Justy-pencil/manual-pencil-pad, b46-52 exits-shot/type/open (different verbs).
+
+## Checkpoints
+- s33-justy (SAFE 33, b55 HERE e01377)
+- s36-violin-factory (36 rant-tested old verbs), s38-redial (38 msgbox/drop-tested), s36-factory (36 pre-phone old-verbs), s30-gun, etc.

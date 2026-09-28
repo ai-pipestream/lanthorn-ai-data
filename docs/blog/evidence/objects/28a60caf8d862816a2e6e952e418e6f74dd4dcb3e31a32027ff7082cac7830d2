@@ -1,0 +1,48 @@
+# Continuous collection pool
+
+The user authorized keeping ten Muse games running on 2026-09-25. This replaces
+the earlier fixed nineteen-game boundary. Completed games stay stopped. A
+prepared queue supplies new games, and the heartbeat replenishes that queue
+after checking exact story versions, source provenance and family splits.
+
+`scripts/maintain_workers.py` runs every 15 seconds under the user service
+`lanthorn-muse-pool.service`. `control/worker-pool.json` holds the target and
+queue configuration paths. `control/worker-pool-status.json` reports workers,
+remaining queue and recovery concerns. `control/worker-pool-events.jsonl` records
+starts with process IDs, session IDs and log paths.
+
+The manager has one global lock. Per-game launchers and brokers retain their
+existing locks. A live launcher still counts while exiting; the manager never
+starts a completed game again. Interrupted unfinished games retain their slot
+until their existing broker can safely resume or the parent diagnoses recovery.
+It never silently resets a game or replays pending input to satisfy a count.
+
+The service is enabled with user lingering, so it can run without the desktop
+session. Restarting this manager preserves live child interpreters and workers;
+the manager rediscovers them. A reboot still loses unsaved interpreter state and
+requires explicit checkpoint recovery. Source/service failures and exhausted
+queues can temporarily reduce actual concurrency; the heartbeat must repair
+them rather than treating the target count as proof of healthy work.
+
+Stop automatic launches by setting `enabled` to false in
+`control/worker-pool.json`, then stopping the user service. This does not stop
+existing games. A full pause requires the supervisor to preserve checkpoints
+and stop those processes explicitly. To inspect the manager:
+
+```sh
+systemctl --user status lanthorn-muse-pool.service
+```
+
+Validation covers slot accounting, retaining interrupted sessions, ignoring
+shell text that merely mentions a launcher, and duplicate detection. A live
+manager restart was also checked: every worker and broker PID stayed unchanged.
+These checks are for the collection infrastructure; no model training or model
+evaluation is implied.
+
+## Pi extension
+
+The2026-09-25 Pi authorization adds a separate24-slot pool (3per authenticated host) beside the original10 local slots. `lanthorn-muse-fleet.service` runs `scripts/maintain_fleet.py`; `control/fleet/settings.json` controls hosts/per-host targets. `control/fleet/assignments.json` owns durable reservations; `status.json` reports remote supervisors and sync errors. Both schedulers lock `control/scheduling.lock` before claiming shared queued games. The local scheduler excludes every fleet-reserved game even when its remote worker disconnects. Never manually launch either scheduler twice.
+
+Set fleet settings enabled=false to stop new remote assignments; it continues syncing existing games. Stopping the fleet service stops synchronization but does not terminate remote Muse or central brokers. That is not a clean pause. Preserve checkpoints at ordinary prompts and stop assigned process trees explicitly when pausing collection. A disconnected Pi retains its slot; do not launch a replacement into the same game until remote process and pending-request state are reconciled. Never reuse an uncertain request ID with different bytes. Remote run logs are on each host under ~/lanthorn-muse/runs; central interpreter output remains in play/<game>/stdout.raw and events.jsonl.
+
+Remote mirror transactions are locked per game and carry persisted increasing revisions and exact interpreter session IDs. Late revisions and mixed/new sessions are refused; a recovered interpreter requires an explicit supervised handoff. Stop the old remote worker, preserve/cancel uncertain pending files and evidence, then provision a fresh remote workspace generation with recovery/hint context and verify the restored central session before restarting a client. Do not delete a session fence merely to clear an error. Requests imported after the upgrade carry _fleet_session_id; future/recovered brokers reject stale tags before sending engine input. Existing live brokers rely on the central before/after-session checks until their next supervised recovery.

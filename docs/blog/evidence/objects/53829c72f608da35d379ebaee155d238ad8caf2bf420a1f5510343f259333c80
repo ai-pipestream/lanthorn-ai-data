@@ -1,0 +1,62 @@
+{
+  "at": "2026-09-25T06:21:02.161622+00:00",
+  "games": [
+    {
+      "game_id": "paper-chase",
+      "family": "paper-chase",
+      "split": "train",
+      "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+      "guide_sha256": "5ee8c105492befb9c5f83d40e971065951d404a271cace8cf4b15adff08f0cd5"
+    },
+    {
+      "game_id": "hunt-for-relief",
+      "family": "hunt-for-relief",
+      "split": "train",
+      "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+      "guide_sha256": "10726883c6f29e6229383b82a370ab7ff33dc25a8de579049d82f5b15cb1e825"
+    },
+    {
+      "game_id": "mansion",
+      "family": "mansion",
+      "split": "train",
+      "story_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+      "guide_sha256": "ce444563b616e8789da66c8844db9de427c4fca1319c82d623ca7937f4405659"
+    },
+    {
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "family": "zork-i",
+      "split": "development",
+      "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+      "guide_sha256": "463d45e9dcd4bcabeb17f82ccd837772a4705f76612b7c56f894772d845d05c7"
+    },
+    {
+      "game_id": "bse",
+      "family": "bse",
+      "split": "train",
+      "story_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+      "guide_sha256": "889bdab5ad24f8fbc0499ba74e575891dd638fc1cb95b6e043ddbd9a8cbacdbf"
+    },
+    {
+      "game_id": "bedlam",
+      "family": "bedlam-michael-zey",
+      "split": "train",
+      "story_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+      "guide_sha256": "3817db1cab04e5780521d798990dc2f962fac04401191768430b6d45709c190e"
+    },
+    {
+      "game_id": "critical-breach",
+      "family": "critical-breach",
+      "split": "train",
+      "story_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+      "guide_sha256": "230822e99d395caf59a92fe6119d1d1e428041f7eda18ba5fcba5c44ccf211e5"
+    },
+    {
+      "game_id": "danger-adventurer-at-work",
+      "family": "danger-adventurer-at-work",
+      "split": "train",
+      "story_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+      "guide_sha256": "9d98a09a54cd9c1a05e552fb8ab5e1b97a41e831d35b85dad19fc763b53c0840"
+    }
+  ],
+  "limits": "Bedlam is available preview, not full commercial title or Slouch. PUTPBAA save/restore can end game, no automatic checkpoints. Mansion R3 guide gap and possible torch issue preserved."
+}

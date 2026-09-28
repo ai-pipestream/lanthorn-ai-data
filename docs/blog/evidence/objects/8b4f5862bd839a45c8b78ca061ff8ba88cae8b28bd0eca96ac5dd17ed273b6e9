@@ -1,0 +1,13 @@
+# Progress – jewel-of-knowledge (branch b1, score 29) – CONTINUATION SEGMENT 2
+
+Location: Amylyan Druids' Temple / Great Hall (ordinary prompt). Allarah the High Priest present. Colors/dimensions distorted, hazy mist.
+Inventory carried (observed): lye bag, bladder, lockpick, crossbow (loaded), coat (worn), firebug (lit, blue flame), Book of the Dragons, gleaming silver sword, travelling sack (worn), moon salt (lit, smoking — partially consumed? verify).
+Elsewhere: axe at Frozen Foyer, crampons at Geyser, moss at Burial Ground. Jacob's body left at plateau.
+Score: 29 (+2 for temple arrival, e00252).
+
+Checkpoints: temple-score29 (Ok, e00254/55); before-temple-smoke; plateau-reclaim-gear. No pending requests; m0206 confirmed.
+
+Cases: syn01-syn28 (prior segment, annotated); syn29 take-all=none; syn30 look-at-body=none; syn31 rub-firebug=none; syn32 burn-salt→light-salt-with-firebug=syntax; syn33 sniff-smoke=none. Total 33 cases.
+
+Next (walkthrough m0206 lines 160-168): Read book; Ask Allarah about white; Ask her about black (expect +3 → 32, receive black key). Collect occasional probes (target 20-40 already met; a few more diverse ones OK). Then request next help excerpt.
+Caution: smoke/temple state may be timed; preserve route, probe safely.

@@ -1,0 +1,103 @@
+{
+  "game_id": "gourmet",
+  "title": "Gourmet",
+  "author": "Aaron A. Reed",
+  "url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+  "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+  "accessed_at": "2026-09-25T09:47:55.119982+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-walkthru.raw.txt",
+  "source_sha256": "52d2429cb2ee2207b4558d84287393c5f93aee8dc7e506c87b4244a2dec3838a",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-walkthrough.txt",
+  "normalized_sha256": "c9938c38645f6fea55145dc39fa1e2744a8a0de660364aebe4156a4e65bf27cc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/ifcomp/2003/zcode/gourmet/gourmet.z5",
+  "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+  "compatibility": "Local competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "030927",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000161246125451e014c2e77397000503033303932370084b123ef3d00000000000000000000000000000000396f000000000000014400000000362e3231",
+    "header_sha256": "7b3576667010318fcdaf1facc7ab44ca544afb2606342be3da84f65f01a37e90",
+    "checksum_hex": "ef3d",
+    "computed_checksum_hex": "ef3d",
+    "declared_length": 181388,
+    "file_bytes": 181760
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified in guide; package association documented separately",
+  "story_identity": {
+    "filename": "gourmet.z5",
+    "url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.z5",
+    "accessed_at": "2026-09-25T09:48:28.391378+00:00",
+    "remote_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "local_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "bytes": 181760,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "030927"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/gourmet/#gourmet.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-index.html",
+    "snapshot_sha256": "fabbeaaa9ed342be254c7698ae58e02a49803fb988caa74ca7523864e3711955",
+    "entry_text": "gourmet.z5 ◆ [28-Sep-2003]",
+    "tuid": null
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/gourmet/#walkthru.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-index.html",
+    "snapshot_sha256": "fabbeaaa9ed342be254c7698ae58e02a49803fb988caa74ca7523864e3711955",
+    "entry_text": "walkthru.txt ◆ [28-Sep-2003]",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Aaron A. Reed (author-package attribution)",
+    "authorship_evidence": "Guide shipped in official competition directory and points to Aaron A. Reed's walkthrough URL; author-signed release notes identify the package and walkthrough. No separate byline appears in guide body.",
+    "route_summary": "Complete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.",
+    "limitations": "The phone and NPC presence are variable; wait only when live game state calls for a turn. The guide labels waiting for kettle, band and lobster proximity; do not send repeated waits to flush a timeout. Follow current tube-system clues and controls rather than treating illustrative numbers as universal. Checkpoint early and before hazardous kitchen sequences. DIAL LESTER/CHESTER are fictional game commands, never external calls. Collect varied kitchen manipulation, conversation and correction examples without filler.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "gourmet",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent comic restaurant game. Shared author identity with unrelated titles is not evidence of common puzzles/world. Reserve gourmet for its editions."
+  },
+  "reuse_claims_observed": "Author release notes permit personal freeware use and restrict compilation/archive inclusion except IFComp mirrors. No training or collected-data redistribution permission established; guide reuse unknown, private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "packaged_readme": {
+    "url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.txt",
+    "accessed_at": "2026-09-25T09:47:55.123100+00:00",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet.txt",
+    "sha256": "eb3dab9d283afb3544f9178d7c0204c70b5d0209c6d04a61915764e7ca7f492b",
+    "body_read": true
+  },
+  "guide_package_association": {
+    "game_url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/gourmet.z5",
+    "guide_url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+    "directory": "https://ifarchive.org/indexes/if-archive/games/competition2003/zcode/gourmet/",
+    "same_directory": true,
+    "guide_version_claim": "Only BOFH explicitly declares its recorded version; package co-location alone does not establish exact build compatibility."
+  }
+}

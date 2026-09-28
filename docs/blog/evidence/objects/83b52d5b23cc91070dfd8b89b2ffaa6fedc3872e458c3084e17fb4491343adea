@@ -1,0 +1,27 @@
+{
+  "game_id": "splashdown",
+  "title": "Splashdown",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/ifcomp/2004/zcode/splashdown/Splashdown.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown.json",
+  "story_sha256_expected": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "splashdown",
+  "collection_notes": "# Splashdown\n\nLocal competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.\n\nComplete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.\n\nUse the complete author-packaged route, including the recorded status and message playback that provides narrative context. Computer and spider instructions are addressed to fictional in-game agents; do not execute them on any host or network. Observe power priorities, cabling, controls, atmosphere and timed light changes. The guide's waits describe turns, not timeout recovery. Save early after the opening has reached a safe ordinary prompt and at repair milestones; do not save through a question or key pause. Do not send the trailing QUIT as a gameplay step.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "040926",
+  "session_id": "splashdown-81fa9deae4",
+  "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+  "started_at": "2026-09-25T18:09:20.944104+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

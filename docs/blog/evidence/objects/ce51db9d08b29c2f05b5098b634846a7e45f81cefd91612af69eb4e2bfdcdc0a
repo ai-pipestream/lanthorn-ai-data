@@ -1,0 +1,26 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: President's Office, Score 28, Moves 127 (e00280)
+Description: windowless trapezoid office; presidential desk (feudal-Japan antique) with answering machine, woman's laptop, memo piles; open ceiling ventilation grille (via desk); white panelled sliding door OPEN to jacuzzi noises; red dress + dinner jacket taken.
+Inventory as observed: red dress (belt opened, pad pressed), dinner jacket (open, lining torn), curved brass knife (in hand), optical datachip (in hand); optical disc in bra, compact taser in bra, pink bubblegum in bra; mother's silver chain (worn), gold bracelet closed+worn, underwear; blue evening dress as rope in shaft; toilet brush in Lift Shaft. Paper ball read/dropped in Lobby.
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy, washroom-secure, presentation-baron, bathroom-perfume, cocktail-lift, lift-paper, lobby-disc, s21, s25, roof-hatch-open, penthouse-duct (e00250-251 Ok).
+
+Cases since last update (all synthetic_probe unless noted; annotated):
+- duct-go-west-probe (none e00252-253; go west = w to President's Office duct, Moves 114)
+- duct-open-grate-probe (none e00255-256; grate = grille, swung open, Moves 115)
+- duct-climb-down-probe (none e00257-258; bare climb down via desk, Moves 116)
+- office-open-sliding-door-probe (none e00259-260; full noun, dress+jacket revealed, Moves 117)
+- office-grab-dress-probe (none e00261-262; grab = get, Moves 118)
+- office-take-jacket-probe (none e00263-264; take = get, Moves 119)
+- office-look-dress-probe (none e00265-266; look at = x, belt/Mistletoe fastener, Moves 120)
+- office-unbuckle-belt-probe (vocabulary e00267→e00268-269; unbuckle rejected, open belt freed it + pad, Moves 121)
+- office-press-pad-probe (none e00270-271; press = push, brass knife, Score 27 Moves 122)
+- office-look-jacket-probe (none e00272-273; look at = x, Y/E/P buttons, Moves 123)
+- office-open-it-jacket-probe (none e00274-275; it = jacket pronoun, stitched lining, Moves 124)
+- office-slice-stitches-probe (none e00277-278; slice = cut, knife auto-used, Moves 125)
+- office-x-jacket-lining-route (guided e00279; datachip revealed, Moves 126)
+- office-take-chip-probe (none e00280-281; take = get, Score 28 Moves 127)
+
+Last hints (walkthrough, NOT observed): e00276 lines 170-178 (cut stitches with knife; x jacket; get chip 1/28; x laptop; put chip in laptop; get disc then put it in laptop; put dress in door; put jacket in door; close door). Cut/x/get-chip done. Next prescribed: x laptop.
+
+On resume: read latest.json (expect e00281 on b0); continue in President's Office with x laptop and laptop sequence; help mode=next when excerpt exhausted. Game incomplete — Crusader/helicopter finale per manifest still required; no finish evidence.

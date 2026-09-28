@@ -1,0 +1,11 @@
+# Mother Loose — progress (update 6, e00118)
+
+Location: Hilltop well, Score 18, Moves 78. Wolf present.
+Inventory (observed): bent spoon, cracked porcelain dish (basket THROWN into well at e00116 — splash + yowl; needs recovery decision). Pot in Deep Forest; ladder returned in Meadow Behind Bungalow (+3, e00091); hairpin with Mary.
+Checkpoints (verified): start-fence, forest-hairpin, meadow-ladder, fence-rescue, ladder-returned (e00096-97).
+
+Cases since update 5: ladder-lean-phrasing(none), fence-look-after, ladder-take-back, return-to-bungalow, ladder-return(+3), lamb-examine, retrieve-cache, meadow-go-nw, bungalow-enter-south(blocked), bungalow-enter-in(blocked), bungalow-open-door(Mary blocks), bungalow-go-west, schoolyard-go-south, school-go-south, stairs-look/up/down, school-look, school-go-north, schoolyard-go-se (hilltop well + mewing), well-examine, kitten-take("What makes you so sure it's a cat?" e00113), well-enter(refused), well-basket-lower: 'lower basket' asks container (e00115), 'lower basket into well' THREW basket (e00116, splash+yowl). Pending annotate: well-basket-lower pair, kitten-take.
+
+Last hints (walkthrough, NOT player-observed): m0085 e00098 lines 40-48: nw / s / s / take kitten / take key / unlock door with key / s / x figure / n. nw consumed (meadow→bungalow front); s/in/open-door blocked by Mary/door; routed w→Schoolyard→Inside School→Clock Tower Stairs→back→Schoolyard→Hilltop well instead. Kitten not yet taken; key/door/figure pending.
+
+Next: (1) ask help on well/kitten wording (two failures: take kitten, enter well); (2) decide basket recovery — restore ladder-returned if basket needed, else continue; (3) checkpoint before risky well probes; (4) continue toward key/locked-door/figure + final wait per manifest. Game incomplete — no ending reached.

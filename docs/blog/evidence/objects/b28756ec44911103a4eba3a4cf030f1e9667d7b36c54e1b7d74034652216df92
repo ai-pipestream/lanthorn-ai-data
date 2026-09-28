@@ -1,0 +1,16 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Derelict Cottage interior (e209). Devil's vine, rotted floorboards, massive hole in floor; exits EAST, DOWN. Bottle provides light. Pending broker: m0173 annotate cottage-light-lantern (UNREAD). Ordinary prompt. No death/quit/ending.
+
+KEY FINDING e213 inventory: carrying ONLY a glowing, hot, glass bottle (providing light). Letter, lantern, rusty iron key all gone after the sea voyage (stripped at e183 transition or left with Helsing voyage). The phosphorescent pond water is hot and lights the way — no lantern needed. Conserve: bottle is the finite light source now.
+
+Route since pond: e205 'fill bottle' accepted (filled with water, annotated none e206); e207 'east' to winding path; e208 'south' to Forest Clearing (ruined cottage, doorway WEST, path SW to back); e209 'west' into Derelict Cottage; e210-211 checkpoint derelict-cottage verified; e212 'turn on lantern' rejected (can't see — no lantern carried); e213 'inventory' reveals bottle-light.
+
+Annotated (~34): pond-fill-bottle e205 none (e206); cottage-light-lantern e212->e213 world_state (m0173 PENDING). Backlog unannotated: forestpath-go-west e204; pond-go-east e207; forestpath-go-south e208; clearing-go-west e209; graveyard-skeleton-examine e196; graveyard-bottle-take e198; graveyard-bottle-examine e200; graveyard-go-north e201 (planning: hint-north applies elsewhere); graveyard-go-east e202; deadforest-go-south e203; cottage-inventory e213 (none); plus older: choir-bell-ring e168->e169; route-flee-lucy e170-177; hatch-examine e133; route-deck-up2 e144; deck-body-examine e145; deck-get-all e146; route-deck-to-beach e147-151; beach-east e152; henrietta-east e153; bridge-street-look e181; borgo-look e185; graveyard-coffin-examine e191. Old: wheel-four e79; choir-wall e82-83; hound e89/e91; hound-call-mars e59; pull-chain e64; light-lantern e63.
+
+Help: m0135 lines 55-63; m0155 lines 331-339 (n,n,n,open door,n,Chapel,play C,e,open door) — flagged possibly endgame excerpt; north blocked at graveyard so segment starts elsewhere. Guidance only. Next: refine topic to cottage-hole/cellar-to-chapel once below. Do NOT replay as script.
+
+Checkpoints verified: derelict-cottage (e210-211) + castle-graveyard + helsing-handoff + earlier. Safe to descend with bottle-light.
+
+Continuation: 1) read responses/m0173.json; 2) 'down' through floor hole (single command); 3) explore below toward Chapel confrontation + escape finale per manifest. ~34 annotated of 20-40 target. No ending; no finish claimed.

@@ -1,0 +1,462 @@
+{
+  "snapshot_id": "20260925T124814.890298Z",
+  "games": [
+    {
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "anchorhead-9852cd5b9d:e01267"
+      ],
+      "reason": "Retained local session idle at ordinary prompt e01267 but no launcher/process exists; local_pool_attention flags unfinished-without-launcher. Quota hold active; slot stays owned pending parent diagnosis.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "augmented-fourth",
+      "session_id": "augmented-fourth-d479b421d9",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "augmented-fourth-d479b421d9:e00246"
+      ],
+      "reason": "Remote worker exited exit 1 during parent-verified Meta quota exhaustion; broker and retained slot preserved. Reset time passed but receipt states reset is not permission; parent-only resume, no blind restart.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "bicon-e4b7be4302:e00306",
+        "bicon-e4b7be4302:e00308"
+      ],
+      "reason": "Unclaimed retained slot; ending claim e00308 cites e00306 showing '*** You have won Phoenix's heart. ***', score 10/10, same branch b0. Parent independent verification required; no certification.",
+      "next_action": "parent_verify_ending",
+      "confidence": "high",
+      "priority": "urgent"
+    },
+    {
+      "game_id": "busted",
+      "session_id": "busted-d683906f1b",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "busted-d683906f1b:e00101"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; game incomplete at roof e00101. Retained slot; parent-only resume after reset review, no restart.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "critical-breach-b5dd49a3e4:e00490"
+      ],
+      "reason": "Remote worker failed under verified quota hold; incomplete, Scientist ending not reached, last output e00490 ordinary prompt. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "curses",
+      "session_id": "curses-4e1875ea4e",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "curses-4e1875ea4e:e03597"
+      ],
+      "reason": "Local session unfinished without launcher; idle at Mosaic e03597. Cause of missing launcher unknown; parent diagnosis required. Retained slot stays owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "dash-slapney-patrol-leader",
+      "session_id": "dash-slapney-patrol-leader-64ff8134ce",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "dash-slapney-patrol-leader-64ff8134ce:e00006"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; early-game state e00006. Retained slot preserved; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "deephome",
+      "session_id": "deephome-56e3d50bda",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "deephome-56e3d50bda:e00812"
+      ],
+      "reason": "Remote worker failed under verified quota hold; incomplete, stopped honestly at e00812. Retained slot; parent-only resume after reset review.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "delusions-8997f25a87:e01538"
+      ],
+      "reason": "Local session unfinished without launcher; last verified checkpoint save e01538. Missing-launcher cause unknown; parent diagnosis needed. Retained slot owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "dracula-prince-of-darkness-d75c304699:e00644"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete at e00644. Retained slot; parent-only resume, no blind restart.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "earth-and-sky-episode-1-2bb22846be:e00088"
+      ],
+      "reason": "Remote worker failed under verified quota hold; ordinary prompt at e00088. Retained slot preserved; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "enemies-0b4aba49fe:e00567"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; score 40, ending not reached, e00567. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "fine-tuned",
+      "session_id": "fine-tuned-989503b0a7",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "fine-tuned-989503b0a7:e00516"
+      ],
+      "reason": "Remote worker failed under verified quota hold; ordinary prompt at e00516, no pending. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "frozen",
+      "session_id": "frozen-a2e5d2eea9",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "frozen-a2e5d2eea9:e00726"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete at e00726. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "gumshoe",
+      "session_id": "gumshoe-2933d54ccf",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "gumshoe-2933d54ccf:e00524"
+      ],
+      "reason": "Remote worker failed under verified quota hold; incomplete at e00524. Retained slot preserved; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "heist",
+      "session_id": "heist-a079eba445",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "heist-a079eba445:e00700"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; no ending observed, e00700. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "session_id": "heroines-mantle-4053f4fad7",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "heroines-mantle-4053f4fad7:e00682"
+      ],
+      "reason": "Remote worker failed under verified quota hold; incomplete, checkpoint save e00682. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "hla-inform",
+      "session_id": "hla-inform-09ea9c8220",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "hla-inform-09ea9c8220:e00409"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; ordinary prompt e00409. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "i-0-d1ac7729bb:e00263",
+        "i-0-d1ac7729bb:e00264"
+      ],
+      "reason": "Ending claim e00264 cites e00263 showing '*** Thanks for playing! ***' plus RESTART/RESTORE/QUIT menu, same branch b9; worker finished exit 0. Parent verification required; certification frees no slot.",
+      "next_action": "parent_verify_ending",
+      "confidence": "high",
+      "priority": "urgent"
+    },
+    {
+      "game_id": "inside-woman",
+      "session_id": "inside-woman-70e8855708",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "inside-woman-70e8855708:e00037"
+      ],
+      "reason": "Remote worker failed under verified quota hold; early-game ordinary prompt e00037. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "lecture-feature",
+      "session_id": "lecture-feature-fbf9767abc",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "lecture-feature-fbf9767abc:e00225"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete at e00225. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "mortlake-manor",
+      "session_id": "mortlake-manor-e0475539fe",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "mortlake-manor-e0475539fe:e00355"
+      ],
+      "reason": "Remote worker failed under verified quota hold; incomplete at e00355. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "session_id": "mulldoon-legacy-7080420221",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "mulldoon-legacy-7080420221:e00143"
+      ],
+      "reason": "Local session unfinished without launcher; mid-prompt clarification state at e00143. Missing-launcher cause unknown; parent diagnosis needed. Retained slot owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "session_id": "mystery-fun-house-61d87e14cd",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "mystery-fun-house-61d87e14cd:e00027"
+      ],
+      "reason": "Local session unfinished without launcher; release identity unverified, scott-cli at e00027. Missing-launcher cause unknown; parent diagnosis required. Retained slot owned.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "not-just-a-game",
+      "session_id": "not-just-a-game-8201b5a6d4",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "not-just-a-game-8201b5a6d4:e00408"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete at e00408 board reset. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "only-after-dark",
+      "session_id": "only-after-dark-612a20ec77",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "only-after-dark-612a20ec77:e00085",
+        "only-after-dark-612a20ec77:e00121"
+      ],
+      "reason": "Claim e00121 on b4 cites win evidence e00085 on b2 showing '*** You have won ***'; branch mismatch needs parent branch-evidence review. Worker finished exit 0; certification remains parent-only.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "urgent"
+    },
+    {
+      "game_id": "punk-points",
+      "session_id": "punk-points-7c2d72a183",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "punk-points-7c2d72a183:e00009"
+      ],
+      "reason": "Local session unfinished without launcher; early ordinary prompt e00009. Missing-launcher cause unknown; parent diagnosis required. Retained slot owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "pythos-mask-a39eb2af1a:e00004"
+      ],
+      "reason": "Explicit supervisor hold: startup MORE empty-Enter timeout; m0003 resolved to e00004 no_output_timeout, no pending requests. Preserve broker/interpreter; parent manual diagnosis stands; no input, replay, or reset.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "urgent"
+    },
+    {
+      "game_id": "return-to-karn",
+      "session_id": "return-to-karn-bf86b7da19",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "return-to-karn-bf86b7da19:e00709"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete, checkpoint e00709. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "schooldays",
+      "session_id": "schooldays-b371c6a97d",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "schooldays-b371c6a97d:e00419"
+      ],
+      "reason": "Remote worker failed under verified quota hold; progress notes unproven GAME OVER label, no ending claim, authored conclusion unverified at e00419. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "spider-and-web",
+      "session_id": "spider-and-web-e5197766e3",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "spider-and-web-e5197766e3:e00781",
+        "spider-and-web-e5197766e3:e00801"
+      ],
+      "reason": "Claim e00801 on b20 cites finale e00781 on b19 showing '*** You have made a difference ***' with end menu; branch mismatch requires parent branch-evidence review. Certification remains parent-only.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "urgent"
+    },
+    {
+      "game_id": "spiritwrak",
+      "session_id": "spiritwrak-8e02d83255",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "spiritwrak-8e02d83255:e00640"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete at e00640. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "teacher-feature",
+      "session_id": "teacher-feature-8ddda176d1",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "teacher-feature-8ddda176d1:e00122"
+      ],
+      "reason": "Local session unfinished without launcher; ordinary prompt e00122. Missing-launcher cause unknown; parent diagnosis required. Retained slot owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "time-all-things-come-to-an-end-fad9ab092f:e00382"
+      ],
+      "reason": "Local session unfinished without launcher; mid-scene output e00382. Missing-launcher cause unknown; parent diagnosis required. Retained slot owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "varicella-0ca3ff14a0:e00340"
+      ],
+      "reason": "Remote worker failed exit 1 under verified quota exhaustion; incomplete at e00340. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "disposition": "diagnose",
+      "evidence_event_ids": [
+        "windhall-ec1287a533:e01088"
+      ],
+      "reason": "Local session unfinished without launcher; ordinary prompt e01088. Missing-launcher cause unknown; parent diagnosis required. Retained slot owned under quota hold.",
+      "next_action": "parent_diagnosis",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "zorkian-stories-1-gue",
+      "session_id": "zorkian-stories-1-gue-6ffd9e5043",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "zorkian-stories-1-gue-6ffd9e5043:e00025"
+      ],
+      "reason": "Remote worker failed under verified quota hold; early-game ordinary prompt e00025. Retained slot; parent-only resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    }
+  ],
+  "capacity": {
+    "active_local": 0,
+    "active_remote": 0,
+    "held_slots": 1,
+    "target": 34,
+    "another_launch_justified": false,
+    "note": "Zero active clients observed, but 33 retained slots plus 1 supervisor-held slot (pythos-mask) remain owned, matching target 34. Provider quota hold active; reset time passed yet receipt states reset is not permission to resume. Parent owns capacity, resume, and schedulers; no launch justified, scheduler settings unchanged."
+  },
+  "recommendation": "Priorities for parent: (1) Independently verify four unretained ending claims — bicon (e00306), i-0 (e00263), only-after-dark (e00085, cited from b2 while claim sits on b4), spider-and-web (e00781, cited from b19 while claim sits on b20); certification frees no slot. (2) Quota hold: reset 12:41Z has passed, but resume is parent-only; consider one canary before fleet resume. (3) pythos-mask stays supervisor-held after startup MORE timeout; continue manual diagnosis, no input. (4) Ten local games lack launchers; diagnose cause before any refill. No launches; schedulers unchanged."
+}

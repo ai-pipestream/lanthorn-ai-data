@@ -1,0 +1,19 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — branch b2 Nursery secret passage e550)
+
+Game R3/051012, session dracula-prince-of-darkness-d75c304699, branch b2.
+Actual state b2: The Nursery, west wall OPEN to secret passage e549 (move basket). Ordinary prompt. No quit/ending. Light: hot bottle in inventory (observed earlier, still assumed).
+
+Inventory b2 (last observed): old snow shovel + tinderbox + glowing hot bottle + Castle key + Pestilence charm (sugar consumed e522). No new inventory taken in Nursery.
+
+Key results e540-e550:
+- checkpoint nursery-entry e540-e541 OK (safe ordinary prompt).
+- examine baby e542 can't-see; examine basket e543 empty, louder/shaking, arrow crib->pentagram; annotated e544 vocabulary.
+- examine pentagrm e545 can't-see; examine pentagram e546 red paint 'As above, so below'; annotated e547 vocabulary.
+- help e548 excerpt: push basket > w > up > up.
+- move basket e549 SUCCESS: click, rumbling, west wall opens secret passage; annotated e550 failure_type none (accepted paraphrase of push).
+
+Unresolved: go west into passage, then up/up per hint; Chapel confrontation + escape/finale per manifest (final door + south + concluding narrative), never QUIT/death/chapter-only.
+
+Checkpoints: waterfall; croc-passage; oak-door-open; castle-kitchen; dining-room; hall-north-charm; upstairs-gallery; nursery-entry (current safe before west).
+
+Resume e550: 1) west into secret passage (single command); 2) checkpoint if safe ordinary prompt; 3) help after two failures; 4) continue to verified winning escape with raw evidence.

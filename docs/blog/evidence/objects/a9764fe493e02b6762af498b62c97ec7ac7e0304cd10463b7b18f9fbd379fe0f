@@ -1,0 +1,164 @@
+#!/usr/bin/env python3
+"""Central interpreters and remote Muse mailboxes; no uncertain input replay."""
+import base64
+from concurrent.futures import ThreadPoolExecutor
+import fcntl
+import hashlib
+import json
+from pathlib import Path
+import re
+import subprocess
+import time
+from play_broker import ROOT, now, write_json
+from maintain_workers import inventory, processes, input_state
+CONTROL = ROOT / 'control/fleet'
+
+def digest(data): return hashlib.sha256(data).hexdigest()
+def assignments():
+    p = CONTROL / 'assignments.json'
+    return json.loads(p.read_text()) if p.exists() else {}
+
+def rpc(host, payload, cli='muse'):
+    script = 'fleet_host_kimi.py' if cli == 'kimi' else 'fleet_host.py'
+    result = subprocess.run(['ssh', '-o', 'BatchMode=yes', '-o', 'ForwardAgent=no',
+        '-o', 'ConnectTimeout=8', host, f'python3 "$HOME/lanthorn-muse/{script}"'],
+        input=json.dumps(payload), capture_output=True, text=True, timeout=25)
+    if result.returncode: raise RuntimeError(f'SSH RPC exit {result.returncode}: {result.stderr[-500:]}')
+    return json.loads(result.stdout)
+
+def accept_request(base, name, data, session_id=None):
+    if not re.fullmatch(r'[A-Za-z0-9_-]+\.json', name): raise ValueError('invalid request name')
+    if len(data) > 1048576: raise ValueError('oversized request')
+    value = json.loads(data)
+    if not isinstance(value, dict) or not isinstance(value.get('action'), str): raise ValueError('invalid request')
+    if value['action'] == 'restart':
+        manifest = json.loads((base / 'manifest.json').read_text())
+        if manifest.get('broker_guards', {}).get('restart_timeout') != 1:
+            raise ValueError('Remote restart held for older broker; supervised recovery required')
+        history = [json.loads(line) for line in (base / 'events.jsonl').read_text().splitlines()]
+        if input_state(history) == 'no_output_timeout':
+            raise ValueError('Unresolved input; await_output only, restart held')
+    original = data
+    if session_id is not None:
+        manifest = json.loads((base / 'manifest.json').read_text())
+        if manifest['session_id'] != session_id:
+            raise ValueError('stale request session; no input sent')
+        if value.get('_fleet_session_id', session_id) != session_id:
+            raise ValueError('request claims another session')
+        value['_fleet_session_id'] = session_id
+        data = (json.dumps(value, sort_keys=True) + '\n').encode()
+    dest = base / 'inbox' / name
+    if dest.exists():
+        if dest.read_bytes() not in (data, original): raise ValueError(f'Changed existing request {name}; held')
+        return False
+    tmp = dest.with_suffix('.incoming')
+    with tmp.open('wb') as f:
+        f.write(data); f.flush()
+        import os
+        os.fsync(f.fileno())
+    tmp.replace(dest)
+    return True
+
+def sync_one(gid, assignment):
+    a = dict(assignment)
+    if a['state'] == 'complete': return gid, a
+    base = ROOT / 'play' / gid
+    try:
+        files, hashes = {}, {}
+        paths = [base / n for n in ['manifest.json', 'latest.json', 'events.jsonl', 'collection-notes.md', 'ending-claim.json']]
+        paths += list((base / 'responses').glob('*.json'))
+        for p in paths:
+            if not p.exists(): continue
+            data = p.read_bytes()
+            if p.name == 'events.jsonl': data = data[:data.rfind(b'\n') + 1]
+            name = str(p.relative_to(base)); hashes[name] = digest(data)
+            if a.get('sent', {}).get(name) != hashes[name]: files[name] = base64.b64encode(data).decode()
+        if not (base / 'manifest.json').exists(): raise ValueError('central broker not initialized')
+        session = json.loads((base / 'manifest.json').read_text())['session_id']
+        if session != a['session_id']:
+            raise ValueError('assignment/central session mismatch; explicit recovery handoff required')
+        _, brokers = inventory(processes())
+        completed = (base / 'ending-claim.json').exists()
+        if not completed and len(brokers.get(gid, [])) != 1: raise ValueError('missing/duplicate broker; slot retained')
+        counter = CONTROL / (gid + '-revision.json')
+        previous = json.loads(counter.read_text())['revision'] if counter.exists() else 0
+        revision = max(time.time_ns(), previous + 1)
+        write_json(counter, {'revision': revision, 'session_id': session})
+        out = rpc(a['host'], {'game_id': gid, 'session_id': session, 'revision': revision,
+                            'files': files, 'start': a['state'] == 'ready'}, a.get('cli', 'muse'))
+        if out.get('session_id') != session or out.get('revision') != revision:
+            raise ValueError('stale RPC response')
+        if json.loads((base / 'manifest.json').read_text())['session_id'] != session:
+            raise ValueError('session changed during RPC; no requests/progress imported')
+        a['sent'] = hashes
+        for name, encoded in out.get('requests', {}).items(): accept_request(base, name, base64.b64decode(encoded, validate=True), session)
+        if 'progress' in out:
+            p = base / 'progress.md'; tmp = p.with_suffix('.bridge-tmp'); tmp.write_text(out['progress']); tmp.replace(p)
+        a['worker'] = out['worker']; a['last_sync'] = now(); a.pop('error', None)
+        if completed and out['worker']['state'] == 'finished' and not out['worker']['alive']:
+            a.update(state='complete', completed_at=now())
+        elif out['worker']['alive']: a['state'] = 'running'
+        else: a.update(state='attention', error='Remote worker exited or failed to start; no blind restart')
+        history = [json.loads(l) for l in (base / 'events.jsonl').read_text().splitlines()]
+        if input_state(history) == 'no_output_timeout': a['error'] = 'Unresolved output; await_output only'
+    except Exception as exc: a.update(error=str(exc), last_error_at=now())
+    return gid, a
+
+def launch_new(host, config, game, records, cli='muse'):
+    gid = game['game_id']; base = ROOT / 'play' / gid
+    if base.exists() or gid in records: raise ValueError('game already reserved')
+    if digest(Path(game['story']).read_bytes()) != game['story_sha256_expected']: raise ValueError('story hash mismatch')
+    source = json.loads(Path(game['source_record']).read_text())
+    if digest(Path(game['walkthrough']).read_bytes()) != source['normalized_sha256']: raise ValueError('guide hash mismatch')
+    records[gid] = {'host': host, 'state': 'starting', 'config': config, 'cli': cli, 'assigned_at': now()}
+    write_json(CONTROL / 'assignments.json', records)
+    with (ROOT / 'runs' / f'fleet-broker-{gid}.log').open('ab') as out:
+        child = subprocess.Popen(['python3', 'scripts/run_new_game.py', config, gid, '--hours', '24'],
+             cwd=ROOT, stdin=subprocess.DEVNULL, stdout=out, stderr=out, start_new_session=True)
+    records[gid]['broker_pid'] = child.pid
+    deadline = time.monotonic() + 210
+    while not (base / 'manifest.json').exists() and child.poll() is None and time.monotonic() < deadline: time.sleep(.5)
+    if (base / 'manifest.json').exists():
+        latest = json.loads((base / 'latest.json').read_text())
+        (base / 'collection-notes.md').write_text(game['collection_notes'])
+        write_json(base / 'remote-worker.json', {'host': host, 'mode': f'central-interpreter-remote-{cli}'})
+        records[gid].update(session_id=latest['session_id'], state='ready' if latest['engine_state'] == 'awaiting_input_or_idle' else 'attention')
+    else: records[gid].update(state='attention', error='broker startup failed; do not reset')
+    write_json(CONTROL / 'assignments.json', records)
+
+def tick():
+    cfg = json.loads((CONTROL / 'settings.json').read_text()); records = assignments()
+    if not 1 <= cfg['per_host'] <= 4 or len(set(cfg['hosts'])) != len(cfg['hosts']):
+        raise ValueError('invalid fleet capacity or duplicate host')
+    with ThreadPoolExecutor(max_workers=8) as ex: records = dict(ex.map(lambda pair: sync_one(*pair), list(records.items())))
+    write_json(CONTROL / 'assignments.json', records)
+    if cfg['enabled']:
+        with (ROOT / 'control/scheduling.lock').open('a') as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            local = json.loads((ROOT / 'control/worker-pool.json').read_text()); queue = []
+            for config in local['queue_configs']:
+                for game in json.loads((ROOT / config).read_text())['games']:
+                    if not (ROOT / 'play' / game['game_id']).exists() and game['game_id'] not in records: queue.append((config, game))
+            for host in cfg['hosts']:
+                # 'attention' assignments hold no live worker (broker aged out / worker
+                # exited); they stay recoverable via supervised recovery but must not
+                # block new launches. Only live states occupy a slot.
+                occupied = sum(a['host'] == host and a['state'] not in ('complete', 'attention') for a in records.values())
+                for _ in range(max(0, cfg['per_host'] - occupied)):
+                    if not queue: break
+                    config, game = queue.pop(0); launch_new(host, config, game, records, cfg.get('worker_cli', 'muse'))
+    write_json(CONTROL / 'status.json', {'timestamp': now(), 'per_host': cfg['per_host'], 'hosts': cfg['hosts'],
+        'assigned': {g: {k: v for k, v in a.items() if k != 'sent'} for g, a in records.items()}})
+
+def main():
+    import os
+    lock = (CONTROL / 'manager.lock').open('a'); fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    while True:
+        try:
+            while os.waitpid(-1, os.WNOHANG)[0]: pass
+        except ChildProcessError: pass
+        try: tick()
+        except Exception as exc:
+            with (CONTROL / 'errors.jsonl').open('a') as out: out.write(json.dumps({'timestamp': now(), 'error': repr(exc)})+'\n')
+        time.sleep(5)
+if __name__ == '__main__': main()

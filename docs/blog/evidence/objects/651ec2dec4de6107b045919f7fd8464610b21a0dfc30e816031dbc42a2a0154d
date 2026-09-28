@@ -1,0 +1,21 @@
+# Fullplay supervision
+
+Current snapshot: 2026-09-25T02:34:44.679855+00:00. Synthetic test data only; no training or publication. Parent owns blog records. Reviewer writes only owned review/status files and sends no game commands.
+
+Seven verified author-intended completions. Three newly verified finals:
+
+- Photopia1.30 stripped-down Z-code, R1/120416: e00219 nursery lights out, e00220 final PHOTOPIA title. Raw spans51331–51457 and51457–51560 verified against stored SHA256 and exact text. Claim e00223 is metadata, not proof. Final title need not exit the interpreter.
+- ShadeR3/001127: e00344 dead figure, e00345 blank book, e00347 final SHADE banner and restart/restore/quit menu (raw43887–44136). Subsequent WAITs receive terminal-menu validation; they are not more gameplay. This is the bleak final conclusion, not an earlier computer scene or ordinary death.
+- Suveh Nux actual1.1/R1/071226: e00269 frees block, e00270 rescues master and explicitly says You have escaped, e00271 full score. Raw27384–29396 verified in three exact hashed spans. Score99/100 in198turns,2/3 Easter eggs; completion does not mean100%. Guide1.0 mismatch remains historical.
+
+All new final receipts, full response text and SHA256 values are in fullplay-status.json. Local guide final sections corroborate these sequences; raw engine output supplies the decisive evidence. Historical Adventureland13treasures/100, Pirate Adventure2/100, Lost Pig6/7 farm return and HHGTTG R59/851108 Magrathea385/400 in621turns remain verified; their raw hashes were rechecked this pass.
+
+727 unique exported annotations: {'accepted': 520, 'revise': 184, 'quarantine': 23} effective exact-pair decisions. This pass reviewed26:17 accepted,7 revise,2 quarantine. Review-file entries (746) include legacy/transport records and must not be treated as case totals. Pending IDs, if any, are listed in status. CSV may await watcher refresh.
+
+New semantic findings: planting a pod does not itself fulfill asking a salesman for rain; moving leaves does not prove the stated pickup goal. Both successful same-intent labels quarantined. Wolf-feeding is a prerequisite chain rather than a syntax repair. Empty nest does not prove egg cased; already-held bell does not prove pickup. Mixed verb+noun corrections and claims of pronoun binding need narrower causal claims. Supported direct successes and honest refusal comparisons remain accepted with per-case limitations.
+
+Zork now differs materially from depleted b88: same session c569ad8028 explicitly restores original shaft-coal-in-basket-b43 at e01593 into b89. e01594–e01626 completes the31 planned actions, with only automatic save dialogue interleaved. Diamond produced; lamp off e01626; conservation saves acknowledged e01628/e01633; lit torch inventory confirmed e01634. Estimated18 remaining lamp turns fits original48 minus30 lit turns and observed source warning thresholds. It is not a decoded counter or guarantee that crown/crypt are affordable. Prior b88 depletion and b79 score586 are historical branches, not current resources. Latest e01655 explicitly restores shaft-torch-conserved-b89 into b90 with Ok; subsequent b89 diamond pickup/navigation is rolled back. Do not transplant that later inventory into b90. No Zork ending.
+
+Secret Mission has eight bomb-death exits and remains incomplete; Voodoo Castle has two recorded defeats and remains incomplete. Latest branches and exact receipts are in status. These normal game-death exits are not transport faults. Initial Scott SAVE failure remains an adapter/host-command mismatch in inspected source (bare SAVE vs /save); no reviewer live workaround or checkpoint execution occurred.
+
+Current session raw spans and decoded text checked through the event IDs recorded under transport; no new recorded timeout/readiness fault. Historical delayed/interleaved chains and all existing intent quarantines remain preserved. Source/help excerpts remain guidance, never player-observed evidence. No outcome is inferred from a worker completion claim alone.

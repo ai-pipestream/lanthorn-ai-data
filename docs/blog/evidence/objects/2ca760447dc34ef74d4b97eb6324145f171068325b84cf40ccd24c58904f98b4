@@ -1,0 +1,10 @@
+# Vindaloo progress — STOP e00135 Garage (game incomplete, continuation needed)
+
+Location: Garage e00134-135 (west of Front; look: tools/junk, nothing interesting). Ordinary prompt, awaiting input.
+Inventory: pound coin, spade, front door key, scarf (4/4 full); traffic cone dropped in Closet e00101. Front door slammed shut e00110.
+State: e00135 latest confirmed. No pending inbox request (m0122 serviced). Next inbox sequence would be m0123.
+Map: Closet-Bedroom-Hallway-Front-(W)Garage; Front-S-Road(house junction)-E-chicken-road-S-Park entrance-W-Park west-N-Road; Road-E-Outside Shop-N-Indian Shop; Outside Shop-E-Works (dead E/S/N). Chicken road S->Park. Park west N->Road, W/S fail. Works E/S/N fail. Shop E fail, S ok. Garden (onion via weeds) + Alley (hat via garbage) still unfound — try Garage S/N/W, Front E, Hallway N/E, Bend N/W, Stall E/W/S next.
+Hints (walkthrough, provisional): Garden search weeds>onion; Alley search garbage>hat; give hat>tomato; buy spices with money.
+Annotated: hall-look-syntax e88-89; front-north world_state e84-86; scarf world_state e99-102; prior run cases per old notes. Open: stall-buy e71/take e72/ask e74; bed-open e92; bed-under e93 vs search e94; chicken-south route e124; park-west route e128.
+Checkpoints Ok: start-bedroom, hallway, outside-front, indian-shop, stall.
+Continuation: resume at Garage, ordinary prompt. Try Garage south/north/west, then Front east, Hallway north/east, Bend north/west, Stall surroundings. No timed/light resources seen. No deaths. Do not restart.

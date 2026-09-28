@@ -1,0 +1,10 @@
+# Enemies progress — Freezer North s40 e568; STOPPED, game incomplete
+
+Branch b1. Location: Freezer Room, North End (freezer unit closed) e567-568. Score 40. Ordinary prompt ">". No pending requests (m0534 serviced e568).
+State: s39 checkpoint done; N to North End via "go north" e553; typo "open frezer" e555 rejected then "open freezer" e556 opened; "look inside freezer" e558 ice only then "search ice" e559 found female body; "look at body" e561 bolt + appointment book; "look at book" e563 AMBER DONOVAN 1/40; checkpoint freezer-book-s40 verified e565/566; "shut freezer" e567 closed unit.
+Last hint e552 lines 334-342: N / Open freezer then search ice / X body then read book (1/40) / Close freezer. S / S. Close door. Done through Close freezer; remaining S, S, Close door then need next excerpt after line 342 toward escape/crane/final NE.
+Next (do not replay blindly): single commands: S to South End, S to Kitchens, close door (freezer room door), then help for lines 342-350, inventory check. No SAVE inside pauses/menus. Timed late scenes: fresh checkpoint before risk.
+Checkpoints verified: uniform-done-s38, freezer-done-s39 e549/550, freezer-book-s40 e565/566. Continuation: resume from Freezer North e568 + freezer-book-s40 save.
+New cases annotated: freezer-go-north e553 none, freezer-open-typo e555 vocab vs e556, freezer-ice-search e558 planning vs e559, freezer-ice-body-look e561 none, freezer-book-look e563 none score40, freezer-shut e567 none. Still need older backlog (kitchens-look e530 etc, toilets/foyer list) plus kitchens-north-freezer e540, kitchens-door-push done e537-539.
+Inventory: not rechecked this stretch — need "inventory" next.
+Score: 40. Ending NOT reached; no finish claim. No forged responses.

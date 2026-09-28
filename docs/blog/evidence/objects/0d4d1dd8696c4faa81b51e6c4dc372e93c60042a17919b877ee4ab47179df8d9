@@ -1,0 +1,12 @@
+# Theatre progress — SEGMENT 2 cont. (m0307-m0323)
+
+Location: Theatre Lobby (e375, branch b1). Lobby has 6 pages, corpse+book, 4 popcorn (old drops). Checkpoint lobby-drop confirmed.
+Carrying (unverified since office): red pearl, desk page+plans, tablets, stethoscope, star crystal, shiny key, 4-6 pages?, vial, violet+blue pearls. Inventory needed after drop sequence — DO NOT assume counts.
+Room states: office safe shut (red taken), desk open/empty, south wall hole to booth; booth watch at 7:40, page taken; observatory lens in/mask dropped.
+
+Checkpoints: lobby-drop (e374-375) + prior. Branch b1.
+
+Hints: L92-100 done through examine plans/kick/S/get page/skeleton/watch/pull/turn→7:40. L101-109 (again×3 done, N,SE done). Next: drop all / save / U.get all / N.get all per L107-109.
+Annotations new: wall-kick none (e358 auto-south), watch-dial planning (e364→e365 wind→pull).
+Backlog: pirate e296, doors e239, seg1 backlog.
+Next: inventory, drop all per hint (checkpoint already done), then U/N get-all sequence. Watch session step budget — stop honestly if limit nears with checkpoint.

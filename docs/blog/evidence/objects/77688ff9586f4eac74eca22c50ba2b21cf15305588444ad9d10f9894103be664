@@ -1,0 +1,19 @@
+{
+  "game_id": "voodoo-castle",
+  "title": "Voodoo Castle, Scott Adams #4",
+  "engine": "scott-cli",
+  "story": "/home/krickert/if-games/scott/AdamsGames/adv04.dat",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/voodoo-castle-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/adamssol.zip#VOODOO",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/voodoo-castle.json",
+  "story_sha256_expected": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+  "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+  "dataset_split": "train",
+  "game_family": "scott-adams",
+  "session_id": "voodoo-castle-5bd0b59cae",
+  "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+  "started_at": "2026-09-25T01:54:53.627584+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

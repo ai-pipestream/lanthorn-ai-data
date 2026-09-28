@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-25T08:48:11.523100+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-k-20260925.json",
+  "count": 4,
+  "counts": {
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "engines": {
+    "zvm-cli": 4
+  },
+  "source_records": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/earth-and-sky-episode-1.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy.json"
+  ],
+  "guides": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/earth-and-sky-episode-1-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy-walkthrough.txt"
+  ],
+  "story_paths": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BUSTED.Z5",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/Eas.z5",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BALT.Z5",
+    "/home/krickert/if-games/zcode/Mulldoon.z8"
+  ],
+  "identity": "All local stories/ZIP containers match fresh archive downloads. Three ZIP members extracted byte-for-byte into K/stories centrally; exact member and container hashes pinned. Three Z5 and one Z8; no Glulx.",
+  "version_caveats": {
+    "busted": "Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.",
+    "earth-and-sky-episode-1": "Local eas.zip matches archive bytes, and extracted Eas.z5 is Z5 R2/011204; bundled author readme explicitly identifies release 2. Author walkthrough supplies no release/serial and was archived 2001-11-21 before release 2; preserve unspecified compatibility, likely earlier-edition guidance. This is a released complete first episode with its own finale, not an unavailable preview. Later episodes are separate games in the same family.",
+    "baltimore-24": "Local balt24.zip matches archive bytes; extracted BALT.Z5 is Z5 R2/970706, matching the catalog. The James Mullish guide identifies the 1997 game but gives no release/serial; exact guide version remains unspecified. Bundled readme describes a short complete game, not a preview. Pin ZIP and story separately.",
+    "mulldoon-legacy": "Local Z8 R6/000724 matches archive bytes/catalog. Main guide explicitly targets release 2 without a serial: retain the four-release gap. D.J. Picton's 2002-04-19 marble-maze correction explicitly says tested for release 6, without serial. The prepared normalized guide replaces only the complete marble-maze section with that correction; both originals, LF-only versions, assembly recipe and hashes are retained. Other release-2 sections remain unverified against R6."
+  },
+  "normalization_exception": "Mulldoon only: deterministic replacement of the unique marble-maze section using published correction tested for R6. Original raw, LF-only base, raw correction, LF-only correction and exact assembly offsets/hashes retained in source record. Recompute the assembly rather than assuming LF-only normalized output. Baltimore only: after LF normalization, replace literal period-space with period-LF to split the compact command chain for bounded broker help. No command text or punctuation changed.",
+  "family_review": [
+    {
+      "game_id": "busted",
+      "proposed_family": "busted",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "The author readme calls this an original game. Group AdvSys and Inform versions as busted. A university setting alone does not connect it to Lecture Feature/Teacher Feature or other campus games; no concrete shared-world/puzzle link to a collected family was identified."
+    },
+    {
+      "game_id": "earth-and-sky-episode-1",
+      "proposed_family": "earth-and-sky",
+      "proposed_split": "train",
+      "uncertain": true,
+      "rationale": "Bundled readme explicitly identifies a continuing Earth and Sky series. Reserve earth-and-sky for all episodes, releases and ports. Its stated Marvel tribute and generic superhero setting do not establish a shared world with registered Heroine's Mantle. No current Earth and Sky game found; parent review requested to preserve series grouping."
+    },
+    {
+      "game_id": "baltimore-24",
+      "proposed_family": "baltimore-24",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "Independent contemporary service-restoration story. Shared Howard A. Sherman authorship with registered Pentari does not establish shared world or puzzles; no concrete relationship was found. Reserve baltimore-24 for its releases and ports."
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "proposed_family": "mulldoon",
+      "proposed_split": "train",
+      "uncertain": true,
+      "rationale": "Archive separately identifies The Mulldoon Murders as an interactive sequel by Jon Ingold. Reserve mulldoon across Legacy, Murders, their releases/ports and related branches. Neither appears in existing prepared/play identities. Parent review requested for this series reservation; generic time travel or museum puzzles alone do not merge other families."
+    }
+  ],
+  "existing_reservation": "Teacher Feature / Lecture Feature remains teacher-feature; this task does not change any registry or split.",
+  "central_architecture": "Stories, full guides, provenance and interpreter execution stay central. Mask full-guide/source paths and URLs from Muse; only bounded broker excerpts reach Pis. Never stage these extracted ZIP stories on Pi workers.",
+  "limits": {
+    "response_timeout_seconds": 180,
+    "help_excerpt_max_lines": 9,
+    "help_excerpt_max_characters": 1000,
+    "event_or_probe_quota": null,
+    "new_concurrency_limit": null,
+    "new_wall_clock_limit": null
+  },
+  "authorization": "Private source preparation only. Parent validates/registers separately. No interpreter/guide command execution, launch, training, evaluation, application/model change, publication or shared-registry edit.",
+  "readiness": "Four source-checked candidates. Runtime compatibility and actual endings remain unverified. Parent inspects family/version/normalization caveats."
+}

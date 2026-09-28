@@ -1,0 +1,22 @@
+# Magic Toyshop progress (update 4, segment 1)
+
+Location: Toyshop. Score 14.
+Inventory (observed e00203): small disk, robot mouse, tube of glue, open cardboard box.
+Room (e00202): closed oak chest (SW), Catharine, hamper (baguette, egg, mushroom), Hanoi board, sundial with gnomon.
+
+Route since update 3:
+- Hanoi: restored before-hanoi (b1 branch), glued medium+big only (small kept free), solved in 4 moves (score 10).
+- Filed gnomon with free small disk, glued gnomon onto sundial (score 11). Look triggered Dodgem offer (score 12).
+- Checkpoint before-dodgem (verified).
+- Dodgem game 1: A up, B up, A up, A off, B left, B right, B left, B up -> lost 1-2, rematch.
+- Dodgem game 2: same line but B left at M6 -> lost 1-2, rematch.
+- Dodgem game 3: A up, B left, B right, A up, A off, B left, B left, B up, B up -> lost 1-2, rematch.
+- Dodgem game 4 (WIN 2-1, score 14): A up (H:1R), A right (H:2R), A up (H:2D), A off (H:1R), B up (H:1 off), B up (H:2R), B off. Key: A-right diverts her 2 downward; her last piece too far to convert.
+- Tea-time event fired mid-Dodgem-1 (score 13): hamper with baguette/egg/mushroom.
+- Checkpoint after-dodgem (verified, e00200-201).
+
+Cases annotated: + dodgem-move-ambiguous (bare 'move up' rejected; 'move a up' works). Total 9 annotated.
+Unresolved: mouse maze (baguette likely = bread; maze dirs from hint: Hole,N,W,W,N,N / Hole,E,S,S,S / Hole,E,E,E); tea-time (mushroom in sundial shadow -> rod); egg (strike rod, point at egg, eat); chest lock (mouse key + 543251543251); enter chest ending.
+Last hints: overview (dodgem tempo, tea-time, egg, chest lock lines).
+Next: examine/take hamper items; mushroom-in-shadow for rod; egg sequence; mouse maze with bread; chest combination; ending.
+Checkpoints: start-toyshop, before-noughts, mouse-in-hole (stale mid-maze), before-dots (stale), before-hanoi (stale), before-dodgem, after-dodgem (current milestone).

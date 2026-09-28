@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "game_id": "zork-i7",
+      "title": "Zork/Dungeon 3.2B, Inform 7 port, Release 4 / 190920",
+      "engine": "gvm-cli",
+      "story": "/home/krickert/if-games/glulx/ZorkI7.ulx",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/zork-port-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/games/source/inform/ZorkI7.zip#ZorkAndDungeonWalkthroughForCopyPaste.txt",
+      "completion": "Require actual game ending text; score or process exit alone is not completion.",
+      "recovery_checkpoint": "auto-4cbe94a190-227",
+      "recovery_reason": "Planned checkpointed service restart to install validated slow-interpreter transport guards; saved current state with no pending requests.",
+      "response_timeout_seconds": 180
+    },
+    {
+      "game_id": "hhgttg",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/hitchhiker-r59-s851108.z3",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/hhgttg-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/infocom/hints/solutions/hitchhiker.step",
+      "completion": "Require actual game ending text; score or process exit alone is not completion.",
+      "recovery_checkpoint": "auto-cad6596e0f-369",
+      "recovery_reason": "Planned checkpointed service restart to install validated slow-interpreter transport guards; saved current state with no pending requests.",
+      "response_timeout_seconds": 180
+    }
+  ]
+}

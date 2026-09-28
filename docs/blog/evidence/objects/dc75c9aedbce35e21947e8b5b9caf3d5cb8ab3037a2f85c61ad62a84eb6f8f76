@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T09:12:09.876659+00:00",
+  "game_id": "bse",
+  "events": [
+    {
+      "event_id": "bse-ec63f1779d:e00378",
+      "timestamp": "2026-09-25T08:59:04.006642+00:00",
+      "game_id": "bse",
+      "session_id": "bse-ec63f1779d",
+      "branch_id": "b0",
+      "event_index": 378,
+      "event_type": "command",
+      "command": "w",
+      "response": "The barn collapses behind you in a cloud of dust. You have rescued humanity \nfrom Satan and also saved your own skin.\n\n\n    *** You have won ***\n\n\nIn that game you scored 60 out of a possible 60, in 207 turns, earning you the \nrank of Saviour of the World.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame, see some suggestions for AMUSING things to do or QUIT?\n Farmyard                                                  Turns: 207\n                                                           Score: 60\n\n\n                     Ah, yes! I wrote the 'Purple Cow' -\n                       I'm sorry, now, I wrote it!\n                     But I can tell you anyhow,\n                       I'll kill you if you quote it!\n\n                     -- Gelett Burgess\n[Score 60, up 8]\n> ",
+      "raw_start": 78354,
+      "raw_end": 79162,
+      "response_sha256": "72474a294b2196c46801117215aade75189eb571da5f5e95f404b9fae59f1660",
+      "story_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "bse-ec63f1779d",
+        "case_id": "barn-retreat-west",
+        "expected_outcome": "Reach farmyard safety",
+        "intent": "Flee west from collapsing barn to farmyard safety",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "WEST escapes collapsing barn; humanity rescued and protagonist survives, explicitwin60/60. Repeated Farmyard/status/PurpleCow quotation tail requires separate isolated-response attribution review, not denial of finale body. Parent exact raw/text/hash verified; independent review pending. No full content/case coverage claim."
+}

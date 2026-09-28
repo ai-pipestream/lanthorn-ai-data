@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T07:16:07.651794+00:00",
+  "game_id": "space-station",
+  "events": [
+    {
+      "event_id": "space-station-b15ae148d4:e00237",
+      "timestamp": "2026-09-25T07:11:56.457543+00:00",
+      "game_id": "space-station",
+      "session_id": "space-station-b15ae148d4",
+      "branch_id": "b0",
+      "event_index": 237,
+      "event_type": "command",
+      "command": "wait",
+      "response": "Time passes...\n   The scooter roars out of the docking bay, slowly picking up speed. You \nsettle back for the long trip. Luckily the Fussbudget evolved on a high gravity \nplanet, so it was able to withstand the forces of acceleration without the aid \nof a couch to cushion it.\n\nYou pass the chrons by surveying the heavens; suddenly a star brightens for an \ninstant then disappears. You realize it must have been the space station's \nreactor going critical.\n\nCongratulations! You have solved all the problems in this game. Check back \nlater for the next version.\n\n\n    *** You have won ***\n\n\nIn that game you scored 23 out of a possible 23, in 175 turns. It is Day 1 of \nyour adventure. Current Galactic Standard Time (adjusted to your local \nday-cycle) is 4479. This gives you the rank of President of the Third Galactic \nUnion.\n\nWould you like to restart the game from the beginning, restore a saved game \nposition, undo your previous move, give the full score for that game, or end \nthis session of the game? (Type RESTART, RESTORE, UNDO, FULL, see some \nsuggestions for AMUSING things to do, or QUIT.)\n\n[Score 23, up 3]\n> ",
+      "raw_start": 32552,
+      "raw_end": 33678,
+      "response_sha256": "ee7782a907378d2424841dcac823536f5132f6886d290bd5f19537cf61eb7648",
+      "story_sha256": "ec8f1382decbe7d4954f1834503183923a12ca83c55c93c8da914fb9a74e0467",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "space-station-b15ae148d4",
+        "case_id": "scooter-launch",
+        "expected_outcome": "Scooter launches and station reactor goes critical",
+        "intent": "Wait for the preset launch countdown to depart",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Scooter safe departure with Fussbudget rescued, distant station reactor destruction, explicit authored current-version win/finalmenu23/23; next-version invitation preserved. Not proof of all content coverage. Independent review pending."
+}

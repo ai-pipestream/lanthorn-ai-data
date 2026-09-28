@@ -1,0 +1,27 @@
+{
+  "game_id": "mulldoon-legacy",
+  "title": "The Mulldoon Legacy",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Mulldoon.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/mulldoon2.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the substantial museum/family-history route through the four key substances, corrected marble maze, crown/sword and final dragon/Abbot sequence, then the final vortex and any authored final epilogue. Require real concluding narrative resolving the family quest. A simulation, ancestor memory, 256 points, FULL, or a guide line saying FINAL alone is insufficient. Preserve genuine alternate conclusions and treat ordinary death as failure.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/mulldoon-legacy.json",
+  "story_sha256_expected": "102bce2e12d97644e3fb317dfdb582cb2aac6f28892e5110a332e52af3742e0f",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "mulldoon",
+  "collection_notes": "# The Mulldoon Legacy\n\nStory Z8 R6/000724. Local Z8 R6/000724 matches archive bytes/catalog. Main guide explicitly targets release 2 without a serial: retain the four-release gap. D.J. Picton's 2002-04-19 marble-maze correction explicitly says tested for release 6, without serial. The prepared normalized guide replaces only the complete marble-maze section with that correction; both originals, LF-only versions, assembly recipe and hashes are retained. Other release-2 sections remain unverified against R6.\n\nFollow the substantial museum/family-history route through the four key substances, corrected marble maze, crown/sword and final dragon/Abbot sequence, then the final vortex and any authored final epilogue. Require real concluding narrative resolving the family quest. A simulation, ancestor memory, 256 points, FULL, or a guide line saying FINAL alone is insufficient. Preserve genuine alternate conclusions and treat ordinary death as failure.\n\nUse the release-6 corrected maze section, not the obsolete release-2 movement sequence. The guide estimates roughly 2100 moves; this is descriptive, not a quota. In-game guidebook/index/mythos are puzzle objects, not permission to read central walkthrough files. Read live clues and adapt timing, pronouns and inventory. Keep optional undo demonstrations separate from observed progress. Save early and at major puzzle boundaries, then use small topic-specific help excerpts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 6,
+  "serial": "000724",
+  "session_id": "mulldoon-legacy-7080420221",
+  "story_sha256": "102bce2e12d97644e3fb317dfdb582cb2aac6f28892e5110a332e52af3742e0f",
+  "started_at": "2026-09-25T09:32:49.893369+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

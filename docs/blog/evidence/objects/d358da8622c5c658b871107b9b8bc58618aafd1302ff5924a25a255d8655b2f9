@@ -1,0 +1,11 @@
+# I-0 progress — continuation required (incomplete, NOT finished)
+
+- Location: Roadside, branch b5 (restored from b3-roadside-before-help), ordinary prompt e116 ok. Heat-critical zone: 1-2 turns buffer.
+- Inventory: lip balm, wallet (closed), pepper spray (e98); purse empty in car; hood auto-closes after open.
+- Checkpoints (verified): start-car, roadside-out (fresh, most heat buffer), before-driver-choice, after-fourth-decline, heat-warning-yell, b2-in-car-seat-search, b3-roadside-before-help (b3 e104-105, b4 restore, b5 e115-116 latest safe point).
+- Branch history: b1 heat death e82 (batched waits) + e83 menu; b2 restore; e99 in-car examine heat tick forced b2->b3 restore; b3 wait e106 pound -> shade e107 safe -> help e108 generic; b3 wait-in-car e109 death (car NOT safe for waits) -> b4 restore e110-111; b4 open-hood e112 pound (hood now advances heat, unlike e50) -> hitchhike e113 seedy VW time-safe -> decline e114 death (decline advances heat when critical) -> b5 restore e115-116.
+- Cases: seat-passenger e97 Nothin'; in-car-inventory e98; examine-purse e99 heat tick (revised time-safe assumption); out-b3 e102 safe; look-b3 e103 safe; wait-b3 e106 pound; shade-car e107 safe move; wait-in-car e109 death (failure); open-hood e112 pound; hitchhike-b4 e113 seedy time-safe; decline-b4 e114 death (failure). Do NOT replay wait/decline when pounding.
+- Heat model (revised): hitchhike, out, enter-car, look appear time-safe (no extra warning); wait, open-hood, examine-purse, decline-no advance heat when clock is late. From fresh roadside-out ~5-6 turns buffer; from b3-roadside-before-help only ~1 turn. Need fresh-buffer strategy for Earl.
+- Hints (provisional, not observed): wait for help -> cop/driver/mechanic/brother (generic e108); Earl tow timing unknown; seat fragment truncated; Larry/Willowbutton/bus route per manifest still target.
+- Next: from b5 do NOT wait/decline/open-hood. Consider restoring to roadside-out for fresh buffer, then minimal-turn Earl summon (hood + wait/hitchhike sequence) with heat watch; request next help excerpt for Earl arrival specifics; checkpoint only at ordinary prompt before risky step.
+- Pending: none — m0100 restore confirmed e115-116. Next m0101 help-next for Earl.

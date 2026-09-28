@@ -1,0 +1,18 @@
+{
+  "game_id": "curses",
+  "title": "Curses",
+  "url": "https://ifarchive.org/if-archive/solutions/CursesR16.sol",
+  "accessed_at": "2026-09-25T03:09:31.845498+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/curses.source",
+  "source_sha256": "2f0179cecbcd871291edd6bf7ba1c351f63727292bb18cb7ad7bc3510e8eb442",
+  "encoding": "utf-8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/curses-walkthrough.txt",
+  "normalized_sha256": "fb3e602cacdcd2e5b83bc10ca0ea01574c6f81ba82295a218adc6cb5f4be540e",
+  "story": "/home/krickert/if-games/zcode/curses.z5",
+  "story_sha256": "330100bf1c1ab8ed64065ceb58145ebb87cb6faef5b331fbc6684be4f14fe7da",
+  "compatibility": "Guide explicitly Curses1.6/R16; compare startup with local header. Full-route compatibility still requires observed play.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 16,
+  "serial": "951024"
+}

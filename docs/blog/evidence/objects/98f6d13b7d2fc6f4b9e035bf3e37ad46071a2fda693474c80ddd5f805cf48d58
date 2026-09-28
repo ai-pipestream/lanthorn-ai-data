@@ -1,0 +1,49 @@
+# Fullplay supervision
+
+Current bounded audit completed 2026-09-25T07:25:50.368178+00:00. Fixed case cutoff 2026-09-25T07:12:13.427412+00:00.
+
+120 exact annotations across 52 games: **94 accepted, 20 revise, 6 quarantine**. Both endpoints and 624 distinct nearby/intervening spans matched raw bytes/SHA and exported commands/responses/branches. No selected mismatch. Intervening state includes an Only After Dark restore across b1/b2; branch ID alone is insufficient.
+
+Effective export: **3138 unique annotations; 1576 accepted, 415 revise, 80 quarantine, 1067 unreviewed**. Exact annotation identity and unique endpoint-set equality required. CSV cached labels may lag. Remaining labels unapproved.
+
+## New verified conclusions
+
+Independent historical total **38**, preserving all prior 35.
+
+- So Far R6/961218 b30 e01571: ring/cube resolution, theater crowd, almost-conjunct moons, woman/autumn epilogue, explicit win/final menu. Raw441417:442378 SHA de54d8ff71c44d1d8b5f09dfa16833903f6725a321955cbd3fb88b2269dab8ad. Claim e01573 same branch; R5/960619 guide gap remains.
+- Tryst of Fate R205/970629 b1 e00908 GET UP: home/Deadeye-restored note, explicit win 350/350/final menu. Raw181802:182855 SHA deeb02b1f299eb47be98811582e900f2756a5ec14bb42366b698b28c907be819. R104/970330 guide gap remains. Score is not exhaustive coverage.
+- Paper Chase R1/950503 b4 e00335 YES: confirms departure after N, graduation 98/100/final menu. Raw30247:30482 SHA167045e266c465a379def8a95bc73710d879e6ffe3ed020f82d850a8a9b6c9c8. Guide release unspecified; no maximal-content claim.
+
+Historical branch endings are independently witnessed, not inferred from model notes. Later unreviewed claims: mother-loose, space-station.
+
+## So Far guidance and actual outcomes
+
+Help e01409 on b26 carries R6 author-source guidance with verified local source SHA; advice is not player evidence. Explicit b27/b28 restores follow. Actual b28 e01422 LISTEN TO PLIPPING reveals low plooping; e01423 FOLLOW LOW PLOOPING attaches it; e01424 S changes the barrier through a cascade; e01425 remains at metallic plopping; e01426 NE reaches voices. This supports the bounded hint and contradicts earlier e01298's PLOOPING-absent claim, now quarantined. Final b30 ending verified separately. No recall/model-skill or complete release-equivalence claim.
+
+## Case findings
+
+Quarantines include changed objects/goals: bread instead of wine; inspection instead of operating computers; Alfadog activation instead of completed escape; and cross-restore JUMP instead of overcoming the shaman. Explicit intent-not-preserved planning may be retained separately.
+
+Revisions cover already-held/open states labeled new successes, unlocking without opening/entering, tickling that explicitly leaves the don asleep, and unsupported necessity/randomness/resource claims. Generic confirmations require context; they are not standalone answer-bearing retrieval passages. Embedded Curses completion in Bears is not its overall ending.
+
+## Startups and recoveries
+
+Magic Toyshop R1/951018, Christminster R4/961117 and Wedding Acorn User CD R5/970825 match actual headers/story SHA/raw banners. Early SAVE acknowledgments and nonempty files verified. Toyshop guide targets same R1; Christminster's 1995 guide lacks an exact release; Wedding targets R3. No full-guide compatibility claim.
+
+Anchor old e00295 SPACE and drain-only e00296/e00297 are empty timeouts after an explicitly requested SPACE in a history-book keypause. All three are present in parent transport exclusions; no linked annotation currently. New anchorhead-9852cd5b9d b36 restore/LOOK Library with open safe and artifact SHA verified.
+
+Correct SAVE provenance: Anchor old e00174, not later RESTORE e00198; Savoir old e00086, not later RESTORE e00092. Preceding SAVE requests, raw acknowledgments, current artifact hashes and actual restored LOOK verified. Immutable journals/old metadata preserve mis-citations; explicit receipt0715 records correction without a game-state change.
+
+## Narrow helper review
+
+RESTORE-as-SAVE bug is closed by adjacent SAVE plus session/branch/name checks. Five read-only in-memory cases passed; actual journals select corrected events. Parent fixture-writing suite was not rerun.
+
+Remaining **P2**, scripts/recover_broker.py:13: confirmed_checkpoints accepts an Ok. response even with engine_state=no_output_timeout, reproduced in memory, and does not exclude manually quarantined SAVE chains. Require clean completed state and transport exclusion checks. Neither currently verified checkpoint is affected. No app/broker edits.
+
+## Preserved boundaries
+
+Prior ending receipts remain in status JSON. Nine Points is a sample and Slacker X an installment. Slouch is a worldwide-Logos/gallows finale, not containment. Spider win b19 precedes restore b20; Only After Dark win b2 precedes restores b3/b4. Library Front ending body verified, stale status/quotation tail quarantined. Scores do not prove maximal content.
+
+Delayed Zork chains, menu timeouts, failed Delusions startup restore and release gaps remain qualified/excluded. Historical fleet fences do not prove fsync durability or safe concurrent manual handoffs. Local process evidence is separate from remote fleet health.
+
+Bounded pass complete. Only three owned files changed. No game inputs, resets, launches, training, evaluation or publication.

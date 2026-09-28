@@ -1,0 +1,20 @@
+# Dracula Prince of Darkness — collection progress (in progress, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state per evidence: Choir room west of St Mary's Church (e00027 via 'west'); lantern Taken e00031; Lucy corpse examined e00034 (sister Lucy, puncture marks); priest asked about Lucy e00037 (shadow of horror in Whitby). Awaiting input, ordinary prompt. latest e00039 annotation.
+
+Inventory as observed: letter (read, Lucy: seek Van Helsing in Whitby, sanctuary church); lantern (Taken e31). No inventory listing since taking lantern — verify with 'inventory' next if needed.
+
+Annotated cases (9 total):
+- field-exit-north-typo vocab e05->e07; abbey-north-blocked world_state e11->e12; path-west-synonym vocab e14->e15; graveyard-enter-church none e19; church-bible-typo syntax e21->e22
+- church-speak-man world_state e25->e27 ('talk to man' can't-see in church; 'west' found priest in choir; intent_preserved no)
+- choir-lantern-typo syntax e30->e31 ('lantren'->'lantern' Taken)
+- choir-woman-plural syntax e33->e34 ('women'->'woman' Lucy description)
+- choir-ask-priest-topic syntax e36->e37 (bare 'ask priest' prompted for topic; 'ask priest about lucy' succeeded)
+Help: m0023 excerpt lines 13-21 (>n >x letter >x altar >w >get lantern >x woman >ask priest about lucy >e >s) guided choir sequence; earlier m0004 excerpt off-topic (bin/cod/cat). Walkthrough hints are guidance only, not observed text.
+
+Checkpoints verified: start-field (e03-04), graveyard (e17-18), choir-room (e28-29).
+
+Unresolved case IDs: none pending; all submitted requests have responses through m0035/e39.
+
+Next actions: follow hint tail >e >s (east to church, south to graveyard, down to harbour); request next walkthrough excerpt via help when stuck (after 2 failures or at new puzzle); collect diverse synthetic_probe cases (typo, synonym, omitted arg, plural, wrong object, blocked exit) with stated intent; checkpoint at safe milestones; continue toward Castle Chapel confrontation + escape/concluding narrative per manifest. No ending reached; no finish claimed. Do NOT quit; QUIT never counts.

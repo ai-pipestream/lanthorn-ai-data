@@ -1,0 +1,17 @@
+# Beyond the Tesseract — progress (update 2)
+
+Location: infinite point (north of origin). Exits south. Seen: non-differentiable function, group.
+- `scan function` -> nothing special (e00027, accepted short name)
+- `examine it` -> function sharp points at (1/2+bi) (e00029, pronoun resolved)
+- `examine book` -> can't see (e00031, book elsewhere); `examine group` -> converging parallel lines, aleph-null, last prime, 1/0 (e00032)
+
+Inventory: stack + strip (strip taken e00022). Verify later.
+
+Cases total ~8:
+- crt-typo vocab, scan-crt-omitted none, mobius-short none, take-synonym vocab, north-typo vocab, scan-function-short none, pronoun-it none, wrong-book world_state (intent not preserved)
+
+Last hint lines 10-18 (book/disk/projector/Tomb TES; prism/tetrahedron SE). Book not at infinite point; need origin E/S/W.
+
+Next: confirm m0030 annotation, go south to origin, scan/explore E/S/W, inventory, request next hint when stuck.
+
+Checkpoints: start-office, origin-arrived ok.

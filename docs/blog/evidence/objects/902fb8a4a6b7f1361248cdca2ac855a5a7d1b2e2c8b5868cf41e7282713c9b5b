@@ -1,0 +1,25 @@
+{
+  "event_id": "attack-of-the-yeti-robot-zombies-504df4e144:e00111",
+  "timestamp": "2026-09-25T08:18:59.907666+00:00",
+  "game_id": "attack-of-the-yeti-robot-zombies",
+  "session_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+  "branch_id": "b0",
+  "event_index": 111,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 21613,
+  "raw_end": 21613,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+    "ending_quote": "You walk down, manage to sneak past a few Satanists and you are out.\n\n\n    ***You saved the country, you big hero you!***",
+    "evidence_event_ids": [
+      "attack-of-the-yeti-robot-zombies-504df4e144:e00103"
+    ],
+    "notes": "Full escape and confrontation observed: boss pushed out window and returned horned e00089, coffee thrown and returned tentacled red-eyed e00093, shot dead to sludge e00098 revealing desk buttons, red KILL ALL e00101 then yellow Secret exit e00102 then down e00103 to terminal victory banner. Not a helicopter crash, initial defeat, death, chapter transition, or quit."
+  },
+  "review_status": "unreviewed"
+}

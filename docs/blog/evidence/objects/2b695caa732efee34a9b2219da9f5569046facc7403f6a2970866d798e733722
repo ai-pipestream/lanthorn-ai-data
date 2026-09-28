@@ -1,0 +1,12 @@
+# Mansion progress (continuation seg 1, IN PROGRESS — game incomplete)
+
+Location: Basement (ordinary prompt). Branch b1.
+Inventory (e00398): spinach leaves + torch (closed) in hand; bag[key, tweezers, needle, lavender, spanner, boots, packet(seeds), saucepan, plate, straw, knife, floorboard]; net(frog). Score 4.
+Checkpoints: shed-compost (verified e00393-94). Prior: maze-lavender, top-of-stairs. Restore point: shed-compost.
+
+Since last update: SEARCHED compost heap -> mouldy spinach leaves auto-taken (e00395); re-search nothing further (e00400). Shed interior re-looked: only closed biscuit tin, creepy-crawlies (e00402). Basement shelf re-examined: high north-wall shelf, pickles (e00408). get pickles (e00409) AND get jar (e00410) both give identical dismissive "boring old pickle jars, move on" — basement jars NOT directly takable or wrong jar.
+Mixture theory revised: Kitchen is likely the mixing room (cooker + saucepan origin); walkthrough "go south" = Dining->Kitchen; get/put = from bag into pan. Jar location still unknown.
+
+Cases: ~20 total (1 new: syn-spinch-typo annotated e00399 success). 1 UNRESOLVED: syn-jar-pickles (e00409 failed, e00410 failed — no successful jar acquisition yet).
+Last hint: lines 304-312 mixture (go south/get lavender/seeds/spinach/open jar/empty into pan).
+Next: help for jar acquisition (two reasonable attempts failed); systematic room search for jar (Kitchen table/cooker, Dining, Conservatory, Bedroom, Front Drive/front door); then mixture assembly in Kitchen.

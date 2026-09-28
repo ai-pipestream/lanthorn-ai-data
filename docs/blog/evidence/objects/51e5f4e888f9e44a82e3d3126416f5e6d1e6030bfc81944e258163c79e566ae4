@@ -1,0 +1,10 @@
+# Jigsaw progress (update 44 — SEGMENT 7, Ch12 trapdoor found, game incomplete)
+
+Location: Derelict Apartment Block interior, on foot (branch b4, e01792). Skoda parked at Corner, ENGINE RUNNING. Game NOT complete.
+Ch12 breakthrough: walkthrough has TWO norths (lines 1344+1345) — drove Side Street→Unter den Linden IN CAR (e01779) and the street cleaner appeared immediately at the car window (no wait needed; ~20 earlier waits at Side Street were wrong location). Probe ch12-ambiguous-note: 'give note to street cleaner' ACCEPTED, auto-resolved to fifty Ost-mark note (e01782, failure_type=none, annotated m1157). Cleaner did windows, threw delivered note inside, asked about tanks/Hungary, vanished. Read delivered note (e01785): Black's "Vital to keep Wall intact till 91... See you at Charlie." Drove west/west/south (e01786-88) to Corner, out, in, examine masonry ("Almost anything could be underneath"), look under masonry → trapdoor leading DOWN (e01792).
+Return shortcut learned: Unter den Linden —west→ East Berlin —west→ Brandenburg —south→ Corner —east→ Checkpoint Charlie (Black stranded, "eyes meet hopelessly" e01773) —north→ Side Street. Side Street —north→ Unter den Linden is effectively one-way (south refused: embassy joke; E/SE/SW refused: credentials; N blocked).
+Board: 16/16 LIT. Inventory: fifty note GONE (given); delivered note in car (unread? no—read e01785, still in car? left in Skoda at Corner); rope, berliner, purse(open empty), cyrillic key, gadget, cap worn, rucksack contents incl. travel permit, folder.
+Cases: 82 annotated (added ch12-ambiguous-note e01782 none). No pending.
+Help: Ch12 chain lines ~1354-1362 done (m1144). Need mode=next past line 1362 (trapdoor descent).
+Checkpoints: ch12-cleaner-present (e01781, in car UdL, pre-give), ch12-unter-den-linden (e01766, on foot), ch12-start, ch11-start, monument-16lit, ch10 chain, ch9/ch8 chain. Next inbox file: m1162.json. Last response: m1161 (e01792).
+NEXT: help mode=next (trapdoor), then down + follow. Watch: car engine running at Corner (fuel?); delivered note left in car.

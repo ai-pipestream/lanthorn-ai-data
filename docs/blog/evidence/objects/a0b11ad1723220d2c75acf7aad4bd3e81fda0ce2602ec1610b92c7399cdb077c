@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-26T19:54:19.692218+00:00",
+  "pid": 242028,
+  "prior_pid": 4142408,
+  "absence_check": {
+    "watch_exports.py": [],
+    "export_dataset.mjs": []
+  },
+  "reason": "Prior three-hour watcher expired; no watcher or exporter remained",
+  "log": "/work/experiments/lanthorn-recall-training/runs/export-watcher-20260926T195419Z.log",
+  "duration_seconds": 10800,
+  "provider_or_game_actions": []
+}

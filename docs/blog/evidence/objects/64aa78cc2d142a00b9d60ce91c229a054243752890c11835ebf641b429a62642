@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-25T04:00:17.181044+00:00",
+  "target": 10,
+  "workers": {
+    "dreamhold": [
+      427838
+    ],
+    "bronze": [
+      428080
+    ],
+    "curses": [
+      908334
+    ],
+    "theatre": [
+      908515
+    ],
+    "secret-mission": [
+      1255058
+    ],
+    "savoir-faire": [
+      1256997
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "balances": [
+      1446704
+    ],
+    "spider-and-web": [
+      1458912
+    ],
+    "zork-i7": [
+      1729082
+    ]
+  },
+  "attention": [],
+  "queued": [
+    "so-far",
+    "hunter-in-darkness",
+    "jigsaw",
+    "bears-night-out",
+    "acorn-court"
+  ]
+}

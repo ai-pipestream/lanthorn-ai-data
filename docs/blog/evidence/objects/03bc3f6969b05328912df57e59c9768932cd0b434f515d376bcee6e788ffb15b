@@ -1,0 +1,14 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — branch b1 at Southern Wet Passage e440)
+
+Game R3/051012, session dracula-prince-of-darkness-d75c304699, branch b1.
+Actual state b1: Southern End of Wet Passage e440 (dry, out of freezing water after retreat). Chained 15ft Nile crocodile Lenore, notice read e414, padlock is 4-number combination e424, passage north past croc to oak door, steps down to freezing smuggler caves, loud ticking in south/low area only. Ordinary prompt. No quit/ending. Exposure recovered by leaving water; ticking may be timed — treat south water trips as urgent.
+
+Inventory b1 (as carried): old snow shovel + tinderbox + glowing hot bottle light (e342) + corpse dropped at rats (e398, no longer carried). Wooden key NOT yet obtained. Verify with inventory on resume.
+
+Key results e414-e440: read-notice e414 Lenore eats fish and people, Nile 1845 Carmilla, hatred of seafaring folk; examine-lenore e415 accepted (annotated e418 none); checkpoint croc-passage e416-417; north e419 past lunging croc to Northern End oak door; open-door e420 locked (world_state block); help e421 excerpt get-key/e/up/up/n/unlock-door/n Chamber-of-Dust; examine-door e422 giant black oak no lock detail; south e423 back; examine-padlock e424 combination lock set-four-numbers; down e425 steps, down e426 eastern water, west e427 central pirate with wooden key on string + unlit cigarette; examine-pirate e428 confirms key; take-key e429 fail, take-wooden-key e430 fail, get-key e431 fail, help e432 off-topic intro lines 1-9; take-string e433 fail, light-cigarette e434 rejected don't-worry, take-key-from-pirate e435 fail, examine-key e436 fail (key not separate object), search-pirate e437 nothing; retreat east e438, up e439 steps, up e440 southern dry.
+
+Unresolved: annotate open-door e420 + unlock resolution once key obtained (world_state/planning, short phrasing understood but locked); annotate pirate key probe series e429-e437 (vocabulary/world_state — key described but not takeable object; correction unknown); pirate Lenore snapper question still unanswered; croc padlock 4-number combination unknown (1845? ticking? spider?); oak door unlock + Chamber of Dust + Chapel confrontation + escape finale still required per manifest, never QUIT.
+
+Checkpoints: behind-cottage; forest-clearing; tiny-room (b0 avoid); blizzard-stopped (b1 origin); castle-graveyard-b1; below-graveyard; nest-of-rats; waterfall; croc-passage (b1 last safe dry pre-pirate-search). Consider checkpoint at Northern End only after key/door progress.
+
+Resume b1 dry southern e440: 1) refined help for pirate wooden key exact wording / Lenore answer preconditions; 2) brief dare back into water to try cut/untie/ask/say-lenore variants (single probes, retreat if exposure); 3) unlock oak door with key, north to Chamber of Dust; 4) continue toward Chapel confrontation + escape finale with raw evidence; help after two failures.

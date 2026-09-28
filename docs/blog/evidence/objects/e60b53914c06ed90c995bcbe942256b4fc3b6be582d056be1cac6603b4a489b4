@@ -1,0 +1,8 @@
+# Ghost Train progress
+
+Location: Signal Box interior (e00137) — panel smashed, rusty key taken. Coin+necklace+brass key+rusty key held.
+Inventory as observed: brass key, half-crown coin, necklace, rusty key (all Taken). Turn handle heard Ingrid alive. Pull lever set danger.
+Checkpoints: start-carriage; before-signalbox; signalbox-inside; after-lever-pull (verified e125-126).
+Last hint: lines 44-52 — PULL PANEL, LOOK, GET KEY, EAST DOWN EAST to tracks, lamp left, X LAMP GET IT, SOUTH, X WALLS/LICHEN.
+Resolved this session: + panel push planning e130-131; key omitted none e134+e137; drop key ambiguity e135-136; plus earlier telephone/necklace/coin/lever/panel/handle/take-fixed/pronoun/wordorder.
+Next: east / down / east to tracks; x lamp, get lamp; south into tunnel; update checkpoint after exit.

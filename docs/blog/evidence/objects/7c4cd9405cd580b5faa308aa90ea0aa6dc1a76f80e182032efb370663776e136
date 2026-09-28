@@ -1,0 +1,24 @@
+{
+  "event_id": "acorn-court-7685b36b67:e00085",
+  "timestamp": "2026-09-25T05:27:22.490553+00:00",
+  "game_id": "acorn-court",
+  "session_id": "acorn-court-7685b36b67",
+  "branch_id": "b0",
+  "event_index": 85,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 11869,
+  "raw_end": 11869,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "You open the iron gate.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 40 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+    "evidence_event_ids": [
+      "acorn-court-7685b36b67:e00082"
+    ],
+    "notes": "Genuine author-intended win: opened unlocked iron gate after full puzzle chain (point/launch ball, shower acorns, repair bucket, raise key, unlock). Score 30/30 in 40 turns, *** You have won ***, not death/quitting/intermediate. End menu offers RESTART/RESTORE/QUIT."
+  },
+  "review_status": "unreviewed"
+}

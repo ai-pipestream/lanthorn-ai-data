@@ -1,0 +1,25 @@
+# Cacophony progress (update 3)
+
+Location: Study (E of Kitchen). Fine wooden door E now open; dark N, pale S unopened; W to Kitchen. Mr Green follows.
+Inventory: torn note ("You're dreaming, fool."), knife, suitcase (taken, empty), mirror (from drawer), notepad (taken). Trays empty. Chair sat/stood. Picture=bedroom photo.
+Map: Kitchen N=Garden(patio fountain coins cold-block, fruit eaten)->N=Jungle(lizard too far); Kitchen E=Study; Kitchen S/W unmapped.
+
+Cases 14 total:
+- p01 inspect cutlery vocab->x success
+- p02 cutlary typo vocab->take cutlery knife success
+- p03 bare eat->knife, eat fruit success syntax
+- p04 take them->cutlery, take coins cold-block ambiguity failure
+- p05 look reptile syntax->x eyes lizard success
+- p06 grab lizard vocab->take too-far failure
+- p07 read paper accepted none success
+- p08 talk green syntax->talk to green success (ASK mechanic)
+- p09 x pad accepted none success (notepad text green mask)
+- p10 open case accepted none success (suitcase)
+- p11 x painting vocab->x picture bedroom photo success
+- p12 take glass vocab->take mirror success
+- p13 sit chair syntax->sit on chair success
+- p14 open door ambiguity->open fine wooden door success
+
+Last hint: m0009 boxes/leaflet/graffiti/gizmo excerpt only. Need route help for study doors / kitchen S/W.
+
+Next: checkpoint study-doors, go E through fine door; then N/S doors, kitchen S/W; seek boxes/leaflet.

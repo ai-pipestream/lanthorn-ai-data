@@ -1,0 +1,106 @@
+{
+  "game_id": "earth-and-sky-episode-1",
+  "title": "Earth and Sky: Episode 1",
+  "author": "Paul O'Brian",
+  "url": "https://ifarchive.org/if-archive/solutions/eas.wlk",
+  "accessed_at": "2026-09-25T08:44:02.272909+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/eas.wlk",
+  "source_sha256": "ebb67343f1a4bd540fec95f3af3d63306dad094705983954ac8fe9dd8a59c1dc",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/earth-and-sky-episode-1-walkthrough.txt",
+  "normalized_sha256": "ebb67343f1a4bd540fec95f3af3d63306dad094705983954ac8fe9dd8a59c1dc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/Eas.z5",
+  "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+  "compatibility": "Local eas.zip matches archive bytes, and extracted Eas.z5 is Z5 R2/011204; bundled author readme explicitly identifies release 2. Author walkthrough supplies no release/serial and was archived 2001-11-21 before release 2; preserve unspecified compatibility, likely earlier-edition guidance. This is a released complete first episode with its own finale, not an unavailable preview. Later episodes are separate games in the same family.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "011204",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000024aac4aad3286010a1d99286c00103031313230340042b2f0d78000000000000000000000000000000000286b000000000000010200000000362e3231",
+    "header_sha256": "f19a84cb9ab776ab72ba1177702652730d7fceeded1e40cc420a9d7f60bc1b1a",
+    "checksum_hex": "d780",
+    "declared_length": 183232,
+    "file_bytes": 183296
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "Eas.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/eas.zip#Eas.z5",
+    "accessed_at": "2026-09-25T08:45:26.897649+00:00",
+    "remote_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+    "local_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+    "bytes": 183296,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "011204"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#eas.zip",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "eas.zip\n◆\n[17-Dec-2001]\nView contents\nIFDB entry\nIFWiki:\nEarth and Sky\nEarth And Sky: Episode 1. Serial interactive fiction\nby Paul O'Brian.\nRelease 2 / Serial number 011204.\n(the original competition entry is in\ngames/competition2001/inform/eas/eas.z5)",
+    "tuid": "xtlhfet0vixthar5"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#eas.wlk",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "eas.wlk\n◆\n[21-Nov-2001]\nIFDB entry\nWalkthrough for Earth and Sky, by Paul O'Brian.",
+    "tuid": "xtlhfet0vixthar5"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Paul O'Brian",
+    "route_summary": "Follow the full first-episode powers, Austin conversation and rescue/combat route, including the optional letter when sensible, through the final balloon action and authored Episode 1 conclusion. Preserve that intended episodic ending even if the wider series continues. A dialogue choice, gaining a power, an intermediate fight or merely issuing the last guide command is not completion; parent must verify the actual finale.",
+    "limitations": "The conversation system alternates ordinary commands with numbered response menus. Select current displayed options, not blindly copied numbers. Final combat has random duration and the guide says fog can dissipate; observe state and reapply it when needed. Its repeated Z entries are gameplay waits, never timeout flushes. Establish an early safe checkpoint outside menus; do not save or probe through a live question.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "earth-and-sky",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Bundled readme explicitly identifies a continuing Earth and Sky series. Reserve earth-and-sky for all episodes, releases and ports. Its stated Marvel tribute and generic superhero setting do not establish a shared world with registered Heroine's Mantle. No current Earth and Sky game found; parent review requested to preserve series grouping."
+  },
+  "reuse_claims_observed": "Bundled readme permits unaltered, non-profit distribution of the game as freeware. This does not establish rights for guide reuse, training or dataset publication. Keep unknown; private collection only under current task scope.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "story_container": {
+    "format": "zip",
+    "local_path": "/home/krickert/if-games/zcode/eas.zip",
+    "url": "https://ifarchive.org/if-archive/games/zcode/eas.zip",
+    "member": "Eas.z5",
+    "local_sha256": "a5cf0e1ffb310244ce11150f2f2fe2b3e9b16b7da5f4c936daf2ea478bbc90ef",
+    "remote_sha256": "a5cf0e1ffb310244ce11150f2f2fe2b3e9b16b7da5f4c936daf2ea478bbc90ef",
+    "byte_identical": true,
+    "container_bytes": 107663,
+    "member_bytes": 183296,
+    "member_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+    "extracted_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/Eas.z5",
+    "storage": "central_only"
+  },
+  "packaged_readme": {
+    "member": "easinfo.txt",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/eas-readme.txt",
+    "sha256": "1dfeb3ada2567c6306b27a4aaeca7f11135a5eaa0419fcdf36c599b3708f309a",
+    "container_sha256": "a5cf0e1ffb310244ce11150f2f2fe2b3e9b16b7da5f4c936daf2ea478bbc90ef",
+    "body_read": true
+  }
+}

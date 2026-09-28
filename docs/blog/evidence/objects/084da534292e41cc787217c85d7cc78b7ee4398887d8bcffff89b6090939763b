@@ -1,0 +1,10 @@
+# Not Just A Game — progress
+
+State: Workshop at ordinary prompt, bat in hand (clamp released e00349). Score 16. Branch b0. Game INCOMPLETE (furnace pour + board/cube endgame remain). No pending (m0310 serviced, after-bat checkpoint OK e00350-351).
+Route since last update: Wood Storage take wood fail e00337 (planks) -> get log e00338; N Plank e00340; E Workshop e00341; look e00342; examine lathe e00343 (clamp/light/green Start); put log in lathe fail->clamp e00344-345; press button e00347 (bat shaped, score 16); get bat e00349.
+Cases: ~65 total. New: wood-log-syn-wood (vocab, wood->planks vs log); lathe-load-syn (syntax, lathe->clamp); lathe-button-syn (none, press accepted).
+Last hint: e00299 (E S GET LOG, N E PUT LOG IN CLAMP PUSH BUTTON GET BAT). press accepted so push variant covered.
+Checkpoints (confirmed): start-living-room, before-safe, after-lever, after-capture, after-fuse, after-glass, before-power-debug, oven-ingot-ready, after-waterwheel, after-bat. RESUME: continue b0 from Workshop.
+IN-FLIGHT: none. Next new file inbox/m0311.json.
+NEXT: (1) W Plank, then back to Oven via Plank U northeast hole, W W W W Damp hole, D Damp, ... Rocky hole EEEE east hole, D HotZone, S Oven — verify exits one at a time. (2) WEAR GLOVES, PUT MOLD ON TABLE, OPEN CRUCIBLE, GET CUP, POUR CUP INTO MOLD, HIT MOLD WITH BAT, GET ALL, DROP CUP. 1 probe per new step. (3) Board E5/capture/reset, white cube, crystal E7, spheres 72/68, final narrative. Do NOT light matches in Hot Zone/Oven. Checkpoint after pour.
+Inventory: carried = rod+gum, mold, black cube, green cube, red ball, gloves, card, gold stone, booklet, matches(3), bat (+log consumed into bat). Remote = silver ingot in cup in closed crucible (Oven, heated once), fuse in socket.

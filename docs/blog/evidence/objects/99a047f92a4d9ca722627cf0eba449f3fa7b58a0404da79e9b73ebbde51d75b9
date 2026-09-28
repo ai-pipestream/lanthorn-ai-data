@@ -1,0 +1,236 @@
+{
+  "at": "2026-09-25T08:12:52.366079+00:00",
+  "game_id": "bicon",
+  "session_id": "bicon-e4b7be4302",
+  "header": {
+    "version": 8,
+    "release": 4,
+    "serial": "101006"
+  },
+  "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+  "embedded_sha256": "87deeaeb9c675443249b4bf81ae81e4c116e54b76e451b9a982944b7bc4d5dce",
+  "events": [
+    {
+      "event_id": "bicon-e4b7be4302:e00001",
+      "timestamp": "2026-09-25T08:06:29.099562+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\nType ABOUT if you have not played interactive fiction before, and for some \nnotes on the game.\n\nBiCon\nAn Interactive Infatuation by rach\nRelease 4 / Serial number 101006 / Inform 7 build 6E72 (I6/v6.31 lib 6/12N) \n\nArgentina (on your chair)\nYou are sitting on your chair in \"Argentina\" -- a workshop room at BiCon 2010. \nIt is a modern university meeting room, small and bland, suitable for anything. \nThe door is north; on the wall next to it are a couple of posters.\n\nThe workshop is well-attended. Interested-looking people sit in a large circle \nof chairs.\n\nStanding by a flip-chart is the session leader, speaking at great length to the \ngathered people.\n\n>",
+      "raw_start": 0,
+      "raw_end": 667,
+      "response_sha256": "237b6745702641124290accbee5971486bdae0b757793ca947e2713a654f7823",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00002",
+      "timestamp": "2026-09-25T08:06:41.416712+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 667,
+      "raw_end": 681,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-argentina"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00003",
+      "timestamp": "2026-09-25T08:06:41.719652+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint_filename",
+      "command": "start-argentina.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/bicon/saves/BiCon.zblorb.save/start-argentina.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 681,
+      "raw_end": 801,
+      "response_sha256": "af3ac82333097799a1447f0304201b1da9f5ce1f8aa695077c6363c0e4d70931",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-argentina"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00004",
+      "timestamp": "2026-09-25T08:06:46.581405+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "look",
+      "response": "Argentina (on your chair)\nYou are sitting on your chair in \"Argentina\" -- a workshop room at BiCon 2010. \nIt is a modern university meeting room, small and bland, suitable for anything. \nThe door is north; on the wall next to it are a couple of posters.\n\nThe workshop is well-attended. Interested-looking people sit in a large circle \nof chairs.\n\nStanding by a flip-chart is the session leader, speaking at great length to the \ngathered people.\n\n>",
+      "raw_start": 801,
+      "raw_end": 1248,
+      "response_sha256": "0d058936f01732e2c2449195733caa675177d2ff5f3db9e0ac69bb736cb8d367",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-opening-look",
+        "intent": "Describe my current surroundings",
+        "origin": "exploration",
+        "expected_outcome": "Room description"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00005",
+      "timestamp": "2026-09-25T08:06:52.608871+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying:\n  your backpack (open)\n    your phone (switched off)\n    a safer sex kit\n    your timetable\n  your badge (being worn)\n  your clothes (being worn)\n\n>",
+      "raw_start": 1248,
+      "raw_end": 1414,
+      "response_sha256": "b6cef0e31c12846fbad844372ea9d3c40ffea1b2e1e4d68c993e9a33b9fc62cd",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-opening-inv",
+        "intent": "Check what I am carrying",
+        "origin": "exploration",
+        "expected_outcome": "Inventory list"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00006",
+      "timestamp": "2026-09-25T08:06:56.232792+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "examine timetable",
+      "response": "Your official BiCon handbook and timetable.\n\nYou can look up information in here by referring to room names. Try LOOK UP \nARGENTINA IN HANDBOOK or CONSULT TIMETABLE ABOUT FLAT.\n\n>",
+      "raw_start": 1414,
+      "raw_end": 1593,
+      "response_sha256": "05cbeeae71bed40d89fe4e0c054e11efb3e1fb9799a2e62cdf30797ce39e981e",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-read-timetable",
+        "intent": "Read timetable for schedule info",
+        "origin": "exploration",
+        "expected_outcome": "Timetable contents"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00007",
+      "timestamp": "2026-09-25T08:07:00.307963+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "consult timetable about argentina",
+      "response": "Hm, 'argentina'... here we are, it says the scheduled workshop for Argentina is \n\"Bisexual invisibility\". Sounded interesting, isn't. You wish you were \ninvisible so you could get out. Optimistically, you wrote \"Might be good \nopportunity to ask about local bi group?!\"\n\n>",
+      "raw_start": 1593,
+      "raw_end": 1865,
+      "response_sha256": "5ee07fc8c910685b11806f490425fc0bb0574ff49d29aafe8763343fff4d2b49",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-consult-argentina",
+        "intent": "Look up Argentina room in handbook",
+        "origin": "exploration",
+        "expected_outcome": "Info about Argentina"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00008",
+      "timestamp": "2026-09-25T08:07:04.080937+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "examine posters",
+      "response": "Next to the poster reminding you to switch off your mobile phone, there is a \npleasant, purple poster asking participants to please turn \n                  > HETERONORMATIVITY OFF\n\n>",
+      "raw_start": 1865,
+      "raw_end": 2047,
+      "response_sha256": "0ead0566051d912811329484b35cfdb64d03ba5cf996f9982f3a9e5317aa7d80",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-examine-posters",
+        "intent": "Look at posters by the door",
+        "origin": "exploration",
+        "expected_outcome": "Poster descriptions"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00009",
+      "timestamp": "2026-09-25T08:07:09.500477+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 9,
+      "event_type": "command",
+      "command": "get up",
+      "response": "The workshop might not be what you expected but you may as well stick it out \nfor a bit, there's not much else going on for you right now.\n\n>",
+      "raw_start": 2047,
+      "raw_end": 2188,
+      "response_sha256": "1b497b5a59ec64944453699d4015c90ea16c52338ae541586688751d746c3507",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "syn-stand-synonym-01",
+        "intent": "Stand up from my chair",
+        "origin": "synthetic_probe",
+        "expected_outcome": "Stand up"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "bicon-e4b7be4302:e00010",
+      "timestamp": "2026-09-25T08:07:14.026420+00:00",
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "branch_id": "b0",
+      "event_index": 10,
+      "event_type": "command",
+      "command": "examine session leader",
+      "response": "An attractively earnest type, clearly in heaven right now, speaking at length \non what is surely an important subject, challenging societal norms and \nheteronormative bias, that sort of thing. A little bit beyond you, to be honest.\n\n>",
+      "raw_start": 2188,
+      "raw_end": 2422,
+      "response_sha256": "a153d137c444a49d9cb9d1c6f99c01f61734f58472e06cac65c89daa57480d07",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-examine-leader",
+        "intent": "Look at the session leader",
+        "origin": "exploration",
+        "expected_outcome": "Leader description"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "parent bytes/header/raw spans verified; source compatibility gaps retained; no completion claim"
+}

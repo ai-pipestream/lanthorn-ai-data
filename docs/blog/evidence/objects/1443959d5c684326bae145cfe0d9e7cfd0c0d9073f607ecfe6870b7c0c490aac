@@ -1,0 +1,10 @@
+# Heroine's Mantle — progress (b3, Antechamber Score 71 Moves 278, e00617 — IN-FLIGHT m0550)
+
+Current: b3 Antechamber (in the watchtower), Score 71, Moves 278 (e00615). Golden horse nose faces closed north door; portraits examined. s70-horse checkpoint good (e00606-e00607). IN-FLIGHT: m0550 `look at door` pending (no response yet, latest e00617).
+Inventory (e00599 observed): Staff of Justice (glowing faintly), mother's silver chain worn, gold bracelet closed worn, underwear worn, optical disc, bubblegum. No lamp observed.
+Unresolved case IDs: antechamber-door-synonym (m0550 pending); backlog older branches — battlefield-staff, crusader-rescue, roof-nw/shut-hatch, bracelet (still closed).
+Annotated this run e00600-e00616: northwest none (e00600-e00601); mount->enter horse vocab (e00602-e00604); rex up syntax (e00608-e00609-e00610); get-out none (e00613-e00614); paintings none (e00615-e00616). Plus prior Battlefield chain through e00594.
+Last hint e00617 (lines 319-327): exit done, x portraits done, next x door / x bracelet / hit heart+dove+scales with staff (2/73) / save s73. Guidance only.
+Next: resolve m0550, annotate, then x bracelet (with 1 variation before canonical where safe), then heart/dove/scales hits, checkpoint s73. Preserve s70, s70-horse, s67/s66/s65/s55/s51/s48/s47; never overwrite s28.
+Branches: b0 dead, b1 broken, b2 died 229 restored b3 canonical. Preserve provenance.
+Game incomplete — Crusader/helicopter final-button finale required (400 pts ~1300 moves). No finish evidence.

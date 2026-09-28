@@ -1,0 +1,14 @@
+# Progress - All Quiet on the Library Front
+
+Location: Lobby (ordinary prompt, branch b0, event e00016)
+Inventory (observed): ID card
+Checkpoints: lobby-start (verified Ok)
+
+Cases so far:
+- attendant-talk: probe e00008 'talk to attendant' -> vocab reject; correction e00010 'ask attendant about nelson' -> reference librarian hint. Annotated vocab, success.
+- attendant-look: probe e00012 'look at attendant' accepted (bored + nametag). Annotated none.
+- alan-book-synonym: probe e00015 'ask alan about book' accepted -> reference librarian hint. Canonical e00016 'ask alan about novel' -> Debt of Honor lost in stacks hint. Annotated none with note book vs novel are different topics.
+
+Last broker hint (e00009, lines 4-12): X security gates / X attendant / Read tag / Ask Alan about novel / Ask him about Nelson / Ask him about librarian / W
+
+Next: ask alan about librarian, examine security gates, then go west to stacks. Need typo/omitted/pronoun/word-order probes along the way. Aim 20-40 diverse cases total.

@@ -1,0 +1,83 @@
+[
+  {
+    "story": "dracula.z8",
+    "guide": "dracula.txt",
+    "decision": "replace_guide",
+    "replacement": "dracula_prince_of_darkness.txt",
+    "reason": "Different games: archive story TUID hy4inhlsv3udyu9g vs guide TUID 7aw10qdg5l0b4bo4; guide is Dutch Dracula (1988).",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/dracula.txt",
+    "source_sha256": "559812fd38e4e55d2d1381dd05322117cfb06cc1001d1d82f9bb042f20576e0e",
+    "url": "https://ifarchive.org/if-archive/solutions/dracula.txt",
+    "access_date": "2026-09-25",
+    "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "story_header": {
+      "version": 8,
+      "release": 3,
+      "serial": "051012",
+      "header_hex": "08000003b8f0b8f18df8010a796485570050303531303132004293e0820e000000000000000000000000000000008556000000000000010200000000362e3331"
+    }
+  },
+  {
+    "story": "School.z5",
+    "guide": "school.sol",
+    "decision": "replace_game",
+    "replacement": "loose.z5 / mother_loose_walkthru.txt",
+    "reason": "Inform School tutorial vs Ballymun Adventure for TADS; different archive TUIDs.",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/school/school.sol",
+    "source_sha256": "11e8eb614845c767f3d6ea4f886472734e501d6b736ff93722348d75e5661f98",
+    "url": "https://ifarchive.org/if-archive/solutions/school.sol",
+    "access_date": "2026-09-25",
+    "story_sha256": "7a83a215ecfef7d36f702cb9f23f0a59e18ac44bcba3b0bb02e9f254203f2bad",
+    "story_header": {
+      "version": 5,
+      "release": 1,
+      "serial": "991217",
+      "header_hex": "05000001fd74fd75e55e01b74a0ddc5800903939313231370042ebe58adf00000000000000000000000000000000dc57000000000000010200000000362e3231"
+    }
+  },
+  {
+    "story": "eric_dm.z5",
+    "guide": "eric_dm.sol",
+    "decision": "replace_game",
+    "replacement": "edifice.z5 / edifice.rec",
+    "reason": "Guide expressly does not reach full 1000 points and ends at a dragon fight without identifying author-intended finale; no terminal completion evidence established. Not claimed to be an engine incompatibility.",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/eric_dm/eric_dm.sol",
+    "source_sha256": "a89e58bf27c017782bc34a76d3be2add3a13ad358f8d555b5205797d121c6441",
+    "url": "https://ifarchive.org/if-archive/solutions/eric_dm.sol",
+    "access_date": "2026-09-25",
+    "story_sha256": "4e4b8a36f49c6cdaf02eb7c38b98871ea8e766257b0041f68959bacfaf4feb53",
+    "story_header": {
+      "version": 5,
+      "release": 1,
+      "serial": "000001",
+      "header_hex": "0500000140e040e13169010a1f2628d7005030303030303100427127292d0000000000000000000000000000000028d6000000000000010200000000362e3330"
+    }
+  },
+  {
+    "story": "schooldays.z5",
+    "guide": "sd-walkthrough.txt",
+    "decision": "rejected_substitute",
+    "replacement": "loose.z5 / mother_loose_walkthru.txt",
+    "reason": "Author source schooldays.inf lines 3679-3686 sets win state but explicitly announces only completion of first part. Rejected under no chapter-only endings constraint.",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/schooldays/sd-walkthrough.txt",
+    "source_sha256": "27acd7bf474cf7dd5faf74a743ba9573bb975fe63eccac22d2b7d0ec19004751",
+    "url": "https://ifarchive.org/if-archive/solutions/sd-walkthrough.txt",
+    "access_date": "2026-09-25",
+    "story_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+    "story_header": {
+      "version": 5,
+      "release": 3,
+      "serial": "092800",
+      "header_hex": "05020003a9b4a9b576c2010a5f116ab300503039323830300042bb1a76f2000000000000000000000000000000000000000000000000010200000000362e3134"
+    },
+    "supporting_sources": [
+      {
+        "url": "https://ifarchive.org/if-archive/games/source/inform/schooldays.inf",
+        "access_date": "2026-09-25",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/schooldays/schooldays.inf",
+        "source_sha256": "ee541f34cfc5e1bd9dde77a4a555ad2da62f11ce7cb106669bc7d564e94f4a00",
+        "evidence": "airport_code, lines 3679-3686: only first-part completion, despite win flag."
+      }
+    ]
+  }
+]

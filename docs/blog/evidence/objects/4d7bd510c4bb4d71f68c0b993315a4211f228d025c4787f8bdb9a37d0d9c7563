@@ -1,0 +1,33 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T03:47:28.237310+00:00. Synthetic test-data collection only. Nineteen games remain in scope; no further games or Pi workers launched.
+
+1131 unique exported annotation rows: 775 accepted, 250 revise, 45 quarantine, 61 unreviewed under exact endpoint-matched reviews. This fixed40-row pass across8 games added30 accepted,8 revise,2 quarantine; all80 endpoint references verified against raw bytes, SHA256, text, commands and branches. Later arrivals remain pending. Separate transport-only/legacy review keys are not annotation totals.
+
+## Anchorhead recovery and historical menu failure
+
+Anchorhead session anchorhead-4f68bc5f05 b0: e300 READ BOOK opens chapter menu, e301 selects2. Request m0246 sends literal space although its intent says Enter. e302 at03:45:27Z is no_output_timeout after180seconds, empty raw74884:74884, SHA256e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855. Quarantined; no chapter text or parser failure inferred. Reviewer issued no follow-up key.
+
+Recovery audited 2026-09-25T03:48:20.342639+00:00: new anchorhead-51ee2d15c2 b2 restored library-day2-circulation from old e281. Save SHA25682fbc4afffa37f3fb351e185f394b610478fbd9595df081ffb5c7140a8646e73 independently matches current file; original save output, new e5 Ok and e6 Library LOOK spans match hashes/text. Old m0247 is explicitly cancelled and original request hash matches. Broker --hours12 observed, automatic checkpoints false. No restored-session timeout through anchorhead-51ee2d15c2:e00019; original e302 remains quarantined. This is collection recovery, not a menu defect fix.
+
+Independent source/hash check matches control/menu-input-source-20260925T0344.json. read_char_from_line at input.rs70–72 maps empty content to13, space to32, and RETURN text to first byte R82; zvm-cli char path calls it at main.rs1083. This does not prove running binary equivalence, full menu routing behavior, or timeout cause. Actual command bytes take precedence over intent metadata. Savoir-Faire’s earlier real SPACE stall remains a separate unresolved case.
+
+Latest-session fault IDs checked: []. Hash integrity alone is not transport success.
+
+## Verified outcomes and recoveries
+
+Ten conclusions unchanged: Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905, Violet and Voodoo Castle. Primary ending raw spans rechecked. No new ending claim present in this snapshot. Voodoo e763 final curse removal raw67015:67243 SHA256469d368636df3267da2837559e645623bb26c55ba7521b94151d4a7d81a81b25 remains verified. LOOK COFFIN e758, not LOOK MAN, confirms foot placement; mandatory prior PUT FOOT and no-effect idol/doll-wave necessity remain unproven.
+
+Slouch slouching-bedlam-b08abfcb18 b4 and Savoir savoir-faire-5a89e6c8ff b3 are explicit verified recoveries from office-journal and basin-full. Save hashes, original confirmations, cancellations, restore acknowledgments and new LOOK receipts remain in structured status. Old menu faults/quarantines persist; recovery did not fix underlying menu handling. Malformed Markdown/JSON supervisor rejections are not game turns.
+
+Zork latest score observation zork-i7-c569ad8028:e02341 on b95: You have so far scored 347 out of a possible 716, in 930 turns, earning you the rank of Adventurer. Latest recorded event zork-i7-c569ad8028:e02382. Responsive and incomplete; earlier branch scores/resource estimates do not transfer. Parent-reported2500 cap is not independently tested here.
+
+## Review findings and boundaries
+
+Quarantined new cases: Anchorhead examines door instead of reading intended notice; Zork examines lantern despite declared tube intent. Recognized command alone cannot establish intended-goal success. Revisions include locked-door success labels, reaching landing rather than bedroom, unknown vocabulary versus NPC refusal, mixed noun/carry-capacity repair, and lantern switched-off text misused as proof of a dead battery in a different branch.
+
+Accepted failures remain clearly failed: Dreamhold trapped grate/film and fixed pipe; Savoir cutting roses with knife. Walkthrough necessity claims are guidance, not exhaustive observed tests. Accepted no-failure comparisons may have reversed observation order, but cannot be presented as later recovery.
+
+Compatibility gaps remain: Savoir-Faire R8 versus R6 guide with deliberate false steps; Dreamhold R5 versus R4 guide; Bronze actual R11 versus advertised/download R13; Anchorhead and Theatre guide versions unspecified. Curses guide matches R16 label. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with full maintainer guide, not commercial ZorkI.
+
+Only reviewed/fullplay-cases.json, runs/fullplay-status.json and this file changed. No game driving, process changes, resets, duplicate workers, training or publication. Parent owns any transport recovery.

@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T09:33:55.450224+00:00",
+  "game_id": "ghost-train",
+  "events": [
+    {
+      "event_id": "ghost-train-b026ef4aab:e00409",
+      "timestamp": "2026-09-25T09:19:37.414312+00:00",
+      "game_id": "ghost-train",
+      "session_id": "ghost-train-b026ef4aab",
+      "branch_id": "b0",
+      "event_index": 409,
+      "event_type": "command",
+      "command": "turn damper",
+      "response": "You open the damper all the way. The pressure rises. The train is really \nmoving! But is it too late?\n\nLooking back, you see the demon take hold of the last coach. He starts to pull \nhimself along its roof...\n\nAs pressure in the boiler climbs past the red line there is an almighty bang. \nThe steam whistle is blown clean off the boiler. It hits the demon in the \nchest. His scream shatters the glass in the gauges. He loses his grip, and \nfalls flaming from the carriage. One severed claw is left hanging from the coach\n\nThe train rushes out of the tunnel, and starts to climb on a spirit line high \ninto a clear blue sky. No tunnel, no dark woods, no tracks.\n\nThe Skull opens its mouth and screams a scream of hot steam. There is a crack \nin the iron boiler, and the skull struggles to be free. Two skeletal hands \nappear from within the crack, and start to pull the rest of itself from out of \nthe boiler.\n\nThe iron skeleton stands before you on the footplate. It shakes a skeletal \nfinger at you.\n\n\"Why,come here friend. This is no place for the living! \nUnwise...unwise...unwise!\"\n\nThe thing drags you out of the cab, and you both fall back to earth.\n\nSince 1935 to this day there has never been a fatal accident on the southern \nrailway line. Some say the line is protected by a spectral signal man, who in \ntimes of danger, waves a lantern from side to side. Those that have seen him \nclaim he holds the lantern in a strange claw like hand as he shouts\n\n\"Look out below!\"\n\n\"Below there! Look out!\"\n\n\"Below there! Look out! Look out! For God's sake clear the way!\"\n\nYes, over the years, since your fall from the Devil's express, you have done a \ngood job in protecting those who travel this part of the railway line.\n\n\n    *** You have won ***\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 77406,
+      "raw_end": 79217,
+      "response_sha256": "b8dbc05d8d7600d3d43690560931b836ca6504027fafa01b545c332a7d9eb69f",
+      "story_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "ghost-train-b026ef4aab",
+        "case_id": "thirdtrain-damper2",
+        "expected_outcome": "Full speed escape from demon, Ingrid rescue ending",
+        "intent": "Open damper fully for max speed",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "TURN DAMPER escapes demon grip via whistle strike; protagonist dragged back to earth and becomes spectral signalman protecting railway, explicit win and finalmenu. Not ordinary death and not a confirmed living homecoming or an independently observed Ingrid rescue. Guide release gap retained. Parent exact raw/text/hash verified; independent audit pending."
+}

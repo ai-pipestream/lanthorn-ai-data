@@ -1,0 +1,8 @@
+# Gerbil Riot progress (b3 e00659 — at front guard, game incomplete)
+
+Location: End of long corridor, main doors East blocked, front-door guard present (b3 e00659). Ordinary prompt. Continue from actual state.
+Branch b3: cellar Up Up North e00652-654 corridor; East x5 e00655-659 white-tiled, cell/large-room, cells N+S, doorway N, guard end. Wad held, tattoo on arm. Pending m0557 give wad omitted probe.
+Inventory: wad (e00640), plus bucket/horn/key/blanket/picture/syringe (top consumed e00634). Matchbox consumed by burn.
+Next: m0557 give wad omitted (expect juggle-self like jacket/top), then give wad to guard, checkpoint before final East, then final East for ending. Verify ending via raw output only; guide congratulations is commentary, not game quote. Single commands near ending; checkpoint before final if risky.
+Checkpoints VERIFIED: b3-before-pit-button, b3-bush-before-burn, b3-before-burn, before-burn-wall, before-cellar-west, before-tree-climb, b1-wall-sheep.
+STOP: game incomplete, no finish claimed. Pending annotates: give-wad omitted/success, give-top/show-tattoo/take-wad/press-button/burn-singing/whistle-hole series plus earlier burn/cupboard series. Keep failures as failures; hints distinct from observed.

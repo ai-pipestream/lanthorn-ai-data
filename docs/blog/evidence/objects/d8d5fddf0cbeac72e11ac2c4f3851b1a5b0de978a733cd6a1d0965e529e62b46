@@ -1,0 +1,29 @@
+# Deephome playthrough progress (IN PROGRESS — branch b3, score 173, hammer in hand, healed)
+
+## Where to resume
+Branch b3 in Ember Tool Shop with hammer (e00309-310). Checkpoints `before-eranti` and `eranti-dead` (b3 e00305-306) verified Ok. Pending: m0251 help (post-hammer/exorcism order). Do NOT restart.
+
+## Current state (all observed)
+Score 173/300. Eranti DEAD (b3 e00304: mortally wounded, limped off; +20). Hammer TAKEN free via `get hammer` (e00309, also healed 'feel much better'). Health good. Shield worn, sword wielded (state unknown after take — re-check if needed).
+Route tail (b3): restore before-eranti e00298-299 -> wear shield e00300 -> wield sword e00301 -> kill x4 e00302-304 (gash/glance, gash/block+heal, gash/bite+Eranti dies +20) -> checkpoint eranti-dead -> north square e00307 -> west shop e00308 -> get hammer e00309.
+Inventory: Fresto tome, pickaxe, torch (lit), shield (worn), Sword (wielded), King's Order, lantern (lit), hammer (new). Moss consumed. Both lights lit — conserve.
+Mission: Power DONE; Water DONE; Gates OPEN; Eranti DONE + hammer claimed; EXORCISMS next (Fresto tome use, order unknown — awaiting hint); last exorcism = ending per manifest. Gates opening NOT completion.
+
+## Death notes (NOT endings)
+- b1 e00288: killed by Eranti (2 glancing rounds), score 153. Restored -> b2.
+- b2 e00297: mutual kill (Eranti mortally wounded, player died), score 173 (= +20 awarded in death). Restored -> b3.
+- b3 e00304: SURVIVED, Eranti dead, score 173. Combat lessons: hits vary glancing/gash; counters vary miss/glance/block/bite/devastating; blocking can heal ('feel much better'); hammer pickup heals fully.
+
+## Checkpoints (all Ok, b3)
+gates-open, ember-toolshop, before-eranti (restored twice: b2, b3), eranti-dead. Plus all pre-gates saves.
+
+## Cases (annotated through take-hammer e00310)
+ask-hammer none; ask-eranti none; wear-shield none (`put on`); wield-sword vocabulary (`draw` unknown); eranti-fight none (`attack`=kill); take-hammer none (`get`=take; pickup heals).
+Engine findings add: `ask man <topic>` sans 'about' works; 'attack' accepted in combat; combat RNG-heavy, blocks heal.
+
+## Last hint (NOT observed, via e00268)
+"Pond: wear shield; wield sword; kill eranti (until it dies) [20]" — DONE (survived on b3). m0251 asks next excerpt (hammer use, exorcism order).
+
+## Next actions
+1) m0251 hint confirm. 2) Probe-before-canonical per new room/puzzle; checkpoint before each spirit encounter. 3) Exorcisms per hint order. 4) Last exorcism terminal conclusion with raw event IDs + exact quote; parent review required.
+Game incomplete — ending NOT reached.

@@ -1,0 +1,9 @@
+# Theatre progress — SEGMENT 3 STOP (step budget, game incomplete, continuation ready)
+
+Location: Eastern End of Sewer (e633, branch b4, checkpoint eastern-sewer). Safe ordinary prompt; Rat Nest SE has biting rats blocking arch.
+Carrying (verify next): 3 pages?, key, ticket, violet/blue/red pearls; no popcorn (3 used: West e599, Centre e601, Nest e604 on b3/b4). Lobby: 12 pages, crystal, tablets, stethoscope, plans, 1 popcorn left. Orchestra pit: empty vial. Centre shows popcorn (e626). Sewer West/Centre/Nest drops done but rats still block after lever pull e625 (4 waits total).
+Trent: violet/blue/red shown (Strength/Wisdom/Mana e528/530/531); green missing — need L118-126 (wear amulet, S S E E, picture/camera, E NW, examine items, get green page) before Trent completion. Do NOT replay old probes.
+Checkpoints (b4 current): eastern-sewer, platform-lever, sewer-west, deep-mines, tunnel-junction, inside-pit, beast-defeated, above-pit, underground-passage, plus older.
+Next (continuation): from eastern-sewer, retry rat timing — wait on platform until game reports rats at western end (needs more waits or waiting in West/Centre where rats visible?), pull lever, then S E SE SE. Fetch last popcorn + green pearl via L118 area if still blocked. Then show green to trent, U NE SE, continue L157+ to ending. Conserve light/timers.
+Cases seg3: iron-door-open-blocked (world_state), pit-page-paper-synonym (vocab), beastpit-body-drop (planning, +3), pit-tunnel-go-east (none), junction-page-typo (syntax), trent-violet-blocked (world_state), pearl-violet-take (none), popcorn-get-probe (none), rat-popcorn-throw (syntax), lever-push-pull (vocab). Death e458 restored to b2; b3 sewer-west retry; b4 platform-lever timing retry pending.
+Status: honest stop, no ending reached; no finish claimed. Continue from eastern-sewer or platform-lever without replaying probes.

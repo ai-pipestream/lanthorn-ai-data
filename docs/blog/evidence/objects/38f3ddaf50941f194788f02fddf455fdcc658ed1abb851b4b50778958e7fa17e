@@ -1,0 +1,84 @@
+{
+  "game_id": "mortlake-manor",
+  "title": "Mortlake Manor",
+  "author": "Ben Chenoweth",
+  "url": "https://ifarchive.org/if-archive/solutions/MortlakeManorGameTranscript.txt",
+  "accessed_at": "2026-09-25T07:16:04.290244+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/MortlakeManorGameTranscript.txt",
+  "source_sha256": "d175e4de21c2153e0d0bb3930f09471393c6b1bff8692ceb26a906bcc36a6abe",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/mortlake-manor-walkthrough.txt",
+  "normalized_sha256": "d175e4de21c2153e0d0bb3930f09471393c6b1bff8692ceb26a906bcc36a6abe",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/mortlake.z8",
+  "story_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+  "compatibility": "Local Z8 R1/120304 matches archive bytes and the full author transcript banner, Inform 7 build 6G60. This is the complete 2012 adaptation of the 1994/2000 game, described as an introduction to IF; the transcript reaches its authored treasure ending, not a preview boundary.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "120304",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000001cb18cb19b98f010a4762b2d3005031323033303400427fad8d5a00000000000000000000000000000000b2d2000000000000010200000000362e3332",
+    "header_sha256": "3e0efbfdb127aa58fbc0813f1c9a0160547749119be14b5f13a67df4d7d23eab",
+    "checksum_hex": "8d5a",
+    "declared_length": 261480,
+    "file_bytes": 261632
+  },
+  "guide_release": 1,
+  "guide_serial": "120304",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "mortlake.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/mortlake.z8",
+    "accessed_at": "2026-09-25T07:16:59.466349+00:00",
+    "remote_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+    "local_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+    "bytes": 261632,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 1,
+    "remote_serial": "120304"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#mortlake.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "mortlake.z8\n◆\n[24-Mar-2012]\nIFDB entry\nIFWiki:\nMortlake Manor\nMortlake Manor. a gentle introduction to Interactive\nFiction, by Ben Chenoweth.\nRelease 1 / Serial number 120304.",
+    "tuid": "5acwwdfbclwq9bj4"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#MortlakeManorGameTranscript.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "MortlakeManorGameTranscript.txt\n◆\n[28-Mar-2012]\nIFDB entry\nGame transcript for Mortlake Manor by the game's author,\nBen Chenoweth.",
+    "tuid": "5acwwdfbclwq9bj4"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the manor investigation, acquire the tools and light, repair the fountain and retrieve the diamond through the authored treasure conclusion. The source transcript ends with a treasure-success narrative and The End after taking the diamond. Require independent raw-output confirmation; seeing the treasure from the balcony or a partial score is insufficient.",
+    "limitations": "The source is an author-supplied full transcript, not this collection session. Distinguish commands from narration and adapt ghost movement and waits to live output. Save early at a safe ordinary prompt and before maze or irreversible changes. Do not assume the sample 177-turn timing or repeat waits as transport flushes.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "mortlake-manor",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Group the original and 2012 adaptation together as mortlake-manor. This is distinct from the already registered Mansion by Derek Barley (Tercel) and Asylum; a haunted house or maze alone does not establish shared puzzles. No concrete overlap was identified in the read transcript or archive identities."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting or a copyright notice does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

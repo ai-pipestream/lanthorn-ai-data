@@ -1,0 +1,21 @@
+{
+  "target": 10,
+  "enabled": false,
+  "queue_configs": [
+    "control/fullplay-refill-queue-20260925.json",
+    "control/fullplay-refill-queue2-20260925.json",
+    "control/fullplay-refill-queue3-20260925.json",
+    "control/fullplay-refill-queue4-20260925.json",
+    "control/fullplay-refill-queue5-20260925.json",
+    "control/fullplay-refill-queue6-20260925.json",
+    "control/fullplay-refill-queue7-20260925.json",
+    "control/fleet-batch-a-20260925.json",
+    "control/fleet-batch-b-20260925.json",
+    "control/fleet-batch-c-20260925.json",
+    "control/fleet-batch-d-20260925.json",
+    "control/fleet-batch-e-20260925.json",
+    "control/fleet-batch-f-20260925.json",
+    "/work/experiments/lanthorn-recall-training/control/fleet-batch-g-20260925.json"
+  ],
+  "poll_seconds": 15
+}

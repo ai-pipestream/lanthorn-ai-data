@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:51:01.904546+00:00",
+  "game_id": "only-after-dark",
+  "events": [
+    {
+      "event_id": "only-after-dark-612a20ec77:e00085",
+      "timestamp": "2026-09-25T06:36:43.064186+00:00",
+      "game_id": "only-after-dark",
+      "session_id": "only-after-dark-612a20ec77",
+      "branch_id": "b2",
+      "event_index": 85,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\nYou awake looking into the worrying face of Captain Davids.\n\n\"Thank God, I thought I'd lost you. Sorry for the silver treatment; it was the \nonly way ro make sure you wouldn't kill us.\"\n\nYou smile, exhausted. \"You could have told me before it hurts that much.\"\n\nDavids opens his mouth, but you stop him with a gesture. \"Don't worry. I've \nsurvived, haven't I? More important is: have I done it?\"\n\nDavids nods and responds, but his words are lost on you as you fade back to \nsleep.\n\n\n    *** You have won ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 22070,
+      "raw_end": 22642,
+      "response_sha256": "1a46980ba0f7c4a3bdc0379508df3e6dfa3206ac232f2c76ce6ff648bb793b50",
+      "story_sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "only-after-dark-612a20ec77",
+        "case_id": "route-finale-after-howl",
+        "expected_outcome": "Concluding narrative after musket shot",
+        "intent": "Advance past keypress after howl and musket shot",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Awakening with Captain Davids, survival and mission acknowledgment; explicit win/finalmenu after final keypause. Independent review pending."
+}

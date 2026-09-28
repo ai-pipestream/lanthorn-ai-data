@@ -1,0 +1,7 @@
+# Collection notes
+
+Actual startup: Bronze R11/060503 Z-code, not the R13 Glulx release on the guide hosting page. Guide has no explicit release. Initially asks Have you played interactive fiction before? Answer that question before any SAVE or parser command. Do not inject checkpoints into yes/no prompts. Follow actual game response when a suggested command differs. Seek a resolved intended narrative ending, not just explored-room count.
+
+Collect labeled synthetic human-like command variations, actual responses and same-intent recoveries. Ask for small hints through broker help. Do not read the full guide directly. Save at ordinary prompts when supported. All model labels remain unreviewed until independently checked. No training, application changes or publication.
+
+2026-09-25 03:44 UTC menu transport note: MENU INPUT: For a menu that says RETURN or Enter, send an empty command string ("command":""). Do not spell RETURN, ENTER, SPACE or BACKSPACE as words. A literal space ("command":" ") is a different key from Enter. The plain CLI passes the first byte of nonempty input; an empty line sends Return. Menu controls are not ordinary parser commands: consult the actual menu labels. Avoid optional HELP/file menus if collection-notes.md documents stalled transport; request a small broker walkthrough excerpt instead. If output times out, await_output only; never use another key to flush it.

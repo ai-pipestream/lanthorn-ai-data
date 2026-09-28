@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-25T07:27:19.333848+00:00",
+  "target": 10,
+  "workers": {},
+  "attention": [
+    "zork-i7: unfinished without launcher; needs diagnosis, evidence retained",
+    "anchorhead: unfinished without launcher; needs diagnosis, evidence retained",
+    "curses: unfinished without launcher; needs diagnosis, evidence retained",
+    "jigsaw: unfinished without launcher; needs diagnosis, evidence retained",
+    "delusions: unfinished without launcher; needs diagnosis, evidence retained",
+    "the-edifice: unfinished without launcher; needs diagnosis, evidence retained",
+    "mansion: unfinished without launcher; needs diagnosis, evidence retained",
+    "magic-toyshop: unfinished without launcher; needs diagnosis, evidence retained",
+    "christminster: unfinished without launcher; needs diagnosis, evidence retained",
+    "the-wedding: unfinished without launcher; needs diagnosis, evidence retained"
+  ],
+  "ending_review_pending": [
+    "space-station",
+    "mother-loose"
+  ],
+  "queued": [
+    "not-just-a-game",
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man"
+  ]
+}

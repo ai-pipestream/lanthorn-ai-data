@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "wedding.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/wedding.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/wedding.sol",
+    "accessed_at": "2026-09-25T06:51:10.690553+00:00",
+    "sha256": "18ed4dee218ef83facf5fb3c6161a7ae7940c5435031e1c096cf93e49480cce0",
+    "bytes": 4291
+  },
+  {
+    "filename": "ghost_train.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/ghost_train.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/ghost_train.txt",
+    "accessed_at": "2026-09-25T06:51:10.699467+00:00",
+    "sha256": "918498de065e4c3c9b0938851e0143d0215ee689edc405d106587be171047327",
+    "bytes": 7934
+  },
+  {
+    "filename": "sd-walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/sd-walkthrough.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/sd-walkthrough.txt",
+    "accessed_at": "2026-09-25T06:51:10.686688+00:00",
+    "sha256": "27acd7bf474cf7dd5faf74a743ba9573bb975fe63eccac22d2b7d0ec19004751",
+    "bytes": 2336
+  },
+  {
+    "filename": "njag_walkthru.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/njag_walkthru.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/njag_walkthru.txt",
+    "accessed_at": "2026-09-25T06:51:10.686634+00:00",
+    "sha256": "f5463f438f8c8bc5cb508ac10e68c5c7297dd1f6a6a5438ba92d80aa34d55412",
+    "bytes": 1892
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T06:51:10.725598+00:00",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T06:51:10.725004+00:00",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  }
+]

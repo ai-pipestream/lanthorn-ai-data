@@ -1,0 +1,77 @@
+{
+  "game_id": "paper-chase",
+  "title": "Paper Chase",
+  "author": "Chris Skapura",
+  "url": "https://ifarchive.org/if-archive/solutions/PaperChase.sol",
+  "accessed_at": "2026-09-25T06:13:02.218353+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/PaperChase.sol",
+  "source_sha256": "5ee8c105492befb9c5f83d40e971065951d404a271cace8cf4b15adff08f0cd5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/paper-chase-walkthrough.txt",
+  "normalized_sha256": "5ee8c105492befb9c5f83d40e971065951d404a271cace8cf4b15adff08f0cd5",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/paperchase.z5",
+  "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+  "compatibility": "Local R1/950503, byte-identical archive story. Archive and guide identify Paper Chase, also called Collegiate Capers, with matching IFDB identity. Guide gives no release/serial; exact runtime compatibility remains unverified.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "950503",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000012b782b791c2d01020d8313500000393530353033004237b0d95500000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "5321c9d489648c0ae5c78ff240144c290fcb1f14d04aa4ae31b25b5073ec5ec5",
+    "checksum_hex": "d955",
+    "declared_length": 57024,
+    "file_bytes": 57344
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "paperchase.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/paperchase.z5",
+    "accessed_at": "2026-09-25T06:13:02.452178+00:00",
+    "remote_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+    "local_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+    "bytes": 57344,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "950503"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#paperchase.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "paperchase.z5\n◆\n[03-May-1995]\nIFDB entry\nPaper Chase, An Interactive Education by Chris Skapura.\nThis game was originally published as a TRS-80 BASIC\nlisting titled \"Collegiate Capers\" in '80 Micro' magazine,\nAugust 1983.",
+    "tuid": "yq8eqjou1mk3sw2q"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#PaperChase.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "PaperChase.sol\n◆\n[17-May-2003]\nIFDB entry\nSolution for Paper Chase, by Candyce Young-Fields.",
+    "tuid": "yq8eqjou1mk3sw2q"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete registration, courses, transcript and degree resolution, then leave the forest and confirm departure with the degree. Require the actual graduation conclusion. Leaving immediately is a losing shortcut; a score, passing one exam or obtaining the degree without the concluding exit is insufficient.",
+    "limitations": "The prose guide includes navigation and quiz answers with literal unusual spelling. Treat a mismatch as evidence to inspect, not an instruction to blindly normalize every word. Stop after the graduation ending rather than maximizing scores or probe volume.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "paper-chase",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Paper Chase and its original Collegiate Capers BASIC version belong together. Campus setting alone does not establish shared puzzles with batch B Save Princeton or Kook U."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission."
+}

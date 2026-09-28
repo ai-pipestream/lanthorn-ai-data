@@ -1,0 +1,9 @@
+# Progress secret-mission — b18 at grey room e01332 (security pic in hand, game incomplete)
+
+b18 alive, ~81 post-restart moves (restart e01250 inv=move1). Thud heard e01276 on go east (25th-move timer OK). Body was yellow room first check e01280.
+Key verification this branch: break window WITH RECORDER e01292 showed NEW line "TV camera is slow scanning the window area" (b17 e01200 lacked it). Extra SHOW PICTURE e01293 re-deactivated TV; GO WINDOW e01294 then clean with NO alarm (b17 had ALARMINGLY). Confirms supervisor supplemental: show after break before go window is mandatory. Cost +1 move vs b17.
+Saving: skipped wirefail repeat (get cutters direct e01318, same hash 8fa1 as b17) saving 1 → net 0 vs b17. B17 died blue-show BOOM at 89 (cd2962 x5); b18 will hit same wall in ~8 moves without cuts.
+Location: grey room north-only, security picture taken e01332, blue key on floor, carrying: recorder? (lost in smash — flew to control room), visitor? (dropped visitors), yellow key, blue key? (dropped blue e01331), cutters, mop? (dropped maint2), maintenance pic dropped yellow room, security pic held, pail NOT yet taken.
+Next (pending help m0529 lines 13+): need ~15-move savings before blue show for post-blue win (drop key, W store, wear suit, fill pail, E, open control, E break, drop pail, W, down, cut wires, get bomb, up+E, get pail, pour water). Candidates: cut grey rechecks (2), cut 2nd pre-break show (1, since enter-show already deactivates), take pail during wait (4), avoid yellow drop-back (5?). Do NOT probe in timer zone; checkpoint is progress.md only (SAVE unsupported).
+Cases: ~13 annotated; b18 adds verified show-after-break pair (e01292 fail-state rescan → e01293 success) still to annotate; owed: 2-key ambiguity, blocked open-door, word-order, wrong-object — spare/post-win only.
+Checkpoints: SAVE unsupported; continuation record is this file. Latest verified: latest.json e01332 + responses/m0528.json. Pending: m0529 help.

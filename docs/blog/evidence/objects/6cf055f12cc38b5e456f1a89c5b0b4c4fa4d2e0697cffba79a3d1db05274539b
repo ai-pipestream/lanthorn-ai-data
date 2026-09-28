@@ -1,0 +1,8 @@
+# SpiritWrak progress — INCOMPLETE, at Hallway west end (e68)
+
+State: Hallway (west end) after S (chapel->Main Hall e60), look e61, S (e62 Cloister), look e63, wordorder probe 'east go' rejected e64, 'go east' to Gardens e65, look e67, 'e' to Hallway west end e68. Ordinary prompt. Score unknown (was 2 at chapel). Light: holy amulet worn+glowing (e56), pallet glowing (e48) — both carried, finite light OK.
+Inventory (last observed chapel): holy amulet (worn+glowing), sleeping pallet (glowing), sand, prayer book. Frotz CONSUMED (e56 cast) — must 'learn frotz' before next cast.
+Checkpoints (verified Ok): chapel-start, quarters-start, garden-sand, chapel-light, chapel-amulet.
+Cases (12 annotated): prior 11 + cloister-wordorder-east syntax e64->e65 ('east go' partial-parse; 'go east' to Gardens).
+Last hint (m0047, lines 22-30): S,S,E done; still need E,E,E,E,E,S toward scroll; then Take scroll, read it (2/4); Gnusto espnis; Read diary; N,W,S; Read page; N,N.
+Next: continue E along hallway (single steps, look at new rooms); probe fresh error type (reasonable wrong object / omitted) before scroll take; checkpoint before risky/timed sequences; update progress.md every 10-15 requests. No pending (m0062 e68 confirmed).

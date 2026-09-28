@@ -1,0 +1,160 @@
+
+
+    *** SHADE ***
+A brief story by "Ampe R. Sand" (Andrew Plotkin)
+First-time players should type "about".
+Release 3 / Serial number 001127 / Inform v6.21 Library 6/10 
+
+Odd, how the light just makes your apartment gloomier. Pre-dawn darkness pools 
+in the corners and around the tops of walls. Your desk lamp glares yellow, but 
+the shadows only draw your eyes and deepen.
+
+Not much of an apartment, no. One desk, paper-piled, with a dusty computer 
+shoved to the side. Your futon. Second-hand stereo sitting on a cardboard crate.
+A kitchen nook one way and a bathroom nook the other, with a closet to the side.
+A broad mirror tries to make the place seem twice its size; it halfway works. 
+One window, whose shade is down, and the front door firmly shut.
+
+Your luggage is piled untidily by the door. A potted hyacinth sits beneath the 
+window.
+
+You are sprawled on the futon, staring up into that gloom. Your eyes feel 
+gritty. But it's too late -- early -- no time left for sleep, anyway. In a few 
+hours your ride will arrive.
+
+On the desk are your to-do list and a travel book.
+
+>This is a one-room game set in your apartment. ...But perhaps you've already 
+gathered that.
+
+SHADE mostly uses the standard vocabulary of interactive fiction. You may find 
+the command "find..." (or "where is...") convenient, though not critically 
+important.
+
+SHADE is copyright 2000 by Andrew Plotkin (erkyrath@eblong.com). He began 
+coding it on the morning of September 2, 2000, and raced like the wind to 
+finish it in time for the Sixth Annual IF Competition. (SHADE placed tenth, 
+which is pretty darn good, considering the overall excellence of the entries 
+that year.) For more IF by the same author, see
+
+    <http://www.eblong.com/zarf/if.html>
+
+SHADE may be distributed for free, but not sold or included in any for-profit 
+collection without written permission from the author.
+
+All hail the beta-tester: Michael Kinyon (still inevitable after all these 
+years). And the people who sent bug reports after the competition, who include 
+(but are not limited to): Ross Presser, Gunther Schmidl, Matthew Murray, Joe 
+Mason, Nick Wolfe, Caleb Wilson, Neil Cerutti, Jason McIntosh, Daryl 
+McCullough, Lelah Conrad, Jeff Hall. And -- this game is dedicated to Meatball 
+Fulton.
+
+>You are carrying nothing.
+
+>The futon is definitely on the downhill side of life's rolling knolls. It 
+serves as both couch and bed, if inadequately in each case, which makes it the 
+most important piece of furniture you own.
+
+>You lever yourself upright. Umf. It's amazing how much lack of sleep feels like 
+a hangover, only without the preceding party.
+
+>You survey your one small room. One desk, paper-piled, with a dusty computer 
+shoved to the side. Your futon. Second-hand stereo sitting on a cardboard crate.
+A kitchen nook one way and a bathroom nook the other, with a closet to the side.
+A broad mirror tries to make the place seem twice its size; it halfway works. 
+One window, whose shade is down, and the front door firmly shut.
+
+The place is still too dim, except the corner where the desk lamp is somehow 
+too bright.
+
+Your luggage is piled untidily by the door. A potted hyacinth sits beneath the 
+window.
+
+On the desk are your to-do list and a travel book.
+
+Come to think of it, as with a hangover, dehydration is probably the problem. 
+Your mouth is dry wool.
+
+>The desk is, of course, an organized mess; overlapping piles of paper, inches 
+high. The computer is a dusty beige block, several generations out of date, 
+poking up hopefully from among the strata. The lamp hangs over all.
+
+A game-over message is flashing on the screen.
+
+You see your to-do list and a travel book on the desk.
+
+>You sit down at the desk.
+
+The computer is years old, and incompatible with just about everything but 
+electricity. You use it for writing -- at least, you try to believe that you do.
+
+Right now, however, there's a game on the screen -- one of the text adventures, 
+or interactive fictions, or whatever they are this month -- the only kind of 
+game your beige antique can run, anyway.
+
+The you-have-died message is blinking morosely at you. You started up Ready, 
+Okay! last night, trying to distract yourself until morning. But you can't get 
+even halfway through without running out of insulin.
+
+>The papers encompass everything you've done, thought, or written in the past 
+year. And none of it is really worth looking through.
+
+>The task list for your impending journey is a mess of crossed-out items and 
+scribbled corrections. However, everything seems to have gotten done. The last 
+line reads "Call taxi", and it has its checkmark, and here you wait.
+
+>The Schmendrick's Guide to Desert Camping -- you've been studying it for weeks 
+now. Vast alien reams of information: perspiration rates, sunburn factors, tent 
+guying, and how to make a condensation still out of a trashbag and a tin can. 
+You could probably write the book out longhand from memory; and none of it 
+means a damn thing to you.
+
+(That's why you're going on this trip, after all. It is, of course, the Death 
+Valley Om -- half arts festival, half cult, a week in the deep desert where 
+people show off, have sex, take drugs, and maintain a twenty-four-hour constant 
+OM. Sand, heat, and thousands of throats. A space outside the world; with no 
+dues except that you join in the chant, as much as is in you to chant.)
+
+You're still feeling thirsty.
+
+>The lamp is a peculiar goosenecked item that you found at a yard sale. It's 
+clamped to the side of the desk, and balanced with a collection of clothespins. 
+The lamp casts an uncomfortable yellow glare around the desk; it makes your 
+eyes ache.
+
+>The shade is a white plastic sheet -- more yellowing, maybe. One of those 
+roller mechanisms that never quite works. The shade is pulled down against the 
+pre-dawn gloom.
+
+>The shade is drawn.
+
+>You stand up.
+
+>You've packed and repacked: breakdown tent, dried food, sunscreen, compass, 
+mylar space-blanket, long underwear and showoff tats, walking shoes and dancing 
+shoes and hiking shoes. You're ready for the Death Valley Om.
+
+(As ready as you're likely to get. Nothing is off-limits at the Om. "Law ends 
+at sea level." In one place in the country, for one week, a community is formed 
+from pure will. No enforcement; only desire, and the knowledge of what the 
+desert can do. And the Om. Every religion chants, you remember reading that.)
+
+>This plant is your one claim to actual responsibility. The hyacinth sits by the 
+window, soaking up sunlight (when it's not night) and managing to thrive 
+despite your lack of gardening skill. Although it looks a little parched at the 
+moment.
+
+>The far side of the mirror is just as shadowy as this one. It's probably meant 
+as commentary; not more space, just more of the same.
+
+>The front door is white and rectangular -- yes. The door is closed.
+
+You run your tongue over dry teeth.
+
+>The stereo is old, dating from the era when matte-black, featureless, and 
+opaque were the watchwords of hipness. It still works, however.
+
+>The crate your computer arrived in. It's dented and disreputable now, but still 
+serves the time-honored purpose of holding your stereo up.
+
+>

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-25T08:31:38.539155+00:00",
+  "selected": [
+    "lecture-feature",
+    "underoos-that-ate-new-york",
+    "time-all-things-come-to-an-end",
+    "detective"
+  ],
+  "variety": [
+    "campus recruitment comedy",
+    "animated-clothing rescue comedy",
+    "long multi-era science-fiction puzzle adventure",
+    "short detective investigation"
+  ],
+  "explicit_pending_i_exclusions": [
+    "augmented-fourth",
+    "pythos-mask",
+    "alias-magpie",
+    "a-remote-problem"
+  ],
+  "excluded": [
+    {
+      "candidate": "cycles.z5 / cycles_hints.htm",
+      "reason": "Archive document is only a short seven-puzzle hint sheet, not selected as a full guide."
+    },
+    {
+      "candidate": "princess.zip / iceprin.sol",
+      "reason": "Although guide matches R8/960901, bundled readme says completion requires materials supplied with registration. Excluded to avoid relying on unavailable supporting materials.",
+      "container": "/home/krickert/if-games/zcode/princess.zip",
+      "container_sha256": "bacd1c955eb48c643ca1ee7ed05e097d42127364d3f8e16f3b2edd4717652b9a",
+      "member": "PRINCESS.TXT",
+      "readme_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/rejected-princess-readme.txt",
+      "readme_sha256": "77d1a40b532b64549d3f3cb6052f6a008433347cf60de65271e798f6a1de4eb6"
+    }
+  ],
+  "scope": "Exactly four J configs; all A-I/current play excluded; no shared writes."
+}

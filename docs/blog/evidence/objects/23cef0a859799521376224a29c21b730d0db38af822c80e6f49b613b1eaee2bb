@@ -1,0 +1,16 @@
+# Nine Points – progress (update 2)
+
+Location: Great Uncle's Bedroom (door slammed shut on entry).
+Inventory (observed): brass lantern on bed (not yet taken); bed, furniture, ornate bookcase, large green plant in pot, window north, door south.
+Branch: b0. Last confirmed event: e00029 x bed (worn spot by foot).
+
+Checkpoints: start-hallway, bedroom-entry (both verified Ok).
+
+Cases:
+- annotated: hallway-south-typo, lounge-bowl-typo, lounge-sit-omit, lounge-stand-prereq, hallway-table-synonym, lounge-fish-look, lounge-chair-pronoun
+- pending annotate: bedroom-bed-wordorder e00028->e00029 (m0027 submitted, response pending – do not resubmit)
+- observed but needs annotation: lounge-door-blocked e00017 (jammed), lounge-north-return e00021, hallway-north-bedroom e00025
+
+Last hint e00006: examine bed/furniture, bookcase route. Bed shows worn spot – likely push/pull bed puzzle.
+
+Next: after m0027 lands, examine furniture/lantern/bookcase/plant/window with varied probes; take lantern; test push bed; request small hint when stuck twice; milestone checkpoint before risky moves.

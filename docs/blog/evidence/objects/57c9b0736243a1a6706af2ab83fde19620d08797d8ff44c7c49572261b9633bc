@@ -1,0 +1,188 @@
+{
+  "verified_at": "2026-09-25T05:58:17.685368+00:00",
+  "events": [
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00001",
+      "timestamp": "2026-09-25T05:55:03.415249+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\nThis must be your 30th time up the stairs today, but fortunately, this is your \nfinal trip. All the laundry and cleaning are done, the carpets shampooed and \nthe beds made. All that's left to do is to put away the last load of laundry, \nmake a cocktail, and unwind in a hot bath while the carpets dry. \n\nHowever, as you attempt the last of fourteen steps, your foot finds a small toy \ncar inconveniently located as to cause your feet to go west while your head \ngoes east. East, a direction typically no worse than any other direction, \nunfortunately at this time offers the corner of a banister. Your head's \nprogression is significantly hampered by this obstruction, and as the resulting \n'THUMP' resonates throughout the house, your head decides it isn't worth \nstaying awake to investigate further.\n\nYou awake somewhat later to find your head no worse for wear but a little \nfoggy, a little confused, and more than a little out of touch....\n\n                      (Press SPACE to Continue)\n\n",
+      "raw_start": 0,
+      "raw_end": 999,
+      "response_sha256": "ec281632a1bf1bdce95467ac66de8c6a59b8658b9340f97cd7fbdcbeaff4617d",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00002",
+      "timestamp": "2026-09-25T05:55:18.123100+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": " ",
+      "response": "\n\n\n\n\n\nTRYST OF FATE\n\nAn Interactive Horse Opera\nCopyright (c) 1995, 1996, 1997 by G. M. Zagurski.\nRelease 205 / Serial number 970629 / Inform v6.13 Library 6/5\nStandard interpreter 1.1\n\nOn the Floor\n\nYou are lying on the floor staring at the ceiling. Your head feels surprisingly \ngood considering your previous antics. In fact, you feel quite refreshed from \nyour hiatus from consciousness.\n\n>",
+      "raw_start": 999,
+      "raw_end": 1393,
+      "response_sha256": "c7d61f25f8ad7d17e551bb47248a52adad17bd56832de1cee21b1b8a99005ee9",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-opening",
+        "intent": "Press SPACE to continue past intro",
+        "origin": "exploration",
+        "expected_outcome": "Advance intro text"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00003",
+      "timestamp": "2026-09-25T05:55:22.395126+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1393,
+      "raw_end": 1407,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-floor"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00004",
+      "timestamp": "2026-09-25T05:55:22.707164+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "start-floor.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/tryst-of-fate/saves/tryst205.z5.save/start-floor.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1407,
+      "raw_end": 1530,
+      "response_sha256": "c898f7009ae2fca56361743c36982cf8c286df9d4a671d903b2ec217a744c016",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-floor"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00005",
+      "timestamp": "2026-09-25T05:55:28.322674+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nOn the Floor\n\nYou are lying on the floor staring at the ceiling. Your head feels surprisingly \ngood considering your previous antics. In fact, you feel quite refreshed from \nyour hiatus from consciousness.\n\n>",
+      "raw_start": 1530,
+      "raw_end": 1739,
+      "response_sha256": "8b75b233bd2a598d4c33ec26e78d402fa704f6e47c34e2dbe7e0330ada0a3bce",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-look-floor",
+        "expected_outcome": "Room description",
+        "intent": "Describe current surroundings",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00006",
+      "timestamp": "2026-09-25T05:55:33.372810+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "satnd up",
+      "response": "That's not a verb I recognise.\n\n>",
+      "raw_start": 1739,
+      "raw_end": 1772,
+      "response_sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "stand-typo-01",
+        "expected_outcome": "Stand up from floor",
+        "intent": "Stand up from the floor",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00007",
+      "timestamp": "2026-09-25T05:55:37.372056+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "help",
+      "command": null,
+      "response": "",
+      "raw_start": 1772,
+      "raw_end": 1772,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "unchanged",
+      "metadata": {
+        "help_trigger": "stuck",
+        "reason": "Tried 'satnd up' intending to stand from floor; got unknown verb. Need guidance on correct standing phrasing.",
+        "related_event_ids": [
+          "tryst-of-fate-21296bfe76:e00006"
+        ],
+        "topic": "stand up from floor at start",
+        "hint_source": "https://ifarchive.org/if-archive/solutions/tryst.step",
+        "line_start": 15,
+        "line_end": 23,
+        "hint_text": "Comments and earned/total points are in ()\n-----------------------------------------------------------------------------\n(your purpose in this game is to defeat\n the bad guys and recover your watch)\n\nStand up\nAgain\nGet gumball\n(a gnome will appear)",
+        "source_kind": "walkthrough_not_player_observed"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "tryst-of-fate-21296bfe76:e00008",
+      "timestamp": "2026-09-25T05:55:42.247474+00:00",
+      "game_id": "tryst-of-fate",
+      "session_id": "tryst-of-fate-21296bfe76",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "stand up",
+      "response": "Just as you start to move, a grizzly little man about four feet tall wearing a \nred scarf and a black cowboy hat comes in from the bedroom to the north. After \na quick glance, the little man bends over and extracts your gold watch from \nyour wrist in one swift movement. As the man examines the watch, a raspy voice \nyells out, \"Frank, get yer carcass outta here and down below where ya belong. \nDadgummit anyhow!\" The startled little man looks around and runs to the north \nwith spurs clattering. Something drops from his pocket during his hasty exit.\n\n>",
+      "raw_start": 1772,
+      "raw_end": 2327,
+      "response_sha256": "e043272e273641086c54c837e1dd5cc40dbe8a8869f2782983abce928cae5df4",
+      "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "stand-typo-01",
+        "expected_outcome": "Stand up from floor",
+        "intent": "Stand up from the floor",
+        "origin": "recovery"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hashes_verified": true
+}

@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "stale_snapshot",
+    "stale_session",
+    "unknown_evidence",
+    "extra_game",
+    "wrong_capacity"
+  ],
+  "positive_runs": 2,
+  "note": "Harness negative fixtures only, no live game or model calls"
+}

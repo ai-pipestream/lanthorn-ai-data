@@ -1,0 +1,10 @@
+{
+  "run": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T104128.748159Z",
+  "exit_code": 124,
+  "provider_exit_code": 124,
+  "status": "provider_failed",
+  "error": null,
+  "parent_review_required": true,
+  "actions_executed": [],
+  "review_queue": []
+}

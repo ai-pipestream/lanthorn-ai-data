@@ -1,0 +1,61 @@
+# Fullplay supervision
+
+Bounded pass completed 2026-09-25T08:23:31.044410+00:00; fixed case cutoff 2026-09-25T08:13:26.594791+00:00.
+
+**120 annotations across59 games:101 accepted,9 revise,10 quarantine.** Both endpoints and 737 distinct nearby/intervening journal spans independently matched raw offsets, SHA256, response text and CSV command/branch fields. Zero raw/hash/export mismatch. This is synthetic test-data review, not a model skill benchmark.
+
+Export snapshot: **3732 unique annotations; 1968 accepted, 476 revise, 107 quarantine, 1181 unreviewed.** Counts use exact annotation identity and unique endpoint-set equality; cached export labels may lag. The growing tail is unreviewed.
+
+## Four independently verified authored conclusions
+
+Historical total **47**, preserving prior43. This total includes **Nine Points SAMPLE** and **Bedlam PREVIEW**, not47 completed full planned games.
+
+- **i-0** i-0-d1ac7729bb:e00257 (b8): Verified alternate gray-pickup route home/birthday e250, gift/message finale e257 in b8. After explicit bedroom restore e258/e259 into b9, e263 READ MESSAGE repeats finale. Claim e264 is b9; first witnessed ending remains b8. Not the preferred Larry/bus route. Raw 44630:44737, SHA256 370a0600b84cecab8be5e377088b8bff2e97f280975bba889a74a366aca739a7. Local Z5 R5/140603; older1998 travelogue lacks exact target release/serial. Observed alternate route only; no preferred route claim.
+- **the-edifice** the-edifice-79519f86df:e00829 (b1): Verified WEST e829 return-to-roots/HISTORY ending and final menu after three-level solved score record e819. Not merely an intermediate level transition. Raw 179450:180518, SHA256 9ffb88a8ea84ffd3993640b287c3b6a03bf9b03c64b662f1978755941fa86a96. Local Z5 R2/980206; author input recording lacks exact release and includes exploratory commands. Raw engine output establishes observed ending.
+- **bedlam** bedlam-59f5a6e860:e00143 (b0): Verified authored PREVIEW conclusion e143 TURN ON CAR: explicitly about one-fourth of planned project. The won banner does not make this the complete planned game. No gameplay between finale and e161 claim. Raw 16936:17667, SHA256 9e037aab4f3732a15de6a7d80d58e83c2521654bae81a1937ec40cf4245f2d62. Local Z5 R1/970711; preview scope explicit in actual finale. Guide target unspecified.
+- **magic-toyshop** magic-toyshop-9a53f3ebb2:e00291 (b2): Verified ENTER CHEST e291 transports to Victorian arcade and Isabelle birthday-parcel epilogue, explicit win/final menu. Score20/20 does not prove all possible content or cases. Raw 34433:35103, SHA256 327d932d89b760529f6c8d287fa0493ea3f3576d45e46e5882216542bb000f5d. Local Z5 R1/951018 matches guide release/serial declaration. Observed conclusion only, no exhaustive compatibility claim.
+
+I-0 e246 records the alternate gray-pickup route, e250 home/birthday, e257 b8 finale, then explicit bedroom restore e258/e259 creates b9 before e263 repeats the finale and e264 claims it. The claim branch is not substituted for the first witnessed ending. Bedlam has only metadata annotations between e143 finale and e161 claim. The Edifice e819 explicitly records three solved levels before e829's return-to-roots ending. Scores do not establish maximal content or all possible test cases.
+
+## Replacement startup identities
+
+- **muse-autumn-romance** muse-autumn-romance-dde3ae3e6f: Z5 R2/990922 header/banner verified, initial SPACE pause then Pier, e3/e4 SAVE verified. Guide text Release990406/Version2.0.026 belongs to MS-DOS Editor metadata, not demonstrated story release; older guide date retained as compatibility uncertainty.
+- **believable-adventures-invisible-man** believable-adventures-invisible-man-5201a7e372: Z8 R2/100130, banner build5Z71, Laboratory and e2/e3 SAVE verified. Guide explicitly second release but no serial; no exact serial compatibility claim.
+- **traffic** traffic-dc40d385c3: Z5 R2/241027 header/banner, Jones/Elm and e2/e3 SAVE verified. Guide explicitly release2 but no serial. e16 apparent death followed by e17 SPACE becomes native time/body transition, not an ending.
+- **bicon** bicon-e4b7be4302: Blorb container and embedded ZCOD separately SHA-verified; embedded Z8 R4/101006, banner build6E72, early e2/e3 SAVE verified. Guide exact R4/101006/build6E72 matches.
+
+All eight side audits independently checked current story bytes, raw offsets/hash/text and guide declarations. BiCon's Blorb and embedded ZCOD have separate recorded hashes. Early checkpoint file existence/hash was checked without restore. Source metadata is guidance/provenance, not fresh web access or full walkthrough compatibility.
+
+## Review revisions and exclusions
+
+- believable-adventures-invisible-man-5201a7e372:e00035: Independent exact endpoint and nearby/intervening raw SHA/text review. TAKE OFF CLOTHES proves undressing, not the stated fully-invisible outcome: clothes remain carried. Narrow goal to removing worn clothes or add observed visibility evidence.
+- bicon-e4b7be4302:e00058: Independent exact endpoint and nearby/intervening raw SHA/text review. ASK FRIENDS ABOUT FOOD adds a topic absent from TALK TO FRIENDS. Preserve as one supported conversation option; do not label uniquely intended semantic repair.
+- muse-autumn-romance-dde3ae3e6f:e00040: Independent exact endpoint and nearby/intervening raw SHA/text review. TAKE EASEL attempts acquisition; EXAMINE EASEL changes the action to inspection after ownership refusal. Quarantine as a successful same-intent repair; retain only as explicit alternate goal.
+- muse-autumn-romance-dde3ae3e6f:e00055: Independent exact endpoint and nearby/intervening raw SHA/text review. FOLLOW HER fails; SOUTH merely reaches Beach Wall without confirming the woman was followed. Changed/unsupported route cannot be a verified following correction.
+- all-quiet-on-the-library-front-a0c0a11bad:e00072: Independent exact endpoint and nearby/intervening raw SHA/text review. Whole response mixes Hubbard quotation with residual Pratchett text. Navigation body is readable, but unsplit response is unsuitable as an isolated command-output pair.
+- bears-night-out-a79e3c9a58:e00369: Independent exact endpoint and nearby/intervening raw SHA/text review. SHAKE BALL's alert body is observed, but mixed KIBITZ/Russotto and residual Yogi/Boo Boo attribution contaminates the unsplit response.
+- critical-breach-b5dd49a3e4:e00167: Independent exact endpoint and nearby/intervening raw SHA/text review. PUT CHIP IN INJECTOR and LOAD CHIP successes span b0 to b5 with five restores and many intervening actions. Retain separate local positives; disclose cross-restore history instead of implying a controlled synonym comparison.
+- deephome-56e3d50bda:e00146: Independent exact endpoint and nearby/intervening raw SHA/text review. Full title used EXORCISMS while observed title spells EXCORCISMS. Short FRESTO works, but this does not prove parser truncation or general rejection of long titles.
+- frozen-a2e5d2eea9:e00119: Independent exact endpoint and nearby/intervening raw SHA/text review. TAKE REXAL says already held after an earlier successful bottle acquisition. SEARCH BOTTLES was not a failed taking attempt. Relabel as referent/already-held confirmation, not a new successful acquisition repair.
+- i-0-d1ac7729bb:e00188: Independent exact endpoint and nearby/intervening raw SHA/text review. PUT CLUB ON STEERING WHEEL to HIT JACK WITH CLUB changes the target/action and causes a crash. Not a successful wording repair despite the yes label; retain only separately as a changed plan.
+- night-at-the-computer-center-d16c3b6cd5:e00100: Independent exact endpoint and nearby/intervening raw SHA/text review. Maze entry body is readable but repeated Night status/Relax tail remains conservatively excluded from isolated full-response use. Also turning on light and retry are confounded; necessity of each was not independently tested.
+- only-after-dark-612a20ec77:e00105: Independent exact endpoint and nearby/intervening raw SHA/text review. OPEN DOOR to GET ON BED changes action and only proves getting onto a bed, not leaving jail. Quarantine the successful escape repair label; retain a separate partial plan with intent-no.
+- pentari-63be930153:e00130: Independent exact endpoint and nearby/intervening raw SHA/text review. IN BOX to ON BOX changes containment to supporting-surface placement. Original command goal is not preserved despite yes label. Can retain only explicitly as different spatial goal/plan.
+- return-to-karn-bf86b7da19:e00075: Independent exact endpoint and nearby/intervening raw SHA/text review. PUT SCALPEL IN TOOLKIT fails after taking scalpel. Missing-toolkit explanation is plausible from travel history but endpoint alone does not prove it was left specifically in workshop. Keep refusal; cite a drop/inventory event before asserting cause.
+- spiritwrak-8e02d83255:e00082: Independent exact endpoint and nearby/intervening raw SHA/text review. Corrected ESPNIS first produces no effect, then succeeds on retry. Raw evidence supports retry variability but not an independently established RNG mechanism; retain typo plus staged retry, mark RNG as hypothesis/source inference.
+- all-quiet-on-the-library-front-a0c0a11bad:e00074: Independent exact endpoint and nearby/intervening raw SHA/text review. SHUT DOOR body is readable but full response contains mixed Hubbard and old Pratchett quotation tail. Exclude unsplit response.
+- bears-night-out-a79e3c9a58:e00370: Independent exact endpoint and nearby/intervening raw SHA/text review. Explicit intent-no appropriately separates cat plan from basket climbing, but both endpoints carry mixed quotation/attribution tails. Quarantine unsplit pair; route body alone is not raw-clean case approval.
+- beyond-the-tesseract-26b2abc71c:e00104: Independent exact endpoint and nearby/intervening raw SHA/text review. TAKE IMPROBABILITY opens a required probability-value prompt. This proves recognition/prompt entry, not completed taking. Narrow outcome or link the later completed input.
+- curses-4e1875ea4e:e01852: Independent exact endpoint and nearby/intervening raw SHA/text review. CLEAN and WIPE locally achieve nothing. Remove global claim that no cleaning effect exists or soot is unremovable; two failed commands establish only this tested state.
+
+Nearby/intervening state is part of each decision. Critical Breach's two loading successes span five restores b0 to b5; they cannot stand as an immediate controlled synonym test. So Far explicitly restores b28 to b29 between destructive pod crushing and collecting oil, with matching inventory recorded; this is retained as a disclosed cross-branch consequence comparison. Traffic's apparent death is demonstrably followed by literal SPACE into another time/body in the same branch; it is a native narrative transition.
+
+Intact recurring literary UI text alone does not prove transport contamination. Muse's coherent quotations remain ancillary to verified local action outcomes. Mixed Library Front/Bears quotation fragments and old attributions remain quarantined as unsplit responses. Night's previous conservative isolated-response exclusion remains unchanged. Generic Taken still requires command/context; source guidance cannot substitute for observed output.
+
+## Current operation and preserved history
+
+Parent reports34healthy clients. Reviewer checked central latest recorded inputs and local process snapshot only, without contacting remote workers or driving games. Latest raw faults: []. Additional claims visible but not reviewed in this fixed pass: attack-of-the-yeti-robot-zombies, beyond-the-tesseract, the-wedding, zork-i7.
+
+Prior verdicts, raw receipts, startup errors, release gaps, transport exclusions and recovery history remain in status JSON. HLA's startup Library error10 is not erased by later saves. Spider b19 ending predates b20 restore; Only After Dark's ending predates later branches. Zork remains the exact Dungeon/I7 port, not commercial ZorkI. Historical source hints remain guidance until corroborated by actual interpreter output. Old quota-hold/process fields are historical; this current snapshot supersedes them.
+
+Bounded pass complete. Only reviewed/fullplay-cases.json, runs/fullplay-status.json and runs/fullplay-supervision.md changed. No game input, reset, launch, training, evaluation or publication.

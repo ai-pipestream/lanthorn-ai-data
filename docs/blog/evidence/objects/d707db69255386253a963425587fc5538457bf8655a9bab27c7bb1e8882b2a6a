@@ -1,0 +1,8 @@
+# Enemies progress — key complete 771, Pottery e458; returning to locker
+
+Branch b1. Pottery Room e458. Score 27. Prompt ">". Checkpoint before-kiln verified.
+Key: tungsten outer 77 e442, iron center 15 e450, bronze inner 17 e458 — all three prongs fitted with clicks. Holding completed key. Mould scale left at 17.
+Route back per hint N,N W,S,E: Pottery N Workshop, Workshop N Rear, Rear W Main, Main S Cloakroom, Cloakroom E Locker (771 Wendy). Then unlock/open locker per next hint (need excerpt after N,N W,S,E).
+Cases: gas wordorder turn gas on e437 accepted; pipes look e428 accepted; mold/mould annotated; scale/gas/water canonical. Still need annotate pipes + gas wordorder as none, plus locker/key upcoming probes.
+Pending: none; next m0434 N to Workshop.
+Checkpoints: before-kiln; next milestone after locker open.

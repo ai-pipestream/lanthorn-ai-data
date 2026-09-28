@@ -1,0 +1,12 @@
+# Zuni Doll progress
+
+Location: Bathroom, door now open, doll burned and fled. Score 18.
+Inventory (observed): talisman lost to Elmo, sheet used/left in bedroom, dental floss used (tied), hairspray can + zipo lighter (tied assembly), slippers worn, bathrobe worn with tie. Need fresh look/inventory to confirm.
+
+Checkpoints: start-bedroom (ok), after-burn (ok).
+Last hint (lines 14-22): (wait for doll) spray can at doll; wear slippers; unlock door; open door; n e / e; Kitchen get knife; open freezer; w; Living room kill doll with knife; e.
+Next: go north to bedroom, then east to living room/kitchen per hint; get knife, open freezer.
+
+Cases done:
+- talisman-ellipsis (e4 none), talisman-typo (e6->e8 vocab), sheet-synonym (e11->e12 vocab), stand-paraphrase (e14 none), door-unlock-order (e34->e35/36 world_state), slippers-synonym (e33 none), flamethrower-timing (e28->e30 world_state, natural).
+Unresolved: none pending; need 20-40 total, continue diverse probes (typos, synonyms, omitted objects, pronouns, word order, wrong objects) at new rooms.

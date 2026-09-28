@@ -1,0 +1,25 @@
+{
+  "event_id": "only-after-dark-612a20ec77:e00121",
+  "timestamp": "2026-09-25T06:46:45.534080+00:00",
+  "game_id": "only-after-dark",
+  "session_id": "only-after-dark-612a20ec77",
+  "branch_id": "b4",
+  "event_index": 121,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 27682,
+  "raw_end": 27682,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "only-after-dark-612a20ec77",
+    "ending_quote": "    *** You have won ***",
+    "evidence_event_ids": [
+      "only-after-dark-612a20ec77:e00085"
+    ],
+    "notes": "Day Three finale on b2: second jump shaman killed him (e00075), persisted through blood hunger sw/southwest/sw to Beach (e00078/e00081/e00082), howl summoned Davids boat and silver musket cloud (e00084), keypress revealed Davids cure dialogue and *** You have won *** menu (e00085). This is author-intended win after shaman confrontation, southwest escape and final howl per manifest, not death (no dying), not fail menu (b1 e00070 was fail, recovered), not chapter transition (Day Two e00048/e00056 passed earlier), not quit."
+  },
+  "review_status": "unreviewed"
+}

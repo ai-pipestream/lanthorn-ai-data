@@ -1,0 +1,11 @@
+# Zuni Doll progress
+
+Location: Living Room, doll trapped in closed freezer (Kitchen). Score 34 (e69 desk unlocked). Small sword taken.
+Inventory (observed, needs fresh inventory cmd): bathrobe worn, slippers worn, tie?, hairspray+lighter?, small sword (e65 Taken, score 31); French knife likely in freezer with doll; desk unlocked, not yet opened.
+Checkpoints: start-bedroom (ok), after-burn (ok), after-freezer (ok e62-63).
+Last hint (m0051 lines 23-31): get sword [1/31] done; unlock desk with sword [3/34] done; next: open desk; get key [1/35]; get band [1/36]; unlock cabinet with key; open cabinet; get rod [1/37]; get bell [1/38]; untie tie; tie tie to bell [3/43]; ring bell [3/46]; get talisman; tie band to rod [3/49]; load talisman in band [3/52]; e.
+Next (after m0064 resolves): open desk (consider synthetic probe e.g. 'open writing desk' synonym or typo before canonical); then get key/band; cabinet sequence with wrong-object probe (sword vs key).
+
+Cases done (annotated):
+- talisman-ellipsis (e4 none), talisman-typo (e6->e8 vocab), sheet-synonym (e11->e12 vocab), stand-paraphrase (e14 none), door-unlock-order (e34->e35/36 world_state), slippers-synonym (e33 none), flamethrower-timing (e28->e30 world_state natural), east-typo (e42->e43 vocab), knife-typo (e47->e48 vocab), freezer-synonym fridge (e49->e50 vocab), knife-attack-synonym stab (e54->e55 vocab, annotated e67), sword-typo (e64->e65 vocab, annotated e66), desk-unlock-omitted (e68 prompt -> e69 success syntax, annotate pending m0064).
+Pending: m0064 annotate desk-unlock-omitted (inbox 0064 valid JSON, awaiting responses/0064); do NOT resubmit or duplicate. Before stopping, allow 190s from latest e69 (06:32:39Z) with read-only polling.

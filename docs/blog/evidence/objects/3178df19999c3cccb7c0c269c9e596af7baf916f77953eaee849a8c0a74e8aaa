@@ -1,0 +1,10 @@
+# Bronze progress — SEGMENT 5 (incomplete, continuation needed)
+
+Game R11/060503 b0. Last confirmed e00547 Rooted Room, ordinary prompt, candle on ground here.
+Location: Rooted Room 42/55. Candle dropped here (providing light, visible). Carrying: vial, contract book, sceptre, shoes, iron key, stool, small key, embroidery, helmet, shackle (e00545, no candle).
+Pending: none; m0473-m0502 observed. Next inbox m0503.
+Milestones this segment: SW Rooted->Tight Passage 42/55 e00517 (sinister door W, cord+inscription); sinister typo probe e00518-e00520; open door blocked lacks key e00521; take cord=yank bell toll e00522-e00523 (none); x cord e00524; writing->helmet ambiguity e00525-e00527; read lettering parsed as read-in e00528 vs read inscription candle-positions e00529-e00530; help WAVE CANDLE e00531; shake=violence vs wave=knee-height NE e00532-e00534; help DROP/MOVE/TOUCH/PUSH/G/X e00535; checkpoint sinister-inscription e00536-e00537; drop candle under inscription wrong angle e00538; move candle NE along wall P,L,D e00539; touch inscription P,L,D L-for-Lucrezia e00540; push candle P,L,D e00541; g pushed NE into Rooted Room e00542; SW back to Darkness raking light from NE e00543; x inscription partial P,L,D + last line 'or he will depart again without offering aid' e00544; inventory confirms candle left e00545; help NE/DROP STOOL/PUT CANDLE ON STOOL/... e00546; NE to Rooted Room candle here e00547.
+Hints held: e00546 next is DROP STOOL / PUT CANDLE ON THE STOOL / GET CANDLE / PUT CANDLE ON STOOL / SW / X INSCRIPTION / NE / GET ALL (lines 300-308). Raise candle to inscription height with stool, then read from SW.
+Checkpoints: sinister-inscription (+ basement-return, translation-lit, rose-garden-candle, older).
+Annotation backlog: sinister-open-blocked e00521 (world_state, needs annotate with eventual opening); tight-drop/move/touch/push series (guided steps, annotate only where synthetic — mostly guided, skip unless probe); tight-push-again e00542 displacement (recovery e00543, consider planning note later).
+Next: from Rooted Room follow DROP STOOL etc. per e00546; keep candle+stool arrangement; do NOT restart.

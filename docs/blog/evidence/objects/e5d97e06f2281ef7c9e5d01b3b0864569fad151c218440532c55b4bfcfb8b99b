@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-25T09:23:02.241249+00:00",
+  "status": "prepared_pending_parent_validation",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-l-20260925.json",
+  "counts": {
+    "games": 4,
+    "train": 3,
+    "development": 1,
+    "test": 0,
+    "zmachine": 3,
+    "scott": 1
+  },
+  "limits": {
+    "response_timeout_seconds": 180,
+    "help_excerpt_max_lines": 9,
+    "help_excerpt_max_characters": 1000,
+    "additional_probe_quota": null,
+    "launches": 0,
+    "training": 0,
+    "evaluation": 0,
+    "publication": 0
+  },
+  "central_only": true,
+  "games": [
+    {
+      "game_id": "teacher-feature",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/teacher-feature.json",
+      "family": "teacher-feature",
+      "split": "train",
+      "compatibility": "Local Z5 R1/071126 matches fresh archive story bytes and catalog. The author solution gives no release or serial; exact guide edition is unspecified. The separately archived Inform source corroborates the report-card ending, but its compilation identity has not been established and it is not a replacement story pin.",
+      "family_review_required": false
+    },
+    {
+      "game_id": "inside-woman",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/inside-woman.json",
+      "family": "inside-woman",
+      "split": "train",
+      "compatibility": "Local Z8 R5/090628 matches fresh archive story bytes and catalog. Archive identifies the author Invisiclues as release 5, matching the local release; the guide supplies no serial. Release-number gap is zero but exact serial equivalence and runtime behavior remain unverified.",
+      "family_review_required": true
+    },
+    {
+      "game_id": "zorkian-stories-1-gue",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian-stories-1-gue.json",
+      "family": "zork-i",
+      "split": "development",
+      "compatibility": "Local Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.",
+      "family_review_required": false
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/mystery-fun-house.json",
+      "family": "scott-adams",
+      "split": "train",
+      "compatibility": "Local adv07.dat is byte-identical to the same member of both local and freshly downloaded AdamsGames.zip. Collection readme identifies Adventure 7, Mystery Fun House v1.45, a TRS-80 text version converted by Paul David Doherty; the data trailer is version 145, adventure 7. This is the complete game, not sampler1.dat or a graphical SAGA edition. Guide names the game but no version/platform: exact guide edition compatibility is unspecified; multiword examples may require the Scott parser's two-word form.",
+      "family_review_required": false
+    }
+  ],
+  "critical_review": [
+    "Inside Woman: preserve authored sacrifice ending and survival alternate; ordinary deaths are failures.",
+    "Mystery Fun House: exact Scott text version pinned; guide platform unspecified; adapt multiword examples from live parser evidence.",
+    "Teacher Feature shares existing train teacher-feature reservation.",
+    "Zorkian Stories 1 shares existing development zork-i family.",
+    "All completion criteria are source-derived; no interpreter was launched."
+  ]
+}

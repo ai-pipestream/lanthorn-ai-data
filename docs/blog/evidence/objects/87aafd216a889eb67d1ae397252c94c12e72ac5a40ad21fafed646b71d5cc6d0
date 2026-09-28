@@ -1,0 +1,24 @@
+{
+  "event_id": "hunter-in-darkness-d1b183a1fc:e00188",
+  "timestamp": "2026-09-25T05:00:01.051235+00:00",
+  "game_id": "hunter-in-darkness",
+  "session_id": "hunter-in-darkness-d1b183a1fc",
+  "branch_id": "b3",
+  "event_index": 188,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 27229,
+  "raw_end": 27229,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "and you are blinded by daylight.\n\n\n\n    *** It's over ***",
+    "evidence_event_ids": [
+      "hunter-in-darkness-d1b183a1fc:e00187"
+    ],
+    "notes": "Complete path-1 (wounded Wumpus) playthrough. Walkthrough's 51 lines are exhausted at the final up (past-end hint returns empty). Hunter escapes to daylight as the bat swarm kills the Wumpus below (scream cut off). Distinct from ordinary death: this game prints *** You have died *** for real death (observed e00141); the *** It's over *** banner with escape narrative is the intended conclusion, reached identically on three branches. 20 annotated repair cases plus full route evidence collected."
+  },
+  "review_status": "unreviewed"
+}

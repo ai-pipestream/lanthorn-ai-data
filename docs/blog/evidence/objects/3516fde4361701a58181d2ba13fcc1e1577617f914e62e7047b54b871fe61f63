@@ -1,0 +1,11 @@
+# Mansion
+
+Story Z5 R3/260803. Local R3/260803 and archive story are byte-identical. Archive game entry credits tercel while the guide credits Derek Barley; both link IFDB bpk1o1ver1er00k, whose author credit, Brookes premise, R3 download and Tercel release announcement resolve the apparent author mismatch. Guide archived 2022 gives no release/serial and predates R3. IFDB reports a torch-manipulation bug and version 4 under production (2026-09-13); this does not establish whether the pinned route triggers it.
+
+Follow the full Gharston Hall/Brookes investigation and remedy route through the final mixture, Brookes encounter and rose, then require the actual narrative resolving the property conflict. Taking a rose, finding forged documents or reaching a score alone does not prove the conclusion.
+
+Guide is a long command list without explanations. Verify torch/battery state especially carefully, save before torch manipulation, and report inconsistencies to the parent rather than claiming a newer release or inventing a repair. Reported R1 completion bugs are historical; they do not prove the pinned R3 is blocked. Current R3 torch issue remains unresolved without runtime evidence.
+
+Use only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.
+
+Checkpoint policy: Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.

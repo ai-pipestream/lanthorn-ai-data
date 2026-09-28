@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-09-25T01:56:45.488932+00:00",
+  "new_games": [
+    {
+      "game": "photopia",
+      "session": "photopia-74a27d1cb7",
+      "event_count": 6,
+      "last_event": "photopia-74a27d1cb7:e00006",
+      "last_command": null,
+      "state": "unchanged",
+      "broker": {
+        "pid": 222856,
+        "engine_pid": 222920,
+        "state": "running",
+        "session_id": "photopia-74a27d1cb7",
+        "started_at": "2026-09-25T01:54:48.871235+00:00"
+      },
+      "run": "runs/fullplay-photopia-20260925T015545Z-vGohfB",
+      "exit": null
+    },
+    {
+      "game": "shade",
+      "session": "shade-3fcd469b94",
+      "event_count": 8,
+      "last_event": "shade-3fcd469b94:e00008",
+      "last_command": "stand",
+      "state": "awaiting_input_or_idle",
+      "broker": {
+        "pid": 222986,
+        "engine_pid": 223050,
+        "state": "running",
+        "session_id": "shade-3fcd469b94",
+        "started_at": "2026-09-25T01:54:50.064930+00:00"
+      },
+      "run": "runs/fullplay-shade-20260925T015546Z-ANUIPr",
+      "exit": null
+    },
+    {
+      "game": "suveh-nux",
+      "session": "suveh-nux-0a645cbebf",
+      "event_count": 6,
+      "last_event": "suveh-nux-0a645cbebf:e00006",
+      "last_command": "look",
+      "state": "awaiting_input_or_idle",
+      "broker": {
+        "pid": 223107,
+        "engine_pid": 223175,
+        "state": "running",
+        "session_id": "suveh-nux-0a645cbebf",
+        "started_at": "2026-09-25T01:54:51.260740+00:00"
+      },
+      "run": "runs/fullplay-suveh-nux-20260925T015547Z-Mh0ub8",
+      "exit": null
+    },
+    {
+      "game": "secret-mission",
+      "session": "secret-mission-08dcee7c13",
+      "event_count": 8,
+      "last_event": "secret-mission-08dcee7c13:e00008",
+      "last_command": null,
+      "state": "unchanged",
+      "broker": {
+        "pid": 223217,
+        "engine_pid": 223287,
+        "state": "running",
+        "session_id": "secret-mission-08dcee7c13",
+        "started_at": "2026-09-25T01:54:52.536421+00:00"
+      },
+      "run": "runs/fullplay-secret-mission-20260925T015549Z-U7EJu0",
+      "exit": null
+    },
+    {
+      "game": "voodoo-castle",
+      "session": "voodoo-castle-5bd0b59cae",
+      "event_count": 6,
+      "last_event": "voodoo-castle-5bd0b59cae:e00006",
+      "last_command": "OPEN COFFIN",
+      "state": "awaiting_input_or_idle",
+      "broker": {
+        "pid": 223335,
+        "engine_pid": 223399,
+        "state": "running",
+        "session_id": "voodoo-castle-5bd0b59cae",
+        "started_at": "2026-09-25T01:54:53.631119+00:00"
+      },
+      "run": "runs/fullplay-voodoo-castle-20260925T015550Z-g6PVhh",
+      "exit": null
+    }
+  ],
+  "prior_games_preserved": true,
+  "supervisor_agent": "01a0d32d-5bf8-7013-affd-a8476f777487",
+  "automation_scope": "ten games,15minute heartbeat",
+  "export_watcher": "existing single watcher reads all play directories"
+}

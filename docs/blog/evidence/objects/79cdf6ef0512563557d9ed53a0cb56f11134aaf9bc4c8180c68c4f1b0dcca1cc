@@ -1,0 +1,32 @@
+# Explicit service-timeout recovery
+
+Current session: delusions-8997f25a87, branch b12. Restored before-pizza successfully.
+Save evidence: delusions-07b4a7fbbe:e00389. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Kitchenette
+A small kitchen and dining area rolled into one.
+
+You can see a combination refrigerator/freezer and a microwave oven (which is 
+empty) here.
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+# Delusions progress — segment 3 (m0340 await_output pending; hint pause unresolved)
+
+Location: MedLab, inside HINT MENU (subject 2 submenu, hint 1 pause, SPACE sent). Score 10/50. Branch b8, event e00448 (no_output_timeout).
+Inventory (e00309): punch, antitoxin, gelstrip, X-Acto, syringe. Quarters: magnet (ON, closed), painting, lightstick, tongs; alcove amp/fader10/violin/bow/pillow.
+Checkpoints (verified): lab-report-sequence, before-pizza, plus earlier (quarters-staged, shimada-office, etc). NEVER checkpoint in hint menu.
+Cases: ~48 annotated. OPEN: quarters-inject (refused thru 6264 even post-pizza); report-icon-click (Justy blocks).
+
+GAME STRUCTURE (hint menu): 1. Debugging Fish VR / 2. In Project Lab / 3. Trapped in Lab Sim / 4. Endgame. In stage 2.
+Subject-2: 1. feeling weak? → 'Take your insulin. (Inject it, actually.)' 2. light into Factory Storage? 3. do in Factory Storage?
+KEY: insulin is symptom-gated ('feeling weak'), not clock-only. Weakness not yet at 6264. Syringe + mirror spot share VR 'inconsistency' text.
+DEAD ENDS seg2: Justy topics, Cynthia snubs, Shimada waves away (incl insulin/diabetes), phone redial blocked, gurney waits x10, lab waits, pizza no effect, sleep refuses, niche empty, IV nothing, icons absent in Output/Cynthia's.
+
+RESUME: m0339 SPACE returned no_output_timeout (e00448, stdout ends at [Please press SPACE.]). m0340 {"action":"await_output"} submitted, response pending — DO NOT duplicate/resubmit. On resolve: 1) read responses/m0340.json. If still timeout, await_output again (m0341+), never a game command to flush. 2) After SPACE returns to subject-2 list: '2'+Enter, SPACE, '3'+Enter, SPACE, then Q to top, skim subject-3 list (N or 3+Enter), Q to resume game. 3) At ordinary MedLab prompt: checkpoint, check time/symptoms, retry insulin only on weakness, then Justy/report per R2.

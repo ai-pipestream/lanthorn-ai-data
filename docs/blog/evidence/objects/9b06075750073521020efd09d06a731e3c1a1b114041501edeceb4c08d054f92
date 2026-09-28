@@ -1,0 +1,23 @@
+{
+  "game_id": "only-after-dark",
+  "title": "Only After Dark",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/oad.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/oad.walkthrough.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require the Day Three finale after confronting the shaman, the southwest escape and the final howl, with raw concluding output. Day One or Day Two transitions, capture and death are not completion. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/oad/source.json",
+  "story_sha256_expected": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+  "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+  "dataset_split": "train",
+  "game_family": "only-after-dark",
+  "collection_notes": "# Only After Dark\n\nChristian Gaertner guide identifies oad.z5 but gives no release/serial; story R2/000913. Three-day route with timed transitions; preserve guide-version uncertainty.\n\nCompletion: Require the Day Three finale after confronting the shaman, the southwest escape and the final howl, with raw concluding output. Day One or Day Two transitions, capture and death are not completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "000913",
+  "session_id": "only-after-dark-612a20ec77",
+  "story_sha256": "40efe53f8ed56377aaf1c7fd2e7cef7bac1f55d30bd4e544c89d9a09c44b1bb7",
+  "started_at": "2026-09-25T06:13:19.160171+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

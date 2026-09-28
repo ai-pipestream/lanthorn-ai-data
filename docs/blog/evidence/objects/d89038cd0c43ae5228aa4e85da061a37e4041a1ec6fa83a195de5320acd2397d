@@ -1,0 +1,24 @@
+{
+  "event_id": "theatre-8533784a56:e01701",
+  "timestamp": "2026-09-25T05:54:13.692872+00:00",
+  "game_id": "theatre",
+  "session_id": "theatre-8533784a56",
+  "branch_id": "b23",
+  "event_index": 1701,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 358372,
+  "raw_end": 358372,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***\n\n\nYou have discovered the secret of the Theatre and have completed the game with \na score of forty-seven out of a possible fifty in eight hundred and eighty-two \nturns, meaning that you have almost reached the perfect score.",
+    "evidence_event_ids": [
+      "theatre-8533784a56:e01699"
+    ],
+    "notes": "Winning ending via get in car outside theatre after time-loop: drive off past sinister figure, 47/50 in 882 turns. Not death, chapter, or quit. Portrait/camera/green/dagger/ceremony/mansion/loop complete in b23."
+  },
+  "review_status": "unreviewed"
+}

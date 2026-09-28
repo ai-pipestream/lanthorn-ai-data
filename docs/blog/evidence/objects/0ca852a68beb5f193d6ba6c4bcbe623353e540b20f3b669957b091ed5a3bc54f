@@ -1,0 +1,13 @@
+# Only After Dark — progress (b1 Jail Hut)
+
+Location: Jail Hut (b1, e00037-e00039). Bare hut, vine bed, no windows, rather dark. Talisman worn again per narrative.
+Inventory: knife seen e00025 (b0 death branch); talisman worn again per e00037 text — verify with i next.
+Checkpoints: village-start, lyca-hut (b0), jail-hut (b1 verified e00038-39). Restore lyca-hut created b1.
+Cases (3 annotated):
+- village-exit-typo nort->north vocab success (b0)
+- follow-lyca-naming follow girl accepted none success
+- talisman-throw-omitted bare throw dropped -> death; full throw at lyca success across restore (b0 e00024 -> b1 e00035) syntax success
+Deaths: b0 e00025 (wolf after dropped talisman) — recovered via lyca-hut restore, not ending.
+Last hints: m0004 DAY ONE excerpt; m0007 off-topic shaman excerpt.
+Next: explore Jail Hut (look/i/examine bed/door), then help excerpt for jail escape/Day Two. Aim 20-40 diverse probes total; collect 1 probe per new puzzle before canonical.
+Branch: b1 current.

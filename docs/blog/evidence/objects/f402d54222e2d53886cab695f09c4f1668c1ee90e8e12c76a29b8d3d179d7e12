@@ -1,0 +1,27 @@
+# Paper Chase – progress (branch b4 sober redo)
+
+## Current location
+Sports hall, just passed PE sober (score 56). Branch b4 after restore to got-book-score14 to fix drunk-gym softlock.
+
+## Why backtrack
+- Did Bar (rum x4) before gym in b0/b1/b2, causing repeated gym collapse (30 laps, expelled) even after eating sandwich/dropping bottle.
+- Help confirms guide order gym before Bar, sandwich does nothing. No sober cure found. Drunk flag persists across 50+ moves.
+- Restored to got-book-score14 (sober, score 14) and redid in guide order without repeating probes: bin/magazine, financial aid/coins, Bursar/tuition+silver, English 4/5 (no pin penalty, better than 3/5), psych/folder, gym run sober success.
+
+## Inventory (b4)
+- book, pen, magazine given away, coins given, tuition receipt, folder, (no pin/bottle/sheet yet – Bar still to do), sandwich still in refectory (ignored per guide, not taken this time)
+Need fresh inventory confirm.
+
+## Checkpoints
+- All previous plus gym-passed-sober-b4 (ok). Pre-Bar sober path now established.
+
+## Cases
+- Prior ~26 cases retained from b0 (valid). New branches add recovery data, not new probes yet.
+- Pending to annotate: gym-run-jog drunk failure (e00166 jog collapse) vs sober run success (e00241) as world_state (drunk blocks, order matters). Also run failures e00180/e00193 same cause.
+- Need 20-40 total; already have ~26, need a few more in remaining Bar redo (use different wording, not identical sip/sniff), Chemistry, transcript, Dean.
+
+## Next
+1. Annotate gym drunk vs sober.
+2. Bar after gym: east,north,east,east,down,south to Bar, take pin, open bottle, drink x3 (use drink, not sip repeat), take pin/bottle, drink more for sheet (canonical, minimal new probes – maybe 1 new variation like word-order).
+3. Chemistry lab: south from dark corridor, sit down, use cheat sheet? Need help for chem exam mechanics.
+4. Transcript from Bursar, Dean office with degree.

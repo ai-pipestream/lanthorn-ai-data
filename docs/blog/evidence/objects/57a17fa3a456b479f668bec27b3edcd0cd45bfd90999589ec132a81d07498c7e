@@ -1,0 +1,8 @@
+# Save Princeton — progress (resumed, in progress)
+
+State: In Front of 222 Witherspoon (e00154 force-pull). e00158 bare 'knock' asks what; e00159 'knock on door' -> woman's voice busy solving adventure game. e00160 annotated knock pair. e00161 'listen to door' -> two voices but door too thick. Pending m0139 'put glass on door' (intent: hearing-aid eavesdrop).
+Inventory: earplugs, dusty note, glass (to use), food-like item, hairdryer+battery (ON since e00140 — perpetual? leave on), wooden key. Score 45.
+Checkpoints: after-poster-dry; in-front-222 (e00156-157).
+Cases: ~36; last annotated knock-222 e00160 (syntax, omitted object). Unresolved: glass-listen-222 probe e00161 needs pairing with glass success once observed.
+Last hint e00136 lines 21-29: knock done; use glass as hearing aid; solo puzzle (no answer). Do NOT replay guide as script.
+Next: 1) read m0139; 2) if fails try 'listen through glass' / 'put glass against door' / 'hold glass to door'; 3) annotate pair; 4) solve solo puzzle via observation + small help excerpts only; 5) checkpoint when inside/puzzle solved.

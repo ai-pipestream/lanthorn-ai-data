@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-25T05:27:53.625723+00:00",
+  "event": {
+    "event_id": "acorn-court-7685b36b67:e00082",
+    "timestamp": "2026-09-25T05:26:53.840121+00:00",
+    "game_id": "acorn-court",
+    "session_id": "acorn-court-7685b36b67",
+    "branch_id": "b0",
+    "event_index": 82,
+    "event_type": "command",
+    "command": "open gate",
+    "response": "You open the iron gate.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 40 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+    "raw_start": 11694,
+    "raw_end": 11869,
+    "response_sha256": "779dd6e0f1cfd3d79f6d2f17c445dd41d53db7b6d2abb7e3da69011df7a2c613",
+    "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "probe-exit-west-21",
+      "expected_outcome": "Gate opens and game won",
+      "intent": "Open unlocked iron gate to exit and win (correction of 'go west')",
+      "origin": "synthetic_probe"
+    },
+    "review_status": "unreviewed"
+  },
+  "raw_hash_and_text_verified": true,
+  "verdict": "Verified final narrative and explicit ending menu; Spider escapes with papers, Acorn opens gate and wins30/30. Use game-specific event text as evidence."
+}

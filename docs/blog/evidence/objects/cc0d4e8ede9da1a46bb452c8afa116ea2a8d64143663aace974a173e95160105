@@ -1,0 +1,12 @@
+# Heist progress (paused, game incomplete)
+
+Location: Scrapyard (crane with electromagnet, rusty cable, dodgy ladder).
+Inventory (observed): glass cutter, boy photo, ribbon, wooden box closed, bag+frame+student photo, mechanical arm, metal rung, letter (auto-stowed into bag on rung pickup, e00075). Score 7.
+
+Checkpoints verified: early-graveyard, grave-coffin, industrial-machine (Saved Ok at ordinary prompts).
+
+Cases: 17 annotated (m0061 machine-glass-break vocab; m0063 machine-arm-grab none/accepted; m0067 crane-ladder-examine none/accepted; m0070 crane-ladder-take world_state). Pending: m0071 'take rung' pickup (e00075 observed Taken, score 7) — response file not yet read; confirm on resume. Do NOT resubmit m0071.
+
+Last hint (e00055): after u -> s, sw, x machine, cut glass, get arm, w, x crane, x ladder, get rung. Verified through rung loosened (e00073) and pickup (e00075).
+
+Next on resume: read responses/m0071.json; ask help for next step after rung (topic: scrapyard crane rung use); continue route. Need 20-40 cases total; currently 17.

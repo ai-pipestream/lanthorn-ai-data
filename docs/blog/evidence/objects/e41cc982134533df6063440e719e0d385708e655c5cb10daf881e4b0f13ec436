@@ -1,0 +1,13 @@
+# So Far — progress (branch b21) — restored, NEVER drop in dark, glass stuck
+
+STATE: Darkness/arrival (e01105, b21), thud attached, no bubble, chord banished, wings overhead, box RECOVERED. Restored arrival-dropbox-b20 after 'drop box' → 'Dropped and lost' (e01101) — dropping in dark LOSES items permanently. NEVER drop/take test in dark. Full b20 map carries to b21 (same state): 6 rooms, all compass+up/down tested, follow=movement for directional, fails surrounding. Glass/silent not found via compass/up/down/follow/listen/blanket/wait/sing/enter. 20 cases annotated.
+
+INVENTORY (e01104): fuzzy mass, key, blanket (worn), pod, chip, square, knife, jar, box. All present.
+
+HINTS: terse 14-15 twice; no exact glass command. Help exhausted for glass.
+
+LESSONS: rejected parses don't advance chord (safe probes); north side chord-free (spawn follows from south, timer ~4-12 variable); follow singular=gerund (location matters, not vocab); thud↔bubble mutually exclusive (B20 thud-only correct); drop=loss in dark; plain sing≠box sing (both fail vs freeze/shriek); hiss cease doesn't open NE; wait doesn't dip wail.
+
+NEXT: glass via: follow rap/chord/beasts/calls (untried directional?); wait for wings approach then catch/ride/touch?; knock/tap/hit/rap verbs?; plain sing→follow?; thud-first order already correct; consider R5/R6 divergence?; restore shady-park to examine box/light pre-dark and re-enter (costly, last resort). Collect cases 21-40 via safe rejected probes + known-route variations (need diverse: typo, synonym, omitted, pronoun, word-order, wrong-object, world-state). Cramped after silent needs FIRE (missing!) — revisit earlier game if silent found.
+
+CHECKPOINTS: arrival-dropbox-b20 (b21 current, arrival thud nochord); wailing-thud-b20; shady-park-b20 (pre-dark BEST); violet-saddled-b19. NO pending. Resume: b21 arrival, thud, nochord, wings.

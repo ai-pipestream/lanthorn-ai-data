@@ -1,0 +1,22 @@
+{
+  "game_id": "violet",
+  "title": "Violet (competition edition)",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/ifcomp/2008/zcode/violet/violet.zblorb",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/violet-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2008/zcode/violet/solution.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/violet.json",
+  "story_sha256_expected": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+  "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+  "dataset_split": "test",
+  "game_family": "violet",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "080929",
+  "session_id": "violet-bfdc33ea8f",
+  "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+  "started_at": "2026-09-25T02:35:03.470189+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

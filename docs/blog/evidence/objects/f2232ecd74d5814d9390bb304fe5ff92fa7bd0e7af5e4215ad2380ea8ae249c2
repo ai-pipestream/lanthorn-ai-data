@@ -1,0 +1,27 @@
+# BiCon progress
+
+Location: Britain (Naked Lunch picnic) after leaving Argentina via Corridor west. Score 2 (Phoenix name + distract leader).
+Inventory observed: backpack (open) containing phone (now switched on), safer sex kit, timetable; badge worn; clothes worn. Also saw colourful familiar bag, blanket, picnic food, clothing piles in Britain.
+
+Checkpoints: start-argentina (verified ok, events e00002-3).
+
+Cases:
+- syn-stand-synonym-01 (get up blocked early) -> annotated world_state, corrected e00041 after distract
+- route-stand-attempt duplicate early stand, same block, no separate annotation needed
+- syn-heteronorm-synonym-02 -> annotated syntax, turn off vs heteronormativity off
+- syn-phone-switch-03 -> annotated none (both blocked in workshop, paraphrase accepted, failed outcome)
+- syn-badge-read-04 -> annotated none success, read cutie's badge = Phoenix +1
+- syn-ask-omitted-05 -> annotated syntax, ask about vs ask leader about
+- syn-exit-door-06 -> annotated none success, go through door = n
+- syn-skylight-ceiling-07 -> annotated none success, look at ceiling = x skylights
+- syn-talk-friends-08 -> annotated syntax uncertain, talk to vs ask about food
+- syn-read-message-09 -> annotated vocabulary, read texts vs read message
+Unresolved: none pending; route-stand-attempt intentionally unannotated duplicate.
+
+Last hint (e00053 lines 44-52): x blanket, x friends, ask about food/phoenix/username, switch on phone, x phone, read message, x twitter. Done through read message. Next: x twitter, then mode next.
+
+Next actions:
+1. x twitter
+2. help mode next for Britain continuation
+3. checkpoint at Britain milestone
+4. Continue friends/pizza, room-key route per manifest; keep 1 command per probe near menus.

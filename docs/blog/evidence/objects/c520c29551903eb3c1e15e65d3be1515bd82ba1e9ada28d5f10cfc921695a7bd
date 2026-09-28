@@ -1,0 +1,8 @@
+{
+  "target": 10,
+  "enabled": false,
+  "queue_configs": [
+    "control/kimi-pilot-queue.json"
+  ],
+  "poll_seconds": 15
+}

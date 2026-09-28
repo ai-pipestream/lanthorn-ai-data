@@ -1,0 +1,19 @@
+# Progress — WadeWars III: Askin (branch b1)
+
+## Current
+- Location: Cliff Base (via Square N -> NE -> Rocky Trail -> Cliff Base)
+- Inventory: gold key, blue book (assumed; verify soon)
+- Score: 15
+- Route b1: Base(chkpt) -W-> Secret(key) -N-> Main -W-> Fork (sign N=Askin Village, E=Edaw Island, S broken) -N-> Outskirts -N-> Square S -N-> Park (statue=you, paper+box, oval indent; plaque Prophecy) -N-> Square N -N-> Church (cross, no box seen) -S-> Square N -E-> Square NE -E-> Rocky Trail -N-> Cliff Base (opening N, pool E waterfall, silver tower above W)
+- Fatal b0 east route: Beach -E-> Bent Bridge -> capture Ring of Fire -> death e00071; restored to chapter1-base-tower (b1)
+
+## Cases (9 total, 8 annotated)
+- case01 typo yellow DONE; case02 press ambiguity DONE; case03 fridge none DONE; case04 grab vocab DONE; case05 walk-south world_state DONE; case06 head-north vocab DONE; case07 cross-bridge vocab DONE (east fatal); case08 read-sign none DONE; case09 read-statue planning DONE (statue vs plaque)
+
+## Hints
+- Chapter1 W N (e00067), then W N W W N N N N UNLOCK BOX WITH KEY (e00068), then OPEN BOX GET STONE S S S S E E N (e00092). Box location unclear; not in Church/Square N. Searching square/outskirts. Later notes: paper 1357, basket 3823, READ neon sign for EZLWOT (e00059).
+
+## Next
+1. Search west square, Outskirts west trail, Fork south, Church details (examine cross/altar) for box
+2. Continue varied probes; checkpoint at next milestone
+3. Follow walkthrough after box: S S S S E E N

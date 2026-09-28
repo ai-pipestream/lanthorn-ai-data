@@ -1,0 +1,10 @@
+# Jigsaw progress (update 46 — SEGMENT 8, Ch12 manhole open + car moved, still dark, game incomplete)
+
+Location: Below the open manhole (dark#2), on foot (branch b4, e01844). Skoda at Brandenburg Gate, engine on. Game NOT complete.
+DARKNESS STATUS: dark#2 proven = below the manhole (e01831 'up' pushed manhole aside, blocked by Skoda underside). Opened manhole, retreated (e01834-36), checkpointed ch12-manhole-open at Corner (e01837-38), drove Skoda north to Brandenburg Gate (e01839-40), walked back, climbed down manhole (e01841-43) — still pitch dark (e01844 'look'). So open manhole + moved car gives NO light below (night? shaft unlit?). No lamp in inventory (m1146 list: rope/gadget/Waldo/device/detector/clock, no light).
+WALKTHROUGH CONTRADICTION STANDS: lines 1363-71 do down/sw/examine-cables with no lamp step. Either lit-in-author-version, a missed lamp, or cables reachable/visible from a lit spot (Corner above?).
+ELIMINATED since update 45: manhole-closed darkness; Skoda-on-manhole darkness.
+Board: 16/16 LIT. Inventory: Waldo carried (activated/aborted); fifty note gone (given to cleaner); delivered note in car at Brandenburg Gate; rope carried; rest per m1146.
+Cases: 82 annotated. No pending. Help: lines ~1372-80 (m1173).
+Checkpoints: ch12-manhole-open (Corner, car at Corner, engine on — fallback), ch12-before-descent, ch12-cleaner-present, ch12-unter-den-linden, ch12-start, ch11-start, monument-16lit. Next: m1196.json. Last: m1195 (up through manhole, pending).
+NEXT: m1195 'up' → expect Corner via open manhole. Then from lit Corner: examine manhole/cables, look down; test cable visibility from above. If nothing, blind-probe dark#2's other exits (singles, retreat via up=manhole), and hunt Ch12 for a lamp (block rooms, Skoda lights, cleaner?). Do NOT flush timeouts with keys.

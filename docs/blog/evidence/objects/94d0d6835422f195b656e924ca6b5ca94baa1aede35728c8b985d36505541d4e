@@ -1,0 +1,225 @@
+{
+  "events": [
+    {
+      "event_id": "zork-i7-4cbe94a190:e00064",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00065",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00066",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00067",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00068",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00069",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00070",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00071",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00072",
+      "reason": "Observed Tiny Room delayed output chain: e64/e66/e68/e69 timeout; look/save responses carry earlier command output; e72 save filename is parsed as a verb. Do not use as isolated pairs. Clean save resumes e73/e74."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00168",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00169",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00170",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00171",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00172",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00173",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00174",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00175",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00176",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00177",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00178",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00179",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00180",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00181",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00182",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00183",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00184",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00185",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00186",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00187",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00188",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00189",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00190",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00191",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00192",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00193",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00194",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00195",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00204",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00205",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00206",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00207",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "zork-i7-4cbe94a190:e00208",
+      "reason": "Terra raw-span review: slow Tiny/Dreary interpreter responses were attributed across later inputs, including save prompts. Entire chain quarantined; no isolated command-response claim."
+    },
+    {
+      "event_id": "kook-u-489e2b24ed:e00054",
+      "reason": "Optional terminal menu SPACE timeout; not a parser correction.",
+      "reviewed_at": "2026-09-25T06:57:15.628018+00:00"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00448",
+      "reason": "Optional HINT menu SPACE timeout.",
+      "reviewed_at": "2026-09-25T06:57:15.628018+00:00"
+    },
+    {
+      "event_id": "delusions-07b4a7fbbe:e00449",
+      "reason": "Empty await after menu timeout, no new input.",
+      "reviewed_at": "2026-09-25T06:57:15.628018+00:00"
+    },
+    {
+      "event_id": "delusions-20a1b41aa0:e00004",
+      "reason": "Failed recovery RESTORE was consumed as startup keypress and merely advanced title pause; not actual restore evidence.",
+      "reviewed_at": "2026-09-25T06:57:15.628018+00:00"
+    },
+    {
+      "event_id": "all-quiet-on-the-library-front-a0c0a11bad:e00123",
+      "reason": "Ending narrative is verified but raw response also contains stale status/quotation text; not clean isolated command-response candidate evidence.",
+      "reviewed_at": "2026-09-25T06:57:15.628018+00:00"
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00295",
+      "reason": "Historical overview book-menu timeout; no isolated command-response evidence."
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00296",
+      "reason": "Historical overview book-menu timeout; no isolated command-response evidence."
+    },
+    {
+      "event_id": "anchorhead-2c1c588159:e00297",
+      "reason": "Historical overview book-menu timeout; no isolated command-response evidence."
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00003",
+      "reason": "Glulx opening MORE empty Return e3 and passive await e4 produced no output. Input/story state unresolved; exclude from isolated command-response evidence. No checkpoint/input replay."
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00004",
+      "reason": "Glulx opening MORE empty Return e3 and passive await e4 produced no output. Input/story state unresolved; exclude from isolated command-response evidence. No checkpoint/input replay."
+    },
+    {
+      "event_id": "fine-tuned-989503b0a7:e00040",
+      "reason": "Observed response attribution split: e40 GRAB HORSE ends after implicit exit/rolling car; e41 LOOK carries parking-brake continuation and GRAB HORSE rejection rather than LOOK. Preserve actual raw/history; exclude both from isolated command-response cases. Mechanical cause not established."
+    },
+    {
+      "event_id": "fine-tuned-989503b0a7:e00041",
+      "reason": "Observed response attribution split: e40 GRAB HORSE ends after implicit exit/rolling car; e41 LOOK carries parking-brake continuation and GRAB HORSE rejection rather than LOOK. Preserve actual raw/history; exclude both from isolated command-response cases. Mechanical cause not established."
+    }
+  ]
+}

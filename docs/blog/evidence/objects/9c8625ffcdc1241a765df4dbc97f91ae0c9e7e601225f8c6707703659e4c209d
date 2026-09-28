@@ -1,0 +1,11 @@
+# progress.md - change-in-weather CONTINUATION (segment 1 ended, game INCOMPLETE)
+
+Branch b2, checkpoint edge-torn-lost-b2 (Ok e00219-220) at Edge of Bluff. Also before-push-south available for clean retry.
+State: blade wedged (Steep gap), key dropped at Edge, blanket dry dropped in cave, shaft consumed for key, torn sandbag DESTROYED (thrown north e00207 -> rag + sand washed away e00216), dirty bag still in shed, branch flame out e00215, boulder dams Wildflowers runoff, voices closing from west at Stream Bank.
+Inventory: carrying nothing (verify next run with inventory).
+
+Cases: 19 annotated (probe01-19). probe17 (open shed locked b0 -> unlock b1) world_state success; probe18 (throw at fox b0 -> bare throw b1) syntax success; probe19 (throw bag north) none success but destroyed torn. Need 1-21 more diverse probes in endgame (dirty, branch, bridge examine, dig spot, fox yip).
+
+Critical open question: walkthrough Get torn,W,N,SW,N,Drop torn,NE,E,Push south contradicts shed-bag order (shed needs wedge<-blade<-push). N with torn fails off-balance e00206; throwing destroys torn. SW Edge->washed-out dead end e00218. SW Steep->Wildflowers, N Wildflowers->Stream is Drop site? Next run must test: restore before-push-south (b3), redo key fetch, wedge BEFORE sleep (proven), then in shed test Get DIRTY first (sturdy, throw survives?) vs torn via alternate carry; or test if rag counts as torn for Drop; or consult walkthrough lines 53-61 context. Do NOT replay identical probes; use guided for replays.
+
+Next actions: restore before-push-south, efficient guided replay (throw x2, get key, push south, get blade, NW,SE,wedge,NW,E,E cave,take blanket,sleep,"",drop blanket,W,NW,SE,S,unlock,drop key,E), then in shed Get dirty (not torn), W, Throw dirty across gap, N, Get dirty+branch per e00021, then SW,N,Drop dirty,Examine bridge,wait fox yip,Dig spot per e00012. Collect safe probes only after timing-critical shed/lightning window.

@@ -1,0 +1,98 @@
+{
+  "game_id": "deephome",
+  "title": "Deephome: A Telleen Adventure, The Return: Part 1",
+  "url": "https://ifarchive.org/if-archive/solutions/deephome.sol",
+  "accessed_at": "2026-09-25T06:02:04.109447+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/deephome.sol",
+  "source_sha256": "e9d0c8c37c1f52fc6c65f99326cb73f3ef148566f7e41e855f63775d23882462",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/walkthrough.txt",
+  "normalized_sha256": "e9d0c8c37c1f52fc6c65f99326cb73f3ef148566f7e41e855f63775d23882462",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/deephome.z5",
+  "story_sha256": "fdae5bd090fda6fc1b0390051531190968e04355060153ad5b2ab6b75a387b31",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/deephome.z5",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/deephome.z5",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 5,
+    "release": 1,
+    "serial": "991210",
+    "header_hex": "050000015e8c5e8d43cd010a306f3ad20010393931323130004281fb98a6000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "4f0ddc55fe9d79fca23a5180257bfa46519367e3d8f8fa637ba8d75abd10ef53",
+    "checksum": "98a6",
+    "computed_checksum": "98a6",
+    "checksum_valid": true,
+    "file_bytes": 133120,
+    "declared_file_bytes": 133100
+  },
+  "compatibility": "Community guide gives no release/serial; story R1/991210. Guide explicitly identifies the last exorcism as the game ending and omits navigation. Title names Part 1: this config covers only the complete released Deephome game, not any sequel.",
+  "compatibility_status": "needs_smoke_check",
+  "guide_version_match": "unspecified_or_port_gap",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "x85otcikhwp8bwup",
+    "guide_tuid": "x85otcikhwp8bwup",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/deephome.sol",
+      "accessed_at": "2026-09-25T06:02:04.109447+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/deephome.sol",
+      "sha256": "e9d0c8c37c1f52fc6c65f99326cb73f3ef148566f7e41e855f63775d23882462",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/deephome.z5",
+      "accessed_at": "2026-09-25T06:03:44.371549+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/deephome/deephome.z5",
+      "sha256": "fdae5bd090fda6fc1b0390051531190968e04355060153ad5b2ab6b75a387b31",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "telleen-return",
+    "proposed_split": "train",
+    "existing_corpus_checked": true,
+    "reason": "No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together."
+  },
+  "completion": "Require the last exorcism and the resulting game-authored terminal conclusion, as identified by the guide. A city-gate opening, earlier exorcism, chapter transition or score is insufficient. The title Part 1 is not itself completion evidence; if output only establishes an intermediate chapter, stop for parent review.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "991210",
+  "author": "Joshua Wise"
+}

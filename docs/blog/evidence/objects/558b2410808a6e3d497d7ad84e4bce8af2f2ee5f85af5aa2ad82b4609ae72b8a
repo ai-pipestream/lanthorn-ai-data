@@ -1,0 +1,18 @@
+{
+  "game_id": "violet",
+  "title": "Violet (competition edition)",
+  "url": "https://ifarchive.org/if-archive/games/competition2008/zcode/violet/solution.txt",
+  "accessed_at": "2026-09-25T02:34:48.968313+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/violet.source",
+  "source_sha256": "0cf8c98c4872f3605018f98ae5754f531fb4a2e48cc3904f314908288b1f68f3",
+  "normalization": "entire source document",
+  "normalized_sha256": "5bf78eced29bcd5a4a87b8ae9e64b80cdbdf1a32950db9b311440e71a24bbb52",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/violet-walkthrough.txt",
+  "story": "/home/krickert/if-games/ifcomp/2008/zcode/violet/violet.zblorb",
+  "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+  "compatibility": "Local competition story selected with author solution from same competition directory; verify startup and subsequent play.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "080929"
+}

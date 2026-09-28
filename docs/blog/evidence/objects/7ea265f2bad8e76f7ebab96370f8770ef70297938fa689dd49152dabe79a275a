@@ -1,0 +1,90 @@
+[
+  {
+    "filename": "Attack_of_the_Yeti_Robot_Zombies.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Attack_of_the_Yeti_Robot_Zombies.txt",
+    "accessed_at": "2026-09-25T06:54:20.414809+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Attack_of_the_Yeti_Robot_Zombies.txt",
+    "sha256": "3424a544aad2dc37bcb127ec38892b97098c6b9b49a45c8e8a567d7aa7420129",
+    "bytes": 2237
+  },
+  {
+    "filename": "HLAA-walk.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/HLAA-walk.txt",
+    "accessed_at": "2026-09-25T06:54:20.382053+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/HLAA-walk.txt",
+    "sha256": "a51df74de33bafb75a9c84cf7a41163dcde81733b84f6268d7b359bb3b3af5f2",
+    "bytes": 1534
+  },
+  {
+    "filename": "Muse.Solve",
+    "url": "https://ifarchive.org/if-archive/solutions/Muse.Solve",
+    "accessed_at": "2026-09-25T06:54:20.452625+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Muse.Solve",
+    "sha256": "52dcfdba2972cbb79f512a6d189a54d366901b6df1403fac78f88b8cc06bb95a",
+    "bytes": 32330
+  },
+  {
+    "filename": "invisible_walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/invisible_walkthrough.txt",
+    "accessed_at": "2026-09-25T06:54:20.377470+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/invisible_walkthrough.txt",
+    "sha256": "b810371c06858d75840ac35e97b831c21045eadccd8a41cb7cec780e96e28eaa",
+    "bytes": 2706
+  },
+  {
+    "filename": "AOTYRZ.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/AOTYRZ.z5",
+    "accessed_at": "2026-09-25T06:54:20.512817+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/AOTYRZ.z5",
+    "sha256": "8c64265e12a69be26b7827b5c0f9f25e3f805ef557fc2a586bb44f27e2353129",
+    "bytes": 159232
+  },
+  {
+    "filename": "HLAinform.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/HLAinform.z5",
+    "accessed_at": "2026-09-25T06:54:20.465969+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/HLAinform.z5",
+    "sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+    "bytes": 168960
+  },
+  {
+    "filename": "muse.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/muse.z5",
+    "accessed_at": "2026-09-25T06:54:20.563368+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/muse.z5",
+    "sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+    "bytes": 175104
+  },
+  {
+    "filename": "invisible.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/invisible.z8",
+    "accessed_at": "2026-09-25T06:54:20.616533+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/invisible.z8",
+    "sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+    "bytes": 336896
+  },
+  {
+    "filename": "zcode-index.txt",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+    "accessed_at": "2026-09-25T06:54:20.596668+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/Index",
+    "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+    "bytes": 175387
+  },
+  {
+    "filename": "solutions-index.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/Index",
+    "accessed_at": "2026-09-25T06:54:20.641380+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Index",
+    "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "bytes": 77265
+  },
+  {
+    "filename": "HLAinform.zip",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/HLAinform.zip",
+    "accessed_at": "2026-09-25T06:54:44.073122+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/HLAinform.zip",
+    "sha256": "2f48f19d5a2e9d3f5ddb8b7da475bd424cdc02936457671ea43681d9affc7d15",
+    "bytes": 44166
+  }
+]

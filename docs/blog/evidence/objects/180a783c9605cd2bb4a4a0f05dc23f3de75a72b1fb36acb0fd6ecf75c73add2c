@@ -1,0 +1,115 @@
+{
+  "game_id": "cacophony",
+  "title": "Cacophony",
+  "author": "Owen Parish",
+  "url": "https://ifarchive.org/if-archive/solutions/Cacophony.zip",
+  "accessed_at": "2026-09-25T07:57:18.038364+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Walkthrough3.txt",
+  "source_sha256": "32b22dd14fc50fec166d872e98222aa8330ed7adf324f1f194e2b21f011599f5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony-walkthrough.txt",
+  "normalized_sha256": "1a94cc9eba37e134ba3fd5df3d297b76c2cdd13c063421070b016cd6a4e5ce15",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Decode stated source encoding; CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Cacophony.z8",
+  "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+  "compatibility": "Local archive-identical Z8 R4/091209. Author guide archive contains three walkthroughs, none naming a release or serial. Archive guide date 2009-08-02 predates the R4 story listing 2009-12-09; do not infer exact release compatibility. Primary normalized guide is the unedited text of ZIP member Walkthrough3.txt with LF line endings; ZIP bytes and all members are separately pinned.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "091209",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000004f848f849e2d601207455db3e00503039313230390058b19e2ca200000000000000000000000000000000db3d000000000000011800000000362e3331",
+    "header_sha256": "cae57129965d76b937d8765b1069f38229644c490c0dba58bdd913f10172013c",
+    "checksum_hex": "2ca2",
+    "declared_length": 363760,
+    "file_bytes": 364032
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "Cacophony.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Cacophony.z8",
+    "accessed_at": "2026-09-25T07:58:09.905167+00:00",
+    "remote_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+    "local_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+    "bytes": 364032,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 4,
+    "remote_serial": "091209"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Cacophony.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Cacophony.z8\n◆\n[09-Dec-2009]\nIFDB entry\nIFWiki:\nCacophony\nCacophony, an interactive stumbling by Owen Parish.\nRelease 4 / Serial number 091209.",
+    "tuid": "nihjg19j2hcroqb"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Cacophony.zip",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "Cacophony.zip\n◆\n[02-Aug-2009]\nView contents\nIFDB entry\nIFWiki:\nCacophony\nWalkthroughs for Cacophony by the game's author,\nOwen Parish.",
+    "tuid": "nihjg19j2hcroqb"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Prefer the substantial third author route, including its optional five-page history when feasible, through the final television action and actual concluding narrative. The second route is an intended mission-delivery alternate, retained centrally. The first route is an authored death ending: preserve its outcome if observed but do not use it as the successful full-route target. Dream/wake transitions, being swallowed, score changes and guide annotations are not ending proof.",
+    "limitations": "The optional history branch in the third guide jumps between marked positions; do not concatenate every line into a blind replay. Observe moving characters and timing. Parenthesized directions are commentary; G repeats the previous actual action only when appropriate. Read telephone/keypad clues in-game and adapt nouns from output. Start with a safe checkpoint after any startup question, and save before irreversible ending choices.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "cacophony",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent Owen Parish dream-world story and archive identity. Generic dream transitions do not establish a shared world with held-out Shade or any other registered family. Preserve all three endings and all editions within cacophony; no concrete cross-family reuse identified."
+  },
+  "reuse_claims_observed": "No permission for story/guide reuse established; private collection only. Public hosting does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "guide_container": {
+    "url": "https://ifarchive.org/if-archive/solutions/Cacophony.zip",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Cacophony.zip",
+    "source_sha256": "19345ad6329029aef5d6624c63d7dd4ff4e0857f3028ae90127875fc5fbcfd75",
+    "selected_member": "Walkthrough3.txt",
+    "raw_hash_scope": "source_sha256 pins exact extracted member; guide_container.source_sha256 pins downloaded ZIP"
+  },
+  "alternate_guides": [
+    {
+      "member": "Walkthrough1.txt",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Walkthrough1.txt",
+      "raw_sha256": "06eb7ba4cce10c680b6489b7853b78520a489894f4ebb79439ad357595162c2e",
+      "bytes": 279,
+      "normalized_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony-ending-1-walkthrough.txt",
+      "normalized_sha256": "4555a65848774b0f182cfc5ab403e6212c567e9774c36309927dcb929a99b51a",
+      "body_read": true,
+      "outcome": "authored death alternate; not successful full-route target",
+      "access_policy": "central only; parent may select bounded excerpts, never expose full file to Muse"
+    },
+    {
+      "member": "Walkthrough2.txt",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/Walkthrough2.txt",
+      "raw_sha256": "2cc41af834f0213d2b550977751df0e9d05aff82fc5be2fa07a08dcf2c92fef8",
+      "bytes": 2293,
+      "normalized_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony-ending-2-walkthrough.txt",
+      "normalized_sha256": "92a8e7514b3adac819c4a85df654e35cd1e0274e18d3ff0a23798a2361fc867d",
+      "body_read": true,
+      "outcome": "authored mission-delivery alternate",
+      "access_policy": "central only; parent may select bounded excerpts, never expose full file to Muse"
+    }
+  ]
+}

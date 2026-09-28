@@ -1,0 +1,9 @@
+# Critical Breach — progress (IN PROGRESS, b6 test area, mouse chain advanced)
+
+Location: Laboratory (Test Area), branch b6, cage open, scorpig immobile (e225 verified). After DROP MOUSE (e219) + 4x Z (e220-e223) + failed grasps (e224, e226). Checkpoint b6-mouse-dropped verified e228-e229.
+Inventory (inferred, needs i verification): marking chip separate, jet injector empty (capsule consumed in e218 INJECT MOUSE), pliers, beaker, keycard, worn coat. Mouse dropped (e219), not carried. Last full i was e193 (capsule-loaded); e218 consumed capsule.
+Breakthrough: SELECT 2 while frantic crunches and TAKE MOUSE fails (e178/e181/e204/e208); SELECT 3 then SELECT 2 dispenses with NO crunching (e212-e213). E then TAKE MOUSE says cage closed (e215), OPEN CAGE (e216), TAKE MOUSE Taken (e217). INJECT MOUSE WITH INJECTOR succeeds hisses (e218). DROP MOUSE (e219) + ZZZZ.
+Blocker: TAKE SCORPIG WITH PLIERS refuses nightmares/Robert (e224, e226) even when X CAGE shows immobile (e225). Hint e227 confirms DROP MOUSE ZZZZ TAKE SCORPIG WITH PLIERS LOAD CHIP INJECT SCORPIG W, but grasp still fails in R3.
+Cases banked: select2-synonym vocab e179; mouse-food/grab world_state e196; mouse-product world_state e209 (e181 vs e208); capsule-load put-phrasing (e190, needs none-annotation); mouse-inject-wordorder success e218 (needs none-annotation); disposal/cage surveys e207/e210/e225; sedate-before-feed route e212-e213; mouse-take-open-cage world_state (e215 cage-closed vs e217 taken, needs annotation).
+Checkpoints: start-darkness, lab-arrival, b2-ready-sedate, b4-unloaded, b6-capsule-loaded, b6-mouse-dropped (current best).
+Next: verify i, try LOAD CHIP then INJECT SCORPIG without grasp, probe grab-synonym for scorpig, annotate mouse-take and mouse-inject pairs, keep 1 command near hazard. Last response e229 checkpoint ok; no pending inbox.

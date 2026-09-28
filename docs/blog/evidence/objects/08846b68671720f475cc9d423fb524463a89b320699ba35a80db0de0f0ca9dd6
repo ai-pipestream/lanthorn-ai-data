@@ -1,0 +1,8 @@
+# Progress — danger-adventurer-at-work (ACTIVE, game incomplete)
+
+Location: Beach via down e00102; kipper taken e00106, eaten e00111 ("Yumm, delicious"); lady wears inner tube e00108. Awaiting tube route per hint lines 32-40.
+Inventory (verify next): head, torso, boltcutters, LLEG, broom (verify via inventory cmd); phone given to witch; kipper consumed.
+Checkpoints verified: early-pub, street-after-window, field-before-torso, shop-cutters, street-phone-done, alley-broom. No checkpoint at beach yet — make beach-kipper-done at ordinary prompt once annotation m0105 confirms.
+Cases: beach-kipper-examine none e00104; beach-take-kipper none e00106; beach-lady-examine none e00108; beach-eat-kipper vocab e00110->e00111; plus earlier fence-go-east, sign-read, signsteps-down.
+Hints: lines 32-40 excerpt e00103 (x kipper/take/eat, x lady, take tube, u w×6). Need next excerpt after take tube onward.
+Next actions: confirm m0105; probe take-tube variation then canonical take tube; inventory; up + westward per hint; checkpoint.

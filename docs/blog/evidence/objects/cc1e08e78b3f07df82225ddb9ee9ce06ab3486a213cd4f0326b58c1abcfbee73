@@ -1,0 +1,26 @@
+{
+  "event_id": "gerbil-riot-f0779de162:e00665",
+  "timestamp": "2026-09-25T10:04:48.065549+00:00",
+  "game_id": "gerbil-riot",
+  "session_id": "gerbil-riot-f0779de162",
+  "branch_id": "b3",
+  "event_index": 665,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 83578,
+  "raw_end": 83578,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "b285c5c896400784cfe1b50fa8715c9e2262a51fa1d0dc9b05afdefd839cfc2f",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "gerbil-riot-f0779de162",
+    "evidence_event_ids": [
+      "gerbil-riot-f0779de162:e00664"
+    ],
+    "ending_quote": "END OF 'GERBIL RIOT'",
+    "origin": "parent_supervision_after_independent_raw_review",
+    "notes": "Kimi triage found unclaimed terminal output; Dirac independently verified raw finale before this administrative claim. No interpreter input. Provider failure logs/exit remain unchanged."
+  },
+  "review_status": "unreviewed"
+}

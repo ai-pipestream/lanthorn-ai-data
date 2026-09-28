@@ -1,0 +1,56 @@
+import json,hashlib,fcntl,subprocess,zipfile,io,re
+from pathlib import Path
+from datetime import datetime,timezone
+from concurrent.futures import ThreadPoolExecutor
+sha=lambda b:hashlib.sha256(b).hexdigest()
+lf=lambda b:b.decode('utf-8').replace('\r\n','\n').replace('\r','\n').encode()
+p=Path('control/fleet-batch-l-20260925.json');config_bytes=p.read_bytes();games=json.loads(config_bytes)['games'];checked=[]
+records={g['game_id']:json.loads(Path(g['source_record']).read_text()) for g in games}
+urls=set()
+for r in records.values():urls.update([r['url'],r.get('story_container',r['story_identity'])['url']])
+def fetch(u):return u,subprocess.check_output(['curl','-fsSL','--max-time','40',u])
+with ThreadPoolExecutor(max_workers=4) as ex:download=dict(ex.map(fetch,urls))
+for g in games:
+ r=records[g['game_id']];container=Path(g['story']).read_bytes();assert sha(container)==g['story_sha256_expected']==r['story_sha256'];data=container;h=r['story_header']
+ if 'story_container' in r:
+  c=r['story_container'];archive=Path(c['local_path']).read_bytes();assert archive==download[c['url']] and sha(archive)==c['local_sha256']==c['remote_sha256']
+  with zipfile.ZipFile(io.BytesIO(archive)) as z:
+   assert z.read(c['member'])==container
+   rd=r['packaged_readme'];assert z.read(rd['member'])==Path(rd['raw_path']).read_bytes() and sha(z.read(rd['member']))==rd['sha256']
+ else:assert download[r['story_identity']['url']]==container
+ if container.startswith(b'FORM'):
+  assert container[8:12]==b'IFRS' and int.from_bytes(container[4:8],'big')+8==len(container)
+  i=12;chunks={}
+  while i<len(container):
+   size=int.from_bytes(container[i+4:i+8],'big');chunks[i]=(container[i:i+4],container[i+8:i+8+size]);i+=8+size+(size%2)
+  ri=next(v for t,v in chunks.values() if t==b'RIdx');n=int.from_bytes(ri[:4],'big');entries=[ri[4+j*12:16+j*12] for j in range(n)];e=next(e for e in entries if e[:4]==b'Exec' and int.from_bytes(e[4:8],'big')==0);offset=int.from_bytes(e[8:12],'big');typ,data=chunks[offset];assert typ==b'ZCOD' and offset+8==h['zcod_offset'] and sha(data)==h['zcod_sha256']
+ if g['engine']=='zvm-cli':
+  assert data[:64].hex()==h['header_hex'] and sha(data[:64])==h['header_sha256'];assert data[0]==g['zmachine_version']
+  assert int.from_bytes(data[2:4],'big')==g['release']==r['release'] and data[18:24].decode()==g['serial']==r['serial']
+  length=int.from_bytes(data[26:28],'big')*(8 if data[0]==8 else 4);assert length==h['declared_length'] and length<=len(data);assert sum(data[64:length])%65536==int.from_bytes(data[28:30],'big')
+ else:
+  assert data[:h['header_bytes']].hex()==h['header_hex'] and sha(data[:h['header_bytes']])==h['header_sha256'];assert list(map(int,re.findall(rb'\d+',data[:h['header_bytes']])) )==h['header_values'];assert list(map(int,data.splitlines()[-3:]))==h['trailer_values']==[145,7,637]
+ raw=Path(r['raw_path']).read_bytes();norm=Path(g['walkthrough']).read_bytes();assert download[r['url']]==raw and sha(raw)==r['source_sha256'];expected=lf(raw)
+ if 'segmentation' in r['normalization']:
+  seg=r['normalization']['segmentation'];expected=expected.replace(seg['find'].encode(),seg['replace'].encode())
+ assert norm==expected and sha(norm)==r['normalized_sha256']
+ for key in ['archive_game_entry','archive_guide_entry']:
+  entry=r[key];assert sha(Path(entry['snapshot']).read_bytes())==entry['snapshot_sha256']
+ if r['archive_guide_entry']['tuid']:assert r['archive_game_entry']['tuid']==r['archive_guide_entry']['tuid']
+ if 'supplementary_source' in r:
+  ss=r['supplementary_source'];assert sha(Path(ss['raw_path']).read_bytes())==ss['sha256']
+ checked.append(dict(game_id=g['game_id'],story_sha256=sha(container),embedded_sha256=sha(data),guide_sha256=sha(norm),release=g.get('release'),serial=g.get('serial'),engine=g['engine'],family=g['game_family'],split=g['dataset_split'],compatibility=r['compatibility'],source_bytes_rechecked=True,normalization_reproduced=True))
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ assert p.read_bytes()==config_bytes
+ pool=json.loads(Path('control/worker-pool.json').read_text());splits=json.loads(Path('batches/splits.json').read_text());ids={g['game_id'] for c in pool['queue_configs'] for g in json.loads(Path(c).read_text())['games']}
+ for g in games:
+  gid=g['game_id'];assert gid not in ids and gid not in splits['assignments'] and not (Path('play')/gid).exists()
+  for old,fam in splits['families'].items():
+   if fam==g['game_family']:assert splits['assignments'][old]==g['dataset_split']
+  splits['assignments'][gid]=g['dataset_split'];splits['families'][gid]=g['game_family']
+ idx=next(i for i,c in enumerate(pool['queue_configs']) if Path(c).name=='fleet-batch-i-20260925.json');pool['queue_configs'].insert(idx,str(p.resolve()))
+ receipt=dict(at=datetime.now(timezone.utc).isoformat(),games=checked,status='Parent actual local/archive/container/member/header/checksum/raw-normalized/family checks passed; registered, runtime unproven',family_review={'inside-woman':'Reviewed author Utopia Arcology hints, no explicit Heroine Mantle/shared-world relationship found. Retain separate inside-woman family, all ports/releases reserved train. Shared author alone not family proof. Heroine Mantle also train so no known held-out crossover; uncertainty remains explicit.', 'zorkian-stories-1-gue':'Explicit GUE/Zork world conservatively shares existing zork-i development family; distinct story, not claimed independent held-out family.', 'teacher-feature':'Existing teacher-feature train reservation shared with Lecture Feature', 'mystery-fun-house':'Existing conservative scott-adams train family, distinct Adventure7 bytes'})
+ for path,value in [('batches/splits.json',splits),('control/worker-pool.json',pool),('control/fleet/batch-l-parent-validation.json',receipt)]:
+  tmp=Path(path).with_suffix('.parent.tmp');tmp.write_text(json.dumps(value,indent=2)+'\n');tmp.replace(path)
+print('registered',[g['game_id'] for g in games])

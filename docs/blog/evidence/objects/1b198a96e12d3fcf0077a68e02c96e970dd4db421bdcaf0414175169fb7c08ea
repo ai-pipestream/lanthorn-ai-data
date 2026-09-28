@@ -1,0 +1,12 @@
+# Delusions progress
+
+Location: Coral Reef second run (after wear VR suit auto-enter Sphere). Start room, exits east/west.
+Inventory: as fish, none (lab possessions left on bench during suit change).
+Checkpoints: start-reef, lab-after-reef-death (both verified).
+Cases:
+- reef-look-typo done, reef-inventory-typo done, reef-swim-east done
+- anemone-examine-omit done (examine octopus gave description then VR death exit)
+- lab-talk-justy done (talk->ask Justy about)
+- lab-wear-suit done (wear suit ambiguous->wear VR suit, re-entered sim)
+Last hint m0019: Drop all / NW / Enter sphere / E,E,W / D,U,W / W,W,E — NW+sphere confirmed via wear suit path.
+Next: map reef without triggering octopus death; get reef walkthrough excerpt; checkpoint at new safe reef progress; examine stingray/cleft carefully.

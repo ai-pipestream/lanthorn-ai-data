@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""Preserve a dated, evidence-backed experiment snapshot for the future blog."""
+import argparse
+import collections
+import csv
+import datetime
+import hashlib
+import io
+import json
+import os
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--note', default='Routine collection snapshot')
+    args = parser.parse_args()
+    now = datetime.datetime.now(datetime.timezone.utc)
+    base = ROOT / 'docs/blog/evidence'
+    objects = base / 'objects'
+    objects.mkdir(parents=True, exist_ok=True)
+    snapshots = base / 'snapshots'
+    snapshots.mkdir(exist_ok=True)
+
+    def archive(path):
+        data = path.read_bytes()
+        sha = digest(data)
+        target = objects / sha
+        if not target.exists():
+            with target.open('xb') as stream:
+                stream.write(data)
+        return dict(path=str(path.relative_to(ROOT)), bytes=len(data), sha256=sha,
+                    object=str(target.relative_to(ROOT)))
+
+    artifacts = {}
+    patterns = ['scripts/*.py', 'scripts/*.mjs', 'prompts/*.md', 'run-*.sh',
+                'batches/*.json', 'control/fullplay-*.json',
+                'reviewed/*.json', 'docs/blog/*.md', 'docs/blog/test-receipts/*.json',
+                'runs/fullplay-status.json',
+                'runs/fullplay-supervision.md', 'sources/expansion-20260925/*.json']
+    for pattern in patterns:
+        for path in sorted(ROOT.glob(pattern)):
+            artifacts[str(path.relative_to(ROOT))] = archive(path)
+
+    games = []
+    for directory in sorted((ROOT / 'play').iterdir()):
+        journal = directory / 'events.jsonl'
+        if not journal.exists():
+            continue
+        data = journal.read_bytes()
+        # An active writer may be appending its final line. Freeze only complete
+        # records, and preserve the exact byte length defining this snapshot.
+        complete = data[:data.rfind(b'\n') + 1]
+        rows = [json.loads(line) for line in complete.splitlines() if line]
+        raw = (directory / 'stdout.raw').read_bytes()
+        faults = []
+        for row in rows:
+            piece = raw[row['raw_start']:row['raw_end']]
+            if digest(piece) != row['response_sha256'] or piece.decode('utf-8', 'replace') != row['response']:
+                faults.append(row['event_id'])
+        prefix_size = max((r['raw_end'] for r in rows), default=0)
+        for name in ['manifest.json', 'ending-claim.json', 'progress.md', 'collection-notes.md']:
+            path = directory / name
+            if path.exists():
+                artifacts[str(path.relative_to(ROOT))] = archive(path)
+        games.append(dict(game_id=directory.name, events=len(rows),
+                          command_events=sum(r['event_type'] == 'command' for r in rows),
+                          event_types=dict(collections.Counter(r['event_type'] for r in rows)),
+                          sessions=sorted({r['session_id'] for r in rows}),
+                          last_event_id=rows[-1]['event_id'] if rows else None,
+                          last_event_at=rows[-1]['timestamp'] if rows else None,
+                          ending_claim_present=(directory / 'ending-claim.json').exists(),
+                          journal_prefix_bytes=len(complete), journal_prefix_sha256=digest(complete),
+                          raw_prefix_bytes=prefix_size, raw_prefix_sha256=digest(raw[:prefix_size]),
+                          raw_integrity_faults=faults))
+
+    case_data = (ROOT / 'exports/test-cases.csv').read_bytes()
+    cases = list(csv.DictReader(io.StringIO(case_data.decode())))
+    export_status = json.loads((ROOT / 'exports/status.json').read_text())
+    review_path = ROOT / 'runs/fullplay-status.json'
+    reviewer = json.loads(review_path.read_text())
+    snapshot = dict(captured_at=now.isoformat(), note=args.note,
+                    purpose='Synthetic test-data collection, not a model playing benchmark',
+                    training_status='not started', model_evaluation_status='not started',
+                    publication_status='private experiment; nothing published',
+                    games=games, total_captured_events=sum(g['events'] for g in games),
+                    exported_cases=len(cases), exported_case_sha256=digest(case_data),
+                    exported_review_counts=dict(collections.Counter(r['review_status'] for r in cases)),
+                    exported_case_counts_by_game=dict(collections.Counter(r['game_id'] for r in cases)),
+                    export_status=export_status,
+                    export_case_count_matches_status=len(cases) == export_status['cases'],
+                    reviewer_observed_at=reviewer.get('observed_at'),
+                    reviewer_verified_endings=reviewer.get('verified_historical_endings', []),
+                    integrity_scope='Hash/text attribution only. A matching raw span does not prove an intent-preserving repair or valid causal interpretation.',
+                    artifacts=artifacts)
+    name = now.strftime('%Y%m%dT%H%M%S.%fZ') + '.json'
+    target = snapshots / name
+    with target.open('x') as stream:
+        json.dump(snapshot, stream, indent=2)
+        stream.write('\n')
+    latest = base / 'latest.json'
+    temp = base / ('latest-' + str(os.getpid()) + '.tmp')
+    temp.write_text(json.dumps({'snapshot': str(target.relative_to(ROOT)),
+                               'captured_at': now.isoformat()}, indent=2) + '\n')
+    temp.replace(latest)
+    print(json.dumps({'snapshot': str(target), 'events': snapshot['total_captured_events'],
+                      'cases': len(cases), 'review_counts': snapshot['exported_review_counts'],
+                      'raw_integrity_faults': sum(len(g['raw_integrity_faults']) for g in games)}))
+
+
+if __name__ == '__main__':
+    main()

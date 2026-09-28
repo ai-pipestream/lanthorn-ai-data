@@ -1,0 +1,25 @@
+{
+  "event_id": "hla-inform-09ea9c8220:e00674",
+  "timestamp": "2026-09-26T00:43:06.580218+00:00",
+  "game_id": "hla-inform",
+  "session_id": "hla-inform-09ea9c8220",
+  "branch_id": "b0",
+  "event_index": 674,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 160950,
+  "raw_end": 160950,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "9203074fa2fa539506dbd9746ea115e957c1633ac771ed646ce76237a80e4442",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "hla-inform-09ea9c8220",
+    "ending_quote": "The dragon has fallen!\nYou stand over the crumpled body of the menacing dragon, your sword bathed in \nblood. It is a lonely sight to behold a once great dragon reduced to so little. \nIn a way, you feel sorry for it, if only for a moment. Besides, with the sun \nnow over the horizon, the taverns will be opening once again. Why waste spilled \ndragon on the greatness that is free beer?...\n\n<The End>\n\n\n *** Dragon Quest completed! ***\n\n\n    *** You have won ***",
+    "evidence_event_ids": [
+      "hla-inform-09ea9c8220:e00670"
+    ],
+    "notes": "Main Dragon Quest (quest 9) completed with authored terminal win: dragon falls narrative + <The End> + Dragon Quest completed + You have won + RESTART/RESTORE/QUIT prompt. Not death, chapter transition, or quit; matches manifest GameWon concluding narrative."
+  },
+  "review_status": "unreviewed"
+}

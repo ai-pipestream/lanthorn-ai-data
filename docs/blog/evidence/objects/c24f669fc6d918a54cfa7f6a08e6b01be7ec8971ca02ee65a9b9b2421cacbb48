@@ -1,0 +1,654 @@
+{
+  "frozen": {
+    "host": "cm5ai1",
+    "state": "running",
+    "config": "control/fullplay-refill-queue7-20260925.json",
+    "assigned_at": "2026-09-25T06:07:13.360468+00:00",
+    "broker_pid": 3082902,
+    "session_id": "frozen-a2e5d2eea9",
+    "sent": {
+      "manifest.json": "e6f3ff682387cb5acd8475284bdd94a84bf306e583ceb71b78df0164ad6ee621",
+      "latest.json": "c5be146b4c1c17e93bd9308c7e080d5978ec5332b72e4ef986e95243fc648a01",
+      "events.jsonl": "aa2ee819f3188ef937938d9f7ed9536a05c3c54f31e52463fd9a282bb8a7ede5",
+      "collection-notes.md": "d3ea7d2c0d713a66fd05d62949a8ab0670ce911af5d823163b4d04f269778aac",
+      "responses/m0001.json": "3076bb6eb68d72902e472ea7a487a0dc479401f6ddd8fe68e27dbf9b7940d508",
+      "responses/m0002.json": "e5e931d86c40f4f1912d5d7c4bb31711026646fd63a2c31b6781298d2ffcabaf",
+      "responses/m0003.json": "1a0971cfe1c0e8d3c0c576a1ef9cf088cf9277d746d39510ca94023a4939c478",
+      "responses/m0004.json": "ba2b2563e691ff88e45d3956a287973b88f63e440c12a5964853f1ee49a9f200",
+      "responses/m0005.json": "5b6c106f6ef8f1dca75b7b2de7733b8afac9ec95959576ea6c418f14a280a2f8",
+      "responses/m0006.json": "4ad95cb3600b170f531b81ccd3071e0dabe3e28b38667cd6088726339ac81d46",
+      "responses/m0007.json": "425f7c607e6c01c611e5702f05bb777264c12daebde568bdd146cbeaf68dcf98",
+      "responses/m0008.json": "2151b82e1f2cd9f6d582ad9960bb3dbd6249f6d1f9186480268617def3aa325b",
+      "responses/m0009.json": "14af4de23149c750934e7584863e3655bd3719999095605b561dfb1d3990ce7d",
+      "responses/m0010.json": "44eecd27505f0aa1bdaf66b6c619fa74159bbd6987e7511e08d451c45d0a5d81",
+      "responses/m0011.json": "42a999498b3ad2f097b0d2942b43624b01ecc416af95d7c5512a674190e3494e",
+      "responses/m0012.json": "438c6c8dd3ff447d955ad32be915b8e5ae70bb51a56378a6a823acdabf0a111e",
+      "responses/m0013.json": "9909c64a9d30c361de1143a37bb4cdfa6240274f0e46345e0bb9936e7b1db1ab",
+      "responses/m0014.json": "5b65f092b1291c83090a4678e1b2ee16400348b630c43d0972c5b41dd42ecce7",
+      "responses/m0015.json": "a405192183dd29ac6285f2e1aa5405aa4d2e74b4343068c86b2f5b42a6d4b256",
+      "responses/m0016.json": "50edbacfa2dc889916ff211e193ea95ff020e35514b139d1727ccce81c45ac2f",
+      "responses/m0017.json": "19f6ebf28ac832c0991239c236bfdb96bd5ceb3792512972534f56ccea43bdff",
+      "responses/m0018.json": "3a1f645c26b46d1e68758c936643a1e8108ba68a60a341e344ffe8e14b607d61",
+      "responses/m0019.json": "63f11976a108d64b469ae9e52a963aa1cfab2029535129fc3bfa12683269da99",
+      "responses/m0020.json": "6ae9139922091c3c8093efcfdd992996a41024cb693cf1c4062058e1de3e744b",
+      "responses/m0021.json": "ccecb24154fcfc012e1b7decac56b5bacb14bd57d5e99944dfadd6106612e4cf",
+      "responses/m0022.json": "0d6c13f097039740b082e5ad0c08209288d81a85c00c15c8d3a1d30488ef49c8",
+      "responses/m0023.json": "05105986cf68c33bd70e312213d66c3d73f92b2d2337305caa932741d1f29824",
+      "responses/m0024.json": "c0320b32b75ea07525e523d93c032a5b48caf25ffe4a0cab3910cc09e2731da4",
+      "responses/m0025.json": "2a19813a9e5ee107625a5a50e65b14cde3a39219afdc96948fa4070a53a82793",
+      "responses/m0026.json": "6f66e790df7486d546fe809fd22bcd3780fc72cfedca2f342427856eb3c8ff3a",
+      "responses/m0027.json": "7b147b49f8c3ee5a8a78e6e6139121ee98923749a6294f4c8f0f1c5cbcef5afe",
+      "responses/m0028.json": "478d629bae37aa1b8fd0f3be88daa5aa478cffb6ebcca4510f1d5be2ce44c567"
+    },
+    "worker": {
+      "pid": 108713,
+      "muse_pid": 108715,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/frozen-1790316439137803325",
+      "segment": 0,
+      "started_at": 1790316439.13854,
+      "alive": true,
+      "log_mtime": 1790316838.1624312
+    },
+    "last_sync": "2026-09-25T06:14:02.745436+00:00"
+  },
+  "spiritwrak": {
+    "host": "cm5ai1",
+    "state": "running",
+    "config": "control/fullplay-refill-queue7-20260925.json",
+    "assigned_at": "2026-09-25T06:13:10.313285+00:00",
+    "broker_pid": 3094140,
+    "session_id": "spiritwrak-8e02d83255",
+    "sent": {
+      "manifest.json": "7767693e1bb3c9f1d25401adfb4a7b3ffffa5b166170c4c2a796a16d628e581d",
+      "latest.json": "baa89fba8399364413c2574cc2a82e6ad68d087645cb713aae214f5c94d59ba2",
+      "events.jsonl": "afe443c110b7713961b73f8a977b1cdef22124e3a4efe75cb37b32a2a01cc17a",
+      "collection-notes.md": "05ea1b32a06bb3d2683e88257d953f439e1b2363642141a69325e736228e2867",
+      "responses/m0001.json": "53b157eed719b45a9b81b4cecf84fb8ce356a27a7c816a7c3dac700b1dc05c6f",
+      "responses/m0002.json": "45a7b85e2f8586f62939d17d5df70f11230aceda2c877024821bdff96431d439"
+    },
+    "worker": {
+      "pid": 109687,
+      "muse_pid": 109692,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/spiritwrak-1790316807219941536",
+      "segment": 0,
+      "started_at": 1790316807.2208154,
+      "alive": true,
+      "log_mtime": 1790316840.3864124
+    },
+    "last_sync": "2026-09-25T06:14:02.724407+00:00"
+  },
+  "asylum": {
+    "host": "cm5ai1",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:10.814362+00:00",
+    "broker_pid": 3094144,
+    "session_id": "asylum-0815a6d270",
+    "sent": {
+      "manifest.json": "4f1215ee076c29418ea6e951d695b3f5270ffacd880b1c70b4bb0fe1d69cb6af",
+      "latest.json": "4d96bbb800960bd85e91402a3abd6ba58aa337b1134e5ef62970cbfd7220aa87",
+      "events.jsonl": "f3fd85173ddc39d0bb069a625c9c929393f5fa5966528a60ce6b4c2c3886aa65",
+      "collection-notes.md": "9021c56bf23d7b197a8d845f74b22b2ce33ab2e9d3c5ab5f7fe18732f7ca0713",
+      "responses/m0001.json": "d25f7f6f0adbf64d24f0b391784ec8ea1f7df032b2e564727e988788249fabd9"
+    },
+    "worker": {
+      "pid": 109688,
+      "muse_pid": 109701,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/asylum-1790316807233505396",
+      "segment": 0,
+      "started_at": 1790316807.2341113,
+      "alive": true,
+      "log_mtime": 1790316840.1270823
+    },
+    "last_sync": "2026-09-25T06:14:02.743288+00:00"
+  },
+  "pentari": {
+    "host": "cm5v1",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:11.315433+00:00",
+    "broker_pid": 3094148,
+    "session_id": "pentari-63be930153",
+    "sent": {
+      "manifest.json": "8b4622f675df628735b3b939d952b0211056eb6f18ffecd7979facba56101316",
+      "latest.json": "b0d58350e9c2e56030940c641d103794ab771122bcba20664c8071efbc8a0abb",
+      "events.jsonl": "55a3f48d18f89d15f8959eea70b801deb5cdf9db9064d99b8ab1a306d194944d",
+      "collection-notes.md": "44220a8d5e24268b5a0a26831d6b2f1112f955bb8a060b0927ab5f4df572481c",
+      "responses/m0001.json": "40d39a93495a88acba9c921262e71a2b1d283934f13ad1f8783b7a420c99254a"
+    },
+    "worker": {
+      "pid": 8012,
+      "muse_pid": 8037,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/pentari-1790316807205340950",
+      "segment": 0,
+      "started_at": 1790316807.2064004,
+      "alive": true,
+      "log_mtime": 1790316842.2363904
+    },
+    "last_sync": "2026-09-25T06:14:02.681922+00:00"
+  },
+  "nine-points": {
+    "host": "cm5v1",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:11.816475+00:00",
+    "broker_pid": 3094152,
+    "session_id": "nine-points-013d843149",
+    "sent": {
+      "manifest.json": "9b404548025aa8a01151e806e485398f05c1f2524c5629ad7b003dc1cf332343",
+      "latest.json": "2583ed421ba0a3918d2dcc5a74d64482562b6898a08aeedbfd5652cd3b38b7df",
+      "events.jsonl": "5ccea94c82344559659465c4dabc2eebe6e3ad46b150d75135252af053cfd47c",
+      "collection-notes.md": "fc1c685a3f6bc5ccc18669d5ca812929f5d5b06f592793232597f3de62d6afa2",
+      "responses/m0001.json": "a37fa994113307cbe41ebb585ee945e183ef31255bcf29d0d2c10ea532af7dfe",
+      "responses/m0002.json": "3ce328cb9a784d71408d3f60eab308a3989c903408e0109cceef40fb5a2a1fde"
+    },
+    "worker": {
+      "pid": 8010,
+      "muse_pid": 8023,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/nine-points-1790316807188699523",
+      "segment": 0,
+      "started_at": 1790316807.1915865,
+      "alive": true,
+      "log_mtime": 1790316839.9670775
+    },
+    "last_sync": "2026-09-25T06:14:02.641908+00:00"
+  },
+  "enemies": {
+    "host": "cm5v1",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:12.317847+00:00",
+    "broker_pid": 3094159,
+    "session_id": "enemies-0b4aba49fe",
+    "sent": {
+      "manifest.json": "1a3b7361532eb0591389365c4f4185ab982cf81b442bc347013e399fa59c8c96",
+      "latest.json": "bfbd7cfa56efee52d4fd0920b72b099dca066db5a0c881d86cc324d00a72960e",
+      "events.jsonl": "39ed93573ce2e2b3f1aaaebb84ea0ec261e03b1f1bac0f2a03cd00388f6adef1",
+      "collection-notes.md": "39dfa2aa0bdf2d746b8cfd7cf99b6826b424a780569b7bd71957dc6040d0fdd2",
+      "responses/m0001.json": "ec30695e77f39683cb7c1ef8d062ba746d1cc4077c673d4fe1e3557ef7a92d1a"
+    },
+    "worker": {
+      "pid": 8008,
+      "muse_pid": 8014,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/enemies-1790316807170938230",
+      "segment": 0,
+      "started_at": 1790316807.1722026,
+      "alive": true,
+      "log_mtime": 1790316842.2699537
+    },
+    "last_sync": "2026-09-25T06:14:02.681809+00:00"
+  },
+  "heist": {
+    "host": "cm5v2",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:12.819212+00:00",
+    "broker_pid": 3094163,
+    "session_id": "heist-a079eba445",
+    "sent": {
+      "manifest.json": "ce3278a7810f9fb6ac087cadda7a91ab3b269183e4537c282612c97af7df0afa",
+      "latest.json": "db94e0732e02a649774e6e4602042402a5aa9efb27183033c16d05d07f0feccb",
+      "events.jsonl": "dea1d997935614300c99a3bc52a95b80559a7d8e6d6eb1c72e967223bd9cbc88",
+      "collection-notes.md": "f1f5957a4fa18fb5d7197aff33b8966d30a385a2cbc5d10993fa7c08d3fa0d1f"
+    },
+    "worker": {
+      "pid": 41061,
+      "muse_pid": 41066,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/heist-1790316807138190750",
+      "segment": 0,
+      "started_at": 1790316807.1389735,
+      "alive": true,
+      "log_mtime": 1790316840.4268682
+    },
+    "last_sync": "2026-09-25T06:14:02.681770+00:00"
+  },
+  "all-quiet-on-the-library-front": {
+    "host": "cm5v2",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:13.320282+00:00",
+    "broker_pid": 3094167,
+    "session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+    "sent": {
+      "manifest.json": "0c616acdd0a9e330ae1ae78dcb9f0458c48004a5a7c9e5b05ba2f7f42c55c3a5",
+      "latest.json": "df0e3d3f1511f77c758ee1282b66af86a7d4126265ce915f288e54c16e4c9ff6",
+      "events.jsonl": "7ae14ef6e05473affc48b1f8077d27672ea8c3bdbca0295b4bb91cc790fbd51c",
+      "collection-notes.md": "75c780902c72c90231c049274fa14e6bbc0a81d3bb3f1b86564abaa2a5296a7a"
+    },
+    "worker": {
+      "pid": 41062,
+      "muse_pid": 41065,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/all-quiet-on-the-library-front-1790316807137511675",
+      "segment": 0,
+      "started_at": 1790316807.1381536,
+      "alive": true,
+      "log_mtime": 1790316839.5188675
+    },
+    "last_sync": "2026-09-25T06:14:02.681404+00:00"
+  },
+  "night-at-the-computer-center": {
+    "host": "cm5v2",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:13.821367+00:00",
+    "broker_pid": 3094171,
+    "session_id": "night-at-the-computer-center-d16c3b6cd5",
+    "sent": {
+      "manifest.json": "a5006e1eff25e0a1b3e04272d470b1e1e284f72a4cf324559bb28374d5e318e4",
+      "latest.json": "41964f11719142ed264839f49be7cbd7607e742262e92c439559d1657124eaac",
+      "events.jsonl": "1fb220e6bb2b3c31c9bba2282a51dddbc5ed3fb91c8763266103a31b630fe364",
+      "collection-notes.md": "7b7557bf9eab60991eed8261b56d2371486c63d02d1fb03a207564dd29aac4f5",
+      "responses/m0001.json": "0d49f2326a862941d4981ce5e7bd5ce2537901276dc7badde4beeebfc0cb7599",
+      "responses/m0002.json": "76a7de39ae7463efedfb2f8c6445e803b3f011b2d0717767d3dc8bf1e45c0427"
+    },
+    "worker": {
+      "pid": 41102,
+      "muse_pid": 41104,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/night-at-the-computer-center-1790316807280081021",
+      "segment": 0,
+      "started_at": 1790316807.2806737,
+      "alive": true,
+      "log_mtime": 1790316840.4850194
+    },
+    "last_sync": "2026-09-25T06:14:02.764159+00:00"
+  },
+  "vindaloo": {
+    "host": "krickert@cm5v3.local",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:14.322314+00:00",
+    "broker_pid": 3094175,
+    "session_id": "vindaloo-85744e25ee",
+    "sent": {
+      "manifest.json": "13b0b6b5de29aacaef52a7edd5293fffc8b831fd33964ae0e883b5bdcf8964b3",
+      "latest.json": "e90b0ce66a8c36e4617b926eb9f94ba348d637b881c7c15c1dd079963119ee63",
+      "events.jsonl": "35c5f18118a406f006c11c6961c607181dd9e1336aee59cdf9da71a87e5f9a85",
+      "collection-notes.md": "f11abd6c48126fee6bbe025f79ddb8bf2bc335e59bf40fa0cbbe76d3773302fb",
+      "responses/m0001.json": "83f2c20de6de0d511b002d7a9ecfaeefd390f5b80e40d004466d36e013a78d88"
+    },
+    "worker": {
+      "pid": 42963,
+      "muse_pid": 42985,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/vindaloo-1790316807646839641",
+      "segment": 0,
+      "started_at": 1790316807.6476612,
+      "alive": true,
+      "log_mtime": 1790316841.8549132
+    },
+    "last_sync": "2026-09-25T06:14:02.984126+00:00"
+  },
+  "gerbil-riot": {
+    "host": "krickert@cm5v3.local",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:14.823459+00:00",
+    "broker_pid": 3094179,
+    "session_id": "gerbil-riot-f0779de162",
+    "sent": {
+      "manifest.json": "378a64dee6ac0b021121e09a7ecd69e00bf8da1defadabd0ab07172d2d0c8725",
+      "latest.json": "dc5d7d88afbabc209d2c3ced22b734f8213ff1bfe9471f55e9b510839c9d091e",
+      "events.jsonl": "7fec998cf0289444ef376464c07bb3c5d458f8c9061faf30de0bc7fff7127ee3",
+      "collection-notes.md": "c46d69410e475a34ab5fc01ba5ef214acc73240440e8b786e8a54718f29c315d",
+      "responses/m0001.json": "e795193103475a36aaa752b70fa70c7c4701239c5a661d34a8cddf4aa4c68c5a"
+    },
+    "worker": {
+      "pid": 42964,
+      "muse_pid": 42969,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790316807636935553",
+      "segment": 0,
+      "started_at": 1790316807.6376255,
+      "alive": true,
+      "log_mtime": 1790316839.406896
+    },
+    "last_sync": "2026-09-25T06:14:02.982927+00:00"
+  },
+  "i-0": {
+    "host": "krickert@cm5v3.local",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:15.324775+00:00",
+    "broker_pid": 3094187,
+    "session_id": "i-0-d1ac7729bb",
+    "sent": {
+      "manifest.json": "0131fb5dbf07dec20f9d92d15334a32922c249f911efc97e6878c46facafe055",
+      "latest.json": "5c6539a1d558d891d93a0195f54430aa2349d5ebb763313cea7d758fd1a9261f",
+      "events.jsonl": "9ae9dba7b2d272a008cdba9b50907633b9d0452985ce9ad4d9aa63f2413fa315",
+      "collection-notes.md": "09dc64610e5a85ce0719693cd901cad40cf1f29fd735c92e30ed767eb38b5f0b",
+      "responses/m0001.json": "2300871bf2fbb9ef30dee63ae81d64ac9f8f48e4a55d7186a4efc9e37b19b8a0"
+    },
+    "worker": {
+      "pid": 42962,
+      "muse_pid": 42968,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/i-0-1790316807632279651",
+      "segment": 0,
+      "started_at": 1790316807.633017,
+      "alive": true,
+      "log_mtime": 1790316839.1588943
+    },
+    "last_sync": "2026-09-25T06:14:02.986877+00:00"
+  },
+  "tube-trouble": {
+    "host": "pi500p",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:15.826091+00:00",
+    "broker_pid": 3094225,
+    "session_id": "tube-trouble-1b2d95be53",
+    "sent": {
+      "manifest.json": "a50cf907d748bfe8337410e480df621cd6c01c53839a5a57796506727ef7c23d",
+      "latest.json": "2f6ee1d44464c33fb1c9fbd4eb4f65510220cafcacd20e86edc13ed1bac3eb10",
+      "events.jsonl": "f395b77152c57c7cb6f531d964f38bd6e5c32fa5b566b165fafcae14771263b2",
+      "collection-notes.md": "dc453d15cb509ff37a611047571843633cb5982ba5655a62cdcee47251696859",
+      "responses/m0001.json": "fb2850e527282444e44c5662bd19914383a5211bc064ce89877493665586167f"
+    },
+    "worker": {
+      "pid": 4383,
+      "muse_pid": 4413,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/tube-trouble-1790316807532660232",
+      "segment": 0,
+      "started_at": 1790316807.5337954,
+      "alive": true,
+      "log_mtime": 1790316842.0339713
+    },
+    "last_sync": "2026-09-25T06:14:02.969403+00:00"
+  },
+  "slacker-x": {
+    "host": "pi500p",
+    "state": "running",
+    "config": "control/fleet-batch-a-20260925.json",
+    "assigned_at": "2026-09-25T06:13:16.327262+00:00",
+    "broker_pid": 3094229,
+    "session_id": "slacker-x-70f303cb52",
+    "sent": {
+      "manifest.json": "e1b568641219c49a9654178ce7f604ea9885a2e3a49f1e364ffc5d54fa267d34",
+      "latest.json": "d8bd47de33baafc59ea4fc2c93a8cd7f32e98018f643ee0ff0d3866add2d54a5",
+      "events.jsonl": "d8a44b71107464d37d0b25b4ccd2b6b92fc4b9ecaeef8b1ad17ec7d91414f1af",
+      "collection-notes.md": "cf4c254fe32e83a56d3e3a26290a822edf323838d85ba3340e8b6232fb95b266",
+      "responses/m0001.json": "4bff09c9d84e989709837a8cc1d83bf2537e61a9b23fbc2c95a2d93068b19b7e"
+    },
+    "worker": {
+      "pid": 4381,
+      "muse_pid": 4387,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/slacker-x-1790316807499848131",
+      "segment": 0,
+      "started_at": 1790316807.502262,
+      "alive": true,
+      "log_mtime": 1790316841.1759577
+    },
+    "last_sync": "2026-09-25T06:14:02.955621+00:00"
+  },
+  "beyond-the-tesseract": {
+    "host": "pi500p",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:16.828245+00:00",
+    "broker_pid": 3094233,
+    "session_id": "beyond-the-tesseract-26b2abc71c",
+    "sent": {
+      "manifest.json": "2d3cf7e61fd2ffa8d3810b6757319b65775ef10352fccf3d4767c602eaa378c2",
+      "latest.json": "cb956e88d124fb053d651dfc1dca6b77fd147ff66327b6a784f7df50a76071f2",
+      "events.jsonl": "de3f7ef5e6a329937faa4b608ce40d1201cef3a4acb578032bbbcb89da67fb4e",
+      "collection-notes.md": "33e13f0a9bc560750fd3abd404f37fefcc0fe1de94c9c7dae4af92ba939a017e"
+    },
+    "worker": {
+      "pid": 4382,
+      "muse_pid": 4388,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/beyond-the-tesseract-1790316807507929846",
+      "segment": 0,
+      "started_at": 1790316807.5086322,
+      "alive": true,
+      "log_mtime": 1790316842.5718358
+    },
+    "last_sync": "2026-09-25T06:14:02.969243+00:00"
+  },
+  "return-to-karn": {
+    "host": "pi5ai1",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:17.329269+00:00",
+    "broker_pid": 3094239,
+    "session_id": "return-to-karn-bf86b7da19",
+    "sent": {
+      "manifest.json": "ceb7cfd3f4d8ef39f4afc3d1a92baa9492ba57042487fc763f701c6b451480d8",
+      "latest.json": "9408fa6d800b2b4c5bf89649a6226e09472b58424cd8f83d50a86f0b82adef92",
+      "events.jsonl": "3083f267fd68b9ada8d3a418ee53c4d593b8f04b5490f94bb21c2c3190011eae",
+      "collection-notes.md": "3ecec67840443895438cfff6170ddf675db3298b646fd1e8dc0b4cdec78f4276",
+      "responses/m0001.json": "1e869f2511e57199284fff8e0e24cbffcf79617d4e145b17b93fbcd18b2bcc85"
+    },
+    "worker": {
+      "pid": 7661,
+      "muse_pid": 7667,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/return-to-karn-1790316807484716368",
+      "segment": 0,
+      "started_at": 1790316807.4855678,
+      "alive": true,
+      "log_mtime": 1790316837.3915195
+    },
+    "last_sync": "2026-09-25T06:14:02.988567+00:00"
+  },
+  "heroines-mantle": {
+    "host": "pi5ai1",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:17.830634+00:00",
+    "broker_pid": 3094243,
+    "session_id": "heroines-mantle-4053f4fad7",
+    "sent": {
+      "manifest.json": "1f45291aeea56ef8e6564eae24aa3f91a7839a2e3a7864e7d40f9e94dd36d921",
+      "latest.json": "a70dcafc39942fca460e045a5bf1da69622b7c1fb586664573ba9f838ee07966",
+      "events.jsonl": "e4f26b604662172d341faba5ef2b7c05ca06c7e984e0d2a199d3ff84d9b171b9",
+      "collection-notes.md": "98117ace6629fea9d8dc52c5353ca1df8bab0f7c8a5e2ed89b87584071b43ae2",
+      "responses/m0001.json": "1621e92fd19dfdf716fdd041db813454689d4a1c733b684f5c46130722b7edaf"
+    },
+    "worker": {
+      "pid": 7662,
+      "muse_pid": 7679,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790316807510626934",
+      "segment": 0,
+      "started_at": 1790316807.5112596,
+      "alive": true,
+      "log_mtime": 1790316842.2875144
+    },
+    "last_sync": "2026-09-25T06:14:03.000937+00:00"
+  },
+  "kook-u": {
+    "host": "pi5ai1",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:18.331691+00:00",
+    "broker_pid": 3094254,
+    "session_id": "kook-u-489e2b24ed",
+    "sent": {
+      "manifest.json": "7a60ad22a27f8a0befc1490ec1e75a02e52713420ed9d330f8b7193f6a2552dc",
+      "latest.json": "413c72a28a411babd04fd110776301159815b9c1dd2f814cb30e7e3562f9f315",
+      "events.jsonl": "c0d3e7045662309fe68f142825010644db903feeac1e0b6dfa415fa07d33a1d6",
+      "collection-notes.md": "dc4c60474041cc87f7fade7dabcc8792ba31c5bb82bbae4e3104000d6836ac24",
+      "responses/m0001.json": "e91c33f1d3542a54fd6663f5a0c5147e66e2d763e80ee1ae0a3531544af692c5"
+    },
+    "worker": {
+      "pid": 7702,
+      "muse_pid": 7704,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/kook-u-1790316807690523450",
+      "segment": 0,
+      "started_at": 1790316807.6911387,
+      "alive": true,
+      "log_mtime": 1790316841.4035153
+    },
+    "last_sync": "2026-09-25T06:14:03.152798+00:00"
+  },
+  "only-after-dark": {
+    "host": "krickert@pi5ai2p.local",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:18.832827+00:00",
+    "broker_pid": 3094258,
+    "session_id": "only-after-dark-612a20ec77",
+    "sent": {
+      "manifest.json": "9b06075750073521020efd09d06a731e3c1a1b114041501edeceb4c08d054f92",
+      "latest.json": "e93ecfecff2321790ef7850230e9959d14ab9894fa8f8603c7ad1240714227e6",
+      "events.jsonl": "3027867fe22ec7a62cfd23f6a8148e942fb5ba5ea02d1fafc8d57dfec3d0175f",
+      "collection-notes.md": "e3be004d100dd8ce1cf9f9e83a6ece3adba24a3bc88570ccfccb5b078e3f1b1b",
+      "responses/m0001.json": "235ed76f16560b909adbacdf12641b8948d53fffe72ded8b0c1a7b74c90f805b"
+    },
+    "worker": {
+      "pid": 131167,
+      "muse_pid": 131173,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/only-after-dark-1790316807804961994",
+      "segment": 0,
+      "started_at": 1790316807.8061557,
+      "alive": true,
+      "log_mtime": 1790316842.7559383
+    },
+    "last_sync": "2026-09-25T06:14:03.279260+00:00"
+  },
+  "dracula-prince-of-darkness": {
+    "host": "krickert@pi5ai2p.local",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:19.334201+00:00",
+    "broker_pid": 3094264,
+    "session_id": "dracula-prince-of-darkness-d75c304699",
+    "sent": {
+      "manifest.json": "23b24cf0193065ed3cd518653fce384a5379b0aa23ba3497f72619a5722bd354",
+      "latest.json": "dfb4a01347ba4d352da1f72d0bee6838f85073a2ff182ff59e4befbd5c54514f",
+      "events.jsonl": "26aaf23dd1d9743bf2b17a5aca298e0c5a2b1f30efa524c15fc714f5a9dda1c0",
+      "collection-notes.md": "18176eb0035cfeb202abb8eac0a6f46bc8ca82d313b6c303af77680e704827c5",
+      "responses/m0001.json": "33b6c90f4998db5115387540635086bd04104e758d5b3657815ac345425d228f"
+    },
+    "worker": {
+      "pid": 131168,
+      "muse_pid": 131183,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790316807830108506",
+      "segment": 0,
+      "started_at": 1790316807.8351536,
+      "alive": true,
+      "log_mtime": 1790316836.6763499
+    },
+    "last_sync": "2026-09-25T06:14:03.291060+00:00"
+  },
+  "zuni-doll": {
+    "host": "krickert@pi5ai2p.local",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:19.835340+00:00",
+    "broker_pid": 3094302,
+    "session_id": "zuni-doll-16d63fd0ac",
+    "sent": {
+      "manifest.json": "5095fae982aa3d8f5a67b25bc732bb7b7b28e31f27d8c3eb6e001ec5fd97e0e2",
+      "latest.json": "2fa967f3850c827e5ec2716fd55f69ef0fb4582b9329f537554ecabaad20ecfb",
+      "events.jsonl": "703ac087f7226e58bf9efea59c652292030d764c04b51f51a86a8f7ef6b7cb5a",
+      "collection-notes.md": "f4625d53d2b41d1c5f1a12815aa4813d5013c7cd8b38e687dbdd3b03dcaff1ba",
+      "responses/m0001.json": "6039a727ddc2e4dad9da327acdae7900215f9d028eb81f1631ed7d5be0b52e7a"
+    },
+    "worker": {
+      "pid": 131169,
+      "muse_pid": 131182,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/zuni-doll-1790316807824558850",
+      "segment": 0,
+      "started_at": 1790316807.8256164,
+      "alive": true,
+      "log_mtime": 1790316842.2224193
+    },
+    "last_sync": "2026-09-25T06:14:03.339390+00:00"
+  },
+  "deephome": {
+    "host": "pi5v2",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:20.336494+00:00",
+    "broker_pid": 3094404,
+    "session_id": "deephome-56e3d50bda",
+    "sent": {
+      "manifest.json": "726905a568affe7fd83596a4589daa2ecb4990bb7d8753c24ab68fd0dc0cba5f",
+      "latest.json": "af1f180f13c20b65e5146d03ecc625c4107a2256b4e48bdaa228577281c0d955",
+      "events.jsonl": "ddf13187a8fc3cfb7aaae0238e08d1169cd1dcd17e0cffe55c23294201eaa937",
+      "collection-notes.md": "d7b03154411b8dded2c53f664b61af23aa52fe6b905a13176f5e49ad42ea23d8",
+      "responses/m0001.json": "25ac6e2f0b0a2cded3aaab08cb6e29180b028f23af8fadbe695467491dfc3844"
+    },
+    "worker": {
+      "pid": 113038,
+      "muse_pid": 113055,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/deephome-1790316807764192987",
+      "segment": 0,
+      "started_at": 1790316807.7649236,
+      "alive": true,
+      "log_mtime": 1790316843.1507735
+    },
+    "last_sync": "2026-09-25T06:14:03.281278+00:00"
+  },
+  "save-princeton": {
+    "host": "pi5v2",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:20.837614+00:00",
+    "broker_pid": 3094443,
+    "session_id": "save-princeton-e0a2654e41",
+    "sent": {
+      "manifest.json": "7ee2cdf59f68660e65bc474d5db9e41e5d8a2aeec30670e55c3a30db64636276",
+      "latest.json": "087c12ebace85239641c299dda97cf314fbc3df667277c52d12d960c74d4ad75",
+      "events.jsonl": "0b8006dfe98fb22be3d8d5d238b3140b5f8b131d956156383e35c107dd66f5d1",
+      "collection-notes.md": "515895f942916ce76469266d5422c912e6bab042a1817d492ce5465eb661dbd0",
+      "responses/m0001.json": "7dbe44b914f27cc38558df6b51b849d61698b0a9f264819801c7b059786641dd",
+      "responses/m0002.json": "b7e1885752a29f067e11a8aa09bc58c3f6b9102db60858f4b7540aa33c4734e6"
+    },
+    "worker": {
+      "pid": 113067,
+      "muse_pid": 113072,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/save-princeton-1790316807850723809",
+      "segment": 0,
+      "started_at": 1790316807.8513727,
+      "alive": true,
+      "log_mtime": 1790316843.042773
+    },
+    "last_sync": "2026-09-25T06:14:03.299474+00:00"
+  },
+  "space-station": {
+    "host": "pi5v2",
+    "state": "running",
+    "config": "control/fleet-batch-b-20260925.json",
+    "assigned_at": "2026-09-25T06:13:21.338667+00:00",
+    "broker_pid": 3094447,
+    "session_id": "space-station-b15ae148d4",
+    "sent": {
+      "manifest.json": "d05072ae32a65be7d80f5738672e877947c6815764df5f4fb3d3461528140dab",
+      "latest.json": "f07c785f6bf38059a668a273cda2dba0b56916fe8d762ccb60022c0b3d217e0f",
+      "events.jsonl": "b3a03a8338512c0c678e410541dc6b8476ebcc5cbb7309219cf72a1a89b359f6",
+      "collection-notes.md": "15f4ad9e849b6a9c36b2955f44f23d0fe5892aac3cce20762c6949011df6a1e2",
+      "responses/m0001.json": "dc3e9d0bacf81077e1ef24628789f8a87792bf1821ef6348c8fabe564fc8d554"
+    },
+    "worker": {
+      "pid": 113069,
+      "muse_pid": 113084,
+      "state": "running",
+      "run": "/home/krickert/lanthorn-muse/runs/space-station-1790316807871913183",
+      "segment": 0,
+      "started_at": 1790316807.8725493,
+      "alive": true,
+      "log_mtime": 1790316838.094746
+    },
+    "last_sync": "2026-09-25T06:14:03.295364+00:00"
+  }
+}

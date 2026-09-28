@@ -1,0 +1,50 @@
+# The Edifice — collection progress (SEGMENT 2, in progress)
+
+## Current state
+- Location: Canyon (era 3). Carrying: Spear, Rock, Bone, Bark, Paste
+  (paste LOSING mass: 'scoop up what you can'; 4 meals + 2 throws used).
+  Handful of grass on Canyon floor. Log at Tree (era 1).
+- Beast STILL GONE from era 1 (checked e00413-15, e00430-31: no Beast).
+- Score (e00452): 'visited three, solved one'. Mood 'discontent'.
+- Hunger managed via paste; monitor servings.
+
+## Horse puzzle (case 33 OPEN) — exhaustive failures
+- Mount verbs ALL same gate: ride/jump onto/climb/get on (e00273,
+  e00461-63: 'no easy way... even if likely to let you').
+- Proximity: pet refused armed/unarmed/after waitx2/waitx5 (e00276,
+  e00308, e00327, e00445, e00480). Hide: no place. Climb walls: too high.
+- Food: offer grass/paste 'unaware' (distant); drop-grass bait ignored;
+  THROW grass/paste: herd 'parts... move away' (e00466-67). Paste lost
+  mass on throw — don't repeat.
+- Lures/gear: get all (nothing anywhere); huts (only mine=portal);
+  meeting area (not enterable, nothing); scrub (not object); People
+  (unhelpful, won't take orders); no tack/rope anywhere.
+- Geography: Overlook N/E = death-refusals (free respawn); south wander;
+  west=portal. Vault/catch/mount/tame/chase NOT verbs. Listen: nothing.
+- Show spear to People: debate, most doubt it (e00472). Spear alone
+  insufficient → mounted lancer (ride+ spear) likely needed. Riding TBD.
+
+## Theories ranked
+1. Explicit broker jump to recording 405+ (horse solution) — TRY NOW.
+2. Fresh-topic 'canyon' (maybe late-only match) — backup.
+3. Sound verbs (sing/whistle) — unlikely to exist.
+4. Marauder attack timer (wait in village) — expensive, uncertain.
+5. Beast link (Beast must return/be ridden first?) — blocked (gone).
+6. Level 1 first (hunt? ride Beast? spring? log?) — goal unknown.
+
+## Walkthrough mechanics (confirmed)
+- mode-next = +9 lines from LAST DELIVERED globally (m0294: horse-next
+  gave beast 104-112). Fresh topic = earliest keyword match (often seen
+  lines). Current broker position: 86-94. Recording ~450+ lines total.
+
+## Checkpoints
+start-at-edifice, recess-open, grassland-arch, thirst-quenched-pool,
+level-two, era2-hut-clearing, got-feverleaf-stem, son-cured, level-three.
+
+## Cases (35 annotated; 1 open)
+- 33 horse-ride-wild: OPEN (e00273; needs successful ride).
+- 01-32, 34, 35 as before.
+
+## Next
+1. Help explicitly requesting lines 405-413 (horse solution zone).
+2. If refused: fresh-topic 'canyon', then sound verbs, then village wait.

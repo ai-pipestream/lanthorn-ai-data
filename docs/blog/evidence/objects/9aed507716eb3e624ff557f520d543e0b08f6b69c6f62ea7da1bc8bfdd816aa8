@@ -1,0 +1,10 @@
+# Voodoo Castle progress (b2) — segment 3, game incomplete
+
+Location: Chapel, branch b2 (escaped Jail Cell via SAW DOOR e00571 to dungeon, EAST e00576 to stairwell, NORTH e00577 to chapel; Open Coffin + man present). Engine awaiting input.
+Status: endgame ritual still blocked on rabbit-foot-on-Count syntax. Cell escape solved. No checkpoints (SAVE unsupported).
+Inventory (e00575): knife, glowing idol (=lamp), clover, pot, Ju-Ju bag (opened), foot, shovel, nails, doll, hammer, SAW, paper (SAY ZAP restores stone, e00583), stick, broken grating.
+Ritual texts (recovered): READ BOOK e00439 — knife in hand, circle coffin, rest missing; READ PAGE e00440 — wave stick, hold lamp (idol carried), yell CHANT, doll needed. All of CIRCLE/WAVE STICK/WAVE DOLL/WAVE FOOT/SAY CHANT give OK-nothing while foot carried.
+Foot blocker: PUT/DROP/LEAVE/THROW FOOT ask On-what; PUT/DROP MAN|CRISTO|COFFIN beyond-power; PUT COUNT/CHRISTO What?/unknown (CRISTO without H is correct noun, e00590-91); bare MAN/COFFIN answers unknown (verb expected); GIVE/PLACE/TOUCH/HOLD unknown; LISTEN CRISTO hears nothing (e00594); WAVE FOOT OK-nothing.
+Banked: b0 ~40 annotations + segment 28 + this segment 2 (OPEN->SAW planning e00572, PUSH->SAW vocab e00573). Cases m0368-m0395 processed thru e00594.
+Last hints: Part III sweep/paper (e00579), bag/crack/book (e00580), book/page/stick/doll (e00581), final ritual vague TA-DA (e00582).
+Next: solve PUT FOOT ON CRISTO syntax (try DROP CRISTO variants already mapped; probe COVER/RUB/SHOW or room-specific receptacle; consider foot need not leave inventory and ritual order matters — test CIRCLE→WAVE STICK→WAVE FOOT→WAVE DOLL→SAY CHANT sequence after foot placed). Then claim finish only on genuine winning narrative.

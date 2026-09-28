@@ -1,0 +1,106 @@
+{
+  "game_id": "busted",
+  "title": "Busted!",
+  "author": "Jon Drukman",
+  "url": "https://ifarchive.org/if-archive/solutions/busted.sol",
+  "accessed_at": "2026-09-25T08:44:02.276110+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted.sol",
+  "source_sha256": "42f1c1d73ef61345be843ab5595418bf10487bb9d1cf02fbbbae9ac9457717e3",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted-walkthrough.txt",
+  "normalized_sha256": "42f1c1d73ef61345be843ab5595418bf10487bb9d1cf02fbbbae9ac9457717e3",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BUSTED.Z5",
+  "story_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+  "compatibility": "Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "941223",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000043a803a81285d0102198c1f4d0000393431323233004250b9528a00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "51a28fd65c85576fbfd5b08a377e4d67bc229e35a80c8f4c220d78b88b41a559",
+    "checksum_hex": "528a",
+    "declared_length": 82660,
+    "file_bytes": 82944
+  },
+  "guide_release": 4,
+  "guide_serial": "941223",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "BUSTED.Z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/busted.zip#BUSTED.Z5",
+    "accessed_at": "2026-09-25T08:45:26.875539+00:00",
+    "remote_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "local_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "bytes": 82944,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 4,
+    "remote_serial": "941223"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#busted.zip",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "busted.zip\n◆\n[28-Dec-1994]\nView contents\nIFDB entry\nBusted! A game of high cunning and low humor,\nby Jon Drukman, ported from AdvSys to Inform by the author.\nRelease 4 / Serial number 941223.",
+    "tuid": "v5xsbaedcb9p29bq"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#busted.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "busted.sol\n◆\n[07-Mar-1997]\nIFDB entry\nstepwise solution to Busted, by Paul J. Godfrey",
+    "tuid": "v5xsbaedcb9p29bq"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Paul J. Godfrey",
+    "route_summary": "Follow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.",
+    "limitations": "Food, fatigue and moving-NPC timing matter. Read the actual ID and library clues; do not assume guide sample codes. The guide deliberately demonstrates an ID-destroying action then restores: keep that detour optional and never lose the ID needed later. Preserve safe early and milestone checkpoints; one action at a time around hazards. Optional drug/death experiments in the amusement list are not required full-route work or probe quotas.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "busted",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "The author readme calls this an original game. Group AdvSys and Inform versions as busted. A university setting alone does not connect it to Lecture Feature/Teacher Feature or other campus games; no concrete shared-world/puzzle link to a collected family was identified."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public availability does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "story_container": {
+    "format": "zip",
+    "local_path": "/home/krickert/if-games/zcode/busted.zip",
+    "url": "https://ifarchive.org/if-archive/games/zcode/busted.zip",
+    "member": "BUSTED.Z5",
+    "local_sha256": "b0964bef670995d757d4837545e909a3421e80d8bb55f040f274b9991dd6a904",
+    "remote_sha256": "b0964bef670995d757d4837545e909a3421e80d8bb55f040f274b9991dd6a904",
+    "byte_identical": true,
+    "container_bytes": 53647,
+    "member_bytes": 82944,
+    "member_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "extracted_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BUSTED.Z5",
+    "storage": "central_only"
+  },
+  "packaged_readme": {
+    "member": "BUSTED.TXT",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted-readme.txt",
+    "sha256": "30021b101e8f7de619c9ec9385fd698d12466f671e6e6a3a66e928077fc22e4f",
+    "container_sha256": "b0964bef670995d757d4837545e909a3421e80d8bb55f040f274b9991dd6a904",
+    "body_read": true
+  }
+}

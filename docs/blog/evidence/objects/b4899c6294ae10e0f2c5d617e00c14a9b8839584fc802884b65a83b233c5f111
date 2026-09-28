@@ -1,0 +1,13 @@
+# Delusions progress — segment 2 (in progress, STUCK at Justy/report icon)
+
+Location: Cynthia's Quarters. Time ~5300 (5261 at e00332). Score 10/50. Branch b8, event e00356.
+Inventory: three-hole punch, antitoxin caplet, gelstrip, power X-Acto knife, hypodermic syringe. Wearing jumpsuit + fingerwatch.
+Staged in Your Quarters: electromagnet (ON, new coupler), Giger painting, lightstick (cooled), tongs. Alcove: amp (fader 10, violin plugged in), pillow, bow, violin.
+Checkpoints: ... lab-report-sequence (verified, in VR Lab before icon attempts).
+Cases: ~40 annotated. OPEN: quarters-inject (still 'don't need to yet' at ~5300, e00356); report-icon-click (Justy blocks, unrepaired).
+
+WALKTHROUGH RECONSTRUCTION (R2, via broker): L17-25 reef run1; L26-34 waits/metal door/insulin/freezer-light; L35-43 oven/tongs/switch/curtain; L44-52 bins/magnet; L53-61 amp/shelf/pillow/violin/bow/fader; L62-70 plug/play(5/13)/magnet-coupler/picture; L71-79 drop-all/NW/enter-sphere/E,E,W D,U,W W,W,E; L80-88 gravel/holes/metal-door/insulin(1/14); L87-95 metal-door/insulin/NW/manual-index(4 lookups); L96-102 UNKNOWN GAP; L103-111 zzzz/get-up/again/N/open-report-icon/close-msgbox/N-wait-printer; L112-120 read-output(2 clues)/S/configure-icon/hand-checkbox(4/18)/close; L121-129 S/lie-gurney/set-watch/wait-woozy/sleep(4/22); L126-134 grip-warning/get-up.
+DONE through ~L95 + run-4 reef win (Shipwreck exit, magnet ON caused 'wavers slightly').
+
+BLOCKER: 'open report icon' in lab → Justy 'don't mess with that'. Tried: ask justy about overload/report ('I dunno' x2); 13+ z's on MedLab gurney across 2 sessions + return (Justy still there); Output Station has no icons, N is dead end; Cynthia snubs ('ask about EVERYTHING?'); insulin still refused at 5300. R2 implies Justy leaves ~15 turns post-manual; R4 differs (100+ turns elapsed) — trigger unknown or window missed.
+Next: (a) 'click left button on report icon' verb-path test; (b) more Justy topics; (c) measure clock rate via watch; (d) check Justy's quarters; (e) consider restore to quarters-staged + compact replay if window missed.

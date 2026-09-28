@@ -1,0 +1,9 @@
+# Child's Play progress - COMPLETE (m0374-m0424)
+
+WON: e438 "*** You have won ***", 100/100, "10 for getting your favorite toy for the last time".
+Ending: yanked toy from Zoe stuck in babies-and-Cheerios train-wreck at Loveseat North; Zoe wailed, parents ended playdate, mom gathered me + toy to crib. Genuine final toy-retrieval narrative, not death/chapter/quit.
+
+Segment 3 route: checkpoint playpen-open-chase e387-388; chased Zoe (Middle e389, Couch West e395, Loveseat South e397); hints walked ch3 lines 201-335 to 'Zoe has my toy!' (Cheerios spill, HIT CUP WITH STICK e410); retrieved stick (e413); Parry at Loveseat North (e414/417); syn 'hit cup' failed short arms e418, 'hit cup with poosh stick' spilled Cheerios e419; babies gathered e420-422; Zoe at Rocking Chair e423-424; checkpoint before-final-grab e425-426; 'take toy' fled west e427 into crowd; 'take toy' in crowd failed hands-full e429; dropped stick e430; chased via Middle e433-434 to Loveseat North e437; 'take toy' WON e438.
+Annotated: syn-hit-cup e439 (syntax), syn-take-toy e440 (world_state), route-final-hands e441 (world_state). Total ~54.
+Checkpoints: playpen-open-chase, before-final-grab (both verified saves).
+Finish: evidence e438, quote "*** You have won ***" + 100-points block.

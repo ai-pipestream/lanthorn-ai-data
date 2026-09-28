@@ -1,0 +1,21 @@
+# Balances progress
+
+Location: Pocket Valley (trail north-south), winged horse present.
+Inventory (observed): spell book (now includes bozbar), silver coin, magic burin; scroll consumed on gnusto.
+Score observed: 5 (oats scroll).
+
+Checkpoints: start-hut, after-wings (verified Ok).
+
+Cases so far:
+- grasslands-dir-typo-01 (vocabulary typo nroth -> north) annotated e10/e12
+- valley-oats-search-01 (none: examine oats = search oats, found scroll) annotated e17
+- valley-gnusto-01 (syntax omitted object gnusto -> gnusto scroll) annotated e20/e21
+- valley-bozbar-01 (world_state learn+correct target) annotated e23/e26/e27
+- valley-horse-ride-01 pending (ride horse circled back pre-wings) — needs annotate after post-wings ride?
+
+Last hints:
+- e11: out, north, north then sudden stop
+- e16: search oats, examine shiny scroll, gnusto it (done)
+Need next hint for flying/riding winged horse north.
+
+Next: try ride horse / mount / fly north with winged horse; ask help if fails twice. Continue toward completion per manifest (demo ending, verify final narrative).

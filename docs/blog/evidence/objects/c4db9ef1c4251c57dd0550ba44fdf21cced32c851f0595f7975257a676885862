@@ -1,0 +1,16 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Behind the Cottage (e228). Blinding snow/blizzard (weather shifted at e227 clearing re-entry). Pile of straw here. Pending broker: m0186 'examine straw' (UNREAD). Ordinary prompt. No death/quit/ending.
+
+Inventory as observed: glowing hot glass bottle w/ phosphorescent water (providing light) + tinderbox. Letter/lantern/key gone since voyage. Bottle-light is the light source; conserve it.
+
+Route since tiny room: e225 'east' to Collapsed Cellar; e226 'up' to Derelict Cottage; e227 'east' to Forest Clearing — now in hard blizzard, foot-deep snow; e228 'southwest' round to Behind the Cottage (blinding snow, straw pile). Straw + tinderbox suggests fire-making; blizzard suggests shelter/warmth need.
+
+Annotated (~37): tinyroom-search e222->e223 syntax (e224). Backlog unannotated: tinyroom-go-east-up e225-226 (none); cottage-round-back e227-228 (none); forestpath-go-west e204; pond-go-east e207; forestpath-go-south e208; clearing-go-west e209; cottage-go-down e215; cellar-go-west e216; tinyroom-take-tinderbox e217; tinyroom-look e218; graveyard-skeleton-examine e196; graveyard-bottle-take e198; graveyard-bottle-examine e200; graveyard-go-north e201 (planning: hint-north applies elsewhere); graveyard-go-east e202; deadforest-go-south e203; cottage-inventory e213 (none); plus older: choir-bell-ring e168->e169; route-flee-lucy e170-177; hatch-examine e133; route-deck-up2 e144; deck-body-examine e145; deck-get-all e146; route-deck-to-beach e147-151; beach-east e152; henrietta-east e153; bridge-street-look e181; borgo-look e185; graveyard-coffin-examine e191. Old: wheel-four e79; choir-wall e82-83; hound e89/e91; hound-call-mars e59; pull-chain e64; light-lantern e63.
+
+Help: m0135 lines 55-63; m0155 lines 331-339 (n,n,n,open door,n,Chapel,play C,e,open door) — flagged possibly endgame excerpt; verify against game. Guidance only. Next: refine topic to straw/fire/blizzard or back-of-cottage if straw fails. Do NOT replay as script.
+
+Checkpoints verified: derelict-cottage (e210-211) + castle-graveyard + helsing-handoff + earlier. Checkpoint again after straw/fire result or next new area.
+
+Continuation: 1) read responses/m0186.json; 2) search/take straw, try tinderbox burn if sensible (checkpoint first — fire is risky); 3) toward Chapel confrontation + escape finale per manifest. ~37 annotated of 20-40 target. No ending; no finish claimed.

@@ -1,0 +1,8 @@
+# Jigsaw progress (update 32 — SEGMENT 4, game incomplete, REPLAYING Ch6)
+
+Location: Monument, branch b2, 9 played WITH b2 (e00960). CH5 REPLAY COMPLETE (all beats verified: bathroom+1, paskha+1, uniform+1, Smoky+1, tray+1, visit-1 grille stash → clean south exit NO seizure, bomb+1, a2 LP lit first-try). Checkpoint r2-monument-9lit (e00960). Opt: visit-1 stash saved 10-queue rewait.
+CH6 SCRIPT (b0 e00659-682, no pieces): B0: clock59, press a2. B1: ' ', examine device(67), spin detector(folds), examine window, look through window(Beatles). B2: examine young men(Black hums), kiss black(+1 Walrus), wait x3 (cloud+bell 3rd). B3: press white button, enter ball, wait, wait (Clouded Crags), south(mist). B4: southeast(Disc), northwest(monument), clock59, press b4 → Ch7.
+CH7 SCRIPT: update 29. End: d4 + c4 (3 turns) → 11 lit → clock59, press b2 → CH8.
+Cases: 66, all annotated. Help parked at Ch8 line 678.
+
+Next: m0704 = Ch6 B0 (clock59 + press a2). Last response: m0703 (e00960).

@@ -1,0 +1,85 @@
+{
+  "game_id": "time-all-things-come-to-an-end",
+  "title": "Time: All Things Come to an End",
+  "author": "Andy Phillips",
+  "url": "https://ifarchive.org/if-archive/solutions/time.sol",
+  "accessed_at": "2026-09-25T08:27:15.131371+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time.sol",
+  "source_sha256": "ff26aaf6901319ead97dae1dad2b54c4d714991155c9f8bbb35a7bc9d0fb2459",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end-walkthrough.txt",
+  "normalized_sha256": "ff26aaf6901319ead97dae1dad2b54c4d714991155c9f8bbb35a7bc9d0fb2459",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/tatctae.z8",
+  "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+  "compatibility": "Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 7,
+  "serial": "970521",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000007b8d0b8d18551013a7039770d0000393730353231007ab88530bb00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "2b098f07fc153276b49e86e0a04d1ba3c291fd76e7e68508566b4b797a18f58a",
+    "checksum_hex": "30bb",
+    "declared_length": 377896,
+    "file_bytes": 378368
+  },
+  "guide_release": 5,
+  "guide_serial": "961014",
+  "guide_release_gap": 2,
+  "story_identity": {
+    "filename": "tatctae.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/tatctae.z8",
+    "accessed_at": "2026-09-25T08:29:36.584913+00:00",
+    "remote_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "local_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "bytes": 378368,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 7,
+    "remote_serial": "970521"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#tatctae.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "tatctae.z8\n◆\n[21-May-1997]\nIFDB entry\nIFWiki:\nTime: All Things Come to an End\nTime: All things come to an end, by Andy Phillips.\nRelease 7 / Serial number 970521.\n(a DOS executable is in games/pc/Tatctae.zip)",
+    "tuid": "eu3ed84ww7n1dryf"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#time.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "time.sol\n◆\n[29-Oct-1996]\nIFDB entry\ncommented stepwise solution to Time release 5,\nby Paul J. Godfrey",
+    "tuid": "eu3ed84ww7n1dryf"
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Paul J. Godfrey",
+    "route_summary": "Complete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.",
+    "limitations": "Random safe codes, keystone eras and other placeholders must be resolved from live clues; never send #### or angle-bracket labels. The guide intentionally uses prior knowledge and restores: label hint-derived knowledge and failed attempts honestly, not as observations from the current path. Make an early safe checkpoint and milestone saves around hazards. Preserve sensible full-route progress without reproducing every optional death or wait. Apply the old SET WATCH work-around only if live evidence warrants it.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "time-all-things-come-to-an-end",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent Andy Phillips multi-era science-fiction plot identified by this archive entry. Generic time travel alone does not connect it to Traffic, Jigsaw, Doctor Who or held-out games. Keep all releases and ports of this title together; no concrete shared-puzzle/world relationship to an existing family identified."
+  },
+  "reuse_claims_observed": "No story/guide reuse permission established; private collection only. Public hosting and source availability do not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

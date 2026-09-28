@@ -1,0 +1,25 @@
+{
+  "event_id": "wadewars-iii-askin-b613801aeb:e00379",
+  "timestamp": "2026-09-25T09:06:25.376724+00:00",
+  "game_id": "wadewars-iii-askin",
+  "session_id": "wadewars-iii-askin-b613801aeb",
+  "branch_id": "b2",
+  "event_index": 379,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 85772,
+  "raw_end": 85772,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** you have won ***\n\n\n[In that game you scored 100 out of a possible 100, in 228 turns.]",
+    "evidence_event_ids": [
+      "wadewars-iii-askin-b613801aeb:e00377",
+      "wadewars-iii-askin-b613801aeb:e00378"
+    ],
+    "notes": "Genuine winning ending: EPILOGUE reunion in kitchen (e00377) then 'you have won' with full 100/100 score (e00378), terminal RESTART/RESTORE/QUIT prompt. Completed all chapters: Askin statue swap, silver tower/orchard launch, cloud Laws audience, Edaw ring theft, uncle rescue, fire-ring escape and return. Not death (b1 e00358 death was recovered via restore to b2), not quitting, not chapter transition."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,33 @@
+# Space Station — collection progress
+
+Location: Director's Office (aft of Sector L; fore of L is ID
+barrier). Cabinet, desk, outlet; portable computer + slip of paper
+on desk.
+Inventory: translator/chronometer/uniform worn, isotopes box, TOOLBOX
+(locked).
+
+Checkpoints: start-scooter, docked-exit (verified).
+
+Cases (11):
+- scooter-survey DONE; toolbox-typo chain PENDING (needs unlock key)
+- hallway-dir-synonym ANNOTATED vocabulary
+- fussbudget-wake ANNOTATED none
+- cage-open: break refused / open locked; HELP used (toolbox key in
+  Director cabinet; saw/paste/glue/bracelet inside; portable/cord/
+  outlet/manual steps). Pending saw-out annotation.
+- scooter-board ANNOTATED vocabulary
+- toolbox-take/return/hallway-east/west DONE; Xeno Bio Lab (maze
+  not-for-human-use), SanFac, Dentist waiting room mapped.
+- sanfac-trash ANNOTATED world_state; sanfac-rubbish DONE.
+- dentist-magazine-ambiguous ANNOTATED ambiguity — Popular
+  Mechanics ram recipe: glue, saw, boards, hydraulic fluid,
+  syringe, hosing, bars (cage-opening path).
+- dentist-door examined/open both blocked LOCKED (exploration).
+- sector-l-fore: "fore" blocked by ID barrier e00061 (world_state;
+  needs identification — possible future case).
+- sector-l-aft -> Director's Office e00062 DONE.
+- cabinet-typo: "open cabnet" e00063 rejected; "open cabinet"
+  m0058 PENDING.
+
+Next: take key+manual; unlock toolbox; examine portable/cord/
+outlet; read manual + slip of paper; checkpoint office milestone.

@@ -1,0 +1,25 @@
+{
+  "event_id": "slacker-x-70f303cb52:e00121",
+  "timestamp": "2026-09-25T06:50:43.273951+00:00",
+  "game_id": "slacker-x",
+  "session_id": "slacker-x-70f303cb52",
+  "branch_id": "b1",
+  "event_index": 121,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 14580,
+  "raw_end": 14580,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "a9528b18c7b9557a356d9ea3bb09924be218d4322ca6416748b89b02864dd3a5",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "slacker-x-70f303cb52",
+    "ending_quote": "(to Yrrab)\n\"Barry sent you?\" He asks himself, \"Well, come downstairs! It's important that \nwe get you far away from here.\" . . .\n\n\n\n\n\n Stay tuned and get the sequel to \"Slacker X\", \"Operation: Thrasher\".\n\n\n    *** You have won ***\n\n\nIn that game you scored 48 out of a possible 52, in 50 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+    "evidence_event_ids": [
+      "slacker-x-70f303cb52:e00119"
+    ],
+    "notes": "Full bag/item chain completed: vodka>eye drops>bill, powder in pot eaten, bag>Barry>envelope, envelope>Yrrab triggers author win text and *** You have won *** with 48/52 in 50 turns. Not death, quit, chapter change, or partial score; game now at RESTART/RESTORE/QUIT prompt."
+  },
+  "review_status": "unreviewed"
+}

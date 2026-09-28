@@ -1,0 +1,55 @@
+# Fullplay supervision
+
+Bounded audit completed 2026-09-25T09:56:45.991907+00:00; fixed candidate cutoff 2026-09-25T09:46:56.836975+00:00.
+
+120 annotations across62 games:92 accepted,24 revise,4 quarantine. Both endpoints and850 distinct surrounding/intervening events matched raw offsets, SHA256, response text and CSV endpoint fields. Matching bytes alone do not establish isolated command attribution.
+
+Current export: 4876 unique annotation rows; 2501 accepted, 624 revise, 146 quarantine, 1605 unreviewed. Counts require exact endpoint-set equality and manual transport overrides; cached CSV labels may lag or contain additional automatic exclusions.
+
+## Verified conclusions
+
+Single-ending follow-up 2026-09-25T10:01:12.396532+00:00: **Gerbil Riot verified, unclaimed at capture**. b3 EAST at gerbil-riot-f0779de162:e00664 (2026-09-25T09:45:39.027446+00:00) leaves the asylum and explicitly confirms escape, END OF GERBIL RIOT and a replay question. Raw 83207:83578, SHA256 efddf29fb2215db62ecab2c3b822ec93b139c18099ff96c23f0abaa9eefeb3cb. Z5R2/000513 story identity checked. e588/e589 restore and e590 LOOK establish b3; e661 guard payment, e662/e663 SAVE and e664 finale are contiguous without intervening transport faults. No later event, ending-claim event or ending-claim file exists at review. The replay prompt explains awaiting_input_or_idle; it is not continued gameplay.
+
+Kimi supplied triage only; this verdict comes from independently checked engine bytes and surrounding events. **Quota-held slot remains owned: no resume or refill.** No candidate cases reviewed in this follow-up; previous counts below retain their original observation timestamp. No maximal-content claim.
+
+Historical total: **70**, including Nine Points SAMPLE and Bedlam PREVIEW. All previous evidence remains in fullplay-status.json.
+
+**believable-adventures-invisible-man**: Verified b0 ENTER 123 ON KEYBOARD e347: fictional revenge/defacement, return home and explicit Your revenge is complete with terminal menu. Future world domination is deferred, not achieved. Evidence believable-adventures-invisible-man-5201a7e372:e00347; raw 47406:48459; SHA256 6005af30a012a62161c2d6c7983d490bb04500022aff25cba7a10f430c4dedeb. Z8R2/100130. Author guide second release, no serial; no exhaustive compatibility claim.
+
+**cacophony**: Verified b10 e793 TURN TV OFF begins dissolution of images and walls; e794 LOOK and e795/e796 Z continue the paginated release-from-the-cage narrative, Free and terminal menu. Continuation inputs are not isolated LOOK/WAIT effects. Freedom route, not an ordinary death. Evidence cacophony-c47d99b6d3:e00796; raw 106092:106173; SHA256 5e0ba2c8f238dff4eff4932e2ffd61680104c59e1f194e647cdba7ad8ae09409. Z8R4/091209. Three-route author guide dated August2009 does not identify exact release and predates this build.
+
+**detective**: Verified b2 e93 NORTH arrest/promotion narrative followed by e103 GO UP Info credits and explicit win300/360/menu. e90 b1 sauna death precedes e91/e92 restore and is not this conclusion. Score is not maximal-content coverage. Evidence detective-8419402e7b:e00103; raw 14706:15448; SHA256 0e9a5507f4a88f20bc00002c58c05d54ca7d6c59b7272faef09afefc4039fb54. Inform Z5R1/000715; guide targets AGT original. Preserve platform/parser gap.
+
+**mansion**: Verified b8 e1580 DRINK potion, CALL BROOKES and timed departure/cancelled development; e1587 GET ROSE yields Rosa/Aunt Agatha epilogue, welcome home and explicit win68/68/menu. Ending narrative, not score alone. Evidence mansion-cc50b3ae7d:e01587; raw 198468:198896; SHA256 becce9e159f69d6a5afcdccdcb40ddc74c7b3a2d1c3daa1c79fe6554d3c40650. Z5R3/260803.2022 guide predates this release; exact compatibility unspecified.
+
+Cacophony requires the complete e793-e796 continuation sequence. Detective b1 death is separate from the restored b2 ending. Scores do not prove all content or cases were collected.
+
+## Startup checks
+
+**zorkian-stories-1-gue** (zorkian-stories-1-gue-6ffd9e5043): Blorb embedded Z8R1/121014 and actual release banner verified; e3/e4 exact-path SAVE/Ok and nonempty file hash. Development split, Zork family; guide release unspecified. Fan story, not commercial Zork.
+
+**dash-slapney-patrol-leader** (dash-slapney-patrol-leader-64ff8134ce): Blorb embedded Z8R3/120510 and actual release banner verified; e4/e5 early-bedroom SAVE/Ok and nonempty file hash. Train, dash-slapney family; guide unversioned, source release is not compiled equivalence.
+
+**punk-points** (punk-points-7c2d72a183): Raw Z5R2/010108 header/hash verified; initial opening has no release banner. Native concert-to-bedroom transition retained. e3/e4 start-bedroom-morning SAVE/Ok and nonempty file hash. Train, punk-points family; guide release unspecified.
+
+**mystery-fun-house** (mystery-fun-house-61d87e14cd): ScottFree trailer145/Adventure7; archive README maps ADV07.DAT to Mystery Fun House v1.45, TRS80 conversion. Story/archive member identity and real Adventure7 opening verified. e2 SAVE is rejected, no successful checkpoint observed. Train, Scott family; guide edition/platform unspecified.
+
+Container and embedded-story identity were checked separately for Blorbs. Mystery Fun House is Scott data, not Z-code. No recovery capability follows from its rejected SAVE.
+
+## Pair findings
+
+Four quarantines retain mixed quotation/command attribution or cross-restore evidence. Revisions correct unsupported causal claims, reversed endpoint chronology, unachieved intentions and mistaken edit descriptions. Acquiring a tool, providing payment, restoring state and native scene changes are not syntax repairs. Explicit alternate plans remain distinct from same-intent corrections. Generic Taken responses require real command/context.
+
+Prior transport exclusions remain in force, including Fine Tuned fragments. The unreviewed backlog is not accepted.
+
+## Current hold and observation limits
+
+Parent quota receipt control/provider-quota-hold-20260925T0950.json reports all33 Muse clients stopped with Meta429, zero actual clients on eight hosts,34 brokers and both sync services retained. Reset stated as2026-09-25T12:41:27Z. Reviewer independently confirmed both launch flags false and read the local process snapshot. Remote occupancy is receipt-based, not a fresh reviewer SSH check. Pythos remains a distinct prior transport hold.
+
+Latest central input raw spans checked for 103 games, faults 0. Unverified claims at write time: none.
+
+No game inputs, launches, resets, model calls, training, evaluation or publication. Only the three reviewer-owned files changed. This bounded pass is finished; no next automatic review batch until followup.
+
+## Historical boundaries
+
+All prior completion, recovery and version evidence is retained in status JSON. Zork is the full Dungeon Inform7 port; Spider b19 ending preceded b20 restore; BiCon native UNDO repeats one game outcome; sample/preview and branch-specific qualifications remain unchanged. Source guidance and coordinator/model claims are not observed success.

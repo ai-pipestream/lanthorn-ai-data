@@ -1,0 +1,18 @@
+{
+  "story": "tess.z5",
+  "guide": "tess.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/tess.sol",
+  "accessed_at": "2026-09-25T06:02:04.057459+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 2,
+  "serial": "031227",
+  "sha256": "1605753236549604f2f7f773e08265a2642ca3d81cae35c76749dd22f39b61ad",
+  "bytes": 93696,
+  "header_hex": "0500000239a439a529f7010a17f021b7005030333132323700425b5620840000000000000000000000000000000021b6000000000000010200000000362e3231",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/tess.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.282251+00:00",
+  "downloaded_story_sha256": "1605753236549604f2f7f773e08265a2642ca3d81cae35c76749dd22f39b61ad",
+  "download_matches_local": true
+}

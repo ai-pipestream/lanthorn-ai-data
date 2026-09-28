@@ -1,0 +1,24 @@
+{
+  "event_id": "shade-3fcd469b94:e00352",
+  "timestamp": "2026-09-25T02:24:45.386148+00:00",
+  "game_id": "shade",
+  "session_id": "shade-3fcd469b94",
+  "branch_id": "b0",
+  "event_index": 352,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 44296,
+  "raw_end": 44296,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "The tiny figure crawls out from under the sands. It's dead.\n\n\"You win,\" it says. \"Okay, my turn again.\"\n\n>...\nNothing left to do. Time passes.\n\nThe sun crawls higher.\n\n\n    *** SHADE ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?",
+    "evidence_event_ids": [
+      "shade-3fcd469b94:e00347"
+    ],
+    "notes": "Author-intended bleak concluding narrative with SHADE banner and restart/restore/quit prompt after desert figure death, book blank, and waits. Not early death, chapter reset (mirror e00247), or quit: full apartment-to-desert transformation completed (taps/closet/crate/stove/fridge/shower/luggage sand, nooks gone, palm, mirror daylight, desert figure killed by handling, book blank). Extra wait commands got end-prompt refusals, confirming termination."
+  },
+  "review_status": "unreviewed"
+}

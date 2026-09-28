@@ -1,0 +1,10 @@
+# BOFH progress (continuation — game incomplete, pending broker)
+
+Game: bofh R2/020927. Session bofh-6da3ab2a37, branch b0.
+Location: Venetian Front Desk (Kim; fair game). Latest e00355 command (m0317 resolved).
+Verified: lobby look e00335; inventory e00336 (Grail, Hammer, approved form, Photos, swipe, Prod); north e00337 front desk; ask suite e00338 needs confirmation/itinerary; show form e00339 Kim reject "not anything I need"; look rep e00342 Kim/fair game; kiss rep e00345 + kiss kim e00346 identical blocked "front desk is just too big"; annotate e00347 none; give form to kim e00350 identical reject; read form e00351 beancounter 5-day Microsoft conference form, keep safe; annotate e00353 show/give-form none; give itinerary to kim e00354 "You can't see any such thing" (R2 no itinerary; R1 inbox had itinerary+note vs R2 only boss note e00001); show photos to kim e00355 identical Kim reject "not anything I need" (third identical rejection: form/photos).
+Hints: e00348 lines 752-760 give itinerary -> downgraded standard suite + room key; e00349 lines 761-769 room 14-210 + photos-revenge downgrade career; e00352 repeats downgrade handoff (off-topic, still need post-photos-revenge excerpt toward suite upgrade + You have won).
+Checkpoint venetian-lobby e00333-334 OK.
+Completed: m0314 help e00352; m0315 annotate e00353; m0316 command e00354; m0317 command e00355.
+Pending: inbox/m0318.json help stuck (after-photos-revenge excerpt toward suite upgrade + win; related e00338/e00354/e00355) — responses/m0318.json NOT YET PRESENT as of latest e00355. Do NOT resubmit or duplicate. On continuation: read responses/m0318.json first, then latest.json.
+Next: after help, explore south back to lobby then west hallway / south exit mapping; annotate form/photos identical-rejection pair if useful. Game incomplete, no ending verified.

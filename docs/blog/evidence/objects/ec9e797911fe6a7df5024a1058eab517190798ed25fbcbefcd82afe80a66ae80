@@ -1,0 +1,23 @@
+# Heroine's Mantle — progress
+
+Current location: Crusader's Statue (at Maiden's Wharf), Score 3, Moves 20 (e00037)
+Inventory as observed: shirt and stockings (e00010); staff is Crusader's (e00024). Crusader gone after parents farewell (e00026).
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue. Next checkpoint after bracelet sequence.
+Pending: inbox/m0030.json annotation for statue-turn-omitted-probe (turn e00036 -> turn bracelet e00037) — submitted, response not yet present; do NOT duplicate.
+
+Cases so far (8):
+- drowning-remove-uniform-probe (e00008) — annotated e00009, none
+- jetty-examine-woman-probe (e00021) — annotated e00022, none
+- jetty-staff-typo-probe (e00023 fail, e00024 success) — annotated e00025, vocabulary
+- jetty-parents-singular-probe (e00026) — annotated e00027, none
+- statue-plaque-sign-probe (e00029 fail, e00030 success) — annotated e00031, vocabulary
+- statue-bracelet-look-probe (e00033 fail syntax, e00034 success) — annotated e00035, syntax
+- statue-turn-omitted-probe (e00036 turn->statue fail, e00037 turn bracelet success) — annotation pending m0030
+- jetty-go-west (e00028), x bracelet (e00034), turn bracelet (e00037) — guided/exploration
+
+Last hint lines 42-50 (walkthrough, NOT observed): x bracelet done; turn it done via turn bracelet; next: look under bracelet, open catch, get bracelet (1/4), wear bracelet (1/5), save s5, Cocktail Reception.
+
+Next actions after m0030 resolves:
+1. look under bracelet (canonical).
+2. open catch; get bracelet; wear bracelet with synthetic variation where safe.
+3. Checkpoint statue-bracelet.

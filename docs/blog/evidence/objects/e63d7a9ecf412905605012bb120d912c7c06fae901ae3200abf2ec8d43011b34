@@ -1,0 +1,41 @@
+# Progress — The Wedding (segment 1)
+
+## Current state
+- Location: Drawing room (west of Entrance Hall)
+- Score: 3, Moves: 55
+- Inventory (observed): wedding programme; key + spade dropped in Entrance Hall. (Confirm with `inventory` next.)
+- Alarm off; Scamp freed; Chloe met.
+
+## Route since last update
+- Waited in Study until alarm stopped (score 3, ~move 30)
+- W to hall; `open cupboard` blocked (locked); `unlock cupboard with key`; opened → spade
+- `take shovel` rejected → `get spade`; `drop all`; W to drawing room
+- `examine girl` described Chloe; NE to passage; `free scamp` rejected → `untie scamp`
+- NE kitchen; S pantry; `take program` rejected → `get programme`
+- E: delivery door won't open (expected); N kitchen; SW passage; E library
+- `peruse programme` rejected → `read programme` (first draft)
+- `look up barbara in programme` worked (Barbara Franklyn entry); `consult programme about chloe` (Battlebase fan)
+- `read books` → card index; `look up battlebase in index` → Episode Guide
+- W passage; SW drawing room; `ask chloe about battle base` worked; checkpoint `drawing-chloe`
+
+## Annotated cases (16 total)
+8. barbara-ask-mother-short (none): MOTHER accepted
+9. cupboard-open-locked (world_state): locked → unlock prerequisite → open ok, spade
+10. spade-take-synonym (vocabulary): SHOVEL → SPADE ok
+11. chloe-examine-noun (none): GIRL accepted for Chloe
+12. scamp-free-synonym (vocabulary): FREE rejected → UNTIE ok
+13. programme-spelling-probe (vocabulary): PROGRAM → PROGRAMME ok
+14. programme-peruse-verb (vocabulary): PERUSE rejected → READ ok
+15. programme-lookup-verb (none): LOOK UP IN PROGRAMME accepted (Barbara entry)
+16. chloe-ask-battlebase-split (none): BATTLE BASE split accepted
+(1-7 in earlier version of this file: guard-talk, gate-open, tree-shake, apple-typo, apple-throw, barbara-greet, key-from-barbara)
+
+## Last hint
+- "Consult programme about Barbara / about Chloe / Read books / Look up Battlebase in index / W, SW / Ask Chloe about Battlebase / save (s3)" — all consumed.
+
+## Next actions
+1. Help mode=next for steps after Chloe/Battlebase
+2. Continue probes toward 20-40 total; confirm inventory
+
+## Checkpoints
+- start-outside, before-apple-throw, inside-entrance, drawing-chloe (all verified Ok)

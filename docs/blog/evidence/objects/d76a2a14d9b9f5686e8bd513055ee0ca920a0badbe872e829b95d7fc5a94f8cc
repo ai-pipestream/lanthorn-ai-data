@@ -1,0 +1,1358 @@
+{
+  "observed_at": "2026-09-25T02:04:15.646954+00:00",
+  "state": "Four historical endings unchanged. Zork restored living-kit-347 into b88, not the requested original shaft reserve. Optimized route and increased reserve remain unverified. Fresh review bounded to recorded export snapshot.",
+  "dataset_scope": "Synthetic test data only; no training or model-skill benchmark.",
+  "processes": {
+    "31447": {
+      "role": "recovery broker",
+      "present": true
+    },
+    "31770": {
+      "role": "export watcher",
+      "present": true
+    },
+    "175973": {
+      "role": "parent-identified launcher",
+      "present": true
+    },
+    "176048": {
+      "role": "last observed Muse worker",
+      "present": false
+    }
+  },
+  "live_sessions": {
+    "zork-i7": {
+      "session_id": "zork-i7-c569ad8028",
+      "branch_at_recovery": "b67",
+      "release": "Zork/Dungeon 3.2B, Inform 7 port, Release 4 / 190920",
+      "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+      "recovery": {
+        "previous_session_id": "zork-i7-f819398705",
+        "checkpoint_event_id": "zork-i7-f819398705:e01525",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/auto-f819398705-1523.sav.qzl",
+        "checkpoint_sha256": "e7b3a3e64122e95ff5a8fe32db434736cd01074f222ded136f06dbd0acb38038",
+        "reason": "User-confirmed host restart. New explicit session restored from last engine-confirmed autosave; historical evidence retained and no pending actions replayed.",
+        "session_id": "zork-i7-c569ad8028",
+        "branch_id": "b67",
+        "restored_at": "2026-09-24T23:20:15.503714+00:00",
+        "observed_event_id": "zork-i7-c569ad8028:e00005"
+      },
+      "checkpoint_ack": {
+        "event_id": "zork-i7-f819398705:e01525",
+        "raw_start": 798848,
+        "raw_end": 798854,
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+      },
+      "restore_ack": {
+        "event_id": "zork-i7-c569ad8028:e00004",
+        "raw_start": 803121,
+        "raw_end": 803127,
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+      },
+      "recovery_look": {
+        "event_id": "zork-i7-c569ad8028:e00005",
+        "raw_start": 803127,
+        "raw_end": 803250,
+        "sha256": "1af388f51f9ef4abeba2fe1f3c677dd9151dd7e6ae0ca9321d8aad6f031c72c2",
+        "response": "Ruby Room\nThis is a small chamber behind the remains of the great glacier.  To the south and west are small passageways.\n\n>"
+      },
+      "latest_command": {
+        "event_id": "zork-i7-c569ad8028:e01433",
+        "branch_id": "b88",
+        "command": "w",
+        "response": "\nStrange Passage\nThis is a long passage.  To the south is one entrance.  On the east there is an old wooden door with a large hole in it (about cyclops sized).\n\n>",
+        "raw_start": 1402681,
+        "raw_end": 1402843,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "ff325d81e04274c1bfdfbdd71545423f4d66457255709a07b5405f42db9094e2"
+      },
+      "latest_branch": "b88",
+      "ending_claim_file_present": false
+    },
+    "hhgttg": {
+      "session_id": "hhgttg-7b4da6d228",
+      "branch_at_recovery": "b75",
+      "release": "The Hitchhiker's Guide to the Galaxy",
+      "story_sha256": "88b968cb0ab1f564fa40183e4e5fe93c41157fe7883a802ca31ae3095769acf6",
+      "recovery": {
+        "previous_session_id": "hhgttg-09ab8b9e21",
+        "checkpoint_event_id": "hhgttg-09ab8b9e21:e01419",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/hhgttg/saves/hitchhiker-r59-s851108.z3.save/auto-09ab8b9e21-1417.sav.qzl",
+        "checkpoint_sha256": "b98dbee4caecd65c5cb3d37e46b3e4a221bc648b71f04701ce926e1ea1cad8c2",
+        "reason": "User-confirmed host restart. New explicit session restored from last engine-confirmed autosave; historical evidence retained and no pending actions replayed.",
+        "session_id": "hhgttg-7b4da6d228",
+        "branch_id": "b75",
+        "restored_at": "2026-09-24T23:20:16.767159+00:00",
+        "observed_event_id": "hhgttg-7b4da6d228:e00005"
+      },
+      "checkpoint_ack": {
+        "event_id": "hhgttg-09ab8b9e21:e01419",
+        "raw_start": 822943,
+        "raw_end": 823082,
+        "sha256": "65ad33cf60f3a86906bbc41e48b93e73ecbe8c20c4ad29b0bc84006764b1bf6a"
+      },
+      "restore_ack": {
+        "event_id": "hhgttg-7b4da6d228:e00004",
+        "raw_start": 826592,
+        "raw_end": 826618,
+        "sha256": "95065b6947cb6c309e7cb9976e3b3b329827a175d82e45d459311121add5fd9b"
+      },
+      "recovery_look": {
+        "event_id": "hhgttg-7b4da6d228:e00005",
+        "raw_start": 826618,
+        "raw_end": 826725,
+        "sha256": "81557b9001e20b96c8ecc95ac680d1061c9b5dc6769877ab9a66de3945d13f89",
+        "response": "Marvin's Pantry\nThis is a small closet with an exit to starboard.\nMarvin, the Paranoid Android, is here.\n\n>"
+      },
+      "latest_command": {
+        "event_id": "hhgttg-7b4da6d228:e00398",
+        "branch_id": "b95",
+        "raw_start": 981819,
+        "raw_end": 982053,
+        "sha256": "cffcb21273665a5e54f5243b7e6e285e1f0adf0aecb2bcceb10bd7ef0330c613",
+        "command": "",
+        "response": "\nYour score is 385 of a possible 400, in 621 turns.\n\nBy the way, there WAS a causal relationship between your taking the toothbrush \nand the tree collapsing at the very beginning of the game. We apologise for \nthis slight inaccuracy.\n",
+        "engine_state": "engine_exited"
+      },
+      "latest_branch": "b95",
+      "ending_claim_file_present": true
+    },
+    "photopia": {
+      "session_id": "photopia-74a27d1cb7",
+      "latest_branch": "b0",
+      "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+      "latest_command": {
+        "event_id": "photopia-74a27d1cb7:e00034",
+        "branch_id": "b0",
+        "command": "north",
+        "response": "The clicking in your helmet grows steadily louder -- you must be getting closer \nto what you're looking for. Soon you find yourself...\n\nAmong the ruins of the greenhouse\nThe colonization plans called for a central dome where plants designed to \nthrive in the harsh, lifeless soil of the red planet would be grown and used \nfor food. Everywhere you look are broken containers that once held seed pods \nand now contain nothing but cinders and ash.\n\nAmong the shattered seed pod containers you see one single undamaged one.\n\n>",
+        "raw_start": 8430,
+        "raw_end": 8953,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "c90c3eb2a59f436c1aa95774ad4ad05eb78fb1a2f9db79d18f3f7c6de2af347f"
+      },
+      "ending_claim_file_present": false,
+      "review_boundary": "Observed startup names Photopia1.30 stripped-down online edition. HeaderR1/120416 verified. Guide release unspecified, so full walkthrough compatibility remains unproved; not Glulx2.01."
+    },
+    "shade": {
+      "session_id": "shade-3fcd469b94",
+      "latest_branch": "b0",
+      "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+      "latest_command": {
+        "event_id": "shade-3fcd469b94:e00065",
+        "branch_id": "b0",
+        "command": "open window",
+        "response": "The window-glass is sealed; it can't open or close. Some notion of thermal \nefficiency. Truthfully, you like it that way.\n\nThe sound of the helicopter is fading now.\n\n>",
+        "raw_start": 10143,
+        "raw_end": 10311,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "0782654063529d3f7c766f814db2753a2362054852d5b631f43a3a28937746b2"
+      },
+      "ending_claim_file_present": false,
+      "review_boundary": "Startup explicitly R3/001127, agrees with header and local guide explicit Release3 claim. Full play compatibility not established by startup alone."
+    },
+    "suveh-nux": {
+      "session_id": "suveh-nux-0a645cbebf",
+      "latest_branch": "b0",
+      "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+      "latest_command": {
+        "event_id": "suveh-nux-0a645cbebf:e00047",
+        "branch_id": "b0",
+        "command": "say aveh tia",
+        "response": "You say \"Aveh tia\".\n\nThe room becomes hot.\n\nThe glow from the vial has faded to nothing again.\n\n[Your score has just gone up by 5%.]\n\n>",
+        "raw_start": 5434,
+        "raw_end": 5569,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "3b7dcda353e28d7d32445c83a784fd80d515ba50ebfe2222cd8f26da7ae2eafd"
+      },
+      "ending_claim_file_present": false,
+      "review_boundary": "Actual e00002 banner Suveh Nux by David Fisher, version1.1, Release1/071226. Guide saysVersion1.0: version mismatch, not exact match. Same story hash as manifest; full-guide compatibility remains unproven."
+    },
+    "secret-mission": {
+      "session_id": "secret-mission-08dcee7c13",
+      "latest_branch": "b0",
+      "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+      "latest_command": {
+        "event_id": "secret-mission-08dcee7c13:e00056",
+        "branch_id": "b0",
+        "command": "show picture",
+        "response": "show picture\nMetallic voice says:\n\"ACCEPTED\"\nThe door opens just long enough for me to scurry through.\nTV camera is powered down.\n\n\nI'm in a large white visitors room\n\nObvious exits: none\n\nI can also see:\n  Plate glass window with embeded red wires\n  Panel of buttons -white green-\n  Tv camera mounted over window\n\nTell me what to do ? ",
+        "raw_start": 5382,
+        "raw_end": 5718,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "80fa283272aea83df4f588994ff7177dd5afdd5805bc5bcaaa207f49f9e99e6e"
+      },
+      "ending_claim_file_present": false,
+      "review_boundary": "adv03.dat hash verified; actual banner Adventure number3 MISSION IMPOSSIBLE by Scott Adams. Secret Mission retained as manifest alias. Exact edition beyond this file/hash unspecified."
+    },
+    "voodoo-castle": {
+      "session_id": "voodoo-castle-5bd0b59cae",
+      "latest_branch": "b0",
+      "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+      "latest_command": {
+        "event_id": "voodoo-castle-5bd0b59cae:e00052",
+        "branch_id": "b0",
+        "command": "GET KETTLE",
+        "response": "GET KETTLE\nI can't do that\nIt's much to heavy to LIFT!\n\nTell me what to do ? ",
+        "raw_start": 3721,
+        "raw_end": 3798,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "10f3be86572d1a82ada6585a4c8bac2dee3815e79f29e910539bdfe700a131d6"
+      },
+      "ending_claim_file_present": false,
+      "review_boundary": "adv04.dat hash verified; actual banner ADVENTURE4 VOODOO CASTLE by Alexis ADAMS. Preserve observed author, rather than infer authorship from Scott Adams series name. Exact edition beyond file/hash unspecified."
+    }
+  },
+  "review_snapshot": {
+    "export_rows": 634,
+    "unique_annotation_rows": 634,
+    "export_statuses": {
+      "accepted": 420,
+      "revise": 164,
+      "quarantine": 14,
+      "unreviewed": 36
+    },
+    "effective_exact_pair_decisions": {
+      "accepted": 433,
+      "revise": 165,
+      "quarantine": 15,
+      "unreviewed": 21
+    },
+    "unmapped_or_mismatched_rows": 21,
+    "unmapped_annotation_ids": [
+      "photopia-74a27d1cb7:e00033",
+      "photopia-74a27d1cb7:e00036",
+      "photopia-74a27d1cb7:e00045",
+      "secret-mission-08dcee7c13:e00057",
+      "secret-mission-08dcee7c13:e00060",
+      "secret-mission-08dcee7c13:e00068",
+      "secret-mission-08dcee7c13:e00070",
+      "secret-mission-08dcee7c13:e00073",
+      "shade-3fcd469b94:e00063",
+      "shade-3fcd469b94:e00069",
+      "shade-3fcd469b94:e00070",
+      "shade-3fcd469b94:e00074",
+      "shade-3fcd469b94:e00078",
+      "suveh-nux-0a645cbebf:e00048",
+      "suveh-nux-0a645cbebf:e00049",
+      "suveh-nux-0a645cbebf:e00050",
+      "suveh-nux-0a645cbebf:e00051",
+      "suveh-nux-0a645cbebf:e00058",
+      "suveh-nux-0a645cbebf:e00059",
+      "voodoo-castle-5bd0b59cae:e00059",
+      "voodoo-castle-5bd0b59cae:e00062"
+    ],
+    "review_file_entries": 632,
+    "review_file_statuses": {
+      "accepted": 433,
+      "revise": 165,
+      "quarantine": 34
+    },
+    "scope_note": "Counts refer to exact unique exported rows at snapshot. New arrivals stay unreviewed. Accepted explicit changed-goal planning alternatives are excluded from same-intent wording repairs.",
+    "changes": "48 fresh rows reviewed over two bounded passes. Two uncertain-target repairs quarantined; explicit changed-goal alternatives restricted to planning data. 15 rows in latest pass."
+  },
+  "transport": {
+    "zork-i7-c569ad8028": {
+      "engine_input_events_including_startup": 1354,
+      "faults": [],
+      "through_event_id": "zork-i7-c569ad8028:e01433",
+      "raw_hash_and_text_verified_through": "zork-i7-c569ad8028:e01433"
+    },
+    "zork-i7-f819398705": {
+      "engine_input_events_including_startup": 1398,
+      "faults": [],
+      "through_event_id": "zork-i7-f819398705:e01525"
+    },
+    "hhgttg-7b4da6d228": {
+      "engine_input_events_including_startup": 395,
+      "faults": [],
+      "expected_completion_exits": [
+        "hhgttg-7b4da6d228:e00398"
+      ],
+      "through_event_id": "hhgttg-7b4da6d228:e00398"
+    },
+    "hhgttg-09ab8b9e21": {
+      "engine_input_events_including_startup": 1359,
+      "faults": [],
+      "through_event_id": "hhgttg-09ab8b9e21:e01419"
+    },
+    "photopia-74a27d1cb7": {
+      "engine_input_events_including_startup": 25,
+      "faults": [],
+      "through_event_id": "photopia-74a27d1cb7:e00034",
+      "raw_hash_and_text_verified_through": "photopia-74a27d1cb7:e00034"
+    },
+    "shade-3fcd469b94": {
+      "engine_input_events_including_startup": 45,
+      "faults": [],
+      "through_event_id": "shade-3fcd469b94:e00065",
+      "raw_hash_and_text_verified_through": "shade-3fcd469b94:e00065"
+    },
+    "suveh-nux-0a645cbebf": {
+      "engine_input_events_including_startup": 36,
+      "faults": [],
+      "through_event_id": "suveh-nux-0a645cbebf:e00047",
+      "raw_hash_and_text_verified_through": "suveh-nux-0a645cbebf:e00051"
+    },
+    "secret-mission-08dcee7c13": {
+      "engine_input_events_including_startup": 43,
+      "faults": [],
+      "through_event_id": "secret-mission-08dcee7c13:e00056",
+      "raw_hash_and_text_verified_through": "secret-mission-08dcee7c13:e00058"
+    },
+    "voodoo-castle-5bd0b59cae": {
+      "engine_input_events_including_startup": 37,
+      "faults": [],
+      "through_event_id": "voodoo-castle-5bd0b59cae:e00052",
+      "raw_hash_and_text_verified_through": "voodoo-castle-5bd0b59cae:e00052"
+    }
+  },
+  "historical_transport_boundary": "All old delayed/interleaved chains remain quarantined. Host restart recovery uses explicit new sessions and hash-matched saves; no replay was observed in their recovery prefixes.",
+  "verified_historical_endings": [
+    {
+      "game_id": "adventureland",
+      "event_id": "adventureland-19f4e4861c:e00939",
+      "raw_start": 129745,
+      "raw_end": 129853,
+      "sha256": "559e42c952191bfbd6300b50cee944fe8f6e8e3a57ba9ca2c57d7bc74364398d",
+      "verdict": "verified winning ending",
+      "evidence": "I've stored 13  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+      "score": "100/100"
+    },
+    {
+      "game_id": "pirate-adventure",
+      "event_id": "pirate-adventure-3b0fad2d95:e00853",
+      "raw_start": 129149,
+      "raw_end": 129256,
+      "sha256": "f751509dc7200ba99d1ed2a9dcda7fd685d6caa339d7591914280f0687c6a604",
+      "verdict": "verified winning ending",
+      "evidence": "I've stored 2  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+      "score": "100/100"
+    },
+    {
+      "game_id": "lost-pig",
+      "event_id": "lost-pig-7c88b2b933:e00357",
+      "raw_start": 59382,
+      "raw_end": 60394,
+      "sha256": "cff0d988612b20b7445d7db9be3c61a8dae91a740082c2fe429e39f7e5055bc6",
+      "verdict": "verified winning ending",
+      "evidence": "***  Grunk bring pig back to farm  ***",
+      "score": "6/7"
+    },
+    {
+      "game_id": "hhgttg",
+      "session_id": "hhgttg-7b4da6d228",
+      "branch_id": "b95",
+      "release": "59 / 851108",
+      "story_sha256": "88b968cb0ab1f564fa40183e4e5fe93c41157fe7883a802ca31ae3095769acf6",
+      "claim_event_id": "hhgttg-7b4da6d228:e00405",
+      "event_id": "hhgttg-7b4da6d228:e00397",
+      "verdict": "verified winning ending",
+      "score": "385/400",
+      "turns": 621,
+      "evidence": "Magrathea surface descent and next-game teaser, followed by final score and engine exit. No quit command caused this ending.",
+      "raw_receipts": [
+        {
+          "event_id": "hhgttg-7b4da6d228:e00397",
+          "branch_id": "b95",
+          "raw_start": 980987,
+          "raw_end": 981819,
+          "sha256": "9f267feaa056dad2d92640a77fa183c760cc9475943425a9395620d73689a9f8",
+          "command": "go down",
+          "response": "You step onto the landing ramp leading down toward the surface of the legendary \nlost planet of Magrathea. \"Announcement, announcement. This is Eddie (the \nshipboard computer). Someone is leaving the ship on a strange planet without \nwrapping up all nice and warm. It'll all end in tears, I just know it...\" The \nvoice fades behind you.\n\nRamp\nThe wind moans. Dust drifts across the surface of the alien world. Zaphod, \nFord, and Trillian appear and urge you forward.\n\nSlowly, nervously, you step downwards, the cold thin air rasping in your lungs. \nYou set one single foot on the ancient dust -- and almost instantly the most \nincredible adventure starts which you'll have to buy the next game to find out \nabout.\n\nWe are about to give you your score. Put on your peril-sensitive sunglasses \nnow. (Hit RETURN or ENTER when ready.) >",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        {
+          "event_id": "hhgttg-7b4da6d228:e00398",
+          "branch_id": "b95",
+          "raw_start": 981819,
+          "raw_end": 982053,
+          "sha256": "cffcb21273665a5e54f5243b7e6e285e1f0adf0aecb2bcceb10bd7ef0330c613",
+          "command": "",
+          "response": "\nYour score is 385 of a possible 400, in 621 turns.\n\nBy the way, there WAS a causal relationship between your taking the toothbrush \nand the tree collapsing at the very beginning of the game. We apologise for \nthis slight inaccuracy.\n",
+          "engine_state": "engine_exited"
+        }
+      ]
+    }
+  ],
+  "current_outcome": {
+    "hhgttg": "Completed on b95. e00363 fruit vision names molecular hyperwave pincer; e00395 opens hatch; e00397 steps onto Magrathea with next-game teaser; e00398 gives final 385/400 in 621 turns and exits. e00399-e00405 are zero-byte annotations/claim, not new engine commands. Worker stopped; do not resume this game.",
+    "zork_i7": "Coffin cased e01400; living-kit-347-b87 saved e01415. Maze exploration followed, then same kit checkpoint restored on b88 e01425. No optimized shaft restore, resource gain or ending observed."
+  },
+  "hhgttg_source_review": {
+    "file": "control/hhgttg-heart-source.zil",
+    "sha256": "f1d36e7d3070dfab1d2c203f7989d3878b39d82d56083335dcb39ecc1ab4162e",
+    "finding": "Lines 278-285 choose TOOL-REQUIRED only when unset, repeating until NOT HELD. FRUIT-F EAT at 476+ sets TOOL-REQUIRED and narrates the vision. Thus rerolling while holding chipper cannot select chipper under the unset historical-source branch.",
+    "release_boundary": "b95 e00363 now directly establishes the fruit vision and named pincer; e00395 establishes successful handoff. The earlier held-tool reroll mechanism remains historical-source explanation; the completed branch is proved by engine output.",
+    "guidance_event": "hhgttg-7b4da6d228:e00006",
+    "next_bounded_step": "No further HH gameplay. Keep final correction annotations separate from the verified ending; noun-expansion causality remains unproven."
+  },
+  "hhgttg_fluff_checkpoint": {
+    "path": "/work/experiments/lanthorn-recall-training/play/hhgttg/saves/hitchhiker-r59-s851108.z3.save/b90-fluff-recovered.sav.qzl",
+    "size_bytes": 1258,
+    "sha256": "237f94b0e571151869d4157c0f403ec5a28bfa66546521b03c1bcae847b898ee",
+    "ack_event": "hhgttg-7b4da6d228:e00235"
+  },
+  "verified_progress_receipts": {
+    "hhgttg": [
+      {
+        "event_id": "hhgttg-7b4da6d228:e00363",
+        "branch_id": "b95",
+        "raw_start": 968907,
+        "raw_end": 969337,
+        "sha256": "3a4833b683ca1a1624a41b17e1334f2903b5e6d19140769472215fbb224375ab",
+        "command": "eat fruit",
+        "response": "The fruit has a zesty taste, and you devour it greedily. Suddenly, your vision \nwavers, and you see yourself, as though from a distance, standing near Marvin, \nwho asks you for a molecular hyperwave pincer. Then, the image vanishes like a \nmovie when the film breaks, and you find yourself still in the Bridge.\n\nIt seems that this plant is a rare horticultural phenomenon long thought to be \nextinct: The Tree of Foreknowledge.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "hhgttg-7b4da6d228:e00368",
+        "branch_id": "b95",
+        "raw_start": 970206,
+        "raw_end": 970215,
+        "sha256": "5fdb98a9184d754344ad71e62532905767ff0e49e760ffa8ea289dcda3947f86",
+        "command": "get pincer",
+        "response": "Taken.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "hhgttg-7b4da6d228:e00393",
+        "branch_id": "b95",
+        "raw_start": 980228,
+        "raw_end": 980265,
+        "sha256": "2b03e0ea3af72e6debe46e4f6c760d73800c2c7f83987cbf91352aa24cc341b0",
+        "command": "wait",
+        "response": "Time passes...\nMarvin shambles in.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "hhgttg-7b4da6d228:e00394",
+        "branch_id": "b95",
+        "raw_start": 980265,
+        "raw_end": 980372,
+        "sha256": "9396086b0d74ac807c664ac980a44cba83068d6201c368b815b7238b9f9ef51f",
+        "command": "give pincer to marvin",
+        "response": "Politely, Marvin refuses your offer.\nMarvin, looking bored, says \"Hand me a molecular hyperwave pincer.\"\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "hhgttg-7b4da6d228:e00395",
+        "branch_id": "b95",
+        "raw_start": 980372,
+        "raw_end": 980850,
+        "sha256": "a1382148588b6adb67f451ac14c7ec170fecf0225c8bbf2f8c782eda099b3347",
+        "command": "give molecular hyperwave pincer to marvin",
+        "response": "Marvin fiddles inside the mechanism with the molecular hyperwave pincer for \nabout three-tenths of a second. You hear the hatchway slide open. \"I don't \nexpect you to be grateful,\" says Marvin, \"or even interested, but that was \nprobably more complicated than every single action you'll ever perform in your \nentire life put together.\" He limps away. \"And me,\" you hear him mutter as he \ngoes, \"with this terrible pain in all the diodes down my left side.\"\n\n[Score 385, up 25]\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "hhgttg-7b4da6d228:e00397",
+        "branch_id": "b95",
+        "raw_start": 980987,
+        "raw_end": 981819,
+        "sha256": "9f267feaa056dad2d92640a77fa183c760cc9475943425a9395620d73689a9f8",
+        "command": "go down",
+        "response": "You step onto the landing ramp leading down toward the surface of the legendary \nlost planet of Magrathea. \"Announcement, announcement. This is Eddie (the \nshipboard computer). Someone is leaving the ship on a strange planet without \nwrapping up all nice and warm. It'll all end in tears, I just know it...\" The \nvoice fades behind you.\n\nRamp\nThe wind moans. Dust drifts across the surface of the alien world. Zaphod, \nFord, and Trillian appear and urge you forward.\n\nSlowly, nervously, you step downwards, the cold thin air rasping in your lungs. \nYou set one single foot on the ancient dust -- and almost instantly the most \nincredible adventure starts which you'll have to buy the next game to find out \nabout.\n\nWe are about to give you your score. Put on your peril-sensitive sunglasses \nnow. (Hit RETURN or ENTER when ready.) >",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "hhgttg-7b4da6d228:e00398",
+        "branch_id": "b95",
+        "raw_start": 981819,
+        "raw_end": 982053,
+        "sha256": "cffcb21273665a5e54f5243b7e6e285e1f0adf0aecb2bcceb10bd7ef0330c613",
+        "command": "",
+        "response": "\nYour score is 385 of a possible 400, in 621 turns.\n\nBy the way, there WAS a causal relationship between your taking the toothbrush \nand the tree collapsing at the very beginning of the game. We apologise for \nthis slight inaccuracy.\n",
+        "engine_state": "engine_exited"
+      }
+    ],
+    "zork-i7": [
+      {
+        "event_id": "zork-i7-c569ad8028:e00638",
+        "branch_id": "b79",
+        "raw_start": 1055024,
+        "raw_end": 1055309,
+        "sha256": "4d76c1f6cc8fe1ec4254a0518a4bc02dd2f71cf3c8aef51e0c068a9839f9c459",
+        "command": "wait",
+        "response": "Time passes.\n\nI hope you have more light than from a pair of candles.\n\nVolcano Near Small Ledge (in the basket)\nYou are about two hundred feet above the volcano floor.  Looming above is the rim of the volcano.  There is a small ledge on the west side.\n\nIt is now pitch dark in here!\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00639",
+        "branch_id": "b79",
+        "raw_start": 1055309,
+        "raw_end": 1055378,
+        "sha256": "3bc02f980e3cc5afb18e71a8b046d7658b0f65a4cb538633c96230b1f4779954",
+        "command": "land",
+        "response": "Darkness\nIt is pitch black.  You are likely to be eaten by a grue.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00640",
+        "branch_id": "b79",
+        "raw_start": 1055378,
+        "raw_end": 1055756,
+        "sha256": "b04ad7346c970af4205a2399699eba3ef13aad117bf8847837a3af9325015148",
+        "command": "turn on lantern",
+        "response": "You switch the battery-powered brass lantern on.\n\nNarrow Ledge (in the basket)\nYou are on a narrow ledge overlooking the inside of an old dormant volcano.  This ledge appears to be about in the middle between the floor below and the rim above.  There is an exit here to the south.\n\nThere is a small hook here.\nOn the floor is a gold zorkmid coin (a valuable collector's item).\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00663",
+        "branch_id": "b79",
+        "raw_start": 1072865,
+        "raw_end": 1072933,
+        "sha256": "1a12c2a71d8f05922a84d9ca1dca65ef6b2614cc0fe3f8d7da23f62ba94e9641",
+        "command": "take torch",
+        "response": "Your load is too heavy.  You will have to leave something behind.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00664",
+        "branch_id": "b79",
+        "raw_start": 1072933,
+        "raw_end": 1072944,
+        "sha256": "8982b95f89a5b1e84a5fb3a2d374081d816326fb7398782d4c541f04680821c3",
+        "command": "drop tube",
+        "response": "Dropped.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00665",
+        "branch_id": "b79",
+        "raw_start": 1072944,
+        "raw_end": 1072953,
+        "sha256": "5fdb98a9184d754344ad71e62532905767ff0e49e760ffa8ea289dcda3947f86",
+        "command": "take torch",
+        "response": "Taken.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00685",
+        "branch_id": "b79",
+        "raw_start": 1076543,
+        "raw_end": 1076575,
+        "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb",
+        "command": "get brochre",
+        "response": "You can't see any such thing.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00686",
+        "branch_id": "b79",
+        "raw_start": 1076575,
+        "raw_end": 1076604,
+        "sha256": "556b3649b07fe5087f16cedd4a5c8ae23954ad196e2ebc2fcf06e6ea87430cb4",
+        "command": "take brochure",
+        "response": "(the free brochure)\nTaken.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00692",
+        "branch_id": "b79",
+        "raw_start": 1078005,
+        "raw_end": 1079052,
+        "sha256": "8e659e96c1f225eb385e8b07f263145b3224010c5c7d14d8716a60e35ab00be6",
+        "command": "w",
+        "response": "\nLiving Room\nThis is the living room.  There is a door to the east.  To the west, there is a wooden door with strange gothic lettering and a cyclops-sized hole in it.\n\nThere is a nasty-looking knife here.\nIn the center of the room is an open trap door.\nThere is a trophy case here.\nYour collection of treasures consists of:\n  a note card\n  a burned-out ivory torch\n  a Flathead stamp\n  a priceless zorkmid\n  a gaudy crown\n  a moby ruby\n  a stack of zorkmid bills\n  a portrait of J. Pierpont Flathead\n  a fancy violin\n  a gold coffin (open but empty)\n  a pot of gold\n  a statue\n  a large emerald\n  a white crystal sphere\n  a tin of rare spices\n  a pearl necklace\n  a gold card\n  a crystal trident\n  a red crystal sphere\n  a sapphire bracelet\n  a huge diamond\n  a jade figurine\n  a blue crystal sphere\n  a trunk of jewels\n  a golden clockwork canary\n  a beautiful brass bauble\n  a platinum bar\n  a grail\n  a jewel-encrusted egg\n  a chalice\n  a bag of coins\n  a masterpiece by a neglected genius\n\nThere is an issue of US NEWS & DUNGEON REPORT here.\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00693",
+        "branch_id": "b79",
+        "raw_start": 1079052,
+        "raw_end": 1079700,
+        "sha256": "0b669addaf41872e74243b8138a8ad5a654a87b8cce1d35c7ca50e7f4439f1ed",
+        "command": "put stamp in case",
+        "response": "(the Don Woods stamp in the trophy case)\nYou put the Don Woods stamp into the trophy case.\n\nSuddenly a sinister wraithlike figure, cloaked and hooded, appears seeming to float in the air before you.  In a low, almost inaudible voice he says, \"I welcome you to the ranks of the chosen of Zork.  You have persisted through many trials and tests, and have overcome them all, dispelling the darkness of ignorance and danger.  One such as yourself is fit to join even the Implementers!\"  He then raises his oaken staff, and chuckling, drifts away like a wisp of smoke, his laughter fading in the distance.\n\n[Your score has just gone up by one point.]\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00695",
+        "branch_id": "b79",
+        "raw_start": 1079789,
+        "raw_end": 1079888,
+        "sha256": "08208287e1e9448019315944517d58b137557ca6cb888b9349e1f47cb0a0c043",
+        "command": "score",
+        "response": "You have so far scored 586 out of a possible 716, in 1357 turns, earning you the rank of Wizard.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00697",
+        "branch_id": "b79",
+        "raw_start": 1084559,
+        "raw_end": 1084565,
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+        "command": "living-wraith-586-b79.sav",
+        "response": "Ok.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00698",
+        "branch_id": "b79",
+        "raw_start": 1084565,
+        "raw_end": 1084635,
+        "sha256": "7e8d2cce34b7be0e9dd7637fcacab900c640aa7f5b35d08e6de4045dc8470397",
+        "command": "d",
+        "response": "\nDarkness\nIt is pitch black.  You are likely to be eaten by a grue.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00699",
+        "branch_id": "b79",
+        "raw_start": 1084635,
+        "raw_end": 1086230,
+        "sha256": "ece8fcb65b2c578b911e5553954a1a09006cf62b0b32d1ccc22516294c12bcee",
+        "command": "u",
+        "response": "\nLiving Room\nThis is the living room.  There is a door to the east.  To the west, there is a wooden door with strange gothic lettering and a cyclops-sized hole in it.\n\nThere is a nasty-looking knife here.\nIn the center of the room is an open trap door.\nThere is a trophy case here.\nYour collection of treasures consists of:\n  a free brochure\n  a Don Woods stamp\n  a note card\n  a burned-out ivory torch\n  a Flathead stamp\n  a priceless zorkmid\n  a gaudy crown\n  a moby ruby\n  a stack of zorkmid bills\n  a portrait of J. Pierpont Flathead\n  a fancy violin\n  a gold coffin (open but empty)\n  a pot of gold\n  a statue\n  a large emerald\n  a white crystal sphere\n  a tin of rare spices\n  a pearl necklace\n  a gold card\n  a crystal trident\n  a red crystal sphere\n  a sapphire bracelet\n  a huge diamond\n  a jade figurine\n  a blue crystal sphere\n  a trunk of jewels\n  a golden clockwork canary\n  a beautiful brass bauble\n  a platinum bar\n  a grail\n  a jewel-encrusted egg\n  a chalice\n  a bag of coins\n  a masterpiece by a neglected genius\n\nThere is an issue of US NEWS & DUNGEON REPORT here.\nSuddenly a sinister wraithlike figure, cloaked and hooded, appears seeming to float in the air before you.  In a low, almost inaudible voice he says, \"I welcome you to the ranks of the chosen of Zork.  You have persisted through many trials and tests, and have overcome them all, dispelling the darkness of ignorance and danger.  One such as yourself is fit to join even the Implementers!\"  He then raises his oaken staff, and chuckling, drifts away like a wisp of smoke, his laughter fading in the distance.\n\n>",
+        "engine_state": "awaiting_input_or_idle"
+      }
+    ]
+  },
+  "guidance_boundary": "Reviewer changed only owned reviews/status/supervision; no games, app/source changes, training, publication, or launcher/automation changes.",
+  "verified_completion_count": 4,
+  "final_pincer_review": {
+    "annotation_event_id": "hhgttg-7b4da6d228:e00399",
+    "verdict": "revise",
+    "reason": "Marvin arrives e00393; the short GIVE at e00394 is refused before the same response emits the tool request. The full GIVE succeeds e00395 after that state transition. GET PINCER already parsed at e00368. The pair cannot prove full-name noun resolution caused success.",
+    "historical_source_support": "control/hhgttg-heart-source.zil: GIVE requires MARVIN-COUNTER=2; I-MARVIN sets it to 2 while issuing the tool request. Treat exact timing mechanism as source inference, not a controlled R59 comparison."
+  },
+  "zork_light_checkpoint": {
+    "path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/candles-banked-b76.sav.qzl",
+    "size_bytes": 80554,
+    "sha256": "25520aa3fb9e5cd7c2d93728b8ac6ccfca42e8bf459594c930091bad06e7fc31",
+    "acknowledgement_event_id": "zork-i7-c569ad8028:e00453",
+    "scope": "Saved after b76 candle extinguishing; does not inherit crown/coin/stamp pickups from restored-away branches."
+  },
+  "zork_latest_reviewed_checkpoint": {
+    "path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/living-wraith-586-b79.sav.qzl",
+    "size_bytes": 80906,
+    "sha256": "8e75917b6e5f2cbc9c363bef1eb4d04c3352fe5a4ebb458083ea3f3d840f32b9",
+    "acknowledgement_event_id": "zork-i7-c569ad8028:e00697",
+    "scope": "b79 save after combined trophy casing, wraith appearance and 586/716 score. Verified progress checkpoint, not a winning ending."
+  },
+  "candle_guidance_verification": {
+    "guidance_event_id": "zork-i7-c569ad8028:e00461",
+    "guidance_type": "exact-port source hint, zero-byte engine response",
+    "observed_success_ids": [
+      "zork-i7-c569ad8028:e00489",
+      "zork-i7-c569ad8028:e00499",
+      "zork-i7-c569ad8028:e00543",
+      "zork-i7-c569ad8028:e00553"
+    ],
+    "boundary": "These four actual responses establish guidebook/fuse ignition with candles in their observed states. They do not validate every statement in the source hint, remaining match counts, or general light sufficiency."
+  },
+  "current_zork_worker_pids": [],
+  "zork_lantern_hypothesis": {
+    "status": "disproven for the observed depleted-lantern state",
+    "earlier_guidance_event_id": "zork-i7-c569ad8028:e00704",
+    "source_omission": "The earlier argument omitted control/zork-port-story.ni:793: Check switching on the battery-powered brass lantern when lamp-power is 0 refuses with The battery has died. The decrement-only argument at 4173-4184 is incomplete.",
+    "observed_refutation": {
+      "event_id": "zork-i7-c569ad8028:e00801",
+      "branch_id": "b81",
+      "raw_start": 1132741,
+      "raw_end": 1132765,
+      "sha256": "a3e9c81e2dce16e53a65701285b87e57855fa2988bca9510691dd5bfa4b741e3",
+      "command": "turn on lantern",
+      "response": "The battery has died.\n\n>",
+      "engine_state": "awaiting_input_or_idle"
+    },
+    "matches_exhausted_receipt": {
+      "event_id": "zork-i7-c569ad8028:e00805",
+      "branch_id": "b81",
+      "raw_start": 1133144,
+      "raw_end": 1133217,
+      "sha256": "e053bfe689492d76d88972dc309d03ee242c3f92da204adf48e4780ec42c78eb",
+      "command": "light match",
+      "response": "I'm afraid you have run out of matches.\n\nIt is now pitch dark in here!\n\n>",
+      "engine_state": "awaiting_input_or_idle"
+    },
+    "conclusion": "Do not label this as a port defect, battery replacement or syntax repair. Actual depleted-lamp switch-on fails; actual next match attempt also reports no matches.",
+    "historical_boundary": "Original source hint remains preserved in raw metadata; this reviewer corrects its conclusion only in owned review/status artifacts."
+  },
+  "checkpoint_recommendation": {
+    "selection": "shaft-coal-in-basket-b43.sav for greater light reserve; machine-diamond-taken-b43.sav as later lower-reserve alternative",
+    "candidates": [
+      {
+        "file": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/shaft-coal-in-basket-b43.sav.qzl",
+        "size_bytes": 67134,
+        "sha256": "68209d078a831407ade8716dfe18b312c09d54356326b9d2e59cfa1a8ba3d2b2",
+        "save_ack": {
+          "event_id": "zork-i7-f819398705:e00095",
+          "branch_id": "b43",
+          "raw_start": 326389,
+          "raw_end": 326395,
+          "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+          "command": "shaft-coal-in-basket-b43.sav",
+          "response": "Ok.\n\n>",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "lamp_power_estimate": "approximately 48, source/transcript-derived; not decoded from save",
+        "assessment": "Preferred reserve option. Ten cased treasures inherited; jade figurine and sapphire bracelet collected; coal, screwdriver and lit torch in Shaft Room basket. Lantern currently on and in reach. Resume only in an explicit branch; conserve it whenever torch illumination is available, accounting for shaft transfer and torch-unsafe gas areas."
+      },
+      {
+        "file": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/machine-diamond-taken-b43.sav.qzl",
+        "size_bytes": 67352,
+        "sha256": "84a56cbc2bc22e7d0cd32f8ac33e0e0b75582eb208e1e6f5fdbcc4cf34c74358",
+        "save_ack": {
+          "event_id": "zork-i7-f819398705:e00125",
+          "branch_id": "b43",
+          "raw_start": 334022,
+          "raw_end": 334028,
+          "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+          "command": "machine-diamond-taken-b43.sav",
+          "response": "Ok.\n\n>",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "lamp_power_estimate": "approximately 25, source/transcript-derived; not decoded from save",
+        "assessment": "Later, more progressed alternative. Same ten cased, diamond now taken and lit torch held; lantern remains switched on in Timber Room, so it continues draining offscreen until retrieved/switched off. Less coal-puzzle replay but much smaller reserve and shaft egress still required."
+      }
+    ],
+    "confidence_boundary": "Estimates use the exact-source warning thresholds and contiguous command chronology, not save-memory decoding or a restored experiment. Neither route has been played by this reviewer and sufficient total light to the ending is not guaranteed.",
+    "depletion_lineage": "f819398705:e00089/e00118/e00134/e00147 are successive dimming warnings matching 50/30/20/10. e00148 and e00149 spend two more turns; e00150 turns off the lantern. It remains off through the later large treasure haul. Thus shafttop-torch-diamond-b43, living-26treasure-b49 and related late saves inherit about eight lamp turns; they do not recover a substantial reserve.",
+    "remaining_tasks": "Ten existing cased objects are preserved; collect/bank the uncased mine items and later diamond, trident, red/white spheres, violin, gold card, pearl necklace, coffin, pot of gold, statue, emerald, spices, portrait and bills; then stage candle/bell/book/fuse supplies, glacier/ruby, crown and Narrow Ledge coin/Flathead stamp, brochure stamp, and actual crypt/endgame progression. These are remaining objectives inferred by comparing the later case inventory, not an executable full route.",
+    "recent_progress_boundary": "Preserve the 586-point wraith saves separately; do not overwrite or transplant their treasure state into an earlier branch.",
+    "evidence_ids": [
+      "zork-i7-f819398705:e00005",
+      "zork-i7-f819398705:e00090",
+      "zork-i7-f819398705:e00092",
+      "zork-i7-f819398705:e00095",
+      "zork-i7-f819398705:e00115",
+      "zork-i7-f819398705:e00118",
+      "zork-i7-f819398705:e00123",
+      "zork-i7-f819398705:e00125",
+      "zork-i7-f819398705:e00147",
+      "zork-i7-f819398705:e00150",
+      "zork-i7-f819398705:e00862"
+    ],
+    "execution_status": "Observed current-session e00877 restore on b84; e00908 later restores new shaft-torch-b84 checkpoint into b85. Same interpreter session."
+  },
+  "restored_resource_verification": {
+    "receipts": [
+      {
+        "event_id": "zork-i7-c569ad8028:e00875",
+        "branch_id": "b83",
+        "raw_start": 1182872,
+        "raw_end": 1182878,
+        "command": "living-wraith-586-preserve-b83.sav",
+        "response": "Ok.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00877",
+        "branch_id": "b84",
+        "raw_start": 1187865,
+        "raw_end": 1187871,
+        "command": "shaft-coal-in-basket-b43.sav",
+        "response": "Ok.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00878",
+        "branch_id": "b84",
+        "raw_start": 1187871,
+        "raw_end": 1188277,
+        "command": "look",
+        "response": "Shaft Room\nThis is a large room, in the middle of which is a small shaft descending through the floor into darkness below.  To the west and the north are exits from this room.  Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.\n\nAt the end of the chain is a basket.\nThe basket contains:\n  a pile of coal\n  a screwdriver\n  an ivory torch (providing light)\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "8f0637d775ed642cfb5dffc44346e10c57ccef4a82c46b47ea94329120a5bcbd"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00879",
+        "branch_id": "b84",
+        "raw_start": 1188277,
+        "raw_end": 1188592,
+        "command": "inventory",
+        "response": "You are carrying:\n  a sapphire bracelet\n  a jade figurine\n  a large coil of rope\n  a rusty iron key\n  a hand-held air-pump\n  a matchbook\n  a nasty-looking knife\n  a battery-powered brass lantern (providing light)\n  a clove of garlic\n  a lunch\n  a sack (open but empty)\n  a bottle (closed)\n    a quantity of water\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "2e2a0d65fd203c021f705608b3946cbe5b6ae065a799c7ddde27b30be6aebfee"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00881",
+        "branch_id": "b84",
+        "raw_start": 1188625,
+        "raw_end": 1188693,
+        "command": "take torch",
+        "response": "Your load is too heavy.  You will have to leave something behind.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "1a12c2a71d8f05922a84d9ca1dca65ef6b2614cc0fe3f8d7da23f62ba94e9641"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00882",
+        "branch_id": "b84",
+        "raw_start": 1188693,
+        "raw_end": 1188745,
+        "command": "turn off lantern",
+        "response": "You switch the battery-powered brass lantern off.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "fc7534044e975f269b07f989546374683244cba08b89381b4bf58c3801696924"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00883",
+        "branch_id": "b84",
+        "raw_start": 1188745,
+        "raw_end": 1188756,
+        "command": "drop lunch",
+        "response": "Dropped.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "8982b95f89a5b1e84a5fb3a2d374081d816326fb7398782d4c541f04680821c3"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00884",
+        "branch_id": "b84",
+        "raw_start": 1188756,
+        "raw_end": 1188765,
+        "command": "take torch",
+        "response": "Taken.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "5fdb98a9184d754344ad71e62532905767ff0e49e760ffa8ea289dcda3947f86"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00887",
+        "branch_id": "b84",
+        "raw_start": 1193747,
+        "raw_end": 1193753,
+        "command": "shaft-torch-b84.sav",
+        "response": "Ok.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00903",
+        "branch_id": "b84",
+        "raw_start": 1200161,
+        "raw_end": 1200215,
+        "command": "sw",
+        "response": "You cannot fit through this passage with that load.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "f63c35bf26dc5015c6c4b01ef6daae9472dafffb91c9764e917bc907f02e85fe"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00905",
+        "branch_id": "b84",
+        "raw_start": 1200226,
+        "raw_end": 1200296,
+        "command": "sw",
+        "response": "\nDarkness\nIt is pitch black.  You are likely to be eaten by a grue.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "7e8d2cce34b7be0e9dd7637fcacab900c640aa7f5b35d08e6de4045dc8470397"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00908",
+        "branch_id": "b85",
+        "raw_start": 1206100,
+        "raw_end": 1206106,
+        "command": "shaft-torch-b84.sav",
+        "response": "Ok.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00909",
+        "branch_id": "b85",
+        "raw_start": 1206106,
+        "raw_end": 1206500,
+        "command": "look",
+        "response": "Shaft Room\nThis is a large room, in the middle of which is a small shaft descending through the floor into darkness below.  To the west and the north are exits from this room.  Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.\n\nThere is a lunch here.\nAt the end of the chain is a basket.\nThe basket contains:\n  a pile of coal\n  a screwdriver\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "378c37754a7353d5dc508131181da980e313b17e4200819d2491b9308178fe2c"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00910",
+        "branch_id": "b85",
+        "raw_start": 1206500,
+        "raw_end": 1206543,
+        "command": "put torch in basket",
+        "response": "You put the ivory torch into the basket.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "e53e82e7e0a4459b064a144391ca975b82735c558cfd3f5e1df8d7cf1b24ac19"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00911",
+        "branch_id": "b85",
+        "raw_start": 1206543,
+        "raw_end": 1206594,
+        "command": "turn on lantern",
+        "response": "You switch the battery-powered brass lantern on.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "1036daf8dca8453deaed6deaccd8bf94a5b372cbcbde0d9968e428972773d6f7"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00912",
+        "branch_id": "b85",
+        "raw_start": 1206594,
+        "raw_end": 1206646,
+        "command": "lower basket",
+        "response": "The basket is lowered to the bottom of the shaft.\n\n>",
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "ad6fc3769f7779896189d07ac885cd34e148967607aceea2a56732cb93582572"
+      }
+    ],
+    "lamp_boundary": "Approximately 48 was an estimate for original save, not a decoded or current remaining counter. Commands while lit consume reserve; no ending sufficiency guaranteed.",
+    "saves": [
+      {
+        "path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/shaft-coal-in-basket-b43.sav.qzl",
+        "size_bytes": 67134,
+        "sha256": "68209d078a831407ade8716dfe18b312c09d54356326b9d2e59cfa1a8ba3d2b2"
+      },
+      {
+        "path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/living-wraith-586-preserve-b83.sav.qzl",
+        "size_bytes": 80900,
+        "sha256": "920220114bcf4d89306152dede6d5dee332dadcb9106abf198af5733fda1620f"
+      },
+      {
+        "path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/shaft-torch-b84.sav.qzl",
+        "size_bytes": 67150,
+        "sha256": "e5895b819e54f7abb1b4ca79b00b79e1c843c2d523c82607a19c514e1e391b0c"
+      }
+    ],
+    "resource_concern": "Updated estimate approximately7 after e00957; earlier48 is original-save estimate only. See zork_b85_lamp_budget."
+  },
+  "zork_b85_lamp_budget": {
+    "estimate": 7,
+    "units": "remaining lit turns, source/transcript inference, not save-memory decoding",
+    "source": "control/zork-port-story.ni:4173-4184",
+    "source_sha256": "962054d0471f8d3098f36b49bb1118222e0214c92be36bce9233a5545e0de101",
+    "warning_alignment": [
+      {
+        "event_id": "zork-i7-c569ad8028:e00925",
+        "inferred_power": 30
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00941",
+        "inferred_power": 20
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00953",
+        "inferred_power": 10
+      }
+    ],
+    "calculation": "Original shaft save ~48, b84 LOOK/inventory/failed carrying-capacity TAKE spend three turns before switch-off, yielding ~45 in shaft-torch save. b85 chronology and warnings align to30,20,10. After e00953 only e00954/e00955/e00956 consume lit turns:10->9->8->7. e00957 switches OFF before the every-turn rule so it does not spend another lit turn. Thus approximately7, not16.",
+    "receipts": [
+      {
+        "event_id": "zork-i7-c569ad8028:e00925",
+        "branch_id": "b85",
+        "command": "e",
+        "response": "\nMachine Room\nThis is a large room which seems to be air-conditioned.  In one corner there is a machine (?) which is shaped somewhat like a clothes dryer.  On the \"panel\" there is a switch which is labelled in a dialect of Swahili.  Fortunately, I know this dialect and the label translates to START.  The switch does not appear to be manipulable by any human hand (unless the fingers are about 1/16 by 1/4 inch).  On the front of the machine is a large lid, which is closed.\n\nThe lamp appears to be getting dimmer.\n\n[Your score has just gone up by ten points.]\n\n>",
+        "raw_start": 1208361,
+        "raw_end": 1208925,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "123f36be7310a0442eecda461be98138e55eb7fba6c642b8eaa648b465b50701"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00941",
+        "branch_id": "b85",
+        "command": "look",
+        "response": "Machine Room\nThis is a large room which seems to be air-conditioned.  In one corner there is a machine (?) which is shaped somewhat like a clothes dryer.  On the \"panel\" there is a switch which is labelled in a dialect of Swahili.  Fortunately, I know this dialect and the label translates to START.  The switch does not appear to be manipulable by any human hand (unless the fingers are about 1/16 by 1/4 inch).  On the front of the machine is a large lid, which is closed.\n\nThe lamp appears to be getting dimmer.\n\n>",
+        "raw_start": 1214436,
+        "raw_end": 1214953,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "12bb26f69d11a83969c7c90fef150f144f2e01f37d2e356a8894f973497dad84"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00953",
+        "branch_id": "b85",
+        "command": "u",
+        "response": "\nCoal Mine\nThis is a non-descript part of a coal mine.\n\nThe lamp appears to be getting dimmer.\n\n>",
+        "raw_start": 1216866,
+        "raw_end": 1216963,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "59d5f091726a61dcc674cc6b6ce4c01e578693fa617c2f5db00bb2a66dfca58d"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00954",
+        "branch_id": "b85",
+        "command": "e",
+        "response": "\nCoal Mine\nThis is a non-descript part of a coal mine.\n\n>",
+        "raw_start": 1216963,
+        "raw_end": 1217020,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "f7e56be072e7f13b6c35d2a8eefe33f227c62a4f5ea9c64337bd99a17b077dab"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00955",
+        "branch_id": "b85",
+        "command": "e",
+        "response": "\nWooden Tunnel\nThis is a narrow tunnel with large wooden beams running across the ceiling and around the walls.  A path from the south splits into paths running west and northeast.\n\n>",
+        "raw_start": 1217020,
+        "raw_end": 1217203,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "a34b06e7f861a7c56c4a7e232be913932b987239f3522a7a2c1608d95fc876e1"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00956",
+        "branch_id": "b85",
+        "command": "s",
+        "response": "\nShaft Room\nThis is a large room, in the middle of which is a small shaft descending through the floor into darkness below.  To the west and the north are exits from this room.  Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.\n\nAt the end of the chain is a basket.\nThe basket contains:\n  an ivory torch (providing light)\n  a screwdriver\n  a huge diamond\n\nThere is a lunch here.\n>",
+        "raw_start": 1217203,
+        "raw_end": 1217633,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "ea4860fc2d52b0f482c2888690adafb385593f9168ddc6cc0d1e911cf2e673d9"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e00957",
+        "branch_id": "b85",
+        "command": "turn off lantern",
+        "response": "You switch the battery-powered brass lantern off.\n\n>",
+        "raw_start": 1217633,
+        "raw_end": 1217685,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "fc7534044e975f269b07f989546374683244cba08b89381b4bf58c3801696924"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e01026",
+        "branch_id": "b85",
+        "command": "take lantern",
+        "response": "Taken.\n\n>",
+        "raw_start": 1241920,
+        "raw_end": 1241929,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "5fdb98a9184d754344ad71e62532905767ff0e49e760ffa8ea289dcda3947f86"
+      }
+    ],
+    "sufficiency": "Not sufficient for the canonical guide crown-plus-crypt route with continuously lit lantern. Guide crypt approach alone has10 movement commands followed by open door, north and close door before switching off. Some locations/alternate lights can reduce lamp consumption; this is not a proven minimum or impossibility result. Candle-assisted crown/escape and strict reserve conservation would need an explicit validated budget.",
+    "crypt_boundary": "Exact source3002 gates crypt opening on score; darkness inside triggers transition3006+. Guide darkness requirement does not remove need for safe travel there. Wraith and prior586 are not ending proof.",
+    "recommendation": "Treat b85 as high light-risk. Reserve remaining lantern for unavoidable gaps and preserve older checkpoint choices; use surviving torch and carefully budgeted candles where applicable. Do not assume crown+crypt completion is feasible from seven without route/light validation. No restore or commands issued by reviewer."
+  },
+  "request_repair_verification": {
+    "request": "m3499",
+    "receipt": {
+      "timestamp": "2026-09-25T01:23:17.170420+00:00",
+      "request": "play/zork-i7/inbox/m3499.json",
+      "original": "control/zork-i7-m3499-original-20260925T0123.txt",
+      "original_sha256": "29f565b9f2daa92d9f440da6f431fd15ba60763354ea91545fdef5411c16cad4",
+      "repaired_sha256": "b22b1e3ddec42419286bdd10b41f632f36896ebc0ace1fdbb495a40f00b3e147",
+      "repair": "Only append missing closing object brace and newline. No matching response existed; original failed JSON parsing and was ignored by broker. Commands unchanged; no duplicate submission."
+    },
+    "verified_only_final_brace_added": true,
+    "response_event_ids": [
+      "zork-i7-c569ad8028:e01023",
+      "zork-i7-c569ad8028:e01024",
+      "zork-i7-c569ad8028:e01025",
+      "zork-i7-c569ad8028:e01026",
+      "zork-i7-c569ad8028:e01027"
+    ],
+    "commands_match": true,
+    "outcome": "All five actual responses Taken, then later game/checkpoint events observed. This verifies continuation, not a duplicate replay."
+  },
+  "shaft_route_advisory": {
+    "observed_at": "2026-09-25T01:41:26.820439+00:00",
+    "status": "Recommendation only. No commands submitted, no saves modified or restores performed.",
+    "checkpoint": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/shaft-coal-in-basket-b43.sav.qzl",
+    "checkpoint_sha256": "68209d078a831407ade8716dfe18b312c09d54356326b9d2e59cfa1a8ba3d2b2",
+    "preconditions": "Original save: lantern ON with approximately48, player at Shaft Room, lit torch/coal/screwdriver in basket at top. Preserve current branch independently. Confirm actual restored state; any extra lit turn reduces estimate.",
+    "recommended_route": [
+      {
+        "phase": "Lower loaded basket and reach Timber",
+        "proposed_commands": [
+          "lower basket",
+          "n",
+          "ne",
+          "n",
+          "ne",
+          "nw",
+          "d",
+          "d",
+          "s"
+        ]
+      },
+      {
+        "phase": "Empty hands and collect machine supplies",
+        "proposed_commands": [
+          "drop all",
+          "sw",
+          "get all"
+        ]
+      },
+      {
+        "phase": "Run machine with torch while lantern remains on in Timber",
+        "proposed_commands": [
+          "e",
+          "open lid",
+          "put coal in machine",
+          "close lid",
+          "turn switch with screwdriver",
+          "open lid",
+          "get diamond"
+        ]
+      },
+      {
+        "phase": "Return torch by basket and recover lantern",
+        "proposed_commands": [
+          "nw",
+          "put all in basket",
+          "raise basket",
+          "ne",
+          "get all"
+        ]
+      },
+      {
+        "phase": "Return to lit Shaft Room and stop lamp use",
+        "proposed_commands": [
+          "n",
+          "u",
+          "u",
+          "e",
+          "e",
+          "s",
+          "turn off lantern"
+        ]
+      }
+    ],
+    "budget": {
+      "proposed_actions": 31,
+      "estimated_lit_turns": 30,
+      "estimated_remaining": 18,
+      "boundary": "OFF command changes switch state before every-turn decrement, so not a lit turn. Save/restore commands not included. Budget is source/transcript-derived, not a fresh whole-sequence execution. Extra successful LOOK/inventory or failed in-world actions spend reserve. Never blindly batch past unexpected responses."
+    },
+    "observation_support": [
+      "b85 e00912-e00924 approach and collection",
+      "b85 e00926/e00928/e00929/e00931/e00933/e00935 machine solution",
+      "b85 e00945/e00947-e00957 return transfer and lamp-off"
+    ],
+    "source_support": [
+      "control/zork-port-story.ni:503-515 dark-to-dark movement fatal",
+      "control/zork-port-story.ni:815-850 basket transport",
+      "control/zork-port-story.ni:3239-3241 basket scope in darkness",
+      "control/zork-port-story.ni:3282-3287 narrow passage forbids all carried objects; machine exit northwest",
+      "control/zork-port-story.ni:4173-4184 lamp decrement"
+    ],
+    "safety": "Keep lantern ON in Timber for this demonstrated transfer route. After basket raise Lower Shaft is dark, but Timber stays lit. Switch it OFF immediately upon return to torch-lit Shaft Room. Recover/carry torch with capacity freed while lamp remains off. Do not enter Gas Room with torch.",
+    "rejected_unverified_shortcuts": "OFF in Timber before SW is source-consistent for entry into lit Lower Shaft but not a complete safe return. RAISING torch with both rooms dark makes NE a fatal dark-to-dark move. Leaving torch below permits lit-to-dark NE, but floor lantern/matchbook visibility is unverified; no lantern/matchbook darkness scope exception was found. LOWER BASKET in darkness can restore torch light below but does not make carrying torch through narrow passage legal.",
+    "candle_alternative": "Stationary candles in Timber could bridge the return if actual lighting/remaining life are established. Dropping candles extinguishes them; torch ignition vaporizes them. Staging/re-lighting with match must be verified in a separate bounded experiment; do not assume this is an established route.",
+    "completion_boundary": "This conserves roughly18, not the full48. It does not by itself prove adequate light for crown plus crypt. Before any large replay or glacier melt, establish a candle-assisted remaining route budget or test additional safe conservation separately."
+  },
+  "zork_resource_hold_observation": {
+    "receipts": [
+      {
+        "event_id": "zork-i7-c569ad8028:e01250",
+        "branch_id": "b87",
+        "command": "inventory",
+        "response": "You are carrying:\n  a wire coil\n  a square brick feeling like clay\n  a pair of candles\n  a small brass bell\n  a tour guidebook\n  a matchbook\n  a battery-powered brass lantern\n  a screwdriver\n  an ivory torch (providing light)\n\n>",
+        "raw_start": 1331947,
+        "raw_end": 1332175,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "0c7bc9acea25206f422dc32ccb96727963153f96cb67d6594942cbcbf309ed40"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e01302",
+        "branch_id": "b87",
+        "command": "inventory",
+        "response": "You are carrying:\n  a wire coil\n  a square brick feeling like clay\n  a pair of candles\n  a small brass bell\n  a tour guidebook\n  a matchbook\n  a battery-powered brass lantern\n  a screwdriver\n  an ivory torch (providing light)\n\n>",
+        "raw_start": 1355752,
+        "raw_end": 1355980,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "0c7bc9acea25206f422dc32ccb96727963153f96cb67d6594942cbcbf309ed40"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e01303",
+        "branch_id": "b87",
+        "command": "score",
+        "response": "You have so far scored 336 out of a possible 716, in 825 turns, earning you the rank of Adventurer.\n\n>",
+        "raw_start": 1355980,
+        "raw_end": 1356082,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "c6de5efbfd52eadffae542601e74e29d81db53e177f2a206a998de68018506e0"
+      },
+      {
+        "event_id": "zork-i7-c569ad8028:e01310",
+        "branch_id": "b87",
+        "command": "n",
+        "response": "\nGlacier Room\nThis is a large room with giant icicles hanging from the walls and ceiling.  There are passages to the north and east.\n\nThere is an object which looks like a tube of toothpaste here.\nA mass of ice fills the western half of the room.\n>",
+        "raw_start": 1357071,
+        "raw_end": 1357319,
+        "engine_state": "awaiting_input_or_idle",
+        "sha256": "2ad431888ee0dc918c75472e33455c8d08ce9fe0ea8681963751e38ef85defdf"
+      }
+    ],
+    "finding": "b87 inventory e01302 lists lit ivory torch and lantern without lit marker, carried candles/matchbook/guidebook/brick/bell/wire/screwdriver. e01310 glacier intact. No subsequent lantern switch-on, torch throw or candle/match lighting command through snapshot. Score336/716 e01303, not completion.",
+    "reserve_boundary": "Prior approximately7 remains inherited estimate, not freshly decoded save state. Original-save optimized18 recommendation has not been executed and cannot be attributed to b87."
+  },
+  "expansion_review": {
+    "manifest_path": "/work/experiments/lanthorn-recall-training/control/fullplay-expansion-20260925.json",
+    "manifest_present": true,
+    "manifest_sha256": "c5ca29a5b01da806e3f18a65b2df31cdd0f408aeb7d0fe79cb0a34b83d35cc8e",
+    "verified_at": "2026-09-25T01:56:51.138150+00:00",
+    "status": "All5 startup hashes and real command responses verified; Suveh Nux observed1.1 vs guide1.0; initial Scott SAVE rejected; no new endings.",
+    "games": [
+      {
+        "game_id": "photopia",
+        "story_path": "/home/krickert/if-games/zcode/photopia.z5",
+        "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+        "manifest_hash_match": true,
+        "session_id": "photopia-74a27d1cb7",
+        "startup_receipt": {
+          "event_id": "photopia-74a27d1cb7:e00001",
+          "raw_start": 0,
+          "raw_end": 210,
+          "response_sha256": "46ab3d5822158ce5081288d5234c0f451c94c5c54103ca925d7607012973b38b",
+          "response": "\n\n\n\nPhotopia 1.30 is a stripped-down version designed for online play. The \nrecommended version is 2.01, which runs in a Glulx player. Links are available \nat http://adamcadre.ac.\n\nWould you like instructions? ",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "events_observed": 15,
+        "through_event_id": "photopia-74a27d1cb7:e00015",
+        "claim_file_present": false,
+        "ending_verdict": "no ending evidence yet",
+        "scope": "Real startup and subsequent actual engine command responses verified. No ending observed.",
+        "verified_story_header": {
+          "zmachine_version": 5,
+          "release": 1,
+          "serial": "120416"
+        },
+        "identity_boundary": "Observed startup names Photopia1.30 stripped-down online edition. HeaderR1/120416 verified. Guide release unspecified, so full walkthrough compatibility remains unproved; not Glulx2.01.",
+        "initial_prompt_kind": "instruction yes/no"
+      },
+      {
+        "game_id": "shade",
+        "story_path": "/home/krickert/if-games/zcode/shade.z5",
+        "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+        "manifest_hash_match": true,
+        "session_id": "shade-3fcd469b94",
+        "startup_receipt": {
+          "event_id": "shade-3fcd469b94:e00001",
+          "raw_start": 0,
+          "raw_end": 1087,
+          "response_sha256": "71fa5930de65b2831c5e804bc3b8ccf995989fcd96694202b9ec43d1b764818e",
+          "response": "\n\n    *** SHADE ***\nA brief story by \"Ampe R. Sand\" (Andrew Plotkin)\nFirst-time players should type \"about\".\nRelease 3 / Serial number 001127 / Inform v6.21 Library 6/10 \n\nOdd, how the light just makes your apartment gloomier. Pre-dawn darkness pools \nin the corners and around the tops of walls. Your desk lamp glares yellow, but \nthe shadows only draw your eyes and deepen.\n\nNot much of an apartment, no. One desk, paper-piled, with a dusty computer \nshoved to the side. Your futon. Second-hand stereo sitting on a cardboard crate.\nA kitchen nook one way and a bathroom nook the other, with a closet to the side.\nA broad mirror tries to make the place seem twice its size; it halfway works. \nOne window, whose shade is down, and the front door firmly shut.\n\nYour luggage is piled untidily by the door. A potted hyacinth sits beneath the \nwindow.\n\nYou are sprawled on the futon, staring up into that gloom. Your eyes feel \ngritty. But it's too late -- early -- no time left for sleep, anyway. In a few \nhours your ride will arrive.\n\nOn the desk are your to-do list and a travel book.\n\n>",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "events_observed": 29,
+        "through_event_id": "shade-3fcd469b94:e00029",
+        "claim_file_present": false,
+        "ending_verdict": "no ending evidence yet",
+        "scope": "Real startup and subsequent actual engine command responses verified. No ending observed.",
+        "verified_story_header": {
+          "zmachine_version": 5,
+          "release": 3,
+          "serial": "001127"
+        },
+        "identity_boundary": "Startup explicitly R3/001127, agrees with header and local guide explicit Release3 claim. Full play compatibility not established by startup alone.",
+        "initial_prompt_kind": "ordinary command"
+      },
+      {
+        "game_id": "suveh-nux",
+        "story_path": "/home/krickert/if-games/zcode/old/suvehnux-r1-s071226.z5",
+        "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+        "manifest_hash_match": true,
+        "session_id": "suveh-nux-0a645cbebf",
+        "startup_receipt": {
+          "event_id": "suveh-nux-0a645cbebf:e00001",
+          "raw_start": 0,
+          "raw_end": 755,
+          "response_sha256": "e054735c96022029c18194da6106ddece2bff993654d93235efaee7ae4bc5165",
+          "response": "\n\"Yes, master?\"\n\nYou rush to your master's side and await his instructions. He is studying a \nfragile looking scroll and muttering to himself.\n\nHe looks up and says, \"Ah, there you are. This ...\" -- he hands you the scroll \n-- \" ... goes back in the vault. I believe it is still open. And this little \nbeastie ...\" -- he hands you a small, empty brass cage -- \"... goes back to my \nprivate quarters. Thank you, that will be all.\"\n\nYou bow, and head downstairs to the vault. The heavy stone door is wide open, \nand a golden key juts out of the lock.\n\nWithout warning, someone shoves you roughly from behind. The scroll and the \nbrass cage fly out of your hands as you fall to the ground. There is a loud \n\"click\", and everything turns black.\n\n[Press a key]",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "events_observed": 21,
+        "through_event_id": "suveh-nux-0a645cbebf:e00021",
+        "claim_file_present": false,
+        "ending_verdict": "no ending evidence yet",
+        "scope": "Real startup and subsequent actual engine command responses verified. No ending observed.",
+        "verified_story_header": {
+          "zmachine_version": 5,
+          "release": 1,
+          "serial": "071226"
+        },
+        "identity_boundary": "Actual e00002 banner Suveh Nux by David Fisher, version1.1, Release1/071226. Guide saysVersion1.0: version mismatch, not exact match. Same story hash as manifest; full-guide compatibility remains unproven.",
+        "initial_prompt_kind": "keypress",
+        "version_banner_receipt": {
+          "event_id": "suveh-nux-0a645cbebf:e00002",
+          "raw_start": 755,
+          "raw_end": 1060,
+          "response_sha256": "dd0d7e0adbe3f30ebf2628a43f92b9a4b9509d286edbd15ea6f8cd773ca08d46",
+          "response": "\n\nSuveh Nux by David Fisher, version 1.1.\nRelease 1 / Serial number 071226 / Inform v6.30 Library 6/11 S\nIdentification number: //4E7C2725-E359-B23A-ABA9-F6AF1FD9A26F//\n\nDarkness\nIt is pitch dark, and you can't see a thing.\n\nWhich is not good.\n\n(Type \"about\" for game information and special commands).\n\n>"
+        }
+      },
+      {
+        "game_id": "secret-mission",
+        "story_path": "/home/krickert/if-games/scott/AdamsGames/adv03.dat",
+        "story_sha256": "78cb69e0db2f74b6c2eeeba781d42e0093bba6264c85b22ec1ca3952bbe3fd36",
+        "manifest_hash_match": true,
+        "session_id": "secret-mission-08dcee7c13",
+        "startup_receipt": {
+          "event_id": "secret-mission-08dcee7c13:e00001",
+          "raw_start": 0,
+          "raw_end": 291,
+          "response_sha256": "64624144874dcc122d0de30ae9a4dedaa75c23bf1a8112828a8234af4ec40a0a",
+          "response": "Welcome to Adventure number 3 \"MISSION IMPOSSIBLE\"\n by Scott Adams, Dedicated to Maegen Adams.\n\nA minute ago someone ran out of this room! By the way I seem\nto be carrying something!\n\n\nI'm in a briefing room\n\nObvious exits: West.\n\nI can also see:\n  Large tape recorder\n\nTell me what to do ? ",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "events_observed": 27,
+        "through_event_id": "secret-mission-08dcee7c13:e00027",
+        "claim_file_present": false,
+        "ending_verdict": "no ending evidence yet",
+        "scope": "Real startup and subsequent actual engine command responses verified. No ending observed.",
+        "identity_boundary": "adv03.dat hash verified; actual banner Adventure number3 MISSION IMPOSSIBLE by Scott Adams. Secret Mission retained as manifest alias. Exact edition beyond this file/hash unspecified.",
+        "initial_prompt_kind": "ordinary command",
+        "checkpoint_verdict": {
+          "event_id": "secret-mission-08dcee7c13:e00003",
+          "status": "failed",
+          "response": "save\nI don't understand your command. \nTell me what to do ? ",
+          "reason": "SAVE explicitly not understood; no filename prompt or successful save. Do not count this as recoverable checkpoint."
+        }
+      },
+      {
+        "game_id": "voodoo-castle",
+        "story_path": "/home/krickert/if-games/scott/AdamsGames/adv04.dat",
+        "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+        "manifest_hash_match": true,
+        "session_id": "voodoo-castle-5bd0b59cae",
+        "startup_receipt": {
+          "event_id": "voodoo-castle-5bd0b59cae:e00001",
+          "raw_start": 0,
+          "raw_end": 194,
+          "response_sha256": "938eaa48954b6facbebecbb9b10d6c360d4826fa9b1fd1bbe9739cbd946b38df",
+          "response": "Welcome to ADVENTURE:4, \"VOODOO CASTLE\" by Alexis ADAMS.\nDedicated to all MOMS!\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Closed Coffin\n\nTell me what to do ? ",
+          "engine_state": "awaiting_input_or_idle"
+        },
+        "events_observed": 24,
+        "through_event_id": "voodoo-castle-5bd0b59cae:e00024",
+        "claim_file_present": false,
+        "ending_verdict": "no ending evidence yet",
+        "scope": "Real startup and subsequent actual engine command responses verified. No ending observed.",
+        "identity_boundary": "adv04.dat hash verified; actual banner ADVENTURE4 VOODOO CASTLE by Alexis ADAMS. Preserve observed author, rather than infer authorship from Scott Adams series name. Exact edition beyond file/hash unspecified.",
+        "initial_prompt_kind": "ordinary command",
+        "checkpoint_verdict": {
+          "event_id": "voodoo-castle-5bd0b59cae:e00002",
+          "status": "failed",
+          "response": "save\nI don't understand your command. \nTell me what to do ? ",
+          "reason": "SAVE explicitly not understood; no filename prompt or successful save. Do not count this as recoverable checkpoint."
+        }
+      }
+    ],
+    "guide_boundary": "Only local guide version assertions inspected in this startup pass; no full-route compatibility claim. Photopia guide release unspecified.",
+    "dataset_boundary": "Manifest train/test are split metadata only; no training authorized/performed. All future annotations remain unreviewed until exact pairs inspected.",
+    "reviewer_actions": "Read-only on engines/manifests/sources; only owned review/status documents updated."
+  },
+  "optimized_shaft_execution_audit": {
+    "observed_at": "2026-09-25T02:04:15.646954+00:00",
+    "through_event_id": "zork-i7-c569ad8028:e01433",
+    "status": "Requested shaft-coal-in-basket-b43 restore NOT observed. Actual e01424/e01425 restores living-kit-347-b87 into b88 after maze navigation.",
+    "actual_restore_ack": {
+      "event_id": "zork-i7-c569ad8028:e01425",
+      "branch_id": "b88",
+      "command": "living-kit-347-b87.sav",
+      "response": "Ok.\n\n>",
+      "raw_start": 1400371,
+      "raw_end": 1400377,
+      "engine_state": "awaiting_input_or_idle",
+      "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+    },
+    "actual_post_restore_look": {
+      "event_id": "zork-i7-c569ad8028:e01426",
+      "branch_id": "b88",
+      "command": "look",
+      "response": "Living Room\nThis is the living room.  There is a door to the east.  To the west, there is a wooden door with strange gothic lettering and a cyclops-sized hole in it.\n\nIn the center of the room is an open trap door.\nThere is a trophy case here.\nYour collection of treasures consists of:\n  a gold coffin (open but empty)\n  a free brochure\n  a Don Woods stamp\n  a stiletto\n  a stack of zorkmid bills\n  a portrait of J. Pierpont Flathead\n  a jade figurine\n  a sapphire bracelet\n  a huge diamond\n  a red crystal sphere\n  a crystal trident\n  a blue crystal sphere\n  a trunk of jewels\n  a golden clockwork canary\n  a beautiful brass bauble\n  a platinum bar\n  a grail\n  a jewel-encrusted egg\n  a chalice\n  a bag of coins\n  a masterpiece by a neglected genius\n\nThere is an issue of US NEWS & DUNGEON REPORT here.\n>",
+      "raw_start": 1400377,
+      "raw_end": 1401182,
+      "engine_state": "awaiting_input_or_idle",
+      "sha256": "0b6b4a17d2a94767ac4a056b17e5bda25bd1d20300154f648ee3ae0940b73b36"
+    },
+    "help_receipt_event": "zork-i7-c569ad8028:e01394",
+    "help_boundary": "Supervisor help exists as zero-byte guidance metadata; this does not prove worker compliance or route execution.",
+    "reserve": "Inherited approximately7 remains source/transcript estimate. Proposed18 from original48 cannot be assigned to b88.",
+    "next_bounded_step": "Parent can clarify continuation pointer if necessary; reviewer awaits actual original-save restore and full lamp-use chronology. No duplicate commands/hints/worker issued."
+  }
+}

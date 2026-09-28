@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-25T09:52:13.015564+00:00",
+  "selected": [
+    "metamorphoses",
+    "gourmet",
+    "bofh",
+    "splashdown"
+  ],
+  "counts": {
+    "games": 4,
+    "zmachine": 4,
+    "scott": 0,
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "variety": [
+    "mythic transformation puzzle adventure",
+    "comic restaurant service and physical puzzles",
+    "office/travel satire with dialogue and state-dependent actions",
+    "science-fiction ship repair and narrative log investigation"
+  ],
+  "scope": "Exactly four. Exclude A-M, play and prepared game identities. No shared registry, launch, model/app changes or publication.",
+  "rejected_candidates": [
+    {
+      "candidate": "All Things Devours",
+      "reason": "Source redirects hints/walkthrough to author website; website returned 403 even with Mozilla user agent and web access failed. No verified full guide available in inspected package."
+    },
+    {
+      "candidate": "The Count / Strange Odyssey",
+      "reason": "Archive solution members have visibly truncated/missing internal prose and duplicated tails after DOS EOF; not used as guides."
+    }
+  ],
+  "uncertainties": [
+    "Metamorphoses guide companion R1 vs selected R4; alternate endings acknowledged but not enumerated.",
+    "BOFH transcript R1 vs local R2, same serial; author warns score bug changed.",
+    "Gourmet/Splashdown same package association, no guide header versions.",
+    "Splashdown author describes guide as winning, but trailing QUIT is explicitly excluded; raw finale remains for parent verification."
+  ]
+}

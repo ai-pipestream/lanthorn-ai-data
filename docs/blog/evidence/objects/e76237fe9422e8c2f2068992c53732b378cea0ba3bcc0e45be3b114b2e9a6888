@@ -1,0 +1,908 @@
+{
+  "timestamp": "2026-09-25T09:30:08.820446+00:00",
+  "per_host": 3,
+  "hosts": [
+    "cm5ai1",
+    "cm5v1",
+    "cm5v2",
+    "krickert@cm5v3.local",
+    "pi500p",
+    "pi5ai1",
+    "krickert@pi5ai2p.local",
+    "pi5v2"
+  ],
+  "assigned": {
+    "frozen": {
+      "host": "cm5ai1",
+      "state": "running",
+      "config": "control/fullplay-refill-queue7-20260925.json",
+      "assigned_at": "2026-09-25T06:07:13.360468+00:00",
+      "broker_pid": 3082902,
+      "session_id": "frozen-a2e5d2eea9",
+      "worker": {
+        "pid": 142860,
+        "muse_pid": 181354,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/frozen-1790328407648371691",
+        "segment": 7,
+        "started_at": 1790328407.6507719,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328603.7267082
+      },
+      "last_sync": "2026-09-25T09:30:07.891959+00:00"
+    },
+    "spiritwrak": {
+      "host": "cm5ai1",
+      "state": "running",
+      "config": "control/fullplay-refill-queue7-20260925.json",
+      "assigned_at": "2026-09-25T06:13:10.313285+00:00",
+      "broker_pid": 3094140,
+      "session_id": "spiritwrak-8e02d83255",
+      "worker": {
+        "pid": 142862,
+        "muse_pid": 181606,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/spiritwrak-1790328448516565825",
+        "segment": 7,
+        "started_at": 1790328448.5171654,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328607.238712
+      },
+      "last_sync": "2026-09-25T09:30:07.907171+00:00"
+    },
+    "asylum": {
+      "host": "cm5ai1",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:10.814362+00:00",
+      "broker_pid": 3094144,
+      "session_id": "asylum-0815a6d270",
+      "worker": {
+        "pid": 109688,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:30:42.000754+00:00",
+      "completed_at": "2026-09-25T06:30:42.000773+00:00"
+    },
+    "pentari": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:11.315433+00:00",
+      "broker_pid": 3094148,
+      "session_id": "pentari-63be930153",
+      "worker": {
+        "pid": 8012,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:50:42.832597+00:00",
+      "completed_at": "2026-09-25T06:50:42.832604+00:00"
+    },
+    "nine-points": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:11.816475+00:00",
+      "broker_pid": 3094152,
+      "session_id": "nine-points-013d843149",
+      "worker": {
+        "pid": 8010,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:33:38.882469+00:00",
+      "completed_at": "2026-09-25T06:33:38.882486+00:00"
+    },
+    "enemies": {
+      "host": "cm5v1",
+      "state": "running",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:12.317847+00:00",
+      "broker_pid": 3094159,
+      "session_id": "enemies-0b4aba49fe",
+      "worker": {
+        "pid": 67177,
+        "muse_pid": 81812,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/enemies-1790328262175852849",
+        "segment": 2,
+        "started_at": 1790328262.176497,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328607.294437
+      },
+      "last_sync": "2026-09-25T09:30:07.800281+00:00"
+    },
+    "heist": {
+      "host": "cm5v2",
+      "state": "running",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:12.819212+00:00",
+      "broker_pid": 3094163,
+      "session_id": "heist-a079eba445",
+      "worker": {
+        "pid": 75727,
+        "muse_pid": 113365,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/heist-1790328066901516414",
+        "segment": 8,
+        "started_at": 1790328066.90213,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328607.0189278
+      },
+      "last_sync": "2026-09-25T09:30:07.833179+00:00"
+    },
+    "all-quiet-on-the-library-front": {
+      "host": "cm5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:13.320282+00:00",
+      "broker_pid": 3094167,
+      "session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+      "worker": {
+        "pid": 41062,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:50:36.359952+00:00",
+      "completed_at": "2026-09-25T06:50:36.359957+00:00"
+    },
+    "night-at-the-computer-center": {
+      "host": "cm5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:13.821367+00:00",
+      "broker_pid": 3094171,
+      "session_id": "night-at-the-computer-center-d16c3b6cd5",
+      "worker": {
+        "pid": 75729,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T07:49:52.561432+00:00",
+      "completed_at": "2026-09-25T07:49:52.561439+00:00"
+    },
+    "vindaloo": {
+      "host": "krickert@cm5v3.local",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:14.322314+00:00",
+      "broker_pid": 3094175,
+      "session_id": "vindaloo-85744e25ee",
+      "worker": {
+        "pid": 72816,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T08:46:12.224923+00:00",
+      "last_error_at": "2026-09-25T07:32:20.423472+00:00",
+      "completed_at": "2026-09-25T08:46:12.224934+00:00"
+    },
+    "gerbil-riot": {
+      "host": "krickert@cm5v3.local",
+      "state": "running",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:14.823459+00:00",
+      "broker_pid": 3094179,
+      "session_id": "gerbil-riot-f0779de162",
+      "worker": {
+        "pid": 72817,
+        "muse_pid": 108447,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790328606140894416",
+        "segment": 5,
+        "started_at": 1790328606.141497,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328606.9364524
+      },
+      "last_sync": "2026-09-25T09:30:07.844493+00:00",
+      "last_error_at": "2026-09-25T07:32:20.423041+00:00"
+    },
+    "i-0": {
+      "host": "krickert@cm5v3.local",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:15.324775+00:00",
+      "broker_pid": 3094187,
+      "session_id": "i-0-d1ac7729bb",
+      "worker": {
+        "pid": 72818,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T08:02:19.705480+00:00",
+      "last_error_at": "2026-09-25T07:32:20.423289+00:00",
+      "completed_at": "2026-09-25T08:02:19.705487+00:00"
+    },
+    "tube-trouble": {
+      "host": "pi500p",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:15.826091+00:00",
+      "broker_pid": 3094225,
+      "session_id": "tube-trouble-1b2d95be53",
+      "worker": {
+        "pid": 4383,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:54:25.116036+00:00",
+      "completed_at": "2026-09-25T06:54:25.116067+00:00"
+    },
+    "slacker-x": {
+      "host": "pi500p",
+      "state": "complete",
+      "config": "control/fleet-batch-a-20260925.json",
+      "assigned_at": "2026-09-25T06:13:16.327262+00:00",
+      "broker_pid": 3094229,
+      "session_id": "slacker-x-70f303cb52",
+      "worker": {
+        "pid": 4381,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:51:26.234676+00:00",
+      "completed_at": "2026-09-25T06:51:26.234684+00:00"
+    },
+    "beyond-the-tesseract": {
+      "host": "pi500p",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:16.828245+00:00",
+      "broker_pid": 3094233,
+      "session_id": "beyond-the-tesseract-26b2abc71c",
+      "worker": {
+        "pid": 34993,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T08:16:34.191259+00:00",
+      "completed_at": "2026-09-25T08:16:34.191274+00:00"
+    },
+    "return-to-karn": {
+      "host": "pi5ai1",
+      "state": "running",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:17.329269+00:00",
+      "broker_pid": 3094239,
+      "session_id": "return-to-karn-bf86b7da19",
+      "worker": {
+        "pid": 40801,
+        "muse_pid": 78214,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/return-to-karn-1790328250886217482",
+        "segment": 6,
+        "started_at": 1790328250.8868191,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328591.527236
+      },
+      "last_sync": "2026-09-25T09:30:07.886736+00:00"
+    },
+    "heroines-mantle": {
+      "host": "pi5ai1",
+      "state": "running",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:17.830634+00:00",
+      "broker_pid": 3094243,
+      "session_id": "heroines-mantle-4053f4fad7",
+      "worker": {
+        "pid": 40802,
+        "muse_pid": 77134,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790328081055740014",
+        "segment": 6,
+        "started_at": 1790328081.056423,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328607.751236
+      },
+      "last_sync": "2026-09-25T09:30:07.899470+00:00"
+    },
+    "kook-u": {
+      "host": "pi5ai1",
+      "state": "complete",
+      "config": "control/fullplay-kook-u-menu-recovery-20260925T0634.json",
+      "assigned_at": "2026-09-25T06:13:18.331691+00:00",
+      "broker_pid": 3164868,
+      "session_id": "kook-u-ef2767bf50",
+      "last_sync": "2026-09-25T07:52:53.859499+00:00",
+      "handoff_from": "kook-u-489e2b24ed",
+      "worker": {
+        "pid": 40803,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "completed_at": "2026-09-25T07:52:53.859508+00:00"
+    },
+    "only-after-dark": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:18.832827+00:00",
+      "broker_pid": 3094258,
+      "session_id": "only-after-dark-612a20ec77",
+      "worker": {
+        "pid": 131167,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:47:21.370986+00:00",
+      "completed_at": "2026-09-25T06:47:21.370998+00:00"
+    },
+    "dracula-prince-of-darkness": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "running",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:19.334201+00:00",
+      "broker_pid": 3094264,
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "worker": {
+        "pid": 172655,
+        "muse_pid": 233486,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790328602960513083",
+        "segment": 6,
+        "started_at": 1790328602.9612718,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328606.4252684
+      },
+      "last_sync": "2026-09-25T09:30:07.899378+00:00"
+    },
+    "zuni-doll": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:19.835340+00:00",
+      "broker_pid": 3094302,
+      "session_id": "zuni-doll-16d63fd0ac",
+      "worker": {
+        "pid": 131169,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:44:39.360760+00:00",
+      "completed_at": "2026-09-25T06:44:39.360770+00:00"
+    },
+    "deephome": {
+      "host": "pi5v2",
+      "state": "running",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:20.336494+00:00",
+      "broker_pid": 3094404,
+      "session_id": "deephome-56e3d50bda",
+      "worker": {
+        "pid": 143447,
+        "muse_pid": 175336,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/deephome-1790327814712088018",
+        "segment": 6,
+        "started_at": 1790327814.7127275,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328604.617542
+      },
+      "last_sync": "2026-09-25T09:30:08.033328+00:00"
+    },
+    "save-princeton": {
+      "host": "pi5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:20.837614+00:00",
+      "broker_pid": 3094443,
+      "session_id": "save-princeton-e0a2654e41",
+      "worker": {
+        "pid": 143448,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T08:36:37.130772+00:00",
+      "completed_at": "2026-09-25T08:36:37.130784+00:00"
+    },
+    "space-station": {
+      "host": "pi5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:13:21.338667+00:00",
+      "broker_pid": 3094447,
+      "session_id": "space-station-b15ae148d4",
+      "worker": {
+        "pid": 113069,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T07:13:20.894974+00:00",
+      "completed_at": "2026-09-25T07:13:20.894988+00:00"
+    },
+    "mother-loose": {
+      "host": "cm5ai1",
+      "state": "complete",
+      "config": "control/fleet-batch-b-20260925.json",
+      "assigned_at": "2026-09-25T06:30:42.836357+00:00",
+      "broker_pid": 3150615,
+      "session_id": "mother-loose-608208fd92",
+      "worker": {
+        "pid": 115974,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T07:17:25.530030+00:00",
+      "completed_at": "2026-09-25T07:17:25.530039+00:00"
+    },
+    "hunt-for-relief": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:33:39.745877+00:00",
+      "broker_pid": 3167532,
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "worker": {
+        "pid": 42776,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T07:50:23.682802+00:00",
+      "completed_at": "2026-09-25T07:50:23.682814+00:00"
+    },
+    "pick-up-the-phone-booth-and-aisle": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:44:39.372973+00:00",
+      "broker_pid": 3302412,
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "worker": {
+        "pid": 152032,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T06:49:48.738142+00:00",
+      "completed_at": "2026-09-25T06:49:48.738149+00:00"
+    },
+    "bse": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:47:21.947885+00:00",
+      "broker_pid": 3315035,
+      "session_id": "bse-ec63f1779d",
+      "worker": {
+        "pid": 172657,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T09:01:57.264292+00:00",
+      "completed_at": "2026-09-25T09:01:57.264298+00:00"
+    },
+    "bedlam": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:49:48.743348+00:00",
+      "broker_pid": 3323681,
+      "session_id": "bedlam-59f5a6e860",
+      "worker": {
+        "pid": 172658,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T08:03:14.515960+00:00",
+      "completed_at": "2026-09-25T08:03:14.515973+00:00"
+    },
+    "critical-breach": {
+      "host": "cm5v2",
+      "state": "running",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:50:37.006286+00:00",
+      "broker_pid": 3324847,
+      "session_id": "critical-breach-b5dd49a3e4",
+      "worker": {
+        "pid": 75730,
+        "muse_pid": 112234,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/critical-breach-1790327889074723817",
+        "segment": 5,
+        "started_at": 1790327889.0753415,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328607.8589258
+      },
+      "last_sync": "2026-09-25T09:30:07.992599+00:00"
+    },
+    "danger-adventurer-at-work": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-c-20260925.json",
+      "assigned_at": "2026-09-25T06:50:43.569916+00:00",
+      "broker_pid": 3325194,
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "worker": {
+        "pid": 42777,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T09:10:04.655515+00:00",
+      "completed_at": "2026-09-25T09:10:04.655529+00:00"
+    },
+    "gumshoe": {
+      "host": "pi500p",
+      "state": "running",
+      "config": "control/fleet-batch-d-20260925.json",
+      "assigned_at": "2026-09-25T06:51:26.601894+00:00",
+      "broker_pid": 3329939,
+      "session_id": "gumshoe-2933d54ccf",
+      "worker": {
+        "pid": 34994,
+        "muse_pid": 69557,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/gumshoe-1790328276505746930",
+        "segment": 5,
+        "started_at": 1790328276.5063603,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328605.2308917
+      },
+      "last_sync": "2026-09-25T09:30:08.111524+00:00"
+    },
+    "fine-tuned": {
+      "host": "pi500p",
+      "state": "running",
+      "config": "control/fleet-batch-d-20260925.json",
+      "assigned_at": "2026-09-25T06:54:26.100015+00:00",
+      "broker_pid": 3395975,
+      "session_id": "fine-tuned-989503b0a7",
+      "worker": {
+        "pid": 34995,
+        "muse_pid": 69619,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/fine-tuned-1790328285595011161",
+        "segment": 6,
+        "started_at": 1790328285.5956242,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328608.2718744
+      },
+      "last_sync": "2026-09-25T09:30:08.392188+00:00"
+    },
+    "ghost-train": {
+      "host": "pi5v2",
+      "state": "complete",
+      "config": "control/fleet-batch-e-20260925.json",
+      "assigned_at": "2026-09-25T07:13:21.132921+00:00",
+      "broker_pid": 3675383,
+      "session_id": "ghost-train-b026ef4aab",
+      "worker": {
+        "pid": 143449,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T09:20:25.937750+00:00",
+      "completed_at": "2026-09-25T09:20:25.937756+00:00"
+    },
+    "schooldays": {
+      "host": "cm5ai1",
+      "state": "running",
+      "config": "control/fleet-batch-e-20260925.json",
+      "assigned_at": "2026-09-25T07:17:25.794124+00:00",
+      "broker_pid": 3682519,
+      "session_id": "schooldays-b371c6a97d",
+      "worker": {
+        "pid": 142863,
+        "muse_pid": 178303,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/schooldays-1790327898324566637",
+        "segment": 6,
+        "started_at": 1790327898.325147,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328600.9267051
+      },
+      "last_sync": "2026-09-25T09:30:08.375610+00:00"
+    },
+    "not-just-a-game": {
+      "host": "cm5v2",
+      "state": "running",
+      "config": "control/fleet-batch-e-20260925.json",
+      "assigned_at": "2026-09-25T07:49:53.200049+00:00",
+      "broker_pid": 87474,
+      "session_id": "not-just-a-game-8201b5a6d4",
+      "worker": {
+        "pid": 78259,
+        "muse_pid": 115019,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/not-just-a-game-1790328328722575027",
+        "segment": 5,
+        "started_at": 1790328328.723169,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328606.0269303
+      },
+      "last_sync": "2026-09-25T09:30:08.267930+00:00"
+    },
+    "attack-of-the-yeti-robot-zombies": {
+      "host": "cm5v1",
+      "state": "complete",
+      "config": "control/fleet-batch-f-20260925.json",
+      "assigned_at": "2026-09-25T07:50:24.049347+00:00",
+      "broker_pid": 88094,
+      "session_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+      "worker": {
+        "pid": 45468,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T08:19:41.830131+00:00",
+      "completed_at": "2026-09-25T08:19:41.830138+00:00"
+    },
+    "hla-inform": {
+      "host": "pi5ai1",
+      "state": "running",
+      "config": "control/fleet-batch-f-20260925.json",
+      "assigned_at": "2026-09-25T07:52:54.140439+00:00",
+      "broker_pid": 185983,
+      "session_id": "hla-inform-09ea9c8220",
+      "worker": {
+        "pid": 44286,
+        "muse_pid": 79752,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/hla-inform-1790328513542486344",
+        "segment": 7,
+        "started_at": 1790328513.5431087,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328607.403236
+      },
+      "last_sync": "2026-09-25T09:30:08.341570+00:00"
+    },
+    "believable-adventures-invisible-man": {
+      "host": "krickert@cm5v3.local",
+      "state": "running",
+      "config": "control/fleet-batch-f-20260925.json",
+      "assigned_at": "2026-09-25T08:02:20.224690+00:00",
+      "broker_pid": 221234,
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "worker": {
+        "pid": 79227,
+        "muse_pid": 104753,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/believable-adventures-invisible-man-1790327919309458878",
+        "segment": 4,
+        "started_at": 1790327919.310207,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328606.1004453
+      },
+      "last_sync": "2026-09-25T09:30:08.359478+00:00"
+    },
+    "traffic": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "complete",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-g-20260925.json",
+      "assigned_at": "2026-09-25T08:03:15.080920+00:00",
+      "broker_pid": 234466,
+      "session_id": "traffic-dc40d385c3",
+      "worker": {
+        "pid": 180420,
+        "state": "finished",
+        "exit": 0,
+        "alive": false,
+        "muse_alive": false
+      },
+      "last_sync": "2026-09-25T09:15:10.057433+00:00",
+      "completed_at": "2026-09-25T09:15:10.057440+00:00"
+    },
+    "mortlake-manor": {
+      "host": "pi500p",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-g-20260925.json",
+      "assigned_at": "2026-09-25T08:16:34.736891+00:00",
+      "broker_pid": 446500,
+      "session_id": "mortlake-manor-e0475539fe",
+      "worker": {
+        "pid": 46505,
+        "muse_pid": 70355,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/mortlake-manor-1790328417124484205",
+        "segment": 4,
+        "started_at": 1790328417.12514,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328591.9830298
+      },
+      "last_sync": "2026-09-25T09:30:08.392295+00:00"
+    },
+    "varicella": {
+      "host": "cm5v1",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-h-20260925.json",
+      "assigned_at": "2026-09-25T08:19:42.020739+00:00",
+      "broker_pid": 450649,
+      "session_id": "varicella-0ca3ff14a0",
+      "worker": {
+        "pid": 56911,
+        "muse_pid": 80362,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/varicella-1790328035133358659",
+        "segment": 3,
+        "started_at": 1790328035.134031,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328608.326437
+      },
+      "last_sync": "2026-09-25T09:30:08.399137+00:00"
+    },
+    "augmented-fourth": {
+      "host": "pi5v2",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-i-20260925.json",
+      "assigned_at": "2026-09-25T08:36:37.629609+00:00",
+      "broker_pid": 472264,
+      "session_id": "augmented-fourth-d479b421d9",
+      "worker": {
+        "pid": 161757,
+        "muse_pid": 174449,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/augmented-fourth-1790327660988176967",
+        "segment": 2,
+        "started_at": 1790327660.988711,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328589.8214576
+      },
+      "last_sync": "2026-09-25T09:30:08.407697+00:00"
+    },
+    "lecture-feature": {
+      "host": "krickert@cm5v3.local",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-j-20260925.json",
+      "assigned_at": "2026-09-25T08:46:12.956132+00:00",
+      "broker_pid": 491802,
+      "session_id": "lecture-feature-fbf9767abc",
+      "worker": {
+        "pid": 94022,
+        "muse_pid": 106888,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/lecture-feature-1790328305828589119",
+        "segment": 2,
+        "started_at": 1790328305.829176,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328606.6124496
+      },
+      "last_sync": "2026-09-25T09:30:08.482083+00:00"
+    },
+    "underoos-that-ate-new-york": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-j-20260925.json",
+      "assigned_at": "2026-09-25T09:01:57.541495+00:00",
+      "broker_pid": 522750,
+      "session_id": "underoos-that-ate-new-york-21eb87c422",
+      "worker": {
+        "pid": 224216,
+        "muse_pid": 229985,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/underoos-that-ate-new-york-1790327947532689690",
+        "segment": 1,
+        "started_at": 1790327947.533593,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328608.5889769
+      },
+      "last_sync": "2026-09-25T09:30:08.703980+00:00"
+    },
+    "detective": {
+      "host": "cm5v1",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-j-20260925.json",
+      "assigned_at": "2026-09-25T09:10:05.056494+00:00",
+      "broker_pid": 537569,
+      "session_id": "detective-8419402e7b",
+      "worker": {
+        "pid": 76388,
+        "muse_pid": 76390,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/detective-1790327411522694550",
+        "segment": 0,
+        "started_at": 1790327411.523423,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328608.382437
+      },
+      "last_sync": "2026-09-25T09:30:08.637255+00:00"
+    },
+    "busted": {
+      "host": "krickert@pi5ai2p.local",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-k-20260925.json",
+      "assigned_at": "2026-09-25T09:15:10.312797+00:00",
+      "broker_pid": 546702,
+      "session_id": "busted-d683906f1b",
+      "worker": {
+        "pid": 228696,
+        "muse_pid": 228700,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/busted-1790327717101604814",
+        "segment": 0,
+        "started_at": 1790327717.1027899,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328589.9991736
+      },
+      "last_sync": "2026-09-25T09:30:08.812326+00:00"
+    },
+    "earth-and-sky-episode-1": {
+      "host": "pi5v2",
+      "state": "running",
+      "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-k-20260925.json",
+      "assigned_at": "2026-09-25T09:20:26.244060+00:00",
+      "broker_pid": 556195,
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "worker": {
+        "pid": 176578,
+        "muse_pid": 176580,
+        "state": "running",
+        "run": "/home/krickert/lanthorn-muse/runs/earth-and-sky-episode-1-1790328032829287782",
+        "segment": 0,
+        "started_at": 1790328032.8298864,
+        "alive": true,
+        "muse_alive": true,
+        "log_mtime": 1790328606.6215537
+      },
+      "last_sync": "2026-09-25T09:30:08.645555+00:00"
+    }
+  }
+}

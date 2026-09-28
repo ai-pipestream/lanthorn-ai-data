@@ -1,0 +1,14 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — continuation needed)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Forest Clearing in blizzard (e272 south retreat success). Ordinary prompt. Fire still burning behind cottage (last seen e259-260, stable). No death/quit/ending.
+
+Inventory: bottle-light + tinderbox. No seed/coin/Devil's key.
+
+Key results this run: straw lit via 'strike tinderbox' e242 (hit->strike vocab e241->e242; burn->strike vocab e236->e242; take staw typo e232->e233); fire examined e246 unbearable heat; retreat northeast works; waits show no cottage spread through ~7 turns; cellar/cottage unchanged; clearing tree unclimbable sticky sap e268; clearing exits = north/west/southwest/in (south probe e270); north leads to blinding winding path e271 (face numb, which way?) — retreated south e272 to safety.
+
+Hints (guidance only): seed via climb tree/get seed/get cork after turn winch/s/d/d (271-279); witch sequence s/e/d/n/e give seed, coin, Devil's key (316-324); mast/spyglass/winch (258-266) points to ship region. Do NOT replay as script.
+
+Checkpoints: behind-cottage e230-231 predates fire (safe fallback). No checkpoint during burning/blizzard navigation.
+
+Continuation (do not restart): 1) read latest.json e272 + progress.md; 2) from clearing, avoid blind north unless checkpointed at clearing first (verify save success; fire global risk — prefer keep behind-cottage fallback); 3) hunt winch/ship backtrack via 'in' or west-down-west-hole route? Map: west=cottage, southwest=behind, north=winding path, in=unknown — probe 'in' next with single command; 4) find climbable tree for seed/cork, then witch for Devil's key, then chain/cog/crossbow and Chapel confrontation + escape finale per manifest. No ending claimed.

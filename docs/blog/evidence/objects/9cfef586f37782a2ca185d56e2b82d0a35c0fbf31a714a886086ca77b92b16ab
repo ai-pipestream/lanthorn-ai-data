@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const source=fs.readFileSync(new URL('./export_dataset.mjs',import.meta.url),'utf8');
+const loop=source.slice(source.indexOf('const pending=new Set();'),source.indexOf('\nconst headers ='));
+const classify=new Function('events','transportBad',loop+'\nreturn transportBad;');
+const row=(event_id,command,engine_state='awaiting_input_or_idle',event_type='command')=>({event_id,command,engine_state,event_type,session_id:'s'});
+const events=[row('enter','', 'no_output_timeout'),row('help',null,'unchanged','help'),row('save','save'),row('filename','/save')];
+assert.deepEqual([...classify(events,new Set())],['enter','save']);
+assert.deepEqual([...classify([row('enter',''),row('save','save')],new Set())],[]);
+assert.deepEqual([...classify([row('enter','','no_output_timeout'),{...row('delayed',null,'awaiting_input_or_idle','delayed_output'),metadata:{delayed_for_event_id:'enter'}},row('save','save')],new Set())],['enter','delayed']);
+console.log('PASS: timed-out Enter, intervening metadata, clean Enter, and delayed output quarantine');

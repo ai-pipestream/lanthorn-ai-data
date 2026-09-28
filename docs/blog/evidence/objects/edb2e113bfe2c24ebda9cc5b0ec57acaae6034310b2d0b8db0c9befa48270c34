@@ -1,0 +1,16 @@
+# Augmented Fourth — collection progress (PAUSED, game incomplete)
+
+## State (e00139 confirmed; m0128 checkpoint PENDING)
+- Location: Drawing Room (red cottage E of Front Yard). Widow Fou-llama met; closed door E; entrance W. Score 10.
+- Inventory: trumpet (magic), note, manual, Timeline pamphlet, gold ring (Front Yard granite statue parts, +1).
+- IN-FLIGHT: inbox/m0128.json (checkpoint fou-llama) submitted, response unread — check responses/m0128.json on resume before new actions.
+- Route: ...Outside Courtyard → maze F-O-U-L-A-M-A (N stayed on L; NE reached A) → W solved (+2) → N Front Yard → ring → E Drawing Room.
+- Checkpoints verified through front-yard; fou-llama NOT yet verified.
+
+## Cases annotated (10)
+- Same 10 as before; many new candidates unannotated (maze moves, ring, pamphlet 07, plaques 001/113, manual 113/114).
+
+## Next on resume
+1. Read responses/m0128.json; if missing, read latest.json once then retry (do not resubmit).
+2. Talk to Fou-llama (ASK ABOUT RING/DOOR/BROOM?), examine fern/knick-knacks, probe closed E door; check blue cottage W and Mullog.
+3. Goal still far: Snoobar door, Finney key, S Plaza spire ladder, surface + Throne Room finale per manifest.

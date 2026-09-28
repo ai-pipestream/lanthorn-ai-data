@@ -1,0 +1,48 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — branch b2 at Poop Deck, m0872 PENDING)
+
+Game R3/051012, session dracula-prince-of-darkness-d75c304699, branch b2.
+Actual state b2: Poop Deck e976 (command, awaiting input) — wooden platform at stern, whole lower deck visible, ship's wheel present. Ship FREE after winch. Route hint e972 next: "set wheel to 128".
+Inventory (e900 as observed): grapes, hot bottle (light), shovel, tinderbox, War+Pestilence charms, green copper key + Castle key.
+
+- m0836 DONE e937: look Tiny Tunnel, case b2-tiny-tunnel-look.
+- m0837 DONE e938-e939: checkpoint tiny-tunnel-b2 Ok.
+- m0838 DONE e940: synthetic probe "climb down steps" in Tiny Tunnel, case b2-tiny-tunnel-descend — REJECTED.
+- m0839 DONE e941: canonical correction "down" same case, exploration — SUCCESS to Long Passageway.
+- m0840 DONE e942: annotate e940->e941 pair, same case, failure_type syntax, intent preserved yes, synthetic_probe true.
+- m0841 DONE e943: look Long Passageway, case b2-long-passageway-look.
+- m0842 DONE e944: command "down" case b2-long-passageway-down, exploration — SUCCESS to Jetty.
+- m0843 DONE e945: look Jetty, case b2-jetty-look.
+- m0844 DONE e946-e947: checkpoint jetty-b2 Ok.
+- m0845 DONE e948: synthetic probe "board ship" at Jetty, case b2-jetty-board — REJECTED.
+- m0846 DONE e949: help Jetty board OFF-TOPIC (lines 135-143), used observed UP exit.
+- m0847 DONE e950: canonical "up" same case b2-jetty-board — SUCCESS to Gangplank.
+- m0848 DONE e951: annotate e948->e950 pair, failure_type vocabulary, yes, synthetic true.
+- m0849 DONE e952: look Gangplank, case b2-gangplank-look.
+- m0850 DONE e953: synthetic probe "cross gangplank" case b2-gangplank-cross — REJECTED.
+- m0851 DONE e954: canonical "up" same case — SUCCESS to Deck.
+- m0852 DONE e955: annotate e953->e954 pair, failure_type world_state, yes, synthetic true.
+- m0853 DONE e956: look Deck, case b2-deck-look.
+- m0854 DONE e957-e958: checkpoint deck-b2 Ok.
+- m0855 DONE e959: synthetic probe "go to bow" at Deck, case b2-deck-bow — REJECTED ("You can't see any such thing").
+- m0856 DONE e960: help Deck bow north — OFF-TOPIC excerpt lines 342-350 (cog/spindle/down/s/w/wait/crossbow/tapestry/dial), walkthrough_not_player_observed; relying on observed room text NORTH instead.
+- m0857 DONE e961: canonical "north" case b2-deck-bow — SUCCESS to Ship's Bow.
+- m0858 DONE e962: annotate e959->e961 pair, case b2-deck-bow, failure_type syntax, yes, synthetic true.
+- m0859 DONE e963: look Ship's Bow, case b2-ships-bow-look — bow, winch, mast; exit SOUTH.
+- m0860 DONE e964-e965: checkpoint ships-bow-b2 Ok.
+- m0861 DONE e966: "turn winch" case b2-ships-bow-winch (synthetic_probe) — SUCCESS, not a rejection: anchor raised, gangplank raised, ship free to navigate. Puzzle solution; no correction pair.
+- m0862 DONE e967-e968: checkpoint ship-free-b2 Ok.
+- m0863 DONE e969: synthetic probe "sail ship" at Ship's Bow, case b2-ships-bow-sail — REJECTED "That's not a verb I recognise."
+- m0864 DONE e970: help freed ship sail navigate bow mast — excerpt lines 254-262 ">search hartnell >get antidote >w >up >n >climb mast >x spyglass >down >n", walkthrough_not_player_observed, guidance provisional.
+- m0865 DONE e971: guided "climb mast" case b2-ships-bow-sail — REJECTED "You cannot reach the mast from here." No navigation; case still unresolved, needs true correction.
+- m0866 DONE e972: help ship freed navigate — excerpt lines 263-271 ">turn winch >s >s >up >set wheel to 128 >d >n >n >turn winch", walkthrough_not_player_observed, guidance provisional.
+- m0867 DONE e973: command "s" case b2-ship-free-south-deck, exploration — SUCCESS Bow to Deck.
+- m0868 DONE e974: command "s" case b2-deck-south-stern, exploration — SUCCESS Deck to Stern.
+- m0869 DONE e975: look Stern, case b2-stern-look — confirmed UP poop deck / DOWN below decks / NORTH.
+- m0870 DONE e976: command "up" case b2-stern-up-poop, exploration — SUCCESS Stern to Poop Deck, ship's wheel observed.
+- m0871 DONE e977: look Poop Deck, case b2-poop-deck-look — wooden platform at stern, ship's wheel present.
+- m0872 PENDING (do NOT resubmit / do NOT duplicate): synthetic probe "turn wheel" at Poop Deck, case b2-poop-wheel-turn, intent set course by turning wheel. Well-formed single command. Awaiting broker.
+
+Checkpoints: upstairs-gallery-b2, great-hall-north-b2, dining-room-b2, werewolf-resolved, glass-passage-entry, great-hall-south, antechamber-b2, haunted-bedroom-b2, painting-open-b2, tiny-tunnel-b2, jetty-b2, deck-b2, ships-bow-b2, ship-free-b2 (all Ok).
+Light: hot bottle providing light — conserve.
+
+Next (continuation): check responses/m0871.json then latest.json; do NOT duplicate/resubmit m0871 while pending. After it resolves: synthetic wheel probe before canonical "set wheel to 128" (single-stepped), then hint e972 onward (d, n, n, turn winch). Annotate b2-ships-bow-sail only after true navigation confirmed. Safe checkpoints: ships-bow-b2 and ship-free-b2. Then toward Chapel confrontation + escape + concluding narrative. Never QUIT. Guide trailing QUIT never counts.

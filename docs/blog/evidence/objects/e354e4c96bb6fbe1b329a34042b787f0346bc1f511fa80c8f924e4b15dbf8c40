@@ -1,0 +1,28 @@
+# Curses progress — SEGMENT 12 LIVE (incomplete, branch b19, score 119/550 ~22%)
+
+STATE (e01826, turns 1073): Sandstone Passage (west of Octagon), Meldrew Hall, June 3 1993. SAFE at ordinary prompt.
+Inventory: Ace of Cups + sooty stick + timber spar + rucksack (Sailor/Reaper, whistle, RED TABLET, scarf, spade, weed killer, ball, postcard, dictionary, Hamburg/tourist map) + torch + gloves worn. Gold key in Attic; letter+clover+box+open coffin in Octagon; wrench+miniature(Folly)+poetry+History in Library Storage; prayer+sketch+flash in Cupboard.
+Checkpoints: seg12-attic-ace (b19, Attic pre-swap); seg11-after-roller; older intact incl seg9-cabinet-127 (Hamburg 127).
+
+Seg12 0001-0053:
+- Filed 5 seg11 pending annotations (bell/poetry/cards/scale/mosaic).
+- NEW route: Family Tree SE Garden Stream, ENTER BUNKER (climb-into rejected e01775 vs enter e01776, vocab annotated) -> Dark Passage E Sandstone E OCTAGON -> SE White Hallway (Isaac hung) -> U,U Servant's Room -> W ATTIC (gold key+Ace).
+- Ace: take cup rejected e01787 vs take ace Taken e01788 (vocab annotated). Checkpoint seg12-attic-ace.
+- Help breakthrough lines 59-67 (ship->Alison dream: flag-bed sleep wait man-gone E,E wheel pinch stick mirror) + NEXT 68-76 (wave stick/spar, break window, gold key, box/clover, dumbwaiter, sketch/frame, coffin convert). STILL no first-rod acquisition anywhere in 59-76.
+- Stick/spar conversion TESTED at Octagon (inscription+letter read e01816-17): put stick into coffin e01813/close e01814/open reveals UNCHANGED stick e01815; re-close e01818, take rod can't-see e01819; stick retrieved e01821. Spar: put e01822/close e01823/open UNCHANGED spar e01824; retrieved e01825. NEITHER converts. HOLD (no correction — not mahogany rods).
+- Fetch probes: get stick Taken e01796 (none); take timber Taken e01803 (none). West of Octagon = Sandstone Passage (no unbuilt extension exit).
+
+ROD PROBLEM (critical path blocked):
+- Zero mahogany rods ever seen; Rod of Returning missing; Hamburg needs tablet (HAVE) + Rod (Strike/point-return). b15 proved no-tablet = drugged death e01403.
+- Walkthrough assumes rod pre-Octagon but acquisition in no excerpt 10-104. Late convert list (quarterstaff/crook/beanpole/8wands) is SECOND visit.
+- Suspects untested: (a) umbrella stand contents beyond sceptre (White Hallway); (b) Garage bladed implement on hook; (c) ironbound door Cellar West with GOLD key (brass+iron rejected before; crypt/rods behind?); (d) lagach-only areas (Alexandria/Homer/priestess/crypt/Contraption) — lagach syntax known late (lagach,painting) but early use failed; (e) spade/ball as convertible wood? (unlikely); (f) quarterstaff location via fresh help topic.
+- Mask: Cups unreachable 2nd-time (e00944/e01622); b15 reached cabinet-127 maskless — treat Remove-mask as optional until proven.
+
+NEXT:
+1. White Hallway: search umbrella stand; take umbrella? Examine stand.
+2. Garage: examine/take bladed implement.
+3. Route to Cellar West (via dumbwaiter? Priest's Hole hatch? map it) — try gold key on ironbound door.
+4. Fresh help: quarterstaff location / first mahogany rod (avoid Octagon/Hamburg repeat topics).
+5. If rod found: convert at Octagon, checkpoint, Servant's Room read-1420 Hamburg with tablet+Rod.
+6. DEFERRED: Souvenirs swap (south blocked), miniature slot (post-Hamburg), lagach bronze (late), Hell demon.
+SAFETY: no trapdoor-down; checkpoint before Hamburg; keep tablet; torch on (closed, providing light).

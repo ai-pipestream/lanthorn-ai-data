@@ -1,0 +1,24 @@
+{
+  "event_id": "reverberations-b43cf5e223:e00153",
+  "timestamp": "2026-09-25T06:20:43.800134+00:00",
+  "game_id": "reverberations",
+  "session_id": "reverberations-b43cf5e223",
+  "branch_id": "b0",
+  "event_index": 153,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 28844,
+  "raw_end": 28844,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "    *** You Rule!  The game's totally over! ***\n\n\nIn that game you scored 50 out of a possible 50, in 92 turns.",
+    "evidence_event_ids": [
+      "reverberations-b43cf5e223:e00151"
+    ],
+    "notes": "Full playthrough to author-intended win: 50/50 score, mafia exposed via Jill/SWAT, Tasker fired Stan, Jill investigator offer and kiss. Not death/quitting/chapter: explicit You Rule game-over with RESTART/RESTORE/QUIT prompt after final axe floor break."
+  },
+  "review_status": "unreviewed"
+}

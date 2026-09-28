@@ -1,0 +1,94 @@
+[
+  {
+    "filename": "lecture.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/lecture.zblorb",
+    "accessed_at": "2026-09-25T08:29:36.584938+00:00",
+    "remote_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "local_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "bytes": 493520,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 1,
+    "remote_serial": "200414",
+    "zcode_sha256": "9673c2ed3b0f60c615596bd0bdf57177d39dc13f803895567d8fc27318d22dd9",
+    "story_header": {
+      "container": "blorb-zcod",
+      "header_bytes": 64,
+      "header_hex": "08000001ef10ef11d2fb010a5d9ecc0d00503230303431340042c3c5c2f500000000000000000000000000000000cc0c000000000000010200000000362e3332",
+      "header_sha256": "bcd1969032f1b45f95567ffe976dbe8933f74544116f34238ea5c4b4eac419e1",
+      "checksum_hex": "c2f5",
+      "declared_length": 400936,
+      "file_bytes": 493520,
+      "zcod_offset": 56,
+      "zcod_bytes": 401408,
+      "zcod_sha256": "9673c2ed3b0f60c615596bd0bdf57177d39dc13f803895567d8fc27318d22dd9",
+      "container_bytes": 493520
+    }
+  },
+  {
+    "filename": "under.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/under.z5",
+    "accessed_at": "2026-09-25T08:29:36.548840+00:00",
+    "remote_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+    "local_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+    "bytes": 58880,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "970329",
+    "zcode_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+    "story_header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "05000001291829191ce701020c0815f1001039373033323900423960774f000000000000000000000000000000000000000000000000000000000000362e3131",
+      "header_sha256": "3d2ca58b36e3382e01ef035cbbaa18840b5b05032fafb0fd8fe2a5110d117955",
+      "checksum_hex": "774f",
+      "declared_length": 58752,
+      "file_bytes": 58880
+    }
+  },
+  {
+    "filename": "tatctae.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/tatctae.z8",
+    "accessed_at": "2026-09-25T08:29:36.584913+00:00",
+    "remote_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "local_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "bytes": 378368,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 7,
+    "remote_serial": "970521",
+    "zcode_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "story_header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "08000007b8d0b8d18551013a7039770d0000393730353231007ab88530bb00000000000000000000000000000000000000000000000000000000000000000000",
+      "header_sha256": "2b098f07fc153276b49e86e0a04d1ba3c291fd76e7e68508566b4b797a18f58a",
+      "checksum_hex": "30bb",
+      "declared_length": 377896,
+      "file_bytes": 378368
+    }
+  },
+  {
+    "filename": "detective.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/detective.z5",
+    "accessed_at": "2026-09-25T08:29:36.553782+00:00",
+    "remote_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+    "local_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+    "bytes": 108032,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "000715",
+    "zcode_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+    "story_header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "050000014a0c4a0d3deb010a1a75356b00503030303731350042690e2d8000000000000000000000000000000000356a000000000000010200000000362e3231",
+      "header_sha256": "96ade8234424547fb809ca785eb9f4d61c802e693ab9864ec44efcd2a8350c59",
+      "checksum_hex": "2d80",
+      "declared_length": 107576,
+      "file_bytes": 108032
+    }
+  }
+]

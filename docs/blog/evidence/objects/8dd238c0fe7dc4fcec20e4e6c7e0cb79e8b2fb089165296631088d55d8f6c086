@@ -1,0 +1,24 @@
+{
+  "event_id": "dreamhold-362786f871:e02045",
+  "timestamp": "2026-09-25T05:56:00.694477+00:00",
+  "game_id": "dreamhold",
+  "session_id": "dreamhold-362786f871",
+  "branch_id": "b11",
+  "event_index": 2045,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 394092,
+  "raw_end": 394092,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "    *** The end ***\n\n\nThank you for playing. You've reached the end of THE DREAMHOLD; but that \ndoesn't mean there isn't more hidden in the game. You made seven additional \ndiscoveries beyond the riddle of the masks; there may be others.",
+    "evidence_event_ids": [
+      "dreamhold-362786f871:e02043"
+    ],
+    "notes": "Walkthrough Ending 3 (Doorstep of Heaven): final west step off the Far West shadow point; ringed-moon portal narrative, author banner, thank-you text, seven additional discoveries, Andrew Plotkin sign-off in the same event. Fullest of three documented endings (Ending 2 explicitly not-the-only; Ending 1B six discoveries vs seven here). Not death, quitting, or scene transition."
+  },
+  "review_status": "unreviewed"
+}

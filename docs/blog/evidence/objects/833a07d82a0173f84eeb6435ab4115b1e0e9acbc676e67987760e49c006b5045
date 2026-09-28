@@ -1,0 +1,8 @@
+# Curses progress — branch b1 Score 9 Turns 33
+
+Location: Old Winery, demijohn OPEN, map taken. Battery left (too many hands).
+Inventory: gloves worn, biscuit, torch closed/light, tourist map, History vol II, paper. Need to free hands for battery.
+Checkpoints: start-attic, old-winery (restored to b1), winery-map (new).
+Cases: 12 annotated (paper, chests-none, inside-syntax, book-typo, torch-vocab, go-north-syntax, sheets-syntax, radio-ambiguous, radio-wordorder-none, gloves-world_state death, wear-none, map-world_state). Pending battery capacity.
+Hints: gloves route done; demijohn open +3; next need wrench east / dumbwaiter / mouse-hole attic-key per first hint (19-27 lines) + insulation/new battery/torch refill per second hint.
+Next: drop book to take red battery, examine map, go east for wrench, update.

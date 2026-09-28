@@ -1,0 +1,17 @@
+# Pytho's Mask — collection progress
+
+- Game: pythos-mask (Glulx R4/020223), session pythos-mask-a39eb2af1a, branch b0
+- Location: intro sequence (small room briefing, MORE prompt) — no ordinary command prompt yet
+- Inventory: unknown (intro not finished)
+- Cases: none yet
+- Last hint: none
+- Checkpoints: none yet (will checkpoint at first confirmed ordinary prompt)
+- Observed: e00001 startup ("Pytho's Mask"); e00002 (empty command → intro briefing + MORE);
+  e00003 (empty command at MORE → no_output_timeout, empty response)
+- Segment 2: submitted inbox/m0003.json (await_output, no game input) per timeout protocol.
+  PENDING response; do NOT duplicate, edit, or flush with another key.
+- Next: read responses/m0003.json FIRST. If it resolves the MORE output, continue
+  advancing intro. If still absent after 190s+ from m0003 submission, stop honestly
+  with game incomplete and report pending request for supervisor/parent review.
+  Per collection-notes: repeated silent timeouts need parent transport review,
+  not repeated recovery attempts.

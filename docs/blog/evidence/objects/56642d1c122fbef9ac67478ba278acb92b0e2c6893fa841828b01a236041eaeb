@@ -1,0 +1,15 @@
+# Child's Play progress - SEGMENT 2 (in progress)
+
+Location: Small Open Area, Chapter 2, Score 60. Cassie just leapt off tall block, shrieked, Lisa+Parry ran to her, Parry left tumbler, blocks scattered (e247). Need tumbler unguarded at Couch West.
+Inventory: empty (paper dropped in Secret Space e229). Parry + tumbler were at Couch West e232.
+Checkpoints: paper-taken-rocking (e223-224, sitting Secret Space paper held - now outdated hands/paper, but rocking persists). Need new checkpoint after tumbler/cabinet.
+Last hints (e216-221): need heavy tumbler on cabinet, distract Parry via Cassie blocks (done), then OPEN CABINET with Zoe distracted. Cassie trigger worked.
+
+Unresolved cases:
+- syn-open-door e166 (needs cabinet open via rocking+tumbler)
+- route-onesie2 ambiguity e133 + loop (optional natural)
+- route bare-direction fails (optional 1 annotation)
+- syn-unfold-paper e215 stubby (paper shim done, no text needed)
+
+Annotated ~39 cases (added syn-walk-east vocab failure e227, syn-putdown-paper none e230, route-leave-secret world_state e233, syn-take-block planning e238, syn-push-it ambiguity e246).
+Next: go southwest to Middle, west/south to Couch West, take tumbler (probe synonym first), put tumbler on cabinet (By Cabinet), open cabinet with Zoe distracted (Jemison balls still?), checkpoint, then Ch2 end/Ch3.

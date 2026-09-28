@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-09-25T08:14:02.390442+00:00",
+  "target": 10,
+  "workers": {
+    "muse-autumn-romance": [
+      220843
+    ],
+    "bicon": [
+      329570
+    ],
+    "delusions": [
+      4066543
+    ],
+    "zork-i7": [
+      4161206
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "jigsaw": [
+      4161221
+    ],
+    "mansion": [
+      4161234
+    ],
+    "christminster": [
+      4161254
+    ],
+    "the-wedding": [
+      4161264
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "i-0",
+    "the-edifice",
+    "bedlam",
+    "magic-toyshop"
+  ],
+  "queued": [
+    "mortlake-manor",
+    "windhall",
+    "varicella",
+    "cacophony",
+    "risorgimento-represso",
+    "wadewars-iii-askin"
+  ]
+}

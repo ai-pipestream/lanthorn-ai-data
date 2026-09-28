@@ -1,0 +1,17 @@
+# Deephome playthrough progress (IN PROGRESS — branch b5, score 182, sharp pick in hand)
+
+## Where to resume (continuation run: start here)
+Branch b5 at Treasury Antechamber (e00546, score 182, verified). m0422 north to Common Bank PENDING (no response yet — do NOT resubmit; read responses/m0422.json). Checkpoints: `sharp-pick`, `smithy-court`. Inventory (observed): sharp pick + pickaxe + hammer + lit torch/lantern (conserve light). Do NOT restart.
+
+## Current state (observed, branch b5)
+Route Smithy Court→SE Railway Station→enter car (Main Hall/Barracks/Treasury panel)→press red→Treasury station (score 181 e00543)→out→look (SW Treasury Antechamber e00545)→southwest→Treasury Antechamber e00546: portraits; W steel vault door (blocks Treasury); N Common Bank; NE Railway station. Score 182/300.
+Next: Common Bank interior — walkthrough guidance only (hint e00527): x box; pick lock with sharp pick; open box; l in box > key. At bank: checkpoint + synthetic probes (synonym/typo/omitted) before canonical; then key → exorcisms to last-exorcism terminal conclusion (raw IDs + exact quote; parent review).
+
+## Cases
+Annotated: railcar-smithy-typo; forge-scraps-naming; forge-open-omitted; forge-light-coal; forge-put-scraps; forge-get-molten; forge-hammer-early; forge-ambil-sharp. New unannotated route cases e00538-546 pending annotation pass later.
+
+## Checkpoints (all Ok)
+sharp-pick; smithy-court; throne-room; clearing-clover; coal-mines-search (b3).
+
+## Next actions
+1) Resolve m0422 (Common Bank arrival). 2) look + checkpoint before lockpicking. 3) Probes then canonical box sequence. 4) Bank key → exorcisms to genuine finale. Game incomplete — ending NOT reached.

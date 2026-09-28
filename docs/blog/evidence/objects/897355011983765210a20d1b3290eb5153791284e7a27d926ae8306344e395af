@@ -1,0 +1,28 @@
+# Progress - Risorgimento Represso - SEGMENT END (step budget)
+
+## Current location
+Study (score 13, branch b3). Post-rift: Guild took Ninario, portal shut. Just took iron key (e00217) and bearskin rug (e00221). Flare lit, conserve.
+
+## Inventory (approx, verify next segment with inventory command)
+Carried: iron key (new), bearskin rug (new), helmet, bowl, dish, vial, flask saltpetre, pouch charcoal, flare lit, satchel + contents (purse sulphur, pillow, chamberpot, steel key, book, tube hastener stowed on rug take), clothes. Spectacles given, WizStrip consumed.
+
+## Checkpoints (verified, b3 unless noted)
+- post-rift-rescue (score 13, Study, latest safe)
+- clean-spectacles (Courtyard, score 8, pre-give)
+- before-wizstrip-pour (Garderobe, score 3)
+- lab-arrival, garderobe-arrival, study-spectacles-quest, library-arrival, start-lecture-hall
+- Death branch b2 preserved as evidence (dirty-spectacles death e00183); do NOT confuse with b3 clean route.
+
+## Cases (35 total, all resolved, 0 unresolved)
+syn-01 notebook accepted; 02 yoghurt accepted; 03 leave-hall planning; 04 beneath->under syntax; 05 pickup= get fumble none; 06 enter portal accepted; 07 clean=tidy accepted; 08 take everything accepted; 09 sachel typo vocab; 10 examine omitted syntax; 11 walk east accepted; 12 glasses accepted; 13 read parchment accepted; 14 him pronoun accepted; 15 bed wordorder syntax; 16 seat->bench vocab; 17 down hole->in hole syntax; 18 cushion->pillow vocab; 19 gun accepted; 20 ask gun accepted; 21 powder accepted; 22 get everything accepted; 23 tube accepted; 24 rod accepted; 25 turn=twist accepted; 26 heap accepted; 27 miasma accepted; 28 stripper pour accepted; 29 climb vat accepted; 30 take glasses accepted; 31 give glasses accepted; 32 about-rift world_state (dirty death -> clean safe); 33 rinse->wash vocab; 34 take key auto-resolved none; 35 bearskin accepted.
+
+## Last hint (e00220, lines 66-74)
+e / give specs / ninario, close rift / press key / x something / get key / get rug / put all in satchel
+Done through get rug. Next: put all in satchel, then need mode=next excerpt for escape/powder/cannon/countryside/rescue.
+
+## Next actions (continuation segment)
+1. Read latest.json + this progress; verify at Study score 13 via look/inventory (1 cmd each).
+2. Do 'put all in satchel' (walkthrough) - consider probe 'put everything in satchel' first? But inventory tight; checkpoint first if risky.
+3. Request help mode=next for iron key use / castle escape (portcullis? rusty door? wooden doors? kitchen?).
+4. Continue powder (3-1-1, ball mill, powder bag), cannon, countryside, Ninario rescue, final descent. Manifest requires authored concluding narrative after final descent with Ninario; spectacles/rift/castle/score alone insufficient.
+5. Keep 20-40 diversity: still need true wrong-object (e.g. unlock with wrong key) and world_state block and ambiguity-asks-which. Do NOT repeat identical probes.

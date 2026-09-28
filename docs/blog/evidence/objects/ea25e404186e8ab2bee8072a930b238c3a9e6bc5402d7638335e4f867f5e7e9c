@@ -1,0 +1,9 @@
+# Busted! progress (b4 Republican Club, game incomplete)
+
+Location: b4 Republican Club, Score 38. Greg giggling with bear; scale stored in box (2nd item). Checkpoint republican-scale.sav Ok e00394.
+Inv (e00372/e00391): open lunch box (bong+vial+scale), capsule+bear both given to Greg, quarter+pliers left on Arcade floor; worn sunglasses/walkman (Barry playing), note, ID A2487493 intact, cash.
+Death b3 e00369 preserved: exhaustion arrest 19/154 in 180 turns — ordinary failure, not ending.
+Checkpoints: hotel-desk.sav, pliers-surface.sav, arcade-bong-box.sav, republican-scale.sav Ok (b4).
+Last hints: e00398 (m0371 resolved) lines 188-196: S,S,D / E / X drinks / Put quarter in drinks (coffee for Dr visit) / Push coffee button / Get cup / W,D.
+Next (DO NOT RESUBMIT m0001-m0372): await m0372 response (s from Republican Club to RSO Corridor); then single-step S, D to Union, E to alcove. NOTE: quarter is on Arcade floor, not carried — coffee step needs a Concourse/Arcade quarter detour (Union D to Concourse, N to Arcade, get quarter, E back via Union) before Put quarter in drinks; watch fatigue warnings (e00378/e00364). One command per request near fatigue. W from Union is locked (e00360); use D.
+Pending: m0372 only (submitted, well-formed; response not yet present, latest still e00398). Game incomplete, no winning ending.

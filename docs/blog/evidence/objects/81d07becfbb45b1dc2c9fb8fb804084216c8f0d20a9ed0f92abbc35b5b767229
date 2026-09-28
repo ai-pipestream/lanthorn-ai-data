@@ -1,0 +1,8 @@
+# BSE progress
+
+- Location: Country Lane (Turns 25, Score 5). Boot open: briefcase, white coat, key ring visible.
+- Inventory (observed): toy pistol, faxed note, remote control (closed, watch battery inside), burnt battery, watch battery moved into remote (remote pushed OK, score 5). Fork dropped in lane.
+- Checkpoints: start-lane, boot-open (both verified).
+- Cases (10): fork-synonym vocab; bed-search vocab; drop-fork none; remote-examine none; remote-open vocab; battery-take none; sound-examine none; boot-open world_state (trunk==boot, locked); watch-battery syntax typo; (lane-remote-close-push sequence e43/e44 unscored as cases).
+- Last hints: lines 19-27 (watch battery into sound, close sound, stash remote+burnt in boot, get coat wear it). Guidance only.
+- Next: open remote, get watch battery, put in sound, close sound, stash remote+burnt in boot, get/wear coat; then pub/farm route per next hint excerpt.

@@ -1,0 +1,18 @@
+{
+  "story": "deephome.z5",
+  "guide": "deephome.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/deephome.sol",
+  "accessed_at": "2026-09-25T06:02:04.109447+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 1,
+  "serial": "991210",
+  "sha256": "fdae5bd090fda6fc1b0390051531190968e04355060153ad5b2ab6b75a387b31",
+  "bytes": 133120,
+  "header_hex": "050000015e8c5e8d43cd010a306f3ad20010393931323130004281fb98a6000000000000000000000000000000000000000000000000010200000000362e3135",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/deephome.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.371549+00:00",
+  "downloaded_story_sha256": "fdae5bd090fda6fc1b0390051531190968e04355060153ad5b2ab6b75a387b31",
+  "download_matches_local": true
+}

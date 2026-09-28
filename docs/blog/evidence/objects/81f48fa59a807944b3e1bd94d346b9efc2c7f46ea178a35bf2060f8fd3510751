@@ -1,0 +1,11 @@
+# Only After Dark — progress (b2 Clearing, CONTINUATION POINT)
+
+Location: Clearing with shaman, back turned, trap warning (restored). Branch b2 at e00072 (restore clearing-shaman OK, response "Ok.\n\n>").
+Inventory as wolf: unverified since transformation; last human inventory talisman only (e00041).
+Checkpoints: village-start, lyca-hut, jail-hut, beach-wolf, clearing-shaman (all verified; clearing-shaman restored b1->b2).
+Cases annotated (7): village-exit-typo, follow-lyca-naming, talisman-throw-omitted, bed-mount-synonym, sleep-typo, scent-synonym, fork-ne-typo.
+Pending unannotated probe: m0059 e00070 "attack shaman" -> trap net -> "*** You have failed ***" (failure-menu prompt, NOT an ending). Correction NOT yet sent. Next: on b2 send "jump shaman" (same case_id shaman-attack-vs-jump, origin recovery), inspect, then annotate pair failed e00070 / corrected new-event with failure_type world_state or planning (attack springs trap; jump avoids it), intent_preserved uncertain (different method), notes must state trap outcome and branch change b1->b2.
+Hints: m0051 DAY THREE follow scent/ne/jump shaman; earlier m0007 late-game sw/sw/howll lines still unused. Manifest completion needs Day Three finale: confront shaman, southwest escape, final howl — get small excerpts stepwise, never full guide.
+Next after shaman: expect sw/sw/sw + howl per m0007; checkpoint before risky/timed moves; update progress every 10-15 requests.
+Deaths/failures: b0 e00025 death (dropped talisman); b1 e00070 fail (attack trap). Both recovered via checkpoints, not endings.
+Stop: game incomplete; continuation run should read progress.md + latest.json, resume at b2 Clearing ordinary prompt, do NOT resend m0060 or replay attack probe.

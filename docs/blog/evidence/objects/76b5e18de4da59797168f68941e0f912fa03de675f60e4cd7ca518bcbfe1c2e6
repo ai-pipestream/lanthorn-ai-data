@@ -1,0 +1,29 @@
+import json,fcntl,subprocess,datetime,time,hashlib,sys
+from pathlib import Path
+sys.path.insert(0,'scripts');from maintain_workers import pending,processes
+now=lambda:datetime.datetime.now(datetime.timezone.utc).isoformat()
+base=Path('play/gerbil-riot');sid='gerbil-riot-f0779de162';ref=sid+':e00664'
+record=next(r for r in json.loads(Path('runs/fullplay-status.json').read_text())['verified_historical_endings'] if r['event_id']==ref)
+raw=(base/'stdout.raw').read_bytes();assert hashlib.sha256(raw[record['raw_start']:record['raw_end']]).hexdigest()==record['sha256']
+assert not pending(base) and not(base/'ending-claim.json').exists()
+for f in ['control/worker-pool.json','control/fleet/settings.json']:assert json.loads(Path(f).read_text())['enabled'] is False
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ subprocess.run(['systemctl','--user','stop','lanthorn-muse-fleet.service'],check=True)
+ try:
+  a_path=Path('control/fleet/assignments.json');a=json.loads(a_path.read_text());old=a['gerbil-riot'];assert old['session_id']==sid and old['worker']['alive'] is False and old['worker']['muse_alive'] is False
+  assert json.loads((base/'manifest.json').read_text())['session_id']==sid and not pending(base)
+  req={'action':'finish','_fleet_session_id':sid,'evidence_event_ids':[ref],'ending_quote':"END OF 'GERBIL RIOT'",'origin':'parent_supervision_after_independent_raw_review','notes':'Kimi triage found unclaimed terminal output; Dirac independently verified raw finale before this administrative claim. No interpreter input. Provider failure logs/exit remain unchanged.'}
+  name='parent_finish_20260925T1005.json';dest=base/'inbox'/name
+  with dest.open('x') as f:json.dump(req,f)
+  response=base/'responses'/name
+  for _ in range(50):
+   if response.exists():break
+   time.sleep(.1)
+  result=json.loads(response.read_text());assert 'error' not in result and result['event']['event_type']=='ending_claim',result
+  a['gerbil-riot'].update(state='complete',completed_at=now(),completion_basis='Dirac independent raw verification; parent administrative finish; provider-failed worker record retained')
+  a['gerbil-riot'].pop('error',None)
+  tmp=a_path.with_suffix('.parent-tmp');tmp.write_text(json.dumps(a,indent=2)+'\n');tmp.replace(a_path)
+  Path('control/fleet/gerbil-completion-reconciliation-20260925T1005.json').write_text(json.dumps({'at':now(),'before_assignment':old,'verified_event':ref,'raw_sha256':record['sha256'],'request':req,'response':result,'interpretation':'Administrative ending claim and owned-slot completion only. No interpreter input, model call, remote state rewrite, resume or refill. Quota launches still held.','next_quota_resume':'Nine local and23remote unfinished clients; Gerbil complete neverresume. One freed remote slot may refill only after successfulquota canary andschedulerre-enable.'},indent=2)+'\n')
+ finally:subprocess.run(['systemctl','--user','start','lanthorn-muse-fleet.service'],check=True)
+print('Gerbil completed administratively; quota hold remains; fleet sync restored')

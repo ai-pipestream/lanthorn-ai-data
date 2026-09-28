@@ -1,0 +1,57 @@
+import json,hashlib,fcntl,zipfile
+from html.parser import HTMLParser
+from pathlib import Path
+from datetime import datetime,timezone
+sha=lambda b:hashlib.sha256(b).hexdigest()
+class Body(HTMLParser):
+ def __init__(self):super().__init__();self.body=False;self.skip=0;self.parts=[]
+ def handle_starttag(self,t,a):
+  if t=='body':self.body=True
+  if t in ('p','div','li','h1','h2','h3','h4','br'):self.parts.append('\n')
+  if t in ('script','style'):self.skip+=1
+ def handle_endtag(self,t):
+  if t in ('p','div','li','h1','h2','h3','h4'):self.parts.append('\n')
+  if t=='body':self.body=False
+  if t in ('script','style'):self.skip-=1
+ def handle_data(self,d):
+  if self.body and not self.skip:self.parts.append(d)
+p=Path('control/fleet-batch-i-20260925.json');games=json.loads(p.read_text())['games'];checked=[]
+for g in games:
+ r=json.loads(Path(g['source_record']).read_text());data=Path(g['story']).read_bytes();assert sha(data)==g['story_sha256_expected']==r['story_sha256'];h=r['story_header'];z=data
+ if data[:4]==b'FORM':
+  assert data[8:12]==b'IFRS';off=12;found=[]
+  while off+8<=len(data):
+   n=int.from_bytes(data[off+4:off+8],'big');v=data[off+8:off+8+n];assert len(v)==n
+   if data[off:off+4]==b'GLUL':found.append(v)
+   off+=8+n+n%2
+  assert len(found)==1;z=found[0];assert sha(z)==h['glul_sha256'];assert z[:4]==b'Glul';assert sha(z[:36])==h['header_sha256'];info=bytes.fromhex(h['inform_identification_hex']);assert z[36:36+len(info)]==info and info[:4]==b'Info';release=int.from_bytes(info[16:18],'big');serial=info[18:24].decode();assert g['engine']=='gvm-cli' and g['zmachine_version'] is None
+ else:
+  assert sha(z[:64])==h['header_sha256'];assert g['zmachine_version']==z[0];release=int.from_bytes(z[2:4],'big');serial=z[18:24].decode()
+ assert release==g['release']==r['release'] and serial==g['serial']==r['serial']
+ ident=r['story_identity'];local=Path(ident['local_library_path']).read_bytes();remote=Path(ident['remote_snapshot']).read_bytes();assert sha(local)==ident['local_library_sha256']==sha(remote)==ident['remote_sha256']
+ if ident['archive_member']:
+  with zipfile.ZipFile(ident['local_library_path']) as zf:assert zf.read(ident['archive_member'])==data
+ else:assert data==local
+ raw=Path(r['raw_path']).read_bytes();norm=Path(g['walkthrough']).read_bytes();assert sha(raw)==r['source_sha256'] and sha(norm)==r['normalized_sha256'];c=r['guide_container'];assert sha(Path(c['path']).read_bytes())==c['sha256']
+ if c['member']:
+  with zipfile.ZipFile(c['path']) as zf:assert zf.read(c['member'])==raw
+ text=raw.decode(r['normalization']['source_encoding'])
+ if '<html' in text.lower():
+  body=Body();body.feed(text);text=''.join(body.parts)
+ assert text.split()==norm.decode().split(),g['game_id']+' normalization'
+ for key in ('archive_game_entry','archive_guide_entry'):
+  e=r[key]
+  if e and 'snapshot' in e:assert sha(Path(e['snapshot']).read_bytes())==e['snapshot_sha256']
+ checked.append(dict(game_id=g['game_id'],story_sha256=sha(data),guide_sha256=sha(norm),release=release,serial=serial,engine=g['engine'],family=g['game_family'],split=g['dataset_split'],compatibility=r['compatibility']))
+with Path('control/scheduling.lock').open('a') as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX)
+ pool=json.loads(Path('control/worker-pool.json').read_text());splits=json.loads(Path('batches/splits.json').read_text());ids={g['game_id'] for c in pool['queue_configs'] for g in json.loads(Path(c).read_text())['games']}
+ for g in games:
+  gid=g['game_id'];assert gid not in ids and gid not in splits['assignments'] and not (Path('play')/gid).exists()
+  for old,fam in splits['families'].items():
+   if fam==g['game_family']:assert splits['assignments'][old]==g['dataset_split']
+  splits['assignments'][gid]=g['dataset_split'];splits['families'][gid]=g['game_family']
+ pool['queue_configs'].append(str(p.resolve()))
+ for path,value in [('batches/splits.json',splits),('control/worker-pool.json',pool),('control/fleet/batch-i-parent-validation.json',dict(at=datetime.now(timezone.utc).isoformat(),games=checked,status='parent actualstory/executable/header/localarchivebytes/guidecontainer/raw/normalizedtokens/family checked; registered; runtime unproven'))]:
+  tmp=Path(path).with_suffix('.parent.tmp');tmp.write_text(json.dumps(value,indent=2)+'\n');tmp.replace(path)
+print('registered', [g['game_id'] for g in games])

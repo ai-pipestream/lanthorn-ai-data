@@ -1,0 +1,101 @@
+{
+  "at": "2026-09-26T18:52:45.040344+00:00",
+  "actual_local_workers": {},
+  "actual_central_brokers": {},
+  "last_seven_broker_status": {
+    "all-roads": {
+      "pid": 1985044,
+      "state": "stopped",
+      "session_id": "all-roads-d8ab21c941",
+      "stopped_at": "2026-09-26T18:09:18.413815+00:00",
+      "ending_claimed": false,
+      "last_event_index": 286
+    },
+    "blue-chairs": {
+      "pid": 1985050,
+      "state": "stopped",
+      "session_id": "blue-chairs-180cdb04a0",
+      "stopped_at": "2026-09-26T18:09:18.956327+00:00",
+      "ending_claimed": false,
+      "last_event_index": 1
+    },
+    "metamorphoses": {
+      "pid": 1985054,
+      "state": "stopped",
+      "session_id": "metamorphoses-9563441828",
+      "stopped_at": "2026-09-26T18:09:19.451484+00:00",
+      "ending_claimed": false,
+      "last_event_index": 1
+    },
+    "gourmet": {
+      "pid": 1985118,
+      "state": "stopped",
+      "session_id": "gourmet-512167ec61",
+      "stopped_at": "2026-09-26T18:09:19.936127+00:00",
+      "ending_claimed": false,
+      "last_event_index": 303
+    },
+    "bofh": {
+      "pid": 1985145,
+      "state": "stopped",
+      "session_id": "bofh-6da3ab2a37",
+      "stopped_at": "2026-09-26T18:09:20.445900+00:00",
+      "ending_claimed": false,
+      "last_event_index": 359
+    },
+    "splashdown": {
+      "pid": 1985170,
+      "state": "stopped",
+      "session_id": "splashdown-81fa9deae4",
+      "stopped_at": "2026-09-26T18:09:21.026365+00:00",
+      "ending_claimed": false,
+      "last_event_index": 318
+    },
+    "alias-the-magpie": {
+      "pid": 1985211,
+      "state": "stopped",
+      "session_id": "alias-the-magpie-9ca6049a3d",
+      "stopped_at": "2026-09-26T18:09:21.742201+00:00",
+      "ending_claimed": false,
+      "last_event_index": 335
+    }
+  },
+  "pending": {
+    "all-roads": [],
+    "blue-chairs": [],
+    "metamorphoses": [],
+    "gourmet": [],
+    "bofh": [],
+    "splashdown": [],
+    "alias-the-magpie": []
+  },
+  "preserved_saves": [
+    {
+      "game_id": "all-roads",
+      "save_path": "/work/experiments/lanthorn-recall-training/play/all-roads/saves/AllRoads.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "hash_matches": true
+    },
+    {
+      "game_id": "gourmet",
+      "save_path": "/work/experiments/lanthorn-recall-training/play/gourmet/saves/gourmet.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "hash_matches": true
+    },
+    {
+      "game_id": "bofh",
+      "save_path": "/work/experiments/lanthorn-recall-training/play/bofh/saves/bofh.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "hash_matches": true
+    },
+    {
+      "game_id": "splashdown",
+      "save_path": "/work/experiments/lanthorn-recall-training/play/splashdown/saves/Splashdown.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "hash_matches": true
+    },
+    {
+      "game_id": "alias-the-magpie",
+      "save_path": "/work/experiments/lanthorn-recall-training/play/alias-the-magpie/saves/alias-the-magpie.gblorb.save/quota-preserve-20260926T1051.sav.qzl",
+      "hash_matches": true
+    }
+  ],
+  "reason": "Scheduled24hour lifetime elapsed during provider quota hold; no game input/restart/recovery",
+  "reset_at": "2026-09-28T00:00:00Z"
+}

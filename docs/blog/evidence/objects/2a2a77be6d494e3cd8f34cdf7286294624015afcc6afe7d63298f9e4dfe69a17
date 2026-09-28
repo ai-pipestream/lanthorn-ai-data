@@ -1,0 +1,114 @@
+[
+  {
+    "filename": "asylum.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/asylum.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/asylum.sol",
+    "accessed_at": "2026-09-25T06:02:02.332381+00:00",
+    "sha256": "d419117e8ab79c0b14918e734df53e4a3fe43b3666ce42f7d02e05a5e28d3b61",
+    "bytes": 238
+  },
+  {
+    "filename": "pentari.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/pentari.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/pentari.sol",
+    "accessed_at": "2026-09-25T06:02:02.327632+00:00",
+    "sha256": "4017fd8dbd5ff5249207d733f2e6eb203ca3f5794f711890cceb1fe4222ce550",
+    "bytes": 1944
+  },
+  {
+    "filename": "ninepts.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/ninepts.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/ninepts.sol",
+    "accessed_at": "2026-09-25T06:02:02.333814+00:00",
+    "sha256": "c1302401d5ab71800d6add47cc2ad2d7f8bef74cefa6f0d332cab4a1ee813c90",
+    "bytes": 3450
+  },
+  {
+    "filename": "Enemies.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/Enemies.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/Enemies.sol",
+    "accessed_at": "2026-09-25T06:02:02.329243+00:00",
+    "sha256": "4a47257b26612cdcecdb4ce274465109fd9b6cfb4a67962a07a5cb02c70c45ad",
+    "bytes": 17803
+  },
+  {
+    "filename": "heist.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/heist.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/heist.sol",
+    "accessed_at": "2026-09-25T06:02:02.328162+00:00",
+    "sha256": "0b4d857f1a527827ec57b39ae887b301593c38aa22ed2b481b94177fc2f4fb97",
+    "bytes": 14481
+  },
+  {
+    "filename": "library.step",
+    "url": "https://ifarchive.org/if-archive/solutions/library.step",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/library.step",
+    "accessed_at": "2026-09-25T06:02:02.331243+00:00",
+    "sha256": "7343e9b03a787255ae7e6fe01ae9db041a2cceb4601b3e6d75f5e16ccd7940af",
+    "bytes": 1256
+  },
+  {
+    "filename": "night.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/night.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/night.sol",
+    "accessed_at": "2026-09-25T06:02:02.385621+00:00",
+    "sha256": "5eb8ac1886b3c9fe30db28f292160b44f0bde842bcbe319803686fae922ed3b1",
+    "bytes": 641
+  },
+  {
+    "filename": "vindaloo.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/vindaloo.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/vindaloo.sol",
+    "accessed_at": "2026-09-25T06:02:02.373371+00:00",
+    "sha256": "a4812fd6a7d7dbb6746da93227e16fd313ffca5fb87e9967d03242c13df58279",
+    "bytes": 753
+  },
+  {
+    "filename": "GerbilRiot.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/GerbilRiot.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/GerbilRiot.sol",
+    "accessed_at": "2026-09-25T06:02:02.391292+00:00",
+    "sha256": "d516b110cf4c021c5cfffc14d8296857ec02b9c0a37cec340641f238ad16a80a",
+    "bytes": 2350
+  },
+  {
+    "filename": "I-0.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/I-0.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/I-0.sol",
+    "accessed_at": "2026-09-25T06:02:02.381140+00:00",
+    "sha256": "4a0942da431c6b540a98a5b9c99a4ef8b9ffdb62cb33ba6ac312d9660dc00962",
+    "bytes": 12888
+  },
+  {
+    "filename": "tube.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/tube.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/tube.sol",
+    "accessed_at": "2026-09-25T06:02:02.382953+00:00",
+    "sha256": "e147f58a766a2b3534b44deea56131316cb13fe74fae7128519139b1e34d2b53",
+    "bytes": 1566
+  },
+  {
+    "filename": "slackerx.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/slackerx.sol",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/slackerx.sol",
+    "accessed_at": "2026-09-25T06:02:02.392968+00:00",
+    "sha256": "dce914409ae2ba36656b1daf7559559628bc854daed48b96f4cf286989ee42b6",
+    "bytes": 545
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T06:02:02.464202+00:00",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T06:02:02.482112+00:00",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  }
+]

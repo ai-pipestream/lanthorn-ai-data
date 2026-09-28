@@ -1,0 +1,10 @@
+# Progress — earth-and-sky-episode-1 (CONTINUATION)
+
+Status: INCOMPLETE — Part 2 started, game continues. Do not restart; resume from actual state.
+Location: Observation Booth (Part 2: Shake, Rattle, and Roar), ordinary prompt ">" confirmed e00075. North glass window to materials handling room, control panel below, tall window-slats south, door west to hallway. Nina working next door.
+Inventory (last observed Lab): blue bodysuit worn (now covered by street clothes per Austin e00071), letter, note, access card. Verify with "inventory" next.
+Checkpoints verified: start-outside-lab, after-suit, high-above-letter, part2-booth (e00074-e00075 Saved Ok). Branch b0.
+Cases: 16+ annotated including blast-omitted e00063->e00069 (syntax, success e00069 spool destroyed). No pending annotations.
+Last hints: m0049 lines 20-28 consumed through blast test. Next help when stuck: Part 2 Nina/materials-handling route.
+Next actions: 1) "look" to re-establish booth, 2) "inventory", 3) examine panel/window with one synthetic probe before canonical, 4) west to hallway / Nina conversation. One command per turn. Never SAVE in menus/key pauses. Menu Enter = empty command.
+Updated through e00075 (part2-booth checkpoint).

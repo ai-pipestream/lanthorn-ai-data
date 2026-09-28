@@ -1,0 +1,13 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: Lift (Yamitsi building), Score 13, Moves 67 (e00136)
+Inventory as observed (verify with `i` on resume): compact taser, blue evening dress (re-worn), toilet brush, pink bubblegum/gum, mother's silver chain (worn), gold bracelet closed+worn, underwear, + ball of paper (taken e00132, unfolded e00136).
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy, washroom-secure, presentation-baron, bathroom-perfume, cocktail-lift (e00127-128). All saves Ok.
+
+Cases: 33 annotated (prior) + newly annotated: lift-press-button-probe (none, e00129), lift-enter-probe (none, e00131), lift-take-paper-probe (none, e00132), lift-read-ball-probe (none-partial, e00135: read on screwed-up ball identified flyer only, no content), lift-unfold-paper-probe (none, e00136).
+
+Last hints (walkthrough, NOT observed): lines 96-104 — save s13 (~cocktail-lift done); push button; n; get paper; open+read it (2/15); x panel + read sign (lobby hint).
+
+PENDING at stop: inbox/m0123.json ("read paper" on unfolded paper, canonical route step) awaiting broker response. On resume: read responses/m0123.json + latest.json first; then continue x panel / read sign per hint with probes; checkpoint at milestones; never save during menus/keypauses.
+
+Next request number: inbox/m0124.json. Game incomplete — Crusader/helicopter finale per manifest still required; no finish evidence.

@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-25T11:35:24.529394+00:00",
+  "retained_slots": 33,
+  "brokers": 33,
+  "issues": [],
+  "local_launchers": {},
+  "cached_remote_clients": 0,
+  "fleet_sync": "2026-09-25T11:35:22.991096+00:00",
+  "watchers": {
+    "watch_exports.py": [
+      640478
+    ],
+    "watch_kimi_coordinator.py": []
+  },
+  "services": [
+    "active",
+    "active"
+  ],
+  "launch_flags": {
+    "control/worker-pool.json": false,
+    "control/fleet/settings.json": false
+  }
+}

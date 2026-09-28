@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-25T09:29:50.696083+00:00",
+  "verdict": "Promising for supervised coordination; autonomous lifecycle control not qualified",
+  "dispositions_checked": {
+    "time-all-things-come-to-an-end": "continue",
+    "enemies": "continue",
+    "traffic": "verify_ending",
+    "pythos-mask": "hold"
+  },
+  "capacity_semantics": "Corrected second pass recognizes Traffic already refilled; no additional release and no scheduler disable",
+  "scope_limit": "Two active workers, one newly concluded game, one held game; two provider calls, not an endurance test",
+  "parent_action": "Traffic e233 independently raw/text/SHA verified in control/ending-parent-verification-20260925T0927-traffic.json",
+  "known_limitations": [
+    "First pass needed claim/refill policy clarification",
+    "Second reply required exact outer JSON fence normalization",
+    "Snapshot evidence is historical by decision time; all mutations require fresh parent preconditions",
+    "No autonomous restart, provider outage recovery, interpreter recovery, launches or source preparation qualified"
+  ],
+  "automated_game_actions": []
+}

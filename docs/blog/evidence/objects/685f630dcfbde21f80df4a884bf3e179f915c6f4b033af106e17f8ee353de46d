@@ -1,0 +1,8 @@
+# Kook U — COMPLETED (genuine winning ending)
+
+Session kook-u-ef2767bf50 b2. Score 100/100, 125 turns, rank Fluffy. Release 1/971119.
+WIN event: kook-u-ef2767bf50:e00187 ("turn on name" → "*** You have won ***", score 100).
+All 6 targets: Grubor 37, Sanford 47, Boursy 62, Neutopia 72, Implant 81, April 91 (e00171). Dean progression e00179 (congratulations + virus/network briefing, directed to Computer Room). Finale: router on e00182, name server on e00183 (full phrasing, annotated none e00188), file on e00184, name off e00185, news on e00186, name on e00187 → network operational + concluding narrative (Dean retires to Pittsburgh, player becomes Dean, familiar applicant names).
+Synthetic cases this run: daycare-ne-out, daycare-to-law, law-to-commons, commons-to-library-out, outside-library-enter (route); april-player-play-wording (vocabulary: 'play tape' rejected → 'turn on player', annotated e00172); finale-name-full-phrasing (accepted paraphrase, annotated none e00188). Guided finale steps e00182/84/85/86/87.
+Checkpoints verified: player-taken e00163-64, april-done e00173-74, dean-finale-start e00180-81. No checkpoint at end prompt (RESTART/RESTORE/FULL/QUIT menu — SAVE forbidden there).
+Pending: none. Finish m0272 refused (quote not verbatim); resubmitted m0273 with exact e00187 text → ending_claim e00189 recorded, awaiting Terra verification. No further game input; end menu untouched.

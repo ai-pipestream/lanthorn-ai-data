@@ -1,0 +1,11 @@
+# Gerbil Riot progress
+
+Location (b1 e00417): drained lakebed, knee-deep mud, exits east/west. Came via mouth→pleasant-spot→lake on restored branch.
+Inventory (b1 e00402): matchbox restored, empty bucket, bulb horn, small key, white blanket (worn), milk-bottle top, picture of cat, empty syringe, plus leek taken b1 e00406. Jacket given to Arnold (b0 e00323).
+Checkpoints: mouth-bush-blocked restored b0→b1 (e00400-e00401 verified, new branch b1). Earlier: after-arnold-jacket, after-battery-wires, psychiatrist-sweetie, etc.
+Route done b1: mouth look e00393, north wall e00394, shrub probe rejected e00395, take match already-have e00396, light match lights-then-out e00397 (CONSUMED matchbox — inventory e00399 lost matchbox, examine matchbox rejected e00398), restored e00400-e00401, inventory confirms matchbox back e00402, south→pleasant e00403, south→veg e00404, leek examine drips-wetly e00405 + take leek e00406, fence unclimbable/no-interest e00407, north→pleasant e00408, north→mouth e00409, north→wall e00410, wall east blocked e00411, wall west blocked e00412, south→mouth e00413, east→pleasant-spot e00414, pleasant-spot north blocked e00415, east→lake e00416, lake north blocked e00417.
+Key learning: DO NOT 'light match' alone — it burns out and destroys the single matchbox. Correct must be direct burn wording at the right bush location, match still conserved on b1.
+Pending annotates: burn series needs success; shrub rejection e00395; take-match already-have e00396; light-match consumes e00397-e00399; leek/fence/east/west/north blocks as above; plus older b0 list.
+Cases: ~78 + b1 probes (shrub, take/light match, leek, fence, wall east/west, pleasant-spot north, lake north).
+Last hints: m0341/e00392 repeats Burn bush East East North pit/hub/button Give top to Tony South South tattoo/wad — no exact burn verb.
+Next: keep match conserved. From lake, go east to tree side then back west x3 to mouth, or west x2 to mouth now; then south→pleasant→veg→east→Arnold→east→bend→north→matchbox to test matchbox-north (untried) and bush synonyms thicket/undergrowth/hedge at fence rooms without burning. Then East East North pit/hub/button, Give top to Tony, South South tattoo/wad/guard/east exit. Game incomplete, no finish claimed.

@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-09-25T06:13:52.060558+00:00",
+  "target": 10,
+  "workers": {
+    "curses": [
+      908334
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "zork-i7": [
+      1729082
+    ],
+    "so-far": [
+      1751669
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "tryst-of-fate": [
+      2968512
+    ],
+    "delusions": [
+      2999855
+    ],
+    "childs-play": [
+      2999896
+    ],
+    "moon-shaped": [
+      3005196
+    ],
+    "reverberations": [
+      3085894
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "savoir-faire",
+    "jewel-of-knowledge"
+  ],
+  "queued": [
+    "the-edifice",
+    "mother-loose"
+  ]
+}

@@ -1,0 +1,8 @@
+# Vindaloo progress — e00384 Alley-hat checkpoint (game incomplete)
+
+Location: Dirty alley e00384 (rubbish pile, onion dropped here e00380). Ordinary prompt. Checkpoint alley-hat verified.
+Inventory held: hat, knife, spices, front door key (4 full). Onion on ground in dirty alley. In kitchen: frying pan, crowbar, plucked dead chicken. Cached in west park: spade, scarf. Score 10.
+Breakthroughs: garden NE to alley e00373; rubbish (not garbage) yields hat e00378; hat auto-taken (take hat already-have e00381).
+Cases: alley-search-garbage vocab annotated e00379; site-take-brick vocab annotated e00358; stall-give-onion wrong-object unresolved e00362 (needs hat correction at Bill).
+Next: south to south-alley, southwest/west to garden, south kitchen/hall/front, west/east road chain to bend/stall; give hat to Bill for tomato; retrieve onion from alley; kitchen table/chop/pan/stove to concluding narrative (score 18 insufficient alone).
+No finish claimed.

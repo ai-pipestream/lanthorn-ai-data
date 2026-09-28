@@ -1,0 +1,9 @@
+# Deephome playthrough progress (STOPPED — game incomplete)
+
+Location: Coal Mines (score 16). Route: Main Hall > Railway Station (dead, needs power) > back > S Main St > Intersection (sign: south = generator/mining) > Extreme S Main St > Mining Center > Ore Mines (got pickaxe via 'get axe', e00056) > Mining Center > Coal Mines east.
+Inventory (observed): King's Order, lantern (lit), Sword, shield, torch, pickaxe/axe. Coal: dug chunk via 'dig rock with axe' (e00061) — NOT yet taken; take coal next.
+Checkpoints: start-secret-entrance, guard-post, main-hall (all Ok). Next checkpoint: after coal + generator progress.
+Cases: 10 annotated through axe-naming (none, e00056). UNANNOTATED pending pair: dig-rock-instrument — probe 'dig rock' (e00060, asked instrument) -> correction 'dig rock with axe' (e00061, got coal chunk). Annotate this pair next turn.
+Last hints (NOT observed): Ore Mine get axe; Coal Mine dig rock with axe > coal [10]. Next unknown — request help for generator/power restoration after taking coal.
+Next actions: 1) take coal 2) annotate dig pair 3) west/north to generator east of Extreme S Main St 4) checkpoint.
+Lantern still lit and carried; conserve light, no idle waits.

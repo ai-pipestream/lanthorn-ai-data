@@ -1,0 +1,9 @@
+# Return to Karn — progress (continuation point, branch b1) — STOPPED at step budget
+
+Location: Steps trail b1 e00156 (NE up, W down, S steps up). Score 20. Pending: inbox/m0131.json 'west' submitted, response not yet read.
+Inventory b1 (observed): branch, battery, screwdriver, scalpel, match unlit, gold card, jacket/hat worn, yo-yo, key; homing placed in closed hatch on saucer; scarf tied at ledge above plain.
+Cases: ~30 annotated (b0 ~26 + b1 tree/branch/pickup). Unresolved: b0 battery-take e00121 (location/planning failure, superseded by b1 success e00140); b0 climb-slip e00125 (ground cannot climb, resolved via restore per hint).
+Checkpoints verified: b0 start-console-room, workshop-tools, doors-open, outside-karn, ruins-scalpel, clearing-return, ledge-signpost, plain-saucer; b1 saucer-top-b1, plain-battery-b1.
+Hints (walkthrough, not observed): e00146 (W W done; SW done e00155; next W pending m0131, then SW SE, then E SE E). Keep hints separate from observed text.
+Key findings: globe e00082 brain stolen/laser-severed; saucer below ledge (e00103); hatch opened w/ screwdriver, battery spilled (b1 e00135-e00136); homing placed, hatch closed score 20 (e00137-e00138); battery recovered in Plain (e00140); tree branch taken (e00150).
+Resume: read responses/m0131.json, then continue hint SW SE / E SE E. Do NOT replay old probes; reuse knowledge (remove-before-tie, climb phrasing, tool prerequisites). Game INCOMPLETE; no finish claimed. Completion requires brain recovery + TARDIS return + give brain to Time Lord with final narrative.

@@ -1,0 +1,8 @@
+# Progress — underoos-that-ate-new-york
+
+Branch b0, ~103 events. Location: Your Cellar. Score 4.
+Inventory: bandana (worn), broom handle, socks (worn), can of lyesmall, glowstick (light), underoos (worn), shoes (worn).
+State: entryway wait did nothing (e95); help excerpt gave cellar+moth+jar then living-room Cindy plan (e97). Returned south to kitchen (e98), went down to cellar (e100, score 4, shoes protect feet, moth + closed empty jar). Checkpoints verified through cellar-entry (e102-103).
+Cases: kitchen-cellar-down-syn(vocab e99-100), kitchen-north-entryway-syn(vocab e90-91), fridge-open-shoes(syntax e83-84), fridge-wear-shoes-syn(none e86), etc.
+Last hint (e97): Cellar get jar & open it; put glowstick in jar > moth in jar; close jar; Living Room pants & shirt hold Cindy; open jar > killed by moth; wear pants & shirt.
+Next: take jar (pick up probe pending m0094), open it, trap moth with glowstick, close jar, checkpoint, find Living Room / Cindy, request help when stuck.

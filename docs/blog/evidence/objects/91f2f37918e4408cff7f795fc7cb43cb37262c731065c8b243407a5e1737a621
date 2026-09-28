@@ -1,0 +1,9 @@
+# Fine-Tuned progress (m0090 pending)
+
+Location: In Dynamo at Driveway Near Mailbox (e95). Brake released, motors humming, ready to drive north to town/train station. Aloysius in ditch fixing buggy with tool chest; MacDougal left to woods.
+Inventory (observed): gloves/goggles/cap/scarf worn, index card, envelope, postcard, hand-lettered sign (Miss Sweet/Melody Sweet). Hat given to MacDougal. Score 8 last seen.
+Checkpoints verified: start-driveway, ready-to-drive, mailbox-van, before-rescue, after-rescue (e89-e90 Ok).
+Recent: e84 look->Melody Sweet name; e85 read sign->Miss Sweat text + professor north; e86 help off-topic early lines; e87 climb out of ditch failed vocab; e88 west exited to mailbox; e92 look->Aloysius took tool chest; e93 enter dynamo; e94 drive north blocked by brake; e95 release brake ok. Annotations: e91 ditch-exit-synonym done; m0090 drive-north-brake annotate pending (e94->e95 world_state).
+Unannotated backlog (older, still need labels): e63 talk-al, e64 mailbox-look2, e65 buggy-examine, e66 tell-al-buggy, e67 start-car-synonym, e68 grab-horse2, e69 ditch-look, e72 talk-al-rescue, e73 enter-ditch-vague, e74 macdougal-examine, e75 talk-macdougal, e76 lift-buggy, e77 hat-take, e78 give-hat-pronoun, e81 ditch-look, e82 west-blocked, e83 take-sign, e84-e85-e88-e92-e93.
+Hints: late lines 121-129 far future; intermediate 36-120 still needed. Last help e86 repeated early lines 31-39.
+Next: confirm m0090 annotate response, then drive north (single command), look/inventory at new location, refined help topic for train station/professor route, checkpoint before travel/captivity/rescue. Game INCOMPLETE, no ending reached.

@@ -1,0 +1,7 @@
+# Enemies progress — PAUSED, game incomplete (Headmaster Study, e332; no pending)
+
+Branch b1. Location: Headmaster's Study e315. Score 21. Ordinary prompt ">". Last verified checkpoint projector-done e302/303.
+Done since last progress: e305 s Rear, e306 w Main, e307 boards singular probe (annotated e308), e309 read article score 19, help e310 (cloakroom center; Headmaster N W X desk), e311 n Rear (overshoot), e312 look Rear, e313 w Main, e314 look Main, e315 w Study, e316 examine mahogany desk probe (bowl+drawer closed, annotated e317), help e318 (drawer/invoice/bowl/hand/lamp), e319 open drawer half-open jam, e320 look in drawer invoice, e321 get invoice score 20, e322 examine goldfish bowl probe (piranha+hand), e323 x hand (purple figurine in fingers), e324 get lamp screwed-down block, e325 unscrew lamp with screwdriver ok, e326 get lamp cable taut, e327 unplug rejected vocabulary, e328 examine lamp (lead eagles, empty socket), help e329 (drop driver, get screw+lamp 1/21), e330 drop screwdriver, e331 get screw score 21, e332 get lamp already-have (lamp already held).
+Inventory as observed: key, tungsten, tracing, music, bracelet, green figurine, invoice, screw, lamp (held per e332); screwdriver dropped in study (recoverable). Cases ~44 diverse.
+Last hint e329 lines 190-198: drop screwdriver; get screw, lamp (1/21).
+Next: annotate lamp screwed-down pair + unplug vocabulary; take screwdriver back; figure piranha/hand purple figurine retrieval; help next excerpt. Single commands. Far from ending: remaining figurines, escape, crane, final NE.

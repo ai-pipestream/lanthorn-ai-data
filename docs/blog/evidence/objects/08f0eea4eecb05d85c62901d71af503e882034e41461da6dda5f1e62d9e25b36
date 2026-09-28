@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T08:31:38.539155+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-j-20260925.json",
+  "count": 4,
+  "counts": {
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "source_records": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/underoos-that-ate-new-york.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective.json"
+  ],
+  "guides": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/underoos-that-ate-new-york-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/detective-walkthrough.txt"
+  ],
+  "identity": "All four stories byte-identical to archive binaries; full bytes, header64 and checksums pinned. Lecture Feature Blorb and embedded ZCOD separately pinned.",
+  "version_caveats": {
+    "lecture-feature": "Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.",
+    "underoos-that-ate-new-york": "Local Z5 R1/970329 is byte-identical to the archive, which identifies an author conversion from the TADS original. Ambat Sasi Nair guide has the matching archive IFDB identity but no release/serial. Its 1997-02-13 archive date precedes the Z-code port: preserve the likely TADS-to-Inform guide edition gap and do not claim exact parser parity.",
+    "time-all-things-come-to-an-end": "Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.",
+    "detective": "Local Z5 R1/000715 exactly matches archive bytes. Archive identifies Stuart Moore's straight Inform port of Matt Barringer's original. James Mullish guide entry points to the AGT original and provides no release/serial; preserve the AGT-to-Inform gap. Guide body misspells the author name, but shared IFDB identity and linked port source corroborate the intended game and final room/up route. Static source inspection is not a runtime or reproducible-build claim."
+  },
+  "family_review": [
+    {
+      "game_id": "lecture-feature",
+      "proposed_family": "teacher-feature",
+      "proposed_split": "train",
+      "uncertain": true,
+      "rationale": "Archive explicitly calls this a sequel to Teacher Feature, and linked source includes direct Teacher Feature references. Conservatively use teacher-feature for both games and all releases. Neither Teacher Feature nor Lecture Feature is in the current registered/play exclusions. Parent review requested for retaining this grouping."
+    },
+    {
+      "game_id": "underoos-that-ate-new-york",
+      "proposed_family": "underoos-that-ate-new-york",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "Distinct animated-clothing comedy with its own archive identity. TADS original and author Inform port must share this family. Shared authorship with other Wilson games, including Zork work, does not establish shared world or puzzles; no concrete overlap with a collected family was found."
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "proposed_family": "time-all-things-come-to-an-end",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "Independent Andy Phillips multi-era science-fiction plot identified by this archive entry. Generic time travel alone does not connect it to Traffic, Jigsaw, Doctor Who or held-out games. Keep all releases and ports of this title together; no concrete shared-puzzle/world relationship to an existing family identified."
+    },
+    {
+      "game_id": "detective",
+      "proposed_family": "detective-matt-barringer",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "Use detective-matt-barringer across the AGT original and Inform port. Distinct from registered Gumshoe by author, archive identity and plot. Generic detective fiction is not a shared family. Source commentary mentions other games as criticism, not shared-world or puzzle reuse."
+    }
+  ],
+  "central_architecture": "Stories, full guides, source snapshots, provenance and interpreter execution stay central. Mask source/guide paths and URLs from Muse; Pis get only bounded broker help excerpts. No full assets staged to Pis.",
+  "limits": {
+    "response_timeout_seconds": 180,
+    "help_excerpt_max_lines": 9,
+    "help_excerpt_max_characters": 1000,
+    "event_or_probe_quota": null,
+    "new_concurrency_limit": null,
+    "new_wall_clock_limit": null
+  },
+  "authorization": "Private source preparation only. Parent inspects/registers separately. No guide command execution, launch, training, evaluation, application/model change, publication or shared-registry edit.",
+  "readiness": "Four source-checked candidates; runtime compatibility and actual endings unverified. Time R5/R7 and port/unspecified-version gaps explicit. Lecture Feature grouped with Teacher Feature for parent review."
+}

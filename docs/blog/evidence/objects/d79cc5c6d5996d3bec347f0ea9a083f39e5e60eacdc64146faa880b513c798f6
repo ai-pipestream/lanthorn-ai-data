@@ -1,0 +1,12 @@
+# Dreamhold progress — segment 9 END (b9, decision-point checkpoint, game incomplete)
+
+STOPPED ON STEP BUDGET at endgame decision point. All work checkpointed; resume by restoring decision-point.
+
+Location/branch: b9 restored from vaulting-bracelet; currently Crowded Study (decision-point.sav: e01944-45 OK).
+Inventory b9: ink flask, bracelet/glove/belt/cloak WORN, gauze, 2 paintings, string, stone, white letter, sphere, buckler, chart, lit torch, iron key, dagger, berries, copper key, quill; 7 masks ON mirror; shred handled.
+Endgame done in b9: white (look behind desk, Study) -> 7/7; mirror 7 puts in order + memories; stand (fragment note); Study book; Iron Corridor spell visible; break spell; Lab: flask/resin/jar/dust, ink via 2 chain pulls; berries in drain; glove worn; mural match satisfied; Study: shred taken/worn (wrath flash); diagram examined; SAVED decision-point.
+Three endings (walkthrough l.711+): (1) Diagram: Study w,w Cell, dip pen in ink, draw diagram, enter it; (1A reachable right away); others incl. black shred use + enact mural (need ll.720+).
+Next: restore decision-point; get ll.719+ for endings 1A/2/3; pursue full winning ending (likely Diagram or mural enactment), then Translucent berry/Unearthly west if still required (Far West was blocked pre-mirror: 'picture not quite right').
+Key saves: decision-point, study-seven-masks, laboratory-entry (b8 partial, lacks bracelet/belt/string), far-west-preend + trans-west-preberry (b7 Unearthly, no white), vaulting-bracelet (b9 base).
+Cases seg9: gap-enter, vaulting-south, palette-get, string place->put (vocab), window-look, shed climb->up (world_state) + ~6 exploration; annotate backlog: white take (success), mirror puts (success), spell break (success) if counting.
+Game NOT complete (no ending seen; nearest was blocked Far West).

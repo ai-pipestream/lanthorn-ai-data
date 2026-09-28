@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-09-25T09:39:11.652319+00:00",
+  "selected": [
+    "dash-slapney-patrol-leader",
+    "punk-points",
+    "all-roads",
+    "blue-chairs"
+  ],
+  "counts": {
+    "games": 4,
+    "zmachine": 4,
+    "scott": 0,
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "variety": [
+    "randomized scout-derby team preparation",
+    "three-act punk school story with branching finale",
+    "nonlinear Venetian intrigue and identity changes",
+    "surreal party/dream journey with multiple epilogues"
+  ],
+  "scope": "Exactly four distinct titles; no alternate release duplication. All A-L, play and prepared identities checked by validate.py. No Glulx, shared registry edits or launches.",
+  "guide_provenance": "Two explicitly author-credited guides, one original IFComp packaged walkthrough without personal byline, one uncredited archive solution. All full guide bodies read.",
+  "uncertainties": [
+    "Dash guide omits version despite same archive date as R3.",
+    "Punk Points guide author/release unspecified and route does not maximize score.",
+    "All Roads same numeric R1 but current serial 011119 differs from original guide companion 010908.",
+    "Blue Chairs current R2 vs original guide companion R1; supplementary source is also R1."
+  ]
+}

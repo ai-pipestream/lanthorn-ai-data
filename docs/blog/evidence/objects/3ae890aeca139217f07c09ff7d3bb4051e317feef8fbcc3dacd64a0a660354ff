@@ -1,0 +1,35 @@
+# Acorn Court — progress (FINAL, won)
+
+Location: Won. Final event e00082: opened iron gate, *** You have won ***, 30/30 in 40 turns. End prompt asks RESTART/RESTORE/QUIT — no further game commands.
+Inventory at win: key used, ~1 acorn left, bucket tied to rope with water, 20 balls in bucket, 1 ball on ground (observed along route).
+Score progression observed: 10 after firing ball into tree (e00026), 30 after taking key from bucket (e00073), 30/30 at win (e00082).
+
+Checkpoints (verified): start-courtyard, after-acorns-down, bucket-fixed, before-gate-open. No checkpoint after win (end-menu, not ordinary prompt).
+
+Cases (21, all annotated):
+01 probe-tree-synonym-01 vocab (inspect→examine)
+02 probe-point-synonym-02 none (aim accepted)
+03 probe-ball-typo-03 syntax (get bal→get ball)
+04 probe-put-syntax-04 syntax (put ball machine→put ball in machine)
+05 probe-crank-synonym-05 planning (rotate crank hit well→turn on machine)
+06 probe-machine-start-06 vocab (start→turn on)
+07 probe-acorn-pickup-07 none (pick up accepted)
+08 probe-fix-synonym-08 none (repair accepted)
+09 probe-pronoun-it-09 ambiguity (take it→get acorn)
+10 probe-plug-synonym-10 none (plug accepted)
+11 probe-get-omitted-11 syntax (get→get acorn)
+12 probe-fix-wordorder-12 syntax (reversed→correct order)
+13 probe-leaf-wrongobj-13 world_state (get leaf→get acorn with unplug side-effect, uncertain)
+14 probe-pull-rope-14 none (pull rope accepted)
+15 probe-attach-synonym-15 vocab (connect→tie bucket to rope)
+16 probe-lower-synonym-16 vocab (lower→turn crank)
+17 probe-turn-omitted-17 syntax (turn→turn crank, raised bucket with key)
+18 probe-key-source-18 none (take key from bucket, score 30)
+19 probe-gate-locked-19 world_state (open locked→open after unlock, win)
+20 probe-unlock-syntax-20 syntax (unlock gate→unlock gate with key)
+21 probe-exit-west-21 world_state (go west→open gate, win)
+Unresolved: none.
+
+Hints used: lines1-9 (m0004) and lines10-16 via mode next (m0055). Verified against game; noted 'turn crank' in walkthrough vs observed 'turn on machine' for firing, and 'unlock gate' needing explicit 'with key'.
+
+Next: submit finish with evidence e00082 and exact ending quote.

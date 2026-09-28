@@ -1,0 +1,173 @@
+{
+  "at": "2026-09-25T08:12:52.365440+00:00",
+  "game_id": "traffic",
+  "session_id": "traffic-dc40d385c3",
+  "header": {
+    "version": 5,
+    "release": 2,
+    "serial": "241027"
+  },
+  "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+  "embedded_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+  "events": [
+    {
+      "event_id": "traffic-dc40d385c3:e00001",
+      "timestamp": "2026-09-25T08:03:15.414325+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\n\nLet's be honest. When you took the position as Junior Research Lab Assistant at \nthe Orzel Particle Physics Institute, you weren't expecting anything glamorous. \n'A post-doc has to start somewhere,' you told yourself. 'I don't want to teach \na bunch of over-privileged undergrads,' you convinced yourself. 'I'd be working \nfor Dr. Roth, who has a pretty good reputation,' you pondered. And finally 'It \npays enough to move out of my parent's house,' you realized, with just a tiny \namount of glee.\n\nBut here you are, seven months later, wondering if you made the right choice. \nWorking for Dr. Roth at the Institute has been some of the most uninspiring \nwork you've ever done. It doesn't help that most of the time, the 'research' \ntasks he gives you are mostly manual labor. How many times does a person really \nneed to clean the plates for the proportional drift chamber?  And moving heavy \nspectrometers from lab room to lab room isn't what you had in mind when you \nwere told the Institute was working on problems that required 'heavy lifting'.\n\nSo this morning, when you were interrupted and told to pick up the shipment of \nunstable Cesium-7 isotopes that had erroneously been dropped off by the post \noffice to an address three blocks away, you were disappointed, but not \nsurprised. 'At least you'll get some fresh air,' Dr. Roth told you with a thin \nveneer of disdain.\n\nAfter obtaining the package, you're finally on your way back to the lab.\n\n\nTRAFFIC\nAn adventure at five miles an hour\nCopyright (C) 2024, by D.S. Yu.\nPortions copyright Graham Nelson and David Griffith.\n'TRAFFIC' comes with ABSOLUTELY NO WARRANTY \n\nRelease 2 / Serial number 241027 / Inform v6.33 Library v6.12.6 SD\n\nThe corner of Jones and Elm\nIt's mid-morning, and you are waiting at the intersection of Jones street and \nElm street. Traffic is moving slowly along Jones headed east, and along Elm \nheaded north. The traffic lights are working, and if the pedestrian walk light \nwould ever change, you could walk across Jones and head north back to the lab.\n\nA 5-foot tall metal box sits bolted to the sidewalk nearby, under one of the \ntraffic light posts.\nThe sidewalks are mostly devoid of pedestrians, although you do notice a woman \nslowly walking towards Elm street pushing a baby stroller.\nYou notice a bus slowly trying to get through the intersection.\n\n>",
+      "raw_start": 0,
+      "raw_end": 2352,
+      "response_sha256": "8204390918ba8372e24560224734d9d5c4f939436edd3d9466c8ea49efb47f0e",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "traffic-dc40d385c3:e00002",
+      "timestamp": "2026-09-25T08:03:57.921994+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 2352,
+      "raw_end": 2366,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "name": "start-corner"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "traffic-dc40d385c3:e00003",
+      "timestamp": "2026-09-25T08:03:58.223762+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint_filename",
+      "command": "start-corner.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/traffic/saves/traffic.z5.save/start-corner.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 2366,
+      "raw_end": 2483,
+      "response_sha256": "6d52108b1b312eec1d92accd86ccf1b344eb0b3add3f8d9db7bddce7114b3bc2",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "name": "start-corner"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "traffic-dc40d385c3:e00004",
+      "timestamp": "2026-09-25T08:04:27.975993+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "look around",
+      "response": "You can't see any such thing.\n\n>",
+      "raw_start": 2483,
+      "raw_end": 2515,
+      "response_sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "case_id": "room-desc-synonym-01",
+        "expected_outcome": "Room description of Jones and Elm corner",
+        "intent": "Describe my current surroundings",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "traffic-dc40d385c3:e00006",
+      "timestamp": "2026-09-25T08:05:15.454431+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nThe corner of Jones and Elm\nIt's mid-morning, and you are waiting at the intersection of Jones street and \nElm street. Traffic is moving slowly along Jones headed east, and along Elm \nheaded north. The traffic lights are working, and if the pedestrian walk light \nwould ever change, you could walk across Jones and head north back to the lab.\n\nA 5-foot tall metal box sits bolted to the sidewalk nearby, under one of the \ntraffic light posts.\nThe sidewalks are mostly devoid of pedestrians, although you do notice a woman \nslowly walking towards Elm street pushing a baby stroller.\nYou notice a bus slowly trying to get through the intersection.\n\n>",
+      "raw_start": 2515,
+      "raw_end": 3164,
+      "response_sha256": "9ecd19946b62e33b41e543416313e4062ca2085a8417c0c94c01272d8f77525e",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "case_id": "room-desc-synonym-01",
+        "expected_outcome": "Room description of Jones and Elm corner",
+        "intent": "Describe my current surroundings",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "traffic-dc40d385c3:e00008",
+      "timestamp": "2026-09-25T08:05:57.669960+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "invetory",
+      "response": "That's not a verb I recognise.\n\n>",
+      "raw_start": 3164,
+      "raw_end": 3197,
+      "response_sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "case_id": "inventory-typo-02",
+        "expected_outcome": "List carried items",
+        "intent": "List my current inventory",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "traffic-dc40d385c3:e00009",
+      "timestamp": "2026-09-25T08:06:09.540660+00:00",
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "branch_id": "b0",
+      "event_index": 9,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You're carrying:\n  a package\n\n>",
+      "raw_start": 3197,
+      "raw_end": 3228,
+      "response_sha256": "13be9cd979b0b1a8413b7cce10b55f438f324df73810c40bc8c677373d7702e5",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "traffic-dc40d385c3",
+        "case_id": "inventory-typo-02",
+        "expected_outcome": "List carried items",
+        "intent": "List my current inventory",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "parent bytes/header/raw spans verified; source compatibility gaps retained; no completion claim"
+}

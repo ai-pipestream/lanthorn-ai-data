@@ -1,0 +1,23 @@
+{
+  "game_id": "spiritwrak",
+  "title": "SpiritWrak",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/spirit.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/spiritwrak-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/spirit.step",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended conclusion against raw output, not deaths/quitting/partial scores. Story R3/960606, community guide explicitly R2 with R1 notes. Preserve mismatch. Shared FROTZ/GNUSTO spell vocabulary motivates conservative grouping with Zork family/development, not a claim of identical game or shared complete puzzles.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/spiritwrak.json",
+  "story_sha256_expected": "258199e5fb7b494d3c6e60cc4fbe466b08f729e90a06753db49f4af7bfdca2d5",
+  "checkpoint_policy": "Only at ordinary prompts; verify success.",
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "collection_notes": "# SpiritWrak\n\nStory R3/960606, community guide explicitly R2 with R1 notes. Preserve mismatch. Shared FROTZ/GNUSTO spell vocabulary motivates conservative grouping with Zork family/development, not a claim of identical game or shared complete puzzles.\nGuide: https://ifarchive.org/if-archive/solutions/spirit.step\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "960606",
+  "session_id": "spiritwrak-8e02d83255",
+  "story_sha256": "258199e5fb7b494d3c6e60cc4fbe466b08f729e90a06753db49f4af7bfdca2d5",
+  "started_at": "2026-09-25T06:13:10.645060+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

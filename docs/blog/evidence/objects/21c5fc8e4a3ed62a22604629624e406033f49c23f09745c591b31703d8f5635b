@@ -1,0 +1,116 @@
+{
+  "at": "2026-09-26T10:51:18.353613+00:00",
+  "saves": [
+    {
+      "game_id": "all-roads",
+      "events": [
+        {
+          "event_id": "all-roads-d8ab21c941:e00285",
+          "raw_start": 57375,
+          "raw_end": 57936,
+          "response_sha256": "3514fee172aa38592fcb5ceab811bf8d9c62ca9f8c41daf5acd49e22dae2c546",
+          "branch_id": "b1"
+        },
+        {
+          "event_id": "all-roads-d8ab21c941:e00286",
+          "raw_start": 57936,
+          "raw_end": 58072,
+          "response_sha256": "524d5d711ba86b1a80c8de01fc7d3544b4c7c55dad322d2def38b539a438cf6a",
+          "branch_id": "b1"
+        }
+      ],
+      "save_path": "/work/experiments/lanthorn-recall-training/play/all-roads/saves/AllRoads.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "save_sha256": "f47eab2c5bc648c05495cc9a64b408652d2d36f17dc54c0225c03dcfebe6f65f",
+      "bytes": 1852
+    },
+    {
+      "game_id": "gourmet",
+      "events": [
+        {
+          "event_id": "gourmet-512167ec61:e00302",
+          "raw_start": 51712,
+          "raw_end": 51973,
+          "response_sha256": "e8c70b5841873d1304d96da894a4088e9c0048a0fe03dc7533401641b192b2f5",
+          "branch_id": "b0"
+        },
+        {
+          "event_id": "gourmet-512167ec61:e00303",
+          "raw_start": 51973,
+          "raw_end": 52106,
+          "response_sha256": "d80a2ab0b2d96c985ee38e5e0b0d62e40299b834c678ad4ba76ec90a24b88d02",
+          "branch_id": "b0"
+        }
+      ],
+      "save_path": "/work/experiments/lanthorn-recall-training/play/gourmet/saves/gourmet.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "save_sha256": "456a8a70a39395b2831e3979eb2efeb1fc8292671a1ba2fbccc6e54837bbe869",
+      "bytes": 1932
+    },
+    {
+      "game_id": "bofh",
+      "events": [
+        {
+          "event_id": "bofh-6da3ab2a37:e00358",
+          "raw_start": 48306,
+          "raw_end": 48688,
+          "response_sha256": "fe07cbeea99eab8d5f32dd0a75743b05621c3312d9273f2f3996e30ae57bf2b8",
+          "branch_id": "b0"
+        },
+        {
+          "event_id": "bofh-6da3ab2a37:e00359",
+          "raw_start": 48688,
+          "raw_end": 48815,
+          "response_sha256": "0332ca4d2ccf29f3122f427e7a0eadef2b1219de4257d16025b1f182753c7bc2",
+          "branch_id": "b0"
+        }
+      ],
+      "save_path": "/work/experiments/lanthorn-recall-training/play/bofh/saves/bofh.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "save_sha256": "b9662a3b47ade7b6858e5a296655db97eb9560519e10eebab2addc8ba6c58bd1",
+      "bytes": 1628
+    },
+    {
+      "game_id": "splashdown",
+      "events": [
+        {
+          "event_id": "splashdown-81fa9deae4:e00317",
+          "raw_start": 47541,
+          "raw_end": 47893,
+          "response_sha256": "45101469a6b50e6ff7c3d0ae6a0bec4eb0d40ee80ba7a59890d363d40bff6ab1",
+          "branch_id": "b0"
+        },
+        {
+          "event_id": "splashdown-81fa9deae4:e00318",
+          "raw_start": 47893,
+          "raw_end": 48032,
+          "response_sha256": "d80a478373a5fb45260af9ce4bc760c8349e53937a88e732c2497b06072ff66f",
+          "branch_id": "b0"
+        }
+      ],
+      "save_path": "/work/experiments/lanthorn-recall-training/play/splashdown/saves/Splashdown.z5.save/quota-preserve-20260926T1051.sav.qzl",
+      "save_sha256": "a241ab84df53379a58639c80a162696544c660f37c350b5342801fa02dfbda01",
+      "bytes": 1726
+    },
+    {
+      "game_id": "alias-the-magpie",
+      "events": [
+        {
+          "event_id": "alias-the-magpie-9ca6049a3d:e00334",
+          "raw_start": 79344,
+          "raw_end": 79972,
+          "response_sha256": "267abf10a62a84423bc8b9f6af6470e3b78f2ca01ed83604e6f315e9d81d5231",
+          "branch_id": "b0"
+        },
+        {
+          "event_id": "alias-the-magpie-9ca6049a3d:e00335",
+          "raw_start": 79972,
+          "raw_end": 79978,
+          "response_sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0",
+          "branch_id": "b0"
+        }
+      ],
+      "save_path": "/work/experiments/lanthorn-recall-training/play/alias-the-magpie/saves/alias-the-magpie.gblorb.save/quota-preserve-20260926T1051.sav.qzl",
+      "save_sha256": "bde1cb41dc5e763be8e388a41b2333bdb313e7fcc688d76304b4f7a07feffa5f",
+      "bytes": 15116
+    }
+  ],
+  "scope": "Actual SAVE confirmations and exact raw/save hashes; no restore proof yet"
+}

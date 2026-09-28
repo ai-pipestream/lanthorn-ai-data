@@ -1,0 +1,11 @@
+# HLA Inform progress — COMPLETE: Dragon win e00670 + ending claim e00674
+
+Win (e00670 VERIFIED via responses/m0689.json): "The dragon has fallen! You stand over the crumpled body of the menacing dragon..." + "<The End>" + "*** Dragon Quest completed! ***" + "*** You have won ***" + "Would you like to RESTART, RESTORE a saved game or QUIT?" Stats hp 2334 g 3287 exp 1218 food 258. No further game input sent into end prompt.
+Labels:
+- m0690 DONE e00671 annotate dragon-kill-typo-239 e00662 "kill dragno" -> e00664 "kill dragon" vocabulary success.
+- m0691 DONE e00672 annotate vampire-kill-typo-223 e00643 "kill vampier" -> e00644 "kill vampire" vocabulary success.
+- m0692 DONE e00673 annotate vampire-examine-222 e00642 accepted failure_type none success.
+- m0693 DONE e00674 ending_claim evidence e00670, awaiting Terra independent verification.
+Combat route: m0683 kill dragon (208); ENTERs m0684-m0688 dragon 208->118 with werewolf aid; m0689 dragon falls + win.
+Checkpoints: after-vampire CLEAN (e00660); before-vampire-waterfall CLEAN; post-warrior CLEAN; before-warrior CLEAN.
+Game COMPLETE. No restart/restore/quit sent. Continuation: none needed; Terra verifies e00670 vs raw output.

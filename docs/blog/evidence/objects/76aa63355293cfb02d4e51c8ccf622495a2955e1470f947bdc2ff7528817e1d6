@@ -1,0 +1,7 @@
+# Busted! progress
+
+Location: Dining Atrium, tray obtained via stand in line e39 (drugged). Score 5.
+Inventory: note, ID, cash, roach, bear, joint, lighter + tray.
+Cases (10): + dining-enter-line none e39/e40. Wallet absent (put id failed e37 world_state, no wallet carried e38).
+Checkpoints: start-safe, dorm-done.
+Last hint: Put ID/S/Enter line/SE/Eat (failure). Next: SE, probe eat phrasing, checkpoint food-done; then onward route help.

@@ -1,0 +1,54 @@
+{
+  "at": "2026-09-25T09:12:43.472717+00:00",
+  "reason": "Observed response attribution split: e40 GRAB HORSE ends after implicit exit/rolling car; e41 LOOK carries parking-brake continuation and GRAB HORSE rejection rather than LOOK. Preserve actual raw/history; exclude both from isolated command-response cases. Mechanical cause not established.",
+  "events": [
+    {
+      "event_id": "fine-tuned-989503b0a7:e00040",
+      "timestamp": "2026-09-25T07:02:23.264779+00:00",
+      "game_id": "fine-tuned",
+      "session_id": "fine-tuned-989503b0a7",
+      "branch_id": "b0",
+      "event_index": 40,
+      "event_type": "command",
+      "command": "grab horse",
+      "response": "(first getting out of the Dynamo)\nYou slip out from behind the wheel. The Dynamo starts to roll...",
+      "raw_start": 6714,
+      "raw_end": 6812,
+      "response_sha256": "5a0c447a8a307e1d2fbb2865127ff41917ea3ce1fba969c891bc6963a482e160",
+      "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "fine-tuned-989503b0a7",
+        "case_id": "grab-horse",
+        "expected_outcome": "Horse grabbed or instruction",
+        "intent": "Seize the horse pulling the van to stop it",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "fine-tuned-989503b0a7:e00041",
+      "timestamp": "2026-09-25T07:02:41.347995+00:00",
+      "game_id": "fine-tuned",
+      "session_id": "fine-tuned-989503b0a7",
+      "branch_id": "b0",
+      "event_index": 41,
+      "event_type": "command",
+      "command": "look",
+      "response": "\n\nAloysius lunges for the instruments. \"Parking brake!\" he shouts. \"Set the \nparking brake!\"\n\nAloysius stops the Dynamo from rolling away.\nTrying to grab the proud black horse would not be particularly helpful at \npresent.\n\n\"Good day to you!\" says the mail driver, waving cheerfully.\n\n>",
+      "raw_start": 6812,
+      "raw_end": 7098,
+      "response_sha256": "70cfa532a80b25d1578a62701e0c1d86f2d8fd1022073c12477dd0cdf5fe846c",
+      "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "fine-tuned-989503b0a7",
+        "case_id": "after-roll-look",
+        "expected_outcome": "Current location and car state",
+        "intent": "Check state after car started rolling",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ]
+}

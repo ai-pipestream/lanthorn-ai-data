@@ -1,0 +1,19 @@
+# Deephome playthrough progress (IN PROGRESS — branch b5, Library Ternalim rite found, score 205; m0536 pending)
+
+## Where to resume
+Branch b5 in Dwarven Library at ordinary prompt (latest e00723 Ternalim rite Ok; e00722 Indanaz annotate Ok; e00721 Indanaz>Ternalim; e00720 wrong-book nothing; e00719 Library; e00718 S Main; e00712 Cholok melodic, annotated none e00713; e00704 Indanaz whisper, annotated ambiguity e00705; e00699 Yetzuiz animal-gift rite, annotated vocab e00700). Inventory e00681: net closed+squirrel, pickaxe, Gold Coin, sharp pick, clover, Sword wielded, Fresto, torch+lantern lit, shield worn, Order. Pending: m0536 `look up cholok in leshosh` (do NOT resubmit). Score 205/300. Checkpoints Ok: wooded-squirrel, treasury-pickaxe, shack-net, before-treasury-spirit.
+
+## Rites observed (player text, not hints)
+Partaim e00602: spread net, coin in it, pour water, take coin, pray Kraxis then Manaz (prayer essential first).
+Yetzuiz e00699: benevolent/meek, give living animal to inhabit; Leshosh animal-topics note (explains squirrel).
+Ternalim e00723: put coin before spirit, pour water on coin, ashes of blank paper on coin, clover on coin, pray Kraxis then Manaz; Manaz without prayer/protection = death.
+Squirrel Leshosh e00696: hole+net+acorns trap (already used).
+Key gap: Bakery e00468 bottle empty + cistern water pipe (need bottle+water); blank paper/ashes source unknown (scrivener's west N Main?); exorcism order vs net occupied by squirrel; exact pray/Manaz verbs.
+
+## Cases annotated
+kebarn-lookup vocab; shack-chest world_state; wooded-dig syntax; wooded-acorn none; wooded-take world_state; squirrel-omitted syntax; yetzuiz-typo vocab; temple-pronoun ambiguity (it unresolved, spirit noun works, Indanaz); throne-wording none (ask spirit name accepted, Cholok); indanaz-book planning (Fresto nothing, Leshosh Ternalim). Pending: treasury-exorcise e00585 + book-open e00587 once banish confirmed.
+
+## Next
+Resolve m0536 (expect Cholok>Yetzuiz), help mode next for water/bottle + ashes/paper + pray/Manaz verbs + exorcism order, then Bakery bottle/water, paper/ashes, clover already carried, Treasury/Temple/Throne exorcisms to last-exorcism conclusion. Conserve light; retrieve hammer/key only if needed.
+
+Game incomplete — ending NOT reached.

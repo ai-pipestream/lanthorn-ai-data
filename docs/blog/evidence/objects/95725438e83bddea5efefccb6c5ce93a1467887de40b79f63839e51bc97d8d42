@@ -1,0 +1,8 @@
+# Fine-Tuned progress (continuation checkpoint)
+
+Location: Roadside Ditch (e83). MacDougal freed, hat returned (score 8), west blocked then sign produced and TAKEN (e83: Taken). Dialogue: visitor is "her", important for Professor Sneedlewood; Aloysius "'Her'?" + "..." suggests more output pending.
+Inventory: gloves/goggles/cap/scarf worn, index card, envelope, postcard (Edison notice), felt hat given away, hand-lettered sign taken.
+Checkpoints: start-driveway, ready-to-drive, mailbox-van, before-rescue (all verified).
+Unannotated recent cases (need labels next run): talk-al-engines e63, mailbox-look2 e64, buggy-examine e65, tell-al-buggy e66, start-car-synonym e67, grab-horse2 e68, ditch-look e69, talk-al-rescue e72, enter-ditch-vague e73 (go down worked), macdougal-examine e74, talk-macdougal e75, move-buggy-synonym lift e76, hat-take e77, give-hat-pronoun e78, ditch-look-detail e81, ditch-exit-west blocked e82, take-sign e83.
+Hints: early route done; late hint lines 121-129 (release brake/n/talk professor/ask Sweet engines+music/sw) is far future. Need intermediate hints lines ~36-120 next.
+Next: read latest.json + responses/m0078.json (take sign full text), look, read sign, then west/exit ditch when allowed, back to Dynamo, drive toward train station/professor route. Single commands only. Game INCOMPLETE, no ending reached.

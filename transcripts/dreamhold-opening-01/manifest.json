@@ -1,0 +1,32 @@
+{
+  "game_id": "dreamhold",
+  "session_id": "dreamhold-56a903aea191",
+  "access_time": "2026-09-24T11:56:09.684611+00:00",
+  "source_record": "/work/experiments/lanthorn-recall-training/runs/sources-20260924T115349Z-lWwVIz/records/dreamhold.json",
+  "source_record_sha256": "845552e761770fb58cd5e9d623b89865e458c58ad4955b44d6912b2086607875",
+  "story_path": "/home/krickert/if-games/zcode/dreamhold.z8",
+  "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+  "interpreter": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "interpreter_sha256": "f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda",
+  "argv": [
+    "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+    "--plain",
+    "--sound",
+    "off",
+    "/home/krickert/if-games/zcode/dreamhold.z8"
+  ],
+  "stdout_sha256": "05623fe2049a764edfe493be6e734491ac5cbe40e46355e1d358f242a1c88096",
+  "requested_commands": 25,
+  "captured_commands": 25,
+  "last_read_status": "prompt",
+  "exit_code": 0,
+  "release_banner": "\nTime shifts and flattens, days and decades folding aside like pages in a book. \nYou can see--\n\n\nTHE DREAMHOLD\nA tutorial adventure by Andrew Plotkin. Copyright 2003-4.\nFirst-time players should type \"about\".\nRelease 5 / Serial number 041231 / Inform v6.21 Library 6/10 \n\n\nYou wrench your eyes open. Rough grey stone. Grey stone ceiling. Your head \nhurts, and -- You're lying on the floor. You're staring at the ceiling, and \nit's rough and grey, and you don't recognize it.\n\nYou roll slowly (smooth cold floor?) and try to sit up. It hurts. You crawl \nupright. The walls, rough stone also, scrape your aching fingers. You can't -- \nthere was white agony, felt like raw light tearing you apart. You can't \nremember anything after that.\n\nYou can't remember anything before that. Gone. You clutch at memory, and \nthere's nothing but empty air.\n\nCell\nThis space, barely wider than outstretched arms, seems to have been chopped raw \nand square from unfinished stone. Only the floor is smooth -- a fine white \nsurface beneath your feet. There is a narrow gap in the east wall.\n\n[Don't know how to get started? Type \"help\" and then hit enter.]\n\n>",
+  "review_status": "unreviewed",
+  "compatibility_scope": "Opening only; not a complete walkthrough validation.",
+  "input_index_note": "Input order, not the game engine turn counter.",
+  "observed_release": {
+    "number": "5",
+    "serial": "041231"
+  },
+  "release_matches_source": true
+}

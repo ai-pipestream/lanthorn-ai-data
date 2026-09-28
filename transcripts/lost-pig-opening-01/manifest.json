@@ -1,0 +1,32 @@
+{
+  "game_id": "lost-pig",
+  "session_id": "lost-pig-c29e51132ac4",
+  "access_time": "2026-09-24T11:59:20.567380+00:00",
+  "source_record": "/work/experiments/lanthorn-recall-training/runs/sources-20260924T115654Z-9rT0aa/records/lost-pig.json",
+  "source_record_sha256": "426062fdc038029a0297910bf2ad6a46b98c23f2329f9b44e77ce913ea866c0d",
+  "story_path": "/home/krickert/if-games/zcode/LostPig.zblorb",
+  "story_sha256": "bc9363abdb3a4a5cc5826f22683300d8c8a96c08cfb7e0b302d8b9ab16e29227",
+  "interpreter": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "interpreter_sha256": "f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda",
+  "argv": [
+    "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+    "--plain",
+    "--sound",
+    "off",
+    "/home/krickert/if-games/zcode/LostPig.zblorb"
+  ],
+  "stdout_sha256": "16bc70b5696ad97a2e7da4d2ab7f8c628937cc8a671f4963123bb23044c9e197",
+  "requested_commands": 20,
+  "captured_commands": 20,
+  "last_read_status": "prompt",
+  "exit_code": 0,
+  "release_banner": "\n\n\n\nPig lost! Boss say that it Grunk fault. Say Grunk forget about closing gate. \nMaybe boss right. Grunk not remember forgetting, but maybe Grunk just forget. \nBoss say Grunk go find pig, bring it back. Him say, if Grunk not bring back \npig, not bring back Grunk either. Grunk like working at pig farm, so now Grunk \nneed find pig.\n\nLost Pig\nAnd Place Under Ground\nRelease 2 / Serial number 080406 / Inform v6.30 6/11 / ZCODE-1-070917-994E\n(For help, use \"HELP\".)\n\nOutside\nGrunk think that pig probably go this way. It hard to tell at night time, \nbecause moon not bright as sun. There forest to east and north. It even darker \nthere, and Grunk hear lots of strange animal. West of Grunk, there big field \nwith little stone wall. Farm back to south.\n\n>",
+  "review_status": "unreviewed",
+  "compatibility_scope": "Opening only; not a complete walkthrough validation.",
+  "input_index_note": "Input order, not the game engine turn counter.",
+  "observed_release": {
+    "number": "2",
+    "serial": "080406"
+  },
+  "release_matches_source": true
+}

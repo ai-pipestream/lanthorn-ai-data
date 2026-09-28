@@ -1,0 +1,68 @@
+{
+  "at": "2026-09-25T09:33:28.415748+00:00",
+  "games": [
+    {
+      "game_id": "teacher-feature",
+      "story_sha256": "9ebae616eae331c1a6f2cb3ad4db25fb83cbb40c42b9d6f26f57e821556ada67",
+      "embedded_sha256": "9ebae616eae331c1a6f2cb3ad4db25fb83cbb40c42b9d6f26f57e821556ada67",
+      "guide_sha256": "b5fc528707165a2c73b3fb15be1b0d694b7bf7e59f1d1fe4e8eeb2303e633454",
+      "release": 1,
+      "serial": "071126",
+      "engine": "zvm-cli",
+      "family": "teacher-feature",
+      "split": "train",
+      "compatibility": "Local Z5 R1/071126 matches fresh archive story bytes and catalog. The author solution gives no release or serial; exact guide edition is unspecified. The separately archived Inform source corroborates the report-card ending, but its compilation identity has not been established and it is not a replacement story pin.",
+      "source_bytes_rechecked": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "inside-woman",
+      "story_sha256": "041c0c5028998beed62506abc83632bd45e9bbb848e90b6f93e7364fed0e46b8",
+      "embedded_sha256": "041c0c5028998beed62506abc83632bd45e9bbb848e90b6f93e7364fed0e46b8",
+      "guide_sha256": "3222bb55b5330fee6ea26ddb2100e9158ebd91f4d3b7346ca9e8271cde0bb861",
+      "release": 5,
+      "serial": "090628",
+      "engine": "zvm-cli",
+      "family": "inside-woman",
+      "split": "train",
+      "compatibility": "Local Z8 R5/090628 matches fresh archive story bytes and catalog. Archive identifies the author Invisiclues as release 5, matching the local release; the guide supplies no serial. Release-number gap is zero but exact serial equivalence and runtime behavior remain unverified.",
+      "source_bytes_rechecked": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "zorkian-stories-1-gue",
+      "story_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+      "embedded_sha256": "55143c8ade7f59a9f05fd0a499ba174dcd9ec03d3e849f8b08459750df5f7a1f",
+      "guide_sha256": "ebd0fe3779c6ea93002fb0200faccf8afc617d4c9daff973dc812f7ca6f537d9",
+      "release": 1,
+      "serial": "121014",
+      "engine": "zvm-cli",
+      "family": "zork-i",
+      "split": "development",
+      "compatibility": "Local Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.",
+      "source_bytes_rechecked": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "story_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+      "embedded_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+      "guide_sha256": "2005a1ea3fc4ae0826beed30c655b1c3ce897e55070f1539103edd6488d12c23",
+      "release": null,
+      "serial": null,
+      "engine": "scott-cli",
+      "family": "scott-adams",
+      "split": "train",
+      "compatibility": "Local adv07.dat is byte-identical to the same member of both local and freshly downloaded AdamsGames.zip. Collection readme identifies Adventure 7, Mystery Fun House v1.45, a TRS-80 text version converted by Paul David Doherty; the data trailer is version 145, adventure 7. This is the complete game, not sampler1.dat or a graphical SAGA edition. Guide names the game but no version/platform: exact guide edition compatibility is unspecified; multiword examples may require the Scott parser's two-word form.",
+      "source_bytes_rechecked": true,
+      "normalization_reproduced": true
+    }
+  ],
+  "status": "Parent actual local/archive/container/member/header/checksum/raw-normalized/family checks passed; registered, runtime unproven",
+  "family_review": {
+    "inside-woman": "Reviewed author Utopia Arcology hints, no explicit Heroine Mantle/shared-world relationship found. Retain separate inside-woman family, all ports/releases reserved train. Shared author alone not family proof. Heroine Mantle also train so no known held-out crossover; uncertainty remains explicit.",
+    "zorkian-stories-1-gue": "Explicit GUE/Zork world conservatively shares existing zork-i development family; distinct story, not claimed independent held-out family.",
+    "teacher-feature": "Existing teacher-feature train reservation shared with Lecture Feature",
+    "mystery-fun-house": "Existing conservative scott-adams train family, distinct Adventure7 bytes"
+  }
+}

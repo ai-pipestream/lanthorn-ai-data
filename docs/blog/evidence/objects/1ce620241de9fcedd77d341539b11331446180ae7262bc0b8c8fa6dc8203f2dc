@@ -1,0 +1,15 @@
+# Night at the Computer Center — progress (update 3)
+
+Location: Stairwell Third Floor (north stairwell, stairs down, door east to hall).
+Inventory: UGGS Manual.
+Checkpoints: start-computer-site, stairwell-third (both verified Ok).
+Cases (5 annotated):
+- typo-examine-01 e00007->e00009 vocabulary
+- omit-object-01 e00012->e00013 syntax
+- pronoun-01 e00016->e00017 none
+- synonym-look-01 e00009->e00020 none
+- direction-01 e00026->e00028 planning (north invalid, west valid; east blocked 'Only astronomers')
+Exploration: e00025 fountain ordinary; e00022 'use computer' rejected; e00023 'click telnet icon' understood/scolded; e00024 hall; e00028 stairwell.
+Unresolved: clean use->click verb repair still open.
+Last hint: m0006 off-topic elevator/box.
+Next: go down stairs to 2nd/1st, find 3rd-floor elevator box/hose per hint, then 1st-floor closet listen. Request next help on elevator/box with topic 'elevator box hose flashlight'.

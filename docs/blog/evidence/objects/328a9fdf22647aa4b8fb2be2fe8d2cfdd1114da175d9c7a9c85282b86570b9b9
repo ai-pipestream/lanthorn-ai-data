@@ -1,0 +1,97 @@
+{
+  "game_id": "kook-u",
+  "title": "Kook U",
+  "url": "https://ifarchive.org/if-archive/solutions/kooku.sol",
+  "accessed_at": "2026-09-25T06:02:04.049176+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/kooku.sol",
+  "source_sha256": "23b963aebbd1a4035de5265e0fc90e75d05a94c12178b024ec8be4321f0a55c0",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/walkthrough.txt",
+  "normalized_sha256": "23b963aebbd1a4035de5265e0fc90e75d05a94c12178b024ec8be4321f0a55c0",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/kooku.z5",
+  "story_sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/kooku.z5",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/kooku.z5",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 5,
+    "release": 1,
+    "serial": "971119",
+    "header_hex": "050000013ab43ab52690010a15011faa001039373131313900425b8e3b33000000000000000000000000000000000000000000000000010200000000362e3134",
+    "header_sha256": "95657a0a6acaa1b8ac970e2b5428fd43add07978db1f0562b5e10af66fbff882",
+    "checksum": "3b33",
+    "computed_checksum": "3b33",
+    "checksum_valid": true,
+    "file_bytes": 94208,
+    "declared_file_bytes": 93752
+  },
+  "compatibility": "Community guide specifies no release/serial; story R1/971119. Guide explicitly omits finding people/items and much navigation. Do not invent missing steps as observed evidence.",
+  "compatibility_status": "needs_smoke_check",
+  "guide_version_match": "unspecified_or_port_gap",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "m55h7hzmi44ny39x",
+    "guide_tuid": "m55h7hzmi44ny39x",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/kooku.sol",
+      "accessed_at": "2026-09-25T06:02:04.049176+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/kooku.sol",
+      "sha256": "23b963aebbd1a4035de5265e0fc90e75d05a94c12178b024ec8be4321f0a55c0",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/kooku.z5",
+      "accessed_at": "2026-09-25T06:03:44.292372+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/kooku.z5",
+      "sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "kook-u",
+    "proposed_split": "train",
+    "existing_corpus_checked": true,
+    "reason": "No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together."
+  },
+  "completion": "Resolve the target/dean progression and final router/name/file/news sequence, then require the game-authored concluding narrative. Completing a target or merely exhausting this abbreviated guide is insufficient.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "971119"
+}

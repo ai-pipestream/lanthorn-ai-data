@@ -1,0 +1,99 @@
+{
+  "at": "2026-09-25T06:48:01.849461+00:00",
+  "game_id": "hunt-for-relief",
+  "header": {
+    "version": 5,
+    "release": 1,
+    "serial": "000820"
+  },
+  "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+  "events": [
+    {
+      "event_id": "hunt-for-relief-b4de5c739d:e00001",
+      "timestamp": "2026-09-25T06:33:40.075570+00:00",
+      "game_id": "hunt-for-relief",
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n                                                  [ Press SPACE to begin. ]\n\n\n\n\n                  Yeah.\n                        Oh Yeah.\n                                 What a reliefe bringst ye-\n                                          again ande again.\n\n                      -- The Toilet Encyclopedia, 1953\n",
+      "raw_start": 0,
+      "raw_end": 314,
+      "response_sha256": "de344d652ae1219d9949e5fdfb7984547c1148e2c96ed9b97d3c47bd1a29f7a1",
+      "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "hunt-for-relief-b4de5c739d:e00002",
+      "timestamp": "2026-09-25T06:34:04.403368+00:00",
+      "game_id": "hunt-for-relief",
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": " ",
+      "response": "\nYou are finally at home. Those parties at Stifler's always drive your stomach \nmad. Drinks of all kind, kindly mixed by Slacks, the favourite barkeeper. With \nthose drinks, it's always the same bad thing: At least 60% alcohol, rest either \nalcohol or some alcoholic beverage. Only food served: chips. chili chips. \nLighting farts is one of your favourite hobbys at these events. But sometimes, \nsome 'hardware' finally presses down your guts to reach fresh air. Then, always \naround four in the morning, it's time to go home. Luckily, your one room \napartement isn't far away from stifler's, so you get here after about five \nminutes of fresh walking. As it is the fact with walking, it does a good job in \ndriving the bowels down further...\n\n\nType help for help.\n\n\nThe Hunt For Relief\nA toilettic experience...\nRelease 1 / Serial number 000820 / Inform v6.21 Library 6/9 SD\n\nBig Crowded Room (Your Home)\nYour only place to hangout alone on this whole fucking world. Alas, as you \naren't the clean type of man, the first thing that comes in view after entering \nhere is the floor. Or, to be more precise, the things covering the floor. \nHowever, as they are mostly litter or far to messy to be of use ever again, you \ndon't have to pay any attention at all to them.\nYou eye around the walls and get hold of the other ingredients for your thing \ncalled room:\nA computer, sitting on a large oak wood desk in the back wall of the room, \nright next to a huge, dirty window. To the left, a bed with a once clean \ncovering and a closet full of things which resembled clothes once upon a time. \nTo your right, an oven tries to hide masses of roaches, while the old fridge \nnext to it tries to keep it's door closed in spite of the enormous pressure \nresulting in at least four different chemical reactions taking place in there. \nBefore the fridge, an old cupboard catches dust. This is your home, though, and \nit wouldn't be complete without a bathroom. So, to the south is the door \nleading to this holy place of mankind, while the door through which you walked \nin here is to the west.\n\n>",
+      "raw_start": 314,
+      "raw_end": 2399,
+      "response_sha256": "092fdb93e7c4fef2715da00ea0e812247c669b2c2187f8336bfc0298f6e46e4d",
+      "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "hunt-for-relief-b4de5c739d",
+        "case_id": "startup-begin",
+        "expected_outcome": "Game intro and first room description",
+        "intent": "Press SPACE to begin the game",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "hunt-for-relief-b4de5c739d:e00003",
+      "timestamp": "2026-09-25T06:34:28.282972+00:00",
+      "game_id": "hunt-for-relief",
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 2399,
+      "raw_end": 2413,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "hunt-for-relief-b4de5c739d",
+        "name": "start-home"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "hunt-for-relief-b4de5c739d:e00004",
+      "timestamp": "2026-09-25T06:34:28.584370+00:00",
+      "game_id": "hunt-for-relief",
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "start-home.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/hunt-for-relief/saves/Relief.z5.save/start-home.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 2413,
+      "raw_end": 2535,
+      "response_sha256": "e3d486f6a140d1f484a7704204777a0eb027591b55f2c51c7b82baa9ac55fdc0",
+      "story_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "hunt-for-relief-b4de5c739d",
+        "name": "start-home"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "note": "Parent raw span/text/hash verified; selected startup/early events only; no independent review or ending implied."
+}

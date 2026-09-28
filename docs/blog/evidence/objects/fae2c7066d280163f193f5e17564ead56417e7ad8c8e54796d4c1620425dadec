@@ -1,0 +1,18 @@
+{
+  "story": "doll.z5",
+  "guide": "doll.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/doll.sol",
+  "accessed_at": "2026-09-25T06:02:04.099448+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 1,
+  "serial": "971031",
+  "sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+  "bytes": 76800,
+  "header_hex": "0500000132b032b12313010a0ff71b68001039373130333100424ad80cb9000000000000000000000000000000000000000000000000010200000000362e3134",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/doll.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.348085+00:00",
+  "downloaded_story_sha256": "28d5d7afd266adc82be320327a14ce1dbccd5437ce1597ce2c0b1618f0714f9c",
+  "download_matches_local": true
+}

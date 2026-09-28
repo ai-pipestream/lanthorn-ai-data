@@ -1,0 +1,84 @@
+{
+  "game_id": "wadewars-iii-askin",
+  "title": "The WadeWars Book III: Askin",
+  "author": "Jim Fisher",
+  "url": "https://ifarchive.org/if-archive/solutions/wadewar3walkthrough.txt",
+  "accessed_at": "2026-09-25T07:57:18.034453+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewar3walkthrough.txt",
+  "source_sha256": "87682fd1a8c55548d5c65a609d4da45bf96841cb867a9a636eda4886e64dc2fd",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin-walkthrough.txt",
+  "normalized_sha256": "d10c9dfe0d4a166777bc2781db12945fa1c45662af506b23ebc5ca46ff0ea7eb",
+  "normalization": {
+    "source_encoding": "windows-1252",
+    "target_encoding": "utf-8",
+    "transformation": "Decode stated source encoding; CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/wadewar3.z5",
+  "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+  "compatibility": "Local Z5 R106/020512 exactly matches the archive binary/header. Author guide explicitly targets the Z-code version, not merely the earlier DOS release, but supplies no release/serial. Its archive date 2001-12-23 predates the story's R106/020512; exact edition coverage remains unverified. Despite Book III in the title, the author identifies this as the first completed book, not an unavailable preview.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 106,
+  "serial": "020512",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500006a90d490d583a6010a629e7abf001030323035313200428c335f9f000000000000000000000000000000007abe000000000000010200000000362e3231",
+    "header_sha256": "f6b579636ea0596e466dc2b0233615b59c35e652a7b0838488e1e10ed5c13691",
+    "checksum_hex": "5f9f",
+    "declared_length": 143564,
+    "file_bytes": 143872
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "wadewar3.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/wadewar3.z5",
+    "accessed_at": "2026-09-25T07:58:09.949855+00:00",
+    "remote_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+    "local_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+    "bytes": 143872,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 106,
+    "remote_serial": "020512"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#wadewar3.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "wadewar3.z5\n◆\n[19-May-2002]\nIFDB entry\nThe WadeWars Book III: Askin, by Jim Fisher - despite its\ntitle the first release in the Wade Wars series.\nRelease 106 / Serial number 020512.\nRating: beginner to intermediate.\n(a DOS version from 1993 without save/restore is in\ngames/pc/wadewar3.zip)",
+    "tuid": "eipoymlzqmu5ps9h"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#wadewar3walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "wadewar3walkthrough.txt\n◆\n[23-Dec-2001]\nIFDB entry\nWalkthrough and notes for The WadeWars Book III: Askin,\nby the game's author, Jim Fisher.",
+    "tuid": "eipoymlzqmu5ps9h"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete all five guide sections through Askin, the cloud journey and rescue of Uncle Seamore, then continue through the final return-machine sequence to actual concluding narrative. Reaching the uncle early can be a fatal route; meeting him, swapping with the statue or completing a chapter is not the ending. Preserve other genuine authored concluding variants if observed.",
+    "limitations": "Protect needed inventory across the statue exchange; the guide specifically warns about losing the phosphorous crystal. Read live paper/basket codes and the sign needed to learn the spell, rather than assuming knowledge from the guide. Observe the short alternate-reality transition and final timing. The raw guide uses Windows-1252 punctuation; normalize encoding and line endings only, never puzzle commands.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "wade-wars",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "The author explicitly links this game to the Wade Wars series and Got Toast?; conservatively reserve wade-wars for those shared-world works and ports. Neither is in current registered/play exclusions. The introduction mentions rediscovering Zork, which establishes inspiration rather than specific shared world/puzzle reuse. Parent review requested for these documented series links."
+  },
+  "reuse_claims_observed": "No permission for story/guide reuse established; private collection only. Public hosting does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

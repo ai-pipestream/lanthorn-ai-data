@@ -1,0 +1,25 @@
+# Augmented Fourth — collection progress (ACTIVE, game incomplete)
+
+## State (e00225 confirmed; m0206 IN-FLIGHT)
+- Location: Grassy Courtyard maze, T plot (via A2 N→O e00221, O N→L e00222, L N→L e00224, L SE→T e00225). Score 14.
+- IN-FLIGHT: inbox/m0206.json ("south" T→U) submitted, response unread — check responses/m0206.json before new actions. Do NOT resubmit.
+- Inventory (observed): trumpet (magic, embouchure improved), note, manual, Timeline pamphlet, gold ring (needed: GIVE RING TO MULLOG later).
+- Checkpoints verified: fou-llama, fern-pushed, wedding-love (Drawing Room post-wedding).
+
+## Mullog route problem (from A1: E SE W S W S SE W SW W N N NW D)
+- Done: E A1→M e00208, SE M→O-east e00209, W O→S e00210, S S→H e00211, W H→T e00212, S T→U e00213, SE U→F2 e00214.
+- Blocked: W F2 loops to F2 e00215 (same F text), SW F2 rejected e00216. Hint route step 8-9 fails here.
+- Twin-F proven: F via U SE (F2, W loops, SW rejected) vs F via O SE (F1, W→A2 e00220). O-west SE→F e00219, then F W→A2 e00220.
+- From A2: N→O-west e00221 (S/SW/W rejected earlier still hold for A2 exits south/west).
+- Help m0197 (lines 43-51): from F Courtyard NW E NW N NE E W N SEARCH STATUE GET GOLD RING (ring already held); Entering Squiggy's Tower from Poont's Lab via herring/cleft/D ASK MULLOG; from Mullog's Lair N SE S S E. Suggests Mullog may be via Poont's Lab, not maze D, or maze D elsewhere.
+- Current exploration: F2 NW→O e00218 works; O N→L; L NW rejected e00223; L N toggles twin; L2 SE→T. Next: T S→U, then map U exits / seek D (down) plot.
+
+## Cases (13 banked; backlog grows)
+- Banked: pit/trumpet synonym, puddle typo, omitted-object, granite world_state, plaque read-none, pronoun ambiguity, trapdoor world_state, darkness play-none, manual grab-none, open-door ambiguity, door-ambiguity, push-fern synonym-none.
+- To annotate: fern timing (e00158→e00163 world_state), read book→diary (e00169 none), learn love (e00171), tell-diary +2 (e00174), play-love-1 partial vs play-love-2 wedding +2 (e00180→e00182), east privacy refusal (e00183), twin-L T-then-U (e00189→e00193), F-SW rejection (e00196), A2 rejections (e00198-e00200), F2 W-loop (e00215) + SW reject (e00216) world_state, twin-F W→A2 (e00220), A2 N→O (e00221), O N→L (e00222), L NW reject (e00223), L N toggle (e00224), L2 SE→T (e00225).
+
+## Next
+1. Read responses/m0206.json; continue mapping U / maze D single steps; do not replay route blindly.
+2. If maze D not found soon, request next walkthrough excerpt on Mullog access via Poont's Lab / Squiggy's Tower.
+3. GIVE RING TO MULLOG only at Mullog's Lair; checkpoint at next safe milestone.
+4. Annotate backlog. Goal: Mullog → Snoobar/Finney → surface → Throne Room finale per manifest.

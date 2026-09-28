@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-25T07:32:22.027697+00:00",
+  "games": [
+    {
+      "game_id": "traffic",
+      "story_sha256": "e8a9b236abd954152a9600179a7cf0941147a7ea1c62f51d5262b6d6af3a663c",
+      "guide_sha256": "9996983be8053af549093ad53f33f812e344a79f4eb497ebd20d489f0cf66f23",
+      "header": {
+        "zmachine_version": 5,
+        "release": 2,
+        "serial": "241027"
+      },
+      "family": "traffic",
+      "split": "train",
+      "compatibility": "Local Z5 R2/241027 matches archive bytes and catalog. Author walkthrough explicitly targets release 2; it supplies no serial. Shared archive date 2024-10-27 and matching IFDB fy3u5xjvnanoey3 support identity but do not supply the missing guide serial."
+    },
+    {
+      "game_id": "bicon",
+      "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+      "guide_sha256": "f4cc63d84fe08a4b67556622abecfd77651528ae958ddbb906e629833ed9898a",
+      "header": {
+        "zmachine_version": 8,
+        "release": 4,
+        "serial": "101006"
+      },
+      "family": "bicon",
+      "split": "train",
+      "compatibility": "Local Blorb is byte-identical to the archive and contains ZCOD Z8 R4/101006. The author walkthrough explicitly names the identical release/serial and Inform 7 build 6E72. Pin both the Blorb hash and embedded ZCOD/header hashes; do not interpret the FORM container prefix as the Z-machine header."
+    },
+    {
+      "game_id": "mortlake-manor",
+      "story_sha256": "81114679168723ca26323f88cf35829288d80308e5bfd3eb44c4c46e023abb78",
+      "guide_sha256": "d175e4de21c2153e0d0bb3930f09471393c6b1bff8692ceb26a906bcc36a6abe",
+      "header": {
+        "zmachine_version": 8,
+        "release": 1,
+        "serial": "120304"
+      },
+      "family": "mortlake-manor",
+      "split": "train",
+      "compatibility": "Local Z8 R1/120304 matches archive bytes and the full author transcript banner, Inform 7 build 6G60. This is the complete 2012 adaptation of the 1994/2000 game, described as an introduction to IF; the transcript reaches its authored treasure ending, not a preview boundary."
+    },
+    {
+      "game_id": "windhall",
+      "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+      "guide_sha256": "807e40b3fd5e7a04ffba2cd4f3e56a604df15e311bb43379f50e7735f90b63d8",
+      "header": {
+        "zmachine_version": 8,
+        "release": 5,
+        "serial": "960828"
+      },
+      "family": "windhall",
+      "split": "train",
+      "compatibility": "Local Z8 R5/960828 matches archive bytes and catalog. Paul J. Godfrey guide explicitly targets release 3, with no serial; preserve the two-release gap. Its work-around concerns a release-3 sleep bug and is not evidence that release 5 has that bug. Full Volume One guide reaches the final dragon route; no unavailable preview was selected."
+    }
+  ],
+  "status": "registered; parent byte/header/raw and normalized guide/archive hash/family verified; scheduler held for provider quota; no runtime claim"
+}

@@ -1,0 +1,11 @@
+# Schooldays progress (continuation checkpoint)
+
+- Session: schooldays-b371c6a97d, branch b0, event e00224 (Rosedale platform 8:31am, ordinary prompt, train left).
+- Location: Rosedale Subway Station, platform. Stairs lead below platform. Train gone toward Spadina.
+- Subway sequence (verified): EAST outside gates rejected no token e00210; HELP e00211 GET TOKEN/EAST/DOWN/WAIT/ENTER TRAIN/OUT; GET TOKEN (shovel stowed) e00212; EAST drops token inside gates e00213; ANNOTATE gates-enter world_state e00214; DOWN to Spadina platform e00215; CHECKPOINT platform e00216-217; WAIT 8:25 e00218; WAIT 8:26 e00219; WAIT train arrives toward Rosedale 8:27 e00220; ENTER TRAIN to Union 8:28 e00221; WAIT to Queen 8:29 e00222; WAIT to Rosedale in-train 8:30 e00223; OUT to Rosedale platform, train leaves 8:31 e00224.
+- Checkpoints verified: start-bedroom, kitchen-down, basement-lit, backyard-shed-open, shed-loonies-taken, house-exit, subway-gates, platform.
+- Cases: subway-gates-enter annotated e00214 (east needs token in hand, world_state). Train waits/ride/out are route successes, no failure pairs to annotate.
+- Hints: e00211 VERIFIED correct for station/train (GET TOKEN/EAST/DOWN/WAIT/ENTER TRAIN/WAIT/OUT to Rosedale).
+- Carries (approx, needs fresh inventory): periodic table, Rap CD, loonies, Mastercard, passport, blue key, shed key, stop sign, knapsack (roll, waterbottle, nail, jar/screws, permission form, shovel stowed e00212), clothes+shoes. Token consumed at gates.
+- Next: exit Rosedale (likely DOWN stairs), find school/basketball and travel-ticket sequence, then taxi-to-airport to authored conclusion. Probe exit phrasing with one synthetic variation before canonical; single commands near timing. Need next walkthrough excerpt for school direction when stuck.
+- Status: game INCOMPLETE (school/basketball, travel tickets, taxi/airport, authored conclusion ahead). No winning ending. No death/quitting.

@@ -1,0 +1,35 @@
+# Explicit service-timeout recovery
+
+Current session: slouching-bedlam-b08abfcb18, branch b4. Restored office-journal successfully.
+Save evidence: slouching-bedlam-18faea2151:e00179. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Office
+A massive cedar desk, well-polished and worn, looks elegantly out-of-place 
+among the chaos. Papers, files, and books cover nearly every flat surface in 
+the room.
+
+Triage sits near the door to the south.
+
+There is a phonograph on the table near the window.
+
+"Bedlam seems both purgatory and paradise at this moment. I remember the 
+history of the place well enough -- of the Governors' decision to renovate the 
+site in '15 and the slow implementation of Urquhart and Bentham's now infamous 
+Panopticon Plan. In the end it was nothing more than a final stab at 
+respectability for the site, which has now languished as a home for the 
+hopeless, the poor, and the criminally insane for almost twenty years."
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+# Progress slouching-bedlam — seg5 active, game incomplete (await_output m0277 pending)
+
+Location: Archives, File F6A142 retrieved (e00286 spider-pyramid RETRIEVAL COMPLETE). look confirms File F6A142: Cleve Anderson (e00287). read file opened 13-section menu (e00288). Sent 1 -> header only ">1. Personal Information (1 of 13)" (e00289). Sent literal RETURN m0274 -> no_output_timeout empty (e00290). await_output m0275 -> empty delayed_output e00291 (03:22:07Z). await_output m0276 -> empty delayed_output e00292 (03:26:12Z). Seg5 wrote await_output inbox/m0277.json, responses/m0277.json not yet present, latest.json still e00292. Do NOT duplicate m0274/m0277, do NOT send game command or q to flush timeout. Next: read responses/m0277.json + latest.json; if empty again allow 190s then repeat await_output; if section text resolves, use menu N/P/numbers or q per menu (Q=resume game, not quit), then wards Part2 GET KEY, Fleet attic, ending. Never SAVE in menu; checkpoints only at ordinary prompts.
+Inventory: rod + 2D key observed; Triage active. Checkpoints: office-journal good; lobby-james pre-dial clean (dirty-tape lesson: failed-search resets tape, no restore needed).
+Cases: archive-dial-full-151 (TBD), reset-probe-156, dial-continue-158 world_state, clean-161 success. Need annotate pairs after observed corrections. Last hints: Triage paging gave F6A142 + GET KEY pre-Fleet; N/N/SW excerpt off-topic.
+Continuation: resume by reading latest.json + responses/m0277.json; do not restart; do not replay RETURN.

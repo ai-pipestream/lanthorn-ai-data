@@ -1,0 +1,120 @@
+{
+  "game_id": "pythos-mask",
+  "title": "Pytho's Mask",
+  "author": "Emily Short",
+  "url": "https://ifarchive.org/if-archive/solutions/PythosMask_walkthrough.txt",
+  "accessed_at": "2026-09-25T08:12:55.945296+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/PythosMask_walkthrough.txt",
+  "source_sha256": "af8db4e171b7e67efec1958b515112e9a281d02466af9315c0c52b7824b2d3f5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pythos-mask-walkthrough.txt",
+  "normalized_sha256": "6d04a5ad592df7a9d79ce4d505228cf3271e96ac26cf8ce645549907b59ff132",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "transformation": "Decode text, CRLF/CR to LF; wrap long lines at 110 characters without changing tokens or punctuation.",
+    "word_sequence_preserved_after_html_extraction": true
+  },
+  "guide_container": {
+    "path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/PythosMask_walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/PythosMask_walkthrough.txt",
+    "sha256": "af8db4e171b7e67efec1958b515112e9a281d02466af9315c0c52b7824b2d3f5",
+    "member": null
+  },
+  "story": "/home/krickert/if-games/glulx/pytho.blb",
+  "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+  "story_header": {
+    "container": "Blorb/IFRS",
+    "glul_chunk_offset": 80,
+    "glul_chunk_bytes": 425984,
+    "glul_sha256": "63b2898508a5b6736989cd0008ee2906d2ce3c221d5af165f546d4ed56f1a6c4",
+    "vm_header_bytes": 36,
+    "vm_header_hex": "476c756c0002000000040d000006800000068000000010000000003c0001ebda848cb0f8",
+    "header_sha256": "d86210f408b783d032d174c9a03c100fc27ece0a22caee97962c2f9202084a95",
+    "inform_identification_hex": "496e666f00010000362e3231302e33360004303230323233",
+    "glulx_version": "2.0.0",
+    "checksum_hex": "848cb0f8",
+    "checksum_valid": true,
+    "chunks": [
+      {
+        "type": "RIdx",
+        "offset": 20,
+        "bytes": 52
+      },
+      {
+        "type": "GLUL",
+        "offset": 80,
+        "bytes": 425984
+      },
+      {
+        "type": "PNG ",
+        "offset": 426072,
+        "bytes": 789
+      },
+      {
+        "type": "PNG ",
+        "offset": 426870,
+        "bytes": 8409
+      },
+      {
+        "type": "PNG ",
+        "offset": 435288,
+        "bytes": 2120
+      }
+    ],
+    "file_bytes": 437408
+  },
+  "zmachine_version": null,
+  "release": 4,
+  "serial": "020223",
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": null,
+  "compatibility": "Local Glulx Inform identification is R4/020223, matching the archive. Author walkthrough identifies the game but gives no release, serial or target VM. A Z-code edition also exists; this selection is explicitly the local Glulx release, with cross-format guide applicability untested.",
+  "compatibility_status": "needs_runtime_verification",
+  "story_identity": {
+    "local_library_path": "/home/krickert/if-games/glulx/pytho.blb",
+    "local_library_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "remote_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pytho.blb",
+    "remote_url": "https://ifarchive.org/if-archive/games/glulx/pytho.blb",
+    "remote_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "accessed_at": "2026-09-25T08:12:55.896112+00:00",
+    "byte_identical": true,
+    "archive_member": null,
+    "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b"
+  },
+  "archive_game_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/glulx-index.txt",
+    "snapshot_sha256": "f6f1a4032df37f195df0f05eb40867706c7d58fae97940b41d59859174f272a6",
+    "entry_text": "# pytho.blb\ntuid: spsnevz1br6f2z3v\nifwiki: Pytho's Mask\n\nPytho's Mask, by Emily Short.\nRelease 4 / Serial number 020223.\n(a Z-code version is in </if-archive/games/mini-comps/smoochie/#pytho.z8>)",
+    "tuid": "spsnevz1br6f2z3v",
+    "url": "https://ifarchive.org/if-archive/games/glulx/Index"
+  },
+  "archive_guide_entry": {
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/solutions-index.txt",
+    "entry_text": "# PythosMask_walkthrough.txt\ntuid: spsnevz1br6f2z3v\n\nWalkthrough for Pytho's Mask by the game's author,\nEmily Short.",
+    "tuid": "spsnevz1br6f2z3v",
+    "snapshot_sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+    "url": "https://ifarchive.org/if-archive/solutions/Index"
+  },
+  "guide_author": "Emily Short (author attribution in IF Archive solutions index)",
+  "guide_review": {
+    "body_read": true,
+    "sections_reviewed": "Entire text guide including last route/ending instructions; no map/PDF review or guide command execution.",
+    "completion": "Resolve the poisoning plot at the royal toast, survive the confrontation with Valkir, and reach the authored epilogue. Continue through the final epilogue conversation to an actual terminal narrative, recording the chosen romantic or non-romantic outcome. A toast, duel step, room transition, death or merely reaching the walkthrough epilogue heading is insufficient.",
+    "limitations": "Dialogue option letters are tied to the displayed text and may change with history; match the intended answer to actual options. The final romantic and non-romantic routes are alternatives. Optional library backstory and speculative discoveries are not mandatory progress. Preserve original wording, spelling and alternatives. Glulx text/graphics layout has not been exercised.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "pythos-mask",
+  "family_review": {
+    "parent_review_required": true,
+    "rationale": "No shared world/puzzle relationship established with Bronze or Savoir-Faire or other existing Emily Short titles. Common authorship alone does not establish a family. Group Z-code and Glulx releases of this title together.",
+    "splits_sha256": "7e9fd86dad4a43e639f92910c85a2fd1a11bb9840fc5be1482d228d5c6351616",
+    "checked_at": "2026-09-25T08:16:38.999676+00:00"
+  },
+  "reuse_permission": "unknown; private collection only",
+  "reuse_claims_observed": "Public archive access and author/bundle provenance do not establish reuse permission.",
+  "central_only": true,
+  "glulx_version": "2.0.0",
+  "header_spec_source": "https://eblong.com/zarf/glulx/Glulx-Inform-Tech.html#static-data"
+}

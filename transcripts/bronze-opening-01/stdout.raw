@@ -1,0 +1,220 @@
+
+
+
+
+When the seventh day comes and it is time for you to return to the castle in 
+the forest, your sisters cling to your sleeves.
+
+"Don't go back," they say, and "When will we ever see you again?" But you 
+imagine they will find consolation somewhere.
+
+Your father hangs back, silent and moody. He has spent the week as far from you 
+as possible, working until late at night. Now he speaks only to ask whether the 
+Beast treated you "properly." Since he obviously has his own ideas about what 
+must have taken place over the past few years, you do not reply beyond a shrug.
+
+You breathe more easily once you're back in the forest, alone.
+
+
+
+
+Bronze
+A fractured fairy tale by Emily Short
+Release 11 / Serial number 060503 / Inform 7 build 3K27 (I6/v6.30 lib 6/10N) 
+
+ Drawbridge                                                             N
+ Great Outdoors                                                         .
+ Rooms searched: 0/55
+Have you played interactive fiction before? >
+If you have not played Bronze before, you may still want to type HELP to learn 
+about special commands unique to this game.
+
+Drawbridge
+Even in your short absence, the castle has come to look strange to you again. 
+When you came here first, you stood a long while on the drawbridge, unready to 
+cross the moat, for fear of the spells that might bind you if you did. This 
+time it is too late to worry about such things.
+
+An iron-barred gate leads north.
+
+ Drawbridge                                                             N
+ Great Outdoors                                                         .
+ Rooms searched: 1/55
+>You are nontrivially the worse for your journey -- hungry, dirty, and tired. 
+But all that can be seen to later.
+
+>You are carrying nothing.
+
+>(first opening the iron-barred gate)
+You shouldn't be able to open it, heavy as it is, but it swings aside lightly 
+at your touch. The Beast said that it knows friend from enemy; and the castle, 
+at least, still regards you as friend.
+
+Entrance Hall
+There is no fire in the big fireplace, and no one is waiting for you here; the 
+air is very cold. Over the gate, the old familiar warning sign is painted.
+
+Various passages lead deeper into the castle: north towards the central 
+courtyard, southwest to the guard tower, east and west into the libraries, the 
+offices, the galleries. Somewhere in this maze, he waits; and he should be told 
+as soon as possible that you did return.
+
+An iron-barred gate leads south to the drawbridge.
+
+ Entrance Hall                                                          N
+ Main Castle                                                         W  .  E
+ Rooms searched: 2/55                                                SW S
+>You know the words by heart, having heard them first from your father, and then 
+studied them yourself on many more recent occasions.
+
+You read: Those who seek to leave the castle depart at peril of their lives and 
+souls, unless another servant be provided in exchange, or a fixed term of 
+absence be granted by their master.
+
+>
+Guard Tower
+A round tower offering protection to the drawbridge.
+
+ Guard Tower                                                              NE
+ Main Castle                                                            .
+ Rooms searched: 3/55
+>
+Entrance Hall
+There is no fire in the big fireplace; the air is very cold. Over the gate, the 
+old familiar warning sign is painted.
+
+Various passages lead deeper into the castle: north towards the central 
+courtyard, southwest to the guard tower, east and west into the libraries, the 
+offices, the galleries. Somewhere in this maze, he waits; and he should be told 
+as soon as possible that you did return.
+
+An iron-barred gate leads south to the drawbridge.
+
+ Entrance Hall                                                          N
+ Main Castle                                                         W  .  E
+ Rooms searched: 3/55                                                SW S
+>
+Great Dining Hall
+Such a long hall that the soup might get cold between one end and the other. 
+You and he used only the far west end, nearest the kitchen. Once you took to 
+dining together at all, that is; the first few months he brought trays to your 
+room, while you hid.
+
+But then you took to eating here; and at the end of every meal he would stand 
+up formally and ask his question.
+
+"You can leave at any time," he said, when he first spoke to you. You stared at 
+him, surprised that someone with his face and teeth was capable of human 
+communication. "Would you like to go?"
+
+There are other memories, more recent, of course. Every glance around the room 
+reminds you of a different one.
+
+ Great Dining Hall                                                      N
+ Main Castle                                                         W  .  E
+ Rooms searched: 4/55
+>
+Enormous Kitchen
+Haunted with the spirits of chefs past, generations and generations of culinary 
+geniuses; one can never predict its whimsies. Unless he has moved everything, 
+the bell to summon them into action should be in one of the rooms upstairs.
+
+ Enormous Kitchen                                                       N
+ Main Castle                                                            .  E
+ Rooms searched: 5/55
+>
+Servant Quarters
+You've never come here before, and now you see why. Not a room friendly to 
+visitors, it has the air of resentful, martyred suffering. Even His most 
+unpleasant ancestors would not have grudged this place more paint, surely, and 
+more straw for the beds.
+
+A decaying ladder leads down.
+
+ Servant Quarters
+ Main Castle                                                            .
+ Rooms searched: 6/55                                            D      S
+>
+Enormous Kitchen
+Haunted with the spirits of chefs past, generations and generations of culinary 
+geniuses; one can never predict its whimsies. Unless he has moved everything, 
+the bell to summon them into action should be in one of the rooms upstairs.
+
+ Enormous Kitchen                                                       N
+ Main Castle                                                            .  E
+ Rooms searched: 6/55
+>
+Great Dining Hall
+You allow yourself to remember another night, another request.
+
+"I'm surprised you haven't gone home yet," he said very early in your stay.
+
+"I've heard stories," you replied. "As if there weren't enough to see around 
+the castle. I know what happens to your servants who try to leave you."
+
+"Nothing bad would happen to you," he said. But you could not believe him, not 
+with all the captured spirits, not with the stories, not with the evidence 
+around the castle.
+
+ Great Dining Hall                                                      N
+ Main Castle                                                         W  .  E
+ Rooms searched: 6/55
+>You find your way blocked by a phantom guard. Somewhere nearby you hear chimes.
+
+As soon as you back up, he disperses into smoke again.
+
+>
+Entrance Hall
+There is no fire in the big fireplace; the air is very cold. Over the gate, the 
+old familiar warning sign is painted.
+
+Various passages lead deeper into the castle: north towards the central 
+courtyard, southwest to the guard tower, east and west into the libraries, the 
+offices, the galleries. Somewhere in this maze, he waits; and he should be told 
+as soon as possible that you did return.
+
+An iron-barred gate leads south to the drawbridge.
+
+ Entrance Hall                                                          N
+ Main Castle                                                         W  .  E
+ Rooms searched: 6/55                                                SW S
+>
+Scarlet Gallery
+You do not often come this way, into the older part of the castle, which is 
+narrow and has a low roof. The walls, and the ceiling too, are deep scarlet, 
+the color of the old king and queen that ruled here two hundred fifty years 
+ago, when there was still a kingdom.
+
+ Scarlet Gallery                                                          NE
+ Old Castle                                                          W  .  E
+ Rooms searched: 7/55                                                     SE
+>
+Treasure Room
+Locked in an iron cage are the house treasures not in use: the collection 
+consists of a sceptre, a puzzle piece, and a pair of cloven shoes, at present 
+-- he showed them to you one rainy day, telling you their many histories.
+
+Nearby a small door leads east.
+
+ Treasure Room
+ Old Castle                                                             .  E
+ Rooms searched: 8/55                                                SW
+>Made of broad strap-like bars of metal, as thick as a man's belt, and heavily 
+reinforced. Here and there are marks where someone would seem to have made an 
+attempt to break in. In the cage are the sceptre, the puzzle piece, and the 
+pair of cloven shoes.
+
+>Formerly belonging to Queen Ingratitudina the First (so he said), only slightly 
+bent where she used it to strike King Cophetua.
+
+You reacquaint yourself with its appearance: Studded with measly turquoises and 
+semi-precious stones.
+
+>Made for something with cloven hoofs. They bear evidence of having been 
+adjusted to their current size by a shoemaker, and perhaps (therefore) could be 
+again.
+
+>(first unlocking the iron cage)
+You lack a key that fits the iron cage.
+
+>

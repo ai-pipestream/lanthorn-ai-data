@@ -1,0 +1,53 @@
+"""Startup guards must refuse input when an expected screen is absent."""
+import json
+import tempfile
+import unittest
+from pathlib import Path
+from unittest.mock import Mock
+from recover_broker import advance_recovery_startup
+
+
+class RecoveryStartupTest(unittest.TestCase):
+    def fixture(self, response, state='awaiting_input_or_idle'):
+        temp = tempfile.TemporaryDirectory(prefix='lanthorn-startup-')
+        self.addCleanup(temp.cleanup)
+        game = Mock(base=Path(temp.name))
+        (game.base / 'latest.json').write_text(json.dumps(
+            {'response': response, 'engine_state': state}))
+        game.send.return_value = {'response': 'Coral Reef\n>',
+                                  'engine_state': 'awaiting_input_or_idle'}
+        return game
+
+    def test_identified_keypause_advances(self):
+        game = self.fixture('[Press a key.]')
+        advance_recovery_startup(game, [self.step()])
+        self.assertEqual(game.send.call_args.args[0], '')
+
+    def step(self):
+        return {'command': '', 'expect_before': '[Press a key.]',
+                'expect_after': 'Coral Reef'}
+
+    def test_unexpected_screen_or_timeout_sends_nothing(self):
+        for response, state in [('Other menu', 'awaiting_input_or_idle'),
+                                ('[Press a key.]', 'no_output_timeout')]:
+            game = self.fixture(response, state)
+            with self.assertRaises(AssertionError):
+                advance_recovery_startup(game, [self.step()])
+            game.send.assert_not_called()
+
+    def test_parser_command_is_refused(self):
+        game = self.fixture('[Press a key.]')
+        with self.assertRaises(AssertionError):
+            advance_recovery_startup(game, [dict(self.step(), command='restore')])
+        game.send.assert_not_called()
+
+    def test_unexpected_result_stops_following_steps(self):
+        game = self.fixture('[Press a key.]')
+        game.send.return_value = {'response': '', 'engine_state': 'no_output_timeout'}
+        with self.assertRaises(AssertionError):
+            advance_recovery_startup(game, [self.step(), self.step()])
+        self.assertEqual(game.send.call_count, 1)
+
+
+if __name__ == '__main__':
+    unittest.main()

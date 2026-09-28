@@ -1,0 +1,146 @@
+import json
+import base64
+import itertools
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+import maintain_fleet as fleet
+import maintain_workers as local
+import fleet_host as host
+
+
+revision = itertools.count(1)
+def mailbox(req):
+    return host.mailbox(dict(req, session_id='s', revision=next(revision)))
+
+class FleetTest(unittest.TestCase):
+    def test_requests_are_immutable_and_idempotent(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d); (p/'inbox').mkdir()
+            b = b'{"action":"status"}'
+            self.assertTrue(fleet.accept_request(p, 'm1.json', b))
+            self.assertFalse(fleet.accept_request(p, 'm1.json', b))
+            with self.assertRaises(ValueError): fleet.accept_request(p, 'm1.json', b'{"action":"help"}')
+            self.assertEqual((p/'inbox/m1.json').read_bytes(), b)
+            with self.assertRaises(ValueError): fleet.accept_request(p, '../outside.json', b)
+
+    def test_remote_reservations_are_invisible_to_local_launcher(self):
+        with tempfile.TemporaryDirectory() as d:
+            r = Path(d)
+            for p in ['control/fleet', 'runs', 'play/remote']: (r/p).mkdir(parents=True)
+            (r/'control/worker-pool.json').write_text(json.dumps({'enabled':True,'target':10,'queue_configs':[]}))
+            (r/'control/fleet/assignments.json').write_text('{"remote":{"state":"starting"}}')
+            (r/'runs/fullplay-status.json').write_text('{}')
+            with patch.object(local,'ROOT',r), patch.object(local,'inventory',return_value=({},{})), patch.object(local,'launch') as launch:
+                local.tick()
+                launch.assert_not_called()
+                self.assertEqual(json.loads((r/'control/worker-pool-status.json').read_text())['attention'],[])
+
+    def test_rpc_cannot_replace_broker_raw_or_escape_workspace(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(host,'ROOT',Path(d)):
+            for name in ['stdout.raw','../manifest.json','responses/../manifest.json']:
+                with self.assertRaises(ValueError): mailbox({'game_id':'g','files':{name:'eA=='}})
+
+    def test_disconnected_host_retains_slot_and_sent_hashes(self):
+        a={'host':'offline','state':'running','sent':{'latest.json':'old'}}
+        with tempfile.TemporaryDirectory() as d, patch.object(fleet,'ROOT',Path(d)):
+            gid,out=fleet.sync_one('g',a)
+            self.assertEqual(gid,'g'); self.assertEqual(out['state'],'running')
+            self.assertEqual(out['sent'],a['sent']);self.assertIn('error',out)
+
+    def test_duplicate_start_does_not_spawn(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(host,'ROOT',Path(d)):
+            (Path(d)/'state').mkdir()
+            (Path(d)/'state/g.json').write_text('{"state":"failed","pid":0}')
+            with patch.object(host.subprocess,'Popen') as spawn:
+                mailbox({'game_id':'g','start':True})
+                spawn.assert_not_called()
+
+    def test_host_refuses_fourth_live_worker(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(host,'ROOT',Path(d)):
+            (Path(d)/'state').mkdir()
+            for gid in ['a','b','c']:
+                (Path(d)/'state'/f'{gid}.json').write_text(json.dumps({'state':'running','pid':42}))
+            with patch.object(host,'live',side_effect=lambda pid,gid:gid in ['a','b','c']), patch.object(host.subprocess,'Popen') as spawn:
+                mailbox({'game_id':'d','start':True})
+                spawn.assert_not_called()
+
+    def test_lost_start_reply_does_not_duplicate_worker(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(host,'ROOT',Path(d)):
+            with patch.object(host.subprocess,'Popen') as spawn:
+                spawn.return_value.pid=123
+                mailbox({'game_id':'g','start':True})
+                mailbox({'game_id':'g','start':True})
+                self.assertEqual(spawn.call_count,1)
+
+    def test_late_old_mirror_cannot_regress_state(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(host,'ROOT',Path(d)):
+            def request(rev, text):
+                return {'game_id':'g','session_id':'s','revision':rev,
+                        'files':{'events.jsonl':base64.b64encode(text).decode()}}
+            host.mailbox(request(2,b'new\n'))
+            with self.assertRaises(ValueError): host.mailbox(request(1,b'old\n'))
+            self.assertEqual((Path(d)/'play/g/events.jsonl').read_bytes(),b'new\n')
+            with self.assertRaises(ValueError): host.mailbox(dict(request(3,b'other\n'),session_id='other'))
+            self.assertEqual((Path(d)/'play/g/events.jsonl').read_bytes(),b'new\n')
+
+    def test_stale_session_request_cannot_enter_inbox(self):
+        with tempfile.TemporaryDirectory() as d:
+            r=Path(d);(r/'inbox').mkdir();(r/'manifest.json').write_text('{"session_id":"new"}')
+            with self.assertRaises(ValueError): fleet.accept_request(r,'m1.json',b'{"action":"status"}','old')
+            self.assertFalse((r/'inbox/m1.json').exists())
+
+    def test_recovered_broker_rejects_old_import_before_handle(self):
+        from play_broker import Game
+        game=Game.__new__(Game);game.session='new'
+        with self.assertRaisesRegex(ValueError,'another interpreter session'):
+            game.handle({'action':'restart','_fleet_session_id':'old'})
+
+    def test_orphan_muse_retains_host_capacity(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(host,'ROOT',Path(d)):
+            (Path(d)/'state').mkdir()
+            for gid in ['a','b','c']: (Path(d)/'state'/f'{gid}.json').write_text('{}')
+            def st(g):return {'state':'absent' if g=='d' else 'running','alive':False,'muse_alive':g!='d'}
+            with patch.object(host,'state',side_effect=st),patch.object(host.subprocess,'Popen') as spawn:
+                mailbox({'game_id':'d','start':True});spawn.assert_not_called()
+
+    def test_ssh_failure_after_remote_acceptance_retains_slot(self):
+        with tempfile.TemporaryDirectory() as d:
+            r=Path(d);b=r/'play/g';(b/'responses').mkdir(parents=True);(b/'inbox').mkdir();c=r/'control/fleet';c.mkdir(parents=True)
+            (b/'manifest.json').write_text('{"session_id":"s"}');(b/'events.jsonl').write_text('')
+            a={'host':'h','state':'ready','session_id':'s','sent':{}}
+            def accepted_then_lost(h,payload):
+                self.assertEqual(payload['session_id'],'s'); self.assertTrue(payload['start'])
+                raise TimeoutError('remote accepted start; reply lost')
+            with patch.object(fleet,'ROOT',r),patch.object(fleet,'CONTROL',c),patch.object(fleet,'inventory',return_value=({}, {'g':[1]})),patch.object(fleet,'rpc',side_effect=accepted_then_lost) as rpc:
+                _,result=fleet.sync_one('g',a)
+                rpc.assert_called_once();self.assertEqual(result['state'],'ready');self.assertEqual(result['sent'],{})
+                self.assertIn('reply lost',result['error']);self.assertTrue((c/'g-revision.json').exists())
+
+    def test_matching_session_restart_cannot_discard_unresolved_input(self):
+        from play_broker import Game
+        game=Game.__new__(Game);game.session='s';game.unresolved_input='s:e1'
+        with patch.object(game,'close_engine') as close, patch.object(game,'start') as start:
+            with self.assertRaisesRegex(ValueError,'await_output before restart'):
+                game.handle({'action':'restart','_fleet_session_id':'s'})
+            close.assert_not_called();start.assert_not_called()
+
+    def test_bridge_blocks_restart_for_existing_broker_timeout(self):
+        with tempfile.TemporaryDirectory() as d:
+            r=Path(d);(r/'inbox').mkdir()
+            (r/'manifest.json').write_text('{"broker_guards":{"restart_timeout":1}}')
+            (r/'events.jsonl').write_text('{"engine_state":"no_output_timeout"}\n{"engine_state":"unchanged"}\n')
+            with self.assertRaisesRegex(ValueError,'restart held'):
+                fleet.accept_request(r,'m1.json',b'{"action":"restart"}')
+            self.assertFalse((r/'inbox/m1.json').exists())
+
+    def test_old_broker_restart_is_held_even_before_timeout_is_logged(self):
+        with tempfile.TemporaryDirectory() as d:
+            r=Path(d);(r/'inbox').mkdir();(r/'manifest.json').write_text('{"session_id":"s"}')
+            (r/'events.jsonl').write_text('{"engine_state":"awaiting_input_or_idle"}\n')
+            with self.assertRaisesRegex(ValueError,'older broker'):
+                fleet.accept_request(r,'m1.json',b'{"action":"restart"}','s')
+            self.assertFalse((r/'inbox/m1.json').exists())
+
+if __name__=='__main__': unittest.main()

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-09-25T06:24:25.877870+00:00",
+  "target": 10,
+  "workers": {
+    "curses": [
+      908334
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "zork-i7": [
+      1729082
+    ],
+    "so-far": [
+      1751669
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "tryst-of-fate": [
+      2968512
+    ],
+    "delusions": [
+      2999855
+    ],
+    "childs-play": [
+      2999896
+    ],
+    "moon-shaped": [
+      3005196
+    ],
+    "the-edifice": [
+      3111269
+    ]
+  },
+  "attention": [
+    "anchorhead: active launcher with unresolved interpreter timeout"
+  ],
+  "ending_review_pending": [
+    "savoir-faire",
+    "jewel-of-knowledge",
+    "reverberations"
+  ],
+  "queued": [
+    "mother-loose",
+    "paper-chase",
+    "hunt-for-relief",
+    "mansion",
+    "pick-up-the-phone-booth-and-aisle",
+    "bse",
+    "bedlam",
+    "critical-breach",
+    "danger-adventurer-at-work"
+  ]
+}

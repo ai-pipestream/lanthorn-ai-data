@@ -1,0 +1,14 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — branch b2 Chamber of Dust e472)
+
+Game R3/051012, session dracula-prince-of-darkness-d75c304699, branch b2 (restored from croc-passage after b1 pirate-attack death e453).
+Actual state b2: Chamber of Dust e472 (via oak door north e469). Bare vault, marble slab with pale living woman (cobwebs, stigmata-like wounds, whispers "So cold / All is lost" e471), oak door south, steep stone steps up to narrow passage. Ordinary prompt. Ticking gone after Lenore release. No quit/ending. Light: hot bottle carried since e342 — conserve.
+
+Inventory b2 (as carried): old snow shovel + tinderbox + glowing hot bottle + Castle key (taken e461 central cave after croc release). Corpse dropped at rats on b1 (pre-restore).
+
+Key results b2 e454-e472: restore croc-passage b2 e454-455 verified southern dry e456; set-lock-1845 e457 freed Lenore (notice year) — croc down steps, pirate "You Bastard", ticking stopped; down e458 steps, down e459 eastern (no tick), west e460 central — pirate gone, croc swimming lazily, Castle key visible; take-key e461 Taken (short phrasing now succeeds — contrasts b1 pirate-neck failures); east e462, up e463 steps, up e464 southern (croc/notice gone), north e465 northern door, unlock-door-with-key e466 opened; checkpoint oak-door-open e467-468; north e469 Chamber of Dust; examine-lady e470 fail, examine-woman e471 success, annotated e472 vocabulary.
+
+Unresolved b1/b2: annotate open-door-locked e420 vs unlock e466 (world_state/planning — short phrasing understood, key prerequisite); annotate pirate-neck-key failures e429-e437 + ask-dialogues e450-451 + cut/attack (planning/vocabulary — neck key not separate object; Castle key appears only after 1845 release; attack e453 death by pirate, early death not ending); annotate take-key short now-success e461 (none — accepted); annotate padlock-1845 e457 (none/planning — year clue, not wording); Chapel confrontation + escape/finale still required per manifest (final door + southward movement + concluding narrative), never QUIT/death/chapter-only.
+
+Checkpoints: waterfall; croc-passage (b1 pre-death, b2 origin); oak-door-open (b2 last safe before Chamber). Consider checkpoint in Chamber only after woman/puzzle safely handled.
+
+Resume b2 Chamber e472: 1) probe woman aid (warm/cover/speak) carefully with checkpoint; 2) up steps to narrow passage toward Castle Chapel confrontation; 3) help after two failures; 4) continue to verified winning escape narrative with raw evidence.

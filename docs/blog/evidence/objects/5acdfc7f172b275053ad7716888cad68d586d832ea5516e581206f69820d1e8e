@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "game_id": "zork-i7",
+      "title": "Zork/Dungeon 3.2B, Inform 7 port, Release 4 / 190920",
+      "engine": "gvm-cli",
+      "story": "/home/krickert/if-games/glulx/ZorkI7.ulx",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/zork-port-walkthrough.txt",
+      "walkthrough_url": "https://www.ifarchive.org/if-archive/games/source/inform/ZorkI7.zip#ZorkAndDungeonWalkthroughForCopyPaste.txt",
+      "completion": "Require actual game ending text; score or process exit alone is not completion.",
+      "recovery_reason": "Explicit broker event-cap recovery from fresh engine-confirmed checkpoint, no pending replay.",
+      "response_timeout_seconds": 180,
+      "recovery_checkpoint": "pool-cap-2499",
+      "automatic_checkpoints": false,
+      "max_events": 100000
+    }
+  ]
+}

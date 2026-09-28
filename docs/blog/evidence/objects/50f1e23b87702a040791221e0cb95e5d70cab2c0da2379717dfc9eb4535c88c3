@@ -1,0 +1,14 @@
+{
+  "url": "https://ifarchive.org/if-archive/solutions/photopia.sol",
+  "accessed_at": "2026-09-25T01:54:40.951839+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/photopia.source",
+  "source_sha256": "e5371d82efa233b0b9744f273de420a873d0f8867dec2b14ffc262c36b9e6ba6",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/photopia-walkthrough.txt",
+  "normalized_sha256": "fc7e0e1eb83689f12399175a932c3c7d737e66765b153a85e0b60f656f876268",
+  "reuse_permission": "unknown; private collection only",
+  "compatibility": "Shade guide explicitly R3; Suveh Nux guide v1.0; Photopia release unspecified",
+  "game_id": "photopia",
+  "story": "/home/krickert/if-games/zcode/photopia.z5",
+  "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+  "title": "Photopia"
+}

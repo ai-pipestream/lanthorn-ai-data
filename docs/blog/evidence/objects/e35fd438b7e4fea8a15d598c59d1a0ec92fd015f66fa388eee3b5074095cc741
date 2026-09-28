@@ -1,0 +1,15 @@
+# Slacker X progress - WON
+
+Location: Log cabin with Yrrab - WON e119. Game prompts RESTART/RESTORE/QUIT; no further game input.
+Inventory at win: closed envelope (given), Twenty Dollar bill, SPANK, satchel, Dolemite ON. Bag given to Barry.
+Score: 48/52 in 50 turns at win e119 (real win, not spurious).
+
+Route to win: s outside shack e115; w log cabin Yrrab e116; checkpoint before-yrrab e117-e118; give envelope e119 auto-(to Yrrab) WIN annotated e120.
+
+Win text e119: Barry sent you? come downstairs, get far away; Stay tuned sequel Operation: Thrasher; *** You have won *** 48/52 50 turns.
+
+Cases final: yrrab-give-omit e119 annotated e120 none (omit-recipient accepted, triggers win).
+
+Checkpoints: early-bedroom; before-jeremy b0; before-jeremy-lit b1; after-cody b1; before-bill-bag b1; before-eat-pot b1; before-yrrab b1 e117-e118 (verified).
+
+Hints: all excerpts walkthrough-only, not observed. Completion via raw win output e119, parent to verify.

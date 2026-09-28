@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-09-25T03:30:48.831934+00:00",
+  "verdict": "verified intended curse-lifting ending",
+  "event": {
+    "event_id": "voodoo-castle-5bd0b59cae:e00763",
+    "timestamp": "2026-09-25T03:26:54.211136+00:00",
+    "game_id": "voodoo-castle",
+    "session_id": "voodoo-castle-5bd0b59cae",
+    "branch_id": "b2",
+    "event_index": 763,
+    "event_type": "command",
+    "command": "YELL CHANT",
+    "response": "YELL CHANT\nThere's a CLAP OF THUNDER!\nPins fall out of doll\nHURRAH! Look who is in the room!\nThe game is now over.\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Open Coffin\n  Smiling Count Cristo\n",
+    "raw_start": 67015,
+    "raw_end": 67243,
+    "response_sha256": "469d368636df3267da2837559e645623bb26c55ba7521b94151d4a7d81a81b25",
+    "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+    "engine_state": "engine_exited",
+    "metadata": {
+      "case_id": "b2-ritual-after-foot",
+      "intent": "Yell CHANT to complete curse removal",
+      "origin": "guided",
+      "expected_outcome": "Count freed TA-DA or Nothing happened"
+    },
+    "review_status": "unreviewed"
+  },
+  "raw_bytes_and_text_verified": true,
+  "basis": "Pins fall out, smiling rescued Count, explicit game over and engine exit after ritual; not a death or quit."
+}

@@ -1,0 +1,19 @@
+# Spider and Web — collection progress
+
+## Current state (event e00049, branch b0)
+- Location: White Junction (bare tiled corridor; exits north, east, southeast curve).
+- Inventory: lockpick used on alley plate (attached, status went green/blue, door opened). Current carriage unverified since rewind; expect more equipment to be revealed.
+- Checkpoints: `start-alley` (ordinary prompt at game start), `package` (White Junction arrival).
+- Last hint (walkthrough tangle.sol): "White Junction: save 'package', N, Jump, Look in the hole, Get package".
+
+## Cases collected so far
+- Annotated (1): `alley3-lockpick-syn3` — "unlock door with lockpick" rejected ("It's not clear precisely how..."), corrected by "put rod on plate" (e00035→e00036, planning, intent preserved).
+- Pending annotation: `alley-door-syn1` ("open door" → "You can't see how", e00005) — needs door-open success link; door did open via rod-on-plate + waits (e00036–e00040). Annotate once route confirmed as the intended correction.
+- Raw probes awaiting annotation: "press plate" (e00009, Nothing happens), "touch plate" (e00010), "push plate" first visit (e00012) and second visit (e00018) — all no-ops; walkthrough shows plate pushing was never the solution (knock → interrogation → lockpick was). These support vocabulary/world_state notes but need care: push/press/touch all behave identically (no-op), so the pair among them is failure_type none if annotated, or use knock/lockpick path as planning correction.
+- Interrogation answers: yes (e00016), yes-lockpick (e00031), no-equipment (e00042), silence rejected ("I beg your pardon?", e00044), look (e00045), wait advances (e00046). "wait" = remain silent is the useful recovery for stalled interrogation.
+
+## Next actions
+1. Follow hint: N, then Jump, look in hole, get package (one command per request while probing; new room = synthetic probe first).
+2. At each new room/puzzle: one plausible user-style variation before canonical (synonyms, typo, omitted object, wrong object, blocked action). Aim 20–40 total across full game.
+3. Checkpoint at milestones ("package" done; next after package retrieval / lab entry).
+4. Annotate linked pairs only after game confirms intended effect.

@@ -1,0 +1,12 @@
+# Gumshoe progress — b3 Inside Alibi e00848, m0723 resolved (game incomplete)
+
+## State
+- b3 Inside the Alibi at ordinary prompt. e00848 `throw dart at board` -> `(the dart at the dartboard) sticks in number two.` No score.
+- RESOLVED: m0717 throw e00842 number eight Score 18; m0718 get e00843 taken; m0719 throw e00844 number nine; m0720 get e00845 taken; m0721 throw e00846 number seven; m0722 get e00847 taken; m0723 throw e00848 number two.
+- PENDING: none. NEVER resubmit m0601-m0723 or duplicate under a new name.
+- Evidence: events through e00848, responses through m0723, latest e00848, saves through b3-alibi-arrival. Own: progress.md + inbox/m0601-m0723.
+- b3 route per walkthrough excerpt e00821 (hint only): `Get dart. Throw dart at board` repeat until bullseye +1; then jukebox/album 14 song 7 sequence. Bullseye not yet observed; Score 18 came on number eight e00842.
+
+## Next
+- `get dart` / `throw dart at board` loop 1 at a time to bullseye.
+- Checkpoints only at ordinary prompts; verify success responses.

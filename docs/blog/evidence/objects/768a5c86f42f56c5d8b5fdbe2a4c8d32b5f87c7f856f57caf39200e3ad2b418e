@@ -1,0 +1,12 @@
+# Heist progress (paused, game incomplete — step budget stop)
+
+Location: Altar (dark stone altar, priest quarters west, stained glass Holy Crusade window).
+Inventory (e00120): short stick of wood, wooden cane, shiny steel key, polythene, rope, iron bar (=rung), mechanical arm, bag open (glass cutter, boy photo, ribbon, wooden box closed, letter, silver frame holding student photo). Then e00121: stick+cane merged into WOODEN CRUCIFIX. Score 11.
+
+Checkpoints verified: early-graveyard, grave-coffin, industrial-machine, church-organ (Saved Ok, e00100).
+
+Cases: 25 annotated (through m0114 cane-snap-verb vocabulary). Pending: m0117 'x window' — submitted, response NOT yet read; read responses/m0117.json on resume. Do NOT resubmit m0117. Do NOT treat window as examined.
+
+Last hint (e00095 church lines 31-39): ...break cane. i. put short stick in groove. cut glass. get red glass. w. put cross in hole. x statue. x eye. put red glass in niche. x painting. (Note clue and date). turn cross. get photo. e. s. s. s. Verified through put short stick in groove (e00121, crucifix, score 11).
+
+Next on resume: read responses/m0117.json; probe before 'cut glass' (e.g. 'break window' or 'take glass'); then cut glass, get red glass, w, put cross in hole. Need 20-40 cases total; currently 25.

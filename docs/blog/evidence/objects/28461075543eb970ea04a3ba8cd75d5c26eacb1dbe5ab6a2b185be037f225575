@@ -1,0 +1,21 @@
+# Progress – jewel-of-knowledge
+
+Location: Rocky Plateau, Sixth Layer (start of main game). Exits: west, northeast (open areas), north (gaping lava tube). Cool breeze west→northeast. Jacob's body here.
+Inventory (observed after fall): sword kept; lost rucksack and other possessions per narrative – need to verify with inventory command.
+Companion: Jacob dead (cushioned fall).
+
+Checkpoints: start-fifth-layer (Ok), sixth-layer-plateau (Ok).
+
+Cases:
+- syn01-open-backpack vocab, annotated failure w/ vocab fix proven, e00007/e00009
+- syn02-talk-jacob vocab talk→ask, annotated success, e00014/e00015
+- syn03-ask-druids-noprep syntax omit-about, annotated success, e00027/e00028
+- syn04-ask-ariana-typo vocab arianna→ariana, annotated success, e00030/e00031
+- syn05-ask-dragon-singular none (singular accepted), annotated success, e00033
+- PENDING: book-ordering world_state (early ask book dazed e00021/e00022 vs post-prereq ask book triggers fall e00035) – needs annotation
+
+Last hints:
+- m0024 lines 26-34: druids, Ariana (lock clue), dragons, book, (darn!)
+- m0018 lines 31-39: Ask him about book (darn!) The Beginning (6th layer) Verbose I. Drop all
+
+Next: inventory check; annotate book-ordering; follow 6th-layer beginning (verbose, inventory); explore west/NE/north; need 15-35 more diverse synthetic cases.

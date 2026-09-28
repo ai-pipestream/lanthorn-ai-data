@@ -1,0 +1,24 @@
+{
+  "event_id": "jigsaw-673cabd620:e02397",
+  "timestamp": "2026-09-25T08:36:25.211233+00:00",
+  "game_id": "jigsaw",
+  "session_id": "jigsaw-673cabd620",
+  "branch_id": "b9",
+  "event_index": 2397,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 427301,
+  "raw_end": 427301,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "Together you set out to live through the twentieth century and the journey of \nits strange and vivid days.",
+    "evidence_event_ids": [
+      "jigsaw-673cabd620:e02396"
+    ],
+    "notes": "Genuine winning ending: '*** You have won ***', 100/100, 1364 turns, rank Centurion, after destroying Kaldecki machinery (grenade) and giving the Teddy Bear to Black in the Epilogue. Not death, quitting, or intermediate score."
+  },
+  "review_status": "unreviewed"
+}

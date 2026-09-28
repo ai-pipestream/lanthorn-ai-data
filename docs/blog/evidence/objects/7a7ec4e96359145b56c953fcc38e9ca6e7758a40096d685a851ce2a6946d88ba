@@ -1,0 +1,24 @@
+{
+  "event_id": "paper-chase-23fbd9b726:e00336",
+  "timestamp": "2026-09-25T07:00:25.531165+00:00",
+  "game_id": "paper-chase",
+  "session_id": "paper-chase-23fbd9b726",
+  "branch_id": "b4",
+  "event_index": 336,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 30482,
+  "raw_end": 30482,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "You leave the college, never to return.\n\n\n    *** You have graduated ***\n\n\nIn that game you scored 98 out of a possible 100, in 126 turns.",
+    "evidence_event_ids": [
+      "paper-chase-23fbd9b726:e00335"
+    ],
+    "notes": "Genuine author-intended graduation: completed registration, tuition, English, psych/folder, gym sober, Bar pin/bottle/sheet, Chemistry with cheat sheet, transcript receipt, Records report, Dean ID/tuition/report/folder blackmail, took degree (score 98), exited via forest and confirmed leave with yes. Ending text 'You have graduated' with final score, not death, chapter transition, or quit."
+  },
+  "review_status": "unreviewed"
+}

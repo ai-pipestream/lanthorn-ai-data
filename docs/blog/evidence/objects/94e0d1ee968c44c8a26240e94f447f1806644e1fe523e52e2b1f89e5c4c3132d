@@ -1,0 +1,17 @@
+{
+  "game_id": "change-in-weather",
+  "title": "A Change in the Weather",
+  "url": "https://ifarchive.org/if-archive/solutions/weather.sol",
+  "accessed_at": "2026-09-25T04:43:24.236040+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/weather.sol",
+  "source_sha256": "232f70b1497cf04a80ed22a1e666e09e0efb8411e036b5c2857110539c3eb450",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/change-in-weather-walkthrough.txt",
+  "normalized_sha256": "232f70b1497cf04a80ed22a1e666e09e0efb8411e036b5c2857110539c3eb450",
+  "story": "/home/krickert/if-games/zcode/weather.z5",
+  "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+  "compatibility": "Guide explicitly R6/960613; compare actual story header. Timed puzzle: collect safe probes/checkpoints without labeling an early flood/death as completion.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 6,
+  "serial": "960613"
+}

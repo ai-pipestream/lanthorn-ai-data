@@ -1,0 +1,18 @@
+{
+  "game_id": "savoir-faire",
+  "title": "Savoir-Faire",
+  "url": "https://ifarchive.org/if-archive/solutions/savoir.html",
+  "accessed_at": "2026-09-25T03:09:31.845498+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/savoir-faire.source",
+  "source_sha256": "e08df01d953c34544bf3b9ae30d9cc73606d7673e848c0aa4ece0aa7e56c1d0b",
+  "encoding": "iso-8859-1",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/savoir-faire-walkthrough.txt",
+  "normalized_sha256": "bbec6fe6ab0b35dc9d52d2460c5746ae24ccc2627df52b213c7a60ecb6f97d1b",
+  "story": "/home/krickert/if-games/zcode/Savoir-Faire.zblorb",
+  "story_sha256": "682cca3629facd0dc1ab0a2d6f4b96be46522a63138f916395ae35db1f793eb1",
+  "compatibility": "Guide explicitly R6; selected story R8/040205. Full-route compatibility unproven. Guide intentionally includes false/nonessential steps.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 8,
+  "serial": "040205"
+}

@@ -1,0 +1,15 @@
+# Save Princeton — progress
+
+Location: Small Bedroom (west of Common Room), with Eric. Score 10.
+Inventory (observed): violin given to Eric (e00024); disk given to Jacob; poster/laundry/homework visible, poster not yet taken.
+Checkpoints: start-common-room verified.
+Cases:
+- envelope-read (world_state, e00005->e00007, annotated e00008)
+- take-disk get synonym (none, e00009, e00010)
+- ask-jacob bare->about names (syntax, e00012->e00013, e00014)
+- give-disk word order (none, e00015, e00016)
+- violin typo violon->violin (vocabulary, e00017->e00018, e00019)
+- play violin (none, e00022, e00023)
+- give it to eric pronoun (none, e00024, annotation m0022 pending)
+Last hint: take disk/south/ask names/give disk/take violin/west/give violin/take poster (e00006, verified so far).
+Next: confirm m0022 annotation, take poster (probe wording), east to Common Room, checkpoint, request next hint.

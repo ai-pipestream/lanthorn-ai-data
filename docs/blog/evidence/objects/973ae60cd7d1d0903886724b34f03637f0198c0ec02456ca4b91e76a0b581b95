@@ -1,0 +1,77 @@
+{
+  "game_id": "danger-adventurer-at-work",
+  "title": "Danger! Adventurer at Work!",
+  "author": "Simon Avery; Inform port by Duncan Cross",
+  "url": "https://ifarchive.org/if-archive/solutions/atwork.sol",
+  "accessed_at": "2026-09-25T06:11:49.572275+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/atwork.sol",
+  "source_sha256": "9d98a09a54cd9c1a05e552fb8ab5e1b97a41e831d35b85dad19fc763b53c0840",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/danger-adventurer-at-work-walkthrough.txt",
+  "normalized_sha256": "9d98a09a54cd9c1a05e552fb8ab5e1b97a41e831d35b85dad19fc763b53c0840",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/AtWork.z5",
+  "story_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+  "compatibility": "Local R1/000705 matches archive. Guide explicitly covers Duncan Cross's Inform port of Simon Avery's Quill game and shares its IFDB identity; no guide release/serial is given. Original Quill identity is preserved without assuming parser compatibility across ports.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "000705",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001432c432d31e0010a1f2329fd005030303037303500424c052cb8000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "78c140748adbc128608265fd8c96b6c7c647dc0681db5e953e515f1b48065497",
+    "checksum_hex": "2cb8",
+    "declared_length": 77844,
+    "file_bytes": 78336
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "AtWork.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/AtWork.z5",
+    "accessed_at": "2026-09-25T06:13:02.489242+00:00",
+    "remote_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+    "local_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+    "bytes": 78336,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "000705"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#AtWork.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "AtWork.z5\n◆\n[05-Jul-2000]\nIFDB entry\nIFWiki:\nDanger! Adventurer at Work!\nDanger! Adventurer At Work! originally written by\nSimon Avery using The Quill.\nPorted to Inform by Duncan Cross.\nRelease 1 / Serial number 000705.",
+    "tuid": "p0sm7uf4nvwovubo"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#atwork.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "atwork.sol\n◆\n[07-May-2001]\nIFDB entry\nIFWiki:\nDanger!_Adventurer_at_Work!\nWalkthrough for \"Danger! Adventurer at work!\",\noriginally a Quill game by Simon Avery and then\nported to Inform by Duncan Cross.",
+    "tuid": "p0sm7uf4nvwovubo"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the full object-exchange and body-building adventure through the chasm, river and final pony ride, then verify the genuine authored concluding narrative. An intermediate exchange, riding an animal without conclusion or a score alone does not establish completion.",
+    "limitations": "Guide contains old parser shorthand such as lobe/loun and abbreviated body-part nouns; adapt from actual parser feedback. Parenthesized examination and amusement commands are optional. Save before irreversible traversal or explosive sequences and avoid probes during timed hazards.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "danger-adventurer-at-work",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Same Quill author/Inform porter as batch A Gerbil Riot does not alone prove common puzzles/world. Guide contains Humpty and a balrog, but no concrete puzzle overlap was established with batch B Mother Loose. Keep standalone train provisionally; parent should revisit if a specific reused puzzle appears."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission."
+}

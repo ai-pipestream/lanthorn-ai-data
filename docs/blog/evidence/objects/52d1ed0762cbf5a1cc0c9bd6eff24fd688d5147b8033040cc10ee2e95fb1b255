@@ -1,0 +1,16 @@
+# Kook U — progress (update 5)
+
+Session kook-u-ef2767bf50 b2. Score 37. Release 1/971119.
+
+Current: Study Hall (n of Law Library). John Grubor dead via article (janitors cleaned). Corridor south.
+Inventory: beeper, Cabal card, unlabeled tape, newspaper article (used), bill.
+Checkpoints: grubor-done verified e00063-64; library-april, outside-cs.
+
+Cases:
+- law-north-corridor (n -> Study Hall with Grubor e00060)
+- grubor-article-give-wording: e00061 'give article to grubor' accepted, suicide, score 37. Annotated e00062 failure_type none.
+Unresolved: player location; loan room/fan/pack; Sanford/Implant/Boursy/April/Neutopia actions; dean/finale.
+
+Hints: grubor done; sanford/show bill; implant Al/kill; april player puzzle; loan fan/pack; neutopia give joint; go dean.
+
+Next: look in Study Hall; s to Law Library; map Outside Law north/south; find Sanford etc.

@@ -1,0 +1,19 @@
+# Progress - A Bear's Night Out (COMPLETE, WON 33/33)
+
+## Final state
+*** You have won *** - score 33 out of 33, rank lifelong companion (e00366).
+Ending: bear settles in bed, morning comes, Teddy Bear Picnic day; baguette found, reply card turns up; jar of honey enjoyed by all.
+
+## Last verified route (jar hunt -> finale)
+- Honey vanish: put honey in basket -> royal honey disappears as unwinnable-item joke (e00347, score stays 29).
+- take basket refused (too big) + in-game hint to re-look in Kitchen (e00349).
+- Re-look Kitchen: honey jar NOW on bench (appears only after royal honey vanishes). Guide's "Living Room" header for push-jar is wrong for R5; Kitchen is correct.
+- probe60 push jar off bench (syntax fail, can't resolve) -> push jar: bounces via foam+chair into basket, +4 = 33 (e00353/354).
+- probe61 get in bed accepted none. probe62 go to sleep (GO TO parse fail) -> sleep: WIN (e00365/366).
+- Back-annotations filed: probe33 none, probe34 none (limitation noted), probe35 world_state intent-not-preserved (basket unclimbable; bench via cat puzzle e00213).
+
+## Collection totals (segment 2)
+Probes 36-62, all annotated: vocab (rattle, toss, call), syntax (dial omitted, get down, drag w/o direction, push jar off, go to sleep), ambiguity (put disk), world_state (get chip already-have, bread holding, climb basket), none-acceptances (pet, sit on, play tape, listen, search box, leap onto, insert chip, switch on, mail box spaced, get blue, shut trapdoor, put on hat, up full, show dative, stick stamp, get in bed).
+
+## Checkpoints (all ok)
+start-bedroom, south-hallway-ball, kitchen-bench, bathroom-hole, living-yoyo-charged, deep-hole-key, kitchen-tape, bench-phone, phone-done, computer-done, jar-done

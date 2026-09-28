@@ -1,0 +1,10 @@
+# HLA Inform progress — Intersection cavern approach (INCOMPLETE)
+
+Location: Intersection forest (e00405). White portal, hellhound guarding cavern entrance, wolf + werewolf present. Exits <north,south,east,west,down,in>.
+Stats: hp 1197, g 2175, exp 656, food ~64 (e00404). Lantern light.
+Cases: hall-mirror-120 fail e00399. hallway-south-121 south e00400 mansion front. mansionfront-south-122 south e00401 End of path (yellow portal). checkpoint portal-mansion e00402-403 VERIFIED. portal-enter-123 success e00405 (enter portal -> Intersection, hellhound).
+Checkpoints verified: portal-mansion e00402-403 (latest), corridor-master, butler-done, mansion-butler, sorcerer-done, intersection-portal, knight-done.
+Route tail: examine mirror e00398 -> annot e00399 -> south e00400 mansion front -> south e00401 End of path portal -> checkpoint portal-mansion e00402-403 -> enter portal e00404 Intersection -> annot e00405.
+Quests done: Goblin(2), Paladin loot, Barbarian(3), Castle/Knight, Sorcerer(4), Mansion/Butler. Remaining: board quests 5,7,8 + Dragon 9 (GameWon + deadflag=2 required).
+Game NOT complete: no dragon, no GameWon narrative. No death/quit. Ordinary prompt at Intersection; hellhound present — combat risk.
+Next: checkpoint at Intersection; probe hellhound (examine?) then cavern entry (down/in) with single commands; annotate; restore portal-mansion if death. Hints so far: flute/board start, buckler+Tursk caverns, quest-6 werewolf+food (all provisional, walkthrough only). Do NOT resubmit m0443. Food ~64, hp strong.

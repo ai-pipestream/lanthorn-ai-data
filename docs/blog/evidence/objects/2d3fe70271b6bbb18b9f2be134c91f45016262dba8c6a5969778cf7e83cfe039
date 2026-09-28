@@ -1,0 +1,18 @@
+{
+  "story": "Heroine.z8",
+  "guide": "Heroine.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/Heroine.sol",
+  "accessed_at": "2026-09-25T06:02:04.053772+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 8,
+  "release": 3,
+  "serial": "001211",
+  "sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+  "bytes": 523776,
+  "header_hex": "08000003e1d0e1d1882601f467a6737d0010303031323131012cff9fbd2500000000000000000000000000000000737c00000000000001ec00000000362e3231",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/Heroine.z8",
+  "story_accessed_at": "2026-09-25T06:03:44.317613+00:00",
+  "downloaded_story_sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+  "download_matches_local": true
+}

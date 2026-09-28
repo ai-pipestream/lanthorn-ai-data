@@ -1,0 +1,18 @@
+# Heroine's Mantle — progress (b1 laptop trigger, Score 39 Moves 177)
+
+Current location: President's Office, Score 39, Moves 177 (e00398-399, b1).
+Description: guard zapped unconscious; sliding door open (jacket/dress, perfume, whistling/splashing); vidphone by sliding door transmitting Mistletoe audio; laptop reacted, prompts first codekey.
+Inventory: taser held? phone placed by door (not held); gum in hand after removal; knife in bra; chain/bracelet/underwear worn.
+Branch: b1. Checkpoints: s33 restored to b1; s36 saved Moves 172 Score 36 (e00387-388 Ok).
+
+Cases b1 (synthetic_probe unless noted; annotated):
+- office-guard-route b1 retry (guided): call ACYB25P Moves 166; z 167 beeps; z 168 beeps (no guard, shifted vs b0); z 169 beeps; z 170 guard at desk checking machine; shoot guard Moves 171 Score 36 success (e00385); d Moves 172 safe descent (e00386)
+- office-open-sliding-probe (none e00390-391; open sliding door = open door, Moves 173)
+- office-laptop-route (guided e00392; x phone Moves 174, gum on lens, keyboard brightly lit)
+- office-remove-gum-probe (none e00393-394; remove gum = get gum, lens clean, Moves 175)
+- office-flip-switch-probe (vocabulary e00395 fail + e00396 success, e00397; flip unknown verb; turn on switch amplifier on, Moves 176)
+- office-place-phone-probe (none e00398-399; place phone in door = put phone in door, Mistletoe audio, laptop codekey prompt, Score 39 Moves 177)
+- b0 lesson preserved: shoot after guard leaves fails (e00373), d then dies (e00377, not an ending); restored s33 to b1.
+
+Last hint (walkthrough, NOT observed): e00389 lines 217-225 The Laptop (open door; x phone; get gum; turn on switch; put phone in door; laptop turns on in a moment; z.z.z 3/39).
+Next: z,z,z to let laptop turn on; expect Score 39 already achieved (3/39 matches). Then help next for codekey sequence. Game incomplete — Crusader/helicopter finale still required.

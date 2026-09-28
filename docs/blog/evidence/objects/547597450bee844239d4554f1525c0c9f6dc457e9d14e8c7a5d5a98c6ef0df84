@@ -1,0 +1,28 @@
+# Baltimore:24 progress
+
+## Current location (observed)
+- Your Hotel Room, morning after sleep/wakeup call. Objective: get to Baltimore Harbor and meet Robert. Score 15.
+
+## Inventory (observed)
+- wallet, beeper, cellular phone, Cisco 1000 Router, room key (from checkin)
+- Thunderbird parked outside, engine off
+
+## Cases (14 total, 0 unresolved)
+- check-router none e00006; wallet-typo vocab e00009->11; grab-router vocab e00013->14
+- go-offices syntax e00020->21; go-out syntax e00030->31; enter-car none e00033
+- start-car vocab e00035->36; read-billboard none e00046; turn-car-off-wordorder none e00050
+- leave-car none e00052; check-in-two-words syntax e00057->58; call-provider syntax e00060->61
+- lie-on-bed vocab e00063->64
+- Last route: Ramada parking -> outside lobby -> lobby (elevator, desk west, rooms east) -> front desk (clerk, matchbook, sign) -> checkin to hotel room -> call (Robert at Promenade bar, score 15) -> sleep to morning
+
+## Last hint
+- m0045: turn off car/out/n/n/w/checkin/call/sleep done. Need Harbor/Promenade/ Robert delivery steps next.
+
+## Next actions
+- Get next walkthrough excerpt for Harbor route
+- Explore hotel room (look, inventory, exits) before leaving
+- Preserve router (must bring to Robert); avoid score-bug retakes
+- Varied probes: pronoun, omitted object, typo, wrong object
+
+## Checkpoints
+- start-computer-room, offices-with-router, delaware-route-295, morning-after-sleep (all Ok)

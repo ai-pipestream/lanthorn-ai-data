@@ -1,0 +1,19 @@
+{
+  "game_id": "childs-play",
+  "title": "Child's Play",
+  "url": "https://ifarchive.org/if-archive/solutions/cplay-hints.html",
+  "accessed_at": "2026-09-25T05:29:10.707295+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/cplay-hints.html",
+  "source_sha256": "a2550b0dd0de245e41f2ca205df356854ed25c0cc297f192e8a3423d0c46b849",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/childs-play-walkthrough.txt",
+  "normalized_sha256": "b2c44764b5b0c36721092b58d76761447f3128986467dcdfbdffb7670fb9d467",
+  "normalization": "HTMLParser text extraction excluding style/script; hidden hint text retained; whitespace normalized",
+  "story": "/home/krickert/if-games/zcode/ChildsPlay.zblorb",
+  "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+  "embedded_zcode_sha256": "eb643fc02303d51032ac5646176eeedd91e588e41883458451af87c8800295e9",
+  "compatibility": "Story embedded Z8 R4/080129. Author Stephen Granade hints archived February2008; guide release unspecified. Hints contain deliberate joke/non-game questions. Verify advice against observed output, and seek final toy-retrieval ending, not a chapter transition.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "080129"
+}

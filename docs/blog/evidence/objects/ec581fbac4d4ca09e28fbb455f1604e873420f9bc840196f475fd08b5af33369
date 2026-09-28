@@ -1,0 +1,173 @@
+{
+  "at": "2026-09-25T08:12:52.364947+00:00",
+  "game_id": "believable-adventures-invisible-man",
+  "session_id": "believable-adventures-invisible-man-5201a7e372",
+  "header": {
+    "version": 8,
+    "release": 2,
+    "serial": "100130"
+  },
+  "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+  "embedded_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+  "events": [
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00001",
+      "timestamp": "2026-09-25T08:02:20.598623+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\nYou've always been an outsider. At school, being interested in science, the \nother students didn't want to have anything to do with you. The other boys \nlaughed at you, the girls despised you. Your parents didn't understand you. And \neven your teachers were so far below your intellectual level that you couldn't \nhave a serious conversation with them! This went so far that you always got bad \ngrades, although you were smarter than everybody else - your stupid teachers \nsimply never saw it.\n\nNow, after years of restless private scientific research, you've finally \nachieved your goal: You've found the secret of invisibility. Everyone at work \n(you don't know any people outside work) said you were mad when you announced \nyour plans... especially your boss who just laughed and said a lowly research \nassistant working at a second-rate university would never be able to do it. He \nonly hired you to do the most stupid, repetitive and primitive of work, after \nall. Most of the day, you're forced to clean test tubes. Nobody has ever \nrecognised your genius! Now you've proven them all wrong - and you'll have your \nrevenge on them! Yes, revenge... the only thing you can think of right now. \nRevenge. Revenge! REVENGE!\n\nThe Believable Adventures of an Invisible Man\nA Reasonably Realistic Revenge Romp by Hannes Schueller\nRelease 2 / Serial number 100130 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) \nFirst time players, please type ABOUT!\n\nUnderground Laboratory\nYour laboratory (or lair as you sometimes like calling it) has grown to \nextensive proportions over the years. You're very proud of it, but you've never \nshown it to anyone. It's a secret, after all. Not that anyone has ever visited \nyou anyway, but if someone had, he or she certainly wouldn't have gotten to see \nyour lab!\n\nYou can see a computer, a whiteboard, a workbench (on which are a test tube (in \nwhich is an invisibility potion), a badge and a pen) and a wardrobe (closed) \nhere.\n\n>",
+      "raw_start": 0,
+      "raw_end": 1964,
+      "response_sha256": "9412e70f7800a791d60ae936cde19e17e805bd2d1c6d01d052c485f2148b8950",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00002",
+      "timestamp": "2026-09-25T08:02:51.078942+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1964,
+      "raw_end": 1978,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+        "name": "start-lab"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00003",
+      "timestamp": "2026-09-25T08:02:51.381797+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint_filename",
+      "command": "start-lab.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/believable-adventures-invisible-man/saves/invisible.z8.save/start-lab.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1978,
+      "raw_end": 2122,
+      "response_sha256": "78664ebb256d9e31976489a46f2f58aca89aae85c01538e98794e3a91536b670",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+        "name": "start-lab"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00004",
+      "timestamp": "2026-09-25T08:03:15.130960+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "survey the lab",
+      "response": "That's not a verb I recognise.\n\n>",
+      "raw_start": 2122,
+      "raw_end": 2155,
+      "response_sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+        "case_id": "lab-look-synonym",
+        "expected_outcome": "Room description of Underground Laboratory",
+        "intent": "Describe my current surroundings",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00006",
+      "timestamp": "2026-09-25T08:03:51.984776+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "command",
+      "command": "look",
+      "response": "Underground Laboratory\nYour laboratory (or lair as you sometimes like calling it) has grown to \nextensive proportions over the years. You're very proud of it, but you've never \nshown it to anyone. It's a secret, after all. Not that anyone has ever visited \nyou anyway, but if someone had, he or she certainly wouldn't have gotten to see \nyour lab!\n\nYou can see a computer, a whiteboard, a workbench (on which are a test tube (in \nwhich is an invisibility potion), a badge and a pen) and a wardrobe (closed) \nhere.\n\n>",
+      "raw_start": 2155,
+      "raw_end": 2671,
+      "response_sha256": "d0498468f236f97dbde0f3d7ac08098bb3c6c2ea07edc98c697544cda319a557",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+        "case_id": "lab-look-synonym",
+        "expected_outcome": "Room description of Underground Laboratory",
+        "intent": "Describe my current surroundings",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00008",
+      "timestamp": "2026-09-25T08:04:21.930998+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "command",
+      "command": "check my pockets",
+      "response": "You can't see any such thing.\n\n>",
+      "raw_start": 2671,
+      "raw_end": 2703,
+      "response_sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+        "case_id": "inv-synonym-pockets",
+        "expected_outcome": "Inventory listing",
+        "intent": "Check what I am carrying",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "believable-adventures-invisible-man-5201a7e372:e00009",
+      "timestamp": "2026-09-25T08:04:33.819605+00:00",
+      "game_id": "believable-adventures-invisible-man",
+      "session_id": "believable-adventures-invisible-man-5201a7e372",
+      "branch_id": "b0",
+      "event_index": 9,
+      "event_type": "command",
+      "command": "i",
+      "response": "You are carrying:\n  some smelly clothes (being worn)\n\n>",
+      "raw_start": 2703,
+      "raw_end": 2758,
+      "response_sha256": "c19fda519204c6f173f55b1234d6159e9aa65318ca393133e543c2f4315f59d0",
+      "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+        "case_id": "inv-synonym-pockets",
+        "expected_outcome": "Inventory listing",
+        "intent": "Check what I am carrying",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "parent bytes/header/raw spans verified; source compatibility gaps retained; no completion claim"
+}

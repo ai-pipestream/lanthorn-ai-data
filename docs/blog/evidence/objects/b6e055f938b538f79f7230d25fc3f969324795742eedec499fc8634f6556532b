@@ -1,0 +1,75 @@
+{
+  "game_id": "night-at-the-computer-center",
+  "title": "Night at the Computer Center",
+  "author": "Bonni Mierzejewska",
+  "url": "https://ifarchive.org/if-archive/solutions/night.sol",
+  "accessed_at": "2026-09-25T06:02:02.385621+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/night.sol",
+  "source_sha256": "5eb8ac1886b3c9fe30db28f292160b44f0bde842bcbe319803686fae922ed3b1",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/night-at-the-computer-center-walkthrough.txt",
+  "normalized_sha256": "5eb8ac1886b3c9fe30db28f292160b44f0bde842bcbe319803686fae922ed3b1",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/night.z5",
+  "story_sha256": "134081ad18cf4c0fd643af8e7cd9a620955e45104ea4e1a96f70bb79745617d4",
+  "compatibility": "Local R1/961118. Guide spells the title Centre and archive identifies the same game as Center; it gives no release or serial. The compressed solution omits much navigation and ends at 10 points without quoting the final narrative.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "961118",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001357835792530010214a71b610000393631313138004248b23c9000000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "72e54bdf742dd7c5e16284da07aacff959f7a592057011c10f4ab1de4f061dfe",
+    "checksum_hex": "3c90",
+    "declared_length": 74440,
+    "file_bytes": 74752
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "night.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/night.z5",
+    "accessed_at": "2026-09-25T06:03:03.653051+00:00",
+    "remote_sha256": "134081ad18cf4c0fd643af8e7cd9a620955e45104ea4e1a96f70bb79745617d4",
+    "local_sha256": "134081ad18cf4c0fd643af8e7cd9a620955e45104ea4e1a96f70bb79745617d4",
+    "bytes": 74752,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "961118"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#night.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "night.z5\n◆\n[19-Nov-1996]\nIFDB entry\nIFWiki:\nNight at the Computer Center\nNight at the Computer Center, An Interactive Nocturnal\nChase, by Bonni Mierzejewska.\nRelease 1 / Serial number 961118."
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#night.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "night.sol\n◆\n[27-Jun-1997]\nIFDB entry\nSolution to Night at the Computer Center, by Ambat Sasi"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the nocturnal chase and gnome/manual/printer sequence, then verify the game's actual conclusion when the printer task resolves. The mouse-following section's wording about reaching the end and the 10-point score are not themselves the game ending.",
+    "limitations": "Guide contains labels, output arrows and shorthand; adapt them to visible rooms and objects. Its in-game computer/FTP interface is a story puzzle, not an instruction to execute host networking commands.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "night-at-the-computer-center",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "IF Archive/Inform manual and gnome references are present but do not by themselves establish shared world/puzzles with an existing queued game. Standalone family is provisional; parent review if a concrete reuse link appears."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

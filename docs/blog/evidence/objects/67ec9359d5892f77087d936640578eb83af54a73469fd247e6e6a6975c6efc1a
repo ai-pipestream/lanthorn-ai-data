@@ -1,0 +1,14 @@
+# Vindaloo progress
+
+Location: The Hallway (centre of house). Front door south; other rooms most directions.
+Inventory (observed e00026): a front door key (auto-taken on examining hall table, e00023, score 1).
+Rooms seen: Bedroom, Closet (clothes only), Small Bathroom (flavor, no objects), Hallway (hall table, now empty?).
+
+Annotated cases (all confirmed in responses):
+- probe-bed-exit-ellipsis e00005 (failure_type none; "get up" accepted)
+- probe-take-key-synonym e00024->e00025 (vocabulary; "grab" unrecognized, "take" recognized; key auto-held)
+- probe-closet-synonym e00008->e00011 (planning; open/examine closet not objects, "west" enters)
+
+Checkpoints: start-bedroom, hallway (both Ok).
+Last hint: none requested yet.
+Next: probe "open front door" locked state, then unlock with key and exit south; survey other hallway directions (north/east/west) to find kitchen; keep 1 command per request near hazards.

@@ -1,0 +1,25 @@
+# Mansion progress (seg4 DONE, parcel HARD BLOCK across b1-b4 — game incomplete, needs parent)
+
+BRANCHES: b1 (990) + b2 (1029 Entrance) + b3 (1064 Drive, upstairs/front/car searched) + b4 (1076 Fountain, key+spanner held test). Canonical S1 = all stopcocks ON, boots worn, frog in net, score 31.
+Location b4: Fountain Pool (almost full muddy, no parcel), key+spanner HELD (deviation from S1 bagged/dropped), 761+ turns. For continuation, restore parcel-block-s1 (canonical S1 Fountain) or seg4-pre-car-open (b3 Drive).
+Inventory b4: S1 plus rusty key + spanner in hands (vs S1: key in Water House, spanner in bag). Rest same: boots worn, net+frog+skeleton key, bag open (red torch/spinach/tweezers/needle/lavender/seeds/plate/straw/floorboard). Yellow (dead) with Brookes (car empty, expected). Tin on snooker, skull lantern Attic, house main ON.
+
+SEG4 NEW (b3/b4, all negative):
+- b3 upstairs/front: Top/Bedroom (Brookes photo, pillow)/Bathroom (bath/mirror/dripping tap)/Attic (skull lantern lit) + Doorstep/Drive, no parcel (e01033-56).
+- b3 car: checkpoint seg4-pre-car-open (e01057-58), open car (e01059), look in car EMPTY (e01060) — yellow torch with Brookes (Attic scare consumed it, expected, NOT R3 bug), close car (e01061).
+- b3 help: 318-322 rose (wrong chain, m0764), then 168-176 candlestick/bracket (m0765: get candlestick/remove/drop/north/north/west/north/north/put candlestick in bracket), 177-185 bracket/torch/west wall (m0766: pull bracket/turn on torch/go west/examine west wall/go east/get torch/turn it off/go east/go up). Costume wear never appears 149-185; costume gates candlestick, parcel gates all.
+- b4 held-test: restore parcel-block-s1 -> b4 (e01065-66), east/south Water House (e01067-68), get rusty key (e01069), get spanner (e01070), north/west Fountain look (e01071-73, no parcel), get parcel fails (e01074), take parcel fails identically (e01075). Held vs bagged/dropped RULED OUT.
+- b2 Entrance probes: examine table (e01028 peacock, no fruit), examine brookes (e01029 corporate, omits torch vs room desc).
+
+PARCEL-BLOCK CONFIRMED 4 BRANCHES (R1 guide vs R3/260803):
+- b1: 180+ turns S1-S4, Rose/Rockery/Japanese/Garden waits, house ground+Water House, boots/frog/skeleton-key/call/wade/swim/dive/scenery, all negative.
+- b2: wear-trigger + post-blue corruption ruled out; fruit bypass fails (fruit downstream 175-295).
+- b3: upstairs + front + car-empty (expected) negative.
+- b4: key+spanner held negative; TAKE/GET synonymy irrelevant (world_state).
+- Order anomaly STILL UNTESTED: tin AFTER skull (e00646 vs e00679/694) vs walkthrough tin 40-57 before skull 67+. Redo = 50-100 moves from pre-wade-search (Conservatory e00531) or earlier, uncertain payoff, NOT attempted (needs parent auth per seg3).
+- Likely R3 regression (guide predates R3, known R3 torch bug, V4 in production) OR order flag. No further wait/probe axes remain; do NOT grind waits.
+
+HELP seg4: 318-322 (rose, off-chain), 168-176 (bracket), 177-185 (bracket pull/torch/west wall). Total guide exposure minimal, no serial reconstruction.
+Cases: 34 total annotated. Seg4: syn-parcel-take world_state e01075-e01074 (failure, no correction). Seg3: syn-rockery-searchwater none; syn-hall-lookontable none. Old unresolved: syn-jar-pickles.
+Next (needs PARENT): verify parcel spawn R1/R2 vs R3, OR authorize order-corrected full replay from pre-wade-search. Continuation: restore parcel-block-s1 for canonical S1.
+Checkpoints: parcel-block-s1 (Fountain S1 canonical), seg3-pre-restore-waterhouse (Water House), seg3-b2-entrance-blocked (b2 Entrance), seg4-pre-car-open (b3 Drive, car closed empty).

@@ -1,0 +1,45 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T04:33:42.904435+00:00. Synthetic test data only. Frozen selection cutoff: 2026-09-25T04:27:40.857002+00:00. No engine commands, worker launches, expansion, training, evaluation or publication by reviewer.
+
+1346 unique exported annotations: 899 accepted, 280 revise, 52 quarantine, 115 unreviewed under exact endpoint matching. This pass adds64 accepted,14 revise,2 quarantine from80 accumulated cases across9games. All160 endpoint references, command intent metadata and 577 nearby/intervening events checked against raw spans, SHA256 and exact text. All selected endpoints share branch/session; no intervening restore or known delayed/timeout evidence in these pairs. Separate transport-only keys are not annotation totals; CSV refresh can lag reviews.
+
+10 launcher processes observed without duplicates. Latest event/command raw pointers refreshed; this is not a repeat of the whole infrastructure audit. Unverified new claims detected: []. Twelve previously verified conclusions stand.
+
+## This bounded case review
+
+Quarantined Bronze e00626: FIX SHOES is replaced by X SHOES, which only examines and never repairs; success at the repair goal is unsupported. Quarantined Bronze e00633: initial metadata explicitly intends taking a bell, then switches to tambourine; retrospective same-intent disambiguation is false. Retain only clearly distinct diagnostic/planning examples, or relink actual same-goal evidence.
+
+Revisions separate partial from completed goals: manual acquisition versus reading (Anchor e00112); candle geometry exploration versus achieved lighting; recognized tambourine lookup versus missing information; opened sealed letter versus reading; apples found versus lentils requested; unlocked attic door versus actually opened. Follow-up successful read/open/discovery events are named in individual reviews for relinking.
+
+Savoir e00412 needs removal of bauble e00359 and automatic jar pickup in its context. The claim both jars were already carried and parser universally defaults red is unsupported. Wrong parser target does not equal changed user intent: candle/stool reversal, mascot naming, blue-jar target and chimney-shadow naming retain their declared goal and need consistent labels.
+
+Accepted state chains retain intervening observations: librarian summoned by bell, web swept before key pickup, web discovered behind crates, spell learned before opening, scales rebalanced before exit, and boat dropped before inflation. First unlit WEST in Balances already moves into Darkness; revise its claim of failed entry instead of inventing a movement failure.
+
+Curses pipe flood is a verified failed plan, not an intended conclusion. Repeated Zork GRAB-to-TAKE cases are real evidence but do not establish additional semantic categories. Accepted source-guided suggestions never become player-observed facts without engine output.
+
+## Twelve verified conclusions
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905, Violet, Voodoo Castle, Slouching Bedlam and Secret Mission. Primary ending spans rechecked. No ending inferred from score, ordinary death, process exit or model assertion alone.
+
+Secret Mission secret-mission-08dcee7c13 b21 e01789 POUR WATER: raw270134:270260, SHA2562d8cfbf195b2422399cd934ddb49d8467c7eab4f54e285145ccbba48008d2ea3. Explicit bomb defusing, IMPOSSIBLE mission complete, game over and engine exit. Earlier bomb deaths remain failures. Actual adv03.dat identity/hash preserved.
+
+Slouch b08abfcb18 e00233: gallows death followed by worldwide Logos spread and Appendix B unlock, SHA256d4439fd038e6cd45c1b69e3545a81f23b32eb377546400016da67b92c6bbeaa4. Intended bleak ending; killing James/Reggie did not contain infection.
+
+## Startup and administrative rejection
+
+So Far so-far-8d580943cf e00001: raw0:1335 SHA2567e8efcdc578c99706e8562f2a398ebaa7da9af018ed446b91ffa9bf2fda137f2. File/header confirms Z8 R6/961218, storySHA256b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c. Guide body/hash verified and explicitly R5/960619; full compatibility unproven.
+
+Savoir m0376 original inbox/retained bytes match receiptSHA2562e5cb269fd59e60318ca5df07bb887dcb11cb01f45cb28b5f8ab892c8853aecf and fail JSON parsing. Parent rejection matches receipt; broker skips invalid JSON before handle. Administrative rejection is not an engine turn.
+
+## Historical pool and transport audit (04:21Z)
+
+All5tests pass, including active_health attention for metadata-hidden timeout and configuredcap; tick calls that function. Previous alert gap resolved. Existing engine/hold/exit and capacity guards remain; source/test hashes in JSON. Manual external mutations still pause pool. Provisional refill is separate from verified completion. Pending-ending list in pool snapshot: ['secret-mission']; may lag this Secret verdict.
+
+At the earlier04:21Z audit, current-session raw checks passed. Recorded faults then: []. Historical delayed/menu chains remain quarantined; empty hash integrity is not transport success. Pending requests were not driven.
+
+## Historical boundaries
+
+Zork cap recovery independently verified olde02501 checkpoint into zork-i7-05114e1aff b99 with newe4 Ok/e5 RoundRoom; saveSHA256a3175bd27537e59cce5f148f765810d13fb0bca699350659b3b1f53cddea8ced, configuredcap100000. Old scores/resources do not transfer silently.
+
+Anchorhead olde302 and Slouch/Savoir menu failures retain quarantine after explicit recoveries. Source key mapping is not binary-equivalence proof. BalancesR5 guide release unspecified; SpiderR4 guide matches; SavoirR8/R6, DreamholdR5/R4, BronzeactualR11/advertisedR13, unspecified Anchorhead/Theatre guide versions remain gaps. CursesR16 matches guide. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with maintainer guide, not commercial ZorkI.

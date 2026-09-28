@@ -1,0 +1,21 @@
+# Fullplay supervision
+
+Review snapshot: 2026-09-25T02:39:01.116898+00:00. Fifteen games in scope; synthetic test data only, no training/publication. Parent owns blog/config/splits. Reviewer changed only the three owned review/status artifacts and sent no engine actions.
+
+Seven verified completions remain: Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade and Suveh Nux. Their exact final raw receipts and hashes remain in fullplay-status.json. Photopia nursery lights-out/title, Shade terminal conclusion and Suveh escape99/100 are final narratives; no eighth ending verified in this pass.
+
+Batch3 independent startup audit passed for all five local story hashes, Z-machine headers (including ZCOD extraction from Blorb), startup raw spans, subsequent responses and initial save confirmations:
+
+- Dreamhold R5/041231 versus guide explicitly based on R4. Normal/tutorial responses observed; no expert-mode command in checked events. Built-in tutorial prose is assistance.
+- Bronze Z-code R11/060503; guide has no release statement and recorded hosting association is R13. Worker answered initial yes/no before SAVE. Novice guidance enabled by NO; preserve it separately from narrative evidence.
+- 9:05 actual banner v1.11 (2012.0724), headerR1/120724, versus older guide. Actual startup already has a command prompt; no assumed MORE pause. Completion requires substantive non-arrest escape, not manufactured bonus waits or an arrest ending. No case quota.
+- Violet competition R1/080929. Local author-named solution begins ENTER; observed keypress proceeds to banner, LOOK and normal SAVE. Full route not yet verified.
+- Slouching Towards Bedlam competition R1/030925, Star C. Foster and Daniel Ravipinto. Local Michael Martin guide explicitly describes five ambiguous endings. Verify and identify one ending after actual investigation; an intended tragic finale can qualify, ordinary premature death/quit cannot. Initial SAVE includes an explicit saved-file receipt plus story text; do not require generic Ok or assume metacommands lack narrative effects.
+
+All five captured guide-body and normalized-file hashes match their source records. This is a local integrity/content check, not a new network-fetch audit or proof of complete guide compatibility. Manifest split labels do not authorize training.
+
+767 unique exported annotations at 2026-09-25T02:40:19.863895+00:00: {'accepted': 545, 'revise': 189, 'unreviewed': 8, 'quarantine': 25} effective exact-pair decisions. This bounded turn adds32 independently inspected decisions:25 accepted,5 revise,2 quarantine. Pending annotation IDs are in status; live arrivals after the snapshot remain unreviewed. Review-file entries include legacy/transport records and must not substitute for exported totals.
+
+New issue: Dreamhold e00008 labels INSPECT CELL to EXAMINE CELL as successful description. Actual correction refuses room reference and teaches LOOK; revise success/endpoint. Earlier LOOK is not a subsequent recovery. Accepted cases establish only their exact observed spelling/noun variants or direct successful inputs; no universal parser claims. Additional new findings: Bronze TAKE-to-INVENTORY and Violet computer-to-word-processor examples are quarantined as unsupported same-intent success claims. Dreamhold locked-door/cabinet refusals are not successful opening; the CLIMB STAIRS case incorrectly calls the declared stairs intent unpreserved. Historical invalid-intent and transport quarantines remain unchanged.
+
+Historical carry-forward, last reviewed02:34Z: Zork restored original shaft into b89, executed the31-action diamond route, switched lantern off and saved lit-torch state. Source/transcript estimate18 lamp turns is conditional, not decoded save memory or guaranteed completion. e01655 explicitly restored that conserved save into b90; later b89 inventory cannot be transplanted. Zork remained incomplete. Secret Mission had eight bomb-death exits and Voodoo Castle two defeats; neither was completion. Those existing-game states were not globally refreshed in this startup pass. Per-session through-event IDs bound each verification.

@@ -1,0 +1,8 @@
+# Save Princeton — progress (continuation checkpoint)
+
+State: Dining Room (confirmed e00070 'take glass' Taken). m0061 checkpoint dining-room SUBMITTED, response pending. Do NOT resubmit m0061; read responses/m0061.json first.
+Inventory (observed): poster, wooden key (used to unlock wooden door), hairdryer, $1 bill (e00058), food-like item via 'take food' (e00068), glass (e00070 Taken). Score 15 last announced (likely higher now).
+Checkpoints: start-common-room; after-poster; rocky-room (verified); dining-room pending (m0061).
+Cases: ~16 annotated through e00069 + e00070 glass taken (exploration, no annotation needed). Need 20-40 diverse; keep adding.
+Last hint e00060 lines 7-15: take glass+food in dining room, food kills hunger, go back...
+Next: confirm dining-room checkpoint, annotate glass if desired, request next help excerpt after 'Go back', continue toward office/King/Hal/trumpet finale.

@@ -1,0 +1,7 @@
+# Voodoo Castle progress
+
+Location: kettle room (N/W, big kettle). Idol carried again after drop tests.
+Blocker: ENTER/GO/CLIMB HOLE + DOWN all 'can't do that yet' / no-direction, with and without idol, before/after DRINK SOUP (OK but soup persists). LOOK KETTLE always hole+soup.
+Inventory: idol, plaque, glass, clover, pot, shovel, saw (+shield/sword/heads/ring/knife dropped elsewhere; chemicals consumed). Small status uncertain.
+Hints: dark hole -> drop idol -> enter -> read plaque (tiny+glass, glows) -> drop plaque+glass -> GET rabbit foot (invisible) -> climb out -> get idol -> north to safe. Need entry verb/flag + later safe/end lines.
+Next: probe LIFT/DIG variants for kettle move; verify size/light; keep requesting post-plaque excerpts with new topics.

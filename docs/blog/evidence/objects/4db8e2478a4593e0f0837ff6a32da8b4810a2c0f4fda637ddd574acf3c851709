@@ -1,0 +1,27 @@
+{
+  "game_id": "believable-adventures-invisible-man",
+  "title": "The Believable Adventures of an Invisible Man",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/invisible.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/believable-adventures-invisible-man-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/invisible_walkthrough.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow a coherent revenge branch through the boss office and final computer/password action and require the resulting author-intended terminal revenge outcome or epilogue. Prefer the complete-revenge branch; if an authored lesser-revenge ending is reached, label its exact outcome and leave adequacy for parent review. Becoming invisible, entering the office, obtaining a key, a chapter change or a partial score alone is not completion.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-f-20260925/believable-adventures-invisible-man.json",
+  "story_sha256_expected": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "believable-adventures-invisible-man",
+  "collection_notes": "# The Believable Adventures of an Invisible Man\n\nLocal Z8 R2/100130 is byte-identical to the archive story. Author Hannes Schueller guide explicitly targets the second release, matching release 2, but gives no serial. Archive game/guide identities match. No interpreter smoke or finale execution performed.\n\nFollow a coherent revenge branch through the boss office and final computer/password action and require the resulting author-intended terminal revenge outcome or epilogue. Prefer the complete-revenge branch; if an authored lesser-revenge ending is reached, label its exact outcome and leave adequacy for parent review. Becoming invisible, entering the office, obtaining a key, a chapter change or a partial score alone is not completion.\n\nAuthor guide offers separate complete, lots and some-revenge branches plus an alternative route. They are alternatives from the marked save point, not a consecutive script. Correct obvious guide typo charactersistic only against observed vocabulary; preserve source text. Wait counts depend on engineers and secretary state. Save safely before the branch and avoid synthetic probes in timed sequences.\n\nFamily/split proposal: believable-adventures-invisible-man / train. No shared world or puzzle relationship established with current corpus/A-E. The title allusion and invisibility premise alone do not justify grouping it with another game. Keep all releases and ports together. Parent review before registry integration.\n\nUse only small broker help excerpts: at most 9 lines / 1000 characters. No complete guide reads, direct guide URL access, or serial excerpts to reconstruct a guide. All story files, full guides, raw transcripts and saves stay central; do not stage them remotely. Help is suggested, not observed game evidence. Resolve startup questions and key pauses first. Save early at a safe ordinary command prompt and at safe milestones; verify actual save success. Menu Enter is an empty command, not a literal space or the word RETURN. On timeout use await_output only: no repeated input, flush commands, keys, restart, new SAVE or waits sent to the game. Collect diverse useful labeled synthetic_probe cases with stated intent and actual same-intent repairs supported by event IDs; no quotas, repeated filler or forced case counts. Use one command at a time near hazards, questions and menus. Keep failures and ordinary deaths labeled as failures. Parent independently verifies the real finale against raw output. Private collection only: game and guide reuse permission remains unknown. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 2,
+  "serial": "100130",
+  "session_id": "believable-adventures-invisible-man-5201a7e372",
+  "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+  "started_at": "2026-09-25T08:02:20.598860+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

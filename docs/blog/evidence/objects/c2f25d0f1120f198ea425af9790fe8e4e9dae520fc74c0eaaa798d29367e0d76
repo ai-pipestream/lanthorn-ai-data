@@ -1,0 +1,77 @@
+{
+  "game_id": "pick-up-the-phone-booth-and-aisle",
+  "title": "Pick Up the Phone Booth and Aisle",
+  "author": "David Dyte, Steve Bernard, Dan Shiovitz, Iain Merrick, John Cater, Liza Daly, Ola S. Bauge, J. Robinson Wheeler, Jonathan Blask, Dan Schmidt, Stephen Granade, Rob Noyes and Emily Short",
+  "url": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+  "accessed_at": "2026-09-25T06:11:49.516870+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/putpbaa.sol",
+  "source_sha256": "463d45e9dcd4bcabeb17f82ccd837772a4705f76612b7c56f894772d845d05c7",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle-walkthrough.txt",
+  "normalized_sha256": "463d45e9dcd4bcabeb17f82ccd837772a4705f76612b7c56f894772d845d05c7",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/PUTPBAA.z5",
+  "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+  "compatibility": "Local R2/010618 matches archive; guide shares its IFDB identity but specifies no release/serial. Guide is a catalog of roughly 210 alternate ending commands, not a sequential walkthrough. SAVE, RESTORE and ordinary metacommands are listed among ending-producing inputs.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "010618",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "050000022a802a811d5b010a083512800010303130363138004280ad0bb7000000000000000000000000000000000000000000000000010200000000362e3135",
+    "header_sha256": "a16152e8df36ce94f049df617adf05171a471851987e98bc6c7ddbacd0bccb9d",
+    "checksum_hex": "0bb7",
+    "declared_length": 131764,
+    "file_bytes": 132096
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "PUTPBAA.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/PUTPBAA.z5",
+    "accessed_at": "2026-09-25T06:13:02.327366+00:00",
+    "remote_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "local_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "bytes": 132096,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "010618"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#PUTPBAA.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "PUTPBAA.z5\n◆\n[19-Jun-2001]\nIFDB entry\nIFWiki:\nPick Up the Phone Booth and Aisle\nPick Up the Phone Booth and Aisle.\nThe latest in a long series of silly games.\nRelease 2 / Serial number 010618.\nWritten by David Dyte, Steve Bernard, Dan Shiovitz,\nIain Merrick, John Cater, Liza Daly, Ola S. Bauge,\nJ. Robinson Wheeler, Jonathan Blask, Dan Schmidt,\nStephen Granade, Rob Noyes and Emily Short.",
+    "tuid": "6vej1yd9quwfm9qn"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#putpbaa.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "putpbaa.sol\n◆\n[05-Aug-2001]\nIFDB entry\nIFWiki:\nPick_Up_the_Phone_Booth_and_Aisle\nlist of around 210 endings from Pick Up the Phone\nBooth and Aisle, by Spinster/Zarathustra.",
+    "tuid": "6vej1yd9quwfm9qn"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Respect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.",
+    "limitations": "Do not issue SAVE, RESTORE, or broker checkpoint automatically: the guide lists them as ending commands. Preserve startup event evidence; no ordinary save checkpoint is established. Ask only for a small hint about the selected branch. Parent must separately supervise any restart to sample a different meaningful branch; never execute the guide as one sequence or inflate collection volume.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Guide includes FROTZ, NITFOL, OZMOO, FILFRE and ZORK, plus Aisle/phone-booth and Adventure references. Conservatively group with existing zork-i/development as for SpiritWrak and batch A Heist; exact shared-world/puzzle extent is uncertain. Future Aisle/phone-booth/Adventure additions need parent review before split assignment."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission."
+}

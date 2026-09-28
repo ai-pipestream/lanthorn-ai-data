@@ -1,0 +1,8 @@
+# Not Just A Game — progress
+
+State: Kitchen (branch b0, event e00023). Came east from Living Room.
+Inventory: carrying nothing (e00011); matchbook seen on stove (e00022), not yet taken.
+Cases so far (6 annotated): bowls-synonym none (e00004); bookshelf-typo vocab (e00006->e00007); examine-omitted none (e00009); bowls-contents none (e00012); tv-synonym none (e00015); sofa-under none (e00018); goto-kitchen syntax (e00020->e00022).
+Last hint (e00021, walkthrough lines 1-9): Teacher's House route X END TABLE, GET ALL, READ BOOKLET, S, OPEN DRAWER, OPEN BOX, GET GOLD STONE, LOOK UNDER DRAWER, X CARD (numbers), S, MOVE BOXES, X SAFE, dial numbers, OPEN SAFE, PULL LEVER, N, N, D; then Under House Go-board placements. Guidance only, verify in game; read dial numbers from in-game card.
+Next: probe 'get matches' for matchbook; take matchbook; west; X END TABLE, GET ALL, READ BOOKLET per hint.
+Checkpoints: start-living-room (good).

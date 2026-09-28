@@ -1,0 +1,8 @@
+# Zuni Doll progress - WON
+
+Location: Kitchen -> bedroom conclusion. Score 60/60 Zuni Slayer (e112).
+Ending: switch on disposal ground up doll, authored bedroom/Elmo sleep conclusion, *** You have won ***.
+Checkpoints: start-bedroom, after-burn, after-freezer, after-cabinet, sling-ready, before-disposal (all ok).
+Last hint (m0091 lines 30-38): open freezer; shoot rod at doll [5/57]; get doll; put doll in disposal; turn on disposal [3/60] - all done.
+Cases: ~25 diverse synthetic_probe annotated (typos, synonyms, omitted, pronoun, word-order, wrong-tool, world_state). See inbox m0060-m0102.
+Next: finish with e112 evidence; parent review required.

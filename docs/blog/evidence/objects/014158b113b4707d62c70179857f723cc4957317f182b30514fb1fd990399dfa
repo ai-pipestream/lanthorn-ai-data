@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "busted.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/busted.sol",
+    "accessed_at": "2026-09-25T08:44:02.276110+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/busted.sol",
+    "sha256": "42f1c1d73ef61345be843ab5595418bf10487bb9d1cf02fbbbae9ac9457717e3",
+    "bytes": 5937
+  },
+  {
+    "filename": "eas.wlk",
+    "url": "https://ifarchive.org/if-archive/solutions/eas.wlk",
+    "accessed_at": "2026-09-25T08:44:02.272909+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/eas.wlk",
+    "sha256": "ebb67343f1a4bd540fec95f3af3d63306dad094705983954ac8fe9dd8a59c1dc",
+    "bytes": 1413
+  },
+  {
+    "filename": "baltimore-24_solution.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/baltimore-24_solution.txt",
+    "accessed_at": "2026-09-25T08:44:02.278920+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/baltimore-24_solution.txt",
+    "sha256": "786b29454626b54694ed58d60ff951d31e657a00b53f37c6141393fef9fb0b80",
+    "bytes": 811
+  },
+  {
+    "filename": "mulldoon2.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/mulldoon2.sol",
+    "accessed_at": "2026-09-25T08:44:02.271959+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/mulldoon2.sol",
+    "sha256": "dfde390181bb0881ce7d9d922938506a360e9af16050973dabbdbc844f0c2be1",
+    "bytes": 35034
+  },
+  {
+    "filename": "mulldoonmaze.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/mulldoonmaze.sol",
+    "accessed_at": "2026-09-25T08:44:02.322993+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/mulldoonmaze.sol",
+    "sha256": "e902a55e173b82343d8fa039a8374ef116f81c4f37671d2a73971fc83efb3f99",
+    "bytes": 1828
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T08:44:02.350944+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T08:44:02.368191+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  }
+]

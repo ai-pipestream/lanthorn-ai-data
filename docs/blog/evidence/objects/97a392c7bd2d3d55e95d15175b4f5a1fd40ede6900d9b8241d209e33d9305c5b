@@ -1,0 +1,8 @@
+# Curses progress — SEGMENT 6 LIVE (branch b6, score 61, in roller)
+
+Branch b6, Score 61/550 Turns ~462 Family Tree in roller. Checkpoints OK: garage-roller (motor on, boarded), annexe-mask (mask worn), alison-room, deadend-door, attic-b6, potting-room.
+Inventory e00712: worn gas mask + gloves; carried daisy chain, iron key, brass key, torch lit closed, stick. Rucksack cache + History II + flash + prayer book remain Inside Cupboard e00702/e00704.
+Route seg6: help m0548 clarified flag chain starts at roller not East Annexe; inventory; W,NW,N,N,E Storage; enter/pull/get-out/enter/pull to Dark Shaft; get-out N Dark Passage N Garden Stream NW Family Tree W Clearing W Garage; enter roller accepted e00729; checkpoint garage-roller; start roller rejected, turn on roller succeeds e00733-734; east Clearing, east Family Tree, east Lawn crunch, west Family Tree.
+Cases seg6 annotated: roller-start syntax e00733-734; roller-board none e00729. Unresolved: roller N-blocked at Garage/Clearing (route needs E,E,E,W start, now following full excerpt); miniature/projector/Ace/flag chain ahead.
+Last hints: m0548 lines 54-62 roller+flag chain; m0564 lines 49-57 full start Board roller Turn on E,E,E,W,N,N,W,W,N,N,N,N,W,W,W miniature E,E,E,S,S,S,S,E,E,S,S off, Wear mask S,D wheel dumbwaiter x2 W,S,S,SE,S,S projector.
+Next: continue roller N,N,W,W,N,N,N,N,W,W,W from Family Tree, get off, take miniature, board, E,E,E,S,S,S,S,E,E,S,S, turn off, get off, Wear mask S,D toward projector. Then Alison flag/bed/sleep. No winning ending seen.

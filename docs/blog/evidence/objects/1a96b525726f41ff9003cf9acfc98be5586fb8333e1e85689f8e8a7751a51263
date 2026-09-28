@@ -1,0 +1,23 @@
+{
+  "game_id": "spider-and-web",
+  "title": "Spider and Web",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Tangle.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/spider-and-web-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/tangle.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. GuideR4/980226; interrogation transitions and rewinds are not endings. Require actual concluding escape outcome.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/spider-and-web.json",
+  "story_sha256_expected": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+  "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+  "dataset_split": "test",
+  "game_family": "spider-and-web",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "980226",
+  "collection_notes": "# Spider and Web collection notes\n\nExact local header: R4/980226. GuideR4/980226; interrogation transitions and rewinds are not endings. Require actual concluding escape outcome. Guide source: https://ifarchive.org/if-archive/solutions/tangle.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+  "session_id": "spider-and-web-e5197766e3",
+  "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+  "started_at": "2026-09-25T03:53:17.046054+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

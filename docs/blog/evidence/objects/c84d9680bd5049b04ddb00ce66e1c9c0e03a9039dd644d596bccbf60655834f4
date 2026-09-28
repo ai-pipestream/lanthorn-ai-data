@@ -1,0 +1,9 @@
+# Progress slouching-bedlam — seg6 active, game incomplete, branch b4
+
+Location: Bottom of Stairs, Fleet basement door locked (e00121-122). Three Fleet doors locked: attic (e00092; small key doesn't fit e00093), side (e00098/99 identical locked), basement private (e00122).
+Key breakthrough: walkthrough TED fragment is banner tail ("GET STARTED"), so Part 2 opens with LOOK, GET KEY in the ARCHIVES right after READ FILE (lines 125-133). The iron key is in the Archives — likely revealed by taking/reading File F6A142. Checkpoint seg6-archives-file has folder still in pyramid arms, never taken.
+Other seg6 findings: F6A142 retrieval re-established (e00027, checkpoint seg6-archives-file); Corridor 6 swept (A bare, B flooded/stuck, C hole, D Cleve writing decoded, E rubble, F broken lock); rod slot/keyhole + lady/woman annotated; Du Monde shop explored (attic belonged to Cleve, pin with binary tree, east storerooms refused, wireless deflected); Triage analyzed Du Monde (ID UNKNOWN).
+Inventory: rod, 2D key, March-16 cylinder carried; rod REMOVED from console (e00082, Admin reselected) for Fleet trip.
+Next: return via Smithfield cab (DRIVER, BEDLAM), Lobby E to Archives, LOOK, TAKE FILE, search folder for key (checkpoint first — menu timeout trap: never send bare RETURN; use q/Q to exit menus). Then Fleet attic: UNLOCK IRON KEY, OPEN, E, X BED, X PLANKS, GET PUZZLE BOX.
+Checkpoints: seg6-start, seg6-archives-file. Cases ~10 new this seg; goal 20-40 across game (prior branch holds many).
+NOTE: inbox/m0377.json is an accidental non-request file (progress text), not a broker action — please ignore it. Real requests use m0378+.

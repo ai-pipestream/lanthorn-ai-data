@@ -1,0 +1,25 @@
+{
+  "event_id": "deephome-56e3d50bda:e00819",
+  "timestamp": "2026-09-25T18:14:43.523632+00:00",
+  "game_id": "deephome",
+  "session_id": "deephome-56e3d50bda",
+  "branch_id": "b5",
+  "event_index": 819,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 108869,
+  "raw_end": 108869,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "fdae5bd090fda6fc1b0390051531190968e04355060153ad5b2ab6b75a387b31",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "deephome-56e3d50bda",
+    "ending_quote": "*** You have won ***",
+    "evidence_event_ids": [
+      "deephome-56e3d50bda:e00818"
+    ],
+    "notes": "Last Partaim exorcism (net dispels gray phantom) followed by author finale 'After cleansing Deephome of the last of its spirits' + elevators/Elbras coda + won banner + 295/300 in 496 turns in e00818. Not death, quitting, gate-only or chapter transition; meets manifest last-exorcism + terminal conclusion. Parent review required."
+  },
+  "review_status": "unreviewed"
+}

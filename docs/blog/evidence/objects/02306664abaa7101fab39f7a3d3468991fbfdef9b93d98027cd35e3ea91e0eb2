@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "completed_at": "2026-09-25T09:50:10.356Z",
+  "purpose": "User-authorized routine coordination delegation; decisions-only, no proposal executor",
+  "changed_files": [
+    "scripts/kimi_coordinator_pilot.py",
+    "scripts/watch_kimi_coordinator.py",
+    "scripts/test_kimi_coordinator_pilot.py",
+    "control/kimi-pilot/fix-receipt.json"
+  ],
+  "artifact_sha256": {
+    "scripts/kimi_coordinator_pilot.py": "4ad24e58e692252ba533c974e3ba630435136e39903f2a040db919d3074e7c32",
+    "scripts/watch_kimi_coordinator.py": "6dc8f65603d2bf3d9caa3134f4b16f2dd7e8cec13798e080abc7303bc91e5add",
+    "scripts/test_kimi_coordinator_pilot.py": "1491ec08a07b841e66830aaada100cb24e2c755196c129b61b8c82dbf6d2defc"
+  },
+  "historical_preservation": {
+    "checked_files": 24,
+    "changed_files": [],
+    "sha256": {
+      "control/kimi-pilot/20260925T092404.704070Z/snapshot.json": "a943730fb953c974a30324f29faa0c695385e92c07270b81790502ada1981d16",
+      "control/kimi-pilot/20260925T092404.704070Z/prompt.txt": "028c0cca97b166860ddecac6c3a6f6f2b9517dc2401425e7083610b925d826cc",
+      "control/kimi-pilot/20260925T092404.704070Z/stream.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "control/kimi-pilot/20260925T092404.704070Z/stderr.log": "253797722f7f920066c60574f92b96c3b7cc3ca293c2aad801fd04bcc8a8f8c1",
+      "control/kimi-pilot/20260925T092404.704070Z/exit.status": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "control/kimi-pilot/20260925T092404.704070Z/run.json": "7faebf3a7a39af7b5791d3b57f9927ce7223b0745dcdac21083c42d8e2c64c52",
+      "control/kimi-pilot/20260925T092417.148209Z/snapshot.json": "2e66981f04f32b1252322cbacc5af3bbb39d5abc92c2516793845dd6aab08cc4",
+      "control/kimi-pilot/20260925T092417.148209Z/prompt.txt": "7b114a1eeedc94a2402f427578feeb159cb950b19337ec1e066b654f0bb0e563",
+      "control/kimi-pilot/20260925T092417.148209Z/stream.jsonl": "4d7cee55ea60a1b788c8b20ec5865d72380b846a5917ef68251e30d3ff043760",
+      "control/kimi-pilot/20260925T092417.148209Z/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "control/kimi-pilot/20260925T092417.148209Z/exit.status": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "control/kimi-pilot/20260925T092417.148209Z/run.json": "b3acbdd9ce7fb21c35bb59d5b5faf19e12cc6ec05e062b3572e51d4c07b9848b",
+      "control/kimi-pilot/20260925T092417.148209Z/decision.json": "408242dcfd40957b14b7535bd347cf3219c1932044f258b983de9fe44f5e31dd",
+      "control/kimi-pilot/20260925T092417.148209Z/parent-review.json": "c523048e58737ef914177bb68b176edf29c32d1c7808e4b965201c265a5408de",
+      "control/kimi-pilot/20260925T092417.148209Z/validation.json": "3144b031d3e89a395a200bba9fba615142f583addf1ff6e20b45cbf986d44627",
+      "control/kimi-pilot/20260925T092601.202521Z/snapshot.json": "769e1dcd808ffe185f6490c6ac525560b0fe437cb3e8545e34b9157dd0baa7fc",
+      "control/kimi-pilot/20260925T092601.202521Z/prompt.txt": "49236d59f0eac47bb1c887c91921664fa072f20236832182e8387a17da52475a",
+      "control/kimi-pilot/20260925T092601.202521Z/stream.jsonl": "51077157c8e61ad105f4dba813f89384cef6f644a12355b0c94f7f0cbb311646",
+      "control/kimi-pilot/20260925T092601.202521Z/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "control/kimi-pilot/20260925T092601.202521Z/exit.status": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "control/kimi-pilot/20260925T092601.202521Z/run.json": "0c4d716e14f5c83841ebc8aeee6ba138b4888d47f7b7378c56c052281b0efa6e",
+      "control/kimi-pilot/20260925T092601.202521Z/decision.json": "747b5e3a679aa47d03bb9a1c3551ac7c798ec2c5654e8d011b161a693695ff9e",
+      "control/kimi-pilot/20260925T092601.202521Z/validation.json": "f88a25485bfd9c9e2047ff468847c2fb313a269c2475931129b97d20d0bd518b",
+      "control/kimi-pilot/20260925T092601.202521Z/parent-review.json": "bb4933246b90306787bd89b0a7ae688a860174b471441f85eca7894bd62cd98c"
+    },
+    "profile": "Parent updated coordinator.md independently during this work; harness author did not edit it."
+  },
+  "implemented": [
+    "Explicit rejection exceptions; duplicate/nonfinite JSON rejected; complete exact-key typed schema, session/scope/reference/priority validation and enum next actions.",
+    "Hold, pending, timeout, unknown-state and failed-remote constraints; no manual launch ever authorized; proposals require parent semantic review.",
+    "Final provider_exit_code and validation/final exit_code separated; final receipts written after validation; raw stream retained.",
+    "Default four-game mode retained. --fleet unions actual local Muse processes, live cached remote flags plus still-owned failed/attention remote assignments, holds, unreviewed ending-reference claims.",
+    "Legacy reviewer ledger exact game/event intersection; missing SID derived from event ID; optional story/branch pins checked. A decisive reviewed reference suppresses redundant routine review, does not certify every claim/branch.",
+    "Exact local /proc executable and workspace counts; duplicate ownership and capacity limits rejected. Pool/fleet/owned remote sync ages bounded to120seconds, no health claim.",
+    "Current-session claims/holds/assignments and exact current referenced raw spans verified. Actual story and executable/header digests observed; optional manifest identity fields compared only when available.",
+    "Before/after full manifest/session, hold/claim, per-game event/raw and pending-request boundaries checked; changed assignment ownership or process identity rejected. No game lock or mutation.",
+    "Journals/raw/reviewer-ledger inputs retain captured prefix bytecount/digest only, not base64 contents. Small manifests/claims/holds/source receipts copied. Full stories/guides never copied or fed to Kimi.",
+    "Compact prompt uses one latest actual-input event plus all exact ending references and claim event; progress bounded400characters. If necessary nonclaim progress omitted explicitly. Ending response text is never truncated. UTF8 argv prompt above102400bytes rejects before invocation.",
+    "Profile, previous input if present, prompt, snapshot, input copies and collector are pinned/copied before invocation. CLI digest pinned; actual resolved model/tool manifest remains explicitly unresolved rather than assumed.",
+    "Watcher uses nonblocking singleton flock, sequential --fleet calls, default3hour budget and300second completion-to-next-start interval. Stops without retry on provider/auth/validation/capture failure, retaining watcher/latest status and per-run handoff priorities."
+  ],
+  "tests": {
+    "command": "python3 -B -m unittest discover -s scripts -p test_kimi_coordinator_pilot.py -q",
+    "passed": 31,
+    "failed": 0,
+    "optimized_command": "python3 -B -O -m unittest discover -s scripts -p test_kimi_coordinator_pilot.py -q",
+    "optimized_passed": 31,
+    "optimized_failed": 0,
+    "fixtures_only": true,
+    "model_calls": 0,
+    "cli_help_checks": "Both entrypoints --help passed without invoking a provider"
+  },
+  "read_only_fleet_smoke": {
+    "snapshot_id": "20260925T094829.167918Z",
+    "games": 33,
+    "observed_local_muse_binaries": 0,
+    "cached_remote_muse_alive": 0,
+    "still_owned_remote_assignments": 24,
+    "held_slots": [
+      "pythos-mask"
+    ],
+    "prompt_utf8_bytes": 92877,
+    "prompt_limit_bytes": 102400,
+    "within_budget": true,
+    "compaction": "Nonclaim progress omitted; exact raw ending response text retained",
+    "persisted_live_snapshot": false,
+    "note": "Counts are a point-in-time observation, not a health assertion. Failed/attention owned remote assignments are retained for diagnosis. Parent handles health."
+  },
+  "commands_for_parent_from_experiment_root": {
+    "one_call": "python3 -B scripts/kimi_coordinator_pilot.py --fleet",
+    "bounded_watcher": "python3 -B scripts/watch_kimi_coordinator.py",
+    "tests": "python3 -B -m unittest discover -s scripts -p test_kimi_coordinator_pilot.py -q"
+  },
+  "handoff_paths": {
+    "per_run": "control/kimi-pilot/<new timestamp>/{snapshot.json,prompt.txt,stream.jsonl,decision.json,validation.json,run.json,handoff.json}",
+    "latest": "control/kimi-pilot/latest-status.json",
+    "watcher": "control/kimi-pilot/watcher-status.json"
+  },
+  "remaining_limits": [
+    "No actual Kimi fleet call or watcher activation performed; parent owns first provider smoke and launch. Model format conformity is not runtime-proven.",
+    "Human prose remains semantically unverified; no autonomous ending certification, case-label review, recovery, input, scheduler or application authority.",
+    "Actual provider model/tool resolution remains null/unresolved without native log proof; configured tools/subagents are checked empty before invoking a copied profile.",
+    "Remote flags are cached observations within120seconds, not remote probes. No collection is a global OS transaction; conservative capture boundary changes fail closed without automatic retry.",
+    "Scott identity is story/prefix digest only, no invented standardized release/serial header. Missing source receipt/manifest fields remain explicit gaps; source guide applicability is not re-proved.",
+    "102400byte prompt guard may reject future large fleets/finales. It preserves exact ending text and requests parent intervention rather than silently truncating or splitting."
+  ],
+  "actions_performed": {
+    "kimi_model_invocations": 0,
+    "game_actions": 0,
+    "live_state_mutations": 0,
+    "scheduler_changes": 0,
+    "service_installations": 0,
+    "watcher_started": false,
+    "tests_used_temporary_isolated_fixture_directories": true
+  },
+  "updated_at": "2026-09-25T09:54:15.012393+00:00",
+  "quota_followup": {
+    "request": "Retain stopped local unfinished ownership and compact parent quota reset evidence without model calls.",
+    "implemented": [
+      "Local ownership uses existing pool rule: local manifest, no ending claim, no remote assignment; attention list retained as supporting evidence.",
+      "Retained slots are the union of unfinished local ownership, owned remote assignments, actual clients and supervisor holds; actual clients remain separately counted.",
+      "Latest parent quota-hold receipt reason, status, reset time and raw receipt SHA are copied compactly, with current scheduler enabled flags. No scheduler writes.",
+      "Quota-held retained sessions require hold/diagnose; reset is evidence only, never permission to resume.",
+      "Disabled local pool status stops refreshing: its cache must be fresh at the explicit parent hold and is labeled historical ownership only; remote cache and process observations still use current freshness checks.",
+      "Prompt omits duplicated header digests, claim quote/notes and remote run paths; original full snapshot/source receipts retain provenance, and exact selected raw/finale output remains whole."
+    ],
+    "fixture": "New all-stopped fixture verifies10 local including Pytho plus24 remote retains34 slots at0clients, independent ended claim stays outside retained slots, compact quota evidence and unsafe continue rejection, stale-cache rejection after parent resumes.",
+    "smoke": {
+      "snapshot_id": "20260925T095325.881080Z",
+      "games": 42,
+      "retained_slots": 34,
+      "local_owned": 10,
+      "remote_owned": 24,
+      "active_local": 0,
+      "active_remote": 0,
+      "pending_claims_additional": 8,
+      "quota_reset_at": "2026-09-25T12:41:27Z",
+      "quota_receipt_sha256": "dae4e523117758e1129a8ccdf10129a7b6092f29268d26a1462d16d59484d586",
+      "pool_status_basis": "fresh at parent hold; retained ownership only",
+      "prompt_utf8_bytes": 99782,
+      "prompt_limit_bytes": 102400,
+      "within_budget": true,
+      "read_only": true,
+      "model_calls": 0
+    },
+    "tests": {
+      "normal": 31,
+      "optimized": 31,
+      "failures": 0
+    },
+    "remaining_limit": "Prompt remains fail-closed above102400bytes; the latest smoke has2618bytes headroom. Parent handles quota reset/resume and independent ending verification."
+  }
+}

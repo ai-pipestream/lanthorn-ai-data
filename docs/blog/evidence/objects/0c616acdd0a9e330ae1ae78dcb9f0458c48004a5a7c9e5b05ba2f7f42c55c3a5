@@ -1,0 +1,23 @@
+{
+  "game_id": "all-quiet-on-the-library-front",
+  "title": "All Quiet on the Library Front",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/library.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/all-quiet-on-the-library-front-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/library.step",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Resolve the library investigation and book/key exchanges, then leave through the final east exit and require the resulting concluding narrative. The 30-point tally, saved checkpoint called alldone, and FULL score listing are not completion evidence on their own.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/all-quiet-on-the-library-front.json",
+  "story_sha256_expected": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "collection_notes": "# All Quiet on the Library Front\n\nStory Z5 R2/951204. Guide explicitly release 2, matching local R2/951204; guide omits serial. Archive matches title, author and exact local header. Release-level correspondence is documented; serial-specific guide compatibility is not.\n\nResolve the library investigation and book/key exchanges, then leave through the final east exit and require the resulting concluding narrative. The 30-point tally, saved checkpoint called alldone, and FULL score listing are not completion evidence on their own.\n\nGuide estimates about 50 moves. The parenthesized save names are commentary, not literal route commands. Verify success of real checkpoints.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "951204",
+  "session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+  "story_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+  "started_at": "2026-09-25T06:13:13.649100+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

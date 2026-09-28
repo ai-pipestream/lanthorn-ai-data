@@ -1,0 +1,26 @@
+# Spider and Web — segment 2 STOP (game incomplete, continuation ready)
+
+## Exact resume (read this + latest.json on next run)
+- Verified continuation checkpoint: `b8-annex-cont` (branch b8, events e439-440, ordinary Annex prompt). Alternatively clean base `b3-annex-timer-pen` (story 3 vs traces 4, pen+timer assembly, verified e359-360).
+- Current b8 state: Security Annex ordinary prompt (e438/e440). Inventory NOT verified after e436-438 alarm+interrogation (pen likely lost again; assembly likely voice+scan). First action next run: `i` + `look` (2 singles) to verify, then decide: if pen missing, `restore b3-annex-timer-pen` (new branch).
+- All requests answered through inbox/m0331.json. No pending broker requests. Latest event e440.
+
+## Where the block is (SW Angle Branch loop)
+- SW with pen triggers scrambler-count interrogation then rewind to Annex WITHOUT pen. Counts observed: b2 voice south story 2 vs traces 4 (e340); b3 timer south story 3 vs traces 4 (e362); b6 voice east double-cycle story 6 vs traces 4 (e405). Traces fixed at 4; story must equal 4.
+- South TIMER (push green/blue, S, Get pen, N, auto-off) is clean: 0 voice keywords, story 2→3. South VOICE adds blips.
+- East VOICE entry quiet (tango/E), but exit rules found: W with cover still ON alarms (b8 e436); W after waltz-off + fresh remote tango is quiet (b6 e397-398) but extra keywords inflate story 4→6. East TIMER entry quiet but W expires even fast E/W with no search (b5 e381, b8 timer earlier e373). X plays with cover ON alarms (b7 e418); with cover OFF safe (b0 e277, b6 e396).
+- Next research: single east use reaching story 4 without remotes — possibly tango/E/W/waltz with NO intermediate keywords AND no unlinked timer flashing? Unlinked timer in toolcase flashes green/blue on every event (noise, not counted?); store timer AND voice transmitter? Or east must be skipped (no lockpick there per hint) and 4th use found elsewhere (north acid? south lockers?).
+
+## Checkpoints (all verified saved)
+annex-after-interrogation, annex-with-pen, b2-annex-pen-minimal, b3-annex-timer-pen (best base), b6-annex-4story (story 6, avoid), b8-annex-cont (current). Segment1: start-alley, package, clatter, labdoor, annex. Restores fork branches b1-b8.
+
+## Synthetic cases (4 annotated this segment, rest pending)
+- Annotated: office-waltz-syn e264/e273 (vocabulary typo); storage-pencil-syn e299/e300 (vocabulary wrong object); annex-east-syn e238/e263 (world_state cover prerequisite); office-bookcase-syn e276 (none, accepted paraphrase).
+- Pending annotation (observed, needs annotate): drop-in-toolcase e241/e247; tango-unlinked e242/e251; chair yes e223/undo e224/no e225 (planning); pen-yes e286/loops; timer sequence e349-358; east timer reset e369 vs blue e370; disconnect e387; 6v4 planning. Segment1: 5 annotated per prior note.
+- Hints used: m0202 Yes/Undo/No; m0227 east timer no-lockpick; m0232 (man) Yes Yes Diagonal gun; m0258 guard/vent; m0274 gun save. Hints are NOT observed text.
+
+## Next actions (continuation run)
+1. `i` + `look` in b8-annex-cont; if pen missing restore `b3-annex-timer-pen`.
+2. From timer-pen base, test east VOICE no-search single-cycle (tango/E/W/waltz, 2 keywords) and check SW count; if still 6, test skipping east (SW at story 3?) or timer-east with dial change.
+3. On SW pass: Diagonal Branch save gun, S, Wait, Stab guard with pen, cabinet/vent Put all, D; collect safe guard/vent variations + annotate backlog.
+4. No finish/ending reached; no winning text observed. Do NOT claim completion.

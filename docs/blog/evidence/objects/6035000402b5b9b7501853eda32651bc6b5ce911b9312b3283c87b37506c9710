@@ -1,0 +1,24 @@
+# Curses progress — SEGMENT 12 LIVE (incomplete, branch b20, score 119/550 ~22%)
+
+STATE (e01910, turns 1120): Servant's Room, restored seg12-before-hamburg (NEW branch b20). SAFE at ordinary prompt.
+Inventory: rucksack (Ace? verify — Ace auto-stowed e01836 pre-drop; contents: Ace? Sailor/Reaper, whistle, TABLET, scarf, spade, weed killer, ball, postcard, dictionary, Hamburg map) + torch + gloves worn. Stick/spar/mallet CACHED Octagon; gold key Attic; letter/clover/box/coffin Octagon; wrench/miniature(Folly=LEDGE ETCHING, same object moved)/poetry/History Library Storage; prayer/sketch/flash Cupboard; sceptre+scroll+biscuit+paper Storage; Fool in Souvenirs slot; flag Alison bed; mask LOST Cups (unreachable 2nd-time).
+Checkpoints: seg12-before-hamburg (b20 current); seg12-cabinet-131 (rodless Hamburg, pre-capture); seg12-tree-sd; seg12-attic-ace; seg11-after-roller; seg9-cabinet-127; older intact.
+
+Seg12 0054-0114 (Hamburg run on b19, DIED, restored):
+- White Hallway stand EMPTY (e01829). Bricked Path E Hedgery (new) N Summer House (new: mallet + golden watch on chain in roof, beyond reach): grab rejected (e01835) vs take Taken (e01836, vocab annotated); golden-thing can't-see (e01838) vs chain reveals watch (e01839, vocab annotated); hit-watch/mallet + up both fail (watch unobtained, HOLD).
+- Croquet Lawn (new): peg/hoops fixed scenery 1923 (e01845). No rod.
+- Octagon conversion tests DEFINITIVE: stick (put e01813/close/open UNCHANGED e01815; re-close, take-rod can't-see e01819), spar (put e01822/close/open UNCHANGED e01824), mallet (put e01853/close/open UNCHANGED e01855; take-from-closed can't-see e01857). Clean/wipe stick both no-op (e01850-51, none annotated). NONE convert. HOLD (no correction).
+- Miniature RESOLVED: b6 Ledge had etching +5 (e00754-56); SAME object now Folly in Library Storage (moved via caching). b19 Ledge correctly empty. Have it for slot.
+- S,D RESOLVED (b6 precedent e00774-89): Family Tree S blocked; actual route SE stream, S Dark Passage, S Dark Shaft (!south exit!), dumbwaiter→Storage→wheel→Cellars. Well at Lawn NOT enterable (e01872); down→Mosaic (climb-down-well misparse e01868 vs down e01869, syntax annotated, intent failed).
+- HAMBURG b19 (score 119→131): read-map description-only (e01886) vs read-1420 transport +5 Foyer (e01887, syntax annotated). Turn door, NE, ball SW+S (barriers, +3 Hall e01892), box (Castle/Star/8Wands/Maiden e01894), E cabinet, break (e01896), take-all stone+papyrus BOTH +4 (e01897, better than b15). Cabinet has NO rod. Stone: star + nog-er-ska-iw + tampered embedded metal (e01899). Papyrus: <anoppe> an-spe:ska-er-nog-er an-ge:to-ro-ma ka ur Al-x-an-dr u bir ka ur-a an-ge ur (e01900, Alexandria clue, undeciphered). Tablet taken (box auto-stowed e01898). Checkpoint cabinet-131.
+- Capture WITHOUT Rod works (wait→Stein alarm e01903, same as b15 north-trigger). Eat tablet (chocolate e01904) → sober → take crook TAKEN (e01905, b15 failed drugged). Point-crook-at-me Ok-(Why?) no effect (e01907, HOLD). Door locked (e01906). Wait→Stein bursts in→sacrifice DEATH e01908 (sober flavor Kicking-screaming vs b15 trance, same outcome). ROD MANDATORY for cell escape (point-return before Stein).
+- Still life (b15 e01397): Munch seedling + rusty IRON ROD with STAR + bottle + lamp + keys (painting clue, not takeable).
+
+ROD HUNT (1993, next):
+1. Garage bladed implement on hook (NEVER examined/taken) — route Servant's→Octagon→Sandstone→Dark→Stream→Tree→Clearing→Garage (proven, ~8 moves).
+2. Green branch location (missing since ~e01090?) — find + coffin-test (wooden, untested).
+3. Gold key (Attic) on Cellar West ironbound door (brass+iron failed e00589) — route via Priest's Hole hatch or shaft TBD.
+4. Fresh help: quarterstaff location / first mahogany rod (avoid Octagon/Hamburg windows).
+5. Maze on foot interior (roller-only so far) — tedious, last resort.
+6. DEFERRED: watch/croquet (side), miniature slot (post-Hamburg), lagach/Alexandria (post-rod), spade/whistle/scarf uses.
+SAFETY: tablet consumed on b19-dead; b20 RESTORED pre-Hamburg (tablet intact in rucksack — verify). Keep tablet; checkpoint before Hamburg redo; Rod required before capture.

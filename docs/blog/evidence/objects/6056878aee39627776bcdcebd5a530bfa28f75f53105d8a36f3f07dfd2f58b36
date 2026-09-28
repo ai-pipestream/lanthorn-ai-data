@@ -1,0 +1,75 @@
+{
+  "game_id": "nine-points",
+  "title": "Nine Points",
+  "author": "Robert Janelle and Brad O'Donnell",
+  "url": "https://ifarchive.org/if-archive/solutions/ninepts.sol",
+  "accessed_at": "2026-09-25T06:02:02.333814+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/ninepts.sol",
+  "source_sha256": "c1302401d5ab71800d6add47cc2ad2d7f8bef74cefa6f0d332cab4a1ee813c90",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/nine-points-walkthrough.txt",
+  "normalized_sha256": "c1302401d5ab71800d6add47cc2ad2d7f8bef74cefa6f0d332cab4a1ee813c90",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/ninepts.z5",
+  "story_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+  "compatibility": "Local Nine Points R12/961127 versus guide for cdsample.z5 R11/961121. Archive explicitly links the renamed game to this guide and identifies cdsample as its earlier name. One-release gap is retained, not silently treated as exact compatibility.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 12,
+  "serial": "961127",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0500000c292429251a9f01020a9010950000393631313237004248f9cead00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "e2f611f374184eee1bff14e43116dad95088729b95817f8830c0fedfde93492a",
+    "checksum_hex": "cead",
+    "declared_length": 74724,
+    "file_bytes": 74752
+  },
+  "guide_release": 11,
+  "guide_serial": "961121",
+  "guide_release_gap": 1,
+  "story_identity": {
+    "filename": "ninepts.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/ninepts.z5",
+    "accessed_at": "2026-09-25T06:03:03.594758+00:00",
+    "remote_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+    "local_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+    "bytes": 74752,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 12,
+    "remote_serial": "961127"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#ninepts.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "ninepts.z5\n◆\n[27-Nov-1996]\nIFDB entry\nIFWiki:\nNine Points\nNine Points:\nA Demonstration of an Interactive Fiction Game,\nby Robert Janelle and Brad O'Donnell.\nRelease 12 / Serial number 961127.\n(solution is in solutions/ninepts.sol)\n[linked from if-archive/starters/ninepts.z5]"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#ninepts.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "ninepts.sol\n◆\n[24-Nov-1996]\nIFDB entry\nIFWiki:\nNine Points\nSolution to Nine Points release 11, by Tony Baechler\n(the initial name of this game was just 'cdsample')"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the uncle's-house treasure route and leave through the window with the crown route resolved. The guide describes losing the crown during the successful exit; do not reject that intended narrative outcome or stop at opening the treasure chest.",
+    "limitations": "Introductory demonstration: useful object examination and a few varied repairs are sufficient. The guide's public-domain claim is recorded separately from unresolved overall reuse permission.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "nine-points",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "cdsample is an earlier name of Nine Points, explicitly documented by the archive; keep those releases together. Uncle/treasure motifs alone do not establish Curses puzzle reuse."
+  },
+  "reuse_claims_observed": "Guide claims public domain; game permission remains unresolved; private-only batch policy retained."
+}

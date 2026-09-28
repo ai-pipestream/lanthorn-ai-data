@@ -1,0 +1,27 @@
+{
+  "event_id": "cacophony-c47d99b6d3:e00798",
+  "timestamp": "2026-09-25T09:43:47.266570+00:00",
+  "game_id": "cacophony",
+  "session_id": "cacophony-c47d99b6d3",
+  "branch_id": "b10",
+  "event_index": 798,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 106173,
+  "raw_end": 106173,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** Free ***",
+    "evidence_event_ids": [
+      "cacophony-c47d99b6d3:e00793",
+      "cacophony-c47d99b6d3:e00794",
+      "cacophony-c47d99b6d3:e00795",
+      "cacophony-c47d99b6d3:e00796"
+    ],
+    "notes": "Route 3 (Walkthrough3) completed through final television action to author-intended winning conclusion. Turn tv off (e793) ended images/sounds, walls flew away into fractals; body/mind expansion liberation narrative (e794); 'But is that so bad?' (e795); '*** Free ***' banner with RESTART/RESTORE/QUIT menu (e796). This is victory, not death (no demise; liberation text), not a chapter transition (terminal menu, no further play), not quitting (no quit command). Optional [1] five-page history not taken: post-tv-off game-over makes it infeasible from this state (documented in progress.md); core route-3 ending verified against raw output."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,8 @@
+# Progress — danger-adventurer-at-work (ACTIVE, game incomplete — paused, continuation ready)
+
+Location: Hut e00298, inventory confirmed after Bod blessing. All responses through m0274 resolved.
+Inventory (observed e00298): head, torso, boltcutters, LLEG, tube, RARM, game, seed, coin, bird on shoulder, dynamite, RLEG, hammer, LARM, sharp wit. Consumed/given: leaflet->bod, shells->man, bucket->engineer; rock at poultry farm; needle+camel vanished; broom->hedgepig; kipper eaten; phone->witch; gold spent to teacher.
+Checkpoints: early-pub, street-after-window, field-before-torso, shop-cutters, street-phone-done, alley-broom, beach-tube-done, hedgepig-needle-done, cave-before-dragon, school-done, fence-seed-done, poultry-before-humpty, alley-before-engineer, culdesac-hammer.
+Cases (~52+inv): larm-take-typo vocab e00287/e00288; bod-talk syntax e00292/e00293; bod-give-leaflet vocab e00295/e00296; bod-examine x bod e00291; hut-inventory e00298; plus prior ~47.
+Hints: e00290 lines 91-99 done. Next: help for lines 99-111 after inventory, then brick/matches/chasm/seed/balrog per e00278 lines 112-120.
+Resume: read progress.md + latest.json; do NOT restart; at ordinary hut prompt (out then north route toward brick/chasm); single commands only; probe before canonical; checkpoint before explosive/timed sequences.

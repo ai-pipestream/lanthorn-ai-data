@@ -1,0 +1,13 @@
+{
+  "candidate_count": 4,
+  "selected": [
+    "the-wedding",
+    "ghost-train",
+    "schooldays",
+    "not-just-a-game"
+  ],
+  "substitutions": [],
+  "prior_research_note": "The Wedding guide was previously fetched for a rejected mismatched Wedding.zblorb candidate in C. The correctly matched wedding.z5 is a distinct unqueued game; the old guide fetch alone is not a collision.",
+  "scope": "Four complete-game candidates; no additional sample or preview configs.",
+  "architecture": "CENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse."
+}

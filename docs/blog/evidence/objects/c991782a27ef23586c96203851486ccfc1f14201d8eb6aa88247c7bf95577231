@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T07:32:22.028492+00:00",
+  "game_id": "mother-loose",
+  "events": [
+    {
+      "event_id": "mother-loose-608208fd92:e00182",
+      "timestamp": "2026-09-25T07:14:03.548363+00:00",
+      "game_id": "mother-loose",
+      "session_id": "mother-loose-608208fd92",
+      "branch_id": "b1",
+      "event_index": 182,
+      "event_type": "command",
+      "command": "z",
+      "response": "Time passes.\n\nA door slams in the distance. Not a moment later, you hear footsteps clattering \nup the stairs, and a breathless egg rushes into the room.\n\n\"The clock! I heard it!\" shouts the egg. \"What's going on here? Who are you? \nHow did you get in? When did...\" He stops to wipe his face with a sweat-soaked \nhandkerchief, peering first at you, then at your mother. As his eyes grow \naccustomed to the gloom, he gasps in recognition. \"Mother Loose! Mother Loose! \nIs it you? Are you all right? I'm so glad...\" Then the honorable Mr. Humpty \nDumpty falls over in a dead faint.\n\n\"Poor Mr. Dumpty,\" your mother sympathizes, kneeling next to the egg and \npatting his limp hand. \"Too much excitement.\" She winks at you. \"By the way, \nthanks for getting him down off that fence.\" You open your mouth to ask how she \nknew, but close it again without bothering. She'll never tell, so what's the \nuse in asking?\n\n\"Here, splash a little water on him,\" your mother suggests, handing you a water \nbottle with not much water in it. You sprinkle a few drops on the egg's eyes \nand they flutter a bit before one of them opens. Groaning, the egg sits up. \"It \nis, oh, it truly is you,\" he sighs happily. Both his eyes open wide then, and \nhe jumps...well, rises as quickly as his awkward shape will allow. \"I must \ninform the authorities,\" he announces importantly. \"Mother Loose, will you be \nall right? Do you need an ambulance? I can call the king's horses and \nmen--pardon me, I meant troops--pardon me, I meant...oh, dear, oh, dear, I \ndon't know what I meant!\"\n\nYour mother pats the egg's hand calmly. \"I just need to go home and rest for a \nday or two,\" she says. \"I'm perfectly fine, really. I'll call you tomorrow and \ntell you the whole story, all right?\" The egg nods and, with a quick glance \nover his shoulder, bustles out of the room and down the stairs.\n\nExhausted, you stand motionless in the center of the room, head down, staring \nat the kitten winding in and out around your ankles. As you watch, the kitten \ncurls up on your foot, ready for a nap. You wiggle your toes, but the drowsy \nkitten simply yawns. So do you. When you open your eyes (you can't remember \nshutting them), the kitten is settled comfortably against your mother's \nshoulder, purring. For the first time today, it doesn't struggle to free itself.\n\nMother Loose takes your hand in hers. \"Come on, sleepyhead,\" she whispers. \n\"Time to go home.\"\n\n                      And you all live happily ever after.\n\n                                    THE END\n\n>",
+      "raw_start": 51528,
+      "raw_end": 54055,
+      "response_sha256": "d056ff98046982b026f494a1e78a6eb93e7e53c0eff112aadea49fa778aa4517",
+      "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "mother-loose-608208fd92",
+        "case_id": "final-wait",
+        "expected_outcome": "Final narrative/ending after rescue",
+        "intent": "Wait for final resolution per walkthrough",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "WAIT (Z), branch b1: Mother Loose rescued and returns home with protagonist and kitten; substantive happy epilogue and THE END. Raw bytes/text/hash verified. Independent review pending; no all-content coverage claim."
+}

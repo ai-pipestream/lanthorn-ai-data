@@ -1,0 +1,9 @@
+# Child's Play progress - SEGMENT 2 (in progress)
+
+Location: Small Open Area, Ch2 Score 60. All 3 blocks restored here (short+medium+tall e262) but Cassie holds teeny book shaking, not climbing (e263). Parry guards tumbler at Couch West (take blocked e251 No that's my glass).
+Inventory: empty. Paper dropped Secret Space. Tumbler at Couch West guarded.
+Checkpoints: paper-taken-rocking e224 (outdated hands). Need new after tumbler.
+Last hint e252: need to drink from tumbler (nasty) or put something in it while unguarded; then Parry puts it back on cabinet. Missed first window (Cassie jump e247, Parry returned e250 before take e251). Re-pushed medium e260 + short e262; tall stayed e254. Cassie not climbing now - may need to free her hands (take book?) or wait, or try drink while guarded.
+
+Unresolved: syn-open-door e166, route-onesie2 e133, bare-direction set, syn-unfold-paper e215.
+Annotated ~39. Next: try take book from Cassie / wait for climb; if climb+jump re-triggers, rush to Couch West (SW,S,W) and DRINK tumbler (not take) or PUT object in tumbler within 2 moves; then cabinet open with Zoe distracted.

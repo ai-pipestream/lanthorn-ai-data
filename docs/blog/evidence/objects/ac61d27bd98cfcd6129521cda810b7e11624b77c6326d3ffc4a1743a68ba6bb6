@@ -1,0 +1,12 @@
+# Progress – Tryst of Fate (COMPLETE, won 350/350)
+
+Location: On the Floor (home, epilogue), game WON, branch b1
+Inventory: At win: carrying nothing (stripped by horse at 557); epilogue grants gold locket + note under pillow (George & Beetlebaum thank-you). Watch recovered mid-game (+20/300 at 549) then lost in scripted ride; final score still maximal.
+Score/Moves: 350 / 562, *** You have won ***, rank Hero of Deadeye Gulch
+
+Cases: ~220 annotated through syn-stand-up-220. No unresolved case IDs. This segment: syn-locket-polish-209 (none), route-watch-trap-210 (route), syn-leave-shack-211 (vocabulary), route-horse-212 (route), syn-feed-apple-213 (none), syn-mount-horse-214 (vocabulary), syn-examine-saddlebags-215 (none), route-horse-ride-216 (route, say blizzard +15/320), syn-examine-thad-217 (none), route-canyon-218 (route, say beetlebaum + Z Z +30/350), route-ending-219 (route, SPACE past pause), syn-stand-up-220 (none, get up = stand up, triggered win).
+Last hint (lines 496-504): "Beetlebaum / Z. Z (30/350) / save s350 / Stand up / Amusing". FULLY VERIFIED: say beetlebaum (echoes, Thad draws), wait (pistol out, gallop), wait (George+Beetlebaum kill Thad, blue gum home, SPACE pause), SPACE (On Floor +30/350), get up (win 350/350).
+Next actions: NONE - game won. Submit finish with e00908.
+
+Checkpoints (confirmed, newest last): wall-240-dynamite, shack-250-invis, outside-260-escaped, shack-300-watch, canyon-320-thad, floor-350-awake (On Floor, 350, pre-stand; reusable to replay ending).
+No pending requests. m0789 answered. Next request number: m0790 (finish).

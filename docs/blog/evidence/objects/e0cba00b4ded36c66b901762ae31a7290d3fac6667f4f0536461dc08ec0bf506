@@ -1,0 +1,54 @@
+{
+  "at": "2026-09-25T08:43:06.424864+00:00",
+  "games": [
+    {
+      "game_id": "lecture-feature",
+      "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+      "guide_sha256": "46ef8303741ba32f6c92e8083b248f9cdb6ca7b262349bf1aacc8c7b7d1d013f",
+      "release": 1,
+      "serial": "200414",
+      "engine": "zvm-cli",
+      "family": "teacher-feature",
+      "split": "train",
+      "compatibility": "Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.",
+      "archive_bytes_rechecked": true
+    },
+    {
+      "game_id": "underoos-that-ate-new-york",
+      "story_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+      "guide_sha256": "be0f9b118548f7308713d6d0b34de72632d2b07c53de8db6880c2f87b6e71cbc",
+      "release": 1,
+      "serial": "970329",
+      "engine": "zvm-cli",
+      "family": "underoos-that-ate-new-york",
+      "split": "train",
+      "compatibility": "Local Z5 R1/970329 is byte-identical to the archive, which identifies an author conversion from the TADS original. Ambat Sasi Nair guide has the matching archive IFDB identity but no release/serial. Its 1997-02-13 archive date precedes the Z-code port: preserve the likely TADS-to-Inform guide edition gap and do not claim exact parser parity.",
+      "archive_bytes_rechecked": true
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+      "guide_sha256": "ff26aaf6901319ead97dae1dad2b54c4d714991155c9f8bbb35a7bc9d0fb2459",
+      "release": 7,
+      "serial": "970521",
+      "engine": "zvm-cli",
+      "family": "time-all-things-come-to-an-end",
+      "split": "train",
+      "compatibility": "Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.",
+      "archive_bytes_rechecked": true
+    },
+    {
+      "game_id": "detective",
+      "story_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+      "guide_sha256": "b34c4d054d398c662b17fca859aa9394b973ee03d6559b55f77ec8cd222da0f1",
+      "release": 1,
+      "serial": "000715",
+      "engine": "zvm-cli",
+      "family": "detective-matt-barringer",
+      "split": "train",
+      "compatibility": "Local Z5 R1/000715 exactly matches archive bytes. Archive identifies Stuart Moore's straight Inform port of Matt Barringer's original. James Mullish guide entry points to the AGT original and provides no release/serial; preserve the AGT-to-Inform gap. Guide body misspells the author name, but shared IFDB identity and linked port source corroborate the intended game and final room/up route. Static source inspection is not a runtime or reproducible-build claim.",
+      "archive_bytes_rechecked": true
+    }
+  ],
+  "status": "parent local/archive bytes, header, source raw/normalization/hash and family checked; registered before remaining I; runtime unproven"
+}

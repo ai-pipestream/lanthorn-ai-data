@@ -1,0 +1,15 @@
+# Spider and Web — segment 3 STOPPED (game incomplete, b16 mid-shootout, step budget out)
+
+## Exact resume (read this + latest.json on next run)
+- Current: branch b16 at Corridor Boundary in dimness (e709). Three guards shot down with my gun; return pulses raining, flattened in cover, prompt `>`. Next walkthrough move: SE (then lab entry continues).
+- All requests answered through inbox/m0521.json. No pending broker requests. Latest event e709.
+- Safe fallback: `guards` checkpoint (pre-shootout, 22 saves). Also `blast`, `escape`, `acid-free`, `acid`, `gun`, `b16-full-cycle-pen`, `b11-voice-4blip`, `b11-timer-pen2`.
+- Carrying: my gun (from ceiling vent), lockpick (recovered), pen, scan-timer, key/voice transmitters, minilamp, toggle, pushbutton, toolcase. Radio module + wrapped package + acid/voice/pen NOT on interrogator's desk (left in duct; acid spent freeing chair).
+
+## Path this segment (all verified in events)
+- Voice 4-blip (south pen + north ghost) → SW chair-truth → No → relive. Timer single-cycle (Turns+1 push-pair: S/pen/N/I/E/plays/W) → 4v4 pass → Yes Yes → Diagonal Branch → gun save → S, Wait, stab guard, cabinet, vent stash (all incl package), D, enter-vent refused, X guard, get gun → scripted capture → No No → package-missing fury (yes/no/wait all kill; look/empty safe) → acid checkpoint → X desk, X items (missing: pen/radio/package/acid/voice/blast), Say tango → acid frees chair → acid-free save → Hit/Search man, Get all from desk (LOCKPICK!), pen, S, SW, escape save → S,E failed → Tee E dead-end door → rod on plate, Wait G G → N wiring closet → disconnect radio → connect button to blast → blast save → push button (lights/vent dead) → S, get rod → W W NW W N → Jump → open vent → get MY gun → D E → guards save → shoot guards (3 down, under fire).
+
+## Next actions (continuation)
+1. SE from boundary toward lab door; follow walkthrough small excerpts (lab entry, research steal/stop, finale escape).
+2. Annotate backlog before finish (chair-sit-syn none; W-cover-ON world_state; timer turn/push/phase pairs; 4v3/6v4 planning; Diagonal/tango-acid planning; guard/vent/gun runs). Target 20-40 diverse.
+3. No ending reached; captures/rewinds/deaths are NOT endings. Finish action only on genuine winning escape with evidence event + exact quote.

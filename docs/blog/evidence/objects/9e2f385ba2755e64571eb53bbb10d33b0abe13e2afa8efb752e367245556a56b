@@ -1,0 +1,10 @@
+# Delusions progress — segment 2 (in progress)
+
+Location: VR Lab (hub). Score 10/50 (unverified since Shimada trip). Branch b8, event e00305.
+Inventory (carried): power X-Acto knife, gelstrip, antitoxin caplet, hypodermic syringe, three-hole punch (from Shimada, e00289 — "bring it back when done").
+Staged in Your Quarters: electromagnet (ON, new coupler), Giger painting, lightstick (cooled), tongs. In alcove: amp on shelf (fader 10, violin plugged in), pillow, bow, violin.
+Checkpoints (all verified): start-reef, lab-after-reef-death, shallows-gravel, anemones-distracted, grotto-safe, shark-evaded, lab-after-reef-win, run3-reef-start, lab-hub-map, quarters-staged, shimada-office.
+Cases: 35 annotated (27 seg1 + 8 seg2: corridor-knock, shimada-enter, shimada-shelf, shimada-phone-it, shimada-talk, shimada-cabinets, shimada-punch, shimada-phone-x, corridor-south, lav-mirror, elevator-open). OPEN: quarters-inject (timed; 'don't need to yet').
+Map update: Steel Corridor S=Lavatory (fixtures unimplemented; mirror gone, 'strange inconsistency' at rectangle e00295/e00300; touch=nothing), W=Shimada's office (door auto-closes on exit; shelf=CD-ROM works, cabinets/computer unimplemented, paperwork=tech manual nothing relevant, phone keypad+REDIAL untakeable, punch TAKEABLE), N=elevator (no call button, won't open from this side). E=VR Lab.
+Key R4 findings (seg2): 'knock' needs object; 'enter' alone insufficient (open door then w); 'talk' verb unrecognized, use 'ask X about Y' (Shimada waves away all topics); 'x punch' short synonym OK; object-first word order fails.
+Next actions: 1) map D-steps from VR Lab. 2) probe walkthrough late game via help topics (mode next loops). 3) retry insulin when symptoms/time; find overload trigger for run 3+. 4) return punch eventually; find punch target (binder pages?).

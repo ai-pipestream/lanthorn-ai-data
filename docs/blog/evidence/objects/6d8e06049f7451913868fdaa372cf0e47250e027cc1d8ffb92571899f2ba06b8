@@ -1,0 +1,24 @@
+{
+  "game_id": "zork-i7",
+  "title": "Zork/Dungeon 3.2B, Inform 7 port, Release 4 / 190920",
+  "engine": "gvm-cli",
+  "story": "/home/krickert/if-games/glulx/ZorkI7.ulx",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/zork-port-walkthrough.txt",
+  "walkthrough_url": "https://www.ifarchive.org/if-archive/games/source/inform/ZorkI7.zip#ZorkAndDungeonWalkthroughForCopyPaste.txt",
+  "completion": "Require actual game ending text; score or process exit alone is not completion.",
+  "recovery_reason": "Explicit broker event-cap recovery from fresh engine-confirmed checkpoint, no pending replay.",
+  "response_timeout_seconds": 180,
+  "automatic_checkpoints": false,
+  "max_events": 100000,
+  "session_id": "zork-i7-05114e1aff",
+  "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+  "started_at": "2026-09-25T03:58:43.117532+00:00",
+  "recovery": {
+    "previous_session_id": "zork-i7-c569ad8028",
+    "checkpoint_event_id": "zork-i7-c569ad8028:e02501",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/zork-i7/saves/ZorkI7.ulx.save/pool-cap-2499.sav.qzl",
+    "checkpoint_sha256": "a3175bd27537e59cce5f148f765810d13fb0bca699350659b3b1f53cddea8ced",
+    "reason": "Explicit broker event-cap recovery from fresh engine-confirmed checkpoint, no pending replay."
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

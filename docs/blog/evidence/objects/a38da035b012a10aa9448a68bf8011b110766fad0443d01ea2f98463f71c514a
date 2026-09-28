@@ -1,0 +1,46 @@
+# Fullplay supervision
+
+Current bounded audit completed 2026-09-25T06:55:52.138250+00:00; fixed case-selection cutoff 2026-09-25T06:42:29.723754+00:00.
+
+Reviewed 80 exact annotation pairs across43 games:67 accepted,11 revise,2 quarantine. Both endpoint commands/responses/branches and661 distinct surrounding/intervening raw spans checked; no hash/text/CSV mismatches in this selection. Effective snapshot: 2796 unique exported annotations, 1421 accepted, 377 revise, 73 quarantine, 925 unreviewed. Totals use exact unique endpoint-set matching, not cached CSV labels. Remaining cases are not approved.
+
+## Independently verified conclusions and startups
+
+Historical verified total is27, preserving all24 prior conclusions and adding:
+- Asylum R1/090721: b0 e46 NORTH after chisel/hammer wall breach gives explicit win0/0 and final menu. This is cpuguy's compact Z-code game, not commercial Asylum.
+- Moon-Shaped R2/080710: b1 e404 frees grandmother, e406 SPRINKLE POWDER ONTO BONES cleanses curse and reunites living father/grandmother/Rosalind; final banner/menu. Author R2 guide Ending1 matches. Prior b0 e395 ending loses grandmother; e396/e397 restore separates those outcomes. Not all eight endings.
+- Nine Points R12/961127: b0 e61 NORTH gives the authored assault/confiscation epilogue and explicit finished-this-sample-game8/8 banner. Sample conclusion only; guide names olderR11/961121.
+
+Full raw offsets, SHA256, text, branches and nearby receipts are in status JSON. Scores do not prove maximum content or all cases covered. Startup story/header, actual banners and early nonempty saves independently verified for Mother Loose R2/981128, Paper Chase R1/950503 and Hunt for Relief R1/000820. Their guides do not pin exact releases. Hunt's explicitly requested SPACE successfully advances its title; do not generalize other games' menu failures.
+
+## Recovery and transport audit
+
+Kook U old489e2b24ed e40 computer-room-network-up save matches1356 bytes/SHA73de9d97…; newef2767bf50 restore e5 says Ok and e6 LOOK confirms Computer Room,b2. First new m0101 carries newSID and maps exactly once to e7. Old m0051 await_output bytes/hash match explicit cancellation. Central tagged events agree with newSID. Parent receipt records Pi archive/new-fence staging; reviewer did not independently inspect that remote host or invoke RPC.
+
+Delusions old07b4a7fbbe e389 before-pizza save matches2112 bytes/SHAee3999a9…. Failed20a1b41aa0 e4 RESTORE only advances title pause: no restore acknowledged. Successful8997f25a87 e3/e4 are empty-key startup advances, e5/e6 actual restore/Ok, e7 Kitchenette,b12. Old m0341 cancelled without replay. Preserve olde448/e449 timeouts and failed recovery e4 as quarantined, even though hashes match.
+
+Inspected startup helper and exact two-pause config. Six in-memory checks of the source-extracted helper passed (two-stage success; wrong initial screen; initial timeout; non-Enter; wrong result; result timeout). Failure path closes the engine before publishing successful recovery. This verifies configured guards, not arbitrary menu detection or broad automatic handoff. Parent's persistent four-test suite was read, not independently rerun with filesystem fixtures.
+
+Action for parent: none of Kook olde54, Delusions olde448/e449 or failed20a1b41aa0:e4 was in parent-owned reviewed/transport-events.json at this read. Explicit quarantine verdicts are saved in reviewer status; 0 exported annotations currently reference these endpoints. Add them to the parent transport quarantine list, especially the failed RESTORE marked awaiting_input_or_idle, which timeout-only filtering misses. Reviewer did not edit that file.
+
+## Case-quality findings
+
+- Quarantine Anchorhead new e12 cabinet-to-plugs inspection and Vindaloo e29 wardrobe-opening-to-west-room-entry: changed goals are labeled preserved. Retain only after explicit alternate-plan relabeling or a true same-goal endpoint.
+- Revise false/partial success: Deephome e18 tree-touch is not activation; Delusions e26 sphere says I-dunno; Tryst e38 leaves door shut; Nine Points e20 STAND is prerequisite, not arrival north.
+- Weather e153: native UNDO reverts LOOK, not prior hostile throw; later explicit restore separates fetch. Key appears only after second fetch. Weather e178 is accepted as a complete cross-branch key/world-state sequence, not syntax-only correction.
+- Frozen e24/e28 confuse failed conversation versus inspection and valid unsuccessful SEARCH versus syntax. Savoir e1528 one failed hat throw does not prove general impossibility.
+- So Far e1193 exports empty continuation as corrected command; include actual ENTER SHADOW e1191 and its keypause continuation. Parent source hint e1409 remains guidance, not proof worker read it or singer puzzle succeeded.
+- Savoir e1529 is a cross-branch lighting/loadout solution, with worn pin/bracelet observed but not individually proven necessary. Generic Taken responses require their command/object context.
+- Native scene transitions remain distinct even within unchanged branches: Bears computer subgame and Delusions VR suit. Edifice e14 establishes tested RECESS versus HOLE, not exclusive vocabulary.
+
+## Scope and next bounded pass
+
+Later claims remain pending: Child's Play, Zuni Doll, Library Front (inspect trailing stale status/quotation), Only After Dark, Pick Up the Phone Booth and Aisle, Pentari and Slacker X. Later0648 startups and batchD registration are not independently cleared here. Recorded current claims are listed separately in status JSON and do not inflate27.
+
+Latest recorded-input span snapshot across69 manifests has0 raw faults; not a complete fleet-health certification. Local process snapshot found10 launcher processes; remote occupancy is not independently asserted.
+
+Original fleet P1 session/mirror fence closures retained. Legacy-broker newly imported RESTART requires advertised execution guard; earlier queued files are not retroactively cleared. Explicit paused handoff is still required for progress import/recovery races; fsync/power-loss durability is unclaimed. No new fleet code approval is implied by this data audit.
+
+All historical ending/release/quarantine receipts remain in JSON/history. Spider witnessed b19 ending precedes b20 restore; Slouch gallows means worldwide Logos spread; Bronze actual HUG onR11 is not KISS/R13; Zork is the exact Inform7 Zork/Dungeon port, not commercial ZorkI. Synthetic TEST DATA only, no training/evaluation/publication.
+
+Only the three reviewer-owned files updated. No engine commands, launches, resets, process changes, raw edits or source changes. Fixed pass complete.

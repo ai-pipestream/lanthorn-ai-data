@@ -1,0 +1,9 @@
+# Enemies
+
+Story Z8 R4/990115. Guide explicitly R4/990115, exact local header match. It warns of crashes on some interpreters, random puzzle values, and tightly timed late scenes. No runtime smoke was performed.
+
+Follow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.
+
+Guide estimates about 570 moves. Derive random canister/locker/bomb/pricing/lock values from observed clues; never send placeholders. Take verified checkpoints before time-critical scenes and avoid synthetic probes inside them. Report an interpreter fault rather than hiding it with extra commands.
+
+Use small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.

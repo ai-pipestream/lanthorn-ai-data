@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-09-25T08:49:30.872313+00:00",
+  "target": 10,
+  "workers": {
+    "windhall": [
+      448152
+    ],
+    "cacophony": [
+      456003
+    ],
+    "risorgimento-represso": [
+      468248
+    ],
+    "wadewars-iii-askin": [
+      469558
+    ],
+    "delusions": [
+      4066543
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "mansion": [
+      4161234
+    ],
+    "christminster": [
+      4161254
+    ]
+  },
+  "attention": [
+    "pythos-mask: unfinished without launcher; needs diagnosis, evidence retained"
+  ],
+  "ending_review_pending": [
+    "jigsaw",
+    "vindaloo",
+    "i-0",
+    "save-princeton",
+    "muse-autumn-romance",
+    "bicon"
+  ],
+  "queued": [
+    "underoos-that-ate-new-york",
+    "time-all-things-come-to-an-end",
+    "detective",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ]
+}

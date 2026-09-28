@@ -1,0 +1,28 @@
+# Space Station — collection progress
+
+Location: Command/Medical Arc SanFac (fore of Sector P). Rubbish
+ordinary; nothing taken.
+Inventory: translator/chronometer/uniform worn, isotopes box, TOOLBOX.
+Scooter docked, hatch open; slot needs form.
+
+Checkpoints: start-scooter, docked-exit (verified).
+
+Cases (8 so far):
+- scooter-survey DONE; toolbox-typo chain PENDING (needs unlock key)
+- hallway-dir-synonym ANNOTATED vocabulary (go right/starboard)
+- fussbudget-wake ANNOTATED none (accepted)
+- cage-open: break refused, open locked; HELP received (take
+  toolbox; Director cabinet key+manual; unlock toolbox for
+  saw/paste/glue/bracelet). Toolbox taken; annotation after saw-out.
+- scooter-board ANNOTATED vocabulary (board/enter)
+- toolbox-take/return-station/return-hallway-n/hallway-east (guided
+  + exploration) DONE; Sector O, Xeno Bio Lab surveyed (maze warns
+  not for human use); Sector P reached (engineering bulkhead closed,
+  warning sign).
+- sector-p-fore SanFac DONE; sanfac-trash ANNOTATED world_state
+  (search blocked closed/open revealed rubbish e00045/e00046).
+- sanfac-rubbish examine DONE (ordinary).
+
+Next: SanFac aft -> Sector P aft room -> port-side sectors of M
+(still unmapped) -> tube down at N -> find Director's office,
+cabinet key, unlock toolbox, free Fussbudget. Hunger timer noted.

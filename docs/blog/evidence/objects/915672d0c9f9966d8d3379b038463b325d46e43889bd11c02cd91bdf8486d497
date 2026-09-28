@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-09-25T08:17:32.466540+00:00",
+  "status": "passed_static_validation",
+  "ready": 4,
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-i-20260925.json",
+  "config_sha256": "0b383a78450b9cad59cbc6f4108b5292be622b795f965224785daeba7c39b790",
+  "schema": "D config keys retained; Glulx zmachine_version is null and detailed Glulx header is in source record",
+  "counts": {
+    "train": 4,
+    "development": 0,
+    "zcode": 1,
+    "glulx": 3
+  },
+  "games": [
+    {
+      "game_id": "augmented-fourth",
+      "release": 4,
+      "serial": "200401",
+      "story_sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c",
+      "source_record_sha256": "5ebca7a9b13a462656ea65d9bb40bcb72bd457793203145c83087b7a4c829cf1",
+      "checks": "pass"
+    },
+    {
+      "game_id": "pythos-mask",
+      "release": 4,
+      "serial": "020223",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "source_record_sha256": "1569c8858f38305813357080199b96dd4364c79523db5f9765f4e9eda668cba9",
+      "checks": "pass"
+    },
+    {
+      "game_id": "alias-the-magpie",
+      "release": 5,
+      "serial": "220210",
+      "story_sha256": "d2bc0863ed5d7dae820a9b4705ea00a2b1b943970f3893167a2b1c87e787842f",
+      "source_record_sha256": "fedf8fd566f30449b927099456709753a82e916829b6ccf49b88fa6ff731ed7a",
+      "checks": "pass"
+    },
+    {
+      "game_id": "a-remote-problem",
+      "release": 3,
+      "serial": "250920",
+      "story_sha256": "4443f056c00fcea12eb68bf97dbe235a1e3d8901b7ceb3228453c9c763f26b73",
+      "source_record_sha256": "06d98d8f8e7a799b092ceadf584bcc4e1781b969d2648d3630fbc1e56ee5b2b2",
+      "checks": "pass"
+    }
+  ],
+  "collision_scan": {
+    "json_files_checked": 571,
+    "scope": "current control, A-H and other sources, all current play manifests and archived session manifests; checked IDs/library filenames/story and container hashes/TUIDs",
+    "hits": []
+  },
+  "splits_snapshot_sha256": "7e9fd86dad4a43e639f92910c85a2fd1a11bb9840fc5be1482d228d5c6351616",
+  "checks": [
+    "config schema and existing executable paths",
+    "local-library versus archive byte identity",
+    "story/header/executable checksums and hashes",
+    "raw and normalized guides and fetched containers hash pins",
+    "matching archive identities and current split exclusion",
+    "normalized guide lines at most 110 characters for 9-line/1000-character broker excerpts"
+  ],
+  "limits": [
+    "No interpreter launch or guide execution. No runtime compatibility or finale claims.",
+    "Family assignments need parent review; guide-version/format gaps retained.",
+    "All writes restricted to I aggregate and source directory; no shared registry/split edits or remote staging."
+  ]
+}

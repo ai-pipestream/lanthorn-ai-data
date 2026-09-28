@@ -1,0 +1,40 @@
+import json,sys,concurrent.futures,subprocess,hashlib
+from pathlib import Path
+sys.path.insert(0,str(Path.cwd()/'scripts'))
+from maintain_workers import processes,inventory,input_state,pending
+from play_broker import ROOT,now,write_json
+baseline=json.loads((ROOT/'control/provider-quota-canary-20260925T0741.json').read_text())
+records=json.loads((ROOT/'control/fleet/assignments.json').read_text()); groups={}
+for gid,a in records.items():
+ if a['state']!='complete':groups.setdefault(a['host'],[]).append(gid)
+code=r'''
+import importlib.util,json
+from pathlib import Path
+root=Path.home()/'lanthorn-muse';spec=importlib.util.spec_from_file_location('fh',root/'fleet_host.py');fh=importlib.util.module_from_spec(spec);spec.loader.exec_module(fh)
+result=[]
+for gid in GAMES:
+ s=fh.state(gid);run=Path(s['run']) if s.get('run') else None
+ err=(run/'stderr.log').read_text() if run and (run/'stderr.log').exists() else ''
+ args=Path('/proc/'+str(s.get('muse_pid',0))+'/cmdline').read_bytes().decode().strip('\0').split('\0') if s['muse_alive'] else []
+ result.append(dict(game_id=gid,worker=s,args=args,quota_error='Subscription quota exhausted' in err,error_tail=err[-400:] if 'API error' in err else ''))
+print(json.dumps(result))
+'''
+def get(pair):
+ h,games=pair;p=subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=8',h,'python3 -'],input=code.replace('GAMES',repr(games)),text=True,capture_output=True,timeout=30)
+ assert p.returncode==0,(h,p.stderr)
+ return h,json.loads(p.stdout)
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex: remote=dict(ex.map(get,groups.items()))
+proc=processes();workers,brokers=inventory(proc);local_muse=[dict(pid=p,args=a) for p,a in proc.items() if 'muse' in Path(a[0]).name and '--workspace' in a]
+checks=[]
+for old in baseline['checks']:
+ gid=old['game_id'];base=ROOT/'play'/gid;rows=[json.loads(s) for s in (base/'events.jsonl').read_text().splitlines()];new=[r for r in rows if r['session_id']==old['session_id'] and r['event_id']>old['last_event'] and r.get('command') is not None and r.get('raw_end',0)>r.get('raw_start',0)]
+ proofs=[]
+ if new:
+  raw=(base/'stdout.raw').read_bytes()
+  for r in new:
+   data=raw[r['raw_start']:r['raw_end']];assert hashlib.sha256(data).hexdigest()==r['response_sha256']
+   proofs.append(dict(event_id=r['event_id'],command=r['command'],raw_start=r['raw_start'],raw_end=r['raw_end'],sha256=r['response_sha256']))
+ checks.append(dict(game_id=gid,broker_pids=brokers.get(gid),session_id=json.loads((base/'manifest.json').read_text())['session_id'],same_session=json.loads((base/'manifest.json').read_text())['session_id']==old['session_id'],input_state=input_state(rows),pending=pending(base),fresh_input_proofs=proofs))
+r=dict(at=now(),local_workers=workers,local_muse=local_muse,remote=remote,checks=checks)
+write_json(ROOT/'control/fleet/quota-resume-live-verification-20260925T0744.json',r)
+print(json.dumps(dict(local_workers=len(workers),local_muse=len(local_muse),remote={h:sum(bool(x['worker']['muse_alive']) for x in xs) for h,xs in remote.items()},quota_errors=[x['game_id'] for xs in remote.values() for x in xs if x['quota_error']],progressed=[x['game_id'] for x in checks if x['fresh_input_proofs']],not_yet=[x['game_id'] for x in checks if not x['fresh_input_proofs']],attention=[x for x in checks if x['input_state']!='awaiting_input_or_idle' or not x['same_session'] or len(x['broker_pids'] or [])!=1])))

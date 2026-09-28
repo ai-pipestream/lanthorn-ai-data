@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-25T07:47:20.044076+00:00",
+  "target": 10,
+  "workers": {
+    "delusions": [
+      4066543
+    ],
+    "zork-i7": [
+      4161206
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "jigsaw": [
+      4161221
+    ],
+    "the-edifice": [
+      4161226
+    ],
+    "mansion": [
+      4161234
+    ],
+    "magic-toyshop": [
+      4161243
+    ],
+    "christminster": [
+      4161254
+    ],
+    "the-wedding": [
+      4161264
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [],
+  "queued": [
+    "not-just-a-game",
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man",
+    "traffic",
+    "bicon",
+    "mortlake-manor",
+    "windhall"
+  ]
+}

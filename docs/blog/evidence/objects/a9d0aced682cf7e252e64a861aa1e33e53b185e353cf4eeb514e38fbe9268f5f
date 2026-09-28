@@ -1,0 +1,8 @@
+# Shade progress — FINISHED (ending claimed, annotation pending)
+
+- Location: desert end prompt (RESTART/RESTORE/QUIT) after e00347; branch b0.
+- Ending evidence e00347: tiny figure dead, "You win / Okay my turn again", "... Nothing left to do. Time passes. The sun crawls higher.", *** SHADE *** banner. Finish claimed e00352 (m0274); Terra verification pending.
+- Route: mirror reset was chapter transition (NOT ending); desert figure weakened by touch/take/kiss, killed by final touch e00344; book blank e00345; waits to ending.
+- Cases: segment-1 ~40 annotated; segment-2 new probes include mirror-typo (m0275 annotation submitted, response pending), figure touch/take/kiss chain, closet-clean syntax, dunes/list read variations, sand-tap world-state. Backlog: annotate figure chain + sand-tap pair on next run if needed.
+- Checkpoints: figure-revealed + nooks-gone-palm + sand-collapse + spider-plant ok. Do NOT send game commands or SAVE at end prompt.
+- Next: retry responses/m0275.json once (submitted ~02:25); if still pending after 190s vs latest e00352, stop honestly with game complete, annotation unreviewed.

@@ -1,0 +1,15 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete — continuation on branch b1)
+
+Game R3/051012, session dracula-prince-of-darkness-d75c304699, branch b1.
+Actual state b1: Nest of Rats e386-388. Square brick chamber, hundreds of black rats; exits south and down to running water. Ordinary prompt. Down blocked. No quit/ending.
+
+Inventory b1: old snow shovel + tinderbox + glowing hot bottle light (e342). No corpse yet.
+
+Key results: below-passage e378 dismissed -> north e379 Brick Passageway (sewage, rats noise), annotated e380; go-to-noise e381 rejected -> north e382 Nest of Rats, annotated e383; checkpoint nest-of-rats e384-385 success; hit-rats e386 dismissed (don't worry) -> down e387 BLOCKED hungry rats won't let you. Unresolved crossing; help requested e388.
+Help hint (guidance only, verify): n/n/drop-corpse/d/read-notice/enter-waterfall/n/e/x-chains. Implies fetch a corpse to distract hungry rats, then down. Candidate: young woman corpse in Devil's Cave (e368-370). Do NOT replay as script; test take/carry/drop in game.
+
+Lessons: Hag hand trap avoid; graveyard dig one-way (checkpoints castle-graveyard-b1, below-graveyard, nest-of-rats); open beats pry; girl/woman ok; wall needs graffiti.
+
+Checkpoints: behind-cottage; forest-clearing; tiny-room (b0 avoid); blizzard-stopped; castle-graveyard-b1; below-graveyard; nest-of-rats (current pre-rat-solution).
+
+Continuation b1: 1) south/south to Below Graveyard, west to Devil's Cave, try take corpse/body (synthetic variations: take corpse vs take woman); 2) carry to Nest, drop corpse, try down; 3) annotate rats pair only after observed success (world_state/planning, not wording); 4) need Chapel confrontation + escape finale, never QUIT.

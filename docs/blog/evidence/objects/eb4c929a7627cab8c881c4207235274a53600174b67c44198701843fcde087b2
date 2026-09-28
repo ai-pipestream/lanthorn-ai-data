@@ -1,0 +1,8 @@
+# Progress 905 — segment 1 (final update before finish)
+
+Location: Branch b1 escape ending reached. At RESTART/RESTORE/QUIT prompt after leaving Las Mesas.
+Evidence: b0 arrest ending 1 (e00080 guards, e00082 life imprisonment) distinguished from b1 escape ending 2 (e00098 merge onto freeway, vanish, *** You have left Las Mesas ***).
+Route b1: restore after-shower-dressed, replay wallet/keys/living/kitchen/eat/exit/unlock/enter, no at onramp, NO at office (skip), yes at second onramp = escape.
+Cases: ~25 distinct case_ids; failures annotated (phone typo, dresser drawer, wear ambiguity x2, shower syntax, drop ambiguity, wallet grab, frontdoor world_state + ambiguity, car locked, wallet container, cubicle paper, form verb, bowman planning). Acceptances recorded as events (stand up, go to bathroom, put on clean, get keys, eat raw, unlock implicit, enter cubicle, take id short, put id in slot); bed-exit annotated none.
+Checkpoints: start-in-bed, after-shower-dressed, at-work-parking, before-bowman (all confirmed).
+Next: finish with e00098; Terra reviews.

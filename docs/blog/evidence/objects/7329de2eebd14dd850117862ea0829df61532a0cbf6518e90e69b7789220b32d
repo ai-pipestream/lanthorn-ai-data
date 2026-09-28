@@ -1,0 +1,7 @@
+# Save Princeton — progress (COMPLETE: winning ending observed)
+
+State: Branch b1, Throne Room finale e00443. Score 200/200 Savior Of The University, 297 turns. King Ash + guard asleep after Hal speech, trumpet taken from King e00439, played e00443 for win. Earplugs popped out by blast. Office restored, King bound/gagged.
+Route tail: examine king e00437 (clutching trumpet) -> take trumpt typo e00438 rejected -> take trumpet e00439 Taken -> annotate e00440 -> checkpoint trumpet-acquired e00441-442 -> play trumpet e00443 WIN -> annotate e00444.
+Checkpoints verified: trumpet-acquired e00441-442; hal-acquired; glasses-key-clio; guard-hypnotized; office-king-foyer; nassau-guard-gone; joline-before-umbrella; tiger-lamp-7995.
+Annotations new: finale-trumpet-take-1 vocab e00438->e00439; finale-trumpet-blow-1 none e00443 (play accepted as blow synonym, win). Older pending list unchanged.
+Game complete: genuine Princeton-saved finale observed, not death/chapter/quit. Next: finish with e00443 evidence; no further commands (end menu offers RESTART/RESTORE/UNDO/FULL/QUIT — do not SAVE there).

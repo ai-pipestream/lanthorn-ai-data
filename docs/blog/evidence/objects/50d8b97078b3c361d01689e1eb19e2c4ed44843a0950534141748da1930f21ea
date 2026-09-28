@@ -1,0 +1,18 @@
+# Heist progress
+
+Location: Graveyard (back up from grave, e00050).
+Inventory (inferred): bag+frame+student photo, wooden box, ribbon, colour photo of boy, glass cutter. Score 5 (last seen e00046). Verify with inventory next.
+
+Checkpoints: early-graveyard, grave-coffin (Saved Ok). Next milestone after church/hotel as appropriate at ordinary prompt.
+
+Observations R5:
+- Plaque 1935-1997, riddle badge.
+- 'answer yes' (not bare 'yes') gives box, score 1.
+- Coffin: ribbon->score2, push plaque->lid open score3, search body->boy photo score4, shoe->laces, untie laces->shoe off + fall, look in coffin->glass cutter, take cutter->score5, shut coffin works, u returns.
+
+Cases annotated (12):
+look-typo, open-omitted, grave-enter-hole, plaque-read-typo, ribbon-take-synonym(none), plaque-push-wrongobj(planning), coffin-lookinside(none), corpse-search(none), shoes-examine-number(none), shoes-untie-laces(none), cutter-take(none), coffin-shut(none). Plus route moves.
+
+Last hint: initial excerpt lines 17-25 done through 'u'. Need next excerpt for after grave (church north? gates south? hotel? six photo sections student last). Request small help next.
+
+Next: inventory to confirm, then explore north (church) / south (gates). Collect probes: synonym/typo/omitted/pronoun per room. Need 20-40 total; currently 12, need more in new areas. Avoid risky timed sequences; checkpoint before.

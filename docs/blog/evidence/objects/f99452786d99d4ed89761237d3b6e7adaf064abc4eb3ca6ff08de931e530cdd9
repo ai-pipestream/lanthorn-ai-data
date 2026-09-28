@@ -1,0 +1,37 @@
+{
+  "game_id": "kook-u",
+  "title": "Kook U",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/kooku.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/kooku.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Resolve the target/dean progression and final router/name/file/news sequence, then require the game-authored concluding narrative. Completing a target or merely exhausting this abbreviated guide is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/kooku/source.json",
+  "story_sha256_expected": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+  "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+  "dataset_split": "train",
+  "game_family": "kook-u",
+  "collection_notes": "# Kook U\n\nCommunity guide specifies no release/serial; story R1/971119. Guide explicitly omits finding people/items and much navigation. Do not invent missing steps as observed evidence.\n\nCompletion: Resolve the target/dean progression and final router/name/file/news sequence, then require the game-authored concluding narrative. Completing a target or merely exhausting this abbreviated guide is insufficient.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "971119",
+  "session_id": "kook-u-ef2767bf50",
+  "story_sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+  "started_at": "2026-09-25T06:32:59.157569+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+  "automatic_checkpoints": false,
+  "max_events": 100000,
+  "recovery_reason": "Target-information terminal SPACE stalled e54. Explicit checkpoint handoff to new central session and new Pi workspace generation; old requests retained/cancelled, never replayed.",
+  "recovery": {
+    "previous_session_id": "kook-u-489e2b24ed",
+    "checkpoint_event_id": "kook-u-489e2b24ed:e00040",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/kook-u/saves/kooku.z5.save/computer-room-network-up.sav.qzl",
+    "checkpoint_sha256": "73de9d97e79ffe1cdd8fbdd5495b2911f94366c58d6615782ebea46515b6cb2d",
+    "reason": "Target-information terminal SPACE stalled e54. Explicit checkpoint handoff to new central session and new Pi workspace generation; old requests retained/cancelled, never replayed."
+  },
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  }
+}

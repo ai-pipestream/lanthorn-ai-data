@@ -1,0 +1,41 @@
+{
+  "games": [
+    {
+      "game_id": "delusions",
+      "title": "Delusions",
+      "engine": "zvm-cli",
+      "story": "/home/krickert/if-games/zcode/Delusns.z5",
+      "walkthrough": "/work/experiments/lanthorn-recall-training/control/delusions-walkthrough.txt",
+      "walkthrough_url": "https://ifarchive.org/if-archive/solutions/delusion.sol",
+      "response_timeout_seconds": 180,
+      "completion": "Require actual author-intended final narrative verified against raw output; no ordinary deaths/quitting/chapter transitions/partial scores. Story R4/971121 versus community walkthrough R2/961021. Guide augments built-in hints, but use broker excerpts instead of optional hint menus. Seek final rescue/conclusion; intermediate computer scenes and partial scores are insufficient.",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/delusions.json",
+      "story_sha256_expected": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "checkpoint_policy": "Only at ordinary command prompts; verify save success.",
+      "dataset_split": "train",
+      "game_family": "delusions",
+      "collection_notes": "# Delusions\n\nStory R4/971121 versus community walkthrough R2/961021. Guide augments built-in hints, but use broker excerpts instead of optional hint menus. Seek final rescue/conclusion; intermediate computer scenes and partial scores are insufficient.\nSource: https://ifarchive.org/if-archive/solutions/delusion.sol\n\nSmall broker help excerpts only; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones at ordinary command prompts, never a menu/question. Empty command sends Return, literal space is different. Timeout permits await_output only. No training or publication.\n",
+      "zmachine_version": 5,
+      "release": 4,
+      "serial": "971121",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+      "automatic_checkpoints": false,
+      "max_events": 100000,
+      "recovery_checkpoint": "before-pizza",
+      "recovery_reason": "Optional HINT menu SPACE e448 and await e449 timed out; preserve old evidence, restore verified before-pizza; no pending input replay.",
+      "recovery_startup_steps": [
+        {
+          "expect_before": "[Press a key.]",
+          "command": "",
+          "expect_after": "[Press any key to begin.]"
+        },
+        {
+          "expect_before": "[Press any key to begin.]",
+          "command": "",
+          "expect_after": "Coral Reef"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Gerbil Riot progress (pending help)
+
+Location: Cinema (e00022 watch film success, sheepdog whistle hint).
+Inventory: syringe.
+Checkpoints: start-treatment verified.
+Pending: inbox/m0022.json help "after cinema film what next" (related e00022) has no responses/m0022.json yet; latest.json still e00023 annotation. Do NOT resubmit m0022; retry responses/m0022.json first, compare timestamp, allow 190s.
+Cases annotated: syringe-typo, corridor-east-synonym (none), large-room-enter, film-watch-typo. Unresolved: cupboard-open-locked e00013.
+Next after help arrives: examine seats/screen, go north to corridor, explore cell north per hint chain.

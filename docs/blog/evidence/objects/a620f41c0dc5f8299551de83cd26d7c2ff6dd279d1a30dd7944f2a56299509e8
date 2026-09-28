@@ -1,0 +1,16 @@
+# Dracula Prince of Darkness — collection progress (IN PROGRESS, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Hold of Demeter aboard wrecked ship (e119 'enter ship' from Sandy beach; e117 'go west' Henrietta->beach). Wooden box centre, steps UP, hole EAST to beach. Lantern barely penetrates darkness (now effectively lit); cat on shoulder. Ordinary prompt. No death/quit/ending. Pending: m0100 'examine box' probe.
+
+Inventory as observed: letter; lantern; cod consumed by cat (Taken e109, given e115); tabby-cat companion on shoulder (e115).
+
+Annotated (19): + choir-lucy-typo e100 (vocab); bin-look-phrasing e108 (none); bin-take-cod e110 (none); grave-look-phrasing e111 (none); cat-feed-omitted e116 (syntax: bare 'feed cat' misfire -> 'give cod to cat' befriended); henrietta-go-west e118 (none); beach-enter-ship e120 (none). Still pending: wheel-four e79 (none); choir-wall e82-83 double-fail; hound e89/e91 world_state pair; hound-call-mars e59; pull-chain e64; light-lantern e63.
+
+Key findings: grave MARS lore (midnight bell summons giant dog; links priest warning + clock wheel); cat sequence done; Demeter hold reached. Wheel-4 sound still unexplained; north wall still closed at last check.
+
+Help: m0079 lines 19-27 route followed stepwise (ask-lucy/bin/cod/cat); m0004 lines 26-34 now active (w/w/open box/get key/up/up — one w done, second w became enter-ship). Guidance only.
+
+Checkpoints verified: henrietta-bin e112-113 (with cod, before cat) + earlier choir-wheel e77-78 etc. Consider Demeter checkpoint after box/key.
+
+Continuation: await m0100 examine; then 'open box'/'get key'/up/up per hint; then back east to beach/streets toward Helsing/parchment per m0043 (d/s/s/s/sw/give parchment), Dead Forest, Castle Chapel + escape finale. Need ~20-40 cases (19 annotated). No ending; no finish claimed.

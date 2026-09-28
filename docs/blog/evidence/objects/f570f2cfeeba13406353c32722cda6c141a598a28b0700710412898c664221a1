@@ -1,0 +1,27 @@
+{
+  "game_id": "metamorphoses",
+  "title": "Metamorphoses",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/metamorp.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metamorphoses-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2000/inform/metamorp/metawalk.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the full lake/tower transformation route, recover the required objects, return by gondola and enter the mirror through the actual authored homecoming conclusion. The guide explicitly says other endings exist; preserve any genuine intended alternative with an accurate label. Puzzle completion, returning to the lake, ordinary death, or issuing ENTER MIRROR alone is insufficient without concluding output.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/metamorphoses.json",
+  "story_sha256_expected": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "metamorphoses",
+  "collection_notes": "# Metamorphoses\n\nLocal Z5 R4/020222 matches fresh archive bytes and catalog. The complete packaged walkthrough accompanies original competition Z5 R1/000930, separately hash/header verified. Guide itself states no release or serial: companion-to-selected gap is three releases and 510 days. This is the proper full Metamorphoses, not the modified/clipped Fractured Metamorphoses example.\n\nFollow the full lake/tower transformation route, recover the required objects, return by gondola and enter the mirror through the actual authored homecoming conclusion. The guide explicitly says other endings exist; preserve any genuine intended alternative with an accurate label. Puzzle completion, returning to the lake, ordinary death, or issuing ENTER MIRROR alone is insufficient without concluding output.\n\nThe guide is a quick example route and explicitly warns it omits side detail and more satisfying puzzle alternatives. Prefer a sensible full route with useful examination and context, not a blind minimal replay. Observe item sizes, machinery orientation, pronouns and NPC commands. The normalized copy adds period-space line breaks for bounded help excerpts; raw wording and punctuation remain intact. Save early at a safe ordinary prompt, and before transformations that may change access. Record any divergence from the older competition guide.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 4,
+  "serial": "020222",
+  "session_id": "metamorphoses-9563441828",
+  "story_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a",
+  "started_at": "2026-09-25T18:09:19.418048+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

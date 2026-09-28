@@ -1,0 +1,10 @@
+# Only After Dark — progress (20 cases, READY TO FINISH)
+
+Location: b4 Running through Woods with Aten (e00119/e00120); finale WON on b2 e00085. Finish next with b2 evidence; no game commands needed.
+Inventory: wolf none; human talisman earlier.
+Checkpoints: village-start, lyca-hut, jail-hut, beach-wolf, clearing-shaman, shaman-dead (verified).
+Cases annotated (20): village-exit-typo, follow-lyca-naming, talisman-throw-omitted, bed-mount-synonym, sleep-typo, scent-synonym, fork-ne-typo, shaman-attack-vs-jump, beach-howl-typo, scent-sniff-verb, fork-ne-phrasing, clearing-smell-altar, clearing-examine-shaman, clearing-jump-omitted, jail-door-blocked, jail-examine-bed, jail-sleep-phrasing, gallows-bite-object, flee-run-synonym, woods-sprint-synonym.
+Unresolved: escape-sw-wording persistence (not a synonym fix).
+Hints: e80 sw/how l verified to win (e84/e85).
+Deaths: b0 e25, b1 e70 fail; recovered. b2 win menu is ending, not death.
+Next: submit finish with evidence e00085 and exact win quote. Do not resend m0061-m0105.

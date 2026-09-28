@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-25T05:01:37.418684+00:00",
+  "event": {
+    "event_id": "hunter-in-darkness-d1b183a1fc:e00187",
+    "timestamp": "2026-09-25T04:59:27.483323+00:00",
+    "game_id": "hunter-in-darkness",
+    "session_id": "hunter-in-darkness-d1b183a1fc",
+    "branch_id": "b3",
+    "event_index": 187,
+    "event_type": "command",
+    "command": "up",
+    "response": "You pick your way... slowly... up the canyon wall. Everything is heavy; you're \nglad you have nothing more to carry.\n\nSomewhere below, a hissing scream is cut off, abruptly. You round a pale fold \nof limestone, and you are blinded by daylight.\n\n\n\n    *** It's over ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+    "raw_start": 26897,
+    "raw_end": 27229,
+    "response_sha256": "1ebfe472318a9036d0c17928319b27fcb81121eb1e2e320434cd49fd373e731d",
+    "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "route-final-b3",
+      "intent": "Climb to daylight",
+      "origin": "exploration",
+      "expected_outcome": "Ending"
+    },
+    "review_status": "unreviewed"
+  },
+  "verdict": "Hunter escapes to daylight after bat swarm descends on Wumpus; intended final narrative and Its over banner, not an ordinary death.",
+  "raw_hash_and_text_verified": true
+}

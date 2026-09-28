@@ -1,0 +1,18 @@
+# HLA Inform progress
+
+Location: Guild (starting room). Exits: east. Present: paladin, board (flute taken).
+Stats as of e00017: hp 100, g 200, exp 0, food 246.
+
+Inventory observed: flute (Taken e00014). Starting gear unknown — need `inventory`.
+
+Cases completed (annotated):
+- guild-look-typo-01: lok -> look (vocabulary) e00006->e00008
+- guild-read-omitted-02: read -> read board (syntax) e00010->e00011; board lists 9 quests, Dragon Quest main
+- guild-flute-synonym-03: grab flute -> take flute (vocabulary) e00013->e00014
+- guild-paladin-talk-04: talk paladin -> talk to paladin (syntax) e00016->e00017; paladin hints armor/buckler/helmet, firewhip, Misty Mountains
+
+Help: m0005 topic guild look returned off-topic general weapon tips (cleaver village store, battleaxe eastern forest hut, fire whip mystic cave golem; armor/shield village paladin, cloak elf). Not player-observed.
+
+Checkpoints: start-guild (verified e00004-e00005).
+
+Next: inventory / examine paladin, then east to village; request small walkthrough excerpt for Lantern Quest route; keep 1 command per probe near hazards; checkpoint at milestones.

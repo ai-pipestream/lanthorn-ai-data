@@ -1,0 +1,8 @@
+# Deephome playthrough progress
+
+Location: Northern Guard Post (score 7). Door opened via push mountain.
+Inventory (observed): King's Order, lantern, Sword (taken e00027), shield (taken e00033). Letter on table read (e00032): spirits need Fresto's Exorcisms tome from library; regular weapons useless.
+Checkpoints: start-secret-entrance, guard-post (verified Ok).
+Cases: door-typo (syntax, e07/e08), press-tree (none, e12), mountain shove/push (vocab, e15/e16), cupboard/cabinet (vocab, e22/e23), grab/take sword (vocab, e26/e27), look-on-table/search-table (syntax, e29/e30).
+Last hint (m0012, NOT observed): guard post -> sw Main Hall.
+Pending: none. Next: SW to Main Hall with movement synonym probe (walk southwest), then annotate; take letter maybe; checkpoint at Main Hall.

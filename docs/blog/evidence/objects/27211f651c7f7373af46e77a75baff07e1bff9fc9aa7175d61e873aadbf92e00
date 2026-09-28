@@ -1,0 +1,27 @@
+{
+  "event_id": "mother-loose-608208fd92:e00188",
+  "timestamp": "2026-09-25T07:16:37.793916+00:00",
+  "game_id": "mother-loose",
+  "session_id": "mother-loose-608208fd92",
+  "branch_id": "b1",
+  "event_index": 188,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 54055,
+  "raw_end": 54055,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "a28b241778534c4d84749fb2192ba635269daaff7c20e8ed0fd30d85cfe4da96",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "mother-loose-608208fd92",
+    "ending_quote": "And you all live happily ever after.",
+    "evidence_event_ids": [
+      "mother-loose-608208fd92:e00180",
+      "mother-loose-608208fd92:e00181",
+      "mother-loose-608208fd92:e00182"
+    ],
+    "notes": "Kitten/mouse/key stair sequence (get kitten reveals key, pick up key +2), unlock clock tower door with key, s to figure=Mother (+5), n (+20 to 50, let's go home), z final wait yields Humpty faint/water/home/THE END. Score 50 alone not claimed; authored happy-ending narrative is the completion evidence, not death/quitting/chapter."
+  },
+  "review_status": "unreviewed"
+}

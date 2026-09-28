@@ -1,0 +1,22 @@
+# Space Station — collection progress (game incomplete, in progress)
+
+Location: Sector M heading starboard to N then down to Lounge (e182 at M).
+Score 12. Dispenser Credit 0.75 after coin (e167). Diet=hydraulic (e165)
+but push diet Nothing (e166 e168); kick refused (e169).
+Hunger cleared via fruit (e141); boards secured (e142, score 12).
+Inventory (e145, coin spent since): boards, hosing, 2 sawn bars, syringe,
+bracelet worn, glue, hacksaw, manual, key, toolbox open-empty,
+translator/chrono/uniform worn, isotopes closed.
+Checkpoints verified: start-scooter, docked-exit, office-tools,
+office-computer, sickbay-freed, dentist-hosing, lounge-dispenser (e171-172).
+Unresolved cases: dispenser-push-diet (e166/e168 Nothing),
+dispenser-kick (e169 refused), sector-o-aft no-exit (e178),
+sector-m-fore/aft no-exit (e181/e182).
+Last hint: e170 (m0120) Observatory pocket>galakmid; push refund;
+put galakmid in slot; x diet; push diet; kick dispenser>can.
+Next: return via N down to Lounge; search lower level for Observatory
+pocket/galakmid (main hallway J-P fore/aft fully surveyed, no Observatory:
+L Store/Office, K Briefing/Control, J Map/Teleporter, N Sick/Lounge,
+O Xeno/no-aft, P SanFac/Dentist, M no fore-aft). Then refund/slot/diet/kick
+sequence; make ram; bulkheads; dentist 4300; reactor/scooter finale.
+No ending reached; no finish.

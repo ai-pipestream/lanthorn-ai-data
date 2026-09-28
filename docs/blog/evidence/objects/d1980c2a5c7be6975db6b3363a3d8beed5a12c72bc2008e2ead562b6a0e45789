@@ -1,0 +1,14 @@
+# Gumshoe progress — Alibi social done, Lydia lead (game incomplete)
+
+## State
+- b2 Inside Alibi: `wait until 5:04` e00498 opened door (score 17). `go north` e00499 in (annotated none). Drinks: for→about repair e00501→e00502 (annotated syntax). Beer: order-probe busy e00505, wait e00506, `buy beer` e00507 grabs mug (annotated none e00508). Wait e00509 draws beer. Beer slid + skinny entered e00511. `take beer` e00513 Taken (annotated none e00514). Skinny looked e00515 (orders beer, jukebox). Offers: skinny e00516 decline, Billy e00517 same decline (annotated none e00518; Billy=skinny alias). Offer repeat e00519 ACCEPTED (takes beer, sipping). Pronoun `ask him about Lydia` e00520 → Lydia at Fifth and Lincoln +1 (annotated none e00521, score ~18).
+- Hint m0430 (lines 134-142): Get beer, I, Show incriminating, Drop incriminating, Offer beer to Billy till accepts, Ask Billy about Lydia, Get dart Throw dart. Incriminating missing (no camera) — skipped, still advanced.
+- Checkpoints: b2-alibi-arrival e00462-463. Score ~18. Camera NEVER acquired → photo point lost. Branch b2. No ending; do not finish.
+
+## Inventory (inferred)
+- Carrying: beer (offered away? gave to Billy — likely gone), snapshot, card, license, money. Dropped: Times, matchbook at Winchester.
+
+## Next
+1. Get dart / Throw dart at board per hint; checkpoint milestone.
+2. Help for post-dart Alibi lines (topic dart/board/Billy).
+3. Long-term: restore b2-office-opening, replay WITH camera. Continue, do not restart.

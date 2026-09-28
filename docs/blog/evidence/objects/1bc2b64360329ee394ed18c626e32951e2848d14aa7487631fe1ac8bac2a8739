@@ -1,0 +1,27 @@
+{
+  "at": "2026-09-25T10:05:10.275947+00:00",
+  "pid": 763144,
+  "log": "runs/kimi-coordinator-20260925T1005.log",
+  "validated_fleet_response": "control/kimi-pilot/revalidation-20260925T1004.json",
+  "next_cycle_status": "fresh_actual_fleet_cycle_passed",
+  "duration_seconds": 10800,
+  "interval_seconds": 300,
+  "authority": "read-only coordination, priorities and review routing; no game executor",
+  "first_fleet_response_verified": "control/kimi-pilot/revalidation-20260925T1004.json",
+  "latest_watcher_observation": {
+    "started_at": "2026-09-25T10:05:10.298605+00:00",
+    "duration_seconds": 10800,
+    "interval_seconds": 300,
+    "calls_completed": 1,
+    "status": "running",
+    "parent_review_required": true,
+    "actions_executed": [],
+    "last_started_at": "2026-09-25T10:05:10.298736+00:00",
+    "last_exit_code": 0,
+    "last_run": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T100510.324038Z",
+    "error": null,
+    "last_finished_at": "2026-09-25T10:09:09.388123+00:00"
+  },
+  "observed_at": "2026-09-25T10:09:02.381221+00:00",
+  "latest_parent_review": "control/kimi-pilot/20260925T100510.324038Z/parent-review.json"
+}

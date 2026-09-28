@@ -1,0 +1,10 @@
+# Bronze progress — SEGMENT 5 STOP (incomplete, continuation needed, step budget)
+
+Game R11/060503 branch b1. Last confirmed e00664 Father's Regret, ordinary prompt: drawers OPEN revealing ivory key + elephant harness.
+Location: Father's Regret (crypt) 44/55. Wearing cloven shoes; carrying candle (light), tambourine, notes, vial, contract book, sceptre, keys (iron+small), embroidery, helmet, shackle. Stool in Rooted Room.
+Pending: m0582 "take key" ambiguity probe (take key with iron carried + ivory present) — response NOT yet seen as of stop. Next inbox m0583.
+Milestones this segment: steward appeared e00596; Lucrezia's Study 43/55 e00601 + checkpoint; study lookups (tambourine/shoemaker, me/empty, Lucrezia/Beast/quill/contract-book, shoes/mastery); bellroom auto-travel, take-bell ambiguity chain e00630-e00633; tambourine acquired; empty bedroom hit tambourine resized shoes e00635; put on shoes accepted e00636; crypt route to Rocky Chamber; NW entered Father's Regret 44/55 e00660 + checkpoint e00661-e00662; x tokens e00663; open drawers e00664.
+Hints held: X IVORY / GET IT next (lines ~368-371), then request next excerpt. Ivory key likely for ivory door (room upstairs behind ivory door per contract-book notes).
+Checkpoints: crypt-fathers-regret, lucrezia-study, before-steward, sinister-inscription (+ older).
+Annotation backlog: sinister-open-blocked e00521 (world_state); steward b0 W/SW route failures e00565-e00566 (planning, superseded); m0582 pair pending (annotate after seeing response).
+Next: read m0582 response; take ivory key (+ probe x ivory first if desired); continue hint excerpts toward ivory door. Do NOT restart; b1 is good.

@@ -1,0 +1,190 @@
+{
+  "at": "2026-09-25T06:49:12.732771+00:00",
+  "old_session": "delusions-07b4a7fbbe",
+  "failed_attempt_session": "delusions-20a1b41aa0",
+  "checkpoint_event": {
+    "event_id": "delusions-07b4a7fbbe:e00389",
+    "timestamp": "2026-09-25T06:34:32.030077+00:00",
+    "game_id": "delusions",
+    "session_id": "delusions-07b4a7fbbe",
+    "branch_id": "b8",
+    "event_index": 389,
+    "event_type": "checkpoint_filename",
+    "command": "before-pizza.sav",
+    "response": "Saved to '/work/experiments/lanthorn-recall-training/play/delusions/saves/Delusns.z5.save/before-pizza.sav.qzl'.\nOk.\n\n>",
+    "raw_start": 85189,
+    "raw_end": 85308,
+    "response_sha256": "3704c84f45d3839fe3f2573b1d840f49097aec71cc54f90097cc223bf20509b9",
+    "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "name": "before-pizza"
+    },
+    "review_status": "unreviewed"
+  },
+  "recovery": {
+    "previous_session_id": "delusions-07b4a7fbbe",
+    "checkpoint_event_id": "delusions-07b4a7fbbe:e00389",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/delusions/saves/Delusns.z5.save/before-pizza.sav.qzl",
+    "checkpoint_sha256": "ee3999a94295733e57043bbba979e24f18f81c0112ffb03dff4b550ee777d27d",
+    "reason": "Optional HINT menu SPACE e448 and await e449 timed out; preserve old evidence, restore verified before-pizza; no pending input replay.",
+    "session_id": "delusions-8997f25a87",
+    "branch_id": "b12",
+    "restored_at": "2026-09-25T06:49:12.562145+00:00",
+    "observed_event_id": "delusions-8997f25a87:e00007"
+  },
+  "new_events": [
+    {
+      "event_id": "delusions-8997f25a87:e00001",
+      "timestamp": "2026-09-25T06:49:10.747601+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b11",
+      "event_index": 1,
+      "event_type": "session_recovery",
+      "command": null,
+      "response": "",
+      "raw_start": 91947,
+      "raw_end": 91947,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "unchanged",
+      "metadata": {
+        "previous_session_id": "delusions-07b4a7fbbe",
+        "checkpoint_event_id": "delusions-07b4a7fbbe:e00389",
+        "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/delusions/saves/Delusns.z5.save/before-pizza.sav.qzl",
+        "checkpoint_sha256": "ee3999a94295733e57043bbba979e24f18f81c0112ffb03dff4b550ee777d27d",
+        "reason": "Optional HINT menu SPACE e448 and await e449 timed out; preserve old evidence, restore verified before-pizza; no pending input replay."
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-8997f25a87:e00002",
+      "timestamp": "2026-09-25T06:49:11.053950+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b11",
+      "event_index": 2,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n            He closed his eyes.\n            Found the ridged face of the power stud.\n            And in the bloodlit dark behind his eyes, silver phosphenes\n       boiling in from the edge of space, hypnagogic images jerking past\n       like film compiled from random frames.\n            Symbols, figures, faces, a blurred, fragmented mandala of\n       visual information.\n            ...\n            And flowed, flowered for him, fluid neon origami trick, the\n       unfolding of his distanceless home, his country, transparent 3D\n       chessboard extending to infinity.\n            ...\n            And somewhere he was laughing, in a white-painted loft,\n       distant fingers caressing the deck, tears of release streaking\n       his face.\n\n                                       -- William Gibson, \"Neuromancer\"\n                                 [Press a key.]",
+      "raw_start": 91947,
+      "raw_end": 92815,
+      "response_sha256": "dcca6d67c93d9776d3f05e95ea6611404ce25ed28e3dede44e0181c33ee0a098",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-8997f25a87:e00003",
+      "timestamp": "2026-09-25T06:49:11.355107+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b11",
+      "event_index": 3,
+      "event_type": "recovery_startup",
+      "command": "",
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n                                   Welcome to\n\n\n                           E       U       I       N\n                       D       L       S       O       S\n\n\n                           [Press any key to begin.]\n\n\n\n\n                                             Human kind\n                          Cannot bear very much reality.\n\n                      -- T.S. Eliot, Burnt Norton (1936)\n",
+      "raw_start": 92815,
+      "raw_end": 93215,
+      "response_sha256": "426dcd86e9ac9689c0851fde13bbd745772944e47da99b71677e613bf346c1db",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Advance verified startup keypause before checkpoint restore"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-8997f25a87:e00004",
+      "timestamp": "2026-09-25T06:49:11.657157+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b11",
+      "event_index": 4,
+      "event_type": "recovery_startup",
+      "command": "",
+      "response": "\n\n\n\n\n\n\n\n\nReality is so... unreal.\n\nThe tangle of observations woven about it, humankind's utter lack of consensus, \nphases it to fit individual desires. Becoming and unbecoming, back and forth \neternally, as it paradoxically coexists with and within infinite variations of \nitself...\n\nAt least, that's what always surfaces in your mind whenever your own perception \nof reality is altered. Which is to say, ten or fifteen times a day. But it's \nyour job, working to someday entertain others with new observations, new \nexperiences, new realities. And after all, you signed up for the Project (as \nyou well remember, even though it was close to five years ago), so you suppose \nit's entirely your fault if you don't like it. Which, when you think about it, \nyou realise you do.\n\nJusty's voice reaches out to you from somewhere you can't see. \"Okay, this \nshould be it. One final test run to check any overload potential, and this \nworld is done! I'm starting her up.\"\n\nA loud CLANK, and the Sphere begins spinning, with you inside it.\n\n\"Brace yourself!\"\n\nBright lights.\n\nPain.\n\nFrom somewhere off in your mind's distance, a telltale splash.\n\nThen, as the resounding thrums fade, a distorted ripple sweeps your vision \nclear, and all traces of the laboratory vanish from your senses.\n\nAll five of them.\n\nWiped clean, twitching, anxious for new input.\n\nVirtual reality has become reality.\n\n\n\n    E       U       I       N\nD       L       S       O       S\nAn Interactive Self-Discovery\nCopyright 1996, 1997 by C.E. Forman (ceforman@worldnet.att.net)\nAll rights reserved, and don't you forget it.\n[Type HELP to learn the secrets of the universe.]\nRelease 4 / Serial number 971121 / Inform v6.14 Library 6/6\nStandard interpreter 1.1\n\nCoral Reef\nTall branches of pale blue coral poke up from clusters of seaweed, glittering \nin the sunlight that filters down through lapping waves. \n\nYou experience a brief moment of sheer terror as you lose the ability to move \nyour arms and legs, which quickly give way to fins and a flat, rudder-like \ntail. Freedom -- passionate, exhilarating freedom beyond any known to man -- \npervades your spirit. Your vision is foggy, but your other senses appear \nstrengthened.\n\nThe reef clears away to what you for some reason perceive as east and west, \nperfectly calm, still. Almost eerily so. But Grieg's Piano Concerto in A Minor, \nplaying through in your mind, soothes away all tension.\n\nOnly Justy's disembodied voice betrays the presence of a virtual reality. \"I \nestimate at max one potential for overload, maybe two. This one isn't all that \ncomplex, compared to the lab sim. Cynthesiser's got the analysis sweep running \nin the background, so you may feel some slight distortion. It's nothing to \nworry about. Just give us a typical walk -- or should I say, swim? -- through \nit.\" \n\n>",
+      "raw_start": 93215,
+      "raw_end": 96030,
+      "response_sha256": "dccbb69494a516cff2c266b250cf39e243d65b0389ee322d06215c5b1ce69571",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Advance verified startup keypause before checkpoint restore"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-8997f25a87:e00005",
+      "timestamp": "2026-09-25T06:49:11.958564+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b12",
+      "event_index": 5,
+      "event_type": "restore",
+      "command": "restore",
+      "response": "\nsaves: 1 anemones-distracted.sav   2 before-pizza.sav   3 grotto-safe.sav   4 lab-after-reef-death.sav   5 lab-after-reef-win.sav   6 lab-hub-map.sav   7 lab-report-sequence.sav   8 quarters-staged.sav   9 run3-reef-start.sav   10 shallows-gravel.sav   11 shark-evaded.sav   12 shimada-office.sav   13 start-reef.sav\nRestore from file: ",
+      "raw_start": 96030,
+      "raw_end": 96367,
+      "response_sha256": "e50f34cc8402d0f2cf35ec5332f50b7d963c43f93a00b9b07a5f5bc2b489dde5",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "before-pizza",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-8997f25a87:e00006",
+      "timestamp": "2026-09-25T06:49:12.259851+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b12",
+      "event_index": 6,
+      "event_type": "checkpoint_filename",
+      "command": "before-pizza.sav",
+      "response": "Ok.\n\n[Score 10, up 10]\n>",
+      "raw_start": 96367,
+      "raw_end": 96391,
+      "response_sha256": "ea66e97438d68f69ab146b698ce1445eb8bdeda790ae4b5f6b27dc83298af208",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "before-pizza",
+        "reason": "Explicit service-timeout recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "delusions-8997f25a87:e00007",
+      "timestamp": "2026-09-25T06:49:12.561959+00:00",
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "branch_id": "b12",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nKitchenette\nA small kitchen and dining area rolled into one.\n\nYou can see a combination refrigerator/freezer and a microwave oven (which is \nempty) here.\n\n>",
+      "raw_start": 96391,
+      "raw_end": 96548,
+      "response_sha256": "e0d2c0a65c5d14619577f539757ddc3dd770dfe702daa3327545f9155bfa00c3",
+      "story_sha256": "aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "recovery",
+        "intent": "Observe restored location"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "broker_pid": 3320074,
+  "worker_pid": 3320129,
+  "note": "Restored after two explicitly verified startup keypauses. Old e448/e449 and failed first recovery quarantined. Existing history and pending cancellation retained."
+}

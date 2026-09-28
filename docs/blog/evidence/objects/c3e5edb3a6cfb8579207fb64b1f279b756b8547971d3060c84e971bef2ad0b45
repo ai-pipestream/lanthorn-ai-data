@@ -1,0 +1,8 @@
+# Frozen progress (IN PROGRESS — game incomplete, branch b3)
+
+Location: Pentagram Room ON pentagram (e00287), holding book + circle page + bottle + amulet; silver sand + single star pattern poured on pentagram.
+Key findings: m0221 help repeated the same final excerpt (guide ends at pentagram pour). 'show circle page to figure' fails identically before AND after star pour (e00257), 'show book to figure' fails (e00258), 'show star to figure' fails (e00270) — 'star' resolves to the book (x star returns book text e00269). Cellar unchanged after pour (e00259-260). Guide-order replay on b3 (restore pentagram-circle-placed e00271-272): look confirms circle+sand, no star yet (e00273); drop book (e00274); FIRST star pour with pages placed succeeds, no death (e00275); look shows sand+book+circle, NO spirit (e00276). Mirror unchanged (e00277-281). Returned (e00282-284), took book+circle (e00285-286), entered (e00287), show fails again (e00288).
+Blocker: no animate 'figure' exists in this release under any tested state (pre/post pour, holding/placed, on/off). 'Figure' may mean the geometric pentagram itself (placing works) — but the pour then triggers no ending. Spirit seen ONLY in double-pour death text (b1 e00243).
+Cases ~45+. Annotations pending: rexal-vs-sand pour vocabulary (e00145 vs e00237), show-to-figure failure series, star-ellipsis, double-pour death planning.
+Checkpoints: b2-full-arrange (verified), pentagram-circle-placed, pentagram-star-poured, + older set.
+NEXT: test wake/sleep theory (mirror shows me dozing — 'wake up', attic 'lie on bed'); probe unexamined nouns (attic window, jeweler rings/instruments, kitchen, entry door); timed multi-wait on pattern; annotate backlog. Game NOT complete; no ending, no finish.

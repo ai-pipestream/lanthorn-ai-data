@@ -1,0 +1,9 @@
+# Not Just A Game — progress
+
+State: Dim Chamber at board, ordinary prompt. Gold stone placed E5 (e00402, short form accepted) and captured E5 (e00405: silver stones auto-placed, gold faded, rumbling). Board now shows O whites (G7 group) + S silvers around E5. Score ~18. Branch b0. Game INCOMPLETE (reset board + white cube + crystal E7 + spheres 72/68 + final narrative remain). Annotation m0364 pending (capture-gold pair).
+Route since after-pour: N HotZone, U hole, S S, Wx6, SW to Dim Chamber — complete.
+Cases: ~75 total. Last annotations: gold-e5-short none (e00403 confirmed); capture-gold syntax pending.
+Checkpoints (confirmed): start-living-room, before-safe, after-lever, after-capture, after-fuse, after-glass, before-power-debug, oven-ingot-ready, after-waterwheel, after-bat, after-pour. RESUME: continue b0 from Dim Chamber board.
+IN-FLIGHT: m0364 annotate (capture-gold pair). Next new file inbox/m0365.json.
+NEXT: (1) RESET BOARD — probe synonym first e.g. 'clear board', then canonical 'reset board'; verify board empties. (2) White cube on block, crystal E7, spheres 72/68, finish only on authored concluding narrative.
+Inventory (last observed + silver used): carried ~ rod+gum, gloves(worn), black cube, green cube, red ball, card, booklet, matches, bat, fuse, silver stones (4 placed on board at capture? verify with inventory after reset).

@@ -1,0 +1,25 @@
+{
+  "event_id": "photopia-74a27d1cb7:e00223",
+  "timestamp": "2026-09-25T02:20:54.940541+00:00",
+  "game_id": "photopia",
+  "session_id": "photopia-74a27d1cb7",
+  "branch_id": "b0",
+  "event_index": 223,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 51560,
+  "raw_end": 51560,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "You turn out the light.",
+    "evidence_event_ids": [
+      "photopia-74a27d1cb7:e00219",
+      "photopia-74a27d1cb7:e00220"
+    ],
+    "notes": "Full playthrough ending in the nursery: good-night to Alley in the crib, lights out, then the PHOTOPIA/by Adam Cadre title banner. Verified in latest.json and stdout.raw. Author-intended final conclusion, not death, chapter card, or quit."
+  },
+  "review_status": "unreviewed"
+}

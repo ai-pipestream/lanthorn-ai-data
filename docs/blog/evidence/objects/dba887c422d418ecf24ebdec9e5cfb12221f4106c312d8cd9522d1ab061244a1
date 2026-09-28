@@ -1,0 +1,10 @@
+# Mortlake Manor — collection progress (ACTIVE, game incomplete)
+
+- Session: mortlake-manor-e0475539fe, branch b1. Last CONFIRMED: Balcony e00242 (diamond seen in fountain centre of hedgemaze; exit W). Ordinary prompt. Checkpoint balcony-view OK (e00243-e00244).
+- IN FLIGHT: none. Next: west back inside; finish upstairs (passage west end, hallway south); then downstairs for light source + tools.
+- Inventory (b1, observed e00187): rusty knife, coathanger, gold key. Light source still missing; cutters still on dining chandelier (intact e00204).
+- Map: upstairs Hallway (stairs down W) -N-> E-W Passage (window N: driveway) -E-> End of Hallway -E-> Sumptuous Bedroom N (four-poster bed, scenery?) -S-> Sumptuous Bedroom S -E-> Balcony (diamond visible). Cupboard E of hallway empty (faint smell, smell=no-op e00233). Downstairs: NS Passageway has broad stairs up W + dark opening E down (needs light).
+- Ghost: follows player; last seen NS/EW junction e00223, NS corridor e00224.
+- Cases: ~15 annotations filed. New: bed-examine pair e00238 ('examine bed' fail) + e00239 ('examine four-poster bed' fail); help e00240 excerpt off-topic (arrival text only). Pending: oven pair, wire-cutters series, bedroom-webs, ghost synonym, window scenery, cupboard-search (e00232 'search cupboard' can't-see), bed-examine annotate after resolution.
+- Checkpoints: south-kitchen, ghost-bedroom, kitchen-north, manor-inside, before-stairs (e00226-27), balcony-view (e00243-44). Saves list shows ballroom-middle, french-windows, garden-middle etc from earlier.
+- Next: annotate bed pair if no success; west to bedroom; upstairs west end + hallway south; light + cutters for fountain repair; diamond + authored treasure ending (The End). Single commands in maze/timed areas.

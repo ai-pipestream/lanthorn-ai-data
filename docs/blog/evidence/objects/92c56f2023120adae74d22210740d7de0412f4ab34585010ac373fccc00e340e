@@ -1,0 +1,29 @@
+# Delusions progress — SEGMENT 3 BREAKTHROUGH (b16 OVERFLOW FOUND, inject#1 DONE, score 13, game INCOMPLETE)
+
+No winning ending yet. Score 13/50. HINT menu forbidden.
+
+CURRENT (b16, verified):
+- OVERFLOW CRASH (m0546-0548, run 5): R2 run-1 route E,E,W,D,U,E — east into grotto WITH SHARK following → shark trapped → fish school released repeatedly → "Interpreter stack overflow on event #69105... Too many dynamic creations" → crash ejection to lab. Score 13 (+3). Justy: "half a chron to fix it."
+- WEAK#1 FIRED (m0550 e00427): "The VR session has exacted its toll on your hyperglycemic body. You feel an urgent need for your insulin medication." Cause = overflow crash, NOT time (all time-push/wait/run-count hypotheses DEAD).
+- INJECT#1 DONE (m0551 e00430): full inject text, no points (matches R2 inject#1 unpointed). Syringe KEPT (R2 says drop needle, but syringe#2 location unknown; keeping is harmless).
+- Checkpoint post-inject1 (m0552, Saved Ok, quarters, ~9050). Also overflow-13 (pre-inject).
+- Position: Your Quarters standing, ordinary prompt. Inv: punch caplet gelstrip X-Acto syringe (used?) + jumpsuit/watch. Time ~9050. Score 13/50 (= R2 s13: oven 3 + tongs 1 + curtain 1 + violin 5 + overflow 3).
+- R2 ORDER CORRECTED: TWO injects. inject#1 right after run-1 overflow (line ~32, 0 pts) → oven(3/6) tongs(1/7) curtain(1/8) bins-magnet violin(5/13) magnet-on → RUN 2 sandbar → inject#2 (1/14) → manual → S lie wait-woozy sleep1 → report/configure → sleep2 → endgame. Parent did middle (oven/violin/magnet) early out of order — no harm, same 13 total.
+
+NEXT (per R2 s13+):
+1) Post-overflow SANDBAR run (our run 6): nw, enter sphere; E,E,W,D,U,W,W,W,E,swallow,E,E,D,drop-right,enter-left. (Avoid E-with-shark: Justy's fix may be incomplete ~10 turns post-crash; sandbar never crashes.)
+2) After exit: expect WEAK#2 → SE quarters → inject#2 (may need syringe#2 hunt if ours is empty; check MedLab/quarters/desk).
+3) Then: manual index lookups (4 turns, already know topics), S MedLab, lie, wait until woozy, sleep1. Checkpoint at sleep1.
+4) Then R2: zzzz get up N open report icon ... configure ... sleep2 ... full endgame mapped in prior notes (caplet/implant/strip/tank/picture/violin/needle/doors/freezer/oven/switch/curtain/android/rectangle/hands/desk/gun/killme/drawer-blade/mirror/magnet-niche/factory-phone-redial/pencil-pad/XYZZY-CHESS/sphere/Rescue-morrodox).
+5) Do NOT use HINT menu, DO NOT eat caplet until R2 says (post-sleep2), DO NOT re-do oven/violin/magnet (done). Cases ~49+ (quota met); annotate only genuine new pairs.
+
+## Checkpoints (newest first)
+- post-inject1 (b16 quarters standing ~9050, score 13, inv full — CURRENT BASE)
+- overflow-13 (b16 lab pre-inject, score 13)
+- quarters-8913 (b16 quarters pre-run-5, score 10)
+- push-8000 (b16 gurney ~8010, score 10)
+- postrun3-7302, pre-push-6724, before-third-run, nopizza-6044, before-pizza, quarters-staged, lab-after-reef-win (0/50), etc.
+
+## Dead hypotheses (do not revisit)
+- Pure time push (75 lying + 19 standing waits to 8913, silent); run count (4 sandbar runs, silent); lab-time/Cynthia/pizza/chess/bed variants; x me (needs mirror); NPC asks (brush-offs); magnet-off (was ON).
+- R2 gap FULLY MAPPED except lines 25-29 (run-1 exit moves, now moot — overflow reproduced directly).

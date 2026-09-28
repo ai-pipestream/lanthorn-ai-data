@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-09-25T04:43:24.236040+00:00",
+  "event": {
+    "event_id": "bronze-edcd114f65:e00854",
+    "timestamp": "2026-09-25T04:37:54.157957+00:00",
+    "game_id": "bronze",
+    "session_id": "bronze-edcd114f65",
+    "branch_id": "b1",
+    "event_index": 854,
+    "event_type": "command",
+    "command": "hug beast",
+    "response": "As you do, you can't help remembering -- because of the girdle -- how many \nwomen before you this king imprisoned against their will. And why should he \ndeserve to be forgiven, merely because he has been less cruel to you than to \nthe others?\n\nWhen you lift your head, he is his proper self: a man, about forty-five. \nHandsome, perhaps, but in the style of the lord mayor, not someone you would \nhave aspired to wed. His face has perhaps softened a little since his youth, \nbut he is still recognizably the same person.\n\nHis fingers stretch in experiment. \"Dear virgin mother. You did it. The \nservants are free?\"\n\nYou nod.\n\n\"Good girl.\" He touches your cheek affectionately; then freezes. \"And you're \nwearing Yvette's girdle. I suppose you heard her story, in that case.\" He \nsticks out his jaw. \"You can go now. It won't kill me, this time.\"\n\nYou draw a breath and give him your answer.\n\n\n    *** You have restored the King and freed his servants ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+    "raw_start": 481384,
+    "raw_end": 482401,
+    "response_sha256": "5b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84",
+    "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "beast-kiss",
+      "expected_outcome": "Hug rejected or redirected to kiss/wake",
+      "intent": "Try hugging Beast instead of kissing",
+      "origin": "synthetic_probe"
+    },
+    "review_status": "unreviewed"
+  },
+  "verdict": "King restored and servants freed; explicit concluding banner and restart/restore/quit menu",
+  "raw_hash_and_text_verified": true,
+  "note": "Actual final command is HUG BEAST; model route prose about KISS is not literal event evidence."
+}

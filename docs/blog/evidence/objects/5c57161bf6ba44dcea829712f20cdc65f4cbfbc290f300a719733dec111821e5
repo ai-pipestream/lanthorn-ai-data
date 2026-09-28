@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-25T06:52:34.497059+00:00",
+  "command": "python3 scripts/test_recovery_startup.py",
+  "result": "4 tests passed; verified screen accepts Enter; wrong screen/timeout/nonEnter refused without input; bad result blocks following step",
+  "source_hashes": {
+    "scripts/recover_broker.py": "e63aae429d3430742a39ecf2ace959bf4ff570e9f1585c7a143fdb7516ebd06b",
+    "scripts/test_recovery_startup.py": "cad055a693728854f5bc8ce28db327e049a6681d4255b57cef897e1f4ba32519"
+  },
+  "real_game_receipt": "control/delusions-menu-recovery-receipt-20260925T0648.json"
+}

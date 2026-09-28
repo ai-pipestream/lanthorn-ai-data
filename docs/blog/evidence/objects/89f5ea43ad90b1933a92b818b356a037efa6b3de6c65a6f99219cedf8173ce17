@@ -1,0 +1,76 @@
+{
+  "at": "2026-09-25T08:43:40.619151+00:00",
+  "game_id": "muse-autumn-romance",
+  "events": [
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00334",
+      "timestamp": "2026-09-25T08:32:44.056922+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 334,
+      "event_type": "command",
+      "command": "down",
+      "response": "\nBeach\n\nJohn Austin was painting furiously at his easel.\n\nFraulein Konstanza Von Goethe stood among the rocks, apparently in deep thought.\n\nSeeing me, Konstanza left her pose and approached me. John didn't leave his \neasel, but watched us from a distance. He seemed to be happy, for a change. \n\n\"Herr Dawson,\" said Konstanza, and her eyes were bright with a happiness I had \nnever seen in them before. \"I saw the boat at the pier, and I wanted to speak \nwith you before you left.\" \n\nI nodded. \"What is it?\" \n\nKonstanza dropped her voice to a whisper. \"I think I am in love, with Herr \nAustin. And more than that, I think he is in love with me too. And Papa ... \nHerr Dawson, I feel I owe all of this to you. When I first saw you, with your \ntrunk at the end of the pier, I never thought you would be something like a \nguardian angel to me.\" \n\nI blushed at this rather extravagant expression of quite undeserved gratitude, \nand tried to wave it off, but Konstanza stopped me. With a kiss, on the cheek, \nsuch as one might give to a favorite uncle. \n\nIt was enough. I smiled, made as dignified a farewell as I could to John and to \nKonstanza, and retreated. Almost in a dream, I retrieved my trunk and boarded \nthe boat. \n\nI wasn't sure what to think.\n\n[touch SPACE]\n",
+      "raw_start": 68816,
+      "raw_end": 70081,
+      "response_sha256": "99f06daffd9cf42bb2a9cb287d00f76174a828824de6073978a3e84a4d822654",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "beachwall-final-down",
+        "expected_outcome": "Beach farewell scene and epilogue",
+        "intent": "Go down to the beach for farewell",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00335",
+      "timestamp": "2026-09-25T08:32:50.140439+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 335,
+      "event_type": "command",
+      "command": " ",
+      "response": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n             O Divine Master, grant that I may not so much seek\n             to be consoled, as to console;\n             To be understood, as to understand;\n             To be loved, as to love;\n             For it is in giving that we receive --\n             It is in pardoning that we are pardoned;\n             And it is in dying that we are born to eternal life.\n\n                            - Saint Francis of Assisi,\n[touch SPACE]",
+      "raw_start": 70081,
+      "raw_end": 70541,
+      "response_sha256": "e0e71e3ffa456463e1415ff61bd6a2864f75fc477a5cb4a1feb4811dadf2efa1",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "epilogue-space-1",
+        "expected_outcome": "Epilogue continues after keypress",
+        "intent": "Press SPACE to continue past the pause",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "muse-autumn-romance-dde3ae3e6f:e00336",
+      "timestamp": "2026-09-25T08:32:55.001603+00:00",
+      "game_id": "muse-autumn-romance",
+      "session_id": "muse-autumn-romance-dde3ae3e6f",
+      "branch_id": "b0",
+      "event_index": 336,
+      "event_type": "command",
+      "command": " ",
+      "response": "\n\nEmma met me at the Barchester station. \"Stephen, I do hope you're feeling \nbetter.\" \n\n\"Yes, Emma...\" The journey from Dover to Barchester had given me time to think, \nabout Von Goethe, Konstanza, and John Austin. There was a faint bitterness \nabout it: I would never be young again. But that, I realised, was irrelevant. \nIt is in giving that we receive, and if my lot in life was with the givers of \nsociety, I was content with it. \n\nKonstanza had looked happy at our last meeting. And ... she had kissed me.... \n\nIt only remains to be said that, a year later, I received a letter from John \nAustin, informing me of his impending marriage to Konstanza. He'd grown \nsomewhat more successful since last I saw him, and along with his letter was \nthat painting of Konstanza by the sea. \n\nI have hung that painting in my study, above my writing desk. I think I shall \nalways remember her fondly, as my angel by the sea....\n\n\n    *** I had come to terms with myself and my station in life ***\n\n\n\nShould I RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 70541,
+      "raw_end": 71584,
+      "response_sha256": "235ff69b9be9680af9f830dd3841fdf40cbab8ba0704c10744f4de24d4c355a8",
+      "story_sha256": "b906022951f5797bd18ebc06c9cb15d2e3c4012388e634e837f069b09f9beb55",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "epilogue-space-2",
+        "expected_outcome": "Epilogue continues",
+        "intent": "Press SPACE to continue past the pause",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Beach farewell, StFrancis interlude, Barchester and John/Konstanza marriage letter, narrator accepts station in life and terminal menu. Substantive authored concluding narrative; not narrator marriage to Konstanza. Parent exact raw/text/SHA verified; independent review pending."
+}

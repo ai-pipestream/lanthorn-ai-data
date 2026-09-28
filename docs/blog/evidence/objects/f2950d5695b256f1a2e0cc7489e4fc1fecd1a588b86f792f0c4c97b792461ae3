@@ -1,0 +1,8 @@
+# Progress — danger-adventurer-at-work (ACTIVE, game incomplete — at chasm bridge with Balrog, continuation ready)
+
+Location: West Side of Chasm e00360 (magic bridge across; Balrog on bridge; hole south to lab). All responses through m0332 resolved.
+Inventory e00356: boltcutters, inner tube, adventure game, pile of bird seed (partly thrown), small bird, dynamite, claw hammer, wit, pills, matches. Spent: leaflet->Bod, coin->Angus, limbs->body, brick->chasm.
+Checkpoints (verified): hut-blessed, lab-before-body, chasm-brick (e00340/e00341), chasm-matches (e00351/e00352). Continuation checkpoint: chasm-matches.
+Cases this run: chasm-brick-push vocab push->pull e00343/e00345; chasm-take-matches vocab grab->take e00348/e00349; chasm-examine-chasm e00353 (button far side); chasm-button-press world_state (press unreachable e00354, telescopic arms); chasm-examine-button e00355 (too far); chasm-throw-seed vocab toss->throw e00357/e00358 (bridge + Balrog); chasm-bridge-look e00360.
+Hints: lines 112-120 partly done (pull brick, take matches, x chasm, x button, throw seed done). Next: x balrog, give game to balrog, then onward to river/pony per manifest (chasm, river, final pony ride + concluding narrative).
+Resume: read progress.md + latest.json; do NOT restart; at ordinary chasm prompt e00360. Next single commands only: x balrog; synthetic probe on give (e.g. offer/hand) then canonical give game to balrog; look/inventory; checkpoint before bridge crossing/timed moves. No finish — no concluding narrative observed.

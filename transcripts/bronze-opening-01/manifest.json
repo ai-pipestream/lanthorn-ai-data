@@ -1,0 +1,32 @@
+{
+  "observed_release": {
+    "number": "11",
+    "serial": "060503"
+  },
+  "release_matches_source": false,
+  "game_id": "bronze",
+  "session_id": "bronze-5aebcf3ae45a",
+  "access_time": "2026-09-24T12:01:10.407254+00:00",
+  "source_record": "/work/experiments/lanthorn-recall-training/runs/sources-20260924T115654Z-9rT0aa/records/bronze.json",
+  "source_record_sha256": "c380a5e7a754fe2d4b3a7f230ef5c74c7c784b5ea7f61c8cd9c517e28478c6da",
+  "story_path": "/home/krickert/if-games/zcode/Bronze.zblorb",
+  "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+  "interpreter": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "interpreter_sha256": "f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda",
+  "argv": [
+    "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+    "--plain",
+    "--sound",
+    "off",
+    "/home/krickert/if-games/zcode/Bronze.zblorb"
+  ],
+  "stdout_sha256": "7175bc78f359411170bbfdcb269772e792d734d5aa45345d8d2b56d0ed7b5960",
+  "requested_commands": 20,
+  "captured_commands": 20,
+  "last_read_status": "prompt",
+  "exit_code": 0,
+  "release_banner": "\n\n\n\nWhen the seventh day comes and it is time for you to return to the castle in \nthe forest, your sisters cling to your sleeves.\n\n\"Don't go back,\" they say, and \"When will we ever see you again?\" But you \nimagine they will find consolation somewhere.\n\nYour father hangs back, silent and moody. He has spent the week as far from you \nas possible, working until late at night. Now he speaks only to ask whether the \nBeast treated you \"properly.\" Since he obviously has his own ideas about what \nmust have taken place over the past few years, you do not reply beyond a shrug.\n\nYou breathe more easily once you're back in the forest, alone.\n\n\n\n\nBronze\nA fractured fairy tale by Emily Short\nRelease 11 / Serial number 060503 / Inform 7 build 3K27 (I6/v6.30 lib 6/10N) \n\n Drawbridge                                                             N\n Great Outdoors                                                         .\n Rooms searched: 0/55\nHave you played interactive fiction before? >",
+  "review_status": "unreviewed",
+  "compatibility_scope": "Opening only; not a complete walkthrough validation.",
+  "input_index_note": "Input order, not the game engine turn counter."
+}

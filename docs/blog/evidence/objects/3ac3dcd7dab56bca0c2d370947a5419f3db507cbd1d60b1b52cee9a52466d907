@@ -1,0 +1,9 @@
+# Night at the Computer Center — progress (update 4)
+
+Location: Hall Outside Computer Site, 3rd floor north end (returned via up/up). SW to Computer Site, E blocked (astronomers), W to stairwell.
+Inventory: UGGS Manual. Score 2 (closet listen).
+Checkpoints: start-computer-site, stairwell-third verified.
+Cases (7 annotated): typo-examine, omit-object, pronoun-01, synonym-look, direction-01 planning, door-blocked-01 world_state, synonym-hear-01 none.
+Exploration: 1st-floor closet listen e00042 score 2 (Owlet-Picker V); hear e00043 same; elevator hall 1st out-of-order; south door opened e00039 to closet e00040; backtrack west/north/west/up/up to 3rd (e00047-51); east to 3rd hall e00052.
+Hints: m0006 off-topic; m0042 confirms '3rd floor elevator: open box; pull hose > flashlight' + '1st floor closet listen' (latter done, observed).
+Next: find 3rd-floor elevator (try go south from 3rd hall — description says north end, may extend south like 1st floor); then open box, pull hose for flashlight. Need word-order/ambiguity probes around box/hose. Checkpoint before dark stairs.

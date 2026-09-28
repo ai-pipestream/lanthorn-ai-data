@@ -1,0 +1,25 @@
+{
+  "event_id": "believable-adventures-invisible-man-5201a7e372:e00349",
+  "timestamp": "2026-09-25T09:43:21.941066+00:00",
+  "game_id": "believable-adventures-invisible-man",
+  "session_id": "believable-adventures-invisible-man-5201a7e372",
+  "branch_id": "b0",
+  "event_index": 349,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 48459,
+  "raw_end": 48459,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "4cec8c2366e2d49e12e95f8835a334444a4e15afbabb27c150690b58eb4df950",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "believable-adventures-invisible-man-5201a7e372",
+    "ending_quote": "*** Your revenge is complete ***",
+    "evidence_event_ids": [
+      "believable-adventures-invisible-man-5201a7e372:e00347"
+    ],
+    "notes": "Complete-revenge branch through boss office and final computer/password action: unlocked/opened boss door with characteristic key, turned on boss computer, password 123 from sticky note, full system access, Facebook deface, apartment/lab epilogue and terminal *** Your revenge is complete *** with RESTART/RESTORE/QUIT prompt. Not death, quitting, chapter change or partial score."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,75 @@
+{
+  "game_id": "heist",
+  "title": "Heist: The Crime of the Century",
+  "author": "Andy Phillips",
+  "url": "https://ifarchive.org/if-archive/solutions/heist.sol",
+  "accessed_at": "2026-09-25T06:02:02.328162+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist.sol",
+  "source_sha256": "0b4d857f1a527827ec57b39ae887b301593c38aa22ed2b481b94177fc2f4fb97",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist-walkthrough.txt",
+  "normalized_sha256": "0b4d857f1a527827ec57b39ae887b301593c38aa22ed2b481b94177fc2f4fb97",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/heist.z8",
+  "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+  "compatibility": "Local R5/990217 versus Dale Johannesen guide R2/970901. Guide explicitly is not an exact command transcript because several puzzles randomize. Three-release gap requires observation-led adaptation.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "990217",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "08000005c990c9918789011c72c179d30000393930323137005caedad05a00000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "5ad6ac85b1127676a1e836ab68c5ef395c434b68d93ce1b4598fa7c09a17666a",
+    "checksum_hex": "d05a",
+    "declared_length": 358096,
+    "file_bytes": 358400
+  },
+  "guide_release": 2,
+  "guide_serial": "970901",
+  "guide_release_gap": 3,
+  "story_identity": {
+    "filename": "heist.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/heist.z8",
+    "accessed_at": "2026-09-25T06:03:03.612240+00:00",
+    "remote_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "local_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "bytes": 358400,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 5,
+    "remote_serial": "990217"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#heist.z8",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "heist.z8\n◆\n[04-Feb-2000]\nIFDB entry\nIFWiki:\nHeist\nHeist: The Crime of the Century, by Andy Phillips.\nRelease 5 / Serial number 990217.\n(a DOS executable is in games/pc/Heist.zip)"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#heist.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "heist.sol\n◆\n[14-Oct-1997]\nIFDB entry\nstep by step solution to Heist (release 2)\nby Dale Johannesen"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Accept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.",
+    "limitations": "Guide estimates about 1000 moves. Observe randomized dates, combinations, appearance and geometry clues. Do not type braces or placeholders as commands. Save before tight timing sequences; keep probe experiments outside them.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "development",
+  "game_family": "zork-i",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "Musician-house leaf-under-door/keyhole puzzle is explicitly compared with Zork II in the guide. Conservatively use the existing zork-i/development family, as existing SpiritWrak does for Zork overlap. Exact extent of shared puzzles and world is uncertain; parent review required."
+  },
+  "reuse_claims_observed": "No reuse permission established from the inspected sources."
+}

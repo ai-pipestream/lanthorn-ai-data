@@ -1,0 +1,13 @@
+# Nine Points – progress (update 4)
+
+Location: Treasure Vault, crown taken.
+Inventory: plant, lantern (lit), bottle, rusty key, crown (score 7). Scratching in rafters after taking crown.
+Branch b0. Last: e00054 get crown.
+
+Checkpoints: start-hallway, bedroom-entry, before-passage verified.
+
+Key route: push bookcase east revealed vault (score 4); look in pot gave rusty key (score 5); unlock+open chest revealed/taken crown (score 7). Chest was locked e00046; unlock omit e00051 prompted for tool; unlock with key e00052 turned tumblers; open e00053 revealed crown.
+
+Pending annotations (many): bookcase-synonym e00036, plant-take e00037, inventory e00038, bottle e00039, push-bed e00040, push-case e00041, lamp-light e00044, east-passage e00045, chest-open e00046+e00053, pot-search e00049, east-return e00050, unlock-omit e00051->e00052, crown-synonym e00054. Will annotate after exit; game progress first to conserve light.
+
+Next: west to bedroom, examine/open window, exit with crown per manifest (losing crown during exit is intended). Checkpoint before window exit. Then annotate batch, then finish with ending quote if genuine win.

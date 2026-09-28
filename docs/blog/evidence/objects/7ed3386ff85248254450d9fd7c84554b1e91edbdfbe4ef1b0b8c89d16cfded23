@@ -1,0 +1,18 @@
+{
+  "story": "saveprinceton.z8",
+  "guide": "SavePrinceton.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/SavePrinceton.sol",
+  "accessed_at": "2026-09-25T06:02:04.145665+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 8,
+  "release": 21,
+  "serial": "041125",
+  "sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+  "bytes": 288256,
+  "header_hex": "08000015da60da61b58c010a9f97aac4005030343131323500428ca0306100000000000000000000000000000000aac3000000000000010200000000362e3231",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/saveprinceton.z8",
+  "story_accessed_at": "2026-09-25T06:03:44.421135+00:00",
+  "downloaded_story_sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+  "download_matches_local": true
+}

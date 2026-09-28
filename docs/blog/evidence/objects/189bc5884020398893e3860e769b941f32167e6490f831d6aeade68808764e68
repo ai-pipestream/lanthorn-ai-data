@@ -1,0 +1,5 @@
+# Collection notes
+
+Theatre R2/951203. Step guide by pjg does not state release. It has repeated actions and embedded SAVE GAME directions: use explicit broker checkpoints only at ordinary command prompts. Do not treat scene change/death as conclusion.
+
+First inspect current startup: answer any key pause or question before saving. Use small broker walkthrough hints. Label synthetic human-like mistakes and verify same-intent recovery effects. Keep coverage varied; do not repeat known failures merely to make more rows. A displayed menu requires its own navigation/exit before ordinary commands. Write progress only to progress.md, never to inbox/*.json; requests must be complete JSON. No training, application changes or publication.

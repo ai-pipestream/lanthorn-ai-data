@@ -1,0 +1,15 @@
+# Dreamhold progress — segment 7 (b1, Mountain Pool, game incomplete)
+
+Location: Mountain Pool b1 e01366 (ordinary prompt). Wearing GOLD mask (memory: infant clubbed foot); brown tried e01363-64.
+Inventory (observed e01266 + changes): white letter, desert painting, palette, grey sphere, belt worn, cloak worn, 6 masks (black blue green brown red gold, NO white), buckler, black chart, torch, iron key, dagger, white/orange berries, glove off, copper key, quill, string (PORTRAIT), desert stone. Mountain painting ON easel in Atelier; palette taken back e01359.
+Key findings (seg7):
+- Painting entry solved: easel painting selects scope destination. Desert-on-easel + scope north = Red Desert with white wad e01259. Palette-on-easel + scope north = Sea of White->...->Black e01284. Mountain-on-easel = Mountain Pool.
+- Red Desert: took white LETTER (credit/reparation, not mask) via pick-up e01260; read e01261; sun/sand/stones examined; take-sand trails fingers e01270; dig hard e01271; grabbed stone (ordinary, alchemical tang) e01273-75. Touch-desert-painting never transports (glove e01224, bare e01226) — world_state.
+- Mountain Pool: drink water OK e01252; bare drink asks object e01251; enter pool refused shallow even wearing brown mask e01253/e01364. Brown wear gives library/map/crutch memory e01363. Gold wear gives infant memory e01366.
+- Sea: took tangle (string, +score) e01285; spells PORTRAIT e01286; untie tight e01287/e01314; cycled White Gold Red Brown Green Blue Black via wait/examine e01288-01302; black stable. Down/dive/sit refused remain-on-top e01291/e01303/e01312/e01315; dip quill/pen unwilling nib e01305-06; drink cannot break surface e01307; touch resists e01313; cut string pointless e01311; cut-with-dagger phrasing rejected e01310. Dip/drink blocked — unresolved; left sea north to Atelier e01317.
+- Atelier: get/take/pick-up painting/palette all accepted (easel-swap-533, palette-545); put desert/mountain/palette on easel OK.
+- Culvert: rub wall shines e01241; examine glass hit sphere ambiguity (barrier via examine barrier e01243, look through it smears e01244, touch curved e01245); north to Pool/Desert/Sea per easel.
+- Tour: Dim Shed stairs variable (0 landings once e01349, south/north reversals); South End window (starlit mountains) + dingy-white door open with stairs e01322-23.
+- White MASK still not found anywhere; brown/gold memories seen. Suspect North Alcove/Arboretum/Harp/Translucent/Catwalk detail or Sea-white-stage item.
+Checkpoints: mountain-pool e01248-49 OK, palette-easel e01281-82 OK, sea-gold e01289-90 OK; plus older mountain-garden, dim-shed-entry, etc.
+Next: from Mountain Pool south to Atelier; systematically search North Alcove, Arboretum, Harp Chamber, Translucent/Catwalk details for white mask; annotate seg7 backlog (scope-look none, rub none, glass ambiguity, drink omitted, sand scoop vocab, stone grab none, palette pick-up none, tangle none, dip quill/pen fail, dive/down fail, cut phrasing, etc.). Game NOT complete.

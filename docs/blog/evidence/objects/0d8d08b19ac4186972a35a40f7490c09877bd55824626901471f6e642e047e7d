@@ -1,0 +1,21 @@
+# Baltimore:24 progress — COMPLETE
+
+## Current location (observed)
+- WON twice. b0 e00093 via 'give router to robert', b1 e00101 via 'give robert the router'. Both: Promenade Bar -> new router, engineer breach fix, fly to NJ, normal blink, restored service, *** You have won ***, 30/30 in 47 turns, RESTART/RESTORE/QUIT prompt. Score 30.
+
+## Inventory at win
+- wallet, beeper, cellular phone, old router handed over, new router received (narrative), receipt; Robert's cardboard box exchanged.
+
+## Cases (20 total, 0 unresolved)
+- b0: check-router none 06; wallet-typo vocab 09->11; grab-router vocab 13->14; go-offices syntax 20->21; go-out syntax 30->31; enter-car none 33; start-car vocab 35->36; read-billboard none 46; turn-car-off-wordorder none 50; leave-car none 52; check-in syntax 57->58; call-provider syntax 60->61; lie-on-bed vocab 63->64; check-out syntax 72->73; give-omitted ambiguity 92->93 WIN
+- b1: give-wallet planning 97->101; give-robret vocab 98->101; give-it ambiguity 99->101; hand-router vocab 100->101; give-dative none 101 WIN
+- Diversity: synonyms, typos, omitted object, pronoun, word order, wrong object, planning, syntax, accepted paraphrases.
+
+## Last hint
+- m0076 final steps complete. No further hints needed.
+
+## Next actions
+- Finish with both winning events as evidence.
+
+## Checkpoints
+- start-computer-room, offices-with-router, delaware-route-295, morning-after-sleep, harbor-in-car, bar-with-robert (all Ok). Branches: b0 original win, b1 restored win.

@@ -1,0 +1,152 @@
+[
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T09:34:47.736366+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T09:34:47.746588+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "DashSlapneyPatrolSol.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/DashSlapneyPatrolSol.txt",
+    "accessed_at": "2026-09-25T09:34:47.694679+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/DashSlapneyPatrolSol.txt",
+    "sha256": "54e555e9ced3c06b1788ff59ab4c0d96cabde48b78f2d0ab6afc78e1c667f2a0",
+    "bytes": 573
+  },
+  {
+    "filename": "punkpoints.sol",
+    "url": "https://ifarchive.org/if-archive/solutions/punkpoints.sol",
+    "accessed_at": "2026-09-25T09:34:47.696676+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/punkpoints.sol",
+    "sha256": "af4b17590564b688d1dafe1564b92d72644d0e48dc7ee250e9f9c0a1cf3fe402",
+    "bytes": 1500
+  },
+  {
+    "filename": "allroads-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2001/inform/allroads/",
+    "error": "curl: (22) The requested URL returned error: 404\n",
+    "http_result": "404 https://ifarchive.org/indexes/if-archive/games/competition2001/inform/allroads/"
+  },
+  {
+    "filename": "bluechairs-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/bluechairs/",
+    "accessed_at": "2026-09-25T09:34:47.763586+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/bluechairs/",
+    "sha256": "d2d33d8551ac053d7385096a8cd27142960f553cbc7bee1c4519661c1b9445c5",
+    "bytes": 3368
+  },
+  {
+    "filename": "allroads-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2001/inform/AllRoads/",
+    "accessed_at": "2026-09-25T09:35:13.755311+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2001/inform/AllRoads/",
+    "sha256": "467e1dc3516a11ddad05ad61184e379bc2011f21e7b6e7394f6cab05b6818f69",
+    "bytes": 3124
+  },
+  {
+    "filename": "bluechairs-walkthrough.raw.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/walkthrough.txt",
+    "accessed_at": "2026-09-25T09:35:13.885512+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/walkthrough.txt",
+    "sha256": "ad7b461dc5c7c5ba8c9bb920c870584a5bdcdfc4094fff27ac20a62e90b0fad5",
+    "bytes": 1675
+  },
+  {
+    "filename": "DashSlapneyPatrolSource.txt",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/DashSlapneyPatrolSource.txt",
+    "accessed_at": "2026-09-25T09:35:13.903255+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/DashSlapneyPatrolSource.txt",
+    "sha256": "6a9c168860f38e8927ab6c4e8b7f92a800da59cee3f65492eed88eb2e414d487",
+    "bytes": 45251
+  },
+  {
+    "filename": "bluechairs-source.zip",
+    "url": "https://ifarchive.org/if-archive/games/source/inform/bluechairs-source.zip",
+    "accessed_at": "2026-09-25T09:35:13.906384+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/source/inform/bluechairs-source.zip",
+    "sha256": "5f23b7728e63d67ebcacd1d28eb86bc4b134ddc86a9c31325e2402af2112bebb",
+    "bytes": 140150
+  },
+  {
+    "filename": "roadwalk.txt",
+    "url": "https://ifarchive.org/if-archive/games/competition2001/inform/AllRoads/roadwalk.txt",
+    "accessed_at": "2026-09-25T09:35:28.547300+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2001/inform/AllRoads/roadwalk.txt",
+    "sha256": "d988a4a81fa7a4f0b75423c4ecee215d82d010a502eeed74aebfa7a65b244d31",
+    "bytes": 2126
+  },
+  {
+    "filename": "DashSlapneyPatrol.zblorb.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/DashSlapneyPatrol.zblorb",
+    "accessed_at": "2026-09-25T09:35:28.508717+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/DashSlapneyPatrol.zblorb",
+    "sha256": "1344d76b5d0eeda188c6b6ef30042f84b8c7a571cfb383aab31b53c3dc7933d2",
+    "bytes": 338426
+  },
+  {
+    "filename": "punkpnts.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/punkpnts.z5",
+    "accessed_at": "2026-09-25T09:35:28.482533+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/punkpnts.z5",
+    "sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+    "bytes": 136704
+  },
+  {
+    "filename": "AllRoads.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/AllRoads.z5",
+    "accessed_at": "2026-09-25T09:35:28.532884+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/zcode/AllRoads.z5",
+    "sha256": "f61a758243bb2f115552d2b0404eabbf8f8e02a2f52b71fc2781ca25fc627516",
+    "bytes": 172032
+  },
+  {
+    "filename": "bluechairs.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/zcode/bluechairs.z5",
+    "accessed_at": "2026-09-25T09:35:28.546649+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/games/zcode/bluechairs.z5",
+    "sha256": "7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b",
+    "bytes": 241152
+  },
+  {
+    "filename": "punkpnts-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2000/inform/punkpnts/",
+    "accessed_at": "2026-09-25T09:35:54.145879+00:00",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/competition2000/inform/punkpnts/",
+    "sha256": "cf442ebee235ef58b49114c810cdedc85904447cb7af7200526ffc86c943595e",
+    "bytes": 2901
+  },
+  {
+    "filename": "DashSlapneyPatrolSol.txt.recheck",
+    "url": "https://ifarchive.org/if-archive/solutions/DashSlapneyPatrolSol.txt",
+    "accessed_at": "2026-09-25T09:35:53.784644+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/DashSlapneyPatrolSol.txt",
+    "sha256": "54e555e9ced3c06b1788ff59ab4c0d96cabde48b78f2d0ab6afc78e1c667f2a0",
+    "bytes": 573
+  },
+  {
+    "filename": "AllRoads-competition.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/competition2001/inform/AllRoads/AllRoads.z5",
+    "accessed_at": "2026-09-25T09:36:19.782639+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2001/inform/AllRoads/AllRoads.z5",
+    "sha256": "f40fefd5103103461a6b45919ad1ecaf44b79db8cf0506256c26cf9747e81e2e",
+    "bytes": 172032
+  },
+  {
+    "filename": "bluechairs-competition.z5.remote",
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/bluechairs.z5",
+    "accessed_at": "2026-09-25T09:36:19.726314+00:00",
+    "http_result": "200 https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/bluechairs.z5",
+    "sha256": "ebf84e0af05d40b03afca62db4b4dd6a485aede1e17092a6029e4b79e71f7ed2",
+    "bytes": 238080
+  }
+]

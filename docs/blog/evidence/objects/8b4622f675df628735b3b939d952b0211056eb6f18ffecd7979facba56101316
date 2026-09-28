@@ -1,0 +1,23 @@
+{
+  "game_id": "pentari",
+  "title": "Pentari",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/pentari.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/pentari-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/pentari.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Pursue the author guide's emerald/box conclusion with nobody else in the room. Its 60/70 score is intentional, not an incomplete route. Preserve and label the two alternate endings involving the elf and Morden if encountered; do not require all three or chase maximum points after a verified conclusion.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/pentari.json",
+  "story_sha256_expected": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "pentari",
+  "collection_notes": "# Pentari\n\nStory Z5 R6/030206. Local R6/030206; author walkthrough archived in 1998 gives no release/serial and predates this story. It explicitly describes three endings and a direct 60/70-point route. Later-release route compatibility remains untested.\n\nPursue the author guide's emerald/box conclusion with nobody else in the room. Its 60/70 score is intentional, not an incomplete route. Preserve and label the two alternate endings involving the elf and Morden if encountered; do not require all three or chase maximum points after a verified conclusion.\n\nThe guide conditions a spell on the elf being absent; observe the live scene before action. Distinguish its bonus suggestions from the chosen route.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+  "zmachine_version": 5,
+  "release": 6,
+  "serial": "030206",
+  "session_id": "pentari-63be930153",
+  "story_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+  "started_at": "2026-09-25T06:13:11.644474+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

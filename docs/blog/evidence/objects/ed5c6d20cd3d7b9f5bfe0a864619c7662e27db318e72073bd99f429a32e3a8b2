@@ -1,0 +1,33 @@
+# Fullplay supervision
+
+Current snapshot: 2026-09-25T03:11:12.159926+00:00. Synthetic test-data collection only; no training or publication.
+
+939 exported unique annotation rows: 653 accepted, 216 revise, 36 quarantine, 34 unreviewed. These are exact endpoint-matched review decisions; CSV display can lag the review file until refresh. This bounded pass reviewed106 rows (78 accepted,19 revise,9 quarantine), checking212 endpoint references against raw bytes, SHA256, text, commands and branch IDs. Later arrivals remain pending.
+
+## Verified conclusions
+
+Nine games have verified conclusions: Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905 and Violet. Primary raw ending spans were rechecked in this snapshot; complete receipts are in fullplay-status.json.
+
+New Violet result: competition Release1, September2008; session violet-bfdc33ea8f, branch b0. Events288–293 show thousand-word completion, surprise party, Australia epilogue, then an explicit winning menu. e293 raw[55456:55789], SHA256 f15847711db96f650080790617e4540f29542807205c54b88000658db3b3efc1. Apparent departure at e289 alone was not the final outcome. No further Violet actions needed.
+
+## Current collection and transport
+
+Six existing games remain incomplete: Zork, Secret Mission, Voodoo Castle, Dreamhold, Bronze and Slouching Bedlam. Their existing launcher/broker processes were present in the current snapshot. Parent plans four more games; their startup/version checks remain pending. No additional ending is inferred from worker progress text.
+
+All recorded spans in each game’s latest session matched raw bytes/hash/text. Historical delayed-output chains remain quarantined; this does not certify earlier contaminated sessions. Slouch’s old manual-menu e18/e19 remain quarantined. Recovered slouching-bedlam-18faea2151 is separate from that session, with actual restored acknowledgement previously verified.
+
+Slouch m0115 and Voodoo m0417 were Markdown notes placed in JSON inboxes. Preserved byte hashes match supervisor rejection receipts. These are request-format errors, not executed game turns or game-parser failures.
+
+## Small source-supported Scott hints
+
+Voodoo: exact local adv04.dat action87 supports ON MAN (ON CRISTO synonym) when foot item32 is present and open coffin item27 is in the room. PUT FOOT action86 only prints On what?. Successful action87 prints OK/thunder and removes foot; LOOK MAN continuation93 then reports it worn. Reviewer has not executed this command or observed its live result. Data SHA256 ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db. The existing book/page describe later ritual; repeated SAY/WAVE before required foot/ritual flags cannot establish progress.
+
+Secret Mission: break-window WITH RECORDER continuation97 reactivates camera flag13. SHOW PICTURE action107 must occur after the break and before GO WINDOW, with body/photo present. Recorded b13 e910 shows photo too early; e911/e912 break reactivates camera, e913 alarms, e958 later explodes. Red-detector automatic death is random9percent, but the recorded ordering error is controllable. Fixed24 WAIT prefixes neither guarantee corpse location nor fix the camera. Static diagnosis and guide order agree; a corrected live run is still unverified by reviewer.
+
+## Review boundaries and historical findings
+
+Intent-changing successful wording repairs are quarantined. Explicit intent-not-preserved planning alternatives can be accepted only as distinct planning data, never same-intent repair examples. Voodoo dark-hole pairs incorrectly assumed failed movement: original GO HOLE entered darkness and subsequent plaque reading worked; later rabbit-room entry was from another branch/location. Violet WRITE accepted by parser but blocked by itching is revise, not successful writing.
+
+Zork remains the exact Inform7 Zork/Dungeon3.2B port R4/190920, not commercial ZorkI. Maintainer full-port guide supersedes the historically incomplete commercial guide. Conserved shaft execution and ~18-turn lamp estimate apply to the earlier named checkpoint, not current b90 inventory or remaining light; no guaranteed endgame reserve or ending asserted.
+
+Historical completions, version gaps, explicit recovery boundaries, and transport quarantines remain in structured status/review evidence. Parent owns engines, logged hints, source/configuration, exports and blog records. Reviewer changed only the three owned review/status files.

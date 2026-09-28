@@ -1,0 +1,25 @@
+{
+  "event_id": "vindaloo-85744e25ee:e00437",
+  "timestamp": "2026-09-25T08:45:22.702387+00:00",
+  "game_id": "vindaloo",
+  "session_id": "vindaloo-85744e25ee",
+  "branch_id": "b0",
+  "event_index": 437,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 23581,
+  "raw_end": 23581,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "vindaloo-85744e25ee",
+    "ending_quote": "You turn on the stove and your meal begins cooking. Soon you are enjoying your \nlong awaited vindaloo.\n\n\n    *** You have won ***\n\n\nIn that game you scored 18 out of a possible 18, in 340 turns.",
+    "evidence_event_ids": [
+      "vindaloo-85744e25ee:e00433"
+    ],
+    "notes": "Genuine winning ending: stove-on cooks assembled curry (spices/onion/tomato/chicken in pan on stove), concluding vindaloo narrative with *** You have won *** and 18/18 score, not death, restart prompt, chapter change, or quit. Post-win prompt offers RESTART/RESTORE/QUIT."
+  },
+  "review_status": "unreviewed"
+}

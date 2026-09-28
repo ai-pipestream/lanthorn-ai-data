@@ -1,0 +1,31 @@
+# Delusions progress — SEGMENT 3 (b16 ENDGAME RUN, score 29/50, game INCOMPLETE)
+
+No winning ending yet. HINT menu forbidden. Cases quota met (~49+); no more deliberate probes except genuine route needs.
+
+CURRENT (b16, verified to m0616):
+- Justy fix took ~50 turns post-overflow (m0554-0564): "Hang on" until "Okay, this should do it." Run 6 = verification run (Bach Goldberg, "make sure you win it").
+- Run 6 sandbar (m0565-0568): identical route; exit DIFFERENT: "Okay, Cynthesiser, I'm in!" + lab EMPTY (Justy/Cynthia gone), self-extrication.
+- Post-run-6 transition: time RESET 0000 ("Curiously"), inventory EMPTIED (bench items wiped), metal door closed, weak#2 fired ("urgent need for insulin").
+- Quarters + MedLab RESET to initial: fresh syringe on desk, violin/amp/bow/pillow restored, cabinet closed (restocked: caplet/gelstrip/knife).
+- INJECT#2 (m0572): fresh syringe, Score 14 (+1, = R2 1/14). Dropped syringe. Checkpoint s14-inject2.
+- Manual (m0575): index + virus + fail-safe + androids + sphere.
+- SLEEP1 (m0576-0577): woozy ("little woozy" on lie) → sleep → Morrodox cutscene (implant + injection + intro + explore + paralysis, needed 5 get-ups m0578-0582, Morrodox exits north).
+- REPORT BLOCK (m0583-0591): "learn more about what has just transpired" — x implant/touch/manual/workstation/tank/sphere/Output/Cynthia's/corridor tour all failed to lift. Help m0588 confirmed R2 has no extra step.
+- FORCED COLLAPSE (m0592-0598): woozy ("lie down") → blackout in lav → MORRODOX REVELATION DREAM (lab sim! never left VR! Morrodox = sentient virus "God's weapon") → woke ON GURNEY MedLab. "Look closely... fractures" = R2's note.
+- REPORT (m0599-0601): opened after revelation ("Report generation initiated") → close box → N Output → printer 2 waits → read output (LAB SIM REV 227, all senses X, 0000, 1 OVERLOAD POTENTIAL).
+- CONFIGURE (m0602-0604): open configure → click left on hand checkbox Score 18 (+4) → close window → S MedLab → lie.
+- SLEEP2 (m0605-0606): i (wearing IMPLANT)/x watch (0000!)/set watch/alarm/zz (woozy) → sleep → alarm wakes, Morrodox at terminal, Score 22 (+4). Checkpoint s22-sleep2.
+- CAPLET/IMPLANT (m0608-0615): get up (quiet) → open cabinet (RESTOCKED caplet/strip/knife!) → eat caplet → close → lie (pretend) → zzzz Score 23 (+1, "fog clearing") → zzzz → get up (buzzing) → open cabinet → get strip/knife → open strip → i → CUT IMPLANT Score 26 (+3, bleeding) → PUT STRIP ON HEAD Score 29 (+3). Checkpoint s29-strip.
+- Position: MedLab standing, inv: knife + strip(applied?/head?) — verify. Morrodox at lab terminal (north). Score 29/50.
+
+NEXT (R2 s29+, mapped excerpts):
+1) N (lab) → X tank → NW (Cynthia's) → X picture → SE (lab) → Open metal door? (check state) → SE (quarters) → X violin → X Giger → X needle → NW → W (corridor).
+2) X doors → E → NE (Justy's?/kitchenette?) → Open freezer → Get light → Put light in oven → Get light (NO tongs!) → SW → E → Turn on switch → Drop light.
+3) Search curtain → X android → Again → Again (hands shake) → W → X door → W → S → X rectangle → (hands shake) → X hands → (desperate) → N → E → NW → Look under desk → Cut box → Get gun → SE.
+4) save s30 → Kill me → zzz zzz (4/33) → save s33 → W → Knock+open → W → Open drawer get blade → X mirror → zzzz → N → Get magnet → Put magnet in niche (3/36) → Open door NW E (must go E!) → save s36 → Wait ~23 (phone appears) → Get phone X → Push redial (2/38, MUST be factory storage).
+5) zzzz zzz → Drop gun (1/39) → save s39 → NW → Get pencil → Sharpen (2/41) → X pad → Rub (2/43) → SE → X screen → X box close → Open system → Type XYZZY → Type CHESS (4/47) → save s47 → Enter sphere → Rescue morrodox (2/49) → WIN (50 = no-hint bonus).
+6) Grip failures ("can't get a grip"): retry same command. Do NOT use HINT menu. Checkpoint at s30/s33/s36/s39/s47.
+
+## Checkpoints (newest first)
+- s29-strip (b16 MedLab, score 29 — CURRENT BASE)
+- s22-sleep2, s14-inject2, post-inject1, overflow-13, quarters-8913, push-8000, postrun3-7302, pre-push-6724, before-third-run, nopizza-6044, before-pizza, quarters-staged, lab-after-reef-win, etc.

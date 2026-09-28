@@ -1,0 +1,8 @@
+# Schooldays progress
+
+- Session: schooldays-b371c6a97d, branch b0, event e00415 (Travel Agency 11:04am, checkpoint travel-tickets OK).
+- Location: Travel Agency, thief arrested by Constable Shultz e00410 ($20 reward), police left. Holds Indiana airplane ticket (e00413, $500 on Mastercard) + Pacers ticket + basketball + $20.
+- Route this run: west e00397 out of agency; up e00398 junction; east e00399 back to agency; get token e00400; west e00401 to phone; look up police e00402 (427-3000); get receiver e00403; dial e00404 Shultz; tell policeman e00405 (6 min); help e00406 (PUT RECEIVER EAST WAIT ARREST GET MASTERCARD AGENT INDIANA); hangup e00407; east e00408 agency; wait e00409 police arrives 11:00; arrest e00410; get mastercard e00411; agent indiana e00412 (show card); give mastercard e00413 ticket; checkpoint travel-tickets e00414-415 OK.
+- Checkpoints: gym-with-simon, gym-ticket, travel-tickets verified OK. Plus earlier house/subway/school chain.
+- Pending: taxi-to-airport final route. Known excerpt: GET PACERS TICKET KNOCK ON TAXI OPEN TAXI ENTER TAXI CLOSE DOOR DRIVER GO AIRPORT + [GAME OVER] label (not proof). Need taxi location from Queen/Yonge and authored conclusion text.
+- Cases: urgent travel-agency sequence done without probes (correct). Gym/CD/Simon + earlier annotations still owed after completion. No death/quitting. Game INCOMPLETE until final taxi-airport authored conclusion verified.

@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-25T10:09:02.381221+00:00",
+  "tests": {
+    "count": 33,
+    "command": "python3 -B -m unittest discover -s scripts -p test_kimi_coordinator_pilot.py -q",
+    "result": "passed"
+  },
+  "changes": [
+    "Strict informational system.version and session.resume_hint parsing; never execute hints",
+    "Explicit held_slots integer contract and exact-list lossless normalization with recorded flag; wrong/missing/invented held IDs remain rejected"
+  ],
+  "files": {
+    "scripts/kimi_coordinator_pilot.py": "fa7d9a8cec65576e5af9dd478b2d8d7dbddcc493c3562b5f8cfcd1c72a0e723d",
+    "scripts/test_kimi_coordinator_pilot.py": "74da7674a0b13d03f9a3a4da9ccc57892205fb726389d772604158fab2bf1dcf",
+    "scripts/watch_kimi_coordinator.py": "6dc8f65603d2bf3d9caa3134f4b16f2dd7e8cec13798e080abc7303bc91e5add",
+    "control/kimi-pilot/coordinator.md": "1079189f49c929edc835e879522c97cde279c42d0e6595b1d9b4aa5af4ef496e"
+  },
+  "no_model_calls_for_tests": true,
+  "original_failed_run_receipts_unchanged": true
+}

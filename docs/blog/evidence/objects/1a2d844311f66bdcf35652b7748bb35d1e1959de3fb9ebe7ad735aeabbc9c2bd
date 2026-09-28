@@ -1,0 +1,10 @@
+# Detective progress
+
+Location: Chief's office (returned from Closet), score 30 observed.
+Inventory as observed: white paper (taken), small black pistol/gun (taken via "pick up pistol").
+Route so far: read paper, take paper, go west to Closet, take gun, east back.
+Checkpoints: start-chiefs-office (verified e00002-e00003).
+Unresolved case IDs: none pending; annotated: chiefs-office-read-omitted-object (none), chiefs-office-take-typo (vocabulary), chiefs-office-go-west-synonym (none), closet-take-gun-synonym (none).
+Last hint: walkthrough excerpt "take paper. read paper w. take gun. e. n. w. e. n. n. w. n. n. n. e. e. e. n. e. n. w. shoot man with gun e. n. n. n. n. n. w. n. w. n. n. u." (source_kind walkthrough_not_player_observed, must verify each step in game).
+Next actions: checkpoint have-gun, then n from Chief's office step-by-step, one command at a time, with varied synthetic probes (pronoun, word-order, wrong object, world_state) spread across new rooms.
+Notes: short turn limit at dazed-man encounter per collection-notes; save safely before it, keep probes outside hazard. No lamp/light management seen yet.

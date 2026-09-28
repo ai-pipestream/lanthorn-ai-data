@@ -1,0 +1,14 @@
+# Dreamhold progress — segment 9 (b1, Curving Hall South End, game incomplete)
+
+Location: Curving Hall, South End b1 e01721 (window=starlit mountains; arch E, stairs up W, N back).
+Inventory (e01684 + palette): scrap of gauze, palette, 2 paintings, knotted string, stone, white letter, grey sphere, belt worn, 6 masks (NO white: torn black, blue, green, brown, red, gold), cloak worn, buckler, black chart, torch LIT, iron key, dagger, white+orange berries, glove, copper key, quill.
+Key findings (seg9):
+- Confusing Passage SE gap = return to Grey Chamber (dead end, only exit W). 'enter gap' accepted (annotated none).
+- Vaulting exits all known: S→Natural Passage ('go south' accepted, annotated none), NE→Confusing→Dead End→Cistern, W→Shore→Far Shore→River Crawl→Ledge in Pit, pit down→Ledge in Pit.
+- String test (walkthrough ll.196-206): take palette ('get' accepted, none), 'place string on easel' rejected (place unknown verb) → 'put string on easel' OK (vocab annotated). look in scope→Metal Culvert; N→Platform in the Void (NEW area, first visit).
+- Platform in Void: platform examined (no fear, no space), shadow = nothing special, take shadow fails ('lost in the void'), down refused ('no nerve'), N returns to Atelier. Walkthrough ll.207-215 confirms NOT useful. String retaken.
+- Now following walkthrough: Atelier sw,s → South End. 'look at window' accepted (none). Next per walkthrough: x door?, E.
+Unresolved: white mask still missing (6/7). Pit-down-further untried (risky). Ledge-in-Pit opening across unreachable. SE film unreachable (trough empty after wheel). Sea dip/drink/down all refused (R5 vs R4 guide?).
+Last hint: ll.207-215 Platform/Atelier/South End (x window, x door, e).
+Checkpoints seg9: vaulting-return OK, atelier-string-easel OK. Prior: ledge-in-pit, cistern-drained (trough FILLED), cistern-west-gauze, etc.
+Next: examine door?, go east (Starry Dome side); keep following walkthrough excerpts toward white mask → mirror (7) → Study → Iron Corridor spell. Game NOT complete.

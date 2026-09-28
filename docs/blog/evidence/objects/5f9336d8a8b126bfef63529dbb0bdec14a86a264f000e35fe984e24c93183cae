@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-09-25T03:54:30.791513+00:00",
+  "event": {
+    "event_id": "slouching-bedlam-b08abfcb18:e00233",
+    "timestamp": "2026-09-25T03:51:28.629014+00:00",
+    "game_id": "slouching-bedlam",
+    "session_id": "slouching-bedlam-b08abfcb18",
+    "branch_id": "b4",
+    "event_index": 233,
+    "event_type": "command",
+    "command": "wear noose",
+    "response": "The noose slips easily enough over the head.\n\nThe fit is loose at first, then with a noise from above the wires pull upward \ncausing it to tighten. An unseen bell gongs from beneath, shaking the \nfloorboards.\n\nWith a rapid series of clicks, cogs grinding against cogs, the automaton turns \nits head towards the empty street. There is a hiss of static, then a recorded \nvoice speaks: \n\n\"All good people, pray heartily unto God for this poor sinner who is now going \nto his death, for whom the great bell tolls.\"\n\nMore clicks, and the automaton turns to face the noose. The static sounds like \nsteam leaking.\n\n\"You that are condemned to die, repent with lamentable tears; ask mercy of the \nLord for the salvation of your soul. You have one minute remaining of your \nlife. You may use this time to beg forgiveness of God and the Good People of \nthis Great Kingdom, or to make your peace with your maker in silence. Your \nminute begins now.\"\n\nA minute to reflect. A minute to regret. A minute to repent.\n\nSuddenly, the trap door snaps open. The landscape rises up in a rush, a quick \njerk, and then, darkness.\n\nIf there are words for this...\n\n/(reference|point|metaphor)\\\n\n...they have not yet been written.\n\n/(:timeline/date/1919:wbyeates/secondcoming)\\\n\nIt starts simply enough. Nothing occurs for the first week. It takes that long \nto incubate.\n\n/(the darkness drops again; but now I know)\\\n\nJames, thankfully, is not alive to see any of it. They find his body laid \nacross the floor of the lobby and mutter about Bedlam claiming yet another life.\n\n/(that twenty centuries of stony sleep)\\\n\nThey find Reggie's body in the alleyway and write it off as a robbery.\n\n/(were vexed to nightmare by a rocking cradle,)\\\n\nAlexandra goes on with business as usual. By the time her incubation is \ncomplete, the Cypherists are once again meeting. Ironically, she infects the \nonly group of people who could possibly have understood what was going on.\n\nIt all goes fairly quickly after that.\n\n/(and what rough beast)\\\n\nIt spreads - subtle and strange...sudden lost memories, new forms of action \nand, universally, a reaching, grasping curiosity...\n\n/(its hour come round at last)\\\n\nThe lost begin to gather together - first in twos, then in growing crowds - to \nspeak nonsense at one other.\n\n/(slouches towards)\\\n\nThe language of the angels - of Babel - fills the streets of London, and then \nevery city in the world.\n\n/(bethlehem)\\\n\nThe death shroud of humanity becomes the birth caul of something ... new -\n\n/(?behtlehem?)\\\n\ninhaling its first breath\n\n/(BEDLAM)\\\n\npreparing to cry out\n\n/(to be born?)\\\n\nits Name.\n\n\n    ***/(finishendcompleteconclude|periodmomentpointspacetime))\\***\n\n\n/(reachedfoundendfinishcomplete|possibleprobablyonlyoneinofmany))\\\n/(nowfurtheryetaheadrelease-APPENDIX-B-availableaccessableopen))\\\n\n/(?? RESTARTperiodfirstrevisit ?? RESTOREbackrecallrelease ?? \nUNDObackreverseunmake ?? APPENDIXfurtherjumpyet ?? QUITleaveenddone ??))\\\n> ",
+    "raw_start": 102314,
+    "raw_end": 105261,
+    "response_sha256": "d4439fd038e6cd45c1b69e3545a81f23b32eb377546400016da67b92c6bbeaa4",
+    "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "seg6-noose-wording",
+      "expected_outcome": "Ending narrative and appendix",
+      "intent": "Put on the gallows noose with correct verb",
+      "origin": "recovery"
+    },
+    "review_status": "unreviewed"
+  },
+  "verdict": "author-intended bleak ending, not happy victory",
+  "route": "Gallows death followed by worldwide Logos spread; Alexandra survives and infects Cypherists; Appendix B unlocked and explicit end marker. Model label burn-the-infection must not imply containment succeeded.",
+  "raw_verified": true,
+  "reviewer_verdict": "requested separately"
+}

@@ -1,0 +1,11 @@
+# Mortlake Manor — collection progress (ACTIVE, game incomplete)
+
+- Session: mortlake-manor-e0475539fe, branch b1. Last CONFIRMED: North-South Passageway e00167 (stairway up west, dark opening east down). Ordinary prompt.
+- IN FLIGHT: inbox/m0141.json (south to NS corridor). On resume: read responses/m0141.json BEFORE any new command; never resubmit.
+- Inventory (b1, observed): gold key, coathanger. Score net 0 (+5 key, -10 cabbage, +5 hanger).
+- Manor map (b1 update): kitchen N -e-> dining S (chandelier INTACT e00165) -e-> NS Corridor (room W) -n-> NS Passageway (stairs up W, dark opening E down). Kitchen N -n-> 2-corr junction confirmed e00162. Oven: 'open oven' not openable e00154, 'examine oven' nothing special e00155. Vomit = cabbage bits e00156. 'open door'/'open small door' both 'can't see any such thing' e00157/e00159 — doors are exits, use movement (annotated kitchen-door e00163).
+- Chandelier: intact e00165. Probes pending annotation: wire-cutters series, bedroom-webs.
+- Cases recorded: doorbell-synonym, twisty-branch, gold-key, backdoor-entry, cabbage, armour-gauntlet, bedroom-sheets, coathanger, kitchen-door (annotated e00163).
+- Checkpoints (confirmed): start-road, manor-front, garden-middle, french-windows (b0), manor-inside (b1), kitchen-north (b1 e00160/e00161).
+- Help used: kitchen doors topic returned off-topic South Kitchen excerpt (knife/bench, NOT observed) e00158 — hints at South Kitchen area still unvisited.
+- Next: resolve m0141 south; map NS corridor south end; find light before dark opening down; try stairs up (checkpoint first); seek South Kitchen/knife, fountain repair, diamond, authored treasure ending.

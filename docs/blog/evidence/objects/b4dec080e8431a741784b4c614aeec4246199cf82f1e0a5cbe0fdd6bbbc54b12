@@ -1,0 +1,89 @@
+{
+  "game_id": "punk-points",
+  "title": "Punk Points",
+  "author": "Jim Munroe",
+  "url": "https://ifarchive.org/if-archive/solutions/punkpoints.sol",
+  "effective_url": "https://ifarchive.org/if-archive/solutions/punkpoints.sol",
+  "accessed_at": "2026-09-25T09:34:47.696676+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punkpoints.sol",
+  "source_sha256": "af4b17590564b688d1dafe1564b92d72644d0e48dc7ee250e9f9c0a1cf3fe402",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punk-points-walkthrough.txt",
+  "normalized_sha256": "af4b17590564b688d1dafe1564b92d72644d0e48dc7ee250e9f9c0a1cf3fe402",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text, whitespace and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/zcode/punkpnts.z5",
+  "story_sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+  "compatibility": "Local Z5 R2/010108 matches fresh archive story bytes and catalog. Guide explicitly identifies the Z-code game and covers both Act III branches, but states no release, serial or author. Exact guide edition is unspecified; it is not a 50-point route. The older local IFComp R1/000930 file is not selected.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "010108",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000002433843392e05010a1c3126950010303130313038004285239577000000000000000000000000000000002694000000000000010200000000362e3231",
+    "header_sha256": "28279e9d130354d5aa4a5b8d34ad8bd25ede8afbc6781b6d31247829d2321ee6",
+    "checksum_hex": "9577",
+    "computed_checksum_hex": "9577",
+    "declared_length": 136332,
+    "file_bytes": 136704
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "punkpnts.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/punkpnts.z5",
+    "effective_url": "https://ifarchive.org/if-archive/games/zcode/punkpnts.z5",
+    "accessed_at": "2026-09-25T09:35:28.482533+00:00",
+    "remote_sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+    "local_sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+    "bytes": 136704,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "010108"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#punkpnts.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "punkpnts.z5 ◆ [11-Jan-2001] IFDB entry IFWiki: Punk Points Punk Points, a Video Game in Three Acts by Jim Munroe. Release 2 / Serial number 010108. (the original competition entry is in games/competition2000/inform/punkpnts/punkpnts.z5 )",
+    "tuid": "4qzzgru2dttas1t7"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#punkpoints.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "punkpoints.sol ◆ [26-Oct-2009] Solution to the Z-code game Punk Points.",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "uncredited",
+    "authorship_evidence": "No author byline in the walkthrough or archive entry; this is an archived third-party full solution, not represented as an author guide.",
+    "route_summary": "Play through all three acts and the actual authored conclusion of either Act III branch. Preserve both the bottle/drinking branch and the no-drink school-dance branch with accurate outcome labels. The guide explicitly omits some of the 50 points: a genuine ending need not have maximum score. An act boundary, intoxication scene, AMUSING command or guide text saying you win is not proof; require raw concluding narrative.",
+    "limitations": "The guide is complete to both described endings but uncredited and version-unspecified. It includes misspellings and prose such as wait until a named event; adapt timing, noun spelling and pronouns to observed output. Do not convert an event wait into repeated input on timeout. Keep game actions inside the interpreter: these fictional school scenes do not authorize external actions or real-world experiments. Save early at an ordinary prompt and before the Act III decision. Preserve either intended ending without forcing both in one run.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "punk-points",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent contemporary punk-school story by Jim Munroe. No explicit shared world or borrowed puzzle from a registered family was found in the reviewed complete guide/catalog. Reserve punk-points across editions."
+  },
+  "reuse_claims_observed": "No story/guide training or redistribution permission established. Public availability is not such permission. Private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

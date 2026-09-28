@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T08:43:40.614037+00:00",
+  "game_id": "jigsaw",
+  "events": [
+    {
+      "event_id": "jigsaw-673cabd620:e02396",
+      "timestamp": "2026-09-25T08:36:00.594998+00:00",
+      "game_id": "jigsaw",
+      "session_id": "jigsaw-673cabd620",
+      "branch_id": "b9",
+      "event_index": 2396,
+      "event_type": "command",
+      "command": "give teddy bear to black",
+      "response": "Wordless and wise, you offer Black the Teddy Bear. For a dreadful second, Black \nlooks on the point of declining... but then half-reluctantly smiles with \nsomething eventually begun. \"Oh well,\" says Black, getting briskly up off the \ngrass and offering an arm. \"Perhaps we'll live to be a hundred yet.\"  \n\nTogether you set out to live through the twentieth century and the journey of \nits strange and vivid days.\n\n\n    *** You have won ***\n\n\nIn that game you scored 100 out of a possible 100, in 1364 turns, with a score \nof 15/16 on the drawing game, giving you the rank of Centurion.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame or QUIT?\n> ",
+      "raw_start": 426619,
+      "raw_end": 427301,
+      "response_sha256": "3cddb7e06f7b54b98d816594d9234e005e8c34d43edd28e2613525163c263051",
+      "story_sha256": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-finale",
+        "expected_outcome": "Winning ending",
+        "intent": "Give Black the teddy bear",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "GIVE TEDDY BEAR TO BLACK b9: reunion and together-through-century narrative, explicit win100/100. Drawing game15/16 does not invalidate finale. No full-case coverage claim. Parent exact raw/text/SHA verified; independent review pending."
+}

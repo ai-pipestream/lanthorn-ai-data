@@ -1,0 +1,20 @@
+# Mansion progress (continuation checkpoint — segment 1 end)
+
+Location: Under a Pine Tree (east of Front Drive). Ordinary prompt, checkpoint verified.
+Inventory (e00192 + net now in hand e00194, key bagged): hands pine needle, tweezers, scrap paper, spanner, net + bag key/boots/packet(seeds)/saucepan/plate/straw/knife/floorboard. Frog LOOSE here (escaped when net auto-bagged e00190-91; confirmed present e00193). Score 1.
+Checkpoints: start-front-drive, garden-reached, stopcock-on-frog, pine-needle-froglose (verified e00195-96).
+
+Route state:
+- Front unlocked, hall mapped, kitchen unlocked, garden+shed looted (spanner/seeds/boots/tin spiders), pools mapped (all muddy full, rockery S blocked), pond frog first caught via DROP NET/GET FROG/GET NET then lost at pine.
+- Stopcock ON with spanner; Brookes met (papers fishy, model), diary found/read in library (Brookes pestering, spare key), model+docs+diary dropped in library per hints.
+- Pine: hawk/tercel + canister message read (author notes, R3 fixes, no dead-ends, bird advice), needle taken with tweezers (+1).
+- Unexplored/pending: Front Drive west path, Flower Garden west, Fountain east shrubs, moose/dart/shove puzzles, tin spiders use, seeds/mixture/cooker remedy, torch/lamp for dark attic stairs, Brookes final encounter + rose + property resolution.
+
+Cases: ~13 annotated (incl frog planning, stopcock world_state, brookes ASK vocab). No unresolved except frog recapture in progress (net in hand; next: DROP NET, GET FROG, GET NET at pine — verify if same trick works outside pond; if not, lure/chase back to pond).
+
+Last hints:
+- frog lines 279-287 (drop net/get frog/get net)
+- diary chain lines 20-38
+- kitchen/bird lines 8-16 (close canister/show bag/show key...) — bird/canister done.
+
+Next actions for continuation: recatch frog at pine (drop/get/get), verify inventory, explore Front Drive west + Flower Garden west + Fountain east shrubs, then seek hint for needle/dart + mixture/saucepan + spiders + dark stairs lamp. Restore point: pine-needle-froglose.

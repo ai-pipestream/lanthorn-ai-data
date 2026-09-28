@@ -1,0 +1,23 @@
+{
+  "game_id": "childs-play",
+  "title": "Child's Play",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/ChildsPlay.zblorb",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/childs-play-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/cplay-hints.html",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative verified against raw output; no ordinary deaths/quitting/chapter transitions/partial scores. Story embedded Z8 R4/080129. Author Stephen Granade hints archived February2008; guide release unspecified. Hints contain deliberate joke/non-game questions. Verify advice against observed output, and seek final toy-retrieval ending, not a chapter transition.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/childs-play.json",
+  "story_sha256_expected": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+  "checkpoint_policy": "Only at ordinary command prompts; verify save success.",
+  "dataset_split": "test",
+  "game_family": "childs-play",
+  "collection_notes": "# Child's Play\n\nStory embedded Z8 R4/080129. Author Stephen Granade hints archived February2008; guide release unspecified. Hints contain deliberate joke/non-game questions. Verify advice against observed output, and seek final toy-retrieval ending, not a chapter transition.\nSource: https://ifarchive.org/if-archive/solutions/cplay-hints.html\n\nSmall broker help excerpts only; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones at ordinary command prompts, never a menu/question. Empty command sends Return, literal space is different. Timeout permits await_output only. No training or publication.\n",
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "080129",
+  "session_id": "childs-play-936dc938bb",
+  "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+  "started_at": "2026-09-25T05:56:53.077780+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

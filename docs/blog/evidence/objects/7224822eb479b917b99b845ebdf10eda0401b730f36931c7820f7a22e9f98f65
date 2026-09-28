@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-25T06:45:52.761225+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-d-20260925.json",
+  "candidate_count": 4,
+  "counts": {
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "status": "four queue spares prepared; not launched",
+  "scope": "Only batch D source directory and config written. No pool, split, registry, play or script mutations; no training/evaluation/publication.",
+  "parent_actions": [
+    "Stage pinned story and guide bytes on remote workers, verify hashes and remap absolute host paths.",
+    "Keep complete guides and provenance inaccessible to Muse; mask all guide/source/index/receipt paths and URLs while serving small broker excerpts.",
+    "Use proposed family/split assignments when parent updates its own registries. Christminster is conservatively curses/train because of the explicit Meldrews book reference; exact overlap remains uncertain.",
+    "Fine-Tuned is R8 with an R6 author guide; Christminster R4 uses an older proofplayed guide with no exact target release. Confirm compatibility from real output and preserve differences.",
+    "Use genuine concluding narrative for completion; full guides and favorable local static checks are not completed-play evidence."
+  ],
+  "family_review": [
+    {
+      "game_id": "gumshoe",
+      "proposed_family": "gumshoe",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "No concrete shared world/puzzle link with the existing corpus identified. Detective genre or a common author would not be enough; keep all Gumshoe releases together."
+    },
+    {
+      "game_id": "fine-tuned",
+      "proposed_family": "fine-tuned",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "All Fine-Tuned releases and ports stay together. No shared-world/puzzle relationship with existing games was identified from the guide and archive."
+    },
+    {
+      "game_id": "magic-toyshop",
+      "proposed_family": "magic-toyshop",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Same author as Christminster is not evidence of shared world or puzzles. Board-game puzzles and talking toys alone do not connect this to existing families; keep all Magic Toyshop releases together."
+    },
+    {
+      "game_id": "christminster",
+      "proposed_family": "curses",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "Guide inventory explicitly includes History of the Meldrews, also present in the existing Curses guide. Conservatively use existing curses/train (which already includes Jigsaw). This is a concrete book/world reference, not proof of identical puzzles or a canonical shared universe; extent remains uncertain for parent review."
+    }
+  ],
+  "limits": {
+    "response_timeout_seconds": 180,
+    "broker_help_max_lines": 9,
+    "broker_help_max_characters": 1000,
+    "broker_commands_per_request": [
+      1,
+      5
+    ],
+    "max_development_candidates": 3,
+    "configured_development_candidates": 0,
+    "synthetic_probe_quota": null,
+    "concurrency_assigned": null,
+    "event_cap_configured": null,
+    "worker_time_limit_configured": null,
+    "note": "Only response_timeout_seconds is an executable timing setting here. Help/command limits describe the existing broker; no scheduling or model/event budget changed. Gumshoe about 270 moves and Magic Toyshop about 86 are guide estimates, not caps or collection quotas."
+  }
+}

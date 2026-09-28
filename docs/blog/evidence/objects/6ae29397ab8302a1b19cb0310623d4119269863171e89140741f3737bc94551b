@@ -1,0 +1,27 @@
+{
+  "game_id": "magic-toyshop",
+  "title": "The Magic Toyshop",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/magic-toyshop.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/magic-toyshop-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/magictoy.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Resolve the sequence of games and object puzzles, including the mouse, sundial, tea and chest combination, and enter the chest to the actual authored conclusion. Solving one board game, obtaining the key, 20 points or the final FULL listing alone is not completion. The guide's unconventional puzzle shortcuts are part of its intended solution; preserve observed outcomes.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/magic-toyshop.json",
+  "story_sha256_expected": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "magic-toyshop",
+  "collection_notes": "# The Magic Toyshop\n\nStory Z5 R1/951018. Guide explicitly R1/951018, exactly matching the local header and byte-identical archive story. Archive directly links this guide and story with matching IFDB identity. It is a complete short game, not a preview.\n\nResolve the sequence of games and object puzzles, including the mouse, sundial, tea and chest combination, and enter the chest to the actual authored conclusion. Solving one board game, obtaining the key, 20 points or the final FULL listing alone is not completion. The guide's unconventional puzzle shortcuts are part of its intended solution; preserve observed outcomes.\n\nGuide estimates about 86 moves. Catherine's offered games advance with time; follow observed offers and board state. Never send the guide's # placeholder literally. Short game means a few varied useful probes suffice; do not repeat games or pad the route to meet a quota. Save at safe ordinary prompts before consequential puzzle steps.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "951018",
+  "session_id": "magic-toyshop-9a53f3ebb2",
+  "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+  "started_at": "2026-09-25T07:00:21.227468+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

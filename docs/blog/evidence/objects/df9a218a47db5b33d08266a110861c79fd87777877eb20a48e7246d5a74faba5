@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-25T06:48:01.849461+00:00",
+  "game_id": "childs-play",
+  "events": [
+    {
+      "event_id": "childs-play-936dc938bb:e00438",
+      "timestamp": "2026-09-25T06:40:57.082963+00:00",
+      "game_id": "childs-play",
+      "session_id": "childs-play-936dc938bb",
+      "branch_id": "b0",
+      "event_index": 438,
+      "event_type": "command",
+      "command": "take toy",
+      "response": "Zoe tries to crawl away, but there are babies and Cheerios and it is a big \ntrain-wreck and she cannot get away!\n\nYou lunge forward and yank on the toy and Zoe is all distracted by Cheerios and \nthe toy pops out of her evil sweaty grasp! You have your toy!\n\nZoe screws up her face and bursts into these loud wails, they are so terribly \nloud. She shoves at Cassie who also starts crying and soon just about everyone \nis crying except you, ha ha, they are such babies.\n\nMarion says, \"I was afraid we were staying too late past Zoe's naptime. Farina, \neveryone, it's been fun, and glad you could come, Parry. See everyone next \nweek.\" Hands come down and the squalling Zoe zips up into the air and into \nMarion's arms. Soon all of the babies are going skywards, parentwards, and \nout-the-doorwards.\n\nWith them all gone the air kinda leaks out of you, it has been a long playdate. \nThe mom gathers you and your favorite toy up. \"C'mon, kid, let's get you to bed \nbefore you completely pass out.\" But you do not need naps, does she not \nunderstand that?\n\nThough your crib is nice and soft and your favorite toy chimes a bit as you \ncurl around it and your teeny eyelids are so heavy.\n\nSo...heavy....\n\n\n    *** You have won ***\n\n\nYou have like 100 points out of 100. Here is how you got them:\n\n     5 for pulling up on the footstool\n     5 for knocking your favorite toy off the footstool\n     5 for smashing open the pillows with Alfadog\n     10 for getting your favorite toy the first time\n     5 for getting Jemison to pull up after you\n     5 for opening the backpack\n     5 for getting Parry to take the toy out of the backpack\n     10 for getting your favorite toy the second time\n     5 for putting Jemison's velcro jangly balls on Zoe\n     5 for making the cabinet unsteady\n     5 for getting the tumbler on the cabinet\n     10 for getting your favorite toy the third time\n     5 for getting that evil squid costume off\n     5 for accidentally getting your toy in the playpen\n     5 for opening the playpen\n     10 for getting your favorite toy for the last time\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, see some \nsuggestions for AMUSING things to do, or QUIT?\n[Score 100, up 10]\n> ",
+      "raw_start": 111146,
+      "raw_end": 113361,
+      "response_sha256": "d96ff6f5d935d6da53836cf5fcc61eb599cc2a35b49f585d1f7a6e68a0a67da0",
+      "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-final",
+        "expected_outcome": "Grab favorite toy from stuck Zoe, possible ending",
+        "intent": "Take favorite toy back from Zoe trapped by babies and Cheerios",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "TAKE TOY final playdate conclusion, home to crib with toy; explicit You have won and final menu. 100/100 does not establish complete case coverage. Independent review pending."
+}

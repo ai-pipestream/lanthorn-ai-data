@@ -1,0 +1,26 @@
+{
+  "event_id": "detective-8419402e7b:e00106",
+  "timestamp": "2026-09-25T09:38:29.642810+00:00",
+  "game_id": "detective",
+  "session_id": "detective-8419402e7b",
+  "branch_id": "b2",
+  "event_index": 106,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 15448,
+  "raw_end": 15448,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "f6b0b9b5f4ff8890ab481b11e63ea18350b43640c88a9b8c23d6a2b269f9a040",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "detective-8419402e7b",
+    "ending_quote": "*** You have won ***",
+    "evidence_event_ids": [
+      "detective-8419402e7b:e00093",
+      "detective-8419402e7b:e00103"
+    ],
+    "notes": "Mayor-murder route complete on branch b2: north into Room 30 produced the authored arrest/promotion narrative (gun battle, conk, take in, promoted, Jurassic Park theme, instructed go up, score 300 up 100), then 'go up' produced the Info victory ending (Exile Games info + won, 300/360 in 45 turns). This is the instructed winning conclusion, not the Pool-A/Sauna deaths, a chapter transition, or quitting."
+  },
+  "review_status": "unreviewed"
+}

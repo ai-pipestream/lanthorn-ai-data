@@ -1,0 +1,9 @@
+# Not Just A Game — progress
+
+State: Oven Room. Crucible CLOSED with ingot-filled cup inside. Fuse in socket (reseated post-glass). Light OFF. Branch b0. Score 12.
+Route since last update: examine table e00230 (bare), inventory e00231 (ingot, mold, rod+gum, black cube, red ball, card, gold stone, booklet, matches(3); no gloves/cup/bat). 'examine rear' rejected e00232. 'examine lines' -> gas/electrical disambiguation e00239; 'examine electrical line' e00240 (cable enters rear, no source). Help e00241 (lines 29-37) confirms walkthrough goes PRESS GLASS straight to W W OPEN SILVER GET INGOT — no fingerprint/power step. So power should be on after fuse+glass, but light stays off.
+Cases: furnace-lines e00239/e00240 ambiguity pair (needs annotation: 'examine lines' ambiguous gas vs electrical; correction accepted). crucible-open-early e00233 success unannotated. ingot-cup annotated e00236. button-ambiguous + fuse-reseat annotations still deferred (green power never achieved; reseat did not restore power).
+IN-FLIGHT: nothing. Next: retest PRESS GREEN BUTTON in current state (fuse reseated post-glass, crucible closed with ingot); then PRESS RED BUTTON to observe; then trek to Brass Room (fingerprint/sphere) or Rocky S Work Room if still dead. Next new file inbox/m0231.json.
+Last hint (e00241 lines 29-37): PRESS GLASS -> W W OPEN SILVER GET INGOT directly. Guidance only.
+Checkpoints: start-living-room, before-safe, after-lever, after-capture, after-fuse, after-glass, before-power-debug (all confirmed). Game incomplete: furnace power, melt/pour, board-gold, cubes/crystal/spheres ahead.
+Inventory: ingot now IN CUP in closed crucible. Carried: mold, rod+gum, black cube, red ball, card, gold stone, booklet, matches(3). Fuse in socket. No flames in Hot Zone/Oven.

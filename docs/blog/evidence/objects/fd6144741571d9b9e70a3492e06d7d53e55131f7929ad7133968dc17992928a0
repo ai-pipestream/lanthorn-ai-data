@@ -1,0 +1,26 @@
+# Heist progress
+
+Location: Recently Dug Grave (coffin lid shut, plaque read).
+Inventory (observed): black canvas bag (open), silver picture frame with student's photo, plain wooden box (from man after 'answer yes', e00022, score 1). Letter read, envelope gone.
+
+Checkpoints: early-graveyard, grave-coffin (both Saved Ok at ordinary prompts).
+
+Observations (R5/990217):
+- Birth year on plaque: 1935 (randomized per notes). Dates 1935-1997.
+- Riddle: When is "a badge" not a badge? That is the question.
+- Coffin has polished brass handle, simple plaque, black ribbon tied to handle.
+- 'yes' alone -> "That was a rhetorical question." (e00015). Correct acceptance is 'answer yes' -> man gives wooden box, score 1 (e00022). Keep as future syntax/world_state pair if needed.
+- 'enter hole' blocked until man dealt with (e00017); 'd' after acceptance succeeds (e00023).
+- 'talk to man' -> not a verb (e00018); 'ask man about choice' accepted but refused: "I am not here to answer your questions." (e00021).
+
+Cases (4 annotated):
+- graveyard-look-typo (lok->look) vocab success
+- envelope-open-omitted (open->open envelope) syntax success
+- grave-enter-hole (enter hole->d) world_state success
+- plaque-read-typo (examine plaqe->examine plaque) vocab success
+
+Unresolved probes: route-talk-man (talk->ask accepted but no info; needs true repair wording like 'speak' maybe not supported – Inform uses ask/tell).
+
+Last hint: heist.sol lines 17-25 (z.z.z.z, open envelope, answer yes, d, x coffin, x plaque, get ribbon, push plaque, look in coffin...). Verified through x plaque. Next: get ribbon, push plaque, look in coffin, search corpse, x shoes, untie shoes, get cutter, close coffin, u.
+
+Next actions: get ribbon (probe synonym first e.g. 'take ribbon' vs 'get ribbon'? Actually get is canonical; probe word-order or omitted). Collect diverse probes, one command at a time. Next checkpoint only at ordinary prompt.

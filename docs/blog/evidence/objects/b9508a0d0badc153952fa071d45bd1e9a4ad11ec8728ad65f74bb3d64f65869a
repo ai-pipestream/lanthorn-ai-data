@@ -1,0 +1,9 @@
+# Ghost Train progress — DEMON MET, game incomplete
+
+Location: Back Of The Chapel with demon (e00366) — hole, burning light, Satan risen, asks who dared call.
+Inventory: lamp lit, necklace, rusty/brass/black keys, punched ticket, Parchment of Demon, Potts diary, Dartmoor sheet, deaths list (Ingrid+player 10:36pm Dec24 1935).
+Checkpoints: start; before-signalbox; signalbox-inside; after-lever-pull; underground-entrance; waiting-room; second-train-red; cab-before-stop; cemetery-halt; chapel-inside; before-church-circuit; before-demon-circuit (e00356).
+Last hint: m0310 (3x counterclockwise meets Satan) — CONFIRMED by e366 actual output.
+Resolved: circuit NE,NW,SW,SE per loop x2 full (e357-364) + loop3 NE e365, NW e366 triggered demon on third rear arrival. Gargoyle/dancer prerequisites done (e340-353).
+Unresolved: Satan dialogue/third train + demon escape + Ingrid rescue (60-turn window — checkpoint before commitment).
+Next: help on Satan/demon/third train; then single-command dialogue handling; checkpoint if ordinary prompt allows. Continuation: read latest.json (e366) + progress.md, resume at demon prompt. Pending: none; m0338 applied as e366.

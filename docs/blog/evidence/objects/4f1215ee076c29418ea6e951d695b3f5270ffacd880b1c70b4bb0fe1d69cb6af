@@ -1,0 +1,23 @@
+{
+  "game_id": "asylum",
+  "title": "Asylum",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Asylum.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/asylum-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/asylum.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Follow the compact escape route through the nested keys and tools to the breached wall and exit. The guide ends with YOU WIN; require the actual game conclusion, not the same words in a help excerpt.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/asylum.json",
+  "story_sha256_expected": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "asylum",
+  "collection_notes": "# Asylum\n\nStory Z5 R1/090721. Guide identifies the Z-code Asylum but gives no release or serial. Archive identifies cpuguy R1/090721, matching the local header and byte-identical archive story. Do not confuse with the earlier commercial Asylum games.\n\nFollow the compact escape route through the nested keys and tools to the breached wall and exit. The guide ends with YOU WIN; require the actual game conclusion, not the same words in a help excerpt.\n\nVery short guide; request only the needed local excerpt and do not cycle through it to reconstruct the whole guide. No release-specific runtime compatibility claim.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "090721",
+  "session_id": "asylum-0815a6d270",
+  "story_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+  "started_at": "2026-09-25T06:13:11.157177+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

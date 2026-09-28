@@ -1,0 +1,2852 @@
+{
+  "at": "2026-09-25T07:45:52.576565+00:00",
+  "local_workers": {
+    "delusions": [
+      4066543
+    ],
+    "zork-i7": [
+      4161206
+    ],
+    "anchorhead": [
+      4161211
+    ],
+    "curses": [
+      4161216
+    ],
+    "jigsaw": [
+      4161221
+    ],
+    "the-edifice": [
+      4161226
+    ],
+    "mansion": [
+      4161234
+    ],
+    "magic-toyshop": [
+      4161243
+    ],
+    "christminster": [
+      4161254
+    ],
+    "the-wedding": [
+      4161264
+    ]
+  },
+  "local_muse": [
+    {
+      "pid": 4066617,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/delusions",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-delusions-20260925T074126Z-GgmaS2/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161311,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/magic-toyshop",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-magic-toyshop-20260925T074405Z-cqakNJ/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161312,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/zork-i7",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-zork-i7-20260925T074405Z-4MdUgr/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161313,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/christminster",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-christminster-20260925T074405Z-tZJaqD/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161314,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/curses",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-curses-20260925T074405Z-OM0g4u/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161315,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/the-wedding",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-the-wedding-20260925T074405Z-9A8pSJ/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161316,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/anchorhead",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-anchorhead-20260925T074405Z-OvoQ1j/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161317,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/the-edifice",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-the-edifice-20260925T074405Z-Zil6dD/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161318,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/mansion",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-mansion-20260925T074405Z-rTq4DX/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    },
+    {
+      "pid": 4161319,
+      "args": [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/jigsaw",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-jigsaw-20260925T074405Z-l0RL9G/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    }
+  ],
+  "remote": {
+    "cm5ai1": [
+      {
+        "game_id": "frozen",
+        "worker": {
+          "pid": 142860,
+          "muse_pid": 142865,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/frozen-1790322246086864104",
+          "segment": 0,
+          "started_at": 1790322246.0878491,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/frozen",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/frozen-1790322246086864104/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "spiritwrak",
+        "worker": {
+          "pid": 142862,
+          "muse_pid": 142874,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/spiritwrak-1790322246098226875",
+          "segment": 0,
+          "started_at": 1790322246.09922,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/spiritwrak",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/spiritwrak-1790322246098226875/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "schooldays",
+        "worker": {
+          "pid": 142863,
+          "muse_pid": 142894,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/schooldays-1790322246113717206",
+          "segment": 0,
+          "started_at": 1790322246.114662,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/schooldays",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/schooldays-1790322246113717206/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "cm5v1": [
+      {
+        "game_id": "enemies",
+        "worker": {
+          "pid": 42773,
+          "muse_pid": 42779,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/enemies-1790322246045570172",
+          "segment": 0,
+          "started_at": 1790322246.046697,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/enemies",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/enemies-1790322246045570172/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "hunt-for-relief",
+        "worker": {
+          "pid": 42776,
+          "muse_pid": 42780,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/hunt-for-relief-1790322246049890857",
+          "segment": 0,
+          "started_at": 1790322246.0507848,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/hunt-for-relief",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/hunt-for-relief-1790322246049890857/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "danger-adventurer-at-work",
+        "worker": {
+          "pid": 42777,
+          "muse_pid": 42794,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/danger-adventurer-at-work-1790322246058941561",
+          "segment": 0,
+          "started_at": 1790322246.0601394,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/danger-adventurer-at-work",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/danger-adventurer-at-work-1790322246058941561/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "cm5v2": [
+      {
+        "game_id": "heist",
+        "worker": {
+          "pid": 75727,
+          "muse_pid": 75732,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/heist-1790322246003518500",
+          "segment": 0,
+          "started_at": 1790322246.0043235,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/heist",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/heist-1790322246003518500/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "night-at-the-computer-center",
+        "worker": {
+          "pid": 75729,
+          "muse_pid": 75737,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/night-at-the-computer-center-1790322246010239293",
+          "segment": 0,
+          "started_at": 1790322246.0121021,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/night-at-the-computer-center",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/night-at-the-computer-center-1790322246010239293/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "critical-breach",
+        "worker": {
+          "pid": 75730,
+          "muse_pid": 75753,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/critical-breach-1790322246020191389",
+          "segment": 0,
+          "started_at": 1790322246.0234463,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/critical-breach",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/critical-breach-1790322246020191389/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "krickert@cm5v3.local": [
+      {
+        "game_id": "vindaloo",
+        "worker": {
+          "pid": 72816,
+          "muse_pid": 72819,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/vindaloo-1790322246092356700",
+          "segment": 0,
+          "started_at": 1790322246.093311,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/vindaloo",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/vindaloo-1790322246092356700/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "gerbil-riot",
+        "worker": {
+          "pid": 72817,
+          "muse_pid": 72829,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790322246107913582",
+          "segment": 0,
+          "started_at": 1790322246.108672,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/gerbil-riot",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/gerbil-riot-1790322246107913582/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "i-0",
+        "worker": {
+          "pid": 72818,
+          "muse_pid": 72842,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/i-0-1790322246120811683",
+          "segment": 0,
+          "started_at": 1790322246.1216466,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/i-0",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/i-0-1790322246120811683/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "pi500p": [
+      {
+        "game_id": "beyond-the-tesseract",
+        "worker": {
+          "pid": 34993,
+          "muse_pid": 34999,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/beyond-the-tesseract-1790322246094681461",
+          "segment": 0,
+          "started_at": 1790322246.0954864,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/beyond-the-tesseract",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/beyond-the-tesseract-1790322246094681461/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "gumshoe",
+        "worker": {
+          "pid": 34994,
+          "muse_pid": 35019,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/gumshoe-1790322246112633874",
+          "segment": 0,
+          "started_at": 1790322246.1137993,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/gumshoe",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/gumshoe-1790322246112633874/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "fine-tuned",
+        "worker": {
+          "pid": 34995,
+          "muse_pid": 35003,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/fine-tuned-1790322246100561944",
+          "segment": 0,
+          "started_at": 1790322246.1017451,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/fine-tuned",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/fine-tuned-1790322246100561944/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "pi5ai1": [
+      {
+        "game_id": "return-to-karn",
+        "worker": {
+          "pid": 40801,
+          "muse_pid": 40805,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/return-to-karn-1790322246075093868",
+          "segment": 0,
+          "started_at": 1790322246.0760968,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/return-to-karn",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/return-to-karn-1790322246075093868/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "heroines-mantle",
+        "worker": {
+          "pid": 40802,
+          "muse_pid": 40814,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790322246086548966",
+          "segment": 0,
+          "started_at": 1790322246.0875332,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/heroines-mantle",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/heroines-mantle-1790322246086548966/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "kook-u",
+        "worker": {
+          "pid": 40803,
+          "muse_pid": 40828,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/kook-u-1790322246095195803",
+          "segment": 0,
+          "started_at": 1790322246.0966475,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/kook-u",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/kook-u-1790322246095195803/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "krickert@pi5ai2p.local": [
+      {
+        "game_id": "dracula-prince-of-darkness",
+        "worker": {
+          "pid": 172655,
+          "muse_pid": 172659,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790322246148518431",
+          "segment": 0,
+          "started_at": 1790322246.1510563,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/dracula-prince-of-darkness",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/dracula-prince-of-darkness-1790322246148518431/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "bse",
+        "worker": {
+          "pid": 172657,
+          "muse_pid": 172676,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/bse-1790322246198010524",
+          "segment": 0,
+          "started_at": 1790322246.2045486,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/bse",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/bse-1790322246198010524/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "bedlam",
+        "worker": {
+          "pid": 172658,
+          "muse_pid": 172695,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/bedlam-1790322246229923514",
+          "segment": 0,
+          "started_at": 1790322246.2311623,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/bedlam",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/bedlam-1790322246229923514/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ],
+    "pi5v2": [
+      {
+        "game_id": "deephome",
+        "worker": {
+          "pid": 143447,
+          "muse_pid": 143453,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/deephome-1790322246136348750",
+          "segment": 0,
+          "started_at": 1790322246.141124,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/deephome",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/deephome-1790322246136348750/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "save-princeton",
+        "worker": {
+          "pid": 143448,
+          "muse_pid": 143479,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/save-princeton-1790322246178137954",
+          "segment": 0,
+          "started_at": 1790322246.180448,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/save-princeton",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/save-princeton-1790322246178137954/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      },
+      {
+        "game_id": "ghost-train",
+        "worker": {
+          "pid": 143449,
+          "muse_pid": 143492,
+          "state": "running",
+          "run": "/home/krickert/lanthorn-muse/runs/ghost-train-1790322246191129098",
+          "segment": 0,
+          "started_at": 1790322246.1936553,
+          "alive": true,
+          "muse_alive": true
+        },
+        "args": [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/home/krickert/lanthorn-muse/play/ghost-train",
+          "--prompt-file",
+          "/home/krickert/lanthorn-muse/runs/ghost-train-1790322246191129098/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ],
+        "quota_error": false,
+        "error_tail": ""
+      }
+    ]
+  },
+  "checks": [
+    {
+      "game_id": "curses",
+      "broker_pids": [
+        907555
+      ],
+      "session_id": "curses-4e1875ea4e",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [
+        "seg14-0008.json"
+      ],
+      "fresh_input_proofs": [
+        {
+          "event_id": "curses-4e1875ea4e:e02288",
+          "command": "save",
+          "raw_start": 620230,
+          "raw_end": 621894,
+          "sha256": "c34c8faf98c03cac3f8398cfe2a94c73b6e5a735610596910cbdff705ea4f5a7"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02289",
+          "command": "seg14-cupboard-start.sav",
+          "raw_start": 621894,
+          "raw_end": 622017,
+          "sha256": "6d6b840f7bcb29bf5de2815742ff017f6c5c2b943adcf2c9f9518397c4f41014"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02290",
+          "command": "look",
+          "raw_start": 622017,
+          "raw_end": 622562,
+          "sha256": "95ff618bc461f1111462c2223f602d116f366cdc43180dda36828604da2fd3b6"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02291",
+          "command": "south",
+          "raw_start": 622562,
+          "raw_end": 622784,
+          "sha256": "58a1032d684a3029b17c7b8fc2ba90d0d6c1ef50f53329b95e6614cde4d10fa1"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02292",
+          "command": "west",
+          "raw_start": 622784,
+          "raw_end": 622939,
+          "sha256": "582c72baeeb579ee0f1926c3553a37f5f6d7ee9af03cb5fc19b8ddc0df256203"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02293",
+          "command": "northwest",
+          "raw_start": 622939,
+          "raw_end": 623145,
+          "sha256": "4e988d7a9a00480f06fdc2b7e32e637c96dcc1c680dde43e6fd58e508a63ff7c"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02294",
+          "command": "north",
+          "raw_start": 623145,
+          "raw_end": 623409,
+          "sha256": "4ea57abc0cca55e2ac6b6a0a5ad214cf268f41a1c7cc2504d0f38355117eaa9a"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02295",
+          "command": "east",
+          "raw_start": 623409,
+          "raw_end": 623646,
+          "sha256": "e3269fe7658f12ad7a5f85ec72aaebad104966707b833cd8ddfbf62cb3c38e2f"
+        },
+        {
+          "event_id": "curses-4e1875ea4e:e02296",
+          "command": "north",
+          "raw_start": 623646,
+          "raw_end": 623804,
+          "sha256": "2c3e567b8078b4a1b196a388ea3ea3f573486962f863091c9805c17ff15acb84"
+        }
+      ]
+    },
+    {
+      "game_id": "zork-i7",
+      "broker_pids": [
+        1722859
+      ],
+      "session_id": "zork-i7-05114e1aff",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "zork-i7-05114e1aff:e01792",
+          "command": "enter mirror",
+          "raw_start": 2835668,
+          "raw_end": 2835693,
+          "sha256": "aed0546da1a6685cdb6b1aac5488a5f78bbd8ace6010819852e25b3a0689b105"
+        },
+        {
+          "event_id": "zork-i7-05114e1aff:e01793",
+          "command": "look in hole",
+          "raw_start": 2835693,
+          "raw_end": 2835725,
+          "sha256": "cfa671572b0b6af2e014f211290ef8c141d826bf72a5e1e028377ac87217791a"
+        }
+      ]
+    },
+    {
+      "game_id": "jigsaw",
+      "broker_pids": [
+        2537645
+      ],
+      "session_id": "jigsaw-673cabd620",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "jigsaw-673cabd620:e01845",
+          "command": "up",
+          "raw_start": 306391,
+          "raw_end": 306418,
+          "sha256": "74eb67585c4778fd806ffc74489af2f63846fa287b9a7e6daa74251ca7e142c7"
+        }
+      ]
+    },
+    {
+      "game_id": "frozen",
+      "broker_pids": [
+        3082902
+      ],
+      "session_id": "frozen-a2e5d2eea9",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "frozen-a2e5d2eea9:e00253",
+          "command": "i",
+          "raw_start": 40330,
+          "raw_end": 40508,
+          "sha256": "8c806cd38e4654e080e5645d77277a40a90519c7713677fd0fe596a8adccc0f7"
+        }
+      ]
+    },
+    {
+      "game_id": "spiritwrak",
+      "broker_pids": [
+        3094140
+      ],
+      "session_id": "spiritwrak-8e02d83255",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "spiritwrak-8e02d83255:e00246",
+          "command": "save",
+          "raw_start": 34225,
+          "raw_end": 34644,
+          "sha256": "16eb5365c62fdfab536d346eab21d7145bf7443ba0d96c5bdf825626972f1709"
+        },
+        {
+          "event_id": "spiritwrak-8e02d83255:e00247",
+          "command": "hallway-crates.sav",
+          "raw_start": 34644,
+          "raw_end": 34765,
+          "sha256": "82f73a44d86cfd529dc84afd011bda08cecf378d8cbf9f04f075b80c860391e9"
+        },
+        {
+          "event_id": "spiritwrak-8e02d83255:e00248",
+          "command": "shove moldy crate south",
+          "raw_start": 34765,
+          "raw_end": 34798,
+          "sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43"
+        },
+        {
+          "event_id": "spiritwrak-8e02d83255:e00249",
+          "command": "push moldy crate south",
+          "raw_start": 34798,
+          "raw_end": 34988,
+          "sha256": "5b92333f40d52007fb089ff768590c56eae3e57b78970c570cdaed507e488363"
+        }
+      ]
+    },
+    {
+      "game_id": "enemies",
+      "broker_pids": [
+        3094159
+      ],
+      "session_id": "enemies-0b4aba49fe",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "enemies-0b4aba49fe:e00232",
+          "command": "look",
+          "raw_start": 45301,
+          "raw_end": 45611,
+          "sha256": "e074697efb9c061f88126d38d2319869cf0173015d2604dc814a8a65a897ef02"
+        },
+        {
+          "event_id": "enemies-0b4aba49fe:e00233",
+          "command": "examine walls",
+          "raw_start": 45611,
+          "raw_end": 45666,
+          "sha256": "35cd81af968882802eac27b42eab900bc3724906a6117552b6a5eb7edd3d8bfd"
+        },
+        {
+          "event_id": "enemies-0b4aba49fe:e00234",
+          "command": "examine artwork",
+          "raw_start": 45666,
+          "raw_end": 45721,
+          "sha256": "35cd81af968882802eac27b42eab900bc3724906a6117552b6a5eb7edd3d8bfd"
+        },
+        {
+          "event_id": "enemies-0b4aba49fe:e00235",
+          "command": "read graffiti",
+          "raw_start": 45721,
+          "raw_end": 45753,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "enemies-0b4aba49fe:e00237",
+          "command": "south",
+          "raw_start": 45753,
+          "raw_end": 46129,
+          "sha256": "d88a3cba4d1da28defb374c0010b7ee137a04b51192d3c8da31d357ae906d76a"
+        }
+      ]
+    },
+    {
+      "game_id": "heist",
+      "broker_pids": [
+        3094163
+      ],
+      "session_id": "heist-a079eba445",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "heist-a079eba445:e00238",
+          "command": "z",
+          "raw_start": 43095,
+          "raw_end": 43713,
+          "sha256": "a814d1aa283c1b5d0eadec48a1f82367215b83c036afdd8520561566d182b1ca"
+        },
+        {
+          "event_id": "heist-a079eba445:e00239",
+          "command": "z",
+          "raw_start": 43713,
+          "raw_end": 44463,
+          "sha256": "9dfdff6ffad3d92f55dd96143593fe9a1a4f2fc7f59ccd56c9a0b5ea95e2dfee"
+        },
+        {
+          "event_id": "heist-a079eba445:e00240",
+          "command": "get up",
+          "raw_start": 44463,
+          "raw_end": 44569,
+          "sha256": "26af6788691662db686779348fcdf453736d9258a5a85986f238498cf1d02f33"
+        },
+        {
+          "event_id": "heist-a079eba445:e00241",
+          "command": "open door",
+          "raw_start": 44569,
+          "raw_end": 44692,
+          "sha256": "cc704803d4d546bdebf38b1983650df0df5e104800936ffafb689004ee2ba394"
+        },
+        {
+          "event_id": "heist-a079eba445:e00242",
+          "command": "w",
+          "raw_start": 44692,
+          "raw_end": 44816,
+          "sha256": "1e51cb17e742bdd4e1579154ad9f6fe3c884beb530826445eed77a513d0dc7a7"
+        }
+      ]
+    },
+    {
+      "game_id": "night-at-the-computer-center",
+      "broker_pids": [
+        3094171
+      ],
+      "session_id": "night-at-the-computer-center-d16c3b6cd5",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "night-at-the-computer-center-d16c3b6cd5:e00250",
+          "command": "s",
+          "raw_start": 42027,
+          "raw_end": 42234,
+          "sha256": "5fc434bcee48965bc03987f05f857305d39d2740138644144e9cf6e6b3e51273"
+        },
+        {
+          "event_id": "night-at-the-computer-center-d16c3b6cd5:e00251",
+          "command": "w",
+          "raw_start": 42234,
+          "raw_end": 42435,
+          "sha256": "fba7720ef9ae3aadf9bbe1540ded8599ab087c4437653c6eaac17c6d21239582"
+        },
+        {
+          "event_id": "night-at-the-computer-center-d16c3b6cd5:e00252",
+          "command": "u",
+          "raw_start": 42435,
+          "raw_end": 42637,
+          "sha256": "15db17024d2ae2f00ce17da3127d9a907518a278fafc15f75695e473083e2ecb"
+        },
+        {
+          "event_id": "night-at-the-computer-center-d16c3b6cd5:e00253",
+          "command": "u",
+          "raw_start": 42637,
+          "raw_end": 42926,
+          "sha256": "833bcf719bd0626698dcbecc825c5ca26bcde84ee21faca586a07789a877d65d"
+        }
+      ]
+    },
+    {
+      "game_id": "vindaloo",
+      "broker_pids": [
+        3094175
+      ],
+      "session_id": "vindaloo-85744e25ee",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "vindaloo-85744e25ee:e00224",
+          "command": "look",
+          "raw_start": 12202,
+          "raw_end": 12270,
+          "sha256": "a70c829c7e087e3e68e264b49feace92290567cf8376a6669c4b4696bd662ece"
+        },
+        {
+          "event_id": "vindaloo-85744e25ee:e00225",
+          "command": "examine bricks",
+          "raw_start": 12270,
+          "raw_end": 12317,
+          "sha256": "2b8970617c0fff2328d689c231c696151d8b300cd5e6ec78f49f98b513a1006a"
+        },
+        {
+          "event_id": "vindaloo-85744e25ee:e00226",
+          "command": "search bricks",
+          "raw_start": 12317,
+          "raw_end": 12398,
+          "sha256": "c8505d24eb0c6be797fa713a756cc6674a73431f6a1f84268f2d800aced8ffc7"
+        }
+      ]
+    },
+    {
+      "game_id": "gerbil-riot",
+      "broker_pids": [
+        3094179
+      ],
+      "session_id": "gerbil-riot-f0779de162",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "gerbil-riot-f0779de162:e00240",
+          "command": "save",
+          "raw_start": 25500,
+          "raw_end": 25681,
+          "sha256": "55a398bb779dd23b2db5c06aafdfafa17deb97f57de83db946cf42d134b3284f"
+        },
+        {
+          "event_id": "gerbil-riot-f0779de162:e00241",
+          "command": "psychiatrist-room.sav",
+          "raw_start": 25681,
+          "raw_end": 25829,
+          "sha256": "62a25ed81ef942f55e64b3f31351f24ba80c3b74de5d2ecafed5132343e79ad8"
+        },
+        {
+          "event_id": "gerbil-riot-f0779de162:e00242",
+          "command": "south",
+          "raw_start": 25829,
+          "raw_end": 25950,
+          "sha256": "c97ddc582c7b034435e0eb59f4557aa782044e2e674de9fb2dc06197ed90e93d"
+        },
+        {
+          "event_id": "gerbil-riot-f0779de162:e00243",
+          "command": "east",
+          "raw_start": 25950,
+          "raw_end": 26120,
+          "sha256": "f50eda8cb5ef5b737fc9d43341a83c4df907a45548003ca6c6bbd65e620dec34"
+        },
+        {
+          "event_id": "gerbil-riot-f0779de162:e00244",
+          "command": "east",
+          "raw_start": 26120,
+          "raw_end": 26264,
+          "sha256": "383983503762c57ee9a3185f9b029a35dacf753c7d2a45ef76201c19368328a6"
+        }
+      ]
+    },
+    {
+      "game_id": "i-0",
+      "broker_pids": [
+        3094187
+      ],
+      "session_id": "i-0-d1ac7729bb",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": []
+    },
+    {
+      "game_id": "beyond-the-tesseract",
+      "broker_pids": [
+        3094233
+      ],
+      "session_id": "beyond-the-tesseract-26b2abc71c",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "beyond-the-tesseract-26b2abc71c:e00213",
+          "command": "east",
+          "raw_start": 16746,
+          "raw_end": 16830,
+          "sha256": "61666447c87352ad129dbd3158ec69f1a3056ef353a483d92f22b635c1f8ceb0"
+        },
+        {
+          "event_id": "beyond-the-tesseract-26b2abc71c:e00214",
+          "command": "push stack",
+          "raw_start": 16830,
+          "raw_end": 16918,
+          "sha256": "4ce92f99663d11ebdb63cce71d1a4d387a8c10390bdd973f2e55a07402c6ab48"
+        },
+        {
+          "event_id": "beyond-the-tesseract-26b2abc71c:e00215",
+          "command": "east",
+          "raw_start": 16918,
+          "raw_end": 17029,
+          "sha256": "ccb8b352c18bf3e705276bf87e3e815c94205b3239419f5de638b6c947772258"
+        },
+        {
+          "event_id": "beyond-the-tesseract-26b2abc71c:e00216",
+          "command": "east",
+          "raw_start": 17029,
+          "raw_end": 17111,
+          "sha256": "29cf1673da51f71a78ce3b8633a049ebb233e48ad0ab26debc8f04bd16677c06"
+        },
+        {
+          "event_id": "beyond-the-tesseract-26b2abc71c:e00217",
+          "command": "take singularty",
+          "raw_start": 17111,
+          "raw_end": 17143,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "beyond-the-tesseract-26b2abc71c:e00218",
+          "command": "take singularity",
+          "raw_start": 17143,
+          "raw_end": 17152,
+          "sha256": "5fdb98a9184d754344ad71e62532905767ff0e49e760ffa8ea289dcda3947f86"
+        }
+      ]
+    },
+    {
+      "game_id": "return-to-karn",
+      "broker_pids": [
+        3094239
+      ],
+      "session_id": "return-to-karn-bf86b7da19",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00225",
+          "command": "look",
+          "raw_start": 25804,
+          "raw_end": 26057,
+          "sha256": "6233e631f733244d7d22031b77bbddc3e42f3cb4dab6fe73feefdd8e039eef77"
+        },
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00226",
+          "command": "west",
+          "raw_start": 26057,
+          "raw_end": 26123,
+          "sha256": "9f6a213a61d0cc7d21700108797afbb9475ac96728d310c1cf2c000277d04929"
+        },
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00227",
+          "command": "look",
+          "raw_start": 26123,
+          "raw_end": 26471,
+          "sha256": "69088408435c6575cf139ab868aba91543403c6387e95dcb9eeb1668c22584c5"
+        },
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00228",
+          "command": "save",
+          "raw_start": 26471,
+          "raw_end": 26747,
+          "sha256": "f268d0dbd2ddb518209360f281607b9fb2d979e5099ea8fc4c40ea7d7a3fe1d8"
+        },
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00229",
+          "command": "console-hum-b1.sav",
+          "raw_start": 26747,
+          "raw_end": 26870,
+          "sha256": "3d865576f090725f4c83e2f1b5e0269f1f8ba896db1b354418d0b76a84bdfb7c"
+        },
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00230",
+          "command": "examine console",
+          "raw_start": 26870,
+          "raw_end": 27227,
+          "sha256": "b9640f7aca21a9343eb07d280f2888ad6612e9b17a050b49521766acf25f6f40"
+        },
+        {
+          "event_id": "return-to-karn-bf86b7da19:e00231",
+          "command": "inventory",
+          "raw_start": 27227,
+          "raw_end": 27478,
+          "sha256": "e28e695484fcbeec562d79cc4b07ae8f8a3c9d9bf2f68e869e724b8c3dde52d0"
+        }
+      ]
+    },
+    {
+      "game_id": "heroines-mantle",
+      "broker_pids": [
+        3094243
+      ],
+      "session_id": "heroines-mantle-4053f4fad7",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "heroines-mantle-4053f4fad7:e00237",
+          "command": "save",
+          "raw_start": 52205,
+          "raw_end": 52480,
+          "sha256": "312552207a3968294c66ea01fb78a607b1e6cca84c07bb60401331008aab3067"
+        },
+        {
+          "event_id": "heroines-mantle-4053f4fad7:e00238",
+          "command": "roof-hatch-open.sav",
+          "raw_start": 52480,
+          "raw_end": 52608,
+          "sha256": "fcdba5e045006660a90e4859da4e2a58cafbf78bc4e3714d3ad1a87aa410caa4"
+        },
+        {
+          "event_id": "heroines-mantle-4053f4fad7:e00239",
+          "command": "go southeast",
+          "raw_start": 52608,
+          "raw_end": 53160,
+          "sha256": "677512c39db33004776265472d57d00de6b78d3bf0f36a66d651eaa297183784"
+        },
+        {
+          "event_id": "heroines-mantle-4053f4fad7:e00241",
+          "command": "x flag",
+          "raw_start": 53160,
+          "raw_end": 53542,
+          "sha256": "2ed2bb5fdc4e7dd685e2958e5e690e5390f4ad70936b5f6cdfce768488e02b76"
+        }
+      ]
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "broker_pids": [
+        3094264
+      ],
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "dracula-prince-of-darkness-d75c304699:e00232",
+          "command": "take staw",
+          "raw_start": 37579,
+          "raw_end": 37611,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "dracula-prince-of-darkness-d75c304699:e00233",
+          "command": "take straw",
+          "raw_start": 37611,
+          "raw_end": 37646,
+          "sha256": "ed2810f9ed4b0894db8f94d147166e77fbfe232be262a97b5b1d38286fd4438b"
+        },
+        {
+          "event_id": "dracula-prince-of-darkness-d75c304699:e00236",
+          "command": "burn straw",
+          "raw_start": 37646,
+          "raw_end": 37653,
+          "sha256": "a778fb97ef60ed429fe390bb0315fa257122bd4db75275c7255987f8258522af"
+        }
+      ]
+    },
+    {
+      "game_id": "deephome",
+      "broker_pids": [
+        3094404
+      ],
+      "session_id": "deephome-56e3d50bda",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "deephome-56e3d50bda:e00273",
+          "command": "save",
+          "raw_start": 37132,
+          "raw_end": 37480,
+          "sha256": "7953f039a0268d28b1c996b6711c38a53b953bca81bc77f619ceb041f802f639"
+        },
+        {
+          "event_id": "deephome-56e3d50bda:e00274",
+          "command": "ember-toolshop.sav",
+          "raw_start": 37480,
+          "raw_end": 37601,
+          "sha256": "389d51409003397ddca3080a1ca16857d04779798cf5fc9a14cdb838b902c049"
+        },
+        {
+          "event_id": "deephome-56e3d50bda:e00275",
+          "command": "ask man eranti",
+          "raw_start": 37601,
+          "raw_end": 37826,
+          "sha256": "b1e9c89c31f3f98810292faa44edb478065446090e76a7024772a9d6b5da892b"
+        }
+      ]
+    },
+    {
+      "game_id": "save-princeton",
+      "broker_pids": [
+        3094443
+      ],
+      "session_id": "save-princeton-e0a2654e41",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "save-princeton-e0a2654e41:e00221",
+          "command": "open oven",
+          "raw_start": 36637,
+          "raw_end": 36682,
+          "sha256": "24b57979832f9c6d69814fcdf9f34373290ba1e1469f263b8bc0be2cb9230956"
+        },
+        {
+          "event_id": "save-princeton-e0a2654e41:e00222",
+          "command": "take tray",
+          "raw_start": 36682,
+          "raw_end": 36760,
+          "sha256": "1f05e621bdc870cbc2a9a6ccd58cbe5080a7fba1ed5b6d28fb055a62bf4d7397"
+        },
+        {
+          "event_id": "save-princeton-e0a2654e41:e00223",
+          "command": "eat cookie",
+          "raw_start": 36760,
+          "raw_end": 36939,
+          "sha256": "cd0953c6e93a8c6799ce4849d613eaf7f7e457fee52aadb071d6557ebabb3723"
+        },
+        {
+          "event_id": "save-princeton-e0a2654e41:e00224",
+          "command": "inventory",
+          "raw_start": 36939,
+          "raw_end": 37645,
+          "sha256": "97a4ea40b527d78dab67d5377e774b3e66d42a051b98192cf2b320afcafa459b"
+        }
+      ]
+    },
+    {
+      "game_id": "the-edifice",
+      "broker_pids": [
+        3111264
+      ],
+      "session_id": "the-edifice-79519f86df",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "the-edifice-79519f86df:e00588",
+          "command": "inventory",
+          "raw_start": 120491,
+          "raw_end": 120623,
+          "sha256": "4f6bc1e7a928db0759f4dbcc6f5f885b3ec455a975247fd5436cd6b5fc94f2dd"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00589",
+          "command": "northeast",
+          "raw_start": 120623,
+          "raw_end": 121052,
+          "sha256": "fcb827aabd5cc1040aba822c33796b70d23469e7092498c5b6390bae02c0a1c0"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00590",
+          "command": "north",
+          "raw_start": 121052,
+          "raw_end": 121390,
+          "sha256": "5e356f03733a75f7852b943e66ab5ec86de8dd03c857dc747998e9efd0539740"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00591",
+          "command": "pick fruit",
+          "raw_start": 121390,
+          "raw_end": 121506,
+          "sha256": "bcba5c65b9e9acf6d69c88e1d717bb087b6d562da32bc7b9df5d815968677b9a"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00593",
+          "command": "south",
+          "raw_start": 121506,
+          "raw_end": 121999,
+          "sha256": "fd56c5df9d3ccb29464121546fe12ae6cdfda81f5000a444a03fad211091442c"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00594",
+          "command": "drop spear",
+          "raw_start": 121999,
+          "raw_end": 122010,
+          "sha256": "8982b95f89a5b1e84a5fb3a2d374081d816326fb7398782d4c541f04680821c3"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00595",
+          "command": "offer fruit to horse",
+          "raw_start": 122010,
+          "raw_end": 122208,
+          "sha256": "694efa117ffa99d83faa65451c02394f9f873a023793678220c3b3f37d49f018"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00596",
+          "command": "pet horse",
+          "raw_start": 122208,
+          "raw_end": 122290,
+          "sha256": "e97e03646e18fdc41106c1049ca54073efd33ca7dabd0c3aeb7f8ca277ea8d54"
+        },
+        {
+          "event_id": "the-edifice-79519f86df:e00597",
+          "command": "take spear",
+          "raw_start": 122290,
+          "raw_end": 122329,
+          "sha256": "f03661fc04dc429b47828aaa116c141cddc98f3b5fc2af88e9959600c7161eb2"
+        }
+      ]
+    },
+    {
+      "game_id": "kook-u",
+      "broker_pids": [
+        3164868
+      ],
+      "session_id": "kook-u-ef2767bf50",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "kook-u-ef2767bf50:e00165",
+          "command": "ne",
+          "raw_start": 29646,
+          "raw_end": 29864,
+          "sha256": "f6d1a902acfa35d9f1e425f4b4b3dd0ecfda9a12804439ccc839c414911bfbbb"
+        },
+        {
+          "event_id": "kook-u-ef2767bf50:e00166",
+          "command": "n",
+          "raw_start": 29864,
+          "raw_end": 30049,
+          "sha256": "05df528ccab78ef06ca3585a6f9fa7e855496f3282a8e6dccbd055325d25df04"
+        },
+        {
+          "event_id": "kook-u-ef2767bf50:e00167",
+          "command": "e",
+          "raw_start": 30049,
+          "raw_end": 30275,
+          "sha256": "63956a9fb44b038339d3cc9d2ecf9be3095d686fe7f35ad33df74997da3f03a1"
+        },
+        {
+          "event_id": "kook-u-ef2767bf50:e00168",
+          "command": "e",
+          "raw_start": 30275,
+          "raw_end": 30397,
+          "sha256": "4976c1eb452eb8d5c95701254bae8d62ba3d0ae955b37c43f906ef7a212657c1"
+        }
+      ]
+    },
+    {
+      "game_id": "hunt-for-relief",
+      "broker_pids": [
+        3167532
+      ],
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "hunt-for-relief-b4de5c739d:e00149",
+          "command": "open bathroom",
+          "raw_start": 20477,
+          "raw_end": 20502,
+          "sha256": "54f867d57c9077d16c4cf89a5b790b8aa9e5ff07733414a7f4348b90e78e23ff"
+        },
+        {
+          "event_id": "hunt-for-relief-b4de5c739d:e00150",
+          "command": "unlock bathroom",
+          "raw_start": 20502,
+          "raw_end": 20555,
+          "sha256": "981b4bd644b538080b7b56812698dc158b6821f06fab16a8a0a286b7a1bcffa6"
+        },
+        {
+          "event_id": "hunt-for-relief-b4de5c739d:e00151",
+          "command": "unlock bathroom with key",
+          "raw_start": 20555,
+          "raw_end": 20646,
+          "sha256": "a12636d0122167f49f373ce7cf5a812ea24d351bcc8f1246574f834d5a14b7cb"
+        },
+        {
+          "event_id": "hunt-for-relief-b4de5c739d:e00153",
+          "command": "open bathroom",
+          "raw_start": 20646,
+          "raw_end": 20676,
+          "sha256": "a5e5a9b59087e87d10df139ecc0b6b4f32d9105767837b1cb0accfc8c5e1d6e1"
+        }
+      ]
+    },
+    {
+      "game_id": "mansion",
+      "broker_pids": [
+        3277099
+      ],
+      "session_id": "mansion-cc50b3ae7d",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "mansion-cc50b3ae7d:e00393",
+          "command": "save",
+          "raw_start": 50392,
+          "raw_end": 50627,
+          "sha256": "a13824f851b54ab8f5847cebf469494e29223d35cce283780ab9083c510aa8f2"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00394",
+          "command": "shed-compost.sav",
+          "raw_start": 50627,
+          "raw_end": 50744,
+          "sha256": "bbb0065faeb1826184d0db01d5c6352a7cf6d3ca8ab96bd02637143c42f8149b"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00395",
+          "command": "search compost heap",
+          "raw_start": 50744,
+          "raw_end": 50982,
+          "sha256": "672bb7f1d74b4c5443154fb644e017eafba527af43863d792b5502254b351702"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00396",
+          "command": "get spinch",
+          "raw_start": 50982,
+          "raw_end": 51014,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00397",
+          "command": "get spinach",
+          "raw_start": 51014,
+          "raw_end": 51040,
+          "sha256": "599ba5ec74eef7cd533142b972320d98d76aa0944db893ae0695790b43f1044c"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00398",
+          "command": "inventory",
+          "raw_start": 51040,
+          "raw_end": 51434,
+          "sha256": "4be284969fc39bc69e904e89fb2ad685c17aab24344fa87064ab18295fb71176"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00400",
+          "command": "search compost heap",
+          "raw_start": 51434,
+          "raw_end": 51494,
+          "sha256": "9248348d90815cac4d690a7196018596d14bb7ce927fe5663c8e0b0cf3a85076"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00401",
+          "command": "west",
+          "raw_start": 51494,
+          "raw_end": 51560,
+          "sha256": "54bcf6e742f295ac8a318e4f25f069183a5f1b29833455843b108317664a9b71"
+        },
+        {
+          "event_id": "mansion-cc50b3ae7d:e00402",
+          "command": "look",
+          "raw_start": 51560,
+          "raw_end": 51907,
+          "sha256": "d0641e83f3c1c597bde05b9a16234a71ac018d52a1e94fbcd1a279e861eb5e4b"
+        }
+      ]
+    },
+    {
+      "game_id": "bse",
+      "broker_pids": [
+        3315035
+      ],
+      "session_id": "bse-ec63f1779d",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "bse-ec63f1779d:e00106",
+          "command": "n",
+          "raw_start": 14700,
+          "raw_end": 15342,
+          "sha256": "a8e7bae29d8b14ded683f382106048839ce99e88c4d50b135f79aff31d9ecec3"
+        },
+        {
+          "event_id": "bse-ec63f1779d:e00109",
+          "command": "talk to tom",
+          "raw_start": 15342,
+          "raw_end": 15375,
+          "sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43"
+        },
+        {
+          "event_id": "bse-ec63f1779d:e00110",
+          "command": "ask tom about cows",
+          "raw_start": 15375,
+          "raw_end": 15676,
+          "sha256": "5911dafa25142cd22dabbf50ed3108d4a14a7a7da6f50d163a4f26018c8ba2ea"
+        }
+      ]
+    },
+    {
+      "game_id": "delusions",
+      "broker_pids": [
+        3320074
+      ],
+      "session_id": "delusions-8997f25a87",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "delusions-8997f25a87:e00239",
+          "command": "s",
+          "raw_start": 130223,
+          "raw_end": 130235,
+          "sha256": "43c848bfbdf659416685f9b359c2a4406001e3a66c958390c6b37d21bdc6fcde"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00240",
+          "command": "x rectangle",
+          "raw_start": 130235,
+          "raw_end": 130501,
+          "sha256": "5df9d82eaae73172260738c485bc1a0b5490271c95ee1b7b3564cfe505671296"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00241",
+          "command": "x me",
+          "raw_start": 130501,
+          "raw_end": 130544,
+          "sha256": "47bdc3892f5ed6894f217afe17b2530d6a28a83d75e1c18b42fd34a4bfd4de75"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00242",
+          "command": "time",
+          "raw_start": 130544,
+          "raw_end": 130588,
+          "sha256": "03ae2010f2dfd6a1fd3ea9ffa83f6b0c48b61d8c243a23012994d1b607c4a40e"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00243",
+          "command": "n",
+          "raw_start": 130588,
+          "raw_end": 130662,
+          "sha256": "48e28f99e48d3109ba588a54feb57807ad866a4757681a7a0236d8cc2a375907"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00244",
+          "command": "e",
+          "raw_start": 130662,
+          "raw_end": 130936,
+          "sha256": "04a4efde9802e8713c03b97d4d5d1ee56ff0c0a83df9c36ffe6510d4b2a63ed5"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00245",
+          "command": "nw",
+          "raw_start": 130936,
+          "raw_end": 131054,
+          "sha256": "3f2eeb8e720d478bd5527da6467778fd288d019c556f2b8ae3e6ed15b2010727"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00246",
+          "command": "ask cynthia about sleep",
+          "raw_start": 131054,
+          "raw_end": 131098,
+          "sha256": "6f2577340312d5911e5608fdb47d40e81e9a1ff0b6025d0fe9f6bad29a681dc4"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00247",
+          "command": "se",
+          "raw_start": 131098,
+          "raw_end": 131372,
+          "sha256": "04a4efde9802e8713c03b97d4d5d1ee56ff0c0a83df9c36ffe6510d4b2a63ed5"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00248",
+          "command": "enter sphere",
+          "raw_start": 131372,
+          "raw_end": 132793,
+          "sha256": "16807f4100c8c9a6edcf5f6ee3c6b3c5c2be320ff4ecf0dc871b0f8c1a564e78"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00249",
+          "command": "e",
+          "raw_start": 132793,
+          "raw_end": 133373,
+          "sha256": "86d8418b90081c283089355fb6067385d6c7e260352c44c707bab57368013a2d"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00250",
+          "command": "e",
+          "raw_start": 133373,
+          "raw_end": 134029,
+          "sha256": "b7ca277b7b6607274fd3118ae2fa4ed40537c38159ee37e5e789dce8e514555f"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00251",
+          "command": "w",
+          "raw_start": 134029,
+          "raw_end": 134090,
+          "sha256": "a654d0cd3859dd4dc42ed82120ab55a92bf30caeec1030e4813600e24a622d62"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00252",
+          "command": "d",
+          "raw_start": 134090,
+          "raw_end": 134734,
+          "sha256": "10132710fe65250104ff5491ff86e9df99bf8e430aaad839dc93bb475a1d616e"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00253",
+          "command": "u",
+          "raw_start": 134734,
+          "raw_end": 134851,
+          "sha256": "0d08bb969781587357c17327cd68ec2b01684483f705526a4696c3eee64d9fa6"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00254",
+          "command": "w",
+          "raw_start": 134851,
+          "raw_end": 134970,
+          "sha256": "a1c4e70ac50afaf006428e0b7dec66867058d363f37b7060effed0f8a04981fe"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00255",
+          "command": "w",
+          "raw_start": 134970,
+          "raw_end": 135441,
+          "sha256": "eadfd51bea5fd7862550151e426c89cba94f9c86e03f3f62b3dbc14cf07cf7bc"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00256",
+          "command": "w",
+          "raw_start": 135441,
+          "raw_end": 136038,
+          "sha256": "dce67c561b50a9d9e0ab6a1dc0ec9b1846441d5ae03ffcfcec87a9ef0f993c0c"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00257",
+          "command": "e",
+          "raw_start": 136038,
+          "raw_end": 136223,
+          "sha256": "b79221c461429dea527c073c0719060fa445403d89891bf0716808ea55a9e861"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00258",
+          "command": "swallow gravel",
+          "raw_start": 136223,
+          "raw_end": 136266,
+          "sha256": "91c2bcd9b229a8e2d1260d9288ab115c012c9f46fa5088397e21d80852d488ba"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00259",
+          "command": "e",
+          "raw_start": 136266,
+          "raw_end": 136384,
+          "sha256": "3711eae4ae51f03817fb257f7e8678e143853d8e2fde7ed889655562df87ca88"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00260",
+          "command": "e",
+          "raw_start": 136384,
+          "raw_end": 136492,
+          "sha256": "d2ba96c9013edaed8919335eacb68448efe8b92a03a9d34407916453551f9baa"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00261",
+          "command": "d",
+          "raw_start": 136492,
+          "raw_end": 136553,
+          "sha256": "d75f13c34764934c104c4d7c52f32f7bd7f0e8a05f83d5ea49fdfe63fb8fd377"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00262",
+          "command": "drop gravel in right hole",
+          "raw_start": 136553,
+          "raw_end": 136693,
+          "sha256": "90ec2265113d5de34eb8667a4884033eae18ab6b8f769140cca7d7423d3ac7d7"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00263",
+          "command": "enter left hole",
+          "raw_start": 136693,
+          "raw_end": 138899,
+          "sha256": "2d41f907fe7c0bd6be64c0936d39915d29c2d63a416133d6690d78edd46252fd"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00264",
+          "command": "time",
+          "raw_start": 138899,
+          "raw_end": 138943,
+          "sha256": "a7ff83075d19b77136b34b6d3e9c32b4e2d9bb1a81576e970d791d08b3aa6082"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00265",
+          "command": "i",
+          "raw_start": 138943,
+          "raw_end": 139123,
+          "sha256": "67a8f389b079f36813c0c5a4b46905ed2fb0f109820004934f18007e49342fd0"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00266",
+          "command": "look",
+          "raw_start": 139123,
+          "raw_end": 139673,
+          "sha256": "5a23cc2981866bd247949285a04f82364daca2cb9a1d54d407216d43446e4cf0"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00267",
+          "command": "inject insulin",
+          "raw_start": 139673,
+          "raw_end": 139698,
+          "sha256": "e7154d5ada78103417b1d8c3b1ef66766b8210892344ff44f2223ad5f2e60b72"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00268",
+          "command": "s",
+          "raw_start": 139698,
+          "raw_end": 139795,
+          "sha256": "a26924c11222574d538834088f47e53deb9395cdcf85523cf43930aceda9a8d7"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00269",
+          "command": "lie on gurney",
+          "raw_start": 139795,
+          "raw_end": 139825,
+          "sha256": "b3e3c6de37963bc1252e938d091596646442cb83a99c2e925af6f4e0d4d967d4"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00270",
+          "command": "sleep",
+          "raw_start": 139825,
+          "raw_end": 139856,
+          "sha256": "770b9a44971fc3430cb3520635ba5a647e5aea4a9d1f05e7a2db5ab983a2fc5d"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00271",
+          "command": "save",
+          "raw_start": 139856,
+          "raw_end": 140259,
+          "sha256": "226c19f10e3fbc94435b559227a5ffc1b61d28b9c4933d058eaa29eec675f273"
+        },
+        {
+          "event_id": "delusions-8997f25a87:e00272",
+          "command": "postrun3-7302.sav",
+          "raw_start": 140259,
+          "raw_end": 140379,
+          "sha256": "b0972ee6ae5dbc10a7930a9b50b68ee56a32cb9115054e45e72e187c192f8718"
+        }
+      ]
+    },
+    {
+      "game_id": "bedlam",
+      "broker_pids": [
+        3323681
+      ],
+      "session_id": "bedlam-59f5a6e860",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "bedlam-59f5a6e860:e00090",
+          "command": "look",
+          "raw_start": 11054,
+          "raw_end": 11334,
+          "sha256": "4183588ac27672a8c69e1c5227050f034351f2c420e76cfd0081f0e4ae51905f"
+        },
+        {
+          "event_id": "bedlam-59f5a6e860:e00091",
+          "command": "open dresser",
+          "raw_start": 11334,
+          "raw_end": 11354,
+          "sha256": "c2e26e06b7b573c8bd8f200e2e11d95b54a47b20e9616ad9b4e6a2e9b85a633e"
+        },
+        {
+          "event_id": "bedlam-59f5a6e860:e00092",
+          "command": "pry drawer with screwdriver",
+          "raw_start": 11354,
+          "raw_end": 11663,
+          "sha256": "ede57ecd2f6ac23024063b988e99e7c294084e7c56aaf468cb6461d5a9182074"
+        },
+        {
+          "event_id": "bedlam-59f5a6e860:e00093",
+          "command": "hit dresser",
+          "raw_start": 11663,
+          "raw_end": 11704,
+          "sha256": "6881895848524afdfc4b78716978d4d2aa36ad08becf80d26fdde1a4f2756f5e"
+        },
+        {
+          "event_id": "bedlam-59f5a6e860:e00094",
+          "command": "hit dresser with axe",
+          "raw_start": 11704,
+          "raw_end": 12049,
+          "sha256": "754c050713e53cc4d97083a08cbb8e27f6a05994fc01f0ccfd09029ecaac4f09"
+        }
+      ]
+    },
+    {
+      "game_id": "critical-breach",
+      "broker_pids": [
+        3324847
+      ],
+      "session_id": "critical-breach-b5dd49a3e4",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "critical-breach-b5dd49a3e4:e00107",
+          "command": "restore",
+          "raw_start": 12074,
+          "raw_end": 12188,
+          "sha256": "e961b4ba25986bbed48310789fccf0300452287e77c95838f2321f74ddd0626a"
+        },
+        {
+          "event_id": "critical-breach-b5dd49a3e4:e00108",
+          "command": "b2-ready-sedate.sav",
+          "raw_start": 12188,
+          "raw_end": 12194,
+          "sha256": "29be7f0b33a8ea442b927f5c87e35b3ee2227828ad0981670e84a2b79b7630c0"
+        },
+        {
+          "event_id": "critical-breach-b5dd49a3e4:e00109",
+          "command": "select 1",
+          "raw_start": 12194,
+          "raw_end": 12583,
+          "sha256": "ef8052a9cc302de53c3885e461ede4e41aad96709247fa6b781204deeef28fee"
+        }
+      ]
+    },
+    {
+      "game_id": "danger-adventurer-at-work",
+      "broker_pids": [
+        3325194
+      ],
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "danger-adventurer-at-work-cf41e07892:e00108",
+          "command": "look at lady",
+          "raw_start": 13278,
+          "raw_end": 13417,
+          "sha256": "b9c7ca18852b0cc95dfd240f7cba9f9d4802ea9aad0e96e4e8a526079b2f74d6"
+        },
+        {
+          "event_id": "danger-adventurer-at-work-cf41e07892:e00110",
+          "command": "eat kippper",
+          "raw_start": 13417,
+          "raw_end": 13536,
+          "sha256": "a072cc4ec96861210ddafe069e2c9ed990494343841f73ff5a5d7fdc5e92fa75"
+        },
+        {
+          "event_id": "danger-adventurer-at-work-cf41e07892:e00111",
+          "command": "eat kipper",
+          "raw_start": 13536,
+          "raw_end": 13637,
+          "sha256": "9407d5bf6f3c81bfb338035a33db38b1da915b699b6b3fc3de04da6b492fbfe0"
+        }
+      ]
+    },
+    {
+      "game_id": "gumshoe",
+      "broker_pids": [
+        3329939
+      ],
+      "session_id": "gumshoe-2933d54ccf",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "gumshoe-2933d54ccf:e00088",
+          "command": "look",
+          "raw_start": 10203,
+          "raw_end": 10711,
+          "sha256": "aed0ad47360a98ca99698cd0ed98f3039e3d4d3d8be39bc36e5fa06cb0c3f037"
+        },
+        {
+          "event_id": "gumshoe-2933d54ccf:e00089",
+          "command": "open office door",
+          "raw_start": 10711,
+          "raw_end": 10739,
+          "sha256": "001d985711e5162a0f62bd504a8f71ba09e584b2c4df691e731cbd43ed217189"
+        }
+      ]
+    },
+    {
+      "game_id": "fine-tuned",
+      "broker_pids": [
+        3395975
+      ],
+      "session_id": "fine-tuned-989503b0a7",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "fine-tuned-989503b0a7:e00103",
+          "command": "save",
+          "raw_start": 17784,
+          "raw_end": 17913,
+          "sha256": "a013de6dcbf6eeadf8851bbdac588542ea4de2cc8b686b6ad65ab0c54e411040"
+        },
+        {
+          "event_id": "fine-tuned-989503b0a7:e00104",
+          "command": "lane-bucket.sav",
+          "raw_start": 17913,
+          "raw_end": 18033,
+          "sha256": "3592f5239abc43df242302980a07a9d1acff28a9fd0bb86ab2929f0c9f1e8079"
+        },
+        {
+          "event_id": "fine-tuned-989503b0a7:e00105",
+          "command": "examine bucket",
+          "raw_start": 18033,
+          "raw_end": 18172,
+          "sha256": "1748ac1b742d93ca67068711a6e79ed71882c52e5930f9a451e46377d3f984dd"
+        },
+        {
+          "event_id": "fine-tuned-989503b0a7:e00106",
+          "command": "drive north",
+          "raw_start": 18172,
+          "raw_end": 18508,
+          "sha256": "31de9851fa5e7cf1ea82a4e35a1975d08639aee97995225c17708cd234999798"
+        }
+      ]
+    },
+    {
+      "game_id": "magic-toyshop",
+      "broker_pids": [
+        3539034
+      ],
+      "session_id": "magic-toyshop-9a53f3ebb2",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00165",
+          "command": "move up",
+          "raw_start": 20483,
+          "raw_end": 20504,
+          "sha256": "f5f1f449284f39cb55549282eee87891d256b34ff6bdd7dd7a2287546a8f2514"
+        },
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00166",
+          "command": "move a up",
+          "raw_start": 20504,
+          "raw_end": 20627,
+          "sha256": "c3e57771806d00d79adecc41e27661b1563c30bac157b6ea65d968b3e34a2e3b"
+        },
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00168",
+          "command": "move b up",
+          "raw_start": 20627,
+          "raw_end": 20750,
+          "sha256": "0e907784b310902d88ebd7f84e7b1bdbfbab788fcd1706a9348f354b04e660e0"
+        },
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00169",
+          "command": "move a up",
+          "raw_start": 20750,
+          "raw_end": 20873,
+          "sha256": "9fd1712e327e63be316e1d7b4a2cda2052f220c22ebfe25c89aaac0515b767b4"
+        },
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00170",
+          "command": "move a up",
+          "raw_start": 20873,
+          "raw_end": 20993,
+          "sha256": "72bff8821617617beb620ee5ff3de4d81fed34375f292aa99c7201598a07ed0d"
+        },
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00171",
+          "command": "move b left",
+          "raw_start": 20993,
+          "raw_end": 21130,
+          "sha256": "1b9868f0516570f406fa24849140f55fbfe763923de9f5a26a77e83ef7945d89"
+        },
+        {
+          "event_id": "magic-toyshop-9a53f3ebb2:e00172",
+          "command": "move b right",
+          "raw_start": 21130,
+          "raw_end": 21530,
+          "sha256": "ca96b7d2a636eb32b0d3474da71f14a001888f1f1d46a5ead6e49166bf614b83"
+        }
+      ]
+    },
+    {
+      "game_id": "christminster",
+      "broker_pids": [
+        3561047
+      ],
+      "session_id": "christminster-735155fc69",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "christminster-735155fc69:e00201",
+          "command": "save",
+          "raw_start": 71421,
+          "raw_end": 71554,
+          "sha256": "ea8fdb96775676d2ea2aadef4a8791f95d6ef96e1bbdf98f0f7e4cc0f1b79328"
+        },
+        {
+          "event_id": "christminster-735155fc69:e00202",
+          "command": "after-master-first-court.sav",
+          "raw_start": 71554,
+          "raw_end": 71689,
+          "sha256": "3f342309430bb068af3d1512bdd4946ed9d54bcd5900da8e61378244fa5e6a10"
+        },
+        {
+          "event_id": "christminster-735155fc69:e00203",
+          "command": "go to library",
+          "raw_start": 71689,
+          "raw_end": 71721,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "christminster-735155fc69:e00204",
+          "command": "south",
+          "raw_start": 71721,
+          "raw_end": 72314,
+          "sha256": "2122aac8eaa59e50e0c4153bd1b5362daad31a00af243d453dee028bae0a9f67"
+        },
+        {
+          "event_id": "christminster-735155fc69:e00206",
+          "command": "read notice",
+          "raw_start": 72314,
+          "raw_end": 72879,
+          "sha256": "853830282e14ed8553d4055968ec0359225dea528bcb440d51cbc2e108b9346d"
+        },
+        {
+          "event_id": "christminster-735155fc69:e00207",
+          "command": "open door",
+          "raw_start": 72879,
+          "raw_end": 73178,
+          "sha256": "50c44884a73cc917fb53eaf5fd2f2163eed2ce084dd4be59029c3db761b7e18e"
+        }
+      ]
+    },
+    {
+      "game_id": "the-wedding",
+      "broker_pids": [
+        3662441
+      ],
+      "session_id": "the-wedding-396e8f7efc",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "the-wedding-396e8f7efc:e00130",
+          "command": "e",
+          "raw_start": 40359,
+          "raw_end": 41237,
+          "sha256": "f9eaeba828dbc0ae32bda7a213a0ee7df253a537737c4cd624e786b10a187e31"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00131",
+          "command": "e",
+          "raw_start": 41237,
+          "raw_end": 42028,
+          "sha256": "d76dc75d66b6f2c53d2e2e62685cdfcca0a8e698ef0240e57893d9e5e4bc966e"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00132",
+          "command": "hear",
+          "raw_start": 42028,
+          "raw_end": 42508,
+          "sha256": "d484883df454677695d50eaa4253c22933c3d7f0f1dd372ccd7dfd5c51c0ffcb"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00134",
+          "command": "take sack",
+          "raw_start": 42508,
+          "raw_end": 42540,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00135",
+          "command": "get bag",
+          "raw_start": 42540,
+          "raw_end": 42953,
+          "sha256": "b50ac6c259e3b381a4783f7419061ede8eb28135f0b24ffe63007fbae52775d0"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00138",
+          "command": "examine cartons",
+          "raw_start": 42953,
+          "raw_end": 42985,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00139",
+          "command": "x boxes",
+          "raw_start": 42985,
+          "raw_end": 43579,
+          "sha256": "b8176c3358bf3ea2a572e28c3f2e0944c34ec6eb622a31ea23b129c48c81acef"
+        },
+        {
+          "event_id": "the-wedding-396e8f7efc:e00141",
+          "command": "push box",
+          "raw_start": 43579,
+          "raw_end": 44213,
+          "sha256": "28fe3b04e48207116b8a5d21ed5e3f1fc7efe9676f70e42a3573d936b616c32c"
+        }
+      ]
+    },
+    {
+      "game_id": "anchorhead",
+      "broker_pids": [
+        3672312
+      ],
+      "session_id": "anchorhead-9852cd5b9d",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00041",
+          "command": "search the piles",
+          "raw_start": 674820,
+          "raw_end": 675136,
+          "sha256": "879945fd8434b65b0dcd37f4caeec52f2998a905343fbcfa0342b4605c7801a4"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00042",
+          "command": "look up",
+          "raw_start": 675136,
+          "raw_end": 675173,
+          "sha256": "8f1760697e58b4fe61bcaf7479231c22b08dbdfcadddb78bc5932cff97b51e52"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00043",
+          "command": "look up William",
+          "raw_start": 675173,
+          "raw_end": 675229,
+          "sha256": "547e70c7874b8fc328e3790fa0c200a722b7bec7d4e646bdba9b5d47da5f7da8"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00045",
+          "command": "northwest",
+          "raw_start": 675229,
+          "raw_end": 675595,
+          "sha256": "c2fed4351b6d3834c20cf6326678eb7e325fb413c4b751cbb85c4164c27e229f"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00046",
+          "command": "southwest",
+          "raw_start": 675595,
+          "raw_end": 675787,
+          "sha256": "8f1eb6733e504373bbdebdd5f8bcfb143b299a35839a9cc5a198b82684cb770e"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00047",
+          "command": "find William",
+          "raw_start": 675787,
+          "raw_end": 675848,
+          "sha256": "a390f591d03ed44d5987f8c64f20d1dcdbe8c20d7b4eaf9cf9725c6e0aec4dbc"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00049",
+          "command": "look up Edward",
+          "raw_start": 675848,
+          "raw_end": 675904,
+          "sha256": "a5c030cb8cabaf5af8bfa504e8d3b5d5e8e301edd390b9a6e1aeff40b1330b74"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00050",
+          "command": "look up Anna",
+          "raw_start": 675904,
+          "raw_end": 675958,
+          "sha256": "0ae89f4b7f51d77dd8253b5a6f8a5d8cf0ab0ab11c4fd89c17bb483c34ca2859"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00051",
+          "command": "look up 1958",
+          "raw_start": 675958,
+          "raw_end": 676019,
+          "sha256": "a390f591d03ed44d5987f8c64f20d1dcdbe8c20d7b4eaf9cf9725c6e0aec4dbc"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00052",
+          "command": "look up 1936",
+          "raw_start": 676019,
+          "raw_end": 676083,
+          "sha256": "dbf23598d3c0068985519200162a33c8a85bf69a2bc356f046fd78997e711985"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00053",
+          "command": "look up 1960",
+          "raw_start": 676083,
+          "raw_end": 676141,
+          "sha256": "41240d21159e2c07a187dd77179a6e434c6223efbb33be406a98f7ae828b30cd"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00054",
+          "command": "lok up Anna",
+          "raw_start": 676141,
+          "raw_end": 676174,
+          "sha256": "e65ea233359e1c22a0b0151ead8b5ca95ffcc243273ed2e7cea7c2357469ec43"
+        },
+        {
+          "event_id": "anchorhead-9852cd5b9d:e00055",
+          "command": "look up Anna",
+          "raw_start": 676174,
+          "raw_end": 676228,
+          "sha256": "0ae89f4b7f51d77dd8253b5a6f8a5d8cf0ab0ab11c4fd89c17bb483c34ca2859"
+        }
+      ]
+    },
+    {
+      "game_id": "ghost-train",
+      "broker_pids": [
+        3675383
+      ],
+      "session_id": "ghost-train-b026ef4aab",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "ghost-train-b026ef4aab:e00022",
+          "command": "wake",
+          "raw_start": 6545,
+          "raw_end": 7728,
+          "sha256": "fc576659ada30736d71d12a872cca9c36b52c6315f3d1e4d7fb274002f091bd1"
+        },
+        {
+          "event_id": "ghost-train-b026ef4aab:e00023",
+          "command": "look at train",
+          "raw_start": 7728,
+          "raw_end": 7898,
+          "sha256": "bfaa72529c41e807fdd0617c1addb01043f1001ac935c3f3177fcfe6a7242632"
+        },
+        {
+          "event_id": "ghost-train-b026ef4aab:e00024",
+          "command": "look at wreckage",
+          "raw_start": 7898,
+          "raw_end": 7944,
+          "sha256": "6393ce1c298425d4b03c8fb4e54a2334c008a7b36d5c402442445b102d5da7bc"
+        },
+        {
+          "event_id": "ghost-train-b026ef4aab:e00026",
+          "command": "x corpses",
+          "raw_start": 7944,
+          "raw_end": 7976,
+          "sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+        },
+        {
+          "event_id": "ghost-train-b026ef4aab:e00027",
+          "command": "x bodies",
+          "raw_start": 7976,
+          "raw_end": 8099,
+          "sha256": "78d5f07f62a384f2338506766573399295bbc19148152e1bfeedff2e2b34375b"
+        }
+      ]
+    },
+    {
+      "game_id": "schooldays",
+      "broker_pids": [
+        3682519
+      ],
+      "session_id": "schooldays-b371c6a97d",
+      "same_session": true,
+      "input_state": "awaiting_input_or_idle",
+      "pending": [],
+      "fresh_input_proofs": [
+        {
+          "event_id": "schooldays-b371c6a97d:e00007",
+          "command": "look",
+          "raw_start": 1633,
+          "raw_end": 2350,
+          "sha256": "b13922303cebad0e65d892b72a08aac358ec72523e276f344520559a269517a5"
+        },
+        {
+          "event_id": "schooldays-b371c6a97d:e00009",
+          "command": "search bed",
+          "raw_start": 2350,
+          "raw_end": 2457,
+          "sha256": "5ae8fb75132eb677ee81b97b6b7bc2a8fde4db8c88972d4958281c7aab279720"
+        },
+        {
+          "event_id": "schooldays-b371c6a97d:e00010",
+          "command": "look under bed",
+          "raw_start": 2457,
+          "raw_end": 2600,
+          "sha256": "2e7a57ffe6469baa657a36b735a8b06504eb59916e62988f001d9793e0585137"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "at": "2026-09-25T08:47:04.233043+00:00",
+  "corrected_guide_notes": [
+    "pythos-mask",
+    "alias-the-magpie",
+    "a-remote-problem"
+  ],
+  "source_records_unchanged": true,
+  "reason": "Numeric Enter13 generalized incorrectly from Zmachine; actual gvm-cli maps empty command to GlkReturn0xfffffffa. This is a notes correction, not a demonstrated fix. No input sent.",
+  "events": [
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00001",
+      "timestamp": "2026-09-25T08:37:27.378737+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\n\n\nPytho's Mask",
+      "raw_start": 0,
+      "raw_end": 17,
+      "response_sha256": "2794ee66e924a5a1ebbfae31a6add3d9009d27c789560880e4ff11cc7550e949",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00002",
+      "timestamp": "2026-09-25T08:37:38.341707+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "",
+      "response": "[ Press any key to go on. ]\n\nA small room.  Three men; you recognize only one.\n\n\"You, Soteria,\" says the leader.  \"I understand you have an invitation to the Celebration of the Night of the Comet.\"\n\nHeat floods your face.  How does he know that?  \"I have an invitation, but I wasn't sure-- that is, I wasn't planning--\"\n\n\"You'll go,\" he says.\n\nThe words die half-formed.  An urgent command overrides your personal doubts.\n\n\"What am I to do?\"\n\n\"Speak to the Physician -- he's one of ours, but we've been unable to speak to him of late.  Find out anything he knows about the King's illness.  And protect the King.\"\n\n\"From what?\"\n\nThe leader smiles a little wryly.  \"I wish I could tell you, girl.  This is the Night of the Comet.  It could be anything.\"\n\n\n                                    [ MORE ]\n",
+      "raw_start": 17,
+      "raw_end": 816,
+      "response_sha256": "3f718e8105c61ac3d82f3e2a7e0e4e3c94b1f560bd1042509799bd9b433be1f6",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "startup-advance",
+        "intent": "Advance past title screen",
+        "origin": "exploration",
+        "expected_outcome": "Intro text or first prompt"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00003",
+      "timestamp": "2026-09-25T08:40:41.833169+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "command",
+      "command": "",
+      "response": "",
+      "raw_start": 816,
+      "raw_end": 816,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "no_output_timeout",
+      "metadata": {
+        "case_id": "startup-more-1",
+        "intent": "Advance past MORE prompt",
+        "origin": "exploration",
+        "expected_outcome": "More intro text"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00004",
+      "timestamp": "2026-09-25T08:44:01.844865+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "delayed_output",
+      "command": null,
+      "response": "",
+      "raw_start": 816,
+      "raw_end": 816,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "no_output_timeout",
+      "metadata": {
+        "delayed_for_event_id": "pythos-mask-a39eb2af1a:e00003",
+        "origin": "transport_recovery"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "held": {
+    "at": "2026-09-25T08:42:15.223062+00:00",
+    "session_id": "pythos-mask-a39eb2af1a",
+    "reason": "Startup MORE empty Enter e3 timeout; no checkpoint. Await m0003 pending; preserve broker/interpreter, no input/replay/reset. Manual diagnosis. Owned slot retained.",
+    "clients_stopped": [
+      [
+        473926,
+        [
+          "bash",
+          "./run-fullplay.sh",
+          "pythos-mask"
+        ]
+      ],
+      [
+        478852,
+        [
+          "timeout",
+          "--signal=TERM",
+          "--kill-after=10s",
+          "2700s",
+          "muse",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/work/experiments/lanthorn-recall-training/play/pythos-mask",
+          "--prompt-file",
+          "/work/experiments/lanthorn-recall-training/runs/fullplay-pythos-mask-20260925T084043Z-C9fFEI/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ]
+      ],
+      [
+        478853,
+        [
+          "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+          "exec",
+          "--provider",
+          "meta",
+          "--workspace",
+          "/work/experiments/lanthorn-recall-training/play/pythos-mask",
+          "--prompt-file",
+          "/work/experiments/lanthorn-recall-training/runs/fullplay-pythos-mask-20260925T084043Z-C9fFEI/prompt.md",
+          "--json",
+          "--max-model-steps",
+          "400",
+          "--max-tool-output-bytes",
+          "262144",
+          "--approval-mode",
+          "never",
+          "--disable-shell",
+          "--disable-web-tools",
+          "--no-foreign-personal-context"
+        ]
+      ]
+    ],
+    "pending_await_resolved": "m0003 produced e4 no_output_timeout; no pending requests remain",
+    "diagnosis": "control/pythos-startup-diagnosis-20260925T0842.md"
+  }
+}

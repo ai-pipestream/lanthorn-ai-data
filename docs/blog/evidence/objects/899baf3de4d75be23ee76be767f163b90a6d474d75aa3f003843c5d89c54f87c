@@ -1,0 +1,9 @@
+# Not Just A Game — progress
+
+State: Hot Zone (north of Oven Room). Branch b0. Score 12.
+Route: after-glass checkpoint confirmed. Rocky->Material Storage, 'open bin' ambiguity e00194 -> 'open silver' e00195 (annot e00196), get ingot e00197. E to Rocky e00198, U to Cube e00199, E x4 (e00200-e00203), D to Hot Zone e00204, S to Oven e00205 (fuse in socket). Probe 'press button' -> green/red disambiguation e00206; 'press green button' still needs electricity e00207. Help e00208 repeated walkthrough order (fuse then green then crucible...). examine oven e00209, furnace e00210 (sign/light/green/red/socket), furnace sign e00211 (model info only), examine light e00212 OFF (no power). N to Hot Zone e00213, sign e00214 flame warning only.
+Cases: + button-ambiguous probe e00206 (awaiting final annotation once green works; e00207 accepted but world_state blocks power). Unresolved: green power source.
+IN-FLIGHT: nothing. Next: help on brass-sphere/fingerprint/power source; possibly re-examine Brass Room sphere/plate/fingerprint or trace electrical lines. Next new file inbox/m0205.json.
+Last hint (e00208): same E U E E E E D S PUT FUSE PRESS GREEN... Guidance only, not observed.
+Checkpoints: start-living-room, before-safe, after-lever, after-capture, after-fuse, after-glass (confirmed). Game incomplete: furnace power, crucible melt, board/crystal/spheres ahead.
+Inventory: rod+gum, mold, black cube, red ball, card, gold stone, booklet, matches(3), silver ingot. Fuse in socket. No flames in Hot Zone/Oven.

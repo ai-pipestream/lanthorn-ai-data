@@ -1,0 +1,9 @@
+# Violet progress — segment 2 (in progress)
+
+Location: office, standing (stood to X CACTUS). Window blocked, nose clamp on, gum in ears, wearing platyPod. platyPod toggled: Primrose for WRITE, Professor Detective for examine; currently Professor Detective after X CACTUS.
+Inventory (e00221): carrying small chip (removed from pouch), lighter, rubber square (pouch now empty), empty bottle; wearing platyPod; gum + clamp worn.
+World: book BURNED (ash/charred remains in wastebasket?), desk has shards/photo/computer/itinerary/pile; bookcase snowglobe (winter figurine, chocolate hands); cabinet locked; cactus in heavy pot conceals chrome pipe to sprinkler 3m up; lavender pen wedged by sprinkler.
+Checkpoints confirmed: office-start, awake-unplugged, platypod-loud, clamp-on, window-blocked, before-burn-book, after-burn-book (m0192, e00199-200).
+Cases: 46+ (last syn-get-chip-46 accepted e00220, annotated e00222; syn-inspect-cactus-41 rejected e00205/corrected e00207 annotated e00208; syn-write-dissertation-40 accepted e00203 annotated e00204; syn-get-pen-43 blocked-high e00212 pending annotation).
+Last hints: lines 89-97 done through X PEN; lines 100-108 (X SQUARE/REMOVE CHIP/PUT TATER TOT IN POUCH/SHOOT PEN/X GLOBE/GET GLOBE/SHAKE GLOBE/X GLOBE/THROW GLOBE AT PEN). Chip removed via 'get chip'. Tater tot location unknown — searched wastebasket/pile/computer/itinerary/photo/globe/cabinet so far.
+Next: 1) annotate syn-get-pen-43 world_state block, 2) find tater tot (x bookcase/desk/chair/under, search wastebasket), 3) PUT TATER TOT IN POUCH / SHOOT PEN per hint, 4) checkpoint before risky throw, 5) keep one probe per puzzle toward verified winning ending. Game incomplete — no finish/ending seen.

@@ -1,0 +1,7 @@
+# Night at the Computer Center — progress (STOP, game incomplete)
+
+Location: Hall Outside Elevator 3rd floor. Flashlight state uncertain: turned ON e00066, m0060 'turn off flashlight' submitted but response pending (not yet in responses/m0060.json). Do NOT resubmit m0060; read its response first on continuation.
+Inventory: UGGS Manual, flashlight (taken e00064). Score 4 (listen 2 + hose 2).
+Checkpoints verified: start-computer-site, stairwell-third, before-flashlight.
+Cases annotated (10): typo-examine-01, omit-object-01, pronoun-01, synonym-look-01, direction-01, door-blocked-01, synonym-hear-01, wordorder-box-01, wrongobj-hose-01, typo-flashlight-01.
+Pending: m0060 turn off flashlight. Next: verify off, backtrack west/north/west/up? Actually from 3rd elevator hall: west, north, west? Route: go west to middle hall, north? Wait 3rd: elevator hall west to middle hall, north? No — 3rd middle hall: north to north hall? Actually 3rd middle came from south of north hall, so north to Hall Outside Computer Site, west to stairwell, down down to 1st stairwell, east/north? Then east/south/east/south to closet area already done; then dark stairs down from 1st stairwell with light ON. Collect basement probes toward gnome/manual/printer ending. Need 10-30 more diverse cases. Checkpoints before dark descent.

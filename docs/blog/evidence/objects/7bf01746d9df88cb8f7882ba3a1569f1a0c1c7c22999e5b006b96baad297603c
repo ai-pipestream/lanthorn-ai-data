@@ -1,0 +1,25 @@
+{
+  "event_id": "i-0-d1ac7729bb:e00264",
+  "timestamp": "2026-09-25T08:01:43.289227+00:00",
+  "game_id": "i-0",
+  "session_id": "i-0-d1ac7729bb",
+  "branch_id": "b9",
+  "event_index": 264,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 45454,
+  "raw_end": 45454,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "1a39e847d509bfe0ea53f803e63b6bbc6ed71b1f1e647cac0f488b6279263118",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "i-0-d1ac7729bb",
+    "ending_quote": "    *** Thanks for playing! ***",
+    "evidence_event_ids": [
+      "i-0-d1ac7729bb:e00263"
+    ],
+    "notes": "Continued past Front Porch through Thanksgiving dinner (Trevor) to bedroom birthday morning, wore robe, opened present, read message revealing Thanks for playing plus RESTART/RESTORE/QUIT menu. Not death, arrest, hospital, desert timeout, or mere porch arrival; concluding narrative reproduced on two branches (e257 b8 without robe, e263 b9 with robe). Alternate gray-pickup homecoming (neighbor's cousin) preserved; manifest prefers Larry/Willowbutton/bus substantial route — leaving that adjudication to Terra/parent."
+  },
+  "review_status": "unreviewed"
+}

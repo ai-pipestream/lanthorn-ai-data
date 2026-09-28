@@ -1,0 +1,9 @@
+# Beyond the Tesseract — progress (game incomplete, in play)
+
+State: n-dimensional space (exit W), carrying singularity (made e00123, score 20). Carried: coil, strip, stack, hexahedron, function?, singularity. (Function+integral consumed into singularity — verify by inventory later.)
+Pending: none as of e00127/latest. Next: west to field, west to origin, pop stack toward office; explore office N/W, set-room W.
+Hint e00127 (lines 26-34): put singularity in groove in audio device; wear audio; _Y_ hexagon -> 4D solid; melt solid with plasma -> 4D liquid; _Y_ strip -> klein bottle; fill klein with liquid; pour klein in plant; listen => 'OF COUNTLESS TESSERACTS' <CT>. Audio device, _Y_, plant all unexplored.
+Map: office(N?,W?) -push-> origin(N infinite point [function taken], E field [warped: E n-space with integral-taken->singularity; W origin], S deduction [hole; push->vortex], W set-room [improbability taken, exits E/W? W unexplored]). Vortex S sea(N vortex, E storm [plasma], S whirlpool, W monopoles). Whirlpool N sea/W shower. Shower N monopoles/E whirlpool. Monopoles E sea/S shower.
+Cases annotated through e00124 (~27). Unresolved: probe-rpn-push-number (RPN-push falsified for `push 17' syntax only).
+Fragments: none yet. Still to do: TES (book/disk/projector office area), SE (prism->tetrahedron read in chromatic room), RA (pills/sleep/lemma/theorem/mathematician), CT (audio chain above). Then TESSERACT finale.
+Checkpoints verified: start-office, origin-arrived, deduction-hole, vortex-entry, monopoles-hexahedron, monopoles-die-taken, improbability-taken, field-warped, singularity-made.

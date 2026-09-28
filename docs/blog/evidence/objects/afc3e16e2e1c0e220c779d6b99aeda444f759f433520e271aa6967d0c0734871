@@ -1,0 +1,23 @@
+{
+  "game_id": "the-edifice",
+  "title": "The Edifice",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/edifice.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/edifice/walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/edifice.rec",
+  "response_timeout_seconds": 180,
+  "completion": "Require completion of all three eras, the final ascent and passage through the last door to the actual concluding narrative. Era transitions, rescuing the son, taming a horse or issuing SCORE are not completion. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/edifice/source.json",
+  "story_sha256_expected": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+  "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+  "dataset_split": "development",
+  "game_family": "the-edifice",
+  "collection_notes": "# The Edifice\n\nAuthor-attributed edifice.rec is a raw input recording, without output or a release/serial declaration; story R2/980206. It includes exploratory failures, undo and repetitions, not a clean command script. Treat language tokens as observation-dependent, not universally replayable.\n\nCompletion: Require completion of all three eras, the final ascent and passage through the last door to the actual concluding narrative. Era transitions, rescuing the son, taming a horse or issuing SCORE are not completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "980206",
+  "session_id": "the-edifice-79519f86df",
+  "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+  "started_at": "2026-09-25T06:21:09.658124+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

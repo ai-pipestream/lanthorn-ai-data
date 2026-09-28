@@ -1,0 +1,63 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T05:49:25.032728+00:00. Synthetic test data only. Fixed candidate cutoff: 2026-09-25T05:43:00+00:00. Bounded pass complete; only reviewer-owned cases/status/supervision files changed. No game inputs, process changes, resets, launchers, training, evaluation or publication.
+
+1744 unique exported annotations: 1217 accepted, 348 revise, 66 quarantine, 113 unreviewed by exact unique endpoint-set matching. This pass adds80 decisions across11games:64 accepted,12 revise,4 quarantine. All160 endpoint references agree with exported commands/responses.552 distinct surrounding/intervening event spans pass raw SHA256/text checks, plus separately checked ending/startup/supporting events. No selected delayed/timeout fragments or manual transport hits. One pair crosses branches and six restores. Live CSV may lag new reviews; later arrivals remain pending.
+
+## New ending and startup
+
+Bears Night Out bears-night-out-a79e3c9a58 b0 e00366 SLEEP: independently verified raw117349:118132, SHA25604b1d282554606b772197dbeaccb7264d498b8f2cc76d9014754d19bc3cc126e. Actual bed entry e363 precedes failed GO TO SLEEP e365, then SLEEP yields morning picnic with David and other bears, honey enjoyed, explicit You have won,33/33,5523turns,lifelong companion and final menu. Story header/hash confirmsR5/990224. Claim e371's assertion that perfect score proves nothing skipped is unsupported. This is the eighteenth verified witnessed conclusion, not exhaustive content or test-case coverage. Guide release remains unspecified.
+
+Jewel of Knowledge jewel-of-knowledge-61db1c70d2: initial opening has no release banner. Actual Z5 header is R2/990710, SHA25659f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2. Later e37 independently prints R2/990710 after prologue collapse/key prompts; that is a chapter transition, not ending. e5 acknowledges exact start-fifth-layer save path,878bytes,SHA2568ed9a96750a18eb06c1361e5c527caa8014e5c294436cfbc6144325ab369a05c. Raw startup/LOOK/inventory/save/e37 all verified. Guide explicitly R1/990629; version gap preserved.
+
+## Current case findings
+
+Quarantines: Curses e1244 links fatal GO PORT b8 e956 to flag-assisted parachuting b14 e1053 across six restores and rebuilt state. Both outcomes are real, but this is not uninterrupted recovery or a controlled mandatory-route proof. Dreamhold e1601 changes originally explicit unlocking goal to opening; retrospective broader intent does not repair that. So Far e751 changes north-gate exit to ladder escape. Zork e688 attributes bucket descent to BOARD versus ENTER despite intervening disembark, travel, inventory changes and FILL BOTTLE WITH WATER e685. Do not invalidate legitimate ENTER boarding e665 or infer verb causality from the confounded descent pair.
+
+Corrections needed: Jigsaw e165 and So Far e836 label intent lost merely because initial parser referent was wrong; original metadata already specified rifle and pole's shadow respectively. These are intended referent repairs. Jewel e16 gets no requested guidance even though ASK parses. Theatre e1401 leaves shadow unimpressed and e1402 still blocked; recognition success is not dispelling. Theatre e1370 releases one statue arm, not dagger acquisition or full disarming; the next wrong eye placement kills the player. Savoir e969 is identical SLEEP after GET ON BED, a state repair rather than endpoint syntax difference.
+
+Jewel e40 establishes a later book query followed by prologue collapse after many topics; no controlled evidence proves all topics, their order or that query uniquely necessary. Source advice remains guidance. Zork sphere/violin repairs are retained with explicitly documented trap/capacity prerequisites, never isolated synonym causality. No source excerpt counts as observed success.
+
+## Bounded current snapshot
+
+10 launcher processes observed; duplicate per-game launchers: {}. Other unverified ending claims: []. Latest recorded input timeout IDs: []. This is a limited read-only snapshot; no guarantee about future worker health or uninspected growing tail. Stop after this pass.
+
+## Historical Spider, Acorn and Weather verification (05:36Z audit)
+
+
+Seventeen distinct games now have independently verified witnessed conclusions. Spider and Web, spider-and-web-e5197766e3 b19 e00781: G repeats WAIT after countdown; papers remain explicitly in hand, teleport narrative ends with "You have made a difference" and final menu. Raw146563:147402, SHA256291b98bef394f53c6cd5e395a41ccee6ed2eff568e345d6e7dc6b57c29e3576a. Actual R4/980226 and matching guide. e790/e791 subsequently restore papers into b20; e801 claim is in b20 but references the witnessed b19 ending. The final live b20 state is not terminal. Count the historical conclusion once.
+
+Acorn Court, acorn-court-7685b36b67 b0 e00082: actual OPEN GATE gives "You have won",30/30 points in40turns and final menu. Raw11694:11869, SHA256779dd6e0f1cfd3d79f6d2f17c445dd41d53db7b6d2abb7e3da69011df7a2c613. Opening follows explicit unlock e77; westward travel e81 failed and was never shown succeeding. e1 banner/story header are R3/970904; e3 acknowledges exact start-courtyard save,700bytes,SHA2564e3977d60a5a82f6660689965133a13646bb736a5f7757f02713bea52b44cbb6. Guide release remains unspecified; no full-version compatibility claim.
+
+A Change in the Weather, change-in-weather-3ff9a98393: e1 key splash, empty command e2 reaches actual R6/960613 banner and Edge Of Meadow; header/story hash9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2 matches manifest. e4 exact start-meadow save acknowledgment,330bytes,SHA256affd541f3bd5305b5f041d7feb630093bf8acab7e54daaf0069c68e8697ac931. Guide explicitly matchesR6/960613. Startup is after candidate cutoff and verified under the separate requested startup audit; Weather candidates were not included. No Weather ending verified.
+
+
+## Earlier verified conclusions and startup receipts
+
+
+The following are earlier audits, preserved as history; their prior pass wording and timestamps do not describe new work in this pass.
+
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux,905,Violet,Voodoo Castle,Slouching Bedlam,Secret Mission,Bronze,Balances and Hunter in Darkness. Earlier13 verdicts remain timestamped historical audits; Balances and Hunter were independently checked at05:04Z in the prior follow-up.
+
+Balances balances-01a7783d25 b3 e00653 PUT SNAKE CUBE IN BOTTOM LEFT SOCKET follows three other actual cube placements. Raw71873:72628 SHA256ccf4f8992685c66443270ccc7404c30919731844ac29c4d406677620cbbb3eee. Borphee Labs awakening, explicit You have won,50/51 points,139turns and final menu. Actual R5/961216; unspecified guide release remains a gap. No need to infer victory from score alone.
+
+Hunter hunter-in-darkness-d1b183a1fc b3 e00187 UP: raw26897:27229 SHA2561ebfe472318a9036d0c17928319b27fcb81121eb1e2e320434cd49fd373e731d. Actual swarm e185 and passing beast e186 precede daylight escape and It's over/final menu. This is an intended conclusion. Wumpus death is suggested by cut-off scream, not explicitly established as a kill. R4/991119 verified; guide release unspecified. Both games wait at ending menus rather than exiting engine.
+
+Bronze bronze-edcd114f65 b1 e00854 actual command HUG BEAST: raw481384:482401 SHA2565b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84. Explicit restored-King/servants-free ending banner and RESTART/RESTORE/QUIT menu. Claim e00872 mentioning KISS does not establish a KISS execution or equivalence. Engine waits at ending menu. Actual R11/060503 remains distinct from advertised/downloaded R13 selection; this route is observed, full release compatibility is not.
+
+Slouch's gallows route ends in worldwide Logos spread, not containment or a happy win. Secret Mission's actual POUR WATER defuses bomb; earlier bomb deaths remain failures. Other partial scores, deaths and chapter transitions remain insufficient for conclusions.
+
+## New startup verification
+
+Jigsaw jigsaw-673cabd620: e1 splash requests SPACE; actual literal-space e2 reaches R3/951129 banner/Century Park. e3/e4 save acknowledged to exact path,558bytes,SHA2567077bd5d2f11f2e6ed566537ee10eec505f679caa140575c33b9f2f7b06d0e5b. Story header/hash1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf verified. Guide1995 release unspecified; recorded curses/train family is preserved.
+
+Bears Night Out bears-night-out-a79e3c9a58: e1 SPACE splash, literal-space e2 actual R5/990224 Bedroom banner. e3/e4 exact save acknowledgment,774bytes,SHA2564dfd774dcd1fd148956a4c0cc0568ddb6cecf06b9cd1818ff1c0a244ea19735c. Story header/hash1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb verified. Guide release unspecified. Neither new startup is an ending; new annotations stay pending.
+
+Jewel of Knowledge and Tryst are parent-reported queued additions with release gaps; no reviewer launch or startup verification. Source hints remain guidance until engine observations establish behavior.
+
+
+
+## Historical boundaries
+
+All seventeen prior verdicts/receipts and prior review decisions remain preserved in status/history and cases. Spider's witnessed b19 ending remains historical after its b20 restore. Slouch gallows spreads Logos worldwide, not containment; Bronze HUG is observed, KISS is not; Hunter cut-off scream alone does not prove kill. Earlier menu/slow-output/native-rewind quarantines survive explicit recoveries. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with corrected maintainer guide, not commercial ZorkI. Prior checkpoint positions, resource budgets and pool tests retain their own timestamps. No completion is promoted by provisional compute refill. Guide/version gaps remain for Bronze, Dreamhold, Savoir, So Far, Jewel and unspecified-release guides. Queued games are not startup-verified merely by being configured.

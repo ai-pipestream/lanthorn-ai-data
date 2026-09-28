@@ -1,0 +1,13 @@
+# Mother Loose — progress
+
+Location: Rickety Fence (start), Score 0, Moves ~7.
+Inventory: none observed.
+Checkpoints: start-fence (verified e00003-e00004).
+
+Cases:
+- egg-typo (e00006 fail typo 'examine eg' -> e00008 'examine egg' success, vocab, annotated e00009)
+- egg-chat-verb (e00010 'chat to egg' murmur -> e00012 'egg, hello' Humpty intro success, annotated e00013)
+- egg-ask-help pending (e00014 'ask egg for help' plead ignorance; e00015 'egg, help' pardon — neither explains problem)
+
+Last hint: m0005 excerpt off-topic (e e ne s s lean ladder against fence take ladder n n), source walkthrough, not player-observed.
+Next: go north from fence, explore east area per hint, collect movement/verb variations. Need help refine for egg problem if still stuck after exploration.

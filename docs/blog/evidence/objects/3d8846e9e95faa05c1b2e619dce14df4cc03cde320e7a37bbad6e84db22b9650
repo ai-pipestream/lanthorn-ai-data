@@ -1,0 +1,462 @@
+{
+  "snapshot_id": "20260925T102301.792645Z",
+  "games": [
+    {
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "anchorhead-9852cd5b9d:e01267"
+      ],
+      "reason": "Idle at ordinary prompt, no pending requests; no local launcher, consistent with local pool disabled under parent-verified provider quota hold; slot retained; unfinished, evidence preserved.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "augmented-fourth",
+      "session_id": "augmented-fourth-d479b421d9",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "augmented-fourth-d479b421d9:e00246"
+      ],
+      "reason": "Idle mid-game; remote worker exit 1 matches parent-verified Meta quota outage, not a new failure; retained slot; no pending requests; parent resumes only after reset evidence review.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "bicon",
+      "session_id": "bicon-e4b7be4302",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "bicon-e4b7be4302:e00306",
+        "bicon-e4b7be4302:e00308"
+      ],
+      "reason": "Unverified ending claim e00308: e00306 shows '*** You have won Phoenix's heart. ***', score 10/10, terminal menu, branch b0; parent independent verification required, not self-certified; slot already freed, certification releases nothing.",
+      "next_action": "parent_verify_ending",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "busted",
+      "session_id": "busted-d683906f1b",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "busted-d683906f1b:e00101"
+      ],
+      "reason": "Idle on Roof, game incomplete; remote worker exit 1 consistent with verified quota outage; retained slot; no pending requests; hold until parent post-reset resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "critical-breach-b5dd49a3e4:e00490"
+      ],
+      "reason": "Idle during lockdown sequence, incomplete; failed remote worker matches verified quota failure; retained slot; no pending requests; no blind restart.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "curses",
+      "session_id": "curses-4e1875ea4e",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "curses-4e1875ea4e:e03597"
+      ],
+      "reason": "Idle at Mosaic, no pending requests; no local launcher consistent with quota-hold-disabled local pool; retained slot; evidence and checkpoints preserved.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "dash-slapney-patrol-leader",
+      "session_id": "dash-slapney-patrol-leader-64ff8134ce",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "dash-slapney-patrol-leader-64ff8134ce:e00006"
+      ],
+      "reason": "Early-game idle; remote worker failed exit 1 under verified quota outage; retained slot; no pending requests; parent resume only.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "deephome",
+      "session_id": "deephome-56e3d50bda",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "deephome-56e3d50bda:e00812"
+      ],
+      "reason": "Idle, explicitly incomplete; failed remote worker consistent with verified quota hold; retained slot; no pending requests; evidence retained.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "delusions",
+      "session_id": "delusions-8997f25a87",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "delusions-8997f25a87:e01538"
+      ],
+      "reason": "Idle after verified checkpoint save; no local launcher under quota-hold-disabled pool; retained slot; no pending requests; hold pending parent resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "dracula-prince-of-darkness-d75c304699:e00644"
+      ],
+      "reason": "Idle in Torture Chamber, incomplete; failed remote worker matches verified quota failure; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "earth-and-sky-episode-1-2bb22846be:e00088"
+      ],
+      "reason": "Idle mid-cutscene-style output; remote worker exit 1 consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "enemies-0b4aba49fe:e00567"
+      ],
+      "reason": "Idle after freezer close, score 40, no finish claim; failed remote worker matches verified quota hold; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "fine-tuned",
+      "session_id": "fine-tuned-989503b0a7",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "fine-tuned-989503b0a7:e00516"
+      ],
+      "reason": "Idle on Dynamo, incomplete; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "frozen",
+      "session_id": "frozen-a2e5d2eea9",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "frozen-a2e5d2eea9:e00726"
+      ],
+      "reason": "Idle in Storage Room; failed remote worker matches verified quota failure; retained slot; no pending requests; hold until parent resume.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "gumshoe",
+      "session_id": "gumshoe-2933d54ccf",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "gumshoe-2933d54ccf:e00524"
+      ],
+      "reason": "Idle at bar, incomplete; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "heist",
+      "session_id": "heist-a079eba445",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "heist-a079eba445:e00700"
+      ],
+      "reason": "Idle at wager prompt, explicitly incomplete; failed remote worker matches verified quota hold; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "session_id": "heroines-mantle-4053f4fad7",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "heroines-mantle-4053f4fad7:e00682"
+      ],
+      "reason": "Idle after s79 checkpoint save, incomplete; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "hla-inform",
+      "session_id": "hla-inform-09ea9c8220",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "hla-inform-09ea9c8220:e00409"
+      ],
+      "reason": "Idle at Intersection; failed remote worker matches verified quota failure; retained slot; no pending requests; no resubmission proposed.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "i-0-d1ac7729bb:e00263",
+        "i-0-d1ac7729bb:e00264"
+      ],
+      "reason": "Unverified claim e00264: e00263 shows '*** Thanks for playing! ***' terminal menu on b9, worker finished exit 0; ambiguous concluding text without win/score line; parent must judge authored-ending sufficiency.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "inside-woman",
+      "session_id": "inside-woman-70e8855708",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "inside-woman-70e8855708:e00037"
+      ],
+      "reason": "Idle at Landing Pad, early game; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "lecture-feature",
+      "session_id": "lecture-feature-fbf9767abc",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "lecture-feature-fbf9767abc:e00225"
+      ],
+      "reason": "Idle on Dean's Walk, explicitly incomplete; failed remote worker matches verified quota hold; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "mortlake-manor",
+      "session_id": "mortlake-manor-e0475539fe",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "mortlake-manor-e0475539fe:e00355"
+      ],
+      "reason": "Idle after taking saw; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "session_id": "mulldoon-legacy-7080420221",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "mulldoon-legacy-7080420221:e00143"
+      ],
+      "reason": "Idle at parser disambiguation; no local launcher consistent with quota-hold-disabled local pool; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "mystery-fun-house",
+      "session_id": "mystery-fun-house-61d87e14cd",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "mystery-fun-house-61d87e14cd:e00027"
+      ],
+      "reason": "Idle at Scott Adams prompt; no local launcher under quota-hold-disabled pool; retained slot; no pending requests; evidence retained.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "not-just-a-game",
+      "session_id": "not-just-a-game-8201b5a6d4",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "not-just-a-game-8201b5a6d4:e00408"
+      ],
+      "reason": "Idle after board reset, incomplete; failed remote worker matches verified quota failure; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "only-after-dark",
+      "session_id": "only-after-dark-612a20ec77",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "only-after-dark-612a20ec77:e00085",
+        "only-after-dark-612a20ec77:e00121"
+      ],
+      "reason": "Unverified claim e00121 on b4 cites e00085 on b2: '*** You have won ***' with terminal menu; branch mismatch between finale and claim needs parent provenance review; worker finished exit 0.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "punk-points",
+      "session_id": "punk-points-7c2d72a183",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "punk-points-7c2d72a183:e00009"
+      ],
+      "reason": "Idle in Your Room, early game; no local launcher consistent with quota-hold-disabled pool; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "pythos-mask-a39eb2af1a:e00004"
+      ],
+      "reason": "Supervisor hold preserved: startup MORE empty-output timeout, m0003 resolved as e00004 no_output_timeout, no pending requests; diagnosis on file; no input, replay or reset proposed; also under provider quota hold; slot retained.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "normal"
+    },
+    {
+      "game_id": "return-to-karn",
+      "session_id": "return-to-karn-bf86b7da19",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "return-to-karn-bf86b7da19:e00709"
+      ],
+      "reason": "Idle after checkpoint save, incomplete; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "schooldays",
+      "session_id": "schooldays-b371c6a97d",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "schooldays-b371c6a97d:e00419"
+      ],
+      "reason": "Idle at Queen and Yonge, explicitly incomplete; no ending claim; unverified '[GAME OVER]' route label is untrusted note only, not observed terminal output; failed remote worker matches quota hold.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "spider-and-web",
+      "session_id": "spider-and-web-e5197766e3",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "spider-and-web-e5197766e3:e00781",
+        "spider-and-web-e5197766e3:e00801"
+      ],
+      "reason": "Unverified claim e00801 on b20 cites e00781 on b19: '*** You have made a difference ***' with terminal menu; intervening b20 ordinary output e00799 precedes claim; parent must verify branch continuity and concluding text.",
+      "next_action": "parent_verify_ending",
+      "confidence": "medium",
+      "priority": "normal"
+    },
+    {
+      "game_id": "spiritwrak",
+      "session_id": "spiritwrak-8e02d83255",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "spiritwrak-8e02d83255:e00640"
+      ],
+      "reason": "Idle at Farm, explicitly incomplete, no finish evidence; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "teacher-feature",
+      "session_id": "teacher-feature-8ddda176d1",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "teacher-feature-8ddda176d1:e00122"
+      ],
+      "reason": "Idle after NPC non-response; no local launcher consistent with quota-hold-disabled local pool; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "time-all-things-come-to-an-end-fad9ab092f:e00382"
+      ],
+      "reason": "Idle mid-dialogue peril scene; no local launcher under quota-hold-disabled pool; retained slot; no pending requests; evidence retained.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "varicella",
+      "session_id": "varicella-0ca3ff14a0",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "varicella-0ca3ff14a0:e00340"
+      ],
+      "reason": "Idle in throne area, no authored ending observed; failed remote worker matches verified quota failure; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "windhall",
+      "session_id": "windhall-ec1287a533",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "windhall-ec1287a533:e01088"
+      ],
+      "reason": "Idle after failed get; no local launcher consistent with quota-hold-disabled local pool; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    },
+    {
+      "game_id": "zorkian-stories-1-gue",
+      "session_id": "zorkian-stories-1-gue-6ffd9e5043",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "zorkian-stories-1-gue-6ffd9e5043:e00025"
+      ],
+      "reason": "Idle at locked gate, early game; failed remote worker consistent with verified quota outage; retained slot; no pending requests.",
+      "next_action": "preserve_hold",
+      "confidence": "high",
+      "priority": "low"
+    }
+  ],
+  "capacity": {
+    "active_local": 0,
+    "active_remote": 0,
+    "held_slots": 1,
+    "target": 34,
+    "another_launch_justified": false,
+    "note": "Zero active clients observed locally and remotely, matching the parent-verified all-33-quota-failed receipt; 33 retained slots remain owned, one explicit supervisor hold (pythos-mask); provider quota hold active with parent-only resume after reset 2026-09-25T12:41:27Z, which is not permission to resume; counts below nominal but parent owns capacity and schedulers; no manual launch; existing refill/scheduler settings left unchanged."
+  },
+  "recommendation": "Outstanding parent work: independently verify four unverified ending claims — bicon (e00306 explicit win, 10/10), i-0 (e00263 'Thanks for playing' only; authored-ending sufficiency uncertain), only-after-dark (e00085 win on b2 vs claim on b4), spider-and-web (e00781 finale on b19 vs claim on b20 after ordinary output e00799). Everything else is blocked by the parent-verified Meta provider quota hold: all 33 retained games stay held; failed remote workers and absent local launchers match the verified outage, not new failures; no blind retries. Parent alone reviews reset evidence after 2026-09-25T12:41:27Z, then one canary. pythos-mask supervisor hold preserved; no input proposed. No launches; scheduler settings untouched."
+}

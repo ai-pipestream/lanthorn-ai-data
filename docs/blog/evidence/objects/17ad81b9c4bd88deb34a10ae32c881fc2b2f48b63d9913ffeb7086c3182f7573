@@ -1,0 +1,15 @@
+# Pentari — collection progress
+
+Game: pentari (Z5 R6/030206). Route target: emerald/box conclusion, nobody else in room, 60/70 intentional.
+Branch: b0, session pentari-63be930153.
+
+Location: Library (mansion). Score 5.
+Present: wizard Morden (silent so far), a copy of The Legends and Lore of Pentari.
+Exits: west back to Entrance Hall (arch); rest unexplored (staircase north in hall).
+Inventory as observed: fine Pentarian sword.
+Checkpoints: start-quarters, entrance-hall. Both verified Ok.
+Cases:
+- Annotated: read-book-ambiguous (accepted paraphrase, failure_type none, e00020-21).
+- Open: talk-wizard-synonym — 'talk to wizard' rejected (verb unknown, e00023); 'ask morden about transporter' parsed but 'No reply' (e00025). Help requested twice (m0021: endings excerpt; m0023 pending refined dialogue topic).
+Last hint (walkthrough, NOT observed): three endings involve Fwoosh spell / elf / Morden combat / emerald on box; target route is emerald on box with nobody else in room.
+Next: read m0023 hint; decide whether to pursue Morden dialogue or explore (hall staircase, take book, look up topics in tome).

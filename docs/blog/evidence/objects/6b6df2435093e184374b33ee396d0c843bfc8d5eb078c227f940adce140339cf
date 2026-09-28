@@ -1,0 +1,27 @@
+{
+  "game_id": "windhall",
+  "title": "The Windhall Chronicles, Volume One: The Path to Fortune",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/windhal1.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/windhall-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/windhall.step",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Ordinary terminal death is failure; distinguish explicitly authored intermediate death/loop transitions. Follow the complete town, wizard trials, nymph, temple and hidden crossbow route through the final dragon confrontation and require the actual authored concluding narrative. The guide finishes the route at the dragon and then prints FULL/200 points; neither FULL, score alone nor guide prose proves completion. A completed wizard test, sleep cycle or temple subquest is not the ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/windhall.json",
+  "story_sha256_expected": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "windhall",
+  "collection_notes": "# The Windhall Chronicles, Volume One: The Path to Fortune\n\nStory Z8 R5/960828. Local Z8 R5/960828 matches archive bytes and catalog. Paul J. Godfrey guide explicitly targets release 3, with no serial; preserve the two-release gap. Its work-around concerns a release-3 sleep bug and is not evidence that release 5 has that bug. Full Volume One guide reaches the final dragon route; no unavailable preview was selected.\n\nFollow the complete town, wizard trials, nymph, temple and hidden crossbow route through the final dragon confrontation and require the actual authored concluding narrative. The guide finishes the route at the dragon and then prints FULL/200 points; neither FULL, score alone nor guide prose proves completion. A completed wizard test, sleep cycle or temple subquest is not the ending.\n\nNPC waking/sleeping and temple events are clock-sensitive. Use observed release-5 timing, checkpoints before commitments, and small help excerpts. The release-3 sleep work-around is conditional advice: do not blindly force repeated sleep cycles. Period/comma-separated guide lines contain multiple actions; split and observe near hazards. Generic fantasy spells do not establish Enchanter/Zork identity.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "960828",
+  "session_id": "windhall-ec1287a533",
+  "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+  "started_at": "2026-09-25T08:17:49.287929+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

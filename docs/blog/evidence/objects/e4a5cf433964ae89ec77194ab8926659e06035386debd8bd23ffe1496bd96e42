@@ -1,0 +1,53 @@
+{
+  "at": "2026-09-25T08:12:26.316671+00:00",
+  "game_id": "the-edifice",
+  "events": [
+    {
+      "event_id": "the-edifice-79519f86df:e00819",
+      "timestamp": "2026-09-25T08:04:12.681450+00:00",
+      "game_id": "the-edifice",
+      "session_id": "the-edifice-79519f86df",
+      "branch_id": "b1",
+      "event_index": 819,
+      "event_type": "command",
+      "command": "score",
+      "response": "You have visited three levels of the Edifice and solved all of them.  You are \nvery content.\n\n>",
+      "raw_start": 175665,
+      "raw_end": 175760,
+      "response_sha256": "b1955667cfb6e9f9c2992f0d4493a5dbe46040b24d509c0237d82c71c0305bba",
+      "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "b1-final-18",
+        "expected_outcome": "Visited three, solved all three",
+        "intent": "Verify all three levels solved",
+        "origin": "recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "the-edifice-79519f86df:e00829",
+      "timestamp": "2026-09-25T08:04:55.241874+00:00",
+      "game_id": "the-edifice",
+      "session_id": "the-edifice-79519f86df",
+      "branch_id": "b1",
+      "event_index": 829,
+      "event_type": "command",
+      "command": "west",
+      "response": "\nYou feel a tingling sensation and your features seem to alter as you pass \nthrough the door.\n\nAt the Edifice\nHere, in the forest where you have spent your entire life, stands a huge \nEdifice, reaching into the clouds high above you.\n\nThe Others are here, doing typically boring things.\n\nIn the distance, your Enemies search for easier prey.\n\nAs you pass through the doorway, there is a rumble behind you. You turn to see \nthe recess filled with stone again! You bang on it with Rock, but nothing seems \nto happen this time. As you step back, a fleeting memory from inside the \nEdifice tells you that the irregularities above the recess spell, \"HISTORY\", \nbut then the memory disappears, and the irregularities just look like odd \nshapes again. \"Oh, well,\" you think as you turn away. \"At least it didn't try \nto eat me.\"\n\n\n    *** You have returned to your roots. ***\n\n\nYou had visited three levels of the Edifice and solved all of them.  You were \nvery content at the end of the game.\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT?\n> ",
+      "raw_start": 179450,
+      "raw_end": 180518,
+      "response_sha256": "9ffb88a8ea84ffd3993640b287c3b6a03bf9b03c64b662f1978755941fa86a96",
+      "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "b1-final-18",
+        "expected_outcome": "Through the recess; the last door or a changed outside",
+        "intent": "Go west through the recess",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Three levels solved score is supporting context; WEST yields substantive return-to-roots/HISTORY sealed-recess authored finale and explicit end-of-game menu. Parent raw/text/hash verified; independent review pending."
+}

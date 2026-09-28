@@ -1,0 +1,12 @@
+# BiCon progress (update 9 - WIN, 10/10, game complete)
+
+Location: Won. Dark Canada room, door closed, Phoenix kissed. End prompt RESTART/RESTORE/AMUSING/QUIT/UNDO.
+Last: Bare 'kiss' won e00304, UNDO e00305, explicit 'kiss phoenix' won e00306. Score 10/10 in 203 turns.
+Inventory last known (pre-win): colourful bag+shiny, phone, backpack (kit+timetable), badge, costume worn, flat key. Day clothes left in bedroom. Verify via restore if needed.
+Checkpoints: start-argentina, britain-picnic, denmark-after-fizzbuzz, reception-arrival, denmark-ice-broken, reception-shiny-dropped, lawn-after-pizza, flat-arrival, costume-on, canada-dark (all ok).
+
+Cases: 21 read-message none, 22 get-key world_state, 23 show-message none, 24 open-door world_state, 25 examine-bed none, 26 closet vocabulary, 27 open-bare syntax, 28 pull-wardobe-typo syntax, 29 lubricate none, 30 use-lube vocabulary, 31 takeoff-clothes none, 32 take-costume none, 33 puton-costume none, 34 talk-phoenix syntax, 35 ask-dance none, 36 hug-phoenix none, 37 shut-door none, 38 quiet-flatmates syntax, 39 kiss-bare none. Total ~39 cases (20 prior + 19 new). All annotated.
+
+Last hint e00293 lines 197-205 done through kiss/close/kiss. Route complete: pizza, key, costume, ball, Phoenix follow, flat noisy, Denmark daylight, Canada dark kiss win.
+
+Next: finish with e00304/e00306 evidence. No further moves. Game complete, not death/quitting.

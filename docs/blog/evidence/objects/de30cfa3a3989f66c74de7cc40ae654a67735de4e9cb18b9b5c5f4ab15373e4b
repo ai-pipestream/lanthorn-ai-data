@@ -1,0 +1,10 @@
+# Mansion progress (continuation seg 2, IN PROGRESS)
+
+Location: Outside Brick Building (metal door UNLOCKED, not yet opened). Branch b1. Score 28.
+Inventory (observed): hands: net(frog recaptured), skeleton key, rusty key; bag: red torch (grey battery), spanner, spinach, tweezers, needle, lavender, packet(seeds), plate, straw, floorboard. Tin (empty, opened) on Games Room snooker table. Skull lantern + candle left in Attic. Knife + saucepan on kitchen table. Yellow torch in closed car.
+Checkpoints: drive-car-closed (e00628-29); attic-brookes-present (e00641-42); + prior: pre-torch-swap, skull-lantern, secret-basement-skull, pre-wade-search.
+
+Walkthrough position: lines 107-133 DONE except 134+ not yet seen; ALSO lines 49-57 now DONE late (tin ritual: give tin to Brookes, spiders, +10, get rusty key, +1). SUSPECT lines 58-70 were skipped by earlier segment (13 lines Bottom-of-Stairs to Front Drive; only ~3 are movement) — MUST review via mode=next (last excerpt was 49-57, so next gives 58-66) before assuming route is clean. Forward: open metal door, explore brick interior, then targeted help to rejoin 134+.
+Key facts learned: (a) 'put skull on floor' fails while carrying floorboard (parser picks floorboard) — use 'drop skull'. (b) Brookes attic scare: take skull triggers entry; call brookes + torch death = flees (+10, score 17). (c) Tin cannot be opened by player (spider fear, permanent) — Brookes must wrench it open. (d) Frog recapture trick still works (drop net/get frog/get net). (e) Skeleton key does NOT fit brick door; rusty key (from tin) does.
+Cases this segment (8): syn-skull-outofbag ambiguity e00639-40; syn-skull-place-ground vocab e00643/e00645; route-skull-drop natural ambiguity e00644-45; syn-wait-z none e00651; syn-unlock-nokey syntax e00672/e00707; syn-unlock-whichkey ambiguity e00706-07; syn-tin-pickup none e00679. Unresolved: syn-jar-pickles (old); none new pending.
+Next: open door, enter brick building, look, checkpoint brick-open; help mode=next for 58-66 review; then rejoin forward route.

@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Refresh CSV snapshots while the authorized game collection is active."""
+from pathlib import Path
+import subprocess
+import time
+root=Path(__file__).resolve().parent.parent
+node='/home/krickert/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node'
+end=time.monotonic()+3*3600
+while time.monotonic()<end and not (root/'control'/'stop-exports').exists():
+    result=subprocess.run([node,str(root/'scripts/export_dataset.mjs')],cwd=root,capture_output=True,text=True,timeout=60)
+    (root/'exports'/'refresh.log').write_text(result.stdout+result.stderr)
+    if result.returncode:raise SystemExit(result.returncode)
+    time.sleep(45)

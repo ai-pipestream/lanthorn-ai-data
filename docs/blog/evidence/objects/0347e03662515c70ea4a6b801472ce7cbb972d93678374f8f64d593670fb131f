@@ -1,0 +1,6 @@
+{
+  "pid": 744325,
+  "log": "runs/kimi-coordinator-20260925T1000.log",
+  "status": "corrected_profile_fresh_cycle_pending",
+  "prior_watcher_stopped_on_validation_failure": true
+}

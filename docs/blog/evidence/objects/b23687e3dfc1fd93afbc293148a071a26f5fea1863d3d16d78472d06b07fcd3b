@@ -1,0 +1,50 @@
+{
+  "at": "2026-09-25T08:28:00.739485+00:00",
+  "games": [
+    {
+      "game_id": "augmented-fourth",
+      "story_sha256": "a7016f767897fe35e6b533050cd67d7da3ebd2a1ea5c4d770b79aeef2668c41c",
+      "guide_sha256": "09d6c192feeb16c5eab71b3e5de033b2c4accf2f187f6abe5b5e9b749d8b30dc",
+      "release": 4,
+      "serial": "200401",
+      "engine": "zvm-cli",
+      "family": "augmented-fourth",
+      "split": "train",
+      "compatibility": "Author guide archive explicitly targets release 4, matching Z8 R4/200401. HTML copyright spans 2000\u20132020, but no target serial is stated. Exact command compatibility and finale are untested."
+    },
+    {
+      "game_id": "pythos-mask",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "guide_sha256": "6d04a5ad592df7a9d79ce4d505228cf3271e96ac26cf8ce645549907b59ff132",
+      "release": 4,
+      "serial": "020223",
+      "engine": "gvm-cli",
+      "family": "pythos-mask",
+      "split": "train",
+      "compatibility": "Local Glulx Inform identification is R4/020223, matching the archive. Author walkthrough identifies the game but gives no release, serial or target VM. A Z-code edition also exists; this selection is explicitly the local Glulx release, with cross-format guide applicability untested."
+    },
+    {
+      "game_id": "alias-the-magpie",
+      "story_sha256": "d2bc0863ed5d7dae820a9b4705ea00a2b1b943970f3893167a2b1c87e787842f",
+      "guide_sha256": "2e88d3d04d8c0364d76d1669b6e7413f05ffdbc14814adb1f31f3071a6dc45c0",
+      "release": 5,
+      "serial": "220210",
+      "engine": "gvm-cli",
+      "family": "alias-the-magpie",
+      "split": "train",
+      "compatibility": "Local bundle is byte-identical to current archive bundle. Extracted Glulx Inform R5/220210 agrees with embedded metadata and archive. Guide is co-packaged with that release, but does not independently state a target release/serial; co-packaging is provenance, not a runtime compatibility claim."
+    },
+    {
+      "game_id": "a-remote-problem",
+      "story_sha256": "4443f056c00fcea12eb68bf97dbe235a1e3d8901b7ceb3228453c9c763f26b73",
+      "guide_sha256": "e13f7c32c8d1b8108c9dad67c0a7249fd8c747d14e4e1b5c8ad606f3dec803fc",
+      "release": 3,
+      "serial": "250920",
+      "engine": "gvm-cli",
+      "family": "a-remote-problem",
+      "split": "train",
+      "compatibility": "Local bundle is byte-identical to archive bundle. Extracted Glulx Inform R3/250920 agrees with embedded metadata and archive. Guide comes in the same distribution but states no target release/serial. No silent replacement with earlier releases; runtime behavior remains untested."
+    }
+  ],
+  "status": "parent actualstory/executable/header/localarchivebytes/guidecontainer/raw/normalizedtokens/family checked; registered; runtime unproven"
+}

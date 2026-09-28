@@ -1,0 +1,7 @@
+# Curses progress — SEGMENT 3 MID (incomplete, branch b4)
+
+Branch b4, Score 27/550 Turns 295 Servant's Room on bed. Checkpoint calendar-feb OK (Feb yellowish Merlyn's Hat). Also library-storage, servant-room, jemima-lair, cellar-west, history-lookups, garage-tools, mosaic-ball, family-tree.
+Inventory (e00398): scarf, mask worn, rucksack(spade, weed, ball, painting, key, wishbone, map), gloves worn, torch (lit), dictionary, History II. Wrench in Cellars.
+Findings: Premonition one-time consumed via wrong order (sleep before teachest): SW Camp Fire, E Near Dolmen blue stone, woke. Second sleep only dozes. Walkthrough order is W,S examine teachest, look inside, E lie down sleep, E,N take mascot, hear lagach, drop mascot, S,W,SW,E get up, take dictionary/scarf, W,S take all from cupboard, open parcel, N,N,W calendar Feb, W give chocolates, remove mask, say yellow. Parcel/chocolates still missing; airing cupboard south of lair has only sheets, no parcel — parcel is post-mascot cupboard. Potting Room Jemima present, daisy chains.
+Cases: 50 annotated (+1 seg3 potting-go-destination vocab). Probes m0336-m0349 verified; hints walkthrough_not_player_observed.
+Next: Restore library-storage.sav (pre-dream b3) to new branch b5, redo W,S teachest, E sleep, E,N mascot lagach correctly without repeating SW dolmen. Then parcel, calendar re-flip, Jemima chocolates/yellow. Conserve torch. No winning ending seen.

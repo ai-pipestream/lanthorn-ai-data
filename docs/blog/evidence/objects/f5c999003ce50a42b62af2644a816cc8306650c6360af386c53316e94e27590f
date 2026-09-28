@@ -1,0 +1,113 @@
+{
+  "verified_at": "2026-09-25T05:29:52.064358+00:00",
+  "events": [
+    {
+      "event_id": "change-in-weather-3ff9a98393:e00001",
+      "timestamp": "2026-09-25T05:28:06.489027+00:00",
+      "game_id": "change-in-weather",
+      "session_id": "change-in-weather-3ff9a98393",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\nWaiting on the shore; sand yields beneath my feet\nThe water shouts and roars and rushes\nAnd breaks on the rocks, and\nNever comes near to where I wait.\n\n\n\n\n[Hit any key.] \n",
+      "raw_start": 0,
+      "raw_end": 174,
+      "response_sha256": "824dfd6b300615af7a4f2c33d85b312903d7df47e4a49a288dd2e42358db281b",
+      "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "change-in-weather-3ff9a98393:e00002",
+      "timestamp": "2026-09-25T05:28:27.815251+00:00",
+      "game_id": "change-in-weather",
+      "session_id": "change-in-weather-3ff9a98393",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "",
+      "response": "\n\nThe picnic is going full blast, which is exactly why you've wandered away from \nit. It's not that you don't like your new companions; it's just that after \nweeks of spending each day around them, a noisy weekend cook-out isn't the way \nto relax. Some exploration -- on your own -- is an appealing thought.\n\nNone of them noticed you drifting away, anyhow.\n\n\nA CHANGE IN THE WEATHER\nAn Interactive Short Story\nCopyright 1995-6 by Andrew Plotkin. Please copy and play freely.\n(First-time players should type \"about\".)\nRelease 6 / Serial number 960613 / Inform v1405 Library 5/8\n\nEdge Of Meadow\nThe grasses are fragrant under the sunshine of a late, late summer afternoon. A \nstream chatters by at your feet, and a weathered old wooden bridge stretches \nacross it to the east. Beyond the stream, a scrubby hillside stretches upward.\n\nThe shouts of the volleyball players and the boom-box thump are pleasantly far \noff to the west.\n\n>",
+      "raw_start": 174,
+      "raw_end": 1105,
+      "response_sha256": "d70748f569fef3756cc9c47e3102da09834efd63ca732a7515346a5ce9127e8f",
+      "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-start",
+        "intent": "Press key to advance past title poem",
+        "origin": "exploration",
+        "expected_outcome": "Story introduction or first room"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "change-in-weather-3ff9a98393:e00003",
+      "timestamp": "2026-09-25T05:28:33.222473+00:00",
+      "game_id": "change-in-weather",
+      "session_id": "change-in-weather-3ff9a98393",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1105,
+      "raw_end": 1119,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-meadow"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "change-in-weather-3ff9a98393:e00004",
+      "timestamp": "2026-09-25T05:28:33.523560+00:00",
+      "game_id": "change-in-weather",
+      "session_id": "change-in-weather-3ff9a98393",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "checkpoint_filename",
+      "command": "start-meadow.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/change-in-weather/saves/weather.z5.save/start-meadow.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1119,
+      "raw_end": 1246,
+      "response_sha256": "594aa1d4b435b8cea9083cd9758002392f29bb6164b47d2805a475bd45c23a56",
+      "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "name": "start-meadow"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "change-in-weather-3ff9a98393:e00005",
+      "timestamp": "2026-09-25T05:28:40.283430+00:00",
+      "game_id": "change-in-weather",
+      "session_id": "change-in-weather-3ff9a98393",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "about",
+      "response": "A CHANGE IN THE WEATHER is copyright 1995-6 by Andrew Plotkin. It may be \ncopied, distributed, and played freely.\n\nThe original version of this game contained brief quotations from the songs of \nEric Bogle, given with credit but without permission. A small sin, perhaps, but \none I have decided to repair. This version contains nothing that is not my own. \nHowever, if you wish to enhance the mood, find Eric Bogle's album entitled \nSomething Of Value (Rounder Records, Philo C-PH-1125). Listen to \"A Change in \nthe Weather\" as you begin playing the game, and \"Katie and the Dreamtime Land\" \nwhen you finish.\n\nA CHANGE IN THE WEATHER is a cruel game, by the Zarfian Interactive Fiction \nRating System. Any choice you make may be a wrong choice, and you may not \ndiscover it was wrong until later; and not choosing is always a choice. Timing \nmay be critical. Save often and keep your old saved games.\n\nThis game was created using the Inform adventure development system, which was \ncreated by Graham Nelson. You can get Inform, as well as other text adventures, \nfrom the Interactive Fiction archive:\n   ftp://ftp.gmd.de/if-archive/\n\nBeta-testing and other helpful comments: Chad Anderson, Richard Barnett, Laurel \nHalbany, Galen Hazelwood, Walker Andrew John, Michael Kinyon, Gareth Rees, \nMarkku Yli-Pentila.\n\n>",
+      "raw_start": 1246,
+      "raw_end": 2559,
+      "response_sha256": "8689ba07dcfaaccf6a31172f9e741a49921e69f9cf41c38a92f396aa44d28d25",
+      "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-about",
+        "intent": "Read introductory about text",
+        "origin": "exploration",
+        "expected_outcome": "Game background info"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hashes_verified": true,
+  "verdict": "Observed R6/960613 after empty key; early save acknowledged. Guide matches header."
+}

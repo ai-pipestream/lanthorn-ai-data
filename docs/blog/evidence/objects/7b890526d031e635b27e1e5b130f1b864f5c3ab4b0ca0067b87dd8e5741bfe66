@@ -1,0 +1,6 @@
+{
+  "valid": false,
+  "status": "provider_failed",
+  "parent_semantic_review_required": true,
+  "actions_executed": []
+}

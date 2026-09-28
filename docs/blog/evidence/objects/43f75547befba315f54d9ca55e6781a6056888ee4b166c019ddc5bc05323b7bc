@@ -1,0 +1,25 @@
+{
+  "event_id": "bse-ec63f1779d:e00380",
+  "timestamp": "2026-09-25T09:01:13.700770+00:00",
+  "game_id": "bse",
+  "session_id": "bse-ec63f1779d",
+  "branch_id": "b0",
+  "event_index": 380,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 79162,
+  "raw_end": 79162,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "bse-ec63f1779d",
+    "ending_quote": "The barn collapses behind you in a cloud of dust. You have rescued humanity \nfrom Satan and also saved your own skin.\n\n\n    *** You have won ***\n\n\nIn that game you scored 60 out of a possible 60, in 207 turns, earning you the \nrank of Saviour of the World.",
+    "evidence_event_ids": [
+      "bse-ec63f1779d:e00378"
+    ],
+    "notes": "Completed farm/laboratory investigation, killed demonic Denzil with silver pistol (Score 52), timed retreat NE NE SW D W to farmyard safety, final west Barn->Farmyard triggered authored win with 60/60 Saviour rank. Not death, quitting, chapter transition, or FULL/AMUSING alone."
+  },
+  "review_status": "unreviewed"
+}

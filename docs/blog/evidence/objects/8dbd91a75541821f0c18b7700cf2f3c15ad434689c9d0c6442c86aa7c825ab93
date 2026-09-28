@@ -1,0 +1,22 @@
+# So Far — progress (branch b23) — STOP: step budget; dark arrival thud-attached
+
+STATE: Dark arrival room (e01292, b23), thud attached (envelops), chord dead (5th banish), blanket WORN. Checkpoint arrival-thud-b23 saved HERE (ordinary prompt, verified). Glass-noise + silent areas STILL UNFOUND after exhaustive 4-branch sweep. Game INCOMPLETE — honest stop, no ending reached.
+
+INVENTORY: casket, key, blanket (worn), pod, chip, square (ordinary ceramic, cool), knife, jar, box.
+
+DARK MECHANICS (all verified b23, R6/961218):
+- follow X + directional sound = move; + nearby sound (thud/bubbling) = ATTACH (exclusive, first-wins).
+- Mutual exclusion PROVEN both ways: bubbling-first blocks thud (e01202) AND thud-first blocks bubbling (e01282).
+- OUT = detach ("step to one side, leaving X behind", e01288); re-follow works from any room where left (e01290 arrival).
+- Chord ("killer") re-forms on wailing visits; sing=weaken, sing-to-box=banish; left loud it escalates painfully->agonizingly (no shatter benefit; walkthrough right to kill it).
+- Wings = random ambience (wait tested, nothing lands). follow wings rejected (not an object, e01283; batch halted, 3 queued unsent — batch-stop-on-rejection observed).
+- Barriers unconditional (thud+chord-dead+blanket-on/off all hold): rap/rap-blow, teeth (bells), silver (plopping ring), drip (plopping NE), shriek (wailing E/NW, glass-edged), abyss (rumble x6), freeze (hiss E x5, surge/cease ambient not windows), beasts (hiss NE).
+- Dead probes: follow plopping/plipping/rapping (diffuse); listen bare/specific (flavor only); tap/knock/hit box (notes only); tap disc (clack); touch ground/square; enter silence; rumble-down/plop-down (solid); wait for wings.
+
+FRESH LEADS (untested, for continuation): (1) pedestal PIN — pull/take pin, press map parts, wire melodies, chime-then-shadow timing (BUT dark exit unknown: out=detach not exit; search exit first); (2) item verbs in dark (open/hit/tap jar/pod/chip/key/knife/casket); (3) 'leave' as OUT synonym (repair-case); (4) climb/crawl/jump; (5) possible R5/R6 glass-entry difference.
+
+CASES: 25 annotated total (5 this segment: disc ambiguity e01162>63; ring/hit e01170>71; pluck/hit e01176>78; enter pole/shadow e01190>92; thud world-state cross-branch e01202>224). Target 20-40: on track.
+
+SUPERVISOR: m0938 malformed (trailing ]) never repaired; SUPERSEDED by m0951 (lines 47-55 received) — no action needed. Hints now cover through step 16 (shape plane). No help pending.
+
+CHECKPOINTS: arrival-thud-b23 (CURRENT BASE, b23); thud-attuned-b23 (rumble, blanket unworn); dark-arrival-b22 (pre-attune); pedestal-found-b22 (park); shady-park-b20; wailing-thud-b20; violet-saddled-b19. NO pending (m1000 answered e01292). Resume: restore arrival-thud-b23 (or continue in place), then fresh leads above.

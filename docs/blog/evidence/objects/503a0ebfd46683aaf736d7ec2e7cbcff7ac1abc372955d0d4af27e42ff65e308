@@ -1,0 +1,10 @@
+# Delusions progress — CONTINUATION CHECKPOINT (segment 1 ended at step budget)
+
+Location: Steel Corridor (W of VR Lab). Score 10/50. Branch b8, event e00260.
+Inventory (carried): power X-Acto knife, gelstrip, antitoxin caplet, hypodermic syringe (auto-taken e00236, injection still unneeded).
+Staged in Your Quarters: electromagnet (ON, new coupler), Giger painting, lightstick (cooled), tongs. In alcove: amp on shelf (fader 10, violin plugged in), pillow, bow, violin.
+Checkpoints (all verified): start-reef, lab-after-reef-death, shallows-gravel, anemones-distracted, grotto-safe, shark-evaded, lab-after-reef-win, run3-reef-start, lab-hub-map, quarters-staged.
+Cases: 27 annotated. OPEN pair: corridor-knock — probe 'knock' (e00260) prompted 'What do you want to knock on?'; recovery 'knock on door' NOT yet sent. Also open: quarters-inject (timed; 'don't need to yet' at 3921 and 4575).
+Map: lab N=Output Station(Cray) S=MedLab E=Factory Storage(dark/switch/curtain-android/bins-magnet) W=Steel Corridor(S-doorway unmapped,W=Shimada door knock-first,N=elevator) NE=Kitchenette NW=Cynthia's SW=Justy's SE=Your Quarters(door open) D-steps unmapped.
+Key R4 findings: reef hole always exits run; magnet ON makes run-2 reef waver but same exit; shark lured via D,U then W,W,W to sandbar; snake side random; grotto S=anglerfish death; sandbar W=beach stranding.
+Next actions: 1) send 'knock on office door' for corridor-knock, annotate. 2) map S-doorway, elevator, D-steps. 3) probe walkthrough late game via new topics (mode next loops to lines 71-79). 4) retry insulin when symptoms/time; find overload trigger for run 3+.

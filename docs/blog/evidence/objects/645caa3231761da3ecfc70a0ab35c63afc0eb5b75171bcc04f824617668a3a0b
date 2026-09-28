@@ -1,0 +1,9 @@
+# Asylum progress
+
+Location: starting room. Closet open, shelf/globe open, desk drawer open/searched.
+Inventory as observed: brass key, wooden key, hammer, black key (just taken e00036).
+Checkpoints: start-safe, after-closet, before-glass (all verified).
+Last hint (e00005): through search drawer — all verified. Need next excerpt for wooden box onward (nested keys/tools to breached wall and exit).
+Unresolved: start-box-01 (open box locked e00004), drawer-unlock-01 probe (unlock drawer w/o key -> asked which key e00027, fixed e00028), blackkey typo (blak e00035 -> black e00036).
+Annotated: start-mat-02 only. Still to annotate: closet-unlock accepted, closet-key accepted, shelf-open->globe, hammer grab->get, drawer unlock pair, glass take/smash accepted, blackkey typo pair, plus world_state box/drawer/closet locks.
+Next: unlock/open wooden box with black key, then follow tools to weak wall exit. Need small next hint after box.

@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-25T08:57:19.200358+00:00",
+  "games": [
+    {
+      "game_id": "busted",
+      "story_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+      "guide_sha256": "42f1c1d73ef61345be843ab5595418bf10487bb9d1cf02fbbbae9ac9457717e3",
+      "release": 4,
+      "serial": "941223",
+      "engine": "zvm-cli",
+      "family": "busted",
+      "split": "train",
+      "compatibility": "Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.",
+      "archive_bytes_rechecked": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "earth-and-sky-episode-1",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "guide_sha256": "ebb67343f1a4bd540fec95f3af3d63306dad094705983954ac8fe9dd8a59c1dc",
+      "release": 2,
+      "serial": "011204",
+      "engine": "zvm-cli",
+      "family": "earth-and-sky",
+      "split": "train",
+      "compatibility": "Local eas.zip matches archive bytes, and extracted Eas.z5 is Z5 R2/011204; bundled author readme explicitly identifies release 2. Author walkthrough supplies no release/serial and was archived 2001-11-21 before release 2; preserve unspecified compatibility, likely earlier-edition guidance. This is a released complete first episode with its own finale, not an unavailable preview. Later episodes are separate games in the same family.",
+      "archive_bytes_rechecked": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "baltimore-24",
+      "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+      "guide_sha256": "283a95a4728cd03d49727997ea6f8ae53945877ab2de3e3101700d25833028b6",
+      "release": 2,
+      "serial": "970706",
+      "engine": "zvm-cli",
+      "family": "baltimore-24",
+      "split": "train",
+      "compatibility": "Local balt24.zip matches archive bytes; extracted BALT.Z5 is Z5 R2/970706, matching the catalog. The James Mullish guide identifies the 1997 game but gives no release/serial; exact guide version remains unspecified. Bundled readme describes a short complete game, not a preview. Pin ZIP and story separately.",
+      "archive_bytes_rechecked": true,
+      "normalization_reproduced": true
+    },
+    {
+      "game_id": "mulldoon-legacy",
+      "story_sha256": "102bce2e12d97644e3fb317dfdb582cb2aac6f28892e5110a332e52af3742e0f",
+      "guide_sha256": "bc20163d92947b5ca36e5b03569ddd3f09d3b91ad60e8cfd488af078dc18162c",
+      "release": 6,
+      "serial": "000724",
+      "engine": "zvm-cli",
+      "family": "mulldoon",
+      "split": "train",
+      "compatibility": "Local Z8 R6/000724 matches archive bytes/catalog. Main guide explicitly targets release 2 without a serial: retain the four-release gap. D.J. Picton's 2002-04-19 marble-maze correction explicitly says tested for release 6, without serial. The prepared normalized guide replaces only the complete marble-maze section with that correction; both originals, LF-only versions, assembly recipe and hashes are retained. Other release-2 sections remain unverified against R6.",
+      "archive_bytes_rechecked": true,
+      "normalization_reproduced": true
+    }
+  ],
+  "status": "parent local/archive/container/member/header/checksum/source raw-normalized hash and exact assembly/family checked; registered before remaining I; runtime unproven"
+}

@@ -1,0 +1,25 @@
+{
+  "event_id": "tube-trouble-1b2d95be53:e00144",
+  "timestamp": "2026-09-25T06:53:32.506426+00:00",
+  "game_id": "tube-trouble",
+  "session_id": "tube-trouble-1b2d95be53",
+  "branch_id": "b0",
+  "event_index": 144,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 12197,
+  "raw_end": 12197,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ede1e3571bc16da5c27ca48f38b95f4afcb2c71da1c6be7d835750f760609c33",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "tube-trouble-1b2d95be53",
+    "ending_quote": "You stuff the delicious chocolate into your mouth. At last your hunger has been \nsatisfied.\n\n\n    *** You have won ***\n\n\nIn that game you scored 1 out of a possible 1, in 70 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n[Score 1, up 1]\n> ",
+    "evidence_event_ids": [
+      "tube-trouble-1b2d95be53:e00139"
+    ],
+    "notes": "Completed vending/hat/train sequence then ate chocolate aboard train for 1/1 win with *** You have won ***. Author-intended concluding narrative, not death, chapter change, or quitting; merely boarding was insufficient alone."
+  },
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,35 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T04:52:59.271160+00:00. Synthetic test data only. Fixed selection cutoff: 2026-09-25T04:44:28.626378+00:00. Reviewer issued no game commands or launches and changed only the three owned review files.
+
+1402 unique exported annotations: 964 accepted, 292 revise, 55 quarantine, 91 unreviewed under exact endpoint-set matching. This bounded pass reviews80:65 accepted,12 revise,3 quarantine across10games. All160 endpoint references and611 nearby/intervening events passed raw byte-span SHA256/text checks. No selected recorded branch/session mismatch, intervening broker restore or timeout found. Spider contains story-native rewinds despite unchanged b0. Historical transport quarantine remains. CSV status can lag the owned review file.
+
+## Case findings
+
+Quarantine Anchorhead e00161: original peek-through-keyhole intent changes into taking a key; newspaper/opener extraction is a separate plan. Quarantine So Far e00112: westward approach becomes eastward retreat despite intent-preserved yes. Quarantine Spider e00421: WALZ/WALTZ straddle interrogation rewind e265-266 and rebuilt equipment e267-271; blue flash alone does not verify switched-off cover.
+
+Spider e00423 needs revision: first GO EAST already enters the office but alarms; subsequent quiet entry follows multiple narrative rewinds and a linked/drop/TANGO sequence. Preserve these attempt boundaries. This is alarm-avoidance planning, not a failed movement or controlled synonym comparison.
+
+Other revisions narrow partial endpoints: Anchor crypt unlocking versus opening e517; Balances temple spelling versus actual entry; Theatre watch dial versus restarted watch and door unlocking versus passage; Zork digging progress versus statue discovery e88. Savoir universal direction-adjective rejection is contradicted by parsed OPEN EAST DOOR e209; later south-door recovery also changes light. Bronze contract lookup changes both query and location, and HIT GONG is understood but refused. Theatre GIVE/SHOW is an action distinction, not unknown vocabulary. So Far observed death cannot prove every escape impossible.
+
+Accepted state chains preserve actual prerequisites: ring/date before laptop passcode, skull confrontation before amulet trade, paid lottery/ticket5802 before cube, learned spell before tortoise flight, peeled onion before loading, brass key before opened hatch. Parser-recognized variants do not establish downstream acquisition, puzzle completion or universal equivalence. Theatre body throw places corpse in actual beast pit; later e491 enters safely. No independent monster-death assertion.
+
+## Thirteen verified conclusions
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux,905,Violet,Voodoo Castle,Slouching Bedlam,Secret Mission and now Bronze. Prior twelve verdicts preserved from timestamped raw audits; Bronze independently rechecked this pass.
+
+Bronze bronze-edcd114f65 b1 e00854 actual command HUG BEAST: raw481384:482401 SHA2565b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84. Explicit restored-King/servants-free ending banner and RESTART/RESTORE/QUIT menu. Claim e00872 mentioning KISS does not establish a KISS execution or equivalence. Engine waits at ending menu. Actual R11/060503 remains distinct from advertised/downloaded R13 selection; this route is observed, full release compatibility is not.
+
+Slouch's gallows route ends in worldwide Logos spread, not containment or a happy win. Secret Mission's actual POUR WATER defuses bomb; earlier bomb deaths remain failures. Other partial scores, deaths and chapter transitions remain insufficient for conclusions.
+
+## Hunter startup
+
+Hunter hunter-in-darkness-d1b183a1fc e1 is a splash. Empty keypresses e2/e3 reveal actual R4/991119 and normal prompt; e4/e5 save is acknowledged to exact path and nonempty file verified. Story header/hash c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92 verified. Save SHA256a4ac2f4f78416893497fe5e2dc2f6f30963f17fc7dce8666bee9eac062de93d8. Guide release unspecified; no ending inferred. Change in Weather is queued only, with no reviewer startup verdict.
+
+## Current bounded snapshot
+
+10 launchers observed; duplicate game launchers: {}. Latest current-session input spans checked; this does not repeat a whole-run transport/health audit. New unverified claim IDs: []. Later-arriving cases remain pending. Stop after this bounded pass.
+
+## Historical boundaries
+
+Earlier menu/delayed chains retain quarantine after explicit recoveries. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with maintainer guide, not commercial ZorkI. Its cap recovery to05114e1aff b99 and prior resource audits are historical, not proof of current resources or an ending. Engine key mapping source is not binary-equivalence proof. Pool guards and tests remain timestamped prior audits; provisional refill never promotes a completion claim. Guide/version gaps remain for Bronze, Dreamhold, Savoir, So Far and unspecified-release guides.

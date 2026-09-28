@@ -1,0 +1,41 @@
+# Optional-menu SPACE stalls: bounded read-only diagnosis
+
+Current source inspection: 2026-09-25T07:18:49.092437+00:00. No interpreter launched, no input sent to any game, no process attached/stopped, no app or shared-data changes. Only this requested diagnosis file written. Existing unit tests were read, not run.
+
+## Finding
+
+Literal SPACE is preserved in the current piped character-input path. The concrete harness defect is that an input producing zero stdout bytes cannot resolve, even if the interpreter has returned to an input read. Suppression of an unchanged upper-window menu makes this a plausible normal outcome after dismissing menu text. This explains the recorded pattern without requiring SPACE to be lost, but the precise post-SPACE VM state of the three sessions is not proven.
+
+## Exact input path
+
+- [play_broker.py:43](/work/experiments/lanthorn-recall-training/scripts/play_broker.py:43) launches central zvm-cli with `--plain`, pipes and `TERM=dumb`. At lines 92–98 validation does not strip whitespace: command `" "` writes bytes `20 0a`, while command `""` writes `0a`. Literal word `SPACE` would write that word, not a key encoding.
+- [main.rs:2195](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:2195) routes NeedChar to `read_cooked_char` with plain menus enabled. [main.rs:1061](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:1061) reads a whole line, optionally handles host menu commands, then passes the original line to `read_char_from_line` at line 1083.
+- [menu.rs:509](/work/reference-code/lanthorn/crates/cli-host/src/menu.rs:509) trims only a local borrowed view for numeric menu selection. An empty/space-only value returns Passthrough; it does not modify the original line. Numeric selection is special: it navigates to the numbered item, and a separate empty Enter selects it.
+- [input.rs:70](/work/reference-code/lanthorn/crates/cli-host/src/input.rs:70) removes only CR/LF suffixes, then returns the first byte, defaulting to 13. Thus `" \n"` returns 32, `"\n"` returns 13, and `"SPACE\n"` returns uppercase S (83). The appended newline is consumed as part of the same line, not left behind as a second Enter. Existing tests at lines 143–164 cover Enter and ordinary first-byte behavior, but do not explicitly assert a space.
+- Ordinary NeedLine is different: [main.rs:1262](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:1262) returns the whole line and terminator 13, then [main.rs:2159](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:2159) calls `supply_line(line.trim_end(), terminator)`. All-space line input becomes an empty command. A transcript prompt alone is not an opcode-level input-mode receipt.
+- Host paging is disabled by `!mode.plain()` at [main.rs:1783](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:1783). These recorded SPACE notices are not the CLI's host pager. Story-authored character prompts remain active.
+
+The central on-disk binary contains `cli_host::input::read_char_from_line`; read-only disassembly at 0x5a9e80 shows the CR/LF-only trim arguments, first-byte extraction and fallback 13. This supports the source mapping for that binary; it does not prove every running process uses that inode/build. Binary SHA256: `f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda`.
+
+## Observed events, with session identity
+
+- [Anchorhead events:2175](/work/experiments/lanthorn-recall-training/play/anchorhead/events.jsonl:2175): `anchorhead-2c1c588159:e00294` empty Enter prints the chapter and `[Please press SPACE.]`; e00295 sends literal space, returns empty response and no_output_timeout; e00296–297 await_output also return empty timeout. Other sessions reuse e00295, so the full session ID matters.
+- [Kook U events:53](/work/experiments/lanthorn-recall-training/play/kook-u/events.jsonl:53): old session `kook-u-489e2b24ed:e00053` empty Enter prints terminal topic and SPACE notice; e00054 literal space returns empty timeout. Later sessions' e00054 are different events.
+- [Delusions events:447](/work/experiments/lanthorn-recall-training/play/delusions/events.jsonl:447): `delusions-07b4a7fbbe:e00447` empty Enter prints one hint and SPACE notice; e00448 literal space returns empty timeout; e00449 await_output also times out.
+
+These prove repeated output silence after the correct literal-space encoding. They do not prove rejection, continued computation, or which menu/input state followed it. Read-only syscall inspection of the three matching live CLI processes returned Operation not permitted; no attachment or escalation attempted.
+
+## Why the recovery loop cannot settle silent input
+
+[screen.rs:564](/work/reference-code/lanthorn/crates/zvm-cli/src/screen.rs:564) suppresses unchanged upper-window blocks. Without an active numeric jump, [menu.rs:450](/work/reference-code/lanthorn/crates/cli-host/src/menu.rs:450) returns no menu emission. Returning from lower-window topic text to the same upper-window menu can therefore be silent (inference; not a replay of these stories).
+
+[play_broker.py:75](/work/experiments/lanthorn-recall-training/scripts/play_broker.py:75) checks `waiting_for_stdin()` only when `buf` is nonempty. With zero output it does not even probe readiness and inevitably returns timeout at line 79. `send` latches unresolved_input at lines 101–102. `await_output` repeats the same drain at lines 109–118, clearing the latch only after a non-timeout result. More passive waits cannot settle a permanently silent input read. Retain the no-replay/no-restart guards; this finding does not justify clearing them from silence alone.
+
+## Harness-only options and limits
+
+1. Immediate operational containment: avoid optional menus on future paths where possible. Treat this exact empty-response menu signature as a parked transport issue instead of spending repeated passive 180-second waits on it. Do not invent an Enter, q, backspace, repeated SPACE or save as a flush key. Required menu content still needs an explicit resolution.
+2. A source-supported future harness mechanism is an exact host-only `/menu` query. [main.rs:1064](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:1064) intercepts it in the plain character reader; [main.rs:2122](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:2122) also intercepts it at ordinary line input. Both answer without supplying a game command. [main.rs:568](/work/reference-code/lanthorn/crates/zvm-cli/src/main.rs:568) prints and flushes the answer. It may report a menu or `[no menu is open]`; it does not prove the prior game action succeeded.
+3. That mechanism is **not currently available through the broker**: slash validation rejects it at line 93 and the unresolved-input guard prevents another send at lines 95–96. Any later harness implementation should be a narrowly typed, separately logged host query, not general slash allowance or input replay. Restrict it to the verified central plain-menu build and a proven eligible input stop; preserve session ownership and the original unresolved event. File-name questions and non-plain character readers are not covered by these host-command interceptions. If eligibility cannot be proven, leave the session parked. Do not enqueue a speculative query behind uncertain input.
+4. Another future harness improvement is explicit reporting of a silent, proven stdin wait without calling it game success. Do not simply remove the `buf` guard and automatically clear uncertainty based on one syscall snapshot: it does not identify NeedChar versus NeedLine/filename input or prove that the just-written request has been consumed. A safe implementation needs consumption/read-boundary evidence, plus isolated validation before deployment.
+
+No reliable universal replacement key or currently deployable recovery is established by this bounded read-only audit. Host-query behavior is source-supported, not runtime-tested here. No current-live fix is claimed.

@@ -1,0 +1,17 @@
+{
+  "game_id": "acorn-court",
+  "title": "The Acorn Court",
+  "url": "https://ifarchive.org/if-archive/solutions/acorncourt.sol",
+  "accessed_at": "2026-09-25T03:59:40.565429+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/acorncourt.sol",
+  "source_sha256": "f9b74db008c323e26b379811e3685979ed4949a9dbe03072305d4dd07fafb1ff",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/acorn-court-walkthrough.txt",
+  "normalized_sha256": "f9b74db008c323e26b379811e3685979ed4949a9dbe03072305d4dd07fafb1ff",
+  "story": "/home/krickert/if-games/zcode/acorncourt.z5",
+  "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+  "compatibility": "Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "970904"
+}

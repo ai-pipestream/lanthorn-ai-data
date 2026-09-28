@@ -1,0 +1,27 @@
+{
+  "selected": [
+    "teacher-feature",
+    "inside-woman",
+    "zorkian-stories-1-gue",
+    "mystery-fun-house"
+  ],
+  "rejected_candidates": [
+    {
+      "candidate": "RANS",
+      "reason": "Author guide explicitly invokes HHGTTG Babel fish and Zork II homages; conservatively avoid held-out puzzle-family ambiguity."
+    },
+    {
+      "candidate": "Adventure / Advent.z5",
+      "reason": "Guide tested against Stanford web version, not the local Inform port; clearer edition match preferred."
+    },
+    {
+      "candidate": "Eric the Power-Mad Dungeon Master",
+      "reason": "Guide relies on cheat mode; full-route ending coverage unclear."
+    },
+    {
+      "candidate": "The Ice Princess",
+      "reason": "Bundled readme says registration materials needed, IFDB catalog calls it demo; excluded under full-game preference and ambiguity about completeness.",
+      "evidence_url": "https://ifdb.org/viewgame?id=un2z1dwz5qham5ec"
+    }
+  ]
+}

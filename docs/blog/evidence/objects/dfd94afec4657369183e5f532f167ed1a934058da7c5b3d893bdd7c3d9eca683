@@ -1,0 +1,8 @@
+# Return to Karn — progress (continuation point)
+
+Location: Bottom of Cliff (e00078-e00081). Cleft east, creature remains examined as Morbius body with plastic globe brain-case (e00080). Next guided step per hint lines 36-44: X globe, then E SE SW W etc.
+Inventory (e00071): scalpel, match unlit, gold card, homing ON, screwdriver, jacket/hat/scarf worn, yo-yo, key. Toolkit left in workshop with pouch. Score 5.
+Cases: ~18 annotated. Pending: read responses/m0067 confirmed e00081; no unanswered inbox (m0067 done). Next inbox sequence m0068+.
+Checkpoints verified: start-console-room, workshop-tools, doors-open, outside-karn, ruins-scalpel.
+Hints: e00036, e00040, e00066 (search ruins... tie scarf). Keep hints separate from observed text.
+Resume: read latest.json + responses/m0067.json, then 'examine globe' (m0068), continue hint route. Do not duplicate m0063-m0067. Game incomplete; no finish claimed.

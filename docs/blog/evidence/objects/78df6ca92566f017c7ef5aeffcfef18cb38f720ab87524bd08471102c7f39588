@@ -1,0 +1,9 @@
+# Fine-Tuned progress (m0139 done, e152)
+
+Location: Train Station platform (e152). Met Melody Sweet (e150), lifted trunk e152 (bucket clanged). Miss Sweet will follow to Professor Sneedlewood. Train present, exit west to town center/Dynamo. Heading north to Sneedlewood Mansion.
+Inventory (observed): worn gear, card, envelope, postcard, sign, Troy paper, tin bucket (carried, clanged on trunk), trunk (carried). Score 13.
+Checkpoints verified: start-driveway, ready-to-drive, mailbox-van, before-rescue, after-rescue, lane-bucket, after-bucket, after-hatchling, town-center (e134-e135 Ok).
+Recent: e133 town look station east/livery west/mansion north + children; e134-135 town-center checkpoint; e136 wave to children ok; e137 stop + children overpass + short man; e138 out + stranger east; e139 honk horn blocked motors off; e140 enter; e141 start car; e142 blow horn Greensleeves score 13; e143 horn annotation world_state done; e144 stop; e145 out stranger east; e146 east station + train approaching; e147 talk stranger + train arrives; e148 wait crowd clears; e149 look young woman bench; e150 talk woman = Melody Sweet + heavy trunk; e151 look Miss Sweet gestures trunk; e152 lift trunk ok, Sweet will follow.
+Annotations done: drive-north-brake, ditch-exit-synonym, horn-honk (e139->e142 world_state). Accepted paraphrases needing none labels: grab paper e98, start dynamo e116 (=start car e131), grab bird e121->e122, place bird in tree e123, lift trunk e152, wave variants. Rejections pending: examine bucket e105, plus older backlog e63-e93.
+Hints: last e119 lines 58-66 consumed; e107 lines 50-58 consumed. Next: lines ~66-120 for mansion/professor route; late 121-129 finale (reconciliation/horse/music/PLAY per manifest).
+Next: west to town, enter dynamo with Sweet following, drive north to mansion (single steps). Then professor/artifact/rescue route per hints. Game INCOMPLETE, no ending reached.

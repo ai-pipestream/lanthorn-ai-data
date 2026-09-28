@@ -1,0 +1,17 @@
+{
+  "game_id": "tryst-of-fate",
+  "title": "Tryst of Fate",
+  "url": "https://ifarchive.org/if-archive/solutions/tryst.step",
+  "accessed_at": "2026-09-25T05:02:23.304538+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/tryst.step",
+  "source_sha256": "68fd0a5de0285d7ace92c4fecd008563d238cf64f8e3cc8f237d780a371aab67",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/tryst-of-fate-walkthrough.txt",
+  "normalized_sha256": "68fd0a5de0285d7ace92c4fecd008563d238cf64f8e3cc8f237d780a371aab67",
+  "story": "/home/krickert/if-games/zcode/tryst205.z5",
+  "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+  "compatibility": "Story R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 205,
+  "serial": "970629"
+}

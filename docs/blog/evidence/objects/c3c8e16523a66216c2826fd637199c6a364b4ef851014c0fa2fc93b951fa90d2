@@ -1,0 +1,9 @@
+# Violet progress — segment 2 (in progress, pen arc done)
+
+Location: office, seated at desk/chair (WRITE toggles Primrose). Window blocked, clamp+nose/gum+ears/platyPod worn. platyPod currently Primrose after WRITE.
+Inventory (e00243 + pen): potato gem consumed (shattered), notebook, small chip, lighter, rubber square (pouch: figurine loaded then shattered on SHOOT), empty bottle, snowglobe GONE (shattered on THROW, coaster + figurine survived; figurine then shattered on SHOOT), lavender pen in hand (etched 'You do not deserve Violet'). Confirm via inventory on resume.
+World: book burned; mess tidied (potato gem found); pipe/sprinkler/pen arc resolved — pen knocked down via figurine sling shot; pen cap exploded on first WRITE (purple gunk, clothes ruined, itching); second WRITE worsens itch (subtitle itchy).
+Checkpoints: ... + before-shoot-pen, before-throw-globe, pen-in-hand, before-remove-clothes (m0244, e00276-277).
+Cases: ~65 (last syn-keep-writing-65 rejected e00273/corrected e00274 annotated e00275; syn-get-pen-43 world_state annotated e00267; syn-toss-globe-pen-59 vocab+miss annotated e00261; syn-shake-snowglobe-57 none e00254; syn-put-it-pouch-54 ambiguity e00246; syn-clean-mess-53 none e00241; syn-get-chip-46 none e00222).
+Last hint: lines 111-119 (PUT FIGURINE/SHOOT/GET PEN/WRITE x2/REMOVE CLOTHES/WRITE/[ENTER]/PEE IN WASTEBASKET) — through second WRITE, next REMOVE CLOTHES.
+Next: 1) synthetic probe for disrobing (e.g., 'take off clothes' vs REMOVE), 2) REMOVE CLOTHES, WRITE, [ENTER] (careful: possible question/keypress — never inject SAVE there), 3) checkpoint after, 4) continue to verified winning ending. Game incomplete.

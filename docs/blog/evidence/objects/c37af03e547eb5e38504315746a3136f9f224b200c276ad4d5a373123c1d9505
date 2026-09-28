@@ -1,0 +1,24 @@
+{
+  "event_id": "voodoo-castle-5bd0b59cae:e00766",
+  "timestamp": "2026-09-25T03:27:48.555514+00:00",
+  "game_id": "voodoo-castle",
+  "session_id": "voodoo-castle-5bd0b59cae",
+  "branch_id": "b2",
+  "event_index": 766,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 67243,
+  "raw_end": 67243,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+  "engine_state": "unchanged",
+  "metadata": {
+    "evidence_event_ids": [
+      "voodoo-castle-5bd0b59cae:e00763"
+    ],
+    "ending_quote": "YELL CHANT\nThere's a CLAP OF THUNDER!\nPins fall out of doll\nHURRAH! Look who is in the room!\nThe game is now over.\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Open Coffin\n  Smiling Count Cristo\n",
+    "notes": "Curse lifted after foot prerequisite (ON MAN thunder, foot worn e00755/e00758) then full book/page ritual; pins fall out, Count appears smiling, game declares over with engine_exited. Not death, quit, or chapter transition."
+  },
+  "review_status": "unreviewed"
+}

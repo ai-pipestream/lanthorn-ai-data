@@ -1,0 +1,23 @@
+{
+  "game_id": "jigsaw",
+  "title": "Jigsaw",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/Jigsaw.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/jigsaw-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Jigsaw.step",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. Guide1995, release unspecified; shared protagonist reference to Curses conservatively grouped with Curses in train.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/jigsaw.json",
+  "story_sha256_expected": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+  "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+  "dataset_split": "train",
+  "game_family": "curses",
+  "zmachine_version": 8,
+  "release": 3,
+  "serial": "951129",
+  "collection_notes": "# Jigsaw collection notes\n\nExact local header: R3/951129. Guide1995, release unspecified; shared protagonist reference to Curses conservatively grouped with Curses in train. Guide source: https://ifarchive.org/if-archive/solutions/Jigsaw.step. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+  "session_id": "jigsaw-673cabd620",
+  "story_sha256": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+  "started_at": "2026-09-25T04:58:25.324123+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

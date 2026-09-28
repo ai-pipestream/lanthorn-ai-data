@@ -1,0 +1,93 @@
+{
+  "completed_at": "2026-09-25T11:40:56.028146+00:00",
+  "scope": "Small watcher quota-hold deduplication and bounded timeout repair; no provider/game calls or daemon launch.",
+  "changed_files": [
+    "scripts/watch_kimi_coordinator.py",
+    "scripts/kimi_coordinator_pilot.py",
+    "scripts/test_kimi_coordinator_pilot.py",
+    "control/kimi-pilot/timeout-fix-receipt.json"
+  ],
+  "script_sha256": {
+    "scripts/watch_kimi_coordinator.py": "169234e34539eb640a348570366c181d53cc40f44c9c48d2c2456a749357c11c",
+    "scripts/kimi_coordinator_pilot.py": "e7cfc425a3a3e1713fe4d1ed7447670eda2d02d65a7f7773d29305ea73b01ac0",
+    "scripts/test_kimi_coordinator_pilot.py": "ab578fc07cf58153ec8252109bb5e04715eeac84dd124836456553d5e9dbfc6c"
+  },
+  "implementation": [
+    "Every watcher iteration first performs the existing fresh deterministic collect, with all current raw/header/session/ownership/freshness checks. Any capture or baseline corruption fails closed.",
+    "Skip is allowed only while both scheduler enabled flags remain false, the parent quota hold is active, UTC is strictly before reset_at, and semantic fleet state equals the LAST validated successful run. Later failed runs never become baselines.",
+    "Comparison includes complete snapshot game identities, actual input states, evidence, progress, claims, holds, pending requests, ownership, counts, provider/quota state, reset and queued set; complete manifest/progress/settings inputs and raw/journal prefix hashes guard changes beyond prompt truncation.",
+    "Observation timestamps, revision, cached log mtime and quota receipt timestamp-only digest changes are ignored. Unknown added fields remain significant. Exact journal hashes conservatively invalidate on new bytes.",
+    "Skip status retains baseline run/snapshot/decision hash provenance, marks decision_is_fresh=false, and increments only cycles_checked/skipped_calls, never provider_calls/calls_completed. No replacement decision or fake fresh provider run is written.",
+    "Changes or reset reached invoke normally; quota reset never resumes Muse or schedulers. Watcher persists status and stops without retry on provider/validation/capture failure.",
+    "Watcher startup archives exact prior watcher/latest status bytes and hashes under watcher-history before overwriting them, while immutable prior run directories remain untouched.",
+    "Provider bound600s, snapshot validity720s, watcher child budget630s plus3s cleanup reserve. Preflight time is charged before another full-budget call may start;3hour maximum and300s interval retained."
+  ],
+  "tests": {
+    "normal_command": "python3 -B -m unittest discover -s scripts -p test_kimi_coordinator_pilot.py -q",
+    "normal_passed": 42,
+    "optimized_command": "python3 -B -O -m unittest discover -s scripts -p test_kimi_coordinator_pilot.py -q",
+    "optimized_passed": 42,
+    "failures": 0,
+    "pure_fixtures": true,
+    "provider_calls": 0
+  },
+  "actual_read_only_preflight": {
+    "skip_provider": true,
+    "checked_at": "2026-09-25T11:40:02.022029+00:00",
+    "fresh_capture_snapshot_id": "20260925T114001.291927Z",
+    "decision_is_fresh": false,
+    "provider_calls": 0,
+    "reason": "unchanged pre-reset quota hold; historical decision reference only",
+    "semantic_sha256": "09cf68c4b4c3250fc3d65289ee78f362dd35fbb01aa7f3fa8b6b58d30d62ff40",
+    "baseline_semantic_sha256": "09cf68c4b4c3250fc3d65289ee78f362dd35fbb01aa7f3fa8b6b58d30d62ff40",
+    "baseline_run": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T103142.522311Z",
+    "baseline_snapshot_id": "20260925T103142.522501Z",
+    "baseline_snapshot_sha256": "87a4f8d38cb2797a931773981f90824068df07dd2223493ba55dd651751b4a03",
+    "baseline_decision_sha256": "7e860701861f64328c1dc80b3925d89eac1f658a5656213b74710fe6ad1dbcd0",
+    "quota_reset_at": "2026-09-25T12:41:27Z"
+  },
+  "preserved_prior_files": {
+    "before_after_unchanged": true,
+    "count": 27,
+    "sha256": {
+      "control/kimi-pilot/watcher-status.json": "e2500604eb48447cc80957c7b76a956bdc24904ba42fd2e724b9cf59ce5915cb",
+      "control/kimi-pilot/latest-status.json": "e2500604eb48447cc80957c7b76a956bdc24904ba42fd2e724b9cf59ce5915cb",
+      "control/kimi-pilot/20260925T104128.748159Z/coordinator.md": "1079189f49c929edc835e879522c97cde279c42d0e6595b1d9b4aa5af4ef496e",
+      "control/kimi-pilot/20260925T104128.748159Z/snapshot.json": "687e71bd4b45ea36ba073e101dbefa2ddf24f13a7e2e06d2ad3317475f6d9dd0",
+      "control/kimi-pilot/20260925T104128.748159Z/prompt.txt": "cb0f5f40129408587042554708b65c1ad28911c8b8aee84c4d37868f75a652de",
+      "control/kimi-pilot/20260925T104128.748159Z/captured-inputs.json": "39c80d1ece901d7230eacdfeabd408415e7ccaa5a45372a8d57e87370936668d",
+      "control/kimi-pilot/20260925T104128.748159Z/collector.py.txt": "fa7d9a8cec65576e5af9dd478b2d8d7dbddcc493c3562b5f8cfcd1c72a0e723d",
+      "control/kimi-pilot/20260925T104128.748159Z/invocation.json": "cc4106655cf61916a2fd31d9be649c24331b04d41280b81c9a9e8eb5f136d9a9",
+      "control/kimi-pilot/20260925T104128.748159Z/stream.jsonl": "dc15709072ae2f224327312af8413bd4f1d0ce3244a37efb0fa4a1cd1bf7527d",
+      "control/kimi-pilot/20260925T104128.748159Z/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "control/kimi-pilot/20260925T104128.748159Z/validation.json": "7b890526d031e635b27e1e5b130f1b864f5c3ab4b0ca0067b87dd8e5741bfe66",
+      "control/kimi-pilot/20260925T104128.748159Z/run.json": "d745ca07b93834a0de271d63abc1d448892a88b54708d96817a48483fb4527d1",
+      "control/kimi-pilot/20260925T104128.748159Z/exit.status": "ca2ebdf97d7469496b1f4b78958f9dc8447efdcb623953fee7b6996b762f6fff",
+      "control/kimi-pilot/20260925T104128.748159Z/handoff.json": "9c06c3b4af4ace0ccf1ef09fbdbcc9f7b637c0fc295deb93361faab2004a38dd",
+      "control/kimi-pilot/20260925T103142.522311Z/coordinator.md": "1079189f49c929edc835e879522c97cde279c42d0e6595b1d9b4aa5af4ef496e",
+      "control/kimi-pilot/20260925T103142.522311Z/snapshot.json": "87a4f8d38cb2797a931773981f90824068df07dd2223493ba55dd651751b4a03",
+      "control/kimi-pilot/20260925T103142.522311Z/prompt.txt": "351cf3da09f1f578d0c45d725b45755f0e550cc59492a17347acb0f40cb4da50",
+      "control/kimi-pilot/20260925T103142.522311Z/captured-inputs.json": "09498fa11c3c9e723076fed2a929955914eb297e6602ce784498460922ad0355",
+      "control/kimi-pilot/20260925T103142.522311Z/collector.py.txt": "fa7d9a8cec65576e5af9dd478b2d8d7dbddcc493c3562b5f8cfcd1c72a0e723d",
+      "control/kimi-pilot/20260925T103142.522311Z/invocation.json": "3a75ca06754d45b3c98a3a797cf0431e256d69cd9678badcc7b10fa193e980dd",
+      "control/kimi-pilot/20260925T103142.522311Z/stream.jsonl": "771dc66d9a8938568f957b19425a5b0b49f552263d5d9a168b074b7123ddbd3e",
+      "control/kimi-pilot/20260925T103142.522311Z/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "control/kimi-pilot/20260925T103142.522311Z/decision.json": "7e860701861f64328c1dc80b3925d89eac1f658a5656213b74710fe6ad1dbcd0",
+      "control/kimi-pilot/20260925T103142.522311Z/validation.json": "edf70492049fe3d1cc368475e50f3f175c16a29a8ea728350baf178304dd59a4",
+      "control/kimi-pilot/20260925T103142.522311Z/run.json": "e4d9959abe7eae8a77eb6222628f7a54b8645fd0b1ace49132350527fa77e17b",
+      "control/kimi-pilot/20260925T103142.522311Z/exit.status": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "control/kimi-pilot/20260925T103142.522311Z/handoff.json": "846f7d50a5a0ec1c86dfd1bf03c168f51707f15ee661490486bf0508216a36a4"
+    }
+  },
+  "prior_failed_status_copies": {
+    "watcher-status.json": "{\n  \"started_at\": \"2026-09-25T10:05:10.298605+00:00\",\n  \"duration_seconds\": 10800,\n  \"interval_seconds\": 300,\n  \"calls_completed\": 4,\n  \"status\": \"stopped_failure_no_retry\",\n  \"parent_review_required\": true,\n  \"actions_executed\": [],\n  \"last_started_at\": \"2026-09-25T10:41:28.721416+00:00\",\n  \"last_exit_code\": 124,\n  \"last_run\": null,\n  \"error\": \"{\\\"run\\\": \\\"/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T104128.748159Z\\\", \\\"exit_code\\\": 124}\\n\",\n  \"last_finished_at\": \"2026-09-25T10:46:29.913449+00:00\"\n}\n",
+    "latest-status.json": "{\n  \"started_at\": \"2026-09-25T10:05:10.298605+00:00\",\n  \"duration_seconds\": 10800,\n  \"interval_seconds\": 300,\n  \"calls_completed\": 4,\n  \"status\": \"stopped_failure_no_retry\",\n  \"parent_review_required\": true,\n  \"actions_executed\": [],\n  \"last_started_at\": \"2026-09-25T10:41:28.721416+00:00\",\n  \"last_exit_code\": 124,\n  \"last_run\": null,\n  \"error\": \"{\\\"run\\\": \\\"/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T104128.748159Z\\\", \\\"exit_code\\\": 124}\\n\",\n  \"last_finished_at\": \"2026-09-25T10:46:29.913449+00:00\"\n}\n"
+  },
+  "limits": [
+    "No provider performance/success claim:600s is an explicit larger upper bound, not proof of completion.",
+    "Preflight observations do not constitute a new Kimi decision or authorize any action. Parent retains recovery/ending/case ownership.",
+    "Comparison conservatively calls on changed journal prefix hashes, including metadata-only journal byte changes. It does not silently suppress unknown changes.",
+    "Actual watcher restart/model invocation remains with parent; this task did neither."
+  ],
+  "release_status": "Ready for parent singleton activation; files released."
+}

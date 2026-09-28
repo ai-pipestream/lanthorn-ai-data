@@ -1,0 +1,9 @@
+# Heist progress (branch b3 wheel code done, events through 603)
+
+Location: Damp Tunnel at wheel (I showing). Score 53. Light: rod glowing.
+Inventory: parchment, pouch(open: red+blue gems), curved glass?, rod, gloves; key+cutlass in Cavern; leg broken (blue gem taken).
+Checkpoints: ...; dam-formed; before-wheel (b3 OK).
+Cases: ~44 (+ iron-door death e553; wheel-turn naive e572 no-result; x levers e573 can't-see; x lever e574 disambiguation; wheel pulls L/M/I/X/V/C/D mapped: Roman-only wheel M-L-I-X-V-C-D cycle, right=clockwise, left=anticlockwise). Annot pending: iron-door death (world_state) + wheel probe pair corrections after door opens.
+Code applied: M M M D C X C V I I I (MM + MDCXCVIII for 1698 observed e147-148) e577-603, all whir no death, no open yet. Wheel at I.
+Next: help next excerpt after wheel code (verify vs game), then try door/north carefully. Game NOT complete.
+Continuation: branch b3, event 603 confirmed.

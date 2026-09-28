@@ -1,0 +1,27 @@
+{
+  "game_id": "fine-tuned",
+  "title": "Fine-Tuned",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/FineTune.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/FineTune.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned.json",
+  "story_sha256_expected": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "fine-tuned",
+  "collection_notes": "# Fine-Tuned\n\nStory Z8 R8/020520. Local R8/020520 matches archive binary and title/author. The author guide header explicitly says release 6 and sample complete walkthrough; no serial. Its archive upload date matches R8, but the body still targets R6, so preserve the two-release gap rather than assuming it was updated.\n\nFollow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.\n\nAuthor labels the route complete but unoptimized; the command-only guide omits many reasons and scene prompts. Blank lines and repeated waits are not directions to flush transport. Respond to observed questions and state before following later steps, and request only short excerpts. Take safe checkpoints before travel, captivity and rescue sequences.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 8,
+  "serial": "020520",
+  "session_id": "fine-tuned-989503b0a7",
+  "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+  "started_at": "2026-09-25T06:54:26.600350+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

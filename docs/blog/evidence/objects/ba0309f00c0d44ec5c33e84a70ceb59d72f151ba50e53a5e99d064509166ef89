@@ -1,0 +1,98 @@
+{
+  "game_id": "return-to-karn",
+  "title": "Return to Karn",
+  "url": "https://ifarchive.org/if-archive/solutions/karn.sol",
+  "accessed_at": "2026-09-25T06:02:04.049513+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/karn.sol",
+  "source_sha256": "c44bb6dc151a2d42adf586432ec2a8e5527541c7b908f837ecfb7d351f2ef715",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/walkthrough.txt",
+  "normalized_sha256": "3bec8dc2019b52b0439ac34938651b7c0261402fa3f1de27f40be1c7dd843105",
+  "normalization": {
+    "input_encoding": "utf-8",
+    "output_encoding": "utf-8",
+    "operations": [
+      "CRLF/CR to LF",
+      "one terminal newline"
+    ],
+    "commands_rewritten": false
+  },
+  "story": "/home/krickert/if-games/zcode/karn.z5",
+  "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/karn.z5",
+  "story_download_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/karn.z5",
+  "story_download_matches_local": true,
+  "story_header": {
+    "zmachine_version": 5,
+    "release": 2,
+    "serial": "961207",
+    "header_hex": "050000025c845c8546dd010235f53d0f00103936313230370042a1af8ded000000000000000000000000000000000000000000000000000000000000362e3035",
+    "header_sha256": "05c73fa3e9019500eff72239146ed8980d1e0c7b956ba34a7d0dca8fcb024156",
+    "checksum": "8ded",
+    "computed_checksum": "8ded",
+    "checksum_valid": true,
+    "file_bytes": 165888,
+    "declared_file_bytes": 165564
+  },
+  "compatibility": "Guide explicitly matches R2/961207 and was updated by the game author. Colour sequences depend on observation; placeholders must not be treated as literal commands.",
+  "compatibility_status": "documented_match",
+  "guide_version_match": "explicit_release_and_serial",
+  "reuse_permission": "unknown; private collection only",
+  "game_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "guide_reuse_permission": "unknown; no redistribution or training permission inferred",
+  "title_verification": {
+    "method": "IF Archive matching game and guide TUID plus exact downloaded/local story hash",
+    "story_tuid": "bx8118ggp6j7nslo",
+    "guide_tuid": "bx8118ggp6j7nslo",
+    "story_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/story-index-entry.txt",
+    "guide_index_entry": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/guide-index-entry.txt"
+  },
+  "fetched_sources": [
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/karn.sol",
+      "accessed_at": "2026-09-25T06:02:04.049513+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/karn.sol",
+      "sha256": "c44bb6dc151a2d42adf586432ec2a8e5527541c7b908f837ecfb7d351f2ef715",
+      "role": "guide"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/karn.z5",
+      "accessed_at": "2026-09-25T06:03:44.295290+00:00",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/karn.z5",
+      "sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+      "role": "story; exact byte match to local story"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/games/zcode/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/games-zcode-index.txt",
+      "sha256": "9d7571be81d238380fe9886b90e6dfc499fba9e4d6ea04f1a76d975abc37e149",
+      "role": "title, identity and release metadata"
+    },
+    {
+      "url": "https://ifarchive.org/if-archive/solutions/Index",
+      "access_date": "2026-09-25",
+      "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/solutions-index.txt",
+      "sha256": "6f8c765182c5832789efe2e80748e4a6b7936dbb5a31996a8e10d1f22bd2d59a",
+      "role": "title, identity and release metadata"
+    }
+  ],
+  "family_review": {
+    "status": "provisional_parent_review",
+    "family": "doctor-who",
+    "proposed_split": "train",
+    "existing_corpus_checked": true,
+    "reason": "Archive explicitly identifies Doctor Who setting. Group all Doctor Who/Karn ports or shared-world games together; no such family found in existing corpus or current batch A."
+  },
+  "completion": "Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient.",
+  "completion_verified_by_execution": false,
+  "execution_status": "not_launched; no story or guide commands executed",
+  "parent_review_required": [
+    "Guide compatibility and actual finale must be confirmed from runtime evidence before completion/export.",
+    "Family and split are proposals; pool and split registries were not changed."
+  ],
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "961207",
+  "author": "Patrick Wigfull"
+}

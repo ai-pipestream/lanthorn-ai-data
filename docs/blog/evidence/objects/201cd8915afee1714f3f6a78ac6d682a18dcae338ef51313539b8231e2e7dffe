@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-09-25T05:58:17.685368+00:00",
+  "events": [
+    {
+      "event_id": "dreamhold-362786f871:e02043",
+      "timestamp": "2026-09-25T05:55:14.525750+00:00",
+      "game_id": "dreamhold",
+      "session_id": "dreamhold-362786f871",
+      "branch_id": "b11",
+      "event_index": 2043,
+      "event_type": "command",
+      "command": "west",
+      "response": "The ringed moon hovers before you. You settle your regalia about yourself, and \nstep forward.\n\nFor a moment, the voices of the stars are a thousandfold rushing whisper. And \nthen the portal opens; and you can understand every word and note.\n\nSomewhere, a child runs through a moonlit forest, gazing up at a bright-marked \nfigure which has always shone, will always shine beyond the Doorstep. It is \nonly within your mind that the song begins at this moment... The stars are \nwelcoming you home.\n\n\n    *** The end ***\n\n\nThank you for playing. You've reached the end of THE DREAMHOLD; but that \ndoesn't mean there isn't more hidden in the game. You made seven additional \ndiscoveries beyond the riddle of the masks; there may be others.\n\nAnd there are many other games to discover beyond THE DREAMHOLD. If this game \nwas your first experience of interactive fiction, and if you enjoyed it, then \nyou should play more. You are now familiar enough with the IF interface to try \nany well-designed game. (I won't promise that you won't have trouble! Some \ngames are meant to be tricky. But you'll have as fair a shot as any IF player.)\n\nIF comes in a huge range of forms and styles. THE DREAMHOLD is a fairly \nserious, surrealist fantasy exploration. But there are also silly games, \ndetective stories, science fiction scenarios, romances, and nightmares. Some \ngames are puzzle-fests; others focus on character, dialogue, or branching story \nvariants. All these can be found at the IF Archive: <http://ifarchive.org/>\n\nSo many games are collected there that it's hard to navigate them. Baf's Guide \nis an excellent categorized index: <http://wurb.com/if/>\n\nBaf's Guide lets you search for IF games by author, title, genre, rating, or \norigin. It also contains capsule reviews, to help you choose the game you want \nto play.\n\nI hope you've gotten a glimpse of what text adventure gaming can be. Have fun. \n\n                                -- Andrew Plotkin, <erkyrath@eblong.com>\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, or QUIT?\n> ",
+      "raw_start": 392036,
+      "raw_end": 394092,
+      "response_sha256": "b654247ecafd4b65f5b8290c5d4ddca076db19c31e4f159ee88e4df52456804b",
+      "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "seg10-b11-ending3",
+        "expected_outcome": "Ending 3 Doorstep of Heaven narrative",
+        "intent": "Step west off the shadow point into the ending",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hash_and_text_verified": true,
+  "verdict": "Author-intended ending explicitly printed with final menu; Dreamhold Doorstep portal, Theatre escape by car, Weather reunion with companions. No maximal-content claim."
+}

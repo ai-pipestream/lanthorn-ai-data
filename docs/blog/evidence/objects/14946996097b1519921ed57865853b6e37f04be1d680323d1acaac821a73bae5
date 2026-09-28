@@ -1,0 +1,8 @@
+# So Far — progress
+
+Location: Grassy Hilltop (via alley shadow). Immense lone tree with black shadow; trampled path south; tents at base west side; dripping water west.
+Inventory: odd wooden box (last verified e00067; verify again soon).
+Checkpoints: theater-start, west-portico, box-taken, abandoned-road, field-platform, narrow-alley (all ok). Next checkpoint: hilltop.
+Last hints: step 4 Grasslands — get jar, fill with water; try putting something on 'ground' for 1 point; get knife; head SE to shadow; return to chimney road.
+Cases: 20 annotated (through alley-shadow-step-23). Diversity so far: syntax x4, vocab x3, world_state x5, planning x1, ambiguity x1, none-accepted x6.
+Next: checkpoint hilltop; go south down path / west to water; look for jar, knife, tents.

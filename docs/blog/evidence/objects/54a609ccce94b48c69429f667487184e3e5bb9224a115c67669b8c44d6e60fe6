@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:35:11.674802+00:00",
+  "game_id": "asylum",
+  "events": [
+    {
+      "event_id": "asylum-0815a6d270:e00046",
+      "timestamp": "2026-09-25T06:24:41.982871+00:00",
+      "game_id": "asylum",
+      "session_id": "asylum-0815a6d270",
+      "branch_id": "b0",
+      "event_index": 46,
+      "event_type": "command",
+      "command": "n",
+      "response": "\n\n    *** You have won ***\n\n\nIn that game you scored 0 out of a possible 0, in 28 turns.\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 2440,
+      "raw_end": 2590,
+      "response_sha256": "83c7f7bee2b25354c4967d7ae256132269291f06ea5768b9cd8ac5fbe2e59b3d",
+      "story_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "asylum-0815a6d270",
+        "case_id": "exit-north-01",
+        "expected_outcome": "Exit room or winning ending",
+        "intent": "Go north through the breached wall exit",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Compact cpuguy Asylum escape: breached wall then north, explicit win and final menu;0/0 not coverage claim. Raw verified before receipt. Independent review pending."
+}

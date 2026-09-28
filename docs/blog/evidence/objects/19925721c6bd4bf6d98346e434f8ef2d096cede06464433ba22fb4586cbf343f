@@ -1,0 +1,19 @@
+{
+  "url": "https://plover.net/~davidw/sol/s/suveh07.html",
+  "accessed_at": "2026-09-25T01:54:41.083740+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/suveh-nux.source",
+  "source_sha256": "6bffccae0f2a8108179ad69fc4de11a7f8d0838d0db1223a10b16e9fbca90b94",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/suveh-nux-walkthrough.txt",
+  "normalized_sha256": "714aded948d67a24e209432a645c873e3bb5ed6d4749cf88fe5b567eacbbcb23",
+  "reuse_permission": "unknown; private collection only",
+  "compatibility": "Observed startup version 1.1, release 1/071226; guide describes version 1.0. Full compatibility unproven.",
+  "game_id": "suveh-nux",
+  "story": "/home/krickert/if-games/zcode/old/suvehnux-r1-s071226.z5",
+  "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+  "title": "Suveh Nux (original 2007 version)",
+  "compatibility_correction": {
+    "date": "2026-09-25",
+    "evidence_event": "suveh-nux-0a645cbebf:e00002",
+    "prior_manifest_archived_in": "docs/blog/evidence/snapshots/20260925T021805.922507Z.json"
+  }
+}

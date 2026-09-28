@@ -1,0 +1,27 @@
+{
+  "game_id": "baltimore-24",
+  "title": "Baltimore:24",
+  "engine": "zvm-cli",
+  "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BALT.Z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/baltimore-24_solution.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete the full router-replacement journey, including the hotel/service-provider sequence and delivery to Robert, through actual authored service-restoration conclusion. The guide's 30-point total or repeated router-pickup score increases are not completion evidence. A delivery command alone is insufficient without concluding output.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24.json",
+  "story_sha256_expected": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "baltimore-24",
+  "collection_notes": "# Baltimore:24\n\nStory Z5 R2/970706. Local balt24.zip matches archive bytes; extracted BALT.Z5 is Z5 R2/970706, matching the catalog. The James Mullish guide identifies the 1997 game but gives no release/serial; exact guide version remains unspecified. Bundled readme describes a short complete game, not a preview. Pin ZIP and story separately.\n\nComplete the full router-replacement journey, including the hotel/service-provider sequence and delivery to Robert, through actual authored service-restoration conclusion. The guide's 30-point total or repeated router-pickup score increases are not completion evidence. A delivery command alone is insufficient without concluding output.\n\nThe guide mixes a command chain with explanatory prose. The normalized copy adds line breaks at period-space boundaries for bounded help excerpts; raw command wording and punctuation are preserved. Send one action at a time, observe car/room state, and adapt syntax to live output. CALL is a fictional in-game action, never an external phone or network operation. Do not exploit the reported router score bug or pad this short full game with repetitive probes. Save early and before travel commitments at ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "970706",
+  "session_id": "baltimore-24-8d5ab9f7e7",
+  "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+  "started_at": "2026-09-25T09:23:58.420787+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

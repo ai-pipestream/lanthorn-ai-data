@@ -1,0 +1,25 @@
+{
+  "event_id": "underoos-that-ate-new-york-21eb87c422:e00126",
+  "timestamp": "2026-09-25T09:35:35.699606+00:00",
+  "game_id": "underoos-that-ate-new-york",
+  "session_id": "underoos-that-ate-new-york-21eb87c422",
+  "branch_id": "b0",
+  "event_index": 126,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 16261,
+  "raw_end": 16261,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "underoos-that-ate-new-york-21eb87c422",
+    "ending_quote": "You and Cindy walk out to the car, and drive to a nice little Italian bistro.  \nYou explain the whole sordid affair to her over garlic bread and wine, while \nwaiting for your meal.  You pause periodically to allow her to gasp in fear as \nyou tackle the nine-foot killer Underoos, the ravenous mutant shoes, the \nhorrible socks, and after embellishing only somewhat, you arrive at the point \nwhere you rescued her.  She leans forward, gazing into your eyes.\n     \"My hero.\" she murmurs, and kisses you gently on the lips.\n     Abruptly, a wolf whistle, followed by a crude \"Hot Momma!\" pipes from \nbetween your legs.\n     \"That better be my underoos.\" you think to yourself, heading for the \nbathroom....You can't go that way.\n\n\n    *** You have won ***\n\n\nIn that game you scored 5 out of a possible 5, in 63 turns, earning you the \nrank of Sharp Dressed Man.",
+    "evidence_event_ids": [
+      "underoos-that-ate-new-york-21eb87c422:e00125"
+    ],
+    "notes": "Fully dressed (shirt/pants/shoes/socks/underoos/bandana) and went north through front door. Triggered bistro/Cindy concluding narrative with *** You have won ***, 5/5 Sharp Dressed Man. This is authored win after Cindy rescue and dressing, not death, quitting, score-only, chapter transition, or mere north move."
+  },
+  "review_status": "unreviewed"
+}

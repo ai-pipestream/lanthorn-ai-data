@@ -1,0 +1,17 @@
+# Lecture Feature – progress (update 16)
+
+Location: Dross office (e155/156). Pepper in coffee drove Bonnie out; dictaphone taken.
+Inventory (last confirmed e143 + changes): alcopop (horrible), battery, lens, red chilli pepper CONSUMED e148, sunglasses, wallet, trousers worn; skewer CONSUMED e141; dictaphone NEW e155; pepper gone; remote dropped in studio.
+Checkpoints: start-bathroom, lyssa-loot, fireescape-bottom, square-mark, before-glasses. Next: checkpoint dross-dictaphone at ordinary prompt.
+Last results:
+- e141 insert skewer into tv SUCCEEDED -> annotated none (m0136/e142).
+- e143 i: alcopop, battery, lens, pepper, sunglasses, wallet, trousers.
+- e144 x bottle: happenin hyperberry alcopop description.
+- e145-146 s,s: square east -> Dross office (Bonnie + dictaphone, sipping coffee).
+- e147 spike coffee REJECTED (unknown verb); e148 put pepper in coffee SUCCEEDED (Bonnie flees for water) -> annotated vocab (m0143/e149).
+- e150 look: Bonnie gone, dictaphone only. e151 x dictaphone: blank ready.
+- e152-153 help off-topic then on-topic: after pepper/wait -> get dictaphone, n, w.
+- e154 take recorder REJECTED (can't see); e155 get dictaphone Taken -> annotated vocab (m0150/e156).
+Next: 1) checkpoint dross-dictaphone; 2) n to square east, w to square west per hint; 3) help for next after n,w (tag/coat/key/ring/piece, chemistry, photo ID, Computing/Nerd, Mark unlock, JCR/Lyssa finale).
+Cases: ~26 labeled; target 20-40.
+Game INCOMPLETE – continue, do NOT restart. Pending: none (m0150 serviced as e156).

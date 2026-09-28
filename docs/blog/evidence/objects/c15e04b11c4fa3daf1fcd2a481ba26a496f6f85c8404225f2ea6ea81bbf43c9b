@@ -1,0 +1,11 @@
+# Schooldays progress (continuation checkpoint)
+
+- Session: schooldays-b371c6a97d, branch b0, event e00329 (Gym Viewing Area 9:53am, ordinary prompt).
+- Location: Gym Viewing Area with Simon Crew. Gave Simon ball e00329 Thanks. Holding towel, cooled/showered/dried (shower medium, water off, out, west to gym, east/southwest/east/enter/press2/out/north back).
+- Verified: shower enter e00308, knob hot->medium e00310 ->cold e00311 ->hot e00314 ->medium e00315 OK, wash needs water, turn on e00313 too cold, turn off e00317, dry e00318, out e00319, west e00320 gym, dunk e00321 Don't know how, east e00322, southwest e00323, east e00324, enter e00325, press2 e00326, out e00327, north e00328 Simon, give ball e00329.
+- Cases: shower-verb (shower unknown e00306, take fixed e00307, enter works e00308); knob syntax (turn to cold fails e00309, turn knob works); gym-shoot hot/sticky e00304 -> dunk Don't know e00321 (need Simon demo, world_state).
+- Hints: e00284 gym sequence verified through GIVE SIMON BALL. Next per hint: SIMON, DUNK WITH BALL x2, ASK SIMON FOR BALL, DUNK until ticket. Provisional, verify in game.
+- Checkpoints: second-floor verified. Next checkpoint after gym ticket.
+- Carries (approx per e00303 + towel): towel, basketball given to Simon, green key, token, CD player/Bach, stop sign, periodic table, knapsack + contents, Gatorade/Pepsi, keys, clothes. Need fresh inventory after ticket.
+- Next: SIMON, DUNK WITH BALL, repeat, ASK SIMON FOR BALL, DUNK until ticket, checkpoint, then travel-ticket taxi-airport to authored conclusion. Single commands.
+- Status: game INCOMPLETE. No winning ending. No death/quitting.

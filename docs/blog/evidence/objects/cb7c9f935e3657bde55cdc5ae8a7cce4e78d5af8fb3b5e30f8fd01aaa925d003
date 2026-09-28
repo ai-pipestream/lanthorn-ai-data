@@ -1,0 +1,16 @@
+# Anchorhead collection progress — SEGMENT 11 (b3 church stuck on hook)
+
+Current: b3 e00191, Behind Church trapdoor padlock heavy. Checkpoint church-back-trapdoor e00185 good.
+Route: house-attic-done -> Outside -> Scenic (east too steep e00175) -> NE Chilly -> S Deserted Lane -> E Churchyard -> SE Behind Church. Trapdoor old warped sturdy padlock fist-sized rusted needs heavy e00180/189. Meat hook not in look e00181, not via 'look at meat hook' e00183. Padlock examine confirms need heavy.
+Hints: church back trapdoor + meat-hook-break excerpt repeated (lines 226-234) but location not given; wharf/asylum refinements returned Day-1/house excerpts (off-topic). Hook likely elsewhere (wharf warehouse? pub? vacant lot? Riverwalk steps?). Do NOT assume; verify in game.
+Inventory: flashlight on (conserve), broom, opener, manual pocketed, keyring 4 keys, both lockets worn, slip/newspaper/card/flask/umbrella/pages pocketed. Hands? Verify with inventory next.
+Scores: brass +1, pages +2, laptop +2, iron +1, book +2 etc.
+
+Checkpoints: church-back-trapdoor; house-attic-done; attic-cell-gold; study-laptop-unlocked; cellar-key-clean.
+Pending annotations: cord yank none, jewelry none, childbed none, hole none, straw/gold none, attic south-fail? (e00139 can't go south — syntax/world_state, worth one), scenic-east-steep none? (e00175 too steep — world_state), church route recoveries.
+Next: inventory, then systematic town/wharf search for hook: Churchyard->Lane->Chilly->Riverwalk (gate/steps/water/vacant lot east)->Square (obelisk/alley/courthouse)->Narrow (pub steps north). Request hint only with refined wharf-butcher-slaughter topic if search fails twice.
+Game incomplete; no ending. Death b2 distinguished.
+
+---
+# Earlier
+- House/attic gold done; laptop 0628; manual true-name; clean cellar; library returned.

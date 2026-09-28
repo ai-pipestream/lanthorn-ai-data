@@ -1,0 +1,8 @@
+# Hunter in Darkness – progress (COMPLETE)
+
+STATUS: Finished. Daylight ending reached on b0 (e00132), b2 (e00159), b3 (e00187) – identical sha 1ebfe472... Walkthrough (51 lines) exhausted at final up.
+Ending (e00187): climb canyon wall / hissing scream cut off below / blinded by daylight / *** It's over *** + RESTART/RESTORE/QUIT.
+Why winning: walkthrough ends here; escape narrative with threat neutralized; banner differs from observed death banner *** You have died *** (e00141). Not death, quit, or chapter.
+Cases: 20 annotated (typo, synonyms, ambiguity x3, syntax, world_state x6, planning x2, none-accepted x7 incl. sensory). Death case e00141 documented (throw-bolt misresolution).
+Branches: b0 full; b1 probes + death; b2 replay + probes; b3 final probes + ending.
+Checkpoints: start-opening, after-bandage, smallish-cave, base-of-canyon.

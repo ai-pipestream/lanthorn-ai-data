@@ -1,0 +1,9 @@
+# Pirate Adventure — progress (update 30, WIN, b4 complete 100/100)
+
+WIN on b4 (engine_exited e00853): bare `score` in Flat -> "I've stored 2 treasures. On a scale of 0 to 100, that rates 100. Well done. The game is now over." Treasures: *DUBLEONS* (monastery, parrot-chased snakes) + *RARE STAMPS* (field box opened with hammer). Score 1+2 auto on drops e00851-52.
+
+Route closed: parrot flew shack->Flat with tide (crackers left Flat); recovered parrot+crackers in Flat e00779-84 (dropped wings+keys); Yoho beach w/ book+sneakers+parrot; built ship already; woke attic pirate (wakeup), sailed; Treasure beach dig sand->rum, get rum, give rum (pirate to graveyard), wakeup pirate (crew), sail back; open box->stamps; staged parrot/map/crackers/box/hammer on Pirates beach; Yoho with book+sneakers+dubleons+stamps; flat drop dubleons/stamps; score.
+
+Inventory at win: book+sneakers carried, treasures dropped in Flat. Left on Pirates beach: parrot, crackers, map, box, hammer, plans, torch, matches, ship. Left in Flat: keys, wings, rug. Shovel in Treasure field; rum bottles Treasure beach; pirate aboard/vanished.
+
+Cases 85+. New: grab/get book (vocab), sneakers-full->drop-plans (world_state), wakeup pirate (none), grab/get parrot Flat (vocab), walk 30=pace (none), lift/get box (vocab), get doubloons/dubleons spelling (vocab), smash/open box (vocab), bare score wins (none), board/go ship (vocab). Last hint e00820 (post-dubleons sail-back). No checkpoints (save unsupported). Game over - finish evidence e00853.

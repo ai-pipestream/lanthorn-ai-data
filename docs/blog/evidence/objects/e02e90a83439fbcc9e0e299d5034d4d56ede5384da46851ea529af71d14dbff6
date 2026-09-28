@@ -1,0 +1,21 @@
+# Slacker X progress
+
+Location: Hallway (west from Bathroom). Score 17 observed (e00031 terse).
+Inventory (observed takes/exchanges): satchel (open), No Pot, Dolemite night-light, large bag (of pot), large joint (from Jeremy e00026, can given away), SPANK magazine (Taken e00029). Verify with inventory on resume.
+
+Route done: SPACE start, get bag (+4), e Storage closet, get can (+4), w Back bedroom, s Hallway, e Bathroom; checkpoint before-jeremy e23-e24; hand can probe e25 vocab fail -> give can to jeremy e26 success (+4, joint) annotated e27; get magazne e28 can't-see -> get magazine e29 Taken (+4) annotated e30; w to Hallway e31 score 17.
+
+Cases (all annotated unless noted):
+- bag-take-synonym: grab bag e08 vocab fail -> get bag e09 success annotated e10
+- can-take-typo: get cna e12 can't-see -> get can e13 success annotated e14
+- move-west-synonym: head west e15 vocab fail -> w e16 success annotated e17
+- secret-exit-enter: open secret exit e19 can't-see -> e e20 success annotated e21
+- jeremy-give-synonym: hand can e25 vocab fail -> give can to jeremy e26 success annotated e27
+- magazine-take-typo: get magazne e28 can't-see -> get magazine e29 success annotated e30
+- bathroom-exit-west: w e31 exploration (no annotation)
+
+Checkpoints: early-bedroom confirmed e03-e04; before-jeremy confirmed e23-e24.
+
+Hints (walkthrough, NOT observed): m0020 lines 6-14: give can to jeremy>joint(3); get magazine(4); w s e; give joint to brandon; open cabinet>powder(5), pills(6); w.
+
+Next: s then e per hint toward Brandon; probe before canonical at new room (e.g. synonym/typo/omitted object); checkpoint at next ordinary prompt before risky probes; then give joint to brandon route.

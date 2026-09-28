@@ -1,0 +1,14 @@
+{
+  "story": "School.z5",
+  "guide": "school.sol",
+  "url": "https://ifarchive.org/if-archive/solutions/school.sol",
+  "accessed_at": "2026-09-25T06:02:04.150234+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "version": 5,
+  "release": 1,
+  "serial": "991217",
+  "sha256": "7a83a215ecfef7d36f702cb9f23f0a59e18ac44bcba3b0bb02e9f254203f2bad",
+  "bytes": 241664,
+  "header_hex": "05000001fd74fd75e55e01b74a0ddc5800903939313231370042ebe58adf00000000000000000000000000000000dc57000000000000010200000000362e3231"
+}

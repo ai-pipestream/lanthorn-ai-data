@@ -1,0 +1,38 @@
+# Pytho’s Mask source follow-up: bounded negative result
+
+Checked 2026-09-25T08:48:44.709855+00:00. **No exact R4/020223 author source or release-matched library source was located in the checked sources. The opening MORE routine, requested input mode/window, and accepted-key test remain unproven.** Stopping at that limit, as requested. This is a bounded search result, not a claim that the source does not exist anywhere.
+
+## Exact story identity preserved
+
+Read only `/home/krickert/if-games/glulx/pytho.blb`:
+
+- Blorb SHA256: `87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b`.
+- GLUL executable chunk: file offset 80, 425984 bytes; SHA256 `63b2898508a5b6736989cd0008ee2906d2ce3c221d5af165f546d4ed56f1a6c4`.
+- Inform identification: release 4, serial 020223, Inform compiler 6.21, Glulx compiler backend 0.36. These compiler strings do **not** identify the exact library sources, local modifications, or MORE implementation.
+- Container chunks are RIdx, GLUL and three PNG resources. No separately identified source/debug chunk is packaged here. No executable was run or rebuilt; no game-routine decompilation was attempted.
+
+[Machine-readable result](../sources/pythos-startup-20260925/source-search-result.json) records the header and chunk observations.
+
+## Sources checked and their limits
+
+1. Local filename search in the IF library, reference-code tree and experiment sources located the existing Glulx story, Z-code edition, and already known guide/provenance files, but no Pytho source or local matching parser/verblib/infglk source. This was a bounded filename search, not an inspection of every arbitrary archive on disk.
+2. Fresh [IF Archive Inform game-source index](https://ifarchive.org/if-archive/games/source/inform/Index) has no Pytho entry. The [Smoochie directory index](https://ifarchive.org/if-archive/games/mini-comps/smoochie/Index) identifies the Z-code release and points to Glulx. These catalog checks provide no source routine or dependency pin.
+3. [Emily Short’s archived Pytho page, capture 2005-02-27](https://web.archive.org/web/20050227050151/http://emshort.home.mindspring.com/pytho.htm) explicitly distinguishes version 3 from version 4’s Glulx window arrangement. It links the game listing, hints and design intentions, but no game source. Its footer says last updated May 7, 2001 even though the body discusses version 4; neither that footer nor the 2005 capture date is a source/build timestamp. The page supplies no serial or accepted-key rule.
+4. The author’s archived main page was checked for source links. Its linked [other-games/source page](https://web.archive.org/web/20050207060818/http://emshort.home.mindspring.com/othergames.htm) has no Pytho mention. Her [troubleshooting FAQ](https://web.archive.org/web/20050207071254/http://emshort.home.mindspring.com/trouble.htm) also has no Pytho mention or matching MORE input rule. Its generic old-Macintosh first-screen/window and interpreter-crash advice is not evidence for this central headless session and is not a proposed recovery.
+5. IFDB was used to locate the archived author links, not as code-level accepted-key evidence. The previously pinned author walkthrough begins with normal exploration/dialogue, after startup; it does not establish how this opening MORE interaction is implemented.
+
+Raw primary-page/index downloads and HTTP headers are retained under `sources/pythos-startup-20260925/`. Retrieval UTC times, exact URLs/statuses and SHA256 hashes are in [fetch-receipts.json](../sources/pythos-startup-20260925/fetch-receipts.json). They are page/catalog receipts, **not** a recovered game-source package. Source-to-story correspondence and library version gap cannot be measured because no corresponding source was found.
+
+## Consequence for the held session
+
+There is no source-supported reason from this follow-up to send SPACE, another Enter, any other key, or a host query to `pythos-mask-a39eb2af1a`. No accepted-key list, input-window requirement, or char-versus-line classification for the exact MORE routine has been established. The earlier verified CLI mapping (Glk Return versus literal SPACE) is transport evidence only, not evidence of which key the game accepts. Generic modern/historical Inform routines would be an unproven substitution, so none was promoted to a fix.
+
+Preserve e3/e4 and the held slot. This turn did not read or alter live process state, send input, create saves, launch probes, change the app/configs, or substitute the Z-code edition. The author's version distinction is retained; any later edition change would need separate pinning and authorization. No further search or runtime work is implied.
+
+## Download hashes
+
+- `inform-source-index.txt`: `49ff34c2160993d45eaa2c61ce4b7a3b68c05e0b2a4727229cc1abb1f3c32936`
+- `smoochie-index.txt`: `fc51d879bc7df8b4e8493b88a4de410dadcbc10ebb0c3d510c1d33cfc2aa8156`
+- `author-pytho-20050227.html`: `a5f8cd804b4a3ed6c8f9b49fbb7b9848e4d9bf9923df29f1cf9331e4803aafa0`
+- `author-troubleshooting-20050207.html`: `5ec184f8a632aa645cbb98f604668073d565d0230e1771fa84fa91ff7fca21e1`
+- `author-othergames-20050207.html`: `b01df3789b42241e7b1e6c1cf3c332cd14ddf90ce471a9daaee76efbcffbad39`

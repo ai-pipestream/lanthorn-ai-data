@@ -1,0 +1,147 @@
+{
+  "game_id": "dash-slapney-patrol-leader",
+  "title": "Dash Slapney, Patrol Leader",
+  "author": "Andrew Schultz",
+  "url": "https://ifarchive.org/if-archive/solutions/DashSlapneyPatrolSol.txt",
+  "effective_url": "https://ifarchive.org/if-archive/solutions/DashSlapneyPatrolSol.txt",
+  "accessed_at": "2026-09-25T09:34:47.694679+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/DashSlapneyPatrolSol.txt",
+  "source_sha256": "54e555e9ced3c06b1788ff59ab4c0d96cabde48b78f2d0ab6afc78e1c667f2a0",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/dash-slapney-patrol-leader-walkthrough.txt",
+  "normalized_sha256": "54e555e9ced3c06b1788ff59ab4c0d96cabde48b78f2d0ab6afc78e1c667f2a0",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text, whitespace and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/zcode/DashSlapneyPatrol.zblorb",
+  "story_sha256": "1344d76b5d0eeda188c6b6ef30042f84b8c7a571cfb383aab31b53c3dc7933d2",
+  "compatibility": "Local Blorb matches fresh archive bytes. Indexed ZCOD is Z8 R3/120510, matching the catalog and embedded iFiction metadata. Author solution gives no release/serial; its archive date matches release 3 and the separately archived source declares release 3, but exact guide edition is not stated. Source was read, not compiled.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 3,
+  "serial": "120510",
+  "story_header": {
+    "container": "blorb-zcod",
+    "header_bytes": 64,
+    "header_hex": "0800000397709771899b010a25578363005031323035313000427828045c000000000000000000000000000000008362000000000000010200000000362e3332",
+    "header_sha256": "d75bf25adb567d8bbdedd43e9dbabb91fc00adc4c6d274d59df938d0ea0b12ea",
+    "checksum_hex": "045c",
+    "computed_checksum_hex": "045c",
+    "declared_length": 246080,
+    "file_bytes": 246272,
+    "zcod_offset": 56,
+    "zcod_bytes": 246272,
+    "zcod_sha256": "56f7a589c5a80eb877bb2cdf9095375966f8f3a185d00f81a7ab7a9dc3ae6527",
+    "container_bytes": 338426,
+    "chunks": [
+      {
+        "type": "RIdx",
+        "offset": 12,
+        "bytes": 28
+      },
+      {
+        "type": "ZCOD",
+        "offset": 48,
+        "bytes": 246272
+      },
+      {
+        "type": "IFmd",
+        "offset": 246328,
+        "bytes": 1421
+      },
+      {
+        "type": "Fspc",
+        "offset": 247758,
+        "bytes": 4
+      },
+      {
+        "type": "JPEG",
+        "offset": 247770,
+        "bytes": 90647
+      }
+    ],
+    "resource_index": [
+      {
+        "usage": "Exec",
+        "number": 0,
+        "start": 48
+      },
+      {
+        "usage": "Pict",
+        "number": 1,
+        "start": 247770
+      }
+    ]
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "DashSlapneyPatrol.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/DashSlapneyPatrol.zblorb",
+    "effective_url": "https://ifarchive.org/if-archive/games/zcode/DashSlapneyPatrol.zblorb",
+    "accessed_at": "2026-09-25T09:35:28.508717+00:00",
+    "remote_sha256": "1344d76b5d0eeda188c6b6ef30042f84b8c7a571cfb383aab31b53c3dc7933d2",
+    "local_sha256": "1344d76b5d0eeda188c6b6ef30042f84b8c7a571cfb383aab31b53c3dc7933d2",
+    "bytes": 338426,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 3,
+    "remote_serial": "120510"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#DashSlapneyPatrol.zblorb",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "DashSlapneyPatrol.zblorb ◆ [10-May-2012] IFDB entry IFWiki: Dash Slapney, Patrol Leader Dash Slapney, Patrol Leader: a test of scout skills, or your ability to fake them, by Andrew Schultz. Release 3 / Serial number 120510. (source code is in games/source/inform/DashSlapneyPatrolSource.txt )",
+    "tuid": "sb2ynig6ia3mx66o"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#DashSlapneyPatrolSol.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "DashSlapneyPatrolSol.txt ◆ [10-May-2012] Solution for Dash Slapney, Patrol Leader by the game's author, Andrew Schultz.",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Andrew Schultz",
+    "authorship_evidence": "Author explicitly credited by guide heading and archive catalog.",
+    "route_summary": "Complete the Klondike Derby through final scoring, the requested key pause and concluding reflection. Prefer the author's everyone-happy full route. The one-person and two-person upset victories are intentional alternate complete outcomes, not reasons to restart for a perfect result. Individual events, raw score or an END marker alone are insufficient. Disqualification, impossible over-four-win cheat detection and internal-error termination are failures, not successful collection.",
+    "limitations": "A short complete game with randomized event order and other patrol scores. Prepare items and relationships from actual state; the author guide's Z commands are ordinary turn waits, never timeout flushes. The source says release 2 improved detecting everyone helped and release 3 corrected Blue River handling. Observe carrying capacity and the final key pause before saving. Collect useful command/parser variety without padding this short game with repetitive probes.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "dash-slapney",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent scout-derby story. Reserve dash-slapney for related episodes, ports and releases. Generic scout tasks and shared authorship alone do not establish a shared-puzzle family with current games."
+  },
+  "reuse_claims_observed": "No story/guide training or redistribution permission established. Public availability is not such permission. Private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "supplementary_source": {
+    "url": "https://ifarchive.org/if-archive/games/source/inform/DashSlapneyPatrolSource.txt",
+    "accessed_at": "2026-09-25T09:35:13.903255+00:00",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/DashSlapneyPatrolSource.txt",
+    "sha256": "6a9c168860f38e8927ab6c4e8b7f92a800da59cee3f65492eed88eb2e414d487",
+    "declared_release": 3,
+    "reviewed_sections": [
+      "title and release history",
+      "startup randomization",
+      "try-the-ending including final key pause",
+      "disqualification and internal error exits"
+    ],
+    "compiled": false,
+    "limitation": "Source corroboration only; no assertion it reproduces the binary."
+  }
+}

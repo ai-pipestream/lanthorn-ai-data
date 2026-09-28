@@ -1,0 +1,8 @@
+# Frozen progress (STOPPED HONESTLY — game incomplete)
+
+Location: Lab (basement, NW of Basement hall). Machine/sphere/diagram present.
+Inventory as observed: calendar carried (e00032; e00034 basement-test note). Back pack empty, computer examined.
+Cases annotated (9): lab-pack-synonym, lab-exit-north, frozen-man-talk, office-desk-search, office-take-calendar, office-cal-typo, basement-door-push, basement-go-lab, lab-diagram-read (none/accepted paraphrase).
+Last hint m0019 lines 1-9: Lab: x diagram/machine/sphere; drop calendar; get on calendar; get sphere > Pentagram. Diagram done (e00055 read = e00056 x identical).
+Checkpoints verified: start-lab, third-floor, before-basement-door, in-lab.
+IN-FLIGHT: inbox/m0053.json "examine" (case lab-machine-omitted) already answered as e00058 "What do you want to examine?" per latest.json; responses/m0053.json file not yet confirmed. DO NOT resubmit. Next continuation: read responses/m0053.json, then send inbox/m00next "x machine" (same case_id, origin guided), then annotate pair (failed e00058 -> corrected x-machine event, failure_type syntax/omitted object, synthetic_probe true). Then continue hint sequence: x machine, x sphere, drop calendar, get on calendar, get sphere. No timed/light resources observed in use. Game NOT complete; no ending, no finish submitted.

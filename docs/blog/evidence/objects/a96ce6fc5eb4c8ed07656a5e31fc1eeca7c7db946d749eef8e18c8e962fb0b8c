@@ -1,0 +1,7 @@
+# Beyond the Tesseract — progress (game incomplete, in play)
+
+State: sea of radio frequencies (exits N/E/S/W), returned west from ionic storm (e00064/latest). Inventory as of e00058: ceramic coil, mobius strip, stack.
+Pending: inbox/m0060.json `south` (route-sea-south) submitted, response not yet observed as of e00064/latest. Do NOT resubmit; read responses/m0060.json then latest.json on resume. Request JSON verified well-formed (ends with ]}).
+Next after south result: explore remaining sea exits (west if south dead-ends), then north to vortex, pop to deduction/origin, origin west, office N/W for book/disk/projector. Need fragments TES/SE/RA + fourth, then TESSERACT finale (manifest completion).
+Cases ~19 annotated to e00062; m0059/m0060 are exploration (no annotation needed unless probe).
+Checkpoints verified: start-office, origin-arrived, deduction-hole, vortex-entry.

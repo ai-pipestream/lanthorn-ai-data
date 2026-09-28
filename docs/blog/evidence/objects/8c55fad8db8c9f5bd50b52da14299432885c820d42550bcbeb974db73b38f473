@@ -1,0 +1,25 @@
+{
+  "event_id": "hhgttg-7b4da6d228:e00405",
+  "timestamp": "2026-09-24T23:49:05.602147+00:00",
+  "game_id": "hhgttg",
+  "session_id": "hhgttg-7b4da6d228",
+  "branch_id": "b95",
+  "event_index": 405,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 982053,
+  "raw_end": 982053,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "88b968cb0ab1f564fa40183e4e5fe93c41157fe7883a802ca31ae3095769acf6",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "Slowly, nervously, you step downwards, the cold thin air rasping in your lungs. \nYou set one single foot on the ancient dust -- and almost instantly the most \nincredible adventure starts which you'll have to buy the next game to find out \nabout.",
+    "evidence_event_ids": [
+      "hhgttg-7b4da6d228:e00397",
+      "hhgttg-7b4da6d228:e00398"
+    ],
+    "notes": "Genuine winning ending on branch b95: hatch opened with vision-named pincer (score385), Ramp descent to Magrathea surface with crew, next-game teaser, score prompt, empty RETURN gives 385/400 in 621 turns and engine_exited. Not death, not quit, not intermediate score."
+  },
+  "review_status": "unreviewed"
+}

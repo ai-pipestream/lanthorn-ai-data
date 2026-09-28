@@ -1,0 +1,7 @@
+# SpiritWrak progress — INCOMPLETE, In sailboat branch b4 (launch attempts)
+
+State: In sailboat Grassland Beach b4 e633 (launch sailboat rejected). Path: wait e625-626 time passes / batch waits e627-629 time passes (5 waits, no bump, still beached e630 look) / open fur sack e631 / look in sack e632 empty / launch sailboat e633 unknown verb. Pending: m0561 sail east (submitted, e633 latest). Inventory b4: brochures, key, egg, lit amulet, flour, prayer book; sack open empty; coin USED; newspaper in car; thug gone.
+Hints: Z until bumped / L / Take coin / S,E,E,D / Take scroll 2/63 / Gnusto tossio / Learn wigro / Wigro zombie (e548 e619). Boat still beached after 5 waits — needs launch/sail verb (launch rejected e633) to cross bay to tower before Z-bump/coin. Then scroll, box/wire, U,W,W,N,N,NW,D slots; rag SW,D,S / Aragain N,U,E / Frostham W,NW,U,N,W / Take rag / Give rag (5/73); late Give pan (10/119).
+Cases: b4 boat-launch vocab pending (launch rejected, sail east recovery) + boat-board vocab, gate/south none, train reuse; b3 peak-south world_state, cliff-monastery vocab, tree/slide/east/marker; 25+ b1 + b2 guard.
+Checkpoints Ok: fublio-valley-b4 e611-612, mountain-peak-b3, cliff-face-b3, slope-top-b3, snowy-intersection-b3, aragain-entrance-b2, waiting-room-zorkmid (b4 fork).
+Next: sail east result, then push/row/sail variants or help on boat launch if two fail, then Z-bump/L/coin, S,E,E,D scroll, tossio/wigro/zombie/box/wire toward winning ending. Game incomplete, no ending reached — no finish. NO finish evidence; do not claim completion.

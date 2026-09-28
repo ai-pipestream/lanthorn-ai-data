@@ -1,0 +1,65 @@
+{
+  "at": "2026-09-25T08:42:15.223062+00:00",
+  "session_id": "pythos-mask-a39eb2af1a",
+  "reason": "Startup MORE empty Enter e3 timeout; no checkpoint. Await m0003 pending; preserve broker/interpreter, no input/replay/reset. Manual diagnosis. Owned slot retained.",
+  "clients_stopped": [
+    [
+      473926,
+      [
+        "bash",
+        "./run-fullplay.sh",
+        "pythos-mask"
+      ]
+    ],
+    [
+      478852,
+      [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=10s",
+        "2700s",
+        "muse",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/pythos-mask",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-pythos-mask-20260925T084043Z-C9fFEI/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    ],
+    [
+      478853,
+      [
+        "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "exec",
+        "--provider",
+        "meta",
+        "--workspace",
+        "/work/experiments/lanthorn-recall-training/play/pythos-mask",
+        "--prompt-file",
+        "/work/experiments/lanthorn-recall-training/runs/fullplay-pythos-mask-20260925T084043Z-C9fFEI/prompt.md",
+        "--json",
+        "--max-model-steps",
+        "400",
+        "--max-tool-output-bytes",
+        "262144",
+        "--approval-mode",
+        "never",
+        "--disable-shell",
+        "--disable-web-tools",
+        "--no-foreign-personal-context"
+      ]
+    ]
+  ]
+}

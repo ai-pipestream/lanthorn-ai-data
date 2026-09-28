@@ -1,0 +1,25 @@
+{
+  "event_id": "all-quiet-on-the-library-front-a0c0a11bad:e00125",
+  "timestamp": "2026-09-25T06:49:54.694923+00:00",
+  "game_id": "all-quiet-on-the-library-front",
+  "session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+  "branch_id": "b0",
+  "event_index": 125,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 34435,
+  "raw_end": 34435,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "b3665eaf5e30520355a1f07657ffbd69e967ecb53942f86913d044e65fa30e11",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "all-quiet-on-the-library-front-a0c0a11bad",
+    "ending_quote": "You succeed in gaining the biography, and you exit the library. The paper is \nwritten over the week-end, you return the book on Monday (of course), and you \npass the class with flying colors (despite slacking off for the whole \nsemester), and you graduate from college. \n\nShortly thereafter, you meet an investor who loves IF, and you write a wildly \nsuccessful game, get rich off of it, and live the rest of your life thanking \nall the IF authors of the past.\n\n    *** You have won ***\n\n\nIn that game you scored 27 out of a possible 30, in 64 turns.",
+    "evidence_event_ids": [
+      "all-quiet-on-the-library-front-a0c0a11bad:e00123"
+    ],
+    "notes": "Genuine winning ending via final east exit after resolving investigation and book/key exchanges (key returned, novel delivered, encyclopedia delivered, gates disabled, xyzzy). Not death/quitting/chapter: explicit *** You have won *** plus concluding graduation/investor narrative and 27/30 tally (missing optional under-stairs+grue 3 pts)."
+  },
+  "review_status": "unreviewed"
+}

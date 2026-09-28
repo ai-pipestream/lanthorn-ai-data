@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-25T08:01:08.251427+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-h-20260925.json",
+  "count": 4,
+  "counts": {
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "source_records": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/varicella.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-represso.json",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin.json"
+  ],
+  "guides": [
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/varicella-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-represso-walkthrough.txt",
+    "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin-walkthrough.txt"
+  ],
+  "identity": "All four local stories are byte-identical to IF Archive binaries. Header64, checksums and full hashes pinned; Risorgimento Blorb and embedded ZCOD separately pinned.",
+  "version_caveats": {
+    "varicella": "Local archive-identical Z8 header is R1/990831. Catalog instead describes public version 1.14 (31 August 1999) and serial 9339. Preserve both metadata layers without replacing the six-byte header serial. The anonymous IF Archive guide identifies Adam Cadre's game and the same IFDB ywwlr3tpxnktjasd but supplies no release or serial; exact guide edition compatibility is unverified.",
+    "cacophony": "Local archive-identical Z8 R4/091209. Author guide archive contains three walkthroughs, none naming a release or serial. Archive guide date 2009-08-02 predates the R4 story listing 2009-12-09; do not infer exact release compatibility. Primary normalized guide is the unedited text of ZIP member Walkthrough3.txt with LF line endings; ZIP bytes and all members are separately pinned.",
+    "risorgimento-represso": "Local archive-identical Blorb contains ZCOD Z8 R6/171114. Author replay guide is explicitly tested with R5/171024 and its archive entry points to the Glulx edition. Preserve both the one-release gap and Glulx-to-Z-code edition gap; matching title/author/IFDB t0pidhghzbo91i12 does not establish identical command timing or runtime behavior.",
+    "wadewars-iii-askin": "Local Z5 R106/020512 exactly matches the archive binary/header. Author guide explicitly targets the Z-code version, not merely the earlier DOS release, but supplies no release/serial. Its archive date 2001-12-23 predates the story's R106/020512; exact edition coverage remains unverified. Despite Book III in the title, the author identifies this as the first completed book, not an unavailable preview."
+  },
+  "family_review": [
+    {
+      "game_id": "varicella",
+      "proposed_family": "varicella",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "Adam Cadre also wrote collected I-0, 9:05 and held-out Photopia, but shared authorship alone does not establish shared world or puzzles. The read guide identifies an independent court-intrigue story with its own characters; no concrete shared-family link was found. All Varicella editions belong together."
+    },
+    {
+      "game_id": "cacophony",
+      "proposed_family": "cacophony",
+      "proposed_split": "train",
+      "uncertain": false,
+      "rationale": "Independent Owen Parish dream-world story and archive identity. Generic dream transitions do not establish a shared world with held-out Shade or any other registered family. Preserve all three endings and all editions within cacophony; no concrete cross-family reuse identified."
+    },
+    {
+      "game_id": "risorgimento-represso",
+      "proposed_family": "risorgimento-represso",
+      "proposed_split": "train",
+      "uncertain": true,
+      "rationale": "IFDB explicitly lists Illuminismo Iniziato as a sequel: reserve the same family for that title and all Risorgimento editions/ports. No such title is currently registered or in play. Generic comic-fantasy influence and a reviewer's Zork comparison do not alone establish shared world/puzzles. Parent should retain this series grouping when later adding the sequel."
+    },
+    {
+      "game_id": "wadewars-iii-askin",
+      "proposed_family": "wade-wars",
+      "proposed_split": "train",
+      "uncertain": true,
+      "rationale": "The author explicitly links this game to the Wade Wars series and Got Toast?; conservatively reserve wade-wars for those shared-world works and ports. Neither is in current registered/play exclusions. The introduction mentions rediscovering Zork, which establishes inspiration rather than specific shared world/puzzle reuse. Parent review requested for these documented series links."
+    }
+  ],
+  "guide_notes": "All selected guides read in full; Cacophony all three members read, primary full third route plus optional history, alternate routes retained centrally. Three guides are author-written; Varicella is archive-attributed anonymous. WadeWars Windows-1252 and all line-ending normalization recorded.",
+  "central_architecture": "Keep story files, full guides, provenance and interpreter execution central. Mask full-guide/source paths and URLs from Muse. Pis receive only small broker excerpts, never staged assets.",
+  "limits": {
+    "response_timeout_seconds": 180,
+    "help_excerpt_max_lines": 9,
+    "help_excerpt_max_characters": 1000,
+    "event_or_probe_quota": null,
+    "new_concurrency_limit": null,
+    "new_wall_clock_limit": null
+  },
+  "authorization": "Private source preparation only. Parent inspects and registers separately. No interpreter/guide command execution, launch, training, evaluation, app change, publication or shared-registry edit.",
+  "readiness": "Four source-checked candidates; runtime compatibility and concluding narrative require later parent verification. Series-family and version caveats retained."
+}

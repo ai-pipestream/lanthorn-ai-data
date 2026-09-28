@@ -1,0 +1,25 @@
+{
+  "event_id": "baltimore-24-8d5ab9f7e7:e00107",
+  "timestamp": "2026-09-25T09:34:19.348040+00:00",
+  "game_id": "baltimore-24",
+  "session_id": "baltimore-24-8d5ab9f7e7",
+  "branch_id": "b1",
+  "event_index": 107,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 17005,
+  "raw_end": 17005,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "You hand Robert your old router and he gives you the new one.\n\n\"I tested your internet circuit and found a breach. I dispatched an engineer \nlast night to repair it. Just plug this new router in and you'll be all set.\"\nWith router in hand you practically fly back to your office in New Jersey, \nbreaking the speed limit in each state you pass. You hook up the new router and \nthe lights begin to blink in their normal, methodical pattern.\n\nYour callers begin to logon and open their browsers. You have restored service. \nYour callers are ecstatic and praise you on your dedication of going so far out \nof your way for them, especially on a holiday.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 47 turns.",
+    "evidence_event_ids": [
+      "baltimore-24-8d5ab9f7e7:e00093",
+      "baltimore-24-8d5ab9f7e7:e00101"
+    ],
+    "notes": "Full router-replacement journey completed: take router, drive NJ->Delaware->Maryland->Baltimore, Ramada checkin/call/sleep, checkout, Harbor Promenade bar delivery to Robert. Both branches show authored service-restoration conclusion with new-router hookup, normal blink, callers logging on, *** You have won ***, 30/30. Not death, quitting, chapter transition, or intermediate score; delivery produced concluding narrative and win prompt."
+  },
+  "review_status": "unreviewed"
+}

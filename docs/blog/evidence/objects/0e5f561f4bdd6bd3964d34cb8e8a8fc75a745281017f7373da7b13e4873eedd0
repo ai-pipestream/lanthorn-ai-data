@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-25T07:32:22.028546+00:00",
+  "command": "python3 -m unittest discover -s scripts -p test_recovery_startup.py",
+  "result": "6 tests pass",
+  "files": {
+    "scripts/recover_broker.py": "f10b5bb9b70372b69398038a21b365420635238fcd44538fc2075f5fa9d1b134",
+    "scripts/test_recovery_startup.py": "fa96a1fe856310780f7f2e8c80bf0a6ecf98d9d58220b60f4bc33c9291765a1d"
+  },
+  "scope": "Future recovery selection requires clean SAVE and filename reply, excludes manual quarantine, delayed links, and first command after unresolved output. No running interpreter state changed."
+}

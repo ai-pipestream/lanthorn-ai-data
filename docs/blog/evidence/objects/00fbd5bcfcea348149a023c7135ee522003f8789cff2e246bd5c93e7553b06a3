@@ -1,0 +1,9 @@
+# Vindaloo progress — e00229 Building Site (game incomplete)
+
+Location: Building Site e00229 (west of bend). Ordinary prompt.
+Inventory (e00229): crowbar, onion, scarf, pound coin, spade, front door key.
+Route: garden south kitchen e00212, hallway e00213, front e00214 (door slammed), road chicken e00215, west road e00216, bend e00217, south stall e00218, stall E/S/W blocked e00219-221, north bend e00222, west building site e00223, look e00224, examine bricks e00225 (generic), search bricks e00226 (steel crowbar auto-taken), take crowbar e00228 (already have), inventory e00229.
+Garden alley: north/east/west, enter alley, examine entrance, go through entrance all fail. Help m0194 only order, no direction. Alley hunt from stall/bend side failed (stall E/S/W blocked). Building site found instead.
+Pending: annotate take-crowbar redundancy? Next inbox m0213. Need building-site exits (east to bend; try north/south) + alley route + crowbar use.
+Plan: checkpoint building-site-crowbar, probe north/south/east exits, request help for alley garbage-hat route and post-crowbar steps. Front door slammed+locked (need unlock with key to re-enter). Back door left open.
+Checkpoints: start-bedroom, hallway, outside-front, indian-shop, stall, kitchen-entered, garden-onion, building-site-crowbar (pending).

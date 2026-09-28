@@ -1,0 +1,14 @@
+# Inside Woman — progress
+
+Location: Briefing Room (Hong Kong), Score 2, Moves 16 (event e00027). Nanci capsule swallowed; cover Alice Ling established.
+Inventory: red capsule taken/consumed; re-check needed (visa, clothes presumed in flashback).
+Checkpoints: early-safe (e00010-11 verified).
+Cases (5 annotated):
+- shuttle-window-probe e00006/e00008 world_state (annot e00009)
+- shuttle-look-left e00013/e00014 syntax (annot e00015; case_id mismatch noted)
+- briefing-examine-omitted e00018 none (annot e00019; bare examine defaults to General)
+- briefing-capsule-take e00023/e00024 world_state (annot e00025; drawer fixed vs capsule)
+- briefing-swallow-nanci e00027 none (annot e00028; eat accepted)
+Last hint e00007 off-topic (H6c/H6d + Prologue Q1 Who am I?).
+Next: advance briefing (look/listen/examine general/screen/projector), reach shuttle arrival/registration; checkpoint at next ordinary prompt milestone; 1 probe per new puzzle.
+Branch b0. No restores. No light/timed pressure yet.

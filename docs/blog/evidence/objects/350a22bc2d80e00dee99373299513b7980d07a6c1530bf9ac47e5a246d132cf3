@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:45:59.461471+00:00",
+  "game_id": "nine-points",
+  "events": [
+    {
+      "event_id": "nine-points-013d843149:e00061",
+      "timestamp": "2026-09-25T06:28:00.727872+00:00",
+      "game_id": "nine-points",
+      "session_id": "nine-points-013d843149",
+      "branch_id": "b0",
+      "event_index": 61,
+      "event_type": "command",
+      "command": "north",
+      "response": "\nOutside\n  You climb down the ladder and your imagination soars with thoughts of what \nyou're going to do with the money from the crown....\n\n  Suddenly rough arms slam you against the side of the house! \"He's found it,\" \nmutters a low voice. \"Let's go.\" Something cracks against your head, and your \nhead cracks against the wall, and you barely see a golden Minoan sceptre \nclatter to the ground beside you as you fall. \"You never saw the crown. Keep \nthis and be happy,\" growls the voice. \"And don't go asking questions -- if you \nknow what's good for you.\" And then you are alone.\n\n  Your stomach hurts.\n\n\n    *** You have finished this sample game ***\n\n\nIn that game you scored 8 out of a possible 8, in 35 turns. You're ready to \nfind some aspirin.\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+      "raw_start": 6675,
+      "raw_end": 7489,
+      "response_sha256": "4b77a3eeb55ba439ee92148baa7d81ac584c950fe8417ee8635ee208bba92721",
+      "story_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "nine-points-013d843149",
+        "case_id": "window-exit-north",
+        "expected_outcome": "Climb out window to fire escape with crown outcome",
+        "intent": "Exit north through open window",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Authored conclusion of SAMPLE game: outside escape with sceptre, explicit finished-this-sample-game marker and final menu, 8/8. Not full-game or coverage proof. Independent review pending."
+}

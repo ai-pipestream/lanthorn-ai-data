@@ -1,0 +1,29 @@
+# Gumshoe progress — b2 office opening (continuation)
+
+## Branches
+- b0: original (Sandra accepted, score ~13, NO camera, missed Logitek 11:32 after 8 waits).
+- b1: sandra-accepted restore, fast route (Sandra cab evidence), Logitek 7 waits + Boggs, checkpoint logitek-stakeout-b1 (e00179-80). Knock/locked-door mechanic (e00193). Marge-desk glare-blocked (e00195).
+- b2 CURRENT (fresh start-hallway e00196-97): at office desk, score ~10 (9 + note +1).
+
+## b2 findings e00198-e00221
+- Hallway woozy puzzle solved: read newspaper in place +1 (e00202), 4th take succeeds (e00204); wait sobers + Marge unlocks (e00208); s → reception (e00209).
+- Reception: remove coat → Marge 2pm shopping intel (e00210); put coat on rack (e00211).
+- Marge desk: `search desk` (b1 e00195) vs `look in desk` (b2 e00212) byte-identical glare refusal — annotated none/failure e00214. Help m0201 only repeats walkthrough (e00213). Camera STILL unobtained.
+- Office: e → office (e00215); `look at desk` = same as `x desk` surface (papers/telephone/drawer) — annotated none/success e00217; `read papers` reveals note/bill/envelope (e00218); `x not` typo rejected (e00219) → `x note` reveals Sandra 11:00 + score (e00220), annotated vocabulary/success e00221.
+
+## Inventory (observed b2)
+- Carrying: Times, PI license, money (coat + hat on rack in reception). Drawer hanky NOT yet taken. No camera. No card/snapshot yet (Sandra pending ~11:18).
+
+## Unresolved cases
+- b2-desk-search-synonym (done, none/failure); b2-office-desk-look-at (done, none/success); b2-office-note-typo (done, vocabulary/success).
+- Open puzzle: camera in Marge mess (glare blocks all attempts); sedan/tires/valve/pin location unknown (absent McMurtry street); Logitek 11:32 departure timing.
+
+## Last hint
+- e00213: S / Remove coat / Put coat / Search desk (1/1) (Marge closes door) / Wear camera / E / X desk / Search papers (walkthrough, not observed).
+
+## Next
+1. `read bill`, `x envelope`/`read envelope`, `open drawer`, take hanky (new typo variant, not `get hanky` repeat).
+2. Checkpoint `b2-office-opening` at ordinary prompt.
+3. Replay Sandra interview fast from knowledge (sit order, give hanky, yes) but WITHOUT repeating identical probes.
+4. Then street → Logitek fast (hail, get in yellow cab, cabbie go to logitek), minimal waits; save before stakeout.
+- Checkpoints: start-hallway, reception-entry, sandra-accepted, logitek-stakeout-b1 confirmed. New pending: b2-office-opening.

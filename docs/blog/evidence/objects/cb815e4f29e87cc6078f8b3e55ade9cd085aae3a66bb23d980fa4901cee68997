@@ -1,0 +1,119 @@
+{
+  "at": "2026-09-25T06:48:01.849461+00:00",
+  "game_id": "pick-up-the-phone-booth-and-aisle",
+  "header": {
+    "version": 5,
+    "release": 2,
+    "serial": "010618"
+  },
+  "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+  "events": [
+    {
+      "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00001",
+      "timestamp": "2026-09-25T06:44:39.711354+00:00",
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\nPICK UP THE PHONE BOOTH AND AISLE\nThe latest in a long series of silly games\nRelease 2 / Serial number 010618 / Inform v6.15 Library 6/10 \n\nThe Town Square\nYou are standing in the  middle of a pretty town square in the center of a \nnondescript New England town. Like most any other nondescript New England town, \nthere's not much to see or do here, but maybe you'll find something amusing and \nenjoyable to do.\n\nA shiny metal phone booth sits in the center of the square.\n\n>",
+      "raw_start": 0,
+      "raw_end": 475,
+      "response_sha256": "683ec9e6aabc4c314a1f98d976b3ea987388545b15ec0b0a869b66d1247f7774",
+      "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00002",
+      "timestamp": "2026-09-25T06:45:27.185540+00:00",
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying:\n\n  Pants (being worn)\n\nIn fact... you take a closer look at the tag of those pants, which sticks \nprominently out of the side with a DO NOT REMOVE THIS TAG notice attached. But \nwhat does the small print say?\n\n\"Akmi Esploding Pantz.\"  Shit. SHIT--\n\n\n    *** Ka-boom ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 475,
+      "raw_end": 825,
+      "response_sha256": "15f31647e6e7110e8a3441a326ce2c8e937369a3ef4989493bcdda54d3ef1d56",
+      "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+        "case_id": "town-square-baseline",
+        "expected_outcome": "Empty inventory listing",
+        "intent": "Check what I am carrying at game start",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00003",
+      "timestamp": "2026-09-25T06:46:09.714974+00:00",
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "help",
+      "command": null,
+      "response": "",
+      "raw_start": 825,
+      "raw_end": 825,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+      "engine_state": "unchanged",
+      "metadata": {
+        "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+        "help_trigger": "stuck",
+        "reason": "Baseline 'inventory' triggered an exploding-pants death ending (Ka-boom, RESTART/RESTORE/QUIT prompt) instead of an inventory list. I am now at a death menu and need the small hint for the preferred title-action branch wording so I can recover and aim for a coherent nonfatal authored ending without guessing blindly.",
+        "related_event_ids": [
+          "pick-up-the-phone-booth-and-aisle-64782da4ad:e00002"
+        ],
+        "topic": "title action pick up phone booth and aisle ending wording",
+        "hint_source": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+        "line_start": 1,
+        "line_end": 9,
+        "hint_text": "\n-- 210 OR SO ENDINGS TO PICK UP THE PHONE BOOTH AND AISLE --\n--- By Spinster/Zaratustra --- http://zara.verge-rpg.com ---\n\nI believe this is the more or less complete set of commands that\nwill give endings in PUTPBAA. Some that give the same endings \n(like most KILL synonyms) were skipped.\n\nCommands are marked in a 'compacted' manner: That is, NOTIFY (ON,",
+        "source_kind": "walkthrough_not_player_observed"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00004",
+      "timestamp": "2026-09-25T06:46:39.600735+00:00",
+      "game_id": "pick-up-the-phone-booth-and-aisle",
+      "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "help",
+      "command": null,
+      "response": "",
+      "raw_start": 825,
+      "raw_end": 825,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+      "engine_state": "unchanged",
+      "metadata": {
+        "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+        "help_trigger": "stuck",
+        "reason": "First excerpt was guide header only. I need the compacted catalog line for the title-action branch (phone booth and aisle) to aim for the nonfatal authored ending. Currently at RESTART/RESTORE/QUIT death menu after exploding-pants inventory ending; will answer the menu with RESTART and then attempt the title action.",
+        "related_event_ids": [
+          "pick-up-the-phone-booth-and-aisle-64782da4ad:e00002"
+        ],
+        "topic": "pick up phone booth and aisle command",
+        "hint_source": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+        "line_start": 1,
+        "line_end": 9,
+        "hint_text": "\n-- 210 OR SO ENDINGS TO PICK UP THE PHONE BOOTH AND AISLE --\n--- By Spinster/Zaratustra --- http://zara.verge-rpg.com ---\n\nI believe this is the more or less complete set of commands that\nwill give endings in PUTPBAA. Some that give the same endings \n(like most KILL synonyms) were skipped.\n\nCommands are marked in a 'compacted' manner: That is, NOTIFY (ON,",
+        "source_kind": "walkthrough_not_player_observed"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "note": "Parent raw span/text/hash verified; selected startup/early events only; no independent review or ending implied."
+}

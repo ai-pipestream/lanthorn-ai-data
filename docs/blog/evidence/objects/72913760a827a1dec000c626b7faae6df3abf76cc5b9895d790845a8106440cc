@@ -1,0 +1,41 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T05:02:44.721877+00:00. Synthetic test data only. Fixed selection cutoff: 2026-09-25T04:57:56.779967+00:00. Reviewer issued no game commands, restores, launches, training, evaluation or publication; only the three owned review files changed.
+
+1439 unique exported annotations: 1024 accepted, 311 revise, 56 quarantine, 48 unreviewed under exact endpoint-set matching. This bounded pass reviews80:60 accepted,19 revise,1 quarantine across9games. All160 endpoint references and670 nearby/intervening events passed raw byte-span SHA256/text checks. Selected evidence contains no known timeout/delayed-output chain. Theatre crosses a restore; branch IDs alone were not treated as sufficient context. Historical transport quarantines persist. CSV refresh can lag owned reviews.
+
+## Current case findings
+
+Quarantine Hunter e00061: TAKE NEEDLE intended acquisition; X NEEDLES only examines. Retrospective interact intent and success label cannot turn changed goal into a verified correction. Separately, Hunter e00021 needs intent_preserved=yes: original metadata intended the same shape throughout; stale IT resolving side chamber is a parser target error, not a user goal change.
+
+Curses e00609 needs parser-conversation context: e00576 asks what to unlock with; e00577 EAST answers that prompt, attempting to take east wall as instrument. Later GO EAST at a normal prompt does not establish that bare EAST is an invalid/ambiguous movement command.
+
+Theatre e00962 needs explicit cross-branch planning labels: failed e793 is b12, success e961 b13 after restore e915/e916 from amulet-pit-hunt. Old amulet wearing e856/inventory e866 and new glowing-passage response support that state history. ENTER ARCHWAY itself also failed without amulet at e801. No contiguous controlled wording comparison or unconditional necessity proof.
+
+Partial endpoints remain revisions: Anchor well inspection cannot reveal bones; path discovery e678 is not traversal e679. Bronze librarian lookup e820 gives unreadable runes; actual translated entry e822 follows travel. Curses locked-door response is not opening, and boarding bed does not establish time travel. Theatre platform LOOK does not locate rats. So Far TAKE KNIFE succeeds before multi-action escape; empty-key arrival is not a replacement for taking.
+
+Savoir green-jar notes incorrectly say red jar is carried: e691 inventory lists blue and black but no red. Preserve actual green selection without invented inventory explanation. Recognized COPY/LIGHT/PUSH refusals are separated from unknown-verb errors; spell learning and physical actions remain prerequisites. Observed chip acquisition/ejection does not establish every alley action always ejects the player.
+
+No unreviewed Spider annotations existed at cutoff. Earlier e00421 quarantine and e00423 revision remain: interrogation rewinds happen inside unchanged b0, equipment is rebuilt, and an alarm-free entry must not be presented as isolated synonym correction. No new Spider verdict was invented to fill the batch.
+
+Help excerpts remain source guidance. Accepted successes require engine text; checks include inventory, memorized-spell list, room transitions and real item/state changes where linked responses alone are indirect.
+
+## Thirteen verified conclusions
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux,905,Violet,Voodoo Castle,Slouching Bedlam,Secret Mission and now Bronze. Earlier twelve verdicts preserved from timestamped raw audits; Bronze independently checked during the prior04:52Z pass.
+
+Bronze bronze-edcd114f65 b1 e00854 actual command HUG BEAST: raw481384:482401 SHA2565b33a6c7277f1bff3d2575446883c26f8a582c00bddcb08fb6f2d092d876fa84. Explicit restored-King/servants-free ending banner and RESTART/RESTORE/QUIT menu. Claim e00872 mentioning KISS does not establish a KISS execution or equivalence. Engine waits at ending menu. Actual R11/060503 remains distinct from advertised/downloaded R13 selection; this route is observed, full release compatibility is not.
+
+Slouch's gallows route ends in worldwide Logos spread, not containment or a happy win. Secret Mission's actual POUR WATER defuses bomb; earlier bomb deaths remain failures. Other partial scores, deaths and chapter transitions remain insufficient for conclusions.
+
+## Hunter startup
+
+Hunter hunter-in-darkness-d1b183a1fc e1 is a splash. Empty keypresses e2/e3 reveal actual R4/991119 and normal prompt; e4/e5 save is acknowledged to exact path and nonempty file verified. Story header/hash c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92 verified. Save SHA256a4ac2f4f78416893497fe5e2dc2f6f30963f17fc7dce8666bee9eac062de93d8. Guide release unspecified; no ending inferred. Change in Weather is queued only, with no reviewer startup verdict.
+
+## Current bounded snapshot
+
+10 launcher processes observed; duplicate game launchers: {}. Latest current-session input spans checked only, not a repeated whole-log audit. Unverified new claims detected: [{'game_id': 'balances', 'event_id': 'balances-01a7783d25:e00654'}, {'game_id': 'hunter-in-darkness', 'event_id': 'hunter-in-darkness-d1b183a1fc:e00188'}]. Thirteen verified conclusions remain unchanged. Later cases are outside this pass.
+
+## Historical boundaries
+
+Earlier menu/delayed chains retain quarantine after explicit recoveries. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with maintainer guide, not commercial ZorkI. Its cap recovery to05114e1aff b99 and prior resource audits are historical, not proof of current resources or an ending. Engine key mapping source is not binary-equivalence proof. Pool guards and tests remain timestamped prior audits; provisional refill never promotes a completion claim. Guide/version gaps remain for Bronze, Dreamhold, Savoir, So Far and unspecified-release guides.

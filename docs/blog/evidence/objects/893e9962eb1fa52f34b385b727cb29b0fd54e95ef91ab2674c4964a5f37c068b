@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-25T06:57:15.628018+00:00",
+  "games": [
+    {
+      "game_id": "the-wedding",
+      "story_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+      "guide_sha256": "18ed4dee218ef83facf5fb3c6161a7ae7940c5435031e1c096cf93e49480cce0",
+      "header": {
+        "zmachine_version": 5,
+        "release": 5,
+        "serial": "970825"
+      },
+      "family": "the-wedding",
+      "split": "train",
+      "compatibility": "Local R5/970825 (Acorn User CD Edition) matches the archive binary. Guide is by Paul J. Godfrey, amended by the author specifically for release 3, with no serial. Preserve the two-release gap. Both entries identify Neil James Brown's The Wedding, IFDB 5r1iabxsfwmz40ev; this is not Kenya Miller's Wedding.zblorb, which was rejected from batch C."
+    },
+    {
+      "game_id": "ghost-train",
+      "story_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+      "guide_sha256": "918498de065e4c3c9b0938851e0143d0215ee689edc405d106587be171047327",
+      "header": {
+        "zmachine_version": 8,
+        "release": 7,
+        "serial": "290912"
+      },
+      "family": "ghost-train",
+      "split": "train",
+      "compatibility": "Local R7/290912 exactly matches archive bytes/header. Daphne Brinkerhoff guide explicitly targets R4/070503 and is walkthrough version 1.0 dated 2003-11-12. The walkthrough version is not the game release. Preserve the three-release gap and literal six-byte serials; do not reinterpret 290912 as a normalized date."
+    },
+    {
+      "game_id": "schooldays",
+      "story_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+      "guide_sha256": "27acd7bf474cf7dd5faf74a743ba9573bb975fe63eccac22d2b7d0ec19004751",
+      "header": {
+        "zmachine_version": 5,
+        "release": 3,
+        "serial": "092800"
+      },
+      "family": "schooldays",
+      "split": "train",
+      "compatibility": "Local R3/092800 matches the archive binary and catalog; keep serial 092800 literally rather than correcting it to YYMMDD. Archive identifies the guide as the game author's walkthrough with matching IFDB oc4jf24yotpal4ve. Guide gives no release/serial, and its 2000 archive date predates the 2001 story listing; exact guide compatibility remains unverified."
+    },
+    {
+      "game_id": "not-just-a-game",
+      "story_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+      "guide_sha256": "f5463f438f8c8bc5cb508ac10e68c5c7297dd1f6a6a5438ba92d80aa34d55412",
+      "header": {
+        "zmachine_version": 5,
+        "release": 3,
+        "serial": "210603"
+      },
+      "family": "not-just-a-game",
+      "split": "train",
+      "compatibility": "Local R3/210603 is byte-identical to the archive story. Archive identifies this as John Menichelli's game and author walkthrough with matching IFDB fg73hgne2htwpbak; both were archived 2021-06-03. Guide body supplies no release/serial, so the shared archive date does not prove exact version coverage."
+    }
+  ],
+  "status": "registered, parent byte/header/guidehash/family verified; no runtime claim"
+}

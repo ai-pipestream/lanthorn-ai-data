@@ -1,0 +1,32 @@
+## Progress savoir-faire — 2026-09-25 continuation seg 1 (update 2)
+
+Location: Scullery. Basin plugged with sponge, added cup + teapot of well water (great deal of water, sponge visible, glint not yet reachable).
+Inventory (observed): hat worn, swordstick, sword, snuffbox closed, andouillettes, butcher knife, cup (empty), teapot (empty, open). Bread left on scullery counter. Sponge in basin hole.
+Visited: Garden, Kitchen, Scullery.
+
+Checkpoints: start-garden, have-sausages.
+
+Cases since last update:
+- kitchen-contraption-01 e00019 contraption = box + clockwork + dial + Andouillettes Recipe cylinder, off
+- kitchen-sausage-01 e00020 get sausages -> can't reach (synonym sausages accepted, world_state)
+- kitchen-sausage-02 e00021 stand on table ok
+- kitchen-sausage-03 e00022 take it -> contraption / e00023 take andouillettes still can't reach — annotated ambiguity (m0023)
+- kitchen-sausage-04 e00024 jump -> got sausages
+- kitchen-inv-01 e00026 inventory confirms sausages+bread
+- kitchen-down-01 e00027 get off table ok
+- scullery-cupboard-01 e00031 cubboard typo fail / e00032 open cupboard reveals cup plate teapot — annotated syntax (m0030)
+- scullery-knife-01 e00034 take knife ok (omitted adjective accepted)
+- scullery-basin-01 e00035 basin hole + glint / e00036 take glinting thing can't reach
+- scullery-plug-01 e00037 look at plug -> no such thing
+- scullery-sponge-01 e00039 pick up sponge ok (accepted paraphrase)
+- scullery-plug-02 e00040 plug verb unrecognized / e00041 put sponge in hole ok — annotated vocabulary (m0039)
+- scullery-cup-01 e00043 take cup ok; scullery-teapot-01 e00044 too many hands / e00046 take teapot after dropping bread ok
+- route-well-01 e00047-48 kitchen/garden
+- well-fill-01 e00049 fill cup with water ok (omitted source accepted)
+- well-fill-02 e00050 teapot closed / e00051 open teapot / e00052 fill teapot ok
+- route-basin-01 e00053-54 back to scullery
+- basin-fill-01 e00055 pour cup into basin ok (pour accepted); basin-fill-02 e00056 empty teapot ok; basin-check e00057 great deal water + sponge
+
+Last hint (m0035, lines 443-451): float object up by plugging pipe with sponge and ferrying water with cup/teapot/jars, not bee container; capacities 6 sips, need slightly more than cup+teapot. Verifying by doing trips.
+
+Next: more water trips; search house for jars/bee; try taking floating object; then roses with butcher knife, contraption recipe, corridor/attic.

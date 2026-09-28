@@ -1,0 +1,38 @@
+{
+  "rejected_pairings": [
+    {
+      "story": "/home/krickert/if-games/zcode/lost.z5",
+      "story_sha256": "9ad23948fdf8c4c4f72fadbe1818b4f17fc50dbf9d8fc81312ba9c4e44dc2ddb",
+      "zmachine_version": 5,
+      "release": 3,
+      "serial": "980116",
+      "header_hex": "0500000344a444a52f9501021ebc25b5001039383031313600427cdbd65f000000000000000000000000000000000000000000000000000000000000362e3035",
+      "story_archive_entry": {
+        "text": "lost.z5\n◆\n[17-Jan-1998]\nIFDB entry\nIFWiki:\nThe Lost Spellmaker\nThe Lost Spellmaker, An Interactive Mission\nby Neil James Brown.\nRelease 3 / Serial number 980116.\n(the original competition entry is in\ngames/competition97/inform/lost)",
+        "tuid": "m7bgf8mop636i32o"
+      },
+      "guide_archive_entry": {
+        "text": "lost.sol\n◆\n[24-Jun-1996]\nIFDB entry\nstep-by-step solution to Lost, by Paul J. Godfrey",
+        "tuid": "hoeipcc1cv04buu1"
+      },
+      "guide_raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/lost.sol",
+      "guide_source_sha256": "090b11f2e481034479b8373bad8615832e12254ed225871c28cb86bd4f4a7da3",
+      "reason": "lost.z5 is The Lost Spellmaker by Neil James Brown, IFDB m7bgf8mop636i32o. lost.sol targets a different Lost (version 2.0.2, space travel through Charon and other planets), IFDB hoeipcc1cv04buu1. It cannot guide this story.",
+      "distinct_from_lost_pig": {
+        "archive_entry": {
+          "text": "LostPig.zblorb\n◆\n[06-Apr-2008]\nIFDB entry\nIFWiki:\nLost Pig\nLost Pig (And Place Under Ground), by Admiral Jota.\nWinner of the 2007 IF Competition.\nRelease 2 / Serial number 080406.\n(the original competition entry is in\ngames/competition2007/zcode/lostpig)",
+          "tuid": "mohwfk47yjzii14w"
+        },
+        "reason": "Lost Pig has identity mohwfk47yjzii14w; neither The Lost Spellmaker nor the unrelated Lost guide is Lost Pig."
+      },
+      "correct_guide_search": "Top-level solutions index has no entry linked to m7bgf8mop636i32o; inspected competition directory lists only lost.z5. No claim that a correct guide is unavailable everywhere.",
+      "competition_index_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/lost-competition-index.html",
+      "selected_instead": [
+        "magic-toyshop",
+        "christminster"
+      ]
+    }
+  ],
+  "gumshoe_prior_research": "Batch C fetched Gumshoe as an unused alternate while reviewing Mansion; it never configured or queued Gumshoe. Fresh batch D copies have independent fetch receipts.",
+  "final_candidate_count": 4
+}

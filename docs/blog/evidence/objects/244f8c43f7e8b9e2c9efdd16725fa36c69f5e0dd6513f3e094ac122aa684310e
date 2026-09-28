@@ -1,0 +1,17 @@
+{
+  "game_id": "frozen",
+  "title": "Frozen: A Night at the Lab",
+  "url": "https://ifarchive.org/if-archive/solutions/frozen.sol",
+  "accessed_at": "2026-09-25T05:58:50.120336+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/frozen.sol",
+  "source_sha256": "9d148e989cfcb19e434a57f00757d4efdbbd7f0c4a1ad9c1d75c4887efad20a5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/frozen-walkthrough.txt",
+  "normalized_sha256": "9d148e989cfcb19e434a57f00757d4efdbbd7f0c4a1ad9c1d75c4887efad20a5",
+  "story": "/home/krickert/if-games/zcode/frozen.z5",
+  "story_sha256": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+  "compatibility": "Story R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "960620"
+}

@@ -1,0 +1,22 @@
+# Spider and Web — segment 3 LIVE (game incomplete, b16 past Diagonal capture)
+
+## Exact resume (read this + latest.json on next run)
+- Current: branch b16, interrogation after Diagonal capture (e636). Tools arrived from vent M-2 but PACKAGE MISSING; interrogator furious ("You have lied to me"). Awaiting input at ordinary `>` prompt. Next: walkthrough "acid" section (a very good puzzle — request small excerpts, do not binge).
+- All requests answered through inbox/m0456.json. No pending broker requests. Latest event e636.
+- Checkpoints: `gun` (Diagonal entry, b16), `b16-full-cycle-pen` (pre-SW single-cycle), `b16-south-east-pen` (superseded 6v4), `b11-voice-4blip`, `b11-timer-pen2`, `b10-south-north-pen`, `b2-annex-pen-minimal`, `b3-annex-timer-pen`, `b8-annex-cont`, + segment-1/2 bases. 16 saves.
+
+## Solved this segment
+- VOICE 4-blip route (clean annex: south pen + north ghost) → SW chair-truth → No → relive (b11).
+- TIMER single-cycle route (relive Annex: Turns to 1 + Drop + Push green/blue + S/pen/N/I/E/plays/W + Push green off + Get all) → SW 4v4 PASS (e611 office/lockpick questions) → Yes Yes (hint m0433) → Diagonal Branch → save gun.
+- Timer mechanics learned: push-pair gives ONE full 3-tick cycle (S/pen/N or E/plays/W); spent timer push-green blanks to idle, second push-green lights, push-blue restarts (short unless Turns refresh). Turns (even to same 1) refresh. Drop-tick flips phase. Never restore during [Hit any key.] (m0387 failed silently).
+- Diagonal: S (Dead End, cabinet+west door), Wait (guard enters, gun fumble), Stab guard with pen (KO, door shut), Climb cabinet, X wall (grille), X vent (M-2), Open vent, Put all in vent (scan/pen/radio/key/package/toolcase), D (down off cabinet), reclimb, enter vent REFUSED (foot-wide, e628), X guard (more guards north!), get gun → CAPTURED (scripted either way per hint m0453) → vent-found interrogation → No No → package MISSING twist (e636).
+
+## Next actions
+1. At e636 fury prompt: prefer `wait` first (single) to hear more; then walkthrough acid excerpts (small, mode next).
+2. Keep checkpoints before risky/yellow actions; never SAVE into yes/no/menu/keypause.
+3. Annotate backlog before finish: chair-sit-syn (none), W-cover-ON world_state (b8 e436), timer push/turn/phase pairs, 4v3/6v4 planning, drop/paraphrase accepts, Diagonal guard/vent/gun runs. Aim 20-40 total diverse.
+4. No ending reached; no winning text observed. Captures/rewinds are NOT endings.
+
+## Synthetic backlog (annotate with real pairs only)
+- chair-sit-syn e459(sit on)/e467(sit in) both accepted, chill gap = first-visit flag.
+- Pending: b8 W alarm, timer sequences e521-606, turns e572-594, full-cycle E/plays/W e598-604, 4v3 e549 / 6v4 e587 planning, Diagonal run e618-631, capture e631, vent NoNo e634-635. Segment-2 pendings per prior notes. Hints (m0336-41, m0357, m0378-79, m0433, m0449, m0453) are NOT observed text.

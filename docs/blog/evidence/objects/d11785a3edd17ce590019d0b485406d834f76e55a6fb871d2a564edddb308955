@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-09-25T05:58:17.685368+00:00",
+  "events": [
+    {
+      "event_id": "change-in-weather-3ff9a98393:e00297",
+      "timestamp": "2026-09-25T05:56:09.767178+00:00",
+      "game_id": "change-in-weather",
+      "session_id": "change-in-weather-3ff9a98393",
+      "branch_id": "b3",
+      "event_index": 297,
+      "event_type": "command",
+      "command": "west",
+      "response": "You turn your back on the hill, and consider the distant shapes of your \ncompanions. One of them turns and calls your name. Others point, and wave, and \nlaughter and shouts precede them flowing across the meadows.\n\nYou smile to yourself, and begin jogging towards them.\n\n    *** You have a good time after all. ***\n\n\nThis one night will not end, not under this sky\nOf stars and embers and hot tea and song\nAnd stories remembered not a moment too long\nAnd laughter, darkness, fire, the circle, and I.\n\nWould you like to RESTART, RESTORE a saved game, or QUIT?\n> ",
+      "raw_start": 64581,
+      "raw_end": 65142,
+      "response_sha256": "2545ee07787263b24098091687112571cdec0b5117724c1c56ad306110872b8d",
+      "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "case_id": "route-west-meadow-b3",
+        "expected_outcome": "Rejoin group / ending area",
+        "intent": "Head west toward the group noises",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "raw_hash_and_text_verified": true,
+  "verdict": "Author-intended ending explicitly printed with final menu; Dreamhold Doorstep portal, Theatre escape by car, Weather reunion with companions. No maximal-content claim."
+}

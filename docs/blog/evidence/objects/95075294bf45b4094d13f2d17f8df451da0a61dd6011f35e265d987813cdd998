@@ -1,0 +1,30 @@
+# Anchorhead collection progress — SEGMENT 3b (Day 2: amulet, newspaper, library book)
+
+Branch b0, session anchorhead-4f68bc5f05. No restarts, no restores. All play from actual broker responses.
+
+## Where we are (event e00301+, Circulation Desk Day 2, inside book menu ch.2 selected)
+- Pending: inbox/m0246.json (" " to display chapter text) — response not yet present as of latest.json e00301 check. If still pending after 190s, keep waiting; do NOT duplicate.
+- Location: Circulation Desk. Have: history tome (signed register), paper slip (picked up, writing on one side, not yet read).
+- Score: 12 (+2 keys, +2 show keys, +1 bath, +5 amulet, +2 history book).
+- Inventory: wearing clothes/trenchcoat/ring + amulet (around neck); carrying faculty card, keyring (pocketed then? — keyring slipped into pocket e00272, umbrella pocketed e00299 — verify), newspaper (Herald, read: Greer abduction #11 Mill Town Rd, Verlac cleared), history book, slip, flask (closed). Umbrella pocketed twice to free hands.
+- Route Day 2: house SE/NE/N Riverwalk e00243-245 -> W/N/N Narrow e00246-248 -> NW lane graffiti (hand+triangle, arrow west, sidestreet) e00249/250 -> W Hidden Court e00252 -> S Cauldron e00253 -> greet chain e00254-256 -> case (tarot/geode/amulet/violin) e00259 -> violin ask e00260 -> amulet ask +5 e00261 -> N/E lane e00263/264 -> SE/S refused e00265/266 -> SE repeat (MY MISTAKE, no new evidence) e00267 -> SW Narrow e00268 -> S/S square e00270/271 -> get-paper e00272 -> read paper e00274 -> N/N/W junction e00275-277 -> NW court e00278 -> W library e00279 -> checkpoint library-day2 e00280/281 -> N desk e00282 -> sign (ID+sign register) e00283 -> register chain e00284-290 (title: Historical Overview of Superstitions, Frazer 1906) -> hit-bell e00292 -> show-ID e00294 -> ask-history +2 e00296 -> read book (slip falls) e00298 -> take slip + read book (TOC menu) e00299/300 -> menu "2" e00301 -> " " PENDING e00302?.
+- Book TOC: 1 Intro, 2 Croseus Verlac, 3 Misquat rituals, 4 Dark Man, 5 Strangling Mist, 6 Ghost Train.
+
+## Checkpoints (verified): ... + day2-card-ready, library-day2-circulation <- RESUME (plus day2-morning-bedroom).
+- Never SAVE inside the book menu; exit menu (BACKSPACE) to ordinary prompt first.
+
+## Repair cases (~46 annotated; PENDING university-go-synonym e00097 still open)
+- New: wallet-check-open e00233->234 vocabulary; graffiti-read-wall none; cauldron-greet-talk ambiguity chain; cauldron-amulet-ask world_state (violin wrong object); lane-back-narrow syntax (SE/S refused, SW works; includes my duplicate); square-newspaper-take none; circulation-register-read planning chain; circulation-bell-ring none; librarian-show-id none; librarian-ask-history none.
+- Still to annotate: history-slip-take (e00299/300, acceptance — file after menu exit), day2-dress refusals (e00222-226 in-bed refusals → e00227 get out of bed; world_state chain, worth one annotation).
+- Spread check: vocabulary/ambiguity/syntax/world_state/planning/none all represented; none-count high but each is a distinct accepted paraphrase — acceptable per plan (aim 20-40 diverse; now ~46, stop padding none-cases, prefer real failures).
+
+## Hints: shop amulet (used, verified); book/slip/reread/register/bell/ID (used, verified). Next hints likely: house cellar key, church trap-door, wharf/river door, asylum — request only when stuck per protocol.
+
+## Next
+1. Await m0246; read ch.2 text (and skim other chapters if cheap — but conserve steps; at least note names/dates).
+2. BACKSPACE out of menu; read slip; return book? (hint: ring bell & give back — but keep for now if useful).
+3. Annotate slip-take + dress-chain. Update counts.
+4. Continue Day-2 route per walkthrough hints (house exploration with cellar key? church? wharf door?).
+Game incomplete; no ending claimed. No death/quitting.
+
+STOPPED SEGMENT 3b with inbox/m0246.json (" " menu Enter) still pending — latest.json unchanged at e00301, no responses/m0246.json after extended read-only waiting. Do NOT duplicate m0246; on continuation, read responses/m0246.json first: if present, continue menu reading; if absent, allow more time, then consider await_output only if broker reports no_output_timeout.

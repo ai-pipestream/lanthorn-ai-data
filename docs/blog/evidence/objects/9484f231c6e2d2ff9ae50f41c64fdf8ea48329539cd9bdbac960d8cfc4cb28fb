@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:52:34.497059+00:00",
+  "game_id": "slacker-x",
+  "events": [
+    {
+      "event_id": "slacker-x-70f303cb52:e00119",
+      "timestamp": "2026-09-25T06:49:55.231892+00:00",
+      "game_id": "slacker-x",
+      "session_id": "slacker-x-70f303cb52",
+      "branch_id": "b1",
+      "event_index": 119,
+      "event_type": "command",
+      "command": "give envelope",
+      "response": "(to Yrrab)\n\"Barry sent you?\" He asks himself, \"Well, come downstairs! It's important that \nwe get you far away from here.\" . . .\n\n\n\n\n\n Stay tuned and get the sequel to \"Slacker X\", \"Operation: Thrasher\".\n\n\n    *** You have won ***\n\n\nIn that game you scored 48 out of a possible 52, in 50 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+      "raw_start": 14225,
+      "raw_end": 14580,
+      "response_sha256": "06c8733456d19fca33b22c8d32bae1bddb53191f1885c6994b4a09ce37994cc3",
+      "story_sha256": "a9528b18c7b9557a356d9ea3bb09924be218d4322ca6416748b89b02864dd3a5",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "slacker-x-70f303cb52",
+        "case_id": "yrrab-give-omit",
+        "expected_outcome": "Parser asks whom or gives to Yrrab",
+        "intent": "Give the closed envelope to Yrrab but omitting recipient",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Envelope delivered to Yrrab, downstairs escape/sequel teaser, explicit win/finalmenu, 48/52. This is the authored installment conclusion, not completion of the sequel. No coverage claim; independent review pending."
+}

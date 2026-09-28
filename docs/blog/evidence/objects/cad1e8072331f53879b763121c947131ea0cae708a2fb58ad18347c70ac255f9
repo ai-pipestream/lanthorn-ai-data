@@ -1,0 +1,26 @@
+{
+  "event_id": "danger-adventurer-at-work-cf41e07892:e00439",
+  "timestamp": "2026-09-25T09:09:15.833429+00:00",
+  "game_id": "danger-adventurer-at-work",
+  "session_id": "danger-adventurer-at-work-cf41e07892",
+  "branch_id": "b0",
+  "event_index": 439,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 63081,
+  "raw_end": 63081,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "danger-adventurer-at-work-cf41e07892",
+    "ending_quote": "Hooray! You've done it!",
+    "evidence_event_ids": [
+      "danger-adventurer-at-work-cf41e07892:e00437",
+      "danger-adventurer-at-work-cf41e07892:e00438"
+    ],
+    "notes": "Full object-exchange and body-building adventure completed through chasm, river and pony ride: eat pills e00436, ride pony e00437 reaches cloud with computers and all adventures plus Hooray/Congratulations, then e00438 scores 100% in 217 turns with END OF D.A.A.W. This is the author-intended winning conclusion, not death, chapter transition or quit."
+  },
+  "review_status": "unreviewed"
+}

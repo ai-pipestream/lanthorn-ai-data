@@ -1,0 +1,9 @@
+# Frozen progress (IN PROGRESS — game incomplete, branch b1)
+
+Location: Pentagram Room OFF pentagram (e00232 via m0199). On pentagram: silver sand + book; circle page held (took back e00230); bottle + amulet held.
+Inventory (observed e00214, e00221, e00232): book, bottle of sand (Rexal label e00225), circle page, amulet worn. Book read e00229 repeats square+star Rexal text; open book refused (e00228).
+Key findings: put circle page on pentagram works (e00217, checkpointed e00218-219); drop book while on pentagram lands on pentagram (e00220-221); pour sand in pentagram now resolves to floor sand 'can't pour' (e00222); empty bottle 'can't contain' (e00223); pour bottle-on fails parse (e00224); x bottle reveals Rexal label (e00225); pour rexal in pentagram pours onto floor (e00226); look confirms sand+book+circle arrangement (e00227); show circle page to pentagram still animate-only (e00231). No figure seen; walkthrough ends after Pentagram pour (e00233 mode next = Solved by line).
+Blocker: 'show circle/square/star page to figure' — no animate target anywhere searched (Pentagram, Cellar, 3 storages, Attic, Library). Putting substitutes for showing but triggers nothing yet.
+Cases ~30+: new place/drop, pour-ambiguity (sand vs rexal), bottle examine, open/read book, take-circle, show-to-pentagram. Annotations pending for pour-ambiguity and show failures.
+Checkpoints: pentagram-circle-placed (new, verified e00218-219), plus attic, pentagram-return, storage, library, front-yard, pentagram, in-lab, before-basement-door, third-floor, start-lab.
+NEXT: annotate pour-ambiguity pair; try take book + enter with all held, read pages aloud, or Attic mirror/window and Library wait. Game NOT complete; no ending, no finish.

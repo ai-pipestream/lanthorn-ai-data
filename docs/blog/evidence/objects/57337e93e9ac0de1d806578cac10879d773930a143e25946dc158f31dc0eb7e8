@@ -1,0 +1,13 @@
+# HLA Inform progress
+
+Location: Intersection in forest (e00071). Portal white light, wolf, hellhound guarding cavern. Exits N,S,E,W,down,in. Food 215, gold 294.
+Inventory: flute, oil, lantern(light), rations, food.
+
+Cases 13 annotated, incl. flute-synonym blow accepted, dark/lantern world_state.
+Pending key (west locked at well) still open; portal/hellhound area is new hazard — checkpoint intersection pending.
+
+Hints: lantern route done; next needs Goblin Quest? Hellhound guards cavern (Cavern Quest 8?). Wolf may be Werewolf Quest 6 (needs food, Tursk/buckler mentions). Need small hint for intersection/hellhound/wolf.
+
+Checkpoints: start-guild, village-well, lantern-done, intersection pending.
+
+Next: confirm checkpoint, request hint for wolf/hellhound/portal, single commands only (hazard); avoid combat without buckler/weapon.

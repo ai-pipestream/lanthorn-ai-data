@@ -1,0 +1,263 @@
+{
+  "at": "2026-09-25T09:35:14.873287+00:00",
+  "game_id": "earth-and-sky-episode-1",
+  "session_id": "earth-and-sky-episode-1-2bb22846be",
+  "header": {
+    "zmachine_version": 5,
+    "release": 2,
+    "serial": "011204",
+    "header_sha256": "f19a84cb9ab776ab72ba1177702652730d7fceeded1e40cc420a9d7f60bc1b1a"
+  },
+  "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+  "events": [
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00001",
+      "timestamp": "2026-09-25T09:20:26.575358+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 1,
+      "event_type": "startup",
+      "command": null,
+      "response": "\n\n\nIt's been almost a month since your parents disappeared. \n\nOne Tuesday, they just didn't come home, and there's been no sign of them \nsince. For the University and the rest of the town, the mystery is beginning to \npall. To those people, it's as if Claire and Scott Colborn suddenly stopped \nexisting -- strange and inexplicable, to be sure, but forgettable in the long \nrun. \n\nBut for you it's as if the ground beneath your feet stopped existing, and \nyou've been plummeting in freefall ever since. Your brother Austin, though, has \nbeen a rock through the whole experience, handling the numbing details, the \nendless meetings with useless detectives, even sorting through Mom and Dad's \nlab in hopes of finding an answer. Now you stand outside the lab door, \nclutching his note, hardly daring to hope that such an answer may have arrived \nat long last.\n\n\nEARTH AND SKY\nEarth And Sky: Episode 1 \nSerial interactive fiction by Paul O'Brian \nFirst-time players should type INFO or read the easinfo.txt file\nRelease 2 / Serial number 011204 / Inform v6.21 Library 6/10 \n\nOutside the Lab Door\nYou stand in one of the many beige, featureless corridors of the Physics \nbuilding. The hall continues west, and reaches its eastern terminus here, at \nthe door to Mom and Dad's lab.\n\nThe lab door is closed.\n\nA card reader is mounted to the wall beside the door.\n\n>",
+      "raw_start": 0,
+      "raw_end": 1358,
+      "response_sha256": "e6bdc6fa013e50271e1e7d59639681a6e1ddcee01fa7ec00996fe771a5234427",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "origin": "system"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00002",
+      "timestamp": "2026-09-25T09:20:57.509596+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 2,
+      "event_type": "checkpoint",
+      "command": "save",
+      "response": "Save to file: ",
+      "raw_start": 1358,
+      "raw_end": 1372,
+      "response_sha256": "c7c96a46addbb85da262b9aa20e1e0ae041920d3d204b9e3340086472b461636",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "name": "start-outside-lab"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00003",
+      "timestamp": "2026-09-25T09:20:57.811036+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 3,
+      "event_type": "checkpoint_filename",
+      "command": "start-outside-lab.sav",
+      "response": "Saved to '/work/experiments/lanthorn-recall-training/play/earth-and-sky-episode-1/saves/Eas.z5.save/start-outside-lab.sav.qzl'.\nOk.\n\n>",
+      "raw_start": 1372,
+      "raw_end": 1506,
+      "response_sha256": "78cf0b277b34d5d99807f63a8f99f3f71f9ea98782d315cc0d8138891494b008",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "name": "start-outside-lab"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00004",
+      "timestamp": "2026-09-25T09:21:15.685733+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "command",
+      "command": "inventory",
+      "response": "You are carrying:\n  a note\n  an access card\n  a sweatshirt (being worn)\n  a pair of sweat pants (being worn)\n  your sneakers (being worn)\n\n>",
+      "raw_start": 1506,
+      "raw_end": 1646,
+      "response_sha256": "5b451c9cda671acd25ee2415f892e8c4ceaa06ba999531283abdc22fe1ded3bb",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "case_id": "open-inventory",
+        "expected_outcome": "List carried items including Austin's note",
+        "intent": "See what I am carrying at game start",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00005",
+      "timestamp": "2026-09-25T09:21:27.856080+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 5,
+      "event_type": "command",
+      "command": "read paper",
+      "response": "What do you want to read in?\n\n>",
+      "raw_start": 1646,
+      "raw_end": 1677,
+      "response_sha256": "e644eb0894138bbcd5fd6f114c86c47df954670f975052171c4930b151fdcd5b",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "case_id": "read-note-synonym",
+        "expected_outcome": "Read Austin's note",
+        "intent": "Read Austin's note describing how to enter lab",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00006",
+      "timestamp": "2026-09-25T09:21:39.722361+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 6,
+      "event_type": "help",
+      "command": null,
+      "response": "",
+      "raw_start": 1677,
+      "raw_end": 1677,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "unchanged",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "help_trigger": "stuck",
+        "reason": "I tried to read Austin's note with 'read paper' intending to see lab entry info, but game asked 'What do you want to read in?'. Need guidance on correct wording to read the note.",
+        "related_event_ids": [
+          "earth-and-sky-episode-1-2bb22846be:e00005"
+        ],
+        "topic": "read note outside lab door",
+        "hint_source": "https://ifarchive.org/if-archive/solutions/eas.wlk",
+        "line_start": 7,
+        "line_end": 15,
+        "hint_text": "seem to inhabit this walkthrough. \n\n>swipe card\n>e\n>s\n>close door\n>wear suit\n>n\n>u",
+        "source_kind": "walkthrough_not_player_observed"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00007",
+      "timestamp": "2026-09-25T09:21:52.191988+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 7,
+      "event_type": "command",
+      "command": "read note",
+      "response": "This note was waiting for you when you got home today. It reads:\n\nEmily --\n\nMeet me at the lab as soon as you can. I've found some things that we need to \ntalk about immediately.\n\n                                           -- A\n>",
+      "raw_start": 1677,
+      "raw_end": 1906,
+      "response_sha256": "9b34c3965616353118572849b87cd805d3416f98bbc70b8279da6736dd758a79",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "case_id": "read-note-synonym",
+        "expected_outcome": "Text of Austin's note with lab entry instructions",
+        "intent": "Read Austin's note describing how to enter lab",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00008",
+      "timestamp": "2026-09-25T09:22:04.057935+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 8,
+      "event_type": "annotation",
+      "command": null,
+      "response": "",
+      "raw_start": 1906,
+      "raw_end": 1906,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "unchanged",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "case_id": "read-note-synonym",
+        "corrected_event_id": "earth-and-sky-episode-1-2bb22846be:e00007",
+        "event_ids": [
+          "earth-and-sky-episode-1-2bb22846be:e00005",
+          "earth-and-sky-episode-1-2bb22846be:e00007"
+        ],
+        "failed_event_id": "earth-and-sky-episode-1-2bb22846be:e00005",
+        "failure_type": "vocabulary",
+        "intent": "Read Austin's note",
+        "intent_preserved": "yes",
+        "notes": "'read paper' rejected with 'What do you want to read in?' showing paper not understood as note; 'read note' returns Austin's meet-me-at-lab text. Help excerpt was off-topic header fragment.",
+        "observed_outcome": "success",
+        "suggestion": "Did you mean 'read note'?",
+        "synthetic_probe": true,
+        "label_source": "muse_unreviewed"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00009",
+      "timestamp": "2026-09-25T09:22:22.686003+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 9,
+      "event_type": "command",
+      "command": "open door",
+      "response": "It seems to be locked.\n\n>",
+      "raw_start": 1906,
+      "raw_end": 1931,
+      "response_sha256": "54f867d57c9077d16c4cf89a5b790b8aa9e5ff07733414a7f4348b90e78e23ff",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "case_id": "lab-door-blocked",
+        "expected_outcome": "Door stays locked or needs card",
+        "intent": "Enter the lab through the closed lab door",
+        "origin": "synthetic_probe"
+      },
+      "review_status": "unreviewed"
+    },
+    {
+      "event_id": "earth-and-sky-episode-1-2bb22846be:e00010",
+      "timestamp": "2026-09-25T09:22:41.166871+00:00",
+      "game_id": "earth-and-sky-episode-1",
+      "session_id": "earth-and-sky-episode-1-2bb22846be",
+      "branch_id": "b0",
+      "event_index": 10,
+      "event_type": "command",
+      "command": "swipe card",
+      "response": "The green light glows, and there is a click from inside the lab door.\n\n>",
+      "raw_start": 1931,
+      "raw_end": 2003,
+      "response_sha256": "d5ae2cdf49c017c4b455f549f0dd5459a72244979106c7e932874c2812ab4064",
+      "story_sha256": "10bae40ebab1a593a2839c3367e7e85fd31e577d3ca09b5bb655237a8ee26031",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "earth-and-sky-episode-1-2bb22846be",
+        "case_id": "lab-door-blocked",
+        "expected_outcome": "Card reader unlocks lab door",
+        "intent": "Unlock lab door with access card",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Actual story/header and first10 raw/text/SHA verified; e2SAVE/e3filename success confirmed. Source-specific guide version/port gaps retained; not ending evidence."
+}

@@ -1,0 +1,9 @@
+# Shade progress — segment 2 continued (desert figure)
+
+- Location: desert (dunes, rising sun) after mirror keypress reset; branch b0.
+- Inventory: travel book (Desert Elemental's Handbook) taken e00262; carrying book, nothing else (i e00255 empty before take).
+- Story: both nooks buried (kitchen e00230, bathroom e00233); look e00234 nooks gone, palm, dim; mirror typo probe e00237; touch/look-mirror e00238-239 car approaching; walk-through refused e00240 horn; list taxi-warning e00241; shade opened daylight e00242; window dunes/no taxi e00243; door refused e00245; mirror street reveal + keypress e00246; reset daylight apartment e00247 (chapter transition, NOT ending); take-luggage glimpse-movement e00253; desert after turn-off-stereo/computer e00261 (futon/stereo/computer/book in desert, Cool Clear Water); book taken e00262; stereo/computer off e00263-264; futon disintegrated, figure revealed e00265.
+- Checkpoints: nooks-gone-palm, figure-revealed ok.
+- Figure: alive e00268-291; safe looks only; waits/reads cycling handbook chapters (starvation, scorpions, thirst, snakes, sandstorms, sunstroke). Sleep refused e00272. Final hint e00269: sleep/x book/wait.
+- Next: continue wait/read-book cycles until figure dies, then read book + wait for true ending. Verify ending text vs death/quit. Annotate backlog afterwards.
+- Ending: NOT reached.

@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-25T07:19:16.077121+00:00",
+  "selected": [
+    "traffic",
+    "bicon",
+    "mortlake-manor",
+    "windhall"
+  ],
+  "excluded": [
+    {
+      "candidate": "sfiction.z8 / SpeculativeFiction_walkthrough.txt",
+      "reason": "The author guide explicitly calls its Mysterious Device the game's version of the Babelfish puzzle. Excluded to avoid potential shared-puzzle leakage from held-out hhgttg; central raw guide retained as selection evidence. Only the inspected portion was needed for rejection; no claim of full guide review."
+    },
+    {
+      "candidate": "Vacation.z5 / vac_awry.txt",
+      "reason": "Read guide explicitly cites Zork, Lurking Horror and Hitchhiker callbacks; exclude pending family review rather than propose mixed held-out/development material in train. Guide also targets older R2/020130 versus archive R3/060527."
+    },
+    {
+      "candidate": "h2.z5",
+      "reason": "Archive identifies Milliways / Hitchhiker sequel; held-out hhgttg family, not selected."
+    },
+    {
+      "candidate": "detective.z5 / detective_solution.txt",
+      "reason": "Archive guide identifies the AGT original, while local candidate is an Inform port. Not selected; prefer direct guide/story release matches where available."
+    }
+  ],
+  "notes": "Exactly four configs; rejected raw guides are central provenance only and never exposed to Muse. No shared registry change or launch."
+}

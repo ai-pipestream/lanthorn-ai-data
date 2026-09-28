@@ -1,0 +1,10 @@
+{
+  "run": "/work/experiments/lanthorn-recall-training/control/kimi-pilot/20260925T095950.621009Z",
+  "exit_code": 3,
+  "provider_exit_code": 0,
+  "status": "validation_failed",
+  "error": "incorrect capacity: held_slots",
+  "parent_review_required": true,
+  "actions_executed": [],
+  "review_queue": []
+}

@@ -1,0 +1,15 @@
+# Vindaloo progress — CONTINUATION CHECKPOINT (game incomplete, stop at step budget)
+
+Location: Fruit and Veg Stall (south of bend in road; north returns to bend). Bill + fruit and veg stall here (e00068).
+Inventory (last observed e00039 + cone e00062): spade, front door key, traffic cone. Score 1.
+Map so far: Bedroom -east-> Hallway -south-> Front of House (door unlocked, closed?) -south-> Road -east-> Road -east-> Road Outside Shop -north-> Indian Shop (Raj); Road Outside Shop -east-> Road Works (cone taken); Road -west x3-> Bend in road -south-> Fruit and Veg Stall. Garage west of Front of House (spade taken).
+
+Hint 1 (walkthrough excerpt, provisional, partly verified): "Fruit & Veg: give bill hat > tomato; Indian shop: buy spices (from Raj with money); Building site: search bricks > crowbar." Verified: NO bricks at Road Works (e00061 can't see); building site is a different location not yet found. NOT yet verified: "give bill hat > tomato" (Bill the person + hat + tomato at this stall — try next).
+
+Annotated (confirmed in responses): bed-ellipsis none e00005; take-key vocab e00024->e00025; closet planning e00008->e00011; spade-shovel none e00038; unlock-omitted-key none e00036; reenter-locked world_state e00035->e00036; talk-verb vocab e00053->e00054.
+Open/unannotated: probe-buy-spices (e00055 no-money; annotate world_state only after successful buy with money); probe-front-door-locked e00030 (acceptance, annotate none); probe-cone-ellipsis e00062 (annotate none); route-roadworks-bricks e00061 (guided probe that refuted hint location — note, don't annotate as failure).
+
+Checkpoints (all Ok): start-bedroom, hallway, outside-front (door locked state), indian-shop.
+No timed/light resources observed. No deaths. Front door state: unlocked at e00036, still carrying key; re-entry route: stall -north-> bend -east x3-> road -north-> front of house -north-> hallway (open door first if closed).
+
+Next actions for continuation run: (1) examine stall/Bill ("examine stall", "ask Bill about tomato", "ask Bill about hat"); (2) verify "give bill hat"/"give hat to Bill" carefully — 'bill' is a person (Bill), so hint likely means give hat [to] Bill to get tomato; find hat first (bedroom? closet?); (3) probe variations: "buy tomato", "take tomato" (wrong-object/permission), typo "tomatoe", pronoun "ask him about tomato"; (4) find money (pound) — search bedroom thoroughly ("open bedside table", "search bed", "look under bed"); (5) find building site with bricks (keep west/south from stall? or unexplored hallway directions north/west in house -> kitchen?); (6) annotate each pair; help on next stuck point (2-fail rule); milestone checkpoints; progress.md every 10-15 requests.

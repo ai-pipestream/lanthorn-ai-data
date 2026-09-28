@@ -1,0 +1,6 @@
+# Lost Pig — FINISHED (winning ending, b1 branch)
+
+ENDING: e00357 (m0338, b1): south tunnel -> Forest/farm. "***  Grunk bring pig back to farm  ***" Grunk back at farm, boss sleeping, pig put back quiet, Grunk to bed. Score 6/7. FULL (e00358): hear-pig, coin, unlock-chest, secret-door, whole-book, get-pig. Missing 7th likely THANK GNOME (walkthrough line 127, skipped — traded torch->orb without thanking). Menu/UNDO explored post-ending; save at prompt refused (m0343).
+Route (b1): pig-caught restore -> statue (c67 hands, c68 place->PUT torch, score 6, door open) -> Windy (x tunnel) -> dark NORTH refused (c69 world_state, need light) -> SOUTH, retake torch (door stays open) -> gnome (take-ball offer, give-torch->orb) -> E/NW/N/N Windy -> N Twisty -> E Different Place -> DROP POLE -> NW (loop) -> PLAY WHISTLE (gnome rescue, trunk, SE) -> SE, DOWN, SOUTH -> farm ending.
+Cases: 55+ annotated (c01-c08,...c58, c67-c69 + b1). Raw (unannotated) probes w/ intents: c59 vending coin->brick, c60 pig-chair refused, c61 stand-chair/UP, c62/c66 pants gags, c63 blow-whistle, c64 oink, c65 push-block/north, c70 play-whistle rescue.
+Checkpoints: b0 hole-entry/statue-room/hat-worn/stream-key-water/torch-paper/pig-caught/orb-pig; b1 via pig-caught restore. Inbox m0001..m0343; responses read except m0344-finish pending.

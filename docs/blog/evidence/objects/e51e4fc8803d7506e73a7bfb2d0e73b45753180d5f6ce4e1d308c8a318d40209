@@ -1,0 +1,24 @@
+{
+  "event_id": "jewel-of-knowledge-61db1c70d2:e00425",
+  "timestamp": "2026-09-25T06:08:34.907889+00:00",
+  "game_id": "jewel-of-knowledge",
+  "session_id": "jewel-of-knowledge-61db1c70d2",
+  "branch_id": "b3",
+  "event_index": 425,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 102409,
+  "raw_end": 102409,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 90 out of a possible 90, in 243 turns, earning you the \nrank of Humbled Land Owner.",
+    "evidence_event_ids": [
+      "jewel-of-knowledge-61db1c70d2:e00424"
+    ],
+    "notes": "Genuine author-intended winning ending via final mirror route: touching the brass mirror returns the hero to Amylya farm, hero's welcome at the Temple, the lie that the Jewel is myth, and a years-later epilogue ('Nothing, but the lingering scent of foolish dreams'). Score 90/90, rank Humbled Land Owner. Distinguished from the intentional losing GET JEWEL branch (b2 e00416-e00421: poison-trap death at 80/90, 'Omniscient Being-in-Waiting') and the b1 red-dragon timing death (e00375); neither is claimed as completion."
+  },
+  "review_status": "unreviewed"
+}

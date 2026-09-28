@@ -1,0 +1,41 @@
+{
+  "game_id": "anchorhead",
+  "title": "Anchorhead",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/anchor.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/anchorhead-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/anchor.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/anchorhead.json",
+  "story_sha256_expected": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+  "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+  "dataset_split": "test",
+  "game_family": "anchorhead",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "990206",
+  "automatic_checkpoints": false,
+  "recovery_reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+  "story_sha256": "c2f28a4ddd9367c260946926a33c73a4b0cc38b1f327646cc1202182a28a10ff",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+  "max_events": 100000,
+  "session_id": "anchorhead-9852cd5b9d",
+  "started_at": "2026-09-25T07:12:45.230736+00:00",
+  "recovery": {
+    "previous_session_id": "anchorhead-2c1c588159",
+    "checkpoint_event_id": "anchorhead-2c1c588159:e00174",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/anchorhead/saves/anchor.z8.save/library-safe-day3.sav.qzl",
+    "checkpoint_sha256": "0edd0b367e7f43fe4ff2e1dc520ca8a11d52ee979de2ef65a5ae551bddc6be67",
+    "reason": "READ BOOK opened historical overview menu; SPACE e295 and awaits e296/e297 timed out. Restore confirmed library-safe-day3 in explicit new session; no uncertain input replay.",
+    "provenance_correction": {
+      "previous_reference": "anchorhead-2c1c588159:e00198",
+      "reason": "Previous helper cited a RESTORE filename response as SAVE confirmation. Corrected to actual confirmed SAVE of the same checkpoint; no game state change.",
+      "receipt": "control/checkpoint-provenance-recovery-receipt-20260925T0715.json"
+    }
+  },
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  }
+}

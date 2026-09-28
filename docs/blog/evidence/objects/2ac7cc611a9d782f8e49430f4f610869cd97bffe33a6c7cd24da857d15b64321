@@ -1,0 +1,25 @@
+{
+  "event_id": "pentari-63be930153:e00131",
+  "timestamp": "2026-09-25T06:50:12.565852+00:00",
+  "game_id": "pentari",
+  "session_id": "pentari-63be930153",
+  "branch_id": "b0",
+  "event_index": 131,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 22182,
+  "raw_end": 22182,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "pentari-63be930153",
+    "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 60 out of a possible 70, in 87 turns.",
+    "evidence_event_ids": [
+      "pentari-63be930153:e00129"
+    ],
+    "notes": "Author-intended emerald/box conclusion with nobody else in room: upper-level arrival showed only the platinum box, FWOOSH cast with elf verified absent, emerald placed ON box, LOOK triggered Galin materialization, elf death thud, *** You have won ***, 60/70 intentional score. Not death, chapter change, or quit; game offers RESTART/RESTORE/UNDO/QUIT after winning."
+  },
+  "review_status": "unreviewed"
+}

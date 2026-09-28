@@ -1,0 +1,88 @@
+{
+  "game_id": "bicon",
+  "title": "BiCon",
+  "author": "rach",
+  "url": "https://ifarchive.org/if-archive/solutions/BiCon_Walkthrough.txt",
+  "accessed_at": "2026-09-25T07:12:45.934877+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/BiCon_Walkthrough.txt",
+  "source_sha256": "f4cc63d84fe08a4b67556622abecfd77651528ae958ddbb906e629833ed9898a",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/bicon-walkthrough.txt",
+  "normalized_sha256": "f4cc63d84fe08a4b67556622abecfd77651528ae958ddbb906e629833ed9898a",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/BiCon.zblorb",
+  "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+  "compatibility": "Local Blorb is byte-identical to the archive and contains ZCOD Z8 R4/101006. The author walkthrough explicitly names the identical release/serial and Inform 7 build 6E72. Pin both the Blorb hash and embedded ZCOD/header hashes; do not interpret the FORM container prefix as the Z-machine header.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 4,
+  "serial": "101006",
+  "story_header": {
+    "container": "blorb-zcod",
+    "header_bytes": 64,
+    "header_hex": "08000004d0b8d0b9b885010a46c0b0b0005031303130303600429d65856e00000000000000000000000000000000b0af000000000000010200000000362e3331",
+    "header_sha256": "bffd63233de17026babd10f5195f32ef66e4f715ddb0d50cc2bcb0c67bd71ecd",
+    "checksum_hex": "856e",
+    "declared_length": 322344,
+    "file_bytes": 366836,
+    "zcod_offset": 56,
+    "zcod_bytes": 322560,
+    "zcod_sha256": "87deeaeb9c675443249b4bf81ae81e4c116e54b76e451b9a982944b7bc4d5dce",
+    "container_bytes": 366836
+  },
+  "guide_release": 4,
+  "guide_serial": "101006",
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "BiCon.zblorb",
+    "url": "https://ifarchive.org/if-archive/games/zcode/BiCon.zblorb",
+    "accessed_at": "2026-09-25T07:16:59.484531+00:00",
+    "remote_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "local_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "bytes": 366836,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 4,
+    "remote_serial": "101006"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#BiCon.zblorb",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "BiCon.zblorb\n◆\n[06-Oct-2010]\nIFDB entry\nBiCon, an Interactive Infatuation, by \"rach\".\nRelease 4 / Serial number 101006.",
+    "tuid": "7m0wxpvzzwp2f0tb"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#BiCon_Walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "BiCon_Walkthrough.txt\n◆\n[06-Oct-2010]\nIFDB entry\nWalkthrough for BiCon by the game's author, \"rach\".",
+    "tuid": "7m0wxpvzzwp2f0tb"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the convention, conversation, friends/pizza, room-key, costume and ball route through the final private conversation/kiss with Phoenix and require the authored concluding narrative. The guide labels the final interaction a win but that annotation and isolated points do not prove live completion. Its many optional interactions need not all be repeated; preserve other genuine concluding variants if observed.",
+    "limitations": "Friends wander to random adjacent rooms; follow observed locations instead of copying the sample movements. Read current questions before answering fizzbuzz/menu prompts. Guide bracketed commentary and doubled prompt markers are not commands. The wardrobe command has a typo; keep the source intact and use nouns from actual output. Phone, Twitter and pizza interactions are fictional game actions, never permission for external communications.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "bicon",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Distinct author, archive identity and contemporary convention story. No concrete shared-world/puzzle relationship to an existing family was identified. Treat all future ports or releases of BiCon as this same family."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting or a copyright notice does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

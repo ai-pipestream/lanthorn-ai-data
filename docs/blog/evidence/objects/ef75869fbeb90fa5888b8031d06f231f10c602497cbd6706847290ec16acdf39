@@ -1,0 +1,15 @@
+# Child's Play progress
+
+Location: At the Table (kitchen high chair), Chapter 2 Snacktime, Score 50. Toy in cabinet behind loveseat with baby lock (per Ch2 intro). Spoon of food in front, mom hovering, Becca/Parry/Lisa/Marion present, all babies fed.
+Inventory: likely empty? Last held toy e143 then mom scooped? Need check.
+Checkpoints: start-dark, living-room-start, after-pullup, after-push-toy-out, chapter1-playtime, backpack-open, chapter2-snack.
+
+Recent:
+- syn-take-ring e139 none success (take ring triggers Marion->Parry handoff score40)
+- syn-climb-parry e141 none success
+- take toy e143 success then mom takes to cabinet
+- Ch2 intro e144 score50
+
+Hints: e137 Ch2 toy in cabinet behind loveseat, go north loveseat then west south; open cabinet?
+
+Next: examine spoon/food/mom/table/babies, eat or refuse food?, get down from high chair?, return to living room to cabinet. Collect food/escape probes. Currently ~27 annotated, need up to 40 diverse.

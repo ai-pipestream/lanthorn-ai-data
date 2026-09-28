@@ -1,0 +1,191 @@
+{
+  "at": "2026-09-25T06:58:18.071990+00:00",
+  "hosts": {
+    "cm5ai1": [
+      {
+        "pid": 119204,
+        "workspace": "/home/krickert/lanthorn-muse/play/frozen",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 121228,
+        "workspace": "/home/krickert/lanthorn-muse/play/mother-loose",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 124121,
+        "workspace": "/home/krickert/lanthorn-muse/play/spiritwrak",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "cm5v1": [
+      {
+        "pid": 22160,
+        "workspace": "/home/krickert/lanthorn-muse/play/danger-adventurer-at-work",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 22421,
+        "workspace": "/home/krickert/lanthorn-muse/play/enemies",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 24098,
+        "workspace": "/home/krickert/lanthorn-muse/play/hunt-for-relief",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "cm5v2": [
+      {
+        "pid": 53990,
+        "workspace": "/home/krickert/lanthorn-muse/play/heist",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 54962,
+        "workspace": "/home/krickert/lanthorn-muse/play/critical-breach",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 55031,
+        "workspace": "/home/krickert/lanthorn-muse/play/night-at-the-computer-center",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "krickert@cm5v3.local": [
+      {
+        "pid": 53197,
+        "workspace": "/home/krickert/lanthorn-muse/play/i-0",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 55239,
+        "workspace": "/home/krickert/lanthorn-muse/play/vindaloo",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 55478,
+        "workspace": "/home/krickert/lanthorn-muse/play/gerbil-riot",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "pi500p": [
+      {
+        "pid": 16945,
+        "workspace": "/home/krickert/lanthorn-muse/play/gumshoe",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 17925,
+        "workspace": "/home/krickert/lanthorn-muse/play/beyond-the-tesseract",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 18021,
+        "workspace": "/home/krickert/lanthorn-muse/play/fine-tuned",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "pi5ai1": [
+      {
+        "pid": 14800,
+        "workspace": "/home/krickert/lanthorn-muse/play/kook-u",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 15590,
+        "workspace": "/home/krickert/lanthorn-muse/play/return-to-karn",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 20230,
+        "workspace": "/home/krickert/lanthorn-muse/play/heroines-mantle",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "krickert@pi5ai2p.local": [
+      {
+        "pid": 151486,
+        "workspace": "/home/krickert/lanthorn-muse/play/dracula-prince-of-darkness",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 152977,
+        "workspace": "/home/krickert/lanthorn-muse/play/bse",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 153865,
+        "workspace": "/home/krickert/lanthorn-muse/play/bedlam",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ],
+    "pi5v2": [
+      {
+        "pid": 124238,
+        "workspace": "/home/krickert/lanthorn-muse/play/deephome",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 126597,
+        "workspace": "/home/krickert/lanthorn-muse/play/space-station",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      },
+      {
+        "pid": 126826,
+        "workspace": "/home/krickert/lanthorn-muse/play/save-princeton",
+        "executable": "/home/krickert/.local/bin/muse-bin-1.4.0-R4161.1",
+        "disabled_shell": true,
+        "disabled_web": true
+      }
+    ]
+  },
+  "count": 24,
+  "inspection_correction": "Initial exact basename=muse filter matched zero because exec uses muse-bin-1.4.0-R4161.1; corrected using observed executable identity. No runtime outage."
+}

@@ -1,0 +1,14 @@
+# Dracula Prince of Darkness — collection progress (in progress, game incomplete)
+
+Game R3/051012, branch b0, session dracula-prince-of-darkness-d75c304699.
+Actual state: Church Street North (e00051 via 'south' from Tate Hill); hell hound blocks south e00055 and west e00056 ('growls and blocks your path'). Hound examined e00054 (black beast, flame outline, chain MARS, stepped toward player); chain examined e00058 (confirms MARS); 'say mars' e00059 -> '(to yourself) There is no reply'. latest e00060 help. Ordinary prompt, awaiting input.
+
+Inventory as observed: letter (Lucy); lantern Taken e31, unlit (never lit; conserve light, do not leave on). No new items.
+
+Annotated cases (11): prior 9 + tatehill-south-typo vocab e50->e51 + graveyard-down-harbour planning e42->e43. Pending annotation: hound-examine-typo e53->e54 (typo 'huond' can't-see; 'hound' gave MARS description). Unresolved: hound-call-mars e59 failed (no reply, no correction yet); route past hound south/west blocked (world_state, need handling, not wording fix).
+
+Help: Tate Hill onward lines 59-67 (>d >s >s >s >sw >give parchment to helsing >d Dead Forest >w) guided here; hound topic gave off-topic 107-115 (waterfall/chains) and mode-next 116-124 (up/read notice/set lock 1845/get key) — both off-topic for hound, need refined topic for lines ~68-106. Hints are guidance only, not observed text.
+
+Checkpoints verified: start-field, graveyard, choir-room, tate-hill (e48-49, one north of hound, safe retreat).
+
+Next: refine help for hound/Mars/ suburban streets; consider safe probes ('light lantern', 'pull chain' only with checkpoint, 'call mars' variants) with stated intent; annotate hound-examine-typo once past or from safety; then continue south to Van Helsing/parchment, Dead Forest, and full Castle Chapel + escape finale per manifest. No ending reached; no finish claimed. Do NOT quit.

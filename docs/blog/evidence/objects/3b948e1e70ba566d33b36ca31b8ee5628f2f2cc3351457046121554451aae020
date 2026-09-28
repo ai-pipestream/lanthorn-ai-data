@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T07:57:11.794247+00:00",
+  "game_id": "night-at-the-computer-center",
+  "events": [
+    {
+      "event_id": "night-at-the-computer-center-d16c3b6cd5:e00263",
+      "timestamp": "2026-09-25T07:48:17.274950+00:00",
+      "game_id": "night-at-the-computer-center",
+      "session_id": "night-at-the-computer-center-d16c3b6cd5",
+      "branch_id": "b2",
+      "event_index": 263,
+      "event_type": "command",
+      "command": "put stolen printer on table",
+      "response": "You put the stolen laser printer on the printer table.\n\n\n    *** You have saved your job ***\n\n\nIn that game you scored 10 out of a possible 10, in 157 turns.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame, see some suggestions for AMUSING things to do or QUIT?\n Computer Site                                       Score: 10    Moves: 157\n\n\n\n                           Relax.  It's really not\n                           much of a maze.\n[Score 10, up 2]\n> ",
+      "raw_start": 44578,
+      "raw_end": 45070,
+      "response_sha256": "bc96c52be42e027573e642aa7356424db36e4e0e6520670a0147194bb1d2be05",
+      "story_sha256": "134081ad18cf4c0fd643af8e7cd9a620955e45104ea4e1a96f70bb79745617d4",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "night-at-the-computer-center-d16c3b6cd5",
+        "case_id": "printer-table-01",
+        "expected_outcome": "Printer returned, score increase or ending",
+        "intent": "Place the recovered stolen printer onto the printer table per walkthrough",
+        "origin": "guided"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Returned stolen printer to table, explicit saved-your-job finale and final menu. Repeated status/Relax quotation tail retained for independent transport review; score alone does not establish coverage. Parent raw/text/hash verified, independent review pending."
+}

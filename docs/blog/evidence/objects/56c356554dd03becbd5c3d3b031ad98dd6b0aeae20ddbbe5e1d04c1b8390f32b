@@ -1,0 +1,17 @@
+{
+  "game_id": "balances",
+  "title": "Balances",
+  "url": "https://ifarchive.org/if-archive/solutions/Balances.solve",
+  "accessed_at": "2026-09-25T03:48:59.573460+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/Balances.solve",
+  "source_sha256": "140f20259106e7bee25ad51be872b7f0748d75baf234738d577608a3c7a6057e",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/balances-walkthrough.txt",
+  "normalized_sha256": "140f20259106e7bee25ad51be872b7f0748d75baf234738d577608a3c7a6057e",
+  "story": "/home/krickert/if-games/zcode/Balances.z5",
+  "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+  "compatibility": "Guide1994 release unspecified; demo game, verify actual final outcome.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 5,
+  "serial": "961216"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "Gumshoe.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Gumshoe.z5",
+    "accessed_at": "2026-09-25T06:43:45.135026+00:00",
+    "remote_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+    "local_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+    "bytes": 143360,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "960331"
+  },
+  {
+    "filename": "FineTune.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/FineTune.z8",
+    "accessed_at": "2026-09-25T06:43:45.150715+00:00",
+    "remote_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "local_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "bytes": 293888,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 8,
+    "remote_serial": "020520"
+  },
+  {
+    "filename": "magic-toyshop.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/magic-toyshop.z5",
+    "accessed_at": "2026-09-25T06:43:45.130108+00:00",
+    "remote_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "local_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "bytes": 73216,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "951018"
+  },
+  {
+    "filename": "minster.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/minster.z5",
+    "accessed_at": "2026-09-25T06:43:45.139432+00:00",
+    "remote_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "local_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "bytes": 228352,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 4,
+    "remote_serial": "961117"
+  }
+]

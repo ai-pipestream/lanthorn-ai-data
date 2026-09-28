@@ -1,0 +1,8 @@
+# Enemies progress — IN PROGRESS, game incomplete (Classroom 8, e277; no pending)
+
+Branch b1. Location: Classroom 8 (projector Apollo 11 1969 verified e277). Score 15. Ordinary prompt ">". Last verified checkpoint music-got e266/267.
+Route: tracing 14 e247 -> Rear Corridor/Classroom 12 listening z x8 music 15 e261-262 -> W/N Classroom 8 e265 -> projector: X e269, press advance e270/272, X Apollo 1999 e271, turn large omitted e273/276 syntax, turn large 20 already e274, turn small 69 e275, X 1969 e277.
+Inventory: barrel key, screwdriver, tungsten, tracing, music; bracelet worn.
+Annotations ~38 cases: + syn-projector-advance e270 none (press/push); syn-dial-large e273/e274 syntax (omitted value).
+Last hint e278 lines 155-163: X/Push/X, Turn large 18 small 89 (French Rev 1789); X/Push/X, Turn large 13 small 15 (Magna Carta 1215).
+Next: 1) Push advance, X projector, set 18/89, verify. 2) single commands; probe synonyms sparingly around dials. 3) checkpoint after projector series. Far from ending: figurines, escape, crane, final NE still required.

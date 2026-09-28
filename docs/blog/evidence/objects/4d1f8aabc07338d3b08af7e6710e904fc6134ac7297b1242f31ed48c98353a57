@@ -1,0 +1,12 @@
+# Varicella — collection progress (IN PROGRESS, game incomplete, PENDING m0261)
+
+## State (event e00337, branch b5, checkpoint after-venice-relay Ok e327-328)
+- Location: My Quarters (b5), ordinary prompt. Painting examined safely e337 (Augustus Caesar, no surveillance hint, NOT moved — sabotage avoided).
+- Venice milestone DONE: redial 7661 (e322) + 9695 (e326) relayed caches info; minister triggers self-destruct, hangs up. Wehrkeit sabotaged/badly injured per guide e325.
+- Typo case DONE: e329 'examin telephone' -> 'not recognized verb'; e330 'examine telephone' hotline description; annotated e331 vocabulary, intent yes.
+- Bonfleche hint e332: tutoring Charles, leaves for Avignon; must kill in palace; use quarters spying equipment to monitor his quarters at 2 o'clock, record with master key, show Sierra.
+- Route throne->quarters DONE: west e333, northwest e334, up e335, northwest e336.
+- IN-FLIGHT (do not duplicate): inbox/m0261.json help spying-equipment monitor Bonfleche exact command (single). If responses/m0261.json missing on resume, read latest.json once then retry response; do not resubmit.
+- Next: read m0261 hint, then set up monitor without moving painting; record at 2 o'clock with master key; show Sierra; avoid injured Wehrkeit (~3 o'clock arrival); then MODO/Rico/Louis to authored ending.
+- Checkpoints: after-venice-relay.sav Ok (b5 throne post-relay); true-codes-throne.sav Ok; earlier: funded-early, before-venice-call (stale false era), sierra-found, funded-quarters, before-throne, foyer-mapped, early-saloon.
+- Cases: e329-e331 annotated vocabulary typo. e318 hangup vs e326 relay is progression, not wording fix. Need 20-40 diverse probes; keep timed moves minimal.

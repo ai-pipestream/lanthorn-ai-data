@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "wedding.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/wedding.z5",
+    "accessed_at": "2026-09-25T06:51:49.727026+00:00",
+    "remote_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "local_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "bytes": 152064,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 5,
+    "remote_serial": "970825"
+  },
+  {
+    "filename": "ghost.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/ghost.z8",
+    "accessed_at": "2026-09-25T06:51:49.740085+00:00",
+    "remote_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+    "local_sha256": "f1c6643732672cd72a84151e87fad8a17a42498e2259f296f842dbbd371b71a7",
+    "bytes": 210944,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 7,
+    "remote_serial": "290912"
+  },
+  {
+    "filename": "schooldays.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/schooldays.z5",
+    "accessed_at": "2026-09-25T06:51:49.740437+00:00",
+    "remote_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+    "local_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+    "bytes": 192000,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "092800"
+  },
+  {
+    "filename": "njag.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/njag.z5",
+    "accessed_at": "2026-09-25T06:51:49.745822+00:00",
+    "remote_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "local_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "bytes": 174080,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "210603"
+  }
+]

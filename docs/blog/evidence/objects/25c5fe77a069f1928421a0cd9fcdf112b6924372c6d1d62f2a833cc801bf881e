@@ -1,0 +1,40 @@
+# Progress — The Wedding (segment 1, continuation)
+
+## Current state
+- Location: Outside the front entrance (guard present)
+- Score: 13, Moves: 168
+- Inventory (observed): diamond, cash tin box (dropped garden path), steel key (dropped garden path), golf ball (on course), bag with camera/spade/programme. Bronze key dropped Grand Hall; brass key + spade... spade auto-bagged. Remote in drawing room; guide in drawing room.
+- Albert at crazy golf; William fed; Malcolm freed; hall door to garden open.
+
+## Route since last update (events 220-270)
+- S, E, D to entrance hall; `get spade` (programme auto-bagged); N, N to Grand Hall (Albert with brandy)
+- `unlock door` asked for instrument → `unlock hall door with bronze key`; `drop key`; `open hall door`
+- `read about albert in programme` accepted (sociologist, golfer); `ask albert about golf` → he ran to garden
+- N to patio (score 11); N to garden path; `dig earth` asked for instrument → `dig earth with spade` (hit something)
+- `look in hole` (cash tin box); `get box`; checkpoint `garden-box`
+- N to golf course; `search bushes` rejected → `search hedge` (gap under hedge); N through gap to river
+- `look in water` (white ball); `get ball` (spade auto-bagged); S back
+- `place ball on course` rejected → `put ball on course`; `play golf` (Albert won, Sphinx dislodged key, score 12)
+- `look` (steel key + ball on course); `get key`; S to garden path
+- `unlock box with key`; `drop key`; `open box` (diamond); `get diamond` (score 13); `drop box`; checkpoint `diamond-found`
+- S, W to front entrance (guard present)
+
+## Annotated cases this segment (23 total)
+- ...previous 17... plus:
+- halldoor-unlock-bare (syntax): omitted instrument → WITH BRONZE KEY
+- programme-albert-verb (none): READ ABOUT ... IN PROGRAMME accepted
+- earth-dig-instrument (syntax): DIG EARTH → WITH SPADE
+- hedge-search-synonym (vocabulary): BUSHES → HEDGE
+- ball-place-verb (vocabulary): PLACE rejected → PUT
+- Running total ~45; probes now only where natural (at/above target diversity).
+
+## Last hint
+- Lines 136-144: "Ask guard about attic / Ask guard about note (1/14) / E, S, S, SW / Ask Chloe about guard (1/15) / NE, NE / Ask chef about guard / X diamond / Give diamond to chef / Ask chef about guard" — fresh, unconsumed.
+
+## Next actions
+1. Ask guard about attic, then about note
+2. E, S, S, SW to Chloe; ask about guard
+3. Chef + diamond sequence; continue to finale
+
+## Checkpoints
+- start-outside, before-apple-throw, inside-entrance, drawing-chloe, malcolm-freed, william-pizza, garden-box, diamond-found (all verified Ok)

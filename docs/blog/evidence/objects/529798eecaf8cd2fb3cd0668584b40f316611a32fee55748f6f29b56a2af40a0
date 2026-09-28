@@ -1,0 +1,24 @@
+{
+  "event_id": "905-0674f2e54c:e00105",
+  "timestamp": "2026-09-25T02:46:08.407045+00:00",
+  "game_id": "905",
+  "session_id": "905-0674f2e54c",
+  "branch_id": "b1",
+  "event_index": 105,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 12255,
+  "raw_end": 12255,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "You merge onto the freeway, crank up the radio, and vanish without a trace.\n\n\n    *** You have left Las Mesas ***",
+    "evidence_event_ids": [
+      "905-0674f2e54c:e00098"
+    ],
+    "notes": "Branch b1 non-arrest escape after full morning routine (shower, dress, eat, drive) by skipping Loungent stop and taking second onramp. Distinct from b0 arrest ending 1 (life imprisonment e00082) and from quit/restart prompt; banner *** You have left Las Mesas *** is author ending 2, not intermediate score or bonus wait."
+  },
+  "review_status": "unreviewed"
+}

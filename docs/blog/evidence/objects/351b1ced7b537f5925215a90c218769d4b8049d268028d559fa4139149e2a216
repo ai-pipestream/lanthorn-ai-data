@@ -1,0 +1,39 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T04:21:10.754494+00:00. Synthetic test-data collection only. 22 games have evidence; 10 launcher processes observed. Authorized target10 with curated provisional replacements. Reviewer issued no game commands, process changes, resets, training, evaluation or publication.
+
+1305 unique exported annotation rows: 835 accepted, 266 revise, 50 quarantine, 154 unreviewed under exact evidence-set matching. This bounded pass reviewed60 across12games:43 accepted,13 revise,4 quarantine. All120 endpoint references and 489 nearby/intervening events checked against raw spans, SHA256, text, commands and branches. Later arrivals remain unreviewed. CSV can lag reviews; transport-only keys are not annotation totals.
+
+## Twelve verified conclusions
+
+Adventureland, Pirate Adventure, Lost Pig, HHGTTG, Photopia, Shade, Suveh Nux, 905, Violet, Voodoo Castle, Slouching Bedlam and Secret Mission. Primary ending spans rechecked. No ending inferred from score, ordinary death, process exit or model assertion alone.
+
+Secret Mission secret-mission-08dcee7c13 b21 e01789 POUR WATER: raw270134:270260, SHA2562d8cfbf195b2422399cd934ddb49d8467c7eab4f54e285145ccbba48008d2ea3. Explicit bomb defusing, IMPOSSIBLE mission complete, game over and engine exit. Earlier bomb deaths remain failures. Actual adv03.dat identity/hash preserved.
+
+Slouch b08abfcb18 e00233: gallows death followed by worldwide Logos spread and Appendix B unlock, SHA256d4439fd038e6cd45c1b69e3545a81f23b32eb377546400016da67b92c6bbeaa4. Intended bleak ending; killing James/Reggie did not contain infection.
+
+## Startup and administrative rejection
+
+So Far so-far-8d580943cf e00001: raw0:1335 SHA2567e8efcdc578c99706e8562f2a398ebaa7da9af018ed446b91ffa9bf2fda137f2. File/header confirms Z8 R6/961218, storySHA256b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c. Guide body/hash verified and explicitly R5/960619; full compatibility unproven.
+
+Savoir m0376 original inbox/retained bytes match receiptSHA2562e5cb269fd59e60318ca5df07bb887dcb11cb01f45cb28b5f8ab892c8853aecf and fail JSON parsing. Parent rejection matches receipt; broker skips invalid JSON before handle. Administrative rejection is not an engine turn.
+
+## Exact-pair findings
+
+Quarantines: Anchorhead violin-topic to amulet acquisition; Secret TURN-to-KICK labeled vocabulary repair; Secret bare-hands goal replaced by kick; Secret b20 bring-water-down replaced by b21 leave-pail-upstairs. Only separately labeled planning alternatives can retain changed intentions. Later mission success does not repair the cross-branch pair.
+
+Revisions cover partial inscription reading, partial ceiling-gap traversal, navigation mislabeled syntax, missing re-memorization/retrieval steps, and Slouch killing labeled successful at containing Logos. Wrong parser referent is not automatically changed user intent: inscription, dictionary, black-mask and targeted-hat cases need consistent intent metadata.
+
+Accepted state chains include camera deactivation after smash, partly-open door traversal, glue before mask pickup, and crowd-dependent aisle movement. Recognized wording that still fails remains failure. Guidance-only properties and general parser rules are not promoted from single responses.
+
+## Pool and transport follow-up
+
+All5tests pass, including active_health attention for metadata-hidden timeout and configuredcap; tick calls that function. Previous alert gap resolved. Existing engine/hold/exit and capacity guards remain; source/test hashes in JSON. Manual external mutations still pause pool. Provisional refill is separate from verified completion. Pending-ending list in pool snapshot: ['secret-mission']; may lag this Secret verdict.
+
+Current-session raw checks pass. Current-session recorded transport faults: []. Historical delayed/menu chains remain quarantined; empty hash integrity is not transport success. Pending requests were not driven.
+
+## Historical boundaries
+
+Zork cap recovery independently verified olde02501 checkpoint into zork-i7-05114e1aff b99 with newe4 Ok/e5 RoundRoom; saveSHA256a3175bd27537e59cce5f148f765810d13fb0bca699350659b3b1f53cddea8ced, configuredcap100000. Old scores/resources do not transfer silently.
+
+Anchorhead olde302 and Slouch/Savoir menu failures retain quarantine after explicit recoveries. Source key mapping is not binary-equivalence proof. BalancesR5 guide release unspecified; SpiderR4 guide matches; SavoirR8/R6, DreamholdR5/R4, BronzeactualR11/advertisedR13, unspecified Anchorhead/Theatre guide versions remain gaps. CursesR16 matches guide. Zork is exact Inform7 Zork/Dungeon3.2B R4/190920 with maintainer guide, not commercial ZorkI.

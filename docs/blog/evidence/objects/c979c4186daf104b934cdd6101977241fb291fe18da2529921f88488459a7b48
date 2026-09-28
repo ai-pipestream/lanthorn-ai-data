@@ -1,0 +1,29 @@
+# Anchorhead collection progress — SEGMENT 6 (b3 clean cellar key, death noted)
+
+Current session: anchorhead-51ee2d15c2, branch b3, latest e00086 checkpoint cellar-key-clean.
+Location: Storage (clean, no poison). Keyring has house+cellar+iron. Flashlight on, broom in hand. Pockets slip/newspaper/card/flask/umbrella.
+Score: +1 iron key clean (e00083). Prior b2 poisoned line dead.
+
+Death note (b2 e00070, NOT ending): after spider bite e00056, dizziness e00066/e00068, death in Foyer "lungs stop working entirely" score 13/100 with RESTORE/RESTART prompt. Distinguished from author-intended finale per manifest; restored pantry-before-cellar to b3 and redid clean order without repeating bite probe.
+Checkpoints: cellar-key-clean e00086 (good), pantry-before-cellar base, cellar-key-obtained b2 poisoned — DO NOT RESTORE (poisoned). Use cellar-key-clean.
+
+Repair cases total ~50+: b3 reuses b2 knowledge efficiently (no new probe repeats except required unlock/search/clean/take canonicals).
+Pending: university-go-synonym; day2-dress chain; b2 death is evidence of world_state consequence, not annotated as repair (no correction in same branch; correction is b3 clean order, already annotated in b2 e00056->e00058).
+
+Last hint: storage web clean + key on ring (verified clean b3 e00082-84). Next hint queued: "Pages In The Children's Bedroom" — request small excerpt upstairs.
+Next: north to cellar, north to pantry, out to foyer (no poison expected), upstairs to children's bedroom. Update progress in ≤15 requests.
+Game incomplete; no winning ending. No quit.
+
+---
+# SEGMENT 5 (b2 cellar key, then poison death)
+- Had: Storage revealed web via search, bite on direct take, clean then take +1, key on ring, checkpoint cellar-key-obtained (poisoned), then death Foyer e00070 score 13.
+- Checkpoints b2 poisoned line abandoned except as evidence.
+
+---
+# SEGMENT 4 (b2 recovery, book returned)
+- Library book returned, slip Michael note, house route via Junction/Narrow/Bridge/Square/Riverwalk/Chilly/Scenic, kitchen torch synonym none, pantry/cellar entry.
+- Checkpoints: library-book-returned, pantry-before-cellar (clean base for b3).
+
+---
+# Historical b0 (base)
+- ~46 cases; book TOC noted not reopened; restore base library-day2-circulation.

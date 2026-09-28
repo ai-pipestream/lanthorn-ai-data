@@ -1,0 +1,25 @@
+{
+  "event_id": "bedlam-59f5a6e860:e00161",
+  "timestamp": "2026-09-25T08:02:26.778963+00:00",
+  "game_id": "bedlam",
+  "session_id": "bedlam-59f5a6e860",
+  "branch_id": "b0",
+  "event_index": 161,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 17667,
+  "raw_end": 17667,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "bedlam-59f5a6e860",
+    "ending_quote": "Off you go...  Congratulations. You have just completed the Bedlam preview. \nThis demo covers about one-fourth of the finished project. Still to come are \nmore misadventures that you will experience  in town. In addition, the sequence \nyou have just completed will be further embellished. You can expect an attic, \nthe basement, more puzzles, and you will finally be able to explore the back \nyard.\n\n  If you encounter any typos, please send them to zeyguy at aol.com along with \nany and all comments you might have.\n\n\n    *** You have won ***\n\n\nBear with me. I just haven't gotten around to implementing a scoring system \nyet. I'll do it in the completed game. Promise.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+    "evidence_event_ids": [
+      "bedlam-59f5a6e860:e00143"
+    ],
+    "notes": "Full domestic preview route completed: alarm smashed, hangover cured via Tony, mitts/bible/coin/glass puzzles, curtains/cord, wife gave keys, entered and started red car. e00143 turn on car gives authored preview conclusion with *** You have won ***, not death, quit, or intermediate score. Starting car alone insufficient, but here concluding narrative observed."
+  },
+  "review_status": "unreviewed"
+}

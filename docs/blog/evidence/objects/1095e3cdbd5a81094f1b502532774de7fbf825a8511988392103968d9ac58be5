@@ -1,0 +1,8 @@
+# Progress — danger-adventurer-at-work (ACTIVE, game incomplete — at West Bank wearing tube, continuation ready)
+
+Location: West Bank e00403 (wide underground river; tunnel west; inner tube worn). All game responses through m0371 resolved; m0372 annotate pending (put-on/wear none).
+Inventory (observed): boltcutters, inner tube WORN e00403, pile of bird seed, small bird, dynamite, claw hammer, wit, pills, matches, flashlight/torch lit e00396. Game spent->Balrog.
+Checkpoints (verified): hut-blessed, lab-before-body, chasm-brick, chasm-matches, bridge-free, circular-before-rope, cellar-after-fall, west-bank (e00399/e00400). Continuation checkpoint: west-bank.
+Cases: river-examine e00402; river-wear-tube put-on accepted e00403 (annotate m0372 pending). Chasm/cellar cases as before.
+Hints: lines 132-140 active: (x river done) wear tube done via put-on, next swim, e, x sign, drop dynamite, light it, w. No concluding narrative observed.
+Resume: read progress.md + latest.json; do NOT restart; at ordinary West Bank prompt. Next: confirm m0372; single command swim; then e; checkpoint before dynamite/timed moves. No finish — game incomplete. Manifest requires chasm+river+pony ride + authored concluding narrative.

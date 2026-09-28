@@ -1,0 +1,75 @@
+# Fullplay supervision
+
+Bounded audit completed 2026-09-25T09:03:34.871285+00:00; fixed selection cutoff 2026-09-25T08:58:00.039435+00:00.
+
+**120 annotations across63 games:87 accepted,25 revise,8 quarantine.** Both endpoints and 645 distinct nearby/intervening journal spans match raw offsets, SHA256, response text and exported command/branch fields. Zero byte/hash/export mismatch. Sound byte provenance does not by itself establish semantic validity or command attribution.
+
+Current export snapshot: **4303 unique annotation rows; 2238 accepted, 543 revise, 130 quarantine, 1392 unreviewed.** Exact annotation identity and endpoint-set equality determine counts. Cached CSV labels may lag. No approval of the growing backlog.
+
+## Vindaloo conclusion and Lecture Feature startup
+
+Historical independent conclusion count **56**, preserving prior55 and all scope qualifications: Nine Points is a SAMPLE, Bedlam a PREVIEW, Slacker X an installment.
+
+**Vindaloo:** vindaloo-85744e25ee:e00433 (b0) TURN ON STOVE follows chopped chicken in pan and pan on stove. Actual response describes cooking and enjoying the meal, explicit win18/18 in340turns and terminal menu. Raw 23309:23581, SHA256 bec6480bdf6c4da08b01aa1ca81417053c790d229b9f3bef47ab70f6af5eeeff. Only annotations/claim follow in inspected ending context. Current Z5R1/960613 SHA 1bd61b11ec4075e5f6bff397c77e89032f866e08dd7a7cdd6e7b9f562da80072. Guide release/serial unspecified; score does not prove all content or cases were collected.
+
+**Lecture Feature:** lecture-feature-fbf9767abc, Blorb SHA 7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180, embedded ZCOD SHA 9673c2ed3b0f60c615596bd0bdf57177d39dc13f803895567d8fc27318d22dd9. Header and actual banner Z8R1/200414, Inform7 build6G60. Copyright1999-2014 is a separate printed identifier. e1 reaches Bathroom ordinary prompt; e2 SAVE/e3 start-bathroom.sav confirms exact saved path and Ok; current save bytes nonempty and hashed. Subsequent stand-up, flush, look and corridor movement are real raw observations. No restore test or compiled-source equivalence asserted. Older guide lacks release/serial; keep teacher-feature family/train provenance.
+
+BatchK acquisition/normalization registration remains parent source evidence, not a runtime or ending claim.
+
+## New attribution finding and unchanged hold
+
+Fine-Tuned **fine-tuned-989503b0a7:e00040/e00041**, annotation e00062: GRAB HORSE ends with the Dynamo starting to roll; the following LOOK response carries Aloysius stopping it and the original horse-action refusal. Both exact raw spans match hashes, but action/output attribution is interleaved. Quarantined. LOOK does not accomplish the original horse-seizure goal. No root-cause or interpreter-fix claim.
+
+Pytho's Mask remains held with e3 empty Enter and e4 passive await_output both zero-byte no_output_timeout, already manually excluded by parent. No checkpoint or successful ordinary-gameplay startup. No reviewer input, wait request, replay or reset. Prior source distinction remains: Glulx character Return0xfffffffa is not Z-machine13. Source alone does not prove the game's expected MORE key.
+
+## Revisions and quarantine
+
+- lecture-feature-fbf9767abc:e00017: Independent exact endpoint and nearby/intervening raw SHA/text review. GRAB PANTS fails at verb recognition; TAKE TROUSERS acquires them and reveals wallet. Remove assertion that PANTS is unsupported: this pair does not test that noun with a recognized verb.
+- all-quiet-on-the-library-front-a0c0a11bad:e00094: Independent exact endpoint and nearby/intervening raw SHA/text review. Core topic typo/repair is visible, but both exported responses contain overlapping Emerson/Pratchett fragments. Quarantine unsplit response attribution; no assumed delayed transport cause.
+- cacophony-c47d99b6d3:e00030: Independent exact endpoint and nearby/intervening raw SHA/text review. LOOK REPTILE to X EYES changes both syntax and referent. Verified inspection, but missing-preposition-only causality is not isolated.
+- christminster-735155fc69:e00249: Independent exact endpoint and nearby/intervening raw SHA/text review. SCALE LADDER reaches roof, but exported response has overlapping quotation fragments. Quarantine whole-response isolation; movement itself is supported.
+- critical-breach-b5dd49a3e4:e00246: Independent exact endpoint and nearby/intervening raw SHA/text review. Both grasp attempts refuse across b6 to restored b7, with attack/chip damage and restore between. Preserve cross-branch unresolved failures; no proof that wording cannot matter or an R3 prerequisite is the specific cause.
+- curses-4e1875ea4e:e02046: Independent exact endpoint and nearby/intervening raw SHA/text review. WASH/DIP/PUT/CLEAN attempts do not remove soot. Limit to tested actions at this state; failure does not prove soot is globally unremovable or establish walkthrough compatibility.
+- frozen-a2e5d2eea9:e00183: Independent exact endpoint and nearby/intervening raw SHA/text review. READ BOOK precedes refused TAKE SQUARE PAGE and is diagnostic context, not a corrective acquisition. Retain observed part-of-book refusal and prior ownership; avoid universal detachability claims.
+- i-0-d1ac7729bb:e00234: Independent exact endpoint and nearby/intervening raw SHA/text review. HIDE IN BED fails and GET IN BED boards pickup. Entry is observed; concealment or remaining unnoticed is not established by selected response. Label partial entry toward hiding.
+- mortlake-manor-e0475539fe:e00114: Independent exact endpoint and nearby/intervening raw SHA/text review. EAT CABBAGE is accepted with automatic pickup, vomiting and ten-point penalty. Preserve adverse consequence, not beneficial recovery; later unavailability for every use is not independently demonstrated.
+- night-at-the-computer-center-d16c3b6cd5:e00152: Independent exact endpoint and nearby/intervening raw SHA/text review. Archive selection is observed, but retain Night's conservative unsplit-response exclusion for recurring status/quotation tail. No proof of delayed command output from the intact quotation alone.
+- the-wedding-396e8f7efc:e00083: Independent exact endpoint and nearby/intervening raw SHA/text review. PERUSE fails, READ returns programme description and directs further consultation. Accept verb recognition, but narrow success to overview rather than reading detailed programme text. Intact Pope tail is ancillary.
+- lecture-feature-fbf9767abc:e00020: Independent exact endpoint and nearby/intervening raw SHA/text review. PUT TROUSERS ON fails and WEAR TROUSERS works. Remove assertion WEAR is the only required verb; alternative PUT ON TROUSERS was not tested here.
+- all-quiet-on-the-library-front-a0c0a11bad:e00095: Independent exact endpoint and nearby/intervening raw SHA/text review. Giving succeeds in core response, but unsplit exported text contains overlapping literary fragments and stale score display. Preserve raw, exclude isolated full-response attribution.
+- augmented-fourth-d479b421d9:e00039: Independent exact endpoint and nearby/intervening raw SHA/text review. TAKE GRANITE resolves to wall; TAKE ROCK to pile then capacity refusal. Preserve both failures and changed referent; neither acquires rock or proves its weight caused the first refusal.
+- bedlam-59f5a6e860:e00151: Independent exact endpoint and nearby/intervening raw SHA/text review. Comma-form order is understood but Barbara hands over broom/dustpan instead of cleaning. Label understood request with alternate NPC response, not cleaning success; comma-only necessity unproven.
+- childs-play-936dc938bb:e00122: Independent exact endpoint and nearby/intervening raw SHA/text review. Book offer provokes Zoe and Marion intervenes; book is visibly on floor afterward. Keep local distraction success but remove inference it frees movement: GO NORTH already worked while book was held.
+- christminster-735155fc69:e00283: Independent exact endpoint and nearby/intervening raw SHA/text review. Disambiguation identifies B2 and finds locked; next knock opens door. Mixed quotation fragments contaminate exported full response; no opening at selected endpoint.
+- critical-breach-b5dd49a3e4:e00247: Independent exact endpoint and nearby/intervening raw SHA/text review. Pliers and beaker attempts both refuse across restore b6 to b7. Remove assertion tool choice cannot matter or specific safe-grasp prerequisite is proven; retain cross-state unresolved probes.
+- curses-4e1875ea4e:e02079: Independent exact endpoint and nearby/intervening raw SHA/text review. Tool acquisition changes missing-tool refusal to unsuitable ground. Local digging failure verified, but absence of Merlin's grave is not established by refusal alone.
+- deephome-56e3d50bda:e00200: Independent exact endpoint and nearby/intervening raw SHA/text review. PULL fails and PUSH moves intake into water without intervening state change. Opposite physical action/plan, not world-state change or synonym repair; preserve uncertainty about literal push intent.
+- dracula-prince-of-darkness-d75c304699:e00135: Independent exact endpoint and nearby/intervening raw SHA/text review. OPEN HATCH visibly unlocks and opens it, contrary to anticipated refusal. Do not infer which key was auto-used solely from this response; retain observed compound action.
+- enemies-0b4aba49fe:e00196: Independent exact endpoint and nearby/intervening raw SHA/text review. HIT BALL WITH RAILING succeeds where bare HIT refused, with no intervening state change. Reclassify as explicit-instrument formulation, not missing inventory/world-state repair; preserve fall and girl's retrieval.
+- fine-tuned-989503b0a7:e00062: Independent exact endpoint and nearby/intervening raw SHA/text review. GRAB HORSE output ends mid-action and following LOOK carries its completion/refusal and rolling-car rescue. Command attribution is interleaved; LOOK is not a goal-preserving correction. Quarantine both linked spans.
+- frozen-a2e5d2eea9:e00195: Independent exact endpoint and nearby/intervening raw SHA/text review. SEARCH finds nothing on bed; X describes it but reveals no sought hidden shapes. Narrow to descriptive inspection and unresolved search, not successful syntax repair.
+- gumshoe-2933d54ccf:e00225: Independent exact endpoint and nearby/intervening raw SHA/text review. OPEN ENVELOPE establishes already-open state, not a newly opened object. Bill antecedent is plausible context but not printed binding proof; preserve resolution/no-op distinction.
+- hunt-for-relief-b4de5c739d:e00093: Independent exact endpoint and nearby/intervening raw SHA/text review. Computer versus disk-drive is a receptacle naming repair with no intervening world change. Reclassify from world_state; actual insertion and point verified.
+- kook-u-ef2767bf50:e00046: Independent exact endpoint and nearby/intervening raw SHA/text review. TALK to X changes communication into visual inspection and is called a successful verb repair. Uncertain label does not cure changed intent; quarantine or separate explicit alternate-goal example.
+- mansion-cc50b3ae7d:e00363: Independent exact endpoint and nearby/intervening raw SHA/text review. LIGHT TORCH refused and TURN ON illuminates. Actual switching success verified; internal ignite parsing is an inference from generic dangerous-act text, not established.
+- mortlake-manor-e0475539fe:e00126: Independent exact endpoint and nearby/intervening raw SHA/text review. Gauntlet naming attempts fail and armour search finds nothing. Remove proof of unimplemented scenery or universal absence of interaction; diagnostic search is not acquisition correction.
+- night-at-the-computer-center-d16c3b6cd5:e00153: Independent exact endpoint and nearby/intervening raw SHA/text review. Underscore repair and download completion are visible, but retain conservative Night full-response isolation quarantine for ancillary status/quotation tail. No inferred transport delay solely from quotation.
+- risorgimento-represso-513c23c1c0:e00028: Independent exact endpoint and nearby/intervening raw SHA/text review. Both b1 and restored b2 pickup formulations fumble cup. Keep cross-branch failures, but remove claim identical state isolates wording: b1 includes LOOK and professor turn differs. Neither holds cup.
+- tube-trouble-1b2d95be53:e00140: Independent exact endpoint and nearby/intervening raw SHA/text review. PURCHASE HAT is accepted but supplies another battered cap while original hat remains. Label partial/substituted-object result, not achieved original-hat acquisition; existing note alone does not fix success/intent labels.
+- varicella-0ca3ff14a0:e00034: Independent exact endpoint and nearby/intervening raw SHA/text review. ASK GUARD ABOUT VENICE only reaches disambiguation at endpoint; following explicit guard reply yields no conversation content. Label partial parser progress, not successful conversation.
+
+Cross-restore Critical Breach refusals do not establish a missing prerequisite or eliminate tool/wording causes. Risorgimento's two cup fumbles are observed but are not an isolated wording comparison: b1 has an additional LOOK and different professor timing before the restored b2 attempt.
+
+Kook's TALK-to-EXAMINE repair changes the intended action and remains quarantined. Ghost Train's phone-to-coin example explicitly says intent_preserved=no and is retained only as alternate-object planning, never as a repair for taking the fixed telephone. PULL versus PUSH is a physical-plan change; no intervening world-state change occurred. Hunt's computer-to-disk-drive and Enemies' explicit-railing command are naming/instrument refinements.
+
+Partial outcomes stay partial: Varicella reaches disambiguation, Gumshoe's envelope was already open, Wedding READ gives an overview, and Tube Trouble supplies a substitute cap rather than the requested original hat. Lecture Feature's unknown GRAB verb does not establish that PANTS is an invalid noun; one failed clothing form does not prove WEAR is the sole accepted form.
+
+LibraryFront/Christminster mixed quotation fragments remain quarantined. Night's conservative unsplit-response exclusions persist without claiming an intact recurring quotation proves transport delay. Wedding's intact Pope text is ancillary. Generic Taken/OK observations require command/context; these are not automatically substantive standalone response-only retrieval positives.
+
+## Current operation and retained history
+
+Parent reports other33workers healthy and Pythos held. Reviewer checked latest central raw spans and local processes only, without remote worker contact. Latest raw faults: []. Additional claims outside this fixed pass: bse.
+
+All prior endings, identity gaps, startup errors, native rewinds, recoveries and transport exclusions remain in status JSON. BiCon b0 includes win/UNDO/repeated win; Spider b19 win precedes b20 restore; historical conclusions do not make every later branch terminal. Prior queued Vindaloo/Lecture followup is now explicitly resolved.
+
+Bounded pass complete. Only three owned review files changed. No game input, process change, launch, training, evaluation or publication.

@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-25T05:42:56.390207+00:00",
+  "event": {
+    "event_id": "bears-night-out-a79e3c9a58:e00366",
+    "timestamp": "2026-09-25T05:36:41.380533+00:00",
+    "game_id": "bears-night-out",
+    "session_id": "bears-night-out-a79e3c9a58",
+    "branch_id": "b0",
+    "event_index": 366,
+    "event_type": "command",
+    "command": "sleep",
+    "response": "Taking off your jacket, you settle down in the warm fabric and fall asleep. In \ntime, morning comes. The day of your owner's big plan to take you along to the \nTeddy Bear Picnic! David finds the specially chosen baguette where he left it, \nand the reply card turns up somehow, and off you go. What a wonderful day. All \nthe other teddy bears are there, playing games and making mischief. Everyone \nadmires your beautiful brown fur, and smart clothes. And the mysterious jar of \nhoney is enjoyed by all.\n\n\n    *** You have won ***\n\n\nIn that game you scored 33 out of a possible 33, in 5523 turns, giving you the \nrank of lifelong companion.\n\nWould you like to RESTART, RESTORE a saved game, give the FULL score for that \ngame, see some suggestions for AMUSING things to do or QUIT?\n> ",
+    "raw_start": 117349,
+    "raw_end": 118132,
+    "response_sha256": "04b1d282554606b772197dbeaccb7264d498b8f2cc76d9014754d19bc3cc126e",
+    "story_sha256": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "probe62-go-to-sleep",
+      "expected_outcome": "Fall asleep, game ending",
+      "intent": "Fall asleep in bed to end the night",
+      "origin": "exploration"
+    },
+    "review_status": "unreviewed"
+  },
+  "raw_hash_and_text_verified": true,
+  "verdict": "SLEEP triggers morning picnic epilogue, explicit victory33/33 and ending menu. Perfect score is not evidence every possible case was covered."
+}

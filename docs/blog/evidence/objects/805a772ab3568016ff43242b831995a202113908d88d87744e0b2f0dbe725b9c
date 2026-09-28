@@ -1,0 +1,11 @@
+# Gerbil Riot progress (b1 e00483 — game incomplete, help pending)
+
+Location: brick-wall dead-end north of tunnel-mouth (b1 e00481 verified), electric sheep present. Safe ordinary prompt.
+Inventory (observed b1): matchbox conserved (have not lit since restore), empty bucket, bulb horn, small key, white blanket (worn), milk-bottle top, picture of cat, empty syringe, leek (give-to-sheep refused e00483, conserved). Jacket given to Arnold.
+Checkpoints: b1-wall-sheep e00460-e00461 VERIFIED (same wall/location/inventory, safe resume); mouth-bush-blocked b0→b1 restore e00400-e00401; earlier after-arnold-jacket etc.
+Established b1 since last update: examine sheep = latest electric sheep e00465; take sheep = can't e00466; burn bush at wall = can't e00467; push north wall = joke e00468; south to mouth e00469, south to pleasant path e00470, south to veg e00471; examine vegetables = can't e00472; veg east to Arnold-strip e00473, east to bend e00474, north to matchbox dead-end e00475; south to bend e00476, west west to Arnold/veg e00477-e00478; north to pleasant e00479, north to mouth e00480, north to sheep wall e00481; blow horn = Parp no sheep move e00482; give leek to sheep = Nobody wants that e00483.
+Re-walk confirms: matches(S matchbox dead-end under fence) South=bend, West=Arnold-strip, West=veg, North=pleasant path, North=mouth, North=sheep wall, 4th North blocked. Veg exits East+North only, fence South; pleasant/mouth/wall descriptions mention no bush.
+Cases: b0 ~78 + b1 ~35 probes. Pending annotates: b1 examine/take sheep, burn-bush-canonical, push-wall, examine-veg, blow-horn, give-leek, plus older shrub/burn/fence/direction blocks.
+Last hints: m0341/e00392 + m0296/m0331 repeat burn route (S W W N x4 Burn bush E E N pit/hub/button top→Tony S S tattoo/wad guard final E); m0384/e00443 off-topic early excerpt; m0416 help requested on Burn bush East East North pit hub button (pending).
+Next: await m0416 excerpt; verify against game only. Then test sheep-wall east after burn if hint clarifies (do NOT light match alone — destroys matchbox). Continue East East North pit/hub/button, top→Tony, South South tattoo/wad, guard, final east exit. Verify ending via raw output only.
+STOP: game incomplete, no finish claimed. Pending m0416 help response.

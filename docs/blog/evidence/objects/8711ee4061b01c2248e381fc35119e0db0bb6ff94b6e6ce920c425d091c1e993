@@ -1,0 +1,11 @@
+# Schooldays progress (continuation checkpoint)
+
+- Session: schooldays-b371c6a97d, branch b0, event e00301 (Gymnasium 9:26am, ordinary prompt).
+- Location: Gymnasium (west of Dressing Room, south to hallway). Two nets, tall ceilings. Dressing Room east has jersey/paper 1232 verified e00300, towel taken e00296. Second floor viewing area north holds Simon Crew (ask works, talk unknown).
+- Verified since last update: ask simon about gym e00285 Don't know; annotated talk->ask vocabulary e00286; ask basketball e00287 Vince Carter; south e00288 to hallway; look e00289; enter elevator e00290; press 1 e00291 to 1st; out e00292; west e00293 to West End; northeast e00294 to Dressing Room (towel + Reggie Miller jersey + slip); towel typo e00295 fail -> get towel e00296 annotated e00297 syntax; dry me e00298 already dry; examine jersey e00299 Pacers 31 pocket; examine paper e00300 Locker 1232; west e00301 to Gymnasium.
+- Checkpoints: second-floor verified. Next gym/ticket milestone after dunk sequence.
+- Cases pending: route-gym-look m0291 (look in gym for Simon/hoops).
+- Hints: e00284 gym sequence OUT/GET TOWEL/DRY/WEST/GIVE SIMON/SIMON DUNK x2/ASK/DUNK until ticket. Verified OUT/TOWEL/WEST and paper 1232 in game; DRY already dry (no-op); GIVE/SIMON location unresolved (Simon upstairs, gym empty) – need to verify.
+- Carries (approx): basketball, towel (new), Pepsi, Gatorade, CD player, token, green key, stop sign, periodic table, Rap CD (stowed), knapsack + contents, keys, clothes. Need fresh inventory before dunk.
+- Next: resolve gym look, find Simon for GIVE (upstairs vs gym), then SIMON DUNK / ASK / DUNK to ticket, checkpoint gym/ticket, then travel-ticket taxi-airport to authored conclusion. Single commands.
+- Status: game INCOMPLETE. No winning ending. No death/quitting.

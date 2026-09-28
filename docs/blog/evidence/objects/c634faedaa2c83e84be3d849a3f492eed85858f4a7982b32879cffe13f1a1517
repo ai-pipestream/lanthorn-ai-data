@@ -1,0 +1,22 @@
+{
+  "game_id": "photopia",
+  "title": "Photopia",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/photopia.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/photopia-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/photopia.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/photopia.json",
+  "story_sha256_expected": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+  "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "120416",
+  "dataset_split": "test",
+  "game_family": "photopia",
+  "session_id": "photopia-74a27d1cb7",
+  "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+  "started_at": "2026-09-25T01:54:48.871132+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

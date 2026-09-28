@@ -1,0 +1,110 @@
+[
+  {
+    "filename": "paperchase.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/paperchase.z5",
+    "accessed_at": "2026-09-25T06:13:02.452178+00:00",
+    "remote_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+    "local_sha256": "b510dbb1b2a7a0a11b448fcb27889f6ec80afcf288084d53fd7bcd6903c76e33",
+    "bytes": 57344,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "950503"
+  },
+  {
+    "filename": "Gumshoe.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Gumshoe.z5",
+    "accessed_at": "2026-09-25T06:13:02.449952+00:00",
+    "remote_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+    "local_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+    "bytes": 143360,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "960331"
+  },
+  {
+    "filename": "Relief.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Relief.z5",
+    "accessed_at": "2026-09-25T06:13:02.323325+00:00",
+    "remote_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+    "local_sha256": "ff1d23813caf58ee0876638225a2ef47108191c5d70ea7f1b0c1c0bb5a554e7b",
+    "bytes": 94720,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "000820"
+  },
+  {
+    "filename": "PUTPBAA.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/PUTPBAA.z5",
+    "accessed_at": "2026-09-25T06:13:02.327366+00:00",
+    "remote_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "local_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "bytes": 132096,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "010618"
+  },
+  {
+    "filename": "bse.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/bse.z5",
+    "accessed_at": "2026-09-25T06:13:02.334209+00:00",
+    "remote_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+    "local_sha256": "13d210f12f373c2617353d2caffaec6150975963218af767940c86931322a943",
+    "bytes": 89088,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "970110"
+  },
+  {
+    "filename": "bedlam.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/bedlam.z5",
+    "accessed_at": "2026-09-25T06:13:02.337637+00:00",
+    "remote_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+    "local_sha256": "c061ce09ac551078bdc21ea8580c0d049bd2ea0798f773fae5daba3d826d3fb6",
+    "bytes": 59392,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "970711"
+  },
+  {
+    "filename": "CriticalBreach.z8",
+    "url": "https://ifarchive.org/if-archive/games/zcode/CriticalBreach.z8",
+    "accessed_at": "2026-09-25T06:13:02.394459+00:00",
+    "remote_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+    "local_sha256": "e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760",
+    "bytes": 268800,
+    "byte_identical": true,
+    "remote_zmachine_version": 8,
+    "remote_release": 3,
+    "remote_serial": "130817"
+  },
+  {
+    "filename": "AtWork.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/AtWork.z5",
+    "accessed_at": "2026-09-25T06:13:02.489242+00:00",
+    "remote_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+    "local_sha256": "5374d3834fc2bf4bb63953d9fc823b3596c35df6be7728ffa7bb273e7e8139c3",
+    "bytes": 78336,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "000705"
+  },
+  {
+    "filename": "Mansion.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Mansion.z5",
+    "accessed_at": "2026-09-25T06:14:20.939916+00:00",
+    "remote_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "local_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "bytes": 137216,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "260803"
+  }
+]

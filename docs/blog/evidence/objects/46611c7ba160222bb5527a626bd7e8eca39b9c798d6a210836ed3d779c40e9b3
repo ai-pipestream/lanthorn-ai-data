@@ -1,0 +1,8 @@
+# Detective progress — continuation needed
+
+Location: 15th-floor Hallway, score 200 (e00074): heat/sauna west, Pool A east, more hall north.
+Inventory: pistol, paper (master ring in text).
+In-flight: m0068 resolved as e00074; no unacked request known (m0067 already e00073). Next: w. n. w. n. n. u. per walkthrough tail from earlier hint; verify each step; checkpoint before final room if risky.
+Cases: 13 annotated (see events). Need ~7+ more diverse probes (wrong object, synonym, planning) to reach 20, outside hazards.
+Checkpoints: start, have-gun, before-back-room, before-dazed-man, hotel-15th-floor.
+Do not restart; resume from latest.json e00074 + this file.

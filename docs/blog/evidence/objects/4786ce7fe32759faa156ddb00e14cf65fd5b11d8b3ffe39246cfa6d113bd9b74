@@ -1,0 +1,30 @@
+# Explicit service-timeout recovery
+
+Current session: savoir-faire-5a89e6c8ff, branch b3. Restored basin-full successfully.
+Save evidence: savoir-faire-3e83fd4831:e00092. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Scullery
+A small, workmanlike room with a floor of white stones. The principal features 
+of the room are a counter, with a large inset washbasin also made of stone, and 
+a tall wooden cupboard.
+
+On the countertop are a loaf of stale bread and a sack (in which is a single 
+yellow onion).
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+## Progress savoir-faire — 2026-09-25 continuation seg 3 (STOPPED pending)
+
+STOPPED with game incomplete: broker response for inbox/m0087.json (await_output to resolve SPACE no_output_timeout) still pending; latest.json remains e00103 (no_output_timeout, raw 16668-16668). m0086 already resolved to same e00103 delayed_output empty. Request verified well-formed; not duplicated per protocol.
+
+Resume: read latest.json + progress.md; retry responses/m0087.json first. If resolved to HELP menu, send Q to resume game at ordinary prompt only, verify with look at basin. Branch b1 = basin-full checkpoint (basin plugged, full to brim, 5 loads). Do NOT replay identical probes. Next puzzle: TAKE BAUBLE (hint e00098 names bauble; take ring e00094 / take all e00097 failed) then LOOK IN BAUBLE / link-mirror route, or pivot to corridor/attic jars/bee, roses with butcher knife, contraption recipe. Checkpoints available: start-garden, have-sausages, basin-full.
+
+Counts so far: ~103 events, 4 broker helps (well, basin plug, basin amount, floated-object/bauble link hint), 5 annotations (well syntax, bread vocabulary, sausage ambiguity, cupboard typo, plug vocabulary). Need 20-40 diverse cases across complete game; many accepted-paraphrase none-annotations still queued (read sundial, open shed, chop/pour/fill variants, take knife, pick up sponge). Conserve light; no timed resources used.
+
+Detailed state at basin-full (b1): Location Scullery in HELP menu. Inventory: hat worn, swordstick, sword, snuffbox closed, andouillettes, butcher knife, cup empty, teapot full open. Bread on scullery counter. Sponge plugging basin hole. Basin full to brim after 5 loads (cup x3 + teapot x2); teapot 6th refused full. LINK/REMEMBER learned from HELP Special Instructions (player-observed). Menu flow: HELP (m0082) -> 3 (m0083) -> RETURN (m0084 linking text) -> SPACE (m0085 no_output_timeout) -> await_output m0086 (e00103 no_output_timeout) -> await_output m0087 pending -> then Q to resume. Never SAVE inside menu.

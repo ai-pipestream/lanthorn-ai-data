@@ -1,0 +1,11 @@
+# Heist progress (incomplete — Priest's Quarters photo done, score 14)
+
+Location: Priest's Quarters (statue triggered via rotate cross e00152; colour girl photo Taken e00153 score 14; painting clue e00147-148: lighthouse yellow beam on mountaintop peak, "Five eyes for an eye---Merciless Maria, 1698").
+Inventory (e00144 + changes): holding red glass? No — red glass now in eye niche (e00145 score 13); holding: glass cutter, steel key, polythene, rope, girl's photo (e00153), bag open (iron bar, mechanical arm, boy photo, ribbon, box closed, letter, silver frame/student photo). Cross in hole. Score 14.
+Checkpoints verified: early-graveyard, grave-coffin, industrial-machine, church-organ, church-altar, church-painting (e00150-151 Saved Ok).
+
+Cases: 34 annotated (25 prior + glass-break planning, glass-no-tool world_state, glass-underspec ambiguity, cross-underspec syntax, statue-typo syntax, niche-pronoun ambiguity uncertain, painting-read none, photo-take none, rotate none).
+
+Last hint (e00126 heist.sol 30-38): ...put red glass in niche. x painting. turn cross. get photo. e. s. s. s. Verified through get photo (via rotate/take variants).
+
+Next: e, s, s, s out of church; then need next walkthrough excerpt for post-church route (six photo sections, student last). Ask help with mode next if needed. Keep probes selective (at 34 cases, near upper target 20-40 — prioritize route, add only high-value distinct errors).

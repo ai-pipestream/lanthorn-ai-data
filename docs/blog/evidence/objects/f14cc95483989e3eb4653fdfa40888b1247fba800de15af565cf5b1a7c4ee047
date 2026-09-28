@@ -1,0 +1,9 @@
+# Critical Breach — progress (b11 lockdown-door, e477; m0441 PENDING)
+
+Location: west Laboratory Workbench in breach lockdown. E refused wander e474; X CAGE can't-see from west e473; S blocked by elevator door e452 (retry m0441 pending).
+Key findings: TOUCH DOOR defaults elevator nothing e469; HIT elevator useless e470; TOUCH BLAST nothing e471; HIT BLAST useless e472. Panel auto-unlock hint e464 but still locked e456. Blast west something hitting e463.
+Hints: e466 lines 64-72 TOUCH DOOR HIT DOOR then choice Thing ZZZ; e447 lines 74-82 Z X THING S U then Scientist OPEN PANEL TAKE RAILGUN E; e477 lines 76-84 S U Scientist OPEN PANEL TAKE RAILGUN E TAKE WIRES Z. Off-topic hints e475-476 returned early lines 14-26. Need middle link: X THING can't-see e449 blocks S U.
+Inventory (e442): empty injector, pliers, beaker full liquid, keycard, worn coat. Old chip implanted + cage sealed e441. Monitoring e446. Click e448.
+Checkpoints: b11-lockdown-door e467-468 current; b11-injected BEST pre-lockdown; b11-oldchip-loaded; b11-grasped.
+Cases ~44+ logged; new probes touch/hit doors, x cage, east retry pending.
+m0441 (s retry) pending; latest e477 help. Next: resolve s retry, try u / x specimen variants single, help mode next for Scientist continuation. Game INCOMPLETE: Scientist ending not reached.

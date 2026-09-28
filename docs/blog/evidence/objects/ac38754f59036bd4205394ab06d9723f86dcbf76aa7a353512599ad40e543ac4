@@ -1,0 +1,14 @@
+# Augmented Fourth — collection progress (ACTIVE, game incomplete — b2 O-west e00563, m0498 pending)
+
+## State (ACTIVE; game incomplete — b2 O-west wall-west e00563, awaiting m0498)
+- Location: b2 Grassy Courtyard O-west (wall blocks west) e00563 after batch O->S (e00559) S->H (e00560) H->T (e00561) T->U (e00562) U->O-west (e00563). Engine awaiting_input_or_idle at ordinary prompt. Score 14 (last verified e00520), Cupid union done.
+- Inventory as observed e00523: gold ring, Timeline pamphlet, Building Codes manual, dead man's note, trumpet. No drops since.
+- m0494 RESOLVED e00556 south Front Yard -> A entry (bell + floating letters).
+- m0495 RESOLVED e00557 east A->M (wall east-to-west north).
+- m0496 RESOLVED e00558 se M->O wall-east (via latest.json; response file sync delayed).
+- m0497 RESOLVED e00559-e00563 batch w/s/w/s/w O->S->H->T->U->O-west, queued 0.
+- m0498 PENDING inbox/m0498.json se+w O-west->F (wall south expected) ->A2 southwest corner. Well-formed. No responses/m0498.json yet — DO NOT DUPLICATE. Latest seen e00563 (01:11:23).
+- Next after m0498 resolves: at A2 southwest corner. Do NOT repeat identical SW/W/D probes (all blocked e00367-e00403, e00426, e00454-e00458). Map NE A2->U (e00451) and upper maze (U NW->L, L NE->E/A-north) to find D descent toward Mullog. Walkthrough A-route E SE W S W S SE W SW W N N NW D (e00488) mismatches observed (correct route needs extra W via U->O-west; SW from A2/F blocked). Ask broker help if two attempts fail; help is guidance not observed text.
+- Cases: banked ~65+ canonical moves this session (no new rejections). Unannotated: a-n-walksyn e00487; b2-play-love-second e00514.
+- Last hint: e00540 (from F) NW E NW N NE E W N; e00488 (from A) E SE W S W S SE W SW W N N NW D GIVE RING TO MULLOG.
+- Useful checkpoints: front-yard-granite-b2 (b2 verified e00555), wedding-love-b2, fou-llama.sav, a-courtyard-mullog-start, a2-southwest-mullog-leg, a2-southwest-no-descent, outside-courtyard.sav.

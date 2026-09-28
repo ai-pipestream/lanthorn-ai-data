@@ -1,0 +1,24 @@
+{
+  "event_id": "slouching-bedlam-b08abfcb18:e00239",
+  "timestamp": "2026-09-25T03:52:24.577684+00:00",
+  "game_id": "slouching-bedlam",
+  "session_id": "slouching-bedlam-b08abfcb18",
+  "branch_id": "b4",
+  "event_index": 239,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 105261,
+  "raw_end": 105261,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "The death shroud of humanity becomes the birth caul of something ... new -",
+    "evidence_event_ids": [
+      "slouching-bedlam-b08abfcb18:e00233"
+    ],
+    "notes": "Full author-intended finale after complete investigation (journals, Panopticon wards, Cleve file F6A142, iron key, puzzle-box MALKUTH/KETHER solution, Order book, pedestal): automaton execution, Second-Coming Logos spread worldwide, APPENDIX-B-available marker and RESTART/RESTORE/APPENDIX/QUIT prompt. Bleak by design (one of five ambiguous endings), not death/quitting: player completes the burn-the-infection branch (James, Reggie) with style/justice per guide."
+  },
+  "review_status": "unreviewed"
+}

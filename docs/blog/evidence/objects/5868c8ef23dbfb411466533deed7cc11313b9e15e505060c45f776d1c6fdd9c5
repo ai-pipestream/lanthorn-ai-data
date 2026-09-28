@@ -1,0 +1,12 @@
+# Current supervisor continuation instruction (2026-09-25 02:30 UTC)
+
+The last segment stopped incomplete because b88 has no usable light. Do not keep repeating lit-side probes or wait for a nonexistent lamp-refill ruling. No ending or port defect has been established. The supervised next step is a deliberate earlier-checkpoint restore, preserving all later branches.
+
+Read responses/supervisor-20260925T0200-optimized-shaft-help.json. Its `event.metadata.supplemental_guidance` is the relevant short-route advice. The previous instruction to restore shaft-coal-in-basket-b43 was NOT executed; you restored living-kit-347-b87 instead. The advice therefore remains untested. The current progress.md continuation to stay in b88 is superseded by this instruction.
+
+After checking latest.json and pending requests, explicitly request restore with name shaft-coal-in-basket-b43. This is an authorized branch change, not a reset or automatic replay. Confirm the engine acknowledges it, then follow the short route in batches of at most five, checking every response. Estimated lamp reserve is a hypothesis, not observed success. Avoid extra LOOK/inventory or duplicate mistake probes while the lamp burns. Stop the route and report any unexpected state. Turn off the lantern at the indicated Shaft location, recover the torch and checkpoint conserved resources before continuing later puzzles. Preserve candles and matches for balloon and crypt. If the save is unavailable or the restore fails, report that evidence instead of restoring a different later save.
+
+The old b88 and b83 checkpoints and all historical case evidence remain intact. Do not count repeated known failures toward diversity. No world-state editing, source changes, or invented outcomes.
+
+## Earlier collection notes
+

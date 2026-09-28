@@ -1,0 +1,9 @@
+# progress.md - change-in-weather COMPLETE (winning ending verified)
+
+Branch b3 reached author-intended successful conclusion e00297: "*** You have a good time after all. ***" + closing poem + RESTART/RESTORE/QUIT prompt, after jogging west to rejoin the group at Edge Of Meadow in morning light. Not death/flood/quitting/partial: bridge saved (crossed solid e00295), dawn aftermath explored, final west triggered ending text.
+
+Endgame route (all verified): Drop dirty e00267, checkpoint both-bags-placed-b3, examine bridge e00272 (fox yip reveals narrow spot), dig spot e00275, again e00277 (deeper), again e00278 (beam erodes, bridge sags), wedge branch under bridge e00279 (holding), dig spot e00281, again e00282, again e00283 (pool subsides, voices cross), keypress e00284 (wake in cave, morning), look/west/inventory (blanket carried e00289), NW e00293, SW e00294 (morning Stream Bank), cross bridge e00295, west e00297 (ending).
+
+Cases: 22 annotated total (probe01-19 segment 1; probe20 typo brigde->bridge vocabulary success; probe21 bare dig->dig spot syntax success; probe22 cross bridge none/accepted). Target 20-40 met with diversity (typo, omission, synonym-verb, plus segment-1 spread).
+
+Checkpoints: before-push-south, both-bags-placed-b3 (endgame base), edge-torn-lost-b2 (failed branch record).

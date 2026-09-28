@@ -1,0 +1,16 @@
+# Gumshoe progress — en route to Alibi (game incomplete)
+
+## State
+- b2 Winchester foyer DONE: door opened e00432, matchbook taken e00434 (score 15), Alibi Lounge clue e00437, checkpoint b2-winchester-foyer e00435-436, drop matchbook e00444, exit east e00445.
+- Post-Winchester hint m0397 (lines 118-126): Hail cab, Enter cab, Cabbie go to Alibi; Alibi: Exit, Read placard.
+- Hail taxi e00450 accepted (synonym, annotated e00451 none). Board get-in-taxi e00452 accepted (annotated e00453 none). In yellow cab at Winchester, cabbie asking destination.
+- Pending m0398 `driver, take me to Alibi` (driver-synonym probe) — do NOT resubmit; read responses/m0398.json first.
+- Camera NEVER acquired → photo point lost this branch. Times+matchbook dropped at Winchester. Score 15. Branch b2. No ending; do not finish.
+
+## Inventory (observed)
+- Carrying: snapshot, card, license, money. Dropped: Times (outside Winchester), matchbook (foyer).
+
+## Next
+1. Read m0398; if driver-synonym rejected, send canonical `Cabbie, go to Alibi`; if accepted, annotate none and continue to Alibi Exit + Read placard.
+2. Help for post-Alibi placard lines when needed (topic Cabbie/Alibi command words).
+3. Long-term: restore b2-office-opening, replay WITH camera. Continue, do not restart.

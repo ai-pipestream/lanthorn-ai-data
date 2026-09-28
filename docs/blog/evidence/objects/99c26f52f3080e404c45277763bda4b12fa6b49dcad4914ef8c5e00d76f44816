@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T06:53:54.444622+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-e-20260925.json",
+  "candidate_count": 4,
+  "counts": {
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "status": "four source-checked queue spares prepared; no runtime claims",
+  "scope": "Only batch E source directory and config written. No pool, split, registry, play or script mutations; no launches/training/evaluation/publication.",
+  "architecture": {
+    "story_storage": "central_only",
+    "full_guide_storage": "central_only",
+    "interpreter_execution": "central",
+    "pi_help": "only small broker excerpts",
+    "remote_asset_staging": false
+  },
+  "parent_actions": [
+    "Inspect and verify story, guide and header hashes on the CENTRAL host before registration; all paths in this config are central host paths.",
+    "Keep all stories, full guides and provenance CENTRAL. Never stage or copy full guides or story files onto Pis.",
+    "Mask central story/guide/source/index/receipt paths and guide URLs from model-visible metadata. Pis request only small broker help excerpts; full guides are not exposed to Muse.",
+    "All four split proposals are train. No concrete shared world/puzzle relationship was identified; keep each game's releases/ports together and review any new evidence before export.",
+    "Retain Wedding R5 versus R3 guide, Ghost Train R7/290912 versus R4/070503 guide, and unspecified guide versions for Schooldays and Not Just A Game.",
+    "Preserve serials literally, particularly 290912 and 092800; they are byte pins, not values to normalize as dates.",
+    "Independently verify actual final narrative from central raw output; guides and static checks do not establish runtime success."
+  ],
+  "family_review": [
+    {
+      "game_id": "the-wedding",
+      "proposed_family": "the-wedding",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Distinct from Kenya Miller Wedding by title/author, release and archive identity. Neil James Brown also wrote The Lost Spellmaker, but shared authorship does not establish shared world/puzzles. No concrete overlap with an existing collected family identified."
+    },
+    {
+      "game_id": "ghost-train",
+      "proposed_family": "ghost-train",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Distinct full game identified by Paul Johnson and IFDB puy56alubcq0c4e9. Generic ghosts, trains and underworld imagery do not establish a shared world or puzzle with existing horror titles."
+    },
+    {
+      "game_id": "schooldays",
+      "proposed_family": "schooldays",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "School settings and basketball do not demonstrate shared world/puzzles with Paper Chase, Save Princeton, Kook U or Enemies. No concrete cross-game reuse identified; all Schooldays releases remain together."
+    },
+    {
+      "game_id": "not-just-a-game",
+      "proposed_family": "not-just-a-game",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Board coordinates and puzzle boxes alone do not establish shared puzzles with The Magic Toyshop or Nine Points. No specific reused world/puzzle identified in the inspected guide and archive; keep all versions together."
+    }
+  ],
+  "limits": {
+    "response_timeout_seconds": 180,
+    "broker_help_max_lines": 9,
+    "broker_help_max_characters": 1000,
+    "broker_commands_per_request": [
+      1,
+      5
+    ],
+    "max_development_candidates": 3,
+    "configured_development_candidates": 0,
+    "synthetic_probe_quota": null,
+    "concurrency_assigned": null,
+    "event_cap_configured": null,
+    "worker_time_limit_configured": null,
+    "note": "Only response_timeout_seconds is an executable timing setting in these configs. Help/command limits describe the current central broker. No scheduling, remote staging or model/event budget changes."
+  }
+}

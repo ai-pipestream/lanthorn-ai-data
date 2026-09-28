@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-09-25T07:16:13.245331+00:00",
+  "target": 10,
+  "workers": {
+    "zork-i7": [
+      1729082
+    ],
+    "jigsaw": [
+      2537649
+    ],
+    "the-edifice": [
+      3111269
+    ],
+    "mansion": [
+      3277256
+    ],
+    "curses": [
+      3313049
+    ],
+    "delusions": [
+      3320129
+    ],
+    "magic-toyshop": [
+      3539038
+    ],
+    "christminster": [
+      3561333
+    ],
+    "the-wedding": [
+      3662447
+    ],
+    "anchorhead": [
+      3672439
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "so-far",
+    "tryst-of-fate",
+    "space-station",
+    "paper-chase"
+  ],
+  "queued": [
+    "schooldays",
+    "not-just-a-game",
+    "attack-of-the-yeti-robot-zombies",
+    "hla-inform",
+    "muse-autumn-romance",
+    "believable-adventures-invisible-man"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-09-25T04:44:05.870938+00:00",
+  "target": 10,
+  "workers": {
+    "dreamhold": [
+      427838
+    ],
+    "curses": [
+      908334
+    ],
+    "theatre": [
+      908515
+    ],
+    "savoir-faire": [
+      1256997
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "balances": [
+      1446704
+    ],
+    "spider-and-web": [
+      1458912
+    ],
+    "zork-i7": [
+      1729082
+    ],
+    "so-far": [
+      1751669
+    ],
+    "hunter-in-darkness": [
+      2490385
+    ]
+  },
+  "attention": [],
+  "ending_review_pending": [
+    "bronze"
+  ],
+  "queued": [
+    "jigsaw",
+    "bears-night-out",
+    "acorn-court",
+    "change-in-weather"
+  ]
+}

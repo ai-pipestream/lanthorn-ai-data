@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "SpeculativeFiction_walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/SpeculativeFiction_walkthrough.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/SpeculativeFiction_walkthrough.txt",
+    "accessed_at": "2026-09-25T07:12:45.935746+00:00",
+    "sha256": "6c40b4cd969cf7dee1b76b1ba9ce6832af92786d0e033f99e847175d9fb57ab3",
+    "bytes": 48062
+  },
+  {
+    "filename": "traffic-walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/traffic-walkthrough.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/traffic-walkthrough.txt",
+    "accessed_at": "2026-09-25T07:12:45.936775+00:00",
+    "sha256": "9996983be8053af549093ad53f33f812e344a79f4eb497ebd20d489f0cf66f23",
+    "bytes": 11643
+  },
+  {
+    "filename": "vac_awry.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/vac_awry.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/vac_awry.txt",
+    "accessed_at": "2026-09-25T07:12:45.934717+00:00",
+    "sha256": "2a6665bfcf4c638a5c7b7ba0bc6bd18cc207a000f4aaf1b34729cf82adde808e",
+    "bytes": 25820
+  },
+  {
+    "filename": "BiCon_Walkthrough.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/BiCon_Walkthrough.txt",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/BiCon_Walkthrough.txt",
+    "accessed_at": "2026-09-25T07:12:45.934877+00:00",
+    "sha256": "f4cc63d84fe08a4b67556622abecfd77651528ae958ddbb906e629833ed9898a",
+    "bytes": 3866
+  },
+  {
+    "filename": "solutions-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/solutions/",
+    "accessed_at": "2026-09-25T07:12:45.962934+00:00",
+    "sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "bytes": 253572
+  },
+  {
+    "filename": "zcode-index.html",
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "http_result": "200 https://ifarchive.org/indexes/if-archive/games/zcode/",
+    "accessed_at": "2026-09-25T07:12:45.975305+00:00",
+    "sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "bytes": 494404
+  },
+  {
+    "filename": "MortlakeManorGameTranscript.txt",
+    "url": "https://ifarchive.org/if-archive/solutions/MortlakeManorGameTranscript.txt",
+    "accessed_at": "2026-09-25T07:16:04.290244+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/MortlakeManorGameTranscript.txt",
+    "sha256": "d175e4de21c2153e0d0bb3930f09471393c6b1bff8692ceb26a906bcc36a6abe",
+    "bytes": 23787
+  },
+  {
+    "filename": "windhall.step",
+    "url": "https://ifarchive.org/if-archive/solutions/windhall.step",
+    "accessed_at": "2026-09-25T07:16:04.291013+00:00",
+    "http_result": "200 https://ifarchive.org/if-archive/solutions/windhall.step",
+    "sha256": "807e40b3fd5e7a04ffba2cd4f3e56a604df15e311bb43379f50e7735f90b63d8",
+    "bytes": 7517
+  }
+]

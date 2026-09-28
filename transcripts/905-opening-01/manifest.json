@@ -1,0 +1,29 @@
+{
+  "observed_release": null,
+  "release_matches_source": false,
+  "game_id": "905",
+  "session_id": "905-9a3eeb871d16",
+  "access_time": "2026-09-24T12:03:59.858836+00:00",
+  "source_record": "/work/experiments/lanthorn-recall-training/runs/sources-20260924T115654Z-9rT0aa/records/905.json",
+  "source_record_sha256": "48b4587d04ec30b3749be821348bb8befcd14e3c5700aa59795d5c5a4bd12c86",
+  "story_path": "/home/krickert/if-games/zcode/905.z5",
+  "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+  "interpreter": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "interpreter_sha256": "f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda",
+  "argv": [
+    "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+    "--plain",
+    "--sound",
+    "off",
+    "/home/krickert/if-games/zcode/905.z5"
+  ],
+  "stdout_sha256": "7ddb14babb6308bbaa6443274a26b69473b57ab4c13b19701a48fbb76ea2aa3f",
+  "requested_commands": 20,
+  "captured_commands": 20,
+  "last_read_status": "prompt",
+  "exit_code": 0,
+  "release_banner": "\n\n\n\nThe phone rings.\n\nOh, no - how long have you been asleep? Sure, it was a tough night, but... This \nis bad. This is very bad.\n\nThe phone rings.\n\n  -----\n9:05 by Adam Cadre\nv1.11 (2012.0724) / Original release 2000.0103\n  -----\n\nBedroom (in bed)\nThis bedroom is extremely spare, with dirty laundry scattered haphazardly all \nover the floor. Cleaner clothing can be found in the dresser. A bathroom lies \nto the south, while a door to the east leads to the living room.\n\nOn the end table are a telephone, a wallet and some keys.\n\nThe phone rings.\n\n>",
+  "review_status": "unreviewed",
+  "compatibility_scope": "Opening only; not a complete walkthrough validation.",
+  "input_index_note": "Input order, not the game engine turn counter."
+}

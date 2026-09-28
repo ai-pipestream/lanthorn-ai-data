@@ -1,0 +1,35 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: Presentation (Yamitsi building), Score 6, Moves 29 (e00060/e00062)
+Inventory as observed: mother's silver chain (worn), blue evening dress (worn), gold bracelet closed+worn, underwear (e00055); plus mahogany chair carried (e00058, take seat). Verify with `i` on resume.
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy (latest, e00061-62). All saves Ok.
+
+Cases (17 total, all annotated except exploration/guided route):
+- drowning-remove-uniform-probe e00008 annotated e00009 none
+- jetty-examine-woman-probe e00021 annotated e00022 none
+- jetty-staff-typo-probe e00023 fail / e00024 success annotated e00025 vocabulary
+- jetty-parents-singular-probe e00026 annotated e00027 none
+- statue-plaque-sign-probe e00029 fail / e00030 success annotated e00031 vocabulary
+- statue-bracelet-look-probe e00033 fail syntax / e00034 success annotated e00035 syntax
+- statue-turn-omitted-probe e00036 fail ambiguity / e00037 success annotated e00038 ambiguity
+- statue-under-beneath-probe e00039 fail / e00040 success annotated e00041 vocabulary
+- statue-open-bracelet-probe e00042 annotated e00043 none
+- statue-get-gold-probe e00044 ambiguity / e00045 success annotated e00046 ambiguity
+- statue-wear-puton-probe e00047 annotated e00049 none
+- cocktail-me-reflexive-probe e00053 annotated e00054 none
+- cocktail-se-full-probe e00056 annotated e00057 none
+- bayview-chair-seat-probe e00058 annotated e00059 none
+- Exploration/guided route (no annotation needed): drowning-look, inventory, waits, get staff, jetty-go-west, statue-space-continue, cocktail-inventory, bayview-go-sw
+
+Last hints (walkthrough, NOT observed):
+- lines 42-50 bracelet sequence done; lines 51-59 cocktail opening done (x me, I, se, get chair, sw meet Amy e00060).
+- Next hint NOT yet requested: Amy says find somewhere private, take lead. Request mode next for Presentation/Amy private talk.
+
+Next actions on resume:
+1. Read latest.json + events tail to confirm presentation-amy branch b0.
+2. Help next excerpt for Presentation private place.
+3. Synthetic probe before canonical: e.g., talk variation (`talk to amy` vs `ask amy about takamura`) or movement variation; annotate pair.
+4. Continue toward Crusader/helicopter finale per manifest; checkpoint at safe milestones; never save during menus/keypauses.
+5. No pending broker requests: m0052 resolved. Resume with new inbox/m0053.json.
+
+Stop reason: session step budget — game incomplete, NOT finished. No finish/ending evidence.

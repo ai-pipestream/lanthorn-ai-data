@@ -1,0 +1,15 @@
+# HLA Inform progress — atop oak, ready for battleaxe (STOPPING HONESTLY INCOMPLETE)
+
+Location: High Atop the forest (e00137 use rope climb). Exits E only (grassroof hut east). Werewolf follows. Nest below unreachable.
+Stats: hp 100, g 794, exp 0, food 178 (e00137). Inventory: food, lantern (light), rations, oil, flute, rope (e00120 Taken), key (e00122 Taken) — re-list not yet observed after pickup but Taken confirmed.
+
+Cases annotated (27): prior 14 + portal-typo-15 + mansion-south-typo-16 (sout/south) + yellow-portal-omitted-17 (bare enter, none) + intersection-east-syn-18 (head east/east) + brokenpath-north-typo-19 (nort/north) + redwood-east-typo-20 (eats/east) + oak-north accepted-23 (none) + rope-get-typo-25 (rop/rope) + key-take-syn-26 (take key, none) + oak-climb-norope-24 (climb tree/use-rope world_state, e00105+e00106->e00137 with rope prerequisite).
+Open: well-key-typo-08 superseded (key was in storage, not well); west door at well still untested with new key.
+
+Route this run: mansion look (quest +500g) -> south to yellow portal -> enter to Intersection -> east Broken -> north Redwood1 -> east Redwood2 oak -> north oak base -> climb fail/use-rope fail (no rope) -> backtrack via Intersection/Forest/Well-lit/Entrance/Well -> east Cathedral -> north Altar -> east Storage (rope+key found) -> west/south/west Well -> south x4 Intersection -> east/north/east/north oak base -> use rope to High Atop.
+
+Hints (walkthrough, NOT observed): after oak use rope: e, get battleaxe, wield battleaxe (lines 40-48). Buckler/Tursk (get buckler s,w,w,w,w) still skipped; may gate combat/dragon. Start rope/key excerpt lines 21-29 confirmed by observation.
+
+Checkpoints verified: start-guild, village-well, lantern-done, intersection, werewolf-joins, oak-tree, rope-key (e00124-25), atop-oak (e00139-40, latest). All ordinary prompts verified; no save during Q/menu/pause.
+
+Game NOT complete: no dragon, no GameWon concluding narrative. No death/quit. Continue next run from atop-oak (or rope-key if needed): east to grassroof hut, get+wield battleaxe, then follow walkthrough for dragon quest. Preserve lantern light; food ~178 declining slowly.

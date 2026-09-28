@@ -1,0 +1,23 @@
+{
+  "game_id": "so-far",
+  "title": "So Far",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/SoFar.z8",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/so-far-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/SoFar.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. GuideR5/960619. Exact compatibility must be verified in play.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/so-far.json",
+  "story_sha256_expected": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+  "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+  "dataset_split": "development",
+  "game_family": "so-far",
+  "zmachine_version": 8,
+  "release": 6,
+  "serial": "961218",
+  "collection_notes": "# So Far collection notes\n\nExact local header: R6/961218. GuideR5/960619. Exact compatibility must be verified in play. Guide source: https://ifarchive.org/if-archive/solutions/SoFar.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+  "session_id": "so-far-8d580943cf",
+  "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+  "started_at": "2026-09-25T04:03:36.620867+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

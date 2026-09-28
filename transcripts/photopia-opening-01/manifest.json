@@ -1,0 +1,29 @@
+{
+  "observed_release": null,
+  "release_matches_source": false,
+  "game_id": "photopia",
+  "session_id": "photopia-2b64b790c451",
+  "access_time": "2026-09-24T12:02:46.862560+00:00",
+  "source_record": "/work/experiments/lanthorn-recall-training/runs/sources-20260924T115654Z-9rT0aa/records/photopia.json",
+  "source_record_sha256": "f3a5a6d4939f4f5173fb7d66675bd0063561a44093636f4b739618a61d03acb7",
+  "story_path": "/home/krickert/if-games/zcode/photopia.z5",
+  "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+  "interpreter": "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+  "interpreter_sha256": "f2c88dcdfc97c698304b56a5879526d6eac9b84856ea116135ac295320a97bda",
+  "argv": [
+    "/work/reference-code/lanthorn/target.noindex/debug/zvm-cli",
+    "--plain",
+    "--sound",
+    "off",
+    "/home/krickert/if-games/zcode/photopia.z5"
+  ],
+  "stdout_sha256": "46ab3d5822158ce5081288d5234c0f451c94c5c54103ca925d7607012973b38b",
+  "requested_commands": 18,
+  "captured_commands": 0,
+  "last_read_status": "timeout_or_nonstandard_prompt",
+  "exit_code": 0,
+  "release_banner": "\n\n\n\nPhotopia 1.30 is a stripped-down version designed for online play. The \nrecommended version is 2.01, which runs in a Glulx player. Links are available \nat http://adamcadre.ac.\n\nWould you like instructions? ",
+  "review_status": "unreviewed",
+  "compatibility_scope": "Opening only; not a complete walkthrough validation.",
+  "input_index_note": "Input order, not the game engine turn counter."
+}

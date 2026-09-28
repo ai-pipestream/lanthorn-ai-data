@@ -1,0 +1,8 @@
+# BSE progress
+
+- Location: Hall (Turns 97, Score 11, e00196). Ordinary prompt confirmed. Checkpoint hall-hat verified e00197/e00198.
+- Inventory (observed/inferred): wearing yellow souwester (put on e00196) + white coat with jar/pistol; carrying beige sealed envelope (superglued e00191), garden fork; briefcase in boot; brass key dropped in Barn; empty can + faxed note in pub; farm gate closed; leaflet in Farmyard.
+- Checkpoints verified: start-lane, boot-open, coat-worn, briefcase-read, lane-ready, pub-beer, pub-key, farm-gate-shut, barn-envelope, hall-hat. Continuation: restore hall-hat if needed; no timed/lamp resources consumed; safe ordinary prompt in Hall.
+- Cases this branch: barn-open-envelope exploration e00191 (superglued, needs steam – deferred); barn-go-west guided e00192; farm-go-north guided e00193 (Hall souwester + socket); hall-get-hat none e00194 (get hat); hall-wear-hat guided e00196 (wear it pronoun).
+- Last hint: lines 77-85 partially executed through wear hat + save (W,N,Get hat wear it done). Next E, Get kettle/glove, W, Put kettle on rack, X kettle. Guidance only.
+- Next: E to kitchen/pantry for kettle+glove, then kettle-rack steaming to open envelope; checkpoint before risky/timed sequences. Then farm/laboratory, demon encounter + timed return + final west per manifest. Keep probes 1-at-a-time. All requests m0180-m0187 serviced; no pending.

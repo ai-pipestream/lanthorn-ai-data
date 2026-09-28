@@ -1,0 +1,25 @@
+{
+  "event_id": "asylum-0815a6d270:e00061",
+  "timestamp": "2026-09-25T06:30:11.993783+00:00",
+  "game_id": "asylum",
+  "session_id": "asylum-0815a6d270",
+  "branch_id": "b0",
+  "event_index": 61,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 2590,
+  "raw_end": 2590,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "ee0944ec3b710ebda255b129d8da6c108875dacab4677fa6a6e3a097b3989b78",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "asylum-0815a6d270",
+    "ending_quote": "\n\n    *** You have won ***\n\n\nIn that game you scored 0 out of a possible 0, in 28 turns.",
+    "evidence_event_ids": [
+      "asylum-0815a6d270:e00046"
+    ],
+    "notes": "Genuine winning ending via compact escape route: nested brass/wooden/black keys, hammer/chisel tools, breached weak wall, north exit. e00046 shows Inform win banner plus 0/0 score in 28 turns and RESTART/RESTORE/QUIT prompt — author conclusion after exit, not death, chapter change, or quit."
+  },
+  "review_status": "unreviewed"
+}

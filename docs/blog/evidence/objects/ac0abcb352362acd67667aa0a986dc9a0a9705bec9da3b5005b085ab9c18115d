@@ -1,0 +1,24 @@
+{
+  "event_id": "balances-01a7783d25:e00654",
+  "timestamp": "2026-09-25T04:57:18.877883+00:00",
+  "game_id": "balances",
+  "session_id": "balances-01a7783d25",
+  "branch_id": "b3",
+  "event_index": 654,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 72628,
+  "raw_end": 72628,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+  "engine_state": "unchanged",
+  "metadata": {
+    "evidence_event_ids": [
+      "balances-01a7783d25:e00653"
+    ],
+    "ending_quote": "*** You have won ***",
+    "notes": "4 cubes in podium sockets trigger growth/balancing, Borphee Labs wake, score 50/51 Scientist 139 turns. Winning narrative, not death/quit/chapter."
+  },
+  "review_status": "unreviewed"
+}

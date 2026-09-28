@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-09-25T06:06:08.139258+00:00",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-a-20260925.json",
+  "candidate_count": 12,
+  "substitutions": [],
+  "counts": {
+    "train": 10,
+    "development": 2,
+    "test": 0
+  },
+  "scope": "Prepared only; no broker, Muse, interpreter, training, evaluation, publication or pool mutation executed.",
+  "launch_readiness": "12 source-checked candidates with existing local files and broker-compatible configs. Runtime compatibility and actual endings unverified; parent performs remote staging and startup supervision.",
+  "parent_actions": [
+    "Before remote launch, stage the pinned story and broker-side guide bytes; verify SHA-256 and rebase host-local paths to the worker layout.",
+    "Keep full guides and source records inaccessible to Muse. Mask walkthrough, walkthrough_url, source_record and all raw/index/receipt paths and URLs in model-visible metadata; retain parent-side provenance and route notes.",
+    "Honor proposed family/split groupings when parent updates its own queue/splits; these files do not alter pool or split state.",
+    "Review uncertain family relationships before any export; do not infer relationships solely from shared authors or titles.",
+    "Independently verify each claimed ending from raw output; guide endings/score annotations are never game evidence."
+  ],
+  "family_review": [
+    {
+      "game_id": "asylum",
+      "proposed_family": "asylum",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Modern cpuguy Asylum only; the common title does not establish a relationship to commercial Asylum."
+    },
+    {
+      "game_id": "pentari",
+      "proposed_family": "pentari",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "Archive calls this a prequel to The Mission. Keep future Pentari/The Mission releases or ports together pending parent relationship review; no existing matching family found."
+    },
+    {
+      "game_id": "nine-points",
+      "proposed_family": "nine-points",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "cdsample is an earlier name of Nine Points, explicitly documented by the archive; keep those releases together. Uncle/treasure motifs alone do not establish Curses puzzle reuse."
+    },
+    {
+      "game_id": "enemies",
+      "proposed_family": "enemies",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "Guide recommends the same author's Time and Heist; this alone does not demonstrate shared world or puzzles. Parent should review any subsequently observed links before export, particularly Heist's Zork puzzle overlap."
+    },
+    {
+      "game_id": "heist",
+      "proposed_family": "zork-i",
+      "dataset_split": "development",
+      "uncertain": true,
+      "rationale": "Musician-house leaf-under-door/keyhole puzzle is explicitly compared with Zork II in the guide. Conservatively use the existing zork-i/development family, as existing SpiritWrak does for Zork overlap. Exact extent of shared puzzles and world is uncertain; parent review required."
+    },
+    {
+      "game_id": "all-quiet-on-the-library-front",
+      "proposed_family": "zork-i",
+      "dataset_split": "development",
+      "uncertain": true,
+      "rationale": "Guide includes feeding a grue and XYZZY. Grue is a Zork reference; the exact relationship may only be homage, while XYZZY also comes from Adventure. Conservatively keep with existing zork-i/development pending parent review; do not assert identical world or complete shared puzzles."
+    },
+    {
+      "game_id": "night-at-the-computer-center",
+      "proposed_family": "night-at-the-computer-center",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "IF Archive/Inform manual and gnome references are present but do not by themselves establish shared world/puzzles with an existing queued game. Standalone family is provisional; parent review if a concrete reuse link appears."
+    },
+    {
+      "game_id": "vindaloo",
+      "proposed_family": "vindaloo",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "No concrete shared-world or shared-puzzle relationship identified in the inspected guide and archive entries; all releases stay together."
+    },
+    {
+      "game_id": "gerbil-riot",
+      "proposed_family": "gerbil-riot",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "Original Quill game and Inform port share game identity and should remain in the same family. No existing matching queue family found."
+    },
+    {
+      "game_id": "i-0",
+      "proposed_family": "i-0",
+      "dataset_split": "train",
+      "uncertain": true,
+      "rationale": "Adam Cadre also authored already collected games; shared author alone is not evidence of shared puzzles/world. Provisional standalone family; flag any concrete cross-game reuse to parent before export."
+    },
+    {
+      "game_id": "tube-trouble",
+      "proposed_family": "tube-trouble",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "All releases and competition variants of Tube Trouble stay together; no concrete shared-world/puzzle link to an existing queue identified."
+    },
+    {
+      "game_id": "slacker-x",
+      "proposed_family": "slacker-x",
+      "dataset_split": "train",
+      "uncertain": false,
+      "rationale": "No concrete shared-world/puzzle relationship found in inspected sources. I-0's ordinary use of the word slacker is not a Slacker X identity link."
+    }
+  ],
+  "limits": {
+    "response_timeout_seconds": 180,
+    "broker_help_max_lines": 9,
+    "broker_help_max_characters": 1000,
+    "broker_commands_per_request": [
+      1,
+      5
+    ],
+    "max_development_candidates": 3,
+    "configured_development_candidates": 2,
+    "synthetic_probe_quota": null,
+    "concurrency_assigned": null,
+    "event_cap_configured": null,
+    "worker_time_limit_configured": null,
+    "note": "Only response_timeout_seconds is an executable timing setting in this config. Help/command limits describe the current broker. No scheduling/concurrency/event/model budget is added or changed. Long guides estimate Enemies about 570 and Heist about 1000 route moves; estimates are not caps or probe quotas."
+  }
+}

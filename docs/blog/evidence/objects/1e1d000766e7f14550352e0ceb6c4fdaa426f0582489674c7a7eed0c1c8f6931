@@ -1,0 +1,18 @@
+# Gumshoe progress — b2 in cab to Logitek PENDING (continuation checkpoint)
+
+## State at stop
+- b2 in yellow cab at McMurtry street, cabbie awaiting destination (e00308 boarded, Score 12 up 1). Pending m0260 `cabbie, go to logitek` NOT yet serviced at last check (latest e00308). Do NOT resubmit m0260; read responses/m0260.json first on resume.
+- Checkpoints confirmed: b2-office-opening e00230-31, b2-sandra-accepted e00297-98. Branch b2, session gumshoe-2933d54ccf.
+- Sandra accepted e00295 (snapshot+card); hanky given; standing e00296 Sandra west; street route w e00299, n e00300 (Marge opened, Sandra north), misroute e e00301-302 (office + Sandra in view), w e00303 (hallway open), n e00304 (Marge closes door), e e00305 foyer, e e00306 street, hail e00307.
+
+## Inventory
+- Carrying: Times, snapshot, card, license, money (hanky to Sandra). Coat/hat on rack. No camera.
+
+## Cases (~20)
+- Desk synonym none/fail, desk look none/success, note typo vocab, envelope pronoun ambiguity, hanky misspell tolerance none, wait/z none, sandra look none, interview guided. Camera/sedan/Logitek unresolved.
+
+## Next on resume
+1. Read responses/m0260.json; if Logitek arrived, checkpoint stakeout BEFORE waits.
+2. Wait sparingly for 11:32 blue-cab departure; `cabbie, follow blue cab`.
+3. Keep probes out of timed follow. Update progress every 10-15.
+- Game incomplete: no ending, no finish. Continue, do not restart.

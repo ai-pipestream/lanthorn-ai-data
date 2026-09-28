@@ -1,0 +1,54 @@
+# Text adventure assistance: blog working record
+
+Private material for a future post about helping players remember clues and
+express commands without replacing the game's interpreter. Collection and review
+are ongoing. No model has been trained or evaluated and nothing is published.
+
+- [Experiment journal](experiment-journal.md): decisions, setbacks and receipts.
+- [Collection and testing](methodology.md): acquisition, capture, review and export.
+- [Model plan](model-plan.md): proposed training and evaluation, not results.
+- [Continuous worker pool](worker-pool.md): keeping ten collection games active.
+- [Latest evidence pointer](evidence/latest.json): dated counts and archived
+  prompt, harness, source-manifest and review-document versions.
+
+At 2026-09-25 02:18 UTC, the first documentation snapshot captured 12,475 events
+across ten games. Its separately refreshed CSV held 709 candidate cases: 433
+accepted, 165 revise, 15 quarantine and 96 unreviewed. These are inventory counts,
+not model performance. Events are not all turns; accepted cases are not all
+positive wording repairs. Four endings had been independently verified:
+Hitchhiker's Guide, Adventureland, Pirate Adventure and Lost Pig.
+
+## Maintaining the record
+
+Append UTC-dated entries after meaningful changes, citing paths or event IDs.
+Retain failed approaches and corrections to our own assumptions. Run from the
+experiment root:
+
+```sh
+python3 scripts/snapshot_experiment.py --note 'Describe the milestone or correction'
+```
+
+The snapshot archives small artifacts as content-addressed objects. Large
+append-only journals and raw transcripts remain under `play/`; their exact
+prefix lengths and SHA-256 hashes are recorded. Preserve both directories.
+This is local evidence preservation, not an off-host backup.
+
+Before publishing, freeze the data/review snapshot, check source permissions,
+remove private host/account details and select only necessary game excerpts.
+No walkthrough or full transcript is automatically cleared for redistribution.
+
+## Proposed post sequence
+
+1. Why remembering clues and finding parser wording frustrate players.
+2. Obtaining games and guides, including release mismatches.
+3. Giving Muse a real interpreter and hints a little at a time.
+4. Capturing labeled synthetic mistakes and real responses.
+5. Testing capture and reviewing the meaning of each label.
+6. Comparing retrieval baselines and, if warranted, creating a model.
+7. Results, limitations and what we would change.
+
+The model and evaluation sections currently contain plans. Do not turn them into
+claims of completed work until corresponding run receipts exist.
+
+
+2026-09-25 10:05UTC:103titlesstarted;70independentlyverifiedauthoredconclusions (includingoneSAMPLEandonePREVIEW). MusepausedforMetaquotauntil12:41:27UTC; allunfinishedstatepreserved. [Kimi routine coordination](kimi-coordinator-pilot.md) is deployed as reviewed proposals with supervised exceptions. Current operational facts: `control/collection-supervision.md`.

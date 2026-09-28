@@ -1,0 +1,8 @@
+# Return to Karn — progress
+
+Location: Storage Room (north of middle corridor). K9 here, inert with open panel (e00032/e00034/e00035).
+Inventory: jacket/hat/scarf worn, yo-yo, TARDIS key, sonic screwdriver, homing device (ON, pulsating glow e00037, gold polyhedron e00039), gold card, unlit match (picked up e00029).
+Cases (8 annotated): console-typo vocab; scanner-omitted-prep none; corridor-open-door none; toolkit-split-words syntax; cupboard-search world_state; match-pickup none; k9-dog-synonym none; homing-ellipsis none. Pending: take-workshop-tools, pouch-contents, take-gold-card, corridor-east, storage-entry, k9-panel-examine, homing-examine.
+Checkpoints: start-console-room, workshop-tools (both verified).
+Last hint (e00036, lines 18-26): drop hat/scarf/yo-yo/key, get toolkit/screwdriver/homing, X homing then turn it on — verified turn-on + examine in game.
+Next: need walkthrough continuation after homing on (likely K9 repair / exit TARDIS west). Request help mode next, keep hints distinct from observed text.

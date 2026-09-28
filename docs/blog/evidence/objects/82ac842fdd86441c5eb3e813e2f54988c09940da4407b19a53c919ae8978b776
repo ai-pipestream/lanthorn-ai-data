@@ -1,0 +1,18 @@
+# Bedlam progress (update 2)
+
+Session: bedlam-59f5a6e860, branch b0, latest e00032 smash bottle refused.
+Location: Bathoom (bathroom, cabinet open). Inventory observed: bat (e00013), bottle taken (e00026 Taken). Painaway bottle closed, child-proof caps block open (e00028-e00029).
+Hallway: north=bedroom, west=Tony's room (loud music), south=bathroom, east onward to kitchen per hint.
+
+Checkpoints: start-bedroom, after-alarm. Need milestone after bathroom/kitchen.
+
+Last hint e00030: Bathroom open cabinet > bottle / Kitchen open oven > mitts. Bottle collected; opening needs different logic (smash refused e00032). Next: kitchen via hallway east.
+
+Cases pending annotate:
+- bedlam-cabinet-01 e00023 open cupboard fail -> e00024 open cabinet success (synonym)
+- bedlam-bottle-take-01 e00025 take bottel typo -> e00026 take bottle Taken
+- bedlam-bottle-open-01 e00028 open pills + e00029 open bottle both child-proof struggle (need true solution; not yet annotated as failure only)
+- bedlam-bottle-smash-01 e00032 smash bottle -> violence isn't answer (need correction, likely kitchen route first)
+- bedlam-alarm-01 world_state, bedlam-stand-01 none still to annotate
+
+Next: north to hallway, east to kitchen, collect probes there; update progress every 10-15.

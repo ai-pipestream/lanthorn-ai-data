@@ -1,0 +1,25 @@
+{
+  "event_id": "the-edifice-79519f86df:e00833",
+  "timestamp": "2026-09-25T08:05:55.525871+00:00",
+  "game_id": "the-edifice",
+  "session_id": "the-edifice-79519f86df",
+  "branch_id": "b1",
+  "event_index": 833,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 180518,
+  "raw_end": 180518,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have returned to your roots. ***",
+    "evidence_event_ids": [
+      "the-edifice-79519f86df:e00819",
+      "the-edifice-79519f86df:e00829"
+    ],
+    "notes": "Genuine author-intended finale on branch b1: score e00819 confirms all three levels visited and solved; re-entering the Edifice triggers the scripted endgame cascade (rumbling, self-closing door, shaking, tremble e00825-e00828); going west through the recess seals it with stone, reveals the HISTORY memory, and prints the ending banner with 'end of the game' plus the restart/restore/undo/quit prompt (e00829). Not a death (no demise text), not quitting (no QUIT command issued), not a chapter transition (irreversible seal + game-over prompt), not a partial score (3/3 solved)."
+  },
+  "review_status": "unreviewed"
+}

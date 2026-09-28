@@ -1,0 +1,44 @@
+import unittest
+from maintain_workers import capacity, inventory, input_state, active_health
+
+
+class PoolPolicyTest(unittest.TestCase):
+    def test_active_attention_sees_timeout_hidden_by_help(self):
+        rows = [{'event_index': 1, 'engine_state': 'no_output_timeout'},
+                {'event_index': 2, 'engine_state': 'unchanged'}]
+        self.assertEqual(active_health('a', rows, {}, False),
+                         ['a: active launcher with unresolved interpreter timeout'])
+        rows.append({'event_index': 3, 'engine_state': 'awaiting_input_or_idle'})
+        self.assertEqual(active_health('a', rows, {'max_events': 3}, True),
+                         ['a: active launcher but broker event cap reached'])
+        self.assertEqual(active_health('a', rows, {'max_events': 4}, True), [])
+
+    def test_help_cannot_hide_unresolved_input(self):
+        rows = [{'engine_state': 'awaiting_input_or_idle'},
+                {'engine_state': 'no_output_timeout'}, {'engine_state': 'unchanged'}]
+        self.assertEqual(input_state(rows), 'no_output_timeout')
+        rows.append({'engine_state': 'awaiting_input_or_idle'})
+        self.assertEqual(input_state(rows), 'awaiting_input_or_idle')
+
+    def test_finished_slot_refills_but_exiting_worker_counts(self):
+        workers = {f'g{i}': [i] for i in range(10)}
+        unfinished = {f'g{i}' for i in range(9)}
+        self.assertEqual(capacity(10, workers, unfinished), 0)
+        del workers['g9']
+        self.assertEqual(capacity(10, workers, unfinished), 1)
+
+    def test_interrupted_game_retains_slot_for_recovery(self):
+        self.assertEqual(capacity(10, {'g': [1]}, {f'g{i}' for i in range(9)}), 0)
+        self.assertEqual(capacity(10, {}, {f'g{i}' for i in range(10)}), 0)
+
+    def test_process_matching_does_not_count_shell_text_or_duplicate_as_one(self):
+        workers, brokers = inventory({1: ['bash', './run-fullplay.sh', 'a'],
+            2: ['bash', '-c', 'bash ./run-fullplay.sh a'],
+            3: ['python3', 'scripts/run_new_game.py', 'cfg.json', 'a'],
+            4: ['bash', '/work/experiments/lanthorn-recall-training/run-fullplay.sh', 'a']})
+        self.assertEqual(workers, {'a': [1, 4]})
+        self.assertEqual(brokers, {'a': [3]})
+
+
+if __name__ == '__main__':
+    unittest.main()

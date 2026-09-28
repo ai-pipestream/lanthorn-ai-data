@@ -1,0 +1,23 @@
+{
+  "game_id": "nine-points",
+  "title": "Nine Points",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/ninepts.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/nine-points-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/ninepts.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Complete the uncle's-house treasure route and leave through the window with the crown route resolved. The guide describes losing the crown during the successful exit; do not reject that intended narrative outcome or stop at opening the treasure chest.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/nine-points.json",
+  "story_sha256_expected": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+  "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "nine-points",
+  "collection_notes": "# Nine Points\n\nStory Z5 R12/961127. Local Nine Points R12/961127 versus guide for cdsample.z5 R11/961121. Archive explicitly links the renamed game to this guide and identifies cdsample as its earlier name. One-release gap is retained, not silently treated as exact compatibility.\n\nComplete the uncle's-house treasure route and leave through the window with the crown route resolved. The guide describes losing the crown during the successful exit; do not reject that intended narrative outcome or stop at opening the treasure chest.\n\nIntroductory demonstration: useful object examination and a few varied repairs are sufficient. The guide's public-domain claim is recorded separately from unresolved overall reuse permission.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+  "zmachine_version": 5,
+  "release": 12,
+  "serial": "961127",
+  "session_id": "nine-points-013d843149",
+  "story_sha256": "6a39aa258e1cdcdfeb85b2e41f40f1ddba169aad6dfdb38971e7af96666f44a4",
+  "started_at": "2026-09-25T06:13:12.144706+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

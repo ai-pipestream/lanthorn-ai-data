@@ -1,0 +1,16 @@
+# Return to Karn — b11 Surveillance Room e01097, m0833 PENDING, INCOMPLETE
+
+State: Branch b11 e01097 at ordinary prompt in Surveillance Room. East door now open (e01096 "You open the door."); both screens blank; open hatch floor. No finale — INCOMPLETE.
+Location: Surveillance Room (east door open).
+Inventory: torch ON (on since e01081; conserve ~68-move budget); screwdriver in hand; toolkit intact. Verify later with inventory.
+Cases:
+- b11-shaft-up-dark DONE annotated e01083.
+- b11-surveillance-entry checkpoint DONE e01084-85 m0820.
+- b11-surveillance-button-ambiguous DONE annotated e01088 m0823.
+- b11-surveillance-screens DONE annotated e01092 m0827.
+- b11-surveillance-right-screen EVIDENCE DONE e01093 via m0828; annotation m0833 PENDING (do not resubmit).
+- b11-surveillance-right-button DONE annotated e01095 m0830.
+- b11-surveillance-east-door DONE annotated e01097 m0832.
+Next evidence: responses/m0833.json (annotate e01093 failure_type none). latest e01097. inbox/m0833.json verified well-formed.
+Next actions: after m0833 resolves, go east singly ("e") with new case id; checkpoint before risky moves; keep hints distinct from observed text.
+Checkpoints: b11-shaft-hatch-open, b11-surveillance-entry OK.

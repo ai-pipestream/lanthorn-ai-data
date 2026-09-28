@@ -1,0 +1,7 @@
+# Critical Breach — progress (b8 capsule plan, e301)
+
+Location: Laboratory Test Area east, branch b8, open cage. Mouse dropped on floor alive with capsule (e285); 9x Z no eat (e286-e289, e295-e299); TAKE WITH PLIERS refuses (e290) though X SCORPIG sedated (e291); help repeats DROP+4Z+TAKE (e292). Checkpoint b8-drop-wait ok (e293-e294).
+Inventory: chip separate, pliers, beaker, injector was empty (e276); INJECT SCORPIG empty blocked needs load (e300 inject-empty-probe banked, correction pending); TAKE ANESTHETIC took capsule (e301 capsule-take-wording accepted, annotate pending m0279).
+Plan: annotate e301 none; LOAD CAPSULE into injector, INJECT SCORPIG to trigger attack+eat while chip stays safe (capsule expendable), then TAKE WITH PLIERS, LOAD CHIP, INJECT. If attack drops capsule only, proceed; if chip still at risk, restore b8-drop-wait.
+Cases: ~25 banked incl lid-synonym vocab, mouse-typo syntax, capsule-wording none, inject-empty world_state; grasp refusals documented.
+Checkpoints: b8-drop-wait (current base), b7-sealed-mouse, b6 family. Next: m0279 annotate, load capsule, inject scorpig (1 cmd, hazard).

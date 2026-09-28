@@ -1,0 +1,14 @@
+# Progress secret-mission — CONTINUATION CHECKPOINT (game incomplete)
+
+Branch b4, event e00285: long sloping grey corridor (N/S/E/W/Up/Down). Just did maint east, no thud yet. Inventory presumed: recorder, visitor picture, detector (likely green/polite, check with inventory). Thud not yet heard (~25 turns in). Body location random (b3 was grey room).
+Route so far b4: get recorder, play, W/S grey sit red+white stand get picture, N corridor, Down/N yellow no body, wait loops blue/maint.
+
+Proven b0-b3 knowledge (reuse without repeating identical probes):
+- PLAY not LISTEN; PHOTO fails PICTURE works; BUCKET fails PAIL works; BODY fails SABOTEUR works; BARE GO needs direction; SHOW PICTURE white ACCEPTED but blue INSUFFICIENT; OPEN DOOR locked needs SHOW; PUSH WHITE exits; SEARCH=FRISK; BREAK needs 2-step WITH RECORDER (fist hurts, pail fails); GO WINDOW after break to ledge; GET KEY not YELLOW KEY; post-break ~4 safe turns then BOOM; wait 2 after SHOW keeps green; dropping both pictures post-key booms; push white post-key booms.
+- Envelope was with saboteur body (empty manila), not briefing. Map/yarn/leaflet/pill left behind - may be needed for reactor.
+- Thud ~25-30 turns, body random (yellow b0/b1/b2, grey b3). Must sweep rooms after thud.
+
+Next for continuation: finish thud hunt (Down/N yellow, N/S blue, Up/N white, S grey, W maint/E), frisk/get pic/body, haul to white visitors (Up/Up/N + SHOW), drop body + SHOW (TV deactivated), wait inventory+look window (green), break+with recorder, go+get key+go back, then TEST YELLOW DOOR hypothesis: go corridor Down/N yellow room, SHOW PICTURE (saboteur window-maintenance) + key at yellow door to reactor, instead of white exit which always booms. Request hints for yellow door/reactor/bomb defusal. Need 20-40 total; ~20 annotated, add yellow/reactor/ambiguity/word-order new types.
+Checkpoints: SAVE unsupported (I don't understand), no usable checkpoint. Restores start new branch. Timed bomb + light: minimize post-break turns.
+Last hints: Part Two scan + yellow key + drop pictures + white + S/down/S grey (lines 27-35). Need next Part reactor lines.
+Stop honest: no winning ending observed; 4 BOOM deaths (b0 key take, b1 ledge, b2 second drop, b3 white exit) are deaths, not wins.

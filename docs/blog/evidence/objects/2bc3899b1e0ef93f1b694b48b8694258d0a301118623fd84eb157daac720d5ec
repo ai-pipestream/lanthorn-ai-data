@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-09-25T02:46:19.048014+00:00",
+  "recovery": {
+    "previous_session_id": "slouching-bedlam-bb653b6ab4",
+    "checkpoint_event_id": "slouching-bedlam-bb653b6ab4:e00003",
+    "checkpoint_path": "/work/experiments/lanthorn-recall-training/play/slouching-bedlam/saves/slouch.z5.save/start-office.sav.qzl",
+    "checkpoint_sha256": "97dbb1885f2376d0acd1ee7f2877d1138c965a472c6be7fcbf97e4affa156325",
+    "reason": "Explicit recovery from manual-menu input followed by empty timeout; restore engine-confirmed start-office in new session, preserve uncertain/menu evidence, never replay pending input.",
+    "session_id": "slouching-bedlam-18faea2151",
+    "branch_id": "b2",
+    "restored_at": "2026-09-25T02:45:03.544851+00:00",
+    "observed_event_id": "slouching-bedlam-18faea2151:e00006"
+  },
+  "raw_verified_event_ids": [
+    "slouching-bedlam-18faea2151:e00001",
+    "slouching-bedlam-18faea2151:e00002",
+    "slouching-bedlam-18faea2151:e00003",
+    "slouching-bedlam-18faea2151:e00004",
+    "slouching-bedlam-18faea2151:e00005",
+    "slouching-bedlam-18faea2151:e00006",
+    "slouching-bedlam-18faea2151:e00007",
+    "slouching-bedlam-18faea2151:e00008",
+    "slouching-bedlam-18faea2151:e00009",
+    "slouching-bedlam-18faea2151:e00010",
+    "slouching-bedlam-18faea2151:e00011"
+  ],
+  "restore_ack": {
+    "event_id": "slouching-bedlam-18faea2151:e00005",
+    "timestamp": "2026-09-25T02:45:03.238207+00:00",
+    "game_id": "slouching-bedlam",
+    "session_id": "slouching-bedlam-18faea2151",
+    "branch_id": "b2",
+    "event_index": 5,
+    "event_type": "checkpoint_filename",
+    "command": "start-office.sav",
+    "response": "/(yesunfoldingbackwardsRESTORErenewpointtimespace)\\\n\n>",
+    "raw_start": 6961,
+    "raw_end": 7015,
+    "response_sha256": "de8b817cdca79979c94764b1ce2c3a19855577db2aa623a38a680cd60b611412",
+    "story_sha256": "30d7561cd7d4200e9349b0d1bf59330940e40a753a4e34b3520e6ad06e14e209",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "name": "start-office",
+      "reason": "Explicit service-timeout recovery"
+    },
+    "review_status": "unreviewed"
+  },
+  "processes": [
+    " 455383   20232 python3 scripts/recover_broker.py control/fullplay-slouch-menu-recovery-20260925T0244.json --hours 12",
+    " 456064  455978 timeout --signal=TERM --kill-after=10s 2700s muse exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/slouching-bedlam --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-slouching-bedlam-20260925T024518Z-RlrRSB/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context",
+    " 456065  456064 /home/krickert/.local/bin/muse-bin-1.3.0-R3401.1 exec --provider meta --workspace /work/experiments/lanthorn-recall-training/play/slouching-bedlam --prompt-file /work/experiments/lanthorn-recall-training/runs/fullplay-slouching-bedlam-20260925T024518Z-RlrRSB/prompt.md --json --max-model-steps 400 --max-tool-output-bytes 262144 --approval-mode never --disable-shell --disable-web-tools --no-foreign-personal-context"
+  ],
+  "regression_test": {
+    "command": "PYTHONPATH=scripts python3 -m unittest discover -s scripts -p test_broker_transport.py -v",
+    "passed": 3,
+    "failed": 0,
+    "duration_seconds": 3.95
+  },
+  "limitation": "Save/restore acknowledgment compatibility was exercised with the real story. No app source changed. Original menu timeout remains quarantined."
+}

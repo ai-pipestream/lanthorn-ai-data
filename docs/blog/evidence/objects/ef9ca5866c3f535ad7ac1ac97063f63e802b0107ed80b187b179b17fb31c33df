@@ -1,0 +1,103 @@
+{
+  "game_id": "teacher-feature",
+  "title": "Teacher Feature",
+  "author": "Paul Equinox Collins",
+  "url": "https://ifarchive.org/if-archive/solutions/Teacher_Feature.txt",
+  "accessed_at": "2026-09-25T09:12:29.114746+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/Teacher_Feature.txt",
+  "source_sha256": "8b65eb8f96d877f581dbdfddfb3d3c67ac79656f951b5b134ff34e33892f6aa5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/teacher-feature-walkthrough.txt",
+  "normalized_sha256": "b5fc528707165a2c73b3fb15be1b0d694b7bf7e59f1d1fe4e8eeb2303e633454",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text and terminal newline state. Then replace every literal comma-space with comma-LF for bounded help excerpts; command wording and punctuation are unchanged.",
+    "segmentation": {
+      "find": ", ",
+      "replace": ",\n",
+      "scope": "entire LF-normalized text",
+      "reason": "break compact command chains into bounded excerpts"
+    }
+  },
+  "story": "/home/krickert/if-games/zcode/teacher.z5",
+  "story_sha256": "9ebae616eae331c1a6f2cb3ad4db25fb83cbb40c42b9d6f26f57e821556ada67",
+  "compatibility": "Local Z5 R1/071126 matches fresh archive story bytes and catalog. The author solution gives no release or serial; exact guide edition is unspecified. The separately archived Inform source corroborates the report-card ending, but its compilation identity has not been established and it is not a replacement story pin.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "071126",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000001596459653cb5010a297334280010303731313236004273fe388e000000000000000000000000000000003427000000000000010200000000362e3330",
+    "header_sha256": "c8ee242ddab94ef3609aed2a3173f9ef8e650ab62fe38a374f0d095be031c1b4",
+    "checksum_hex": "388e",
+    "computed_checksum_hex": "388e",
+    "declared_length": 118776,
+    "file_bytes": 118784
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "teacher.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/teacher.z5",
+    "accessed_at": "2026-09-25T09:19:50.918653+00:00",
+    "remote_sha256": "9ebae616eae331c1a6f2cb3ad4db25fb83cbb40c42b9d6f26f57e821556ada67",
+    "local_sha256": "9ebae616eae331c1a6f2cb3ad4db25fb83cbb40c42b9d6f26f57e821556ada67",
+    "bytes": 118784,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "071126"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#teacher.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "teacher.z5 ◆ [26-Nov-2007] IFDB entry IFWiki: Teacher Feature Teacher Feature, by Paul Equinox Collins. Release 1 / Serial number 071126. (source code is in games/source/inform/teacher.inf )",
+    "tuid": "fbnhbbvyjmprwtjy"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#Teacher_Feature.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "Teacher_Feature.txt ◆ [06-Jan-2016] Solution to Teacher Feature by the game's author, Paul Equinox Collins.",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "Paul Equinox Collins",
+    "route_summary": "Follow the full school-day route through the teachers, fellow pupils and secretary, acquire the report and continue through every report-card page to the authored ending. The supplementary source sets deadflag=2 only after that multi-page report sequence. A score, GET REPORT command, menu or first report page alone is insufficient. Preserve intended alternate conclusions if actually observed.",
+    "limitations": "The author guide is one comma-separated command chain; the normalized copy adds line breaks at comma-space boundaries without rewriting commands. Follow actual parser state and conversations. Report-card pages use requested single-key pauses; clear them before any SAVE. The source port history (QuickBASIC, PHP, Inform) is not evidence that editions are identical. Maintain the established teacher-feature family shared with Lecture Feature; this is the distinct earlier game, not another Lecture release.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "teacher-feature",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Explicit existing teacher-feature reservation for Teacher Feature and Lecture Feature. Both remain train; this original title is distinct from the registered sequel."
+  },
+  "reuse_claims_observed": "No training or redistribution permission established for story or guide. Public availability does not establish such rights; private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "supplementary_source": {
+    "url": "https://ifarchive.org/if-archive/games/source/inform/teacher.inf",
+    "accessed_at": "2026-09-25T09:17:59.222718+00:00",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/teacher.inf",
+    "sha256": "a8707aa5de89d82213803e36f9f769cb246bf54ccb5d7d9176c4885e3291b654",
+    "reviewed_sections": [
+      "title and port-history header",
+      "report-card finale and deadflag=2"
+    ],
+    "limitation": "Archived source was not compiled; equivalence to pinned binary is not asserted."
+  }
+}

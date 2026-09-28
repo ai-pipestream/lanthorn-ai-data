@@ -1,0 +1,3 @@
+This is a bounded connection test for a future interactive-fiction retrieval
+dataset experiment. Do not use tools, browse, read files or create files.
+Reply with exactly: MUSE_CONNECTION_OK

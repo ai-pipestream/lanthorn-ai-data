@@ -1,0 +1,35 @@
+import json,sys,subprocess,shlex,datetime
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+sys.path.insert(0,'scripts');from maintain_workers import processes,inventory,pending,input_state
+p=processes();w,b=inventory(p)
+code='''import json
+from pathlib import Path
+out=[]
+for p in Path('/proc').glob('[0-9]*/cmdline'):
+ try:
+  a=p.read_bytes().decode().strip('\\0').split('\\0')
+  if a and 'muse' in Path(a[0]).name and '--workspace' in a: out.append({'pid':int(p.parent.name),'args':a,'cwd':str((p.parent/'cwd').resolve())})
+ except (OSError,UnicodeError): pass
+print(json.dumps(out))'''
+hosts=json.loads(Path('control/fleet/settings.json').read_text())['hosts']
+def remote(h):
+ r=subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=8',h,'python3 -c '+shlex.quote(code)],capture_output=True,text=True,timeout=20);assert r.returncode==0,(h,r.stderr);return h,json.loads(r.stdout)
+with ThreadPoolExecutor(max_workers=8) as ex:rem=dict(ex.map(remote,hosts))
+local=[{'pid':pid,'args':a,'cwd':str(Path('/proc',str(pid),'cwd').resolve())} for pid,a in p.items() if a and 'muse' in Path(a[0]).name and '--workspace' in a and '/work/experiments/lanthorn-recall-training/play/' in ' '.join(a)]
+active={g:a for g,a in json.loads(Path('control/fleet/status.json').read_text())['assigned'].items() if a['state']!='complete'}
+assert len(local)==9,len(local)
+for h,rows in rem.items():
+ assert len(rows)==3,(h,len(rows));expected={g for g,a in active.items() if a['host']==h};actual={Path(r['args'][r['args'].index('--workspace')+1]).name for r in rows};assert actual==expected,(h,actual,expected)
+for rows in [local,*rem.values()]:
+ for r in rows:assert '--disable-shell' in r['args'] and '--disable-web-tools' in r['args']
+health={}
+for g in sorted(set(w)|set(active)|{'pythos-mask'}):
+ base=Path('play')/g;rows=[json.loads(x) for x in (base/'events.jsonl').read_text().splitlines()]
+ health[g]={'last_event':rows[-1]['event_id'],'timestamp':rows[-1].get('timestamp'),'input_state':input_state(rows),'pending':pending(base),'broker_pids':b.get(g,[]),'last_response':rows[-1].get('response','')[-240:]}
+ assert len(b.get(g,[]))==1,(g,b.get(g))
+ if g!='pythos-mask':assert input_state(rows)=='awaiting_input_or_idle',(g,input_state(rows))
+watch=[pid for pid,a in p.items() if len(a)>1 and Path(a[0]).name.startswith('python') and Path(a[1]).name=='watch_exports.py'];assert watch==[460667],watch
+receipt={'at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'local':local,'remote':rem,'health':health,'held':'pythos-mask startup unresolved; no save, no input/replay/reset','watcher':watch,'attention':json.loads(Path('control/worker-pool-status.json').read_text())['attention']}
+Path('control/fleet/live-proc-check-20260925T0849.json').write_text(json.dumps(receipt,indent=2)+'\n')
+print('actual',len(local),'local +',sum(map(len,rem.values())),'remote; held',health['pythos-mask'],'watcher',watch,'enemies',health['enemies'])

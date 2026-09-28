@@ -1,0 +1,10 @@
+{
+  "target": 10,
+  "enabled": true,
+  "queue_configs": [
+    "control/fullplay-refill-queue-20260925.json",
+    "control/fullplay-refill-queue2-20260925.json",
+    "control/fullplay-refill-queue3-20260925.json"
+  ],
+  "poll_seconds": 15
+}

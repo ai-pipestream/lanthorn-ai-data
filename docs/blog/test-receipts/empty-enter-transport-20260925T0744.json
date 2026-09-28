@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-25T07:44:34.797892+00:00",
+  "results": [
+    "6 recovery startup/checkpoint tests pass",
+    "3 exporter Enter/metadata/delayed-output assertions pass"
+  ],
+  "files": {
+    "scripts/recover_broker.py": "38011d89ec02c87672cea0748d508bae00576c2f78bad879a7d806398a03305d",
+    "scripts/test_recovery_startup.py": "2d118f2af1cf9d2ff20ad3d3bfdafb50008a2f4bf62a8c3f8bb2a988239fb025",
+    "scripts/export_dataset.mjs": "f8de127d4dc147066eb2b5e30fb1ae83f9afb72d26ea757e3f68b07a3a38e961",
+    "scripts/test_export_transport.mjs": "9cfef586f37782a2ca185d56e2b82d0a35c0fbf31a714a886086ca77b92b16ab"
+  },
+  "scope": "Empty Enter must count as input for checkpoint and export transport quarantine; future helper/export only, no live interpreter mutations."
+}

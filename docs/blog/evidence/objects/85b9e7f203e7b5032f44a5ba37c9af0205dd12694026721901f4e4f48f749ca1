@@ -1,0 +1,37 @@
+# Progress — The Wedding (segment 2) — COMPLETED, WON 20/20
+
+## Final state: *** YOU HAVE WON ***
+- Score 20/20, 303 turns, rank "Dazzling Mastermind" (event e00441)
+- Ending: led Deborah to attic via "deborah, go south/west/north"; reunion with Malcolm;
+  Deborah renounces mother, couple elope to Gretna Green; epilogue (godparent letter,
+  Malcolm phones again) → "Aaaaaaaaarrrrrrrrggggghhhhhhh!" → *** You have won ***
+- Post-win prompt offers RESTART/RESTORE/FULL/SECRETS/QUIT — declined (bonus optional).
+- Unused red herrings: brass key, dungeon candle (left burning), west-end south door,
+  cellar NE tunnel. Not needed for 20/20.
+
+## Route this segment, part 2 (events 356-441)
+- W into cellar (fluorescent, crate + water detector, NE tunnel, steps E); inventory: remote, bag(spade, programme)
+- Help 187-195 (get detector, E S, ask Sheryl, push detector, stool, stand, hit)
+- PROBE take detector accepted; E passage; S Entrance Hall (Sheryl + brass key)
+- PROBE ask mother about guard → hesitation; AGAIN → Sheryl confesses (ordered attack, 18k, Scotland lookalike), <THUD>, dungeon, score 18
+- Dungeon: candle + stool; X detector (Benson's, one button); PROBE press detector accepted → ceiling spot
+- PROBE push stool under part accepted; PROBE climb on stool REJECTED ("can't see") → stand on stool works (syntax pair)
+- PROBE hit ceiling accepted ("(the part of the ceiling)"), breakthrough to daylight, score 19; checkpoint dungeon-hole
+- U to Above the dungeon (hedges/bushes unreferable, deep river N); x river, search bushes/hedge, wait, x floor, listen all dead ends
+- Help 193-201: U, Swim (20), Exit, S x6 → swim swept to U-bend bank, score 20
+- PROBE get out accepted (= EXIT); S x6: golf course (Albert), garden path, patio, Grand Hall, passage, Entrance Hall (Sheryl+guard outside)
+- Checkpoint river-returned; listen (overhear plot); get brass key; X cupboard (ordinary); open cupboard (already open)
+- U, E, N to Deborah: ask bride about malcolm (bitter, role noun ok); ask about mother/wedding/note/attic — all dead ends
+- Attic: Malcolm present; ask about mother/deborah/guard — dead ends; ask scamp → "Woof" (no hint system)
+- Consult programme about wedding → nothing. Study: ask Barbara about mother → BREAKTHROUGH: "lead her to Malcolm"
+- deborah, follow me → clueless; walking out alone fails; tell deborah about mother → clueless
+- deborah, go south → "Curious, Deborah follows you" (moves both!) → west → north → attic reunion → WON
+
+## Annotated cases this segment (10)
+- vcr-load-verb, remote-eight-digit, detector-take-verb, sheryl-ask-role-noun, detector-press-verb,
+  stool-move-verb, stool-stand-verb (REAL syntax rejection+repair), ceiling-hit-noun, river-exit-verb,
+  deborah-ask-role-noun — all recorded; running total ~56.
+
+## Checkpoints (all verified Ok)
+- start-outside, before-apple-throw, inside-entrance, drawing-chloe, malcolm-freed, william-pizza,
+  garden-box, diamond-found, guard-confessed, tape-recorded, cellar-open, dungeon-hole, river-returned

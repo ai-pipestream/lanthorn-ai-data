@@ -1,0 +1,17 @@
+{
+  "story": "dracula.z8",
+  "guide": "dracula_prince_of_darkness.txt",
+  "url": "https://ifarchive.org/if-archive/solutions/dracula_prince_of_darkness.txt",
+  "accessed_at": "2026-09-25T06:03:22.197402+00:00",
+  "curl_exit": 0,
+  "version": 8,
+  "release": 3,
+  "serial": "051012",
+  "sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+  "bytes": 303104,
+  "header_hex": "08000003b8f0b8f18df8010a796485570050303531303132004293e0820e000000000000000000000000000000008556000000000000010200000000362e3331",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/dracula.z8",
+  "story_accessed_at": "2026-09-25T06:03:44.376242+00:00",
+  "downloaded_story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+  "download_matches_local": true
+}

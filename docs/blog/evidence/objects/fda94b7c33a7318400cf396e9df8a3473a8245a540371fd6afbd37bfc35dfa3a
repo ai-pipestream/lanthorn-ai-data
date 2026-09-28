@@ -1,0 +1,14 @@
+# Splashdown — progress (ACTIVE, game incomplete — pending broker)
+
+State: Cargo Bay Platform e00315 (tentacle swats flashlight, Spider present). Faucet CLOSED e00312. Spray cleared.
+Session: splashdown-81fa9deae4, branch b0, latest e00315 at 2026-09-26T01:12:17Z.
+Inventory (observed): flashlight ON + sheet + oxygen tank + heat pack + prybar + hose CARRIED e00278. Lamp dimmer e00301. Battery 10% mech shutdown e00306.
+Map: Cryo (faucet CLOSED) -s-> Lower Deck (CLEAR e00313) -s-> Cargo Bay Platform (Engine Coolant spigot e00250, flooded e00246, tentacle e00315).
+Pending: inbox/m0299.json cargo-hose-connect-syn ("connect hose to spigot" synonym probe) — submitted, awaiting responses/m0299.json. DO NOT resubmit/dupe. Check responses/m0299.json then latest.json. Allow 190s+.
+Prior: m0298 DONE e00315 s to Cargo Bay Platform (tentacle event); m0297 DONE e00314 annotate lower-aft-synonym world_state; m0296 DONE e00313 s to Lower Deck CLEAR; m0295 DONE e00312 turn faucet CLOSE; m0294 DONE e00311 n to Cryo; m0292 DONE e00309 s BLOCKED spray; m0290 DONE e00307 go aft BLOCKED spray.
+Cases: lower-aft-synonym ANNOTATED e00314 (e00309 blocked OPEN vs e00313 clear CLOSED, world_state); cargo-hose-connect-syn PENDING m0299; cryo-hose-attach EVIDENCE e00296+e00299+e00300; cryo-faucet-turn ANNOTATED e00303; cryo-south-typo ANNOTATED e00227.
+Key finding: faucet TOGGLES — close clears spray (e00223, e00312 -> clear e00313); open restores spray (e00302 -> blocked e00307/e00309). Recovery confirmed.
+Help: m0293 provisional ordering contradicted by spray; hints e00249/e00282 line 43-51 route: attach hose to spigot, put bar in water, put hose in water. No new help until m0299 resolves.
+Score 7. No ending. Game NOT complete.
+Checkpoints DONE: early-awake, after-cryo-exit, after-gear, after-cabling-middeck, after-controlroom-paper, after-messages, lower-deck-arrival, after-hatch-open, lower-deck-before-dark, cargo-bay-platform, mid-hose-carry, cryo-pump-entry, cryo-faucet-on.
+Next: after m0299 resolves — if connect accepted, annotate none; if rejected, try canonical attach hose to spigot (hose now carried) then i / put bar in water route. No QUIT, no restart.

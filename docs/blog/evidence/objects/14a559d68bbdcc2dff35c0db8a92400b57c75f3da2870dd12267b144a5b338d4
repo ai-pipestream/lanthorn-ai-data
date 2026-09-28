@@ -1,0 +1,25 @@
+# Progress — muse-autumn-romance (continuation segment 2) — COMPLETE (Happy ending)
+
+## Final state (m0288 / e00336) — game COMPLETE, genuine winning epilogue
+- Happy-ending route: paid John with Emma's cheque (e00317, 'check' spelling accepted; landscape received), Viktor branch scene in lobby (e00321: Konstanza in love with John, wishes to speak with me), checkpoint ending-branch, fetched trunk (e00329 'carry trunk'), w d out d.
+- Farewell (e00334): Konstanza confesses love for John, calls me guardian angel, kiss on cheek; trunk retrieved; boarded boat; [touch SPACE].
+- e00335 (SPACE): St. Francis prayer; [touch SPACE].
+- e00336 (SPACE): Emma meets me at Barchester; year later John's letter (impending marriage to Konstanza + painting of Konstanza by the sea, hung in study); "*** I had come to terms with myself and my station in life ***"; RESTART/RESTORE/QUIT prompt. Engine idle at end prompt — no further input sent.
+- Completion criteria met: Viktor rescued (day 1) + reconciled (e00202/e00241); John-Konstanza matched (introduced, painted, marriage letter); John paid via Emma's cheque; trunk retrieved; final downward exit; full epilogue. Not death/quitting/chapter: final *** scored ending + quit prompt.
+
+## Cases (56 annotated total, 0 open)
+- Segment 1: 43. Segment 2: 13 (listed below).
+- room3-tell-viktor-her (ambiguity; R2 wants 'daughter' not 'Konstanza', e00197→e00202).
+- beachwall-john-paint-konstanza (e00213→e00233, labeled vocabulary): LABEL DISPUTED — e00258 proves 'paint' succeeds with prerequisites; true cause world_state. See note in prior progress revision.
+- pub-ask-yvette-sketchbook (typo sketchbok→sketchbook, e00222→e00223).
+- beach-give-book-john (none, e00231). room3-ask-viktor-konstanza3 (natural vocabulary →'daughter', e00240→e00241).
+- pub-yvette-meal-food (none, e00247). beach-take-sketchbook-john (world_state take→ask, e00254→e00255).
+- beachwall-ask-roget-john (none surname, e00275). studio-examine-paintings (vocabulary plural→singular, e00289→e00290).
+- studio-buy-landscape (ambiguity disambiguation answer, e00293→e00294). telegraph-wire-emma (none 'send telegram', e00298).
+- studio-give-cheque-john (none 'check' spelling, e00317). room1-carry-trunk (none, e00329).
+
+## Hints (last: e00324, lines 276-284, Happy ending route u e get trunk w d out d)
+- Full chain consumed through both endings; happy route verified in-game.
+
+## Checkpoints (all verified)
+- pier-start; inn-lobby; day2-morning; truth-revealed; viktor-told; sketchbook-fetched; day3-morning; ending-branch.

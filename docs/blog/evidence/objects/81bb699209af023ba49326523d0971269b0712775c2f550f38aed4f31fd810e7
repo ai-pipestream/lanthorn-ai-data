@@ -1,0 +1,9 @@
+# Dreamhold progress — segment 5 LIVE (b1, six masks placed wrong, seeking white wad)
+
+Location: Curtained Room b1 e00845 (standing, six masks recovered from chair).
+Score: 6 masks (gold red brown green blue black) + dagger + buckler + night cloak. Missing white (first in mirror order). Inventory e00838: cloak worn, buckler, black chart, straw torch, iron key, dagger, white/orange berries, glove worn, copper key, quill + 6 masks recovered e00840-845.
+Checkpoints: west-rag-covered, grey-arrival, subterrane-arrival, seven-masks, mirror-six-masks (seg5-0006 e00814-815 OK).
+Route seg5: look e00809, x mirror e00810 (6 shadows+blank), inv e00811, help mirror-order e00812-813 (put on reflection; order W G R Br G Bl Bl), checkpoint, put mask ambiguous e00816, put gold e00817 OK, red e00818 OK, brown typo e00819 fail -> put brown e00820 OK, place green e00822 vocab fail -> put green e00823 OK, wordorder blue e00825 fail -> put blue e00826 OK, it e00828 pronoun->blue fail -> put black e00829 OK, x mirror e00831 still blank, inv e00832 no masks, stand e00834 masks flutter to chair, take masks ambiguous e00835, take all e00836 fail (mirror anchored), x chair e00837, look e00839 masks on chair, take gold e00840 + 5 more e00841-845 recovered.
+Hints: white wad in desert painting normal (seg5-0024 e00833, Mountain Pool brown in normal); palette Sea order White Gold Red Brown Green Blue Black. Standing after wrong order returns masks to chair — proves white-first prerequisite (world_state).
+Pending annotation: seg5 annotated typo-369, synonym-370, wordorder-371, pronoun-372; need annotate ambiguity-367 (put mask -> which), take-masks-376/380, still-blank-373/374, stand-375. Older b1 cases 242-366 many unannotated.
+Next: west to Study -> Sitting Room desert painting re-examine for white wad (x paintings, x desert, search, take wad); if empty, check Atelier/Hall/Orrery/lead door south. Do NOT restart. Conserve light.

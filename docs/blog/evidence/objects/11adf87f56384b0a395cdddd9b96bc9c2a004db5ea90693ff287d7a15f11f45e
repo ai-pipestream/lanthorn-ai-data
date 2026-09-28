@@ -1,0 +1,10 @@
+# Bronze progress — SEGMENT 4 (in progress, light restored)
+
+Game R11/060503 b0. Last confirmed e00458 checkpoint translation-lit, Translation Room lit.
+Location: Translation Room 35/55, ordinary prompt, brilliant light after ringing silver bell e00455.
+Pending: none; m0403-m0422 observed (m0422 checkpoint ok).
+Inventory (e00441 + silver bell e00453, bell faded after ring e00455): contract book, sceptre, shoes, iron/small keys, stool, embroidery, helmet, shackle; quill not takable e00446; puzzle piece on parlor table.
+Milestones: Parlor solve blocked missing final piece e00437; read puzzle = examine e00438; X sceptre ok e00442; X bell absent in Parlor e00443 / Translation e00449; Bellroom found silver/cow/gold/chimes e00450; ambiguity ring bell -> which bell e00451 annotated e00456; take silver bell lamplighter stamp e00453; return + ring restores light e00454-e00455.
+Checkpoints: prior list + translation-lit (new). Older: translation-room, records-yvette, apothecary-new, white-gallery-beast, law-hole, servant-quarters, law-library-book.
+Unresolved annotations: parlor-put-piece-syn e00435 (none), parlor-read-puzzle e00438 (none, paraphrase of examine), trans-quill-syn e00445 (none), trans-take-quill e00446 (world_state blocked), trans-ring-bell-syn e00449 -> e00455 (world_state, needs annotation), parlor-x-bell e00443 -> bellroom take e00453 (world_state).
+Next: LOOK, X CANDLE, I, E, S, GET/READ BOOK, LOOK UP ME IN BOOK per hints e00440/e00448 lines 217-234; then contract translation route. Do NOT restart.

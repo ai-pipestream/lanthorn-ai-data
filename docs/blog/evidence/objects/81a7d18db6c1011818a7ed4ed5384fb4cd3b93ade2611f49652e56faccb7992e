@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T09:39:11.652364+00:00",
+  "status": "prepared_pending_parent_validation",
+  "config": "/work/experiments/lanthorn-recall-training/control/fleet-batch-m-20260925.json",
+  "counts": {
+    "games": 4,
+    "zmachine": 4,
+    "scott": 0,
+    "train": 4,
+    "development": 0,
+    "test": 0
+  },
+  "limits": {
+    "response_timeout_seconds": 180,
+    "help_excerpt_max_lines": 9,
+    "help_excerpt_max_characters": 1000,
+    "probe_quota": null,
+    "launches": 0,
+    "training": 0,
+    "evaluation": 0,
+    "publication": 0
+  },
+  "central_only": true,
+  "games": [
+    {
+      "game_id": "dash-slapney-patrol-leader",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/dash-slapney-patrol-leader.json",
+      "family": "dash-slapney",
+      "dataset_split": "train",
+      "compatibility": "Local Blorb matches fresh archive bytes. Indexed ZCOD is Z8 R3/120510, matching the catalog and embedded iFiction metadata. Author solution gives no release/serial; its archive date matches release 3 and the separately archived source declares release 3, but exact guide edition is not stated. Source was read, not compiled.",
+      "family_review_required": false,
+      "guide_authorship": "Author explicitly credited by guide heading and archive catalog."
+    },
+    {
+      "game_id": "punk-points",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punk-points.json",
+      "family": "punk-points",
+      "dataset_split": "train",
+      "compatibility": "Local Z5 R2/010108 matches fresh archive story bytes and catalog. Guide explicitly identifies the Z-code game and covers both Act III branches, but states no release, serial or author. Exact guide edition is unspecified; it is not a 50-point route. The older local IFComp R1/000930 file is not selected.",
+      "family_review_required": false,
+      "guide_authorship": "No author byline in the walkthrough or archive entry; this is an archived third-party full solution, not represented as an author guide."
+    },
+    {
+      "game_id": "all-roads",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/all-roads.json",
+      "family": "all-roads",
+      "dataset_split": "train",
+      "compatibility": "Local Z5 R1/011119 matches fresh current archive story bytes and catalog. The author walkthrough is bundled with the original competition story R1/010908, independently hash/header checked. The guide itself gives no release/serial. Numeric releases agree but serials differ by 72 days; this is an explicit edition gap, not an exact guide/story match. Use the current local release; original-companion bytes remain central provenance only.",
+      "family_review_required": false,
+      "guide_authorship": "Walkthrough heading credits Jon Ingold (c) 2001; archived with the original competition entry."
+    },
+    {
+      "game_id": "blue-chairs",
+      "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/blue-chairs.json",
+      "family": "blue-chairs",
+      "dataset_split": "train",
+      "compatibility": "Local Z5 R2/041229 matches fresh current archive story bytes and catalog. The packaged competition walkthrough accompanies R1/040930, independently hash/header checked: one numeric release and 90 days older than the selected story. The guide itself gives no release/serial. Supplementary source still declares Release 1; it corroborates intended epilogue branches but is not asserted byte-equivalent to R2. Runtime compatibility is unproven.",
+      "family_review_required": false,
+      "guide_authorship": "Walkthrough has no personal byline. Its provenance is the original official IFComp game directory; author-package association is established, individual authorship is not independently stated."
+    }
+  ],
+  "review_required": [
+    "All source/edition checks require parent validation before registration.",
+    "All Roads and Blue Chairs guides accompany earlier editions; companion hashes/headers are retained separately, not selected for launch.",
+    "Punk guide is uncredited and explicitly not maximum-score; preserve both full Act III outcomes.",
+    "Dash is a short complete game; preserve author-described team-happiness variants, observe final key pause and do not pad with probes.",
+    "Blue Chairs guide follows the car epilogue; other authored epilogues remain valid.",
+    "No interpreter or guide commands were executed."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "game_id": "schooldays",
+  "title": "Schooldays",
+  "author": "Andrew MacKinnon",
+  "url": "https://ifarchive.org/if-archive/solutions/sd-walkthrough.txt",
+  "accessed_at": "2026-09-25T06:51:10.686688+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/sd-walkthrough.txt",
+  "source_sha256": "27acd7bf474cf7dd5faf74a743ba9573bb975fe63eccac22d2b7d0ec19004751",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/schooldays-walkthrough.txt",
+  "normalized_sha256": "27acd7bf474cf7dd5faf74a743ba9573bb975fe63eccac22d2b7d0ec19004751",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/schooldays.z5",
+  "story_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+  "compatibility": "Local R3/092800 matches the archive binary and catalog; keep serial 092800 literally rather than correcting it to YYMMDD. Archive identifies the guide as the game author's walkthrough with matching IFDB oc4jf24yotpal4ve. Guide gives no release/serial, and its 2000 archive date predates the 2001 story listing; exact guide compatibility remains unverified.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "092800",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05020003a9b4a9b576c2010a5f116ab300503039323830300042bb1a76f2000000000000000000000000000000000000000000000000010200000000362e3134",
+    "header_sha256": "14612d4e94c0b60f9f0807a2fffcd40fe239072d97e75d656b0de6ec6c541d12",
+    "checksum_hex": "76f2",
+    "declared_length": 191592,
+    "file_bytes": 192000
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "schooldays.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/schooldays.z5",
+    "accessed_at": "2026-09-25T06:51:49.740437+00:00",
+    "remote_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+    "local_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+    "bytes": 192000,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "092800"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#schooldays.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "schooldays.z5\n◆\n[04-Jan-2001]\nIFDB entry\nIFWiki:\nSchooldays\nSchooldays, an Interactive Story by Andrew MacKinnon.\nRelease 3 / Serial number 092800.\n(source code is in games/source/inform/schooldays.inf)",
+    "tuid": "oc4jf24yotpal4ve"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#sd-walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "sd-walkthrough.txt\n◆\n[15-Oct-2000]\nIFDB entry\nWalkthrough for Schooldays by the game's author,\nAndrew MacKinnon.",
+    "tuid": "oc4jf24yotpal4ve"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Complete the house escape, subway, school/basketball and travel-ticket sequence, then take the final taxi-to-airport route through the actual authored conclusion. A basketball ticket, transit arrival, intermediate score or the guide's bracketed GAME OVER label does not prove completion.",
+    "limitations": "Guide is a command list with bracketed directions for waiting and station navigation. Do not type bracketed commentary. Verify locker combination and transit/NPC timing from real clues and output. Save early at a safe ordinary prompt and at travel milestones. Repeated dunk attempts should serve observed puzzle progress, not a probe quota.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "schooldays",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "School settings and basketball do not demonstrate shared world/puzzles with Paper Chase, Save Princeton, Kook U or Enemies. No concrete cross-game reuse identified; all Schooldays releases remain together."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting does not establish training or redistribution rights.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  }
+}

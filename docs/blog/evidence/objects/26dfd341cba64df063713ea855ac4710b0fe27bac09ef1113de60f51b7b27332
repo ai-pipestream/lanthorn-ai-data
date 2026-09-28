@@ -1,0 +1,9 @@
+# Theatre progress — SEGMENT 6 IN PROGRESS (b18 Pit Cupboards shadow stuck, game incomplete)
+Location: Pit Cupboards (b18 e1148, shadow blocks E, get green fails not seen). Ordinary prompt.
+Branch: b18. Checkpoints: witch-lair-amulet, amulet-pit-hunt, before-mineshaft-sweep-b18, before-shadow-alternates-b18 (cupboards e1139-1140). Iron door slams shut entering Inside Pit from Tunnel e1125, reopen with open iron door e1128 (no key).
+Inventory: amulet worn, 4pp, pager, 3 eyes, key. Lobby 12pp+star+tablets+steth+plans.
+Shadow alternates seg6 FAIL: photograph shadow needs camera e1141 (same as take picture e861 — synonym recognized, world_state block); attack violence not answer e1142; show amulet unimpressed e1143; touch hands off e1144; look east syntax fail e1145 vs look success e1146 annotated syntax DONE e1147; get green not seen e1148.
+Camera hunt exhaustive FAIL across 20+ rooms/containers. Only major unexplored: Old Hallway NE chanting yes/no (declined e541, possible camera/endgame/death — NEED checkpoint+yes); Reading Recess table/chair (needs chandelier ride); Aisle seats; Back Stage canvas; Sick posters; Boiler boiler; Aisle chandelier ride itself.
+Cases: arch DONE; witch-page none DONE; iron-door DONE; cupboards-look-east syntax DONE e1147; sewer-look-south DONE b6; chandelier/balcony PENDING ride; dagger PENDING sockets; picture/photograph PENDING camera (world_state, not vocab); attack/touch/amulet/get-green probes unannotated (need pairs).
+Next: Trek to Old Hallway (Cupboards W,U,SE,S,W,S,NE,D,D,E,D,E,NE) with checkpoint, answer yes to chanting (risky, checkpoint before); if death, restore; if camera, take picture; then green->Trent->popcorn->lever->Nest->Lair page->sockets->dagger->earth/star->read all->Elizabeth->ending. Conserve light.
+Status: in progress, no ending.

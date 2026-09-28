@@ -1,0 +1,25 @@
+{
+  "event_id": "save-princeton-e0a2654e41:e00445",
+  "timestamp": "2026-09-25T08:35:54.092317+00:00",
+  "game_id": "save-princeton",
+  "session_id": "save-princeton-e0a2654e41",
+  "branch_id": "b1",
+  "event_index": 445,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 88065,
+  "raw_end": 88065,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "9b54618dfb9ba1c1694a3e49b705492a26f5b2ec20abc7b98b81742c068864b2",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "save-princeton-e0a2654e41",
+    "ending_quote": "    *** You have won ***",
+    "evidence_event_ids": [
+      "save-princeton-e0a2654e41:e00443"
+    ],
+    "notes": "Genuine winning finale in Throne Room with Hal present: trumpet taken from sleeping King Ash then played, summoning student body who bind King/guard and restore office, champagne, Shapiro thanks player, 200/200 Savior Of The University. Not death, chapter, or quit; end menu offers RESTART/RESTORE/UNDO/FULL/QUIT."
+  },
+  "review_status": "unreviewed"
+}

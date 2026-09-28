@@ -1,0 +1,24 @@
+{
+  "event_id": "change-in-weather-3ff9a98393:e00298",
+  "timestamp": "2026-09-25T05:56:21.571119+00:00",
+  "game_id": "change-in-weather",
+  "session_id": "change-in-weather-3ff9a98393",
+  "branch_id": "b3",
+  "event_index": 298,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 65142,
+  "raw_end": 65142,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have a good time after all. ***",
+    "evidence_event_ids": [
+      "change-in-weather-3ff9a98393:e00297"
+    ],
+    "notes": "Author-intended successful conclusion: after saving the bridge (both sandbags placed, branch wedged, channel dug until pool subsided) and waking at dawn, crossed the solid bridge west to Edge Of Meadow and jogged to rejoin the group. Event shows the *** ... *** victory banner, closing poem, and RESTART/RESTORE/QUIT prompt. Not death, flood, quitting, or partial score."
+  },
+  "review_status": "unreviewed"
+}

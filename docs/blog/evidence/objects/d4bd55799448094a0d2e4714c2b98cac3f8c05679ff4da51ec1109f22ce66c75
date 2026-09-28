@@ -1,0 +1,49 @@
+# Fullplay supervision
+
+Snapshot: 2026-09-25T06:12:36.012024+00:00. Synthetic test data only. Fixed candidate cutoff: 2026-09-25T06:00:00+00:00. Bounded pass complete; only the three reviewer-owned files changed. No game inputs, restores, launches, process changes, training, evaluation or publication.
+
+1941 unique exported annotations: 1288 accepted, 354 revise, 69 quarantine, 230 unreviewed, using exact unique endpoint-set matching. This pass adds80 decisions across13games:71 accepted,6 revise,3 quarantine. All160 endpoint references match exported commands/responses;543 distinct surrounding/intervening raw spans pass SHA256/text checks, plus separate ending/startup/supporting checks. No selected transport contamination/manual quarantine hits. One pair crosses branches and two restores. CSV may lag these decisions; unselected and later arrivals remain pending.
+
+## New verified conclusions
+
+Dreamhold dreamhold-362786f871 b11 e02043 WEST: raw392036:394092, SHA256b654247ecafd4b65f5b8290c5d4ddca076db19c31e4f159ee88e4df52456804b. Ringed-moon portal opens, stars welcome the player home, explicit The end, author thank-you and final menu. Seven additional discoveries is printed, with explicit possibility of others. Claim e02045's 'fullest' is not verified. Earlier b9 e01958 is a witnessed alternate ending, followed by restore; count this game once. Actual R5/041231 normal mode, guideR4 gap preserved.
+
+Theatre theatre-8533784a56 b23 e01699 GET IN CAR: raw357628:358372, SHA2568d9c5b5b0be7fb519592572adcd3162fda1f244ee2d4e8b797dd7331f84e61e9. Car starts and drives away past a sinister figure; explicit You have won/completed the game,47/50,882turns and final menu. This does not establish arrival at the opera or exhaustive content. Actual R2/951203; guide release unspecified.
+
+A Change in the Weather change-in-weather-3ff9a98393 b3 e00297 WEST: raw64581:65142, SHA2562545ee07787263b24098091687112571cdec0b5117724c1c56ad306110872b8d. Actual solid-bridge crossing e00295 precedes reunion with companions, You have a good time after all, closing poem and final menu. Actual R6/960613 matches guide release.
+
+All three ending spans and surrounding events independently match raw bytes/text/hashes. Final menus waiting for input are sufficient; engine exit is not required. There are21 distinct verified historical conclusions, not21 claims of maximal content/test coverage.
+
+## Replacement startups
+
+Tryst of Fate tryst-of-fate-21296bfe76: actual SPACE at e2 advances splash and prints R205/970629, matching Z5 header and full story SHA25637165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d. e4 exact-path Saved-to/Ok confirms start-floor save,774bytes,SHA256a863db3d03ffa2581eab33c0b23585024e8cdbea21eb6c7dcbbfc63e20edebbd. Guide explicitlyR104/970330.
+
+Delusions delusions-07b4a7fbbe: empty keypresses e2/e3 advance two cards; e3 banner and Z5 header agree R4/971121. Full story SHA256aeab8765bdf26ceea1072821e686de38a78de58a9ee2f34180b65fb3ef585b10. e5 exact-path Saved-to/Ok confirms start-reef save,794bytes,SHA256e516545bff7b54764c747ff2eb8b4c060f9b2a473df8a7a7c1b626e69cffd612. Guide explicitlyR2/961021.
+
+Child's Play childs-play-936dc938bb: initial Smothered in Darkness has no release banner. Independently parsed Blorb ZCOD header is Z8 R4/080129; full story SHA256574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27. e3 exact-path Saved-to/Ok confirms start-dark save,2164bytes,SHA25676c2dbd439cce505f481202e174007706a44edf65cf7c4da2970ca3af7152772. Author hints release unspecified and explicitly include questions unrelated to the game. Opening inventory attempt did not return an inventory list.
+
+All opening/save raw spans checked. Nonempty save artifacts and hashes establish recorded saves, not an independently executed restore. Guide compatibility gaps remain; startup is not completion.
+
+## This pass's case findings
+
+Quarantine Curses e01395: tight-door rotation in Servant's Room changes to a different revolving door in Hamburg after extensive travel and map-induced scene change. Curses e01407 changes the tested charcoal sketch to a separately fetched Mad Isaac painting. Both require explicit intent_preserved=no alternate-plan classification before reuse; uncertain intent is not a same-goal repair. Theatre e01575 replaces camera-only typo with GET ALL, additionally taking a page: quantity/goal changed.
+
+Revise Tryst e00009: corrected STAND UP triggers watch theft, not established standing; e00010 GET UP later explicitly stands. Tryst e00015 correctly records failed acquisition but should classify the scripted gnome interception as world state rather than no failure. Theatre e01504 moves carpet rolls but reveals no hidden item, so the stated reveal-items goal is unmet.
+
+Revise Weather e00043 to remove unsupported object-not-implemented inference; both acquisition attempts fail. Savoir e01524 crosses b11/b13 and two restores: linked bread later breaks the brick and reveals the bag in Servants' Dormitory, not attic; preserve the rebuilt state and avoid controlled-necessity claims. Savoir e01525 proves successful explicit well source after ambiguity and failed WELL, not loss of parser clarification memory.
+
+Accepted state repairs retain prerequisites: Dreamhold seating before mirror/shred, Theatre approach before chandelier inspection, Curses vocabulary plus freed carrying capacity, and Zork detached wire before balloon escape. Generic Taken responses retain nearby object identification. Bears e00250 package contents are corroborated by later chip e00251 and green disk e00252; the blue disk by the computer is a different object. Help excerpts remain source guidance, never observed success. No selected Spider pair occurred in this frozen sample; earlier native-rewind quarantines remain.
+
+## Bounded current snapshot
+
+10 launcher processes observed; duplicate per-game launchers: {}. Latest recorded input timeout IDs: []. Latest input raw faults: []. Other unverified ending claims: [{'game_id': 'savoir-faire', 'event_id': 'savoir-faire-5a89e6c8ff:e01530', 'branch_id': 'b13', 'timestamp': '2026-09-25T05:57:50.766238+00:00'}, {'game_id': 'jewel-of-knowledge', 'event_id': 'jewel-of-knowledge-61db1c70d2:e00425', 'branch_id': 'b3', 'timestamp': '2026-09-25T06:08:34.907889+00:00'}]. This limited read-only snapshot is not a full pending-request/broker audit or a promise about future health. The bounded pass stops here.
+
+## Historical conclusions and boundaries
+
+Verified games: adventureland, pirate-adventure, lost-pig, hhgttg, photopia, shade, suveh-nux, 905, violet, voodoo-castle, slouching-bedlam, secret-mission, bronze, balances, hunter-in-darkness, spider-and-web, acorn-court, bears-night-out, dreamhold, theatre, change-in-weather.
+
+All18 prior conclusion receipts and all prior review decisions/history remain in fullplay-status.json and fullplay-cases.json. Bears e00366 SLEEP morning picnic/won33/33 is historical evidence, not proof nothing was skipped. Jewel startup R2/990710 and early save remain verified against an R1/990629 guide.
+
+Spider's b19 e00781 witnessed teleport-with-papers finale remains historical after e790/e791 restore into b20; later b20 claim does not make that live state terminal. Acorn OPEN GATE won30/30; earlier GO WEST failed and was not repaired by opening alone. Slouch's gallows epilogue spreads Logos worldwide, not happy containment. Bronze actual HUG BEAST restores the King; KISS equivalence is unproven. Hunter's daylight finale is verified; a cut-off scream alone does not explicitly prove the beast killed.
+
+Old menu, delayed-output, autosave contamination and native-rewind quarantines survive explicit recoveries. Zork is the exact Inform7 Zork/Dungeon3.2B R4/190920 port with corrected maintainer guide, not commercial ZorkI. Prior resource audits, checkpoint positions and pool tests retain their historical timestamps in status. Provisional compute refill does not promote ending claims. Scores, partial endpoints and source hints never substitute for observed narrative conclusions. Guide gaps remain for Bronze, Dreamhold, Savoir, So Far, Jewel, Tryst, Delusions and unspecified-release guides.

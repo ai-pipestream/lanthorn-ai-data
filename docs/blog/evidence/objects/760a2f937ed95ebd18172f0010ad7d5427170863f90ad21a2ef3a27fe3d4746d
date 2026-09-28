@@ -1,0 +1,14 @@
+# Jigsaw progress (update 22 — SEGMENT 3, game incomplete)
+
+Location: Abbey Road, Ch6 start (e00661-663). Black present. Checkpoint ch6-abbey-start ok.
+Ch5 end since update 21: entered ball (e00650), waited > Land Southeast of Pyramid (e00651-652); hint: NW x2 (Disc Room e00654, Monument e00655); `put edge piece at a2` LIT first try (vinyl LP, +1, e00656, 8 played); checkpoint monument-8lit (e00657-658); turn clock to 59 (e00659); press a2 (e00660); SPACE (e00661) > Ch6 Abbey Road +1, Black waiting, hangover banter.
+Board: 8 lit (a1 mould, a2 LP, a4 Park, b1 invalid, b4 snow, c1 Glass, c2 Carriage, c3 train). Missing: Ch4 centre piece (b2) — still unrecovered. All others placed+lit.
+Inventory: NOT fully verified since e00546/e00638-640 deltas: +Ch5 edge placed, +chit/permit/little key/uniform/Pravda/paskha-eaten; sparkler lit-status long unverified — check soon.
+
+Checkpoints (all ok): ... monument-8lit (e00657-658), ch6-abbey-start (e00662-663, CURRENT).
+
+Cases: 55 total (52 synthetic + 3 natural), all annotated, none unresolved. No new since update 21.
+
+Last hint (m0528, lines 558-566): enter ball, z.z, NW, NW, [edge at a2], clock 59, press a2. CONSUMED.
+
+Next: 1. `examine device` + `spin detector` (Ch6 readings). 2. help mode=next for Ch6 opening. 3. Next inbox file: m0536.json. Last response: m0535 (checkpoint ok).

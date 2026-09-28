@@ -1,0 +1,7 @@
+# Curses progress — SEGMENT 3 MID5 (incomplete, branch b5)
+
+Branch b5, Score 40/550 Turns 336 Battlements. Checkpoint mascot-parcel-feb OK.
+Inventory: flash loaded+closed, red taken, whistle/bottle, postcard invisible Hamburg 1420 Ticket 7 (+3), History read Roger, skylight open, roof/battlements reached, ghost choked on wishbone (+7) key down chimney.
+Findings: rotate crank accepted; take iron summoned ghost ate key; offer wishbone accepted. take red/insert/rotate/offer all none. Next per hint: SE,D, put torch+brass key in fireplace, drop all, enter fireplace, D, take all, unlock hatch.
+Cases: 64 annotated (+3: flash-insert, crank-rotate, ghost-offer). Hints walkthrough_not_player_observed.
+Next: SE to roof, D to cupboard, put torch and brass key into fireplace, drop all, enter fireplace. Checkpoint before fireplace. Conserve torch (will deposit). No winning ending seen.

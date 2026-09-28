@@ -1,0 +1,13 @@
+# So Far — progress (branch b20) — dark mapping, glass still blocked
+
+STATE: Darkness/arrival room (e01003), thud attached, chord BANISHED ~3 turns safe. Wailing fully mapped: N arrival, SE hiss, SW rumble work; E/W/S/NE/NW all 'glass-edged shriek' blocked; up/down blocked. Rumble: NE wailing, E hiss work; N/NW/SE abyss-blocked (S/W/SW presumed abyss, verify). Hiss: W rumble, NW wailing work; NE beasts blocked in b19 (retest in b20 with thud?); N/E/SE/S/SW freeze. Plopping: NE drip overwhelms, N/E/W silver pain. Bells: W teeth-blocked, E arrival, N plopping; other bells/arrival exits untested. Follow wailing/shriek fail (difficult/can't see). Listen/up/down in wailing give no glass hint. Rejected parses do NOT advance chord timer (e01001 safe).
+
+INVENTORY (e00955): fuzzy mass, twisted key, red blanket (worn), red pod, worn clay chip, ceramic square, steel knife, clay jar, odd wooden box. Relic=fuzzy mass here.
+
+LAST HINT (m0707, lines 45-53): follow ploop (done, moved), follow thud (done, attached), sing to box (done, banishes), go glass, enter silent. Then cramped: crush pod in jar, light trickle, pipes R L L L R R R R, ask thick, move R.
+
+NEXT: map arrival (N/E/W/S/NE/NW/SE/SW) + bells (S/N/NE/NW/SE/SW) with thud; retest hiss NE in b20; try follow glass/silence/bells/rumble, remove blanket, wait timing; request help with shriek evidence if still stuck. Then silent→cramped→pipes.
+
+CASES: 16 annotated, 0 pending this segment. Need 20-40 total; collect variations on known route once glass solved (rejected probes are chord-safe).
+
+CHECKPOINTS: wailing-thud-b20 (NEW, wailing thud chord-banished); shady-park-b20 (pre-dark BEST); violet-saddled-b19. NO pending request. Resume: arrival, ~3 turns to chord, sing to box if chord appears.

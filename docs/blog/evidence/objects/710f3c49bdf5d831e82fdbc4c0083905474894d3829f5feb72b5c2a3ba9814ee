@@ -1,0 +1,200 @@
+# Pytho’s Mask Glulx startup: read-only diagnosis
+
+Snapshot: 2026-09-25T08:44:17.546661+00:00. Session `pythos-mask-a39eb2af1a`, actual Glulx R4/020223. Held slot preserved. No live input, interpreter probe, debugger attachment, reset, signal, save, app modification or config change. Only this report written.
+
+## Findings
+
+**The CLI is blocked on a pipe read, not visibly spending time executing the VM.** PID 473923 has one thread, sleeping state S and wait channel `anon_pipe_read` in repeated snapshots. Its fd 0 is the read end of pipe 13712520; the broker PID 473922 owns that pipe’s write end on fd 8. CLI fd 1 and broker fd 9 share output pipe 13712521. CLI fds are only stdin, stdout, stderr; broker is in `ep_poll`. No stderr bytes or exit evidence. `/proc/473923/syscall` returns EPERM: this audit cannot pin the exact syscall arguments or user-space/story call site. Broker-parent access can differ from this sibling auditor’s access; e1/e2 readiness receipts must not be discounted because my syscall access failed.
+
+**Enter is being encoded as a Glk Return, not lost to trimming.** The current live executable SHA256 matches the on-disk gvm-cli, and read-only disassembly of `gvm_cli::read_char_input` shows the matching LF/CR-to-Return mapping. This narrows the failure to an unresolved input/read boundary or silent story response; it does not establish which key this game accepts at MORE.
+
+**The broker cannot settle a zero-output input wait.** Its `buf` prerequisite skips readiness checking when no output was read; passive `await_output` uses the same logic. This is the same structural broker limitation identified in the earlier Z-machine menu diagnosis. It can explain the persistent timeout after a silently ignored key or a silent transition. There is no evidence here proving which happened, or that a redraw-deduplication issue is the cause in Pytho.
+
+## Observed startup
+
+[events.jsonl:1](/work/experiments/lanthorn-recall-training/play/pythos-mask/events.jsonl:1) e1 at 08:37:27Z emits 17 bytes: blank lines and the title. e2 at 08:37:38Z records empty Enter and emits 799 bytes: the initial “Press any key” notice, opening scene and `[ MORE ]`. e3 at 08:40:41Z records empty Enter, zero response bytes (raw offsets 816–816), and `no_output_timeout`. During inspection, m0003 completed at 08:44:01Z as e4: another zero-byte no_output_timeout, delayed_for e3. The raw stream remained 816 bytes. Every event response hash was checked against its slice of stdout.raw. The initial notice appearing in e2 rather than e1 is recorded ordering; it is not proof that e3 has advanced the story. No save or ordinary gameplay command appears in this session.
+
+## Exact code path
+
+- [play_broker.py:43](/work/experiments/lanthorn-recall-training/scripts/play_broker.py:43) starts gvm-cli with `--plain`, piped stdin/stdout and TERM=dumb. [line 98](/work/experiments/lanthorn-recall-training/scripts/play_broker.py:98) sends `command + newline` and flushes. Empty command writes one LF, literal space writes SPACE+LF. No stripping occurs in send.
+- [gvm-cli/main.rs:240](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:240) reads one entire cooked line for character input, then maps its first byte. LF/CR becomes `keycode::RETURN`, SPACE remains 32; the whole line is consumed, so its newline is not a second queued keystroke. [glk.rs:419](/work/reference-code/lanthorn/crates/gvm/src/glk.rs:419) defines Return as `0xffff_fffa`. Literal word RETURN would be R, not the Return key.
+- [main.rs:487](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:487) handles NeedChar, optional host menu processing, then `machine.supply_char(key)` at line 524. [exec.rs:6295](/work/reference-code/lanthorn/crates/gvm/src/exec.rs:6295) preserves Glk special keycodes when writing the CharInput event. There is no conversion to 13 in this VM boundary.
+- [main.rs:479](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:479) strips only CR/LF for ordinary line input; unlike Z-machine `trim_end()`, it preserves spaces. Its normal line terminator is 0 ([line 127](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:127)). These are separate input protocols.
+- [main.rs:854](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:854) disables host paging under plain mode/pipes. Adding `--pager off` would not disable a story-authored MORE interaction. The observed spaced `[ MORE ]` is not evidence that the host pager is enabled.
+- [main.rs:932](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:932) flushes through `flush_out_holding` before input; [glk_term.rs:941](/work/reference-code/lanthorn/crates/gvm-cli/src/glk_term.rs:941) flushes the output sink, and [line 996](/work/reference-code/lanthorn/crates/gvm-cli/src/glk_term.rs:996) releases/flushed held prompt text. Static inspection does not support a generic “send another key to flush stdout” remedy. Grid deduplication exists at lines 1084–1112 but has not been established as this startup’s cause.
+- [play_broker.py:75](/work/experiments/lanthorn-recall-training/scripts/play_broker.py:75) requires nonempty buf before checking `waiting_for_stdin`; line 79 returns timeout. Lines 101–102 latch the unresolved event. Lines 109–118 repeat the same drain for await_output and keep the latch on timeout. Current no-replay and no-restart guards should remain intact.
+
+## Correction to Batch I notes
+
+I incorrectly generalized the Z-machine numeric statement “empty Enter maps to 13” into all Batch I collection notes. It is correct at the Z-machine character-input boundary only. For these Glulx configs, the CLI delivers Glk Return `0xffff_fffa`; the broker request spelling remains an empty command. Literal space remains 32. This documentation error does not by itself prove e3 used the wrong physical key, since the broker did send an empty command and the CLI mapped it correctly. Existing configs/manifests were not edited under this read-only scope; parent should correct guidance separately before reuse, including the queued Glulx I games.
+
+## Safe options
+
+1. Preserve the slot, interpreter, original e3 and e4 passive-recovery provenance. m0003 has now returned a second zero-output timeout. Repeated waits cannot resolve a permanently silent read and should not be used as progress evidence. No SPACE/Enter/q/SAVE/RESTORE or reset is justified by this audit.
+2. Resolve the accepted-key question by a separately scoped static read of the exact game/library source implementing MORE, if available. This audit did not inspect or execute game code, so it does not claim SPACE is the required remedy. A Z-code edition would be a separately pinned version/format decision, not a transparent recovery or demonstrated fix.
+3. A future harness-only diagnostic could narrowly expose host `/menu`: [main.rs:504](/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs:504) intercepts it before supplying a char, and line 468 intercepts it in ordinary line input. [glk_term.rs:1039](/work/reference-code/lanthorn/crates/gvm-cli/src/glk_term.rs:1039) prints/flushed host answer text. It reports only tracked menu state, not the VM program counter or proof the previous input succeeded. Current broker rejects slash commands and unresolved sends; filename input does not have this interception. Therefore this is a design option requiring verified eligible input state/consumption and separate isolated validation, not a runnable workaround for this held session.
+4. Future broker diagnostics should distinguish a silent pipe read from computation without automatically equating either with consumed input or successful gameplay. One wchan/syscall snapshot is not a story input-mode receipt and is not enough to clear the latch. No live change proposed here.
+
+**Other Glulx I games remain runtime-unverified.** Pytho’s observed stall establishes neither success nor failure for Alias or A Remote Problem; the same broker zero-output limitation applies structurally to all. No launch or queue changes made.
+
+## Read-only evidence snapshot
+
+```json
+{
+  "checked_at": "2026-09-25T08:44:17.546661+00:00",
+  "session": "pythos-mask-a39eb2af1a",
+  "events": [
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00001",
+      "timestamp": "2026-09-25T08:37:27.378737+00:00",
+      "event_type": "startup",
+      "command": null,
+      "engine_state": "awaiting_input_or_idle",
+      "raw_start": 0,
+      "raw_end": 17,
+      "response_sha256": "2794ee66e924a5a1ebbfae31a6add3d9009d27c789560880e4ff11cc7550e949"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00002",
+      "timestamp": "2026-09-25T08:37:38.341707+00:00",
+      "event_type": "command",
+      "command": "",
+      "engine_state": "awaiting_input_or_idle",
+      "raw_start": 17,
+      "raw_end": 816,
+      "response_sha256": "3f718e8105c61ac3d82f3e2a7e0e4e3c94b1f560bd1042509799bd9b433be1f6"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00003",
+      "timestamp": "2026-09-25T08:40:41.833169+00:00",
+      "event_type": "command",
+      "command": "",
+      "engine_state": "no_output_timeout",
+      "raw_start": 816,
+      "raw_end": 816,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "event_id": "pythos-mask-a39eb2af1a:e00004",
+      "timestamp": "2026-09-25T08:44:01.844865+00:00",
+      "event_type": "delayed_output",
+      "command": null,
+      "engine_state": "no_output_timeout",
+      "raw_start": 816,
+      "raw_end": 816,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "raw_bytes": 816,
+  "raw_sha256": "92753a6ebfa735a81e94efe2613dd47b885aebe809487f6aed5b448835e7546e",
+  "stderr_bytes": 0,
+  "m0003": {
+    "action": "await_output"
+  },
+  "m0003_response": {
+    "event": {
+      "event_id": "pythos-mask-a39eb2af1a:e00004",
+      "timestamp": "2026-09-25T08:44:01.844865+00:00",
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "branch_id": "b0",
+      "event_index": 4,
+      "event_type": "delayed_output",
+      "command": null,
+      "response": "",
+      "raw_start": 816,
+      "raw_end": 816,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+      "engine_state": "no_output_timeout",
+      "metadata": {
+        "delayed_for_event_id": "pythos-mask-a39eb2af1a:e00003",
+        "origin": "transport_recovery"
+      },
+      "review_status": "unreviewed"
+    },
+    "note": "No input sent. Delayed evidence remains quarantined for review.",
+    "request_file": "m0003.json",
+    "processed_at": "2026-09-25T08:44:01.845087+00:00"
+  },
+  "473923": {
+    "wchan": "anon_pipe_read",
+    "stat": "473923 (gvm-cli) S 473922 473922 473922 0 -1 4194304 615 223 0 0 0 0 0 0 20 0 1 0 3360644 9072640 1614 18446744073709551615 108907320655808 108907322804240 140732069694624 0 0 0 0 4096 1088 1 0 0 17 15 0 0 0 0 0 108907322970008 108907322972768 108908067516416 140732069701832 140732069702016 140732069702016 140732069703613 0",
+    "fds": {
+      "0": {
+        "target": "pipe:[13712520]",
+        "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t18\nino:\t13712520"
+      },
+      "1": {
+        "target": "pipe:[13712521]",
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t18\nino:\t13712521"
+      },
+      "2": {
+        "target": "/work/experiments/lanthorn-recall-training/play/pythos-mask/stderr.log",
+        "fdinfo": "pos:\t0\nflags:\t0102001\nmnt_id:\t258\nino:\t11362357190"
+      }
+    }
+  },
+  "473922": {
+    "wchan": "hrtimer_nanosleep",
+    "stat": "473922 (python3) S 3134282 473922 473922 0 -1 4194304 2944 0 0 0 9 1 0 0 20 0 1 0 3360642 36638720 5493 18446744073709551615 4333568 8024065 140721050348960 0 0 0 0 16781312 2 1 0 0 17 10 0 0 0 0 0 11038136 11672456 742793216 140721050351929 140721050352063 140721050352063 140721050353639 0",
+    "fds": {
+      "0": {
+        "target": "/dev/null",
+        "fdinfo": "pos:\t0\nflags:\t0100002\nmnt_id:\t42\nino:\t5"
+      },
+      "1": {
+        "target": "/work/experiments/lanthorn-recall-training/runs/pool-pythos-mask-broker-1790325447052458062.log",
+        "fdinfo": "pos:\t0\nflags:\t0102001\nmnt_id:\t258\nino:\t10211648774"
+      },
+      "2": {
+        "target": "/work/experiments/lanthorn-recall-training/runs/pool-pythos-mask-broker-1790325447052458062.log",
+        "fdinfo": "pos:\t0\nflags:\t0102001\nmnt_id:\t258\nino:\t10211648774"
+      },
+      "3": {
+        "target": "/work/experiments/lanthorn-recall-training/control/pythos-mask-broker.lock",
+        "fdinfo": "pos:\t0\nflags:\t02102001\nmnt_id:\t258\nino:\t14584010193\nlock:\t1: FLOCK  ADVISORY  WRITE 473922 09:00:14584010193 0 EOF"
+      },
+      "4": {
+        "target": "/work/experiments/lanthorn-recall-training/play/pythos-mask/events.jsonl",
+        "fdinfo": "pos:\t3424\nflags:\t02102001\nmnt_id:\t258\nino:\t11362357188"
+      },
+      "5": {
+        "target": "/work/experiments/lanthorn-recall-training/play/pythos-mask/stdout.raw",
+        "fdinfo": "pos:\t816\nflags:\t02102001\nmnt_id:\t258\nino:\t11362357189"
+      },
+      "6": {
+        "target": "/work/experiments/lanthorn-recall-training/play/pythos-mask/stderr.log",
+        "fdinfo": "pos:\t0\nflags:\t02102001\nmnt_id:\t258\nino:\t11362357190"
+      },
+      "7": {
+        "target": "anon_inode:[eventpoll]",
+        "fdinfo": "pos:\t0\nflags:\t02000002\nmnt_id:\t19\nino:\t1054\ntfd:        9 events:       19 data:     751000000009  pos:0 ino:d13c89 sdev:10"
+      },
+      "8": {
+        "target": "pipe:[13712520]",
+        "fdinfo": "pos:\t0\nflags:\t02000001\nmnt_id:\t18\nino:\t13712520"
+      },
+      "9": {
+        "target": "pipe:[13712521]",
+        "fdinfo": "pos:\t0\nflags:\t02000000\nmnt_id:\t18\nino:\t13712521"
+      }
+    }
+  }
+}
+```
+
+## Inspected file hashes
+
+```json
+{
+  "/work/experiments/lanthorn-recall-training/scripts/play_broker.py": "5cd95f7e88e12d4fa2b71af2432e1c266cf0bed5dff4aec1dccd75892a2e505a",
+  "/work/reference-code/lanthorn/crates/gvm-cli/src/main.rs": "626d2569376aa584ca1b33c0dd14f226187f91a84bc1754cf7ee5ad70f4669f1",
+  "/work/reference-code/lanthorn/crates/gvm-cli/src/glk_term.rs": "057ce171b187ce7bd08e99cfff2f8fe5e01baf487729821a2159792200b97413",
+  "/work/reference-code/lanthorn/crates/gvm/src/exec.rs": "966829c7ea76c97ff7272340f6029188f555276d9686239805651ffd4bd61fcf",
+  "/work/reference-code/lanthorn/crates/gvm/src/glk.rs": "8a4f6dcaec3f1b7d813f2297d94110f9afc55ed2d495ec79cf9505bd43a02405",
+  "/work/reference-code/lanthorn/target.noindex/debug/gvm-cli": "b6331952709e82907c7d197a3d27e853fc1af0fca3a4dd6e0f8eb22aafebbdfd",
+  "/proc/473923/exe": "b6331952709e82907c7d197a3d27e853fc1af0fca3a4dd6e0f8eb22aafebbdfd",
+  "/home/krickert/if-games/glulx/pytho.blb": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b"
+}
+```

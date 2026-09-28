@@ -1,0 +1,395 @@
+{
+  "at": "2026-09-25T07:44:06.175185+00:00",
+  "canary_event": "delusions-8997f25a87:e00241",
+  "checks": [
+    {
+      "game_id": "curses",
+      "session_id": "curses-4e1875ea4e",
+      "last_event": "curses-4e1875ea4e:e02287"
+    },
+    {
+      "game_id": "zork-i7",
+      "session_id": "zork-i7-05114e1aff",
+      "last_event": "zork-i7-05114e1aff:e01789"
+    },
+    {
+      "game_id": "jigsaw",
+      "session_id": "jigsaw-673cabd620",
+      "last_event": "jigsaw-673cabd620:e01844"
+    },
+    {
+      "game_id": "frozen",
+      "session_id": "frozen-a2e5d2eea9",
+      "last_event": "frozen-a2e5d2eea9:e00252"
+    },
+    {
+      "game_id": "spiritwrak",
+      "session_id": "spiritwrak-8e02d83255",
+      "last_event": "spiritwrak-8e02d83255:e00245"
+    },
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "last_event": "enemies-0b4aba49fe:e00231"
+    },
+    {
+      "game_id": "heist",
+      "session_id": "heist-a079eba445",
+      "last_event": "heist-a079eba445:e00237"
+    },
+    {
+      "game_id": "night-at-the-computer-center",
+      "session_id": "night-at-the-computer-center-d16c3b6cd5",
+      "last_event": "night-at-the-computer-center-d16c3b6cd5:e00249"
+    },
+    {
+      "game_id": "vindaloo",
+      "session_id": "vindaloo-85744e25ee",
+      "last_event": "vindaloo-85744e25ee:e00223"
+    },
+    {
+      "game_id": "gerbil-riot",
+      "session_id": "gerbil-riot-f0779de162",
+      "last_event": "gerbil-riot-f0779de162:e00239"
+    },
+    {
+      "game_id": "i-0",
+      "session_id": "i-0-d1ac7729bb",
+      "last_event": "i-0-d1ac7729bb:e00208"
+    },
+    {
+      "game_id": "beyond-the-tesseract",
+      "session_id": "beyond-the-tesseract-26b2abc71c",
+      "last_event": "beyond-the-tesseract-26b2abc71c:e00212"
+    },
+    {
+      "game_id": "return-to-karn",
+      "session_id": "return-to-karn-bf86b7da19",
+      "last_event": "return-to-karn-bf86b7da19:e00224"
+    },
+    {
+      "game_id": "heroines-mantle",
+      "session_id": "heroines-mantle-4053f4fad7",
+      "last_event": "heroines-mantle-4053f4fad7:e00236"
+    },
+    {
+      "game_id": "dracula-prince-of-darkness",
+      "session_id": "dracula-prince-of-darkness-d75c304699",
+      "last_event": "dracula-prince-of-darkness-d75c304699:e00231"
+    },
+    {
+      "game_id": "deephome",
+      "session_id": "deephome-56e3d50bda",
+      "last_event": "deephome-56e3d50bda:e00272"
+    },
+    {
+      "game_id": "save-princeton",
+      "session_id": "save-princeton-e0a2654e41",
+      "last_event": "save-princeton-e0a2654e41:e00220"
+    },
+    {
+      "game_id": "the-edifice",
+      "session_id": "the-edifice-79519f86df",
+      "last_event": "the-edifice-79519f86df:e00587"
+    },
+    {
+      "game_id": "kook-u",
+      "session_id": "kook-u-ef2767bf50",
+      "last_event": "kook-u-ef2767bf50:e00164"
+    },
+    {
+      "game_id": "hunt-for-relief",
+      "session_id": "hunt-for-relief-b4de5c739d",
+      "last_event": "hunt-for-relief-b4de5c739d:e00148"
+    },
+    {
+      "game_id": "mansion",
+      "session_id": "mansion-cc50b3ae7d",
+      "last_event": "mansion-cc50b3ae7d:e00392"
+    },
+    {
+      "game_id": "bse",
+      "session_id": "bse-ec63f1779d",
+      "last_event": "bse-ec63f1779d:e00105"
+    },
+    {
+      "game_id": "bedlam",
+      "session_id": "bedlam-59f5a6e860",
+      "last_event": "bedlam-59f5a6e860:e00089"
+    },
+    {
+      "game_id": "critical-breach",
+      "session_id": "critical-breach-b5dd49a3e4",
+      "last_event": "critical-breach-b5dd49a3e4:e00106"
+    },
+    {
+      "game_id": "danger-adventurer-at-work",
+      "session_id": "danger-adventurer-at-work-cf41e07892",
+      "last_event": "danger-adventurer-at-work-cf41e07892:e00106"
+    },
+    {
+      "game_id": "gumshoe",
+      "session_id": "gumshoe-2933d54ccf",
+      "last_event": "gumshoe-2933d54ccf:e00087"
+    },
+    {
+      "game_id": "fine-tuned",
+      "session_id": "fine-tuned-989503b0a7",
+      "last_event": "fine-tuned-989503b0a7:e00102"
+    },
+    {
+      "game_id": "magic-toyshop",
+      "session_id": "magic-toyshop-9a53f3ebb2",
+      "last_event": "magic-toyshop-9a53f3ebb2:e00162"
+    },
+    {
+      "game_id": "christminster",
+      "session_id": "christminster-735155fc69",
+      "last_event": "christminster-735155fc69:e00200"
+    },
+    {
+      "game_id": "the-wedding",
+      "session_id": "the-wedding-396e8f7efc",
+      "last_event": "the-wedding-396e8f7efc:e00129"
+    },
+    {
+      "game_id": "anchorhead",
+      "session_id": "anchorhead-9852cd5b9d",
+      "last_event": "anchorhead-9852cd5b9d:e00040"
+    },
+    {
+      "game_id": "ghost-train",
+      "session_id": "ghost-train-b026ef4aab",
+      "last_event": "ghost-train-b026ef4aab:e00021"
+    },
+    {
+      "game_id": "schooldays",
+      "session_id": "schooldays-b371c6a97d",
+      "last_event": "schooldays-b371c6a97d:e00005"
+    }
+  ],
+  "local": [
+    {
+      "game_id": "zork-i7",
+      "pid": 4161206
+    },
+    {
+      "game_id": "anchorhead",
+      "pid": 4161211
+    },
+    {
+      "game_id": "curses",
+      "pid": 4161216
+    },
+    {
+      "game_id": "jigsaw",
+      "pid": 4161221
+    },
+    {
+      "game_id": "the-edifice",
+      "pid": 4161226
+    },
+    {
+      "game_id": "mansion",
+      "pid": 4161234
+    },
+    {
+      "game_id": "magic-toyshop",
+      "pid": 4161243
+    },
+    {
+      "game_id": "christminster",
+      "pid": 4161254
+    },
+    {
+      "game_id": "the-wedding",
+      "pid": 4161264
+    }
+  ],
+  "remote": {
+    "cm5ai1": [
+      {
+        "game_id": "frozen",
+        "session_id": "frozen-a2e5d2eea9",
+        "pid": 142860,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/frozen.json",
+        "archived_sha256": "d25dbcc3ed1f47d6549579044b949b731e7142f593f40588b0c858769be18783"
+      },
+      {
+        "game_id": "spiritwrak",
+        "session_id": "spiritwrak-8e02d83255",
+        "pid": 142862,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/spiritwrak.json",
+        "archived_sha256": "51fd9d790c8353f485935eb3859bbebdda8b130d1c357e0d7fd1feaf63c88680"
+      },
+      {
+        "game_id": "schooldays",
+        "session_id": "schooldays-b371c6a97d",
+        "pid": 142863,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/schooldays.json",
+        "archived_sha256": "276a91e48401b49df15d4199c0af262dd6c9696febfa2ca09ee9052470b1435c"
+      }
+    ],
+    "cm5v1": [
+      {
+        "game_id": "enemies",
+        "session_id": "enemies-0b4aba49fe",
+        "pid": 42773,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/enemies.json",
+        "archived_sha256": "5f2a95e7a8c4cdfa8069cb7cbc1e346062b50dff077d71a6029f8a2bede5fe40"
+      },
+      {
+        "game_id": "hunt-for-relief",
+        "session_id": "hunt-for-relief-b4de5c739d",
+        "pid": 42776,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/hunt-for-relief.json",
+        "archived_sha256": "ce7d104f7f99894d5e1a97d133cba5fcbbf98ff8a5a3ccac88eee1c119686d07"
+      },
+      {
+        "game_id": "danger-adventurer-at-work",
+        "session_id": "danger-adventurer-at-work-cf41e07892",
+        "pid": 42777,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/danger-adventurer-at-work.json",
+        "archived_sha256": "8a8e2d3854db314630fe99605cb5af82304681b674f240432ab37e39b1968ef4"
+      }
+    ],
+    "cm5v2": [
+      {
+        "game_id": "heist",
+        "session_id": "heist-a079eba445",
+        "pid": 75727,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/heist.json",
+        "archived_sha256": "994ed1c2bd00664e50b426ae8e18abf3bc3e578dd6e5f56adeffe767cdfbb3cb"
+      },
+      {
+        "game_id": "night-at-the-computer-center",
+        "session_id": "night-at-the-computer-center-d16c3b6cd5",
+        "pid": 75729,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/night-at-the-computer-center.json",
+        "archived_sha256": "f06ea83f75d2f2d1321c9aa68f71d8530cc369c54f23b39cade51bcd5ac1d36c"
+      },
+      {
+        "game_id": "critical-breach",
+        "session_id": "critical-breach-b5dd49a3e4",
+        "pid": 75730,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/critical-breach.json",
+        "archived_sha256": "83d2972e1ca83404063a4888f3abdb8579cdffbeaab952667e2fdc8b84d17a9e"
+      }
+    ],
+    "krickert@cm5v3.local": [
+      {
+        "game_id": "vindaloo",
+        "session_id": "vindaloo-85744e25ee",
+        "pid": 72816,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/vindaloo.json",
+        "archived_sha256": "0cdce7280ac028092a8ee8abdeeef08ba74254e2d56bf6b2c8501d5f1342bfb2"
+      },
+      {
+        "game_id": "gerbil-riot",
+        "session_id": "gerbil-riot-f0779de162",
+        "pid": 72817,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/gerbil-riot.json",
+        "archived_sha256": "a21af8efad384856398306dc11ed9c5cbf285cb5979ba873e027088a4a035a8b"
+      },
+      {
+        "game_id": "i-0",
+        "session_id": "i-0-d1ac7729bb",
+        "pid": 72818,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/i-0.json",
+        "archived_sha256": "3c06b225093e8ca9e3c5f83f9e81e878542436b48fba3aeb548bc69bd3e89f1b"
+      }
+    ],
+    "pi500p": [
+      {
+        "game_id": "beyond-the-tesseract",
+        "session_id": "beyond-the-tesseract-26b2abc71c",
+        "pid": 34993,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/beyond-the-tesseract.json",
+        "archived_sha256": "02ab1b6d5ec4518f1e941ce971ce80fd3d5cee1e8bf1d0f94684997b14c5111b"
+      },
+      {
+        "game_id": "gumshoe",
+        "session_id": "gumshoe-2933d54ccf",
+        "pid": 34994,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/gumshoe.json",
+        "archived_sha256": "b0f72924ab261ceb6a427ace37cd2b89cae8c8be837a8465a18a89221a19119a"
+      },
+      {
+        "game_id": "fine-tuned",
+        "session_id": "fine-tuned-989503b0a7",
+        "pid": 34995,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/fine-tuned.json",
+        "archived_sha256": "cf70f100ac1c2dbbf6883832a997cec66075ce489e731efbc3235afd9259b655"
+      }
+    ],
+    "pi5ai1": [
+      {
+        "game_id": "return-to-karn",
+        "session_id": "return-to-karn-bf86b7da19",
+        "pid": 40801,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/return-to-karn.json",
+        "archived_sha256": "f4b14a28a82d7c8e282563e7693e66081ecf3f5e51aa769f5e5290d79082a9eb"
+      },
+      {
+        "game_id": "heroines-mantle",
+        "session_id": "heroines-mantle-4053f4fad7",
+        "pid": 40802,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/heroines-mantle.json",
+        "archived_sha256": "a08e4d98e1c89bd4843c530e21315a686ae0ac30ee4dc9e83fb2904fe2e04a72"
+      },
+      {
+        "game_id": "kook-u",
+        "session_id": "kook-u-ef2767bf50",
+        "pid": 40803,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/kook-u.json",
+        "archived_sha256": "2e5c4800b78ff65d14cfe5442c56d464ee73e288b1bb0820f6bf510f5b56e1f8"
+      }
+    ],
+    "krickert@pi5ai2p.local": [
+      {
+        "game_id": "dracula-prince-of-darkness",
+        "session_id": "dracula-prince-of-darkness-d75c304699",
+        "pid": 172655,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/dracula-prince-of-darkness.json",
+        "archived_sha256": "7e07228cd56aefcc215f3da3d657f2d8c8da023f262bfbb08ee5fb89f522bfe8"
+      },
+      {
+        "game_id": "bse",
+        "session_id": "bse-ec63f1779d",
+        "pid": 172657,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/bse.json",
+        "archived_sha256": "27c8500a217eae4ccb79fac0a4b1da79531ae08a4a01b501d998c874f11744fb"
+      },
+      {
+        "game_id": "bedlam",
+        "session_id": "bedlam-59f5a6e860",
+        "pid": 172658,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/bedlam.json",
+        "archived_sha256": "98c7b058802ab398573f50fc9dc9a8be383241196deb4a7f4e05f90bac3e74a8"
+      }
+    ],
+    "pi5v2": [
+      {
+        "game_id": "deephome",
+        "session_id": "deephome-56e3d50bda",
+        "pid": 143447,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/deephome.json",
+        "archived_sha256": "014e782824ffd3b9887140ddf3e096df8ac2e574a342adeb4d90e74d9d353ccb"
+      },
+      {
+        "game_id": "save-princeton",
+        "session_id": "save-princeton-e0a2654e41",
+        "pid": 143448,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/save-princeton.json",
+        "archived_sha256": "022817cc8816bd20929ee48308ea7138ea572380ddd0f60c43df177ee7fbacc5"
+      },
+      {
+        "game_id": "ghost-train",
+        "session_id": "ghost-train-b026ef4aab",
+        "pid": 143449,
+        "archived_state": "/home/krickert/lanthorn-muse/history/quota-20260925T0743/ghost-train.json",
+        "archived_sha256": "7dcfacf23f5a73d1c573b0abcbe88616dea6b8edabbfb01208efae6b47a81de8"
+      }
+    ]
+  }
+}

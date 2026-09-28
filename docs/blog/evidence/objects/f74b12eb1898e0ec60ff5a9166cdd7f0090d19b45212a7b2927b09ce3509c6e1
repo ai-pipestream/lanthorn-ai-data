@@ -1,0 +1,77 @@
+{
+  "game_id": "gumshoe",
+  "title": "Gumshoe",
+  "author": "Mike Oliphant",
+  "url": "https://ifarchive.org/if-archive/solutions/gumshoe.sol",
+  "accessed_at": "2026-09-25T06:42:12.740063+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/gumshoe.sol",
+  "source_sha256": "dec19e255650e11ef65814504b2d82057a891ad00b1fb29187495e0cf2b1b29b",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/gumshoe-walkthrough.txt",
+  "normalized_sha256": "dec19e255650e11ef65814504b2d82057a891ad00b1fb29187495e0cf2b1b29b",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Gumshoe.z5",
+  "story_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+  "compatibility": "Local R1/960331 is byte-identical to the archive story. Paul J. Godfrey guide explicitly targets release 1 but omits serial; archive game and guide have matching IFDB identity. Release-level match is documented; runtime compatibility is untested.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "960331",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "0502000160f860f9459701022f313781000039363033333100428b966e2500000000000000000000000000000000000000000000000000000000000000000000",
+    "header_sha256": "589fff31c3493c79add2558f0a1c7f8af1cc4ac8f22c6bbfb322f46069b1e9a1",
+    "checksum_hex": "6e25",
+    "declared_length": 142936,
+    "file_bytes": 143360
+  },
+  "guide_release": 1,
+  "guide_serial": null,
+  "guide_release_gap": 0,
+  "story_identity": {
+    "filename": "Gumshoe.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Gumshoe.z5",
+    "accessed_at": "2026-09-25T06:43:45.135026+00:00",
+    "remote_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+    "local_sha256": "3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f",
+    "bytes": 143360,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 1,
+    "remote_serial": "960331"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Gumshoe.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Gumshoe.z5\n◆\n[01-Apr-1996]\nIFDB entry\nGumshoe, An Interactive Investigation by Mike Oliphant.\nRelease 1 / Serial number 960331.",
+    "tuid": "1ho4lvchvukpgfld"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#gumshoe.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "gumshoe.sol\n◆\n[13-Jul-1996]\nIFDB entry\nstep-by-step solution to Gumshoe, by Paul J. Godfrey",
+    "tuid": "1ho4lvchvukpgfld"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the full investigation, obtain the necessary evidence, resolve the client and debt/money sequence, and mail the prepared envelope before verifying the actual concluding narrative. Merely taking incriminating photographs, earning 24 points, issuing FULL/AMUSING, being beaten by thugs or reaching the time limit is not completion.",
+    "limitations": "Guide estimates about 270 moves and notes variable events and a random detective appearance. Its timeline includes inconsistent/noon entries; use observed time, locations and NPC state rather than treating printed times as exact. Save before timed surveillance and hazards. Keep probes outside those windows and avoid repeated actions for quota.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "gumshoe",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "No concrete shared world/puzzle link with the existing corpus identified. Detective genre or a common author would not be enough; keep all Gumshoe releases together."
+  },
+  "reuse_claims_observed": "No reuse permission established; private collection only. Public hosting and availability do not establish training or redistribution permission."
+}

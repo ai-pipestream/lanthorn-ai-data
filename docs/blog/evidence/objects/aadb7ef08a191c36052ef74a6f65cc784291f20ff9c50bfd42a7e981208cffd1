@@ -1,0 +1,27 @@
+{
+  "game_id": "underoos-that-ate-new-york",
+  "title": "The Underoos that ate New York!",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/under.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/underoos-that-ate-new-york-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/underoos.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Complete the animated-clothing route, resolve Cindy's hostage scene, dress and follow the final northward exit through actual authored concluding narrative. Defeating an individual garment, collecting a score, or merely issuing north is insufficient. Preserve genuine alternate successful conclusions if observed, while ordinary death and quitting remain failures.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/underoos-that-ate-new-york.json",
+  "story_sha256_expected": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "underoos-that-ate-new-york",
+  "collection_notes": "# The Underoos that ate New York!\n\nStory Z5 R1/970329. Local Z5 R1/970329 is byte-identical to the archive, which identifies an author conversion from the TADS original. Ambat Sasi Nair guide has the matching archive IFDB identity but no release/serial. Its 1997-02-13 archive date precedes the Z-code port: preserve the likely TADS-to-Inform guide edition gap and do not claim exact parser parity.\n\nComplete the animated-clothing route, resolve Cindy's hostage scene, dress and follow the final northward exit through actual authored concluding narrative. Defeating an individual garment, collecting a score, or merely issuing north is insufficient. Preserve genuine alternate successful conclusions if observed, while ordinary death and quitting remain failures.\n\nThis is a compact room-by-room prose solution, not a replay script. Greater-than signs describe results; ampersands combine distinct actions. Navigate from real room descriptions, translate actions to the current parser and observe the shoes before ending a wait. Take an early safe checkpoint; the short route does not justify filler probes or a command quota.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "970329",
+  "session_id": "underoos-that-ate-new-york-21eb87c422",
+  "story_sha256": "ce8a4c6e6b8a5e71a4b73b24f4c178d7c7f16ddc97b68a2cc92c6d1ad7d4aa21",
+  "started_at": "2026-09-25T09:01:57.876605+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

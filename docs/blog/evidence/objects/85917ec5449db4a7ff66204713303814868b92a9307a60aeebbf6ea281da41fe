@@ -1,0 +1,18 @@
+{
+  "game_id": "dreamhold",
+  "title": "The Dreamhold",
+  "url": "https://plover.net/~davidw/sol/dreamhold.html",
+  "accessed_at": "2026-09-25T02:34:48.968313+00:00",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/dreamhold.source",
+  "source_sha256": "15fdb3459d88d0996049518bcd47dcbf9e2a72f7911c4691d040ab3c8254409e",
+  "normalization": "entire source document",
+  "normalized_sha256": "ceadfedf914347782a63c51a90229149138610790d22f69f0e6e5a5afbea8b73",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/dreamhold-walkthrough.txt",
+  "story": "/home/krickert/if-games/zcode/dreamhold.z8",
+  "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+  "compatibility": "Story header R5/041231; guide based on R4. Full-route compatibility unproven.",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 8,
+  "release": 5,
+  "serial": "041231"
+}

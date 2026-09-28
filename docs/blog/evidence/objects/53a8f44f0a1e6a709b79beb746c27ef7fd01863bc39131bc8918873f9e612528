@@ -1,0 +1,115 @@
+# Explicit service-timeout recovery
+
+Current session: savoir-faire-5a89e6c8ff, branch b3. Restored basin-full successfully.
+Save evidence: savoir-faire-3e83fd4831:e00092. See recovery.json and latest.json.
+Old pending requests were cancelled without execution. Never resubmit them blindly.
+Unsaved actions after the checkpoint did NOT carry over. Check inventory and current room before continuing.
+
+Observed restored room:
+
+Scullery
+A small, workmanlike room with a floor of white stones. The principal features 
+of the room are a counter, with a large inset washbasin also made of stone, and 
+a tall wooden cupboard.
+
+On the countertop are a loaf of stale bread and a sack (in which is a single 
+yellow onion).
+
+>
+
+## Historical notes only; reconcile every state claim with the restored game
+
+## Progress savoir-faire — 2026-09-25 continuation seg 3 (STOPPED pending)
+
+STOPPED with game incomplete: broker response for inbox/m0087.json (await_output to resolve SPACE no_output_timeout) still pending; latest.json remains e00103 (no_output_timeout, raw 16668-16668). m0086 already resolved to same e00103 delayed_output empty. Request verified well-formed; not duplicated per protocol.
+
+Resume: read latest.json + progress.md; retry responses/m0087.json first. If resolved to HELP menu, send Q to resume game at ordinary prompt only, verify with look at basin. Branch b1 = basin-full checkpoint (basin plugged, full to brim, 5 loads). Do NOT replay identical probes. Next puzzle: TAKE BAUBLE (hint e00098 names bauble; take ring e00094 / take all e00097 failed) then LOOK IN BAUBLE / link-mirror route, or pivot to corridor/attic jars/bee, roses with butcher knife, contraption recipe. Checkpoints available: start-garden, have-sausages, basin-full.
+
+Counts so far: ~103 events, 4 broker helps (well, basin plug, basin amount, floated-object/bauble link hint), 5 annotations (well syntax, bread vocabulary, sausage ambiguity, cupboard typo, plug vocabulary). Need 20-40 diverse cases across complete game; many accepted-paraphrase none-annotations still queued (read sundial, open shed, chop/pour/fill variants, take knife, pick up sponge). Conserve light; no timed resources used.
+
+Detailed state at basin-full (b1): Location Scullery in HELP menu. Inventory: hat worn, swordstick, sword, snuffbox closed, andouillettes, butcher knife, cup empty, teapot full open. Bread on scullery counter. Sponge plugging basin hole. Basin full to brim after 5 loads (cup x3 + teapot x2); teapot 6th refused full. LINK/REMEMBER learned from HELP Special Instructions (player-observed). Menu flow: HELP (m0082) -> 3 (m0083) -> RETURN (m0084 linking text) -> SPACE (m0085 no_output_timeout) -> await_output m0086 (e00103 no_output_timeout) -> await_output m0087 pending -> then Q to resume. Never SAVE inside menu.
+
+## Continuation seg 1 (2026-09-25 03:29-03:31 UTC, branch b3)
+
+Location: Kitchen Corridor (e00017-e00020). At ordinary prompt, checkpoint corridor-safe OK.
+Inventory observed e00007: teapot open full to brim, cup, butcher knife, andouillettes, sword, hat worn, swordstick, snuffbox closed. Sponge remains plugging basin; basin full (e00008/e00011: great deal water + sponge, no floated object named).
+Basin probes: take bauble e00010 fails "can't see"; look in basin e00011 only water+sponge. Helps e00009/e00012 repeat bauble-link and float hints, no new identity. Basin stuck, pivoted per plan.
+Corridor: go west e00014 new room, double doors locked (open door e00015 parses as doors, world_state locked). Down e00016 is Darkness, retreated up e00017. Block e00018 plain stone. Checkpoint corridor-safe e00019-e00020.
+Unresolved cases: basin-bauble-01, basin-inspect-b3-01, corridor-doors-01 (accepted parse, locked), route-cellar darkness. Queued annotations: basin bauble, corridor door accepted paraphrase.
+Last hints: e00012 float/plug excerpt (lines 443-451).
+Next: east to kitchen, attic upstairs for jars/bee/light, garden roses with butcher knife, ditch outflow, contraption. Avoid HELP menus. Conserve light; darkness without lamp is death risk.
+Checkpoints: start-garden, have-sausages, basin-full, corridor-safe.
+
+## Continuation seg 1b (03:31-03:35 UTC, branch b3 e00021-e00052)
+
+Location: Scullery (e00043-e00049). Sack secured, cup recovered via sack capacity.
+Kitchen->garden: roses probe cut roses e00027 asks tool; cut with knife e00028 thorns refusal; help confirms no blade works (lines 35-43). Pipe e00030 through wall, ditch e00031 only mud (no flush). Snuffbox: open box e00032 accepted (none-annotation), take snuff e00033, remember me/father e00034-35. Herbs mint e00036. Shed look e00039, SE e00040 still blocked. Help next lines 44-52, 53-61 reveal TAKE/CLIMB/CUT roses are walkthrough false steps; sack is rucksack.
+Scullery: get bag e00044 fails (vocab), take sack e00045 too-many, put cup e00046, take sack e00047 success (annotated vocab). Inventory e00048: sack open+onion, teapot full, knife, sausages, sword, hat, swordstick, snuffbox now in sack after auto-stow; take cup e00049 auto-stows snuffbox. Annotations e00050-52: sack vocab, roses planning, open-box none.
+Unresolved: attic hanky get hanky e00023 parsed but too-many (needs recovery take now), basin bauble, corridor door. Next: kitchen->attic take handkerchief with sack room, then well/bar/climb/swim per hints (X BAR CLIMB BAR etc), remember well, examine sundial/gnomon.
+Checkpoints: corridor-safe OK; basin-full intact (sponge still plugging, do not drain).
+
+## Continuation seg 1c (03:35-03:37 UTC, branch b3 e00053-e00076)
+
+Location: Servants Dormitory attic (e00054-e00073). Checkpoint attic-finds OK e00074-75.
+Attic: take handkerchief e00055 success via sack auto-stow (annotated world_state vs get hanky e00023). Fireplace e00057 tickles memory; remember fireplace e00058 reveals coins behind brick. Search e00059 empty, take brick e00060 cemented, pry brick e00061 vocab fail, push brick e00062 same cemented; help lines 105-113 lists X BRICK TAKE BRICK + REMEMBER ANTON/LEONIE. Look brick e00064 pushed forward (loose-looking) but take e00067 still cemented; remember Anton/Leonie e00065-66, look in fireplace e00068 empty. R8 mismatch suspected; brick pending.
+Bed e00069 SCORE 2: silver cylinder + crumpled paper. Cylinder e00070 Lentil Soup recipe; read e00071 ingredients lentils/onion/water/garlic/bay/olive/salt. Read paper e00072 accepted (none-annotation e00076), remember Marie e00073.
+Inventory now includes sack, teapot full, cup, knife, sausages, sword, hanky, etc with auto-stows. Unresolved: brick coins, basin bauble, well bar/climb/swim, sundial gnomon, contraption lentil build. Next: well/bar/water remembers in garden, then kitchen contraption, then corridor jars/bee/light search. Conserve light; darkness still risky.
+Checkpoints: attic-finds, corridor-safe, basin-full.
+
+## Continuation seg 1d (03:38-03:39 UTC, branch b3 e00077-e00095)
+
+Location: Kitchen (e00087-e00094). Checkpoint kitchen-garlic OK e00092-93.
+Garden well: look well e00079 bar+water, remember well e00080 father climbing memory, climb well e00081 crosses bar safely (accepted), go down e00082 waistcoat refusal, swim e00083 cold refusal, look e00084 still garden. Sundial e00085 decorative firmly-attached. Misdirected look doors e00086 fails in garden (location mismatch).
+Kitchen contraption: look e00088 Andouillettes cylinder loaded, open e00089 reveals garlic, take clove e00090 success auto-stow sword (none-annotation e00094). Inventory e00091: paper, Lentil cylinder, hanky, sack (sword/swordstick/snuffbox/onion), knife, hat, garlic, andouillettes, cup, teapot full. Brick pry/push annotated vocab e00095.
+Unresolved: brick coins still cemented, basin bauble, lentil ingredients (bay, lentils, oil, salt), double-door opening, cellar light. Next: garden bay leaf, kitchen search for lentils/oil/salt, corridor doors/block, then contraption swap. Conserve light.
+Checkpoints: kitchen-garlic, attic-finds, corridor-safe, basin-full.
+
+## Continuation seg 1e (03:40-03:41 UTC, branch b3 e00096-e00112)
+
+Location: Dining Room (e00111-112). Score 9.
+Garden bay pick bay e00097 accepted. Kitchen search tables e00099 only contraption. Corridor doors look e00101; help lines 128-136 LINK TEAPOT TO DOORS. Take stone e00103 auto-stow cup, link teapot e00104 SCORE 4, close/open cycle e00105-107 opens doors via link, unlink e00108, checkpoint doors-open e00109-110, west e00111 SCORE 9 to Dining Room (west + southwest exits, doors east).
+Inventory carries bay now plus prior sack/teapot/cup/garlic etc. Unresolved: lentil remaining (lentils/oil/salt), brick coins, basin bauble, cellar light, dining hunger timer, sitting room rug/bauble mirror route. Next: quick dining exits survey, then sitting room, then jars/bee/light. Conserve light; watch hunger.
+Checkpoints: doors-open, kitchen-garlic, attic-finds, corridor-safe, basin-full.
+
+## Continuation seg 1f (03:41-03:43 UTC, branch b3 e00113-e00133)
+
+Location: Staircase First Floor (e00133). Score 9.
+Dining west e00113 hunger starts + Library; south e00114 Entrance Hall (up/down/north/northeast, clock); northeast e00115 back dining; southwest e00116 hall; up e00117 staircase; east e00118 Long Salon (north/east closed, portrait); north e00119 Sitting Room rug + case; look e00120; case e00121 dancers+bee DO NOT BREAK + memory tickle; remember case e00122 gears/links; look up e00123 syntax fail (only look); rug e00124; help e00125-126 bauble on shelf, PUT RUG UNDER SHELF, PLAY WALTZ alt, REVERSE LINK SPONGE, THROW HAT, TAKE BAUBLE, Marie mirrors light. Salon south e00127, east door e00128 locked, west e00129 stairs, north e00130 Conservatory bauble on high shelf + pianoforte + Marie west. Checkpoint conservatory-bauble e00131-32. South e00133 stairs.
+Next: fetch rug from sitting room, fetch sponge from basin (drains! use checkpoints), PUT RUG UNDER SHELF, reverse link, throw hat. Watch hunger; conserve light. Need lentils/oil/salt still.
+Checkpoints: conservatory-bauble, doors-open, kitchen-garlic, attic-finds, basin-full.
+
+## Continuation seg 1g (03:44-03:45 UTC, branch b3 e00134-e00152)
+
+Location: Conservatory (e00139-e00147). Score 13. Checkpoint have-bauble e00148-49.
+Rug fetch: east e00134 salon, north e00135 sitting (hunger worse), take carpet e00136 accepted auto-stow sausages (none e00150). South e00137 salon, west e00138 stairs, north e00139 conservatory. Put carpet under shelf e00140 placed rug (none e00151). Reverse link sponge e00141 fails not visible (sponge in basin). Piano e00142 empty stand. Throw hat e00143 dropped only (ambiguity e00152), take hat e00144, throw hat at bauble e00145 knocks bauble to rug, hat to shelf. Take bauble e00146 SCORE 13, look in e00147 sun+star.
+Inventory: bauble, rug placed, hat on shelf (not worn!), sack heavy. Hat lost from head – need recover? Next: take hat from shelf? Then Marie west for mirrors (light source for cellar/basement), then jars/bee, lentil ingredients, hunger meal. Watch hunger, conserve light.
+Checkpoints: have-bauble, conservatory-bauble, doors-open, kitchen-garlic, basin-full.
+
+## Continuation seg 1h (03:45-03:47 UTC, branch b3 e00153-e00172)
+
+Location: Marie's Chamber (e00154-e00167). Score 17. Checkpoint marie-light e00168-69.
+Hat on shelf too high e00153. West e00154 Marie chamber (mirror sunlight, desk, wallpaper). Mirror e00155, desk e00156 two drawers, open drawer e00157 ambiguity top/bottom (annotated e00170), top e00158 papers, bottom e00159 dark box. Look box e00160 ambiguity wooden vs snuff (annotated e00171), wooden e00161, open e00162 mirror inset + necklace + letter. Link mirrors e00163 fail, inset naming e00164-65, link inset to mirror e00166 glows (annotated e00172). Take necklace e00167 SCORE 17.
+Next: read letter, take box as light to basement jars/bee, address hunger (proper meal via contraption lentil?), brick coins pending, basin bauble pending (sponge still in basin). Watch hunger timer.
+Checkpoints: marie-light, have-bauble, doors-open, kitchen-garlic, basin-full.
+
+## Continuation seg 1i (03:47-03:49 UTC, branch b3 e00173-e00188)
+
+Location: Wine Antechamber (e00185-e00187). Hungry (pretty hungry e00176). Checkpoint wine-antechamber OK.
+Marie: read sealed e00173 refused, open e00174 cracks seal, read e00175 cipher + dancers sketch (annotated world_state e00188). Take wooden box e00176 light OK. East e00177 conservatory rug+hat shelf, south e00178 stairs, down e00179 hall, down e00180 Root Cellar lit by box (boxes/barrels menacing, east door). Barrels e00181, boxes e00182 same barrels text, open east e00183, east e00184 servants stairs, east e00185 wine antechamber (grey-blue S open, red E closed, russet NE open, red N chained vault, W back).
+Next: south grey-blue and northeast russet for jars/bee/lentils/oil/salt; vault needs key?; hunger proper meal via contraption — do not eat random food. Conserve box light (sunlight, infinite).
+Checkpoints: wine-antechamber, marie-light, have-bauble, doors-open, basin-full.
+
+## Continuation seg 1j STOPPED incomplete (03:49-03:50 UTC, b3 e00189-e00200)
+
+Location: Dessert Wines (e00195-e00198). Score 17. Checkpoint dessert-wines OK e00199-200.
+South grey-blue e00189 Among Reds (russet E locked e00192, trapdoor locked e00191); north e00193 antechamber; NE e00194 Fortified; SE e00195 Dessert (mead, south crumble, white N no-handle e00198, yellow SW, peacock W). Look through e00196 sees Cheese Corner chest+silver key+green jar + hunger note; go south e00197 blocked N/W/NW/SW only.
+Next: reach Cheese Corner via white/yellow/peacock route for jar/key/chest (lentils/oil/salt?), then contraption lentil meal for hunger, brick coins, basin bauble (sponge), bee jars, mirrors/box light already have. Hunger pretty-hungry worsening — prioritize meal.
+No pending broker request; latest e00200 dessert-wines.sav OK. Resume from dessert-wines.
+
+
+
+
+
+
+
+

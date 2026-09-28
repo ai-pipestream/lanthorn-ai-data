@@ -1,0 +1,25 @@
+{
+  "event_id": "kook-u-ef2767bf50:e00189",
+  "timestamp": "2026-09-25T07:52:18.011051+00:00",
+  "game_id": "kook-u",
+  "session_id": "kook-u-ef2767bf50",
+  "branch_id": "b2",
+  "event_index": 189,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 35084,
+  "raw_end": 35084,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "45a935b1486c7a8beb124693fb07f92eac0bc0f77b0e4e3f2b56596437e7962b",
+  "engine_state": "unchanged",
+  "metadata": {
+    "_fleet_session_id": "kook-u-ef2767bf50",
+    "ending_quote": "You switch the name server on.\n\nYou've done it!  The Kook U campus network has been made operational again and \nhas been purged of all network abusers.\n\nIn the coming days you learn of the Dean's pending retirement. Thr rumor is \nthat the Dean is moving to Pittsburgh to participate in some secretive \nundercover operation. Sick of the drudgery of network administration, you apply \nfor the Dean's vacant position and, to your delight, are accepted.\n\nSeveral weeks later you receive a list of next year's applicants to the Kook U \nCollege of Computer Science. Examining the list, you notice some familiar \nnames...\n\nRicardo Hector Gonzales\nBill Palmer\nColin James III\nS.P.\nReverend Steve Winter\nDave Hayes\n\nIt's going to be another busy year!\n\n\n    *** You have won ***\n\n\nIn that game you scored 100 out of a possible 100, in 125 turns, earning you \nthe rank of Fluffy!",
+    "evidence_event_ids": [
+      "kook-u-ef2767bf50:e00187"
+    ],
+    "notes": "Genuine author-intended winning ending, not death/quitting/chapter/partial: all 6 abuse targets resolved (Grubor 37, Sanford 47, Boursy 62, Neutopia 72, Implant 81, April 91 e00171), Dean progression observed e00179, full router/name/file/news finale e00182-e00187, game prints *** You have won *** with 100/100 and Dean-retirement concluding narrative. End menu left untouched."
+  },
+  "review_status": "unreviewed"
+}

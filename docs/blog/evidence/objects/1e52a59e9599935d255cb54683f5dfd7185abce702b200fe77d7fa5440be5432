@@ -1,0 +1,5 @@
+# Collection notes
+
+Original Z-code Anchorhead R5/990206, not the later illustrated remake. Mike Wallis guide has no verified release statement. Inspect ordinary prompts versus key pauses; a day ending or death is not the full finale. Conserve timed resources and use explicit checkpoints.
+
+First inspect current startup: answer any key pause or question before saving. Use small broker walkthrough hints. Label synthetic human-like mistakes and verify same-intent recovery effects. Keep coverage varied; do not repeat known failures merely to make more rows. A displayed menu requires its own navigation/exit before ordinary commands. Write progress only to progress.md, never to inbox/*.json; requests must be complete JSON. No training, application changes or publication.

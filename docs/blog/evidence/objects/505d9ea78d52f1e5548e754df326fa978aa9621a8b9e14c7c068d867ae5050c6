@@ -1,0 +1,8 @@
+# Gumshoe progress
+
+- Location: Office (private, east of reception, e00033): messy, cluttered desk, large comfy chair behind, small client chair, window east, reception west.
+- Inventory (observed e00025): Times, trenchcoat (now on rack e00030), PI license, money. Coat removed e00027, hung e00030.
+- Branch: b0; checkpoints: start-hallway, reception-entry confirmed
+- Cases (8): paper-synonym world_state; read-synonym none; door-already-open none; enter-office none; inventory-typo vocab; coat-remove-synonym none; coat-hang-omitted syntax; east-typo vocab (e00032->e00033)
+- Last hint: m0003 (done: waits, newspaper, S, coat). Need next office hint.
+- Next: look/examine office/desk, search desk, sit?, then get next help excerpt. Update checkpoints at milestones.

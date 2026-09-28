@@ -1,0 +1,7 @@
+# Progress suveh-nux – STOP segment 1 (step budget)
+
+Location: Vault, door cracked triangular block separate, glowing room, floor slippery, self glowing+buoyant, creature caged. Score ~89% (last full 64% +5 creature +20 crack).
+Inventory: crystal, vial, closed cage with creature, scroll, book, parchment? (book/parchment on shelf glowing), no eggs (fed 2).
+Checkpoints: opening-darkness, after-heat-spell, after-light-spells, after-self-glow, stuck-ceiling, door-cracked-block (all ok, latest e00238).
+Cases ~35 annotated through cage-put-prep; pending: egg-give-ambig (e00160/e00202 both ate, friend), door-heat/cool route (no annotate needed, guided), search-article done.
+Next (segment 2): x block, point at block firenos, suveh tia fireno x2, suveh tia firenos x2, push/pull block with synonym probes (shove/pull), escape vault, follow walkthrough for key/scroll/vault exit to winning ending. Check latest.json e00238 before resuming; do not restart.

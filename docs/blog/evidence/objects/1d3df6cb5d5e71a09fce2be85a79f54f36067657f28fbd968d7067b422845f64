@@ -1,0 +1,19 @@
+# Anchorhead collection — CONTINUATION (game incomplete, stop honestly)
+
+Current: session anchorhead-51ee2d15c2 branch b3 e00420 (m0539). Location: Shanty Town (#11 door open-crack, woman present). Checkpoint shanty-town-found GOOD e00407.
+Score 20/100 (e00380). Light: flashlight on + lantern out; carry lantern+closed tin+broom+flashlight; pockets keyring(4)+newspaper+opener+manual+pages+slip+card+umbrella; flask consumed.
+
+This segment (m0505-m0539): read newspaper e00382 (#11 Mill Town Rd abducted Jeffrey Greer; Edward cleared by post-death kidnapping); south/down/south to house, southeast to Scenic e00387; probe go-to-mill too-far e00388; east steep-block e00389; northeast to Chilly e00390; north Riverwalk e00391; west Square e00392 + north Bridge e00393; north Narrow e00394; east office-cul-de-sac e00395; west Narrow e00396; west Junction e00397; north Mill Road fork e00398; look e00399; east Breakwater/lighthouse-view e00400; west Mill Rd e00401; west Paper Mill entrance (iron gate + south path + north shack lane) e00402; north Shanty Town e00403; look e00404; examine shacks #1-#12 e00405; checkpoint shanty-town-found e00407; vague knock ambiguity e00408; full-address syntax fail e00409; examine #12 run-down + tin rattle e00410; knock #12 no-answer e00411; knock #11 woman-crack e00412; say-hello stare e00413; ask-Jeffrey slam+bolt e00414; reknock reopen e00415; ask-herself head-shake e00416.
+
+Where stuck:
+- Mrs Greer #12 gives no answer; needs teddy per hint e00417 (knock+show teddy invites in). No teddy in inventory; slaughterhouse-west still blocked per prior segment — circular, so Greer is post-slaughterhouse.
+- #11 woman (likely Greer mother) reopens after slam; direct Jeffrey ask slams, gentle asks fail. Do not repeat Jeffrey probe.
+- Day-2 gate still unknown. Candidates now: paper-mill south path / gate, lighthouse NE end, slaughterhouse trigger, estate-alley sewer/steel-key/letter chain (hint e00379/e00417), Max overalls key.
+- Crypt still behind church trapdoor; hook downstream.
+
+Repair: annotated shanty-knock-ambiguous e00418, shanty-address-wording e00419, scenic-mill-distance e00420. New accepted: knock #12 / knock #11 targeting, examine #12. Pending fail annotations (old): luggage, lane-west x3, scenic-east steep, bridge unlock, asylum take-key, talk prompts, crypt/twin no-topic, sleep-too-early. New pending: Jeffrey-slam world_state, hello-stare / herself-shake (ambiguity/world_state — record as no-info, not wording fix).
+
+Last hints: e00379 (sewer under river/estate steel-key/letter, Greer #12+teddy, Max overalls key) + e00417 (same, plus lighthouse remember directions).
+Next: 1. South to mill entrance, try south path around wall + examine gate/mill. 2. East Mill Rd to Breakwater→lighthouse (remember path). 3. Help on slaughterhouse-west/steel-key chain if blocked. 4. Checkpoint each milestone. 5. Annotate Jeffrey-slam pair next.
+Checkpoints: master-too-early-sleep, shanty-town-found, plus older: study-records-checked, bum-doctor-william, library-day2-circulation.
+Game incomplete; no winning ending; no quit.

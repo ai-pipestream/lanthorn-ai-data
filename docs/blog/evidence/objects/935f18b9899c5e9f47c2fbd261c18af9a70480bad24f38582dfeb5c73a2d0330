@@ -1,0 +1,29 @@
+# Space Station — collection progress
+
+Location: Xeno Biology Lab (fore of Sector O). Has "Virtual Maze"
+device; exit aft.
+Inventory (observed + taken): translator/chonometer/uniform worn,
+isotopes box closed, TOOLBOX taken (e00034).
+Scooter: docked BG-12, hatch open; slot needs form (finale).
+
+Checkpoints: start-scooter, docked-exit (verified).
+
+Cases:
+- scooter-survey DONE; toolbox-typo PENDING annotation (chain:
+  e00007 typo rejected; e00008 couch-blocked world_state; e00009
+  stand docked; e00010 locked — needs unlock-with-key success later).
+- hallway-dir-synonym ANNOTATED e00019 (vocabulary).
+- fussbudget-wake ANNOTATED e00023 (none — accepted).
+- cage-open: e00025 break refused; e00026 open locked (Fussbudget
+  begs). HELP e00027: take toolbox; Director's office cabinet has
+  key+manual; unlock toolbox with key gives saw/paste/glue/bracelet.
+  Toolbox TAKEN e00034. Annotation after cage opens with tool.
+- scooter-board: "board scooter" e00031 unknown word; "enter
+  scooter" e00032 success. ANNOTATED e00033 (vocabulary).
+- toolbox-take / return-station / return-hallway-n (guided). DONE
+- hallway-east starboard N->O e00038 (exploration). DONE
+- sector-o-fore -> Xeno Biology Lab e00039 (exploration). DONE
+
+Next: map rest (aft, starboard past O; port side of M; tube down at
+N); find Director's office; cabinet key; unlock toolbox; saw cage;
+rescue Fussbudget. Hunger noted e00028 — watch food timer.

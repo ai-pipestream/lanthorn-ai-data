@@ -1,0 +1,16 @@
+# Windhall progress — segment 3 LIVE (branch b2, STUCK on sleep, game incomplete)
+
+STOP POINT: Smithy, Night Day 2 11:36pm+ (e00683), score 101/200 Journeyman, 733 turns. SLEEP REFUSED 15+ times since 7pm ('You aren't tired') despite ~70 waits/walks. No pending broker request; last response m0476/e00688 read.
+Location: Borthur's Smithy (Borthur hammering, hammer on bed). Carrying: pack(worn), shovel head, COOKED fish, hot roll, wine, parchment map. Caches intact (soap+sleep Central; sword+stones field; fireball+metal Forest Bend; bow+tube river; board Southern).
+Score: 101.
+
+Checkpoints (verified Ok): after-cooking-101, mage-95-central, + Test chain (NEW seg3) + older set. Branch b2.
+
+Cases: ~69. Unresolved: none (sleep block is world_state, not yet annotated — annotate once resolved). Through m0476/e00688.
+
+Schedule intel (NEW, from help e00680 recrudescent lines 10-27, r3 guide, verify in r5): Denvil sleeps 3:00 (PM? locked 7pm, open AM — consistent); Creston sleeps 6pm; sunset+Midknight appears 7pm; Solaria rises 8pm; Mielon/Idah sleep 8:30pm (matches 8:27pm lockout!); Lunaria rises 10pm; Baezil/Gunther sleep 11pm; moon eclipse 12am; Borthur sleeps 12:30am; Lunaria sets 2am; Solaria sets + Kytan sleeps 4am. Wizard/Kaela/others never sleep. Kytan wakes 1:30pm (nocturnal!). Denvil wake time UNKNOWN (lines before 10 not yet seen).
+Tiredness mystery: Day 1 tired ~11pm after full active day, slept fine. Day 2 11:36pm + 217 turns since wake (733 total; Test ~60 turns incl.) → NOT tired. Hypotheses: (a) turn-threshold ~450+ (Day1 had 500+ via heavy exploration; Test turns may not count) → need ~230 more active turns; (b) Test exit reset awake-clock (5:30pm 'awake') → tired ~Day3 AM (terrible); (c) Test suspended tiredness daemon (r5 bug). Clock-only gate DISPROVEN (past Day-1 tire time).
+NEXT: GRIND z-batches + sleep retries until tired (guide's own prescription: Wait/Again until tired, e00689; nap wakes later). Then Denvil at morning opening; then idol → maze → book. DO NOT consume sleep scroll or drink wine (quest items). Pointer now Day-3 12:18am (5 days left), ~750 turns.
+WARNING — help pointer is GLOBAL forward-only! mode-next continues from LAST excerpt on ANY topic. Sleep-chain detour pulled pointer to 462 (score breakdown); laundry route lines 267-355 (maze solution, book, Xrfthankrtz, staff, Sun Gem) are BEHIND pointer. NEVER interleave chains: finish one topic's nexts before new topics. Recover maze region later via precise NEW topic (try 'Xrfthankrtz' for book area, 'long maze solution' for maze moves) or map it manually. Late-route intel seen: fireball castable only after 7pm (on metal, 8/162); 'Ask Midknight about sharp'; skin beast (171).
+
+KEY release-5 findings: Idah locks 8:30pm; Denvil locked 7pm (sleeps 3pm?); laundry D2-AM ok; sleep tiredness-gated, Day-1 normal; Denvil wants COOKED; Test strips/restores inventory, consumes rope/snake; Test exit 5:30pm Day 2; post-Test tiredness absent ≥11:36pm (ANOMALY under investigation).

@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-25T06:52:34.497059+00:00",
+  "game_id": "pentari",
+  "events": [
+    {
+      "event_id": "pentari-63be930153:e00129",
+      "timestamp": "2026-09-25T06:49:18.567946+00:00",
+      "game_id": "pentari",
+      "session_id": "pentari-63be930153",
+      "branch_id": "b0",
+      "event_index": 129,
+      "event_type": "command",
+      "command": "look",
+      "response": "\nCastle, Upper Level\nLooking around this large room you are astonished to learn that someone gutted \nthis entire floor.  You are looking out on one, huge room.  No other rooms, no \nwalls of any kind apart from the ones enclosing this gigantic area just nothing \nbut empty room as far as you can see.\n\nIn the center of the floor a circle perhaps 30 feet in diameter is outlined in \nthe floor with ash.  The inside of the circle is ringed with many odd symbols \nyou can't begin to identify.  The acrid smell of something burning assaults \nyour nostrils.\n\nA box made of solid platinum is sitting on the floor here.\nOn top is a small emerald.\n\n   \nThe platinum box and the small emerald crowning it glows a very bright green \naccompanied by what sounds like a chorus of singing angels! \n\nA man is materializing in the room, at first projected by a ray of green power \nemanating from the small emerald but in mere seconds the ray is gone and the \nman is here...\n\nHe is garbed in the tabbard of Bostwin and he sports a cape which is only \nreserved for high officers and nobility! Looking around the room he suddenly \nlooks distressed and exclaims \"My castle.  What the hell happened to my \ncastle?! Well nevermind that, I'm here and that means it's payback time to a \ncertain bastard who should still be wandering around my castle.\" and with that \nhe holds out his once-empty hand which is instantly occupied by a familiar \njewel-encrusted dagger. \"After that, I may actually resume my official duties \nas duke. But let me not forget you...\" pausing to look at the rank on your \nuniform, \"Captain.  Should my peers of this age find it agreeable I will resume \nmy noble office as befits my rank and appoint you the Captain of my personal \nguard! My many thanks to you for freeing me from the hell of that limbo prison \nI was contained in.  Now if you'll excuse me...\" \n\nLord Galin dashes out of the room wearing a big grin on his face, which is \nshortly followed by the shocked bellow of outrage of a certain Dark Elf and \nthen the loud THUD of what must be a dead body.  In the distance you hear \nGalin's voice laughing merrily...\n\n\n\n    *** You have won ***\n\n\nIn that game you scored 60 out of a possible 70, in 87 turns.\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT?\n[Score 60, up 15]\n> ",
+      "raw_start": 19866,
+      "raw_end": 22182,
+      "response_sha256": "a9fc881dd0f4301c373751dc9ea1a5aafa4bed6610c0da8522767f0fe3c66b0a",
+      "story_sha256": "bbc8b30fa17089166698ed22740ab15be179babebec5252d07eb5260f1aa1316",
+      "engine_state": "awaiting_input_or_idle",
+      "metadata": {
+        "_fleet_session_id": "pentari-63be930153",
+        "case_id": "final-look",
+        "expected_outcome": "Concluding narrative after placing the emerald on the box",
+        "intent": "Look around after placing the emerald to witness the conclusion",
+        "origin": "exploration"
+      },
+      "review_status": "unreviewed"
+    }
+  ],
+  "verdict": "Lord Galin freed, captain rewarded, final confrontation and explicit win/finalmenu, 60/70. No coverage claim; independent review pending."
+}

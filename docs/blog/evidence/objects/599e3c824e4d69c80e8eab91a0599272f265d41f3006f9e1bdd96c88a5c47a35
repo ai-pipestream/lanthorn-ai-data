@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-09-25T03:54:17.249046+00:00",
+  "target": 10,
+  "workers": {
+    "zork-i7": [
+      307329
+    ],
+    "dreamhold": [
+      427838
+    ],
+    "bronze": [
+      428080
+    ],
+    "curses": [
+      908334
+    ],
+    "theatre": [
+      908515
+    ],
+    "secret-mission": [
+      1255058
+    ],
+    "savoir-faire": [
+      1256997
+    ],
+    "anchorhead": [
+      1431743
+    ],
+    "balances": [
+      1446704
+    ],
+    "spider-and-web": [
+      1458912
+    ]
+  },
+  "attention": [],
+  "queued": [
+    "so-far",
+    "hunter-in-darkness",
+    "jigsaw"
+  ]
+}

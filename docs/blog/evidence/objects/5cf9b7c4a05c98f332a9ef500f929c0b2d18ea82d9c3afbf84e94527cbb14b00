@@ -1,0 +1,9 @@
+# Ghost Train progress — active, game incomplete
+
+Location: Bell Tower belfry (e00305) — bronze bell, books/parchments, got Parchment of Demon + Potts diary.
+Inventory: lamp lit, necklace, rusty/brass/black keys, punched ticket, Parchment of Demon (e285), Potts diary (e304).
+Checkpoints: start; before-signalbox; signalbox-inside; after-lever-pull; underground-entrance; waiting-room; second-train-red; cab-before-stop; cemetery-halt; chapel-inside.
+Last hint: lines 126-134 (GET/X PARCHMENT done; X BOOKS search; R4 SEARCH GORGON->GET EXORCISM fails in R7; CLIMB ROPE down, WEST+SOUTH leave).
+Resolved: x pews e276; x lectern e277; east e278 bell room; pull rope e279 rings only -> climb e281 belfry (m0263 planning); x books e283 search(name); get+x parchment e285-286 demon road/St Gorgons Hell; search variants fail (gorgon e287/290/294, search(gorgon) e288 not verb, look up e292 confusing, Search Exorcism/Hell can't see, Search Demon empty e299); Search Potts e303 diary -> get e304 -> x e305 exorcism Baskerville Holt, walk church 3x anticlockwise.
+Unresolved: R7 exorcism retrieval (try Baskerville/Holt/Ingrid/Christmas), climb down, church circuit, third train + demon escape (60-turn window checkpoint before).
+Next: Search Baskerville; Search Holt; Search Ingrid; single commands. Continuation: read latest.json (e305) + progress.md, resume belfry prompt.

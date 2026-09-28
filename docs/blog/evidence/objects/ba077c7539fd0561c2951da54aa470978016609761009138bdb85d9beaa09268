@@ -1,0 +1,18 @@
+# Spider and Web — COMPLETE (best ending, b19 e781)
+
+## Final state
+- WINNING ENDING reached on branch b19, event e781: teleporter escape from the lab with the research papers as guards blast in. Banner: `*** You have made a difference ***` (distinct from death banner `*** You have failed ***`). Walkthrough calls this the "best" ending.
+- Finish filed with evidence e781 + exact ending quote. Post-ending probe branch b20 (restored `papers`) used only for 3 extra repair cases; ending evidence on b19 untouched.
+- 23 annotated repair cases total (target 20-40): 9 pre-existing + 3 new lab cases (b18 typo-console, web-ambiguity; b19 cupboard-syn) + 8 early-game backlog (alley-door-syn1, alley-plate-syn2, hole-examine-syn6, hanging-up-syn8, lab-listen-syn9, annex-listen-syn11, annex-north-syn12, chair-sit-syn) + 3 b20 lab probes (button-ambiguity, typo-display, open-bare).
+- Not annotated (no clean intent-preserving correction found): lab-open-syn10, lab-plate-touch (early visit; solution came much later cross-branch), office-cabinet-syn (locked, never opened), segment-3 shorthand backlog (timer/voice/blip/Diagonal/tango-acid/guard-vent-gun) — skipped to avoid mislabeled pairs; inventory of probes preserved in events.
+
+## Segment 4 route (b16 e709 → b19 e781)
+- SE → Sharp Corner (3 guards standing, 3 down). Walkthrough's early-lab "Listen/Again" excerpt does NOT apply here: listen (e714) and shoot-guards (e718) both die ("Hesitating when surrounded"). Correct move: N immediately (e723 Lab Junction), NW (e724 Outside Laboratory).
+- X door (standard plate) → put rod on plate → wait x3 (guards debate, grenade talk) → door opens → get rod + W → Laboratory, door booms shut (e733). Checkpoint in-lab.
+- Lab has ~6-turn guard break-in timer (e744 death). Guard-delay per walkthrough 301-302: Open panel, Shoot layer (subcircuitry sparks, door jammed).
+- Search table → Get papers + logic plate → Read papers → checkpoint papers.
+- Take-with-you ("best") ending: Open cabinet (cupboard rejected) → Put plate in cabinet → Close cabinet → X console → Push upper (Ready) → X display → Push oval (destination scrambled) → Open flap → checkpoint takeit → Push lower (pulse in 5) → Enter platform → Close flap (pulse in 3) → Read papers (pulse in 2) → checkpoint end1 → Wait (pulse in 1) → G → escape pulse, ending.
+- Checkpoints: sharp-corner, outside-lab, in-lab, papers, takeit, end1 (+ all prior).
+
+## Inventory at end (observed)
+- Carrying: papers stack, gun, lockpick, pen, scan scrambler+timer, key/voice transmitters, minilamp, toggle, pushbutton, toolcase, radio module. Logic plate installed in cabinet. Package/acid left spent in duct/chair history.

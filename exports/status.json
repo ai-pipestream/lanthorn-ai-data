@@ -1,0 +1,11 @@
+{
+  "exported_at": "2026-09-28T01:30:30.799Z",
+  "events": 84877,
+  "cases": 6322,
+  "review_status": "unreviewed",
+  "purpose": "Synthetic test data, not a measure of model playing skill",
+  "files": [
+    "events.csv",
+    "test-cases.csv"
+  ]
+}

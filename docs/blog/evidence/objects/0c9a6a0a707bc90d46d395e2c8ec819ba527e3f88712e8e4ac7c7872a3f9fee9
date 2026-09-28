@@ -1,0 +1,8 @@
+# Frozen progress (branch b1 after chasm-death restore)
+
+Location: Library north of Entry (e00097). Glowing page taken (e00098) and read (e00099): spidery script, picture of circle atop pentagram, word 'Rexal'.
+Inventory as observed: wearing amulet (b0 e00082-83, restored to b1); carrying glowing page (e00098). Calendar left in Lab.
+Cases annotated (15): + yard-chasm-jump (world_state failure e00087->e00091 b0 death, restored b1). Pending: library-page-take (e00098 Taken success), library-page-read (e00099 text success), yard-body-take (e00080 crumble success), yard-go-north/entry-go-north (exploration successes).
+Last hint m0082 lines 6-14 ended at Library header; need next excerpt for Rexal/page use.
+Checkpoints verified: start-lab, third-floor, before-basement-door, in-lab, pentagram, front-yard (b1 restore e00092-94), library (e00100-101).
+IN-FLIGHT: none. Next: help topic Library glowing page Rexal circle pentagram, then probe `say Rexal` vs canonical. Game NOT complete; death b0 distinguished from ending; no finish submitted.

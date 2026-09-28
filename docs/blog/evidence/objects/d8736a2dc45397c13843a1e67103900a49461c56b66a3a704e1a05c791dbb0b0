@@ -1,0 +1,24 @@
+{
+  "event_id": "zork-i7-05114e1aff:e02123",
+  "timestamp": "2026-09-25T08:23:30.398149+00:00",
+  "game_id": "zork-i7",
+  "session_id": "zork-i7-05114e1aff",
+  "branch_id": "b129",
+  "event_index": 2123,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 2956181,
+  "raw_end": 2956181,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "d6cdd016a999cc8abeb43e6a0e05487b7bb76b344e5f6e0a1ce9aaa42f39c932",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "*** You have won ***\n\n\nIn that game you scored 716 out of a possible 716, in 1644 turns, earning you the rank of Dungeon Master.",
+    "evidence_event_ids": [
+      "zork-i7-05114e1aff:e02122"
+    ],
+    "notes": "Genuine winning ending in Treasury of Zork: Dungeon Master materializes, taps player with staff, transformation text, then '*** You have won ***' with 716/716 and rank Dungeon Master. Not death (no Hades/spirit, no -10), not quitting (no quit command, game offers RESTART/RESTORE/QUIT/UNDO after win), not intermediate score (prior 681 cell entry had no ending text; this has full concluding narrative plus max score). Branch b129, 1644 turns."
+  },
+  "review_status": "unreviewed"
+}

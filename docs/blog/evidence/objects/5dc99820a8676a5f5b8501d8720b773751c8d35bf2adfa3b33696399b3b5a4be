@@ -1,0 +1,10 @@
+# Frozen progress (game incomplete, branch b9 ON star+circle placed; m0775 PENDING — do not resubmit)
+
+Location (latest e01079 at 2026-09-26T01:11:21.568888+00:00): Pentagram Room ON with fresh star sand + circle page placed (put circle page confirmed e01079), holding book+amulet worn+bottle. m0774 DONE.
+m0775 PENDING (inbox/m0775.json: inventory ON after circle placed). Compared basis e01079 with latest.json (still e01079); response absent — pending, not failure. NEVER resubmit m0775 or duplicate m0688-m0775.
+Continuation: read responses/m0775.json first; expect book+amulet+bottle held. Then look ON + drop book ON + look. Else checkpoint and help post-pour with broader topic for walkthrough head.
+
+Status: m0769 DONE clear (e01074). m0770 DONE inventory fresh (e01075). m0771 DONE enter fresh ON (e01076). m0772 DONE pour fresh star (e01077). m0773 DONE look ON silver only (e01078). m0774 DONE put circle ON (e01079).
+Findings: Placed-enter-pour (e01052) and fresh hold-enter-pour (e01077) identical star sha b57e, no figure in pour or look. Figure absent all states (x can't-see; show animate-only sha ea3efdd0 even for dragon control e01045). Double-pour death text proves spirit exists at death (eyes widen, lights arrow from amulet) though invisible after single pour. Square/circle single pours safe; take sand refills. Library sweep negative (e01068). 29-line guide tail only (lines 19-27); head still needed for figure summon in R1/960620.
+Next: 1) Read m0775. 2) look ON. 3) drop book ON + look. 4) Help with broader early-game topic to get walkthrough head, not pentagram tail. Keep b9-off-base + b7-on-star-final restores.
+Checkpoints: b7-on-star-final retained. b9-off-base verified (OFF book+circle, bottle full, no star, e01049-50). Save only at ordinary prompts, verify success. Stopped honestly pending broker, not death/quitting/ending.

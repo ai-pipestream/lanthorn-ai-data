@@ -1,0 +1,396 @@
+{
+  "at": "2026-09-25T06:29:44.142614+00:00",
+  "local_count": 9,
+  "remote_count": 24,
+  "hosts": [
+    {
+      "host": "cm5ai1",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "asylum",
+          "pid": 109701
+        },
+        {
+          "game": "frozen",
+          "pid": 112364
+        },
+        {
+          "game": "spiritwrak",
+          "pid": 115278
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "cm5v1",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "enemies",
+          "pid": 13675
+        },
+        {
+          "game": "nine-points",
+          "pid": 8023
+        },
+        {
+          "game": "pentari",
+          "pid": 8037
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "cm5v2",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "heist",
+          "pid": 41066
+        },
+        {
+          "game": "night-at-the-computer-center",
+          "pid": 41104
+        },
+        {
+          "game": "all-quiet-on-the-library-front",
+          "pid": 41065
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "krickert@cm5v3.local",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "vindaloo",
+          "pid": 42985
+        },
+        {
+          "game": "i-0",
+          "pid": 42968
+        },
+        {
+          "game": "gerbil-riot",
+          "pid": 42969
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "pi500p",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "beyond-the-tesseract",
+          "pid": 4388
+        },
+        {
+          "game": "tube-trouble",
+          "pid": 4413
+        },
+        {
+          "game": "slacker-x",
+          "pid": 6827
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "pi5ai1",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "heroines-mantle",
+          "pid": 7679
+        },
+        {
+          "game": "return-to-karn",
+          "pid": 7667
+        },
+        {
+          "game": "kook-u",
+          "pid": 7704
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "krickert@pi5ai2p.local",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "zuni-doll",
+          "pid": 145410
+        },
+        {
+          "game": "only-after-dark",
+          "pid": 131173
+        },
+        {
+          "game": "dracula-prince-of-darkness",
+          "pid": 138805
+        }
+      ],
+      "error": ""
+    },
+    {
+      "host": "pi5v2",
+      "exit": 0,
+      "workers": [
+        {
+          "game": "space-station",
+          "pid": 113084
+        },
+        {
+          "game": "save-princeton",
+          "pid": 113072
+        },
+        {
+          "game": "deephome",
+          "pid": 113055
+        }
+      ],
+      "error": ""
+    }
+  ],
+  "games": [
+    {
+      "game": "curses",
+      "brokers": 1,
+      "last": "curses-4e1875ea4e:e01872",
+      "time": "2026-09-25T06:28:51.067814+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "zork-i7",
+      "brokers": 1,
+      "last": "zork-i7-05114e1aff:e01376",
+      "time": "2026-09-25T06:29:41.798961+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "jigsaw",
+      "brokers": 1,
+      "last": "jigsaw-673cabd620:e01247",
+      "time": "2026-09-25T06:29:40.269873+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "tryst-of-fate",
+      "brokers": 1,
+      "last": "tryst-of-fate-21296bfe76:e00436",
+      "time": "2026-09-25T06:29:41.487279+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "delusions",
+      "brokers": 1,
+      "last": "delusions-07b4a7fbbe:e00352",
+      "time": "2026-09-25T06:29:43.046946+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "childs-play",
+      "brokers": 1,
+      "last": "childs-play-936dc938bb:e00328",
+      "time": "2026-09-25T06:29:40.076956+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "moon-shaped",
+      "brokers": 1,
+      "last": "moon-shaped-ba4995ebc4:e00371",
+      "time": "2026-09-25T06:29:42.382139+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "the-edifice",
+      "brokers": 1,
+      "last": "the-edifice-79519f86df:e00098",
+      "time": "2026-09-25T06:29:38.970287+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "anchorhead",
+      "brokers": 1,
+      "last": "anchorhead-2c1c588159:e00007",
+      "time": "2026-09-25T06:29:40.874376+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "frozen",
+      "brokers": 1,
+      "last": "frozen-a2e5d2eea9:e00084",
+      "time": "2026-09-25T06:29:29.518300+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "spiritwrak",
+      "brokers": 1,
+      "last": "spiritwrak-8e02d83255:e00059",
+      "time": "2026-09-25T06:28:36.956957+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "asylum",
+      "brokers": 1,
+      "last": "asylum-0815a6d270:e00059",
+      "time": "2026-09-25T06:29:42.023166+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "pentari",
+      "brokers": 1,
+      "last": "pentari-63be930153:e00060",
+      "time": "2026-09-25T06:29:42.056760+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "nine-points",
+      "brokers": 1,
+      "last": "nine-points-013d843149:e00065",
+      "time": "2026-09-25T06:29:06.455431+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "enemies",
+      "brokers": 1,
+      "last": "enemies-0b4aba49fe:e00062",
+      "time": "2026-09-25T06:29:18.512241+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "heist",
+      "brokers": 1,
+      "last": "heist-a079eba445:e00054",
+      "time": "2026-09-25T06:29:35.805696+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "all-quiet-on-the-library-front",
+      "brokers": 1,
+      "last": "all-quiet-on-the-library-front-a0c0a11bad:e00054",
+      "time": "2026-09-25T06:29:42.289933+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "night-at-the-computer-center",
+      "brokers": 1,
+      "last": "night-at-the-computer-center-d16c3b6cd5:e00055",
+      "time": "2026-09-25T06:29:42.345813+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "vindaloo",
+      "brokers": 1,
+      "last": "vindaloo-85744e25ee:e00062",
+      "time": "2026-09-25T06:29:30.416078+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "gerbil-riot",
+      "brokers": 1,
+      "last": "gerbil-riot-f0779de162:e00064",
+      "time": "2026-09-25T06:29:42.211173+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "i-0",
+      "brokers": 1,
+      "last": "i-0-d1ac7729bb:e00049",
+      "time": "2026-09-25T06:29:42.535741+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "tube-trouble",
+      "brokers": 1,
+      "last": "tube-trouble-1b2d95be53:e00063",
+      "time": "2026-09-25T06:29:18.738046+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "slacker-x",
+      "brokers": 1,
+      "last": "slacker-x-70f303cb52:e00048",
+      "time": "2026-09-25T06:29:30.153810+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "beyond-the-tesseract",
+      "brokers": 1,
+      "last": "beyond-the-tesseract-26b2abc71c:e00057",
+      "time": "2026-09-25T06:29:29.884306+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "return-to-karn",
+      "brokers": 1,
+      "last": "return-to-karn-bf86b7da19:e00065",
+      "time": "2026-09-25T06:29:42.316540+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "heroines-mantle",
+      "brokers": 1,
+      "last": "heroines-mantle-4053f4fad7:e00059",
+      "time": "2026-09-25T06:29:30.018965+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "kook-u",
+      "brokers": 1,
+      "last": "kook-u-489e2b24ed:e00053",
+      "time": "2026-09-25T06:28:01.095780+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "only-after-dark",
+      "brokers": 1,
+      "last": "only-after-dark-612a20ec77:e00063",
+      "time": "2026-09-25T06:29:30.547692+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "dracula-prince-of-darkness",
+      "brokers": 1,
+      "last": "dracula-prince-of-darkness-d75c304699:e00055",
+      "time": "2026-09-25T06:29:36.986959+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "zuni-doll",
+      "brokers": 1,
+      "last": "zuni-doll-16d63fd0ac:e00060",
+      "time": "2026-09-25T06:29:30.535111+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "deephome",
+      "brokers": 1,
+      "last": "deephome-56e3d50bda:e00061",
+      "time": "2026-09-25T06:29:36.750224+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "save-princeton",
+      "brokers": 1,
+      "last": "save-princeton-e0a2654e41:e00058",
+      "time": "2026-09-25T06:29:30.650612+00:00",
+      "input_state": "awaiting_input_or_idle"
+    },
+    {
+      "game": "space-station",
+      "brokers": 1,
+      "last": "space-station-b15ae148d4:e00048",
+      "time": "2026-09-25T06:29:42.911353+00:00",
+      "input_state": "awaiting_input_or_idle"
+    }
+  ],
+  "fleet_errors": [],
+  "watchers": [
+    2883706
+  ]
+}

@@ -1,0 +1,5 @@
+# Collection notes
+
+Curses R16/951024; guide explicitly for1.6/R16. Even with matching release, verify each command against actual output. Long multi-area puzzles: save at milestones and stop after the substantive ending, not a completionist points sweep.
+
+First inspect current startup: answer any key pause or question before saving. Use small broker walkthrough hints. Label synthetic human-like mistakes and verify same-intent recovery effects. Keep coverage varied; do not repeat known failures merely to make more rows. A displayed menu requires its own navigation/exit before ordinary commands. Write progress only to progress.md, never to inbox/*.json; requests must be complete JSON. No training, application changes or publication.

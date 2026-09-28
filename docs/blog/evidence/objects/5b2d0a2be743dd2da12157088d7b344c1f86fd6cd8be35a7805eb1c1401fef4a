@@ -1,0 +1,30 @@
+# Progress — muse-autumn-romance (continuation segment 2) — IN PLAY
+
+## Current state (after m0247 / e00276) — game INCOMPLETE
+- Location: Beach Wall coffee scene (Father LeBrun + Maurice Roget at table, e00274).
+- Story: PUZZLE ONE SOLVED. Told Viktor about daughter (R2 topic is 'daughter', e00202; he will speak with her); told Konstanza about Viktor (e00210; she left). Introduced John to Konstanza on beach (e00215); fetched sketchbook from Yvette (Public House east of lobby); John sketched (e00233) then is painting Konstanza (she agreed to pose, e00258); waited for out-of-place cue (e00260); returned sketchbook (e00262). Coffee scene triggered on Beach Wall (e00263): Rene introduced Maurice Roget (telegraph/newsagent). Telegraph Office visited (n of Cobbles); north to John's room blocked — "John was not in... poor taste" (e00269). Newsagent absent from shop (e00270) — Maurice is at coffee instead.
+- Carrying (inferred, VERIFY with inventory on resume): pocket New Testament only (journal returned to Viktor; sketchbook returned to John).
+- NPCs: John + Konstanza on beach (painting); Viktor room 3 (reconciled, e00241); Rene lobby; Yvette pub; LeBrun + Maurice Beach Wall.
+
+## Cases (segment 2: 7 annotated, 0 open)
+- room3-tell-viktor-her (ambiguity, e00197→e00202): 'her' defaulted; 'daughter' worked. NOTE: guide-literal 'tell Viktor about Konstanza' ALSO defaulted (e00198) — R2 topic difference.
+- beachwall-john-paint-konstanza (e00213→e00233, labeled vocabulary): LABEL DISPUTED — e00258 later proved 'john, paint konstanza' SUCCEEDS once prerequisites hold (introduction + sketch + showing sketch). So e00213's seascape-default failure was world_state (missing prerequisites), not verb vocabulary. 'draw' vs 'paint' both address the subject. Reviewers: prefer world_state reading; the 'draw' suggestion still valid.
+- pub-ask-yvette-sketchbook (vocabulary typo sketchbok→sketchbook, e00222→e00223).
+- beach-give-book-john (none: 'give book to john' → pocketed sketchbook, e00231).
+- room3-ask-viktor-konstanza3 (natural, vocabulary: 'Konstanza'→'daughter', e00240→e00241; reconciliation confirmed).
+- pub-yvette-meal-food (none: 'ask yvette for food' served meal, e00247).
+- beach-take-sketchbook-john (world_state: take→ask-for, e00254→e00255).
+- beachwall-ask-roget-john (none: surname recognised; John lodges with Maurice, proud, e00275).
+- Segment 1: 43 annotated. NEVER 'smell meal' (guide warns Frotz crash).
+
+## Hints (last: e00265, lines 213-221)
+- n w n n / introduce myself to newsagent / ask Maurice about John / n (John isn't here). Done except newsagent-absent deviation (Maurice at coffee; asked there instead).
+
+## Checkpoints (all verified)
+- pier-start; inn-lobby; day2-morning; truth-revealed; viktor-told (m0199); sketchbook-fetched (m0216).
+
+## Resume plan (do NOT restart; branch b0)
+1. Read latest.json + this file; confirm Beach Wall coffee scene.
+2. inventory (verify New Testament only).
+3. help mode=next (lines 222+) for post-Maurice steps; expect Emma/cheque/pay-John and trunk/final-downward-exit beats.
+4. Finish only with genuine epilogue quote + event IDs.

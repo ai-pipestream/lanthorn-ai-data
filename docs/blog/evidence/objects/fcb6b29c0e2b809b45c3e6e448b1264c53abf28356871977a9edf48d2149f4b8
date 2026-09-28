@@ -1,0 +1,17 @@
+{
+  "story": "schooldays.z5",
+  "guide": "sd-walkthrough.txt",
+  "url": "https://ifarchive.org/if-archive/solutions/sd-walkthrough.txt",
+  "accessed_at": "2026-09-25T06:03:22.187122+00:00",
+  "curl_exit": 0,
+  "version": 5,
+  "release": 3,
+  "serial": "092800",
+  "sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+  "bytes": 192000,
+  "header_hex": "05020003a9b4a9b576c2010a5f116ab300503039323830300042bb1a76f2000000000000000000000000000000000000000000000000010200000000362e3134",
+  "story_download_url": "https://ifarchive.org/if-archive/games/zcode/schooldays.z5",
+  "story_accessed_at": "2026-09-25T06:03:44.445165+00:00",
+  "downloaded_story_sha256": "7b271ab3e8c51daad86f8e825ac315a21d9c086f38614e28f02e3d0b0ffccf80",
+  "download_matches_local": true
+}

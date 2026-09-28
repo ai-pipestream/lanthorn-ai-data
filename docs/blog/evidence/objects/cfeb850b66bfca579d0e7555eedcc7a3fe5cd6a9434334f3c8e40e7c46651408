@@ -1,0 +1,89 @@
+{
+  "game_id": "mansion",
+  "title": "Mansion",
+  "author": "Derek Barley (Tercel)",
+  "url": "https://ifarchive.org/if-archive/solutions/mansion.sol",
+  "accessed_at": "2026-09-25T06:11:49.521143+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/mansion.sol",
+  "source_sha256": "ce444563b616e8789da66c8844db9de427c4fca1319c82d623ca7937f4405659",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/mansion-walkthrough.txt",
+  "normalized_sha256": "ce444563b616e8789da66c8844db9de427c4fca1319c82d623ca7937f4405659",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "CRLF and CR to LF only; preserve content and final newline state"
+  },
+  "story": "/home/krickert/if-games/zcode/Mansion.z5",
+  "story_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+  "compatibility": "Local R3/260803 and archive story are byte-identical. Archive game entry credits tercel while the guide credits Derek Barley; both link IFDB bpk1o1ver1er00k, whose author credit, Brookes premise, R3 download and Tercel release announcement resolve the apparent author mismatch. Guide archived 2022 gives no release/serial and predates R3. IFDB reports a torch-manipulation bug and version 4 under production (2026-09-13); this does not establish whether the pinned route triggers it.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 3,
+  "serial": "260803",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000003569856993cf6010a2abf34810050323630383033004285c0f95f000000000000000000000000000000003480000000000000010200000000362e3331",
+    "header_sha256": "a06088886ecd76920862b0bb2c3a786c1e451ffedb535cad0cccc58507f36bab",
+    "checksum_hex": "f95f",
+    "declared_length": 136960,
+    "file_bytes": 137216
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified",
+  "story_identity": {
+    "filename": "Mansion.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/Mansion.z5",
+    "accessed_at": "2026-09-25T06:14:20.939916+00:00",
+    "remote_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "local_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "bytes": 137216,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 3,
+    "remote_serial": "260803"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#Mansion.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "Mansion.z5\n◆\n[03-Aug-2026]\nIFDB entry\nMansion, by tercel.\nVersion 3 / serial code 260803",
+    "tuid": "bpk1o1ver1er00k"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/solutions/#mansion.sol",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/solutions-index.html",
+    "snapshot_sha256": "245a35bbe4921bdf072b4aa94e6dc1d1a4a9f29d2d050c441b043bab19dab538",
+    "entry_text": "mansion.sol\n◆\n[06-Apr-2022]\nIFDB entry\nIFWiki:\nMansion_(by_Barley)\nSolution to the Z-code game Mansion by the game's\nauthor, Derek Barley.",
+    "tuid": "bpk1o1ver1er00k"
+  },
+  "guide_review": {
+    "body_read": true,
+    "route_summary": "Follow the full Gharston Hall/Brookes investigation and remedy route through the final mixture, Brookes encounter and rose, then require the actual narrative resolving the property conflict. Taking a rose, finding forged documents or reaching a score alone does not prove the conclusion.",
+    "limitations": "Guide is a long command list without explanations. Verify torch/battery state especially carefully, save before torch manipulation, and report inconsistencies to the parent rather than claiming a newer release or inventing a repair. Reported R1 completion bugs are historical; they do not prove the pinned R3 is blocked. Current R3 torch issue remains unresolved without runtime evidence.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "mansion",
+  "family_review": {
+    "uncertain": true,
+    "parent_review_required": true,
+    "rationale": "House/inheritance tropes do not establish shared puzzles with Curses or Nine Points. Keep Mansion releases together; provisional standalone family pending any concrete reuse evidence."
+  },
+  "reuse_claims_observed": "No reuse permission established. Public availability and freeware descriptions do not establish training or redistribution permission.",
+  "additional_identity_evidence": {
+    "fetch": {
+      "filename": "mansion-ifdb.html",
+      "url": "https://ifdb.org/viewgame?id=bpk1o1ver1er00k",
+      "http_result": "200 https://ifdb.org/viewgame?id=bpk1o1ver1er00k",
+      "accessed_at": "2026-09-25T06:13:51.116288+00:00",
+      "sha256": "d4b45aabe8d9b8b1e73f8bb127d9678207c171e35cf2fca4d7c65e7eb036f7d5",
+      "bytes": 38804
+    },
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/mansion-ifdb.html",
+    "summary": "IFDB author is Derek Barley; game description names Brookes; R3 download links Mansion.z5. Tercel first-person release-2 announcement resolves the apparent author-name mismatch. A September 2026 news item flags torch manipulation and planned R4. No claim of fixed R3 runtime behavior."
+  }
+}

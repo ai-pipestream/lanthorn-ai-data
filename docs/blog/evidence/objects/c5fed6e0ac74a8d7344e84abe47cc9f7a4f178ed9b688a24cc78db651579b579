@@ -1,0 +1,19 @@
+# Heroine's Mantle — progress (continuation checkpoint)
+
+Current location: Roof, east side, Score 32, Moves 154 (e00339)
+Description: climbed back up cable with hands free; flagpole cable cut free; numb hands, brushed snow off concrete.
+Inventory as observed: taser in bra (stowed e00338); vidphone in bra (e00335); knife in bra (e00321); cable still tied? (tied e00319; untie pending); bubblegum in bra; chain/bracelet worn; chip+disc in office laptop; dress+jacket wedging office sliding door; blue dress rope in shaft; brush in Lift Shaft.
+Branch: b0. Checkpoints verified: start-drowning, jetty-rescue, cocktail-start, presentation-amy, washroom-secure, presentation-baron, bathroom-perfume, cocktail-lift, lift-paper, lobby-disc, s21, s25, roof-hatch-open, penthouse-duct, laptop-loaded, s28, roof-east-cable, roof-descent-ready.
+
+Cases since last update (all synthetic_probe unless noted; annotated):
+- balcony-guard-route (guided e00328; shoot guard, Score 31 Moves 148)
+- roof-go-down-probe (none e00327+e00329; go down = d to Balcony, Score 29 Moves 147)
+- balcony-examine-bodyguard-probe (none e00330-331; examine bodyguard = x guard, Moves 149)
+- balcony-get-vidphone-probe (none e00333-334; get vidphone = get phone, Score 32 Moves 150)
+- balcony-stow-phone-probe (none e00335-336; put phone in bra vs put all, Moves 151)
+- balcony-go-up-probe (world_state e00337 fail + e00339 success, annotated e00340; first go up blocked 'both hands free' with taser held Moves 152; stowed taser e00338 Moves 153; retry climbed to Roof east Moves 154)
+- pending: none; next: untie cable
+
+Last hints (walkthrough, NOT observed): e00332 lines 197-205 (get phone; put all in bra; u; untie cable then drop it; cable hangs to balcony; sw d w; save s32). Done through u (with taser-stow detour). Next prescribed: untie cable then drop it.
+
+On resume: read latest.json (expect e00339/e00340 on b0); continue on Roof east with untie cable; help mode=next when excerpt exhausted. Game incomplete — Crusader/helicopter finale per manifest still required; no finish evidence.

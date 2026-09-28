@@ -1,0 +1,8 @@
+# Save Princeton — progress
+
+State: WaWa Market (from Dinky SW). e00120 'get battery' Taken (no pay prompt). m0103 'inventory' pending. Do NOT resubmit; read responses/m0103.json.
+Inventory (observed): poster, wooden key (used), hairdryer, food-like item, glass, dusty note, earplugs (25), USA Today bought (paper useless, leave it), coins (change Taken e00109), battery just Taken e00120 (40c special perpetual). $1 spent. Score 30.
+Checkpoints: start-common-room; after-poster; rocky-room; dining-room; wprb-earplugs; dinky-change (e00114-115 verified).
+Cases: ~26 through e00120. Recent: dinky-coin-return none, dinky-take-paper planning (paper useless, take change), wawa battery 40c found.
+Last hint e00117 lines 18-26: buy one item you have enough for (examine each), leave store back to Joline, north show poster to Jock (don't give), south get dryer ready, turn on, put poster on...
+Next: confirm inventory, examine MPHBSD if needed, pay or leave, back to Joline/Jock/poster-dryer. Need 20-40 cases; at ~26, keep diverse but focus route. Score 30.

@@ -1,0 +1,71 @@
+{
+  "snapshot_id": "20260925T092601.202521Z",
+  "games": [
+    {
+      "game_id": "time-all-things-come-to-an-end",
+      "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+      "disposition": "continue",
+      "evidence_event_ids": [
+        "time-all-things-come-to-an-end-fad9ab092f:e00189",
+        "time-all-things-come-to-an-end-fad9ab092f:e00194",
+        "time-all-things-come-to-an-end-fad9ab092f:e00196",
+        "time-all-things-come-to-an-end-fad9ab092f:e00197",
+        "time-all-things-come-to-an-end-fad9ab092f:e00202"
+      ],
+      "reason": "Healthy local session on actual state: launcher pid 532950 and broker pid 532921 present, latest actual input state awaiting_input_or_idle, no pending requests, no hold, no ending claim. Fresh collector-verified raw shows continued active play on branch b0: rope cut and taken (e00189), backyard re-looked (e00196), fire escape examined with 'no way to get up there' (e00197), and estate exits confirmed as only north/northeast (e00202). The hinted pipe remains unlocated (repeated can't-see on examine/bend pipe), so the worker is\u63a2\u7d22ing around an unresolved puzzle dependency. The e00194 walkthrough excerpt is source advice, not player observation; the pipe's existence in this branch is unverified. This is ordinary gameplay uncertainty, not a process or transport fault.",
+      "next_action": "Monitor/continue. Allow the worker to keep its current search from the Housing Estate/side/backyard and checkpoint at an ordinary prompt when a route is secured. No interference, no commands from coordination.",
+      "confidence": "high"
+    },
+    {
+      "game_id": "enemies",
+      "session_id": "enemies-0b4aba49fe",
+      "disposition": "continue",
+      "evidence_event_ids": [
+        "enemies-0b4aba49fe:e00480",
+        "enemies-0b4aba49fe:e00493",
+        "enemies-0b4aba49fe:e00495",
+        "enemies-0b4aba49fe:e00496",
+        "enemies-0b4aba49fe:e00497"
+      ],
+      "reason": "Healthy remote session on cm5v1 per actual process state: worker pid 67177 and muse pid 81812 alive, state running, log mtime current (\u224809:25:54Z), last_sync 09:25:55Z, broker 3094159 up, no pending requests, ordinary '>' prompt. Fresh verified events show it executing its own stated plan after the Screen Four transition (e00493): z/time passes (e00495), get up (e00496), south to Foyer with toilets on each side (e00497). Score 33; progress explicitly states ending NOT reached and no finish claim exists. Unannotated synthetic probes (e.g., e00494) are bookkeeping, not a blocker. Hint excerpts remain source advice, not observation.",
+      "next_action": "Monitor/continue. The worker is mid-plan at the Foyer ordinary prompt; no interference. Milestone checkpointing only at ordinary prompts remains its own documented practice.",
+      "confidence": "high"
+    },
+    {
+      "game_id": "traffic",
+      "session_id": "traffic-dc40d385c3",
+      "disposition": "verify_ending",
+      "evidence_event_ids": [
+        "traffic-dc40d385c3:e00222",
+        "traffic-dc40d385c3:e00230",
+        "traffic-dc40d385c3:e00233",
+        "traffic-dc40d385c3:e00234"
+      ],
+      "reason": "Remote worker finished with exit 0 at 09:15:10Z; the assignment is complete and traffic no longer appears among active remote game ids, so its compute slot was already released and automatically refilled before any certification. The ending claim e00234 is backed by exact concluding raw output in e00233: full concluding narrative (no speeding car in the revised present, Loomis Bank father turned in after his blond daughter's advice, reunion, sleep) terminating in '*** You have won ***', 'scored 0 out of a possible 0, in 83 turns', and the RESTART/RESTORE/QUIT prompt, on branch b3 with matching story hash and collector-verified raw \u2014 distinct from the earlier normal-ending branch b2 (e199) and from loop deaths. However, both the claim and e00233 remain unreviewed; I do not certify endings. Mandatory parent independent review of the raw output and branch lineage is still required.",
+      "next_action": "Parent performs independent review of e00233 raw transcript and branch b3 lineage (revised-present checkpoint e00229\u2013e00230, bark-twice pivot e00222) against claim e00234. Certification must not free an additional slot, disable refill, or change scheduler settings \u2014 capacity was already recycled by the scheduler. No further game input to this session in any case; preserve b2/b3 branch evidence and checkpoints.",
+      "confidence": "medium"
+    },
+    {
+      "game_id": "pythos-mask",
+      "session_id": "pythos-mask-a39eb2af1a",
+      "disposition": "hold",
+      "evidence_event_ids": [
+        "pythos-mask-a39eb2af1a:e00002",
+        "pythos-mask-a39eb2af1a:e00003",
+        "pythos-mask-a39eb2af1a:e00004"
+      ],
+      "reason": "Supervisor hold from 08:42:15Z remains active and the session owns held slot 'pythos-mask'. No new evidence since the prior snapshot: actual state is unchanged \u2014 intro reached the MORE prompt (e00002), an empty Enter at MORE produced no_output_timeout (e00003), and the single permitted passive await_output (m0003) resolved as empty delayed output still in no_output_timeout (e00004), with no pending requests remaining. Clients are stopped; broker pid 473922 is preserved. This is a documented startup MORE transport/interpreter output stall (control/pythos-startup-diagnosis-20260925T0842.md), not established as a provider quota error. Timeout protocol permits passive await_output only and forbids any key, replay, SAVE, or silent reset; the held slot must not be masked by a replacement.",
+      "next_action": "Maintain the hold and slot ownership; propose no live commands for this session. Parent reviews the existing diagnosis and decides on transport/interpreter recovery. Any broker recovery would require a confirmed SAVE into an explicit new session with preserved branch/evidence \u2014 none exists yet (no checkpoint, intro incomplete) \u2014 so recovery options are limited to parent-directed transport remediation. Await parent instruction.",
+      "confidence": "high"
+    }
+  ],
+  "capacity": {
+    "active_local": 9,
+    "active_remote": 24,
+    "held_slots": 1,
+    "target": 34,
+    "another_launch_justified": false,
+    "note": "9 local + 24 remote = 33 active clients, plus the held pythos-mask slot = 34 nominal; the unresolved hold keeps actual capacity at 33. Traffic's completed assignment is not currently occupied \u2014 it was already freed and refilled by the scheduler (traffic is absent from active remote ids), so parent ending certification releases no further capacity. The queue (mulldoon-legacy, alias-the-magpie, a-remote-problem) stays queued; leave existing scheduler/refill settings intact and do not manually launch while full."
+  },
+  "recommendation": "Continue time-all-things-come-to-an-end and enemies without interference; both are healthy on actual process state and latest input, with only ordinary gameplay uncertainty (unlocated pipe; routine annotation backlog). Submit traffic's best-ending claim e00234 (backed by e00233 exact concluding raw output on branch b3) for mandatory parent independent review; treat its slot as already recycled by the scheduler and make no capacity changes upon certification. Keep pythos-mask held with slot ownership intact, no inputs, pending parent decision on the documented startup MORE transport stall. No additional launch: the fleet is at 33/33 effective slots with the held slot unresolved, and existing schedulers should be left alone."
+}

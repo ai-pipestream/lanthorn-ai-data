@@ -1,0 +1,21 @@
+# Progress – jewel-of-knowledge (branch b1, score 12)
+
+Location: Lonely Burial Ground (skeleton collapsed, got bladder + crampons, dropped moss).
+Inventory: lye bag, air bladder, crampons (plus? need inventory check – book/firebug/sword elsewhere). Score 12.
+Dropped/elsewhere: sword at plateau, book+firebug down hole to plateau, moss dropped here.
+
+Checkpoints: start-fifth-layer, sixth-layer-plateau, dropoff-before-throw, score7-firebug-down, score12-skeleton-done (current).
+
+Cases 14-21 done:
+- syn14-get-sponge none (sponge=moss) e00091
+- syn15-moss-ambiguous ambiguity moss→spongy moss e00093/e00094 (non-synthetic origin but labeled)
+- syn16-sniff-floor none (sniff=smell) e00097
+- syn17-wipe-floor none (wipe=clean, trapdoor +2, score9) e00099
+- syn18-get-bag none (bag=lye) e00104
+- syn19-pour-lye none (pour=put) e00110
+- syn20-scrub-skeleton none (scrub=clean, +3 score12) e00112
+- syn21-blader-typo vocab blader→bladder e00115/e00116
+
+Last hint m0089 lines 70-78: d, Get lye, u,s,s, x skeleton, Put lye on moss, Clean skeleton (3/12), Drop moss, Get bladder/crampons, save s12 – all done (with synonyms).
+
+Next: get next walkthrough after s12; likely collect book/firebug/sword or new area. Need inventory verification. Total cases 21, need 0-19 more for 20-40 target – continue diverse probes.

@@ -1,0 +1,10 @@
+# Progress — a-remote-problem
+
+- Location (observed e00080): TV Room, game ENDED. Engine `awaiting_input_or_idle` at RESTART/RESTORE/QUIT/UNDO prompt.
+- Inventory at win: flashlight (on, AA inside), remote control with AAA batteries (powered e00076), AA batteries carried; score 80/100 in 38 turns.
+- Map verified: Entrance -U-> Upper Hallway -W-> Parents Room -E-> Upper Hallway -D-> Entrance -E-> Dining -N-> Kitchen -E-> Hallway -S-> Garage -N-> Hallway -D-> Basement -U-> Hallway -W-> Kitchen -W-> TV Room. Hallway W description mismatched actual (went to Kitchen); Kitchen W reached TV Room.
+- Checkpoints VERIFIED: start-entrance, after-flashlight, dining-entry, garage-open-box, hallway-powered. No checkpoint at ending prompt (menu, not ordinary prompt).
+- Cases: ~17 labeled pairs incl. closet-search-typo, head-west x2, open-drawer-ambiguous, grab-flashlight, go-to-hallway, go-downstairs x2, dining-get-remote (world_state), look-under-newspaper (none), open-cupboard (none), go-there pronoun, garage-get-batteries (world_state), light-flashlight (none), basement-get-batteries (none), insert-AA-in-remote (world_state, annotated e00081). All annotations verified except none-types recorded as accepted.
+- Hints: walkthrough lines 1-27 fully verified stepwise; tail W,W,TURN ON TV done (e00078-80).
+- PENDING: none. m0074 (turn on tv) won e00080; m0075 annotate done e00081.
+- Game COMPLETE — winning ending e00080: 54 pts, 54 minutes left, *** The End ***, 80/100. Next: finish with e00080.

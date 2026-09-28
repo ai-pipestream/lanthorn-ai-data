@@ -1,0 +1,9 @@
+# Gerbil Riot progress (b2 e00556 — IN PROGRESS, game incomplete)
+
+Location: Pleasant N-S garden path (b2 e00556), heading south to veg garden to locate bush. Safe ordinary prompt.
+Branch: b2 from restore before-cellar-west (b1 e00544 -> b2 e00545-546 Ok). Verified: cellar look e00547, east tunnel e00548, east garden mouth e00549, east pleasant e00550, west garden e00551, north wall/sheep e00552, burn bush rejected e00553, help e00554 (lines 54-62 repeat), south garden e00555, south pleasant e00556.
+Key findings: Treatment cupboard on b1 empty/post-loot (e00535-539 match b0 post-loot e00191-193); b1/b2 inventory = leek, matchbox, bucket, horn, key, blanket, top, picture, empty syringe (e00540) = post battery/squirrel/tissue/shrink/fudge, pre-burn stage. b0 never solved burn (burn/light bush all 'I would if I could', light match wasted it e00397, matchbox lost e00399). b2 matchbox conserved (never lit on b2). Wall has sheep, no visible bush; burn bush fails at wall e00553. Help excerpt only repeats South West West North x4 Burn bush East East North pit/hub/button top Tony tattoo wad guard east (walkthrough, not observed).
+Inventory (b2, conserved): expect same as e00540 (leek, matchbox, bucket, horn, key, blanket, top, picture, syringe). Conserve matches; never 'light match' wastefully.
+Next: south to veg, inspect for bush; then east lake/eucalyptus/tree/drey check only if needed; otherwise triangulate bush via South West West North x4 from matches-room context. Single commands. Then E E N pit/hub/button, top to Tony, S S tattoo/wad, guard, final E. Raw output only for ending. Game incomplete, no finish claimed.
+Pending annotates: b1 cupboard series, b2 wall burn fail + help, plus earlier b1 series.
+Checkpoints: before-cellar-west (b2 base), before-tree-climb, b1-wall-sheep; b0 after-battery-wires etc.

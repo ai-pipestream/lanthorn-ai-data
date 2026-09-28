@@ -1,0 +1,7 @@
+# BSE progress — COMPLETE
+
+- Final: Farmyard WIN (Turns 207, Score 60/60, e00378). *** You have won ***, Saviour of the World. Ending claim e00380 accepted.
+- Winning route this session: tractor roof → U to Ledge (+2, 42) → unroll ladder → stash + discard fork → W to Haystack → NW, SW to Altar Chamber (+5, 47) → get pistol/jar → shoot demon Denzil (+5, 52) → retreat NE, NE, SW to Ledge → D to Barn → W to Farmyard WIN (+8, 60).
+- Cases collected this session: climb-up/u (syntax), unfold/unroll (vocabulary), w-blocked/w-after-stash (world_state), discard-fork (none), west-to-dead-end (none), pistl/pistol typo (syntax), shoot-note/pistol-at-note (syntax, uncertain aim).
+- Checkpoints: ledge-42-ladder, altar-47-note, plus inherited barn-40-before-demon/lab-40-silver chain. No checkpoint at end prompt.
+- No pending requests. Awaiting independent Terra review; no further play.

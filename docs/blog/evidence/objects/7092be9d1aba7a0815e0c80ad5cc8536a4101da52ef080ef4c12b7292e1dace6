@@ -1,0 +1,8 @@
+# BSE progress
+
+- Location: Country Lane (Turns 8, Score 1) after fleeing Garden.
+- Inventory (observed): garden fork (Taken e11), toy pistol (Taken e17). Car/pub items not yet examined.
+- Checkpoints: start-lane (verified e00003-e00004).
+- Cases: garden-fork-synonym (grab->get, vocab, e10/e11 annotated); garden-bed-search (examine flower bed -> search bed, vocab, e15/e16 pending annotation m0017).
+- Last hints: lines 10-18 (S search bed get all N; drop fork; remote/battery/pistol/sound) and lines 19-27 (watch battery in remote/sound, open boot, get coat wear it). Hints are guidance only, not observed.
+- Next: examine car/boot/remote/pistol/sound per hint; inventory; drop fork; checkpoint after safe lane prompt; then pub/farm route. Avoid re-entering garden (farmer threat).

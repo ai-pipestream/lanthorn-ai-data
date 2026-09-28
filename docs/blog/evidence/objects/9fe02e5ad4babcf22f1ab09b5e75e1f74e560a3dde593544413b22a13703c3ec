@@ -1,0 +1,149 @@
+{
+  "game_id": "blue-chairs",
+  "title": "Blue Chairs",
+  "author": "Chris Klimas",
+  "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/walkthrough.txt",
+  "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/walkthrough.txt",
+  "accessed_at": "2026-09-25T09:35:13.885512+00:00",
+  "access_date": "2026-09-25",
+  "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-walkthrough.raw.txt",
+  "source_sha256": "ad7b461dc5c7c5ba8c9bb920c870584a5bdcdfc4094fff27ac20a62e90b0fad5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/blue-chairs-walkthrough.txt",
+  "normalized_sha256": "77bab5bf3e4242f4b13dd65a4fc23710d13656c428b465861f7a47bb9a2a94dc",
+  "normalization": {
+    "source_encoding": "utf-8",
+    "target_encoding": "utf-8",
+    "transformation": "Normalize CRLF and CR to LF; preserve all other text, whitespace and terminal newline state."
+  },
+  "story": "/home/krickert/if-games/zcode/bluechairs.z5",
+  "story_sha256": "7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b",
+  "compatibility": "Local Z5 R2/041229 matches fresh current archive story bytes and catalog. The packaged competition walkthrough accompanies R1/040930, independently hash/header checked: one numeric release and 90 days older than the selected story. The guide itself gives no release/serial. Supplementary source still declares Release 1; it corroborates intended epilogue branches but is not asserted byte-equivalent to R2. Runtime compatibility is unproven.",
+  "compatibility_status": "needs_runtime_verification",
+  "reuse_permission": "unknown; private collection only",
+  "zmachine_version": 5,
+  "release": 2,
+  "serial": "041229",
+  "story_header": {
+    "container": "raw-zcode",
+    "header_bytes": 64,
+    "header_hex": "05000002a7f8a7f980aa01f26a7e751b00d0303431323239012aeb18942d00000000000000000000000000000000751a00000000000001ea00000000362e3330",
+    "header_sha256": "1e656646a2858ef3eb1697961c5eda5afc762668708d3d997a94a4b3be930553",
+    "checksum_hex": "942d",
+    "computed_checksum_hex": "942d",
+    "declared_length": 240736,
+    "file_bytes": 241152
+  },
+  "guide_release": null,
+  "guide_serial": null,
+  "guide_release_gap": "unspecified in guide; see associated competition story edition",
+  "story_identity": {
+    "filename": "bluechairs.z5",
+    "url": "https://ifarchive.org/if-archive/games/zcode/bluechairs.z5",
+    "effective_url": "https://ifarchive.org/if-archive/games/zcode/bluechairs.z5",
+    "accessed_at": "2026-09-25T09:35:28.546649+00:00",
+    "remote_sha256": "7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b",
+    "local_sha256": "7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b",
+    "bytes": 241152,
+    "byte_identical": true,
+    "remote_zmachine_version": 5,
+    "remote_release": 2,
+    "remote_serial": "041229"
+  },
+  "archive_game_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/zcode/#bluechairs.z5",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/zcode-index.html",
+    "snapshot_sha256": "dad6c37b34b451a6182570bafb075a897b21a867900f61d48c9f831dd90afc07",
+    "entry_text": "bluechairs.z5 ◆ [29-Dec-2004] IFDB entry IFWiki: Blue Chairs Blue Chairs, by Chris Klimas. Release 2 / Serial number 041229. (source code is in games/source/inform/bluechairs-source.zip , a Russian translation is in games/zcode/russian/bluechairsR.zip , and the original competition entry is in games/competition2004/zcode/bluechairs )",
+    "tuid": "uva1vc6ico5u65zg"
+  },
+  "archive_guide_entry": {
+    "url": "https://ifarchive.org/indexes/if-archive/games/competition2004/zcode/bluechairs/#walkthrough.txt",
+    "snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-index.html",
+    "snapshot_sha256": "d2d33d8551ac053d7385096a8cd27142960f553cbc7bee1c4519661c1b9445c5",
+    "entry_text": "walkthrough.txt ◆ [30-Sep-2004]",
+    "tuid": null
+  },
+  "guide_review": {
+    "body_read": true,
+    "guide_author": "uncredited in text; distributed with Chris Klimas competition entry",
+    "authorship_evidence": "Walkthrough has no personal byline. Its provenance is the original official IFComp game directory; author-package association is established, individual authorship is not independently stated.",
+    "route_summary": "Follow the complete party/dream journey into the epilogue and its genuine authored conclusion. The supplied full route ends by entering the car and driving home. The supplementary source also includes a reconnection ending and a final rest ending: preserve intentional alternatives with accurate labels. Intermediate dream deaths can lead to another scene; neither those deaths nor merely reaching the epilogue is completion. Require actual final narrative, not the last guide command or process exit.",
+    "limitations": "The guide warns of random events. Follow the displayed dance direction and current Post-It combination, not fixed guesses. Resolve the special >> prompts and page pauses as shown by the story; normal menu Enter is an empty command. Save early only at ordinary prompts, and again before the late epilogue choice. The guide provides a full car-ending route; alternative endings are optional, not coverage quotas. Do not collapse literary Dante/Beatrice references or dream themes into another IF game family without evidence.",
+    "gameplay_executed": false
+  },
+  "dataset_split": "train",
+  "game_family": "blue-chairs",
+  "family_review": {
+    "uncertain": false,
+    "parent_review_required": false,
+    "rationale": "Independent Chris Klimas story. Literary allusions and dream structure alone do not establish shared puzzles with held-out Shade/Photopia or other games. Reserve blue-chairs across releases/translations. Source review identifies multiple intended epilogue outcomes."
+  },
+  "reuse_claims_observed": "Supplementary source README states CC BY-NC-SA 3.0 Unported for that source code. This does not establish permission for training or redistribution of story, guide or resulting collection. Guide reuse remains unknown; private collection only.",
+  "storage_policy": {
+    "stories": "central_only",
+    "full_guides": "central_only",
+    "provenance": "central_only",
+    "pi_guide_access": "small broker excerpts only; no full guide staging",
+    "interpreter": "central; not launched by this task"
+  },
+  "guide_associated_story": {
+    "url": "https://ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/bluechairs.z5",
+    "effective_url": "https://ukrestrict.ifarchive.org/if-archive/games/competition2004/zcode/bluechairs/bluechairs.z5",
+    "accessed_at": "2026-09-25T09:36:19.726314+00:00",
+    "local_path": "/home/krickert/if-games/ifcomp/2004/zcode/bluechairs/bluechairs.z5",
+    "central_snapshot": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-competition.z5.remote",
+    "sha256": "ebf84e0af05d40b03afca62db4b4dd6a485aede1e17092a6029e4b79e71f7ed2",
+    "byte_identical": true,
+    "zmachine_version": 5,
+    "release": 1,
+    "serial": "040930",
+    "header": {
+      "container": "raw-zcode",
+      "header_bytes": 64,
+      "header_hex": "05000001a638a6397ee201f268ce736b00d0303430393330012ae872221900000000000000000000000000000000736a00000000000001ea00000000362e3330",
+      "header_sha256": "b8d180a4dcc85e4cc7d85bc9def61574c1250ba25cc68ee351b118653fdb1cbd",
+      "checksum_hex": "2219",
+      "computed_checksum_hex": "2219",
+      "declared_length": 238024,
+      "file_bytes": 238080
+    },
+    "release_gap_to_selected": 1,
+    "serial_gap_days": 90,
+    "association": "Packaged alongside guide in original IFComp directory; guide itself does not declare this release/serial.",
+    "selected_for_launch": false
+  },
+  "supplementary_source": {
+    "url": "https://ifarchive.org/if-archive/games/source/inform/bluechairs-source.zip",
+    "accessed_at": "2026-09-25T09:35:13.906384+00:00",
+    "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-source.zip",
+    "sha256": "5f23b7728e63d67ebcacd1d28eb86bc4b134ddc86a9c31325e2402af2112bebb",
+    "members": [
+      {
+        "member": "bluechairs-source/README",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-README",
+        "sha256": "2ba6f6c9f165a7c5b1986a5da2a1e90ee64f20a37dbf4c09feadd58e30cf96e1",
+        "bytes": 313
+      },
+      {
+        "member": "bluechairs-source/bluechairs.inf",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-bluechairs.inf",
+        "sha256": "4e837bc5dd76c81359ecb241e0815afa924590c76c5aea294cae8b231d2aa70d",
+        "bytes": 24925
+      },
+      {
+        "member": "bluechairs-source/epilogue.inf",
+        "raw_path": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/bluechairs-epilogue.inf",
+        "sha256": "444e26819565d01ce64c4bd58ccc0c277b00eabd3938c2f1cb11fde4d85c3fe9",
+        "bytes": 13484
+      }
+    ],
+    "declared_release": 1,
+    "reviewed_sections": [
+      "README license",
+      "main source title/Release 1 header",
+      "complete epilogue source"
+    ],
+    "compiled": false,
+    "limitation": "Older Release 1 source, not asserted equivalent to selected R2 binary."
+  }
+}

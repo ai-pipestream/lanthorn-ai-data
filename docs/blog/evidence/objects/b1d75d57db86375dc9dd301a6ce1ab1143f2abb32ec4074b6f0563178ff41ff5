@@ -1,0 +1,54 @@
+# Fullplay supervision
+
+Current bounded audit completed 2026-09-25T07:05:06.676854+00:00; fixed case cutoff 2026-09-25T06:57:00.779565+00:00.
+
+80 exact annotation pairs across49 games:61 accepted,18 revise,1 quarantine. Both endpoint commands/responses/branches and448 distinct nearby/intervening raw spans matched recorded bytes/SHA/text; no selected CSV endpoint mismatch. Effective snapshot: 2957 unique exported annotations; 1482 accepted, 395 revise, 74 quarantine, 1006 unreviewed. Counts use exact unique evidence-set matching, not cached CSV labels. Remaining labels are unapproved.
+
+## Verified historical conclusions
+
+Independent total35, preserving prior27 and adding:
+- Child's Play R4/080129: b0 e438 TAKE TOY wins100/100 with final playdate/crib epilogue.
+- Zuni Doll R1/971031: b0 e112 SWITCH ON DISPOSAL destroys doll and ends with Elmo/sleep epilogue,60/60.
+- Library Front R2/951204: b0 e123 E gives book/class/graduation/later-life epilogue and win27/30, corroborated by e124 FULL. Its contaminated tail remains quarantined, as detailed below.
+- Only After Dark R2/000913: b2 e84 HOWL and e85 key continuation give Captain Davids survival/win. Later b3/b4 restores precede claim e121 onb4; no live-b4-terminal claim.
+- Pick Up the Phone Booth and Aisle R2/010618: e7 title action gives authored absurdist win. One intended ending, no normal checkpoint, no all-endings claim. Prior native RESTART e5 retainsb0; endpoint pair follows it.
+- Pentari R6/030206: e128 places emerald ON box; e129 LOOK gives Galin-free/dark-elf resolution and win60/70. One intended route, not maximum score.
+- Slacker X R1/971009: b1 e119 GIVE ENVELOPE defaults Yrrab and ends this installment48/52 with sequel teaser, not sequel completion.
+- Tube Trouble R0/950901: e138 boards train; e139 EAT CHOCOLATE gives win1/1. Release zero is valid and exactly matches guide.
+
+Full raw offsets/SHA/text and branch receipts are in status JSON. Scores never prove exhaustive content or case coverage. Nine Points remains an authored SAMPLE conclusion. Prior endings remain unchanged.
+
+Library Front e123 raw32990:33647 is the verified contiguous narrative/win/menu body (SHAd9db37f8…). Raw33647:33973 is quarantined stale status16/moves2 and mixed quotations (SHAb7ea3941…). This is not evidence of a lower ending score or a second state transition. Origin of tail is undiagnosed; possible rendering/interleaving, not a proven timeout. Entire e123 remains excluded from clean command-pair exports; 0 linked annotations found in this snapshot.
+
+## Refill startup checks
+
+Story SHA/header, real startup responses and early nonempty save hashes independently verified:
+- BSE R3/970110; guide explicitly includes this exact release/serial. SPACE title advance observed.
+- Bedlam R1/970711; actual banner says Interactive Preview, distinct from Slouching Towards Bedlam. Future ending must retain preview scope.
+- Critical Breach R3/130817; guide release unspecified, registered2010 guide predates2013 story. Observed HELP Enter/SPACE/Q sequence returned normally before save; not proof all menus safe.
+- Danger! Adventurer at Work! headerR1/000705; intro credits original Simon Avery1991. Guide is for Duncan Cross's Inform port, exact release unspecified; no original-Quill parser equivalence claim.
+- Gumshoe R1/960331; guide release1 but serial unspecified.
+- Fine-Tuned R8/020520; actual author guide header release6, two-release gap retained.
+
+Startup is not full walkthrough compatibility or completion. Later E/F queue registration is not audited execution evidence.
+
+## Case-quality findings
+
+- Quarantine Spiritwrak e27: snow melts, then different material sand is taken while intent_preserved=yes. Retain only after explicitly distinguishing alternate-material planning.
+- Revise Bears e269: OPEN MAIL BOX triggers a scripted summary of finishing the Dungeon subgame; it does not demonstrate mailbox opening or spaced-noun grammar.
+- Revise Tesseract e28: SCAN FUNCTION returns generic Stack text, insufficient evidence it inspected the function. Curses e1612 says pipe already safe, not repaired.
+- Theatre e1613 already unlocked; Enemies e57 merely unlocks before later opening; Paper Chase e14 gets a registration instruction/form presentation, not completed registration. Do not turn parsed actions or prerequisites into full success.
+- Correct intent labels: Anchorhead dressing-mirror and Hunt room-LOOK repairs preserve their originally submitted goals. Computer Center NORTH-to-WEST is alternate-route planning, not an uncertain same-direction repair.
+- So Far e1226 supports observed bubbling/thudding state contrast after restore, not a controlled claim that branches differ ONLY in attunement or proof of the later source hint.
+- Several only-this-noun/whole-parser claims exceed the two tested forms. BSE e19 changes both verb and noun; Bedlam e19 explicitly adds an already-carried bat, rather than changing world state.
+- Generic Taken needs command/object context. Native resets and subgame/VR scene changes can occur without branch-ID change.
+
+Parent manual exclusions now independently found by event_id for Kook olde54, Delusions olde448/e449, failed20a1b41aa0:e4 and Librarye123. Previous missing-list is historical/resolved; no parent transport file edited. Failed RESTORE remains a title-key advance, not a successful restore. Kook/Delusions recovery receipts from the prior pass remain valid historical evidence.
+
+## Boundaries and next pass
+
+2 additional claim records remain independently unverified in the current snapshot; listed in status JSON. Stop at this fixed80 rather than chasing the growing tail. Latest recorded-input raw span check across71 manifests found0 byte/hash faults; this is not complete fleet health. Local snapshot has10 launcher processes; remote occupancy not independently asserted.
+
+Fleet P1 session/mirror fences remain closed on prior source review. Explicit paused handoff and power-loss durability limitations remain. So Far source guidance is not proof of worker reading or successful play. Spider's witnessedb19 ending precedesb20 restore; Slouch gallows spreads Logos; Bronze HUG onR11 is not KISS/R13; Zork is exact Inform7 Zork/Dungeon port, not commercial ZorkI.
+
+Only the three reviewer-owned files updated. No engine input, reset, launch, process change, source/raw edit, training, evaluation or publication. Bounded pass complete.

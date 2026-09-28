@@ -1,0 +1,24 @@
+{
+  "event_id": "childs-play-936dc938bb:e00442",
+  "timestamp": "2026-09-25T06:41:34.208072+00:00",
+  "game_id": "childs-play",
+  "session_id": "childs-play-936dc938bb",
+  "branch_id": "b0",
+  "event_index": 442,
+  "event_type": "ending_claim",
+  "command": null,
+  "response": "",
+  "raw_start": 113361,
+  "raw_end": 113361,
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+  "engine_state": "unchanged",
+  "metadata": {
+    "ending_quote": "    *** You have won ***\n\n\nYou have like 100 points out of 100. Here is how you got them:",
+    "evidence_event_ids": [
+      "childs-play-936dc938bb:e00438"
+    ],
+    "notes": "Genuine winning ending, not death/quitting/chapter transition: yanked favorite toy from Zoe's grasp ('the toy pops out of her evil sweaty grasp! You have your toy!'), playdate ends with parents taking babies home, mom gathers me and toy to crib ('your favorite toy chimes a bit as you curl around it'), then *** You have won *** with 100/100 including '10 for getting your favorite toy for the last time' and [Score 100, up 10]. Matches manifest's required final toy-retrieval ending."
+  },
+  "review_status": "unreviewed"
+}

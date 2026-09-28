@@ -1,0 +1,8 @@
+# Pentari — COMPLETE (verified winning ending)
+
+Game: pentari Z5 R6/030206, branch b0, session pentari-63be930153.
+Ending: e00129 — *** You have won ***, score 60/70 in 87 turns. Lord Galin materializes from emerald/box glow, takes jewel dagger, exits; elf death thud heard. Nobody else in room at placement (verified by treasury look e00107/e00109 and upper arrival e00118 with only platinum box present).
+Route: ...Treasury FWOOSH (elf absent, score 40), GET EMERALD (45), IN TOWEL, S,E,E,U, GET EMERALD from towel, PUT EMERALD ON BOX, LOOK → won (+15 → 60).
+Checkpoints Ok: start-quarters, entrance-hall, library-morden, castle-after-covert, armory-dagger, treasury-before-fwoosh, upper-before-box.
+Cases: ~15+ annotated pairs (vocab/syntax/world_state/none) across full game; open consult-tome + morden no-reply items remain unannotated.
+IN-FLIGHT: none. Ready for finish review.

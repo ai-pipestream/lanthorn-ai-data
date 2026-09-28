@@ -1,0 +1,27 @@
+{
+  "game_id": "lecture-feature",
+  "title": "Lecture Feature",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/lecture.zblorb",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/lecture_feature.txt",
+  "response_timeout_seconds": 180,
+  "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Follow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature.json",
+  "story_sha256_expected": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+  "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+  "dataset_split": "train",
+  "game_family": "teacher-feature",
+  "collection_notes": "# Lecture Feature\n\nStory Z8 R1/200414. Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.\n\nFollow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.\n\nNPCs move; find them from current output and reorient at the rooms named by the guide. Lines beginning arrows and parenthesized waits are advice, not literal commands. No fixed wait count is authoritative. The opening FLUSH TOILET is an in-game puzzle action at an ordinary prompt, never a transport flush. Save early safely and before final commitments; use useful observations and same-intent repairs rather than quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+  "zmachine_version": 8,
+  "release": 1,
+  "serial": "200414",
+  "session_id": "lecture-feature-fbf9767abc",
+  "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+  "started_at": "2026-09-25T08:46:13.319644+00:00",
+  "broker_guards": {
+    "fleet_session": 1,
+    "restart_timeout": 1
+  },
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}

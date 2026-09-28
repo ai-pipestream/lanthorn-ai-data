@@ -1,0 +1,8 @@
+# Gumshoe progress — camera hunt in reception (incomplete)
+
+- Location: Reception area, e00085 (ordinary prompt). Office east (office door state unclear, opened at e00078), hallway north (door closed). Marge at her small desk. Coat rack has trenchcoat + hat.
+- Inventory last seen e00068: handkerchief, LA Times, PI license, money. No camera. Trenchcoat/hat on rack, not worn.
+- Branch b0; checkpoints confirmed: start-hallway, reception-entry. No new checkpoint since (office search phase).
+- Cases: ~13 annotated through chair-ambiguity. Since resume: window x (e00066), small chair (e00067), inventory i (e00068) unannotated; new probes: x desk reception (e00071 cluttered/junk/buried), look in desk blocked (e00072), x hat (e00073 plain), ask marge about camera (e00074 camera in desk mess, won't give), search junk fail (e00076 no such thing), take camera fail (e00077 no such thing), open door opened office door (e00078), search desk blocked even with door open (e00079), wait (e00080), e to office (e00081), w back saw Marge by door then return (e00083), open hallway door fail (e00084), give money refused (e00085).
+- Last hints: m0061/m0067 same excerpt (Search desk 1/1, Marge closes office door, Wear camera, E...); m0074 extends to Read note/bill/envelope (already done in office). Camera confirmed in Marge desk mess via e00074 glance.
+- Next: get Marge away from desk (she stood by door at e00083 after east/west through open office door). Try explicit distractors: x marge, ask marge to close/leave/shopping, open north vs office door phrasing, batch open+search timing, or wait for Sandra 11:00 / Marge 2:00 leave. Then search desk, wear camera, E to office, continue papers/envelope + mail ending. Do not restart. Update progress every 10-15 requests.

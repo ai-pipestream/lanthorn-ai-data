@@ -1,0 +1,208 @@
+
+Time shifts and flattens, days and decades folding aside like pages in a book. 
+You can see--
+
+
+THE DREAMHOLD
+A tutorial adventure by Andrew Plotkin. Copyright 2003-4.
+First-time players should type "about".
+Release 5 / Serial number 041231 / Inform v6.21 Library 6/10 
+
+
+You wrench your eyes open. Rough grey stone. Grey stone ceiling. Your head 
+hurts, and -- You're lying on the floor. You're staring at the ceiling, and 
+it's rough and grey, and you don't recognize it.
+
+You roll slowly (smooth cold floor?) and try to sit up. It hurts. You crawl 
+upright. The walls, rough stone also, scrape your aching fingers. You can't -- 
+there was white agony, felt like raw light tearing you apart. You can't 
+remember anything after that.
+
+You can't remember anything before that. Gone. You clutch at memory, and 
+there's nothing but empty air.
+
+Cell
+This space, barely wider than outstretched arms, seems to have been chopped raw 
+and square from unfinished stone. Only the floor is smooth -- a fine white 
+surface beneath your feet. There is a narrow gap in the east wall.
+
+[Don't know how to get started? Type "help" and then hit enter.]
+
+>THE DREAMHOLD is a gentle introduction to the world of IF. It's a small game, 
+and not too difficult. More importantly, THE DREAMHOLD features the Tutorial 
+Voice -- a helpful guide that will lead you through the basics of playing a 
+text adventure.
+
+[When you see a message like this, it's the Tutorial Voice speaking!]
+
+Type "help" to learn how to play Interactive Fiction.
+
+(If you want to play the game without the Tutorial Voice holding your hand, 
+type "tutorial off". And for a challenge, type "expert"! Certain puzzles will 
+be somewhat harder in Expert mode.)
+
+THE DREAMHOLD is copyright 2003-4 by Andrew Plotkin. I created it with Inform, 
+a free text-adventure development language created by Graham Nelson. My thanks 
+for the beta-testing efforts of many people; notably Emily Short, Dan Efran, 
+Julia Tenney, Karen Fabrizius, and Aleecia McDonald; and also the generous 
+players and commentors of rec.games.int-fiction. If you are interested in 
+playing more IF, you can find my other games at <http://eblong.com/zarf/if.html>
+. The great Archive of all free text adventures is <http://ifarchive.org/>; you 
+can find games there to suit any taste. You may wish to use Baf's Guide, 
+<http://wurb.com/if/>, to help you find and choose games from the Archive.
+
+>THE DREAMHOLD is now in its "verbose" mode, which always gives long 
+descriptions of locations (even if you've been there before).
+
+>THE DREAMHOLD is no longer in "tutorial" mode. The Tutorial Voice will stop 
+providing helpful comments. (The "help" command is still available if you want 
+it.) If you want to turn the tutorial comments back on, type "tutorial on".
+
+>You are carrying a quill pen.
+
+>You are holding a quill pen -- a sturdy black feather, its tip carefully cut to 
+a nib. You have no memory of where you got it, or when, or why.
+
+>You cannot remember what you look like.
+
+>The floor is also stone, but fine-grained and smooth -- not quite polished. It 
+is very white; white enough to show faint smudges where you lay.
+
+>The four walls are unseamed, unsmoothed grey rock. The only opening is a narrow 
+gap to the east.
+
+>You see a narrow, oblong opening in the east wall. Not much of a doorway, but 
+big enough to get through.
+
+>You duck your head and push through the gap.
+
+Narrow Hallway
+You are standing in a short windowless hallway. To the east is the foot of a 
+flight of stairs, which rises out of sight. To the west, the hallway narrows, 
+ending in a small gap of a doorway.
+
+>You begin climbing the stairs. They seem to go on for a long while... pressing 
+between dim stone walls (where is the light coming from? You haven't seen a 
+window yet)... climbing... (how far?)...
+
+Until you pass through a doorway into warm candlelight.
+
+Crowded Study
+You stand amid clutter, oddments, shelves and stacks. The chamber is 
+comfortably broad, centered around a massive and well-worn wooden desk. But so 
+much is jammed in, around the desk and up the panelled walls, that you barely 
+find room to stand. Books; papers; dried plants; animals stuffed and preserved, 
+antique instruments, candles of any hue. You don't recognize half of it, and 
+you can't name half the rest.
+
+There are wide doorways on the north and east sides of the room. A door of 
+heavy wood stands closed to the south, and stairs descend into dimness to the 
+west.
+
+You see an immense book on the desk. Behind the desk is a tall glass-fronted 
+cabinet. Beside that is a small brass trunk, which is closed.
+
+If there were a quarter as much here, and a tenth as many books, you might be 
+in any scholar's study. But this knowledge must represent lifetimes of work -- 
+lifetimes under a single hand. You do not know where you are, but you know what 
+this place is: a dreamhold. A wizard's high house.
+
+You do not find yourself afraid. A dreamhold is more than merely dangerous.
+
+>The book lies open. You frown at the fine, angular hand but discover that you 
+can read it:
+
+    The Theory & UNDERSTANDING of Portalls;
+The lesser, which make a single place of many, and the Greater, which open from 
+NOW into Time in Memory, or Prophecy Foretold, or even a Moment's Fancy;
+
+All portals are perilous. Perilous thresholds to cross, and more perilous to 
+create; For there is no plying of the World, or of Time, that does not happen 
+in the Mind of the learned one who conceives of the journey. Of your Thought is 
+the portal built, arch and capstone. Slip but a moment of your attention, and 
+the Portal will fall into ruin; All its might, and yours, crumbled into 
+eggshell fragments that stray upon the Wind; ...
+
+The facing page shows an elaborate circular diagram, annotated here and there 
+with tiny mathematical notes. The only comment you understand, tucked in a 
+margin, says "Best to draw in a well-insulated space -- 35 Ll. of uncut stone? 
+-- move house to Emmen Valley, work into mountain?"
+
+>You turn a page of the immense book, and then another, and another. The 
+handwriting is unchanged, but the languages are varied and unfamiliar. You find 
+no more text that you can read; so you turn back to the diagram.
+
+>The desk is heavy and plain, a massive wooden construction. Surprisingly, the 
+surface is bare, except for an immense book.
+
+Something in the chaos catches your eye. It looks like a white papier-mache 
+mask, lying beside the desk.
+
+>It looks like a paper mask, half life-size... but its curves are a 
+delicately-shaded illusion. The mask is flat -- an inexplicable cutout of a 
+human face.
+
+You can tell little about the person depicted. You have only an impression of 
+unformed childhood.
+
+Something about the mask seems familiar -- not recognizable, but comfortable. 
+As if it belonged to you -- unlike everything else around you.
+
+>Taken.
+
+>The mask has no ribbons to tie -- it is not even curved to fit a human face. In 
+any case, it's half life-size. It cannot be worn.
+
+Nonetheless, you try raising the mask before your eyes....
+
+...Memory stirs...
+
+A child runs through the forest. A robe, richly bright-embroidered, has slipped 
+off one skinny shoulder -- a child old enough to be put in clothes, too young 
+to know what it means to wear them. A silver-haired child whose glance darts 
+from tree to bird, caught everywhere.
+
+A mother's voice shouting. Not patient, not yet urgent. The child attends this, 
+with the same interest as bush, flower, fascinating new rustle underfoot...
+
+The name, again.
+
+A moist leaf, torn from a tree, clutched in a small fist. Tossed in the air. 
+Blown about, blown upwards again and again, as the child dances back and forth, 
+face raised, flushed, puffing madly...
+
+Mother's voice interrupting the game. The child spins once more, dashes back 
+towards dinner.
+
+The leaf flutters about in the air. It circles a tree; then rises to a high 
+branch, clings there. It seems to bend this way and that; then it casts loose, 
+and flutters determinedly after its thoughtless maker.
+
+You yank the mask away with a shudder. What are these memories? Do they belong 
+to the wizard whose house you are disturbing?
+
+>A small square trunk is pushed up against the back wall, beside a tall cabinet. 
+The trunk's panels and lid are tarnished brass; they're engraved with worn 
+geometric designs. The trunk sits closed.
+
+>The walls are fine panels of some dark wood, framed in a darker wooden lattice.
+
+>You hesitate a moment. Prying into a wizard's possessions? But you're already 
+standing in his home; and you could as easily be damned for making free with 
+his candlelight as with his trunk.
+
+You reach out, flip up the brass lid, and step back in one movement... A copper 
+key glints at the very bottom of the trunk.
+
+>It's a tiny flat copper key.
+
+>Taken.
+
+>The door is of heavy wooden planks strapped with iron; the knob is secured with 
+a thick iron lock. The door is closed.
+
+>It seems to be locked.
+
+>The copper key is too small to fit the door's heavy lock.
+
+>

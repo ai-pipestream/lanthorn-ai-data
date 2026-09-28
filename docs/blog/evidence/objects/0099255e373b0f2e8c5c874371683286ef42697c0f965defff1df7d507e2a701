@@ -1,0 +1,14 @@
+# Spider and Web — CONTINUATION CHECKPOINT (segment 1 → 2)
+
+## Exact resume state (event e00222, branch b0, all requests answered through inbox/m0190.json)
+- Position: interrogation prompt. Interrogator asks: "Was that a true memory? ... were you truly in here?" (re: sitting in the north-room chair / ghost). Walkthrough next: "(man) (Yes. Undo)" → answer YES next, then expect something requiring UNDO.
+- Memory position: Angle Branch (corridor N/S, short hall NE, blank metal door W with plate).
+- Checkpoints: start-alley, package, clatter, labdoor, annex (all verified saved).
+- No pending broker requests. Nothing in flight.
+
+## Next actions for segment 2
+1. Answer "yes" to the true-memory question (case: interrogation-chair-yes).
+2. Follow walkthrough east-room/lockpick recovery; annotate pending pairs:
+   alley-door-syn1 (e05), lab chain (e109,e112–e119), annex-north-syn12 (e152),
+   scrambler tango/waltz verb evidence, remote-keyword finding, redundant-tango alarm (e185).
+3. Continue to verified winning escape; collect 20–40 cases total (5 annotated so far).

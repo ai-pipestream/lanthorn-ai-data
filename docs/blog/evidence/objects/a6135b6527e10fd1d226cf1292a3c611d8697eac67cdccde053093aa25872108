@@ -1,0 +1,10 @@
+# Progress — earth-and-sky-episode-1 (COMPLETE pending Terra review)
+
+Status: COMPLETE — verified Episode 1 finale on branch b0. Do NOT send further game commands (end prompt RESTART/RESTORE/QUIT). Do not restart.
+Location: End-of-game prompt after Fifty Yard Line rescue. e00164 balloon throw rescue (Nina restored, "Call us Earth and Sky"), e00165 EARTH AND SKY *** You have saved the day ***, e00166 ANOTHER EARTH ANOTHER SKY Episode 2 teaser + RESTART/RESTORE/QUIT prompt. Ordinary engine awaiting input at end question.
+Inventory: balloon consumed (swallowed); letter shown to Austin earlier and to Nina in e00164; skysuit worn; buzzer, access card carried. No further fetch needed.
+Checkpoints: start-outside-lab, after-suit, high-above-letter, part2-booth, before-containment, after-quake-part3, outside-bio, before-monster-fight, at-head. No restore needed; ending achieved without restore.
+Cases (~28+): early lab/suit/Austin menus, fog/blast powers, Nina booth, quake, monster battle fog-head SUCCESS, blast scorch/amused variance, zap synonym accepted, blast-head cumulative stun/boxer-on-ropes/swaying, refog, look at head, blast-3 wounded, blast-4 boxer, blast-5 swaying, blast-6 knockout to Fifty Yard Line, balloon-throw finale SUCCESS, keypress to saved-day, keypress to Episode 2 teaser. Backlog annotations: zap/blast synonym pair, fog pair, blast-head stun, refog — remain unreviewed model labels, do not block ending.
+Hint: e00153 lines 74-80 random/refog/throw balloon at mouth — verified: refogs needed, balloon from Austin post-knockout, throw at mouth ends battle.
+Pending: m0156 resolved e00166. Next: submit finish with e00164,e00165,e00166; no game input.
+Updated through e00166. m0149-m0156 resolved.

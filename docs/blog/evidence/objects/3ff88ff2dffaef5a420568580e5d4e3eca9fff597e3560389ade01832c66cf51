@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-25T05:27:53.625723+00:00",
+  "event": {
+    "event_id": "spider-and-web-e5197766e3:e00781",
+    "timestamp": "2026-09-25T05:15:30.109802+00:00",
+    "game_id": "spider-and-web",
+    "session_id": "spider-and-web-e5197766e3",
+    "branch_id": "b19",
+    "event_index": 781,
+    "event_type": "command",
+    "command": "g",
+    "response": "Time passes.\n\n\"Nowhere...\" the familiar voice begins, and there is a terrible silence.\n\nThen, \"Blast it down,\" he says, very quietly. And screams, \"BLAST IT!\"\n\nBut a light is pouring out around you, a sourceless glow that seems to shine \nstraight through solidity, as if metal and plastic were starlit ice. The light \nbuilds and builds...\n\nBeyond the light you see the door burst open, with a distant, dreamlike roar. \nThe lucent faces that crowd through seem to move in slow motion. Their guns are \nfiring, but the pulses are frozen in space. You can see their eyes slide across \nyou, the cage around you, the papers in your hand, the light.\n\nThen the world vanishes. Blackness slaps into you with a silent snap.\n\n\n    *** You have made a difference ***\n\n\n\nWould you like to RESTART, RESTORE a saved game, UNDO your last move, or QUIT?\n> ",
+    "raw_start": 146563,
+    "raw_end": 147402,
+    "response_sha256": "291b98bef394f53c6cd5e395a41ccee6ed2eff568e345d6e7dc6b57c29e3576a",
+    "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+    "engine_state": "awaiting_input_or_idle",
+    "metadata": {
+      "case_id": "b19-final-wait",
+      "intent": "Wait again for the pulse",
+      "origin": "guided",
+      "expected_outcome": "Teleport pulse and ending"
+    },
+    "review_status": "unreviewed"
+  },
+  "raw_hash_and_text_verified": true,
+  "verdict": "Verified final narrative and explicit ending menu; Spider escapes with papers, Acorn opens gate and wins30/30. Use game-specific event text as evidence."
+}

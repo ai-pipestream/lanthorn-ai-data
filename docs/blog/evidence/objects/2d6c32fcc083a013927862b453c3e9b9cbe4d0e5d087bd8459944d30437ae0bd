@@ -1,0 +1,8 @@
+# BSE progress
+
+- Location: The Green Calf (Turns 51, Score 5, e00110/e00111). Ordinary prompt confirmed.
+- Inventory (observed): carrying garden fork, faxed note; white coat worn containing glass jar + toy pistol (jar e00097, pistol e00100, fork e00102). Briefcase (+typed note) stashed in boot e00093 with remote, burnt battery, key ring. Typed note: Operation Red-Chevette Agent 667.
+- Checkpoints verified: start-lane, boot-open, coat-worn, briefcase-read, lane-ready (e00103/e00104). Continuation: restore lane-ready if needed; no timed/lamp resources consumed; safe ordinary prompt in pub.
+- Cases this branch (~28): prior ~24 + lane-jar-pocket none (put jar in coat e00097); lane-pistol-pocket vocab (slip rejected e00099 -> put e00100); lane-fork-recover exploration (get fork e00102); lane-go-north vocab (head north rejected e00105 -> n e00106); pub-ask-tom-cows vocab (talk to tom rejected e00109 -> ask tom about cows e00110).
+- Last hint: lines 41-49 (Ask Tom about cows / Z Z / Ask Dick about BSE / Z Z / Ask Harry about devil / Z Z / Read faxed then drop / Ask Dick about red-chevette / Ask Tom about beer) — Ask Tom done. Guidance only.
+- Next: Z, Z then Ask Dick about BSE per hint; checkpoint before risky/timed sequences. Then continue farm/laboratory investigation, demon encounter + timed return + final west per manifest. Keep probes 1-at-a-time.

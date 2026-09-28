@@ -1,0 +1,12 @@
+# I-0 progress — continuation required (incomplete, NOT finished)
+
+- Location: Roadside, branch b6, ordinary prompt e135 (annotation confirmed). No heat warning in b6 yet through 9 turns.
+- Inventory: pepper spray, wallet, lip balm (roadside-out base); purse empty in car; hood auto-closes.
+- Checkpoints (verified): start-car, roadside-out (b6 base e120-121), before-driver-choice, after-fourth-decline, heat-warning-yell, b2-in-car-seat-search, b3-roadside-before-help, b6-after-two-declines e130-131 (safe; need new checkpoint after three declines).
+- b6 safe sequence: look e122, hood e123 safe, wait e124 safe, hitch e125 seedy VW, decline e126 safe, hitch e127 seedy Subaru, say-no e128 accepted safe, annotate e129 none, hitch e132 seedy Subaru, no-thanks e133 partial-parse safe failure, no e134 safe, annotate e135 syntax. No heat warnings — buffer holds.
+- Deaths kept (do NOT replay): b1 e82 batch-waits + e83 menu; b3 e109 wait-in-car; b4 e114 decline-when-pounding; b5 e119 enter-car-when-critical pound (not death but warning).
+- Cases: decline-say-no none (e128-129); decline-no-thanks syntax (e133 partly understood -> e134 no, e135). Hood-fresh safe vs hood-late pound contrast noted (e123 vs e112) — annotate later if needed, no replay.
+- Heat model: fresh buffer ~9+ safe turns for look/hood/wait/hitch/declines; critical-stage wait/decline/hood/enter advance to death. Hitchhike time-safe always; rejections heat-safe.
+- Hints: generic wait-for-help pointer repeated (e108/e117/e118 lines 61-69); Earl/Larry specifics unresolved. Next need Larry arrival excerpt with new topic (tow/Larry/Willowbutton/bus) or continue hitch marathon.
+- Next: checkpoint b6-after-three-declines now; then single hitchhikes seeking Larry (good driver) with heat watch; decline seedies canonically; checkpoint at safe ride; then Larry/Willowbutton/bus to Front Porch + both final home scenes per manifest. Do NOT batch waits.
+- Pending: none — m0117 annotate confirmed e135. Next m0118 checkpoint.

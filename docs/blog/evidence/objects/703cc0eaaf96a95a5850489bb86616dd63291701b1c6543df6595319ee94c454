@@ -1,0 +1,10 @@
+# Asylum progress
+
+Location: starting room, closet open (wooden key taken), globe open (hammer taken).
+Inventory as observed: brass key (start), wooden key (closet), hammer (globe). Verify with `inventory` later.
+Checkpoints: start-safe (verified), after-closet (verified e00023-e00024).
+Last hint (e00005, lines 6-14): unlock closet with key / open closet / get key / open globe / get hammer / unlock drawer with wooden / get glass / smash glass / search drawer. Verified through get hammer.
+Unresolved case IDs: start-box-01 (open box locked), start-drawer-01 (open drawer locked), start-closet-02 (open closet locked, now resolved via unlock), drawer-unlock-01 (unlock drawer probe, pending m0024).
+Annotated: start-mat-02 (lift mat vocab fail e00008 -> look under mat e00006).
+Pending: m0024 unlock drawer — awaiting broker response, do not resubmit.
+Next: unlock drawer with wooden key, open drawer, glass/hammer sequence, wooden box, weak wall exit.

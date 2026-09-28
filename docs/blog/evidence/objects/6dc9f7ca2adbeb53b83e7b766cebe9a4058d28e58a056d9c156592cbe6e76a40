@@ -1,0 +1,23 @@
+{
+  "game_id": "reverberations",
+  "title": "Reverberations",
+  "engine": "zvm-cli",
+  "story": "/home/krickert/if-games/zcode/reverb.z5",
+  "walkthrough": "/work/experiments/lanthorn-recall-training/control/reverberations-walkthrough.txt",
+  "walkthrough_url": "https://ifarchive.org/if-archive/solutions/reverb.sol",
+  "response_timeout_seconds": 180,
+  "completion": "Require actual author-intended conclusion against raw output, not deaths/quitting/partial scores. Story R1/990110, community guide release unspecified. Timed sequences; save at safe milestones and preserve failures.",
+  "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/reverberations.json",
+  "story_sha256_expected": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+  "checkpoint_policy": "Only at ordinary prompts; verify success.",
+  "dataset_split": "train",
+  "game_family": "reverberations",
+  "collection_notes": "# Reverberations\n\nStory R1/990110, community guide release unspecified. Timed sequences; save at safe milestones and preserve failures.\nGuide: https://ifarchive.org/if-archive/solutions/reverb.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n",
+  "zmachine_version": 5,
+  "release": 1,
+  "serial": "990110",
+  "session_id": "reverberations-b43cf5e223",
+  "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+  "started_at": "2026-09-25T06:09:14.124224+00:00",
+  "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark"
+}
