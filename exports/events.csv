@@ -86474,6 +86474,484 @@ envelope, a can of tunafish, a Post-It, a cough syrup bottle, your wallet, your
 keys and a pager.
 
 >","Inventory list (money, can, wallet, keys, pager, letter, etc.)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01171","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1171","2026-09-28T01:29:46.099Z","command","exploration","case-mm-east-passage","Explore the unexplored east passage out of the dream Mini-Mart, hypothesizing it leads toward the box of doughnuts from the R1 ending route","east","
+A Darkened Passage
+The passage undulates as it moves west to east, curving back and forth with a 
+kind of reassuring regularity. The walls are rough here, as if the passage had 
+just been carved hours ago.
+
+>","A new room (possibly containing a box, doughnuts, chairs, or a car — the R1 epilogue objects)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01172","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1172","2026-09-28T01:30:06.312Z","command","exploration","case-mm-east-passage","Follow the undulating darkened passage east to its end","east","
+Aisle 10
+You never spend any time in this aisle: the sign above you indicates dog food, 
+cat food, baby food. Not that it really counts or anything -- the shelves are 
+empty here as well. There are passages west and east, and a gap in the shelves 
+leads north.
+
+An elderly man stands frozen in the middle of mopping the floor.
+
+>","Termination of the passage in a new room","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01173","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1173","2026-09-28T01:30:33.047Z","command","exploration","case-aisle10-east","Continue east through Aisle 10 toward whatever lies beyond","east","
+A Darkened Passage
+The path turns from west to south, high above a vast, still pool of water. You 
+can just barely see it from here -- it must be hundreds of feet below you. The 
+water goes on as far as you can see, though that not may be saying much, and 
+the roof above you becomes cavernous, with thin stalactites.
+
+A fluttering of wings in the distance.
+
+>","A new room east of Aisle 10","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01174","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1174","2026-09-28T01:31:05.901Z","command","exploration","case-aisle10-north-gap","Return west to Aisle 10 to try the unexplored gap in the shelves leading north","west","
+Aisle 10
+You never spend any time in this aisle: the sign above you indicates dog food, 
+cat food, baby food. Not that it really counts or anything -- the shelves are 
+empty here as well. There are passages west and east, and a gap in the shelves 
+leads north.
+
+An elderly man stands frozen in the middle of mopping the floor.
+
+>","Aisle 10 again","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01175","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1175","2026-09-28T01:31:06.204Z","command","exploration","case-aisle10-north-gap","Go through the gap in the shelves north of Aisle 10, the one unexplored exit in this new area","north","
+A Darkened Passage
+The passage runs a short way, north to south. The ceiling above you is just 
+barely high enough to allow you to walk without ducking your head, and the 
+walls are close around you.
+
+""Are you there?"" a voice says in the distance.
+
+>","A new room beyond the shelves (possibly containing the box, doughnuts, chairs, or car from the R1 ending)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01176","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1176","2026-09-28T01:31:25.798Z","command","exploration","case-voice-north-passage","Follow the short darkened passage toward the voice that asked 'Are you there?'","north","
+Aisle 1
+The produce aisle is wider and larger than the aisles you've passed through 
+before, and it is dead empty. Where there would be canteloupe, watermelon, 
+strawberries, lettuce, even radishes, there are only bare green plastic 
+displays. Darkened passages lead north and south.
+
+A girl stands looking into space.
+
+In the center of the room is a mirror.
+
+>","The passage end — hopefully the source of the voice","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01177","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1177","2026-09-28T01:31:45.893Z","command","exploration","case-aisle1-mirror","Inspect the mirror in the center of Aisle 1 — a novel object in this dream supermarket, possibly a transition device or puzzle element","examine the mirror","Dante is lost. He has a collection of belongings, a place to live, a job, even 
+a retirement plan. But he's never tasted hardship -- the real kind, that leaves 
+scars -- and never really tasted happiness either -- the real kind, that lasts 
+forever.
+
+He wants to have a story. So badly. He tries not to think of himself as a 
+princess trapped in a tower, though he surely is trapped. Maybe he can be a 
+pilgrim lost in the dark, or an antihero waiting for the right moment to stage 
+his return. These are all fictions -- not stories. They are comfortable.
+
+He reads so many books now. He watches so many people.
+
+God, Dante is ugly.
+
+>","Mirror description, possibly hinting at reflection, passage, or a puzzle","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01178","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1178","2026-09-28T01:32:06.262Z","command","exploration","case-aisle1-girl","Identify the girl standing in Aisle 1 — another frozen vignette character, possibly the source of the 'Are you there?' voice","examine the girl","Alice is good at waiting. This is a joke she tells herself and no one else; she 
+works as a waitress in an Italian restaurant she would call ""nice enough."" So 
+much of her life is nice enough. She went to a decent college -- not a state 
+school, but not really prestigious, either. She tried to get into grad school, 
+but she wasn't accepted anywhere.
+
+The funny thing is it didn't feel bad to get all those rejection letters. She 
+just moved on to what was possible. A small apartment and a small job. Not 
+small -- nice enough. She doesn't feel bad. When she knows what she wants to 
+be, she'll know.
+
+It just takes time. She believes this without question. Does that count as 
+faith?
+
+>","Vignette text identifying the girl","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01179","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1179","2026-09-28T01:32:06.566Z","command","exploration","case-aisle1-girl","Continue north through Aisle 1's second exit","north","
+A Darkened Passage
+Stairs -- real stairs, measured carefully and cut at precise angles -- lead 
+downward in a tight clockwise circle. A slight, moist breeze comes from below. 
+To the south is the supermarket.
+
+>","A new room north of the produce aisle","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01180","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1180","2026-09-28T01:32:32.489Z","command","exploration","case-aisle1-stairs-down","Descend the measured stairs below the produce aisle","down","
+A Darkened Passage
+The stairs end abruptly at a flat, blank gray wall to your north. Nothing. It 
+feels wrong somehow -- you don't know what you should expect here, but you are 
+certain there ought to be more. The stairway leading up is behind you.
+
+There's a dull thump high above you.
+
+>","Whatever lies at the bottom of the stairs","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01181","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1181","2026-09-28T01:33:05.794Z","command","exploration","case-gray-wall-probe","Inspect the flat blank gray wall at the stair bottom — the text says there ought to be more, hinting it may be a sealed door","examine the wall","You look carefully over the surface of the wall, but there's nothing hidden 
+there.
+
+>","Wall description revealing a mechanism, a keyhole, or confirming it is a puzzle gate","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01182","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1182","2026-09-28T01:33:06.097Z","command","synthetic_probe","case-gray-wall-probe","Test whether the gray wall moves or opens under pressure","push the wall","You are unable to.
+
+>","The wall opens/moves, or a refusal clarifying the mechanism","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01183","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1183","2026-09-28T01:33:25.889Z","command","synthetic_probe","case-gray-wall-probe","Knock on the blank gray wall — a natural follow-up to check for a hollow space or a response from beyond","knock on the wall","You don't even put a dent in the wall.
+
+>","A hollow sound, a response, or a refusal confirming no mechanism","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01184","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1184","2026-09-28T01:38:05.166Z","checkpoint","","","","save","
+saves: 1 after-phone-attic.sav   2 bank-lobby-explore.sav   3 bank-pre-pit-climb.sav   4 driving-with-chris.sav   5 gas-station-awake.sav   6 map-room-post-probes.sav   7 map-room-tile.sav   8 minimart-pre-escalation.sav   9 outside-white-house.sav   10 po-envelope-mailed.sav   11 pool-passage-pre-probes.sav   12 waiting-room-pre-climb.sav   13 waiting-room-pre-pool-jump.sav
+Save to file: ","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01185","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b3","1185","2026-09-28T01:38:05.468Z","checkpoint_filename","","","","aisle1-gray-wall.sav","Saved to '/work/experiments/lanthorn-recall-training/play/blue-chairs-kimi/saves/bluechairs.z5.save/aisle1-gray-wall.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01186","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1186","2026-09-28T01:38:25.043Z","restore","","","","restore","
+saves: 1 after-phone-attic.sav   2 aisle1-gray-wall.sav   3 bank-lobby-explore.sav   4 bank-pre-pit-climb.sav   5 driving-with-chris.sav   6 gas-station-awake.sav   7 map-room-post-probes.sav   8 map-room-tile.sav   9 minimart-pre-escalation.sav   10 outside-white-house.sav   11 po-envelope-mailed.sav   12 pool-passage-pre-probes.sav   13 waiting-room-pre-climb.sav   14 waiting-room-pre-pool-jump.sav
+Restore from file: ","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01187","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1187","2026-09-28T01:38:25.344Z","checkpoint_filename","","","","gas-station-awake.sav","Ok.
+
+>","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01188","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1188","2026-09-28T01:39:05.170Z","command","guided","case-luckys-slim-jims","Enter the real Lucky's Mini-Mart from the gas station","east","
+Mini-Mart
+It's a classic three-aisle setup: chips, nuts, and sunflower seeds down one 
+aisle; chewing gum, cookies, and down another; and canned meat and other 
+miscellaneous survivalist/maniac stuff down the third. No slurpee machine, 
+which for some reason is kind of a bummer. You've always been a fan, though 
+you're not really thirsty at the moment or anything.
+
+In clear violation of child labor laws, there's a Chinese kid (we're talking 
+middle school here) at the counter, thumbing through an anime comic book.
+
+The store continues to the east, and you can head out to the west.
+
+>","Real Mini-Mart with the kid at the counter","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01189","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1189","2026-09-28T01:39:05.474Z","command","synthetic_probe","case-luckys-slim-jims","Take the Slim Jims the kid's description jokingly warns about stealing — hypothesis: they are a real takeable item and the dream kid's 'useful thing'","take the slim jims","Ew... you've never been a fan.
+
+The kid turns a page, looks at you briefly.
+
+>","Slim Jims enter inventory, or a refusal ('You don't see anything like that around' would kill the Slim Jims hypothesis)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01190","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1190","2026-09-28T01:39:31.449Z","command","synthetic_probe","case-luckys-give-money","Hand Chris's cash to the real kid as a purchase attempt — BUY was refused as 'Nobody's selling anything', but GIVE was never tried","give the money to the kid","The kid looks at you like you're crazy. ""What you want to buy?"" he asks.
+
+>","The kid takes the money and offers stock, or a scripted refusal","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01191","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1191","2026-09-28T01:39:31.755Z","command","synthetic_probe","case-luckys-give-money","Look for any takeable stock in the three aisles (chips, gum, canned meat) that could be the dream kid's trade item","examine the aisles","You don't see anything like that around.
+
+>","Aisle contents described, possibly revealing takeable goods","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01192","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1192","2026-09-28T01:39:57.843Z","command","exploration","case-luckys-buy-dialog","Answer the kid's 'What you want to buy?' with the doughnut Chris asked for earlier","a doughnut","That's not a verb I recognize.
+
+>","The kid sells/provides a doughnut (possibly the trade item for the dream kid)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01193","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1193","2026-09-28T01:41:57.661Z","command","synthetic_probe","case-luckys-buy-stock","Purchase the Slim Jims — they are implemented objects (the kid's warning and the 'Ew' refusal prove it), and the kid asked 'What you want to buy?' when handed money","buy the slim jims","Ew... you've never been a fan.
+
+The kid yawns.
+
+>","A purchase transaction (kid takes the $3, gives Slim Jims), or a refusal","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01194","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1194","2026-09-28T01:41:57.965Z","command","synthetic_probe","case-luckys-buy-stock","Purchase the milk from the back room stock as an alternative trade item","buy the milk","You don't see anything like that around.
+
+>","A purchase transaction, or a refusal/joke","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01195","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1195","2026-09-28T01:42:31.364Z","command","guided","case-gasstation-chis-talk","Return to the gas station forecourt where Chris and the car are","west","
+A Gas Station in the Middle of Nowhere
+Everything's so fucking yellow, like you're a zombie now and your optic nerves 
+have fermented or something. It's because of those stupid low-energy lights 
+overhead. Saving the planet by turning it ugly. Goddammit -- your eyes hurt now.
+
+No one else is here, but that kind of makes sense. You're not sure what time it 
+is, but it must be late. The gas station's off some two-lane highway, but there 
+aren't any road signs, so you have no idea where you are, either. But it 
+doesn't really matter, you guess. Chris knows where to go -- you told him, 
+after all.
+
+There's a mini-mart to the east that looks open. Above it is a sign that reads 
+LUCKY'S in kind-of shoddy painter's script.
+
+Chris is occupied pumping gas -- he's humming this random sort of song to 
+himself that you don't recognize.
+
+>","Gas station scene with Chris","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01196","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1196","2026-09-28T01:42:31.667Z","command","exploration","case-gasstation-chis-talk","Refresh the gas station scene to see Chris, the car, and any exits or objects","look","
+A Gas Station in the Middle of Nowhere
+Everything's so fucking yellow, like you're a zombie now and your optic nerves 
+have fermented or something. It's because of those stupid low-energy lights 
+overhead. Saving the planet by turning it ugly. Goddammit -- your eyes hurt now.
+
+No one else is here, but that kind of makes sense. You're not sure what time it 
+is, but it must be late. The gas station's off some two-lane highway, but there 
+aren't any road signs, so you have no idea where you are, either. But it 
+doesn't really matter, you guess. Chris knows where to go -- you told him, 
+after all.
+
+There's a mini-mart to the east that looks open. Above it is a sign that reads 
+LUCKY'S in kind-of shoddy painter's script.
+
+Chris is occupied pumping gas -- he's humming this random sort of song to 
+himself that you don't recognize.
+
+With a clunk, the gas pump stops.
+
+>","Full gas station description including Chris's state and surroundings","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01197","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1197","2026-09-28T01:42:57.600Z","command","exploration","case-gasstation-pump-stop","Let the scene progress after the gas pump stopped — Chris may finish fueling and act","z","Time passes.
+
+Chris pulls the nozzle out of his car and starts punching buttons on the gas 
+pump.
+
+>","Chris reacts, speaks, or the scene changes","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01198","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1198","2026-09-28T01:43:50.043Z","command","guided","case-luckys-can-opener","Re-enter Lucky's to hunt the can opener","east","
+Mini-Mart
+It's a classic three-aisle setup: chips, nuts, and sunflower seeds down one 
+aisle; chewing gum, cookies, and down another; and canned meat and other 
+miscellaneous survivalist/maniac stuff down the third. No slurpee machine, 
+which for some reason is kind of a bummer. You've always been a fan, though 
+you're not really thirsty at the moment or anything.
+
+In clear violation of child labor laws, there's a Chinese kid (we're talking 
+middle school here) at the counter, thumbing through an anime comic book.
+
+The store continues to the east, and you can head out to the west.
+
+>","Real Mini-Mart","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01199","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1199","2026-09-28T01:43:50.359Z","command","synthetic_probe","case-luckys-can-opener","Take a can opener from the canned-goods aisle — the phlocodine/tunafish can needs one, and this store stocks canned meat and 'survivalist' gear","take the can opener","You don't see anything like that around.
+
+>","Can opener enters inventory, or 'You don't see anything like that around'","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01200","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1200","2026-09-28T01:43:50.663Z","command","synthetic_probe","case-luckys-can-opener","Purchase the can opener if TAKE is refused — the kid asked 'What you want to buy?' when handed money","buy the can opener","You don't see anything like that around.
+
+>","A purchase, or a refusal","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01201","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1201","2026-09-28T01:46:43.221Z","command","guided","route-luckys-to-dreammm","Enter the back room of Lucky's where the refrigerated case is","east","
+Back of the Mini-Mart
+Rows and rows of milk peer at you through the doors of the refrigerated case. 
+Well, except one door that's completely empty. Not even a display rack inside. 
+Kind of weird, you guess -- maybe it wasn't economically feasible or something? 
+To the west is the front of the store.
+
+>","Lucky's back room with the empty fridge case","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01202","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1202","2026-09-28T01:46:43.524Z","command","guided","route-luckys-to-dreammm","Open the empty refrigerated case door, the dream entry (proven on b0)","open the empty door","A blast of cold air hits your face.
+
+>","The case door opens","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01203","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1203","2026-09-28T01:46:43.829Z","command","guided","route-luckys-to-dreammm","Climb into the case to reach the Darkened Passage (proven on b0)","enter the case","There is no back to the case -- it just keeps going until you've almost 
+forgotten what you're after, what your goal is, who you are --
+
+A Darkened Passage
+It's cool, almost close to what the first day of fall feels like. This is a 
+narrow passage -- your flashlight reveals that the walls look something close 
+to clay, with kind of a deep reddish tint -- without twist or turning.
+
+Things get brighter to the east, and assuming the laws of physics are still in 
+effect and the universe is internally consistent, the mini mart is west.
+
+>","The Darkened Passage","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01204","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1204","2026-09-28T01:46:44.133Z","command","exploration","route-luckys-to-dreammm","Test the room text's claim that the mini mart lies west — the never-taken shortcut directly to the dream Mini-Mart and the kid","west","The tunnel feels unfamiliar, like it turns a different way now than you 
+remember it, but the light grows and grows, a familiar friend, a sign that you 
+aren't lost, not really this time, just maybe a little misplaced, and then you 
+emerge in:
+
+Aisle 4
+The sign overhead reads SOUP, PASTA, SAUCES, but the aisle is bare. You seem to 
+be in a supermarket of some kind -- slick off-white tile floor and a faint 
+forgotten melody -- but it's only one aisle; drab walls rise above the shelves. 
+Rough holes in the walls lead east and south.
+
+There's a man gazing intently at a solitary can of tunafish here. He doesn't 
+seem to notice your presence.
+
+>","The dream Mini-Mart with the kid (or an unexpected room to adapt to)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01205","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1205","2026-09-28T01:47:16.148Z","command","exploration","case-aisle4-jeff","Identify the man gazing at the solitary tunafish can — likely Jeff of the phlocodine vignette","examine the man","Jeff is twenty-six now; married for four years now. It was so sudden, the way 
+it happened, but it also felt inescapably right. He is in love, maybe always 
+will be. He has a graveyard shift job, but it's not important. It's enough 
+right now to be able to come home to a home whose every corner he knows, and 
+Amanda asleep for so long already.
+
+His father leaves messages for him at work -- somehow he found him. Jeff 
+deletes them all without listening to them. Some things can't be forgiven.
+
+One night after work, he notices a light on in his house. He doesn't know what 
+to think -- the front door is still locked. The stairs in his house creak so 
+loudly. He doesn't hear anything happening. He opens the bedroom door.
+
+This is how it happens. This is how his life changes.
+
+>","Vignette text about the man and the can","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01206","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1206","2026-09-28T01:47:16.452Z","command","exploration","case-aisle4-jeff","Take the unexplored south hole out of Aisle 4","south","
+A Darkened Passage
+The moist clay walls of this tunnel curve from north to west, maybe twenty feet 
+long. The ceiling's so low -- not quite short enough you have to stoop to walk, 
+but low enough to feel weird, like this was designed for someone else.
+
+>","A new room south of Aisle 4","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01207","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1207","2026-09-28T01:47:48.980Z","command","exploration","case-aisle4-west-tunnel","Follow the low moist tunnel as it curves west","west","
+A Blue Chair in the Dark
+You can see nothing but a single blue chair in the center of the room. A 
+spotlight whose... this seems familiar? But you can't remember why. There's 
+nothing else here to fix your eye on. Everything is darkness; everything else 
+is gone and forgotten.
+
+(Didn't you have your flashlight on or something? Didn't you have a flashlight?)
+
+A darkened passage leads east.
+
+>","A new room at the tunnel's end","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01208","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1208","2026-09-28T01:48:21.686Z","checkpoint","","","","save","
+saves: 1 after-phone-attic.sav   2 aisle1-gray-wall.sav   3 bank-lobby-explore.sav   4 bank-pre-pit-climb.sav   5 driving-with-chris.sav   6 gas-station-awake.sav   7 map-room-post-probes.sav   8 map-room-tile.sav   9 minimart-pre-escalation.sav   10 outside-white-house.sav   11 po-envelope-mailed.sav   12 pool-passage-pre-probes.sav   13 waiting-room-pre-climb.sav   14 waiting-room-pre-pool-jump.sav
+Save to file: ","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01209","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1209","2026-09-28T01:48:21.988Z","checkpoint_filename","","","","blue-chair-dark.sav","Saved to '/work/experiments/lanthorn-recall-training/play/blue-chairs-kimi/saves/bluechairs.z5.save/blue-chair-dark.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01210","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1210","2026-09-28T01:48:41.647Z","command","exploration","case-blue-chair-dark-sit","Sit on the blue chair in the dark — the dream-depth analog of the White House chair that transitioned scenes earlier","sit on the chair","The chair feels nice. The chair feels calm. Same as it always does.
+
+""Happy birthday to you..."" voices sing. You can't see where they're coming 
+from, but they are familiar and scary for a reason you don't understand...
+
+>","A scene transition (possibly a page pause needing Enter, then a new room or narrative)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01211","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1211","2026-09-28T01:49:15.032Z","command","exploration","case-blue-chair-birthday","Wait as the birthday voices sing, letting the scene develop","z","Time passes.
+
+""Happy birthday to you..."" Faces becomes just barely apparent-- your mother, 
+your father. But different somehow. One on the left, one on the right. Both 
+singing. Their voices are odd, like you are underwater, maybe drowning... maybe 
+still asleep...
+
+>","The birthday scene continues — possibly Erin's vignette resolving or a transition","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01212","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1212","2026-09-28T01:49:40.944Z","command","exploration","case-blue-chair-birthday","Continue through the scripted birthday sequence","z","Time passes.
+
+Wait, no, these aren't your parents at all... something about their eyes... 
+
+""Don't worry,"" the one you thought was your mother says. ""We're monsters. We're 
+here to help you...""
+
+>","The next beat of the sequence — a cake, a question, or a transition","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01213","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1213","2026-09-28T01:50:14.367Z","command","exploration","case-blue-chair-monsters","Continue through the monster-helpers sequence to its resolution","z","Time passes.
+
+""Happy birthday, dear Dante..."" they sing. What you thought was your mother is 
+carrying a cake in front of her. Twenty-three candles. Simultaneously they 
+smile. Pointed teeth.
+
+>","The next beat — an offer, a question (>> prompt), or a transition","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01214","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1214","2026-09-28T01:50:40.472Z","command","exploration","case-blue-chair-candles","Blow out the 23 candles on the birthday cake the monsters present — the natural ritual action that may complete this sequence","blow out the candles","A quick puff of air and they're all gone.
+
+Congratulations.
+
+You've just turned twenty-three. This is the year where things stop feeling 
+fun, where you no longer look forward to summer. You still nurse crushes in a 
+distant kind of way, but you don't bother anymore to daydream of leaving those 
+girls a note (they always look just barely like Beatrice, like you are doomed 
+to one true love), finding the right words, kissing them... You worry about the 
+future, but only in a logistical sense. Where will you live? How will you pay 
+the rent? What to eat on a Tuesday night? How to spend Friday?
+
+The question of who you will be no longer seems relevant. Because you aren't 
+growing anymore -- this is the year you finish all that.
+
+This year is when things end.
+
+Bare Light, Empty
+The room is superordinary. The walls are blank, formless, pale green. Someday 
+this could be a bustling office or a hospital room or even a bedroom -- but 
+that would take furniture and care. Until then, it's the kind of room you spend 
+too much time in, the kind of room you wish you could forget entirely.
+
+Darkened passages lead north and east.
+
+A tiny yellow envelope lies where the blue chair was before.
+
+>","The candles go out and the scene resolves, or a refusal showing what the game wants","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01215","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1215","2026-09-28T01:51:06.666Z","checkpoint","","","","save","
+saves: 1 after-phone-attic.sav   2 aisle1-gray-wall.sav   3 bank-lobby-explore.sav   4 bank-pre-pit-climb.sav   5 blue-chair-dark.sav   6 driving-with-chris.sav   7 gas-station-awake.sav   8 map-room-post-probes.sav   9 map-room-tile.sav   10 minimart-pre-escalation.sav   11 outside-white-house.sav   12 po-envelope-mailed.sav   13 pool-passage-pre-probes.sav   14 waiting-room-pre-climb.sav   15 waiting-room-pre-pool-jump.sav
+Save to file: ","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01216","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1216","2026-09-28T01:51:06.968Z","checkpoint_filename","","","","bare-light-empty.sav","Saved to '/work/experiments/lanthorn-recall-training/play/blue-chairs-kimi/saves/bluechairs.z5.save/bare-light-empty.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01217","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1217","2026-09-28T01:51:26.606Z","command","exploration","case-bare-light-envelope","Take the tiny yellow envelope left where the blue chair was","take the envelope","Taken.
+
+>","Envelope in inventory (possibly containing something new)","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01218","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1218","2026-09-28T01:51:26.910Z","command","exploration","case-bare-light-envelope","Explore the first exit of Bare Light, Empty","north","
+A Darkened Passage
+The passage ends abruptly to the north at a plain gray wall. It doesn't look 
+like the wall has been painted gray, though its surface is smooth, almost like 
+drywall.
+
+Seems like your only option is to return south.
+
+>","A new room","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01219","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1219","2026-09-28T01:51:52.757Z","command","guided","case-bare-light-east","Return to Bare Light, Empty from the dead-end passage","south","
+Bare Light, Empty
+The room is superordinary. The walls are blank, formless, pale green. Someday 
+this could be a bustling office or a hospital room or even a bedroom -- but 
+that would take furniture and care. Until then, it's the kind of room you spend 
+too much time in, the kind of room you wish you could forget entirely.
+
+Darkened passages lead north and east.
+
+>","Bare Light, Empty","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01220","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1220","2026-09-28T01:51:53.060Z","command","exploration","case-bare-light-east","Explore the second exit of Bare Light, Empty","east","
+A Darkened Passage
+The passage curves -- you can tell that much at least by trailing a hand 
+against the wall -- but it's hard to say how much, or even how far the passage 
+goes. There is light to the north and west. The supermarket?
+
+>","A new room — possibly the box/chairs/car sequence from the R1 ending","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01221","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1221","2026-09-28T01:52:25.624Z","command","exploration","case-bare-light-passage-north","Head toward the light to the north, away from the supermarket","north","
+Aisle 4
+The sign overhead reads SOUP, PASTA, SAUCES, but the aisle is bare. You seem to 
+be in a supermarket of some kind -- slick off-white tile floor and a faint 
+forgotten melody -- but it's only one aisle; drab walls rise above the shelves. 
+Rough holes in the walls lead east and south.
+
+There's a man gazing intently at a solitary can of tunafish here. He doesn't 
+seem to notice your presence.
+
+>","A new room","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01222","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1222","2026-09-28T01:53:04.886Z","command","exploration","case-bare-light-envelope-open","Open the tiny yellow envelope left where the chair was — it may contain the key to the endgame","open the envelope","You have to rip the envelope apart to open it, it's sealed so tight. There's a 
+birthday card inside.
+
+>","Envelope contents revealed","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01223","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1223","2026-09-28T01:55:09.403Z","command","exploration","case-dream-birthday-card","Read the birthday card found inside the ripped dream envelope — it may name the trade item or give the next instruction for the dream kid puzzle","read the card","A cartoon bear waves at you from the front of the card. ""A Special Message For 
+Our Special Son,"" it says in cute, cartoony writing.
+
+>","Card text displayed","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01224","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1224","2026-09-28T01:55:42.581Z","command","exploration","case-dream-birthday-card-open","Open the birthday card to read the inside message — the front shows only 'A Special Message For Our Special Son'","open the card","The inside of the card is nearly blank. Where a message would be, there's only 
+a typewritten number: 9317.
+
+>","Inside card text displayed, or a refusal","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01225","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1225","2026-09-28T01:56:28.558Z","command","exploration","case-aisle4-east-hole","Explore the east hole out of Aisle 4, the only unexplored exit from this room","east","
+A Darkened Passage
+It's cool, almost close to what the first day of fall feels like. This is a 
+narrow passage -- hard to say much more because the light is so dim here -- 
+without twist or turning.
+
+Things get brighter to the east, and the tunnel continues to the west.
+
+>","A new dream room","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01226","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1226","2026-09-28T01:56:54.957Z","command","exploration","case-aisle4-east-passage","Head east toward the brightening light at the end of the passage","east","
+Aisle 8
+The shelves here are completely empty. A sign indicates this would be the 
+snacks aisle (Doritos, pretzels, chewing gum -- all the food you wished you 
+could eat as a meal all by themselves) if there were anything to buy. Overhead 
+lights at regular intervals and an odd melody too soft to be understood...
+
+The north end of the aisle becomes an entrance to what appears to be a tunnel, 
+and a gash in the aisle leads west.
+
+>","A lit dream room, possibly the dream Mini-Mart","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01227","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1227","2026-09-28T01:57:14.568Z","command","exploration","case-aisle8-north-tunnel","Enter the tunnel at the north end of Aisle 8","north","
+A Darkened Passage
+You can see very little beyond the light of the supermarket to the south. You 
+think that perhaps the passage is sloped, but you can't say for sure how much 
+or for how long. The passage continues to the north as well, further into 
+darkness.
+
+>","A new dream room or passage","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01228","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1228","2026-09-28T01:57:34.361Z","command","exploration","case-aisle8-tunnel-deep","Follow the sloped passage deeper north into the darkness","north","
+A Darkened Passage
+You're in almost complete darkness here; it's only by groping around with your 
+hands that you can tell how the passage runs. East, west, and south. It's 
+impossible to tell anything further... how far things continue... whether the 
+sensation of going deeper and deeper into the earth is really true...
+
+Your hear... footsteps?
+
+>","A new dream room at the passage's end","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01229","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1229","2026-09-28T01:58:07.021Z","command","exploration","case-deep-passage-footsteps","Listen carefully to the footsteps in the dark junction to identify the source before choosing a direction","listen","You don't hear anything weird.
+
+The ground shifts beneath your feet.
+
+>","A description of the footsteps' source or direction","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
+"blue-chairs-kimi-b6507919f0:e01230","blue-chairs-kimi","blue-chairs-kimi-b6507919f0","b4","1230","2026-09-28T01:58:33.117Z","command","exploration","case-deep-junction-west","Leave the shifting-ground junction via the west passage before whatever is approaching arrives","west","
+Aisle 2
+COOKIES, CRACKERS, SNACKS, a sign above you reads. But here the shelves are as 
+empty as before -- dusty, even. It's been a long time since anyone has been 
+here, it seems. Darkened passages lead north and east.
+
+A little girl lies on the floor, staring at something in the ceiling you can't 
+see.
+
+>","A new room or passage to the west","","","","[]","unreviewed","captured","7b50dacf8d8b15e2a6429d2173a7c6d07630f4394587ddf1ddee11508503c25b"
 "bofh-6da3ab2a37:e00001","bofh","bofh-6da3ab2a37","b0","1","2026-09-25T18:09:20.430Z","startup","system","","","","
 It's a clear summer night in London. You walk purposefully down Langley Street 
 in Covent Garden looking for the pub. It's nearly time and you can't be late. 
@@ -141025,6 +141503,491 @@ The scorpig jumps on the wall, crawls on it for a few seconds, then jumps back
 on the floor.
 
 >","Injector described as empty or still loaded","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00167","critical-breach-kimi","critical-breach-kimi-f618da3d84","b5","167","2026-09-28T01:29:59.652Z","command","guided","testarea-take-chip-bare-b5","Recover the fallen chip using the walkthrough's exact bare wording","take chip","(the old marking chip)
+When you touch the chip, it falls apart in your hands...the fall was too much 
+for it. Someone is going to kill you for this.
+
+>","Chip recovered or destroyed or disambiguation asked","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00168","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","168","2026-09-28T01:30:33.079Z","restore","","","","restore","
+saves: 1 before-specimen.sav   2 chip-loaded.sav   3 lab-awake.sav   4 loose-scorpig-b3.sav   5 sedated-open.sav   6 start.sav
+Restore from file: ","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00169","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","169","2026-09-28T01:30:33.381Z","checkpoint_filename","","","","chip-loaded.sav","Ok.
+
+>","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00170","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","170","2026-09-28T01:30:46.393Z","command","exploration","testarea-inject-syntax-b6","Go east to the cage with the loaded injector","e","
+Laboratory (Test Area)
+The specimen's cage occupies most of the east wall. There is also a cabinet and 
+the disposal chamber.
+
+>","Test area description","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00171","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","171","2026-09-28T01:30:46.704Z","command","synthetic_probe","testarea-inject-syntax-b6","Inject the registered old chip into the scorpig using explicit full syntax with the chip as direct object","inject old chip into scorpig","I only understood you as far as wanting to inject the old marking chip.
+
+>","Chip injected or syntax rejection or scripted attack","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00172","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","172","2026-09-28T01:31:39.361Z","command","guided","lab-unload-old-chip-b6","Unload the registered old chip from the injector to keep it safe from the fall","take old chip","Taken.
+
+>","Old chip safely unloaded from injector into hand","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00173","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","173","2026-09-28T01:31:39.671Z","command","exploration","lab-unload-old-chip-b6","Confirm the injector is empty and both chips are held","inventory","You are carrying:
+  an old marking chip
+  a marking chip
+  an anesthetic capsule
+  a jet injector (empty)
+  a keycard
+  some pliers
+  a beaker (full of liquid)
+  a lab coat (being worn)
+
+>","Injector empty, old chip and marking chip both held","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00174","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","174","2026-09-28T01:31:45.725Z","annotation","","testarea-inject-syntax-b6","Inject the registered old chip into the scorpig","","","","","","","[""critical-breach-kimi-f618da3d84:e00171"",""critical-breach-kimi-f618da3d84:e00164""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00175","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","175","2026-09-28T01:31:52.689Z","checkpoint","","","","save","
+saves: 1 before-specimen.sav   2 chip-loaded.sav   3 lab-awake.sav   4 loose-scorpig-b3.sav   5 sedated-open.sav   6 start.sav
+Save to file: ","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00176","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","176","2026-09-28T01:31:52.990Z","checkpoint_filename","","","","empty-injector-b6.sav","Saved to '/work/experiments/lanthorn-recall-training/play/critical-breach-kimi/saves/CriticalBreach.z8.save/empty-injector-b6.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00177","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","177","2026-09-28T01:32:06.164Z","command","guided","testarea-inject-empty-b6","Approach the scorpig with the empty injector to trigger its release without dropping the chip","inject scorpig","The injector is empty, you need to load it with something.
+
+>","Attack with empty injector, scorpig loose, nothing fragile dropped","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00178","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","178","2026-09-28T01:32:45.967Z","command","guided","testarea-pliers-scorpig-b6","Pick up the sedated caged scorpig with pliers to hold it for injection","take scorpig with pliers","No way. The farther you are from it, the better. You still have nightmares 
+about Robert. They could only reattach two fingers.
+
+>","Scorpig held safely or refusal as dangerous/awake","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00179","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","179","2026-09-28T01:33:12.612Z","command","guided","lab-load-new-chip-b6","Load the unregistered marking chip into the empty injector as a sacrificial load","load chip","(the marking chip in the jet injector (empty))
+You put the marking chip into the jet injector.
+
+>","New marking chip loaded into the empty injector","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00180","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","180","2026-09-28T01:33:25.941Z","command","guided","testarea-inject-newchip-b6","Trigger the scorpig release with the expendable new chip loaded","inject scorpig","When you approach the scorpig with the injector it leaps right at your face!
+ You jump back screaming, and fall on the floor, along with the injector and 
+the chip. The scorpig lands on the floor too, and it watches you with its 
+insect eyes.
+
+The scorpig stands on the hind legs, exposing its fangs.
+
+>","Scripted attack, new chip falls, old chip safe in hand","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00181","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","181","2026-09-28T01:33:45.921Z","command","guided","testarea-newchip-recovery-b6","Pick up the dropped injector after the new-chip attack","take injector","Taken.
+
+>","Injector taken from the floor","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00182","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","182","2026-09-28T01:33:46.230Z","command","guided","testarea-newchip-recovery-b6","Recover the fallen new marking chip and test whether it survives the fall","take chip","(the marking chip)
+When you touch the chip, it falls apart in your hands...the fall was too much 
+for it. Someone is going to kill you for this.
+
+The scorpig is following you with his eyes.
+
+>","New chip recovered intact or destroyed","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00183","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","183","2026-09-28T01:34:05.897Z","checkpoint","","","","save","
+saves: 1 before-specimen.sav   2 chip-loaded.sav   3 empty-injector-b6.sav   4 lab-awake.sav   5 loose-scorpig-b3.sav   6 sedated-open.sav   7 start.sav
+Save to file: ","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00184","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","184","2026-09-28T01:34:06.199Z","checkpoint_filename","","","","loose-old-safe-b6.sav","Saved to '/work/experiments/lanthorn-recall-training/play/critical-breach-kimi/saves/CriticalBreach.z8.save/loose-old-safe-b6.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00185","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","185","2026-09-28T01:34:19.220Z","command","guided","lab-select2-b6","Leave the loose scorpig and return west to the terminal","w","
+Laboratory (Workbench)
+The room is quite orderly and spotlessly clean, with white walls and metal 
+furniture. Almost clinical. Not surprising knowing the work done here. The work 
+bench is against the north wall, a simple slab of grey metal. The only other 
+thing that breaks the emptiness is the edge of the emergency panel on the wall. 
+The elevator door is south, and the test area in the eastern part of the room.
+The blast door is west.  
+
+>","Workbench description","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00186","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","186","2026-09-28T01:34:19.527Z","command","guided","lab-select2-b6","Administer extra food to specimens via terminal option 2 to get a mouse","select 2","-- Feeding product dispensed.
+
+>","Extra food administered, mouse available in test area","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00187","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","187","2026-09-28T01:34:32.714Z","command","exploration","testarea-take-mouse-b6","Go east to the test area where food was dispensed","e","
+Laboratory (Test Area)
+The specimen's cage occupies most of the east wall. There is also a cabinet and 
+the disposal chamber.
+
+The scorpig is here.
+
+>","Test area with dispensed feeding product","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00188","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","188","2026-09-28T01:34:33.025Z","command","guided","testarea-take-mouse-b6","Take the dispensed feeding mouse","take mouse","It's warm and a bit wet.
+
+The scorpig stands on the hind legs, exposing its fangs.
+
+>","Mouse taken","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00189","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","189","2026-09-28T01:34:52.724Z","command","guided","testarea-load-capsule-b6","Load the anesthetic capsule into the empty injector to drug the mouse","load capsule","(in the jet injector (empty))
+You put the anesthetic capsule into the jet injector.
+
+The scorpig jumps on the wall, crawls on it for a few seconds, then jumps back 
+on the floor.
+
+>","Anesthetic capsule loaded into the injector","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00190","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","190","2026-09-28T01:35:06.362Z","command","guided","testarea-inject-mouse-b6","Inject the held mouse with the anesthetic capsule to drug it as bait","inject mouse","The injector hisses and the capsule disappears inside the mouse.
+
+>","Mouse injected with anesthetic","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00191","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","191","2026-09-28T01:35:26.344Z","command","guided","testarea-drop-mouse-b6","Drop the drugged mouse on the floor as bait for the scorpig","drop mouse","You throw the mouse on the floor near the scorpig, and take a step back.
+
+The scorpig immediately sees the mouse, and jumps on it. First it impales it 
+with a claw, and then jumps on it and devours it. The crunching noises of the 
+bones only last a few seconds.
+
+>","Drugged mouse dropped as bait","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00192","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","192","2026-09-28T01:35:26.650Z","command","guided","testarea-drop-mouse-b6","Wait for the scorpig to take the bait","z","Time passes.
+
+>","Time passes, scorpig approaches mouse","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00193","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","193","2026-09-28T01:35:26.957Z","command","guided","testarea-drop-mouse-b6","Keep waiting for the scorpig to eat the drugged mouse","z","Time passes.
+
+The scorpig stands on the hind legs, exposing its fangs.
+
+The movements of the scorpig become slower.
+
+>","Time passes, scorpig eats mouse","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00194","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","194","2026-09-28T01:35:27.263Z","command","guided","testarea-drop-mouse-b6","Keep waiting for the drug to sedate the scorpig","z","Time passes.
+
+>","Scorpig sedated","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00195","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","195","2026-09-28T01:35:27.570Z","command","guided","testarea-drop-mouse-b6","Wait until the scorpig is fully sedated","z","Time passes.
+
+The scorpig stops moving and lies on the floor.
+
+>","Scorpig fully sedated and still","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00196","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","196","2026-09-28T01:35:52.700Z","command","guided","testarea-pliers-scorpig-loose-b6","Pick up the sedated loose scorpig with pliers","take scorpig with pliers","You clamp the specimen by one of its legs, praying it doesn't wake up, and lift 
+it. It's quite heavy. Suddenly, it twitches. You throw it in the cage.
+
+>","Sedated scorpig safely held with pliers","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00197","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","197","2026-09-28T01:36:19.366Z","command","guided","testarea-inject-drugged-b6","Load the registered old chip into the empty injector","load old chip","(in the jet injector (empty))
+You put the old marking chip into the jet injector.
+
+>","Registered old chip loaded into injector","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00198","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","198","2026-09-28T01:36:19.677Z","command","guided","testarea-inject-drugged-b6","Inject the old chip into the drugged caged scorpig","inject scorpig","Very carefully, sweating, you press the trigger. This time it works! Nothing 
+terrible happens. The chip is implanted in the specimen. And you still have 
+your face.
+
+You slam the cage lid close and hear the sweetest sound of your life. The 
+safety locks kicks in, and seals the cage.
+
+>","Chip successfully injected into the drugged caged scorpig","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00199","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","199","2026-09-28T01:36:52.083Z","annotation","","testarea-inject-scorpig","Inject the marking chip into the sedated scorpig","","","","","","","[""critical-breach-kimi-f618da3d84:e00118"",""critical-breach-kimi-f618da3d84:e00198""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00200","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","200","2026-09-28T01:36:52.083Z","annotation","","testarea-inject-awake-b6","Inject the chip into the scorpig","","","","","","","[""critical-breach-kimi-f618da3d84:e00180"",""critical-breach-kimi-f618da3d84:e00198""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00201","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","201","2026-09-28T01:36:52.385Z","checkpoint","","","","save","
+saves: 1 before-specimen.sav   2 chip-loaded.sav   3 empty-injector-b6.sav   4 lab-awake.sav   5 loose-old-safe-b6.sav   6 loose-scorpig-b3.sav   7 sedated-open.sav   8 start.sav
+Save to file: ","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00202","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","202","2026-09-28T01:36:52.687Z","checkpoint_filename","","","","injected-sealed-b6.sav","Saved to '/work/experiments/lanthorn-recall-training/play/critical-breach-kimi/saves/CriticalBreach.z8.save/injected-sealed-b6.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00203","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","203","2026-09-28T01:37:18.732Z","command","exploration","lab-select5-b6","Return west to the terminal with the specimen chipped and sealed","w","
+Laboratory (Workbench)
+The room is quite orderly and spotlessly clean, with white walls and metal 
+furniture. Almost clinical. Not surprising knowing the work done here. The work 
+bench is against the north wall, a simple slab of grey metal. The only other 
+thing that breaks the emptiness is the edge of the emergency panel on the wall. 
+The elevator door is south, and the test area in the eastern part of the room.
+The blast door is west.  
+
+>","Workbench description","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00204","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","204","2026-09-28T01:37:19.039Z","command","guided","lab-select5-b6","Start monitoring the implanted chip via terminal option 5","select 5","-- Starting monitoring on specimen Chimera R237-521...
+
+>","Bio-parameter monitoring starts on the implanted chip","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00205","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","205","2026-09-28T01:37:45.386Z","command","guided","lab-monitor-wait-b6","Wait for the monitoring readout to develop","z","Time passes.
+
+Oh well, that was a nasty accident. Now it's time to
+ *CLICK*
+
+ Wait, what was that?
+
+>","Monitoring progresses","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00206","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","206","2026-09-28T01:37:45.693Z","command","guided","lab-monitor-wait-b6","Keep waiting for the monitoring sequence","z","Time passes.
+
+>","Monitoring completes or story advances","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00207","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","207","2026-09-28T01:38:05.241Z","command","exploration","lab-breach-event-b6","Wait as the strange click event develops","z","Time passes.
+
+You hear a cold, metallic voice saying, ""All personnel are advised to keep 
+their positions. Facility sealing procedures level 3 initiated. Please do not 
+use the lifts when the lockdown is in progress"".
+Oh...shit, this is bad. Really bad. You heard the stories, and you ignored 
+them...and here you are.
+
+>","Breach event develops","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00208","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","208","2026-09-28T01:38:05.547Z","command","exploration","lab-breach-event-b6","Keep waiting through the unfolding event","z","Time passes.
+
+You hear a cold, metallic voice saying, ""Please keep your position when the 
+facility is in lockdown. Security team gamma please report for inspection in 
+the detached level 9"".
+Last year there was a gas escape. Or so they said. All the details were covered 
+up...even to the workers. But you haven't seen some of your colleagues ever 
+again after that.
+
+>","Event continues or resolves","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00209","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","209","2026-09-28T01:38:25.080Z","command","exploration","lab-lockdown-wait-b6","Wait through the facility lockdown announcements","z","Time passes.
+
+You feel the ground shaking, and the lights flicker for a moment.
+You hear a loud BEEP coming from the terminal.
+
+>","Lockdown announcements continue","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00210","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","210","2026-09-28T01:38:25.387Z","command","exploration","lab-lockdown-wait-b6","Keep waiting as the lockdown unfolds","z","Time passes.
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+The terminal is beeping at regular intervals.
+
+>","Event advances toward resolution","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00211","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","211","2026-09-28T01:38:25.387Z","help","","","","","","","Monitoring started (SELECT 5), waited through Z Z, now facility lockdown level 3 announcements are playing. Need the next excerpt after SELECT 5 / Z / Z to know the endgame actions.","Z
+Z
+Z
+SELECT 6
+X COMPUTER
+X COMPUTER
+X COMPUTER
+X COMPUTER
+","https://ifarchive.org/if-archive/solutions/criticalbreach.txt","[""critical-breach-kimi-f618da3d84:e00208""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00212","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","212","2026-09-28T01:38:38.263Z","command","exploration","lab-read-terminal-breach-b6","Read the beeping terminal to see the breach status","read computer","The screen is lit, showing the familiar user interface.
+
+Select 1 to show standard marking procedure instructions.
+Select 2 to administer extra food to specimens.
+Select 3 to prepare for manipulation of specimens.
+Select 4 to register a biometric chip.
+Select 5 to start monitoring chip.
+Select 6 to show breach report.
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+The terminal is beeping at regular intervals.
+
+>","Breach status or monitoring readout on screen","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00213","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","213","2026-09-28T01:38:58.103Z","command","exploration","lab-breach-report-b6","Wait as the breach unfolds","z","Time passes.
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+The terminal is beeping at regular intervals.
+
+>","Breach event advances","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00214","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","214","2026-09-28T01:38:58.410Z","command","exploration","lab-breach-report-b6","Keep waiting as the breach unfolds","z","Time passes.
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+The terminal is beeping at regular intervals.
+
+>","Breach event advances","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00215","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","215","2026-09-28T01:38:58.716Z","command","exploration","lab-breach-report-b6","Wait until the breach report is ready","z","Time passes.
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+The terminal is beeping at regular intervals.
+
+>","Breach event reaches report stage","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00216","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","216","2026-09-28T01:38:59.023Z","command","guided","lab-breach-report-b6","Show the breach report via terminal option 6","select 6","The terminal freezes for a moment, and then several screens of text scroll up.
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+
+>","Breach report shown","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00217","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","217","2026-09-28T01:39:11.605Z","command","exploration","lab-x-computer-breach-b6","Read the scrolled breach report on the terminal","x computer","Abnormal reading in monitoring process C432-1HDESSER475: Subject mental 
+activity parameter ER7 over 190% of accepted value.
+[MORE]
+
+>","Breach report text screens","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00218","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","218","2026-09-28T01:39:31.453Z","command","exploration","lab-x-computer-breach2-b6","Read the next screen of the breach report","x computer","Sector 9 D compromised. Starting sanitation procedure at level 5. Facility 
+lockdown in progress. Warheads Initialization level 1.
+[MORE]
+
+You hear a cold, metallic voice repeating, ""Breach containment procedures 
+initiated. Breach containment procedures initiated"".
+
+>","Next breach report screen","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00219","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","219","2026-09-28T01:39:44.788Z","command","exploration","lab-x-computer-breach3-b6","Read the next screen of the breach report","x computer","Specimen type H compromised, serial number 32454. Store location 32/5.
+Specimen status: DNA chimerization: 27%, Structural enhancement: 71%, Neural 
+Capacitors active, Skeletal Injection, Netlink broMISSINGSYS£$£%°°§@##***--_
+
+>","Next breach report screen","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00220","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","220","2026-09-28T01:39:58.114Z","command","exploration","lab-x-computer-breach4-b6","Read the next screen of the breach report","x computer","Acid Blood....Enhanced Muscles...HUMAN DNA RECOMBINATION??? Oh shit.
+...Wait a second...isn't 32/5 this...
+
+
+
+
+Please press SPACE to continue.
+","Next report screen or report end","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00221","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","221","2026-09-28T01:40:18.706Z","command","exploration","lab-space-continue-b6","Press Space to continue past the pause"," ","
+You open your eyes. Where are you? This is not your home...You need to get out. 
+You only know you need to get OUT.
+
+>","Story continues past the space pause","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00222","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","222","2026-09-28T01:40:38.719Z","command","exploration","escape-look-b6","Describe my new surroundings after waking up","look","Green Room (in the broken cylinder)
+Everything here is shrouded by a faint green light. Around you are orderly 
+stacked hundreds and hundreds of cylinders, piled so high that by looking up 
+you can't see where they end. It reminds you of a tomb... The only empty wall 
+is on the east, with what seems to be a door in it.
+
+>","New location description","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00223","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","223","2026-09-28T01:40:38.719Z","help","","","","","","","Breach report read (sector 9 compromised, warheads, specimen H with human DNA), SPACE pause led to waking in a new place needing to get OUT. Need the next excerpt after the X COMPUTER sequence to guide the escape.","EXIT
+TOUCH BORDER
+TOUCH DOOR
+HIT DOOR
+
+(Now you can choose one of the endings)
+
+--- Thing Ending
+Z","https://ifarchive.org/if-archive/solutions/criticalbreach.txt","[""critical-breach-kimi-f618da3d84:e00221""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00224","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","224","2026-09-28T01:40:51.744Z","checkpoint","","","","save","
+saves: 1 before-specimen.sav   2 chip-loaded.sav   3 empty-injector-b6.sav   4 injected-sealed-b6.sav   5 lab-awake.sav   6 loose-old-safe-b6.sav   7 loose-scorpig-b3.sav   8 sedated-open.sav   9 start.sav
+Save to file: ","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00225","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","225","2026-09-28T01:40:52.046Z","checkpoint_filename","","","","green-room-b6.sav","Saved to '/work/experiments/lanthorn-recall-training/play/critical-breach-kimi/saves/CriticalBreach.z8.save/green-room-b6.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00226","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","226","2026-09-28T01:41:05.094Z","command","synthetic_probe","greenroom-exit-b6","Climb out of the broken cylinder using a direction synonym","out","You get out of the broken cylinder.
+
+Green Room
+Everything here is shrouded by a faint green light. Around you are orderly 
+stacked hundreds and hundreds of cylinders, piled so high that by looking up 
+you can't see where they end. It reminds you of a tomb... The only empty wall 
+is on the east, with what seems to be a door in it.
+
+>","Leave the broken cylinder or direction rejection","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00227","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","227","2026-09-28T01:41:24.494Z","annotation","","greenroom-exit-b6","Climb out of the broken cylinder using a direction synonym","","","","","","","[""critical-breach-kimi-f618da3d84:e00226""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00228","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","228","2026-09-28T01:41:24.800Z","command","guided","greenroom-touch-border-b6","Touch the border of the green light or room as the walkthrough orders","touch border","You grip the metal, too strongly maybe. It bends even more, and cuts deep into 
+your flesh. It's not painful though.
+
+>","Border felt or new area revealed","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00229","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","229","2026-09-28T01:41:44.349Z","command","synthetic_probe","greenroom-feel-door-b6","Feel the east door using a synonym of touch","feel door","When the wound comes in contact with the metal, a loud hissing sound starts. 
+Your hand feels strange. The door is smoking and screaming. Soon, your hand has 
+burned a big hole in the door.
+
+A small drop of blood drips from the wound. When it touches the ground, it 
+makes a hissing noise and disappears in the floor.
+
+>","Door felt or touch synonym rejection","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00230","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","230","2026-09-28T01:42:03.896Z","annotation","","greenroom-feel-door-b6","Feel the east door using a synonym of touch","","","","","","","[""critical-breach-kimi-f618da3d84:e00229""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00231","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","231","2026-09-28T01:42:04.201Z","command","guided","greenroom-hit-door-b6","Strike the acid-burned door to break through","hit door","Your hand hits the inside of the door. Again and again. The door makes terrible 
+noises as your fingers grip and bend and rip out the steel. It's becoming 
+easier. Too easy. The door was at least 50 inches thick. And now it is warped 
+and cracked in half. But it doesn't matter. You are out. You are nearly out. 
+Out.
+
+
+
+Please press SPACE to continue.
+","Door breaks open, escape continues","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00232","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","232","2026-09-28T01:42:24.531Z","command","exploration","greenroom-space-ending-b6","Press Space to continue past the escape pause"," ","
+Laboratory (Workbench)
+The room is quite orderly and spotlessly clean, with white walls and metal 
+furniture. Almost clinical. Not surprising knowing the work done here. The work 
+bench is against the north wall, a simple slab of grey metal. The only other 
+thing that breaks the emptiness is the edge of the emergency panel on the wall. 
+The elevator door is south, and the test area in the eastern part of the room.
+The blast door is west.  
+
+>","Ending choice or final sequence","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00233","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","233","2026-09-28T01:42:50.914Z","help","","","","","","","After HIT DOOR and SPACE, woke back in the workbench lab. Hint said endings can now be chosen (Thing Ending...). Need the next excerpt to see the endings choice and how to reach the winning ending.","Z
+Z
+Z
+Z
+X THING
+S
+U 
+
+--- Scientist Ending","https://ifarchive.org/if-archive/solutions/criticalbreach.txt","[""critical-breach-kimi-f618da3d84:e00232""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00234","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","234","2026-09-28T01:42:51.222Z","command","exploration","lab-return-inventory-b6","Check what I am carrying back in the lab","inventory","You are carrying:
+  a jet injector (empty)
+  a keycard
+  some pliers
+  a beaker (full of liquid)
+  a lab coat (being worn)
+
+You are pretty sure you heard a thud coming from west.
+
+>","Current carried items after the vision","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00235","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","235","2026-09-28T01:43:10.756Z","checkpoint","","","","save","
+saves: 1 before-specimen.sav   2 chip-loaded.sav   3 empty-injector-b6.sav   4 green-room-b6.sav   5 injected-sealed-b6.sav   6 lab-awake.sav   7 loose-old-safe-b6.sav   8 loose-scorpig-b3.sav   9 sedated-open.sav   10 start.sav
+Save to file: ","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00236","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","236","2026-09-28T01:43:11.058Z","checkpoint_filename","","","","pre-thing-b6.sav","Saved to '/work/experiments/lanthorn-recall-training/play/critical-breach-kimi/saves/CriticalBreach.z8.save/pre-thing-b6.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00237","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","237","2026-09-28T01:43:23.783Z","command","exploration","lab-thud-wait-b6","Wait as the western thud develops","z","Time passes.
+
+Another strong blow comes from the blast door. It seems a little bent.
+
+>","Thud develops","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00238","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","238","2026-09-28T01:43:24.089Z","command","exploration","lab-thud-wait-b6","Keep waiting for the western sound","z","Time passes.
+
+More blows hit the door. Several bumps form on the surface. The noise of metal 
+scratching metal becomes piercing.
+
+>","Thud approaches or thing appears","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00239","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","239","2026-09-28T01:43:24.395Z","command","exploration","lab-thud-wait-b6","Keep waiting for whatever is coming from the west","z","Time passes.
+
+Suddenly something pierces the steel of the blast door, and slashes away, 
+leaving a big crack. Then another thing enlarges the crack, splitting the 
+immense door in two. They seem to be hands...or you could call them claws. They 
+disappear again into the hole.
+
+>","Thing arrives","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00240","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","240","2026-09-28T01:43:24.701Z","command","exploration","lab-thud-wait-b6","Wait until the thing reaches the lab","z","Time passes.
+
+It slowly emerges from the hole. Oh my God...this is what they are doing??? 
+This is not something which should exist. You look at the chitinous armor. The 
+head is small, partly encased in a hard shell, and the body...a tangled mass of 
+muscles and spikes, but still somewhat human. Its only crimson eye is staring 
+at you.
+
+>","Thing present in the lab","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00241","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","241","2026-09-28T01:44:30.058Z","command","exploration","lab-x-thing-b6","Examine the creature that emerged from the blast door","x thing","You can't force yourself to look at it.
+
+Suddenly, with unsuspected agility, it charges. Just for an instant you can see 
+that it has another eye, and it's no different from yours. After that, it's all 
+over quickly.
+
+
+     *** You have not escaped ***
+
+
+
+Please press SPACE to continue.
+","Description of the emerged creature","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00242","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","242","2026-09-28T01:44:49.905Z","command","exploration","lab-thing-death-continue-b6","Press Space to continue after the fatal charge"," ","
+It's all so confusing. But you don't have time for questions. The exit is near. 
+And then this nightmare will be over.
+
+Laboratory (Workbench)
+This room is white and clean. This light hurts your eyes. The elevator door is 
+south.  
+
+Some garbage is on the floor.
+
+>","Continue past death message to next scene or restart prompt","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00243","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","243","2026-09-28T01:45:03.400Z","command","exploration","thing-aftermath-look-b6","Describe my surroundings after continuing past the fatal charge","look","Laboratory (Workbench)
+This room is white and clean. This light hurts your eyes. The elevator door is 
+south.  
+
+Some garbage is on the floor.
+
+>","Full description of the changed lab after the death sequence","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00244","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","244","2026-09-28T01:45:17.215Z","command","exploration","thing-go-south-b6","Head south toward the exit as the narration urges","s","You break open the door with one hand. It's easier this time.
+
+Elevator shaft
+In front of you is a dark, bottomless shaft. Cables and wires run along it. 
+Only a tiny light is visible up high.
+
+>","Move south through the elevator door area","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00245","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","245","2026-09-28T01:45:30.414Z","command","synthetic_probe","shaft-climb-up-b6","Climb up the elevator shaft toward the exit using a phrasal verb","climb up","You must name something more substantial.
+
+>","Climb up the shaft toward the light or direction rejection","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00246","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","246","2026-09-28T01:45:50.287Z","help","","","","","","","In the elevator shaft as the creature, 'climb up' toward the light was rejected ('You must name something more substantial'). Intended to ascend the shaft toward the tiny light. Need guidance on the correct verb to go up the shaft.","X COMPUTER
+X COMPUTER
+X COMPUTER
+X COMPUTER
+
+EXIT
+TOUCH BORDER
+TOUCH DOOR
+HIT DOOR","https://ifarchive.org/if-archive/solutions/criticalbreach.txt","[""critical-breach-kimi-f618da3d84:e00245""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00247","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","247","2026-09-28T01:46:03.626Z","command","guided","shaft-climb-up-b6","Go up the elevator shaft toward the exit using the direction command","u","You grab the cables with your hands (if you can call them that) and easily 
+propel yourself up, literally running vertically up the shaft, looking at the 
+sparkle of daylight at the top. You are nearly out. And nothing will stop you.
+
+
+
+    *** You have escaped ***
+
+
+
+Would you like to RESTART, RESTORE a saved game or QUIT?
+> ","Ascend the elevator shaft toward the light","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00248","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","248","2026-09-28T01:46:29.542Z","annotation","","shaft-climb-up-b6","Go up the elevator shaft toward the exit light","","","","","","","[""critical-breach-kimi-f618da3d84:e00245"",""critical-breach-kimi-f618da3d84:e00247""]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00249","critical-breach-kimi","critical-breach-kimi-f618da3d84","b6","249","2026-09-28T01:46:55.937Z","ending_claim","","","","","","","","","","[]","unreviewed","captured","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
 "curses-4e1875ea4e:e00001","curses","curses-4e1875ea4e","b0","1","2026-09-25T03:10:04.316Z","startup","system","","","","
 
 
@@ -259449,6 +260412,633 @@ later, John McBride comes back out and gets into the yellow cab.
  2:04  Marge leaves your office
  2:30  Baseball game starts
  5:00  Baseball game ends","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00267""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00270","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","270","2026-09-28T01:29:52.782Z","help","","","","","","","Need the walkthrough command lines after 'Take photo of couple / Wait until John leaves' — the next location moves. Please quote command lines.","   Cabbie, follow the blue cab (1/8)
+Winchester:
+   Exit
+   Wait. again
+(until the couple embraces)
+   Take photo of couple (1/9)
+   Wait. again
+(until John leaves)
+   Open door","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00267""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00271","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","271","2026-09-28T01:30:06.456Z","command","exploration","winchester-route","Open the foyer door after John leaves","Open door","The security guard bars your way. ""I'm sorry, but this is a private building,"" 
+he says.
+
+The yellow cab drives away.
+
+>","Enter foyer or guard reacts","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00272","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","272","2026-09-28T01:30:19.679Z","help","","","","","","","Guard bars foyer door ('private building'); John drove off in yellow cab. Need walkthrough command lines after 'Open door' at Winchester — guard, card, or next location.","   Take photo of couple (1/9)
+   Wait. again
+(until John leaves)
+   Open door
+   Look in the window
+   X guard
+   X cap
+   Ask guard about baseball
+   Read sports then drop newspaper","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00271""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00273","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","273","2026-09-28T01:30:40.033Z","command","synthetic_probe","winchester-guard-topic","Try asking the guard about the private building to get inside","Ask guard about building","
+""I'm sure I don't know anything about that,"" the security guard replies.
+
+>","Guard deflects or gives no useful answer","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00274","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","274","2026-09-28T01:30:52.935Z","command","exploration","winchester-route","Look through the foyer window as hinted","Look in the window","The foyer of Winchester Gardens is bright and cheerful. One wall is lined with 
+mailboxes.
+
+A matchbook that someone (perhaps John McBride?) has dropped catches your eye.
+
+>","See foyer interior through window","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00275","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","275","2026-09-28T01:31:06.144Z","command","exploration","winchester-route","Examine the guard as hinted","X guard","He is dressed in a blue security uniform and is wearing a baseball cap.
+
+>","Description of security guard and cap","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00276","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","276","2026-09-28T01:31:19.353Z","command","exploration","winchester-route","Examine the guard's baseball cap","X cap","The cap bears the Los Angeles Dodgers team logo.
+
+>","Description of baseball cap, team or detail","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00277","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","277","2026-09-28T01:31:32.716Z","command","exploration","winchester-guard-topic","Befriend the guard via his Dodgers cap to gain entry","Ask guard about baseball","
+The security guard smiles. ""Yep, I'm a Dodgers fan all right. It really drives 
+me nuts that I have to be here working instead of watching the game tonight. 
+Guy's got to make a living somehow, though.""
+
+>","Guard warms up and talks baseball","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00278","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","278","2026-09-28T01:31:52.608Z","annotation","","winchester-guard-topic","Get past the guard by engaging him on a topic he cares about","","","","","","","[""gumshoe-kimi-b739aab6ec:e00273"",""gumshoe-kimi-b739aab6ec:e00277""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00279","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","279","2026-09-28T01:32:26.181Z","command","exploration","winchester-route","Read the sports pages to share scores with the guard","Read sports","The sports section deals mainly with baseball. The Dodgers are playing the 
+Expos in Montreal this afternoon at 2:30 and the Angels are playing at home 
+against the Yankees at 5:00.
+
+>","Read the sports section of the Times","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00280","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","280","2026-09-28T01:32:39.396Z","command","exploration","winchester-route","Leave the sports pages for the baseball-starved guard","Drop newspaper","Dropped.
+
+>","Guard picks up paper or reacts","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00281","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","281","2026-09-28T01:32:52.312Z","help","","","","","","","Dropped newspaper after reading sports; guard is a Dodgers fan missing the game. Need walkthrough command lines after 'Read sports then drop newspaper' — guard, foyer entry, matchbook?","   Open door
+   Look in the window
+   X guard
+   X cap
+   Ask guard about baseball
+   Read sports then drop newspaper
+   SW
+   z.z.z.z.z
+(wait until the old man leaves)","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00280""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00282","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","282","2026-09-28T01:33:06.142Z","command","exploration","winchester-route","Head southwest to the electronics store","SW","
+Electronics Store
+The walls are lined with shelves that are filled with every kind of electronic 
+device you could possible imagine. An old man stands by the cash register.
+
+There is a big-screen television here showing a fishing show. The television 
+has a knob for changing the channel.
+
+""Hi there,"" the old man says. ""If there's anything I can help you with, just 
+let me know.""
+
+[Score 15, up 1]
+>","Arrive at electronics store","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00283","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","283","2026-09-28T01:33:19.517Z","checkpoint","","","","save","
+saves: 1 giuseppe-arrival.sav   2 giuseppe-follow.sav   3 logitek-arrival.sav   4 logitek-done.sav   5 office-surveyed.sav   6 reception-coat-hung.sav   7 reception-geared.sav   8 sandra-met.sav   9 start-hallway.sav   10 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00284","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","284","2026-09-28T01:33:19.818Z","checkpoint_filename","","","","electronics-store.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/electronics-store.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00285","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","285","2026-09-28T01:33:39.425Z","command","exploration","electronics-store-route","Wait in the store until the old man steps out","Wait","Time passes.
+
+>","Old man eventually leaves the store","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00286","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","286","2026-09-28T01:34:59.821Z","command","exploration","electronics-store-route","Wait in the store until the old man steps out","Wait","Time passes.
+
+An old woman comes in from the back room. ""When are you going to get around to 
+fixing this?"" she says, holding up a small radio. ""And I told you not to waste 
+your time watching those damned fishing shows."" She goes over, changes the 
+channel on the television, and shuffles into the back of the store.
+
+>","Time passes, old man still present or leaves","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00287","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","287","2026-09-28T01:35:00.122Z","command","exploration","electronics-store-route","Wait in the store until the old man steps out","Wait","Time passes.
+
+The old man goes over and puts the fishing show back on.
+
+>","Time passes, old man still present or leaves","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00288","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","288","2026-09-28T01:35:00.424Z","command","exploration","electronics-store-route","Wait in the store until the old man steps out","Wait","Time passes.
+
+""Ed, you get back here and fix this radio!"" comes the woman's voice from the 
+back room.
+
+>","Time passes, old man still present or leaves","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00289","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","289","2026-09-28T01:35:00.726Z","command","exploration","electronics-store-route","Wait in the store until the old man steps out","Wait","Time passes.
+
+The old man shrugs his shoulders and gives you a sheepish grin. ""Guess I'd 
+better get back there. Gwen's a terror when she don't get her way."" He walks 
+into the back of the store.
+
+>","Old man leaves the store","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00290","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","290","2026-09-28T01:35:19.720Z","checkpoint","","","","save","
+saves: 1 electronics-store.sav   2 giuseppe-arrival.sav   3 giuseppe-follow.sav   4 logitek-arrival.sav   5 logitek-done.sav   6 office-surveyed.sav   7 reception-coat-hung.sav   8 reception-geared.sav   9 sandra-met.sav   10 start-hallway.sav   11 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00291","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","291","2026-09-28T01:35:20.021Z","checkpoint_filename","","","","electronics-oldman-gone.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/electronics-oldman-gone.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00292","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","292","2026-09-28T01:35:32.931Z","help","","","","","","","Old man went to back room after waits (Gwen radio, fishing show). Alone in Electronics Store with big-screen TV with channel knob. Need walkthrough command lines after old man leaves — TV channel, what to watch or take?","   Read sports then drop newspaper
+   SW
+   z.z.z.z.z
+(wait until the old man leaves)
+   X TV
+   Turn knob
+   g
+   g
+   g","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00289""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00293","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","293","2026-09-28T01:35:52.830Z","command","synthetic_probe","electronics-tv-examine","Examine the big-screen television to see what it shows","watch tv","The television is showing a fishing show. It has a knob for changing the 
+channel.
+
+>","Description of the big-screen TV and what it shows","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00294","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","294","2026-09-28T01:36:12.599Z","annotation","","electronics-tv-examine","Examine the big-screen television to see what it shows","","","","","","","[""gumshoe-kimi-b739aab6ec:e00293""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00295","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","295","2026-09-28T01:36:26.134Z","command","synthetic_probe","electronics-tv-knob","Turn the TV's channel knob to change the channel","turn dial","You can't see any such thing.
+
+>","Channel changes to another show","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00296","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","296","2026-09-28T01:36:46.045Z","command","guided","electronics-tv-knob","Turn the TV's channel knob to change the channel per walkthrough hint","turn knob","You switch the channel and now the television is showing a cooking show.
+
+>","Channel changes to another show","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00297","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","297","2026-09-28T01:36:58.960Z","annotation","","electronics-tv-knob","Turn the TV's channel knob to change the channel","","","","","","","[""gumshoe-kimi-b739aab6ec:e00295"",""gumshoe-kimi-b739aab6ec:e00296""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00298","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","298","2026-09-28T01:37:12.329Z","command","exploration","electronics-store-route","Keep turning the channel knob per walkthrough to cycle channels","turn knob","You switch the channel and now the television is showing a work-out program.
+
+>","Channel changes to another show","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00299","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","299","2026-09-28T01:37:32.076Z","command","exploration","electronics-store-route","Keep turning the channel knob to cycle channels","turn knob","You switch the channel and now the television is showing a boring sit-com.
+
+>","Channel changes to another show","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00300","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","300","2026-09-28T01:37:52.156Z","command","exploration","electronics-store-route","Turn the knob a fourth time to finish the hinted channel cycle","turn knob","You switch the channel and now the television is showing a baseball game.
+
+>","Channel changes; possibly baseball game or key show","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00301","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","301","2026-09-28T01:38:11.783Z","help","","","","","","","Cycled TV knob 4x per hint: fishing -> cooking -> work-out -> sit-com -> baseball game (e00300). Alone in Electronics Store, old man in back. Need walkthrough command lines after baseball game appears — watch, wait, or leave?"," 2:30  Baseball game starts
+ 5:00  Baseball game ends
+ 5:04  Alibi bar opens
+ 5:18  Billy arrives at Alibi
+ 6:58  John arrives at Lincoln
+ 7:00  TV store closes
+11:12  John leaves Lincoln
+11:16  John arrives at Highland
+12:32  Thugs beat you up (lose)","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00300""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00302","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","302","2026-09-28T01:38:31.690Z","help","","","","","","","Last excerpt was timeline (baseball times, Alibi, Lincoln), not moves. Need walkthrough command LINES right after 'Turn knob g g g' at the electronics store — quote the move list, not the timeline.","   Read sports then drop newspaper
+   SW
+   z.z.z.z.z
+(wait until the old man leaves)
+   X TV
+   Turn knob
+   g
+   g
+   g","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00300""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00303","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","303","2026-09-28T01:38:51.447Z","help","","","","","","","Excerpt ends at 'Turn knob g g g' (lines 106-114). TV now shows baseball (e00300). Need the NEXT walkthrough command lines after those knob turns — what to do in the store next?"," 5:00  Baseball game ends
+ 5:04  Alibi bar opens
+ 5:18  Billy arrives at Alibi
+ 6:58  John arrives at Lincoln
+ 7:00  TV store closes
+11:12  John leaves Lincoln
+11:16  John arrives at Highland
+12:32  Thugs beat you up (lose)
+ 2:08  Alibi bar closes","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00300"",""gumshoe-kimi-b739aab6ec:e00302""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00304","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","304","2026-09-28T01:39:18.375Z","command","exploration","electronics-baseball-watch","Watch the baseball game now showing on the TV","watch game","The Dodgers are playing the Expos in Montreal. The game is in inning four and 
+the score is two nothing.
+
+>","Baseball game description or play-by-play on the TV","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00305","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","305","2026-09-28T01:39:38.310Z","checkpoint","","","","save","
+saves: 1 electronics-oldman-gone.sav   2 electronics-store.sav   3 giuseppe-arrival.sav   4 giuseppe-follow.sav   5 logitek-arrival.sav   6 logitek-done.sav   7 office-surveyed.sav   8 reception-coat-hung.sav   9 reception-geared.sav   10 sandra-met.sav   11 start-hallway.sav   12 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00306","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","306","2026-09-28T01:39:38.611Z","checkpoint_filename","","","","electronics-baseball.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/electronics-baseball.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00307","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","307","2026-09-28T01:39:51.235Z","help","","","","","","","TV shows Dodgers baseball (inning 4, 2-0, e00304); checkpoint electronics-baseball saved. Guard at Winchester is a Dodgers fan missing the game. Need walkthrough command lines for what to do with the baseball game — tell/fetch guard, watch more, exit direction?","12:10  John, Nicole, and Detective Boggs leave Giuseppe's
+12:40  John and Nicole arrive at Winchester
+12:50  John leaves Winchester
+12:52  Sandra arrives at Highland
+ 2:04  Marge leaves your office
+ 2:30  Baseball game starts
+ 5:00  Baseball game ends
+ 5:04  Alibi bar opens
+ 5:18  Billy arrives at Alibi","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00304""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00308","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","308","2026-09-28T01:40:18.718Z","command","exploration","electronics-store-route","Go back northeast to Winchester Gardens to see the guard","NE","
+Winchester Gardens
+This is a block on the edge of Santa Monica. To the west lies Winchester 
+Gardens, a small, luxurious apartment complex. A door with somewhat gaudy brass 
+decorations leads into the well-lit foyer that is visible through a large, 
+plate-glass window. To the south of the apartment building (south-west of here) 
+is an electronics store.
+
+Through the window of the electronics store you can see a television showing a 
+baseball game.
+
+The door leading into the foyer is closed.
+
+There is a security guard standing nearby. He appears to be engrossed in the 
+baseball game showing on the TV in the window of the electronics store.
+
+You can also see a copy of the Los Angeles Times here.
+
+>","Return to Winchester Gardens near the guard","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00309","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","309","2026-09-28T01:40:38.637Z","command","synthetic_probe","winchester-foyer-entry","Enter the well-lit foyer through the closed door while the guard watches the game","enter foyer","You can't see any such thing.
+
+>","Enter the foyer through the door, guard distracted by game","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00310","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","310","2026-09-28T01:40:58.728Z","command","exploration","winchester-foyer-entry","Open the foyer door and go inside while the guard watches the game","open door","The security guard is so preoccupied with the baseball game that he doesn't 
+notice as you open the door.
+
+[Your score has just gone up by one point.]
+
+>","Door opens and I enter the foyer, guard distracted","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00311","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","311","2026-09-28T01:41:18.203Z","annotation","","winchester-foyer-entry","Enter the foyer through the door while the guard watches the game","","","","","","","[""gumshoe-kimi-b739aab6ec:e00309"",""gumshoe-kimi-b739aab6ec:e00310""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00312","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","312","2026-09-28T01:41:44.660Z","command","exploration","winchester-foyer-entry","Walk west through the opened door into the foyer","W","
+Foyer of Winchester Gardens
+The foyer of Winchester Gardens is bright and cheerful. A large window looks 
+out onto the street outside. To the west, a door leads into the rest of the 
+building. One wall is lined with mailboxes.
+
+The door leading out to the street is open.
+
+A matchbook that someone (perhaps John McBride?) has dropped catches your eye.
+
+>","Enter the foyer interior","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00313","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","313","2026-09-28T01:42:04.414Z","checkpoint","","","","save","
+saves: 1 electronics-baseball.sav   2 electronics-oldman-gone.sav   3 electronics-store.sav   4 giuseppe-arrival.sav   5 giuseppe-follow.sav   6 logitek-arrival.sav   7 logitek-done.sav   8 office-surveyed.sav   9 reception-coat-hung.sav   10 reception-geared.sav   11 sandra-met.sav   12 start-hallway.sav   13 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00314","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","314","2026-09-28T01:42:04.716Z","checkpoint_filename","","","","foyer-entered.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/foyer-entered.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00315","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","315","2026-09-28T01:42:17.960Z","command","synthetic_probe","foyer-matchbook","Take the matchbook dropped in the foyer (possible evidence)","take matchbok","You can't see any such thing.
+
+>","Take the matchbook dropped in the foyer","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00316","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","316","2026-09-28T01:42:31.358Z","command","exploration","foyer-matchbook","Take the matchbook dropped in the foyer","take matchbook","Taken.
+
+[Your score has just gone up by one point.]
+
+>","Matchbook taken, possibly with score","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00317","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","317","2026-09-28T01:42:50.831Z","annotation","","foyer-matchbook","Take the matchbook dropped in the foyer","","","","","","","[""gumshoe-kimi-b739aab6ec:e00315"",""gumshoe-kimi-b739aab6ec:e00316""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00318","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","318","2026-09-28T01:43:04.503Z","command","exploration","foyer-matchbook-read","Examine the matchbook for clues about where John went","x matchbook","The matchbook reads:
+
+  Alibi Lounge
+  Music and Cocktails
+
+>","Matchbook description, possibly a club or bar name","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00319","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","319","2026-09-28T01:43:23.641Z","help","","","","","","","In Winchester foyer with matchbook reading 'Alibi Lounge, Music and Cocktails' (e00318). Need walkthrough command lines for going to the Alibi (from foyer/Winchester, cab? which direction, Hail cab?) and what to do there.","   Open door (1/10)
+   W. Get matchbook. E (1/11)
+   X matchbook then drop it
+   save game
+
+   Hail cab. Enter cab. Cabbie, go to Alibi
+Alibi:
+   Exit
+   Read placard","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00318""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00320","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","320","2026-09-28T01:43:43.721Z","command","synthetic_probe","foyer-exit","Leave the foyer back out to the street east","leave","You'll have to say which compass direction to go in.
+
+>","Exit east out of the foyer to the street","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00321","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","321","2026-09-28T01:44:03.665Z","command","exploration","foyer-exit","Go east out of the foyer to the street per walkthrough","E","
+Winchester Gardens
+This is a block on the edge of Santa Monica. To the west lies Winchester 
+Gardens, a small, luxurious apartment complex. A door with somewhat gaudy brass 
+decorations leads into the well-lit foyer that is visible through a large, 
+plate-glass window. To the south of the apartment building (south-west of here) 
+is an electronics store.
+
+Through the window of the electronics store you can see a television showing a 
+baseball game.
+
+The door leading into the foyer is open.
+
+There is a security guard standing nearby. He appears to be engrossed in the 
+baseball game showing on the TV in the window of the electronics store.
+
+You can also see a copy of the Los Angeles Times here.
+
+>","Exit east to Winchester Gardens street, possibly score","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00322","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","322","2026-09-28T01:44:17.048Z","command","exploration","foyer-matchbook-drop","Drop the examined matchbook per walkthrough before hailing a cab","drop matchbook","Dropped.
+
+>","Matchbook dropped per walkthrough","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00323","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","323","2026-09-28T01:44:29.809Z","annotation","","foyer-exit","Leave the foyer back out to the street east","","","","","","","[""gumshoe-kimi-b739aab6ec:e00320"",""gumshoe-kimi-b739aab6ec:e00321""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00324","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","324","2026-09-28T01:44:49.862Z","checkpoint","","","","save","
+saves: 1 electronics-baseball.sav   2 electronics-oldman-gone.sav   3 electronics-store.sav   4 foyer-entered.sav   5 giuseppe-arrival.sav   6 giuseppe-follow.sav   7 logitek-arrival.sav   8 logitek-done.sav   9 office-surveyed.sav   10 reception-coat-hung.sav   11 reception-geared.sav   12 sandra-met.sav   13 start-hallway.sav   14 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00325","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","325","2026-09-28T01:44:50.163Z","checkpoint_filename","","","","pre-alibi.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/pre-alibi.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00326","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","326","2026-09-28T01:45:03.840Z","command","exploration","alibi-route","Hail a cab to go to the Alibi Lounge","Hail cab","You wave your hands, trying to flag down a cab.
+
+A blue cab drives into view and pulls to a stop at the curb.
+
+>","A cab stops for me","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00327","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","327","2026-09-28T01:45:23.942Z","command","exploration","alibi-route","Get into the hailed blue cab","Enter cab","You get into the blue cab.
+
+""Where can I take you?"" the cabbie says.
+
+>","Enter the blue cab","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00328","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","328","2026-09-28T01:45:37.189Z","command","exploration","alibi-route","Direct the cabbie to drive to the Alibi Lounge","Cabbie, go to Alibi","
+""Sure thing,"" the cabbie replies, and he starts driving to the Alibi Lounge.
+
+Alibi Lounge (in the blue cab)
+A slight breeze blows dust along the sidewalk here in front of a run-down 
+building. A neon sign proclaims this to be the ""Alibi Lounge"". There is a 
+placard in the window.
+
+The door leading into the bar is closed.
+
+In the blue cab you can see a cabbie.
+
+>","Cab drives to the Alibi Lounge","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00329","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","329","2026-09-28T01:46:03.658Z","command","exploration","alibi-route","Get out of the cab at the Alibi Lounge","Exit","(paying the cabbie)
+You get out of the blue cab.
+
+>","Exit the cab at the Alibi Lounge","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00330","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","330","2026-09-28T01:46:23.268Z","command","exploration","alibi-route","Read the placard in the Alibi window","Read placard","Hours of operation: 5:00pm - 2:00am.
+
+The blue cab drives away.
+
+>","Placard text, e.g. opening hours or coming events","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00331","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","331","2026-09-28T01:46:36.499Z","checkpoint","","","","save","
+saves: 1 electronics-baseball.sav   2 electronics-oldman-gone.sav   3 electronics-store.sav   4 foyer-entered.sav   5 giuseppe-arrival.sav   6 giuseppe-follow.sav   7 logitek-arrival.sav   8 logitek-done.sav   9 office-surveyed.sav   10 pre-alibi.sav   11 reception-coat-hung.sav   12 reception-geared.sav   13 sandra-met.sav   14 start-hallway.sav   15 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00332","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","332","2026-09-28T01:46:36.800Z","checkpoint_filename","","","","alibi-arrival.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/alibi-arrival.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00333","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","333","2026-09-28T01:46:49.593Z","help","","","","","","","At Alibi Lounge, read placard (hours 5pm-2am, cab left, bar door closed). Checkpoint alibi-arrival saved. Need walkthrough command lines after 'Read placard' — enter bar, wait for Billy, inside moves?","   save game
+
+   Hail cab. Enter cab. Cabbie, go to Alibi
+Alibi:
+   Exit
+   Read placard
+   Wait until 5:04
+   N
+   Ask bartender about drinks","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00330""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00334","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","334","2026-09-28T01:47:09.844Z","command","exploration","alibi-route","Wait outside the Alibi for the bar to open","Wait","Time passes.
+
+>","Time passes toward bar opening at 5:04","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00335","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","335","2026-09-28T01:47:23.089Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes; bar may open at 5:04","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00336","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","336","2026-09-28T01:47:42.705Z","command","exploration","alibi-route","Keep waiting outside the Alibi","Wait","Time passes.
+
+>","Time passes; bar opens 5:04 or Billy arrives 5:18","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00337","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","337","2026-09-28T01:47:55.926Z","command","exploration","alibi-route","Keep waiting outside the Alibi","Wait","Time passes.
+
+[Score 16, up 1]
+>","Time passes; bar opens 5:04 or Billy arrives 5:18","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00338","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","338","2026-09-28T01:48:35.355Z","command","exploration","alibi-route","Keep waiting outside the Alibi","Wait","Time passes.
+
+>","Time passes; bar opens 5:04 or Billy arrives 5:18","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00339","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","339","2026-09-28T01:48:55.152Z","command","exploration","alibi-route","Keep waiting outside the Alibi","Wait","Time passes.
+
+>","Time passes; bar opens 5:04 or Billy arrives 5:18","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00340","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","340","2026-09-28T01:49:14.791Z","command","exploration","alibi-entry","Try going north into the Alibi bar to test whether it has opened","N","You can't, since the door is in the way.
+
+>","Enter the bar if open, or told it is closed","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00341","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","341","2026-09-28T01:49:27.879Z","command","exploration","alibi-entry","Open the Alibi bar door to go inside","open door","It seems to be locked.
+
+>","Bar door opens if unlocked, or locked until 5:04","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00342","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","342","2026-09-28T01:49:47.515Z","command","exploration","alibi-route","Keep waiting for the Alibi to open at 5:04","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00343","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","343","2026-09-28T01:50:07.312Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00344","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","344","2026-09-28T01:50:07.614Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00345","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","345","2026-09-28T01:50:07.915Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes; bar may open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00346","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","346","2026-09-28T01:50:08.217Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes; bar may open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00347","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","347","2026-09-28T01:50:08.519Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Bar opens or time advances","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00348","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","348","2026-09-28T01:50:27.711Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00349","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","349","2026-09-28T01:50:28.013Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00350","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","350","2026-09-28T01:50:28.314Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes; bar may open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00351","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","351","2026-09-28T01:50:28.616Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes; bar may open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00352","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","352","2026-09-28T01:50:28.917Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Bar opens or time advances","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00353","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","353","2026-09-28T01:50:47.325Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00354","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","354","2026-09-28T01:50:47.627Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00355","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","355","2026-09-28T01:50:47.928Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes; bar may open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00356","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","356","2026-09-28T01:50:48.230Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Time passes; bar may open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00357","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","357","2026-09-28T01:50:48.532Z","command","exploration","alibi-route","Wait outside the Alibi for the 5:04 opening","Wait","Time passes.
+
+>","Bar opens or time advances","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00358","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","358","2026-09-28T01:51:06.939Z","command","exploration","alibi-entry","Test whether the Alibi door is unlocked yet","open door","It seems to be locked.
+
+>","Bar door opens if 5:04 passed, else still locked","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00359","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","359","2026-09-28T01:51:33.451Z","command","exploration","alibi-time-check","Ask the game for the current time","time","That's not a verb I recognise.
+
+>","Current game time, to plan the stakeout","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00360","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","360","2026-09-28T01:51:53.116Z","command","exploration","alibi-time-check","Check score and look for a clock/time display","score","You have so far scored 8 out of a possible 24, in 236 turns.
+
+>","Score and possibly current time","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00361","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","361","2026-09-28T01:53:11.706Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00362","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","362","2026-09-28T01:53:12.008Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00363","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","363","2026-09-28T01:53:12.310Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00364","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","364","2026-09-28T01:53:12.611Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00365","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","365","2026-09-28T01:53:12.913Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5:04 opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00366","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","366","2026-09-28T01:53:24.927Z","command","exploration","alibi-entry","Test whether the Alibi door is unlocked yet","open door","It seems to be locked.
+
+>","Bar door opens if 5:04 passed, else still locked","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00367","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","367","2026-09-28T01:53:44.422Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5pm opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00368","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","368","2026-09-28T01:53:44.723Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5pm opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00369","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","369","2026-09-28T01:53:45.025Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+[Score 17, up 1]
+>","Time passes toward 5pm opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00370","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","370","2026-09-28T01:53:45.327Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+>","Time passes toward 5pm opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00371","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","371","2026-09-28T01:53:45.628Z","command","exploration","alibi-route","Keep waiting outside the Alibi for opening","Wait","Time passes.
+
+The Alibi's bartender comes out and props the door open.
+
+>","Time passes toward 5pm opening","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00372","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","372","2026-09-28T01:53:57.654Z","command","exploration","alibi-entry","Go north into the Alibi bar after opening","N","
+Inside the Alibi
+It's nice and dark -- just like a bar ought to be. Posters of attractive women 
+advertising various brands of alcohol are scattered on the walls. Up on one 
+wall in the corner is a dart board, and next to that is a jukebox.
+
+The door leading out to the street is open.
+
+Behind the bar is the bartender.
+
+A chubby man is here, sitting at the bar.
+
+The chubby man comes over to you. ""Hi!"" he says, ""My name's Howard.""
+
+Howard gets up and wanders over to the jukebox. ""Yeah!"" he says, ""Free songs!""
+
+>","Enter the Alibi bar now the door is propped open","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00373","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","373","2026-09-28T01:54:17.298Z","checkpoint","","","","save","
+saves: 1 alibi-arrival.sav   2 electronics-baseball.sav   3 electronics-oldman-gone.sav   4 electronics-store.sav   5 foyer-entered.sav   6 giuseppe-arrival.sav   7 giuseppe-follow.sav   8 logitek-arrival.sav   9 logitek-done.sav   10 office-surveyed.sav   11 pre-alibi.sav   12 reception-coat-hung.sav   13 reception-geared.sav   14 sandra-met.sav   15 start-hallway.sav   16 winchester-arrival.sav
+Save to file: ","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00374","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","374","2026-09-28T01:54:17.599Z","checkpoint_filename","","","","alibi-inside.sav","Saved to '/work/experiments/lanthorn-recall-training/play/gumshoe-kimi/saves/Gumshoe.z5.save/alibi-inside.sav.qzl'.
+Ok.
+
+>","","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00375","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","375","2026-09-28T01:54:36.959Z","command","synthetic_probe","alibi-barkeep-synonym","Ask the bartender about drinks using everyday synonym barkeep","ask barkeep about drinks","You can't see any such thing.
+
+>","Bartender tells me about drinks, same as bartender","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00376","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","376","2026-09-28T01:55:02.877Z","help","","","","","","","Tried 'ask barkeep about drinks' to ask the bartender about drinks; game said can't see any such thing. Need walkthrough wording for talking to the bartender about drinks inside the Alibi.","Alibi:
+   Exit
+   Read placard
+   Wait until 5:04
+   N
+   Ask bartender about drinks
+   Buy beer
+(you may have to wait for your turn)
+   Wait. again","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00375""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00377","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","377","2026-09-28T01:55:16.729Z","command","exploration","alibi-barkeep-synonym","Ask the bartender about drinks with the game-recognized noun","Ask bartender about drinks","
+""Well,"" the bartender says, ""I could get you any one of the following drinks:
+
+  a beer
+  a scotch
+  a shot of whiskey
+  a whiskey sour
+  an old fashioned
+  a manhattan
+  a shot of tequila
+  a margarita
+  a gin and tonic
+  a martini
+  a Mother Theresa
+  a screwdriver
+  a bloody mary
+  a white russian
+  a black russian
+  a sea breeze
+  a long island ice tea
+  a cuba libre
+  a coke
+  a diet coke
+  a pepsi
+  a diet pepsi
+  a seven up
+  a diet seven up
+  a ginger ale
+  a glass of water.""
+
+Howard selects a song on the jukebox.
+
+The jukebox kicks into ""Security"" by Otis Redding.
+
+>","Bartender describes drinks or offers to sell","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00378","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","378","2026-09-28T01:55:35.916Z","annotation","","alibi-barkeep-synonym","Ask the bartender about drinks","","","","","","","[""gumshoe-kimi-b739aab6ec:e00375"",""gumshoe-kimi-b739aab6ec:e00377""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00379","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","379","2026-09-28T01:55:56.019Z","command","exploration","alibi-beer","Buy a beer from the bartender per walkthrough","Buy beer","You order a beer.
+
+The bartender grabs a mug off of the shelf.
+
+Howard selects a song on the jukebox.
+
+>","Bartender sells me a beer or says wait my turn","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00380","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","380","2026-09-28T01:56:09.134Z","command","exploration","alibi-beer","Wait for my turn for the beer to be served","Wait","Time passes.
+
+The bartender draws the beer from the tap.
+
+Howard sits back down at the bar.
+
+>","Bartender serves the beer or time passes","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00381","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","381","2026-09-28T01:56:22.402Z","command","exploration","alibi-beer","Wait again for the beer per walkthrough","Wait","Time passes.
+
+The jukebox kicks into ""Geography Of A Horse Dreamer"" by Big Head Todd And The 
+Monsters.
+
+The bartender slides the beer down the bar to you. You nod thanks and pay him.
+
+>","Beer served or further bar event","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00382","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","382","2026-09-28T01:56:35.056Z","help","","","","","","","Beer served and paid (e00381). Need next small walkthrough excerpt after Buy beer / Wait again inside the Alibi.","(until the bartender slides the beer to you)
+   Get beer
+(the skinny man should enter the bar)
+   I
+   Show incriminating to bartender
+   Drop incriminating
+   Offer beer to Billy
+(keep offering it until he accepts) 
+   Ask Billy about Lydia (1/12)","https://ifarchive.org/if-archive/solutions/gumshoe.sol","[""gumshoe-kimi-b739aab6ec:e00381""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00383","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","383","2026-09-28T01:56:55.165Z","command","synthetic_probe","alibi-get-beer-typo","Get the beer from the bar (typo missing final e)","get ber","You can't see any such thing.
+
+>","Game asks to clarify or rejects typo; beer remains to be taken","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00384","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","384","2026-09-28T01:57:08.265Z","command","exploration","alibi-get-beer-typo","Take the served beer from the bar","Get beer","Taken.
+
+Howard goes over to the dartboard and grabs the darts in it.
+
+>","I pick up the beer slid to me","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00385","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","385","2026-09-28T01:57:21.372Z","annotation","","alibi-get-beer-typo","Take the served beer from the bar","","","","","","","[""gumshoe-kimi-b739aab6ec:e00383"",""gumshoe-kimi-b739aab6ec:e00384""]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00386","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","386","2026-09-28T01:57:34.641Z","command","exploration","alibi-inventory","Check inventory after taking the beer","I","You are carrying:
+  a beer
+  your hat (on your head)
+  your trenchcoat (being worn)
+  a card
+  some money
+
+A skinny man walks into view.
+
+Howard throws a dart at the board and it sticks in the number five.
+
+>","List carried items including beer and incriminating evidence","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00387","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","387","2026-09-28T01:57:54.321Z","command","exploration","alibi-look","Survey the bar after the skinny man entered","Look","
+Inside the Alibi
+It's nice and dark -- just like a bar ought to be. Posters of attractive women 
+advertising various brands of alcohol are scattered on the walls. Up on one 
+wall in the corner is a dart board, and next to that is a jukebox.
+
+The door leading out to the street is open.
+
+Behind the bar is the bartender.
+
+The jukebox is playing ""Geography Of A Horse Dreamer"" by Big Head Todd And The 
+Monsters.
+
+Howard is here, playing darts.
+
+You can also see a skinny man here.
+
+The skinny man sits down at the bar.
+
+Howard throws a dart at the board and it sticks in the number one.
+
+>","Current bar description with skinny man and Howard positions","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00388","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","388","2026-09-28T01:58:07.284Z","command","exploration","alibi-coat-search","Look inside the trenchcoat for the incriminating item","Search trenchcoat","The trenchcoat is empty.
+
+The skinny man orders a beer.
+
+The jukebox goes quiet.
+
+The bartender grabs a mug off of the shelf.
+
+Howard throws a dart at the board and it sticks in the number twenty.
+
+>","Find pockets contents or nothing hidden","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00389","gumshoe-kimi","gumshoe-kimi-b739aab6ec","b0","389","2026-09-28T01:58:26.788Z","command","exploration","alibi-incriminating","Show the incriminating evidence to the bartender per walkthrough","Show incriminating to bartender","You can't see any such thing.
+
+>","Bartender reacts or game says I lack the item","","","","[]","unreviewed","captured","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
 "heist-a079eba445:e00001","heist","heist-a079eba445","b0","1","2026-09-25T06:13:13.149Z","startup","system","","","","
 
 

@@ -85,9 +85,81 @@ def tsv(fields):
     return '\t'.join(esc(f) for f in fields)
 
 
+def build_catalog():
+    """Canonical lanthorn catalog: union of every queue config's games,
+    keyed by base id (kimi re-runs folded onto their muse title)."""
+    import glob
+    cat = {}
+    for p in glob.glob(str(ROOT / 'control/*.json')) + glob.glob(str(ROOT / 'batches/*.json')):
+        try:
+            d = json.load(open(p))
+        except Exception:
+            continue
+        games = d.get('games') if isinstance(d, dict) else None
+        if not isinstance(games, list):
+            continue
+        for g in games:
+            g = {'game_id': g} if isinstance(g, str) else g
+            if not isinstance(g, dict) or not g.get('game_id'):
+                continue
+            gid = g['game_id']
+            base = gid[:-5] if gid.endswith('-kimi') else gid
+            row = cat.setdefault(base, {'game_id': base, 'title': None, 'engine': None,
+                                        'story_path': None, 'source_batch': None,
+                                        'walkthrough_url': None, 'variants': set()})
+            row['variants'].add(gid)
+            for src_key, dst_key in (('title', 'title'), ('engine', 'engine'),
+                                     ('story', 'story_path'), ('walkthrough_url', 'walkthrough_url')):
+                if not row[dst_key] and g.get(src_key):
+                    row[dst_key] = g[src_key]
+            if not row['source_batch'] and g.get('story') and '/sources/' in str(g['story']):
+                row['source_batch'] = str(g['story']).split('/sources/')[1].split('/')[0]
+    return cat
+
+
+CATALOG_DDL = """
+CREATE TABLE IF NOT EXISTS catalog (
+  game_id text PRIMARY KEY, title text, engine text, story_path text,
+  source_batch text, walkthrough_url text, variants jsonb);
+CREATE TABLE IF NOT EXISTS fleet_state (
+  game_id text PRIMARY KEY, cli text, state text, host text);
+DROP VIEW IF EXISTS game_progress;
+CREATE VIEW game_progress AS
+SELECT c.game_id, c.title, c.engine, c.source_batch, c.variants,
+       COALESCE(e.sessions, 0) AS sessions, COALESCE(e.events, 0) AS events,
+       COALESCE(ca.cases, 0) AS cases, e.last_event_at, e.story_sha256,
+       f.fleet_states, j.verdicts, j.judgments
+FROM catalog c
+LEFT JOIN (SELECT replace(game_id, '-kimi', '') AS g,
+                  count(DISTINCT session_id) AS sessions, count(*) AS events,
+                  max(timestamp_utc_ms) AS last_event_at,
+                  string_agg(DISTINCT story_sha256, ',') AS story_sha256
+           FROM events GROUP BY 1) e ON e.g = c.game_id
+LEFT JOIN (SELECT replace(game_id, '-kimi', '') AS g, count(*) AS cases
+           FROM cases GROUP BY 1) ca ON ca.g = c.game_id
+LEFT JOIN (SELECT replace(game_id, '-kimi', '') AS g,
+                  string_agg(game_id || ':' || COALESCE(cli, 'muse') || ':' || state, '; ') AS fleet_states
+           FROM fleet_state GROUP BY 1) f ON f.g = c.game_id
+LEFT JOIN (SELECT replace(game_id, '-kimi', '') AS g,
+                  string_agg(DISTINCT verdict, ',') AS verdicts, count(*) AS judgments
+           FROM judgments GROUP BY 1) j ON j.g = c.game_id;
+DROP VIEW IF EXISTS run_summary;
+CREATE VIEW run_summary AS
+SELECT game_id, session_id,
+       count(*) AS events,
+       count(*) FILTER (WHERE event_type = 'command') AS commands,
+       count(DISTINCT branch_id) AS branches,
+       min(timestamp_utc_ms) AS first_event_at,
+       max(timestamp_utc_ms) AS last_event_at,
+       bool_or(event_type = 'ending_claim') AS ending_claimed
+FROM events GROUP BY 1, 2;
+"""
+
+
 def main():
     pw = password()
     psql(DDL, pw)
+    psql(CATALOG_DDL, pw)
     counts = {}
     counts['events'] = copy_csv(pw, 'events', EVENTS_COLS, ROOT / 'exports/events.csv')
     counts['cases'] = copy_csv(pw, 'cases', CASES_COLS, ROOT / 'exports/test-cases.csv')
@@ -104,6 +176,20 @@ def main():
     psql('\\copy case_tags FROM stdin', pw, stdin=rows)
     counts['case_tags'] = len(tags)
     psql(f"INSERT INTO import_log(source, rows) VALUES ('k3-judgments.jsonl', {counts['judgments']})", pw)
+    cat = build_catalog()
+    rows = '\n'.join(tsv([c['game_id'], c['title'] or '', c['engine'] or '',
+                          c['story_path'] or '', c['source_batch'] or '',
+                          c['walkthrough_url'] or '',
+                          json.dumps(sorted(c['variants']))]) for c in cat.values())
+    psql('TRUNCATE catalog', pw)
+    psql('\\copy catalog FROM stdin', pw, stdin=rows)
+    counts['catalog'] = len(cat)
+    fa = json.loads((ROOT / 'control/fleet/assignments.json').read_text())
+    rows = '\n'.join(tsv([gid, str(v.get('cli') or ''), v['state'], str(v.get('host') or '')])
+                     for gid, v in sorted(fa.items()))
+    psql('TRUNCATE fleet_state', pw)
+    psql('\\copy fleet_state FROM stdin', pw, stdin=rows)
+    counts['fleet_state'] = len(fa)
     print(json.dumps(counts))
 
 

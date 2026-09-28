@@ -1,0 +1,74 @@
+{
+ "game_id": "metamorphoses",
+ "title": "Metamorphoses",
+ "engine": "zvm-cli",
+ "story_path": "/home/krickert/if-games/zcode/metamorp.z5",
+ "source_batch": "",
+ "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2000/inform/metamorp/metawalk.txt",
+ "variants": [
+  "metamorphoses",
+  "metamorphoses-kimi"
+ ],
+ "fleet_states": [
+  {
+   "game_id": "metamorphoses",
+   "cli": "",
+   "state": "attention",
+   "host": "cm5v2"
+  },
+  {
+   "game_id": "metamorphoses-kimi",
+   "cli": "muse",
+   "state": "ready",
+   "host": "pi500p"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "metamorphoses-9563441828:e00001",
+   "game_id": "metamorphoses",
+   "session_id": "metamorphoses-9563441828",
+   "branch_id": "b0",
+   "event_index": 1,
+   "timestamp_utc_ms": "2026-09-25T18:09:19.417+00:00",
+   "event_type": "startup",
+   "origin": "system",
+   "case_id": "",
+   "intent": "",
+   "command": "",
+   "response": "\n\n\nYou wake to stillness.  The hammering, banging, and shouting that kept you \nawake half the night are gone.  The air is cold, and something smells burnt.  \nYour master's experiments must be finished, but with what result?\n\nSomething hesitates on the edge of your consciousness, the memory of unquiet \ndreams...\n\n",
+   "expected_outcome": "",
+   "help_reason": "",
+   "hint_text": "",
+   "hint_source": "",
+   "related_event_ids": "[]",
+   "review_status": "unreviewed",
+   "transport_quality": "captured",
+   "story_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a"
+  },
+  {
+   "event_id": "metamorphoses-kimi-dda93e2c83:e00001",
+   "game_id": "metamorphoses-kimi",
+   "session_id": "metamorphoses-kimi-dda93e2c83",
+   "branch_id": "b0",
+   "event_index": 1,
+   "timestamp_utc_ms": "2026-09-27T10:49:09.881+00:00",
+   "event_type": "startup",
+   "origin": "system",
+   "case_id": "",
+   "intent": "",
+   "command": "",
+   "response": "\n\n\nYou wake to stillness.  The hammering, banging, and shouting that kept you \nawake half the night are gone.  The air is cold, and something smells burnt.  \nYour master's experiments must be finished, but with what result?\n\nSomething hesitates on the edge of your consciousness, the memory of unquiet \ndreams...\n\n",
+   "expected_outcome": "",
+   "help_reason": "",
+   "hint_text": "",
+   "hint_source": "",
+   "related_event_ids": "[]",
+   "review_status": "unreviewed",
+   "transport_quality": "captured",
+   "story_sha256": "47ab698c5b2a8e3fc841410dd3d987e101ab3d77f9cb3c870d0c1439352e3f7a"
+  }
+ ],
+ "cases": [],
+ "judgments": []
+}

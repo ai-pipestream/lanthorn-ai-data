@@ -16,10 +16,9 @@ rsync -a --delete \
   --exclude '*' \
   "$src/" "$stage/"
 cd "$stage"
-if [ ! -d .git ]; then
-  git init -b main >/dev/null
+[ -d .git ] || git init -b main >/dev/null
+git remote get-url origin >/dev/null 2>&1 || \
   git remote add origin https://github.com/ai-pipestream/lanthorn-ai-data.git
-fi
 git add -A
 git -c user.name='lanthorn-fleet' -c user.email='fleet@lanthorn.local' \
   commit -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)" --quiet

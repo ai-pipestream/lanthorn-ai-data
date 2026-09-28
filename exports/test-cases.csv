@@ -20998,6 +20998,85 @@ You put the old marking chip into the jet injector.
 >","shut cage","You close the cage.
 
 >","none","Did you mean close cage?","uncertain","success","true","true","unreviewed","","'shut cage' accepted directly: 'You close the cage.' SHUT works as a synonym of CLOSE here; no rejection, accepted paraphrase only.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00174","testarea-inject-syntax-b6","critical-breach-kimi","critical-breach-kimi-f618da3d84","critical-breach-kimi-f618da3d84:e00171","critical-breach-kimi-f618da3d84:e00164","b6","b5","Inject the registered old chip into the scorpig","inject old chip into scorpig","I only understood you as far as wanting to inject the old marking chip.
+
+>","inject scorpig","When you approach the scorpig with the injector it leaps right at your face!
+ You jump back screaming, and fall on the floor, along with the injector and 
+the chip. The scorpig lands on the floor too, and it watches you with its 
+insect eyes.
+
+>","syntax","Did you mean inject scorpig?","uncertain","success","true","true","unreviewed","","Full two-object form 'inject old chip into scorpig' is rejected ('I only understood you as far as wanting to inject the old marking chip'); the grammar wants INJECT <creature> with the injector's load implicit. Bare 'inject scorpig' (e00164) parses and fires the scripted attack sequence, which walkthrough excerpts confirm is the expected story step (followed by TAKE INJECTOR / TAKE CHIP recovery). Intent preserved.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00199","testarea-inject-scorpig","critical-breach-kimi","critical-breach-kimi-f618da3d84","critical-breach-kimi-f618da3d84:e00118","critical-breach-kimi-f618da3d84:e00198","b0","b6","Inject the marking chip into the sedated scorpig","stab scorpig","That's not a verb I recognise.
+
+>","inject scorpig","Very carefully, sweating, you press the trigger. This time it works! Nothing 
+terrible happens. The chip is implanted in the specimen. And you still have 
+your face.
+
+You slam the cage lid close and hear the sweetest sound of your life. The 
+safety locks kicks in, and seals the cage.
+
+>","vocabulary","Did you mean inject scorpig?","uncertain","success","true","true","unreviewed","","'stab scorpig' rejected ('not a verb I recognise'); INJECT is the required verb. Bare 'inject scorpig' (e00198) parses and implants the chip. Intent preserved exactly; STAB is not implemented.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00200","testarea-inject-awake-b6","critical-breach-kimi","critical-breach-kimi-f618da3d84","critical-breach-kimi-f618da3d84:e00180","critical-breach-kimi-f618da3d84:e00198","b6","b6","Inject the chip into the scorpig","inject scorpig","When you approach the scorpig with the injector it leaps right at your face!
+ You jump back screaming, and fall on the floor, along with the injector and 
+the chip. The scorpig lands on the floor too, and it watches you with its 
+insect eyes.
+
+The scorpig stands on the hind legs, exposing its fangs.
+
+>","inject scorpig","Very carefully, sweating, you press the trigger. This time it works! Nothing 
+terrible happens. The chip is implanted in the specimen. And you still have 
+your face.
+
+You slam the cage lid close and hear the sweetest sound of your life. The 
+safety locks kicks in, and seals the cage.
+
+>","world_state","Did you mean sedate the scorpig with a drugged mouse first?","uncertain","success","false","true","unreviewed","","Same command 'inject scorpig' fails while the scorpig is alert (scripted attack: leaps, drops injector+chip, scorpig loose, e00180) and succeeds after mouse-bait sedation (chip implanted, cage auto-seals, e00198). Not wording: prerequisite sedation via drugged mouse (SELECT 2 / TAKE MOUSE / LOAD CAPSULE / INJECT MOUSE / DROP MOUSE / wait) was required. Also establishes fallen chips of either type shatter when touched (e00182). Natural failure observed, not a synthetic probe.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00227","greenroom-exit-b6","critical-breach-kimi","critical-breach-kimi-f618da3d84","critical-breach-kimi-f618da3d84:e00226","critical-breach-kimi-f618da3d84:e00226","b6","b6","Climb out of the broken cylinder using a direction synonym","out","You get out of the broken cylinder.
+
+Green Room
+Everything here is shrouded by a faint green light. Around you are orderly 
+stacked hundreds and hundreds of cylinders, piled so high that by looking up 
+you can't see where they end. It reminds you of a tomb... The only empty wall 
+is on the east, with what seems to be a door in it.
+
+>","out","You get out of the broken cylinder.
+
+Green Room
+Everything here is shrouded by a faint green light. Around you are orderly 
+stacked hundreds and hundreds of cylinders, piled so high that by looking up 
+you can't see where they end. It reminds you of a tomb... The only empty wall 
+is on the east, with what seems to be a door in it.
+
+>","none","Did you mean exit?","uncertain","success","true","true","unreviewed","","'out' accepted directly: 'You get out of the broken cylinder', moving from inside-cylinder to Green Room proper. OUT works as EXIT here; no rejection, accepted paraphrase only.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00230","greenroom-feel-door-b6","critical-breach-kimi","critical-breach-kimi-f618da3d84","critical-breach-kimi-f618da3d84:e00229","critical-breach-kimi-f618da3d84:e00229","b6","b6","Feel the east door using a synonym of touch","feel door","When the wound comes in contact with the metal, a loud hissing sound starts. 
+Your hand feels strange. The door is smoking and screaming. Soon, your hand has 
+burned a big hole in the door.
+
+A small drop of blood drips from the wound. When it touches the ground, it 
+makes a hissing noise and disappears in the floor.
+
+>","feel door","When the wound comes in contact with the metal, a loud hissing sound starts. 
+Your hand feels strange. The door is smoking and screaming. Soon, your hand has 
+burned a big hole in the door.
+
+A small drop of blood drips from the wound. When it touches the ground, it 
+makes a hissing noise and disappears in the floor.
+
+>","none","Did you mean touch door?","uncertain","success","true","true","unreviewed","","'feel door' accepted directly and advances the escape: acid blood hisses, burns a big hole in the door; a dripped drop hisses through the floor. FEEL works as TOUCH here (consistent with 'feel water' e00018); no rejection, accepted paraphrase only.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
+"critical-breach-kimi-f618da3d84:e00248","shaft-climb-up-b6","critical-breach-kimi","critical-breach-kimi-f618da3d84","critical-breach-kimi-f618da3d84:e00245","critical-breach-kimi-f618da3d84:e00247","b6","b6","Go up the elevator shaft toward the exit light","climb up","You must name something more substantial.
+
+>","u","You grab the cables with your hands (if you can call them that) and easily 
+propel yourself up, literally running vertically up the shaft, looking at the 
+sparkle of daylight at the top. You are nearly out. And nothing will stop you.
+
+
+
+    *** You have escaped ***
+
+
+
+Would you like to RESTART, RESTORE a saved game or QUIT?
+> ","syntax","Did you mean u?","uncertain","success","true","true","unreviewed","","'climb up' rejected ('You must name something more substantial') because CLIMB needs a named object; bare direction 'u' succeeds, ascending the cables to daylight and reaching '*** You have escaped ***' (e00247). Pure syntax/verb repair, intent preserved exactly. Help excerpt m0197 was off-topic (early breach report), so correction used prior walkthrough guidance S/U.","e436e56658f4542ea93e120e9249fbe0c237ab66a0a2a5d0aa53b0b1e8c8b760"
 "curses-4e1875ea4e:e00011","attic-paper-synonym","curses","curses-4e1875ea4e","curses-4e1875ea4e:e00008","curses-4e1875ea4e:e00010","b0","b0","Read the crumpled piece of paper in inventory","read note","You can't see any such thing.
 
 >","read paper","   Things to do:
@@ -34478,6 +34557,107 @@ The tall man seems to be the person in the photo that Sandra McBride gave you.
 [Your score has just gone up by one point.]
 
 >","syntax","Did you mean 'Cabbie, go to Giuseppe'?","yes","success","true","true","unreviewed","","'Cabbie, go Giuseppe' rejected (cabbie doesn't know); full 'Cabbie, go to Giuseppe' drove to Giuseppe's Trattoria (score up, John/Nicole observed). Preposition/name-form repair.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00278","winchester-guard-topic","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00273","gumshoe-kimi-b739aab6ec:e00277","b0","b0","Get past the guard by engaging him on a topic he cares about","Ask guard about building","
+""I'm sure I don't know anything about that,"" the security guard replies.
+
+>","Ask guard about baseball","
+The security guard smiles. ""Yep, I'm a Dodgers fan all right. It really drives 
+me nuts that I have to be here working instead of watching the game tonight. 
+Guy's got to make a living somehow, though.""
+
+>","world_state","Did you mean 'Ask guard about baseball'?","uncertain","success","true","true","unreviewed","","Probe 'about building' deflected (guard knows nothing); 'about baseball' (Dodgers cap observed e00276) warms him — topic-selection repair, not wording. Whether baseball leads to entry is unconfirmed; next hinted steps are Read sports + drop newspaper.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00294","electronics-tv-examine","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00293","gumshoe-kimi-b739aab6ec:e00293","b0","b0","Examine the big-screen television to see what it shows","watch tv","The television is showing a fishing show. It has a knob for changing the 
+channel.
+
+>","watch tv","The television is showing a fishing show. It has a knob for changing the 
+channel.
+
+>","none","Did you mean examine the TV?","yes","success","true","true","unreviewed","","'watch tv' accepted as examine; response describes fishing show and channel knob. No rejection to repair; records accepted paraphrase for X TV.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00297","electronics-tv-knob","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00295","gumshoe-kimi-b739aab6ec:e00296","b0","b0","Turn the TV's channel knob to change the channel","turn dial","You can't see any such thing.
+
+>","turn knob","You switch the channel and now the television is showing a cooking show.
+
+>","vocabulary","Did you mean turn knob?","yes","success","true","true","unreviewed","","'turn dial' rejected ('can't see any such thing'); 'turn knob' switched to cooking show. Dial is not a recognized synonym for the knob; intent identical.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00311","winchester-foyer-entry","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00309","gumshoe-kimi-b739aab6ec:e00310","b0","b0","Enter the foyer through the door while the guard watches the game","enter foyer","You can't see any such thing.
+
+>","open door","The security guard is so preoccupied with the baseball game that he doesn't 
+notice as you open the door.
+
+[Your score has just gone up by one point.]
+
+>","vocabulary","Did you mean open the door?","yes","success","true","true","unreviewed","","'enter foyer' rejected (foyer not a manipulable noun); 'open door' succeeds with score up since the guard is preoccupied with the baseball game. Same 'open door' was barred by the guard earlier (e00271) — world-state change from the TV baseball setup enables entry.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00317","foyer-matchbook","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00315","gumshoe-kimi-b739aab6ec:e00316","b0","b0","Take the matchbook dropped in the foyer","take matchbok","You can't see any such thing.
+
+>","take matchbook","Taken.
+
+[Your score has just gone up by one point.]
+
+>","vocabulary","Did you mean take matchbook?","yes","success","true","true","unreviewed","","Typo 'matchbok' (missing o) rejected as unknown object; correct spelling taken with score up. Single-letter typo vocabulary gap; intent identical.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00323","foyer-exit","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00320","gumshoe-kimi-b739aab6ec:e00321","b0","b0","Leave the foyer back out to the street east","leave","You'll have to say which compass direction to go in.
+
+>","E","
+Winchester Gardens
+This is a block on the edge of Santa Monica. To the west lies Winchester 
+Gardens, a small, luxurious apartment complex. A door with somewhat gaudy brass 
+decorations leads into the well-lit foyer that is visible through a large, 
+plate-glass window. To the south of the apartment building (south-west of here) 
+is an electronics store.
+
+Through the window of the electronics store you can see a television showing a 
+baseball game.
+
+The door leading into the foyer is open.
+
+There is a security guard standing nearby. He appears to be engrossed in the 
+baseball game showing on the TV in the window of the electronics store.
+
+You can also see a copy of the Los Angeles Times here.
+
+>","syntax","Did you mean go east?","yes","success","true","true","unreviewed","","Bare 'leave' rejected asking for a compass direction; 'E' exits to Winchester Gardens street. Everyday exit wording needs an explicit direction; intent identical.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00378","alibi-barkeep-synonym","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00375","gumshoe-kimi-b739aab6ec:e00377","b0","b0","Ask the bartender about drinks","ask barkeep about drinks","You can't see any such thing.
+
+>","Ask bartender about drinks","
+""Well,"" the bartender says, ""I could get you any one of the following drinks:
+
+  a beer
+  a scotch
+  a shot of whiskey
+  a whiskey sour
+  an old fashioned
+  a manhattan
+  a shot of tequila
+  a margarita
+  a gin and tonic
+  a martini
+  a Mother Theresa
+  a screwdriver
+  a bloody mary
+  a white russian
+  a black russian
+  a sea breeze
+  a long island ice tea
+  a cuba libre
+  a coke
+  a diet coke
+  a pepsi
+  a diet pepsi
+  a seven up
+  a diet seven up
+  a ginger ale
+  a glass of water.""
+
+Howard selects a song on the jukebox.
+
+The jukebox kicks into ""Security"" by Otis Redding.
+
+>","vocabulary","Did you mean 'ask bartender about drinks'?","yes","success","true","true","unreviewed","","e00375 'ask barkeep about drinks' rejected with can't-see-any-such-thing, establishing barkeep is not a recognized synonym; e00377 same intent with 'bartender' succeeded with drinks list. Limitation: only this one synonym tested.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
+"gumshoe-kimi-b739aab6ec:e00385","alibi-get-beer-typo","gumshoe-kimi","gumshoe-kimi-b739aab6ec","gumshoe-kimi-b739aab6ec:e00383","gumshoe-kimi-b739aab6ec:e00384","b0","b0","Take the served beer from the bar","get ber","You can't see any such thing.
+
+>","Get beer","Taken.
+
+Howard goes over to the dartboard and grabs the darts in it.
+
+>","vocabulary","Did you mean 'get beer'?","yes","success","true","true","unreviewed","","e00383 'get ber' rejected with can't-see-any-such-thing, establishing the truncated noun is not understood; e00384 'Get beer' succeeded (Taken). Game gives vocabulary rejection rather than typo-specific message. Limitation: single-letter truncation only.","3fbd9f00d865302050cca79db955ee34ba2d51f98fcbb650048fa5447dc8f27f"
 "heist-a079eba445:e00008","graveyard-look-typo","heist","heist-a079eba445","heist-a079eba445:e00005","heist-a079eba445:e00007","b0","b0","Describe current surroundings","lok","That's not a verb I recognise.
 
 >","look","
