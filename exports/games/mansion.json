@@ -9,6 +9,116 @@
   "mansion"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "mansion",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Mansion.z5",
+    "title": "Mansion",
+    "engine": "zvm-cli",
+    "serial": "260803",
+    "game_id": "mansion",
+    "release": 3,
+    "completion": "Require genuine author-intended concluding narrative verified independently from raw game output. Ordinary death, quitting, partial score, chapter transitions, guide text and model claims alone are insufficient. Follow the full Gharston Hall/Brookes investigation and remedy route through the final mixture, Brookes encounter and rose, then require the actual narrative resolving the property conflict. Taking a rose, finding forged documents or reaching a score alone does not prove the conclusion.",
+    "session_id": "mansion-cc50b3ae7d",
+    "started_at": "2026-09-25T06:42:09.875156+00:00",
+    "game_family": "mansion",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/mansion-walkthrough.txt",
+    "story_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/mansion.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/mansion.sol",
+    "collection_notes": "# Mansion\n\nStory Z5 R3/260803. Local R3/260803 and archive story are byte-identical. Archive game entry credits tercel while the guide credits Derek Barley; both link IFDB bpk1o1ver1er00k, whose author credit, Brookes premise, R3 download and Tercel release announcement resolve the apparent author mismatch. Guide archived 2022 gives no release/serial and predates R3. IFDB reports a torch-manipulation bug and version 4 under production (2026-09-13); this does not establish whether the pinned route triggers it.\n\nFollow the full Gharston Hall/Brookes investigation and remedy route through the final mixture, Brookes encounter and rose, then require the actual narrative resolving the property conflict. Taking a rose, finding forged documents or reaching a score alone does not prove the conclusion.\n\nGuide is a long command list without explanations. Verify torch/battery state especially carefully, save before torch manipulation, and report inconsistencies to the parent rather than claiming a newer release or inventing a repair. Reported R1 completion bugs are historical; they do not prove the pinned R3 is blocked. Current R3 torch issue remains unresolved without runtime evidence.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.",
+    "story_sha256_expected": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "mansion",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "mansion",
+    "raw_end": 198896,
+    "event_id": "mansion-cc50b3ae7d:e01588",
+    "metadata": {
+     "notes": "Genuine author-intended win, not death/quitting/score alone. Full remedy route: mixture drunk (monster), Brookes flees horror 68/68 (e01581), waits trigger Gharston Hall withdrawal (e01583), tears purchase agreement (e01584), exits Hall, rose Rosa Aunt Agatha taken with *** You have won *** and proud owner of Gharston Hall title (e01587). Property conflict resolved via withdrawal plus document destruction and final rose narrative per manifest.",
+     "ending_quote": "You take the rose from the table. In familiar writing the label says \"Rosa Aunt \nAgatha\". You look around your new home, secure in the knowledge that you will \nbe very welcome here.\n\n\n    *** You have won ***\n\n\nIn that game you scored 68 out of a possible 68, in 1127 turns, earning you the \ntitle of proud owner of Gharston Hall.",
+     "evidence_event_ids": [
+      "mansion-cc50b3ae7d:e01587",
+      "mansion-cc50b3ae7d:e01583",
+      "mansion-cc50b3ae7d:e01584",
+      "mansion-cc50b3ae7d:e01581"
+     ]
+    },
+    "response": "",
+    "branch_id": "b8",
+    "raw_start": 198896,
+    "timestamp": "2026-09-25T09:42:47.119786+00:00",
+    "event_type": "ending_claim",
+    "session_id": "mansion-cc50b3ae7d",
+    "event_index": 1588,
+    "engine_state": "unchanged",
+    "story_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "mansion",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "mansion",
+    "raw_end": 198896,
+    "event_id": "mansion-cc50b3ae7d:e01588",
+    "metadata": {
+     "notes": "Genuine author-intended win, not death/quitting/score alone. Full remedy route: mixture drunk (monster), Brookes flees horror 68/68 (e01581), waits trigger Gharston Hall withdrawal (e01583), tears purchase agreement (e01584), exits Hall, rose Rosa Aunt Agatha taken with *** You have won *** and proud owner of Gharston Hall title (e01587). Property conflict resolved via withdrawal plus document destruction and final rose narrative per manifest.",
+     "ending_quote": "You take the rose from the table. In familiar writing the label says \"Rosa Aunt \nAgatha\". You look around your new home, secure in the knowledge that you will \nbe very welcome here.\n\n\n    *** You have won ***\n\n\nIn that game you scored 68 out of a possible 68, in 1127 turns, earning you the \ntitle of proud owner of Gharston Hall.",
+     "evidence_event_ids": [
+      "mansion-cc50b3ae7d:e01587",
+      "mansion-cc50b3ae7d:e01583",
+      "mansion-cc50b3ae7d:e01584",
+      "mansion-cc50b3ae7d:e01581"
+     ]
+    },
+    "response": "",
+    "branch_id": "b8",
+    "raw_start": 198896,
+    "timestamp": "2026-09-25T09:42:47.119786+00:00",
+    "event_type": "ending_claim",
+    "session_id": "mansion-cc50b3ae7d",
+    "event_index": 1588,
+    "engine_state": "unchanged",
+    "story_sha256": "b3f92a5f8bbd5d95aa2f1512e99743d38a735b1e73b703cc86e3a4876bf055da",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "mansion",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Mansion progress (SEG8 COMPLETE \u2014 68/68 WIN, ending claim e01588)\n\nWIN VERIFIED FROM GAME OUTPUT (branch b8):\n- e01580 drink mixture -> monster transformation\n- e01581 call brookes -> flees in horror, score 68/68 MAX\n- e01583 wait -> Brookes withdraws from Gharston Hall development\n- e01584 wait -> tears purchase agreement into small pieces\n- e01585-86 waits/look -> Entrance Hall, Brookes exits, table movement\n- e01587 get rose -> \"Rosa Aunt Agatha\" rose taken, \"*** You have won ***\", 68/68 in 1127 turns, \"proud owner of Gharston Hall\"\n- e01588 ending_claim recorded (inbox/m1031.json accepted; m1029/m1030 rejected for inexact quote missing line-wrap spaces/newlines). Awaiting Terra independent verification.\n\nRoute notes (R3): parcel appears only after house OFF/ON drain cycle + immediate get (vanishes in 2-3 turns); jar eyes spare the live frog (cut refused moral); ugli spawns Entrance table late; candlestick needs refill. ~40+ annotated cases across game. No further commands needed; game at RESTART/RESTORE/FULL/QUIT prompt.\n"
+  },
+  {
+   "game_id": "mansion",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Mansion\n\nStory Z5 R3/260803. Local R3/260803 and archive story are byte-identical. Archive game entry credits tercel while the guide credits Derek Barley; both link IFDB bpk1o1ver1er00k, whose author credit, Brookes premise, R3 download and Tercel release announcement resolve the apparent author mismatch. Guide archived 2022 gives no release/serial and predates R3. IFDB reports a torch-manipulation bug and version 4 under production (2026-09-13); this does not establish whether the pinned route triggers it.\n\nFollow the full Gharston Hall/Brookes investigation and remedy route through the final mixture, Brookes encounter and rose, then require the actual narrative resolving the property conflict. Taking a rose, finding forged documents or reaching a score alone does not prove the conclusion.\n\nGuide is a long command list without explanations. Verify torch/battery state especially carefully, save before torch manipulation, and report inconsistencies to the parent rather than claiming a newer release or inventing a repair. Reported R1 completion bugs are historical; they do not prove the pinned R3 is blocked. Current R3 torch issue remains unresolved without runtime evidence.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Early safe checkpoint and milestone checkpoints at confirmed ordinary command prompts only; verify actual success. Never save into a question, keypause or timeout.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "mansion-cc50b3ae7d:e00001",

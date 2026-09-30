@@ -9,6 +9,73 @@
   "mystery-fun-house"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "mystery-fun-house",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/scott/AdamsGames/adv07.dat",
+    "title": "Mystery Fun House",
+    "engine": "scott-cli",
+    "game_id": "mystery-fun-house",
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete the full Fun House mission and recover the missing top-secret plans. Require the actual authored winning output, not an ordinary death, park closing, quitting or a score. Static data identifies the WON rule for carrying the plans and the authored HURRAH message followed by game-end; parent must verify this in raw output. The guide's trailing congratulation text is prose, never a command or runtime evidence.",
+    "session_id": "mystery-fun-house-61d87e14cd",
+    "started_at": "2026-09-25T09:43:25.130295+00:00",
+    "game_family": "scott-adams",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/mystery-fun-house-walkthrough.txt",
+    "story_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "scott_version": "1.45",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/mystery-fun-house.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Funhouse.txt",
+    "adventure_number": 7,
+    "collection_notes": "# Mystery Fun House\n\nLocal adv07.dat is byte-identical to the same member of both local and freshly downloaded AdamsGames.zip. Collection readme identifies Adventure 7, Mystery Fun House v1.45, a TRS-80 text version converted by Paul David Doherty; the data trailer is version 145, adventure 7. This is the complete game, not sampler1.dat or a graphical SAGA edition. Guide names the game but no version/platform: exact guide edition compatibility is unspecified; multiword examples may require the Scott parser's two-word form.\n\nComplete the full Fun House mission and recover the missing top-secret plans. Require the actual authored winning output, not an ordinary death, park closing, quitting or a score. Static data identifies the WON rule for carrying the plans and the authored HURRAH message followed by game-end; parent must verify this in raw output. The guide's trailing congratulation text is prose, never a command or runtime evidence.\n\nUse the pinned ScottFree text edition and adapt the prose guide to actual two-word parser responses. The guide's comma-separated chain is segmented for small help excerpts. Observe carrying capacity, light, closing-time and fuse timing; save early and before hazard commitments at ordinary prompts. Do not use failed commands as time fillers. This is a distinct Adventure 7 story; the collection ZIP also holds already registered games, but only adv07.dat is proposed.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "mystery-fun-house",
+   "name": "latest.json",
+   "content": {
+    "command": "USE BRANCH",
+    "game_id": "mystery-fun-house",
+    "raw_end": 2082,
+    "event_id": "mystery-fun-house-61d87e14cd:e00027",
+    "metadata": {
+     "intent": "Use branch to retrieve coin from drain",
+     "origin": "exploration",
+     "case_id": "parking-stick-use",
+     "expected_outcome": "Coin retrieved or hint"
+    },
+    "response": "USE BRANCH\nDoesn't work\nI just push it around\n\nTell me what to do ? ",
+    "branch_id": "b0",
+    "raw_start": 2014,
+    "timestamp": "2026-09-25T09:46:18.859965+00:00",
+    "event_type": "command",
+    "session_id": "mystery-fun-house-61d87e14cd",
+    "event_index": 27,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "0bfecbf88c6b39fdb787eadb710188d0f2d10eaf3c0ab456937a04bb16c98429",
+    "review_status": "unreviewed",
+    "response_sha256": "0b797449716d946b96e47888d059d21cb248006245be2f1f77a55c1f09554568"
+   },
+   "text": null
+  },
+  {
+   "game_id": "mystery-fun-house",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Mystery Fun House\n\nLocal adv07.dat is byte-identical to the same member of both local and freshly downloaded AdamsGames.zip. Collection readme identifies Adventure 7, Mystery Fun House v1.45, a TRS-80 text version converted by Paul David Doherty; the data trailer is version 145, adventure 7. This is the complete game, not sampler1.dat or a graphical SAGA edition. Guide names the game but no version/platform: exact guide edition compatibility is unspecified; multiword examples may require the Scott parser's two-word form.\n\nComplete the full Fun House mission and recover the missing top-secret plans. Require the actual authored winning output, not an ordinary death, park closing, quitting or a score. Static data identifies the WON rule for carrying the plans and the authored HURRAH message followed by game-end; parent must verify this in raw output. The guide's trailing congratulation text is prose, never a command or runtime evidence.\n\nUse the pinned ScottFree text edition and adapt the prose guide to actual two-word parser responses. The guide's comma-separated chain is segmented for small help excerpts. Observe carrying capacity, light, closing-time and fuse timing; save early and before hazard commitments at ordinary prompts. Do not use failed commands as time fillers. This is a distinct Adventure 7 story; the collection ZIP also holds already registered games, but only adv07.dat is proposed.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "mystery-fun-house-61d87e14cd:e00001",

@@ -9,6 +9,106 @@
   "hunter-in-darkness"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "hunter-in-darkness",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/huntdark.z5",
+    "title": "Hunter, in Darkness",
+    "engine": "zvm-cli",
+    "serial": "991119",
+    "game_id": "hunter-in-darkness",
+    "release": 4,
+    "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. Guide release unspecified, two paths based on injuring prey. Require intended conclusion, not ordinary death.",
+    "session_id": "hunter-in-darkness-d1b183a1fc",
+    "started_at": "2026-09-25T04:42:20.226158+00:00",
+    "game_family": "hunter-in-darkness",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/hunter-in-darkness-walkthrough.txt",
+    "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/hunter-in-darkness.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/huntdark.sol",
+    "collection_notes": "# Hunter, in Darkness collection notes\n\nExact local header: R4/991119. Guide release unspecified, two paths based on injuring prey. Require intended conclusion, not ordinary death. Guide source: https://ifarchive.org/if-archive/solutions/huntdark.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "hunter-in-darkness",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "hunter-in-darkness",
+    "raw_end": 27229,
+    "event_id": "hunter-in-darkness-d1b183a1fc:e00188",
+    "metadata": {
+     "notes": "Complete path-1 (wounded Wumpus) playthrough. Walkthrough's 51 lines are exhausted at the final up (past-end hint returns empty). Hunter escapes to daylight as the bat swarm kills the Wumpus below (scream cut off). Distinct from ordinary death: this game prints *** You have died *** for real death (observed e00141); the *** It's over *** banner with escape narrative is the intended conclusion, reached identically on three branches. 20 annotated repair cases plus full route evidence collected.",
+     "ending_quote": "and you are blinded by daylight.\n\n\n\n    *** It's over ***",
+     "evidence_event_ids": [
+      "hunter-in-darkness-d1b183a1fc:e00187"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 27229,
+    "timestamp": "2026-09-25T05:00:01.051235+00:00",
+    "event_type": "ending_claim",
+    "session_id": "hunter-in-darkness-d1b183a1fc",
+    "event_index": 188,
+    "engine_state": "unchanged",
+    "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "hunter-in-darkness",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "hunter-in-darkness",
+    "raw_end": 27229,
+    "event_id": "hunter-in-darkness-d1b183a1fc:e00188",
+    "metadata": {
+     "notes": "Complete path-1 (wounded Wumpus) playthrough. Walkthrough's 51 lines are exhausted at the final up (past-end hint returns empty). Hunter escapes to daylight as the bat swarm kills the Wumpus below (scream cut off). Distinct from ordinary death: this game prints *** You have died *** for real death (observed e00141); the *** It's over *** banner with escape narrative is the intended conclusion, reached identically on three branches. 20 annotated repair cases plus full route evidence collected.",
+     "ending_quote": "and you are blinded by daylight.\n\n\n\n    *** It's over ***",
+     "evidence_event_ids": [
+      "hunter-in-darkness-d1b183a1fc:e00187"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 27229,
+    "timestamp": "2026-09-25T05:00:01.051235+00:00",
+    "event_type": "ending_claim",
+    "session_id": "hunter-in-darkness-d1b183a1fc",
+    "event_index": 188,
+    "engine_state": "unchanged",
+    "story_sha256": "c889cedc652aebf87139f07cd1ce508ee9151e7249e42b241612d948bb711f92",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "hunter-in-darkness",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Hunter in Darkness \u2013 progress (COMPLETE)\n\nSTATUS: Finished. Daylight ending reached on b0 (e00132), b2 (e00159), b3 (e00187) \u2013 identical sha 1ebfe472... Walkthrough (51 lines) exhausted at final up.\nEnding (e00187): climb canyon wall / hissing scream cut off below / blinded by daylight / *** It's over *** + RESTART/RESTORE/QUIT.\nWhy winning: walkthrough ends here; escape narrative with threat neutralized; banner differs from observed death banner *** You have died *** (e00141). Not death, quit, or chapter.\nCases: 20 annotated (typo, synonyms, ambiguity x3, syntax, world_state x6, planning x2, none-accepted x7 incl. sensory). Death case e00141 documented (throw-bolt misresolution).\nBranches: b0 full; b1 probes + death; b2 replay + probes; b3 final probes + ending.\nCheckpoints: start-opening, after-bandage, smallish-cave, base-of-canyon.\n"
+  },
+  {
+   "game_id": "hunter-in-darkness",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Hunter, in Darkness collection notes\n\nExact local header: R4/991119. Guide release unspecified, two paths based on injuring prey. Require intended conclusion, not ordinary death. Guide source: https://ifarchive.org/if-archive/solutions/huntdark.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "hunter-in-darkness-d1b183a1fc:e00001",

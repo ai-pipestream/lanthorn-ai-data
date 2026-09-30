@@ -23,6 +23,140 @@
    "host": "pi500p"
   }
  ],
+ "files": [
+  {
+   "game_id": "heroines-mantle",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Heroine.z8",
+    "title": "Heroine's Mantle",
+    "engine": "zvm-cli",
+    "serial": "001211",
+    "game_id": "heroines-mantle",
+    "release": 3,
+    "completion": "Require the concluding Crusader/helicopter resolution after the final button and ensuing narrative. Require actual terminal success evidence; a chapter transition, 400 points or a saved file named s400 is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "heroines-mantle-4053f4fad7",
+    "started_at": "2026-09-25T06:13:18.161232+00:00",
+    "game_family": "heroines-mantle",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/heroine/walkthrough.txt",
+    "story_sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/heroine/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Heroine.sol",
+    "collection_notes": "# Heroine's Mantle\n\nUnofficial Paul J. Godfrey guide explicitly matches R3/001211. Long timed route with future-event knowledge; preserve branch provenance after recovery.\n\nCompletion: Require the concluding Crusader/helicopter resolution after the final button and ensuing narrative. Require actual terminal success evidence; a chapter transition, 400 points or a saved file named s400 is insufficient.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "heroines-mantle",
+   "name": "latest.json",
+   "content": {
+    "command": "ne",
+    "game_id": "heroines-mantle",
+    "raw_end": 245644,
+    "event_id": "heroines-mantle-4053f4fad7:e01002",
+    "metadata": {
+     "intent": "Walk northeast through the bonded-titanium gate to the exhibits",
+     "origin": "exploration",
+     "case_id": "foyer-open-gates",
+     "expected_outcome": "Pass through the northeast gate or be stopped with a reason",
+     "_fleet_session_id": "heroines-mantle-4053f4fad7"
+    },
+    "response": "The security gates are closed.\n\n Foyer                              Score: 90          Five hours before 2001\n (in the Museum of History)         Moves: 440\n>",
+    "branch_id": "b4",
+    "raw_start": 245486,
+    "timestamp": "2026-09-26T01:14:30.005025+00:00",
+    "event_type": "command",
+    "session_id": "heroines-mantle-4053f4fad7",
+    "event_index": 1002,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+    "review_status": "unreviewed",
+    "response_sha256": "8d16c76820b040a33b388867b809e9b8e128e8e5ed1558a6521b8abf5ffcd4ce"
+   },
+   "text": null
+  },
+  {
+   "game_id": "heroines-mantle",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Heroine's Mantle \u2014 progress (b4, Security Office, Score 90, Moves 436 end-of-tape) \u2014 READY to continue\n\nCurrent: b4 Security Office Score 90 Moves 436, end-of-tape (e00996 push play button same end message; annotate e00997 resolved). Checkpoint security-tape-exhausted.sav verified e00994-e00995. Help e00998 resolved OFF-TOPIC (s32 Office Guard lines 201-209, not Museum). Ordinary prompt, awaiting_input_or_idle. Inventory last: rolling pin, Staff of Justice (glowing fiercely), halo (glowing), casual clothes + underwear worn (e00882).\nRESOLVED m0964 e00996; m0965 annotate none e00997; m0966 help e00998 off-topic s32 \u2014 do not treat as observed evidence.\nPENDING: none. Next inbox number m0967. DO NOT resubmit m0804-m0966.\nNext: refine help topic for Museum after-VCR (try \"Ernest water tank straight jacket handcuffs\" or \"bonded titanium mere girl Staff Justice\" or \"mask Xioh seven million Charlotte Anne\" without Security Office/VCR words that pull s32); then go south to Foyer, look, x statue/gates/guard per hint; checkpoint before risky probes. Continue tape-exhausted branch provenance.\nTape: 17:31 hat, 17:32 catch, 17:33 kick/slap, 17:34-17:35 glance, 17:36 glove black square, 17:37-17:59 dark/static, end no-recordings.\nBranches b0 dead b1 broken b2 died 229 b3 canonical b4 current. Game incomplete \u2014 Crusader/helicopter finale required.\nLocation: Security Office (middle north from Foyer e00896); guard foyer riddle e00876; statue Ernest water-tank e00886.\n"
+  },
+  {
+   "game_id": "heroines-mantle",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Heroine's Mantle\n\nUnofficial Paul J. Godfrey guide explicitly matches R3/001211. Long timed route with future-event knowledge; preserve branch provenance after recovery.\n\nCompletion: Require the concluding Crusader/helicopter resolution after the final button and ensuing narrative. Require actual terminal success evidence; a chapter transition, 400 points or a saved file named s400 is insufficient.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  },
+  {
+   "game_id": "heroines-mantle-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Heroine.z8",
+    "title": "Heroine's Mantle",
+    "engine": "zvm-cli",
+    "serial": "001211",
+    "game_id": "heroines-mantle-kimi",
+    "release": 3,
+    "completion": "Require the concluding Crusader/helicopter resolution after the final button and ensuing narrative. Require actual terminal success evidence; a chapter transition, 400 points or a saved file named s400 is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "heroines-mantle-kimi-a635c25f87",
+    "started_at": "2026-09-27T10:48:49.243410+00:00",
+    "game_family": "heroines-mantle",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/heroine/walkthrough.txt",
+    "story_sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/heroine/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Heroine.sol",
+    "collection_notes": "# Heroine's Mantle\n\nUnofficial Paul J. Godfrey guide explicitly matches R3/001211. Long timed route with future-event knowledge; preserve branch provenance after recovery.\n\nCompletion: Require the concluding Crusader/helicopter resolution after the final button and ensuing narrative. Require actual terminal success evidence; a chapter transition, 400 points or a saved file named s400 is insufficient.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "heroines-mantle-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "heroines-mantle-kimi",
+    "raw_end": 298,
+    "event_id": "heroines-mantle-kimi-a635c25f87:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\n\n\n\n\n                   \"It is the ordinary person who performs\n                    the acts of heroism in Atlantic City.\n                    We are merely the guides to show them\n                    the way.\"\n\n                   -- the matriarch, first of the Crusaders\n[Press SPACE to continue]",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:48:49.243113+00:00",
+    "event_type": "startup",
+    "session_id": "heroines-mantle-kimi-a635c25f87",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "35f2844ed997f5ce8782b8d77760193c50ab38438d2c2bd2426a036c516fc256",
+    "review_status": "unreviewed",
+    "response_sha256": "d91c7d83f17d8bd604d54a46ddd36b010a5b75f3b062327a9f793e21056c6a5b"
+   },
+   "text": null
+  },
+  {
+   "game_id": "heroines-mantle-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Heroine's Mantle\n\nUnofficial Paul J. Godfrey guide explicitly matches R3/001211. Long timed route with future-event knowledge; preserve branch provenance after recovery.\n\nCompletion: Require the concluding Crusader/helicopter resolution after the final button and ensuing narrative. Require actual terminal success evidence; a chapter transition, 400 points or a saved file named s400 is insufficient.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "heroines-mantle-4053f4fad7:e00001",

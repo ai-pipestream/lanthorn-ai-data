@@ -105,6 +105,7 @@ class RecoveredGame(Game):
             write_json(response, {'error': 'Cancelled during explicit checkpoint recovery; no command executed. Read recovery.json and current state.',
                                   'request_file': request.name, 'processed_at': now()})
         self.start()
+        latest_backup = (self.base / 'latest.json').read_bytes() if (self.base / 'latest.json').exists() else None
         try:
             advance_recovery_startup(self, config.get('recovery_startup_steps', []))
             result = self.handle({'action': 'restore', 'name': checkpoint,
@@ -113,7 +114,8 @@ class RecoveredGame(Game):
             marker = config.get('restore_confirmation_line')
             assert (len(result['events']) == 2
                     and result['events'][-1]['engine_state'] == 'awaiting_input_or_idle'
-                    and ('Ok.' in reply or (marker and marker in reply.splitlines()))), 'Restore not confirmed'
+                    and ('Ok.' in reply or (marker and marker in reply.splitlines()))), \
+                    f'Restore not confirmed; reply excerpt: {reply[-300:]!r}'
             observed = self.send('look', {'origin': 'recovery', 'intent': 'Observe restored location'})
             assert observed['engine_state'] == 'awaiting_input_or_idle', 'Restored interpreter unavailable'
             write_json(self.base / 'recovery.json', dict(recovery, session_id=self.session,
@@ -132,6 +134,10 @@ class RecoveredGame(Game):
                 '## Historical notes only; reconcile every state claim with the restored game\n\n' + old_progress)
         except BaseException:
             self.close_engine()
+            # Roll back latest.json: the aborted session's engine may have stamped
+            # it with the new session id, which wedges mirroring (mixed-session).
+            if latest_backup is not None:
+                (self.base / 'latest.json').write_bytes(latest_backup)
             raise
 
 

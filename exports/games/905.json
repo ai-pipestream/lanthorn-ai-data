@@ -9,6 +9,105 @@
   "905"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "905",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/905.z5",
+    "title": "9:05",
+    "engine": "zvm-cli",
+    "serial": "120724",
+    "game_id": "905",
+    "release": 1,
+    "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions. Multiple endings exist; pursue a full non-arrest escape route after the morning sequence. Do not stop simply by waiting for the bonus timeout or reaching a failure ending.",
+    "session_id": "905-0674f2e54c",
+    "started_at": "2026-09-25T02:35:02.271114+00:00",
+    "game_family": "905",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/905-walkthrough.txt",
+    "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/905.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://jayisgames.com/review/905.php",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+    "story_sha256_expected": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "905",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "905",
+    "raw_end": 12255,
+    "event_id": "905-0674f2e54c:e00105",
+    "metadata": {
+     "notes": "Branch b1 non-arrest escape after full morning routine (shower, dress, eat, drive) by skipping Loungent stop and taking second onramp. Distinct from b0 arrest ending 1 (life imprisonment e00082) and from quit/restart prompt; banner *** You have left Las Mesas *** is author ending 2, not intermediate score or bonus wait.",
+     "ending_quote": "You merge onto the freeway, crank up the radio, and vanish without a trace.\n\n\n    *** You have left Las Mesas ***",
+     "evidence_event_ids": [
+      "905-0674f2e54c:e00098"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 12255,
+    "timestamp": "2026-09-25T02:46:08.407045+00:00",
+    "event_type": "ending_claim",
+    "session_id": "905-0674f2e54c",
+    "event_index": 105,
+    "engine_state": "unchanged",
+    "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "905",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "905",
+    "raw_end": 12255,
+    "event_id": "905-0674f2e54c:e00105",
+    "metadata": {
+     "notes": "Branch b1 non-arrest escape after full morning routine (shower, dress, eat, drive) by skipping Loungent stop and taking second onramp. Distinct from b0 arrest ending 1 (life imprisonment e00082) and from quit/restart prompt; banner *** You have left Las Mesas *** is author ending 2, not intermediate score or bonus wait.",
+     "ending_quote": "You merge onto the freeway, crank up the radio, and vanish without a trace.\n\n\n    *** You have left Las Mesas ***",
+     "evidence_event_ids": [
+      "905-0674f2e54c:e00098"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 12255,
+    "timestamp": "2026-09-25T02:46:08.407045+00:00",
+    "event_type": "ending_claim",
+    "session_id": "905-0674f2e54c",
+    "event_index": 105,
+    "engine_state": "unchanged",
+    "story_sha256": "0f41ff7811668e236060b399ced1cd0481c1bb624a8876fc7e16dc58816f1ecb",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "905",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress 905 \u2014 segment 1 (final update before finish)\n\nLocation: Branch b1 escape ending reached. At RESTART/RESTORE/QUIT prompt after leaving Las Mesas.\nEvidence: b0 arrest ending 1 (e00080 guards, e00082 life imprisonment) distinguished from b1 escape ending 2 (e00098 merge onto freeway, vanish, *** You have left Las Mesas ***).\nRoute b1: restore after-shower-dressed, replay wallet/keys/living/kitchen/eat/exit/unlock/enter, no at onramp, NO at office (skip), yes at second onramp = escape.\nCases: ~25 distinct case_ids; failures annotated (phone typo, dresser drawer, wear ambiguity x2, shower syntax, drop ambiguity, wallet grab, frontdoor world_state + ambiguity, car locked, wallet container, cubicle paper, form verb, bowman planning). Acceptances recorded as events (stand up, go to bathroom, put on clean, get keys, eat raw, unlock implicit, enter cubicle, take id short, put id in slot); bed-exit annotated none.\nCheckpoints: start-in-bed, after-shower-dressed, at-work-parking, before-bowman (all confirmed).\nNext: finish with e00098; Terra reviews.\n"
+  },
+  {
+   "game_id": "905",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nActual startup: 9:05 v1.11 (2012.0724), Z-machine header R1/120724. Guide is an older2009 guide; compatibility must be observed. Ordinary Bedroom prompt already reached, so do not send a key just because guide mentions MORE. Short game: collect useful diverse cases, not a quota of repetitive mistakes. Multiple endings: aim for a substantive non-arrest escape ending after the morning sequence; do not stop at an arrest/failure or wait repeatedly to manufacture bonus timeout. Preserve discovery and any failure before an explicitly branched recovery.\n\nCollect labeled synthetic human-like command variations, actual responses and same-intent recoveries. Ask for small hints through broker help. Do not read the full guide directly. Save at ordinary prompts when supported. All model labels remain unreviewed until independently checked. No training, application changes or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "905-0674f2e54c:e00001",

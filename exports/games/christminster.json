@@ -9,6 +9,110 @@
   "christminster"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "christminster",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/minster.z5",
+    "title": "Christminster",
+    "engine": "zvm-cli",
+    "serial": "961117",
+    "game_id": "christminster",
+    "release": 4,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Complete the college investigation, book/clue gathering, elixir and dinner phases, then carry the rescue through the crypt and stairs to Malcolm's final escape north. Require the genuine concluding rescue narrative. A witnessed murder, temporary revival, dinner transition or 50-point annotation is not by itself completion.",
+    "session_id": "christminster-735155fc69",
+    "started_at": "2026-09-25T07:01:37.241893+00:00",
+    "game_family": "curses",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/christminster-walkthrough.txt",
+    "story_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/christminster.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/christminster.sol",
+    "collection_notes": "# Christminster\n\nStory Z5 R4/961117. Local R4/961117 matches the archive story and game/guide IFDB identity. Audrey De Lisle guide was revised 1995-12-20 and names two proofplayers. It does not declare one exact target release/serial; a comment refers to version 1, and other comments warn that names and final key metal may vary. Preserve older-guide/later-release uncertainty.\n\nComplete the college investigation, book/clue gathering, elixir and dinner phases, then carry the rescue through the crypt and stairs to Malcolm's final escape north. Require the genuine concluding rescue narrative. A witnessed murder, temporary revival, dinner transition or 50-point annotation is not by itself completion.\n\nThe guide groups work by area and includes variable names, keys and timing rather than a fully fixed transcript. Do not type blank placeholders or blindly substitute its example scholar names. Keep ingredients separate until the proper recipe step. Verify a checkpoint before the tightly timed crypt endgame; avoid synthetic probes during that sequence.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "christminster",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "christminster",
+    "raw_end": 494982,
+    "event_id": "christminster-735155fc69:e01140",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending on b9: pulled Malcolm north through unlocked door (e01139) into rescue by police constable + fireman, blackout, hospital awakening with Malcolm at bedside ('Christabel!'), epilogue (Edward raised alarm, brigade smashed Bungay's door, C staircase destroyed, Jarboe's charred bones found, Bungay gone), explicit '*** You have won ***' banner, 48/50 in 675 turns. Distinct from b7/b8 '*** You have died ***' fire collapses. Satisfies manifest: college investigation, books/clues, elixir + dinner, rescue through crypt and stairs to Malcolm's final escape north with concluding rescue narrative. 2 optional points unclaimed (score-only, e.g. wistaria roof) do not affect the won state.",
+     "ending_quote": "*** You have won ***\n\n\nIn that game you scored 48 out of a possible 50, in 675 turns.",
+     "evidence_event_ids": [
+      "christminster-735155fc69:e01139"
+     ]
+    },
+    "response": "",
+    "branch_id": "b9",
+    "raw_start": 494982,
+    "timestamp": "2026-09-25T09:32:05.454014+00:00",
+    "event_type": "ending_claim",
+    "session_id": "christminster-735155fc69",
+    "event_index": 1140,
+    "engine_state": "unchanged",
+    "story_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "christminster",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "christminster",
+    "raw_end": 494982,
+    "event_id": "christminster-735155fc69:e01140",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending on b9: pulled Malcolm north through unlocked door (e01139) into rescue by police constable + fireman, blackout, hospital awakening with Malcolm at bedside ('Christabel!'), epilogue (Edward raised alarm, brigade smashed Bungay's door, C staircase destroyed, Jarboe's charred bones found, Bungay gone), explicit '*** You have won ***' banner, 48/50 in 675 turns. Distinct from b7/b8 '*** You have died ***' fire collapses. Satisfies manifest: college investigation, books/clues, elixir + dinner, rescue through crypt and stairs to Malcolm's final escape north with concluding rescue narrative. 2 optional points unclaimed (score-only, e.g. wistaria roof) do not affect the won state.",
+     "ending_quote": "*** You have won ***\n\n\nIn that game you scored 48 out of a possible 50, in 675 turns.",
+     "evidence_event_ids": [
+      "christminster-735155fc69:e01139"
+     ]
+    },
+    "response": "",
+    "branch_id": "b9",
+    "raw_start": 494982,
+    "timestamp": "2026-09-25T09:32:05.454014+00:00",
+    "event_type": "ending_claim",
+    "session_id": "christminster-735155fc69",
+    "event_index": 1140,
+    "engine_state": "unchanged",
+    "story_sha256": "41172c8e152229cde7a90aa78b04d2882223c8ba161cc67716a1660e26ea3cd1",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "christminster",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Christminster progress (branch b9) \u2014 *** GAME WON *** 48/50, 675 turns.\n\nLocation: WON. Final: Top of Secret Staircase -> pull Malcolm north (e01139) -> rescue + hospital epilogue + \"*** You have won ***\".\nResult: Score 48/50 (missing 2 optional: likely wistaria-roof climb + manhole-down/book point \u2014 guide numbering differs; win banner explicit). Moves 675.\nWinning path (b9): before-crypt-45 restore -> E crypt (655, 10:30) -> 7 waits (murders) -> dagger (663) -> search Bungay SILVER key (664) -> cut noose +1=46 (665) -> pull E (666) -> take retort (667) -> pour elixir +1=47 Malcolm alive (668) -> HIDE key in bag + close (669-670) -> pull up (671, Jarboe demands KNIFE not key) -> kill-with-dagger makes Jarboe FLEE down into fire (672) -> open bag (673) -> unlock silver (674) -> open door (675) -> pull Malcolm north WINS (676th move... recorded 675 turns).\nKEY SOLUTION: silver key MUST be hidden in closed handbag at top; visible key = begging stalemate (wrist loop, unlock blocked, give = trap). Hidden key = Jarboe demands knife, one slash routs him into the crypt fire (charred bones in epilogue).\nDeaths (labeled failures): b7 e01090 fire collapse 678 (push mocked); b8 e01113 fire 675 (give-key trap + recon).\nAnnotated: 36 total (6 seg4: snail-pour-syn, snail-flip, snail-cut-omit, snail-synonym, decanter-port-take, decanter-hand). No crypt probes (timed) \u2014 correct.\nCheckpoints: before-crypt-45 (used x2, both verified); dinner-done-44; elixir-done-41; others.\nEvidence: e01139 (b9) contains full concluding rescue narrative + win banner + 48/50. Finish submitted with e01139.\n"
+  },
+  {
+   "game_id": "christminster",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Christminster\n\nStory Z5 R4/961117. Local R4/961117 matches the archive story and game/guide IFDB identity. Audrey De Lisle guide was revised 1995-12-20 and names two proofplayers. It does not declare one exact target release/serial; a comment refers to version 1, and other comments warn that names and final key metal may vary. Preserve older-guide/later-release uncertainty.\n\nComplete the college investigation, book/clue gathering, elixir and dinner phases, then carry the rescue through the crypt and stairs to Malcolm's final escape north. Require the genuine concluding rescue narrative. A witnessed murder, temporary revival, dinner transition or 50-point annotation is not by itself completion.\n\nThe guide groups work by area and includes variable names, keys and timing rather than a fully fixed transcript. Do not type blank placeholders or blindly substitute its example scholar names. Keep ingredients separate until the proper recipe step. Verify a checkpoint before the tightly timed crypt endgame; avoid synthetic probes during that sequence.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "christminster-735155fc69:e00001",

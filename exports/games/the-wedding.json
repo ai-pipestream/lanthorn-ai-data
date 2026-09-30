@@ -9,6 +9,110 @@
   "the-wedding"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "the-wedding",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/wedding.z5",
+    "title": "The Wedding",
+    "engine": "zvm-cli",
+    "serial": "970825",
+    "game_id": "the-wedding",
+    "release": 5,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the full family-house investigation, release Malcolm, resolve the guard/Sheryl sequence and finish the final Deborah-directed route to the authored wedding conclusion. Rescuing Malcolm, reaching 20 points, a checkpoint named alldone, FULL or SECRETS alone is insufficient. Stop after the independently verified conclusion; bonus amusements are optional.",
+    "session_id": "the-wedding-396e8f7efc",
+    "started_at": "2026-09-25T07:07:55.091676+00:00",
+    "game_family": "the-wedding",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/the-wedding-walkthrough.txt",
+    "story_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/the-wedding.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/wedding.sol",
+    "collection_notes": "# The Wedding\n\nStory Z5 R5/970825. Local R5/970825 (Acorn User CD Edition) matches the archive binary. Guide is by Paul J. Godfrey, amended by the author specifically for release 3, with no serial. Preserve the two-release gap. Both entries identify Neil James Brown's The Wedding, IFDB 5r1iabxsfwmz40ev; this is not Kenya Miller's Wedding.zblorb, which was rejected from batch C.\n\nFollow the full family-house investigation, release Malcolm, resolve the guard/Sheryl sequence and finish the final Deborah-directed route to the authored wedding conclusion. Rescuing Malcolm, reaching 20 points, a checkpoint named alldone, FULL or SECRETS alone is insufficient. Stop after the independently verified conclusion; bonus amusements are optional.\n\nGuide estimates about 257 moves and groups commands with prose. Observe live alarm, guard and delivery timing. Obtain telephone digits, quiz answers and remote-control sequence from actual clues; never send #### or angle-bracket placeholders. In-game reference books are game objects, not permission to read the central full walkthrough. Save before timed or irreversible sequences.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "the-wedding",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "the-wedding",
+    "raw_end": 172016,
+    "event_id": "the-wedding-396e8f7efc:e00442",
+    "metadata": {
+     "notes": "Genuine authored winning ending: Deborah led to attic (deborah, go s/w/n), reunion with Malcolm, Sheryl renounced, Gretna Green elopement, year-later epilogue, 'You have won', 20/20, rank Dazzling Mastermind. Not death, not quit (QUIT offered but declined), not chapter break. Bonus FULL/SECRETS declined per manifest.",
+     "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 303 turns, earning you the \nrank of Dazzling Mastermind.",
+     "evidence_event_ids": [
+      "the-wedding-396e8f7efc:e00441"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 172016,
+    "timestamp": "2026-09-25T08:17:03.863438+00:00",
+    "event_type": "ending_claim",
+    "session_id": "the-wedding-396e8f7efc",
+    "event_index": 442,
+    "engine_state": "unchanged",
+    "story_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "the-wedding",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "the-wedding",
+    "raw_end": 172016,
+    "event_id": "the-wedding-396e8f7efc:e00442",
+    "metadata": {
+     "notes": "Genuine authored winning ending: Deborah led to attic (deborah, go s/w/n), reunion with Malcolm, Sheryl renounced, Gretna Green elopement, year-later epilogue, 'You have won', 20/20, rank Dazzling Mastermind. Not death, not quit (QUIT offered but declined), not chapter break. Bonus FULL/SECRETS declined per manifest.",
+     "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 303 turns, earning you the \nrank of Dazzling Mastermind.",
+     "evidence_event_ids": [
+      "the-wedding-396e8f7efc:e00441"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 172016,
+    "timestamp": "2026-09-25T08:17:03.863438+00:00",
+    "event_type": "ending_claim",
+    "session_id": "the-wedding-396e8f7efc",
+    "event_index": 442,
+    "engine_state": "unchanged",
+    "story_sha256": "4a3d0729eae5f0e1d91eca3b96313607b21da1db066021f8bd700deaa971f76f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "the-wedding",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 The Wedding (segment 2) \u2014 COMPLETED, WON 20/20\n\n## Final state: *** YOU HAVE WON ***\n- Score 20/20, 303 turns, rank \"Dazzling Mastermind\" (event e00441)\n- Ending: led Deborah to attic via \"deborah, go south/west/north\"; reunion with Malcolm;\n  Deborah renounces mother, couple elope to Gretna Green; epilogue (godparent letter,\n  Malcolm phones again) \u2192 \"Aaaaaaaaarrrrrrrrggggghhhhhhh!\" \u2192 *** You have won ***\n- Post-win prompt offers RESTART/RESTORE/FULL/SECRETS/QUIT \u2014 declined (bonus optional).\n- Unused red herrings: brass key, dungeon candle (left burning), west-end south door,\n  cellar NE tunnel. Not needed for 20/20.\n\n## Route this segment, part 2 (events 356-441)\n- W into cellar (fluorescent, crate + water detector, NE tunnel, steps E); inventory: remote, bag(spade, programme)\n- Help 187-195 (get detector, E S, ask Sheryl, push detector, stool, stand, hit)\n- PROBE take detector accepted; E passage; S Entrance Hall (Sheryl + brass key)\n- PROBE ask mother about guard \u2192 hesitation; AGAIN \u2192 Sheryl confesses (ordered attack, 18k, Scotland lookalike), <THUD>, dungeon, score 18\n- Dungeon: candle + stool; X detector (Benson's, one button); PROBE press detector accepted \u2192 ceiling spot\n- PROBE push stool under part accepted; PROBE climb on stool REJECTED (\"can't see\") \u2192 stand on stool works (syntax pair)\n- PROBE hit ceiling accepted (\"(the part of the ceiling)\"), breakthrough to daylight, score 19; checkpoint dungeon-hole\n- U to Above the dungeon (hedges/bushes unreferable, deep river N); x river, search bushes/hedge, wait, x floor, listen all dead ends\n- Help 193-201: U, Swim (20), Exit, S x6 \u2192 swim swept to U-bend bank, score 20\n- PROBE get out accepted (= EXIT); S x6: golf course (Albert), garden path, patio, Grand Hall, passage, Entrance Hall (Sheryl+guard outside)\n- Checkpoint river-returned; listen (overhear plot); get brass key; X cupboard (ordinary); open cupboard (already open)\n- U, E, N to Deborah: ask bride about malcolm (bitter, role noun ok); ask about mother/wedding/note/attic \u2014 all dead ends\n- Attic: Malcolm present; ask about mother/deborah/guard \u2014 dead ends; ask scamp \u2192 \"Woof\" (no hint system)\n- Consult programme about wedding \u2192 nothing. Study: ask Barbara about mother \u2192 BREAKTHROUGH: \"lead her to Malcolm\"\n- deborah, follow me \u2192 clueless; walking out alone fails; tell deborah about mother \u2192 clueless\n- deborah, go south \u2192 \"Curious, Deborah follows you\" (moves both!) \u2192 west \u2192 north \u2192 attic reunion \u2192 WON\n\n## Annotated cases this segment (10)\n- vcr-load-verb, remote-eight-digit, detector-take-verb, sheryl-ask-role-noun, detector-press-verb,\n  stool-move-verb, stool-stand-verb (REAL syntax rejection+repair), ceiling-hit-noun, river-exit-verb,\n  deborah-ask-role-noun \u2014 all recorded; running total ~56.\n\n## Checkpoints (all verified Ok)\n- start-outside, before-apple-throw, inside-entrance, drawing-chloe, malcolm-freed, william-pizza,\n  garden-box, diamond-found, guard-confessed, tape-recorded, cellar-open, dungeon-hole, river-returned\n"
+  },
+  {
+   "game_id": "the-wedding",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The Wedding\n\nStory Z5 R5/970825. Local R5/970825 (Acorn User CD Edition) matches the archive binary. Guide is by Paul J. Godfrey, amended by the author specifically for release 3, with no serial. Preserve the two-release gap. Both entries identify Neil James Brown's The Wedding, IFDB 5r1iabxsfwmz40ev; this is not Kenya Miller's Wedding.zblorb, which was rejected from batch C.\n\nFollow the full family-house investigation, release Malcolm, resolve the guard/Sheryl sequence and finish the final Deborah-directed route to the authored wedding conclusion. Rescuing Malcolm, reaching 20 points, a checkpoint named alldone, FULL or SECRETS alone is insufficient. Stop after the independently verified conclusion; bonus amusements are optional.\n\nGuide estimates about 257 moves and groups commands with prose. Observe live alarm, guard and delivery timing. Obtain telephone digits, quiz answers and remote-control sequence from actual clues; never send #### or angle-bracket placeholders. In-game reference books are game objects, not permission to read the central full walkthrough. Save before timed or irreversible sequences.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "the-wedding-396e8f7efc:e00001",

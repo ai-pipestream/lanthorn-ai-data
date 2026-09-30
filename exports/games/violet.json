@@ -9,6 +9,105 @@
   "violet"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "violet",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2008/zcode/violet/violet.zblorb",
+    "title": "Violet (competition edition)",
+    "engine": "zvm-cli",
+    "serial": "080929",
+    "game_id": "violet",
+    "release": 1,
+    "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+    "session_id": "violet-bfdc33ea8f",
+    "started_at": "2026-09-25T02:35:03.470189+00:00",
+    "game_family": "violet",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/violet-walkthrough.txt",
+    "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/violet.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2008/zcode/violet/solution.txt",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+    "story_sha256_expected": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "violet",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "violet",
+    "raw_end": 55789,
+    "event_id": "violet-bfdc33ea8f:e00295",
+    "metadata": {
+     "notes": "Complete playthrough: 1000 words, surprise party (Violet stays), Australia flight, * * * (e00292), then explicit victory prompt e00293 'This is winning... merry glow of victory'. Not death/quitting \u2014 author-intended winning narrative.",
+     "ending_quote": "I know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.",
+     "evidence_event_ids": [
+      "violet-bfdc33ea8f:e00293"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 55789,
+    "timestamp": "2026-09-25T03:03:04.228183+00:00",
+    "event_type": "ending_claim",
+    "session_id": "violet-bfdc33ea8f",
+    "event_index": 295,
+    "engine_state": "unchanged",
+    "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "violet",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "violet",
+    "raw_end": 55789,
+    "event_id": "violet-bfdc33ea8f:e00295",
+    "metadata": {
+     "notes": "Complete playthrough: 1000 words, surprise party (Violet stays), Australia flight, * * * (e00292), then explicit victory prompt e00293 'This is winning... merry glow of victory'. Not death/quitting \u2014 author-intended winning narrative.",
+     "ending_quote": "I know it's not precisely Plan A, but we are happy and unstuck.  This is \nwinning.  What now?  I understand if you just want to QUIT now that the merry \nglow of victory is upon us.",
+     "evidence_event_ids": [
+      "violet-bfdc33ea8f:e00293"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 55789,
+    "timestamp": "2026-09-25T03:03:04.228183+00:00",
+    "event_type": "ending_claim",
+    "session_id": "violet-bfdc33ea8f",
+    "event_index": 295,
+    "engine_state": "unchanged",
+    "story_sha256": "2ab26d955c1abe4052bb8f25f49f8ac8ef0b971edfc134142ba3faa9f6679b78",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "violet",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Violet progress \u2014 SEGMENT 2 COMPLETE (winning ending verified)\n\nLocation: home/party then flight to Australia (game won). Final: 1000 words written, surprise party, Violet stays, curiosities/comic-shop future, subtitle (you are my FAVOURITE!), * * *, then victory prompt.\nInventory at win: pen, notebook, chip, lighter, rubber square, bottle, platyPod/gum/clamp; clothes by cactus; globe/figurine/tot consumed; coaster surviving (from globe base).\nCheckpoints: office-start, awake-unplugged, platypod-loud, clamp-on, window-blocked, before-burn-book, after-burn-book, before-shoot-pen, before-throw-globe, pen-in-hand, before-remove-clothes, naked-writing. All confirmed.\nCases: ~70 total incl. segment 2 probes: syn-write-dissertation-40 none, syn-inspect-cactus-41 vocab, syn-get-pen-43 world_state, syn-get-chip-46 none, syn-clean-mess-53 none, syn-put-it-pouch-54 ambiguity, syn-shoot-at-pen-55 planning, syn-shake-snowglobe-57 none, syn-toss-globe-pen-59 vocab+miss, syn-keep-writing-65 vocab, syn-takeoff-clothes-66 none, syn-pee-basket-69 none.\nLast hints: lines 111-119 then 114-122 (WRITE/ENTER/PEE/WRITE/ENTER/ENTER) \u2014 followed to victory.\nEnding events: e00288 (1000 words/note), e00289 (Gone. Sorry.), e00290 (SURPRISE party), e00291 (camera/vent), e00292 (Australia flight + * * *), e00293 (This is winning / QUIT glow).\nNext: submit finish with e00292+e00293 evidence. Game COMPLETE \u2014 Terra review pending.\n"
+  },
+  {
+   "game_id": "violet",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nSelected original competition file R1/080929; author guide from same competition directory. Current startup is introductory text awaiting a key; send empty ENTER as guide indicates, then inspect the response before attempting SAVE. Later releases exist but are not this run. Seek the completed writing/narrative conclusion, not the opening hundred/thousand-word objective statement. Stay mindful of question/keypause prompts.\n\nCollect labeled synthetic human-like command variations, actual responses and same-intent recoveries. Ask for small hints through broker help. Do not read the full guide directly. Save at ordinary prompts when supported. All model labels remain unreviewed until independently checked. No training, application changes or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "violet-bfdc33ea8f:e00001",

@@ -1,446 +1,470 @@
 {
-  "deephome": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-002",
-    "run_id": "deephome-56e3d50bda",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "earth-and-sky-episode-1": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-003",
-    "run_id": "earth-and-sky-episode-1-2bb22846be",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "dash-slapney-patrol-leader": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-004",
-    "run_id": "dash-slapney-patrol-leader-64ff8134ce",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "a-remote-problem": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-005",
-    "run_id": "a-remote-problem-30f9dc27b1",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "schooldays": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-006",
-    "run_id": "schooldays-b371c6a97d",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "hla-inform": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-007",
-    "run_id": "hla-inform-09ea9c8220",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "i-0": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-008",
-    "run_id": "i-0-d1ac7729bb",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "mansion": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-009",
-    "run_id": "mansion-cc50b3ae7d",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "believable-adventures-invisible-man": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-010",
-    "run_id": "believable-adventures-invisible-man-5201a7e372",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "bicon": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-011",
-    "run_id": "bicon-e4b7be4302",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "cacophony": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-012",
-    "run_id": "cacophony-c47d99b6d3",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "detective": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-013",
-    "run_id": "detective-8419402e7b",
-    "updated_at": "2026-09-26T21:15:28+00:00"
-  },
-  "dash-slapney-patrol-leader-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-039",
-    "run_id": "dash-slapney-patrol-leader-kimi-051aede5d9",
-    "updated_at": "2026-09-26T21:23:08+00:00"
-  },
-  "all-quiet-on-the-library-front": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-014",
-    "run_id": "all-quiet-on-the-library-front-a0c0a11bad",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "asylum": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-015",
-    "run_id": "asylum-0815a6d270",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "attack-of-the-yeti-robot-zombies": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-016",
-    "run_id": "attack-of-the-yeti-robot-zombies-504df4e144",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "bedlam": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-017",
-    "run_id": "bedlam-59f5a6e860",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "beyond-the-tesseract": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-018",
-    "run_id": "beyond-the-tesseract-26b2abc71c",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "bse": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-019",
-    "run_id": "bse-ec63f1779d",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "danger-adventurer-at-work": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-020",
-    "run_id": "danger-adventurer-at-work-cf41e07892",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "gerbil-riot": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-021",
-    "run_id": "gerbil-riot-f0779de162",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "ghost-train": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-022",
-    "run_id": "ghost-train-b026ef4aab",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "hunt-for-relief": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-023",
-    "run_id": "hunt-for-relief-b4de5c739d",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "kook-u": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-024",
-    "run_id": "kook-u-ef2767bf50",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "mother-loose": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-025",
-    "run_id": "mother-loose-608208fd92",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "night-at-the-computer-center": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-026",
-    "run_id": "night-at-the-computer-center-d16c3b6cd5",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "nine-points": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-027",
-    "run_id": "nine-points-013d843149",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "only-after-dark": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-028",
-    "run_id": "only-after-dark-612a20ec77",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "pentari": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-029",
-    "run_id": "pentari-63be930153",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "pick-up-the-phone-booth-and-aisle": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-030",
-    "run_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "save-princeton": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-031",
-    "run_id": "save-princeton-e0a2654e41",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "slacker-x": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-032",
-    "run_id": "slacker-x-70f303cb52",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "space-station": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-033",
-    "run_id": "space-station-b15ae148d4",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "traffic": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-034",
-    "run_id": "traffic-dc40d385c3",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "tube-trouble": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-035",
-    "run_id": "tube-trouble-1b2d95be53",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "underoos-that-ate-new-york": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-036",
-    "run_id": "underoos-that-ate-new-york-21eb87c422",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "vindaloo": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-037",
-    "run_id": "vindaloo-85744e25ee",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "zuni-doll": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-038",
-    "run_id": "zuni-doll-16d63fd0ac",
-    "updated_at": "2026-09-26T21:18:38+00:00"
-  },
-  "a-remote-problem-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-040",
-    "run_id": "a-remote-problem-kimi-1323cd5930",
-    "updated_at": "2026-09-26T21:33:59+00:00"
-  },
-  "asylum-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-041",
-    "run_id": "asylum-kimi-80e523b9f6",
-    "updated_at": "2026-09-26T21:44:53+00:00"
-  },
-  "schooldays-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-042",
-    "run_id": "schooldays-kimi-afcac193ab",
-    "updated_at": "2026-09-26T22:02:34+00:00"
-  },
-  "slacker-x-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-043",
-    "run_id": "slacker-x-kimi-f59da31154",
-    "updated_at": "2026-09-26T22:02:34+00:00"
-  },
-  "zuni-doll-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-044",
-    "run_id": "zuni-doll-kimi-6402772458",
-    "updated_at": "2026-09-26T22:11:52+00:00"
-  },
-  "tube-trouble-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-045",
-    "run_id": "tube-trouble-kimi-c653a3cef4",
-    "updated_at": "2026-09-26T22:26:30+00:00"
-  },
-  "hunt-for-relief-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-046",
-    "run_id": "hunt-for-relief-kimi-c5a901a973",
-    "updated_at": "2026-09-26T22:31:18+00:00"
-  },
-  "mother-loose-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-047",
-    "run_id": "mother-loose-kimi-c841182228",
-    "updated_at": "2026-09-26T23:00:06+00:00"
-  },
-  "night-at-the-computer-center-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-048",
-    "run_id": "night-at-the-computer-center-kimi-fe94b382a2",
-    "updated_at": "2026-09-26T23:40:15+00:00"
-  },
-  "vindaloo-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-049",
-    "run_id": "vindaloo-kimi-a50476f398",
-    "updated_at": "2026-09-26T23:45:10+00:00"
-  },
-  "save-princeton-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-050",
-    "run_id": "save-princeton-kimi-e9560411d0",
-    "updated_at": "2026-09-27T00:21:36+00:00"
-  },
-  "beyond-the-tesseract-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260926-051",
-    "run_id": "beyond-the-tesseract-kimi-4d9169b839",
-    "updated_at": "2026-09-27T00:35:50+00:00"
-  },
-  "nine-points-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-052",
-    "run_id": "nine-points-kimi-3122e3a7db",
-    "updated_at": "2026-09-27T03:27:18+00:00"
-  },
-  "bse-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-053",
-    "run_id": "bse-kimi-6065c4a9de",
-    "updated_at": "2026-09-27T03:27:18+00:00"
-  },
-  "ghost-train-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-054",
-    "run_id": "ghost-train-kimi-1362a5922d",
-    "updated_at": "2026-09-27T03:44:16+00:00"
-  },
-  "kook-u-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-055",
-    "run_id": "kook-u-kimi-9baddef42e",
-    "updated_at": "2026-09-27T03:48:15+00:00"
-  },
-  "only-after-dark-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-056",
-    "run_id": "only-after-dark-kimi-f402262f14",
-    "updated_at": "2026-09-27T03:53:58+00:00"
-  },
-  "pentari-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-057",
-    "run_id": "pentari-kimi-f032936ecf",
-    "updated_at": "2026-09-27T04:16:50+00:00"
-  },
-  "space-station-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-058",
-    "run_id": "space-station-kimi-792125a86f",
-    "updated_at": "2026-09-27T04:26:35+00:00"
-  },
-  "underoos-that-ate-new-york-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-059",
-    "run_id": "underoos-that-ate-new-york-kimi-90399ce066",
-    "updated_at": "2026-09-27T04:43:55+00:00"
-  },
-  "attack-of-the-yeti-robot-zombies-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-060",
-    "run_id": "attack-of-the-yeti-robot-zombies-kimi-e69cd329f5",
-    "updated_at": "2026-09-27T04:58:08+00:00"
-  },
-  "gerbil-riot-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-061",
-    "run_id": "gerbil-riot-kimi-d48775cdaa",
-    "updated_at": "2026-09-27T05:38:27+00:00"
-  },
-  "traffic-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-062",
-    "run_id": "traffic-kimi-387f939f4f",
-    "updated_at": "2026-09-27T06:09:36+00:00"
-  },
-  "danger-adventurer-at-work-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-063",
-    "run_id": "danger-adventurer-at-work-kimi-a7c1c4933f",
-    "updated_at": "2026-09-27T06:27:11+00:00"
-  },
-  "bedlam-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-064",
-    "run_id": "bedlam-kimi-9de061ead2",
-    "updated_at": "2026-09-27T06:30:59+00:00"
-  },
-  "all-quiet-on-the-library-front-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-065",
-    "run_id": "all-quiet-on-the-library-front-kimi-ba6e4cadce",
-    "updated_at": "2026-09-27T06:36:56+00:00"
-  },
-  "earth-and-sky-episode-1-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-066",
-    "run_id": "earth-and-sky-episode-1-kimi-dc598bf485",
-    "updated_at": "2026-09-27T07:01:18+00:00"
-  },
-  "pick-up-the-phone-booth-and-aisle-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-067",
-    "run_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
-    "updated_at": "2026-09-27T07:23:31+00:00"
-  },
-  "detective-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-068",
-    "run_id": "detective-kimi-306f6094b1",
-    "updated_at": "2026-09-27T07:38:17+00:00"
-  },
-  "hla-inform-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-069",
-    "run_id": "hla-inform-kimi-fb49609c17",
-    "updated_at": "2026-09-27T07:39:09+00:00"
-  },
-  "believable-adventures-invisible-man-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-070",
-    "run_id": "believable-adventures-invisible-man-kimi-f6003ed2f5",
-    "updated_at": "2026-09-27T08:11:57+00:00"
-  },
-  "i-0-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-071",
-    "run_id": "i-0-kimi-cf979383ae",
-    "updated_at": "2026-09-27T08:49:39+00:00"
-  },
-  "deephome-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-072",
-    "run_id": "deephome-kimi-126cd8848c",
-    "updated_at": "2026-09-27T09:02:59+00:00"
-  },
-  "all-roads-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-073",
-    "run_id": "all-roads-kimi-2b7f7dec17",
-    "updated_at": "2026-09-27T09:50:48+00:00"
-  },
-  "augmented-fourth-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-076",
-    "run_id": "augmented-fourth-kimi-d91046b506",
-    "updated_at": "2026-09-27T22:35:16+00:00"
-  },
-  "alias-the-magpie-kimi": {
-    "tag": "k3-kept",
-    "judgment_id": "j-20260927-077",
-    "run_id": "alias-the-magpie-kimi-35d83b2287",
-    "updated_at": "2026-09-28T00:28:53+00:00"
-  }
+ "deephome": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-002",
+  "run_id": "deephome-56e3d50bda",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "earth-and-sky-episode-1": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-003",
+  "run_id": "earth-and-sky-episode-1-2bb22846be",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "dash-slapney-patrol-leader": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-004",
+  "run_id": "dash-slapney-patrol-leader-64ff8134ce",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "a-remote-problem": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-005",
+  "run_id": "a-remote-problem-30f9dc27b1",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "schooldays": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-006",
+  "run_id": "schooldays-b371c6a97d",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "hla-inform": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-007",
+  "run_id": "hla-inform-09ea9c8220",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "i-0": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-008",
+  "run_id": "i-0-d1ac7729bb",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "mansion": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-009",
+  "run_id": "mansion-cc50b3ae7d",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "believable-adventures-invisible-man": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-010",
+  "run_id": "believable-adventures-invisible-man-5201a7e372",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "bicon": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-011",
+  "run_id": "bicon-e4b7be4302",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "cacophony": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-012",
+  "run_id": "cacophony-c47d99b6d3",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "detective": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-013",
+  "run_id": "detective-8419402e7b",
+  "updated_at": "2026-09-26T21:15:28+00:00"
+ },
+ "dash-slapney-patrol-leader-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-039",
+  "run_id": "dash-slapney-patrol-leader-kimi-051aede5d9",
+  "updated_at": "2026-09-26T21:23:08+00:00"
+ },
+ "all-quiet-on-the-library-front": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-014",
+  "run_id": "all-quiet-on-the-library-front-a0c0a11bad",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "asylum": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-015",
+  "run_id": "asylum-0815a6d270",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "attack-of-the-yeti-robot-zombies": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-016",
+  "run_id": "attack-of-the-yeti-robot-zombies-504df4e144",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "bedlam": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-017",
+  "run_id": "bedlam-59f5a6e860",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "beyond-the-tesseract": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-018",
+  "run_id": "beyond-the-tesseract-26b2abc71c",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "bse": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-019",
+  "run_id": "bse-ec63f1779d",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "danger-adventurer-at-work": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-020",
+  "run_id": "danger-adventurer-at-work-cf41e07892",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "gerbil-riot": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-021",
+  "run_id": "gerbil-riot-f0779de162",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "ghost-train": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-022",
+  "run_id": "ghost-train-b026ef4aab",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "hunt-for-relief": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-023",
+  "run_id": "hunt-for-relief-b4de5c739d",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "kook-u": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-024",
+  "run_id": "kook-u-ef2767bf50",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "mother-loose": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-025",
+  "run_id": "mother-loose-608208fd92",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "night-at-the-computer-center": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-026",
+  "run_id": "night-at-the-computer-center-d16c3b6cd5",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "nine-points": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-027",
+  "run_id": "nine-points-013d843149",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "only-after-dark": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-028",
+  "run_id": "only-after-dark-612a20ec77",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "pentari": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-029",
+  "run_id": "pentari-63be930153",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "pick-up-the-phone-booth-and-aisle": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-030",
+  "run_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "save-princeton": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-031",
+  "run_id": "save-princeton-e0a2654e41",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "slacker-x": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-032",
+  "run_id": "slacker-x-70f303cb52",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "space-station": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-033",
+  "run_id": "space-station-b15ae148d4",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "traffic": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-034",
+  "run_id": "traffic-dc40d385c3",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "tube-trouble": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-035",
+  "run_id": "tube-trouble-1b2d95be53",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "underoos-that-ate-new-york": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-036",
+  "run_id": "underoos-that-ate-new-york-21eb87c422",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "vindaloo": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-037",
+  "run_id": "vindaloo-85744e25ee",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "zuni-doll": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-038",
+  "run_id": "zuni-doll-16d63fd0ac",
+  "updated_at": "2026-09-26T21:18:38+00:00"
+ },
+ "a-remote-problem-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-040",
+  "run_id": "a-remote-problem-kimi-1323cd5930",
+  "updated_at": "2026-09-26T21:33:59+00:00"
+ },
+ "asylum-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-041",
+  "run_id": "asylum-kimi-80e523b9f6",
+  "updated_at": "2026-09-26T21:44:53+00:00"
+ },
+ "schooldays-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-042",
+  "run_id": "schooldays-kimi-afcac193ab",
+  "updated_at": "2026-09-26T22:02:34+00:00"
+ },
+ "slacker-x-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-043",
+  "run_id": "slacker-x-kimi-f59da31154",
+  "updated_at": "2026-09-26T22:02:34+00:00"
+ },
+ "zuni-doll-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-044",
+  "run_id": "zuni-doll-kimi-6402772458",
+  "updated_at": "2026-09-26T22:11:52+00:00"
+ },
+ "tube-trouble-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-045",
+  "run_id": "tube-trouble-kimi-c653a3cef4",
+  "updated_at": "2026-09-26T22:26:30+00:00"
+ },
+ "hunt-for-relief-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-046",
+  "run_id": "hunt-for-relief-kimi-c5a901a973",
+  "updated_at": "2026-09-26T22:31:18+00:00"
+ },
+ "mother-loose-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-047",
+  "run_id": "mother-loose-kimi-c841182228",
+  "updated_at": "2026-09-26T23:00:06+00:00"
+ },
+ "night-at-the-computer-center-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-048",
+  "run_id": "night-at-the-computer-center-kimi-fe94b382a2",
+  "updated_at": "2026-09-26T23:40:15+00:00"
+ },
+ "vindaloo-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-049",
+  "run_id": "vindaloo-kimi-a50476f398",
+  "updated_at": "2026-09-26T23:45:10+00:00"
+ },
+ "save-princeton-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-050",
+  "run_id": "save-princeton-kimi-e9560411d0",
+  "updated_at": "2026-09-27T00:21:36+00:00"
+ },
+ "beyond-the-tesseract-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260926-051",
+  "run_id": "beyond-the-tesseract-kimi-4d9169b839",
+  "updated_at": "2026-09-27T00:35:50+00:00"
+ },
+ "nine-points-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-052",
+  "run_id": "nine-points-kimi-3122e3a7db",
+  "updated_at": "2026-09-27T03:27:18+00:00"
+ },
+ "bse-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-053",
+  "run_id": "bse-kimi-6065c4a9de",
+  "updated_at": "2026-09-27T03:27:18+00:00"
+ },
+ "ghost-train-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-054",
+  "run_id": "ghost-train-kimi-1362a5922d",
+  "updated_at": "2026-09-27T03:44:16+00:00"
+ },
+ "kook-u-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-055",
+  "run_id": "kook-u-kimi-9baddef42e",
+  "updated_at": "2026-09-27T03:48:15+00:00"
+ },
+ "only-after-dark-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-056",
+  "run_id": "only-after-dark-kimi-f402262f14",
+  "updated_at": "2026-09-27T03:53:58+00:00"
+ },
+ "pentari-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-057",
+  "run_id": "pentari-kimi-f032936ecf",
+  "updated_at": "2026-09-27T04:16:50+00:00"
+ },
+ "space-station-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-058",
+  "run_id": "space-station-kimi-792125a86f",
+  "updated_at": "2026-09-27T04:26:35+00:00"
+ },
+ "underoos-that-ate-new-york-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-059",
+  "run_id": "underoos-that-ate-new-york-kimi-90399ce066",
+  "updated_at": "2026-09-27T04:43:55+00:00"
+ },
+ "attack-of-the-yeti-robot-zombies-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-060",
+  "run_id": "attack-of-the-yeti-robot-zombies-kimi-e69cd329f5",
+  "updated_at": "2026-09-27T04:58:08+00:00"
+ },
+ "gerbil-riot-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-061",
+  "run_id": "gerbil-riot-kimi-d48775cdaa",
+  "updated_at": "2026-09-27T05:38:27+00:00"
+ },
+ "traffic-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-062",
+  "run_id": "traffic-kimi-387f939f4f",
+  "updated_at": "2026-09-27T06:09:36+00:00"
+ },
+ "danger-adventurer-at-work-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-063",
+  "run_id": "danger-adventurer-at-work-kimi-a7c1c4933f",
+  "updated_at": "2026-09-27T06:27:11+00:00"
+ },
+ "bedlam-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-064",
+  "run_id": "bedlam-kimi-9de061ead2",
+  "updated_at": "2026-09-27T06:30:59+00:00"
+ },
+ "all-quiet-on-the-library-front-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-065",
+  "run_id": "all-quiet-on-the-library-front-kimi-ba6e4cadce",
+  "updated_at": "2026-09-27T06:36:56+00:00"
+ },
+ "earth-and-sky-episode-1-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-066",
+  "run_id": "earth-and-sky-episode-1-kimi-dc598bf485",
+  "updated_at": "2026-09-27T07:01:18+00:00"
+ },
+ "pick-up-the-phone-booth-and-aisle-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-067",
+  "run_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+  "updated_at": "2026-09-27T07:23:31+00:00"
+ },
+ "detective-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-068",
+  "run_id": "detective-kimi-306f6094b1",
+  "updated_at": "2026-09-27T07:38:17+00:00"
+ },
+ "hla-inform-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-069",
+  "run_id": "hla-inform-kimi-fb49609c17",
+  "updated_at": "2026-09-27T07:39:09+00:00"
+ },
+ "believable-adventures-invisible-man-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-070",
+  "run_id": "believable-adventures-invisible-man-kimi-f6003ed2f5",
+  "updated_at": "2026-09-27T08:11:57+00:00"
+ },
+ "i-0-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-071",
+  "run_id": "i-0-kimi-cf979383ae",
+  "updated_at": "2026-09-27T08:49:39+00:00"
+ },
+ "deephome-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-072",
+  "run_id": "deephome-kimi-126cd8848c",
+  "updated_at": "2026-09-27T09:02:59+00:00"
+ },
+ "all-roads-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-073",
+  "run_id": "all-roads-kimi-2b7f7dec17",
+  "updated_at": "2026-09-27T09:50:48+00:00"
+ },
+ "augmented-fourth-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-076",
+  "run_id": "augmented-fourth-kimi-d91046b506",
+  "updated_at": "2026-09-27T22:35:16+00:00"
+ },
+ "alias-the-magpie-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260927-077",
+  "run_id": "alias-the-magpie-kimi-35d83b2287",
+  "updated_at": "2026-09-28T00:28:53+00:00"
+ },
+ "blue-chairs-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260928-078",
+  "run_id": "blue-chairs-kimi-b6507919f0",
+  "updated_at": "2026-09-28T04:20:33.328992+00:00"
+ },
+ "critical-breach-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260928-079",
+  "run_id": "critical-breach-kimi-f618da3d84",
+  "updated_at": "2026-09-28T04:20:33.328992+00:00"
+ },
+ "busted-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260928-080",
+  "run_id": "busted-kimi-a68334e853",
+  "updated_at": "2026-09-28T16:30:33.147516+00:00"
+ },
+ "gumshoe-kimi": {
+  "tag": "k3-kept",
+  "judgment_id": "j-20260928-081",
+  "run_id": "gumshoe-kimi-11ba0d02dc",
+  "updated_at": "2026-09-28T16:30:33.147516+00:00"
+ }
 }

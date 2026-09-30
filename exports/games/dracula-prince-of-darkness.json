@@ -23,6 +23,146 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "dracula-prince-of-darkness",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/dracula.z8",
+    "title": "Dracula - Prince of Darkness",
+    "engine": "zvm-cli",
+    "serial": "051012",
+    "game_id": "dracula-prince-of-darkness",
+    "release": 3,
+    "completion": "Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "dracula-prince-of-darkness-d75c304699",
+    "started_at": "2026-09-25T06:13:19.664099+00:00",
+    "game_family": "dracula-prince-of-darkness",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/walkthrough.txt",
+    "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/dracula_prince_of_darkness.txt",
+    "collection_notes": "# Dracula - Prince of Darkness\n\nCorrect guide dracula_prince_of_darkness.txt shares the story TUID; original requested dracula.txt is an unrelated Dutch game and is rejected. Guide gives no release/serial; story R3/051012. Timed puzzles are unforgiving; the guide ends with QUIT, which is never success evidence.\n\nCompletion: Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "dracula-prince-of-darkness",
+   "name": "latest.json",
+   "content": {
+    "command": "turn wheel",
+    "game_id": "dracula-prince-of-darkness",
+    "raw_end": 197933,
+    "event_id": "dracula-prince-of-darkness-d75c304699:e00978",
+    "metadata": {
+     "intent": "Set the ship's course by turning the wheel",
+     "origin": "synthetic_probe",
+     "case_id": "b2-poop-wheel-turn",
+     "expected_outcome": "Wheel turns or course set",
+     "_fleet_session_id": "dracula-prince-of-darkness-d75c304699"
+    },
+    "response": "You turn the wheel to port and starboard aimlessly with no effect.\n\n[To set course, type \"set course to\" (number).]\n\n>",
+    "branch_id": "b2",
+    "raw_start": 197815,
+    "timestamp": "2026-09-26T01:13:27.227705+00:00",
+    "event_type": "command",
+    "session_id": "dracula-prince-of-darkness-d75c304699",
+    "event_index": 978,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "review_status": "unreviewed",
+    "response_sha256": "564645dd951e3bf396908a93534f2ef2554cccdc0816beda208bf11dba22704b"
+   },
+   "text": null
+  },
+  {
+   "game_id": "dracula-prince-of-darkness",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Dracula Prince of Darkness \u2014 collection progress (IN PROGRESS, game incomplete \u2014 branch b2 at Poop Deck, m0872 PENDING)\n\nGame R3/051012, session dracula-prince-of-darkness-d75c304699, branch b2.\nActual state b2: Poop Deck e976 (command, awaiting input) \u2014 wooden platform at stern, whole lower deck visible, ship's wheel present. Ship FREE after winch. Route hint e972 next: \"set wheel to 128\".\nInventory (e900 as observed): grapes, hot bottle (light), shovel, tinderbox, War+Pestilence charms, green copper key + Castle key.\n\n- m0836 DONE e937: look Tiny Tunnel, case b2-tiny-tunnel-look.\n- m0837 DONE e938-e939: checkpoint tiny-tunnel-b2 Ok.\n- m0838 DONE e940: synthetic probe \"climb down steps\" in Tiny Tunnel, case b2-tiny-tunnel-descend \u2014 REJECTED.\n- m0839 DONE e941: canonical correction \"down\" same case, exploration \u2014 SUCCESS to Long Passageway.\n- m0840 DONE e942: annotate e940->e941 pair, same case, failure_type syntax, intent preserved yes, synthetic_probe true.\n- m0841 DONE e943: look Long Passageway, case b2-long-passageway-look.\n- m0842 DONE e944: command \"down\" case b2-long-passageway-down, exploration \u2014 SUCCESS to Jetty.\n- m0843 DONE e945: look Jetty, case b2-jetty-look.\n- m0844 DONE e946-e947: checkpoint jetty-b2 Ok.\n- m0845 DONE e948: synthetic probe \"board ship\" at Jetty, case b2-jetty-board \u2014 REJECTED.\n- m0846 DONE e949: help Jetty board OFF-TOPIC (lines 135-143), used observed UP exit.\n- m0847 DONE e950: canonical \"up\" same case b2-jetty-board \u2014 SUCCESS to Gangplank.\n- m0848 DONE e951: annotate e948->e950 pair, failure_type vocabulary, yes, synthetic true.\n- m0849 DONE e952: look Gangplank, case b2-gangplank-look.\n- m0850 DONE e953: synthetic probe \"cross gangplank\" case b2-gangplank-cross \u2014 REJECTED.\n- m0851 DONE e954: canonical \"up\" same case \u2014 SUCCESS to Deck.\n- m0852 DONE e955: annotate e953->e954 pair, failure_type world_state, yes, synthetic true.\n- m0853 DONE e956: look Deck, case b2-deck-look.\n- m0854 DONE e957-e958: checkpoint deck-b2 Ok.\n- m0855 DONE e959: synthetic probe \"go to bow\" at Deck, case b2-deck-bow \u2014 REJECTED (\"You can't see any such thing\").\n- m0856 DONE e960: help Deck bow north \u2014 OFF-TOPIC excerpt lines 342-350 (cog/spindle/down/s/w/wait/crossbow/tapestry/dial), walkthrough_not_player_observed; relying on observed room text NORTH instead.\n- m0857 DONE e961: canonical \"north\" case b2-deck-bow \u2014 SUCCESS to Ship's Bow.\n- m0858 DONE e962: annotate e959->e961 pair, case b2-deck-bow, failure_type syntax, yes, synthetic true.\n- m0859 DONE e963: look Ship's Bow, case b2-ships-bow-look \u2014 bow, winch, mast; exit SOUTH.\n- m0860 DONE e964-e965: checkpoint ships-bow-b2 Ok.\n- m0861 DONE e966: \"turn winch\" case b2-ships-bow-winch (synthetic_probe) \u2014 SUCCESS, not a rejection: anchor raised, gangplank raised, ship free to navigate. Puzzle solution; no correction pair.\n- m0862 DONE e967-e968: checkpoint ship-free-b2 Ok.\n- m0863 DONE e969: synthetic probe \"sail ship\" at Ship's Bow, case b2-ships-bow-sail \u2014 REJECTED \"That's not a verb I recognise.\"\n- m0864 DONE e970: help freed ship sail navigate bow mast \u2014 excerpt lines 254-262 \">search hartnell >get antidote >w >up >n >climb mast >x spyglass >down >n\", walkthrough_not_player_observed, guidance provisional.\n- m0865 DONE e971: guided \"climb mast\" case b2-ships-bow-sail \u2014 REJECTED \"You cannot reach the mast from here.\" No navigation; case still unresolved, needs true correction.\n- m0866 DONE e972: help ship freed navigate \u2014 excerpt lines 263-271 \">turn winch >s >s >up >set wheel to 128 >d >n >n >turn winch\", walkthrough_not_player_observed, guidance provisional.\n- m0867 DONE e973: command \"s\" case b2-ship-free-south-deck, exploration \u2014 SUCCESS Bow to Deck.\n- m0868 DONE e974: command \"s\" case b2-deck-south-stern, exploration \u2014 SUCCESS Deck to Stern.\n- m0869 DONE e975: look Stern, case b2-stern-look \u2014 confirmed UP poop deck / DOWN below decks / NORTH.\n- m0870 DONE e976: command \"up\" case b2-stern-up-poop, exploration \u2014 SUCCESS Stern to Poop Deck, ship's wheel observed.\n- m0871 DONE e977: look Poop Deck, case b2-poop-deck-look \u2014 wooden platform at stern, ship's wheel present.\n- m0872 PENDING (do NOT resubmit / do NOT duplicate): synthetic probe \"turn wheel\" at Poop Deck, case b2-poop-wheel-turn, intent set course by turning wheel. Well-formed single command. Awaiting broker.\n\nCheckpoints: upstairs-gallery-b2, great-hall-north-b2, dining-room-b2, werewolf-resolved, glass-passage-entry, great-hall-south, antechamber-b2, haunted-bedroom-b2, painting-open-b2, tiny-tunnel-b2, jetty-b2, deck-b2, ships-bow-b2, ship-free-b2 (all Ok).\nLight: hot bottle providing light \u2014 conserve.\n\nNext (continuation): check responses/m0871.json then latest.json; do NOT duplicate/resubmit m0871 while pending. After it resolves: synthetic wheel probe before canonical \"set wheel to 128\" (single-stepped), then hint e972 onward (d, n, n, turn winch). Annotate b2-ships-bow-sail only after true navigation confirmed. Safe checkpoints: ships-bow-b2 and ship-free-b2. Then toward Chapel confrontation + escape + concluding narrative. Never QUIT. Guide trailing QUIT never counts.\n"
+  },
+  {
+   "game_id": "dracula-prince-of-darkness",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Dracula - Prince of Darkness\n\nCorrect guide dracula_prince_of_darkness.txt shares the story TUID; original requested dracula.txt is an unrelated Dutch game and is rejected. Guide gives no release/serial; story R3/051012. Timed puzzles are unforgiving; the guide ends with QUIT, which is never success evidence.\n\nCompletion: Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  },
+  {
+   "game_id": "dracula-prince-of-darkness-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/dracula.z8",
+    "title": "Dracula - Prince of Darkness",
+    "engine": "zvm-cli",
+    "serial": "051012",
+    "game_id": "dracula-prince-of-darkness-kimi",
+    "release": 3,
+    "completion": "Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "dracula-prince-of-darkness-kimi-dfd2badee6",
+    "started_at": "2026-09-27T10:47:36.747988+00:00",
+    "game_family": "dracula-prince-of-darkness",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/walkthrough.txt",
+    "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/dracula/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/dracula_prince_of_darkness.txt",
+    "collection_notes": "# Dracula - Prince of Darkness\n\nCorrect guide dracula_prince_of_darkness.txt shares the story TUID; original requested dracula.txt is an unrelated Dutch game and is rejected. Guide gives no release/serial; story R3/051012. Timed puzzles are unforgiving; the guide ends with QUIT, which is never success evidence.\n\nCompletion: Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "dracula-prince-of-darkness-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "dracula-prince-of-darkness-kimi",
+    "raw_end": 398,
+    "event_id": "dracula-prince-of-darkness-kimi-dfd2badee6:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n                            \n                         Dracula Prince of Darkness                             \n   By Paul T. Johnson.\n                         Copyright Paul T. Johnson 2012 & 2002.\n                                  www.wolfman.co.uk\n\n\n\n\n           Macbeth: \"How now, you secret, black, and midnight hags!\n           What is't you do?\"\n\n           Witches: \"A deed without a name.\"\n",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:47:36.747847+00:00",
+    "event_type": "startup",
+    "session_id": "dracula-prince-of-darkness-kimi-dfd2badee6",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "4eddbcb36b6fcae3050806a3313999dafc1143feedc6bd8506888f587c77e122",
+    "review_status": "unreviewed",
+    "response_sha256": "63792f40dd71dfd7f8b5f77c871db221f7464b258361cca8922db54da2c3502d"
+   },
+   "text": null
+  },
+  {
+   "game_id": "dracula-prince-of-darkness-kimi",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 dracula-prince-of-darkness-kimi\n\n## State (2026-09-28 UTC continuation run, rechecked 2026-09-28)\n- Workspace root still contains only this file (re-verified this run: search matches only progress.md; manifest.json / latest.json / collection-notes.md / supervisor-hint.json / inbox/ / responses/ / events.jsonl all absent).\n- No interpreter mailbox exists, so no command/help/checkpoint/annotate/finish request can be submitted per protocol. No request pending, none submitted.\n\n## Inventory / location\n- Unknown \u2014 no interpreter state observable.\n\n## Cases / hints / checkpoints\n- None. No requests submitted; nothing pending.\n\n## Next actions\n- Broker/supervisor needs to provision `manifest.json` + mailbox (`inbox/`, `responses/`, `latest.json`, `events.jsonl`) and collection notes before collection can start.\n- On next continuation: read manifest + latest + collection-notes first, then begin.\n- Stopping honestly with game incomplete; no pending request to await.\n- Recheck 2026-09-28: manifest.json / latest.json / collection-notes.md / inbox/ still absent (search matches only progress.md). No action taken; awaiting provisioning.\n- Recheck 2026-09-28 (later run): workspace search again matches only progress.md; manifest/mailbox still absent. No requests submitted; stopping honestly, game incomplete.\n"
+  },
+  {
+   "game_id": "dracula-prince-of-darkness-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Dracula - Prince of Darkness\n\nCorrect guide dracula_prince_of_darkness.txt shares the story TUID; original requested dracula.txt is an unrelated Dutch game and is rejected. Guide gives no release/serial; story R3/051012. Timed puzzles are unforgiving; the guide ends with QUIT, which is never success evidence.\n\nCompletion: Require the successful Castle Chapel confrontation with Dracula and subsequent escape/concluding narrative after the final door and southward movement. Shooting Dracula alone, ending a section or executing the guide trailing QUIT is insufficient. If no authored ending appears before QUIT, report an unresolved endpoint for parent review; never claim completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "dracula-prince-of-darkness-d75c304699:e00001",

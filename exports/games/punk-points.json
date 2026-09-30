@@ -9,6 +9,74 @@
   "punk-points"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "punk-points",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/punkpnts.z5",
+    "title": "Punk Points",
+    "engine": "zvm-cli",
+    "serial": "010108",
+    "game_id": "punk-points",
+    "release": 2,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary early deaths, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Play through all three acts and the actual authored conclusion of either Act III branch. Preserve both the bottle/drinking branch and the no-drink school-dance branch with accurate outcome labels. The guide explicitly omits some of the 50 points: a genuine ending need not have maximum score. An act boundary, intoxication scene, AMUSING command or guide text saying you win is not proof; require raw concluding narrative.",
+    "session_id": "punk-points-7c2d72a183",
+    "started_at": "2026-09-25T09:44:26.004707+00:00",
+    "game_family": "punk-points",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punk-points-walkthrough.txt",
+    "story_sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-m-20260925/punk-points.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/punkpoints.sol",
+    "collection_notes": "# Punk Points\n\nLocal Z5 R2/010108 matches fresh archive story bytes and catalog. Guide explicitly identifies the Z-code game and covers both Act III branches, but states no release, serial or author. Exact guide edition is unspecified; it is not a 50-point route. The older local IFComp R1/000930 file is not selected.\n\nPlay through all three acts and the actual authored conclusion of either Act III branch. Preserve both the bottle/drinking branch and the no-drink school-dance branch with accurate outcome labels. The guide explicitly omits some of the 50 points: a genuine ending need not have maximum score. An act boundary, intoxication scene, AMUSING command or guide text saying you win is not proof; require raw concluding narrative.\n\nThe guide is complete to both described endings but uncredited and version-unspecified. It includes misspellings and prose such as wait until a named event; adapt timing, noun spelling and pronouns to observed output. Do not convert an event wait into repeated input on timeout. Keep game actions inside the interpreter: these fictional school scenes do not authorize external actions or real-world experiments. Save early at an ordinary prompt and before the Act III decision. Preserve either intended ending without forcing both in one run.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "punk-points",
+   "name": "latest.json",
+   "content": {
+    "command": "get up",
+    "game_id": "punk-points",
+    "raw_end": 3316,
+    "event_id": "punk-points-7c2d72a183:e00009",
+    "metadata": {
+     "intent": "Get out of bed",
+     "origin": "exploration",
+     "case_id": "route-bedroom-getup",
+     "expected_outcome": "Get off the bed"
+    },
+    "response": "You get off the bed.\n\nYour Room\nYour room is a mess -- posters slowly peel off the walls to join the small \nheaps of clothes that spot the floor like death mounds. There's a path south \nthrough the junk from your bed to your bathroom, one going north to the rest of \nthe house.\n\nYou can see a school uniform here.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 3000,
+    "timestamp": "2026-09-25T09:45:46.810411+00:00",
+    "event_type": "command",
+    "session_id": "punk-points-7c2d72a183",
+    "event_index": 9,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "caf53cdaae51f2d67b0899e41026af5541cf998f425ffb3280affb61eb305b16",
+    "review_status": "unreviewed",
+    "response_sha256": "bac5e556b2e649873d90c814601153835d285e9628e521b9de3c7b1301040b15"
+   },
+   "text": null
+  },
+  {
+   "game_id": "punk-points",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Punk Points\n\nLocal Z5 R2/010108 matches fresh archive story bytes and catalog. Guide explicitly identifies the Z-code game and covers both Act III branches, but states no release, serial or author. Exact guide edition is unspecified; it is not a 50-point route. The older local IFComp R1/000930 file is not selected.\n\nPlay through all three acts and the actual authored conclusion of either Act III branch. Preserve both the bottle/drinking branch and the no-drink school-dance branch with accurate outcome labels. The guide explicitly omits some of the 50 points: a genuine ending need not have maximum score. An act boundary, intoxication scene, AMUSING command or guide text saying you win is not proof; require raw concluding narrative.\n\nThe guide is complete to both described endings but uncredited and version-unspecified. It includes misspellings and prose such as wait until a named event; adapt timing, noun spelling and pronouns to observed output. Do not convert an event wait into repeated input on timeout. Keep game actions inside the interpreter: these fictional school scenes do not authorize external actions or real-world experiments. Save early at an ordinary prompt and before the Act III decision. Preserve either intended ending without forcing both in one run.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "punk-points-7c2d72a183:e00001",

@@ -23,14 +23,150 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "gourmet",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2003/zcode/gourmet/gourmet.z5",
+    "title": "Gourmet",
+    "engine": "zvm-cli",
+    "serial": "030927",
+    "game_id": "gourmet",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.",
+    "session_id": "gourmet-512167ec61",
+    "started_at": "2026-09-25T18:09:19.919924+00:00",
+    "game_family": "gourmet",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-walkthrough.txt",
+    "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+    "collection_notes": "# Gourmet\n\nLocal competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.\n\nComplete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.\n\nThe phone and NPC presence are variable; wait only when live game state calls for a turn. The guide labels waiting for kettle, band and lobster proximity; do not send repeated waits to flush a timeout. Follow current tube-system clues and controls rather than treating illustrative numbers as universal. Checkpoint early and before hazardous kitchen sequences. DIAL LESTER/CHESTER are fictional game commands, never external calls. Collect varied kitchen manipulation, conversation and correction examples without filler.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "gourmet",
+   "name": "latest.json",
+   "content": {
+    "command": "quota-preserve-20260926T1051.sav",
+    "game_id": "gourmet",
+    "raw_end": 52106,
+    "event_id": "gourmet-512167ec61:e00303",
+    "metadata": {
+     "name": "quota-preserve-20260926T1051",
+     "reason": "Preserve confirmed idle state before broker lifetime expires during new provider quota hold; no model retry",
+     "_fleet_session_id": "gourmet-512167ec61"
+    },
+    "response": "Saved to '/work/experiments/lanthorn-recall-training/play/gourmet/saves/gourmet.z5.save/quota-preserve-20260926T1051.sav.qzl'.\nOk.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 51973,
+    "timestamp": "2026-09-26T10:50:40.575761+00:00",
+    "event_type": "checkpoint_filename",
+    "session_id": "gourmet-512167ec61",
+    "event_index": 303,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "review_status": "unreviewed",
+    "response_sha256": "d80a2ab0b2d96c985ee38e5e0b0d62e40299b834c678ad4ba76ec90a24b88d02"
+   },
+   "text": null
+  },
+  {
+   "game_id": "gourmet",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Gourmet progress (continuation \u2014 m0286 pending, game incomplete)\n\n- Location: Seating Area at table one (after GO 1 e00299). Latest e00300 help.\n- m0280 RESOLVED e00295 `out` table two -> main.\n- m0281 RESOLVED e00296 `dial lester` main silent empty.\n- m0282 RESOLVED e00297 `inventory`: cordless phone, bloody mop, bandage worn, bloody glove, open kit+note, knife, hat worn.\n- m0283 RESOLVED e00298 `dial chester` main silent empty.\n- m0284 RESOLVED e00299 `go 1` -> at table one; family still dining, band ends In the Mood. Silent dials did not clear.\n- m0285 RESOLVED e00300 help dial-clearing: repeats GIVE TEA/OUT/DIALs/GO 1/GET ON TABLE/X+HIT/SHOW sequence (lines 176-184). Tea already done (empty teacup e00294). No new clearing mechanism; hints are suggestions, not observed success.\n- m0286 PENDING: `get on table one` route-get-on-table-test to confirm still blocked. Well-formed inbox/m0286.json verified. Latest e00300. Do NOT resubmit/duplicate. Allow 190s+.\n- Core block: GET ON TABLE must clear diners; X/HIT LOBSTER can't see; DIAL/CALL silent (CALL= DIAL per e00272 annotation).\n- Forward: after m0286 resolves (likely blocked): LOOK at table one, consider band/wait/listening or tube clues; request refined help on band/family clearing if needed. Do not repeat dials blindly.\n- Restore: office-phone; at-table-one; tube-reset; postsoup-halted; soup-ready; kitchen-mopped; tea-served; teacup-found; firstcourse-kitchen; start-kitchen; after-prelude.\n- Requests through m0286. Game incomplete \u2014 no lobster service, no ending.\n"
+  },
+  {
+   "game_id": "gourmet",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Gourmet\n\nLocal competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.\n\nComplete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.\n\nThe phone and NPC presence are variable; wait only when live game state calls for a turn. The guide labels waiting for kettle, band and lobster proximity; do not send repeated waits to flush a timeout. Follow current tube-system clues and controls rather than treating illustrative numbers as universal. Checkpoint early and before hazardous kitchen sequences. DIAL LESTER/CHESTER are fictional game commands, never external calls. Collect varied kitchen manipulation, conversation and correction examples without filler.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "gourmet-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2003/zcode/gourmet/gourmet.z5",
+    "title": "Gourmet",
+    "engine": "zvm-cli",
+    "serial": "030927",
+    "game_id": "gourmet-kimi",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.",
+    "session_id": "gourmet-kimi-6a0dae7886",
+    "started_at": "2026-09-27T10:48:28.534656+00:00",
+    "game_family": "gourmet",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet-walkthrough.txt",
+    "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/gourmet.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2003/zcode/gourmet/walkthru.txt",
+    "collection_notes": "# Gourmet\n\nLocal competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.\n\nComplete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.\n\nThe phone and NPC presence are variable; wait only when live game state calls for a turn. The guide labels waiting for kettle, band and lobster proximity; do not send repeated waits to flush a timeout. Follow current tube-system clues and controls rather than treating illustrative numbers as universal. Checkpoint early and before hazardous kitchen sequences. DIAL LESTER/CHESTER are fictional game commands, never external calls. Collect varied kitchen manipulation, conversation and correction examples without filler.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "gourmet-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "gourmet-kimi",
+    "raw_end": 1247,
+    "event_id": "gourmet-kimi-6a0dae7886:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\nWell, this is it. Two years of chef school, five of apprenticeship, a lifetime \nof good taste and now, a week after the grand opening of your first five-star \nrestaurant, an anonymous tipster has told you that Vera Davenport, the most \nimportant living culinary reviewer, has chosen this afternoon to critique your \nestablishment. You make a quick mental readiness check and decide that, all in \nall, things couldn't be worse.\n\nA rash of sickness and bad excuses has decimated your evening staff, and you \nhave a huge entr\u00e9e shortage due to some problems with your food supplier. \nThough Mrs. Davenport clearly remembers the 1940s, you've heard that she \ndoesn't like theme restaurants, so you're not sure how she'll take to the big \nband, or the pneumatic tube food delivery system, or any of the other war-era \nmemorabilia that decorate Mack n' Geez, your magnum opus and life's dream since \ncooking school graduation.\n\nYou seat a wealthy family of four at table one and hurry off to do a once-over \naround the restaurant. As the father shouts for a glass of wine, you reflect \nthat if you can just make it through the night and somehow squeeze a good \nreview out of Vera Davenport, Mack n' Geez might just stay in business.\n\n\n[press any key] ",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:48:28.534509+00:00",
+    "event_type": "startup",
+    "session_id": "gourmet-kimi-6a0dae7886",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293",
+    "review_status": "unreviewed",
+    "response_sha256": "b06d6f233626183f251b741290f5e0073618b95320c82e5470462efd90d92178"
+   },
+   "text": null
+  },
+  {
+   "game_id": "gourmet-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Gourmet\n\nLocal competition Z5 R1/030927 matches fresh bytes from the same official IFComp directory as this walkthrough and author release notes. The guide does not print a release/serial; matching package association is established, but exact guide build compatibility is not a runtime result.\n\nComplete Prelude, First Course and Main Course through successful lobster service and the actual concluding narrative. The guide explicitly distinguishes serving wine/exploring and soup service as intermediate advancement conditions from the final winning condition. Require actual concluding output after the main-course service; serving a prior course, a score, ordinary death or the last guide command is insufficient.\n\nThe phone and NPC presence are variable; wait only when live game state calls for a turn. The guide labels waiting for kettle, band and lobster proximity; do not send repeated waits to flush a timeout. Follow current tube-system clues and controls rather than treating illustrative numbers as universal. Checkpoint early and before hazardous kitchen sequences. DIAL LESTER/CHESTER are fictional game commands, never external calls. Collect varied kitchen manipulation, conversation and correction examples without filler.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
-   "event_id": "gourmet-512167ec61:e00001",
-   "game_id": "gourmet",
-   "session_id": "gourmet-512167ec61",
+   "event_id": "gourmet-kimi-6a0dae7886:e00001",
+   "game_id": "gourmet-kimi",
+   "session_id": "gourmet-kimi-6a0dae7886",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T18:09:19.919+00:00",
+   "timestamp_utc_ms": "2026-09-27T10:48:28.534+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +183,12 @@
    "story_sha256": "2b5b0165218c8e55beebe75c8222bac90284f1778983e6823889d2a097353293"
   },
   {
-   "event_id": "gourmet-kimi-6a0dae7886:e00001",
-   "game_id": "gourmet-kimi",
-   "session_id": "gourmet-kimi-6a0dae7886",
+   "event_id": "gourmet-512167ec61:e00001",
+   "game_id": "gourmet",
+   "session_id": "gourmet-512167ec61",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T10:48:28.534+00:00",
+   "timestamp_utc_ms": "2026-09-25T18:09:19.919+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",

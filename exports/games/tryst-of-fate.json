@@ -9,6 +9,106 @@
   "tryst-of-fate"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "tryst-of-fate",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/tryst205.z5",
+    "title": "Tryst of Fate",
+    "engine": "zvm-cli",
+    "serial": "970629",
+    "game_id": "tryst-of-fate",
+    "release": 205,
+    "completion": "Require author-intended ending verified against real raw output. Death, quitting, chapter transition, model claim or partial score are insufficient. Story R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.",
+    "session_id": "tryst-of-fate-21296bfe76",
+    "started_at": "2026-09-25T05:55:03.415685+00:00",
+    "game_family": "tryst-of-fate",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/tryst-of-fate-walkthrough.txt",
+    "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/tryst-of-fate.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/tryst.step",
+    "collection_notes": "# Tryst of Fate\n\nStory R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.\nGuide: https://ifarchive.org/if-archive/solutions/tryst.step\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "tryst-of-fate",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "tryst-of-fate",
+    "raw_end": 182855,
+    "event_id": "tryst-of-fate-21296bfe76:e00910",
+    "metadata": {
+     "notes": "Genuine winning ending, not death/quitting/chapter/partial: game prints *** You have won *** with 350 out of possible 350 (maximal), 562 turns, rank Hero of Deadeye Gulch. Full arc resolved: brothers trapped in cellar, Thad killed by Beetlebaum charge + rockslide, farewell meal, blue gum home, epilogue locket + thank-you note. Post-win prompt offers RESTART/RESTORE/AMUSING/QUIT (standard win terminus); no death text, no player quit, no chapter header.",
+     "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 350 out of a possible 350, in 562 turns, earning you \nthe rank of Hero of Deadeye Gulch.",
+     "evidence_event_ids": [
+      "tryst-of-fate-21296bfe76:e00908"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 182855,
+    "timestamp": "2026-09-25T07:07:02.224527+00:00",
+    "event_type": "ending_claim",
+    "session_id": "tryst-of-fate-21296bfe76",
+    "event_index": 910,
+    "engine_state": "unchanged",
+    "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "tryst-of-fate",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "tryst-of-fate",
+    "raw_end": 182855,
+    "event_id": "tryst-of-fate-21296bfe76:e00910",
+    "metadata": {
+     "notes": "Genuine winning ending, not death/quitting/chapter/partial: game prints *** You have won *** with 350 out of possible 350 (maximal), 562 turns, rank Hero of Deadeye Gulch. Full arc resolved: brothers trapped in cellar, Thad killed by Beetlebaum charge + rockslide, farewell meal, blue gum home, epilogue locket + thank-you note. Post-win prompt offers RESTART/RESTORE/AMUSING/QUIT (standard win terminus); no death text, no player quit, no chapter header.",
+     "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 350 out of a possible 350, in 562 turns, earning you \nthe rank of Hero of Deadeye Gulch.",
+     "evidence_event_ids": [
+      "tryst-of-fate-21296bfe76:e00908"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 182855,
+    "timestamp": "2026-09-25T07:07:02.224527+00:00",
+    "event_type": "ending_claim",
+    "session_id": "tryst-of-fate-21296bfe76",
+    "event_index": 910,
+    "engine_state": "unchanged",
+    "story_sha256": "37165a8a8a10949aa8005d57be2c4f686ea90ceceffb6c75d37ba8e1641ad51d",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "tryst-of-fate",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2013 Tryst of Fate (COMPLETE, won 350/350)\n\nLocation: On the Floor (home, epilogue), game WON, branch b1\nInventory: At win: carrying nothing (stripped by horse at 557); epilogue grants gold locket + note under pillow (George & Beetlebaum thank-you). Watch recovered mid-game (+20/300 at 549) then lost in scripted ride; final score still maximal.\nScore/Moves: 350 / 562, *** You have won ***, rank Hero of Deadeye Gulch\n\nCases: ~220 annotated through syn-stand-up-220. No unresolved case IDs. This segment: syn-locket-polish-209 (none), route-watch-trap-210 (route), syn-leave-shack-211 (vocabulary), route-horse-212 (route), syn-feed-apple-213 (none), syn-mount-horse-214 (vocabulary), syn-examine-saddlebags-215 (none), route-horse-ride-216 (route, say blizzard +15/320), syn-examine-thad-217 (none), route-canyon-218 (route, say beetlebaum + Z Z +30/350), route-ending-219 (route, SPACE past pause), syn-stand-up-220 (none, get up = stand up, triggered win).\nLast hint (lines 496-504): \"Beetlebaum / Z. Z (30/350) / save s350 / Stand up / Amusing\". FULLY VERIFIED: say beetlebaum (echoes, Thad draws), wait (pistol out, gallop), wait (George+Beetlebaum kill Thad, blue gum home, SPACE pause), SPACE (On Floor +30/350), get up (win 350/350).\nNext actions: NONE - game won. Submit finish with e00908.\n\nCheckpoints (confirmed, newest last): wall-240-dynamite, shack-250-invis, outside-260-escaped, shack-300-watch, canyon-320-thad, floor-350-awake (On Floor, 350, pre-stand; reusable to replay ending).\nNo pending requests. m0789 answered. Next request number: m0790 (finish).\n"
+  },
+  {
+   "game_id": "tryst-of-fate",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Tryst of Fate\n\nStory R205/970629 versus walkthrough R104/970330. Preserve release gap and verify each hint against actual output. Seek final recovery of watch and resolution, not chapter transitions or partial scores.\nGuide: https://ifarchive.org/if-archive/solutions/tryst.step\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "tryst-of-fate-21296bfe76:e00001",

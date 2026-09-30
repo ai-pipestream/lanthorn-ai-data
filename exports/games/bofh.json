@@ -23,14 +23,156 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "bofh",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2002/zcode/bofh/bofh.z5",
+    "title": "BOFH: The Bastard Operator from Hell",
+    "engine": "zvm-cli",
+    "serial": "020927",
+    "game_id": "bofh",
+    "release": 2,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.",
+    "session_id": "bofh-6da3ab2a37",
+    "started_at": "2026-09-25T18:09:20.430277+00:00",
+    "game_family": "bofh",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh-walkthrough.txt",
+    "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+    "collection_notes": "# BOFH: The Bastard Operator from Hell\n\nLocal Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.\n\nFollow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.\n\nThis is an author demonstration transcript with exploratory failures and optional amusements, not a strict command script. Do not imitate repeated LOOKs, obsolete scoring exploits, post-win UNDO or SCRIPT OFF. Use the current calendar excuse, actual inventory and displayed disambiguation prompts. All office/network/security actions are fictional in-game actions, with no external-system authorization. Save early at a confirmed ordinary prompt and before the travel commitment. Read actual release-specific responses; maximum score is not an objective.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "bofh",
+   "name": "latest.json",
+   "content": {
+    "command": "quota-preserve-20260926T1051.sav",
+    "game_id": "bofh",
+    "raw_end": 48815,
+    "event_id": "bofh-6da3ab2a37:e00359",
+    "metadata": {
+     "name": "quota-preserve-20260926T1051",
+     "reason": "Preserve confirmed idle state before broker lifetime expires during new provider quota hold; no model retry",
+     "_fleet_session_id": "bofh-6da3ab2a37"
+    },
+    "response": "Saved to '/work/experiments/lanthorn-recall-training/play/bofh/saves/bofh.z5.save/quota-preserve-20260926T1051.sav.qzl'.\nOk.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 48688,
+    "timestamp": "2026-09-26T10:50:40.540945+00:00",
+    "event_type": "checkpoint_filename",
+    "session_id": "bofh-6da3ab2a37",
+    "event_index": 359,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "review_status": "unreviewed",
+    "response_sha256": "0332ca4d2ccf29f3122f427e7a0eadef2b1219de4257d16025b1f182753c7bc2"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bofh",
+   "name": "progress.md",
+   "content": null,
+   "text": "# BOFH progress (continuation \u2014 game incomplete, pending broker)\n\nGame: bofh R2/020927. Session bofh-6da3ab2a37, branch b0.\nLocation: Venetian Front Desk (Kim; fair game). Latest e00355 command (m0317 resolved).\nVerified: lobby look e00335; inventory e00336 (Grail, Hammer, approved form, Photos, swipe, Prod); north e00337 front desk; ask suite e00338 needs confirmation/itinerary; show form e00339 Kim reject \"not anything I need\"; look rep e00342 Kim/fair game; kiss rep e00345 + kiss kim e00346 identical blocked \"front desk is just too big\"; annotate e00347 none; give form to kim e00350 identical reject; read form e00351 beancounter 5-day Microsoft conference form, keep safe; annotate e00353 show/give-form none; give itinerary to kim e00354 \"You can't see any such thing\" (R2 no itinerary; R1 inbox had itinerary+note vs R2 only boss note e00001); show photos to kim e00355 identical Kim reject \"not anything I need\" (third identical rejection: form/photos).\nHints: e00348 lines 752-760 give itinerary -> downgraded standard suite + room key; e00349 lines 761-769 room 14-210 + photos-revenge downgrade career; e00352 repeats downgrade handoff (off-topic, still need post-photos-revenge excerpt toward suite upgrade + You have won).\nCheckpoint venetian-lobby e00333-334 OK.\nCompleted: m0314 help e00352; m0315 annotate e00353; m0316 command e00354; m0317 command e00355.\nPending: inbox/m0318.json help stuck (after-photos-revenge excerpt toward suite upgrade + win; related e00338/e00354/e00355) \u2014 responses/m0318.json NOT YET PRESENT as of latest e00355. Do NOT resubmit or duplicate. On continuation: read responses/m0318.json first, then latest.json.\nNext: after help, explore south back to lobby then west hallway / south exit mapping; annotate form/photos identical-rejection pair if useful. Game incomplete, no ending verified.\n"
+  },
+  {
+   "game_id": "bofh",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# BOFH: The Bastard Operator from Hell\n\nLocal Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.\n\nFollow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.\n\nThis is an author demonstration transcript with exploratory failures and optional amusements, not a strict command script. Do not imitate repeated LOOKs, obsolete scoring exploits, post-win UNDO or SCRIPT OFF. Use the current calendar excuse, actual inventory and displayed disambiguation prompts. All office/network/security actions are fictional in-game actions, with no external-system authorization. Save early at a confirmed ordinary prompt and before the travel commitment. Read actual release-specific responses; maximum score is not an objective.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "bofh-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2002/zcode/bofh/bofh.z5",
+    "title": "BOFH: The Bastard Operator from Hell",
+    "engine": "zvm-cli",
+    "serial": "020927",
+    "game_id": "bofh-kimi",
+    "release": 2,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.",
+    "session_id": "bofh-kimi-abe0c4b381",
+    "started_at": "2026-09-27T10:46:58.661995+00:00",
+    "game_family": "bofh",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh-walkthrough.txt",
+    "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/bofh.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2002/zcode/bofh/bofhwalk.txt",
+    "collection_notes": "# BOFH: The Bastard Operator from Hell\n\nLocal Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.\n\nFollow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.\n\nThis is an author demonstration transcript with exploratory failures and optional amusements, not a strict command script. Do not imitate repeated LOOKs, obsolete scoring exploits, post-win UNDO or SCRIPT OFF. Use the current calendar excuse, actual inventory and displayed disambiguation prompts. All office/network/security actions are fictional in-game actions, with no external-system authorization. Save early at a confirmed ordinary prompt and before the travel commitment. Read actual release-specific responses; maximum score is not an objective.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "bofh-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "bofh-kimi",
+    "raw_end": 4224,
+    "event_id": "bofh-kimi-abe0c4b381:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\nIt's a clear summer night in London. You walk purposefully down Langley Street \nin Covent Garden looking for the pub. It's nearly time and you can't be late. \nTonight is the most important night of your life. Ah! Here's the pub! You enter \nand walk directly to the bar, weaving in and around throngs of patrons happy to \nbe enjoying a drink after a day's work. You approach the bartender and inquire. \nYou were told to speak to Nigel. The bartender confirms he is Nigel and he asks \nyour business. You give him the reply just as you were told. He nods his head \nsolemnly and asks you to follow him.\n\nHe leads you to a door towards the back of the bustling pub. He gives the door \ntwo sharp knocks, pauses for three seconds then two more sharp knocks. A regal \nvoice from behind the door simply says \"Enter!\". With that, Nigel hurriedly \nbacks away and turns tail to resume simpler, safer duties tending bar. You \nenter the room dutifully and close the door behind you. Looking around you are \ndeeply impressed with the furnishings. Lots of red cloth, leather couches and \nrecliners, the heavy smoke of cigars and the presence of just three men. You \nknow you are in the presence of true masters of their craft. One of the men you \nrecognize as your mentor, Simon. The other two gentlemen you haven't met before.\n\nThe youngest man, perhaps 25 years old at best, rises and looks you over. \"I am \nthe Grand Bastard.\" He has an unmistakable British accent. \"Who sponsors this \napprentice bastard?\", indicating you. Your mentor rises and claims \nresponsbility for the sponsorship. \"Very well, let the trials begin. I shall go \nfirst.\"\n\n\"An utterly clueless network user calls and asks you why the network is running \nso slow. What is your response?\"\n\n\"I cheerfully volunteer to immediately inspect the co-worker's computer, \ndiagnose the problem and repair it.\" With this, you can see the Grand Bastard \nis greatly offended. Undaunted, you continue...\" I get under their desk, open \nthe computer case and swap out the 100 megabit network card and replace it with \na 300 baud modem with the speaker disabled. I close the computer cover, plug \nthe modem into a phone line, boot up the computer and make lightning-fast \nconfiguration changes the user can't follow. When I'm all done their 100 \nmegabit per second connection is reduced to a 300 bit per second connection via \ndemand-dial connectivity. Without a doubt, they will never call me and complain \nagain.\"\n\nYou wait breathlessly for the reaction of The Grand Bastard. \"That is an \nexcellent solution. You have passed my trial.\" Looking around at his two peers \nhe continues, \"Indeed, your response is so thorough, so diabolical and so \neffective I think we can dispense with the remaining trials. Are we agreed?\" \nYour mentor and the other BOFH both nod their assent.\n\n\"Then it is done. I confer upon thee the formal title of Bastard Operator from \nHell. Return to the United States of America and do us proud. Now. Go! Begin \nthy tenure!\"\n\n\nThe Bastard Operator from Hell\nBOFH:Interactive Fiction Edition. \nBOFH is Copyright (c) Simon Travaglia and is used with Permission. \n(Visit http://bofh.ntk.net, www.theregister.co.uk, www.plan9.org for info). \nInform Story File Copyright (c) 2002 Howard A. Sherman All Rights Reserved. \nType \"about\" for more story and legal information.\nRelease 2 / Serial number 020927 / Inform v6.21 Library 6/10 SD\n\nMission Control\nYour office, where you carry out your Bastardly duties, is equipped with the \nfinest furnishings and equipment necessary to perform your work. As you have an \naversion to cheap kit, your desk is the finest example of office furniture ever \nbestowed upon the human race. Sitting atop this monument to furniture is the \nsingle most powerful computer in the company; your personal workstation. Only \ntwo decorations adorn the walls; a Bill Gatus of Borg poster and a daily \ncalendar. North leads out of Mission Control to other, less important areas \nwhile you spot a very large and serious looking door down the hall just east.\n\nOn the desk are an inbox (in which is a note from your boss) and an outbox \n(which is empty).\n\nYou can see an Armageddon-proof safe (which is closed) and Dave's Toshiba laptop\nhere.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:46:58.661837+00:00",
+    "event_type": "startup",
+    "session_id": "bofh-kimi-abe0c4b381",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd",
+    "review_status": "unreviewed",
+    "response_sha256": "a780346bbbe0fb718bb292e065962ef130ee40da88d5190f639439a78eab3a8a"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bofh-kimi",
+   "name": "progress.md",
+   "content": null,
+   "text": "# progress.md \u2014 bofh-kimi\n\nState: unstarted \u2014 workspace empty on 2026-09-28 (reconfirmed 2026-09-28 continuation run, ~15:25 UTC; rechecked 2026-09-28 ~16:51 UTC).\n\n- Workspace root `/home/krickert/lanthorn-muse/play/bofh-kimi` contains no playable files on recheck: manifest.json, latest.json, collection-notes.md, supervisor-hint.json all absent.\n- Read-only search (all files incl. hidden/no_ignore) returns only progress.md and .bridge-state.json (session_id bofh-kimi-abe0c4b381).\n- Shell tools disabled in this session, so no further directory listing possible.\n- No inbox/ request submitted: no manifest completion criteria, no broker mailbox, no game state to continue from. Submitting a command blind would violate the protocol (no manifest, no case criteria, risk of forging state).\n- Next: supervisor needs to provision the persistent interpreter files (manifest.json, latest.json, inbox/, responses/) before collection can start. Ready to resume from actual state once provisioned; do not restart automatically.\n\n## 2026-09-28 ~16:51 UTC continuation check\n- Re-read progress.md; manifest.json / latest.json / collection-notes.md still absent (read_file: no such file).\n- Regex search `.` (hidden + no_ignore) confirms only `.bridge-state.json` and `progress.md` exist.\n- No game state to continue, no checkpoint to write, no pending request to await. Stopping honestly with game incomplete (16:51 UTC).\n\n## 2026-09-28 ~17:08 UTC continuation check\n- Re-read progress.md + .bridge-state.json (session_id bofh-kimi-abe0c4b381); manifest.json / latest.json / collection-notes.md / supervisor-hint.json still absent.\n- Regex search `^` (hidden + no_ignore) confirms only `.bridge-state.json` and `progress.md` exist; no inbox/, responses/, events.jsonl, saves/.\n- No game state to continue, no checkpoint to write, no pending request to await. Stopping honestly with game incomplete (17:08 UTC).\n\n## 2026-09-28 continuation check\n- Re-read progress.md + .bridge-state.json (session_id bofh-kimi-abe0c4b381); manifest.json / latest.json / collection-notes.md / supervisor-hint.json still absent.\n- Search `^` (hidden + no_ignore) returns only progress.md; no inbox/, responses/, events.jsonl, saves/, manifest.\n- No game state to continue, no checkpoint to write, no pending request to await. Stopping honestly with game incomplete.\n\n## 2026-09-28 ~18:10 UTC continuation check\n- Re-read progress.md + .bridge-state.json (session_id bofh-kimi-abe0c4b381); manifest.json / latest.json / collection-notes.md / supervisor-hint.json still absent.\n- Files search (hidden + no_ignore) returns only progress.md; no inbox/, responses/, events.jsonl, saves/, manifest.\n- No game state to continue, no checkpoint to write, no pending request to await. Stopping honestly with game incomplete (18:10 UTC).\n\n## 2026-09-28 ~19:06 UTC continuation check\n- Re-read progress.md + .bridge-state.json (session_id bofh-kimi-abe0c4b381); manifest.json / latest.json / collection-notes.md / supervisor-hint.json still absent (read_file: no such file).\n- Search `.` (hidden + no_ignore) returns only progress.md; no inbox/, responses/, events.jsonl, saves/, manifest.\n- No game state to continue, no checkpoint to write, no pending request to await. Stopping honestly with game incomplete (19:06 UTC).\n\n## 2026-09-28 continuation check (later run)\n- Re-read progress.md + .bridge-state.json (session_id bofh-kimi-abe0c4b381); manifest.json / latest.json / collection-notes.md / supervisor-hint.json still absent (read_file: no such file).\n- Search `^` (hidden + no_ignore) returns only progress.md; no inbox/, responses/, events.jsonl, saves/, manifest.\n- No game state to continue, no checkpoint to write, no pending request to await. Stopping honestly with game incomplete.\n"
+  },
+  {
+   "game_id": "bofh-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# BOFH: The Bastard Operator from Hell\n\nLocal Z5 R2/020927 matches fresh official competition archive bytes. The author transcript explicitly records R1/020927: a one-release gap despite identical serial. Its closing note says bugs/descriptions were changed after recording and the final release cannot score 105/100. Preserve this discrepancy and adapt from live output; do not claim the transcript was recorded from R2.\n\nFollow the full office-to-Venetian route through the final room upgrade and actual authored winning conclusion. The author transcript shows the suite upgrade followed by You have won; parent must independently verify equivalent raw output. Leaving the office, reaching Las Vegas, a score, AMUSING or QUIT is not completion. Do not undo a verified ending merely because the source transcript does so to close its recording.\n\nThis is an author demonstration transcript with exploratory failures and optional amusements, not a strict command script. Do not imitate repeated LOOKs, obsolete scoring exploits, post-win UNDO or SCRIPT OFF. Use the current calendar excuse, actual inventory and displayed disambiguation prompts. All office/network/security actions are fictional in-game actions, with no external-system authorization. Save early at a confirmed ordinary prompt and before the travel commitment. Read actual release-specific responses; maximum score is not an objective.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
-   "event_id": "bofh-6da3ab2a37:e00001",
-   "game_id": "bofh",
-   "session_id": "bofh-6da3ab2a37",
+   "event_id": "bofh-kimi-abe0c4b381:e00001",
+   "game_id": "bofh-kimi",
+   "session_id": "bofh-kimi-abe0c4b381",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T18:09:20.43+00:00",
+   "timestamp_utc_ms": "2026-09-27T10:46:58.661+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +189,12 @@
    "story_sha256": "295702f266dab8ea9413ed66ea516a43f98247d81720772297281144b20b45dd"
   },
   {
-   "event_id": "bofh-kimi-abe0c4b381:e00001",
-   "game_id": "bofh-kimi",
-   "session_id": "bofh-kimi-abe0c4b381",
+   "event_id": "bofh-6da3ab2a37:e00001",
+   "game_id": "bofh",
+   "session_id": "bofh-6da3ab2a37",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T10:46:58.661+00:00",
+   "timestamp_utc_ms": "2026-09-25T18:09:20.43+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",

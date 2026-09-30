@@ -53,6 +53,12 @@ def worker(gid):
     lock = (base / 'worker.lock').open('a')
     fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
     state_path = ROOT / 'state' / (gid + '.json')
+    if not (base / 'manifest.json').exists() or not (base / 'latest.json').exists():
+        # Never spawn muse against an unmirrored workspace: it would burn a
+        # segment just to honestly report there is nothing to play.
+        write(state_path, {'pid': os.getpid(), 'state': 'unprovisioned',
+                           'error': 'workspace missing manifest/latest; awaiting mirror'})
+        return
     for segment in range(12):
         if (base / 'ending-claim.json').exists():
             write(state_path, {'pid': os.getpid(), 'state': 'finished', 'exit': 0})
@@ -137,7 +143,11 @@ def mailbox_locked(req):
         old = state(gid)
         occupied = sum(s['alive'] or s['muse_alive'] for s in
                        (state(p.stem) for p in (ROOT / 'state').glob('*.json')))
-        if old['state'] != 'absent' or occupied >= 4:
+        # Startable when nothing is alive and the previous worker left a terminal
+        # state that is safe to continue from (segments churned out / failed /
+        # never provisioned). 'finished' and 'pending_requests' never auto-start.
+        startable = {'absent', 'segments_exhausted', 'failed', 'unprovisioned'}
+        if old['state'] not in startable or old['alive'] or old['muse_alive'] or occupied >= 4:
             # Start is idempotent; uncertain transport must never create another worker.
             pass
         else:

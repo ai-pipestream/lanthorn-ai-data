@@ -9,6 +9,106 @@
   "balances"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "balances",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Balances.z5",
+    "title": "Balances",
+    "engine": "zvm-cli",
+    "serial": "961216",
+    "game_id": "balances",
+    "release": 5,
+    "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. Guide1994 release unspecified; demo game, verify actual final outcome.",
+    "session_id": "balances-01a7783d25",
+    "started_at": "2026-09-25T03:50:37.385673+00:00",
+    "game_family": "balances",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/balances-walkthrough.txt",
+    "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/balances.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Balances.solve",
+    "collection_notes": "# Balances collection notes\n\nExact local header: R5/961216. Guide1994 release unspecified; demo game, verify actual final outcome. Guide source: https://ifarchive.org/if-archive/solutions/Balances.solve. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "balances",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "balances",
+    "raw_end": 72628,
+    "event_id": "balances-01a7783d25:e00654",
+    "metadata": {
+     "notes": "4 cubes in podium sockets trigger growth/balancing, Borphee Labs wake, score 50/51 Scientist 139 turns. Winning narrative, not death/quit/chapter.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "balances-01a7783d25:e00653"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 72628,
+    "timestamp": "2026-09-25T04:57:18.877883+00:00",
+    "event_type": "ending_claim",
+    "session_id": "balances-01a7783d25",
+    "event_index": 654,
+    "engine_state": "unchanged",
+    "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "balances",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "balances",
+    "raw_end": 72628,
+    "event_id": "balances-01a7783d25:e00654",
+    "metadata": {
+     "notes": "4 cubes in podium sockets trigger growth/balancing, Borphee Labs wake, score 50/51 Scientist 139 turns. Winning narrative, not death/quit/chapter.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "balances-01a7783d25:e00653"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 72628,
+    "timestamp": "2026-09-25T04:57:18.877883+00:00",
+    "event_type": "ending_claim",
+    "session_id": "balances-01a7783d25",
+    "event_index": 654,
+    "engine_state": "unchanged",
+    "story_sha256": "10e717578f85200c6aadc8149d95e43f7b6c09fb473770d309a0d6afe3b29538",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "balances",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Balances progress (COMPLETE \u2014 winning ending observed e00653, claim e00654)\n\nLocation: b3 Balance Room, podium 4/4 (lottery TL bazaar, cyclops TR eye, balance BR cave, snake BL serpent). Final: growth to giant, pull balances level, Borphee Labs wake, *** You have won ***, Score 50/51 rank Scientist 139 turns.\nInventory at win: 4 cubes placed; book+grimoire, burin light; feather on cave scales balanced; carpet at hill; silver spent.\nCases: b3-grimoire examine-furniture none e00503; box open world_state e00507; carpet climb vs sit vocab e00498; chasm south blocked; urbzig-elephant reversal world_state e00622; cyclops vs mace world_state e00632; snake/cyclops label ambiguity e00633 etc; plus b0/b2 history (typo, omitted object, pronoun, pan disambiguation). 20+ diverse across full game.\nHints: box->grimoire lines 48-56 verified; podium mapping lines 260-268 verified real placements e00647/649/651/653.\nNext: none \u2014 await Terra verification; do not restart. Keep b3-4cubes-hill, b3-bazaar-cube, b3-hut-grimoire checkpoints.\n"
+  },
+  {
+   "game_id": "balances",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Balances collection notes\n\nExact local header: R5/961216. Guide1994 release unspecified; demo game, verify actual final outcome. Guide source: https://ifarchive.org/if-archive/solutions/Balances.solve. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "balances-01a7783d25:e00001",

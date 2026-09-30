@@ -9,6 +9,105 @@
   "dreamhold"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "dreamhold",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/dreamhold.z8",
+    "title": "The Dreamhold",
+    "engine": "zvm-cli",
+    "serial": "041231",
+    "game_id": "dreamhold",
+    "release": 5,
+    "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+    "session_id": "dreamhold-362786f871",
+    "started_at": "2026-09-25T02:34:59.867684+00:00",
+    "game_family": "dreamhold",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/dreamhold-walkthrough.txt",
+    "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/dreamhold.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://plover.net/~davidw/sol/dreamhold.html",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+    "story_sha256_expected": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "dreamhold",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "dreamhold",
+    "raw_end": 394092,
+    "event_id": "dreamhold-362786f871:e02045",
+    "metadata": {
+     "notes": "Walkthrough Ending 3 (Doorstep of Heaven): final west step off the Far West shadow point; ringed-moon portal narrative, author banner, thank-you text, seven additional discoveries, Andrew Plotkin sign-off in the same event. Fullest of three documented endings (Ending 2 explicitly not-the-only; Ending 1B six discoveries vs seven here). Not death, quitting, or scene transition.",
+     "ending_quote": "    *** The end ***\n\n\nThank you for playing. You've reached the end of THE DREAMHOLD; but that \ndoesn't mean there isn't more hidden in the game. You made seven additional \ndiscoveries beyond the riddle of the masks; there may be others.",
+     "evidence_event_ids": [
+      "dreamhold-362786f871:e02043"
+     ]
+    },
+    "response": "",
+    "branch_id": "b11",
+    "raw_start": 394092,
+    "timestamp": "2026-09-25T05:56:00.694477+00:00",
+    "event_type": "ending_claim",
+    "session_id": "dreamhold-362786f871",
+    "event_index": 2045,
+    "engine_state": "unchanged",
+    "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "dreamhold",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "dreamhold",
+    "raw_end": 394092,
+    "event_id": "dreamhold-362786f871:e02045",
+    "metadata": {
+     "notes": "Walkthrough Ending 3 (Doorstep of Heaven): final west step off the Far West shadow point; ringed-moon portal narrative, author banner, thank-you text, seven additional discoveries, Andrew Plotkin sign-off in the same event. Fullest of three documented endings (Ending 2 explicitly not-the-only; Ending 1B six discoveries vs seven here). Not death, quitting, or scene transition.",
+     "ending_quote": "    *** The end ***\n\n\nThank you for playing. You've reached the end of THE DREAMHOLD; but that \ndoesn't mean there isn't more hidden in the game. You made seven additional \ndiscoveries beyond the riddle of the masks; there may be others.",
+     "evidence_event_ids": [
+      "dreamhold-362786f871:e02043"
+     ]
+    },
+    "response": "",
+    "branch_id": "b11",
+    "raw_start": 394092,
+    "timestamp": "2026-09-25T05:56:00.694477+00:00",
+    "event_type": "ending_claim",
+    "session_id": "dreamhold-362786f871",
+    "event_index": 2045,
+    "engine_state": "unchanged",
+    "story_sha256": "399dbfb92024d2a702029dd1921a1023569888941683d953d3755d6856ce2941",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "dreamhold",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Dreamhold progress \u2014 segment 10 END (b11, GAME COMPLETE via Ending 3)\n\nFinished: Ending 3 Doorstep of Heaven (e02043). West off Shadow Path Far West: portal opens, stars welcome you home, *** The end ***, seven additional discoveries beyond the riddle of the masks, author sign-off (Andrew Plotkin). Fullest of the three walkthrough endings (Ending 2 explicitly intermediate/not-only; Ending 1B six discoveries; Ending 3 seven).\nFinal route b11: decision-point restore; n,e,s,w,n,u to Translucent Dome; sail south->east->north->west (3 pulls); put berry on fire -> disambiguation -> white (cold blue/violet fire); x fire; u (extra discovery, red-glow sky); x dome/valley/garden/mountain(=painting)/sky; 4 moons; w (shadow path); x shadow; w; checkpoint shadow-path-preend; w; touch bare -> clarification; touch sky; touch tan moon; w [The End].\nCases seg10 (9): mirror-hang world_state success; dip-quill none/accept; sketch-diagram none/accept; typo-wallss vocab success; harp-tie planning failure (not a harpstring); enter-bare syntax success; berry-ambiguous ambiguity success via clarification; touch-bare syntax success via clarification. No backlog.\nKey saves: decision-point, cell-diagram-drawn, shadow-path-preend, study-seven-masks, vaulting-bracelet, far-west-preend, trans-west-preberry.\nGAME COMPLETE \u2014 finish submitted with evidence e02043.\n"
+  },
+  {
+   "game_id": "dreamhold",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nActual startup: The Dreamhold R5/041231. Guide describes R4 and contains both NORMAL and EXPERT commands. Stay in normal/tutorial mode; do not switch to expert. Only follow NORMAL or common commands. Built-in tutorial/hint responses are assistance, not neutral narrative recall evidence. Initial startup is already an ordinary Cell command prompt. Seek a substantive intended ending, not a score milestone.\n\nCollect labeled synthetic human-like command variations, actual responses and same-intent recoveries. Ask for small hints through broker help. Do not read the full guide directly. Save at ordinary prompts when supported. All model labels remain unreviewed until independently checked. No training, application changes or publication.\n\n2026-09-25 03:44 UTC menu transport note: MENU INPUT: For a menu that says RETURN or Enter, send an empty command string (\"command\":\"\"). Do not spell RETURN, ENTER, SPACE or BACKSPACE as words. A literal space (\"command\":\" \") is a different key from Enter. The plain CLI passes the first byte of nonempty input; an empty line sends Return. Menu controls are not ordinary parser commands: consult the actual menu labels. Avoid optional HELP/file menus if collection-notes.md documents stalled transport; request a small broker walkthrough excerpt instead. If output times out, await_output only; never use another key to flush it.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "dreamhold-362786f871:e00001",

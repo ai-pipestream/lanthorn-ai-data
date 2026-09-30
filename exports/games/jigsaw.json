@@ -9,6 +9,106 @@
   "jigsaw"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "jigsaw",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Jigsaw.z8",
+    "title": "Jigsaw",
+    "engine": "zvm-cli",
+    "serial": "951129",
+    "game_id": "jigsaw",
+    "release": 3,
+    "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. Guide1995, release unspecified; shared protagonist reference to Curses conservatively grouped with Curses in train.",
+    "session_id": "jigsaw-673cabd620",
+    "started_at": "2026-09-25T04:58:25.324123+00:00",
+    "game_family": "curses",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/jigsaw-walkthrough.txt",
+    "story_sha256": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/jigsaw.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Jigsaw.step",
+    "collection_notes": "# Jigsaw collection notes\n\nExact local header: R3/951129. Guide1995, release unspecified; shared protagonist reference to Curses conservatively grouped with Curses in train. Guide source: https://ifarchive.org/if-archive/solutions/Jigsaw.step. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "jigsaw",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "jigsaw",
+    "raw_end": 427301,
+    "event_id": "jigsaw-673cabd620:e02397",
+    "metadata": {
+     "notes": "Genuine winning ending: '*** You have won ***', 100/100, 1364 turns, rank Centurion, after destroying Kaldecki machinery (grenade) and giving the Teddy Bear to Black in the Epilogue. Not death, quitting, or intermediate score.",
+     "ending_quote": "Together you set out to live through the twentieth century and the journey of \nits strange and vivid days.",
+     "evidence_event_ids": [
+      "jigsaw-673cabd620:e02396"
+     ]
+    },
+    "response": "",
+    "branch_id": "b9",
+    "raw_start": 427301,
+    "timestamp": "2026-09-25T08:36:25.211233+00:00",
+    "event_type": "ending_claim",
+    "session_id": "jigsaw-673cabd620",
+    "event_index": 2397,
+    "engine_state": "unchanged",
+    "story_sha256": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "jigsaw",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "jigsaw",
+    "raw_end": 427301,
+    "event_id": "jigsaw-673cabd620:e02397",
+    "metadata": {
+     "notes": "Genuine winning ending: '*** You have won ***', 100/100, 1364 turns, rank Centurion, after destroying Kaldecki machinery (grenade) and giving the Teddy Bear to Black in the Epilogue. Not death, quitting, or intermediate score.",
+     "ending_quote": "Together you set out to live through the twentieth century and the journey of \nits strange and vivid days.",
+     "evidence_event_ids": [
+      "jigsaw-673cabd620:e02396"
+     ]
+    },
+    "response": "",
+    "branch_id": "b9",
+    "raw_start": 427301,
+    "timestamp": "2026-09-25T08:36:25.211233+00:00",
+    "event_type": "ending_claim",
+    "session_id": "jigsaw-673cabd620",
+    "event_index": 2397,
+    "engine_state": "unchanged",
+    "story_sha256": "1776c051db9cc3ceccd876e0cc8808188494db06957c231a9f27bc61e3f16fcf",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "jigsaw",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Jigsaw progress (update 50 \u2014 GAME COMPLETE, 100/100, Centurion)\n\nLocation: Epilogue done. Final: Century Park, Black + Teddy Bear. *** You have won *** 100/100, 1364 turns, drawing 15/16, rank Centurion (e02396, branch b9).\nSTATUS: COMPLETE. Ch16 solved this segment: (1) scree-avalanche root cause = multi-item \"get all\" after knock-over; single \"get oval rock\" with empty hands is safe (cache at Toll Gate). (2) Tree exchange on examine; felled tree = log bridge; grenade to southern bank. (3) Rabbit herded W-drop-rod/E/E/W/S across log bridge; sketched apes+rabbit. (4) Ticket-throw made apes hurl grenade east to Culvert web. (5) Spider sticky; caged woodpecker (rod TAMES it here, opposite of Adventure), released at web, grenade dislodged but stuck to hand; acid river dissolved glue (+1, 99). (6) Pin pulled, grenade in canal, explosion, Pyramid melted. (7) Epilogue: sketch book to Toby (Teddy Bear), cases, Black + bear = win (+1, 100).\nCases: 84 annotated (83 woodpecker draw=sketch accepted none; 84 grab/catch vocabulary). No pending.\nCheckpoints: r3-epilogue-start, r3-ch16-grenade, r3-ch16-felled, r3-ch16-tree, r3-ch16-start, older. Next: m1457.json (finish).\nNEXT ACTIONS: submit finish with e02396 evidence.\n"
+  },
+  {
+   "game_id": "jigsaw",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Jigsaw collection notes\n\nExact local header: R3/951129. Guide1995, release unspecified; shared protagonist reference to Curses conservatively grouped with Curses in train. Guide source: https://ifarchive.org/if-archive/solutions/Jigsaw.step. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "jigsaw-673cabd620:e00001",

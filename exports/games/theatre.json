@@ -9,6 +9,105 @@
   "theatre"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "theatre",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/theatre.z5",
+    "title": "Theatre",
+    "engine": "zvm-cli",
+    "serial": "951203",
+    "game_id": "theatre",
+    "release": 2,
+    "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, day/chapter transitions and intermediate scores are insufficient. Do not chase maximum points after a verified ending.",
+    "session_id": "theatre-8533784a56",
+    "started_at": "2026-09-25T03:10:05.499488+00:00",
+    "game_family": "theatre",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/theatre-walkthrough.txt",
+    "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch4/theatre.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/theatre.step",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Save at ordinary command prompts only; confirm engine success. Exit menus before parser commands.",
+    "story_sha256_expected": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "theatre",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "theatre",
+    "raw_end": 358372,
+    "event_id": "theatre-8533784a56:e01701",
+    "metadata": {
+     "notes": "Winning ending via get in car outside theatre after time-loop: drive off past sinister figure, 47/50 in 882 turns. Not death, chapter, or quit. Portrait/camera/green/dagger/ceremony/mansion/loop complete in b23.",
+     "ending_quote": "*** You have won ***\n\n\nYou have discovered the secret of the Theatre and have completed the game with \na score of forty-seven out of a possible fifty in eight hundred and eighty-two \nturns, meaning that you have almost reached the perfect score.",
+     "evidence_event_ids": [
+      "theatre-8533784a56:e01699"
+     ]
+    },
+    "response": "",
+    "branch_id": "b23",
+    "raw_start": 358372,
+    "timestamp": "2026-09-25T05:54:13.692872+00:00",
+    "event_type": "ending_claim",
+    "session_id": "theatre-8533784a56",
+    "event_index": 1701,
+    "engine_state": "unchanged",
+    "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "theatre",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "theatre",
+    "raw_end": 358372,
+    "event_id": "theatre-8533784a56:e01701",
+    "metadata": {
+     "notes": "Winning ending via get in car outside theatre after time-loop: drive off past sinister figure, 47/50 in 882 turns. Not death, chapter, or quit. Portrait/camera/green/dagger/ceremony/mansion/loop complete in b23.",
+     "ending_quote": "*** You have won ***\n\n\nYou have discovered the secret of the Theatre and have completed the game with \na score of forty-seven out of a possible fifty in eight hundred and eighty-two \nturns, meaning that you have almost reached the perfect score.",
+     "evidence_event_ids": [
+      "theatre-8533784a56:e01699"
+     ]
+    },
+    "response": "",
+    "branch_id": "b23",
+    "raw_start": 358372,
+    "timestamp": "2026-09-25T05:54:13.692872+00:00",
+    "event_type": "ending_claim",
+    "session_id": "theatre-8533784a56",
+    "event_index": 1701,
+    "engine_state": "unchanged",
+    "story_sha256": "0fc8bdbfe929585cd0bb35883f511af5a61053f7fc8dfabdb32c7f10de5b7d80",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "theatre",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Theatre progress \u2014 SEGMENT 9 COMPLETE (b23 e1699 WON 47/50, verified ending)\nLocation: Outside Theatre e1698-1699, in car, WON. Do not restart.\nBranch: b23 WON. Full route: lobby portrait open door \u2192 gallery camera \u2192 cupboards photo shadow \u2192 understage green \u2192 lobby getall \u2192 pit \u2193 E junction SW D Trent show green \u2192 U NE SE sewer E E SE nest SE lair (3 eyes placed) put green top \u2192 dagger \u2192 NW nest drop amulet \u2192 NW W W NW SW D Trent earth/star/dagger \u2192 read page (journal, q exit) \u2192 ask goblin Elizabeth \u2192 drop all get dagger tablets \u2192 U NE NE NE Y (ceremony star trick, explosion) \u2192 mansion N give tablets Trent \u2192 get star D throw star (explosion loop) \u2192 lobby NW D (pager gone) U (Rienhart returns pager) SE S outside get in car WON.\nEnding e1699: get in car \u2192 drive off past sinister figure, *** You have won ***, 47/50 in 882 turns. Author-intended final narrative (time-loop resolved, car present, Rienhart alive, pager returned), NOT death (no *** died ***), NOT chapter (no continue), NOT quit (won prompt offers restart/restore/full/undo/quit post-win). Evidence: e01699 response + raw 357628-358372 sha 8d9c5b....\nInventory at win: nothing carried (loop reset, dagger/tablets left pre-loop, pager returned by Rienhart then? Actually pager given in office e1696, carried? Then outside? Win with ...? i not checked post-loop, but win text is evidence).\nCases seg9 DONE (20 annotated): balcony-chandelier world_state; lobby-northeast none; cloakroom-hook ambiguity; camera-typo vocab; shadow-photo none; understage-items syntax; get-green none; unlock-door syntax; trent-green none; lair-green-top none; lair-dagger none; dagger-look none; earth-crystal none; show-crystal ambiguity; star-dagger none; read-pages none; trent-elizabeth none; tablets-man none; enter-car none. Plus portrait-touch/open-door (route breakthrough, not annotated to save steps \u2014 touch ridges e1568, open door e1569). Total game cases 20-40+ across segments (seg8 6 + seg9 20 + earlier many).\nCheckpoints: endgame-dagger-tablets-b23, smoky-hall-star-b23, lair-4eyes-dagger-b23, lair-before-green, junction-green, above-pit-green, after-green-lobby, before-portrait-north (door open), + earlier lair-3eyes etc.\nStatus: COMPLETE, winning ending verified. Ready for finish action with e01699.\n"
+  },
+  {
+   "game_id": "theatre",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nTheatre R2/951203. Step guide by pjg does not state release. It has repeated actions and embedded SAVE GAME directions: use explicit broker checkpoints only at ordinary command prompts. Do not treat scene change/death as conclusion.\n\nFirst inspect current startup: answer any key pause or question before saving. Use small broker walkthrough hints. Label synthetic human-like mistakes and verify same-intent recovery effects. Keep coverage varied; do not repeat known failures merely to make more rows. A displayed menu requires its own navigation/exit before ordinary commands. Write progress only to progress.md, never to inbox/*.json; requests must be complete JSON. No training, application changes or publication.\n\n2026-09-25 03:44 UTC menu transport note: MENU INPUT: For a menu that says RETURN or Enter, send an empty command string (\"command\":\"\"). Do not spell RETURN, ENTER, SPACE or BACKSPACE as words. A literal space (\"command\":\" \") is a different key from Enter. The plain CLI passes the first byte of nonempty input; an empty line sends Return. Menu controls are not ordinary parser commands: consult the actual menu labels. Avoid optional HELP/file menus if collection-notes.md documents stalled transport; request a small broker walkthrough excerpt instead. If output times out, await_output only; never use another key to flush it.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "theatre-8533784a56:e00001",

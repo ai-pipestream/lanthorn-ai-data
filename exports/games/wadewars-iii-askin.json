@@ -9,6 +9,112 @@
   "wadewars-iii-askin"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "wadewars-iii-askin",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/wadewar3.z5",
+    "title": "The WadeWars Book III: Askin",
+    "engine": "zvm-cli",
+    "serial": "020512",
+    "game_id": "wadewars-iii-askin",
+    "release": 106,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Complete all five guide sections through Askin, the cloud journey and rescue of Uncle Seamore, then continue through the final return-machine sequence to actual concluding narrative. Reaching the uncle early can be a fatal route; meeting him, swapping with the statue or completing a chapter is not the ending. Preserve other genuine authored concluding variants if observed.",
+    "session_id": "wadewars-iii-askin-b613801aeb",
+    "started_at": "2026-09-25T08:35:11.327631+00:00",
+    "game_family": "wade-wars",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin-walkthrough.txt",
+    "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/wadewars-iii-askin.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/wadewar3walkthrough.txt",
+    "collection_notes": "# The WadeWars Book III: Askin\n\nStory Z5 R106/020512. Local Z5 R106/020512 exactly matches the archive binary/header. Author guide explicitly targets the Z-code version, not merely the earlier DOS release, but supplies no release/serial. Its archive date 2001-12-23 predates the story's R106/020512; exact edition coverage remains unverified. Despite Book III in the title, the author identifies this as the first completed book, not an unavailable preview.\n\nComplete all five guide sections through Askin, the cloud journey and rescue of Uncle Seamore, then continue through the final return-machine sequence to actual concluding narrative. Reaching the uncle early can be a fatal route; meeting him, swapping with the statue or completing a chapter is not the ending. Preserve other genuine authored concluding variants if observed.\n\nProtect needed inventory across the statue exchange; the guide specifically warns about losing the phosphorous crystal. Read live paper/basket codes and the sign needed to learn the spell, rather than assuming knowledge from the guide. Observe the short alternate-reality transition and final timing. The raw guide uses Windows-1252 punctuation; normalize encoding and line endings only, never puzzle commands.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "wadewars-iii-askin",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "wadewars-iii-askin",
+    "raw_end": 85772,
+    "event_id": "wadewars-iii-askin-b613801aeb:e00379",
+    "metadata": {
+     "notes": "Genuine winning ending: EPILOGUE reunion in kitchen (e00377) then 'you have won' with full 100/100 score (e00378), terminal RESTART/RESTORE/QUIT prompt. Completed all chapters: Askin statue swap, silver tower/orchard launch, cloud Laws audience, Edaw ring theft, uncle rescue, fire-ring escape and return. Not death (b1 e00358 death was recovered via restore to b2), not quitting, not chapter transition.",
+     "ending_quote": "*** you have won ***\n\n\n[In that game you scored 100 out of a possible 100, in 228 turns.]",
+     "evidence_event_ids": [
+      "wadewars-iii-askin-b613801aeb:e00377",
+      "wadewars-iii-askin-b613801aeb:e00378"
+     ]
+    },
+    "response": "",
+    "branch_id": "b2",
+    "raw_start": 85772,
+    "timestamp": "2026-09-25T09:06:25.376724+00:00",
+    "event_type": "ending_claim",
+    "session_id": "wadewars-iii-askin-b613801aeb",
+    "event_index": 379,
+    "engine_state": "unchanged",
+    "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "wadewars-iii-askin",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "wadewars-iii-askin",
+    "raw_end": 85772,
+    "event_id": "wadewars-iii-askin-b613801aeb:e00379",
+    "metadata": {
+     "notes": "Genuine winning ending: EPILOGUE reunion in kitchen (e00377) then 'you have won' with full 100/100 score (e00378), terminal RESTART/RESTORE/QUIT prompt. Completed all chapters: Askin statue swap, silver tower/orchard launch, cloud Laws audience, Edaw ring theft, uncle rescue, fire-ring escape and return. Not death (b1 e00358 death was recovered via restore to b2), not quitting, not chapter transition.",
+     "ending_quote": "*** you have won ***\n\n\n[In that game you scored 100 out of a possible 100, in 228 turns.]",
+     "evidence_event_ids": [
+      "wadewars-iii-askin-b613801aeb:e00377",
+      "wadewars-iii-askin-b613801aeb:e00378"
+     ]
+    },
+    "response": "",
+    "branch_id": "b2",
+    "raw_start": 85772,
+    "timestamp": "2026-09-25T09:06:25.376724+00:00",
+    "event_type": "ending_claim",
+    "session_id": "wadewars-iii-askin-b613801aeb",
+    "event_index": 379,
+    "engine_state": "unchanged",
+    "story_sha256": "69d8a431b070216e3225bd5d8a725b517ddfb8e452e2dca272c5dc924f95c1ff",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "wadewars-iii-askin",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 WadeWars III: Askin (branch b2, WON 100/100, COMPLETE)\n\n## Final\n- Result: *** you have won ***, 100/100 in 228 turns (e00378, branch b2)\n- Ending path: Ring of Fire PUSH RED (escape before fireballs) -> Moorh-Tab -> W -> Y-Duts -> auto Kitchen EPILOGUE (e00377) -> SPACE -> won (e00378)\n- Key finding: ritual timers are TURN-based; b1 died (e00358) because 2 extra probe turns (steal-ring e00345, give-it-him e00350) consumed the walkthrough's wait slack. b2 replay without extras matched walkthrough Z Z PUSH RED W exactly.\n- Checkpoints: chapter4-gargoyle restore -> b2; all milestones verified.\n\n## Cases (39 total, 39 annotated)\n- Seg1: case01-17 DONE. Seg2: case18-39 DONE (18 planning, 19 none, 20 none, 21 none, 22 ambiguity, 23 none, 24 none, 25 none, 26 none, 27 none, 28 none, 29 none, 30 planning, 31 vocabulary, 32 none, 33 ambiguity, 34 none, 35 syntax, 36 none, 37 vocabulary, 38 vocabulary, 39 ambiguity).\n- Types covered: vocabulary, syntax, ambiguity, planning, world_state (seg1), none-acceptances. No pending.\n\n## Hints\n- All walkthrough lines consumed through end (line 266 + blanks). Live verified: paper 1357, basket 3823, neon ezlwot, journal gargoyle/marbles, Laws' aids.\n"
+  },
+  {
+   "game_id": "wadewars-iii-askin",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The WadeWars Book III: Askin\n\nStory Z5 R106/020512. Local Z5 R106/020512 exactly matches the archive binary/header. Author guide explicitly targets the Z-code version, not merely the earlier DOS release, but supplies no release/serial. Its archive date 2001-12-23 predates the story's R106/020512; exact edition coverage remains unverified. Despite Book III in the title, the author identifies this as the first completed book, not an unavailable preview.\n\nComplete all five guide sections through Askin, the cloud journey and rescue of Uncle Seamore, then continue through the final return-machine sequence to actual concluding narrative. Reaching the uncle early can be a fatal route; meeting him, swapping with the statue or completing a chapter is not the ending. Preserve other genuine authored concluding variants if observed.\n\nProtect needed inventory across the statue exchange; the guide specifically warns about losing the phosphorous crystal. Read live paper/basket codes and the sign needed to learn the spell, rather than assuming knowledge from the guide. Observe the short alternate-reality transition and final timing. The raw guide uses Windows-1252 punctuation; normalize encoding and line endings only, never puzzle commands.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "wadewars-iii-askin-b613801aeb:e00001",

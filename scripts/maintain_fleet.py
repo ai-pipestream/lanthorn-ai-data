@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 import fcntl
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -16,6 +17,133 @@ CIRCUIT = CONTROL / 'circuit.json'
 LAUNCH_LOG = CONTROL / 'launch-log.jsonl'
 
 def digest(data): return hashlib.sha256(data).hexdigest()
+
+RECOVERY_BUDGET = 3        # auto-recoveries per game per 24h
+RECOVERY_WINDOW = 86400
+RECOVERABLE = ('Remote worker exited or failed to start',
+               'broker missing at grant', 'missing/duplicate broker')
+STALL_RUN_BUDGET = 6       # worker runs without checkpoint advance -> park for judgment
+
+def newest_checkpoint(gid, exclude=()):
+    # Checkpoint names embed the event index (auto-<session>-<index>) or a branch
+    # label, so the newest NAME only changes when the game actually advanced;
+    # the broker's periodic re-save of an unchanged index rewrites the same file.
+    sdir = ROOT / 'play' / gid / 'saves'
+    best, best_m = None, -1
+    skip = {n + '.sav.qzl' for n in exclude}
+    for q in sdir.glob('*/*.qzl'):
+        if q.name in skip: continue
+        try: m = q.stat().st_mtime
+        except OSError: continue
+        if m > best_m: best, best_m = q.name, m
+    return best[:-len('.sav.qzl')] if best else None
+
+def stall_check(gid, a):
+    w = a.get('worker') or {}
+    run = w.get('run')
+    marker = newest_checkpoint(gid)
+    st = dict(a.get('stall') or {})
+    if marker and st.get('marker') != marker:
+        st = {'marker': marker, 'runs': 0, 'last_run': run}
+    elif run and run != st.get('last_run') and a['state'] == 'running':
+        st['runs'] = st.get('runs', 0) + 1
+        st['last_run'] = run
+    a['stall'] = st
+    if st.get('runs', 0) >= STALL_RUN_BUDGET and a['state'] == 'running':
+        a.update(state='attention',
+                 error=f"stalled: {st['runs']} worker runs without checkpoint advance; needs judgment")
+
+def remote_handoff(gid, host):
+    # Clear the remote session fence so the next sync re-mirrors fresh, and reset
+    # a dead remote worker state (pending_requests/finished never auto-start) —
+    # post-recovery progress.md documents the cancelled requests, so absent is safe.
+    script = (f'cd "$HOME/lanthorn-muse/play/{gid}" 2>/dev/null && rm -f .bridge-state.json'
+              f' && mv -f manifest.json manifest.json.pre-recovery; '
+              f'python3 -c "\n'
+              f'import json, os\n'
+              f'from pathlib import Path\n'
+              f'p = Path.home()/\\"lanthorn-muse/state/{gid}.json\\"\n'
+              f's = json.loads(p.read_text()) if p.exists() else None\n'
+              f'dead = s is not None and not any(os.path.exists(f\\"/proc/{{s.get(k) or 0}}\\") for k in (\\"pid\\", \\"muse_pid\\"))\n'
+              f'p.rename(p.with_name(p.name + \\".pre-recovery\\")) if dead else None\n'
+              f'"')
+    try:
+        subprocess.run(['ssh', '-o', 'BatchMode=yes', '-o', 'ForwardAgent=no', '-o', 'ConnectTimeout=8',
+            host, script], capture_output=True, timeout=30)
+    except subprocess.TimeoutExpired: pass
+
+def auto_recover(gid, a):
+    # Checkpoint recovery for infra deaths (worker exit / broker expiry) on muse
+    # queue games. Never for cli=None originals, never over unresolved output,
+    # never past the per-day budget — those stay parked for supervised review.
+    base = ROOT / 'play' / gid
+    err = a.get('error') or ''
+    if a['state'] != 'attention' or a.get('cli') != 'muse': return
+    if not any(err.startswith(p) for p in RECOVERABLE): return
+    if (base / 'ending-claim.json').exists() or not (base / 'manifest.json').exists(): return
+    checkpoint = newest_checkpoint(gid, exclude=a.get('bad_checkpoints', ()))
+    if not checkpoint: return
+    now_ts = time.time()
+    if a.get('recovery_in_progress') and now_ts - a['recovery_in_progress'] < 900: return
+    _, live_brokers = inventory(processes())
+    if live_brokers.get(gid):
+        # A broker is already alive for this game (e.g. a just-finished recovery):
+        # never spawn a second one (recovery.lock would collide and burn budget).
+        # Adopt the manifest session if it moved, then return to ready.
+        m = json.loads((base / 'manifest.json').read_text())
+        if m.get('session_id') and m['session_id'] != a.get('session_id'):
+            remote_handoff(gid, a['host'])
+            a.update(session_id=m['session_id'], sent={})
+            a.pop('sent_host', None)
+        a.update(state='ready', error=None)
+        a.pop('worker', None)
+        return
+    tries = [t for t in a.get('auto_recoveries', []) if now_ts - t < RECOVERY_WINDOW]
+    if len(tries) >= RECOVERY_BUDGET:
+        a.update(error='auto-recovery budget exhausted (3/24h); supervised review required',
+                 auto_recoveries=tries)
+        return
+    manifest = json.loads((base / 'manifest.json').read_text())
+    entry = {k: v for k, v in manifest.items() if k not in
+             ('session_id', 'started_at', 'recovery', 'broker_guards', 'story_sha256', 'dataset_purpose')}
+    entry['recovery_checkpoint'] = checkpoint
+    entry['recovery_reason'] = f'auto-recovery by fleet manager: {err[:120]}'
+    cfg_path = CONTROL / f'recovery-{gid}.json'
+    write_json(cfg_path, {'games': [entry]})
+    a['auto_recoveries'] = tries + [now_ts]
+    a['recovery_in_progress'] = now_ts
+    with (ROOT / 'runs' / f'fleet-broker-{gid}.log').open('ab') as out:
+        subprocess.Popen(['python3', 'scripts/recover_broker.py', str(cfg_path), '--hours', '24'],
+             cwd=ROOT, stdin=subprocess.DEVNULL, stdout=out, stderr=out, start_new_session=True)
+    prev = manifest.get('session_id')
+    deadline = time.monotonic() + 90
+    new_session = None
+    while time.monotonic() < deadline:
+        try:
+            r = json.loads((base / 'recovery.json').read_text())
+            m = json.loads((base / 'manifest.json').read_text())
+            if r.get('session_id') != prev and m.get('session_id') == r.get('session_id'):
+                new_session = r['session_id']; break
+        except (OSError, ValueError): pass
+        time.sleep(1)
+    a.pop('recovery_in_progress', None)
+    if not new_session:
+        # A failed recovery can leave latest.json stamped with the aborted session
+        # while manifest.json keeps the old one (mixed-session mirror wedge). Patch
+        # latest.json back to the manifest session so mirroring stays consistent.
+        try:
+            lp = base / 'latest.json'
+            latest = json.loads(lp.read_text())
+            if latest.get('session_id') != a.get('session_id'):
+                latest['session_id'] = a['session_id']
+                write_json(lp, latest)
+        except (OSError, ValueError): pass
+        a['bad_checkpoints'] = list(a.get('bad_checkpoints', ())) + [checkpoint]
+        a['error'] = 'auto-recovery spawned but restore did not confirm; supervised review required'
+        return
+    remote_handoff(gid, a['host'])
+    a.update(session_id=new_session, state='ready', error=None, sent={})
+    for k in ('worker', 'sent_host'): a.pop(k, None)
 def assignments():
     p = CONTROL / 'assignments.json'
     return json.loads(p.read_text()) if p.exists() else {}
@@ -91,6 +219,10 @@ def sync_one(gid, assignment, start_ok=None):
     if a['state'] == 'complete': return gid, a
     base = ROOT / 'play' / gid
     try:
+        if a.get('sent_host') != a.get('host'):
+            # Host (re)assignment invalidates the mirror ledger: the new host has
+            # none of the files, so force a full re-mirror on this sync.
+            a['sent'] = {}
         files, hashes = {}, {}
         paths = [base / n for n in ['manifest.json', 'latest.json', 'events.jsonl', 'collection-notes.md', 'ending-claim.json']]
         paths += list((base / 'responses').glob('*.json'))
@@ -104,14 +236,22 @@ def sync_one(gid, assignment, start_ok=None):
         session = json.loads((base / 'manifest.json').read_text())['session_id']
         if session != a['session_id']:
             raise ValueError('assignment/central session mismatch; explicit recovery handoff required')
-        _, brokers = inventory(processes())
-        completed = (base / 'ending-claim.json').exists()
-        if not completed and len(brokers.get(gid, [])) != 1: raise ValueError('missing/duplicate broker; slot retained')
         counter = CONTROL / (gid + '-revision.json')
         previous = json.loads(counter.read_text())['revision'] if counter.exists() else 0
         revision = max(time.time_ns(), previous + 1)
         write_json(counter, {'revision': revision, 'session_id': session})
         start = a['state'] == 'ready' and (start_ok is None or gid in start_ok)
+        _, brokers = inventory(processes())
+        completed = (base / 'ending-claim.json').exists()
+        live = len(brokers.get(gid, []))
+        if not completed and live != 1:
+            if start:
+                # Granted a slot with no single live broker: never blind-spawn over
+                # an existing session dir; supervised recovery decides.
+                a.update(state='attention', error='broker missing at grant; supervised recovery required')
+                return gid, a
+            # Otherwise let the rpc resolve worker state first; the broker error
+            # is recorded below so a dead broker can no longer mask a dead worker.
         if a.get('cli') == 'kimi' and a['state'] == 'attention' and (a.get('worker') or {}).get('state') == 'quota_pause':
             # Quota pause is a known-safe resume point: back off 30 min, then ask the
             # remote for a fresh worker. Not a blind restart of a sick game.
@@ -125,6 +265,8 @@ def sync_one(gid, assignment, start_ok=None):
         if json.loads((base / 'manifest.json').read_text())['session_id'] != session:
             raise ValueError('session changed during RPC; no requests/progress imported')
         a['sent'] = hashes
+        a['sent_host'] = a.get('host')
+        a.pop('broker_spawn_attempts', None)
         for name, encoded in out.get('requests', {}).items(): accept_request(base, name, base64.b64decode(encoded, validate=True), session)
         if 'progress' in out:
             p = base / 'progress.md'; tmp = p.with_suffix('.bridge-tmp'); tmp.write_text(out['progress']); tmp.replace(p)
@@ -135,9 +277,17 @@ def sync_one(gid, assignment, start_ok=None):
         elif out['worker']['alive']: a['state'] = 'running'
         elif a['state'] == 'ready' and not start:
             pass  # Queued behind a full host; stay ready until a slot grants a start.
+        elif not completed and a.get('cli') is not None and (out['worker'] or {}).get('state') == 'segments_exhausted':
+            # Healthy segment churn: the worker finished its 12 segments mid-game.
+            # Stay/return to ready so the next slot grant starts a fresh worker.
+            # (cli=None originals never auto-requeue: they await supervised recovery.)
+            a.update(state='ready', error=None)
         else: a.update(state='attention', error='Remote worker exited or failed to start; no blind restart')
+        stall_check(gid, a)
         history = [json.loads(l) for l in (base / 'events.jsonl').read_text().splitlines()]
         if input_state(history) == 'no_output_timeout': a['error'] = 'Unresolved output; await_output only'
+        if not completed and live != 1 and a.get('error') is None:
+            a['error'] = 'missing/duplicate broker; slot retained'
     except Exception as exc: a.update(error=str(exc), last_error_at=now())
     return gid, a
 
@@ -185,6 +335,14 @@ def tick():
               and now_ts - float(a['quota_pause_since']) >= 1800):
             start_ok.add(gid); free[h] -= 1
     with ThreadPoolExecutor(max_workers=8) as ex: records = dict(ex.map(lambda pair: sync_one(*pair, start_ok), list(records.items())))
+    _, live_brokers = inventory(processes())
+    for bgid, ba in records.items():
+        if ba['state'] == 'complete':
+            for bpid in live_brokers.get(bgid, []):
+                try: os.kill(bpid, 15)
+                except OSError: pass
+    if cfg['enabled'] and not circuit_open():
+        for rgid, ra in records.items(): auto_recover(rgid, ra)
     write_json(CONTROL / 'assignments.json', records)
     circuit_update(records)
     if cfg['enabled'] and not circuit_open():

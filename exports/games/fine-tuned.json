@@ -19,18 +19,170 @@
   {
    "game_id": "fine-tuned-kimi",
    "cli": "muse",
-   "state": "ready",
+   "state": "running",
    "host": "cm5ai1"
+  }
+ ],
+ "files": [
+  {
+   "game_id": "fine-tuned",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/FineTune.z8",
+    "title": "Fine-Tuned",
+    "engine": "zvm-cli",
+    "serial": "020520",
+    "game_id": "fine-tuned",
+    "release": 8,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.",
+    "session_id": "fine-tuned-989503b0a7",
+    "started_at": "2026-09-25T06:54:26.600350+00:00",
+    "game_family": "fine-tuned",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned-walkthrough.txt",
+    "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/FineTune.sol",
+    "collection_notes": "# Fine-Tuned\n\nStory Z8 R8/020520. Local R8/020520 matches archive binary and title/author. The author guide header explicitly says release 6 and sample complete walkthrough; no serial. Its archive upload date matches R8, but the body still targets R6, so preserve the two-release gap rather than assuming it was updated.\n\nFollow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.\n\nAuthor labels the route complete but unoptimized; the command-only guide omits many reasons and scene prompts. Blank lines and repeated waits are not directions to flush transport. Respond to observed questions and state before following later steps, and request only short excerpts. Take safe checkpoints before travel, captivity and rescue sequences.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "fine-tuned",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "fine-tuned",
+    "raw_end": 144985,
+    "event_id": "fine-tuned-989503b0a7:e00827",
+    "metadata": {
+     "topic": "Side Yard climb trellis skylight vent wall hatch keys ordering",
+     "reason": "In Side Yard b1 ordinary prompt e826 (examine trellis confirms firmly attached climbs to roof). Intend walkthrough exterior route climb trellis then skylight/vent/wall/hatch to keys. Earlier 'climb trellis' twice refused professor-respect e665/e666, interior 'open hatch' not-strong-enough e799, self-gift juggles. Need what lifts climb/strength block or correct ordering vs gift prerequisite.",
+     "line_end": 257,
+     "hint_text": "n\nclimb trellis\n\nlook through skylight\nopen vent\nclimb wall\nopen hatch\nenter hatch\nd",
+     "line_start": 249,
+     "hint_source": "https://ifarchive.org/if-archive/solutions/FineTune.sol",
+     "source_kind": "walkthrough_not_player_observed",
+     "help_trigger": "stuck",
+     "_fleet_session_id": "fine-tuned-989503b0a7",
+     "related_event_ids": [
+      "fine-tuned-989503b0a7:e00826",
+      "fine-tuned-989503b0a7:e00799"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 144985,
+    "timestamp": "2026-09-26T01:13:58.527086+00:00",
+    "event_type": "help",
+    "session_id": "fine-tuned-989503b0a7",
+    "event_index": 827,
+    "engine_state": "unchanged",
+    "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "fine-tuned",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Fine-Tuned progress (m0810 PENDING help trellis/hatch ordering - game incomplete, Side Yard b1, ordinary prompt e826)\n\nLocation b1: Side Yard e826 ('examine trellis' duplicate of e669: firmly attached climbs to roof). Ordinary prompt '>'. Last game output e826.\nState: m0809 DONE e826; m0810 PENDING help trellis/hatch ordering. Inbox m0810.json valid, not yet serviced. Latest e826 (verify on resume). Do NOT resubmit m0632-m0810 or duplicate m0810.\nInventory: letter opener, rose blossom, hanky, tin pot, clippings, artifact, manuscript, purse(open)+coin+programme (per e713).\nHistory: e825 se to Side Yard; e826 examine trellis (duplicate, establishes no new info, reuse e669 knowledge); climb trellis x2 refused respect e665/e666; open hatch strength-block e799; open side door locked.\nResume: read latest.json and responses/m0810.json when present. Pending m0810 only. Next: follow help excerpt (small, \u22649 lines), then single intent-preserving correction; annotate linked pair with event IDs.\nCheckpoints sideyard-b1 GOOD e808-e809, garden-path-b1 GOOD e771-e773, foyer-return-b1 GOOD e788/e789, garret-b1 GOOD e725/e726, upstairs-hall-b1 GOOD e719/e720.\n"
+  },
+  {
+   "game_id": "fine-tuned",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Fine-Tuned\n\nStory Z8 R8/020520. Local R8/020520 matches archive binary and title/author. The author guide header explicitly says release 6 and sample complete walkthrough; no serial. Its archive upload date matches R8, but the body still targets R6, so preserve the two-release gap rather than assuming it was updated.\n\nFollow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.\n\nAuthor labels the route complete but unoptimized; the command-only guide omits many reasons and scene prompts. Blank lines and repeated waits are not directions to flush transport. Respond to observed questions and state before following later steps, and request only short excerpts. Take safe checkpoints before travel, captivity and rescue sequences.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "fine-tuned-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/FineTune.z8",
+    "title": "Fine-Tuned",
+    "engine": "zvm-cli",
+    "serial": "020520",
+    "game_id": "fine-tuned-kimi",
+    "release": 8,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.",
+    "session_id": "fine-tuned-kimi-e06190431a",
+    "started_at": "2026-09-27T10:48:02.328421+00:00",
+    "game_family": "fine-tuned",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned-walkthrough.txt",
+    "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/fine-tuned.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/FineTune.sol",
+    "collection_notes": "# Fine-Tuned\n\nStory Z8 R8/020520. Local R8/020520 matches archive binary and title/author. The author guide header explicitly says release 6 and sample complete walkthrough; no serial. Its archive upload date matches R8, but the body still targets R6, so preserve the two-release gap rather than assuming it was updated.\n\nFollow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.\n\nAuthor labels the route complete but unoptimized; the command-only guide omits many reasons and scene prompts. Blank lines and repeated waits are not directions to flush transport. Respond to observed questions and state before following later steps, and request only short excerpts. Take safe checkpoints before travel, captivity and rescue sequences.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "fine-tuned-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "fine-tuned-kimi",
+    "raw_end": 204,
+    "event_id": "fine-tuned-kimi-e06190431a:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\nThe life of a daredevil adventurer leaves precious little time for rest. \nThere's always wickedness to thwart, innocence to preserve, and honour to \nuphold.\n\n[Type H for help or any other key to begin.]\n",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:48:02.328260+00:00",
+    "event_type": "startup",
+    "session_id": "fine-tuned-kimi-e06190431a",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08",
+    "review_status": "unreviewed",
+    "response_sha256": "00441510598a34dea4644e5e8d47f64718b1b06f61fa63b272a86dfa5f78fe1b"
+   },
+   "text": null
+  },
+  {
+   "game_id": "fine-tuned-kimi",
+   "name": "progress.md",
+   "content": null,
+   "text": "# progress.md \u2014 fine-tuned-kimi\n\nStatus: blocked, game not started \u2014 no broker files present.\n\nObserved (2026-09-28, continuation run):\n- Workspace root contains only progress.md.\n- manifest.json, latest.json, collection-notes.md, supervisor-hint.json all still missing (read_file: No such file or directory).\n- muse.search (hidden=true, no_ignore=true) for `manifest|latest|inbox|supervisor|collection` returns no files; search for `progress` returns only progress.md.\n- Shell tools disabled for this session, so verification is limited to read/search tools.\n- No inbox/ request submitted: without manifest/latest there is no known game state, no case IDs, no event IDs, and no prompt confirmation; submitting blind commands would risk violating the protocol (e.g. injecting into a menu/pause).\n\nNext actions for continuation run:\n- Verify broker setup: manifest.json, latest.json, and inbox//responses/ directories should exist under the workspace root.\n- If paths differ, record the actual layout here before issuing any command request.\n- Do not restart or forge responses; resume from actual state once broker files appear.\n\nUpdate 2026-09-28T12:00Z:\n- Re-checked manifest.json, latest.json, collection-notes.md: still absent.\n- Confirmed via search that no inbox/, responses/, events.jsonl, or supervisor-hint.json exist.\n- Stopping honestly with game incomplete; awaiting broker setup. No requests submitted, no state modified.\n\nUpdate 2026-09-28 (later continuation run):\n- Re-checked manifest.json, latest.json, collection-notes.md via read_file: still absent.\n- muse.search confirms workspace holds only progress.md; no inbox/, responses/, events.jsonl, or supervisor-hint.json.\n- Stopping honestly with game incomplete; awaiting broker setup. No requests submitted, no game input sent, no evidence forged.\n\nUpdate 2026-09-28T12:01Z (session 01a0e5c1):\n- Re-checked manifest.json, latest.json, collection-notes.md via read_file: still absent.\n- muse.search (hidden=true, no_ignore=true, pattern '.') confirms workspace holds only progress.md; no inbox/, responses/, events.jsonl, or supervisor-hint.json.\n- Stopping honestly with game incomplete; awaiting broker setup. No requests submitted, no game input sent, no evidence forged.\n\nUpdate 2026-09-28 (session 01a0e5c2):\n- Re-checked manifest.json, latest.json, collection-notes.md via read_file: still absent.\n- muse.search (hidden=true, no_ignore=true) confirms workspace holds only progress.md; no inbox/, responses/, events.jsonl, or supervisor-hint.json.\n- Shell tools disabled; verification limited to read/search tools.\n- Stopping honestly with game incomplete; awaiting broker setup. No requests submitted, no game input sent, no evidence forged.\n\nUpdate 2026-09-28T12:02Z (session 01a0e5c2-c575-7ec3-afe2-fa48cd2ab383):\n- Re-checked manifest.json, latest.json, collection-notes.md via read_file: still absent.\n- muse.search (hidden=true, no_ignore=true, pattern '.') matches only progress.md content lines; no broker files present.\n- Stopping honestly with game incomplete; awaiting broker setup. No requests submitted, no game input sent, no evidence forged.\n"
+  },
+  {
+   "game_id": "fine-tuned-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Fine-Tuned\n\nStory Z8 R8/020520. Local R8/020520 matches archive binary and title/author. The author guide header explicitly says release 6 and sample complete walkthrough; no serial. Its archive upload date matches R8, but the body still targets R6, so preserve the two-release gap rather than assuming it was updated.\n\nFollow the author's complete automobile, artifact, rescue and professor route through the later reconciliation/horse/music sequence and final PLAY action, then require the resulting genuine concluding narrative or epilogue. Rescue, chapter changes, a musical response or a score alone does not prove completion. Preserve a genuine alternate intended finale if observed and identify it accurately rather than force a different outcome.\n\nAuthor labels the route complete but unoptimized; the command-only guide omits many reasons and scene prompts. Blank lines and repeated waits are not directions to flush transport. Respond to observed questions and state before following later steps, and request only short excerpts. Take safe checkpoints before travel, captivity and rescue sequences.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n"
   }
  ],
  "events": [
   {
-   "event_id": "fine-tuned-989503b0a7:e00001",
-   "game_id": "fine-tuned",
-   "session_id": "fine-tuned-989503b0a7",
+   "event_id": "fine-tuned-kimi-e06190431a:e00001",
+   "game_id": "fine-tuned-kimi",
+   "session_id": "fine-tuned-kimi-e06190431a",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T06:54:26.6+00:00",
+   "timestamp_utc_ms": "2026-09-27T10:48:02.328+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +199,12 @@
    "story_sha256": "c0d422d29e6409842e5453611e9ebd82e13199bf722b311bbd59d265b13ddd08"
   },
   {
-   "event_id": "fine-tuned-kimi-e06190431a:e00001",
-   "game_id": "fine-tuned-kimi",
-   "session_id": "fine-tuned-kimi-e06190431a",
+   "event_id": "fine-tuned-989503b0a7:e00001",
+   "game_id": "fine-tuned",
+   "session_id": "fine-tuned-989503b0a7",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T10:48:02.328+00:00",
+   "timestamp_utc_ms": "2026-09-25T06:54:26.6+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",

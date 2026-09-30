@@ -23,6 +23,155 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "not-just-a-game",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/njag.z5",
+    "title": "Not Just A Game",
+    "engine": "zvm-cli",
+    "serial": "210603",
+    "game_id": "not-just-a-game",
+    "release": 3,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.",
+    "session_id": "not-just-a-game-8201b5a6d4",
+    "started_at": "2026-09-25T07:49:53.530465+00:00",
+    "game_family": "not-just-a-game",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/not-just-a-game-walkthrough.txt",
+    "story_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/not-just-a-game.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/njag_walkthru.txt",
+    "collection_notes": "# Not Just A Game\n\nStory Z5 R3/210603. Local R3/210603 is byte-identical to the archive story. Archive identifies this as John Menichelli's game and author walkthrough with matching IFDB fg73hgne2htwpbak; both were archived 2021-06-03. Guide body supplies no release/serial, so the shared archive date does not prove exact version coverage.\n\nFollow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.\n\nRead safe numbers from the in-game card; never send the guide's angle-bracket placeholders. Its long lines combine many actions, so request small topic-specific help excerpts and send one command at a time around questions, machinery and irreversible steps. Adapt noun references from actual output. Use early and milestone checkpoints at confirmed safe ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "not-just-a-game",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "not-just-a-game",
+    "raw_end": 55847,
+    "event_id": "not-just-a-game-8201b5a6d4:e00409",
+    "metadata": {
+     "notes": "'clear board' refused ('You're unable to.'); 'reset board' emptied the board to only + markers. Same intent, mechanic-specific verb required.",
+     "intent": "Remove all placed stones from the Go board",
+     "case_id": "board-reset-clear",
+     "event_ids": [
+      "not-just-a-game-8201b5a6d4:e00407",
+      "not-just-a-game-8201b5a6d4:e00408"
+     ],
+     "suggestion": "Did you mean 'reset board'?",
+     "failure_type": "vocabulary",
+     "label_source": "muse_unreviewed",
+     "failed_event_id": "not-just-a-game-8201b5a6d4:e00407",
+     "synthetic_probe": true,
+     "intent_preserved": "yes",
+     "observed_outcome": "success",
+     "_fleet_session_id": "not-just-a-game-8201b5a6d4",
+     "corrected_event_id": "not-just-a-game-8201b5a6d4:e00408"
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 55847,
+    "timestamp": "2026-09-25T09:45:38.980602+00:00",
+    "event_type": "annotation",
+    "session_id": "not-just-a-game-8201b5a6d4",
+    "event_index": 409,
+    "engine_state": "unchanged",
+    "story_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "not-just-a-game",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Not Just A Game \u2014 progress\n\nState: Dim Chamber at board, ordinary prompt. Gold stone placed E5 (e00402, short form accepted) and captured E5 (e00405: silver stones auto-placed, gold faded, rumbling). Board now shows O whites (G7 group) + S silvers around E5. Score ~18. Branch b0. Game INCOMPLETE (reset board + white cube + crystal E7 + spheres 72/68 + final narrative remain). Annotation m0364 pending (capture-gold pair).\nRoute since after-pour: N HotZone, U hole, S S, Wx6, SW to Dim Chamber \u2014 complete.\nCases: ~75 total. Last annotations: gold-e5-short none (e00403 confirmed); capture-gold syntax pending.\nCheckpoints (confirmed): start-living-room, before-safe, after-lever, after-capture, after-fuse, after-glass, before-power-debug, oven-ingot-ready, after-waterwheel, after-bat, after-pour. RESUME: continue b0 from Dim Chamber board.\nIN-FLIGHT: m0364 annotate (capture-gold pair). Next new file inbox/m0365.json.\nNEXT: (1) RESET BOARD \u2014 probe synonym first e.g. 'clear board', then canonical 'reset board'; verify board empties. (2) White cube on block, crystal E7, spheres 72/68, finish only on authored concluding narrative.\nInventory (last observed + silver used): carried ~ rod+gum, gloves(worn), black cube, green cube, red ball, card, booklet, matches, bat, fuse, silver stones (4 placed on board at capture? verify with inventory after reset).\n"
+  },
+  {
+   "game_id": "not-just-a-game",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Not Just A Game\n\nStory Z5 R3/210603. Local R3/210603 is byte-identical to the archive story. Archive identifies this as John Menichelli's game and author walkthrough with matching IFDB fg73hgne2htwpbak; both were archived 2021-06-03. Guide body supplies no release/serial, so the shared archive date does not prove exact version coverage.\n\nFollow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.\n\nRead safe numbers from the in-game card; never send the guide's angle-bracket placeholders. Its long lines combine many actions, so request small topic-specific help excerpts and send one command at a time around questions, machinery and irreversible steps. Adapt noun references from actual output. Use early and milestone checkpoints at confirmed safe ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "not-just-a-game-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/njag.z5",
+    "title": "Not Just A Game",
+    "engine": "zvm-cli",
+    "serial": "210603",
+    "game_id": "not-just-a-game-kimi",
+    "release": 3,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Follow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.",
+    "session_id": "not-just-a-game-kimi-8f8cc5a5ce",
+    "started_at": "2026-09-27T10:49:23.779171+00:00",
+    "game_family": "not-just-a-game",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/not-just-a-game-walkthrough.txt",
+    "story_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-e-20260925/not-just-a-game.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/njag_walkthru.txt",
+    "collection_notes": "# Not Just A Game\n\nStory Z5 R3/210603. Local R3/210603 is byte-identical to the archive story. Archive identifies this as John Menichelli's game and author walkthrough with matching IFDB fg73hgne2htwpbak; both were archived 2021-06-03. Guide body supplies no release/serial, so the shared archive date does not prove exact version coverage.\n\nFollow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.\n\nRead safe numbers from the in-game card; never send the guide's angle-bracket placeholders. Its long lines combine many actions, so request small topic-specific help excerpts and send one command at a time around questions, machinery and irreversible steps. Adapt noun references from actual output. Use early and milestone checkpoints at confirmed safe ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "not-just-a-game-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "not-just-a-game-kimi",
+    "raw_end": 1242,
+    "event_id": "not-just-a-game-kimi-8f8cc5a5ce:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\nIt is time for your weekly Go lesson. You have been coming to your teacher's \nhome for the past six months and though she isn't extravagant with her praise, \nyou feel that your game is improving. \n\nSmiling inwardly, you remember your teacher's words the last time you called Go \na 'game'. \"A 'game'!\" she said. \"Go is not just a game - it is a reflection of \nyour inner self!\" \n\nBut you sense that something is wrong: your teacher doesn't answer your knock, \nand in fact the front door is unlocked. Curious, you step inside...\n\n\nNot Just A Game\nCopyright (c) 2000 by John Menichelli \nFor more information type \"HELP\" \nFor hints type \"HINT\"\n\nRelease 3 / Serial number 210603 / Inform v6.35 Library v6.12.4 \n\nLiving Room\nThe living room is tastefully decorated. The furniture is arranged to make \nmaximum use of the limited space. A bookshelf takes up one wall, while a sofa \nand end table are pushed up against another. Directly across from the sofa is a \ntelevision.\n\nOn your last visit, a large wooden Go board occupied the space between the sofa \nand the TV, but now it's missing. The only thing left in its place are a pair \nof wooden Go bowls.\n\nThe front door is to the north, the kitchen is east and the bedroom lies to the \nsouth.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:49:23.778984+00:00",
+    "event_type": "startup",
+    "session_id": "not-just-a-game-kimi-8f8cc5a5ce",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "b7def3e44f1899f1829c7662354932a9906558ed8a7cdb621db7101934e315fa",
+    "review_status": "unreviewed",
+    "response_sha256": "2daf8c6a4d2d2ceac991a032c7a30c8ca0246eb07429974d2affa139124c66c5"
+   },
+   "text": null
+  },
+  {
+   "game_id": "not-just-a-game-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Not Just A Game\n\nStory Z5 R3/210603. Local R3/210603 is byte-identical to the archive story. Archive identifies this as John Menichelli's game and author walkthrough with matching IFDB fg73hgne2htwpbak; both were archived 2021-06-03. Guide body supplies no release/serial, so the shared archive date does not prove exact version coverage.\n\nFollow the full teacher's-house, board, underground mechanisms, cube and crystal-stone route through the final white/black sphere placement and require the resulting authored concluding narrative. Opening the safe, resetting a board, finishing one cube branch or placing a sphere without the final conclusion is insufficient.\n\nRead safe numbers from the in-game card; never send the guide's angle-bracket placeholders. Its long lines combine many actions, so request small topic-specific help excerpts and send one command at a time around questions, machinery and irreversible steps. Adapt noun references from actual output. Use early and milestone checkpoints at confirmed safe ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "not-just-a-game-8201b5a6d4:e00001",
