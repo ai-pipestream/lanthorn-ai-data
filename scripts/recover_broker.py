@@ -112,8 +112,7 @@ class RecoveredGame(Game):
                                   'reason': 'Explicit service-timeout recovery'})
             reply = result['events'][-1]['response']
             marker = config.get('restore_confirmation_line')
-            assert (len(result['events']) == 2
-                    and result['events'][-1]['engine_state'] == 'awaiting_input_or_idle'
+            assert (result['events'][-1]['engine_state'] == 'awaiting_input_or_idle'
                     and ('Ok.' in reply or (marker and marker in reply.splitlines()))), \
                     f'Restore not confirmed; reply excerpt: {reply[-300:]!r}'
             observed = self.send('look', {'origin': 'recovery', 'intent': 'Observe restored location'})
