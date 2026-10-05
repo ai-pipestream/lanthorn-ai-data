@@ -9,6 +9,107 @@
   "photopia"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "photopia",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/photopia.z5",
+    "title": "Photopia",
+    "engine": "zvm-cli",
+    "serial": "120416",
+    "game_id": "photopia",
+    "release": 1,
+    "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+    "session_id": "photopia-74a27d1cb7",
+    "started_at": "2026-09-25T01:54:48.871132+00:00",
+    "game_family": "photopia",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/photopia-walkthrough.txt",
+    "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/photopia.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/photopia.sol",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+    "story_sha256_expected": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "photopia",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "photopia",
+    "raw_end": 51560,
+    "event_id": "photopia-74a27d1cb7:e00223",
+    "metadata": {
+     "notes": "Full playthrough ending in the nursery: good-night to Alley in the crib, lights out, then the PHOTOPIA/by Adam Cadre title banner. Verified in latest.json and stdout.raw. Author-intended final conclusion, not death, chapter card, or quit.",
+     "ending_quote": "You turn out the light.",
+     "evidence_event_ids": [
+      "photopia-74a27d1cb7:e00219",
+      "photopia-74a27d1cb7:e00220"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 51560,
+    "timestamp": "2026-09-25T02:20:54.940541+00:00",
+    "event_type": "ending_claim",
+    "session_id": "photopia-74a27d1cb7",
+    "event_index": 223,
+    "engine_state": "unchanged",
+    "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "photopia",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "photopia",
+    "raw_end": 51560,
+    "event_id": "photopia-74a27d1cb7:e00223",
+    "metadata": {
+     "notes": "Full playthrough ending in the nursery: good-night to Alley in the crib, lights out, then the PHOTOPIA/by Adam Cadre title banner. Verified in latest.json and stdout.raw. Author-intended final conclusion, not death, chapter card, or quit.",
+     "ending_quote": "You turn out the light.",
+     "evidence_event_ids": [
+      "photopia-74a27d1cb7:e00219",
+      "photopia-74a27d1cb7:e00220"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 51560,
+    "timestamp": "2026-09-25T02:20:54.940541+00:00",
+    "event_type": "ending_claim",
+    "session_id": "photopia-74a27d1cb7",
+    "event_index": 223,
+    "engine_state": "unchanged",
+    "story_sha256": "ba14a14dfdede4b7ad97846c13ca0ea07048334ac767649d9aa84add7fae20a5",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "photopia",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Photopia progress \u2014 COMPLETE\n\nLocation: Nursery finale. Photopia screen cycled (stars, RGB circles), lights out, title banner shown.\nRoute to ending: bedroom ideas Q (dreams) -> PURPLE transcript (queen = older Alley, dead realms) -> parents home, Wendy kissed, Alley leaves to Jim's car -> nursery (Alley's crib, Photopia LCD, remote) -> push white button x2 (stars, RGB) -> turn off light (\"Good night, Alley. Sleep well. You turn out the light.\") -> PHOTOPIA / by Adam Cadre banner (e220, raw lines 1313-1314).\nCheckpoints: 13 total incl. nursery-final (all Saved/Ok). Cases annotated: 29 (typos, synonyms, ambiguity x3, omitted args, wrong objects, blocked/prereq chains, compass/exit, dark, souvenir limit, conversation syntax, again-adverb). Unprobed urgent beats: pool CPR, wolf charge, spotlight heat (canonical-first per protocol).\nStatus: genuine winning ending verified in latest.json (e00220) and stdout.raw. Ready for finish.\n"
+  },
+  {
+   "game_id": "photopia",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nExact local build: Photopia 1.30, Z-machine release1/120416, a stripped-down online edition, not Glulx2.01. Startup asks whether you want instructions; answer that question before parser actions. Some scene breaks ask for a key; send one space only when the actual prompt calls for it. The guide does not specify this release, so each hint must be verified. Pursue the final nursery conclusion, not an intermediate accident or colored scene transition.\n\nCollect varied synthetic command mistakes with explicit intent and actual failed/recovery responses. All labels start unreviewed. Ask for small walkthrough excerpts only as needed. Never read the full guide outside the broker or publish/train on this material. Preserve checkpoints and evidence.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "photopia-74a27d1cb7:e00001",

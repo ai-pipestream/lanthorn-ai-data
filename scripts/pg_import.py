@@ -50,6 +50,9 @@ CREATE TABLE IF NOT EXISTS judgments (
   created_at text, record jsonb);
 CREATE TABLE IF NOT EXISTS case_tags (
   game_id text PRIMARY KEY, record jsonb);
+CREATE TABLE IF NOT EXISTS game_files (
+  game_id text, name text, content jsonb, text_content text,
+  PRIMARY KEY (game_id, name));
 CREATE TABLE IF NOT EXISTS import_log (
   at timestamptz DEFAULT now(), source text, rows integer);
 """
@@ -81,6 +84,8 @@ def copy_csv(pw, table, cols, path):
 
 def tsv(fields):
     def esc(v):
+        if v is None:
+            return '\\N'
         return str(v).replace('\\', '\\\\').replace('\t', '\\t').replace('\n', '\\n').replace('\r', '\\r')
     return '\t'.join(esc(f) for f in fields)
 
@@ -190,6 +195,25 @@ def main():
     psql('TRUNCATE fleet_state', pw)
     psql('\\copy fleet_state FROM stdin', pw, stdin=rows)
     counts['fleet_state'] = len(fa)
+    gf_rows = []
+    for d in sorted((ROOT / 'play').iterdir()):
+        if not d.is_dir():
+            continue
+        for name in ('manifest.json', 'latest.json', 'ending-claim.json'):
+            p = d / name
+            if p.exists():
+                try:
+                    gf_rows.append(tsv([d.name, name, p.read_text(), None]))
+                except Exception:
+                    pass
+        for name in ('progress.md', 'collection-notes.md'):
+            p = d / name
+            if p.exists():
+                gf_rows.append(tsv([d.name, name, None, p.read_text()]))
+    psql('TRUNCATE game_files', pw)
+    if gf_rows:
+        psql('\\copy game_files FROM stdin', pw, stdin='\n'.join(gf_rows))
+    counts['game_files'] = len(gf_rows)
     print(json.dumps(counts))
 
 

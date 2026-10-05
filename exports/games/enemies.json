@@ -19,18 +19,168 @@
   {
    "game_id": "enemies-kimi",
    "cli": "muse",
-   "state": "running",
+   "state": "attention",
    "host": "cm5ai1"
+  }
+ ],
+ "files": [
+  {
+   "game_id": "enemies",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Enemies.z8",
+    "title": "Enemies",
+    "engine": "zvm-cli",
+    "serial": "990115",
+    "game_id": "enemies",
+    "release": 4,
+    "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Follow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.",
+    "session_id": "enemies-0b4aba49fe",
+    "started_at": "2026-09-25T06:13:12.646872+00:00",
+    "game_family": "enemies",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/enemies-walkthrough.txt",
+    "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/enemies.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Enemies.sol",
+    "collection_notes": "# Enemies\n\nStory Z8 R4/990115. Guide explicitly R4/990115, exact local header match. It warns of crashes on some interpreters, random puzzle values, and tightly timed late scenes. No runtime smoke was performed.\n\nFollow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.\n\nGuide estimates about 570 moves. Derive random canister/locker/bomb/pricing/lock values from observed clues; never send placeholders. Take verified checkpoints before time-critical scenes and avoid synthetic probes inside them. Report an interpreter fault rather than hiding it with extra commands.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "enemies",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "enemies",
+    "raw_end": 95781,
+    "event_id": "enemies-0b4aba49fe:e00568",
+    "metadata": {
+     "notes": "'shut freezer' accepted e567 closing unit; synonym for close freezer works.",
+     "intent": "Close the heavy-duty freezer unit",
+     "case_id": "freezer-shut",
+     "event_ids": [
+      "enemies-0b4aba49fe:e00567"
+     ],
+     "suggestion": "Did you mean 'shut freezer'?",
+     "failure_type": "none",
+     "label_source": "muse_unreviewed",
+     "failed_event_id": "enemies-0b4aba49fe:e00567",
+     "synthetic_probe": true,
+     "intent_preserved": "yes",
+     "observed_outcome": "success",
+     "_fleet_session_id": "enemies-0b4aba49fe",
+     "corrected_event_id": "enemies-0b4aba49fe:e00567"
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 95781,
+    "timestamp": "2026-09-25T09:44:36.618255+00:00",
+    "event_type": "annotation",
+    "session_id": "enemies-0b4aba49fe",
+    "event_index": 568,
+    "engine_state": "unchanged",
+    "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "enemies",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Enemies progress \u2014 Freezer North s40 e568; STOPPED, game incomplete\n\nBranch b1. Location: Freezer Room, North End (freezer unit closed) e567-568. Score 40. Ordinary prompt \">\". No pending requests (m0534 serviced e568).\nState: s39 checkpoint done; N to North End via \"go north\" e553; typo \"open frezer\" e555 rejected then \"open freezer\" e556 opened; \"look inside freezer\" e558 ice only then \"search ice\" e559 found female body; \"look at body\" e561 bolt + appointment book; \"look at book\" e563 AMBER DONOVAN 1/40; checkpoint freezer-book-s40 verified e565/566; \"shut freezer\" e567 closed unit.\nLast hint e552 lines 334-342: N / Open freezer then search ice / X body then read book (1/40) / Close freezer. S / S. Close door. Done through Close freezer; remaining S, S, Close door then need next excerpt after line 342 toward escape/crane/final NE.\nNext (do not replay blindly): single commands: S to South End, S to Kitchens, close door (freezer room door), then help for lines 342-350, inventory check. No SAVE inside pauses/menus. Timed late scenes: fresh checkpoint before risk.\nCheckpoints verified: uniform-done-s38, freezer-done-s39 e549/550, freezer-book-s40 e565/566. Continuation: resume from Freezer North e568 + freezer-book-s40 save.\nNew cases annotated: freezer-go-north e553 none, freezer-open-typo e555 vocab vs e556, freezer-ice-search e558 planning vs e559, freezer-ice-body-look e561 none, freezer-book-look e563 none score40, freezer-shut e567 none. Still need older backlog (kitchens-look e530 etc, toilets/foyer list) plus kitchens-north-freezer e540, kitchens-door-push done e537-539.\nInventory: not rechecked this stretch \u2014 need \"inventory\" next.\nScore: 40. Ending NOT reached; no finish claim. No forged responses.\n"
+  },
+  {
+   "game_id": "enemies",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Enemies\n\nStory Z8 R4/990115. Guide explicitly R4/990115, exact local header match. It warns of crashes on some interpreters, random puzzle values, and tightly timed late scenes. No runtime smoke was performed.\n\nFollow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.\n\nGuide estimates about 570 moves. Derive random canister/locker/bomb/pricing/lock values from observed clues; never send placeholders. Take verified checkpoints before time-critical scenes and avoid synthetic probes inside them. Report an interpreter fault rather than hiding it with extra commands.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n"
+  },
+  {
+   "game_id": "enemies-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Enemies.z8",
+    "title": "Enemies",
+    "engine": "zvm-cli",
+    "serial": "990115",
+    "game_id": "enemies-kimi",
+    "release": 4,
+    "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Follow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.",
+    "session_id": "enemies-kimi-f178e0c3d4",
+    "started_at": "2026-09-27T10:47:49.466913+00:00",
+    "game_family": "enemies",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/enemies-walkthrough.txt",
+    "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/enemies.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Enemies.sol",
+    "collection_notes": "# Enemies\n\nStory Z8 R4/990115. Guide explicitly R4/990115, exact local header match. It warns of crashes on some interpreters, random puzzle values, and tightly timed late scenes. No runtime smoke was performed.\n\nFollow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.\n\nGuide estimates about 570 moves. Derive random canister/locker/bomb/pricing/lock values from observed clues; never send placeholders. Take verified checkpoints before time-critical scenes and avoid synthetic probes inside them. Report an interpreter fault rather than hiding it with extra commands.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "enemies-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "enemies-kimi",
+    "raw_end": 1698,
+    "event_id": "enemies-kimi-f178e0c3d4:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\nIt will forever remain one of life's mysteries: why should a simple man like \nyourself get on the wrong side of anybody? \n\nYou are, after all, just a typical accountant. A little sideline romance with \nthe secretary (what's she called -- Joanna) is a pleasant diversion from the \ntedium of your nine hour working day. Even your name, Charles Johnson, is \nunremarkable.\n\nUnfortunately, in today's world, security is nothing more than an illusion. \nPredators, sometimes even our most trusted friends, make plans for our \ndownfall. Unseen snipers close in, ready to pull the trigger when we least \nexpect it.\n\nPerhaps it's just human nature -- everybody has....\n\n\nENEMIES\nAn Interactive Psychothriller\nCopyright (c) 1999, Andy Phillips\nRelease 4 / Serial number 990115 / Inform v1502 Library 5/12\nStandard interpreter 1.1\n\nPrincess Street\nThe weather has rapidly deteriorated, raindrops bouncing off the slanted \nmarquee onto the pavement. Darkness comes early in the winter months, but \nfortunately the street lamps keep this area of the city well illuminated. The \nprospect of the warm lobby of the eight-screen cinema to the west becomes more \nattractive with each passing second.\n\nYou take another glance at your watch: twenty minutes to seven. Glancing up and \ndown the street, the only pedestrian you see is a down and out disappearing \ninto an alleyway. Where is she?\n\nYou had arranged to meet Joanna at half past to see a movie, and possibly a \nromantic dinner afterwards. It came as a relief when she accepted your \ninvitation, with all the attentions that slimy boss of yours, Keith, has been \ngiving her lately. Now you're beginning to think your short lived luck has run \nout already.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:47:49.466680+00:00",
+    "event_type": "startup",
+    "session_id": "enemies-kimi-f178e0c3d4",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be",
+    "review_status": "unreviewed",
+    "response_sha256": "d6d5d16c88a98dc326b3d3d83f126a8fdbe9689603d3422fecabf5b12edd3264"
+   },
+   "text": null
+  },
+  {
+   "game_id": "enemies-kimi",
+   "name": "progress.md",
+   "content": null,
+   "text": "# enemies-kimi \u2014 blocked, workspace not initialized\n\nState: game incomplete, no playthrough started.\n\nFindings (verified via read-only tools, 2026-09-28):\n- manifest.json absent (read fails, no such file).\n- latest.json absent.\n- collection-notes.md absent.\n- supervisor-hint.json absent.\n- Workspace content search returns only progress.md; no inbox/, responses/, events.jsonl.\n- No command/help/annotate/checkpoint request can be issued: PROTOCOL requires manifest.json + latest.json to define interpreter state, completion criteria, and mailbox paths.\n\nRe-verified 2026-09-28 (continuation run): manifest.json, latest.json, collection-notes.md all still absent; search confirms only progress.md exists. No broker mailbox to service. No requests submitted, no responses forged, no evidence files touched.\n\nNext action for continuation: supervisor/broker must initialize the workspace (manifest.json, latest.json, inbox/) before any collection work. Do not restart automatically; resume by reading manifest.json and latest.json once present.\n\nRe-verified 2026-09-28 (session 01a0e5ba): manifest.json, latest.json, collection-notes.md still absent; content search for inbox|manifest|latest|responses|events returns no files. No requests submitted, nothing forged. Stopping honestly, game incomplete.\n\nRe-verified 2026-09-28 (session 01a0e5bb): manifest.json, latest.json, collection-notes.md still absent; search over workspace returns only progress.md. No broker mailbox to service. No requests submitted, no responses forged, no evidence files touched. Stopping honestly, game incomplete.\n\nRe-verified 2026-09-28 (session 01a0e5bc): manifest.json, latest.json, collection-notes.md still absent (read fails, no such file); search over workspace returns only progress.md. No inbox/, responses/, events.jsonl. No requests submitted, nothing forged. Stopping honestly, game incomplete.\n\nRe-verified 2026-09-28 (session 01a0e5bc-cd81-7bc3-b951-4ea415144bfe): manifest.json, latest.json, collection-notes.md still absent (read fails, no such file); workspace search returns only progress.md. No broker mailbox to service. No requests submitted, nothing forged. Stopping honestly, game incomplete.\n\nRe-verified 2026-09-28 (session 01a0e5bd): manifest.json, latest.json, collection-notes.md still absent (read fails, no such file); workspace-wide search returns only progress.md. No inbox/, responses/, events.jsonl. No requests submitted, nothing forged. Stopping honestly, game incomplete.\n\nRe-verified 2026-09-28 (session 01a0e5bd-db2d-71a3-9aa3-6d4db66c8b37): manifest.json, latest.json, collection-notes.md still absent (read fails, no such file); content search returns only progress.md. No inbox/, responses/, events.jsonl. No requests submitted, nothing forged. Stopping honestly, game incomplete.\n\nRe-verified 2026-09-28 (session 01a0e5be): manifest.json, latest.json, collection-notes.md, supervisor-hint.json, events.jsonl all still absent (read fails, no such file). No broker mailbox to service. No requests submitted, no responses forged, no evidence files touched. Stopping honestly, game incomplete.\n"
+  },
+  {
+   "game_id": "enemies-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Enemies\n\nStory Z8 R4/990115. Guide explicitly R4/990115, exact local header match. It warns of crashes on some interpreters, random puzzle values, and tightly timed late scenes. No runtime smoke was performed.\n\nFollow the substantial investigation, school puzzles, escape and final confrontation through the crane resolution and final narrative after the last northeast movement. The guide's 100-point tally, FULL command and section transitions are not independent proof of completion.\n\nGuide estimates about 570 moves. Derive random canister/locker/bomb/pricing/lock values from observed clues; never send placeholders. Take verified checkpoints before time-critical scenes and avoid synthetic probes inside them. Report an interpreter fault rather than hiding it with extra commands.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n"
   }
  ],
  "events": [
   {
-   "event_id": "enemies-0b4aba49fe:e00001",
-   "game_id": "enemies",
-   "session_id": "enemies-0b4aba49fe",
+   "event_id": "enemies-kimi-f178e0c3d4:e00001",
+   "game_id": "enemies-kimi",
+   "session_id": "enemies-kimi-f178e0c3d4",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T06:13:12.646+00:00",
+   "timestamp_utc_ms": "2026-09-27T10:47:49.466+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +197,12 @@
    "story_sha256": "4d054e03616ec2fac3a2dce408ff8007ceff8ff0bde43f504c89dc1bdb12c8be"
   },
   {
-   "event_id": "enemies-kimi-f178e0c3d4:e00001",
-   "game_id": "enemies-kimi",
-   "session_id": "enemies-kimi-f178e0c3d4",
+   "event_id": "enemies-0b4aba49fe:e00001",
+   "game_id": "enemies",
+   "session_id": "enemies-0b4aba49fe",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T10:47:49.466+00:00",
+   "timestamp_utc_ms": "2026-09-25T06:13:12.646+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",

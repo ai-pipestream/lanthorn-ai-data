@@ -9,6 +9,106 @@
   "acorn-court"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "acorn-court",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/acorncourt.z5",
+    "title": "The Acorn Court",
+    "engine": "zvm-cli",
+    "serial": "970904",
+    "game_id": "acorn-court",
+    "release": 3,
+    "completion": "Require actual author-intended conclusion verified against raw output. No deaths/quitting/intermediate scores as completion. Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler.",
+    "session_id": "acorn-court-7685b36b67",
+    "started_at": "2026-09-25T05:19:33.105199+00:00",
+    "game_family": "acorn-court",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/acorn-court-walkthrough.txt",
+    "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/acorn-court.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/acorncourt.sol",
+    "collection_notes": "# The Acorn Court\n\nStory R3/970904; Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler. Source: https://ifarchive.org/if-archive/solutions/acorncourt.sol.\n\nUse small broker help excerpts; no full walkthrough reads. Empty command is Return, literal space is different. Avoid optional help menus. Save only at ordinary prompts, verifying actual success. Capture labeled synthetic varied mistakes and real corrections; no training or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "acorn-court",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "acorn-court",
+    "raw_end": 11869,
+    "event_id": "acorn-court-7685b36b67:e00085",
+    "metadata": {
+     "notes": "Genuine author-intended win: opened unlocked iron gate after full puzzle chain (point/launch ball, shower acorns, repair bucket, raise key, unlock). Score 30/30 in 40 turns, *** You have won ***, not death/quitting/intermediate. End menu offers RESTART/RESTORE/QUIT.",
+     "ending_quote": "You open the iron gate.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 40 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+     "evidence_event_ids": [
+      "acorn-court-7685b36b67:e00082"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 11869,
+    "timestamp": "2026-09-25T05:27:22.490553+00:00",
+    "event_type": "ending_claim",
+    "session_id": "acorn-court-7685b36b67",
+    "event_index": 85,
+    "engine_state": "unchanged",
+    "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "acorn-court",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "acorn-court",
+    "raw_end": 11869,
+    "event_id": "acorn-court-7685b36b67:e00085",
+    "metadata": {
+     "notes": "Genuine author-intended win: opened unlocked iron gate after full puzzle chain (point/launch ball, shower acorns, repair bucket, raise key, unlock). Score 30/30 in 40 turns, *** You have won ***, not death/quitting/intermediate. End menu offers RESTART/RESTORE/QUIT.",
+     "ending_quote": "You open the iron gate.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 40 turns.\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
+     "evidence_event_ids": [
+      "acorn-court-7685b36b67:e00082"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 11869,
+    "timestamp": "2026-09-25T05:27:22.490553+00:00",
+    "event_type": "ending_claim",
+    "session_id": "acorn-court-7685b36b67",
+    "event_index": 85,
+    "engine_state": "unchanged",
+    "story_sha256": "7b13c904bf7608fa0de902ce7ecd5fcd0e026f293fc67baa87b99a35a3190c9e",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "acorn-court",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Acorn Court \u2014 progress (FINAL, won)\n\nLocation: Won. Final event e00082: opened iron gate, *** You have won ***, 30/30 in 40 turns. End prompt asks RESTART/RESTORE/QUIT \u2014 no further game commands.\nInventory at win: key used, ~1 acorn left, bucket tied to rope with water, 20 balls in bucket, 1 ball on ground (observed along route).\nScore progression observed: 10 after firing ball into tree (e00026), 30 after taking key from bucket (e00073), 30/30 at win (e00082).\n\nCheckpoints (verified): start-courtyard, after-acorns-down, bucket-fixed, before-gate-open. No checkpoint after win (end-menu, not ordinary prompt).\n\nCases (21, all annotated):\n01 probe-tree-synonym-01 vocab (inspect\u2192examine)\n02 probe-point-synonym-02 none (aim accepted)\n03 probe-ball-typo-03 syntax (get bal\u2192get ball)\n04 probe-put-syntax-04 syntax (put ball machine\u2192put ball in machine)\n05 probe-crank-synonym-05 planning (rotate crank hit well\u2192turn on machine)\n06 probe-machine-start-06 vocab (start\u2192turn on)\n07 probe-acorn-pickup-07 none (pick up accepted)\n08 probe-fix-synonym-08 none (repair accepted)\n09 probe-pronoun-it-09 ambiguity (take it\u2192get acorn)\n10 probe-plug-synonym-10 none (plug accepted)\n11 probe-get-omitted-11 syntax (get\u2192get acorn)\n12 probe-fix-wordorder-12 syntax (reversed\u2192correct order)\n13 probe-leaf-wrongobj-13 world_state (get leaf\u2192get acorn with unplug side-effect, uncertain)\n14 probe-pull-rope-14 none (pull rope accepted)\n15 probe-attach-synonym-15 vocab (connect\u2192tie bucket to rope)\n16 probe-lower-synonym-16 vocab (lower\u2192turn crank)\n17 probe-turn-omitted-17 syntax (turn\u2192turn crank, raised bucket with key)\n18 probe-key-source-18 none (take key from bucket, score 30)\n19 probe-gate-locked-19 world_state (open locked\u2192open after unlock, win)\n20 probe-unlock-syntax-20 syntax (unlock gate\u2192unlock gate with key)\n21 probe-exit-west-21 world_state (go west\u2192open gate, win)\nUnresolved: none.\n\nHints used: lines1-9 (m0004) and lines10-16 via mode next (m0055). Verified against game; noted 'turn crank' in walkthrough vs observed 'turn on machine' for firing, and 'unlock gate' needing explicit 'with key'.\n\nNext: submit finish with evidence e00082 and exact ending quote.\n"
+  },
+  {
+   "game_id": "acorn-court",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The Acorn Court\n\nStory R3/970904; Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler. Source: https://ifarchive.org/if-archive/solutions/acorncourt.sol.\n\nUse small broker help excerpts; no full walkthrough reads. Empty command is Return, literal space is different. Avoid optional help menus. Save only at ordinary prompts, verifying actual success. Capture labeled synthetic varied mistakes and real corrections; no training or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "acorn-court-7685b36b67:e00001",

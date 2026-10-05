@@ -9,6 +9,110 @@
   "bicon"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "bicon",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/BiCon.zblorb",
+    "title": "BiCon",
+    "engine": "zvm-cli",
+    "serial": "101006",
+    "game_id": "bicon",
+    "release": 4,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Ordinary terminal death is failure; distinguish explicitly authored intermediate death/loop transitions. Follow the convention, conversation, friends/pizza, room-key, costume and ball route through the final private conversation/kiss with Phoenix and require the authored concluding narrative. The guide labels the final interaction a win but that annotation and isolated points do not prove live completion. Its many optional interactions need not all be repeated; preserve other genuine concluding variants if observed.",
+    "session_id": "bicon-e4b7be4302",
+    "started_at": "2026-09-25T08:06:29.099754+00:00",
+    "game_family": "bicon",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/bicon-walkthrough.txt",
+    "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/bicon.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/BiCon_Walkthrough.txt",
+    "collection_notes": "# BiCon\n\nStory Z8 R4/101006. Local Blorb is byte-identical to the archive and contains ZCOD Z8 R4/101006. The author walkthrough explicitly names the identical release/serial and Inform 7 build 6E72. Pin both the Blorb hash and embedded ZCOD/header hashes; do not interpret the FORM container prefix as the Z-machine header.\n\nFollow the convention, conversation, friends/pizza, room-key, costume and ball route through the final private conversation/kiss with Phoenix and require the authored concluding narrative. The guide labels the final interaction a win but that annotation and isolated points do not prove live completion. Its many optional interactions need not all be repeated; preserve other genuine concluding variants if observed.\n\nFriends wander to random adjacent rooms; follow observed locations instead of copying the sample movements. Read current questions before answering fizzbuzz/menu prompts. Guide bracketed commentary and doubled prompt markers are not commands. The wardrobe command has a typo; keep the source intact and use nouns from actual output. Phone, Twitter and pizza interactions are fictional game actions, never permission for external communications.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "bicon",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "bicon",
+    "raw_end": 39485,
+    "event_id": "bicon-e4b7be4302:e00308",
+    "metadata": {
+     "notes": "Genuine win, not death/quitting/chapter. Friends/pizza, room-key, costume, ball, Phoenix-follow to dark Canada. Explicit kiss won e00306, 10/10 in 203 turns, authored kiss narrative + win banner in raw output.",
+     "ending_quote": "*** You have won Phoenix's heart. ***",
+     "evidence_event_ids": [
+      "bicon-e4b7be4302:e00306"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 39485,
+    "timestamp": "2026-09-25T08:34:24.078932+00:00",
+    "event_type": "ending_claim",
+    "session_id": "bicon-e4b7be4302",
+    "event_index": 308,
+    "engine_state": "unchanged",
+    "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bicon",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "bicon",
+    "raw_end": 39485,
+    "event_id": "bicon-e4b7be4302:e00308",
+    "metadata": {
+     "notes": "Genuine win, not death/quitting/chapter. Friends/pizza, room-key, costume, ball, Phoenix-follow to dark Canada. Explicit kiss won e00306, 10/10 in 203 turns, authored kiss narrative + win banner in raw output.",
+     "ending_quote": "*** You have won Phoenix's heart. ***",
+     "evidence_event_ids": [
+      "bicon-e4b7be4302:e00306"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 39485,
+    "timestamp": "2026-09-25T08:34:24.078932+00:00",
+    "event_type": "ending_claim",
+    "session_id": "bicon-e4b7be4302",
+    "event_index": 308,
+    "engine_state": "unchanged",
+    "story_sha256": "cf9c3291a517b1e2bd40614c0b366876ed153ebbfdbe95eb9c3281bb8c5604c7",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bicon",
+   "name": "progress.md",
+   "content": null,
+   "text": "# BiCon progress (update 9 - WIN, 10/10, game complete)\n\nLocation: Won. Dark Canada room, door closed, Phoenix kissed. End prompt RESTART/RESTORE/AMUSING/QUIT/UNDO.\nLast: Bare 'kiss' won e00304, UNDO e00305, explicit 'kiss phoenix' won e00306. Score 10/10 in 203 turns.\nInventory last known (pre-win): colourful bag+shiny, phone, backpack (kit+timetable), badge, costume worn, flat key. Day clothes left in bedroom. Verify via restore if needed.\nCheckpoints: start-argentina, britain-picnic, denmark-after-fizzbuzz, reception-arrival, denmark-ice-broken, reception-shiny-dropped, lawn-after-pizza, flat-arrival, costume-on, canada-dark (all ok).\n\nCases: 21 read-message none, 22 get-key world_state, 23 show-message none, 24 open-door world_state, 25 examine-bed none, 26 closet vocabulary, 27 open-bare syntax, 28 pull-wardobe-typo syntax, 29 lubricate none, 30 use-lube vocabulary, 31 takeoff-clothes none, 32 take-costume none, 33 puton-costume none, 34 talk-phoenix syntax, 35 ask-dance none, 36 hug-phoenix none, 37 shut-door none, 38 quiet-flatmates syntax, 39 kiss-bare none. Total ~39 cases (20 prior + 19 new). All annotated.\n\nLast hint e00293 lines 197-205 done through kiss/close/kiss. Route complete: pizza, key, costume, ball, Phoenix follow, flat noisy, Denmark daylight, Canada dark kiss win.\n\nNext: finish with e00304/e00306 evidence. No further moves. Game complete, not death/quitting.\n"
+  },
+  {
+   "game_id": "bicon",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# BiCon\n\nStory Z8 R4/101006. Local Blorb is byte-identical to the archive and contains ZCOD Z8 R4/101006. The author walkthrough explicitly names the identical release/serial and Inform 7 build 6E72. Pin both the Blorb hash and embedded ZCOD/header hashes; do not interpret the FORM container prefix as the Z-machine header.\n\nFollow the convention, conversation, friends/pizza, room-key, costume and ball route through the final private conversation/kiss with Phoenix and require the authored concluding narrative. The guide labels the final interaction a win but that annotation and isolated points do not prove live completion. Its many optional interactions need not all be repeated; preserve other genuine concluding variants if observed.\n\nFriends wander to random adjacent rooms; follow observed locations instead of copying the sample movements. Read current questions before answering fizzbuzz/menu prompts. Guide bracketed commentary and doubled prompt markers are not commands. The wardrobe command has a typo; keep the source intact and use nouns from actual output. Phone, Twitter and pizza interactions are fictional game actions, never permission for external communications.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "bicon-e4b7be4302:e00001",

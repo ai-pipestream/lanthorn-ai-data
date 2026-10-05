@@ -9,6 +9,106 @@
   "childs-play"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "childs-play",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/ChildsPlay.zblorb",
+    "title": "Child's Play",
+    "engine": "zvm-cli",
+    "serial": "080129",
+    "game_id": "childs-play",
+    "release": 4,
+    "completion": "Require actual author-intended final narrative verified against raw output; no ordinary deaths/quitting/chapter transitions/partial scores. Story embedded Z8 R4/080129. Author Stephen Granade hints archived February2008; guide release unspecified. Hints contain deliberate joke/non-game questions. Verify advice against observed output, and seek final toy-retrieval ending, not a chapter transition.",
+    "session_id": "childs-play-936dc938bb",
+    "started_at": "2026-09-25T05:56:53.077780+00:00",
+    "game_family": "childs-play",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/childs-play-walkthrough.txt",
+    "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/childs-play.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/cplay-hints.html",
+    "collection_notes": "# Child's Play\n\nStory embedded Z8 R4/080129. Author Stephen Granade hints archived February2008; guide release unspecified. Hints contain deliberate joke/non-game questions. Verify advice against observed output, and seek final toy-retrieval ending, not a chapter transition.\nSource: https://ifarchive.org/if-archive/solutions/cplay-hints.html\n\nSmall broker help excerpts only; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones at ordinary command prompts, never a menu/question. Empty command sends Return, literal space is different. Timeout permits await_output only. No training or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Only at ordinary command prompts; verify save success.",
+    "story_sha256_expected": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "childs-play",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "childs-play",
+    "raw_end": 113361,
+    "event_id": "childs-play-936dc938bb:e00442",
+    "metadata": {
+     "notes": "Genuine winning ending, not death/quitting/chapter transition: yanked favorite toy from Zoe's grasp ('the toy pops out of her evil sweaty grasp! You have your toy!'), playdate ends with parents taking babies home, mom gathers me and toy to crib ('your favorite toy chimes a bit as you curl around it'), then *** You have won *** with 100/100 including '10 for getting your favorite toy for the last time' and [Score 100, up 10]. Matches manifest's required final toy-retrieval ending.",
+     "ending_quote": "    *** You have won ***\n\n\nYou have like 100 points out of 100. Here is how you got them:",
+     "evidence_event_ids": [
+      "childs-play-936dc938bb:e00438"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 113361,
+    "timestamp": "2026-09-25T06:41:34.208072+00:00",
+    "event_type": "ending_claim",
+    "session_id": "childs-play-936dc938bb",
+    "event_index": 442,
+    "engine_state": "unchanged",
+    "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "childs-play",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "childs-play",
+    "raw_end": 113361,
+    "event_id": "childs-play-936dc938bb:e00442",
+    "metadata": {
+     "notes": "Genuine winning ending, not death/quitting/chapter transition: yanked favorite toy from Zoe's grasp ('the toy pops out of her evil sweaty grasp! You have your toy!'), playdate ends with parents taking babies home, mom gathers me and toy to crib ('your favorite toy chimes a bit as you curl around it'), then *** You have won *** with 100/100 including '10 for getting your favorite toy for the last time' and [Score 100, up 10]. Matches manifest's required final toy-retrieval ending.",
+     "ending_quote": "    *** You have won ***\n\n\nYou have like 100 points out of 100. Here is how you got them:",
+     "evidence_event_ids": [
+      "childs-play-936dc938bb:e00438"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 113361,
+    "timestamp": "2026-09-25T06:41:34.208072+00:00",
+    "event_type": "ending_claim",
+    "session_id": "childs-play-936dc938bb",
+    "event_index": 442,
+    "engine_state": "unchanged",
+    "story_sha256": "574b52c3277720bc51fe5da0cdda74c19c336c19a185ff5c05d9ac549fbb0b27",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "childs-play",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Child's Play progress - COMPLETE (m0374-m0424)\n\nWON: e438 \"*** You have won ***\", 100/100, \"10 for getting your favorite toy for the last time\".\nEnding: yanked toy from Zoe stuck in babies-and-Cheerios train-wreck at Loveseat North; Zoe wailed, parents ended playdate, mom gathered me + toy to crib. Genuine final toy-retrieval narrative, not death/chapter/quit.\n\nSegment 3 route: checkpoint playpen-open-chase e387-388; chased Zoe (Middle e389, Couch West e395, Loveseat South e397); hints walked ch3 lines 201-335 to 'Zoe has my toy!' (Cheerios spill, HIT CUP WITH STICK e410); retrieved stick (e413); Parry at Loveseat North (e414/417); syn 'hit cup' failed short arms e418, 'hit cup with poosh stick' spilled Cheerios e419; babies gathered e420-422; Zoe at Rocking Chair e423-424; checkpoint before-final-grab e425-426; 'take toy' fled west e427 into crowd; 'take toy' in crowd failed hands-full e429; dropped stick e430; chased via Middle e433-434 to Loveseat North e437; 'take toy' WON e438.\nAnnotated: syn-hit-cup e439 (syntax), syn-take-toy e440 (world_state), route-final-hands e441 (world_state). Total ~54.\nCheckpoints: playpen-open-chase, before-final-grab (both verified saves).\nFinish: evidence e438, quote \"*** You have won ***\" + 100-points block.\n"
+  },
+  {
+   "game_id": "childs-play",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Child's Play\n\nStory embedded Z8 R4/080129. Author Stephen Granade hints archived February2008; guide release unspecified. Hints contain deliberate joke/non-game questions. Verify advice against observed output, and seek final toy-retrieval ending, not a chapter transition.\nSource: https://ifarchive.org/if-archive/solutions/cplay-hints.html\n\nSmall broker help excerpts only; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones at ordinary command prompts, never a menu/question. Empty command sends Return, literal space is different. Timeout permits await_output only. No training or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "childs-play-936dc938bb:e00001",

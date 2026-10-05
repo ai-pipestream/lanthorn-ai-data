@@ -9,6 +9,78 @@
   "pythos-mask"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "pythos-mask",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/glulx/pytho.blb",
+    "title": "Pytho's Mask",
+    "engine": "gvm-cli",
+    "serial": "020223",
+    "game_id": "pythos-mask",
+    "release": 4,
+    "completion": "Resolve the poisoning plot at the royal toast, survive the confrontation with Valkir, and reach the authored epilogue. Continue through the final epilogue conversation to an actual terminal narrative, recording the chosen romantic or non-romantic outcome. A toast, duel step, room transition, death or merely reaching the walkthrough epilogue heading is insufficient. Guide instructions are provisional; require independent parent verification of actual raw ending output. Quitting, ordinary death, partial scores and chapter transitions are insufficient.",
+    "session_id": "pythos-mask-a39eb2af1a",
+    "started_at": "2026-09-25T08:37:27.378998+00:00",
+    "game_family": "pythos-mask",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pythos-mask-walkthrough.txt",
+    "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-i-20260925/pythos-mask.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/PythosMask_walkthrough.txt",
+    "collection_notes": "Local Glulx Inform identification is R4/020223, matching the archive. Author walkthrough identifies the game but gives no release, serial or target VM. A Z-code edition also exists; this selection is explicitly the local Glulx release, with cross-format guide applicability untested.\n\nDialogue option letters are tied to the displayed text and may change with history; match the intended answer to actual options. The final romantic and non-romantic routes are alternatives. Optional library backstory and speculative discoveries are not mandatory progress. Preserve original wording, spelling and alternatives. Glulx text/graphics layout has not been exercised.\n\nFamily/split proposal: pythos-mask / train. No shared world/puzzle relationship established with Bronze or Savoir-Faire or other existing Emily Short titles. Common authorship alone does not establish a family. Group Z-code and Glulx releases of this title together. Parent review required.\n\nCENTRAL ONLY: local stories, full guides, source receipts, raw transcripts, saves and interpreter execution remain central. Never stage these assets on a Pi or expose full guide files, source paths or URLs to Muse. Supply only task-relevant broker help excerpts, at most 9 lines / 1000 characters; do not reconstruct a full guide through serial excerpts. Guide content is suggested, not observed evidence. Save early at a confirmed safe ordinary command prompt, verify success, and save at safe milestones. Resolve startup questions/key pauses first. For Glulx character prompts the empty command sends Glk Return (0xffff_fffa), while literal space sends 32. Z-machine Return13 does not describe Glulx. Ordinary line prompts differ; follow actual displayed controls. On timeout use await_output only, never another key. Follow actual menus, not guessed keys. On timeout use await_output only; no uncertain input replay, restart, save or flush key. Repeated silent optional-menu timeouts require parent transport review rather than repeated recovery attempts. Collect useful diverse labeled synthetic_probe cases with intent-preserving repairs and actual event evidence, no quotas or filler. Parent verifies the real authored finale against raw output. Private collection only; reuse permission unknown. No training, evaluation, model work or publication.",
+    "zmachine_version": null,
+    "checkpoint_policy": "Save early and at milestones only at confirmed safe ordinary command prompts; require actual engine success. No save as timeout flush.",
+    "story_sha256_expected": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "pythos-mask",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "pythos-mask",
+    "raw_end": 816,
+    "event_id": "pythos-mask-a39eb2af1a:e00004",
+    "metadata": {
+     "origin": "transport_recovery",
+     "delayed_for_event_id": "pythos-mask-a39eb2af1a:e00003"
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 816,
+    "timestamp": "2026-09-25T08:44:01.844865+00:00",
+    "event_type": "delayed_output",
+    "session_id": "pythos-mask-a39eb2af1a",
+    "event_index": 4,
+    "engine_state": "no_output_timeout",
+    "story_sha256": "87a91d1f540689d0cda04ddb4e65309d54a26fca4451eeed590e4cadb4cda63b",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "pythos-mask",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Pytho's Mask \u2014 collection progress\n\n- Game: pythos-mask (Glulx R4/020223), session pythos-mask-a39eb2af1a, branch b0\n- Location: intro sequence (small room briefing, MORE prompt) \u2014 no ordinary command prompt yet\n- Inventory: unknown (intro not finished)\n- Cases: none yet\n- Last hint: none\n- Checkpoints: none yet (will checkpoint at first confirmed ordinary prompt)\n- Observed: e00001 startup (\"Pytho's Mask\"); e00002 (empty command \u2192 intro briefing + MORE);\n  e00003 (empty command at MORE \u2192 no_output_timeout, empty response)\n- Segment 2: submitted inbox/m0003.json (await_output, no game input) per timeout protocol.\n  PENDING response; do NOT duplicate, edit, or flush with another key.\n- Next: read responses/m0003.json FIRST. If it resolves the MORE output, continue\n  advancing intro. If still absent after 190s+ from m0003 submission, stop honestly\n  with game incomplete and report pending request for supervisor/parent review.\n  Per collection-notes: repeated silent timeouts need parent transport review,\n  not repeated recovery attempts.\n"
+  },
+  {
+   "game_id": "pythos-mask",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "Local Glulx Inform identification is R4/020223, matching the archive. Author walkthrough identifies the game but gives no release, serial or target VM. A Z-code edition also exists; this selection is explicitly the local Glulx release, with cross-format guide applicability untested.\n\nDialogue option letters are tied to the displayed text and may change with history; match the intended answer to actual options. The final romantic and non-romantic routes are alternatives. Optional library backstory and speculative discoveries are not mandatory progress. Preserve original wording, spelling and alternatives. Glulx text/graphics layout has not been exercised.\n\nFamily/split proposal: pythos-mask / train. No shared world/puzzle relationship established with Bronze or Savoir-Faire or other existing Emily Short titles. Common authorship alone does not establish a family. Group Z-code and Glulx releases of this title together. Parent review required.\n\nCENTRAL ONLY: local stories, full guides, source receipts, raw transcripts, saves and interpreter execution remain central. Never stage these assets on a Pi or expose full guide files, source paths or URLs to Muse. Supply only task-relevant broker help excerpts, at most 9 lines / 1000 characters; do not reconstruct a full guide through serial excerpts. Guide content is suggested, not observed evidence. Save early at a confirmed safe ordinary command prompt, verify success, and save at safe milestones. Resolve startup questions/key pauses first. For Glulx character prompts the empty command sends Glk Return (0xffff_fffa), while literal space sends 32. Z-machine Return13 does not describe Glulx. Ordinary line prompts differ; follow actual displayed controls. On timeout use await_output only, never another key. Follow actual menus, not guessed keys. On timeout use await_output only; no uncertain input replay, restart, save or flush key. Repeated silent optional-menu timeouts require parent transport review rather than repeated recovery attempts. Collect useful diverse labeled synthetic_probe cases with intent-preserving repairs and actual event evidence, no quotas or filler. Parent verifies the real authored finale against raw output. Private collection only; reuse permission unknown. No training, evaluation, model work or publication."
+  }
+ ],
  "events": [
   {
    "event_id": "pythos-mask-a39eb2af1a:e00001",

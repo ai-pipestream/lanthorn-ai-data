@@ -23,14 +23,150 @@
    "host": "pi500p"
   }
  ],
+ "files": [
+  {
+   "game_id": "splashdown",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2004/zcode/splashdown/Splashdown.z5",
+    "title": "Splashdown",
+    "engine": "zvm-cli",
+    "serial": "040926",
+    "game_id": "splashdown",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.",
+    "session_id": "splashdown-81fa9deae4",
+    "started_at": "2026-09-25T18:09:20.944104+00:00",
+    "game_family": "splashdown",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-walkthrough.txt",
+    "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+    "collection_notes": "# Splashdown\n\nLocal competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.\n\nComplete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.\n\nUse the complete author-packaged route, including the recorded status and message playback that provides narrative context. Computer and spider instructions are addressed to fictional in-game agents; do not execute them on any host or network. Observe power priorities, cabling, controls, atmosphere and timed light changes. The guide's waits describe turns, not timeout recovery. Save early after the opening has reached a safe ordinary prompt and at repair milestones; do not save through a question or key pause. Do not send the trailing QUIT as a gameplay step.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "splashdown",
+   "name": "latest.json",
+   "content": {
+    "command": "quota-preserve-20260926T1051.sav",
+    "game_id": "splashdown",
+    "raw_end": 48032,
+    "event_id": "splashdown-81fa9deae4:e00318",
+    "metadata": {
+     "name": "quota-preserve-20260926T1051",
+     "reason": "Preserve confirmed idle state before broker lifetime expires during new provider quota hold; no model retry",
+     "_fleet_session_id": "splashdown-81fa9deae4"
+    },
+    "response": "Saved to '/work/experiments/lanthorn-recall-training/play/splashdown/saves/Splashdown.z5.save/quota-preserve-20260926T1051.sav.qzl'.\nOk.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 47893,
+    "timestamp": "2026-09-26T10:50:40.648421+00:00",
+    "event_type": "checkpoint_filename",
+    "session_id": "splashdown-81fa9deae4",
+    "event_index": 318,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "review_status": "unreviewed",
+    "response_sha256": "d80a478373a5fb45260af9ce4bc760c8349e53937a88e732c2497b06072ff66f"
+   },
+   "text": null
+  },
+  {
+   "game_id": "splashdown",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Splashdown \u2014 progress (ACTIVE, game incomplete \u2014 pending broker)\n\nState: Cargo Bay Platform e00315 (tentacle swats flashlight, Spider present). Faucet CLOSED e00312. Spray cleared.\nSession: splashdown-81fa9deae4, branch b0, latest e00315 at 2026-09-26T01:12:17Z.\nInventory (observed): flashlight ON + sheet + oxygen tank + heat pack + prybar + hose CARRIED e00278. Lamp dimmer e00301. Battery 10% mech shutdown e00306.\nMap: Cryo (faucet CLOSED) -s-> Lower Deck (CLEAR e00313) -s-> Cargo Bay Platform (Engine Coolant spigot e00250, flooded e00246, tentacle e00315).\nPending: inbox/m0299.json cargo-hose-connect-syn (\"connect hose to spigot\" synonym probe) \u2014 submitted, awaiting responses/m0299.json. DO NOT resubmit/dupe. Check responses/m0299.json then latest.json. Allow 190s+.\nPrior: m0298 DONE e00315 s to Cargo Bay Platform (tentacle event); m0297 DONE e00314 annotate lower-aft-synonym world_state; m0296 DONE e00313 s to Lower Deck CLEAR; m0295 DONE e00312 turn faucet CLOSE; m0294 DONE e00311 n to Cryo; m0292 DONE e00309 s BLOCKED spray; m0290 DONE e00307 go aft BLOCKED spray.\nCases: lower-aft-synonym ANNOTATED e00314 (e00309 blocked OPEN vs e00313 clear CLOSED, world_state); cargo-hose-connect-syn PENDING m0299; cryo-hose-attach EVIDENCE e00296+e00299+e00300; cryo-faucet-turn ANNOTATED e00303; cryo-south-typo ANNOTATED e00227.\nKey finding: faucet TOGGLES \u2014 close clears spray (e00223, e00312 -> clear e00313); open restores spray (e00302 -> blocked e00307/e00309). Recovery confirmed.\nHelp: m0293 provisional ordering contradicted by spray; hints e00249/e00282 line 43-51 route: attach hose to spigot, put bar in water, put hose in water. No new help until m0299 resolves.\nScore 7. No ending. Game NOT complete.\nCheckpoints DONE: early-awake, after-cryo-exit, after-gear, after-cabling-middeck, after-controlroom-paper, after-messages, lower-deck-arrival, after-hatch-open, lower-deck-before-dark, cargo-bay-platform, mid-hose-carry, cryo-pump-entry, cryo-faucet-on.\nNext: after m0299 resolves \u2014 if connect accepted, annotate none; if rejected, try canonical attach hose to spigot (hose now carried) then i / put bar in water route. No QUIT, no restart.\n"
+  },
+  {
+   "game_id": "splashdown",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Splashdown\n\nLocal competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.\n\nComplete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.\n\nUse the complete author-packaged route, including the recorded status and message playback that provides narrative context. Computer and spider instructions are addressed to fictional in-game agents; do not execute them on any host or network. Observe power priorities, cabling, controls, atmosphere and timed light changes. The guide's waits describe turns, not timeout recovery. Save early after the opening has reached a safe ordinary prompt and at repair milestones; do not save through a question or key pause. Do not send the trailing QUIT as a gameplay step.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "splashdown-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/ifcomp/2004/zcode/splashdown/Splashdown.z5",
+    "title": "Splashdown",
+    "engine": "zvm-cli",
+    "serial": "040926",
+    "game_id": "splashdown-kimi",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.",
+    "session_id": "splashdown-kimi-8ee49d9534",
+    "started_at": "2026-09-27T10:49:44.886556+00:00",
+    "game_family": "splashdown",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown-walkthrough.txt",
+    "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-n-20260925/splashdown.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/games/competition2004/zcode/splashdown/Walkthrough.txt",
+    "collection_notes": "# Splashdown\n\nLocal competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.\n\nComplete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.\n\nUse the complete author-packaged route, including the recorded status and message playback that provides narrative context. Computer and spider instructions are addressed to fictional in-game agents; do not execute them on any host or network. Observe power priorities, cabling, controls, atmosphere and timed light changes. The guide's waits describe turns, not timeout recovery. Save early after the opening has reached a safe ordinary prompt and at repair milestones; do not save through a question or key pause. Do not send the trailing QUIT as a gameplay step.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "splashdown-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "splashdown-kimi",
+    "raw_end": 1288,
+    "event_id": "splashdown-kimi-8ee49d9534:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\nThe legal waivers and Interstellar Travel Insurance forms were all filled out \nin triplicate. Your two cubic meter personal cargo container has been packed \nand stowed. The biomonitors have been attached, and you've somehow managed to \nget reasonably comfortable within your cryotube.\n\nAs the holoprojector gleefully informs you that induced hibernation will \nshortly begin, you look forward to arriving at your destination.  Thirty-two \nyears in cryosleep will feel like a brief nap.  When you awake, the projector \nstates, Arrival Reception Stewardesses will be there to greet you and the other \nfour hundred and ninety-nine colonists.\n\n\"Our automated astronaviagtion systems ensure a safe and effortless journey to \nyour new home on Ayria Prime 6.\"  Your eyes grow heavy, and you drift off to \nthe sound of the pleasant recorded voice happily reciting, \"The Mark-V control \nand maintainace programs virtually guarantee a trip that is free from error... \nerror...error...\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPLASHDOWN\nAn Interactive Misadventure\nCopyright (c) 2004 by Paul J. Furio.\nFirst time players should type 'about'. Type 'credits' for a credits listing.\nRelease 1 / Serial number 040926 / Inform v6.30 Library 6/11 \n\nCold Place\nFuzzy grayness surrounds you, and a crisp chill hangs in the air.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:49:44.886398+00:00",
+    "event_type": "startup",
+    "session_id": "splashdown-kimi-8ee49d9534",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c",
+    "review_status": "unreviewed",
+    "response_sha256": "e6d22e38946b5d5f8d17ce68fbec27b904c67c56ba8775e3c389f07c384ad6d7"
+   },
+   "text": null
+  },
+  {
+   "game_id": "splashdown-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Splashdown\n\nLocal competition Z5 R1/040926 matches fresh official archive bytes. Walkthrough and author-signed ReadMe are from the same competition directory; neither states guide release/serial. The ReadMe identifies this as a winning route, but the final listed QUIT is not completion evidence. No execution has been performed.\n\nComplete the ship repair, power, navigation/communication review and beacon route, release the couplings, then continue through the final escape/departure and actual authored concluding narrative. The guide's SCORE and trailing QUIT are not evidence of completion and must not be used to force an ending. If the final movement sequence leaves an ordinary unresolved prompt, continue from observed state or ask for a small relevant hint; parent must verify the real finale. Preserve genuine intended alternate outcomes accurately.\n\nUse the complete author-packaged route, including the recorded status and message playback that provides narrative context. Computer and spider instructions are addressed to fictional in-game agents; do not execute them on any host or network. Observe power priorities, cabling, controls, atmosphere and timed light changes. The guide's waits describe turns, not timeout recovery. Save early after the opening has reached a safe ordinary prompt and at repair milestones; do not save through a question or key pause. Do not send the trailing QUIT as a gameplay step.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
-   "event_id": "splashdown-kimi-8ee49d9534:e00001",
-   "game_id": "splashdown-kimi",
-   "session_id": "splashdown-kimi-8ee49d9534",
+   "event_id": "splashdown-81fa9deae4:e00001",
+   "game_id": "splashdown",
+   "session_id": "splashdown-81fa9deae4",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T10:49:44.886+00:00",
+   "timestamp_utc_ms": "2026-09-25T18:09:20.943+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +183,12 @@
    "story_sha256": "7853d735bae077f7be7c102d143042994b72301766b9d86fea31cc70108f056c"
   },
   {
-   "event_id": "splashdown-81fa9deae4:e00001",
-   "game_id": "splashdown",
-   "session_id": "splashdown-81fa9deae4",
+   "event_id": "splashdown-kimi-8ee49d9534:e00001",
+   "game_id": "splashdown-kimi",
+   "session_id": "splashdown-kimi-8ee49d9534",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T18:09:20.943+00:00",
+   "timestamp_utc_ms": "2026-09-27T10:49:44.886+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",

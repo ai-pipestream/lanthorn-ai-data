@@ -64,10 +64,14 @@ def dump():
     fleet = {}
     for row in query_json(pw, "SELECT json_agg(row_to_json(fleet_state)) FROM fleet_state"):
         fleet.setdefault(row['game_id'].removesuffix('-kimi'), []).append(row)
+    files = query_pairs(pw,
+        "SELECT replace(game_id,'-kimi',''), json_agg(json_build_object('game_id', game_id, 'name', name, 'content', content, 'text', text_content)) "
+        "FROM game_files GROUP BY 1")
     n = 0
     for gid in sorted(catalog):
         doc = dict(catalog[gid])
         doc['fleet_states'] = fleet.get(gid, [])
+        doc['files'] = files.get(gid, [])
         doc['events'] = events.get(gid, [])
         doc['cases'] = cases.get(gid, [])
         doc['judgments'] = judgments.get(gid, [])

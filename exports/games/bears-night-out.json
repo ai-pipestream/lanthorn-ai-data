@@ -9,6 +9,106 @@
   "bears-night-out"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "bears-night-out",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/bear.z5",
+    "title": "A Bear's Night Out",
+    "engine": "zvm-cli",
+    "serial": "990224",
+    "game_id": "bears-night-out",
+    "release": 5,
+    "completion": "Require actual author-intended conclusion verified against raw output. No deaths/quitting/intermediate scores as completion. Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler.",
+    "session_id": "bears-night-out-a79e3c9a58",
+    "started_at": "2026-09-25T05:00:56.636152+00:00",
+    "game_family": "bears-night-out",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/bears-night-out-walkthrough.txt",
+    "story_sha256": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/bears-night-out.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/bear.sol",
+    "collection_notes": "# A Bear's Night Out\n\nStory R5/990224; Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler. Source: https://ifarchive.org/if-archive/solutions/bear.sol.\n\nUse small broker help excerpts; no full walkthrough reads. Empty command is Return, literal space is different. Avoid optional help menus. Save only at ordinary prompts, verifying actual success. Capture labeled synthetic varied mistakes and real corrections; no training or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "bears-night-out",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "bears-night-out",
+    "raw_end": 118132,
+    "event_id": "bears-night-out-a79e3c9a58:e00371",
+    "metadata": {
+     "notes": "Genuine author-intended win, not death/quitting/intermediate: 'sleep' in bed produced full morning-after picnic narrative plus '*** You have won ***' and 'scored 33 out of a possible 33, rank of lifelong companion'. Perfect score confirms nothing skipped.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "bears-night-out-a79e3c9a58:e00366"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 118132,
+    "timestamp": "2026-09-25T05:37:58.779050+00:00",
+    "event_type": "ending_claim",
+    "session_id": "bears-night-out-a79e3c9a58",
+    "event_index": 371,
+    "engine_state": "unchanged",
+    "story_sha256": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bears-night-out",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "bears-night-out",
+    "raw_end": 118132,
+    "event_id": "bears-night-out-a79e3c9a58:e00371",
+    "metadata": {
+     "notes": "Genuine author-intended win, not death/quitting/intermediate: 'sleep' in bed produced full morning-after picnic narrative plus '*** You have won ***' and 'scored 33 out of a possible 33, rank of lifelong companion'. Perfect score confirms nothing skipped.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "bears-night-out-a79e3c9a58:e00366"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 118132,
+    "timestamp": "2026-09-25T05:37:58.779050+00:00",
+    "event_type": "ending_claim",
+    "session_id": "bears-night-out-a79e3c9a58",
+    "event_index": 371,
+    "engine_state": "unchanged",
+    "story_sha256": "1df8dd3487a8af6be10a92e84a1225b97eb1f8181af198568d4f884e0bea97fb",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bears-night-out",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress - A Bear's Night Out (COMPLETE, WON 33/33)\n\n## Final state\n*** You have won *** - score 33 out of 33, rank lifelong companion (e00366).\nEnding: bear settles in bed, morning comes, Teddy Bear Picnic day; baguette found, reply card turns up; jar of honey enjoyed by all.\n\n## Last verified route (jar hunt -> finale)\n- Honey vanish: put honey in basket -> royal honey disappears as unwinnable-item joke (e00347, score stays 29).\n- take basket refused (too big) + in-game hint to re-look in Kitchen (e00349).\n- Re-look Kitchen: honey jar NOW on bench (appears only after royal honey vanishes). Guide's \"Living Room\" header for push-jar is wrong for R5; Kitchen is correct.\n- probe60 push jar off bench (syntax fail, can't resolve) -> push jar: bounces via foam+chair into basket, +4 = 33 (e00353/354).\n- probe61 get in bed accepted none. probe62 go to sleep (GO TO parse fail) -> sleep: WIN (e00365/366).\n- Back-annotations filed: probe33 none, probe34 none (limitation noted), probe35 world_state intent-not-preserved (basket unclimbable; bench via cat puzzle e00213).\n\n## Collection totals (segment 2)\nProbes 36-62, all annotated: vocab (rattle, toss, call), syntax (dial omitted, get down, drag w/o direction, push jar off, go to sleep), ambiguity (put disk), world_state (get chip already-have, bread holding, climb basket), none-acceptances (pet, sit on, play tape, listen, search box, leap onto, insert chip, switch on, mail box spaced, get blue, shut trapdoor, put on hat, up full, show dative, stick stamp, get in bed).\n\n## Checkpoints (all ok)\nstart-bedroom, south-hallway-ball, kitchen-bench, bathroom-hole, living-yoyo-charged, deep-hole-key, kitchen-tape, bench-phone, phone-done, computer-done, jar-done\n"
+  },
+  {
+   "game_id": "bears-night-out",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# A Bear's Night Out\n\nStory R5/990224; Guide release unspecified. Verify compatibility against observed output. Short game: varied useful cases, no repeated quota filler. Source: https://ifarchive.org/if-archive/solutions/bear.sol.\n\nUse small broker help excerpts; no full walkthrough reads. Empty command is Return, literal space is different. Avoid optional help menus. Save only at ordinary prompts, verifying actual success. Capture labeled synthetic varied mistakes and real corrections; no training or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "bears-night-out-a79e3c9a58:e00001",

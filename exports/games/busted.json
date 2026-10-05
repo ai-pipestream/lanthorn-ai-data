@@ -23,6 +23,150 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "busted",
+   "name": "manifest.json",
+   "content": {
+    "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BUSTED.Z5",
+    "title": "Busted!",
+    "engine": "zvm-cli",
+    "serial": "941223",
+    "game_id": "busted",
+    "release": 4,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.",
+    "session_id": "busted-d683906f1b",
+    "started_at": "2026-09-25T09:15:10.643045+00:00",
+    "game_family": "busted",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted-walkthrough.txt",
+    "story_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/busted.sol",
+    "collection_notes": "# Busted!\n\nStory Z5 R4/941223. Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.\n\nFollow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.\n\nFood, fatigue and moving-NPC timing matter. Read the actual ID and library clues; do not assume guide sample codes. The guide deliberately demonstrates an ID-destroying action then restores: keep that detour optional and never lose the ID needed later. Preserve safe early and milestone checkpoints; one action at a time around hazards. Optional drug/death experiments in the amusement list are not required full-route work or probe quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "busted",
+   "name": "latest.json",
+   "content": {
+    "command": "look",
+    "game_id": "busted",
+    "raw_end": 46777,
+    "event_id": "busted-d683906f1b:e00400",
+    "metadata": {
+     "intent": "Describe current surroundings after returning from Republican Club",
+     "origin": "exploration",
+     "case_id": "b4-rso-corridor-look",
+     "expected_outcome": "Full RSO Corridor description with exits",
+     "_fleet_session_id": "busted-d683906f1b"
+    },
+    "response": "\nRSO Corridor\nThe offices of many diverse student groups litter this corridor, in both the \nliteral and figurative senses. There is a staircase at the south end of the \nhall. There are no lights on in any of the offices, except for one which is to \nthe north.\n\nI mean it! You have GOT to sleep, or I won't be held accountable for the \nresults!\n\n>",
+    "branch_id": "b4",
+    "raw_start": 46431,
+    "timestamp": "2026-09-26T01:14:30.493781+00:00",
+    "event_type": "command",
+    "session_id": "busted-d683906f1b",
+    "event_index": 400,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "review_status": "unreviewed",
+    "response_sha256": "ec0c7224c9649d76e77ea32a9b452fa6c01de48f1b2ea991fed5c134927d0b0f"
+   },
+   "text": null
+  },
+  {
+   "game_id": "busted",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Busted! progress (b4 Republican Club, game incomplete)\n\nLocation: b4 Republican Club, Score 38. Greg giggling with bear; scale stored in box (2nd item). Checkpoint republican-scale.sav Ok e00394.\nInv (e00372/e00391): open lunch box (bong+vial+scale), capsule+bear both given to Greg, quarter+pliers left on Arcade floor; worn sunglasses/walkman (Barry playing), note, ID A2487493 intact, cash.\nDeath b3 e00369 preserved: exhaustion arrest 19/154 in 180 turns \u2014 ordinary failure, not ending.\nCheckpoints: hotel-desk.sav, pliers-surface.sav, arcade-bong-box.sav, republican-scale.sav Ok (b4).\nLast hints: e00398 (m0371 resolved) lines 188-196: S,S,D / E / X drinks / Put quarter in drinks (coffee for Dr visit) / Push coffee button / Get cup / W,D.\nNext (DO NOT RESUBMIT m0001-m0372): await m0372 response (s from Republican Club to RSO Corridor); then single-step S, D to Union, E to alcove. NOTE: quarter is on Arcade floor, not carried \u2014 coffee step needs a Concourse/Arcade quarter detour (Union D to Concourse, N to Arcade, get quarter, E back via Union) before Put quarter in drinks; watch fatigue warnings (e00378/e00364). One command per request near fatigue. W from Union is locked (e00360); use D.\nPending: m0372 only (submitted, well-formed; response not yet present, latest still e00398). Game incomplete, no winning ending.\n"
+  },
+  {
+   "game_id": "busted",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Busted!\n\nStory Z5 R4/941223. Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.\n\nFollow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.\n\nFood, fatigue and moving-NPC timing matter. Read the actual ID and library clues; do not assume guide sample codes. The guide deliberately demonstrates an ID-destroying action then restores: keep that detour optional and never lose the ID needed later. Preserve safe early and milestone checkpoints; one action at a time around hazards. Optional drug/death experiments in the amusement list are not required full-route work or probe quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "busted-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BUSTED.Z5",
+    "title": "Busted!",
+    "engine": "zvm-cli",
+    "serial": "941223",
+    "game_id": "busted-kimi",
+    "release": 4,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.",
+    "session_id": "busted-kimi-b24042ec49",
+    "started_at": "2026-09-27T10:47:11.277135+00:00",
+    "game_family": "busted",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted-walkthrough.txt",
+    "story_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/busted.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/busted.sol",
+    "collection_notes": "# Busted!\n\nStory Z5 R4/941223. Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.\n\nFollow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.\n\nFood, fatigue and moving-NPC timing matter. Read the actual ID and library clues; do not assume guide sample codes. The guide deliberately demonstrates an ID-destroying action then restores: keep that detour optional and never lose the ID needed later. Preserve safe early and milestone checkpoints; one action at a time around hazards. Optional drug/death experiments in the amusement list are not required full-route work or probe quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "busted-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "busted-kimi",
+    "raw_end": 1033,
+    "event_id": "busted-kimi-b24042ec49:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\nIt's late in the day, classes were hellish, and the last thing you need is to \ncome home and hear this on your answering machine:\n\n\"Hey man, it's Keith. The pigs finally got me, and if they ever manage to find \nmy address book, they'll probably be coming for you too. I can't tell you where \nI've hidden it, for obvious reasons, but if I were you I'd try to find it \nfirst, along with any other questionable items you may have \"lost.\" By the way, \nI wouldn't hang around your room too much - that's the first place they look \nfor you... Damn! Time's up, I gotta go... good luck!\"\n\nBUSTED\nPsychedelic Interactive Fiction (not to be taken internally)\nCopyright (c) 1994 Scumbag Software, Inc. All Rights Reserved.\nRelease 4 / Serial number 941223 / Inform v1402 Library 5/7\n\nDorm Room\nYou are in your dorm room, in Linnell House. It is bigger than a breadbox, but \nnot by much. The door is to the north.\n\nThere is a standard-issue dorm table here, on which are a wallet (which is \nclosed), a hastily scrawled note and an ash tray.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:47:11.276966+00:00",
+    "event_type": "startup",
+    "session_id": "busted-kimi-b24042ec49",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "1def15037910e258e6a568e3b4dc500fdbfdfb9e02950523064c62bf618eefb5",
+    "review_status": "unreviewed",
+    "response_sha256": "79ec15070585ef43798f5f8b8ae14a6dc54a581181ebcdff3cec24fd5cc01498"
+   },
+   "text": null
+  },
+  {
+   "game_id": "busted-kimi",
+   "name": "progress.md",
+   "content": null,
+   "text": "# busted-kimi \u2014 progress\n\nStatus: blocked, no game mailbox found (rechecked 2026-09-28 13:02 UTC).\n\n- Workspace root `/home/krickert/lanthorn-muse/play/busted-kimi` contains no readable `manifest.json`, `latest.json`, `collection-notes.md`, or `supervisor-hint.json`.\n- `muse.search` for `progress` confirms only `progress.md` visible; `.bridge-state.json` shows session_id `busted-kimi-b24042ec49`.\n- No `inbox/`, `responses/`, `events.jsonl`, `saves/`, or manifest files present.\n- Shell tools disabled in this session, so no directory listing possible.\n- No inbox/ request issued; no checkpoint or playthrough state to continue from. No game commands sent, no synthetic cases collected.\n\nNext: supervisor to provision interpreter mailbox files (manifest.json, latest.json, collection notes), then resume per protocol. Do not restart; continue from provisioned actual state.\n"
+  },
+  {
+   "game_id": "busted-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Busted!\n\nStory Z5 R4/941223. Local busted.zip and remote archive ZIP are byte-identical. Extracted BUSTED.Z5 is Z5 R4/941223; guide explicitly targets that exact release and serial. The author readme identifies this as the Inform port of the AdvSys original. Both container and extracted story are separately hashed; extraction remains central in this batch directory.\n\nFollow the complete evidence-collection route, dispose of all four required items in the endgame, and continue through the final departure to actual authored concluding narrative. An individual disposal, 158 points, SCORE or a checkpoint named alldone is insufficient. Preserve genuine authored alternate conclusions with accurate outcome labels; ordinary failure and quitting are not success.\n\nFood, fatigue and moving-NPC timing matter. Read the actual ID and library clues; do not assume guide sample codes. The guide deliberately demonstrates an ID-destroying action then restores: keep that detour optional and never lose the ID needed later. Preserve safe early and milestone checkpoints; one action at a time around hazards. Optional drug/death experiments in the amusement list are not required full-route work or probe quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "busted-d683906f1b:e00001",

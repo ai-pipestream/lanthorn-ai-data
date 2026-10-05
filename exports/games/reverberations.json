@@ -9,6 +9,106 @@
   "reverberations"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "reverberations",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/reverb.z5",
+    "title": "Reverberations",
+    "engine": "zvm-cli",
+    "serial": "990110",
+    "game_id": "reverberations",
+    "release": 1,
+    "completion": "Require actual author-intended conclusion against raw output, not deaths/quitting/partial scores. Story R1/990110, community guide release unspecified. Timed sequences; save at safe milestones and preserve failures.",
+    "session_id": "reverberations-b43cf5e223",
+    "started_at": "2026-09-25T06:09:14.124224+00:00",
+    "game_family": "reverberations",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/reverberations-walkthrough.txt",
+    "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/reverberations.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/reverb.sol",
+    "collection_notes": "# Reverberations\n\nStory R1/990110, community guide release unspecified. Timed sequences; save at safe milestones and preserve failures.\nGuide: https://ifarchive.org/if-archive/solutions/reverb.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at ordinary prompts; verify success.",
+    "story_sha256_expected": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "reverberations",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "reverberations",
+    "raw_end": 28844,
+    "event_id": "reverberations-b43cf5e223:e00153",
+    "metadata": {
+     "notes": "Full playthrough to author-intended win: 50/50 score, mafia exposed via Jill/SWAT, Tasker fired Stan, Jill investigator offer and kiss. Not death/quitting/chapter: explicit You Rule game-over with RESTART/RESTORE/QUIT prompt after final axe floor break.",
+     "ending_quote": "    *** You Rule!  The game's totally over! ***\n\n\nIn that game you scored 50 out of a possible 50, in 92 turns.",
+     "evidence_event_ids": [
+      "reverberations-b43cf5e223:e00151"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 28844,
+    "timestamp": "2026-09-25T06:20:43.800134+00:00",
+    "event_type": "ending_claim",
+    "session_id": "reverberations-b43cf5e223",
+    "event_index": 153,
+    "engine_state": "unchanged",
+    "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "reverberations",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "reverberations",
+    "raw_end": 28844,
+    "event_id": "reverberations-b43cf5e223:e00153",
+    "metadata": {
+     "notes": "Full playthrough to author-intended win: 50/50 score, mafia exposed via Jill/SWAT, Tasker fired Stan, Jill investigator offer and kiss. Not death/quitting/chapter: explicit You Rule game-over with RESTART/RESTORE/QUIT prompt after final axe floor break.",
+     "ending_quote": "    *** You Rule!  The game's totally over! ***\n\n\nIn that game you scored 50 out of a possible 50, in 92 turns.",
+     "evidence_event_ids": [
+      "reverberations-b43cf5e223:e00151"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 28844,
+    "timestamp": "2026-09-25T06:20:43.800134+00:00",
+    "event_type": "ending_claim",
+    "session_id": "reverberations-b43cf5e223",
+    "event_index": 153,
+    "engine_state": "unchanged",
+    "story_sha256": "ed1b0f4d878c97d3a13c825313020b9c304e1a1db9e1b6ec0165ccf49a657c1f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "reverberations",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 Reverberations COMPLETE\n\nLocation: Mayor's Office (final confrontation, game over winning)\nInventory at end: rope tied, hammer, axe used, etc. Score 50/50 in 92 turns.\nBranch: b0, last event e00152 (annotation), game event e00151 WIN\n\nMilestones:\n- Roof: tied rope to rod, held rope, jumped into Mayor's Office +5 (40)\n- Broke glass with hammer +3 (43), got axe, waited for crack, hit floor with axe +7 (50)\n- Winning: mafia dropped to Jill/SWAT, Tasker fired Stan, Jill kiss, You Rule!\n\nCases: 21 synthetic + 1 natural = 22 total annotated\n- 17 shut box none; 18 show box syntax; 19 tie rope syntax; 20 break box planning; 21 hit floor planning\n\nCheckpoints: start-behind-counter, street-with-pizza, courthouse-arrival, law-office-key, mayor-office-entry, law-office-after-rescue, after-bomb-25, after-thug-30, roof-before-rope\n\nDONE - ready to finish with e00151\n"
+  },
+  {
+   "game_id": "reverberations",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Reverberations\n\nStory R1/990110, community guide release unspecified. Timed sequences; save at safe milestones and preserve failures.\nGuide: https://ifarchive.org/if-archive/solutions/reverb.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "reverberations-b43cf5e223:e00001",

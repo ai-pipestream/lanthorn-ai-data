@@ -9,6 +9,80 @@
   "time-all-things-come-to-an-end"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "time-all-things-come-to-an-end",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/tatctae.z8",
+    "title": "Time: All Things Come to an End",
+    "engine": "zvm-cli",
+    "serial": "970521",
+    "game_id": "time-all-things-come-to-an-end",
+    "release": 7,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Complete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.",
+    "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+    "started_at": "2026-09-25T09:07:06.833909+00:00",
+    "game_family": "time-all-things-come-to-an-end",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end-walkthrough.txt",
+    "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/time-all-things-come-to-an-end.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/time.sol",
+    "collection_notes": "# Time: All Things Come to an End\n\nStory Z8 R7/970521. Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.\n\nComplete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.\n\nRandom safe codes, keystone eras and other placeholders must be resolved from live clues; never send #### or angle-bracket labels. The guide intentionally uses prior knowledge and restores: label hint-derived knowledge and failed attempts honestly, not as observations from the current path. Make an early safe checkpoint and milestone saves around hazards. Preserve sensible full-route progress without reproducing every optional death or wait. Apply the old SET WATCH work-around only if live evidence warrants it.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "time-all-things-come-to-an-end",
+   "name": "latest.json",
+   "content": {
+    "command": "ask woman about deals",
+    "game_id": "time-all-things-come-to-an-end",
+    "raw_end": 64729,
+    "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00382",
+    "metadata": {
+     "intent": "Ask interrogator what business deals she means",
+     "origin": "exploration",
+     "case_id": "b7-ask-deals",
+     "expected_outcome": "She explains the business deals"
+    },
+    "response": "\"Just listen. You'll be given the opportunity to speak later.\"\n\nThe shadowy figure leans forward, something catches the light and glints. Your \nmind focuses on the glinting. The memory of the finding the steel button in the \ngutter comes back to you. It suddenly dawns on you that the woman sitting \nopposite you is Carpenter's killer. You have to get out of here!\n\n\"Your part in this affair must be investigated. Let's have a pleasant chat.\"\n\n>",
+    "branch_id": "b7",
+    "raw_start": 64284,
+    "timestamp": "2026-09-25T09:45:43.993965+00:00",
+    "event_type": "command",
+    "session_id": "time-all-things-come-to-an-end-fad9ab092f",
+    "event_index": 382,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "dd3e03151624d55e053530f40e70bd58ecc3588842ee274d4bbd3a9eb7cb8502",
+    "review_status": "unreviewed",
+    "response_sha256": "6e5bee4676ad487804d3004aaa1bc23ecb3ae113e4c223fe131760e39eb92a67"
+   },
+   "text": null
+  },
+  {
+   "game_id": "time-all-things-come-to-an-end",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress - Time: All Things Come to an End - SEGMENT 2 (b1, in progress)\n\n## Current state (Disused Station, score 11, b1 e00250)\n- Branch b1 (restored lavatory-clear e00224; b0 estate-search kept pipe-less state).\n- Location: Disused Station, vending machine pushed twice, gum taken.\n- Inventory (6 listed): rusty pipe, dull knife, metallic disc, ID card, steel button, wad of chewing gum. Pipe seems to consume extra carrying capacity (6 listed items still blocked gum pickup until 2nd drop).\n- Dropped at station (one-way point, taxi next): crumpled newspaper (date July 20th 2065 already read, walkthrough says read-then-drop) and Carpenter note (full text preserved in b0 e00136). Gun + plastic bag remain in lavatory.\n- Graffiti read x5 (flavor + possible era hints): \"Adam Jones is a nutcase\", \"Corpers must die!\", \"Death to Unbelievers. Radion rules\", \"Egypt '32. Praise the Slovaksarim.\", \"Xeron Megacorp: The beginning of the end.\"\n- Score 11 (pipe +1, gum +1 on top of restored 9).\n\n## Resolved annotated this segment (3 new; ~28 total)\n- pipe-take01 none: 'take pipe' accepted first try (e00228, score 10).\n- machine-shake01 vocabulary: 'shake machine' verb unknown e00237 -> 'push machine' e00238 rattles.\n- gum-take-wad01 world_state: 'take wad' e00244 hands-full -> same command e00247 Taken score 11 after drops. Proves 'wad' resolves.\n\n## Key hint findings (R5 walkthrough, verify live in R7)\n- m0209 lines 67-75: lavatory 'X pipes. Pull pipe', 'Drop bag', graffiti, 'S,W, Push machine, G, Get all'.\n- m0226 lines 50-58: 'Read newspaper then drop it', 'X gutter (1/5) (we need the button)'. Button needed, newspaper droppable.\n- m0154: after taxi 'Give disc to driver, Drop disc' - frees slot for rope at fence.\n\n## Next actions (do NOT restart)\n1. U, E to street; taxi sequence (X taxi, knock, open, enter, close, 'Driver, drive to Gerants Heath' - b0 used 'driver, drive to estate' variant successfully).\n2. At estate: give disc fare, Drop disc, N (front: card slot disabled, door blocked - known), S, NE (side), X knife, turn handle, cut fence, cut rope, W (backyard).\n3. Backyard: bend pipe, tie rope to pipe, throw pipe at platform, chew gum (19-move moist window!), U. Move briskly once gum chewed.\n4. Collect 1 probe per new room/puzzle (synonyms, typo, pronoun, word-order); checkpoint at estate with kit + after platform climb.\n5. Capacity watch: 6 listed + pipe bulk = full. After fare, Drop disc before taking rope. Do NOT pick up stray items without a free slot.\n\n## Useful checkpoints\n- b0: start-lab, panel-open, machine-working, chapter1-bin, street-corner, lavatory-clear, estate-search (pipe-less, superseded)\n- b1: station-fullkit (Disused Station, pipe+gum, score 11) - current base\n"
+  },
+  {
+   "game_id": "time-all-things-come-to-an-end",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Time: All Things Come to an End\n\nStory Z8 R7/970521. Local Z8 R7/970521 matches the archive bytes and catalog. The full Paul J. Godfrey guide explicitly targets R5/961014, approximately 1100 moves. Preserve the two-release gap, the guide's version-specific comments and its reported watch bug; none establishes that the same bug or timing exists in R7.\n\nComplete the full multi-era keystone route and the later school, necklace/frame and final clock confrontation. Continue through the final frame destruction and actual authored concluding narrative. Intermediate time transfers, the apparent return to 1997, 200 points, FULL or a save named s200 alone are insufficient. Ordinary death is failure even where the guide uses death/replay to learn future events; retain real alternate conclusions with correct labels.\n\nRandom safe codes, keystone eras and other placeholders must be resolved from live clues; never send #### or angle-bracket labels. The guide intentionally uses prior knowledge and restores: label hint-derived knowledge and failed attempts honestly, not as observations from the current path. Make an early safe checkpoint and milestone saves around hazards. Preserve sensible full-route progress without reproducing every optional death or wait. Apply the old SET WATCH work-around only if live evidence warrants it.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "time-all-things-come-to-an-end-fad9ab092f:e00001",

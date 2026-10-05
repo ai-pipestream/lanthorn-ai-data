@@ -9,6 +9,105 @@
   "bronze"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "bronze",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Bronze.zblorb",
+    "title": "Bronze",
+    "engine": "zvm-cli",
+    "serial": "060503",
+    "game_id": "bronze",
+    "release": 11,
+    "completion": "Require actual author-intended final narrative/banner and independent raw-output verification. Do not stop on ordinary failure, quitting, intermediate scores or scene transitions.",
+    "session_id": "bronze-edcd114f65",
+    "started_at": "2026-09-25T02:35:01.081199+00:00",
+    "game_family": "bronze",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/bronze-walkthrough.txt",
+    "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925-batch3/bronze.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://i7-examples.github.io/Bronze/Walkthrough.txt",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Save early and at milestones only at actual command prompts; require engine confirmation.",
+    "story_sha256_expected": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "bronze",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "bronze",
+    "raw_end": 482401,
+    "event_id": "bronze-edcd114f65:e00872",
+    "metadata": {
+     "notes": "Walkthrough end branch (GO TO BEAST/RING GONG/KISS\u2192Branch 2\u2192RING GONG -> end) executed: gong freed servants, affection restored Beast to a man of 45 with girdle/Yvette reckoning, contracts stamped PROPERTY OF THE LIE LIBRARY and dissolved, then victory banner plus Inform RESTART/RESTORE/QUIT menu halting play. Not death (no demise text), not quitting (no QUIT issued; menu is post-victory), not intermediate score or chapter transition (no onward prompt, contracts arc resolved). Bleak parting tone is the author-intended conclusion.",
+     "ending_quote": "*** You have restored the King and freed his servants ***",
+     "evidence_event_ids": [
+      "bronze-edcd114f65:e00854"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 482401,
+    "timestamp": "2026-09-25T04:40:59.675007+00:00",
+    "event_type": "ending_claim",
+    "session_id": "bronze-edcd114f65",
+    "event_index": 872,
+    "engine_state": "unchanged",
+    "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bronze",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "bronze",
+    "raw_end": 482401,
+    "event_id": "bronze-edcd114f65:e00872",
+    "metadata": {
+     "notes": "Walkthrough end branch (GO TO BEAST/RING GONG/KISS\u2192Branch 2\u2192RING GONG -> end) executed: gong freed servants, affection restored Beast to a man of 45 with girdle/Yvette reckoning, contracts stamped PROPERTY OF THE LIE LIBRARY and dissolved, then victory banner plus Inform RESTART/RESTORE/QUIT menu halting play. Not death (no demise text), not quitting (no QUIT issued; menu is post-victory), not intermediate score or chapter transition (no onward prompt, contracts arc resolved). Bleak parting tone is the author-intended conclusion.",
+     "ending_quote": "*** You have restored the King and freed his servants ***",
+     "evidence_event_ids": [
+      "bronze-edcd114f65:e00854"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 482401,
+    "timestamp": "2026-09-25T04:40:59.675007+00:00",
+    "event_type": "ending_claim",
+    "session_id": "bronze-edcd114f65",
+    "event_index": 872,
+    "engine_state": "unchanged",
+    "story_sha256": "173f8aa40366c809909441cd0296186f13f8c33e5c2323d3ba75b35cda21ffe5",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "bronze",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Bronze progress \u2014 SEGMENT 7 END (finale reached, finish filing)\n\nGame R11/060503 branch b1. Last confirmed e00871 annotation; game itself at e00854 end menu in White Gallery (RESTART/RESTORE/QUIT prompt). NO in-flight game commands \u2014 do NOT submit new parser commands at the end menu; next runner should file/verify finish or restore before-beast-finale for kiss-canonical check.\nLocation: White Gallery, Beast restored to man ~45. Banner observed: *** You have restored the King and freed his servants *** (e00854). Rooms: 54/55 (one room unvisited \u2014 likely other-branch Scrying/Elzibad area; ending branch was RING GONG -> end per hints lines 492-500).\nInventory as observed: e00835 carried glass bell + infernal inkpot(empty\u2192later filled) + girdle/shoes worn, bronze gong, ivory/iron/small keys, notes, candle, vial, contract book(later on stand), sceptre, embroidery, helmet, shackle. Post-finale: contract book (dissolved/stamped PROPERTY OF THE LIE LIBRARY) + filled inkpot on Lie Library stand; contract book no longer takeable (e00846 options list storybook/inkpot only).\nRoute this segment: Black Gallery x inkpot \u2192 N Lie Library 54/55 (e00810-11); read storybook + x storybook (Russian clapper tale); look at book stand + x stand (place book, ring bell, librarian); checkpoint lie-library; look up librarian (clarification) \u2192 look up librarian in contract book (generic runes); go Translation Room \u2192 lookup translated (librarian controlled by glass bell); go stand; put book on stand (auto-resolved to contract book); go bellroom; get bell (ambiguity prompt) \u2192 get glass bell; go stand; ring bell (accepted, summoned, dried seal) + ring glass bell canonical (same); put pot (vocab fail) \u2192 put inkpot on stand; ring glass bell (dried again); get inkpot; go press room; fill pot (vocab fail) \u2192 fill inkpot (fountain); go lie library; put inkpot on stand; ring glass bell \u2192 PROPERTY stamp, contracts dissolve; checkpoint before-beast-finale; go to beast (White Gallery, sprawled); ring gong (servants released); hug beast \u2192 restoration + banner + answer + end menu.\nHints held: end branch confirmed (GO TO BEAST/RING GONG/KISS BEAST \u2192 Branch 2 Choice \u2192 RING GONG -> end). Tail-room paging kept cycling branch 2.1; no further end-section text needed.\nCases annotated this segment (11): lie-storybook-read (none), lie-stand-look (none), lie-librarian-lookup (syntax omission), stand-put-book (none auto-resolve), bellroom-glass-bell (ambiguity), stand-ring-glass (none), stand-put-inkpot (vocabulary), press-fill-inkpot (vocabulary), lie-final-inkpot (guided pair, NOT yet annotated), lie-final-ring (guided, NOT yet annotated), beast-ring-gong (none), beast-kiss (none, uncertain hug-vs-kiss). Older pending from seg6 still unannotated: crypt-helmet put-on, think-stone, debtors-jump, press smell/taste/listen, helmet-off pair, ivory SW auto-unlock, wedding-x-treasure, inkpot-lookup/examine, trans-librarian-lookup, lie-go-translation, inkpot-fill-route, stand-ring-glass canonical e00839. Count well above 20-40 total with seg6 ~13.\nCheckpoints: lie-library, before-beast-finale (+ press-room, before-girdle, before-gong, crypt-fathers-regret, lucrezia-study, before-steward, sinister-inscription, older). Next inbox m0753. Do NOT restart; b1 good. To verify kiss-canonical, restore before-beast-finale (new branch) and single 'kiss beast', then compare banner.\n"
+  },
+  {
+   "game_id": "bronze",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nActual startup: Bronze R11/060503 Z-code, not the R13 Glulx release on the guide hosting page. Guide has no explicit release. Initially asks Have you played interactive fiction before? Answer that question before any SAVE or parser command. Do not inject checkpoints into yes/no prompts. Follow actual game response when a suggested command differs. Seek a resolved intended narrative ending, not just explored-room count.\n\nCollect labeled synthetic human-like command variations, actual responses and same-intent recoveries. Ask for small hints through broker help. Do not read the full guide directly. Save at ordinary prompts when supported. All model labels remain unreviewed until independently checked. No training, application changes or publication.\n\n2026-09-25 03:44 UTC menu transport note: MENU INPUT: For a menu that says RETURN or Enter, send an empty command string (\"command\":\"\"). Do not spell RETURN, ENTER, SPACE or BACKSPACE as words. A literal space (\"command\":\" \") is a different key from Enter. The plain CLI passes the first byte of nonempty input; an empty line sends Return. Menu controls are not ordinary parser commands: consult the actual menu labels. Avoid optional HELP/file menus if collection-notes.md documents stalled transport; request a small broker walkthrough excerpt instead. If output times out, await_output only; never use another key to flush it.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "bronze-edcd114f65:e00001",

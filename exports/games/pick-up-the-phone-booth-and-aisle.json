@@ -23,14 +23,226 @@
    "host": "krickert@cm5v3.local"
   }
  ],
+ "files": [
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/PUTPBAA.z5",
+    "title": "Pick Up the Phone Booth and Aisle",
+    "engine": "zvm-cli",
+    "serial": "010618",
+    "game_id": "pick-up-the-phone-booth-and-aisle",
+    "release": 2,
+    "completion": "Require genuine author-intended concluding narrative verified independently from raw game output. Ordinary death, quitting, partial score, chapter transitions, guide text and model claims alone are insufficient. Respect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.",
+    "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+    "started_at": "2026-09-25T06:44:39.711569+00:00",
+    "game_family": "zork-i",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle-walkthrough.txt",
+    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+    "collection_notes": "# Pick Up the Phone Booth and Aisle\n\nStory Z5 R2/010618. Local R2/010618 matches archive; guide shares its IFDB identity but specifies no release/serial. Guide is a catalog of roughly 210 alternate ending commands, not a sequential walkthrough. SAVE, RESTORE and ordinary metacommands are listed among ending-producing inputs.\n\nRespect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.\n\nDo not issue SAVE, RESTORE, or broker checkpoint automatically: the guide lists them as ending commands. Preserve startup event evidence; no ordinary save checkpoint is established. Ask only for a small hint about the selected branch. Parent must separately supervise any restart to sample a different meaningful branch; never execute the guide as one sequence or inflate collection volume.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.",
+    "story_sha256_expected": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "pick-up-the-phone-booth-and-aisle",
+    "raw_end": 1664,
+    "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00009",
+    "metadata": {
+     "notes": "Title-action branch: canonical 'pick up the phone booth and aisle' from the Town Square produced the authored nonfatal win narrative with the standard *** You have won *** banner (e00007). Distinct from the earlier exploding-pants inventory death (e00002, *** Ka-boom ***), a restart recovery (e00005), and a typo probe the parser partially rejected without ending the game (e00006, annotated e00008). Single-action story per the game's short alternate-ending structure; no SAVE/RESTORE/checkpoint used.",
+     "ending_quote": "You do something very cunning and obscure and somehow or other it wins you the \ngame without ever tying up any of the loose ends or explaining what you did or \nhow you got here in the first place but hey.\n\n\n    *** You have won ***",
+     "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+     "evidence_event_ids": [
+      "pick-up-the-phone-booth-and-aisle-64782da4ad:e00007"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 1664,
+    "timestamp": "2026-09-25T06:49:18.864096+00:00",
+    "event_type": "ending_claim",
+    "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+    "event_index": 9,
+    "engine_state": "unchanged",
+    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "pick-up-the-phone-booth-and-aisle",
+    "raw_end": 1664,
+    "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00009",
+    "metadata": {
+     "notes": "Title-action branch: canonical 'pick up the phone booth and aisle' from the Town Square produced the authored nonfatal win narrative with the standard *** You have won *** banner (e00007). Distinct from the earlier exploding-pants inventory death (e00002, *** Ka-boom ***), a restart recovery (e00005), and a typo probe the parser partially rejected without ending the game (e00006, annotated e00008). Single-action story per the game's short alternate-ending structure; no SAVE/RESTORE/checkpoint used.",
+     "ending_quote": "You do something very cunning and obscure and somehow or other it wins you the \ngame without ever tying up any of the loose ends or explaining what you did or \nhow you got here in the first place but hey.\n\n\n    *** You have won ***",
+     "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+     "evidence_event_ids": [
+      "pick-up-the-phone-booth-and-aisle-64782da4ad:e00007"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 1664,
+    "timestamp": "2026-09-25T06:49:18.864096+00:00",
+    "event_type": "ending_claim",
+    "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+    "event_index": 9,
+    "engine_state": "unchanged",
+    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 Pick Up the Phone Booth and Aisle \u2014 COMPLETE (pending Terra verification)\n\nGame: short alternate-ending structure (~210 ending commands, not sequential).\nCompletion: coherent nonfatal authored narrative ending, preferably title-action branch. Single-action story is sufficient.\nCheckpoint policy: NO broker checkpoint / SAVE / RESTORE \u2014 guide lists them as ending commands. None used.\n\nRoute (branch b0):\n- e00001 startup: The Town Square, phone booth present.\n- m0001 inventory -> e00002 exploding-pants death (*** Ka-boom ***; early death, not target).\n- m0002/m0003 help: guide header only; proceeded with literal title guess.\n- m0004 in-game RESTART -> e00005 Town Square (recovery).\n- m0005 typo \"pick up the phone boothe and aisle\" -> e00006 parser partial-understanding, game continues.\n- m0006 canonical \"pick up the phone booth and aisle\" -> e00007 WIN: cunning/obscure narrative + *** You have won ***.\n- m0007 annotate -> e00008 (vocabulary, intent preserved, synthetic_probe).\n- m0008 finish rejected (quote whitespace); m0009 finish with verbatim quote -> e00009 ending_claim recorded, awaiting Terra verification.\n\nCases: town-square-baseline (death), recover-restart-after-pants-death (recovery), title-action-typo-probe (vocabulary failure + annotated repair), title-action-canonical (win).\nNo further game commands. Done.\n"
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Pick Up the Phone Booth and Aisle\n\nStory Z5 R2/010618. Local R2/010618 matches archive; guide shares its IFDB identity but specifies no release/serial. Guide is a catalog of roughly 210 alternate ending commands, not a sequential walkthrough. SAVE, RESTORE and ordinary metacommands are listed among ending-producing inputs.\n\nRespect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.\n\nDo not issue SAVE, RESTORE, or broker checkpoint automatically: the guide lists them as ending commands. Preserve startup event evidence; no ordinary save checkpoint is established. Ask only for a small hint about the selected branch. Parent must separately supervise any restart to sample a different meaningful branch; never execute the guide as one sequence or inflate collection volume.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.\n"
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/PUTPBAA.z5",
+    "title": "Pick Up the Phone Booth and Aisle",
+    "engine": "zvm-cli",
+    "serial": "010618",
+    "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+    "release": 2,
+    "completion": "Require genuine author-intended concluding narrative verified independently from raw game output. Ordinary death, quitting, partial score, chapter transitions, guide text and model claims alone are insufficient. Respect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.",
+    "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+    "started_at": "2026-09-27T01:12:56.502024+00:00",
+    "game_family": "zork-i",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle-walkthrough.txt",
+    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-c-20260925/pick-up-the-phone-booth-and-aisle.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+    "collection_notes": "# Pick Up the Phone Booth and Aisle\n\nStory Z5 R2/010618. Local R2/010618 matches archive; guide shares its IFDB identity but specifies no release/serial. Guide is a catalog of roughly 210 alternate ending commands, not a sequential walkthrough. SAVE, RESTORE and ordinary metacommands are listed among ending-producing inputs.\n\nRespect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.\n\nDo not issue SAVE, RESTORE, or broker checkpoint automatically: the guide lists them as ending commands. Preserve startup event evidence; no ordinary save checkpoint is established. Ask only for a small hint about the selected branch. Parent must separately supervise any restart to sample a different meaningful branch; never execute the guide as one sequence or inflate collection volume.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.",
+    "story_sha256_expected": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+    "raw_end": 19313,
+    "event_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00060",
+    "metadata": {
+     "notes": "Completed via the game's authored nonfatal winning ending 'push booth', observed twice with identical response hashes (e00018 during collection, e00057 as the dedicated finale). This is an author-intended concluding narrative carrying the explicit '*** You have won ***' banner \u2014 not a death, not a quit, not a parser or metacommand response. The manifest's preferred title-action branch was directly tested (e00055, 'pick up phone booth') and is authored as an ordinary death in this sequel (byte-identical to the take-family death ending), so it cannot satisfy completion; per the manifest's allowance for a coherent nonfatal authored narrative ending, the push-booth victory was selected. 24 distinct command-repair/variation cases were collected across the playthrough with 6 linked annotations.",
+     "ending_quote": "You may recall, in the original game, this action won the game. I guess that's \nwhy you tried it. Well, full points for good memory.\n\n\n    *** You have won ***",
+     "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+     "evidence_event_ids": [
+      "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00057",
+      "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00018"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 19313,
+    "timestamp": "2026-09-27T07:21:53.651941+00:00",
+    "event_type": "ending_claim",
+    "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+    "event_index": 60,
+    "engine_state": "unchanged",
+    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+    "raw_end": 19313,
+    "event_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00060",
+    "metadata": {
+     "notes": "Completed via the game's authored nonfatal winning ending 'push booth', observed twice with identical response hashes (e00018 during collection, e00057 as the dedicated finale). This is an author-intended concluding narrative carrying the explicit '*** You have won ***' banner \u2014 not a death, not a quit, not a parser or metacommand response. The manifest's preferred title-action branch was directly tested (e00055, 'pick up phone booth') and is authored as an ordinary death in this sequel (byte-identical to the take-family death ending), so it cannot satisfy completion; per the manifest's allowance for a coherent nonfatal authored narrative ending, the push-booth victory was selected. 24 distinct command-repair/variation cases were collected across the playthrough with 6 linked annotations.",
+     "ending_quote": "You may recall, in the original game, this action won the game. I guess that's \nwhy you tried it. Well, full points for good memory.\n\n\n    *** You have won ***",
+     "_fleet_session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+     "evidence_event_ids": [
+      "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00057",
+      "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00018"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 19313,
+    "timestamp": "2026-09-27T07:21:53.651941+00:00",
+    "event_type": "ending_claim",
+    "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+    "event_index": 60,
+    "engine_state": "unchanged",
+    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 PUTPBAA (session pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff, branch b0)\n\nDate: 2026-09-27. Status: COMPLETE \u2014 winning ending verified; finish claim ACCEPTED by broker as event e00060 (ending_claim, \"awaiting Terra ending verification\"). m0039 was rejected once (quote mismatch due to line wrap); corrected verbatim quote accepted in m0040.\n\n## Completion\n- WINNING ENDING (verified twice, identical sha c18ce248...): `push booth` ->\n  \"You may recall, in the original game, this action won the game. I guess that's why you tried it. Well, full points for good memory. / *** You have won ***\"\n  - e00018 (probe), e00057 (dedicated finale run).\n- The manifest's preferred title-action branch was TESTED and is FATAL in this sequel:\n  `pick up phone booth` (e00055) -> \"YOU DIE, OK? Sheesh. / *** You have died ***\", byte-identical to all take/pick-up variants (e00006, e00011, e00042).\n- Therefore completion was claimed on the game's authored, nonfatal, explicit-win ending (`push booth`), per the manifest allowance for a coherent nonfatal authored narrative ending (\"preferably\" title branch; title branch excluded as ordinary death).\n\n## Game structure\n- One room; every command yields an authored ending + RESTART/RESTORE/QUIT menu; `restart` recovers. Parser rejections (unknown verb, empty line, dangling pronoun) do not end the game. Commands at the end-menu get \"Please give one of the answers above.\"\n- No SAVE/RESTORE/checkpoint used (forbidden by collection notes). No lamps/timers.\n- Help broker only returned walkthrough header lines (m0008/m0009); guidance was not usable; conclusions rest on observed game output.\n\n## Annotations filed (all synthetic probes, unreviewed labels)\n- e00029 accepted paraphrase: `x booth` == `examine phone booth` (failure_type none).\n- e00052 omitted object `take`: parser auto-guessed booth, lethal (ambiguity).\n- e00053 dangling pronoun `take it`: \"I'm not sure what 'it' refers to.\" (ambiguity; no safe repair exists).\n- e00054 commands typed at end-menu rejected (world_state; e00012/e00046 -> recovery e00013).\n- e00058 typo `pik up booth` -> corrected `pick up phone booth`; parser accepted but branch authored as death (vocabulary).\n- e00059 word-order `pick the phone booth up` == `pick up phone booth`, both lethal (syntax; hypothesis of parse difference refuted at outcome level).\n\n## Case inventory (24 distinct commands probed)\nlook, x booth, examine phone booth, take, take phone, take it, pick up, pick the phone booth up, pick up phone booth, open booth, enter booth, push booth, kiss booth, listen, go north, jump, wait, shout, inventory, talk to booth, xyzzy, think, dial 911, empty line. Plus 10 in-game restarts (recovery) and 2 help requests.\n\n## Requests\n- m0001\u2013m0038 issued and serviced. m0039 = finish.\n"
+  },
+  {
+   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Pick Up the Phone Booth and Aisle\n\nStory Z5 R2/010618. Local R2/010618 matches archive; guide shares its IFDB identity but specifies no release/serial. Guide is a catalog of roughly 210 alternate ending commands, not a sequential walkthrough. SAVE, RESTORE and ordinary metacommands are listed among ending-producing inputs.\n\nRespect the short alternate-ending structure. Seek a coherent nonfatal authored narrative ending, preferably the title-action branch, and capture the full resulting output. A complete intended single-action story is sufficient; do not require a fabricated long route, all 210 endings or a quota. Ordinary death, quitting, parser rejection or a metacommand response alone is insufficient; the parent must distinguish an authored alternate finale from engine administration.\n\nDo not issue SAVE, RESTORE, or broker checkpoint automatically: the guide lists them as ending commands. Preserve startup event evidence; no ordinary save checkpoint is established. Ask only for a small hint about the selected branch. Parent must separately supervise any restart to sample a different meaningful branch; never execute the guide as one sequence or inflate collection volume.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters), never full-guide reads or serial excerpts to reconstruct a complete guide. Help is suggested, not observed success. Resolve startup questions/key pauses first. Except for the explicitly documented PUTPBAA save exception, make an early safe checkpoint and milestone saves only at confirmed ordinary prompts and verify success. Menu Enter means an empty command, not literal space or the word RETURN; use other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with real event IDs, not quotas or repeated filler. Use one command at a time near hazards and menus. Parent independently verifies actual concluding narrative. No training, evaluation or publication.\n\nCheckpoint policy: Do not issue broker checkpoint, SAVE or RESTORE automatically: guide lists these as authored ending commands. Preserve startup/raw event evidence; no ordinary safe save checkpoint is established. Parent supervises any branch restart.\n"
+  }
+ ],
  "events": [
   {
-   "event_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00001",
-   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
-   "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
+   "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00001",
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T01:12:56.501+00:00",
+   "timestamp_utc_ms": "2026-09-25T06:44:39.711+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +259,12 @@
    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
   },
   {
-   "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00001",
-   "game_id": "pick-up-the-phone-booth-and-aisle",
-   "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+   "event_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00001",
+   "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
+   "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T06:44:39.711+00:00",
+   "timestamp_utc_ms": "2026-09-27T01:12:56.501+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -157,28 +369,6 @@
    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
   },
   {
-   "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00004",
-   "game_id": "pick-up-the-phone-booth-and-aisle",
-   "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
-   "branch_id": "b0",
-   "event_index": 4,
-   "timestamp_utc_ms": "2026-09-25T06:46:39.6+00:00",
-   "event_type": "help",
-   "origin": "",
-   "case_id": "",
-   "intent": "",
-   "command": "",
-   "response": "",
-   "expected_outcome": "",
-   "help_reason": "First excerpt was guide header only. I need the compacted catalog line for the title-action branch (phone booth and aisle) to aim for the nonfatal authored ending. Currently at RESTART/RESTORE/QUIT death menu after exploding-pants inventory ending; will answer the menu with RESTART and then attempt the title action.",
-   "hint_text": "\n-- 210 OR SO ENDINGS TO PICK UP THE PHONE BOOTH AND AISLE --\n--- By Spinster/Zaratustra --- http://zara.verge-rpg.com ---\n\nI believe this is the more or less complete set of commands that\nwill give endings in PUTPBAA. Some that give the same endings \n(like most KILL synonyms) were skipped.\n\nCommands are marked in a 'compacted' manner: That is, NOTIFY (ON,",
-   "hint_source": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
-   "related_event_ids": "[\"pick-up-the-phone-booth-and-aisle-64782da4ad:e00002\"]",
-   "review_status": "unreviewed",
-   "transport_quality": "captured",
-   "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
-  },
-  {
    "event_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00004",
    "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
    "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
@@ -196,6 +386,28 @@
    "hint_text": "",
    "hint_source": "",
    "related_event_ids": "[]",
+   "review_status": "unreviewed",
+   "transport_quality": "captured",
+   "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
+  },
+  {
+   "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00004",
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+   "branch_id": "b0",
+   "event_index": 4,
+   "timestamp_utc_ms": "2026-09-25T06:46:39.6+00:00",
+   "event_type": "help",
+   "origin": "",
+   "case_id": "",
+   "intent": "",
+   "command": "",
+   "response": "",
+   "expected_outcome": "",
+   "help_reason": "First excerpt was guide header only. I need the compacted catalog line for the title-action branch (phone booth and aisle) to aim for the nonfatal authored ending. Currently at RESTART/RESTORE/QUIT death menu after exploding-pants inventory ending; will answer the menu with RESTART and then attempt the title action.",
+   "hint_text": "\n-- 210 OR SO ENDINGS TO PICK UP THE PHONE BOOTH AND AISLE --\n--- By Spinster/Zaratustra --- http://zara.verge-rpg.com ---\n\nI believe this is the more or less complete set of commands that\nwill give endings in PUTPBAA. Some that give the same endings \n(like most KILL synonyms) were skipped.\n\nCommands are marked in a 'compacted' manner: That is, NOTIFY (ON,",
+   "hint_source": "https://ifarchive.org/if-archive/solutions/putpbaa.sol",
+   "related_event_ids": "[\"pick-up-the-phone-booth-and-aisle-64782da4ad:e00002\"]",
    "review_status": "unreviewed",
    "transport_quality": "captured",
    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
@@ -245,28 +457,6 @@
    "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
   },
   {
-   "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00006",
-   "game_id": "pick-up-the-phone-booth-and-aisle",
-   "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
-   "branch_id": "b0",
-   "event_index": 6,
-   "timestamp_utc_ms": "2026-09-25T06:47:53.076+00:00",
-   "event_type": "command",
-   "origin": "synthetic_probe",
-   "case_id": "title-action-typo-probe",
-   "intent": "Attempt the title action (pick up the phone booth and aisle) with a one-letter typo",
-   "command": "pick up the phone boothe and aisle",
-   "response": "I only understood you as far as wanting to pick up the phone booth.\n\n>",
-   "expected_outcome": "Parser rejects unknown word boothe without ending the game",
-   "help_reason": "",
-   "hint_text": "",
-   "hint_source": "",
-   "related_event_ids": "[]",
-   "review_status": "unreviewed",
-   "transport_quality": "captured",
-   "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
-  },
-  {
    "event_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff:e00006",
    "game_id": "pick-up-the-phone-booth-and-aisle-kimi",
    "session_id": "pick-up-the-phone-booth-and-aisle-kimi-07c4bb84ff",
@@ -280,6 +470,28 @@
    "command": "take",
    "response": "(the phone booth)\nDid you really think this was going to work out any differently in this game? \nYOU DIE, OK? Sheesh.\n\n\n    *** You have died ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?\n> ",
    "expected_outcome": "Parser asks a clarification question such as 'What do you want to take?'",
+   "help_reason": "",
+   "hint_text": "",
+   "hint_source": "",
+   "related_event_ids": "[]",
+   "review_status": "unreviewed",
+   "transport_quality": "captured",
+   "story_sha256": "c48eb913ab6e7ba0fb06cd738ae646042875eb082b55fbc0a4d2ea11c8dff4a3"
+  },
+  {
+   "event_id": "pick-up-the-phone-booth-and-aisle-64782da4ad:e00006",
+   "game_id": "pick-up-the-phone-booth-and-aisle",
+   "session_id": "pick-up-the-phone-booth-and-aisle-64782da4ad",
+   "branch_id": "b0",
+   "event_index": 6,
+   "timestamp_utc_ms": "2026-09-25T06:47:53.076+00:00",
+   "event_type": "command",
+   "origin": "synthetic_probe",
+   "case_id": "title-action-typo-probe",
+   "intent": "Attempt the title action (pick up the phone booth and aisle) with a one-letter typo",
+   "command": "pick up the phone boothe and aisle",
+   "response": "I only understood you as far as wanting to pick up the phone booth.\n\n>",
+   "expected_outcome": "Parser rejects unknown word boothe without ending the game",
    "help_reason": "",
    "hint_text": "",
    "hint_source": "",

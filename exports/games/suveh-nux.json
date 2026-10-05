@@ -9,6 +9,109 @@
   "suveh-nux"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "suveh-nux",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/old/suvehnux-r1-s071226.z5",
+    "title": "Suveh Nux (original 2007 version)",
+    "engine": "zvm-cli",
+    "serial": "071226",
+    "game_id": "suveh-nux",
+    "release": 1,
+    "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+    "session_id": "suveh-nux-0a645cbebf",
+    "started_at": "2026-09-25T01:54:51.260625+00:00",
+    "game_family": "suveh-nux",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/suveh-nux-walkthrough.txt",
+    "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/suveh-nux.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://plover.net/~davidw/sol/s/suveh07.html",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+    "story_sha256_expected": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "suveh-nux",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "suveh-nux",
+    "raw_end": 29396,
+    "event_id": "suveh-nux-0a645cbebf:e00276",
+    "metadata": {
+     "notes": "Genuine winning ending, not death/quitting/chapter change. e00269: pull block frees it (+10%) and crawl through hole into freedom, [Press a key]. e00270: keypress reveals concluding narrative (master found bound/gagged, freed, gives praise and thanks) followed by the author banner *** You have escaped *** and 'scored 99% in 198 turns'. e00271 FULL breakdown totals 99/100 with all main points (20 crack, 10 escape, 5 creature); the single missing point is the optional third Easter egg (2 of 3 found). Escape banner plus master-rescued scene is the intended conclusion.",
+     "ending_quote": "    *** You have escaped ***",
+     "evidence_event_ids": [
+      "suveh-nux-0a645cbebf:e00269",
+      "suveh-nux-0a645cbebf:e00270",
+      "suveh-nux-0a645cbebf:e00271"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 29396,
+    "timestamp": "2026-09-25T02:21:17.648693+00:00",
+    "event_type": "ending_claim",
+    "session_id": "suveh-nux-0a645cbebf",
+    "event_index": 276,
+    "engine_state": "unchanged",
+    "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "suveh-nux",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "suveh-nux",
+    "raw_end": 29396,
+    "event_id": "suveh-nux-0a645cbebf:e00276",
+    "metadata": {
+     "notes": "Genuine winning ending, not death/quitting/chapter change. e00269: pull block frees it (+10%) and crawl through hole into freedom, [Press a key]. e00270: keypress reveals concluding narrative (master found bound/gagged, freed, gives praise and thanks) followed by the author banner *** You have escaped *** and 'scored 99% in 198 turns'. e00271 FULL breakdown totals 99/100 with all main points (20 crack, 10 escape, 5 creature); the single missing point is the optional third Easter egg (2 of 3 found). Escape banner plus master-rescued scene is the intended conclusion.",
+     "ending_quote": "    *** You have escaped ***",
+     "evidence_event_ids": [
+      "suveh-nux-0a645cbebf:e00269",
+      "suveh-nux-0a645cbebf:e00270",
+      "suveh-nux-0a645cbebf:e00271"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 29396,
+    "timestamp": "2026-09-25T02:21:17.648693+00:00",
+    "event_type": "ending_claim",
+    "session_id": "suveh-nux-0a645cbebf",
+    "event_index": 276,
+    "engine_state": "unchanged",
+    "story_sha256": "4a4e4745172ac9670cb7062126d2b4bb623d6bf61c3fc8193fb9d69cc92ff862",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "suveh-nux",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress suveh-nux \u2013 COMPLETE (segment 2, 2026-09-25 ~02:21 UTC)\n\nGAME COMPLETE. Escaped vault via triangular block: *** You have escaped *** (e00269/e00270).\nEnd menu (e00270): master bound/gagged freed, praise, score 99% in 198 turns, 2 of 3 Easter eggs.\nFULL breakdown (e00271): 10 vial shake, 5 magic words, 5 lighting, 10 experimentation,\n10 floating word, 10 numerical proficiency, 10 intensified effect, 20 door crack,\n10 vault escape, 5 capturing creature, 4 two Easter eggs = 99/100. Missing 1pt = third Easter egg (optional).\n\nLocation: end menu prompt (RESTART/RESTORE/UNDO/FULL/AMUSING/QUIT). No checkpoint taken at menu (policy).\nInventory at escape: as segment 1 (crystal, vial, caged creature, scroll, book, parchment).\n\nCheckpoints: opening-darkness, after-heat-spell, after-light-spells, after-self-glow,\nstuck-ceiling, door-cracked-block (e00238), block-cooled (e00256/e00257, ok).\n\nSegment-2 cases annotated (m0206-m0209, all unreviewed):\n- block-push-hot (e00241->e00269) world_state, success\n- block-cold-typo (e00244) none (firneo auto-corrected to fireno, cooled door)\n- block-shove-syn (e00248->e00249) none (shove accepted as push; both failed on heat)\n- block-sticky-natural (e00258->e00259) world_state (spell is puzzle solution)\nGuided route steps (point/fireno/firenos/sticky/light/pull) need no annotation.\nHints used: m0187 (lines 79-87), m0200 next (lines 88-96). Both verified against game.\nSegment-1 pending: egg-give-ambig (e00160/e00202) was noted pending; segment-1 owner to close.\n\nNext: submit finish with evidence e00269/e00270/e00271. Do NOT restart. Do NOT save at menu.\n"
+  },
+  {
+   "game_id": "suveh-nux",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nCorrection recorded 2026-09-25: the selected 2007 binary release 1/071226 actually reports version 1.1 (event suveh-nux-0a645cbebf:e00002), while the guide describes version 1.0. Full compatibility is unproven; do not conflate either with the later 2015 file. The earlier note incorrectly implied a version match. Startup is [Press a key]; use a single space then observe. Spell vocabulary and word order are part of the puzzle; a different spell effect is not an intent-preserving wording fix. Seek an actual escape ending, not only a percentage or learned spell.\n\nCollect varied synthetic command mistakes with explicit intent and actual failed/recovery responses. All labels start unreviewed. Ask for small walkthrough excerpts only as needed. Never read the full guide outside the broker or publish/train on this material. Preserve checkpoints and evidence.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "suveh-nux-0a645cbebf:e00001",

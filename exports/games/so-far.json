@@ -9,6 +9,106 @@
   "so-far"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "so-far",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/SoFar.z8",
+    "title": "So Far",
+    "engine": "zvm-cli",
+    "serial": "961218",
+    "game_id": "so-far",
+    "release": 6,
+    "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. GuideR5/960619. Exact compatibility must be verified in play.",
+    "session_id": "so-far-8d580943cf",
+    "started_at": "2026-09-25T04:03:36.620867+00:00",
+    "game_family": "so-far",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/so-far-walkthrough.txt",
+    "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/so-far.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/SoFar.sol",
+    "collection_notes": "# So Far collection notes\n\nExact local header: R6/961218. GuideR5/960619. Exact compatibility must be verified in play. Guide source: https://ifarchive.org/if-archive/solutions/SoFar.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "so-far",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "so-far",
+    "raw_end": 442378,
+    "event_id": "so-far-8d580943cf:e01573",
+    "metadata": {
+     "notes": "Genuine winning ending e01571: full dark-noise > cramped-metal > shape-plane route completed with author-intended final narrative (theater portico, almost-conjunction of two moons, approach rapt figure in autumn breeze) and explicit *** You have won *** banner plus RESTART/RESTORE/AFTERWORD/QUIT prompt. Not death, quitting, or chapter transition. Initial finish (m1245) rejected on multi-line quote whitespace; refiling with exact banner substring.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "so-far-8d580943cf:e01571"
+     ]
+    },
+    "response": "",
+    "branch_id": "b30",
+    "raw_start": 442378,
+    "timestamp": "2026-09-25T06:59:50.664039+00:00",
+    "event_type": "ending_claim",
+    "session_id": "so-far-8d580943cf",
+    "event_index": 1573,
+    "engine_state": "unchanged",
+    "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "so-far",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "so-far",
+    "raw_end": 442378,
+    "event_id": "so-far-8d580943cf:e01573",
+    "metadata": {
+     "notes": "Genuine winning ending e01571: full dark-noise > cramped-metal > shape-plane route completed with author-intended final narrative (theater portico, almost-conjunction of two moons, approach rapt figure in autumn breeze) and explicit *** You have won *** banner plus RESTART/RESTORE/AFTERWORD/QUIT prompt. Not death, quitting, or chapter transition. Initial finish (m1245) rejected on multi-line quote whitespace; refiling with exact banner substring.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "so-far-8d580943cf:e01571"
+     ]
+    },
+    "response": "",
+    "branch_id": "b30",
+    "raw_start": 442378,
+    "timestamp": "2026-09-25T06:59:50.664039+00:00",
+    "event_type": "ending_claim",
+    "session_id": "so-far-8d580943cf",
+    "event_index": 1573,
+    "engine_state": "unchanged",
+    "story_sha256": "b94c01b794a728806f78a9ab5a2d2ac0fcbe04632206d501848c18c809feba1c",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "so-far",
+   "name": "progress.md",
+   "content": null,
+   "text": "# So Far \u2014 progress (branch b30) \u2014 WON e01571\n\nSTATE: GAME COMPLETE. *** You have won *** (e01571, b30). Final: theater portico, almost-conjunction of two moons, approach rapt figure in autumn breeze. Afterword available but not required.\n\nROUTE (this segment m1107-m1243): arrival-thud-b23 > west > follow plipping > OUT (release thud) > LISTEN TO PLIPPING (reveals low plooping NE) > FOLLOW LOW PLOOPING (attach) > S (cascade, plipping gone, voices NE) > NE (voices room) > E (glass noise) > back: W,SW (plopping) > FOLLOW THUDDING (re-attach) > NE,E (glass, thud attached) > S (rhythms blend, thud-quiet room, blares SE) > FOLLOW BLARES (silent-area room) > ENTER SILENCE > keypause > Caught In Metal > crush pod INTO jar > wait for trickle ooze > BREAK SQUARE (blue flame) > LIGHT TRICKLE WITH SQUARE > take pipes > hit R,L,L,L,R,R,R,R (pipes consumed per move; take ground pipes as needed) > boy takes last pipe; 'boy, give me pipe' recovers > hit final R > maze-exit shadow: PUT JAR DOWN > ENTER SHADOW > keypause > Somewhere Else > S > X/MOVE BROWN gradients (NW smooth, SW uniform, NE tan, NW white) > ENTER RING x2 > answer NO > keypause > WIN.\n\nKEY R6 FINDINGS: low-plooping sequence (listen-to-plipping reveal) verified from supervisor R6 source; glass-south requires thud attached (blend passage); blare (not squeal) is listen noun; shadow-exit requires jar set down; brown cube adjectives track color (brown>tan>white).\n\nCASES: 37 annotated total (6 this segment: listen-voices none e01429; listen-glass none e01436; listen-squeals>blares vocab e01470>473; crush-pod syntax destructive e01480>484 cross-branch; examine-pipes ambiguity e01511>512; move-brown>tan world_state e01563>564). Target 20-40: MET at 37.\n\nCHECKPOINTS: shape-plane-b30, ring-brightness-b30, maze-exit-shadow-b30, trickle-lit-b30, oil-in-jar-b29, caught-metal-b28, glass-noise-b28, voices-room-b28, thud-blend-south-b28 + priors. No pending. Finish filed m1245.\n"
+  },
+  {
+   "game_id": "so-far",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# So Far collection notes\n\nExact local header: R6/961218. GuideR5/960619. Exact compatibility must be verified in play. Guide source: https://ifarchive.org/if-archive/solutions/SoFar.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "so-far-8d580943cf:e00001",

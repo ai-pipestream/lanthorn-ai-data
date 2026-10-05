@@ -9,6 +9,105 @@
   "shade"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "shade",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/shade.z5",
+    "title": "Shade",
+    "engine": "zvm-cli",
+    "serial": "001127",
+    "game_id": "shade",
+    "release": 3,
+    "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+    "session_id": "shade-3fcd469b94",
+    "started_at": "2026-09-25T01:54:50.064813+00:00",
+    "game_family": "shade",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/shade-walkthrough.txt",
+    "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/shade.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://plover.net/~davidw/sol/shade.html",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+    "story_sha256_expected": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "shade",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "shade",
+    "raw_end": 44296,
+    "event_id": "shade-3fcd469b94:e00352",
+    "metadata": {
+     "notes": "Author-intended bleak concluding narrative with SHADE banner and restart/restore/quit prompt after desert figure death, book blank, and waits. Not early death, chapter reset (mirror e00247), or quit: full apartment-to-desert transformation completed (taps/closet/crate/stove/fridge/shower/luggage sand, nooks gone, palm, mirror daylight, desert figure killed by handling, book blank). Extra wait commands got end-prompt refusals, confirming termination.",
+     "ending_quote": "The tiny figure crawls out from under the sands. It's dead.\n\n\"You win,\" it says. \"Okay, my turn again.\"\n\n>...\nNothing left to do. Time passes.\n\nThe sun crawls higher.\n\n\n    *** SHADE ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?",
+     "evidence_event_ids": [
+      "shade-3fcd469b94:e00347"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 44296,
+    "timestamp": "2026-09-25T02:24:45.386148+00:00",
+    "event_type": "ending_claim",
+    "session_id": "shade-3fcd469b94",
+    "event_index": 352,
+    "engine_state": "unchanged",
+    "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "shade",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "shade",
+    "raw_end": 44296,
+    "event_id": "shade-3fcd469b94:e00352",
+    "metadata": {
+     "notes": "Author-intended bleak concluding narrative with SHADE banner and restart/restore/quit prompt after desert figure death, book blank, and waits. Not early death, chapter reset (mirror e00247), or quit: full apartment-to-desert transformation completed (taps/closet/crate/stove/fridge/shower/luggage sand, nooks gone, palm, mirror daylight, desert figure killed by handling, book blank). Extra wait commands got end-prompt refusals, confirming termination.",
+     "ending_quote": "The tiny figure crawls out from under the sands. It's dead.\n\n\"You win,\" it says. \"Okay, my turn again.\"\n\n>...\nNothing left to do. Time passes.\n\nThe sun crawls higher.\n\n\n    *** SHADE ***\n\n\n\nWould you like to RESTART, RESTORE a saved game or QUIT?",
+     "evidence_event_ids": [
+      "shade-3fcd469b94:e00347"
+     ]
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 44296,
+    "timestamp": "2026-09-25T02:24:45.386148+00:00",
+    "event_type": "ending_claim",
+    "session_id": "shade-3fcd469b94",
+    "event_index": 352,
+    "engine_state": "unchanged",
+    "story_sha256": "9c4111f13619766b9c928632271ed21edaa7e4f1ddd8fdbd64102841b17ebf05",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "shade",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Shade progress \u2014 FINISHED (ending claimed, annotation pending)\n\n- Location: desert end prompt (RESTART/RESTORE/QUIT) after e00347; branch b0.\n- Ending evidence e00347: tiny figure dead, \"You win / Okay my turn again\", \"... Nothing left to do. Time passes. The sun crawls higher.\", *** SHADE *** banner. Finish claimed e00352 (m0274); Terra verification pending.\n- Route: mirror reset was chapter transition (NOT ending); desert figure weakened by touch/take/kiss, killed by final touch e00344; book blank e00345; waits to ending.\n- Cases: segment-1 ~40 annotated; segment-2 new probes include mirror-typo (m0275 annotation submitted, response pending), figure touch/take/kiss chain, closet-clean syntax, dunes/list read variations, sand-tap world-state. Backlog: annotate figure chain + sand-tap pair on next run if needed.\n- Checkpoints: figure-revealed + nooks-gone-palm + sand-collapse + spider-plant ok. Do NOT send game commands or SAVE at end prompt.\n- Next: retry responses/m0275.json once (submitted ~02:25); if still pending after 190s vs latest e00352, stop honestly with game complete, annotation unreviewed.\n"
+  },
+  {
+   "game_id": "shade",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nExact local build: Release3/001127, matching the guide release. Psychological-horror story: pursue the author-intended final narrative, not a happy ending assumption. Initial about/read-help is reasonable. Distinguish scene changes from the true conclusion.\n\nCollect varied synthetic command mistakes with explicit intent and actual failed/recovery responses. All labels start unreviewed. Ask for small walkthrough excerpts only as needed. Never read the full guide outside the broker or publish/train on this material. Preserve checkpoints and evidence.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "shade-3fcd469b94:e00001",

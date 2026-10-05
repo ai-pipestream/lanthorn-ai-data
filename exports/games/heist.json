@@ -23,14 +23,148 @@
    "host": "pi500p"
   }
  ],
+ "files": [
+  {
+   "game_id": "heist",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/heist.z8",
+    "title": "Heist: The Crime of the Century",
+    "engine": "zvm-cli",
+    "serial": "990217",
+    "game_id": "heist",
+    "release": 5,
+    "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Accept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.",
+    "session_id": "heist-a079eba445",
+    "started_at": "2026-09-25T06:13:13.149583+00:00",
+    "game_family": "zork-i",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist-walkthrough.txt",
+    "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/heist.sol",
+    "collection_notes": "# Heist: The Crime of the Century\n\nStory Z8 R5/990217. Local R5/990217 versus Dale Johannesen guide R2/970901. Guide explicitly is not an exact command transcript because several puzzles randomize. Three-release gap requires observation-led adaptation.\n\nAccept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.\n\nGuide estimates about 1000 moves. Observe randomized dates, combinations, appearance and geometry clues. Do not type braces or placeholders as commands. Save before tight timing sequences; keep probe experiments outside them.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "heist",
+   "name": "latest.json",
+   "content": {
+    "command": "get champagne",
+    "game_id": "heist",
+    "raw_end": 130567,
+    "event_id": "heist-a079eba445:e00700",
+    "metadata": {
+     "intent": "Take the champagne bottle from the coffee table",
+     "origin": "guided",
+     "case_id": "boy-get-champagne",
+     "expected_outcome": "Champagne taken or need to win wager",
+     "_fleet_session_id": "heist-a079eba445"
+    },
+    "response": "The man seems very distressed as you reach for the bottle of champagne.\n\n\"But this is mine, dear lady. Unless of course, you're prepared to take part in \na small wager.\"\n\nYou see hope in the man's eyes as he looks expectantly at you.\n\n>",
+    "branch_id": "b3",
+    "raw_start": 130331,
+    "timestamp": "2026-09-25T09:45:45.139932+00:00",
+    "event_type": "command",
+    "session_id": "heist-a079eba445",
+    "event_index": 700,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "review_status": "unreviewed",
+    "response_sha256": "a20f9f04471794bf9da148583d6a12dc260ec71e97445ea3ccd090eca268a3ab"
+   },
+   "text": null
+  },
+  {
+   "game_id": "heist",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Heist progress (branch b3, events through 679; game INCOMPLETE)\n\nLocation: Observation Deck (returned from Recreation Deck with wire). Score 69. Wearing waiter's uniform + surgical gloves; carrying wooden pole, black cloth used on lamp, rusty wire.\nRoute: boy/cruise section via kiss photo (e640, SPACE e641) to Observation Deck; checkpoint boy-deck-entry OK; d/w to Port Deck; snapped railing (left); pole taken (score 63); lifeboat cloth/hull/swing/ladder escape (scores 64, 66); Recreation Deck lamp covered with COVER wording; pool uniform fished with pole (score 68, Taken); sunbed wire (score 69).\nCheckpoints: memorabilia-return OK; boy-deck-entry OK.\nCases since last update: boy-frame ON acceptance e639 (none); kiss-photo underspecified accepted e642 (none); railing singular e650 (none); uniform reach e669 world_state; put-on-uniform e673 none; sunbed whole-vs-wire e678 world_state. Pending annotation backlog from earlier branches still open (wheel/door/tomb, iron-door death).\nNext (hint e675 excerpt, verify vs game): drop pole; d; e; open cabinet; pick lock with wire. Game NOT complete \u2014 no ending observed.\nContinuation: branch b3, event 679 confirmed; no pending inbox request at time of writing.\n"
+  },
+  {
+   "game_id": "heist",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Heist: The Crime of the Century\n\nStory Z8 R5/990217. Local R5/990217 versus Dale Johannesen guide R2/970901. Guide explicitly is not an exact command transcript because several puzzles randomize. Three-release gap requires observation-led adaptation.\n\nAccept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.\n\nGuide estimates about 1000 moves. Observe randomized dates, combinations, appearance and geometry clues. Do not type braces or placeholders as commands. Save before tight timing sequences; keep probe experiments outside them.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n"
+  },
+  {
+   "game_id": "heist-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/heist.z8",
+    "title": "Heist: The Crime of the Century",
+    "engine": "zvm-cli",
+    "serial": "990217",
+    "game_id": "heist-kimi",
+    "release": 5,
+    "completion": "Require actual author-intended concluding narrative and independent parent verification of raw output; death, quitting, partial score, guide prose, chapter changes and model claims alone do not establish completion. Accept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.",
+    "session_id": "heist-kimi-7b177c3394",
+    "started_at": "2026-09-27T10:48:42.435085+00:00",
+    "game_family": "zork-i",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist-walkthrough.txt",
+    "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-a-20260925/heist.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/heist.sol",
+    "collection_notes": "# Heist: The Crime of the Century\n\nStory Z8 R5/990217. Local R5/990217 versus Dale Johannesen guide R2/970901. Guide explicitly is not an exact command transcript because several puzzles randomize. Three-release gap requires observation-led adaptation.\n\nAccept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.\n\nGuide estimates about 1000 moves. Observe randomized dates, combinations, appearance and geometry clues. Do not type braces or placeholders as commands. Save before tight timing sequences; keep probe experiments outside them.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone checkpoints only at confirmed ordinary command prompts; verify actual save success. Resolve startup questions and key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "heist-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "heist-kimi",
+    "raw_end": 298,
+    "event_id": "heist-kimi-7b177c3394:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\n\n\n\n                       With the plans we are prepared,\n                        with the tools we are ready,\n                     and with the brains we are capable.\n                   But without the reasons, we are nothing.\n\n                      ---Code of Thieves\n[Press SPACE to continue]",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:48:42.434918+00:00",
+    "event_type": "startup",
+    "session_id": "heist-kimi-7b177c3394",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896",
+    "review_status": "unreviewed",
+    "response_sha256": "bdb1f67617eb5e71f95e4690e8688372a39c46f4e537c59eb470f195fe6b7f33"
+   },
+   "text": null
+  },
+  {
+   "game_id": "heist-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Heist: The Crime of the Century\n\nStory Z8 R5/990217. Local R5/990217 versus Dale Johannesen guide R2/970901. Guide explicitly is not an exact command transcript because several puzzles randomize. Three-release gap requires observation-led adaptation.\n\nAccept the opening assignment, complete the six photo sections with the student section last, and continue beyond collecting the Crown Jewels through the platform/crystal/crown/mace escape to the genuine final narrative. Declining the opening assignment is an abbreviated ending and is not the selected full route.\n\nGuide estimates about 1000 moves. Observe randomized dates, combinations, appearance and geometry clues. Do not type braces or placeholders as commands. Save before tight timing sequences; keep probe experiments outside them.\n\nUse small broker help excerpts only (at most 9 lines / 1000 characters); never read complete guides or reconstruct them by scrolling. Guide text is suggested help, not observed success. Read startup output and resolve questions/key pauses first. Save an early safe checkpoint and milestones only at confirmed ordinary command prompts; verify actual save success. For a menu Enter/Return send an empty command, not a literal space or the word RETURN; obey other keys only when the displayed prompt requests them. On timeout use await_output only: no flush commands, extra keys, repeats, or new SAVE. Collect useful varied labeled synthetic probes and observed same-intent repairs tied to event IDs, not quotas or repeated filler. Prefer one command at a time around hazards, prompts and menus. Keep death/failure branches as failures. Only raw concluding game output can support an ending claim, independently checked by the parent. No training, evaluation, or publication.\n"
+  }
+ ],
  "events": [
   {
-   "event_id": "heist-kimi-7b177c3394:e00001",
-   "game_id": "heist-kimi",
-   "session_id": "heist-kimi-7b177c3394",
+   "event_id": "heist-a079eba445:e00001",
+   "game_id": "heist",
+   "session_id": "heist-a079eba445",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-27T10:48:42.434+00:00",
+   "timestamp_utc_ms": "2026-09-25T06:13:13.149+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -47,12 +181,12 @@
    "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896"
   },
   {
-   "event_id": "heist-a079eba445:e00001",
-   "game_id": "heist",
-   "session_id": "heist-a079eba445",
+   "event_id": "heist-kimi-7b177c3394:e00001",
+   "game_id": "heist-kimi",
+   "session_id": "heist-kimi-7b177c3394",
    "branch_id": "b0",
    "event_index": 1,
-   "timestamp_utc_ms": "2026-09-25T06:13:13.149+00:00",
+   "timestamp_utc_ms": "2026-09-27T10:48:42.434+00:00",
    "event_type": "startup",
    "origin": "system",
    "case_id": "",
@@ -15449,6 +15583,31 @@
  ],
  "cases": [
   {
+   "annotation_event_id": "heist-a079eba445:e00014",
+   "case_id": "envelope-open-omitted",
+   "game_id": "heist",
+   "session_id": "heist-a079eba445",
+   "failed_event_id": "heist-a079eba445:e00012",
+   "corrected_event_id": "heist-a079eba445:e00013",
+   "failed_branch_id": "b0",
+   "corrected_branch_id": "b0",
+   "intent": "Open the curious envelope",
+   "failed_command": "open",
+   "failure_response": "What do you want to open?\n\n>",
+   "corrected_command": "open envelope",
+   "correction_response": "You carefully open the envelope, and with equal caution remove the folded \nletter from inside. The envelope blows away in a sudden gust of wind. Your \nhands tremble slightly as you unfold the letter. The signature at the bottom \nalmost makes you tear up the letter in an outburst of rage, but your curiosity \ngets the better of you.\n\nThe words are almost perfectly written and the flowing blue ink contrasts \nbrilliantly with the bright yellow background. You begin to read,\n\n\"My dear Elaine, \n\nIt is with some regret that I look out of the back window of my flat across the \nstreet. The dirty run-down buildings beyond the pavement opposite seem almost \nfitting. I have become lost in the labyrinth, too late I have realised I had a \nfamily out there which needed more from me than what I gave them.\n\nYou were always the brightest my dear. If anyone deserves my inheritance it is \nyou. You have what it takes: the determination, the intelligence, and most \nimportantly the finesse. But time grows short. I am unable to explain in detail \nwhat would undoubtedly be the coup of the century. \n\nI beg you Elaine: take up the challenge and finish my dream for me. You will \nsurely appreciate the danger, the sense of adventure. Maybe you will even find \nthe final secret. If you decide to follow the same path as me, I wish you good \nluck. But I must warn you, it will not be easy. Even the first steps will \nrequire a certain degree of intelligence to overcome. I know in my heart that \nyou will succeed. \n\nYour dear Uncle,\n\n(Signed) Henry Lambert.\n\nPS: Remember the rhyme: One, Two,......\"\n\nIt takes a few moments to sink in. Defiance grips you, there is no way \nwhatsoever you will become like him. The very idea of it is laughable. You, a \nthief? You wouldn't even know where to start. Then something happens. Perhaps \nin ten years time you will look back on this as the moment it all changed. \nSomething within you makes you want to accept this challenge, to prove \nyourself. The raining seems to subside slightly. It looks as if the sun is \nabout to come out from behind the clouds. Everything seems to be happening more \nslowly. The calmly delivered statement from the man disturbs your train of \nthought.\n\n\"It's time to make the choice.\"\n\n>",
+   "failure_type": "syntax",
+   "suggestion": "Did you mean open envelope?",
+   "intent_preserved": "yes",
+   "outcome_label": "success",
+   "synthetic_probe": "true",
+   "evidence_available": "true",
+   "review_status": "revise",
+   "review_notes": "Independent raw SHA256/text and surrounding-state review: OPEN ENVELOPE succeeds and letter is read, but next YES gets That was a rhetorical question. Remove assertion of actionable choice prompt; envelope opening itself is observed.",
+   "notes": "Bare 'open' prompts for object; 'open envelope' succeeds and delivers Uncle Henry letter plus choice prompt. Incomplete-command repair.",
+   "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896"
+  },
+  {
    "annotation_event_id": "heist-a079eba445:e00024",
    "case_id": "grave-enter-hole",
    "game_id": "heist",
@@ -16271,31 +16430,6 @@
    "review_status": "accepted",
    "review_notes": "Independent raw SHA256/text and surrounding-state review: LOK rejection then LOOK Graveyard description; priest speech also advances, as noted.",
    "notes": "Probe 'lok' rejected as unrecognised verb; correction 'look' returned full Graveyard description plus priest speech continuation. Establishes typo repair; time also advanced priest dialogue.",
-   "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896"
-  },
-  {
-   "annotation_event_id": "heist-a079eba445:e00014",
-   "case_id": "envelope-open-omitted",
-   "game_id": "heist",
-   "session_id": "heist-a079eba445",
-   "failed_event_id": "heist-a079eba445:e00012",
-   "corrected_event_id": "heist-a079eba445:e00013",
-   "failed_branch_id": "b0",
-   "corrected_branch_id": "b0",
-   "intent": "Open the curious envelope",
-   "failed_command": "open",
-   "failure_response": "What do you want to open?\n\n>",
-   "corrected_command": "open envelope",
-   "correction_response": "You carefully open the envelope, and with equal caution remove the folded \nletter from inside. The envelope blows away in a sudden gust of wind. Your \nhands tremble slightly as you unfold the letter. The signature at the bottom \nalmost makes you tear up the letter in an outburst of rage, but your curiosity \ngets the better of you.\n\nThe words are almost perfectly written and the flowing blue ink contrasts \nbrilliantly with the bright yellow background. You begin to read,\n\n\"My dear Elaine, \n\nIt is with some regret that I look out of the back window of my flat across the \nstreet. The dirty run-down buildings beyond the pavement opposite seem almost \nfitting. I have become lost in the labyrinth, too late I have realised I had a \nfamily out there which needed more from me than what I gave them.\n\nYou were always the brightest my dear. If anyone deserves my inheritance it is \nyou. You have what it takes: the determination, the intelligence, and most \nimportantly the finesse. But time grows short. I am unable to explain in detail \nwhat would undoubtedly be the coup of the century. \n\nI beg you Elaine: take up the challenge and finish my dream for me. You will \nsurely appreciate the danger, the sense of adventure. Maybe you will even find \nthe final secret. If you decide to follow the same path as me, I wish you good \nluck. But I must warn you, it will not be easy. Even the first steps will \nrequire a certain degree of intelligence to overcome. I know in my heart that \nyou will succeed. \n\nYour dear Uncle,\n\n(Signed) Henry Lambert.\n\nPS: Remember the rhyme: One, Two,......\"\n\nIt takes a few moments to sink in. Defiance grips you, there is no way \nwhatsoever you will become like him. The very idea of it is laughable. You, a \nthief? You wouldn't even know where to start. Then something happens. Perhaps \nin ten years time you will look back on this as the moment it all changed. \nSomething within you makes you want to accept this challenge, to prove \nyourself. The raining seems to subside slightly. It looks as if the sun is \nabout to come out from behind the clouds. Everything seems to be happening more \nslowly. The calmly delivered statement from the man disturbs your train of \nthought.\n\n\"It's time to make the choice.\"\n\n>",
-   "failure_type": "syntax",
-   "suggestion": "Did you mean open envelope?",
-   "intent_preserved": "yes",
-   "outcome_label": "success",
-   "synthetic_probe": "true",
-   "evidence_available": "true",
-   "review_status": "revise",
-   "review_notes": "Independent raw SHA256/text and surrounding-state review: OPEN ENVELOPE succeeds and letter is read, but next YES gets That was a rhetorical question. Remove assertion of actionable choice prompt; envelope opening itself is observed.",
-   "notes": "Bare 'open' prompts for object; 'open envelope' succeeds and delivers Uncle Henry letter plus choice prompt. Incomplete-command repair.",
    "story_sha256": "d2dfcacbf4fdd764c1285badd0b72f26418a47f3ea97f01157930b76f050a896"
   },
   {

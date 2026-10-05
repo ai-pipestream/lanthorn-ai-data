@@ -23,6 +23,150 @@
    "host": "pi500p"
   }
  ],
+ "files": [
+  {
+   "game_id": "return-to-karn",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/karn.z5",
+    "title": "Return to Karn",
+    "engine": "zvm-cli",
+    "serial": "961207",
+    "game_id": "return-to-karn",
+    "release": 2,
+    "completion": "Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "return-to-karn-bf86b7da19",
+    "started_at": "2026-09-25T06:13:17.656873+00:00",
+    "game_family": "doctor-who",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/walkthrough.txt",
+    "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/karn.sol",
+    "collection_notes": "# Return to Karn\n\nGuide explicitly matches R2/961207 and was updated by the game author. Colour sequences depend on observation; placeholders must not be treated as literal commands.\n\nCompletion: Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient.\n\nFamily/split: Archive explicitly identifies Doctor Who setting. Group all Doctor Who/Karn ports or shared-world games together; no such family found in existing corpus or current batch A. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "return-to-karn",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "return-to-karn",
+    "raw_end": 134851,
+    "event_id": "return-to-karn-bf86b7da19:e01098",
+    "metadata": {
+     "notes": "'examine right screen' accepted; response 'The screen displays an empty corridor.' e01093. Qualified left/right naming works for screens; records accepted specific-screen paraphrase.",
+     "intent": "See what the right surveillance screen shows",
+     "case_id": "b11-surveillance-right-screen",
+     "event_ids": [
+      "return-to-karn-bf86b7da19:e01093"
+     ],
+     "suggestion": "No correction needed; qualified screen name accepted",
+     "failure_type": "none",
+     "label_source": "muse_unreviewed",
+     "failed_event_id": "return-to-karn-bf86b7da19:e01093",
+     "synthetic_probe": true,
+     "intent_preserved": "yes",
+     "observed_outcome": "success",
+     "_fleet_session_id": "return-to-karn-bf86b7da19",
+     "corrected_event_id": "return-to-karn-bf86b7da19:e01093"
+    },
+    "response": "",
+    "branch_id": "b11",
+    "raw_start": 134851,
+    "timestamp": "2026-09-26T01:13:58.252804+00:00",
+    "event_type": "annotation",
+    "session_id": "return-to-karn-bf86b7da19",
+    "event_index": 1098,
+    "engine_state": "unchanged",
+    "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "return-to-karn",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Return to Karn \u2014 b11 Surveillance Room e01097, m0833 PENDING, INCOMPLETE\n\nState: Branch b11 e01097 at ordinary prompt in Surveillance Room. East door now open (e01096 \"You open the door.\"); both screens blank; open hatch floor. No finale \u2014 INCOMPLETE.\nLocation: Surveillance Room (east door open).\nInventory: torch ON (on since e01081; conserve ~68-move budget); screwdriver in hand; toolkit intact. Verify later with inventory.\nCases:\n- b11-shaft-up-dark DONE annotated e01083.\n- b11-surveillance-entry checkpoint DONE e01084-85 m0820.\n- b11-surveillance-button-ambiguous DONE annotated e01088 m0823.\n- b11-surveillance-screens DONE annotated e01092 m0827.\n- b11-surveillance-right-screen EVIDENCE DONE e01093 via m0828; annotation m0833 PENDING (do not resubmit).\n- b11-surveillance-right-button DONE annotated e01095 m0830.\n- b11-surveillance-east-door DONE annotated e01097 m0832.\nNext evidence: responses/m0833.json (annotate e01093 failure_type none). latest e01097. inbox/m0833.json verified well-formed.\nNext actions: after m0833 resolves, go east singly (\"e\") with new case id; checkpoint before risky moves; keep hints distinct from observed text.\nCheckpoints: b11-shaft-hatch-open, b11-surveillance-entry OK.\n"
+  },
+  {
+   "game_id": "return-to-karn",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Return to Karn\n\nGuide explicitly matches R2/961207 and was updated by the game author. Colour sequences depend on observation; placeholders must not be treated as literal commands.\n\nCompletion: Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient.\n\nFamily/split: Archive explicitly identifies Doctor Who setting. Group all Doctor Who/Karn ports or shared-world games together; no such family found in existing corpus or current batch A. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  },
+  {
+   "game_id": "return-to-karn-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/karn.z5",
+    "title": "Return to Karn",
+    "engine": "zvm-cli",
+    "serial": "961207",
+    "game_id": "return-to-karn-kimi",
+    "release": 2,
+    "completion": "Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "return-to-karn-kimi-7e6627e9cd",
+    "started_at": "2026-09-27T10:49:30.652457+00:00",
+    "game_family": "doctor-who",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/walkthrough.txt",
+    "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/karn/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/karn.sol",
+    "collection_notes": "# Return to Karn\n\nGuide explicitly matches R2/961207 and was updated by the game author. Colour sequences depend on observation; placeholders must not be treated as literal commands.\n\nCompletion: Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient.\n\nFamily/split: Archive explicitly identifies Doctor Who setting. Group all Doctor Who/Karn ports or shared-world games together; no such family found in existing corpus or current batch A. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "return-to-karn-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "return-to-karn-kimi",
+    "raw_end": 1553,
+    "event_id": "return-to-karn-kimi-7e6627e9cd:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\n\n\nA Galactic servant, that's what you feel like at the moment.  You'd think that \nthe Timelords would be pleased that you were not only responsible for \ndiscovering that Morbius' brain had been secretly kept alive, but that you were \ninstrumental in destroying the revived villian.  Do they offer you their \ngratitude?  No, they merely point out that you left the Brain of Morbius on \nKarn and demand that you retrieve it and bring it back to Gallifrey.  That's \ngratitude for you.\n\nHowever, as you value your own freedom, you really don't have much choice but \nto do as the Timelords request.  At least they gave you the coordinates for \nKarn, but you did notice that they refused to give you return coordinates for \nGallifrey, saying you'd receive them once you'd procured the brain.  So much \nfor Gallifreyan hospitality...\n\nYour thoughts are interrupted as you hear a familiar thud.  The TARDIS has \nlanded on Karn.\n\nReturn to Karn\nby Patrick Wigfull\nBased on the television programme \"Doctor Who\"\n  Type \"help\" for general instructions.\n  Type \"background\" for information about the \"The Brain of Morbius\".\n  Type \"about\" for information about this program.\n\nRelease 2 / Serial number 961207 / Inform v6.05 Library 6/2\nStandard interpreter 1.1\n\nConsole Room\nThe console room is the heart of operations of the TARDIS. Dominating the room \nis a six-side console.  Located above the console is the scanner.  A corridor \nto the east leads further into the TARDIS.  On the west side of the room are \nthe main doors.\n\nWhat do you want to do, Doctor?\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:49:30.652351+00:00",
+    "event_type": "startup",
+    "session_id": "return-to-karn-kimi-7e6627e9cd",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "99cfd10988a2307c9cfbe17d0ac34f5d430d2086f2666355274e1c39c35dc1d0",
+    "review_status": "unreviewed",
+    "response_sha256": "7654f19e2ea2116c96f85c3b2128d38483d2aeee71187e1d555a29c508b74300"
+   },
+   "text": null
+  },
+  {
+   "game_id": "return-to-karn-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Return to Karn\n\nGuide explicitly matches R2/961207 and was updated by the game author. Colour sequences depend on observation; placeholders must not be treated as literal commands.\n\nCompletion: Recover the brain, return in the TARDIS and give the brain to the Time Lord; require the resulting final success narrative. Escaping the base or a score of 170 alone is insufficient.\n\nFamily/split: Archive explicitly identifies Doctor Who setting. Group all Doctor Who/Karn ports or shared-world games together; no such family found in existing corpus or current batch A. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "return-to-karn-bf86b7da19:e00001",

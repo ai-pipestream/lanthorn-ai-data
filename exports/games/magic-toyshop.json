@@ -9,6 +9,110 @@
   "magic-toyshop"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "magic-toyshop",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/magic-toyshop.z5",
+    "title": "The Magic Toyshop",
+    "engine": "zvm-cli",
+    "serial": "951018",
+    "game_id": "magic-toyshop",
+    "release": 1,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Resolve the sequence of games and object puzzles, including the mouse, sundial, tea and chest combination, and enter the chest to the actual authored conclusion. Solving one board game, obtaining the key, 20 points or the final FULL listing alone is not completion. The guide's unconventional puzzle shortcuts are part of its intended solution; preserve observed outcomes.",
+    "session_id": "magic-toyshop-9a53f3ebb2",
+    "started_at": "2026-09-25T07:00:21.227468+00:00",
+    "game_family": "magic-toyshop",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/magic-toyshop-walkthrough.txt",
+    "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-d-20260925/magic-toyshop.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/magictoy.sol",
+    "collection_notes": "# The Magic Toyshop\n\nStory Z5 R1/951018. Guide explicitly R1/951018, exactly matching the local header and byte-identical archive story. Archive directly links this guide and story with matching IFDB identity. It is a complete short game, not a preview.\n\nResolve the sequence of games and object puzzles, including the mouse, sundial, tea and chest combination, and enter the chest to the actual authored conclusion. Solving one board game, obtaining the key, 20 points or the final FULL listing alone is not completion. The guide's unconventional puzzle shortcuts are part of its intended solution; preserve observed outcomes.\n\nGuide estimates about 86 moves. Catherine's offered games advance with time; follow observed offers and board state. Never send the guide's # placeholder literally. Short game means a few varied useful probes suffice; do not repeat games or pad the route to meet a quota. Save at safe ordinary prompts before consequential puzzle steps.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "magic-toyshop",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "magic-toyshop",
+    "raw_end": 35103,
+    "event_id": "magic-toyshop-9a53f3ebb2:e00292",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending: entered the opened chest after solving all puzzles (noughts cheat, mouse maze key via bread, Hanoi glue, gnomon filed+glued, dots 3-1, dodgem 2-1, mushroom-shadow rod, egg cooked+eaten, combination 543251543251 self-generating). Game prints *** You have won *** with full 20/20 score, not death, quitting, or partial score.",
+     "ending_quote": "*** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 179 turns.",
+     "evidence_event_ids": [
+      "magic-toyshop-9a53f3ebb2:e00291"
+     ]
+    },
+    "response": "",
+    "branch_id": "b2",
+    "raw_start": 35103,
+    "timestamp": "2026-09-25T08:01:32.370154+00:00",
+    "event_type": "ending_claim",
+    "session_id": "magic-toyshop-9a53f3ebb2",
+    "event_index": 292,
+    "engine_state": "unchanged",
+    "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "magic-toyshop",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "magic-toyshop",
+    "raw_end": 35103,
+    "event_id": "magic-toyshop-9a53f3ebb2:e00292",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending: entered the opened chest after solving all puzzles (noughts cheat, mouse maze key via bread, Hanoi glue, gnomon filed+glued, dots 3-1, dodgem 2-1, mushroom-shadow rod, egg cooked+eaten, combination 543251543251 self-generating). Game prints *** You have won *** with full 20/20 score, not death, quitting, or partial score.",
+     "ending_quote": "*** You have won ***\n\n\nIn that game you scored 20 out of a possible 20, in 179 turns.",
+     "evidence_event_ids": [
+      "magic-toyshop-9a53f3ebb2:e00291"
+     ]
+    },
+    "response": "",
+    "branch_id": "b2",
+    "raw_start": 35103,
+    "timestamp": "2026-09-25T08:01:32.370154+00:00",
+    "event_type": "ending_claim",
+    "session_id": "magic-toyshop-9a53f3ebb2",
+    "event_index": 292,
+    "engine_state": "unchanged",
+    "story_sha256": "7aea509542ba84a805a8c5cb423d3364739f19fa4cf00b1d41d3a058f410a667",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "magic-toyshop",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Magic Toyshop progress (FINAL - game won)\n\nLocation: (game over - won). Score 20/20 in 179 turns.\nEnding (e00291): entered chest -> drapery -> Victorian arcade, parcel \"To Isabelle, on her birthday.\" *** You have won ***\n\nRoute since update 4:\n- Tea-time: mushroom on sundial (no effect) vs in shadow (inch-high man, mahogany rod). Took rod.\n- Egg: 'light rod' refused; 'strike rod' charged it; 'point rod at egg' cooked it (dropped, hot).\n- Mouse maze: baguette = bread confirmed. 'put loaf in mousehole' parsed but needs mouse first. Put mouse, put bread in.\n- Maze mapping: N,W,W dies (cat). N,N,N,W,W reaches key square (beep+clang). W bumps (disconsolate bleep); E back gets caught (cat shadows top row). Return S,S,S,E,E,E then 4th E exits: mouse runs out, magnet drops key (score 15). Full solution: N,N,N,W,W,S,S,S,E,E,E,E.\n- Egg cooled: 'eat the egg' (score 16). 'unlock chest' asked for instrument; 'key' revealed LCD+keypad (score 17).\n- Combination 543251543251 via 'press' digits + 'press send': self-generating output, chest opens (score 18).\n- Chest empty; 'enter chest' -> WIN (score 20).\n\nCases annotated total: 15 (8 prior + dodgem-move-ambiguous, mushroom-shadow-target, strike-rod-syn, bread-loaf-syn/none, eat-egg-article/none, unlock-chest-omit, keypad-press-syn/none).\nUnresolved: none. All puzzles solved, authored ending observed.\nCheckpoints: ... after-maze, before-combination, before-enter-chest (all verified).\n"
+  },
+  {
+   "game_id": "magic-toyshop",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The Magic Toyshop\n\nStory Z5 R1/951018. Guide explicitly R1/951018, exactly matching the local header and byte-identical archive story. Archive directly links this guide and story with matching IFDB identity. It is a complete short game, not a preview.\n\nResolve the sequence of games and object puzzles, including the mouse, sundial, tea and chest combination, and enter the chest to the actual authored conclusion. Solving one board game, obtaining the key, 20 points or the final FULL listing alone is not completion. The guide's unconventional puzzle shortcuts are part of its intended solution; preserve observed outcomes.\n\nGuide estimates about 86 moves. Catherine's offered games advance with time; follow observed offers and board state. Never send the guide's # placeholder literally. Short game means a few varied useful probes suffice; do not repeat games or pad the route to meet a quota. Save at safe ordinary prompts before consequential puzzle steps.\n\nUse only small broker help excerpts (at most 9 lines / 1000 characters). No complete guide reads, direct guide URL access or serial excerpts to reconstruct a guide. Help is suggested, not observed game evidence. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts, and verify actual success. Menu Enter is an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, keys, repeated inputs, new SAVE or waits sent to the game. Collect useful varied labeled synthetic probes and real same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Keep ordinary deaths and failures labeled as failures. Parent independently checks actual concluding narrative in raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "magic-toyshop-9a53f3ebb2:e00001",

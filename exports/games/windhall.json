@@ -9,6 +9,80 @@
   "windhall"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "windhall",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/windhal1.z8",
+    "title": "The Windhall Chronicles, Volume One: The Path to Fortune",
+    "engine": "zvm-cli",
+    "serial": "960828",
+    "game_id": "windhall",
+    "release": 5,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, guide prose, chapter transitions or model claims alone are insufficient. Ordinary terminal death is failure; distinguish explicitly authored intermediate death/loop transitions. Follow the complete town, wizard trials, nymph, temple and hidden crossbow route through the final dragon confrontation and require the actual authored concluding narrative. The guide finishes the route at the dragon and then prints FULL/200 points; neither FULL, score alone nor guide prose proves completion. A completed wizard test, sleep cycle or temple subquest is not the ending.",
+    "session_id": "windhall-ec1287a533",
+    "started_at": "2026-09-25T08:17:49.287929+00:00",
+    "game_family": "windhall",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/windhall-walkthrough.txt",
+    "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-g-20260925/windhall.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/windhall.step",
+    "collection_notes": "# The Windhall Chronicles, Volume One: The Path to Fortune\n\nStory Z8 R5/960828. Local Z8 R5/960828 matches archive bytes and catalog. Paul J. Godfrey guide explicitly targets release 3, with no serial; preserve the two-release gap. Its work-around concerns a release-3 sleep bug and is not evidence that release 5 has that bug. Full Volume One guide reaches the final dragon route; no unavailable preview was selected.\n\nFollow the complete town, wizard trials, nymph, temple and hidden crossbow route through the final dragon confrontation and require the actual authored concluding narrative. The guide finishes the route at the dragon and then prints FULL/200 points; neither FULL, score alone nor guide prose proves completion. A completed wizard test, sleep cycle or temple subquest is not the ending.\n\nNPC waking/sleeping and temple events are clock-sensitive. Use observed release-5 timing, checkpoints before commitments, and small help excerpts. The release-3 sleep work-around is conditional advice: do not blindly force repeated sleep cycles. Period/comma-separated guide lines contain multiple actions; split and observe near hazards. Generic fantasy spells do not establish Enchanter/Zork identity.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "windhall",
+   "name": "latest.json",
+   "content": {
+    "command": "get shard",
+    "game_id": "windhall",
+    "raw_end": 239409,
+    "event_id": "windhall-ec1287a533:e01088",
+    "metadata": {
+     "intent": "Pick up the sharp rock",
+     "origin": "synthetic_probe",
+     "case_id": "syn-get-shard",
+     "expected_outcome": "May not recognize shard for sharp rock"
+    },
+    "response": "You can't see any such thing.\n\n>",
+    "branch_id": "b2",
+    "raw_start": 239377,
+    "timestamp": "2026-09-25T09:45:01.765452+00:00",
+    "event_type": "command",
+    "session_id": "windhall-ec1287a533",
+    "event_index": 1088,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "ffdecae479a6e5a4280c695fa67c39a0802005413e7221865fa0aa8ec32eac83",
+    "review_status": "unreviewed",
+    "response_sha256": "3e0e75e3bd103f046c5baa625bdcfaf9466d3dc690e22b2e854ae4ac4e1942eb"
+   },
+   "text": null
+  },
+  {
+   "game_id": "windhall",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Windhall progress \u2014 segment 4 LIVE (branch b2, game incomplete)\n\nSTOP POINT: Turning Path (mountain), Day 3 ~7pm+ dark (e01074). Score 154. Checkpoint turning-path-154 VERIFIED Ok. No pending; last m0671/e01074 read.\nLocation: Turning Path (werewolf vs ogre fighting ahead; E dead-end, W to base). Carrying: pack+rations, soap wad, hammer, fireball spell, holed metal, broken rock. Caches: field idol+N.staff; Central sword+shovel; Gunther's quarterstaff; river map+bow.\nScore: 154.\n\nSince m0658: skipped untriggerable nap (R5 not tired at 7pm, no tire msg); E,S to field, SE,SE to Bend got fireball+metal, SW,SW to Mountain Base got rock, SW,E to Turning Path werewolf/ogre.\n\nCheckpoints: turning-path-154, idol-154-field, gunther-asleep-145, + older. Branch b2.\n\nCases: ~85. Unresolved: syn-take-nap, syn-lie-down (sleep never succeeded; annotate as world_state failure after route resolves or \u043d\u0430\u043c\u0435\u0440\u0435\u043d\u043d\u043e). Through m0671/e01074.\n\nLast hint (e00938 342-350 DONE except Sleep): E,S SE,SE fireball/metal SW,SW rock SW,E all DONE; Sleep SKIPPED (R5 gate never reached 12:57-7pm).\nNEXT: help mode-next SAME topic 'long maze solution' for werewolf/ogre (fireball? rock?); single commands only (combat); do NOT interleave topics.\n\nKEY R5: nap untiggerable Day3 afternoon (R3 2:09 wrong for R5); fireball pickup ok 7pm+ without sleep; auto-eat ok; dark mountain navigation ok so far.\n"
+  },
+  {
+   "game_id": "windhall",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The Windhall Chronicles, Volume One: The Path to Fortune\n\nStory Z8 R5/960828. Local Z8 R5/960828 matches archive bytes and catalog. Paul J. Godfrey guide explicitly targets release 3, with no serial; preserve the two-release gap. Its work-around concerns a release-3 sleep bug and is not evidence that release 5 has that bug. Full Volume One guide reaches the final dragon route; no unavailable preview was selected.\n\nFollow the complete town, wizard trials, nymph, temple and hidden crossbow route through the final dragon confrontation and require the actual authored concluding narrative. The guide finishes the route at the dragon and then prints FULL/200 points; neither FULL, score alone nor guide prose proves completion. A completed wizard test, sleep cycle or temple subquest is not the ending.\n\nNPC waking/sleeping and temple events are clock-sensitive. Use observed release-5 timing, checkpoints before commitments, and small help excerpts. The release-3 sleep work-around is conditional advice: do not blindly force repeated sleep cycles. Period/comma-separated guide lines contain multiple actions; split and observe near hazards. Generic fantasy spells do not establish Enchanter/Zork identity.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "windhall-ec1287a533:e00001",

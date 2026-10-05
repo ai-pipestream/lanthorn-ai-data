@@ -153,9 +153,16 @@ class Game:
             if getattr(self, 'unresolved_input', None):
                 raise ValueError('Unresolved input; use await_output before save or restore')
             if action=='restore':self.branch+=1
-            first=self.send('save' if action=='checkpoint' else 'restore',meta,action)
+            verb='save' if action=='checkpoint' else 'restore'
+            menu=r'file|save to|restore from'
+            first=self.send(verb,meta,action)
             rows=[first]
-            if first['engine_state'] == 'awaiting_input_or_idle' and re.search(r'file|save to|restore from',first['response'],re.I):
+            if not (first['engine_state'] == 'awaiting_input_or_idle' and re.search(menu,first['response'],re.I)):
+                # Intro any-key pauses swallow the verb as the keypress (gourmet,
+                # fine-tuned): advance one Return and retry the verb once.
+                rows.append(self.send('',meta,'keypause_advance'))
+                first=self.send(verb,meta,action);rows.append(first)
+            if first['engine_state'] == 'awaiting_input_or_idle' and re.search(menu,first['response'],re.I):
                 rows.append(self.send(name+'.sav',meta,'checkpoint_filename'))
             return {'events':rows,'note':'Inspect responses; save/restore success is not assumed. Restore creates a new provenance branch.'}
         if action=='restart':

@@ -23,6 +23,144 @@
    "host": "pi500p"
   }
  ],
+ "files": [
+  {
+   "game_id": "zorkian-stories-1-gue",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/ZorkianStories1-GUE.zblorb",
+    "title": "Zorkian Stories 1: G.U.E.",
+    "engine": "zvm-cli",
+    "serial": "121014",
+    "game_id": "zorkian-stories-1-gue",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.",
+    "session_id": "zorkian-stories-1-gue-6ffd9e5043",
+    "started_at": "2026-09-25T09:39:19.532401+00:00",
+    "game_family": "zork-i",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian-stories-1-gue-walkthrough.txt",
+    "story_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian-stories-1-gue.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+    "collection_notes": "# Zorkian Stories 1: G.U.E.\n\nLocal Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.\n\nFollow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.\n\nCombat outcomes can vary; checkpoint safely before hazards and use observed state rather than blindly repeating the guide's G commands. The guide has the apparent typo \"throw skull in put\"; preserve its raw text and adapt only from actual room/parser evidence. Menu confirmation Y belongs only to the displayed question. The clear G.U.E./Zork setting is conservatively grouped with existing zork-i development games.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "zorkian-stories-1-gue",
+   "name": "latest.json",
+   "content": {
+    "command": "go east",
+    "game_id": "zorkian-stories-1-gue",
+    "raw_end": 4252,
+    "event_id": "zorkian-stories-1-gue-6ffd9e5043:e00025",
+    "metadata": {
+     "intent": "Try to pass east through the ancient gate",
+     "origin": "synthetic_probe",
+     "case_id": "gate-blocked-east",
+     "expected_outcome": "Blocked by ancient gate",
+     "_fleet_session_id": "zorkian-stories-1-gue-6ffd9e5043"
+    },
+    "response": "(first opening the Ancient Gate)\nIt seems to be locked.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 4194,
+    "timestamp": "2026-09-25T09:45:08.706802+00:00",
+    "event_type": "command",
+    "session_id": "zorkian-stories-1-gue-6ffd9e5043",
+    "event_index": 25,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "review_status": "unreviewed",
+    "response_sha256": "72c75b793e80183e09c0e6015fbcc07f1b95104c2bfe402b18748b69631f51f9"
+   },
+   "text": null
+  },
+  {
+   "game_id": "zorkian-stories-1-gue",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2014 zorkian-stories-1-gue\n\nLocation: Intersection (ancient gate blocks east; tunnels N/W/S). Came via Secret Passage -> Long Tunnel -> Intersection.\nInventory (observed e00006): elvish sword, small lantern (providing light), backpack (worn, open, empty).\nScore: +1 after pushing eyes (e00010).\n\nRoute: Vault -> push eyes -> open wall (=open fresco) -> enter fresco -> Secret Passage -> north to Ancient Shrine (altar empty, bones refuse take) -> south back -> east to Long Tunnel -> east to Intersection.\n\nCases:\n- vault-eyes-touch: e00009 touch eye accepted (none) annotated e00014\n- vault-fresco-open: e00011 open wall accepted (none) annotated e00015\n- shrine-bones-take: e00021 take bones refused \"You'd rather not\" (pending annotation decision; correct refusal, no repair)\n\nCheckpoints: start-vault; secret-passage (verified e00016/e00017).\nLast hint: none.\nNext: examine gate at Intersection; probe blocked east; explore N/S; checkpoint before hazards.\n"
+  },
+  {
+   "game_id": "zorkian-stories-1-gue",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Zorkian Stories 1: G.U.E.\n\nLocal Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.\n\nFollow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.\n\nCombat outcomes can vary; checkpoint safely before hazards and use observed state rather than blindly repeating the guide's G commands. The guide has the apparent typo \"throw skull in put\"; preserve its raw text and adapt only from actual room/parser evidence. Menu confirmation Y belongs only to the displayed question. The clear G.U.E./Zork setting is conservatively grouped with existing zork-i development games.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "zorkian-stories-1-gue-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/ZorkianStories1-GUE.zblorb",
+    "title": "Zorkian Stories 1: G.U.E.",
+    "engine": "zvm-cli",
+    "serial": "121014",
+    "game_id": "zorkian-stories-1-gue-kimi",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Follow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.",
+    "session_id": "zorkian-stories-1-gue-kimi-1796877b8d",
+    "started_at": "2026-09-27T10:49:59.233974+00:00",
+    "game_family": "zork-i",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian-stories-1-gue-walkthrough.txt",
+    "story_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-l-20260925/zorkian-stories-1-gue.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/zorkian1.sol",
+    "collection_notes": "# Zorkian Stories 1: G.U.E.\n\nLocal Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.\n\nFollow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.\n\nCombat outcomes can vary; checkpoint safely before hazards and use observed state rather than blindly repeating the guide's G commands. The guide has the apparent typo \"throw skull in put\"; preserve its raw text and adapt only from actual room/parser evidence. Menu confirmation Y belongs only to the displayed question. The clear G.U.E./Zork setting is conservatively grouped with existing zork-i development games.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "zorkian-stories-1-gue-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "zorkian-stories-1-gue-kimi",
+    "raw_end": 684,
+    "event_id": "zorkian-stories-1-gue-kimi-1796877b8d:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\n\nFinally making it to the Eastlands, you find a shaft leading to the depths of \nthe Great Underground Empire where, supposedly, lost treasures that have been \nforgotten for centuries are waiting to be found again.\n\nZorkian Stories 1: G.U.E.\nA diversion by Marshal Tenner Winter\nRelease 1 / Serial number 121014 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD\n\nVault\nThis chamber is made of black stone.  The walls are pocked with age; showing \nfaded frescos, the subject of which can no longer be determined.  The only exit \nis west, into a long. sloping tunnel that eventually leads back outside.  The \nweight of stone presses upon you, and you feel you must be deep underground.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:49:59.233849+00:00",
+    "event_type": "startup",
+    "session_id": "zorkian-stories-1-gue-kimi-1796877b8d",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "1fb4343db2e8617c11c2cec695ebf917faec870558a8b9d3f9692ed4c0757baf",
+    "review_status": "unreviewed",
+    "response_sha256": "646ddf8207c90b8177aa3377beb69d8074141e978043b1a049b4a3ba6561c79e"
+   },
+   "text": null
+  },
+  {
+   "game_id": "zorkian-stories-1-gue-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Zorkian Stories 1: G.U.E.\n\nLocal Blorb matches fresh archive container bytes. Its indexed ZCOD payload is Z8 R1/121014 and embedded iFiction metadata independently agrees on title, author and release. The full start-to-finish Matt Goh solution supplies no release/serial; guide edition remains unspecified. A released complete first story, not a port of another registered Zork title.\n\nFollow the mansion/underground route through the wizard and demon confrontation and the final search, requiring the actual authored victory/concluding narrative. The guide describes a completed 21-of-25 route; preserve that legitimate ending without turning 25 points into a completion requirement. Combat death, intermediate passages, score alone and the word victory in the guide are insufficient.\n\nCombat outcomes can vary; checkpoint safely before hazards and use observed state rather than blindly repeating the guide's G commands. The guide has the apparent typo \"throw skull in put\"; preserve its raw text and adapt only from actual room/parser evidence. Menu confirmation Y belongs only to the displayed question. The clear G.U.E./Zork setting is conservatively grouped with existing zork-i development games.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "zorkian-stories-1-gue-6ffd9e5043:e00001",

@@ -9,6 +9,108 @@
   "the-edifice"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "the-edifice",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/edifice.z5",
+    "title": "The Edifice",
+    "engine": "zvm-cli",
+    "serial": "980206",
+    "game_id": "the-edifice",
+    "release": 2,
+    "completion": "Require completion of all three eras, the final ascent and passage through the last door to the actual concluding narrative. Era transitions, rescuing the son, taming a horse or issuing SCORE are not completion. Always require raw game evidence and parent review; no deaths, quitting, chapter-only endpoints or partial scores.",
+    "session_id": "the-edifice-79519f86df",
+    "started_at": "2026-09-25T06:21:09.658124+00:00",
+    "game_family": "the-edifice",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/edifice/walkthrough.txt",
+    "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+    "dataset_split": "development",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-b-20260925/edifice/source.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/edifice.rec",
+    "collection_notes": "# The Edifice\n\nAuthor-attributed edifice.rec is a raw input recording, without output or a release/serial declaration; story R2/980206. It includes exploratory failures, undo and repetitions, not a clean command script. Treat language tokens as observation-dependent, not universally replayable.\n\nCompletion: Require completion of all three eras, the final ascent and passage through the last door to the actual concluding narrative. Era transitions, rescuing the son, taming a horse or issuing SCORE are not completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Save early at the first safe ordinary command prompt; verify success. Save before risky experiments and at safe milestones. Never save during menus, keypauses, questions, timed danger or unresolved input.",
+    "story_sha256_expected": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "the-edifice",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "the-edifice",
+    "raw_end": 180518,
+    "event_id": "the-edifice-79519f86df:e00833",
+    "metadata": {
+     "notes": "Genuine author-intended finale on branch b1: score e00819 confirms all three levels visited and solved; re-entering the Edifice triggers the scripted endgame cascade (rumbling, self-closing door, shaking, tremble e00825-e00828); going west through the recess seals it with stone, reveals the HISTORY memory, and prints the ending banner with 'end of the game' plus the restart/restore/undo/quit prompt (e00829). Not a death (no demise text), not quitting (no QUIT command issued), not a chapter transition (irreversible seal + game-over prompt), not a partial score (3/3 solved).",
+     "ending_quote": "*** You have returned to your roots. ***",
+     "evidence_event_ids": [
+      "the-edifice-79519f86df:e00819",
+      "the-edifice-79519f86df:e00829"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 180518,
+    "timestamp": "2026-09-25T08:05:55.525871+00:00",
+    "event_type": "ending_claim",
+    "session_id": "the-edifice-79519f86df",
+    "event_index": 833,
+    "engine_state": "unchanged",
+    "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "the-edifice",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "the-edifice",
+    "raw_end": 180518,
+    "event_id": "the-edifice-79519f86df:e00833",
+    "metadata": {
+     "notes": "Genuine author-intended finale on branch b1: score e00819 confirms all three levels visited and solved; re-entering the Edifice triggers the scripted endgame cascade (rumbling, self-closing door, shaking, tremble e00825-e00828); going west through the recess seals it with stone, reveals the HISTORY memory, and prints the ending banner with 'end of the game' plus the restart/restore/undo/quit prompt (e00829). Not a death (no demise text), not quitting (no QUIT command issued), not a chapter transition (irreversible seal + game-over prompt), not a partial score (3/3 solved).",
+     "ending_quote": "*** You have returned to your roots. ***",
+     "evidence_event_ids": [
+      "the-edifice-79519f86df:e00819",
+      "the-edifice-79519f86df:e00829"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 180518,
+    "timestamp": "2026-09-25T08:05:55.525871+00:00",
+    "event_type": "ending_claim",
+    "session_id": "the-edifice-79519f86df",
+    "event_index": 833,
+    "engine_state": "unchanged",
+    "story_sha256": "2803fbef240e62dc6fb259109406c1a228aa41bd2c83ecc8a3f34575463d863f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "the-edifice",
+   "name": "progress.md",
+   "content": null,
+   "text": "# The Edifice \u2014 COMPLETE (branch b1, all 3 levels solved, finale reached)\n\n## ENDING (e00829, verified raw game evidence)\n- After solving all 3, re-entering the Edifice triggers the endgame:\n  rumbling (e00825) -> door closes itself (e00826) -> louder shaking\n  (e00827) -> violent tremble (e00828) -> WEST through the recess ->\n  recess seals with stone, 'HISTORY' memory, 'returned to your\n  roots' banner, 'end of the game', restart/restore/undo/quit prompt.\n- Score at end: visited three, solved all, very content.\n- Manifest criteria met: all three eras + final passage through the\n  last door (recess) to the concluding narrative. Not death, quitting\n  (no QUIT issued), chapter transition, or partial score.\n\n## Full solutions (b1)\n- L1: spear (pull twigs/twisty, break, sharpen) -> 8 stump throws ->\n  Beast kill (3rd throw; tolerance ~5, 6th flees forever) -> carve ->\n  cut slab -> pool drink -> fire (twigs on flat rock, hit rock with\n  rock, branches, drop all, log) -> cook 4 waits (delectable) -> eat.\n- L2 (prior segments): stranger language, feverleaf picture, stem cure.\n- L3: fruit bait on Canyon Path -> up -> jump -> mane -> lean/pull\n  ride (uphill variant: lean forward!) -> headdress blindfold.\n\n## Cases: 42 annotated, 0 open (39 prior + 3 b1: rock-strike\nambiguity, meat-cutting planning, get-off-rock ambiguity)\n\n## Checkpoints: level-one-solved, all-three-solved (final safe state\nbefore the scripted endgame descent), plus full b0/b1 chain.\n"
+  },
+  {
+   "game_id": "the-edifice",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The Edifice\n\nAuthor-attributed edifice.rec is a raw input recording, without output or a release/serial declaration; story R2/980206. It includes exploratory failures, undo and repetitions, not a clean command script. Treat language tokens as observation-dependent, not universally replayable.\n\nCompletion: Require completion of all three eras, the final ascent and passage through the last door to the actual concluding narrative. Era transitions, rescuing the son, taming a horse or issuing SCORE are not completion.\n\nFamily/split: No shared world/puzzle relationship established with existing corpus; same authorship or general genre alone is not a family match. Keep every release, port and branch of this game together. Parent review required.\n\nUse broker help for small excerpts only (at most the broker's 9 lines / 1000 characters); never read the complete guide into a worker prompt or replay it as a script. Save early at the first safe ordinary command prompt and at safe milestones, verify save success, and use checkpoints before risky probes. Answer active questions/keypauses first; for menus, Enter is an empty command string, not a literal space. On no_output_timeout use await_output only: do not send, retry, save, restore or restart while input is unresolved. Collect diverse explicitly labeled synthetic_probe cases with stated intent, including typos, wrong verbs, object naming and phrasing variations where meaningful, and verify actual intent-preserving repairs against observed output; no quota and no filler. Keep guided suggestions separate from observed evidence and preserve failed branches. Require actual author-intended finale with raw event IDs and quotes; death, quitting, chapter changes, partial scores and guide exhaustion never count. Private collection only; game and guide reuse permission unknown. No app changes, training, evaluation or publication. Parent must review provenance, final evidence and family/split concerns before export.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "the-edifice-79519f86df:e00001",

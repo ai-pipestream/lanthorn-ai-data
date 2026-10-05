@@ -9,6 +9,112 @@
   "baltimore-24"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "baltimore-24",
+   "name": "manifest.json",
+   "content": {
+    "story": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/stories/BALT.Z5",
+    "title": "Baltimore:24",
+    "engine": "zvm-cli",
+    "serial": "970706",
+    "game_id": "baltimore-24",
+    "release": 2,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, intermediate transitions and guide/model claims alone are insufficient. Complete the full router-replacement journey, including the hotel/service-provider sequence and delivery to Robert, through actual authored service-restoration conclusion. The guide's 30-point total or repeated router-pickup score increases are not completion evidence. A delivery command alone is insufficient without concluding output.",
+    "session_id": "baltimore-24-8d5ab9f7e7",
+    "started_at": "2026-09-25T09:23:58.420787+00:00",
+    "game_family": "baltimore-24",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24-walkthrough.txt",
+    "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-k-20260925/baltimore-24.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/baltimore-24_solution.txt",
+    "collection_notes": "# Baltimore:24\n\nStory Z5 R2/970706. Local balt24.zip matches archive bytes; extracted BALT.Z5 is Z5 R2/970706, matching the catalog. The James Mullish guide identifies the 1997 game but gives no release/serial; exact guide version remains unspecified. Bundled readme describes a short complete game, not a preview. Pin ZIP and story separately.\n\nComplete the full router-replacement journey, including the hotel/service-provider sequence and delivery to Robert, through actual authored service-restoration conclusion. The guide's 30-point total or repeated router-pickup score increases are not completion evidence. A delivery command alone is insufficient without concluding output.\n\nThe guide mixes a command chain with explanatory prose. The normalized copy adds line breaks at period-space boundaries for bounded help excerpts; raw command wording and punctuation are preserved. Send one action at a time, observe car/room state, and adapt syntax to live output. CALL is a fictional in-game action, never an external phone or network operation. Do not exploit the reported router score bug or pad this short full game with repetitive probes. Save early and before travel commitments at ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "baltimore-24",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "baltimore-24",
+    "raw_end": 17005,
+    "event_id": "baltimore-24-8d5ab9f7e7:e00107",
+    "metadata": {
+     "notes": "Full router-replacement journey completed: take router, drive NJ->Delaware->Maryland->Baltimore, Ramada checkin/call/sleep, checkout, Harbor Promenade bar delivery to Robert. Both branches show authored service-restoration conclusion with new-router hookup, normal blink, callers logging on, *** You have won ***, 30/30. Not death, quitting, chapter transition, or intermediate score; delivery produced concluding narrative and win prompt.",
+     "ending_quote": "You hand Robert your old router and he gives you the new one.\n\n\"I tested your internet circuit and found a breach. I dispatched an engineer \nlast night to repair it. Just plug this new router in and you'll be all set.\"\nWith router in hand you practically fly back to your office in New Jersey, \nbreaking the speed limit in each state you pass. You hook up the new router and \nthe lights begin to blink in their normal, methodical pattern.\n\nYour callers begin to logon and open their browsers. You have restored service. \nYour callers are ecstatic and praise you on your dedication of going so far out \nof your way for them, especially on a holiday.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 47 turns.",
+     "evidence_event_ids": [
+      "baltimore-24-8d5ab9f7e7:e00093",
+      "baltimore-24-8d5ab9f7e7:e00101"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 17005,
+    "timestamp": "2026-09-25T09:34:19.348040+00:00",
+    "event_type": "ending_claim",
+    "session_id": "baltimore-24-8d5ab9f7e7",
+    "event_index": 107,
+    "engine_state": "unchanged",
+    "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "baltimore-24",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "baltimore-24",
+    "raw_end": 17005,
+    "event_id": "baltimore-24-8d5ab9f7e7:e00107",
+    "metadata": {
+     "notes": "Full router-replacement journey completed: take router, drive NJ->Delaware->Maryland->Baltimore, Ramada checkin/call/sleep, checkout, Harbor Promenade bar delivery to Robert. Both branches show authored service-restoration conclusion with new-router hookup, normal blink, callers logging on, *** You have won ***, 30/30. Not death, quitting, chapter transition, or intermediate score; delivery produced concluding narrative and win prompt.",
+     "ending_quote": "You hand Robert your old router and he gives you the new one.\n\n\"I tested your internet circuit and found a breach. I dispatched an engineer \nlast night to repair it. Just plug this new router in and you'll be all set.\"\nWith router in hand you practically fly back to your office in New Jersey, \nbreaking the speed limit in each state you pass. You hook up the new router and \nthe lights begin to blink in their normal, methodical pattern.\n\nYour callers begin to logon and open their browsers. You have restored service. \nYour callers are ecstatic and praise you on your dedication of going so far out \nof your way for them, especially on a holiday.\n\n\n    *** You have won ***\n\n\nIn that game you scored 30 out of a possible 30, in 47 turns.",
+     "evidence_event_ids": [
+      "baltimore-24-8d5ab9f7e7:e00093",
+      "baltimore-24-8d5ab9f7e7:e00101"
+     ]
+    },
+    "response": "",
+    "branch_id": "b1",
+    "raw_start": 17005,
+    "timestamp": "2026-09-25T09:34:19.348040+00:00",
+    "event_type": "ending_claim",
+    "session_id": "baltimore-24-8d5ab9f7e7",
+    "event_index": 107,
+    "engine_state": "unchanged",
+    "story_sha256": "496cf684481f46ab4fdb6342fb270b5433fd023524f1c76967e9148395499e5f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "baltimore-24",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Baltimore:24 progress \u2014 COMPLETE\n\n## Current location (observed)\n- WON twice. b0 e00093 via 'give router to robert', b1 e00101 via 'give robert the router'. Both: Promenade Bar -> new router, engineer breach fix, fly to NJ, normal blink, restored service, *** You have won ***, 30/30 in 47 turns, RESTART/RESTORE/QUIT prompt. Score 30.\n\n## Inventory at win\n- wallet, beeper, cellular phone, old router handed over, new router received (narrative), receipt; Robert's cardboard box exchanged.\n\n## Cases (20 total, 0 unresolved)\n- b0: check-router none 06; wallet-typo vocab 09->11; grab-router vocab 13->14; go-offices syntax 20->21; go-out syntax 30->31; enter-car none 33; start-car vocab 35->36; read-billboard none 46; turn-car-off-wordorder none 50; leave-car none 52; check-in syntax 57->58; call-provider syntax 60->61; lie-on-bed vocab 63->64; check-out syntax 72->73; give-omitted ambiguity 92->93 WIN\n- b1: give-wallet planning 97->101; give-robret vocab 98->101; give-it ambiguity 99->101; hand-router vocab 100->101; give-dative none 101 WIN\n- Diversity: synonyms, typos, omitted object, pronoun, word order, wrong object, planning, syntax, accepted paraphrases.\n\n## Last hint\n- m0076 final steps complete. No further hints needed.\n\n## Next actions\n- Finish with both winning events as evidence.\n\n## Checkpoints\n- start-computer-room, offices-with-router, delaware-route-295, morning-after-sleep, harbor-in-car, bar-with-robert (all Ok). Branches: b0 original win, b1 restored win.\n"
+  },
+  {
+   "game_id": "baltimore-24",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Baltimore:24\n\nStory Z5 R2/970706. Local balt24.zip matches archive bytes; extracted BALT.Z5 is Z5 R2/970706, matching the catalog. The James Mullish guide identifies the 1997 game but gives no release/serial; exact guide version remains unspecified. Bundled readme describes a short complete game, not a preview. Pin ZIP and story separately.\n\nComplete the full router-replacement journey, including the hotel/service-provider sequence and delivery to Robert, through actual authored service-restoration conclusion. The guide's 30-point total or repeated router-pickup score increases are not completion evidence. A delivery command alone is insufficient without concluding output.\n\nThe guide mixes a command chain with explanatory prose. The normalized copy adds line breaks at period-space boundaries for bounded help excerpts; raw command wording and punctuation are preserved. Send one action at a time, observe car/room state, and adapt syntax to live output. CALL is a fictional in-game action, never an external phone or network operation. Do not exploit the reported router score bug or pad this short full game with repetitive probes. Save early and before travel commitments at ordinary prompts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "baltimore-24-8d5ab9f7e7:e00001",

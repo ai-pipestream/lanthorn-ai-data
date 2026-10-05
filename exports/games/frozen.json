@@ -23,6 +23,140 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "frozen",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/frozen.z5",
+    "title": "Frozen: A Night at the Lab",
+    "engine": "zvm-cli",
+    "serial": "960620",
+    "game_id": "frozen",
+    "release": 1,
+    "completion": "Require actual author-intended conclusion against raw output, not deaths/quitting/partial scores. Story R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.",
+    "session_id": "frozen-a2e5d2eea9",
+    "started_at": "2026-09-25T06:07:13.688643+00:00",
+    "game_family": "frozen",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/frozen-walkthrough.txt",
+    "story_sha256": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/frozen.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/frozen.sol",
+    "collection_notes": "# Frozen: A Night at the Lab\n\nStory R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.\nGuide: https://ifarchive.org/if-archive/solutions/frozen.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at ordinary prompts; verify success.",
+    "story_sha256_expected": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "frozen",
+   "name": "latest.json",
+   "content": {
+    "command": "inventory",
+    "game_id": "frozen",
+    "raw_end": 172056,
+    "event_id": "frozen-a2e5d2eea9:e01080",
+    "metadata": {
+     "intent": "Verify what I hold ON the pentagram after placing circle page on fresh star sand",
+     "origin": "exploration",
+     "case_id": "b9-on-inventory-after-circle",
+     "expected_outcome": "Carrying book amulet worn bottle, circle now placed",
+     "_fleet_session_id": "frozen-a2e5d2eea9"
+    },
+    "response": "You are carrying:\n  a book\n  an amulet (providing light and being worn)\n  a bottle of sand\n\nAAACCCHHHOOOO!!  You sneeze from all the dust you've disturbed with your \npassage.\n\n>",
+    "branch_id": "b9",
+    "raw_start": 171879,
+    "timestamp": "2026-09-26T01:13:27.163424+00:00",
+    "event_type": "command",
+    "session_id": "frozen-a2e5d2eea9",
+    "event_index": 1080,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+    "review_status": "unreviewed",
+    "response_sha256": "d83d3ec8674b9885aed06295136861691a549f853f6952b6fe0b562339e4d455"
+   },
+   "text": null
+  },
+  {
+   "game_id": "frozen",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Frozen progress (game incomplete, branch b9 ON star+circle placed; m0775 PENDING \u2014 do not resubmit)\n\nLocation (latest e01079 at 2026-09-26T01:11:21.568888+00:00): Pentagram Room ON with fresh star sand + circle page placed (put circle page confirmed e01079), holding book+amulet worn+bottle. m0774 DONE.\nm0775 PENDING (inbox/m0775.json: inventory ON after circle placed). Compared basis e01079 with latest.json (still e01079); response absent \u2014 pending, not failure. NEVER resubmit m0775 or duplicate m0688-m0775.\nContinuation: read responses/m0775.json first; expect book+amulet+bottle held. Then look ON + drop book ON + look. Else checkpoint and help post-pour with broader topic for walkthrough head.\n\nStatus: m0769 DONE clear (e01074). m0770 DONE inventory fresh (e01075). m0771 DONE enter fresh ON (e01076). m0772 DONE pour fresh star (e01077). m0773 DONE look ON silver only (e01078). m0774 DONE put circle ON (e01079).\nFindings: Placed-enter-pour (e01052) and fresh hold-enter-pour (e01077) identical star sha b57e, no figure in pour or look. Figure absent all states (x can't-see; show animate-only sha ea3efdd0 even for dragon control e01045). Double-pour death text proves spirit exists at death (eyes widen, lights arrow from amulet) though invisible after single pour. Square/circle single pours safe; take sand refills. Library sweep negative (e01068). 29-line guide tail only (lines 19-27); head still needed for figure summon in R1/960620.\nNext: 1) Read m0775. 2) look ON. 3) drop book ON + look. 4) Help with broader early-game topic to get walkthrough head, not pentagram tail. Keep b9-off-base + b7-on-star-final restores.\nCheckpoints: b7-on-star-final retained. b9-off-base verified (OFF book+circle, bottle full, no star, e01049-50). Save only at ordinary prompts, verify success. Stopped honestly pending broker, not death/quitting/ending.\n"
+  },
+  {
+   "game_id": "frozen",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Frozen: A Night at the Lab\n\nStory R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.\nGuide: https://ifarchive.org/if-archive/solutions/frozen.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n"
+  },
+  {
+   "game_id": "frozen-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/frozen.z5",
+    "title": "Frozen: A Night at the Lab",
+    "engine": "zvm-cli",
+    "serial": "960620",
+    "game_id": "frozen-kimi",
+    "release": 1,
+    "completion": "Require actual author-intended conclusion against raw output, not deaths/quitting/partial scores. Story R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.",
+    "session_id": "frozen-kimi-58aeaf94ce",
+    "started_at": "2026-09-27T10:48:15.255524+00:00",
+    "game_family": "frozen",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/frozen-walkthrough.txt",
+    "story_sha256": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/frozen.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/frozen.sol",
+    "collection_notes": "# Frozen: A Night at the Lab\n\nStory R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.\nGuide: https://ifarchive.org/if-archive/solutions/frozen.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at ordinary prompts; verify success.",
+    "story_sha256_expected": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "frozen-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "frozen-kimi",
+    "raw_end": 1230,
+    "event_id": "frozen-kimi-58aeaf94ce:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\n\n\n\n\n\n\nEnd of term is just two days away and you still haven't finished that story you \nhave due for your english professor.  Since it's worth half of your grade you \nfigure now would be a good time.  Unfortunately for you, your computer decided \nthat it needed to self-destruct.  So here you are in the Engineering building \ncomputer lab, a place you usually only see during your computer science labs, \nalong with a half dozen other desperate souls, striving to cram a month's worth \nof work into a single night.  Rather familiar territory now that you think \nabout it.  As is the light doze you just jerked yourself out of.  Time to get \nsome coffee...\n\nFROZEN\nA Night at the Lab\nCopyright (c) 1996 by Jeremy Farnham.\nRelease 1 / Serial number 960620 / Inform v1502 Library 5/12\nStandard interpreter 1.1\n\nComputer Lab\nA low hum is the only sound that arises from the serried ranks of computers.  \nThe few remaining students, shackled like slaves to the projects in front of \nthem, appear almost frozen in the glare from the flourescent lights.  You can \nescape to the northeast.\n\nEveryone is still, apparently they can't think and type at the same time.\n\nYou can also see a computer and a back pack (which is closed) here.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:48:15.255379+00:00",
+    "event_type": "startup",
+    "session_id": "frozen-kimi-58aeaf94ce",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "4afe11ed7de6d65678ea4ebeb08c4757762d101a3ec636ad1650766293ac8be9",
+    "review_status": "unreviewed",
+    "response_sha256": "4f133aa2d21d092f03739b20d72c05a64ca51ea7e181eae6fdb962e5c35ff1f0"
+   },
+   "text": null
+  },
+  {
+   "game_id": "frozen-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Frozen: A Night at the Lab\n\nStory R1/960620, community guide release unspecified. Compact guide omits navigation; do not assume every unexplained step is a parser error.\nGuide: https://ifarchive.org/if-archive/solutions/frozen.sol\n\nOnly small broker help excerpts; no complete guide reads. Varied labeled synthetic mistakes and actual same-intent repairs. No quota filler. Save only at ordinary prompts, verify success. Respond to keypause/questions first. Empty command means Return; literal space differs. Timeouts permit await_output only. Final author-intended narrative plus raw evidence required; deaths/quitting/partial scores are insufficient. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "frozen-a2e5d2eea9:e00001",

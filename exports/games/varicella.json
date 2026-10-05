@@ -23,6 +23,144 @@
    "host": "cm5ai1"
   }
  ],
+ "files": [
+  {
+   "game_id": "varicella",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/vgame.z8",
+    "title": "Varicella",
+    "engine": "zvm-cli",
+    "serial": "990831",
+    "game_id": "varicella",
+    "release": 1,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Complete the full five-rival regency plot and require the actual authored concluding narrative. News about Wehrkeit at the end of the guide is a route milestone until the game itself concludes. Death, an isolated rival removal or a score is not successful completion. Preserve genuine alternate concluding outcomes with accurate outcome labels.",
+    "session_id": "varicella-0ca3ff14a0",
+    "started_at": "2026-09-25T08:19:42.351653+00:00",
+    "game_family": "varicella",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/varicella-walkthrough.txt",
+    "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/varicella.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/varic.txt",
+    "collection_notes": "# Varicella\n\nStory Z8 R1/990831. Local archive-identical Z8 header is R1/990831. Catalog instead describes public version 1.14 (31 August 1999) and serial 9339. Preserve both metadata layers without replacing the six-byte header serial. The anonymous IF Archive guide identifies Adam Cadre's game and the same IFDB ywwlr3tpxnktjasd but supplies no release or serial; exact guide edition compatibility is unverified.\n\nComplete the full five-rival regency plot and require the actual authored concluding narrative. News about Wehrkeit at the end of the guide is a route milestone until the game itself concludes. Death, an isolated rival removal or a score is not successful completion. Preserve genuine alternate concluding outcomes with accurate outcome labels.\n\nThis is a tightly timed game: take a safe early checkpoint and use small help excerpts before committing to a timed sequence. Observe NPC schedules and obtain telephone codes from live clues; do not type parenthesized guide directions. The guide permits alternate solutions, including avoiding a final confrontation. Keep unnecessary probes out of timed windows; actual repaired commands and varied meaningful probes suffice.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "varicella",
+   "name": "latest.json",
+   "content": {
+    "command": "examine mirror",
+    "game_id": "varicella",
+    "raw_end": 92080,
+    "event_id": "varicella-0ca3ff14a0:e00340",
+    "metadata": {
+     "intent": "Inspect dresser mirror in quarters for hidden surveillance controls",
+     "origin": "exploration",
+     "case_id": "quarters-survey-bonfleche-01",
+     "expected_outcome": "Mirror description, possibly spying equipment hint",
+     "_fleet_session_id": "varicella-0ca3ff14a0"
+    },
+    "response": "A triumph of the glazier's art, this mirror has been subjected to the same \nbattery of tests as those used in the Moors' infernal telescopes.\n\n>",
+    "branch_id": "b5",
+    "raw_start": 91936,
+    "timestamp": "2026-09-25T09:45:45.657968+00:00",
+    "event_type": "command",
+    "session_id": "varicella-0ca3ff14a0",
+    "event_index": 340,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+    "review_status": "unreviewed",
+    "response_sha256": "983653041f74a363d3cdb2cdda32bf520057d879e4581140802e908b1c2a8bda"
+   },
+   "text": null
+  },
+  {
+   "game_id": "varicella",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Varicella \u2014 collection progress (IN PROGRESS, game incomplete, PENDING m0261)\n\n## State (event e00337, branch b5, checkpoint after-venice-relay Ok e327-328)\n- Location: My Quarters (b5), ordinary prompt. Painting examined safely e337 (Augustus Caesar, no surveillance hint, NOT moved \u2014 sabotage avoided).\n- Venice milestone DONE: redial 7661 (e322) + 9695 (e326) relayed caches info; minister triggers self-destruct, hangs up. Wehrkeit sabotaged/badly injured per guide e325.\n- Typo case DONE: e329 'examin telephone' -> 'not recognized verb'; e330 'examine telephone' hotline description; annotated e331 vocabulary, intent yes.\n- Bonfleche hint e332: tutoring Charles, leaves for Avignon; must kill in palace; use quarters spying equipment to monitor his quarters at 2 o'clock, record with master key, show Sierra.\n- Route throne->quarters DONE: west e333, northwest e334, up e335, northwest e336.\n- IN-FLIGHT (do not duplicate): inbox/m0261.json help spying-equipment monitor Bonfleche exact command (single). If responses/m0261.json missing on resume, read latest.json once then retry response; do not resubmit.\n- Next: read m0261 hint, then set up monitor without moving painting; record at 2 o'clock with master key; show Sierra; avoid injured Wehrkeit (~3 o'clock arrival); then MODO/Rico/Louis to authored ending.\n- Checkpoints: after-venice-relay.sav Ok (b5 throne post-relay); true-codes-throne.sav Ok; earlier: funded-early, before-venice-call (stale false era), sierra-found, funded-quarters, before-throne, foyer-mapped, early-saloon.\n- Cases: e329-e331 annotated vocabulary typo. e318 hangup vs e326 relay is progression, not wording fix. Need 20-40 diverse probes; keep timed moves minimal.\n"
+  },
+  {
+   "game_id": "varicella",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Varicella\n\nStory Z8 R1/990831. Local archive-identical Z8 header is R1/990831. Catalog instead describes public version 1.14 (31 August 1999) and serial 9339. Preserve both metadata layers without replacing the six-byte header serial. The anonymous IF Archive guide identifies Adam Cadre's game and the same IFDB ywwlr3tpxnktjasd but supplies no release or serial; exact guide edition compatibility is unverified.\n\nComplete the full five-rival regency plot and require the actual authored concluding narrative. News about Wehrkeit at the end of the guide is a route milestone until the game itself concludes. Death, an isolated rival removal or a score is not successful completion. Preserve genuine alternate concluding outcomes with accurate outcome labels.\n\nThis is a tightly timed game: take a safe early checkpoint and use small help excerpts before committing to a timed sequence. Observe NPC schedules and obtain telephone codes from live clues; do not type parenthesized guide directions. The guide permits alternate solutions, including avoiding a final confrontation. Keep unnecessary probes out of timed windows; actual repaired commands and varied meaningful probes suffice.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "varicella-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/vgame.z8",
+    "title": "Varicella",
+    "engine": "zvm-cli",
+    "serial": "990831",
+    "game_id": "varicella-kimi",
+    "release": 1,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Complete the full five-rival regency plot and require the actual authored concluding narrative. News about Wehrkeit at the end of the guide is a route milestone until the game itself concludes. Death, an isolated rival removal or a score is not successful completion. Preserve genuine alternate concluding outcomes with accurate outcome labels.",
+    "session_id": "varicella-kimi-4e9c6f9fc1",
+    "started_at": "2026-09-27T10:49:52.168202+00:00",
+    "game_family": "varicella",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/varicella-walkthrough.txt",
+    "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/varicella.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/varic.txt",
+    "collection_notes": "# Varicella\n\nStory Z8 R1/990831. Local archive-identical Z8 header is R1/990831. Catalog instead describes public version 1.14 (31 August 1999) and serial 9339. Preserve both metadata layers without replacing the six-byte header serial. The anonymous IF Archive guide identifies Adam Cadre's game and the same IFDB ywwlr3tpxnktjasd but supplies no release or serial; exact guide edition compatibility is unverified.\n\nComplete the full five-rival regency plot and require the actual authored concluding narrative. News about Wehrkeit at the end of the guide is a route milestone until the game itself concludes. Death, an isolated rival removal or a score is not successful completion. Preserve genuine alternate concluding outcomes with accurate outcome labels.\n\nThis is a tightly timed game: take a safe early checkpoint and use small help excerpts before committing to a timed sequence. Observe NPC schedules and obtain telephone codes from live clues; do not type parenthesized guide directions. The guide permits alternate solutions, including avoiding a final confrontation. Keep unnecessary probes out of timed windows; actual repaired commands and varied meaningful probes suffice.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "varicella-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "varicella-kimi",
+    "raw_end": 309,
+    "event_id": "varicella-kimi-4e9c6f9fc1:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\nVaricella by Adam Cadre\n\n(1) Start a new game in full color \n(2) Start a new game in limited color \n(3) Start a new game without color \n(4) Restore a saved game \n(5) How to play interactive fiction \n(6) Special commands \n(7) Credits \n(8) Test whether your interpreter correctly handles color \n(9) Quit \n\n> ",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:49:52.168015+00:00",
+    "event_type": "startup",
+    "session_id": "varicella-kimi-4e9c6f9fc1",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "430d8955b7ee55ba8b7f764a1ea98470b8625305c185fd4c094003d19a1ce482",
+    "review_status": "unreviewed",
+    "response_sha256": "aeb6762fc32cdd44d64d72c2fd571dfe411e4b78aabc76690dd1a369a41b97be"
+   },
+   "text": null
+  },
+  {
+   "game_id": "varicella-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Varicella\n\nStory Z8 R1/990831. Local archive-identical Z8 header is R1/990831. Catalog instead describes public version 1.14 (31 August 1999) and serial 9339. Preserve both metadata layers without replacing the six-byte header serial. The anonymous IF Archive guide identifies Adam Cadre's game and the same IFDB ywwlr3tpxnktjasd but supplies no release or serial; exact guide edition compatibility is unverified.\n\nComplete the full five-rival regency plot and require the actual authored concluding narrative. News about Wehrkeit at the end of the guide is a route milestone until the game itself concludes. Death, an isolated rival removal or a score is not successful completion. Preserve genuine alternate concluding outcomes with accurate outcome labels.\n\nThis is a tightly timed game: take a safe early checkpoint and use small help excerpts before committing to a timed sequence. Observe NPC schedules and obtain telephone codes from live clues; do not type parenthesized guide directions. The guide permits alternate solutions, including avoiding a final confrontation. Keep unnecessary probes out of timed windows; actual repaired commands and varied meaningful probes suffice.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "varicella-0ca3ff14a0:e00001",

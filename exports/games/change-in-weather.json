@@ -9,6 +9,106 @@
   "change-in-weather"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "change-in-weather",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/weather.z5",
+    "title": "A Change in the Weather",
+    "engine": "zvm-cli",
+    "serial": "960613",
+    "game_id": "change-in-weather",
+    "release": 6,
+    "completion": "Require author-intended successful conclusion against raw output; no ordinary death/flood/quitting/partial scores. Guide explicitly R6/960613; compare actual story header. Timed puzzle: collect safe probes/checkpoints without labeling an early flood/death as completion.",
+    "session_id": "change-in-weather-3ff9a98393",
+    "started_at": "2026-09-25T05:28:06.489235+00:00",
+    "game_family": "change-in-weather",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/change-in-weather-walkthrough.txt",
+    "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/change-in-weather.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/weather.sol",
+    "collection_notes": "# A Change in the Weather\n\nExact storyR6/960613. Guide explicitly R6/960613; compare actual story header. Timed puzzle: collect safe probes/checkpoints without labeling an early flood/death as completion.\n\nSmall broker help excerpts only; retain provenance. Save early/at milestones only at normal prompts. Collect varied labeled synthetic mistakes and actual repairs. Menu Enter is empty command, not literal space/RETURN word. No extra input to flush timeout. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "change-in-weather",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "change-in-weather",
+    "raw_end": 65142,
+    "event_id": "change-in-weather-3ff9a98393:e00298",
+    "metadata": {
+     "notes": "Author-intended successful conclusion: after saving the bridge (both sandbags placed, branch wedged, channel dug until pool subsided) and waking at dawn, crossed the solid bridge west to Edge Of Meadow and jogged to rejoin the group. Event shows the *** ... *** victory banner, closing poem, and RESTART/RESTORE/QUIT prompt. Not death, flood, quitting, or partial score.",
+     "ending_quote": "*** You have a good time after all. ***",
+     "evidence_event_ids": [
+      "change-in-weather-3ff9a98393:e00297"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 65142,
+    "timestamp": "2026-09-25T05:56:21.571119+00:00",
+    "event_type": "ending_claim",
+    "session_id": "change-in-weather-3ff9a98393",
+    "event_index": 298,
+    "engine_state": "unchanged",
+    "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "change-in-weather",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "change-in-weather",
+    "raw_end": 65142,
+    "event_id": "change-in-weather-3ff9a98393:e00298",
+    "metadata": {
+     "notes": "Author-intended successful conclusion: after saving the bridge (both sandbags placed, branch wedged, channel dug until pool subsided) and waking at dawn, crossed the solid bridge west to Edge Of Meadow and jogged to rejoin the group. Event shows the *** ... *** victory banner, closing poem, and RESTART/RESTORE/QUIT prompt. Not death, flood, quitting, or partial score.",
+     "ending_quote": "*** You have a good time after all. ***",
+     "evidence_event_ids": [
+      "change-in-weather-3ff9a98393:e00297"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 65142,
+    "timestamp": "2026-09-25T05:56:21.571119+00:00",
+    "event_type": "ending_claim",
+    "session_id": "change-in-weather-3ff9a98393",
+    "event_index": 298,
+    "engine_state": "unchanged",
+    "story_sha256": "9038c8045d4fc53892901315db98ebc2e36df37b5ea468e1723d6cbacec906d2",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "change-in-weather",
+   "name": "progress.md",
+   "content": null,
+   "text": "# progress.md - change-in-weather COMPLETE (winning ending verified)\n\nBranch b3 reached author-intended successful conclusion e00297: \"*** You have a good time after all. ***\" + closing poem + RESTART/RESTORE/QUIT prompt, after jogging west to rejoin the group at Edge Of Meadow in morning light. Not death/flood/quitting/partial: bridge saved (crossed solid e00295), dawn aftermath explored, final west triggered ending text.\n\nEndgame route (all verified): Drop dirty e00267, checkpoint both-bags-placed-b3, examine bridge e00272 (fox yip reveals narrow spot), dig spot e00275, again e00277 (deeper), again e00278 (beam erodes, bridge sags), wedge branch under bridge e00279 (holding), dig spot e00281, again e00282, again e00283 (pool subsides, voices cross), keypress e00284 (wake in cave, morning), look/west/inventory (blanket carried e00289), NW e00293, SW e00294 (morning Stream Bank), cross bridge e00295, west e00297 (ending).\n\nCases: 22 annotated total (probe01-19 segment 1; probe20 typo brigde->bridge vocabulary success; probe21 bare dig->dig spot syntax success; probe22 cross bridge none/accepted). Target 20-40 met with diversity (typo, omission, synonym-verb, plus segment-1 spread).\n\nCheckpoints: before-push-south, both-bags-placed-b3 (endgame base), edge-torn-lost-b2 (failed branch record).\n"
+  },
+  {
+   "game_id": "change-in-weather",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# A Change in the Weather\n\nExact storyR6/960613. Guide explicitly R6/960613; compare actual story header. Timed puzzle: collect safe probes/checkpoints without labeling an early flood/death as completion.\n\nSmall broker help excerpts only; retain provenance. Save early/at milestones only at normal prompts. Collect varied labeled synthetic mistakes and actual repairs. Menu Enter is empty command, not literal space/RETURN word. No extra input to flush timeout. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "change-in-weather-3ff9a98393:e00001",

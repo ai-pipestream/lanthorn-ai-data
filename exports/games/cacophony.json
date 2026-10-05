@@ -9,6 +9,116 @@
   "cacophony"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "cacophony",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Cacophony.z8",
+    "title": "Cacophony",
+    "engine": "zvm-cli",
+    "serial": "091209",
+    "game_id": "cacophony",
+    "release": 4,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Prefer the substantial third author route, including its optional five-page history when feasible, through the final television action and actual concluding narrative. The second route is an intended mission-delivery alternate, retained centrally. The first route is an authored death ending: preserve its outcome if observed but do not use it as the successful full-route target. Dream/wake transitions, being swallowed, score changes and guide annotations are not ending proof.",
+    "session_id": "cacophony-c47d99b6d3",
+    "started_at": "2026-09-25T08:25:22.625161+00:00",
+    "game_family": "cacophony",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony-walkthrough.txt",
+    "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/cacophony.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/Cacophony.zip",
+    "collection_notes": "# Cacophony\n\nStory Z8 R4/091209. Local archive-identical Z8 R4/091209. Author guide archive contains three walkthroughs, none naming a release or serial. Archive guide date 2009-08-02 predates the R4 story listing 2009-12-09; do not infer exact release compatibility. Primary normalized guide is the unedited text of ZIP member Walkthrough3.txt with LF line endings; ZIP bytes and all members are separately pinned.\n\nPrefer the substantial third author route, including its optional five-page history when feasible, through the final television action and actual concluding narrative. The second route is an intended mission-delivery alternate, retained centrally. The first route is an authored death ending: preserve its outcome if observed but do not use it as the successful full-route target. Dream/wake transitions, being swallowed, score changes and guide annotations are not ending proof.\n\nThe optional history branch in the third guide jumps between marked positions; do not concatenate every line into a blind replay. Observe moving characters and timing. Parenthesized directions are commentary; G repeats the previous actual action only when appropriate. Read telephone/keypad clues in-game and adapt nouns from output. Start with a safe checkpoint after any startup question, and save before irreversible ending choices.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "cacophony",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "cacophony",
+    "raw_end": 106173,
+    "event_id": "cacophony-c47d99b6d3:e00798",
+    "metadata": {
+     "notes": "Route 3 (Walkthrough3) completed through final television action to author-intended winning conclusion. Turn tv off (e793) ended images/sounds, walls flew away into fractals; body/mind expansion liberation narrative (e794); 'But is that so bad?' (e795); '*** Free ***' banner with RESTART/RESTORE/QUIT menu (e796). This is victory, not death (no demise; liberation text), not a chapter transition (terminal menu, no further play), not quitting (no quit command). Optional [1] five-page history not taken: post-tv-off game-over makes it infeasible from this state (documented in progress.md); core route-3 ending verified against raw output.",
+     "ending_quote": "*** Free ***",
+     "evidence_event_ids": [
+      "cacophony-c47d99b6d3:e00793",
+      "cacophony-c47d99b6d3:e00794",
+      "cacophony-c47d99b6d3:e00795",
+      "cacophony-c47d99b6d3:e00796"
+     ]
+    },
+    "response": "",
+    "branch_id": "b10",
+    "raw_start": 106173,
+    "timestamp": "2026-09-25T09:43:47.266570+00:00",
+    "event_type": "ending_claim",
+    "session_id": "cacophony-c47d99b6d3",
+    "event_index": 798,
+    "engine_state": "unchanged",
+    "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "cacophony",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "cacophony",
+    "raw_end": 106173,
+    "event_id": "cacophony-c47d99b6d3:e00798",
+    "metadata": {
+     "notes": "Route 3 (Walkthrough3) completed through final television action to author-intended winning conclusion. Turn tv off (e793) ended images/sounds, walls flew away into fractals; body/mind expansion liberation narrative (e794); 'But is that so bad?' (e795); '*** Free ***' banner with RESTART/RESTORE/QUIT menu (e796). This is victory, not death (no demise; liberation text), not a chapter transition (terminal menu, no further play), not quitting (no quit command). Optional [1] five-page history not taken: post-tv-off game-over makes it infeasible from this state (documented in progress.md); core route-3 ending verified against raw output.",
+     "ending_quote": "*** Free ***",
+     "evidence_event_ids": [
+      "cacophony-c47d99b6d3:e00793",
+      "cacophony-c47d99b6d3:e00794",
+      "cacophony-c47d99b6d3:e00795",
+      "cacophony-c47d99b6d3:e00796"
+     ]
+    },
+    "response": "",
+    "branch_id": "b10",
+    "raw_start": 106173,
+    "timestamp": "2026-09-25T09:43:47.266570+00:00",
+    "event_type": "ending_claim",
+    "session_id": "cacophony-c47d99b6d3",
+    "event_index": 798,
+    "engine_state": "unchanged",
+    "story_sha256": "a49fd38f9f661444ab701e90b402390b342e67f8e998ded748ab1162289bd49f",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "cacophony",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Cacophony progress (update 47 - SEGMENT 4 FINAL: *** Free *** WIN, b10 complete)\n\nRESULT: Route 3 COMPLETE. \"*** Free ***\" winning ending verified e793-e796 (b10). TV-off (probe54 \"turn tv off\" accepted) -> walls fly/fractals e793 -> expansion/liberation narrative e794 -> \"But is that so bad?\" e795 -> \"*** Free ***\" + RESTART/RESTORE/QUIT e796. Not death (no demise text; liberation narrative), not chapter (terminal menu), not quit (no quit issued).\n\nFull b10 route: dream-tools restore -> W W W Idol -> give crowbar to Red -> Z opens trophy -> get lantern -> stow -> prewake checkpoint -> wake (Void) -> get/turn-on/W (exact, minimal) -> Grotto leprechaun 10xZ speech -> cenofloger (typo probe50) -> stow -> checkpoint -> E Void -> Z swallowed (bag contents transfer, hand items stripped) -> E Study -> open/get cenofloger -> W W Idol (tools refound, case empty, NO gizmo) -> touch cenofloger summons BLUE -> benodate direct (statue wobbles, bypass Red/gizmo) -> push statue (dust) -> E N N Jungle -> benodate (lizard out) -> attack lizard (probe52, dust) -> S S S Dark Room -> benodate (guitar louder) -> listen (probe53 pair, silence) -> N E S TV Room -> benodate (interference) -> turn tv off -> *** Free ***.\n\nR4 bypasses proven: (1) Red opens trophy in Idol w/o Green/remote/gizmo; (2) benodate works w/o Red-cenofloger handling; (3) Blue via touch-cenofloger; gizmo/Green path unreachable in R4 post-wake (photo->Red only, Blue blocks Red).\nHistory ([1] Get stone): NOT done. Optional per manifest (\"when feasible\"). Infeasible post-tv-off (game over); pre-tv-off requires Grotto return without lantern (lost in swallow) or full Grotto-divergent redo (~30 req). Documented, evidence-safe on b10.\n\nCases 54 (probe52 attack=hit none e780; probe53 listen-to/intransitive vocab e788; probe54 turn-tv-off none e797). Checkpoints: b10-* chain + earlier set. Game verified complete; finish filed with e793-e796.\n"
+  },
+  {
+   "game_id": "cacophony",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Cacophony\n\nStory Z8 R4/091209. Local archive-identical Z8 R4/091209. Author guide archive contains three walkthroughs, none naming a release or serial. Archive guide date 2009-08-02 predates the R4 story listing 2009-12-09; do not infer exact release compatibility. Primary normalized guide is the unedited text of ZIP member Walkthrough3.txt with LF line endings; ZIP bytes and all members are separately pinned.\n\nPrefer the substantial third author route, including its optional five-page history when feasible, through the final television action and actual concluding narrative. The second route is an intended mission-delivery alternate, retained centrally. The first route is an authored death ending: preserve its outcome if observed but do not use it as the successful full-route target. Dream/wake transitions, being swallowed, score changes and guide annotations are not ending proof.\n\nThe optional history branch in the third guide jumps between marked positions; do not concatenate every line into a blind replay. Observe moving characters and timing. Parenthesized directions are commentary; G repeats the previous actual action only when appropriate. Read telephone/keypad clues in-game and adapt nouns from output. Start with a safe checkpoint after any startup question, and save before irreversible ending choices.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "cacophony-c47d99b6d3:e00001",

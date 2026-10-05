@@ -9,6 +9,106 @@
   "jewel-of-knowledge"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "jewel-of-knowledge",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/jewel.z5",
+    "title": "The Jewel of Knowledge",
+    "engine": "zvm-cli",
+    "serial": "990710",
+    "game_id": "jewel-of-knowledge",
+    "release": 2,
+    "completion": "Require author-intended ending verified against real raw output. Death, quitting, chapter transition, model claim or partial score are insufficient. Story R2/990710 versus walkthrough R1/990629. Guide includes an intentional losing GET JEWEL branch followed by restore; seek author-intended final mirror route, never label that failure as completion.",
+    "session_id": "jewel-of-knowledge-61db1c70d2",
+    "started_at": "2026-09-25T05:38:40.582023+00:00",
+    "game_family": "jewel-of-knowledge",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/jewel-of-knowledge-walkthrough.txt",
+    "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/jewel-of-knowledge.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/jewel.sol",
+    "collection_notes": "# The Jewel of Knowledge\n\nStory R2/990710 versus walkthrough R1/990629. Guide includes an intentional losing GET JEWEL branch followed by restore; seek author-intended final mirror route, never label that failure as completion.\nGuide: https://ifarchive.org/if-archive/solutions/jewel.sol\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "jewel-of-knowledge",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "jewel-of-knowledge",
+    "raw_end": 102409,
+    "event_id": "jewel-of-knowledge-61db1c70d2:e00425",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending via final mirror route: touching the brass mirror returns the hero to Amylya farm, hero's welcome at the Temple, the lie that the Jewel is myth, and a years-later epilogue ('Nothing, but the lingering scent of foolish dreams'). Score 90/90, rank Humbled Land Owner. Distinguished from the intentional losing GET JEWEL branch (b2 e00416-e00421: poison-trap death at 80/90, 'Omniscient Being-in-Waiting') and the b1 red-dragon timing death (e00375); neither is claimed as completion.",
+     "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 90 out of a possible 90, in 243 turns, earning you the \nrank of Humbled Land Owner.",
+     "evidence_event_ids": [
+      "jewel-of-knowledge-61db1c70d2:e00424"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 102409,
+    "timestamp": "2026-09-25T06:08:34.907889+00:00",
+    "event_type": "ending_claim",
+    "session_id": "jewel-of-knowledge-61db1c70d2",
+    "event_index": 425,
+    "engine_state": "unchanged",
+    "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "jewel-of-knowledge",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "jewel-of-knowledge",
+    "raw_end": 102409,
+    "event_id": "jewel-of-knowledge-61db1c70d2:e00425",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending via final mirror route: touching the brass mirror returns the hero to Amylya farm, hero's welcome at the Temple, the lie that the Jewel is myth, and a years-later epilogue ('Nothing, but the lingering scent of foolish dreams'). Score 90/90, rank Humbled Land Owner. Distinguished from the intentional losing GET JEWEL branch (b2 e00416-e00421: poison-trap death at 80/90, 'Omniscient Being-in-Waiting') and the b1 red-dragon timing death (e00375); neither is claimed as completion.",
+     "ending_quote": "    *** You have won ***\n\n\nIn that game you scored 90 out of a possible 90, in 243 turns, earning you the \nrank of Humbled Land Owner.",
+     "evidence_event_ids": [
+      "jewel-of-knowledge-61db1c70d2:e00424"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 102409,
+    "timestamp": "2026-09-25T06:08:34.907889+00:00",
+    "event_type": "ending_claim",
+    "session_id": "jewel-of-knowledge-61db1c70d2",
+    "event_index": 425,
+    "engine_state": "unchanged",
+    "story_sha256": "59f600b6e55e7cf0b55edd8145fa80202b0b85d3c1eef9989796926962f21bd2",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "jewel-of-knowledge",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress \u2013 jewel-of-knowledge (branch b3, score 90) \u2013 COMPLETE, WINNING ENDING VERIFIED\n\nGAME COMPLETE. Winning ending observed at e00424 (branch b3): 'touch mirror' \u2192 pulled through to Amylya farm, hero's welcome, epilogue years later, '*** You have won ***', 90/90, rank Humbled Land Owner, 243 turns.\n\nDistinguished from: (a) intentional losing GET JEWEL branch (b2 e00416-e00421): poison arrows, paralysis, death at 80/90 'Omniscient Being-in-Waiting' \u2014 NOT completion; (b) b1 red-dragon speech-timing death e00375 (R2 story faster than R1 walkthrough; recovered via restore, shot rope immediately after 'anarchy').\n\nCases: syn01-syn43 all annotated (43 total, all verified against real responses).\nCheckpoints: score80-jewel-room (= s80, used for losing-branch restore); score73-ember-coat; score70-red-plateau; score58-ride-dragon; score51-black-dragon; score39-door-open; score34-back-at-plateau; temple-score29.\nFinish request: m0320 with evidence e00424.\n"
+  },
+  {
+   "game_id": "jewel-of-knowledge",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# The Jewel of Knowledge\n\nStory R2/990710 versus walkthrough R1/990629. Guide includes an intentional losing GET JEWEL branch followed by restore; seek author-intended final mirror route, never label that failure as completion.\nGuide: https://ifarchive.org/if-archive/solutions/jewel.sol\n\nUse only small broker help excerpts; hints are not observed success. Capture varied labeled synthetic mistakes and real same-intent repairs. Save early and at milestones only at confirmed ordinary command prompts, never menus/questions. Empty command is Return, literal space is different; do not type RETURN to mean a key. On timeout use await_output only. No training or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "jewel-of-knowledge-61db1c70d2:e00001",

@@ -23,6 +23,155 @@
    "host": "pi500p"
   }
  ],
+ "files": [
+  {
+   "game_id": "lecture-feature",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/lecture.zblorb",
+    "title": "Lecture Feature",
+    "engine": "zvm-cli",
+    "serial": "200414",
+    "game_id": "lecture-feature",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Follow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.",
+    "session_id": "lecture-feature-fbf9767abc",
+    "started_at": "2026-09-25T08:46:13.319644+00:00",
+    "game_family": "teacher-feature",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature-walkthrough.txt",
+    "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/lecture_feature.txt",
+    "collection_notes": "# Lecture Feature\n\nStory Z8 R1/200414. Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.\n\nFollow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.\n\nNPCs move; find them from current output and reorient at the rooms named by the guide. Lines beginning arrows and parenthesized waits are advice, not literal commands. No fixed wait count is authoritative. The opening FLUSH TOILET is an in-game puzzle action at an ordinary prompt, never a transport flush. Save early safely and before final commitments; use useful observations and same-intent repairs rather than quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "lecture-feature",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "lecture-feature",
+    "raw_end": 124707,
+    "event_id": "lecture-feature-fbf9767abc:e00553",
+    "metadata": {
+     "notes": "e548 record band prompts What do you want to record with, showing instrument required; e549 full wording record band with dictaphone still fails with copywritten protest until permission; after e550-e551 talk to band x2 manager agreement, e552 same full wording succeeds capturing two-minute track. Establishes omitted instrument plus talk-permission precondition, not mere wording fix.",
+     "intent": "Record the indie band performance with the dictaphone",
+     "case_id": "band-record-omitted-instrument-01",
+     "event_ids": [
+      "lecture-feature-fbf9767abc:e00548",
+      "lecture-feature-fbf9767abc:e00552"
+     ],
+     "suggestion": "Did you mean record band with dictaphone after talking to the band?",
+     "failure_type": "world_state",
+     "label_source": "muse_unreviewed",
+     "failed_event_id": "lecture-feature-fbf9767abc:e00548",
+     "synthetic_probe": true,
+     "intent_preserved": "yes",
+     "observed_outcome": "success",
+     "_fleet_session_id": "lecture-feature-fbf9767abc",
+     "corrected_event_id": "lecture-feature-fbf9767abc:e00552"
+    },
+    "response": "",
+    "branch_id": "b0",
+    "raw_start": 124707,
+    "timestamp": "2026-09-26T01:13:27.518202+00:00",
+    "event_type": "annotation",
+    "session_id": "lecture-feature-fbf9767abc",
+    "event_index": 553,
+    "engine_state": "unchanged",
+    "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "lecture-feature",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Lecture Feature \u2013 progress (m0502 PENDING, game incomplete)\n\nLocation: Hovelsworth kitchen e00552 ordinary prompt (latest.json e00552 `record band with dictaphone` \u2192 two-minute track captured verified; responses/m0502.json not yet present).\nThis run: m0499 RESOLVED e00550 first talk (name debate). m0500 RESOLVED e00551 second talk (manager agreement). m0501 RESOLVED e00552 record band with dictaphone \u2192 success after permission. m0502 PENDING inbox/m0502.json well-formed annotate band-record-omitted-instrument-01 e548\u2192e552 failure_type world_state. Do NOT resubmit or duplicate m0502; on continuation read responses/m0502.json then latest.json first. Pending, not failure.\nFindings: Band recording needs instrument + permission: e548 omitted instrument prompts for device; e549 full wording blocked copywritten protest; after e550-e551 talks, e552 succeeds. Next: e/d/s reverse to Computing lab; `put dictaphone in port`, `get disc`, `recruit nerd`; then onward to JCR/dance/kiss finale. No victory yet.\nInventory: fake identity card, handcuffs, silver key, dictaphone (RECORDED band track at e552), sunglasses worn, Lyssa coat worn, alcopop, wallet, trousers worn. Game INCOMPLETE \u2013 no victory, no ending.\nNext after m0502 resolves: e, d, s to Computing lab; burn disc; recruit nerd.\nCheckpoints: start-bathroom, before-nerd-door, after-alarm-fix, nerd-card-done, computing-entry confirmed.\n"
+  },
+  {
+   "game_id": "lecture-feature",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Lecture Feature\n\nStory Z8 R1/200414. Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.\n\nFollow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.\n\nNPCs move; find them from current output and reorient at the rooms named by the guide. Lines beginning arrows and parenthesized waits are advice, not literal commands. No fixed wait count is authoritative. The opening FLUSH TOILET is an in-game puzzle action at an ordinary prompt, never a transport flush. Save early safely and before final commitments; use useful observations and same-intent repairs rather than quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  },
+  {
+   "game_id": "lecture-feature-kimi",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/lecture.zblorb",
+    "title": "Lecture Feature",
+    "engine": "zvm-cli",
+    "serial": "200414",
+    "game_id": "lecture-feature-kimi",
+    "release": 1,
+    "completion": "Require genuine authored concluding narrative independently verified against raw game output. Ordinary death, quitting, partial scores, chapter transitions and guide/model claims alone are insufficient. Follow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.",
+    "session_id": "lecture-feature-kimi-41e2065acd",
+    "started_at": "2026-09-27T10:49:02.779156+00:00",
+    "game_family": "teacher-feature",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature-walkthrough.txt",
+    "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-j-20260925/lecture-feature.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/lecture_feature.txt",
+    "collection_notes": "# Lecture Feature\n\nStory Z8 R1/200414. Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.\n\nFollow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.\n\nNPCs move; find them from current output and reorient at the rooms named by the guide. Lines beginning arrows and parenthesized waits are advice, not literal commands. No fixed wait count is authoritative. The opening FLUSH TOILET is an in-game puzzle action at an ordinary prompt, never a transport flush. Save early safely and before final commitments; use useful observations and same-intent repairs rather than quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "lecture-feature-kimi",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "lecture-feature-kimi",
+    "raw_end": 1639,
+    "event_id": "lecture-feature-kimi-41e2065acd:e00001",
+    "metadata": {
+     "origin": "system"
+    },
+    "response": "\n\n\n\nYou are awake, but you would rather not be.  The severe cramp in your neck \nseems almost inconsequential in comparison with the pounding in your head.  \nYour suspicions are roused as to what may have happened the previous night \nbecause, as yet, you can remember nothing.  A peculiarly furry sensation in \nyour mouth, combined with the unmistakable stench of very cheap scotch, adds to \nyour mounting fear.\n\nBy the time your vision clears and you notice that you are lying in the bath of \nyour friend's hall of residence, it is clear to you that you are a victim of \nJessica's 21st Birthday Party, as advertised on lamp posts and fences across \nthe city for the past three months.\n\nYour liver is reporting major difficulties and your stomach produces \nintermittent gurgles of protest.  Your head drowns out all other \nconsiderations, however, and you sit up, take a look around you, and pray for \ndeath...\n\n\nLecture Feature\nAn Interactive Fiction by Paul Equinox Collins\nRelease 1 / Serial number 200414 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) \n\u00a9 Copyright 1999-2014 Paul Equinox Collins.  With thanks to the \nrec.arts.int-fiction community for help and advice.\n\nBathroom, Scummett block (in the bath)\nThe narrow, dingy bathroom of Scummett block is furnished with a bath and a \ntoilet.  The wallpaper peels miserably, as though \u2014 knowing from the first that \nit was doomed to languish in a humid cesspit \u2014 it could never quite summon the \nmotivation to stand upright.  The stippled glass on this shady side of the \nbuilding admits little light, but the door leading south into the corridor is \noutlined in faint brightness.\n\n>",
+    "branch_id": "b0",
+    "raw_start": 0,
+    "timestamp": "2026-09-27T10:49:02.778945+00:00",
+    "event_type": "startup",
+    "session_id": "lecture-feature-kimi-41e2065acd",
+    "event_index": 1,
+    "engine_state": "awaiting_input_or_idle",
+    "story_sha256": "7261bd5a878d869269ddfcf2ccfe14a2cd864332c08173bee2c58ef988dde180",
+    "review_status": "unreviewed",
+    "response_sha256": "4ceb34ffc432a08908c57e41f809d4ac9338b1a89f82281bac833552b308d90a"
+   },
+   "text": null
+  },
+  {
+   "game_id": "lecture-feature-kimi",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Lecture Feature\n\nStory Z8 R1/200414. Local archive-identical Blorb contains ZCOD Z8 R1/200414. The walkthrough names Lecture Feature and Paul Equinox Collins with the matching archive IFDB identity, but gives no release/serial and was archived 2014-03-26, before this 2020 binary. The linked Inform source supports the final victory route; it was inspected statically, not compiled or proven to reproduce these story bytes.\n\nFollow the full campus recruitment and identity-card route through the JCR, final Lyssa conversation/dance and concluding kiss scene. Require actual game-authored closing narrative, then resolve the requested key pause and final recruitment/victory readout. The source explicitly ends in victory at this conclusion; merely recruiting one student, creating the card or reaching the JCR is insufficient.\n\nNPCs move; find them from current output and reorient at the rooms named by the guide. Lines beginning arrows and parenthesized waits are advice, not literal commands. No fixed wait count is authoritative. The opening FLUSH TOILET is an in-game puzzle action at an ordinary prompt, never a transport flush. Save early safely and before final commitments; use useful observations and same-intent repairs rather than quotas.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "lecture-feature-fbf9767abc:e00001",

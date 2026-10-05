@@ -9,6 +9,110 @@
   "risorgimento-represso"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "risorgimento-represso",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/risorg.zblorb",
+    "title": "Risorgimento Represso",
+    "engine": "zvm-cli",
+    "serial": "171114",
+    "game_id": "risorgimento-represso",
+    "release": 6,
+    "completion": "Require genuine author-intended concluding narrative independently verified against raw game output. Quitting, partial scores, chapter transitions and guide/model claims are insufficient. Ordinary terminal failure is not successful full-route completion; preserve explicitly authored alternate endings with accurate labels. Follow the full wizard-apprentice castle, countryside and rescue route through Ninario's final escape with the protagonist. Require the resulting authored concluding narrative after the final descent with Ninario. Finding spectacles, closing the early rift, escaping the castle or score alone is insufficient; retain genuine alternate concluding outcomes if observed.",
+    "session_id": "risorgimento-represso-513c23c1c0",
+    "started_at": "2026-09-25T08:33:55.458550+00:00",
+    "game_family": "risorgimento-represso",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-represso-walkthrough.txt",
+    "story_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+    "broker_guards": {
+     "fleet_session": 1,
+     "restart_timeout": 1
+    },
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/fleet-batch-h-20260925/risorgimento-represso.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/risorg.rec",
+    "collection_notes": "# Risorgimento Represso\n\nStory Z8 R6/171114. Local archive-identical Blorb contains ZCOD Z8 R6/171114. Author replay guide is explicitly tested with R5/171024 and its archive entry points to the Glulx edition. Preserve both the one-release gap and Glulx-to-Z-code edition gap; matching title/author/IFDB t0pidhghzbo91i12 does not establish identical command timing or runtime behavior.\n\nFollow the full wizard-apprentice castle, countryside and rescue route through Ninario's final escape with the protagonist. Require the resulting authored concluding narrative after the final descent with Ninario. Finding spectacles, closing the early rift, escaping the castle or score alone is insufficient; retain genuine alternate concluding outcomes if observed.\n\nThis is an annotated replay source, not permission to replay a file. Lines starting ! are comments; key pauses require the key actually requested on screen. Empty Enter is an empty command. Observe pronouns and inventory after each action, and use small broker excerpts at puzzle boundaries. Take an early safe checkpoint and milestone saves before travel or rescue commitments. Never use gameplay waits to flush transport timeouts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n",
+    "zmachine_version": 8,
+    "checkpoint_policy": "Early safe checkpoint and milestone saves via the central broker only, at confirmed ordinary command prompts; verify actual success. Resolve questions/key pauses first. Never save to flush a timeout.",
+    "story_sha256_expected": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "risorgimento-represso",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "risorgimento-represso",
+    "raw_end": 134566,
+    "event_id": "risorgimento-represso-513c23c1c0:e00509",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending after final descent through toilet hole with Ninario: escape Outside Vechlee, Plumbers Union uprising, rift storm, flight to Blumph. Full 50/50 score with 'You have won', not death/quitting/chapter transition.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "risorgimento-represso-513c23c1c0:e00508"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 134566,
+    "timestamp": "2026-09-25T09:23:00.999948+00:00",
+    "event_type": "ending_claim",
+    "session_id": "risorgimento-represso-513c23c1c0",
+    "event_index": 509,
+    "engine_state": "unchanged",
+    "story_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "risorgimento-represso",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "risorgimento-represso",
+    "raw_end": 134566,
+    "event_id": "risorgimento-represso-513c23c1c0:e00509",
+    "metadata": {
+     "notes": "Genuine author-intended winning ending after final descent through toilet hole with Ninario: escape Outside Vechlee, Plumbers Union uprising, rift storm, flight to Blumph. Full 50/50 score with 'You have won', not death/quitting/chapter transition.",
+     "ending_quote": "*** You have won ***",
+     "evidence_event_ids": [
+      "risorgimento-represso-513c23c1c0:e00508"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 134566,
+    "timestamp": "2026-09-25T09:23:00.999948+00:00",
+    "event_type": "ending_claim",
+    "session_id": "risorgimento-represso-513c23c1c0",
+    "event_index": 509,
+    "engine_state": "unchanged",
+    "story_sha256": "c3c0ef267892676703727c489faf9bc98532b6a3b51f098d3580e7ee85f51d42",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "risorgimento-represso",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Progress - Risorgimento Represso - COMPLETE (50/50)\n\n## Final state\nWON. Branch b3, score 50/50, 264 turns, Doctor of Letters. Final descent through toilet hole with slicked-up Ninario -> Outside Vechlee, Plumbers Union uprising, rift storm, flight to Blumph on flying settee. \"*** You have won ***\" at e00508.\n\n## Inventory at end\nWorn: helmet, satchel, clothes, butter. Carried: red carpet, silver coin change, scrying bowl, ginger beer, chamberpot etc. Given away: goggles (hermit), drill (Ned). Consumed: WizStrip (explosion), margarine (Ninario), hastener (door).\n\n## Checkpoints (verified, b3)\n- ninario-freed, before-final-descent (final), before-bear-pass, before-tree-climb, castle-escaped, before-cannon-shot, powder-made, workshop-arrival, study-post-rug, post-rift-rescue, clean-spectacles, before-wizstrip-pour, older arrivals\n- Death branch b2 preserved (e00183).\n\n## Cases seg3 (88-112, all resolved)\n- 88 ask old man tears (none); 89 hand->give goggles (vocab); 90 show hermit the bottle (none)\n- 91 take off carpet->remove rug (world_state); 92 backpack=satchel (none)\n- 93 say hi to guard (none); 94 ask ned himself (none); 95 megre->meagre (syntax)\n- 96 ask ned science (none); 97 show guard the drill (none); 98 offer drill (none)\n- 99 copper pipe (none); 100 connect hose (none); 101 hose in grille (none); 102 turn on valve (none)\n- 103 ginger beer (none); 104 take bottle of ginger beer (none); 105 pick up margarine (none)\n- 106 place->put wizstrip (vocab); 107 shut door (none); 108 wait (none, explosion)\n- 109 rub hastener (none); 110 hello ninario (none); 111 enter hole (none); 112 stick of margarine (none)\n\nTotals: seg1 01-35, seg2 36-87, seg3 88-112 = 112 cases. Finish submitted with e00508.\n"
+  },
+  {
+   "game_id": "risorgimento-represso",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Risorgimento Represso\n\nStory Z8 R6/171114. Local archive-identical Blorb contains ZCOD Z8 R6/171114. Author replay guide is explicitly tested with R5/171024 and its archive entry points to the Glulx edition. Preserve both the one-release gap and Glulx-to-Z-code edition gap; matching title/author/IFDB t0pidhghzbo91i12 does not establish identical command timing or runtime behavior.\n\nFollow the full wizard-apprentice castle, countryside and rescue route through Ninario's final escape with the protagonist. Require the resulting authored concluding narrative after the final descent with Ninario. Finding spectacles, closing the early rift, escaping the castle or score alone is insufficient; retain genuine alternate concluding outcomes if observed.\n\nThis is an annotated replay source, not permission to replay a file. Lines starting ! are comments; key pauses require the key actually requested on screen. Empty Enter is an empty command. Observe pronouns and inventory after each action, and use small broker excerpts at puzzle boundaries. Take an early safe checkpoint and milestone saves before travel or rescue commitments. Never use gameplay waits to flush transport timeouts.\n\nCENTRAL architecture: story files, full guides, provenance and interpreter execution remain on the central host. Pis receive only small broker help excerpts, never story files or full guides. Do not stage or copy these assets to a Pi. Do not expose central guide/source paths or URLs to Muse. Use small topic-specific broker help excerpts only (at most 9 lines / 1000 characters); no full-guide reads, direct URL access or serial excerpts to reconstruct the guide. Hints are suggested help, not observed success. Resolve startup questions/key pauses first. Make an early safe checkpoint and milestone saves only at confirmed ordinary command prompts; verify actual success. Menu Enter means an empty command, not literal space or the word RETURN; other keys only as requested on screen. On timeout use await_output only: no flush commands, extra keys, repeated input or new SAVE. Collect useful varied labeled synthetic probes and actual same-intent repairs with event IDs, not quotas or repeated filler. Use one command at a time near hazards/questions/menus. Parent independently verifies actual concluding narrative against raw output. No training, evaluation or publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "risorgimento-represso-513c23c1c0:e00001",

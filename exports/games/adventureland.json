@@ -9,6 +9,90 @@
   "adventureland"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "adventureland",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/scott/AdamsGames/adv01.dat",
+    "title": "Adventureland",
+    "engine": "scott-cli",
+    "game_id": "adventureland",
+    "completion": "Require actual winning-ending or final treasure score evidence, independently reviewed.",
+    "session_id": "adventureland-19f4e4861c",
+    "started_at": "2026-09-24T12:18:22.318610+00:00",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/adventureland-walkthrough.txt",
+    "story_sha256": "b6f9293bd3cf2759d2240d2ac9a2b55877d71d0d242116f816fe29b3c619dedf",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://www.ifarchive.org/if-archive/solutions/adamssol.zip#ADVENTUR"
+   },
+   "text": null
+  },
+  {
+   "game_id": "adventureland",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "adventureland",
+    "raw_end": 129853,
+    "event_id": "adventureland-19f4e4861c:e00941",
+    "metadata": {
+     "notes": "Bare 'score' in stump tallied all 13 treasures for 100 with engine_exited (e00939), after banking eggs+honey. Genuine winning ending, not death/limbo/quitting.",
+     "ending_quote": "I've stored 13  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+     "evidence_event_ids": [
+      "adventureland-19f4e4861c:e00939"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 129853,
+    "timestamp": "2026-09-24T13:34:37.148711+00:00",
+    "event_type": "ending_claim",
+    "session_id": "adventureland-19f4e4861c",
+    "event_index": 941,
+    "engine_state": "unchanged",
+    "story_sha256": "b6f9293bd3cf2759d2240d2ac9a2b55877d71d0d242116f816fe29b3c619dedf",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "adventureland",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "adventureland",
+    "raw_end": 129853,
+    "event_id": "adventureland-19f4e4861c:e00941",
+    "metadata": {
+     "notes": "Bare 'score' in stump tallied all 13 treasures for 100 with engine_exited (e00939), after banking eggs+honey. Genuine winning ending, not death/limbo/quitting.",
+     "ending_quote": "I've stored 13  treasures.  On a scale of 0 to 100, that rates 100 .\nWell done.\nThe game is now over.",
+     "evidence_event_ids": [
+      "adventureland-19f4e4861c:e00939"
+     ]
+    },
+    "response": "",
+    "branch_id": "b3",
+    "raw_start": 129853,
+    "timestamp": "2026-09-24T13:34:37.148711+00:00",
+    "event_type": "ending_claim",
+    "session_id": "adventureland-19f4e4861c",
+    "event_index": 941,
+    "engine_state": "unchanged",
+    "story_sha256": "b6f9293bd3cf2759d2240d2ac9a2b55877d71d0d242116f816fe29b3c619dedf",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "adventureland",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Adventureland progress \u2014 DONE b3 WIN 100 (e00939)\n\nb3 WIN: 13 treasures, 100/100, engine_exited e00939. Stump holds all 13 (rubies, fish, net, rug, crown, mirror, fruit, ox, ring, bracelet, firestone, eggs, honey). Bees suffocated on honey drop; dragon sting \u2192 limbo \u2192 go up recovered. Checkpoint before-bees unsupported (save unknown, e00910) \u2014 reported, not assumed.\nb3 cases ~35: dragon none; axe typo; ox statue; bunyon none; hole-enter; flint pronoun; fruit apple; climb; chop world_state; stump-enter none; rubies pot; lamp brass; dark-hole dark; door push; bladder bag; gas fill; ignite-light none; chasm leap; bear shout; bricks singular none; crown gold; flint steel; rug carpet; dam wall; firestone stone; lake fill-bottle; fish catch none; pour-water empty; final say-score syntax. Plus b2 lamp-noflint + door-hall.\nNEXT: finish with e00939. No further moves; engine exited.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "adventureland-19f4e4861c:e00001",

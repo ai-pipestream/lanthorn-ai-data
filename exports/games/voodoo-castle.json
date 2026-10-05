@@ -9,6 +9,102 @@
   "voodoo-castle"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "voodoo-castle",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/scott/AdamsGames/adv04.dat",
+    "title": "Voodoo Castle, Scott Adams #4",
+    "engine": "scott-cli",
+    "game_id": "voodoo-castle",
+    "completion": "Require actual author-intended concluding narrative/banner and independent raw-output verification. Death, quitting, chapter transitions, score or process exit alone are insufficient. For Shade and Photopia, a bleak narrative conclusion is not an ordinary early failure; distinguish the actual final ending.",
+    "session_id": "voodoo-castle-5bd0b59cae",
+    "started_at": "2026-09-25T01:54:53.627584+00:00",
+    "game_family": "scott-adams",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/voodoo-castle-walkthrough.txt",
+    "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+    "dataset_split": "train",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/expansion-20260925/voodoo-castle.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/adamssol.zip#VOODOO",
+    "checkpoint_policy": "Worker must save at a confirmed ordinary command prompt early and after milestones; no timer-injected SAVE during questions or keypress scenes.",
+    "story_sha256_expected": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "voodoo-castle",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "voodoo-castle",
+    "raw_end": 67243,
+    "event_id": "voodoo-castle-5bd0b59cae:e00766",
+    "metadata": {
+     "notes": "Curse lifted after foot prerequisite (ON MAN thunder, foot worn e00755/e00758) then full book/page ritual; pins fall out, Count appears smiling, game declares over with engine_exited. Not death, quit, or chapter transition.",
+     "ending_quote": "YELL CHANT\nThere's a CLAP OF THUNDER!\nPins fall out of doll\nHURRAH! Look who is in the room!\nThe game is now over.\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Open Coffin\n  Smiling Count Cristo\n",
+     "evidence_event_ids": [
+      "voodoo-castle-5bd0b59cae:e00763"
+     ]
+    },
+    "response": "",
+    "branch_id": "b2",
+    "raw_start": 67243,
+    "timestamp": "2026-09-25T03:27:48.555514+00:00",
+    "event_type": "ending_claim",
+    "session_id": "voodoo-castle-5bd0b59cae",
+    "event_index": 766,
+    "engine_state": "unchanged",
+    "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "voodoo-castle",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "voodoo-castle",
+    "raw_end": 67243,
+    "event_id": "voodoo-castle-5bd0b59cae:e00766",
+    "metadata": {
+     "notes": "Curse lifted after foot prerequisite (ON MAN thunder, foot worn e00755/e00758) then full book/page ritual; pins fall out, Count appears smiling, game declares over with engine_exited. Not death, quit, or chapter transition.",
+     "ending_quote": "YELL CHANT\nThere's a CLAP OF THUNDER!\nPins fall out of doll\nHURRAH! Look who is in the room!\nThe game is now over.\n\nI'm in a chapel\n\nObvious exits: North. South. East. West.\n\nI can also see:\n  Open Coffin\n  Smiling Count Cristo\n",
+     "evidence_event_ids": [
+      "voodoo-castle-5bd0b59cae:e00763"
+     ]
+    },
+    "response": "",
+    "branch_id": "b2",
+    "raw_start": 67243,
+    "timestamp": "2026-09-25T03:27:48.555514+00:00",
+    "event_type": "ending_claim",
+    "session_id": "voodoo-castle-5bd0b59cae",
+    "event_index": 766,
+    "engine_state": "unchanged",
+    "story_sha256": "ded986066675bfcc04dded6f6ffbd8e21f939b71fdd91f583e7e30a6d94fe3db",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "voodoo-castle",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Voodoo Castle progress (b2) \u2014 COMPLETED WIN, engine_exited\n\nLocation: Chapel, Open Coffin + Smiling Count Cristo, e00763. Engine engine_exited. Branch b2.\nWin chain: PUT FOOT e00754 On what? -> ON MAN e00755 OK + CLAP OF THUNDER (verifies supervisor provisional guidance) -> INV e00757 foot gone -> LOOK COFFIN e00758 He's wearing a rabbit's foot -> CIRCLE COFFIN e00759 thunder/dark idol light -> WAVE STICK e00760 thunder + encAntAtions peAk -> WAVE IDOL e00761 OK -> WAVE DOLL e00762 OK -> YELL CHANT e00763 thunder, Pins fall out, HURRAH! Look who is in room! game over, Smiling Count Cristo.\nInventory at win (e00757): knife, glowing idol, clover, pot, Ju-Ju bag, shovel, nails, doll, hammer, SAW, paper, stick, grating (foot consumed).\nCheckpoints: SAVE unsupported throughout; no usable checkpoints. No restore needed after foot success.\nAnnotations banked this segment: a0007 syntax PUT FOOT ON MAN single-line vs two-step ON MAN; a0008 world_state YELL CHANT without/with foot. Prior banked b0 ~40 + 28 + SHAKE->WAVE etc per previous progress.\nUnresolved old probes remain as history but game is over; do not issue further game commands (engine_exited).\nNext: finish with e00763 evidence.\n"
+  },
+  {
+   "game_id": "voodoo-castle",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Collection notes\n\nLocal adv04.dat startup credits Alexis Adams and names VOODOO CASTLE, Adventure4. It belongs to the Scott Adams-format collection; do not misattribute startup authorship. Guide VOODOO release compatibility is not assumed. Seek the actual curse-lifting conclusion, not an intermediate score.\n\nCollect varied synthetic command mistakes with explicit intent and actual failed/recovery responses. All labels start unreviewed. Ask for small walkthrough excerpts only as needed. Never read the full guide outside the broker or publish/train on this material. Preserve checkpoints and evidence.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "voodoo-castle-5bd0b59cae:e00001",

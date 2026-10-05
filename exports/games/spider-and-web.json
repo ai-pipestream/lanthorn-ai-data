@@ -9,6 +9,106 @@
   "spider-and-web"
  ],
  "fleet_states": [],
+ "files": [
+  {
+   "game_id": "spider-and-web",
+   "name": "manifest.json",
+   "content": {
+    "story": "/home/krickert/if-games/zcode/Tangle.z5",
+    "title": "Spider and Web",
+    "engine": "zvm-cli",
+    "serial": "980226",
+    "game_id": "spider-and-web",
+    "release": 4,
+    "completion": "Require actual author-intended final narrative and independent raw-output verification. Death, quitting, chapters, partial scores and model claims are insufficient. GuideR4/980226; interrogation transitions and rewinds are not endings. Require actual concluding escape outcome.",
+    "session_id": "spider-and-web-e5197766e3",
+    "started_at": "2026-09-25T03:53:17.046054+00:00",
+    "game_family": "spider-and-web",
+    "walkthrough": "/work/experiments/lanthorn-recall-training/control/spider-and-web-walkthrough.txt",
+    "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+    "dataset_split": "test",
+    "source_record": "/work/experiments/lanthorn-recall-training/sources/refill-20260925/spider-and-web.json",
+    "dataset_purpose": "Synthetic user-command test data, not a player-skill benchmark",
+    "walkthrough_url": "https://ifarchive.org/if-archive/solutions/tangle.sol",
+    "collection_notes": "# Spider and Web collection notes\n\nExact local header: R4/980226. GuideR4/980226; interrogation transitions and rewinds are not endings. Require actual concluding escape outcome. Guide source: https://ifarchive.org/if-archive/solutions/tangle.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n",
+    "zmachine_version": 5,
+    "checkpoint_policy": "Only at confirmed ordinary command prompts. Verify save success.",
+    "story_sha256_expected": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+    "response_timeout_seconds": 180
+   },
+   "text": null
+  },
+  {
+   "game_id": "spider-and-web",
+   "name": "latest.json",
+   "content": {
+    "command": null,
+    "game_id": "spider-and-web",
+    "raw_end": 148720,
+    "event_id": "spider-and-web-e5197766e3:e00801",
+    "metadata": {
+     "notes": "Genuine winning escape, not death/quitting/chapter: after stealing the lab research papers, restoring the logic plate, and activating the teleporter from inside the sealed cage, the pulse fires as guards breach the door \u2014 'the papers in your hand' plus banner 'You have made a difference' (vs death banner 'You have failed'). Walkthrough labels this the 'best' ending. No score; conclusion is the escape narrative itself.",
+     "ending_quote": "Then the world vanishes. Blackness slaps into you with a silent snap.\n\n\n    *** You have made a difference ***",
+     "evidence_event_ids": [
+      "spider-and-web-e5197766e3:e00781"
+     ]
+    },
+    "response": "",
+    "branch_id": "b20",
+    "raw_start": 148720,
+    "timestamp": "2026-09-25T05:18:52.450662+00:00",
+    "event_type": "ending_claim",
+    "session_id": "spider-and-web-e5197766e3",
+    "event_index": 801,
+    "engine_state": "unchanged",
+    "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "spider-and-web",
+   "name": "ending-claim.json",
+   "content": {
+    "command": null,
+    "game_id": "spider-and-web",
+    "raw_end": 148720,
+    "event_id": "spider-and-web-e5197766e3:e00801",
+    "metadata": {
+     "notes": "Genuine winning escape, not death/quitting/chapter: after stealing the lab research papers, restoring the logic plate, and activating the teleporter from inside the sealed cage, the pulse fires as guards breach the door \u2014 'the papers in your hand' plus banner 'You have made a difference' (vs death banner 'You have failed'). Walkthrough labels this the 'best' ending. No score; conclusion is the escape narrative itself.",
+     "ending_quote": "Then the world vanishes. Blackness slaps into you with a silent snap.\n\n\n    *** You have made a difference ***",
+     "evidence_event_ids": [
+      "spider-and-web-e5197766e3:e00781"
+     ]
+    },
+    "response": "",
+    "branch_id": "b20",
+    "raw_start": 148720,
+    "timestamp": "2026-09-25T05:18:52.450662+00:00",
+    "event_type": "ending_claim",
+    "session_id": "spider-and-web-e5197766e3",
+    "event_index": 801,
+    "engine_state": "unchanged",
+    "story_sha256": "dd5b510fb04daaa2fa9a40fc94414eee3719a72e274c77288b41629e32470817",
+    "review_status": "unreviewed",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "text": null
+  },
+  {
+   "game_id": "spider-and-web",
+   "name": "progress.md",
+   "content": null,
+   "text": "# Spider and Web \u2014 COMPLETE (best ending, b19 e781)\n\n## Final state\n- WINNING ENDING reached on branch b19, event e781: teleporter escape from the lab with the research papers as guards blast in. Banner: `*** You have made a difference ***` (distinct from death banner `*** You have failed ***`). Walkthrough calls this the \"best\" ending.\n- Finish filed with evidence e781 + exact ending quote. Post-ending probe branch b20 (restored `papers`) used only for 3 extra repair cases; ending evidence on b19 untouched.\n- 23 annotated repair cases total (target 20-40): 9 pre-existing + 3 new lab cases (b18 typo-console, web-ambiguity; b19 cupboard-syn) + 8 early-game backlog (alley-door-syn1, alley-plate-syn2, hole-examine-syn6, hanging-up-syn8, lab-listen-syn9, annex-listen-syn11, annex-north-syn12, chair-sit-syn) + 3 b20 lab probes (button-ambiguity, typo-display, open-bare).\n- Not annotated (no clean intent-preserving correction found): lab-open-syn10, lab-plate-touch (early visit; solution came much later cross-branch), office-cabinet-syn (locked, never opened), segment-3 shorthand backlog (timer/voice/blip/Diagonal/tango-acid/guard-vent-gun) \u2014 skipped to avoid mislabeled pairs; inventory of probes preserved in events.\n\n## Segment 4 route (b16 e709 \u2192 b19 e781)\n- SE \u2192 Sharp Corner (3 guards standing, 3 down). Walkthrough's early-lab \"Listen/Again\" excerpt does NOT apply here: listen (e714) and shoot-guards (e718) both die (\"Hesitating when surrounded\"). Correct move: N immediately (e723 Lab Junction), NW (e724 Outside Laboratory).\n- X door (standard plate) \u2192 put rod on plate \u2192 wait x3 (guards debate, grenade talk) \u2192 door opens \u2192 get rod + W \u2192 Laboratory, door booms shut (e733). Checkpoint in-lab.\n- Lab has ~6-turn guard break-in timer (e744 death). Guard-delay per walkthrough 301-302: Open panel, Shoot layer (subcircuitry sparks, door jammed).\n- Search table \u2192 Get papers + logic plate \u2192 Read papers \u2192 checkpoint papers.\n- Take-with-you (\"best\") ending: Open cabinet (cupboard rejected) \u2192 Put plate in cabinet \u2192 Close cabinet \u2192 X console \u2192 Push upper (Ready) \u2192 X display \u2192 Push oval (destination scrambled) \u2192 Open flap \u2192 checkpoint takeit \u2192 Push lower (pulse in 5) \u2192 Enter platform \u2192 Close flap (pulse in 3) \u2192 Read papers (pulse in 2) \u2192 checkpoint end1 \u2192 Wait (pulse in 1) \u2192 G \u2192 escape pulse, ending.\n- Checkpoints: sharp-corner, outside-lab, in-lab, papers, takeit, end1 (+ all prior).\n\n## Inventory at end (observed)\n- Carrying: papers stack, gun, lockpick, pen, scan scrambler+timer, key/voice transmitters, minilamp, toggle, pushbutton, toolcase, radio module. Logic plate installed in cabinet. Package/acid left spent in duct/chair history.\n"
+  },
+  {
+   "game_id": "spider-and-web",
+   "name": "collection-notes.md",
+   "content": null,
+   "text": "# Spider and Web collection notes\n\nExact local header: R4/980226. GuideR4/980226; interrogation transitions and rewinds are not endings. Require actual concluding escape outcome. Guide source: https://ifarchive.org/if-archive/solutions/tangle.sol. Preserve differences; hints are not observed success.\n\nUse prompts/fullplay.md protocol. Read startup output and respond to any yes/no or keypause before SAVE. Avoid optional help/file menus; request small broker excerpts. Empty command is Return; literal space is a different key. Never use keys to flush a timeout. Save early and at milestones at ordinary command prompts only. Collect varied labeled synthetic mistakes and real intent-preserving recoveries, not repeated quota filler. No training/publication.\n"
+  }
+ ],
  "events": [
   {
    "event_id": "spider-and-web-e5197766e3:e00001",
